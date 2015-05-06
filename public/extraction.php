@@ -10,10 +10,10 @@
 		<thead>
 			<tr>
 				<th width="24%"></th>
-				<th width="19%"><a href="individual-results.php">Cermine</a></th>
-				<th width="19%"><a href="individual-results.php">CiteSeer</a></th>
-				<th width="19%"><a href="individual-results.php">CrossRef</a></th>
-				<th width="19%"><a href="individual-results.php">ParsCit</a></th>
+				<th width="19%"><a href="individual.php">Cermine</a></th>
+				<th width="19%"><a href="individual.php">CiteSeer</a></th>
+				<th width="19%"><a href="individual.php">CrossRef</a></th>
+				<th width="19%"><a href="individual.php">ParsCit</a></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -26,13 +26,6 @@
 				<td><?php echo number_format(rand(9400, 10000)/100, 2) ?>%</td>
 			</tr>
 		<?php endforeach; ?>
-			<!-- <tr>
-				<td></td>
-				<td><a href="individual-results.php" class="">Individual results</a></td>
-				<td><a href="individual-results.php" class="">Individual results</a></td>
-				<td><a href="individual-results.php" class="">Individual results</a></td>
-				<td><a href="individual-results.php" class="">Individual results</a></td>
-			</tr> -->
 		</tbody>
 	</table>
 	<table class="table table-bordered table-result font-lg">

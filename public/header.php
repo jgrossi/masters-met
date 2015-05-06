@@ -24,10 +24,10 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.php">New Extraction <span class="sr-only">(current)</span></a></li>
+				<li class=""><a href="index.php">Previous Extractions</a></li>
+				<li class="active"><a href="extract.php">New Extraction <span class="sr-only">(current)</span></a></li>
 				<!-- <li class=""><a href="new-collection.php">New Collection</a></li> -->
-				<li class=""><a href="results.php">Previous Extractions</a></li>
-				<li class=""><a href="result.php">Last Extraction</a></li>
+				<li class=""><a href="extraction.php">Last Extraction</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->

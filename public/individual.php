@@ -3,7 +3,7 @@
 <div class="container box box-result">
 	<h2>Individual Results for <span class="text-muted">Cermine</span></h2>
 	<p class="lead text-center">
-		<a href="result.php"><?php echo uniqid() ?></a><br>
+		<a href="extraction.php"><?php echo uniqid() ?></a><br>
 		<span class="text-muted">Masters Collection #1</span>
 	</p>
 	<table class="table table-bordered table-striped table-result table-individual">

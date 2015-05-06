@@ -41,7 +41,7 @@
 			<button class="btn btn-info btn-lg pull-right btn-just-save" disabled="disabled">Save</button>
 		</div>
 		<div class="text-center">
-			<a href="index.php">Go back to collections list</a>
+			<a href="extract.php">Go back to collections list</a>
 		</div>
 	</form>
 </div>
