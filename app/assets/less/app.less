@@ -1,0 +1,176 @@
+@import '../bootstrap/less/bootstrap.less';
+
+.display-none {
+	display: none;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.btn {
+	&.btn-outline {
+		background: #FFFFFF;
+		&.btn-primary {
+			color: @brand-primary;
+		}
+		&.btn-success {
+			color: @brand-success;
+		}
+		&.btn-info {
+			color: @brand-info;
+		}
+		&.btn-warning {
+			color: @brand-warning;
+		}
+		&.btn-danger {
+			color: @brand-danger;
+		}
+	}
+}
+
+.btn-half {
+	width: 49%;
+}
+
+.btn-extract-now {
+	width: 63%;
+}
+
+.btn-just-save {
+	width: 35%;
+}
+
+body {
+	padding-bottom: 80px;
+	padding-top: 60px;//70px;
+}
+
+.box {
+	margin-top: 20px;
+	h2 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
+.table-last-results {
+	th.no-border {
+		border-top: 1px solid #fff !important;
+		border-left: 1px solid #fff !important;
+	}
+	td {
+		&.text-success {
+			color: @brand-success;
+		}
+		&.text-warning {
+			color: lighten(@brand-warning, 10%);
+		}
+		&.text-danger {
+			color: @brand-danger;
+		}
+	}
+}
+
+.table-result {
+	td.metadata {
+		font-weight: bold;
+	}
+	&.font-lg {
+		td {
+			// font-size: 16px;
+		}
+	}
+	span.index {
+		font-weight: bold;
+	}
+}
+
+.box-start {
+	width: 450px;
+	max-width: 450px;
+}
+
+.box-result {
+	max-width: 800px;
+}
+
+.box-individual-results {
+	max-width: 750px;
+}
+
+.box-results {
+	max-width: 850px;
+}
+
+.box-new-collection {
+	width: 400px;
+	max-width: 500px;
+}
+
+form#selection {
+	// margin-top: 30px;
+	// padding-bottom: 0;
+	max-width: 330px;
+	margin: 0 auto;
+}
+
+form#new-collection {
+	.form-control {
+		// margin-bottom: 15px;
+	}
+}
+
+.btn.btn-new-collection {
+	// float: right;
+	// width: 49%;
+}
+
+.btn.btn-extract {
+	// float: left;
+	width: 63%;
+}
+
+.btn-del-collection {
+	width: 35%;
+}
+
+.btn.btn-select-csv {
+	// float: left;
+	// width: 49%;
+}
+
+.btn.btn-upload-papers {
+	// float: right;
+	// width: 49%;
+}
+
+.progress.progress-papers {
+	// height: 30px;
+	// margin-bottom: 10px;
+	.progress-bar {
+		// line-height: 30px;
+		// font-size: 14px;
+	}
+}
+
+.progress-feedback {
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	// background: #f5f5f5;
+	border-top: 1px solid #ddd;
+	padding: 10px 25px;
+	background: #fff;
+}
+
+.loading-percent {
+	text-align: center;
+	font-size: 40px;
+}
