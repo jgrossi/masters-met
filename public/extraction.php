@@ -10,10 +10,10 @@
 		<thead>
 			<tr>
 				<th width="24%"></th>
-				<th width="19%"><a href="individual.php">Cermine</a></th>
-				<th width="19%"><a href="individual.php">CiteSeer</a></th>
-				<th width="19%"><a href="individual.php">CrossRef</a></th>
-				<th width="19%"><a href="individual.php">ParsCit</a></th>
+				<th width="19%"><a href="individual.php">+ Cermine</a></th>
+				<th width="19%"><a href="individual.php">+ CiteSeer</a></th>
+				<th width="19%"><a href="individual.php">+ CrossRef</a></th>
+				<th width="19%"><a href="individual.php">+ ParsCit</a></th>
 			</tr>
 		</thead>
 		<tbody>
