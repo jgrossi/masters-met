@@ -35,6 +35,8 @@
 		<?php endforeach; ?>
 		</tbody>
 	</table>
+	<hr>
+	<p class="text-muted text-left">Showing only last 20 extractions.</p>
 </div>
 
 <?php include 'footer.php' ?>

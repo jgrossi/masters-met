@@ -91,6 +91,38 @@ body {
 	max-width: 450px;
 }
 
+.box-loading {
+	width: 450px;
+	// min-height: 68px;
+	max-width: 450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -225px;
+	h2, p {
+		// text-align: left;
+	}
+	h2 {
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+	p.lead {
+		margin-top: 20px;
+		margin-bottom: 15px;
+		color: @brand-primary;
+		span {
+			color: darken(@brand-primary, 20%);
+		}
+	}
+	.loader {
+	}
+}
+
+.box-collections {
+	width: 670px;
+	max-width: 670px;
+}
+
 .box-result {
 	max-width: 800px;
 }
@@ -128,11 +160,11 @@ form#new-collection {
 
 .btn.btn-extract {
 	// float: left;
-	width: 63%;
+	// width: 63%;
 }
 
 .btn-del-collection {
-	width: 35%;
+	// width: 35%;
 }
 
 .btn.btn-select-csv {

@@ -16,8 +16,7 @@
 				<strong>Collection:</strong> CSV file with metadata manually extracted + papers files in PDF format.
 			</p>
 			<hr>
-			<button type="submit" class="btn btn-primary btn-lg btn-extract">Extract Metadata</button>
-			<button type="submit" class="btn btn-warning btn-lg btn-del-collection pull-right">Delete</button>
+			<a href="loading.php" type="submit" class="btn btn-primary btn-lg btn-block btn-extract">Extract Metadata</a>
 		</div>
 	</form>
 	<div class="text-center">
