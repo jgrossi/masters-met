@@ -1,4 +1,5 @@
 @import '../bootstrap/less/bootstrap.less';
+@import '../font-awesome/font-awesome.less';
 
 .display-none {
 	display: none;
@@ -61,14 +62,39 @@ body {
 	}
 	td {
 		&.text-success {
-			color: @brand-success;
+			// color: @brand-success;
 		}
 		&.text-warning {
-			color: lighten(@brand-warning, 10%);
+			// color: @brand-warning;
 		}
 		&.text-danger {
-			color: @brand-danger;
+			// color: @brand-danger;
 		}
+	}
+	tr {
+		&.running {
+			td {
+				// font-weight: bold;
+				color: #777;
+				background: lighten(@brand-info, 30%);
+			}
+		}
+	}
+}
+
+.btn-last-extraction-top {
+	// color: #fff !important;
+	// background: lighten(@brand-info, 30%);
+	// &:hover {
+		// background: darken(@brand-info, 10%) !important;
+	// }
+}
+
+.btn-new-extraction-top {
+	color: #fff !important;
+	background: @brand-success;
+	&:hover {
+		background: darken(@brand-success, 10%) !important;
 	}
 }
 

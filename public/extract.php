@@ -12,10 +12,10 @@
 			</select>
 		</div>
 		<div class="form-group">
-			<p class="text-center text-muted">
+			<!-- <p class="text-center text-muted">
 				<strong>Collection:</strong> CSV file with metadata manually extracted + papers files in PDF format.
-			</p>
-			<hr>
+			</p> -->
+			<!-- <hr> -->
 			<a href="loading.php" type="submit" class="btn btn-primary btn-lg btn-block btn-extract">Extract Metadata</a>
 		</div>
 	</form>

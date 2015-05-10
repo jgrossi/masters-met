@@ -3,7 +3,7 @@
 <div class="container box box-result">
 	<h2>Metadata Extraction Results</h2>
 	<p class="lead text-center">
-		<?php echo uniqid() ?> <br>
+		Extraction #128<br>
 		<span class="text-muted">Masters Collection #1</span>
 	</p>
 	<table class="table table-bordered table-result table-striped">
@@ -17,7 +17,7 @@
 			</tr>
 		</thead>
 		<tbody>
-		<?php foreach(['Title', 'Authores', 'E-mails', 'Abstract', 'References'] as $metadata): ?>
+		<?php foreach(['Title', 'Authors', 'E-mails', 'Abstract', 'References'] as $metadata): ?>
 			<tr>
 				<td class="metadata"><?php echo $metadata ?></td>
 				<td><?php echo number_format(rand(9400, 10000)/100, 2) ?>%</td>
@@ -28,24 +28,35 @@
 		<?php endforeach; ?>
 		</tbody>
 	</table>
-	<table class="table table-bordered table-result font-lg">
-		<tr class="active">
+	<table class="table table-bordered table-striped table-result font-lg">
+		<tr class="">
 			<td width="24%" class="metadata">Confiability Index</td>
 			<td width="19%">
 				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
+			</td>
+			<td width="19%">
+				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
+			</td>
+			<td width="19%">
+				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
+			</td>
+			<td width="19%">
+				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
+			</td>
+		</tr>
+		<tr class="">
+			<td width="24%" class="metadata">Classification</td>
+			<td width="19%">
 				<span class="label label-success">Accurate</span>
 			</td>
 			<td width="19%">
-				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
-				<span class="label label-warning">Satisfactory</span>
+				<span class="label label-info">Satisfactory</span>
 			</td>
 			<td width="19%">
-				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
-				<span class="label label-warning">Satisfactory</span>
+				<span class="label label-info">Satisfactory</span>
 			</td>
 			<td width="19%">
-				<span class="index"><?php echo number_format(rand(9400, 10000)/100, 2) ?></span>
-				<span class="label label-danger">Unsatisfying</span>
+				<span class="label label-danger">Unsatisfactory</span>
 			</td>
 		</tr>
 	</table>

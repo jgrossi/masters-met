@@ -26,7 +26,7 @@
 					<td><?php echo date('Y-m-d H:i:s') ?></td>
 					<td class="text-center">
 						<a href="#" class="text-danger">
-							<span class="glyphicon glyphicon-trash"></span>
+							<i class="fa fa-remove"></i>
 						</a>
 					</td>
 				</tr>

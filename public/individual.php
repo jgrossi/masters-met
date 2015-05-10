@@ -3,12 +3,10 @@
 <div class="container box box-result">
 	<h2>Individual Results for <span class="text-muted">Cermine</span></h2>
 	<p class="lead text-center">
-		<a href="extraction.php"><?php echo uniqid() ?></a><br>
-		<span class="text-muted">Masters Collection #1</span>
+		<a href="extraction.php">Extraction #128</a><br>
+		<span class="text-muted">Masters Collection Number 1</span>
 	</p>
 	
-	<br>
-
 	<?php $areas = ['Computer Science', 'Biological', 'Music', 'Information Science', 'Civil Engineer', 'Sociology', 'Psicology', 'Another Area Name', 'Something Engineer', 'Medicine'] ?>
 	<?php $area = 0 ?>
 
@@ -21,7 +19,7 @@
 	<table class="table table-bordered table-striped table-result table-individual">
 		<thead>
 			<tr>
-				<th width="16.67%">Paper ID</th>
+				<th width="16.67%">Paper #</th>
 				<th width="16.67%">Title</th>
 				<th width="16.67%">Authors</th>
 				<th width="16.67%">E-mails</th>
@@ -35,7 +33,7 @@
 
 			<tr>
 				<td class="metadata">
-					<a href="#" data-toggle="popover" data-placement="right" title="Keyword Extraction from a Single Document using Word Co-occurrence Statistical Information" data-content="Yutaka Matsuo and Mitsuru Ishizuka and Yutaka Matsuo"><?php echo rand(148, 823) ?></a>
+					<a href="javascript:void(0)" data-toggle="popover" data-placement="right" title="Keyword Extraction from a Single Document using Word Co-occurrence Statistical Information" data-content="Yutaka Matsuo and Mitsuru Ishizuka and Yutaka Matsuo">+ <?php echo rand(48, 823) ?></a>
 				</td>
 				<td><?php echo number_format(rand(9400, 10000)/100, 2) ?>%</td>
 				<td><?php echo number_format(rand(9400, 10000)/100, 2) ?>%</td>
