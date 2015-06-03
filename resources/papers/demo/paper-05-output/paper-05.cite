@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>R Baumgartner</author>
+<author>S Flesca</author>
+<author>G Gottlob</author>
+</authors>
+<title>Visual web information extraction with lixto.</title>
+<date>2001</date>
+<booktitle>In The VLDB Journal,</booktitle>
+<pages>119--128</pages>
+<contexts>
+<context citStr="[1]" endWordPosition="91" position="687" startWordPosition="91">se and Artificial Intelligence Group Vienna University of Technology Favoritenstraße 9-11, A-1040 Wien, Austria hassan@dbai.tuwien.ac.at Robert Baumgartner Database and Artificial Intelligence Group Vienna University of Technology Favoritenstraße 9-11, A-1040 Wien, Austria baumgart@dbai.tuwien.ac.at ABSTRACT Wrapping is the process of navigating a data source, semiautomatically extracting data and transforming it into a form suitable for data processing applications. There are currently a number of established products on the market for wrapping data from web pages. One such approach is Lixto [1], a product of research performed at our institute. Our work is concerned with extending the wrapping functionality of Lixto to PDF documents. As the PDF format is relatively unstructured, this is a challenging task. We have developed a method to segment the page into blocks, which are represented as nodes in a relational graph. This paper describes our current research in the use of relational matching techniques on this graph to locate wrapping instances. Categories and Subject Descriptors: I.7.5 [Document and Text Processing]: Document Capture—document analysis; H.3.3 [Information Systems]:</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>R. Baumgartner, S. Flesca, and G. Gottlob. Visual web information extraction with lixto. In The VLDB Journal, pages 119–128, 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W J Christmas</author>
+<author>J Kittler</author>
+<author>M Petrou</author>
+</authors>
+<title>Structural matching in computer vision using probabilistic relaxation.</title>
+<date>1995</date>
+<journal>IEEE Tran. on Pattern Anal. and Mach. Intel.,</journal>
+<volume>17</volume>
+<issue>8</issue>
+<marker>[2]</marker>
+<rawString>W. J. Christmas, J. Kittler, and M. Petrou. Structural matching in computer vision using probabilistic relaxation. IEEE Tran. on Pattern Anal. and Mach. Intel., 17(8):749–764, Aug. 1995.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Llados</author>
+<author>E Marti</author>
+<author>J J Villanueva</author>
+</authors>
+<title>Symbol recognition by error-tolerant subgraph matching between region adjacency graphs.</title>
+<date>2001</date>
+<journal>IEEE Tran. on Pattern Anal. and Mach. Intel.,</journal>
+<volume>23</volume>
+<issue>10</issue>
+<marker>[3]</marker>
+<rawString>J. Llados, E. Marti, and J. J. Villanueva. Symbol recognition by error-tolerant subgraph matching between region adjacency graphs. IEEE Tran. on Pattern Anal. and Mach. Intel., 23(10):1137–1143, Oct. 2001.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

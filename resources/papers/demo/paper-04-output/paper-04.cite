@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>M Aiello</author>
+<author>C Monz</author>
+<author>L Todoran</author>
+<author>M Worring</author>
+</authors>
+<title>Document understanding for a broad class of documents.</title>
+<date>2002</date>
+<journal>Intl. Journal on Document Analysis and Recognition,</journal>
+<volume>5</volume>
+<issue>1</issue>
+<contexts>
+<context citStr="[1, 2]" endWordPosition="654" position="4205" startWordPosition="653"> code more or less represents the under1Lixto, http://www.lixto.com 2A test version of the current prototype can be downloaded from: http://www.tamirhassan.com/graphwrap.html 2009 10th International Conference on Document Analysis and Recognition 978-0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usabil</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>M. Aiello, C. Monz, L. Todoran, and M. Worring. Document understanding for a broad class of documents. Intl. Journal on Document Analysis and Recognition, 5(1):1–16, 2002.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Altamura</author>
+<author>F Esposito</author>
+<author>D Malerba</author>
+</authors>
+<title>Transforming paper documents into xml format with wisdom++.</title>
+<date>2001</date>
+<journal>Intl. J. of Document Analysis and Recognition,</journal>
+<volume>4</volume>
+<issue>1</issue>
+<contexts>
+<context citStr="[1, 2]" endWordPosition="654" position="4205" startWordPosition="653"> code more or less represents the under1Lixto, http://www.lixto.com 2A test version of the current prototype can be downloaded from: http://www.tamirhassan.com/graphwrap.html 2009 10th International Conference on Document Analysis and Recognition 978-0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usabil</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>O. Altamura, F. Esposito, and D. Malerba. Transforming paper documents into xml format with wisdom++. Intl. J. of Document Analysis and Recognition, 4(1):2–17, 8 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Anjewierden</author>
+</authors>
+<title>Aidas: incremental logical structure discovery in pdf documents.</title>
+<date>2001</date>
+<booktitle>In ICDAR 2001, Proc.,</booktitle>
+<contexts>
+<context citStr="[4, 6, 3]" endWordPosition="670" position="4311" startWordPosition="668">otype can be downloaded from: http://www.tamirhassan.com/graphwrap.html 2009 10th International Conference on Document Analysis and Recognition 978-0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usability and faster definition and maintenance of wrappers compared to their method, at the possible expense of</context>
+</contexts>
+<marker>[3]</marker>
+<rawString>A. Anjewierden. Aidas: incremental logical structure discovery in pdf documents. In ICDAR 2001, Proc., 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Chao</author>
+<author>J Fan</author>
+</authors>
+<title>Layout and content extraction for pdf documents.</title>
+<date>2004</date>
+<journal>Doc. Anal. Sys. VI,</journal>
+<volume>3163</volume>
+<contexts>
+<context citStr="[4, 6, 3]" endWordPosition="670" position="4311" startWordPosition="668">otype can be downloaded from: http://www.tamirhassan.com/graphwrap.html 2009 10th International Conference on Document Analysis and Recognition 978-0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usability and faster definition and maintenance of wrappers compared to their method, at the possible expense of</context>
+</contexts>
+<marker>[4]</marker>
+<rawString>H. Chao and J. Fan. Layout and content extraction for pdf documents. Doc. Anal. Sys. VI, 3163/2004:213–224, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Flesca</author>
+<author>S Garruzzo</author>
+<author>E Masciari</author>
+<author>A Tagarelli</author>
+</authors>
+<title>Wrapping pdf documents exploiting uncertain knowledge.</title>
+<date>2006</date>
+<booktitle>In CAiSE 2006, Proceedings,</booktitle>
+<pages>175--189</pages>
+<contexts>
+<context citStr="[5]" endWordPosition="695" position="4453" startWordPosition="695">0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usability and faster definition and maintenance of wrappers compared to their method, at the possible expense of expressiveness. We have also worked on employing document understanding methods in the conversion of PDF files into HTML format, so that they</context>
+</contexts>
+<marker>[5]</marker>
+<rawString>S. Flesca, S. Garruzzo, E. Masciari, and A. Tagarelli. Wrapping pdf documents exploiting uncertain knowledge. In CAiSE 2006, Proceedings, pages 175–189, 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Hadjar</author>
+<author>M Rigamonti</author>
+<author>D Lalanne</author>
+<author>R Ingold</author>
+</authors>
+<title>Xed: a new tool for extracting hidden structures from electronic documents.</title>
+<date>2004</date>
+<booktitle>In DIAL, 2004. Proceedings,</booktitle>
+<contexts>
+<context citStr="[4, 6, 3]" endWordPosition="670" position="4311" startWordPosition="668">otype can be downloaded from: http://www.tamirhassan.com/graphwrap.html 2009 10th International Conference on Document Analysis and Recognition 978-0-7695-3725-2/09 $25.00 © 2009 IEEE DOI 10.1109/ICDAR.2009.238 631 Figure 1. Designing a wrapper using the graphical user interface lying logical structure of the document. In PDF, there is no such explicit structure.3 There is much literature on document understanding, which aims to rediscover this logical information from e.g. scanned documents [1, 2]. There is comparatively little literature which deals specifically with PDF files; examples are [4, 6, 3]. Some of these techniques are used in the generation of our graph representation from the PDF source. 2.3 Wrapping from PDF Flesca et al. [5] have also addressed the issue of wrapping PDF files, although they use a somewhat more complicated representation of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usability and faster definition and maintenance of wrappers compared to their method, at the possible expense of</context>
+</contexts>
+<marker>[6]</marker>
+<rawString>K. Hadjar, M. Rigamonti, D. Lalanne, and R. Ingold. Xed: a new tool for extracting hidden structures from electronic documents. In DIAL, 2004. Proceedings, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Hassan</author>
+<author>R Baumgartner</author>
+</authors>
+<title>Using graph matching techniques to wrap data from pdf documents.</title>
+<date>2006</date>
+<booktitle>In 15th Intl. Conf. on WWW (Poster track), Proceedings,</booktitle>
+<pages>901--902</pages>
+<contexts>
+<context citStr="[7]" endWordPosition="441" position="2800" startWordPosition="441">uch as Lixto1, a product of research at our institute. These approaches are successful because the HTML format has an inherent structure. However, as an increasing number of business-critical documents, such as financial reports, price lists and technical specifications, are being distributed in PDF format, there is an increasing need to also wrap data from PDF documents. In this paper, we present an interactive graph-based approach for wrapping from PDF, which is now at a prototype stage2. The idea of using graph matching to locate data instances on PDF files was originally proposed by us in [7]. 2. Related work 2.1 Wrapping The success of the Lixto Visual Wrapper provided the motivation to work on extending its capability to PDF files. The Lixto VW is an interactive tool which allows a nonexpert user to create wrapper programs in a predominantly visual and interactive fashion by clicking on example instances on a visual rendition of the web page. In the background, the software locates the data using the HTML parse tree. The user can then fine-tune the selected data by adding or removing logical conditions. The system then generates a wrapper program to automatically extract this da</context>
+<context citStr="[7]" endWordPosition="872" position="5583" startWordPosition="872">ing methods in the conversion of PDF files into HTML format, so that they can be wrapped using conventional methods. In particular, we have developed algorithms for table recognition [8]. However, these methods have their 3PDF 1.4 and above support the addition of logical structure tags in the document, but the vast majority of documents encountered on the Web contain no or insufficient logical structure information for wrapping. limitations as they are reliant on an almost perfect understanding of the page. Additionally, wrapping from irregular tabular structures, such as the example used in [7], is not possible at all. Therefore, we have developed a graph-based approach, which offers increased robustness. 3. From PDF to graph We use the PDFBox4 library to read in the PDF file and return the visual data as a set of text and graphic objects. PDFBox returns these blocks in the same way as they have been written to the PDF file; text is usually returned in blocks of 2–3 characters in the same order as it was written to the file. The first step is to merge these blocks into complete lines of text, and a set of heuristics achieves this. The next stage is segmentation; merging of these lin</context>
+</contexts>
+<marker>[7]</marker>
+<rawString>T. Hassan and R. Baumgartner. Using graph matching techniques to wrap data from pdf documents. In 15th Intl. Conf. on WWW (Poster track), Proceedings, pages 901–902, 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Hassan</author>
+<author>R Baumgartner</author>
+</authors>
+<title>Table recognition and understanding from pdf files.</title>
+<date>2007</date>
+<booktitle>In ICDAR 2007, Proc.,</booktitle>
+<contexts>
+<context citStr="[8]" endWordPosition="807" position="5166" startWordPosition="807">tion of a wrapper; their approach is based on hierarchically organized groups defined by fuzzy-logic constraints. As our graph structure is very similar to the physical layout of the document, we believe our approach to offer increased usability and faster definition and maintenance of wrappers compared to their method, at the possible expense of expressiveness. We have also worked on employing document understanding methods in the conversion of PDF files into HTML format, so that they can be wrapped using conventional methods. In particular, we have developed algorithms for table recognition [8]. However, these methods have their 3PDF 1.4 and above support the addition of logical structure tags in the document, but the vast majority of documents encountered on the Web contain no or insufficient logical structure information for wrapping. limitations as they are reliant on an almost perfect understanding of the page. Additionally, wrapping from irregular tabular structures, such as the example used in [7], is not possible at all. Therefore, we have developed a graph-based approach, which offers increased robustness. 3. From PDF to graph We use the PDFBox4 library to read in the PDF fi</context>
+<context citStr="[8]" endWordPosition="1160" position="7257" startWordPosition="1160">ibuted relational graph. Initially, the graph is built with just the adjacency relation being present, which links all blocks to their 4PDFBox, http://www.pdfbox.org 632 neighbours (4-neighbourhood). Our document understanding process then annotates these edges with other geometric properties, such as alignment; and logical relations, such as reading order and superiority (which, for example, relates a title to its body text). An example of such a graph can be seen in the screenshot of the GUI (Fig. 1). More information on the segmentation and graph generation process is given in Section 4 of [8]. 4. Wrapper specification The wrapper specification procedure is carried out using the graphical user interface (Fig. 1), which displays the a bitmap rendition of the document and its corresponding interactive graph side-by-side. Additionally, nodes and edges can be overlaid on the bitmap image using methods from the XMIllum framework5. The user begins the process by selecting an example data record on the bitmap rendition of the page. The corresponding sub-graph is found and is displayed to the user using methods based on the TouchGraph6 library, which allow interactive navigation and manipu</context>
+</contexts>
+<marker>[8]</marker>
+<rawString>T. Hassan and R. Baumgartner. Table recognition and understanding from pdf files. In ICDAR 2007, Proc., 2007.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J R Ullmann</author>
+</authors>
+<title>An algorithm for subgraph isomorphism.</title>
+<date>1976</date>
+<journal>Journal of the ACM,</journal>
+<volume>23</volume>
+<issue>1</issue>
+<contexts>
+<context citStr="[9]" endWordPosition="1892" position="11585" startWordPosition="1892">e centres fall within the bounding box of the found instance are also passed on to the child wrappers. The final mode is whole page, in which child wrappers are matched on the entire page, but only those results are returned whose output nodes intersect the area of the parent result. In this way, it is possible to wrap a table by first matching the rows and then wrapping the individual columns, as the column headings are still accessible from the child wrapper. 5. The matching process In order to perform the graph matching, we use a method based on Ullmann’s algorithm for subgraph isomorphism [9], which consists of an enumeration of all possible combinations of nodes and a refinement procedure to prune unfruitful search paths early on in the process. As we are working on directed graphs, we use the directed version of the algorithm given in [9]. A major benefit of the algorithm is that it allows us to define, in the start matrix, which pairs of nodes, based on the conditions set in the wrapper, could a priori be matched together. As we also need to define conditions for edges as well as nodes, we represent each edge 633 Figure 2. Processing a wrapper with multiple-match edges as a spe</context>
+</contexts>
+<marker>[9]</marker>
+<rawString>J. R. Ullmann. An algorithm for subgraph isomorphism. Journal of the ACM, 23(1):31–42, January 1976.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

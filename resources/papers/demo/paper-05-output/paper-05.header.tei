@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Using Graph Matching Techniques to Wrap Data from PDF Documents *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Tamir</forename>
+								<surname>Hassan</surname>
+							</persName>
+							<email>hassan@dbai.tuwien.ac.at</email>
+							<affiliation>
+								<orgName key="dep1" type="department">Database and Artificial Intelligence Group</orgName>
+								<orgName key="dep2" type="department">Database and Artificial Intelligence Group</orgName>
+								<orgName type="institution">Vienna University of Technology</orgName>
+								<address>
+									<addrLine>Favoritenstraße 9-11</addrLine>
+									<postCode>A-1040</postCode>
+									<settlement>Wien</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Robert</forename>
+								<surname>Baumgartner</surname>
+							</persName>
+							<email>baumgart@dbai.tuwien.ac.at</email>
+							<affiliation>
+								<orgName type="institution">Vienna University of Technology</orgName>
+								<address>
+									<addrLine>Favoritenstraße 9-11</addrLine>
+									<postCode>A-1040</postCode>
+									<settlement>Wien</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Using Graph Matching Techniques to Wrap Data from PDF Documents *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>I75 [Document</term>
+					<term>and Text Processing]: Document Capture—document analysis ; H33 [Information Systems]: Information Search and</term>
+					<term>Retrieval</term>
+					<term>General Terms: Algorithms, Experimentation</term>
+					<term>Keywords: Wrapping, PDF, Document understanding,</term>
+					<term>Logical structure, Graph matching</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Wrapping is the process of navigating a data source, semi-automatically extracting data and transforming it into a form suitable for data processing applications. There are currently a number of established products on the market for wrapping data from web pages. One such approach is Lixto [1], a product of research performed at our institute. Our work is concerned with extending the wrapping func-tionality of Lixto to PDF documents. As the PDF format is relatively unstructured, this is a challenging task. We have developed a method to segment the page into blocks, which are represented as nodes in a relational graph. This paper describes our current research in the use of relational matching techniques on this graph to locate wrapping instances.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI>
