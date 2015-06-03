@@ -1,77 +1,57 @@
-<?php include 'header.php' ?>
+<?php
+/**
+ * Laravel - A PHP Framework For Web Artisans
+ *
+ * @package  Laravel
+ * @author   Taylor Otwell <taylorotwell@gmail.com>
+ */
 
-<div class="container box box-results">
-	<h2>Previous Metadata Extractions</h2>
-	<table class="table table-bordered table-result table-striped table-last-results">
-		<thead>
-			<tr>
-				<th width="72%" colspan="3" class="no-borde text-center"></th>
-				<th width="28%" colspan="4" class="text-center">Confiability Indexes</th>
-			</tr>
-			<tr>
-				<td class="metadata" width="17%" colspan="2">Extraction #</td>
-				<td class="metadata" width="37%">Collection</td>
-				<td class="metadata" width="18%">Date</td>
-				<td class="metadata tool" width="7%">C</td>
-				<td class="metadata tool" width="7%">CS</td>
-				<td class="metadata tool" width="7%">CR</td>
-				<td class="metadata tool" width="7%">PC</td>
-			</tr>
-		</thead>
-		<tbody>
-		<?php $collections = ['Masters Collection #1', 'Biological Collection #4', 'Universal Musical Collection', 'Civil Engineer Collection', 'Civil Engineer Collection #2', 'Civil Engineer Collection #3', 'Computer Science IEEE Collection'] ?>
-		<?php foreach(range(1,12) as $i => $metadata): ?>
-			<?php $rand = rand(0, count($collections)-1) ?>
-			<tr class="<?php echo $i == 0 ? '' : '' ?>">
-				<td class="metadata">
-					<?php if ($i == 0): ?>
-						<span class="label label-info">Running</span>
-					<?php elseif ($i == 4): ?>	
-						<span class="label label-danger">Failed</span>
-					<?php else: ?>
-						<a href="extraction.php">+ <?php echo rand(123,767) ?></a>
-					<?php endif ?>
-				</td>
-				<td class="text-center" width="5%">
-					<?php if ($i == 0): ?>
-						<i class="fa fa-spinner fa-spin text-info"></i>
-					<?php elseif ($i == 4): ?>	
-						<a href="#">
-							<span class="fa fa-question text-danger"></span>
-						</a>
-					<?php else: ?>
-						<i class="fa fa-check-circle-o text-success"></i>
-					<?php endif ?>
-				</td>
-				<td><?php echo $collections[$rand] ?></td>
-				<td class="text-muted"><?php echo date('Y-m-d H:i') ?></td>
-				<?php $classes = ['success', 'warning', 'danger'] ?>
-				<td class="bg-<?php echo $i > 0 ? $classes[rand(0,2)] : '' ?>">
-					<?php if ($i > 0): ?>
-						<?php echo number_format(rand(9400, 10000)/100, 2) ?>
-					<?php endif ?>
-				</td>
-				<td class="bg-<?php echo $i > 0 ? $classes[rand(0,2)] : '' ?>">
-					<?php if ($i > 0): ?>
-						<?php echo number_format(rand(9400, 10000)/100, 2) ?>
-					<?php endif ?>
-				</td>
-				<td class="bg-<?php echo $i > 0 ? $classes[rand(0,2)] : '' ?>">
-					<?php if ($i > 0): ?>
-						<?php echo number_format(rand(9400, 10000)/100, 2) ?>
-					<?php endif ?>
-				</td>
-				<td class="bg-<?php echo $i > 0 ? $classes[rand(0,2)] : '' ?>">
-					<?php if ($i > 0): ?>
-						<?php echo number_format(rand(9400, 10000)/100, 2) ?>
-					<?php endif ?>
-				</td>
-			</tr>
-		<?php endforeach; ?>
-		</tbody>
-	</table>
-	<!-- <hr> -->
-	<!-- <p class="text-muted text-left">Showing only last 20 extractions.</p> -->
-</div>
+/*
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+|
+| Composer provides a convenient, automatically generated class loader for
+| our application. We just need to utilize it! We'll simply require it
+| into the script here so that we don't have to worry about manual
+| loading any of our classes later on. It feels nice to relax.
+|
+*/
 
-<?php include 'footer.php' ?>
+require __DIR__.'/../bootstrap/autoload.php';
+
+/*
+|--------------------------------------------------------------------------
+| Turn On The Lights
+|--------------------------------------------------------------------------
+|
+| We need to illuminate PHP development, so let us turn on the lights.
+| This bootstraps the framework and gets it ready for use, then it
+| will load up this application so that we can run it and send
+| the responses back to the browser and delight our users.
+|
+*/
+
+$app = require_once __DIR__.'/../bootstrap/app.php';
+
+/*
+|--------------------------------------------------------------------------
+| Run The Application
+|--------------------------------------------------------------------------
+|
+| Once we have the application, we can handle the incoming request
+| through the kernel, and send the associated response back to
+| the client's browser allowing them to enjoy the creative
+| and wonderful application we have prepared for them.
+|
+*/
+
+$kernel = $app->make('Illuminate\Contracts\Http\Kernel');
+
+$response = $kernel->handle(
+	$request = Illuminate\Http\Request::capture()
+);
+
+$response->send();
+
+$kernel->terminate($request, $response);

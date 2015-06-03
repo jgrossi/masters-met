@@ -5,31 +5,25 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
 gulp.task('css', function() {
-	return gulp.src(['app/assets/less/app.less'])
+	return gulp.src(['resources/assets/less/app.less'])
 		.pipe(less())
 		.pipe(minifycss())
-		.pipe(concat('main.min.css'))
+		.pipe(concat('app.css'))
 		.pipe(gulp.dest('public/assets/'));
 });
 
 gulp.task('js', function() {
 	return gulp.src([
-			'app/assets/js/jquery.min.js',		
-			'app/assets/bootstrap/dist/js/bootstrap.min.js',
-			'app/assets/js/app.js'
+			'resources/assets/js/jquery.min.js',		
+			'resources/assets/bootstrap/dist/js/bootstrap.min.js',
+			'resources/assets/js/app.js'
 		])
 		.pipe(uglify())
-		.pipe(concat('main.min.js'))
+		.pipe(concat('app.js'))
 		.pipe(gulp.dest('public/assets/'));
 });
 
 gulp.task('default', function() {
-	gulp.run('css');
-	gulp.run('js');
-	gulp.watch('app/assets/**/*.less', function() {
-		gulp.run('css');
-	});
-	gulp.watch('app/assets/js/app.js', function() {
-		gulp.run('js');
-	});
+	gulp.watch('resources/assets/**/*.less', ['css']);
+	gulp.watch('resources/assets/js/app.js', ['js']);
 });
