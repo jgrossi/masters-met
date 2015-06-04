@@ -21,6 +21,11 @@
 					Upload JSON file <strong></strong>
 				</button>
 			</p>
+			<div class="progress">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+
+                </div>
+            </div>
 			<div class="alert alert-success text-center display-none">
 			    File uploaded successfully!
 			</div>
@@ -36,7 +41,7 @@
 				<button id="select-papers" class="btn btn-default btn-lg btn-outline btn-block btn-upload-papers">Upload PDF papers</button>
 			</p>
 			<div class="progress">
-				<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
 
 				</div>
 			</div>

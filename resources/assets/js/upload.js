@@ -37,13 +37,22 @@ $(document).ready(function() {
 	        },
 	 
 	        UploadProgress: function(up, file) {
-	            $('#select-json-file').find('strong').html('(' + file.percent + '%)');
+
+                var progress = $(".group-select-json-file .progress-bar");
+
+                progress.attr("style", "width: " + up.total.percent + "%;")
+                    .html(up.total.percent + "%");
 	        },
 
             UploadComplete: function(uploader, files) {
+
                 $("#select-json-file").attr("disabled", "disabled");
-                //$(".group-select-json-file .alert-success").show();
+
                 $(".group-select-papers").show();
+
+                $(".group-select-json-file .progress-bar")
+                    .removeClass('progress-bar-danger')
+                    .addClass('progress-bar-success');
             },
 	 
 	        Error: function(up, err) {
@@ -86,14 +95,21 @@ $(document).ready(function() {
 	        },
 	 
 	        UploadProgress: function(up, file) {
-                $(".group-select-papers .progress-bar")
-                    .attr("style", "width: " + file.percent + "%;")
-                    .html(file.percent + "%");
+                var progress = $(".group-select-papers .progress-bar");
+
+                progress.attr("style", "width: " + up.total.percent + "%;")
+                    .html(up.total.percent + "%");
 	        },
 
             UploadComplete: function(uploader, files) {
+
                 $("#select-papers").attr("disabled", "disabled");
+
                 $(".group-save-collection").show();
+
+                $(".group-select-papers .progress-bar")
+                    .removeClass('progress-bar-danger')
+                    .addClass('progress-bar-success');
             },
 	 
 	        Error: function(up, err) {

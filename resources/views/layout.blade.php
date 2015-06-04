@@ -26,7 +26,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="{{ url('extractions') }}">Extractions</a></li>
+				<li class=""><a href="{{ url('extractions') }}">Extractions</a></li>
 				<li class=""><a href="{{ url('collections') }}">Collections</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -47,6 +47,7 @@
 	<span class="text-muted">Metadata Extraction Tool</span> developed by <a href="http://grossi.io">Junior Grossi</a> as part of his <a href="#">Master's thesis</a> in <a href="http://eci.ufmg.br" target="_blank">Information Science</a>.
 </footer>
 
+<script type="text/javascript"> var request_path = "{{ Request::url() }}"; </script>
 <script type="text/javascript" src="{{ asset('/assets/app.js') }}"></script>
 
 </body>

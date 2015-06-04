@@ -2,41 +2,517 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b330a364-5abe-49e2-a394-b49e27e5cbe6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-02.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-03.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-04-output/paper-04.cite" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-04-output/paper-04.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-04-output/paper-04.header.tei" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-04-output/paper-04.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-04.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-05-output/paper-05.cite" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-05-output/paper-05.header" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-05-output/paper-05.header.tei" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-05-output/paper-05.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/papers/demo/paper-05.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/flash/ZeroClipboard.swf" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/flash/ZeroClipboard.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/apple-touch-icon.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/blog.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/blog.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/carousel.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/carousel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/cermine/cermine.jar" afterPath="$PROJECT_DIR$/tools_source/cermine/cermine.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/citeseer" afterPath="$PROJECT_DIR$/tools_source/citeseer" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/components.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/components.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/cover.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/cover.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/dashboard.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/dashboard.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/devices.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/devices.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/equal-height-columns.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/equal-height-columns.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/favicon.ico" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/grid.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/grid.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/jumbotron-narrow.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/jumbotron-narrow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/jumbotron.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/jumbotron.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/justified-nav.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/justified-nav.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/img/loader.gif" afterPath="$PROJECT_DIR$/public/assets/img/loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/img/loader2.gif" afterPath="$PROJECT_DIR$/public/assets/img/loader2.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/img/loader3.gif" afterPath="$PROJECT_DIR$/public/assets/img/loader3.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar-fixed.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar-fixed.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar-static.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar-static.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/navbar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/non-responsive.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/non-responsive.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/offcanvas.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/offcanvas.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/parscit" afterPath="$PROJECT_DIR$/tools_source/parscit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/sass-less.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/sass-less.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sign-in.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sign-in.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/starter-template.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/starter-template.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/theme.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/theme.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/.csscomb.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/.csscomb.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/.csslintrc" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/.csslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/.editorconfig" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/.gitattributes" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/.gitignore" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/.gitignore" afterPath="$PROJECT_DIR$/storage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/.gitignore" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Commands/.gitkeep" afterPath="$PROJECT_DIR$/app/Handlers/Commands/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/.gitkeep" afterPath="$PROJECT_DIR$/app/Handlers/Events/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/.gitkeep" afterPath="$PROJECT_DIR$/database/migrations/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/.gitkeep" afterPath="$PROJECT_DIR$/database/seeds/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" afterPath="$PROJECT_DIR$/resources/views/vendor/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/.jscsrc" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/.jscsrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/.jshintrc" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/.jshintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/.travis.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_03_004749_create_extractions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_03_004749_create_extractions_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_03_010430_create_collections_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_03_010430_create_collections_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_03_010535_create_papers_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_03_010535_create_papers_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_03_010914_create_authors_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_03_010914_create_authors_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_03_011006_create_tools_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_03_011006_create_tools_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/Blob.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/Blob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/BusServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/BusServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/CNAME" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/CNAME" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Tools/Cermine.php" afterPath="$PROJECT_DIR$/app/Extraction/Tools/Cermine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Collection.php" afterPath="$PROJECT_DIR$/app/Models/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CollectionFile.php" afterPath="$PROJECT_DIR$/app/Models/CollectionFile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/CollectionsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/CollectionsTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Commands/Command.php" afterPath="$PROJECT_DIR$/app/Commands/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ConfigServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ConfigServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php" afterPath="$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Events/Event.php" afterPath="$PROJECT_DIR$/app/Events/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/ExampleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Extraction.php" afterPath="$PROJECT_DIR$/app/Models/Extraction.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/FileSaver.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/FileSaver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" afterPath="$PROJECT_DIR$/app/Console/Commands/Inspire.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Paper.php" afterPath="$PROJECT_DIR$/app/Extraction/Paper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Paper.php" afterPath="$PROJECT_DIR$/app/Models/Paper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Reference.php" afterPath="$PROJECT_DIR$/app/Extraction/Reference.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/Registrar.php" afterPath="$PROJECT_DIR$/app/Services/Registrar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/S3Cachefile.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/S3Cachefile.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Tool.php" afterPath="$PROJECT_DIR$/app/Models/Tool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/ToolsTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/ToolsTableSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/ZeroClipboard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/_config.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/about.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/about.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/accessibility.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/accessibility.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/ads.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/ads.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/affix.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/affix.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/affix.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/affix.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/alert.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/alert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/alerts.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/alerts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/alerts.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/alerts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/alerts.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/anchor.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/anchor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/anchor.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/animated.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/animated.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.js" afterPath="$PROJECT_DIR$/public/assets/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/application.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/autoprefixer.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/autoprefixer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/background-variant.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/badges.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/badges.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/badges.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/blog/blog.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/blog/blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-outline.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-outline.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-punchout.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-punchout.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-solid.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/brand/bootstrap-solid.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/bootstrap.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/border-radius.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/bordered-pulled.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/bordered-pulled.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/bower.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/breadcrumbs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/breadcrumbs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/breadcrumbs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bridge.rb" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bridge.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/browser-bugs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/browser-bugs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/browser-bugs.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/browser-bugs.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/browser-device-support.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/browser-device-support.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-commonjs-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bugify.rb" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bugify.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/button-dropdowns.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/button-dropdowns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/button-groups.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/button-groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/button-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/button.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/button.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/buttons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/buttons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/buttons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/carousel/carousel.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/carousel/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/carousel.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/carousel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/carousel.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/carousel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/carousel.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/center-block.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/clearfix.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/close.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/code.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/code.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/code.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/collapse.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/collapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/collapse.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/collapse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/community.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/community.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/compile.php" afterPath="$PROJECT_DIR$/config/compile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/component-animations.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/components.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/components.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/components.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/components.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/composer.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/configBridge.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/configBridge.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/core-team.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/core-team.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/core.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/core.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/cover/cover.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/cover/cover.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/collections/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/collections/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/extractions/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/extractions/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/css.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/css.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/css.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/customize.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/customize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/customize.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/customize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/customize.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/customize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-nav.jade" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-nav.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/customizer-variables.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/customizer-variables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-variables.jade" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-variables.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/customizer.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/dashboard.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/default.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/docs.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/docs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/docs.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/docs.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/docs.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/docs.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/download.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/download.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/dropdown.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/dropdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/dropdowns.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/dropdowns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/dropdowns.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/dropdowns.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/dropdowns.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/examples.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/examples.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/fixed-width.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/fixed-width.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/font-awesome.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/font-awesome.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/footer.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/forms.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/forms.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/getting-started.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/getting-started.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/getting-started.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/getting-started.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/glyphicons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/glyphicons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/glyphicons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/glyphicons.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/glyphicons.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/gradients.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid-framework.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/grid.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/grid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/grid.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/grid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/grunt.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/grunt.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/header.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/helpers.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/helpers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/hide-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/holder.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/holder.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/home.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/icons.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/image.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/images.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/images.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/collections/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/collections/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/extractions/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/extractions/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/blog/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/carousel/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/carousel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/cover/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/cover/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron-narrow/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron-narrow/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-static-top/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-static-top/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/non-responsive/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/non-responsive/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/signin/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/signin/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/theme/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/theme/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/index.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/input-groups.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/input-groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/input-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/javascript.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/javascript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/javascript.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/javascript.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/jszip.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/jszip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron/jumbotron.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/jumbotron/jumbotron.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/jumbotron.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/jumbotron.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/jumbotron.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/justified-nav.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/justified-nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/labels.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/labels.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/labels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/larger.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/larger.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/less.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/less.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/less.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/less.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/license.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/list-group.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/list-group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/list-group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/list.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/list.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/loading.blade.php" afterPath="$PROJECT_DIR$/resources/views/loading.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/main.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/media.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/media.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/media.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/met.dev.iml" afterPath="$PROJECT_DIR$/.idea/met.dev.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/migration.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/migration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/migration.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/migration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/mixins.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/mixins.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/modal.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/modal.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/modals.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-divider.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar/navbar.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar/navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/navbar.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/navbar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/navs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/navs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/navs.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/non-responsive/non-responsive.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/non-responsive/non-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/normalize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/npm.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/opacity.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/overview.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/overview.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/overview.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/package.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/package.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/package.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/page-header.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/page-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/pager.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/pagination.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/pagination.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/pagination.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/panels.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/panels.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/emails/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/password.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/path.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/path.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/phantom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpspec.yml" afterPath="$PROJECT_DIR$/phpspec.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/popover.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/popover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/popovers.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/popovers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/popovers.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/print.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/progress-bar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/progress-bars.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/progress-bars.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/progress-bars.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/pygments-manni.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/pygments-manni.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/rails.js" afterPath="$PROJECT_DIR$/resources/assets/js/rails.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/raw-files.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/raw-files.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/requirements.txt" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/reset-filter.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/reset-text.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/reset-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/reset.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/resize.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/responsive-embed.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/responsive-embed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/responsive-embed.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/responsive-utilities.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/responsive-utilities.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/responsive-utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/extractions/results.blade.php" afterPath="$PROJECT_DIR$/resources/views/extractions/results.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/robots.txt" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/rotated-flipped.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/rotated-flipped.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/s3_cache.py" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/s3_cache.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/sass-team.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/sass-team.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/sass.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/sass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/scaffolding.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/scrollspy.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/scrollspy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/scrollspy.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/scrollspy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.php" afterPath="$PROJECT_DIR$/server.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/extractions/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/extractions/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/showcase.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/showcase.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/signin/signin.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/signin/signin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/sitemap.xml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/size.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/social-buttons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/social-buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/stacked.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/stacked.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/starter-template.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/starter-template.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/sticky-footer.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/sticky-footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/tab-focus.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tab.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tab.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/table-row.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/tables.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/tables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/tables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/tabs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/tabs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/template.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/template.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/text-overflow.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/theme/theme.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/theme/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/theme.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/third-party-support.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/third-party-support.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/thumbnails.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/thumbnails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/thumbnails.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/tools.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tooltip.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tooltip.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/tooltip.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/tooltips.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/tooltips.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/transitions.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/transitions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/translations.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/translations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/translations.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/translations.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/type.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/uglify.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/uglify.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/uncached-npm-install.sh" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/uncached-npm-install.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/upload.js" afterPath="$PROJECT_DIR$/resources/assets/js/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/utilities.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/variables.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/wells.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/wells.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/whats-included.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/whats-included.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="met.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,33 +536,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/extractions/create.blade.php">
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="528">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state vertical-scroll-proportion="-22.458334" vertical-offset="245" max-vertical-offset="944">
+              <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtractionsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="864">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="e#39#61#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/collections/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.009862" vertical-offset="368" max-vertical-offset="1168">
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.37621024" vertical-offset="0" max-vertical-offset="723">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -110,19 +574,22 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_180317_create_extractions_data_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_182213_create_collections_data_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php" />
-        <option value="$PROJECT_DIR$/app/Models/CollectionFile.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/upload.js" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/collections/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/rails.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" />
         <option value="$PROJECT_DIR$/resources/views/extractions/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Paper.php" />
+        <option value="$PROJECT_DIR$/app/Models/Collection.php" />
+        <option value="$PROJECT_DIR$/app/Models/CollectionFile.php" />
         <option value="$PROJECT_DIR$/resources/views/collections/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/upload.js" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
       </list>
     </option>
   </component>
@@ -426,16 +893,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25565913" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25565913" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -489,23 +956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/CollectionFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13733906" vertical-offset="0" max-vertical-offset="699">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Paper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -517,14 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6409156" vertical-offset="0" max-vertical-offset="699">
           <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49642345" vertical-offset="565" max-vertical-offset="1392">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -561,36 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13733906" vertical-offset="0" max-vertical-offset="928">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/collections/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20600858" vertical-offset="64" max-vertical-offset="928">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47353363" vertical-offset="453" max-vertical-offset="1216">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="61" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22544952" vertical-offset="1037" max-vertical-offset="1792">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -605,17 +1022,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/extractions/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/Paper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="528">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.34334764" vertical-offset="0" max-vertical-offset="699">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#29#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07692308" vertical-offset="540" max-vertical-offset="1216">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/CollectionFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07100592" vertical-offset="0" max-vertical-offset="676">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#29#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40236688" vertical-offset="0" max-vertical-offset="676">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/collections/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57796854" vertical-offset="284" max-vertical-offset="1248">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#784#802#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6571429" vertical-offset="1284" max-vertical-offset="2048">
+          <caret line="109" column="40" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="864">
+        <state vertical-scroll-proportion="0.4806867" vertical-offset="0" max-vertical-offset="864">
           <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
           <folding>
             <element signature="e#39#61#0#PHP" expanded="true" />
@@ -623,10 +1088,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/collections/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/extractions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.009862" vertical-offset="368" max-vertical-offset="1168">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.25178826" vertical-offset="0" max-vertical-offset="699">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2746781" vertical-offset="608" max-vertical-offset="1392">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.458334" vertical-offset="245" max-vertical-offset="944">
+          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37621024" vertical-offset="0" max-vertical-offset="723">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
