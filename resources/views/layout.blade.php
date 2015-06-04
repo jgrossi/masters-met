@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Metadata Extraction Tool | Paperant</title>
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
+	<meta name="csrf-param" content="_token" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" href="{{ asset('/assets/app.css') }}">
-	<script type="text/javascript" src="{{ asset('/assets/app.js') }}"></script>
 </head>
 <body>
 
@@ -45,6 +46,8 @@
 <footer>
 	<span class="text-muted">Metadata Extraction Tool</span> developed by <a href="http://grossi.io">Junior Grossi</a> as part of his <a href="#">Master's thesis</a> in <a href="http://eci.ufmg.br" target="_blank">Information Science</a>.
 </footer>
+
+<script type="text/javascript" src="{{ asset('/assets/app.js') }}"></script>
 
 </body>
 </html>

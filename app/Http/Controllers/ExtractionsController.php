@@ -2,8 +2,8 @@
 
 use Met\Http\Requests;
 use Met\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
+use Met\Models\Collection;
 
 class ExtractionsController extends Controller {
 
@@ -19,7 +19,9 @@ class ExtractionsController extends Controller {
 
 	public function create()
 	{
-		return view('extractions.create');
+        $collections = Collection::latest()->get();
+
+		return view('extractions.create', compact('collections'));
 	}
 
 	public function store()

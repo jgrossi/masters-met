@@ -48,6 +48,16 @@ return [
 			'root'   => storage_path().'/app',
 		],
 
+        'extraction_json' => [
+            'driver' => 'local',
+            'root' => storage_path().'/app/extractions/json',
+        ],
+
+        'extraction_pdf' => [
+            'driver' => 'local',
+            'root' => storage_path().'/app/extractions/pdf',
+        ],
+
 		's3' => [
 			'driver' => 's3',
 			'key'    => 'your-key',
@@ -67,5 +77,6 @@ return [
 		],
 
 	],
+
 
 ];

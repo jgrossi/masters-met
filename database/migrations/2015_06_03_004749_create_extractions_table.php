@@ -16,8 +16,7 @@ class CreateExtractionsTable extends Migration {
 		{
 			$table->increments('id');
 			$table->integer('collection_id');
-			$table->string('status');
-			$table->timestamp('created_at');
+			$table->timestamps();
 			$table->timestamp('extracted_at');
 		});
 	}

@@ -8,8 +8,10 @@ Route::get('extractions/last', ['as' => 'extractions.last', 'uses' => 'Extractio
 Route::get('extractions/{id}/details/{tool}', ['as' => 'extractions.results', 'uses' => 'ExtractionsController@results']);
 Route::resource('extractions', 'ExtractionsController', ['except' => ['edit', 'update', 'destroy']]);
 
-Route::get('collections', 'CollectionsController@index');
-Route::get('collections/create', 'CollectionsController@create');
+Route::post('collections/data-upload', ['as' => 'collections.data-upload', 'uses' => 'CollectionsController@dataUpload']);
+Route::resource('collections', 'CollectionsController', ['only' => ['index', 'create', 'store', 'destroy']]);
+
+Route::post('papers/upload', ['as' => 'papers.upload', 'uses' => 'PapersController@upload']);
 
 Route::get('home', 'HomeController@index');
 

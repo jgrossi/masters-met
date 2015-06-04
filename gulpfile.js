@@ -14,8 +14,12 @@ gulp.task('css', function() {
 
 gulp.task('js', function() {
 	return gulp.src([
-			'resources/assets/js/jquery.min.js',		
+			'resources/assets/js/jquery.min.js',
+            'resources/assets/js/rails.js',
 			'resources/assets/bootstrap/dist/js/bootstrap.min.js',
+			'resources/assets/plupload-2.1.4/js/moxie.min.js',
+			'resources/assets/plupload-2.1.4/js/plupload.min.js',
+			'resources/assets/js/upload.js',
 			'resources/assets/js/app.js'
 		])
 		.pipe(uglify())
@@ -25,5 +29,5 @@ gulp.task('js', function() {
 
 gulp.task('default', function() {
 	gulp.watch('resources/assets/**/*.less', ['css']);
-	gulp.watch('resources/assets/js/app.js', ['js']);
+	gulp.watch('resources/assets/js/*.js', ['js']);
 });

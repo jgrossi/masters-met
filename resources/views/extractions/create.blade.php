@@ -8,8 +8,9 @@
 		<div class="form-group">
 			<select id="region" class="form-control" onchange="setRegion($('#region').val());">
 				<option selected="" disabled="" value="">-- Papers collection --</option>
-				<option value="">Masters Collection #1</option>
-				<option value="">Biological Collection #4</option>
+				@foreach($collections as $c)
+				    <option value="{{ $c->id }}">{{ $c->name }}</option>
+				@endforeach
 			</select>
 		</div>
 		<div class="form-group">
@@ -21,7 +22,7 @@
 		</div>
 	</form>
 	<div class="text-center">
-		<a href="new-collection.php" class="btn-new-collection">Upload a new collection</a>
+		<a href="{{ route('collections.create') }}" class="btn-new-collection">Upload a new collection</a>
 	</div>
 </div>
 @endsection

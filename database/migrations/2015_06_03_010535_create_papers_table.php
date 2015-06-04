@@ -17,9 +17,9 @@ class CreatePapersTable extends Migration {
 			$table->increments('id');
 			$table->string('title');
 			$table->text('abstract');
-			$table->string('mode');
-			$table->integer('tool_id');
-			$table->timestamp('created_at');
+			$table->string('status');
+			$table->integer('collection_id');
+			$table->timestamps();
 		});
 	}
 
