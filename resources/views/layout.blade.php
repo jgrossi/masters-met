@@ -31,6 +31,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class=""><a href="{{ route('extractions.last') }}" class="btn-last-extraction-top">Last Extraction</a></li>
+				<li class=""><a href="{{ route('collections.create') }}" class="">New Collection</a></li>
 				<li class="">
 					<a href="{{ route('extractions.create') }}" class="btn-new-extraction-top">
 						New Extraction
@@ -40,6 +41,13 @@
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
 </nav>
+
+@if(Session::has('alert'))
+    <?php $alert = Session::get('alert') ?>
+    <div class="flash-message alert alert-{{ array_keys($alert)[0] }} text-center">
+        {{ array_values($alert)[0] }}
+    </div>
+@endif
 
 @yield('content')
 

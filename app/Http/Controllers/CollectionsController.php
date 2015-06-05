@@ -30,12 +30,21 @@ class CollectionsController extends Controller {
 
 	public function store()
 	{
+        $collection_id = Session::get('upload.collection_id');
+        $collection = Collection::find($collection_id);
+
+        Session::flash('alert', ['success' => "Collection '{$collection->name}' created and uploaded successfully!"]);
+
 		return redirect()->route('collections.index');
 	}
 
     public function destroy($id)
     {
-        Collection::find($id)->delete();
+        $collection = Collection::find($id);
+
+        if ($collection) $collection->delete();
+
+        Session::flash('alert', ['success' => "Collection '{$collection->name}' deleted successfully!"]);
 
         return redirect()->route('collections.index');
     }

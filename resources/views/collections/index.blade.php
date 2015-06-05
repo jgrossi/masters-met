@@ -41,11 +41,11 @@
 			</tbody>
 		</table>
 
-		<div class="text-left">
-			<a href="{{ route('collections.create') }}" class="btn btn-primary">
-				New Collection
-			</a>
-		</div>
+		{{--<div class="text-left">--}}
+			{{--<a href="{{ route('collections.create') }}" class="btn btn-primary">--}}
+				{{--New Collection--}}
+			{{--</a>--}}
+		{{--</div>--}}
 
 	</form>
 </div>
