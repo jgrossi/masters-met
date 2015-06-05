@@ -3,6 +3,7 @@
 use Request;
 use Storage;
 use Session;
+use File;
 use Met\Http\Requests;
 use Met\Http\Controllers\Controller;
 use Met\Models\CollectionFile;
@@ -42,8 +43,11 @@ class CollectionsController extends Controller {
     {
         $collection = Collection::find($id);
 
-        if ($collection) $collection->delete();
+        if (!$collection) {
+            Session::flash('alert', ['danger' => "The Collection '$id' does not exist."]);
+        }
 
+        $collection->delete();
         Session::flash('alert', ['success' => "Collection '{$collection->name}' deleted successfully!"]);
 
         return redirect()->route('collections.index');
@@ -75,5 +79,16 @@ class CollectionsController extends Controller {
             }
         }
 	}
+
+    public function papers($id)
+    {
+        $collection = Collection::find($id);
+        $file = $collection->file()->first();
+        $path = $file->getFullPath();
+
+        $file_content = File::get($path);
+
+        return view('collections.papers', compact('file_content', 'collection'));
+    }
 
 }

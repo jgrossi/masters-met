@@ -5,7 +5,7 @@
 	<title>Metadata Extraction Tool | Paperant</title>
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<meta name="csrf-param" content="_token" />
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="icon" type="image/x-icon" href="{{ asset('/favicon.ico') }}" />
 	<link rel="stylesheet" href="{{ asset('/assets/app.css') }}">
 </head>
 <body>
@@ -57,6 +57,7 @@
 
 <script type="text/javascript"> var request_path = "{{ Request::url() }}"; </script>
 <script type="text/javascript" src="{{ asset('/assets/app.js') }}"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>

@@ -9,6 +9,7 @@ Route::get('extractions/{id}/details/{tool}', ['as' => 'extractions.results', 'u
 Route::resource('extractions', 'ExtractionsController', ['except' => ['edit', 'update', 'destroy']]);
 
 Route::post('collections/data-upload', ['as' => 'collections.data-upload', 'uses' => 'CollectionsController@dataUpload']);
+Route::get('collections/{id}/papers', ['as' => 'collections.papers', 'uses' => 'CollectionsController@papers']);
 Route::resource('collections', 'CollectionsController', ['only' => ['index', 'create', 'store', 'destroy']]);
 
 Route::post('papers/upload', ['as' => 'papers.upload', 'uses' => 'PapersController@upload']);

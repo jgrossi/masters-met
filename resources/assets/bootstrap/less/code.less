@@ -50,6 +50,9 @@ pre {
   background-color: @pre-bg;
   border: 1px solid @pre-border-color;
   border-radius: @border-radius-base;
+  -moz-tab-size:    4; /* Firefox 4+ */
+  -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
+  tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
 
   // Account for some code outputs that place code tags in pre tags
   code {

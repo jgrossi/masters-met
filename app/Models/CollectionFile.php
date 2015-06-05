@@ -7,16 +7,27 @@ class CollectionFile extends Model {
 
     protected $table = 'collections_files';
 
+    protected $path = '';
+
+    public function __construct()
+    {
+        $this->path = Config::get('filesystems.disks.extraction_json.root');
+    }
+
     public function delete()
     {
-        $path = Config::get('filesystems.disks.extraction_json.root');
-        $file_path = $path.'/'.$this->file_path;
+        $file_path = $this->path.'/'.$this->file_path;
 
         if (file_exists($file_path)) {
             unlink($file_path);
         }
 
         return parent::delete();
+    }
+
+    public function getFullPath()
+    {
+        return $this->path.'/'.$this->file_path;
     }
 
 }
