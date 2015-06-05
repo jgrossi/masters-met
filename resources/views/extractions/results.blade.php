@@ -4,7 +4,7 @@
 <div class="container box box-result">
 	<h2>Individual Results for <span class="text-muted">Cermine</span></h2>
 	<p class="lead text-center">
-		<a href="extraction.php">Extraction #{{ $id }}</a><br>
+		<a href="{{ route('extractions.show', [$id]) }}">Extraction #{{ $id }}</a><br>
 		<span class="text-muted">Masters Collection Number 1</span>
 	</p>
 	

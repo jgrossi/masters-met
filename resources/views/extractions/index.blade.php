@@ -30,7 +30,7 @@
 					<?php elseif ($i == 4): ?>	
 						<span class="label label-danger">Failed</span>
 					<?php else: ?>
-						<a href="{{ route('extractions.show', [123]) }}">+ <?php echo rand(123,767) ?></a>
+					    <a href="{{ route('extractions.show', [123]) }}">+ <?php echo rand(123,767) ?></a>
 					<?php endif ?>
 				</td>
 				<td class="text-center" width="5%">

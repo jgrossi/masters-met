@@ -17,7 +17,7 @@
 		
 		<div class="form-group group-select-json-file">
 			<p>
-				<button id="select-json-file" class="btn btn-default btn-outline btn-lg btn-block btn-select-csv">
+				<button id="select-json-file" class="btn btn-default btn-lg btn-block btn-select-csv">
 					Upload JSON file <strong></strong>
 				</button>
 			</p>
@@ -38,7 +38,7 @@
 		
 		<div class="form-group group-select-papers display-none">
 			<p>
-				<button id="select-papers" class="btn btn-default btn-lg btn-outline btn-block btn-upload-papers">Upload PDF papers</button>
+				<button id="select-papers" class="btn btn-default btn-lg btn-block btn-upload-papers">Upload PDF papers</button>
 			</p>
 			<div class="progress">
 				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">

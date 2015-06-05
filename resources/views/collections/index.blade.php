@@ -26,7 +26,7 @@
 					<td>{{ $c->papers->count() }}</td>
 					<td>
 						<label class="label label-{{ $classes[$c->status] }}">
-							{{ $c->status }}
+							{{ ucfirst($c->status) }}
 						</label>
 					</td>
 					<td>{{ $c->created_at }}</td>
