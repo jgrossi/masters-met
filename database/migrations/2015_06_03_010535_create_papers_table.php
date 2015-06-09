@@ -15,10 +15,11 @@ class CreatePapersTable extends Migration {
 		Schema::create('papers', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('title');
-			$table->text('abstract');
-			$table->string('status');
+			$table->string('title')->nullable();
+			$table->text('abstract')->nullable();
+			$table->string('status')->nullable();
 			$table->integer('collection_id');
+            $table->integer('area_id')->nullable();
 			$table->timestamps();
 		});
 	}

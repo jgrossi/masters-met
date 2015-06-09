@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b330a364-5abe-49e2-a394-b49e27e5cbe6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Extraction/Paper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Extraction/Reference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Extraction/Tools/Cermine.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/flash/ZeroClipboard.swf" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/flash/ZeroClipboard.swf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/apple-touch-icon.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/apple-touch-icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/blog.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/blog.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/brown_papersq.png" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/brown_papersq.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/carousel.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/carousel.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/cermine/cermine.jar" afterPath="$PROJECT_DIR$/tools_source/cermine/cermine.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/citeseer" afterPath="$PROJECT_DIR$/tools_source/citeseer" />
@@ -45,7 +49,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/non-responsive.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/non-responsive.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/offcanvas.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/offcanvas.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools_source/parscit" afterPath="$PROJECT_DIR$/tools_source/parscit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/pojoaque.jpg" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/pojoaque.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/sass-less.png" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/img/sass-less.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/school_book.png" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/school_book.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sign-in.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sign-in.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/starter-template.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/starter-template.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/screenshots/sticky-footer-navbar.jpg" />
@@ -93,9 +99,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/Blob.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/Blob.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/BusServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/BusServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/CHANGES.md" afterPath="$PROJECT_DIR$/resources/assets/highlight/CHANGES.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/CNAME" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/CNAME" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Tools/Cermine.php" afterPath="$PROJECT_DIR$/app/Extraction/Tools/Cermine.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Collection.php" afterPath="$PROJECT_DIR$/app/Models/Collection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/CollectionFile.php" afterPath="$PROJECT_DIR$/app/Models/CollectionFile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
@@ -120,15 +126,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Paper.php" afterPath="$PROJECT_DIR$/app/Extraction/Paper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/LICENSE" afterPath="$PROJECT_DIR$/resources/assets/highlight/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Paper.php" afterPath="$PROJECT_DIR$/app/Models/Paper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/README.md" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/README.md" afterPath="$PROJECT_DIR$/resources/assets/highlight/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/README.ru.md" afterPath="$PROJECT_DIR$/resources/assets/highlight/README.ru.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Extraction/Reference.php" afterPath="$PROJECT_DIR$/app/Extraction/Reference.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/Registrar.php" afterPath="$PROJECT_DIR$/app/Services/Registrar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
@@ -149,6 +156,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/affix.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/affix.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/affix.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/affix.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/affix.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/agate.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/agate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/alert.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/alert.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/alert.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/alert.js" />
@@ -158,16 +166,38 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/alerts.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/anchor.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/anchor.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/anchor.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/anchor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/androidstudio.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/androidstudio.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/animated.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/animated.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.css" afterPath="$PROJECT_DIR$/public/assets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/app.js" afterPath="$PROJECT_DIR$/public/assets/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/less/app.less" afterPath="$PROJECT_DIR$/resources/assets/less/app.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/application.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/arta.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/arta.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/ascetic.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/ascetic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-cave.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-cave.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-cave.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-cave.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-dune.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-dune.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-dune.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-dune.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-estuary.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-estuary.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-estuary.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-estuary.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-forest.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-forest.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-forest.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-forest.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-heath.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-heath.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-heath.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-heath.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-lakeside.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-lakeside.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-lakeside.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-lakeside.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-plateau.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-plateau.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-plateau.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-plateau.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-savanna.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-savanna.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-savanna.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-savanna.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-seaside.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-seaside.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-seaside.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-seaside.light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-sulphurpool.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-sulphurpool.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-sulphurpool.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/atelier-sulphurpool.light.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/autoload.php" afterPath="$PROJECT_DIR$/bootstrap/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/autoprefixer.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/autoprefixer.js" />
@@ -201,6 +231,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/breadcrumbs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/breadcrumbs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/breadcrumbs.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bridge.rb" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_plugins/bridge.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/brown_paper.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/brown_paper.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/browser-bugs.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/browser-bugs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/browser-bugs.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/browser-bugs.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/browser-device-support.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/browser-device-support.html" />
@@ -231,10 +262,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/close.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/code.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/code.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/code.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/codepen-embed.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/codepen-embed.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/collapse.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/collapse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/collapse.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/collapse.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/collapse.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/color-brewer.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/color-brewer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/community.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/community.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/compile.php" afterPath="$PROJECT_DIR$/config/compile.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/component-animations.less" />
@@ -258,11 +291,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/customizer-variables.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/customizer-variables.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-variables.jade" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_jade/customizer-variables.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/customizer.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/src/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/darkula.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/darkula.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/dashboard.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/dashboard/dashboard.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/default.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/default.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/disabling-responsiveness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/docco.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/docco.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/docs.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/src/docs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/docs.min.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/css/docs.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/docs.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/docs.min.js" />
@@ -275,6 +312,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/dropdowns.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/examples.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/examples.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/far.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/far.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/fixed-width.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/fixed-width.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/font-awesome.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/font-awesome.less" />
@@ -283,14 +321,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/forms.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/forms.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/forms.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/forms.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/foundation.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/foundation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/getting-started.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/getting-started.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/getting-started.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/getting-started.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/github-gist.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/github-gist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/github.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/github.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/glyphicons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/glyphicons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/glyphicons.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/glyphicons.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_data/glyphicons.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/googlecode.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/googlecode.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/gradients.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/grid-framework.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/grid.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/grid/grid.css" />
@@ -302,10 +344,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/header.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/helpers.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/helpers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/hide-text.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/highlight.pack.js" afterPath="$PROJECT_DIR$/resources/assets/highlight/highlight.pack.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/holder.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/vendor/holder.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/home.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_layouts/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/hybrid.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/hybrid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/icons.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/icons.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/idea.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/idea.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie-emulation-modes-warning.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie10-viewport-bug-workaround.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/ie8-responsive-file-warning.js" />
@@ -337,6 +382,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/input-groups.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/input-groups.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/input-groups.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/ir_black.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/ir_black.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/javascript.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/javascript.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/javascript.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/javascript.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/jquery.min.js" />
@@ -347,6 +393,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/jumbotron.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/jumbotron.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/jumbotron.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/justified-nav.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/justified-nav/justified-nav.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/kimbie.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/kimbie.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/kimbie.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/kimbie.light.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/labels.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/labels.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/labels.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/labels.less" />
@@ -361,6 +409,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/list.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/list.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/loading.blade.php" afterPath="$PROJECT_DIR$/resources/views/loading.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/magula.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/magula.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/main.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/nav/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/media.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/media.html" />
@@ -377,6 +426,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/modal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/modals.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/mono-blue.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/mono-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/monokai.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/monokai.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/monokai_sublime.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/monokai_sublime.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-divider.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/nav-vertical-align.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/navbar-fixed-top/navbar-fixed-top.css" />
@@ -391,6 +443,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/npm-shrinkwrap.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/dist/js/npm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/npm.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/dist/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/obsidian.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/obsidian.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/offcanvas/offcanvas.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/opacity.less" />
@@ -408,6 +461,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/panels.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/panels.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/panels.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/panels.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/collections/papers.blade.php" afterPath="$PROJECT_DIR$/resources/views/collections/papers.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/paraiso.dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/paraiso.dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/paraiso.light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/paraiso.light.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/emails/password.blade.php" afterPath="$PROJECT_DIR$/resources/views/emails/password.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
@@ -415,6 +471,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/phantom.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpspec.yml" afterPath="$PROJECT_DIR$/phpspec.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/pojoaque.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/pojoaque.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/popover.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/popover.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/popover.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/unit/popover.js" />
@@ -429,6 +486,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/vendor/qunit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/rails.js" afterPath="$PROJECT_DIR$/resources/assets/js/rails.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/railscasts.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/railscasts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/rainbow.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/rainbow.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/raw-files.min.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/assets/js/raw-files.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/requirements.txt" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/test-infra/requirements.txt" />
@@ -451,6 +510,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/sass.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/css/sass.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/grunt/sauce_browsers.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/scaffolding.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/school_book.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/school_book.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/scrollspy.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/js/scrollspy.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/scrollspy.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/scrollspy.html" />
@@ -465,10 +525,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/sitemap.xml" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/size.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/social-buttons.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/social-buttons.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/solarized_dark.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/solarized_dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/solarized_light.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/solarized_light.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/font-awesome/stacked.less" afterPath="$PROJECT_DIR$/resources/assets/font-awesome/stacked.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/starter-template.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/starter-template/starter-template.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/sticky-footer.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/sticky-footer/sticky-footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/sunburst.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/sunburst.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/tab-focus.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tab.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tests/visual/tab.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/js/tab.js" />
@@ -485,6 +548,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/third-party-support.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/third-party-support.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/thumbnails.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/thumbnails.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/thumbnails.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-blue.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-bright.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night-eighties.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow-night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/tomorrow.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/tools.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/tools.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/examples/tooltip-viewport/tooltip-viewport.js" />
@@ -509,12 +577,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/mixins/vendor-prefixes.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/vs.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/vs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/wells.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/components/wells.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/less/wells.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/whats-included.html" afterPath="$PROJECT_DIR$/resources/assets/bootstrap/docs/_includes/getting-started/whats-included.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/xcode.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/xcode.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/highlight/styles/zenburn.css" afterPath="$PROJECT_DIR$/resources/assets/highlight/styles/zenburn.css" />
     </list>
     <ignored path="met.dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -538,41 +609,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/collections/index.blade.php">
+      <file leaf-file-name="JsonParser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Extraction/JsonParser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.791666" vertical-offset="37" max-vertical-offset="1024">
-              <caret line="38" column="207" selection-start-line="38" selection-start-column="207" selection-end-line="38" selection-end-column="207" />
+            <state vertical-scroll-proportion="-5.5" vertical-offset="524" max-vertical-offset="1216">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+              <folding>
+                <element signature="e#34#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo-collection.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/storage/app/demo-data/demo-collection.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="16.875" vertical-offset="2501" max-vertical-offset="3200">
+              <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.833334" vertical-offset="396" max-vertical-offset="1120">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="432">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="CollectionsTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/CollectionsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/code.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.666666" vertical-offset="320" max-vertical-offset="1248">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+            <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="416">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -581,8 +654,8 @@
       <file leaf-file-name="CollectionsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.125" vertical-offset="885" max-vertical-offset="1600">
-              <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
+            <state vertical-scroll-proportion="22.5" vertical-offset="1148" max-vertical-offset="1824">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#39#51#0#PHP" expanded="true" />
               </folding>
@@ -590,53 +663,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="papers.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/collections/papers.blade.php">
+      <file leaf-file-name="PapersController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PapersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18934911" vertical-offset="0" max-vertical-offset="676">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo-collection.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/app/demo-data/demo-collection.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="192">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionFile.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/CollectionFile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="624">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.66863906" vertical-offset="1228" max-vertical-offset="1904">
+              <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
               <folding>
-                <element signature="e#29#68#0#PHP" expanded="true" />
+                <element signature="e#39#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <file leaf-file-name="ToolsTableSeeder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/ToolsTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5588236" vertical-offset="3006" max-vertical-offset="4720">
-              <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+            <state vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="672">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -660,30 +703,50 @@
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_180317_create_extractions_data_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_182213_create_collections_data_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/rails.js" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" />
         <option value="$PROJECT_DIR$/resources/views/extractions/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php" />
         <option value="$PROJECT_DIR$/app/Models/Paper.php" />
         <option value="$PROJECT_DIR$/app/Models/Collection.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/upload.js" />
-        <option value="$PROJECT_DIR$/resources/views/extractions/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/extractions/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/extractions/results.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/collections/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Models/CollectionFile.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/resources/assets/bootstrap/less/code.less" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
-        <option value="$PROJECT_DIR$/resources/views/collections/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/collections/papers.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php" />
+        <option value="$PROJECT_DIR$/resources/views/extractions/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less" />
+        <option value="$PROJECT_DIR$/resources/views/collections/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/extractions/results.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/extractions/show.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_08_233047_create_references_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/Author.php" />
+        <option value="$PROJECT_DIR$/app/Models/Reference.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/collections/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Area.php" />
+        <option value="$PROJECT_DIR$/database/seeds/AreasTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_09_002703_add_default_value_to_slug_to_areas_table.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_08_232847_add_original_filename_column_to_papers_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_09_002909_make_slug_column_nullable_on_areas_table.php" />
+        <option value="$PROJECT_DIR$/storage/app/demo-data/demo-collection.json" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/ToolsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Extraction/JsonParser.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_03_004749_create_extractions_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_03_010430_create_collections_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_03_010535_create_papers_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_03_011006_create_tools_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_06_09_001118_create_areas_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/CollectionsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PapersController.php" />
       </list>
     </option>
   </component>
@@ -947,6 +1010,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -965,7 +1050,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="seeds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1015,6 +1100,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="met.dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extraction" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -1029,6 +1172,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/seeds" />
       <recent name="$PROJECT_DIR$/resources/views/collections" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1074,7 +1218,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1083,7 +1227,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1119,40 +1263,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09155937" vertical-offset="0" max-vertical-offset="699">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#50#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47140038" vertical-offset="65" max-vertical-offset="624">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6409156" vertical-offset="0" max-vertical-offset="699">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/gulp/bin/gulp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35408023" vertical-offset="0" max-vertical-offset="3488">
@@ -1166,16 +1276,6 @@
         <state vertical-scroll-proportion="0.2754663" vertical-offset="0" max-vertical-offset="7616">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PapersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6795422" vertical-offset="1045" max-vertical-offset="1824">
-          <caret line="95" column="75" selection-start-line="95" selection-start-column="75" selection-end-line="95" selection-end-column="75" />
-          <folding>
-            <element signature="e#39#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,36 +1297,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4806867" vertical-offset="0" max-vertical-offset="864">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/extractions/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25178826" vertical-offset="0" max-vertical-offset="699">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2746781" vertical-offset="608" max-vertical-offset="1392">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/extractions/results.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14769231" vertical-offset="0" max-vertical-offset="1488">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1239,44 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83692306" vertical-offset="1184" max-vertical-offset="13920">
-          <caret line="107" column="28" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/extractions/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34334764" vertical-offset="288" max-vertical-offset="1328">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/collections/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69241774" vertical-offset="188" max-vertical-offset="1312">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding>
-            <element signature="e#1517#1535#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="723">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25178826" vertical-offset="0" max-vertical-offset="699">
-          <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
           <folding />
         </state>
       </provider>
@@ -1289,24 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/extractions/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18934911" vertical-offset="0" max-vertical-offset="1120">
-          <caret line="8" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.125" vertical-offset="885" max-vertical-offset="1600">
-          <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
-          <folding>
-            <element signature="e#39#51#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/code.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.666666" vertical-offset="320" max-vertical-offset="1248">
@@ -1315,25 +1337,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.833334" vertical-offset="396" max-vertical-offset="1120">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.20571429" vertical-offset="0" max-vertical-offset="700">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateCollectionRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.75536484" vertical-offset="0" max-vertical-offset="699">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/collections/papers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18311875" vertical-offset="0" max-vertical-offset="699">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/CollectionFile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.0" vertical-offset="0" max-vertical-offset="624">
+        <state vertical-scroll-proportion="0.6180258" vertical-offset="0" max-vertical-offset="699">
           <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#29#68#0#PHP" expanded="true" />
@@ -1341,43 +1371,309 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/app/demo-data/demo-collection.json">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.35408023" vertical-offset="0" max-vertical-offset="723">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="1120">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5588236" vertical-offset="3006" max-vertical-offset="4720">
-          <caret line="203" column="21" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4736">
+          <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/utilities.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3962804" vertical-offset="277" max-vertical-offset="976">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="63.333332" vertical-offset="1520" max-vertical-offset="4928">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/bootstrap/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.6" vertical-offset="7632" max-vertical-offset="13920">
+          <caret line="507" column="41" selection-start-line="507" selection-start-column="41" selection-end-line="507" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/collections/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.833333" vertical-offset="636" max-vertical-offset="1328">
+          <caret line="62" column="51" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/extractions/results.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1488">
+          <caret line="4" column="70" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/extractions/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4260355" vertical-offset="0" max-vertical-offset="1328">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ExtractionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8106509" vertical-offset="220" max-vertical-offset="944">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="448">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28402367" vertical-offset="608" max-vertical-offset="1392">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/extractions/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1168">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14201184" vertical-offset="0" max-vertical-offset="676">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Reference.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14201184" vertical-offset="0" max-vertical-offset="676">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Area.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18934911" vertical-offset="0" max-vertical-offset="676">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22857143" vertical-offset="0" max-vertical-offset="832">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/AreasTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2366864" vertical-offset="0" max-vertical-offset="676">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/collections/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.791666" vertical-offset="37" max-vertical-offset="1024">
-          <caret line="38" column="207" selection-start-line="38" selection-start-column="207" selection-end-line="38" selection-end-column="207" />
+        <state vertical-scroll-proportion="-5.125" vertical-offset="229" max-vertical-offset="1056">
+          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/collections/papers.blade.php">
+    <entry file="file://$PROJECT_DIR$/storage/app/demo-data/demo-collection.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18934911" vertical-offset="0" max-vertical-offset="676">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state vertical-scroll-proportion="16.875" vertical-offset="2501" max-vertical-offset="3200">
+          <caret line="131" column="18" selection-start-line="131" selection-start-column="18" selection-end-line="131" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/ToolsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.333334" vertical-offset="0" max-vertical-offset="672">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="432">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Extraction/JsonParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5" vertical-offset="524" max-vertical-offset="1216">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#34#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_03_004749_create_extractions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="624">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_03_010430_create_collections_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="624">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_03_010535_create_papers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50793654" vertical-offset="0" max-vertical-offset="672">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_03_010914_create_authors_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_03_011006_create_tools_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45714286" vertical-offset="0" max-vertical-offset="640">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_04_182620_create_collections_files_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4063492" vertical-offset="0" max-vertical-offset="630">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_04_193516_add_file_path_column_to_papers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3809524" vertical-offset="0" max-vertical-offset="630">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_08_232847_add_original_filename_column_to_papers_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50793654" vertical-offset="0" max-vertical-offset="630">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_08_233047_create_references_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44104135" vertical-offset="0" max-vertical-offset="653">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_09_001118_create_areas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49004593" vertical-offset="0" max-vertical-offset="653">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/CollectionsTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="416">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CollectionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.5" vertical-offset="1148" max-vertical-offset="1824">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PapersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66863906" vertical-offset="1228" max-vertical-offset="1904">
+          <caret line="105" column="31" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+          <folding>
+            <element signature="e#39#60#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

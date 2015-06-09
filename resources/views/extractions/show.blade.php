@@ -11,10 +11,13 @@
 		<thead>
 			<tr>
 				<th width="24%"></th>
-				<th width="19%"><a href="{{ route('extractions.results', [$id, 'cermine']) }}">+ Cermine</a></th>
-				<th width="19%"><a href="{{ route('extractions.results', [$id, 'citeseer']) }}">+ CiteSeer</a></th>
-				<th width="19%"><a href="{{ route('extractions.results', [$id, 'crossref']) }}">+ CrossRef</a></th>
-				<th width="19%"><a href="{{ route('extractions.results', [$id, 'parscit']) }}">+ ParsCit</a></th>
+				@foreach($tools as $tool)
+				    <th width="19%">
+				        <a href="{{ route('extractions.results', [$id, $tool->slug]) }}">
+				            + {{ $tool->name }}
+				        </a>
+				    </th>
+				@endforeach
 			</tr>
 		</thead>
 		<tbody>

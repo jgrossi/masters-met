@@ -27,10 +27,10 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
 				<li class=""><a href="{{ url('extractions') }}">Extractions</a></li>
+				<li class=""><a href="{{ route('extractions.last') }}" class="btn-last-extraction-top">Last Extraction</a></li>
 				<li class=""><a href="{{ url('collections') }}">Collections</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li class=""><a href="{{ route('extractions.last') }}" class="btn-last-extraction-top">Last Extraction</a></li>
 				<li class=""><a href="{{ route('collections.create') }}" class="">New Collection</a></li>
 				<li class="">
 					<a href="{{ route('extractions.create') }}" class="btn-new-extraction-top">

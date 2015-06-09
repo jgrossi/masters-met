@@ -4,6 +4,7 @@ use Met\Http\Requests;
 use Met\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Met\Models\Collection;
+use Met\Models\Tool;
 
 class ExtractionsController extends Controller {
 
@@ -31,7 +32,9 @@ class ExtractionsController extends Controller {
 
 	public function show($id)
 	{
-		return view('extractions.show', compact('id'));
+        $tools = Tool::all();
+
+		return view('extractions.show', compact('id', 'tools'));
 	}
 
 	public function last()
@@ -41,8 +44,10 @@ class ExtractionsController extends Controller {
 		return redirect()->route('extractions.show', [$last_id]);
 	}
 
-	public function results($id, $tool)
+	public function results($id, $tool_slug)
 	{
+        $tool = Tool::where('slug', $tool_slug)->first();
+
 		return view('extractions.results', compact('id', 'tool'));
 	}
 

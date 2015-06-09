@@ -5,7 +5,7 @@ Route::get('/', function() {
 });
 
 Route::get('extractions/last', ['as' => 'extractions.last', 'uses' => 'ExtractionsController@last']);
-Route::get('extractions/{id}/details/{tool}', ['as' => 'extractions.results', 'uses' => 'ExtractionsController@results']);
+Route::get('extractions/{id}/details/{tool_slug}', ['as' => 'extractions.results', 'uses' => 'ExtractionsController@results']);
 Route::resource('extractions', 'ExtractionsController', ['except' => ['edit', 'update', 'destroy']]);
 
 Route::post('collections/data-upload', ['as' => 'collections.data-upload', 'uses' => 'CollectionsController@dataUpload']);

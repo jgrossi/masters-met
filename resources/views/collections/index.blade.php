@@ -20,12 +20,14 @@
 			<tbody>
 
 				@foreach($collections as $c)
-				<?php $classes = ['new' => 'success', 'extracted' => 'info'] ?>
+				<?php $classes = ['new' => 'success', 'collected' => 'warning', 'extracted' => 'info'] ?>
 				<tr>
 					<td>{{ $c->name }}</td>
-					<td>{{ $c->papers->count() }}</td>
+					<td>
+					    {{ $c->papers->count() }}
+					</td>
 					<td class="text-center" width="6%">
-					    <a href="{{ route('collections.papers', [$c->id]) }}" class="text-info" title="JSON File">
+                        <a href="{{ route('collections.papers', [$c->id]) }}" class="text-info" title="JSON File">
                             <i class="fa fa-file-text-o"></i>
                         </a>
 					</td>
@@ -46,11 +48,11 @@
 			</tbody>
 		</table>
 
-		{{--<div class="text-left">--}}
-			{{--<a href="{{ route('collections.create') }}" class="btn btn-primary">--}}
-				{{--New Collection--}}
-			{{--</a>--}}
-		{{--</div>--}}
+		<div class="text-left">
+			<a href="{{ route('collections.create') }}" class="btn btn-primary">
+				New Collection
+			</a>
+		</div>
 
 	</form>
 </div>

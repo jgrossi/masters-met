@@ -4,6 +4,10 @@ use Met\Models\Paper;
 use Met\Http\Requests;
 use Met\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Symfony\Component\Finder\SplFileInfo;
+use Symfony\Component\HttpFoundation\File\File;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
+use Symfony\Component\HttpFoundation\FileBag;
 
 class PapersController extends Controller {
 
@@ -87,6 +91,9 @@ class PapersController extends Controller {
 
         if (\Request::hasFile('file')) {
 
+            /**
+             * @var $file UploadedFile
+             */
             $file = \Request::file('file');
 
             $filename = uniqid().'.pdf';
@@ -96,11 +103,9 @@ class PapersController extends Controller {
             \Storage::disk('extraction_pdf')->put($file_path, $file_content);
 
             $paper = new Paper;
-            $paper->title = '';
-            $paper->abstract = '';
-            $paper->status = '';
             $paper->collection_id = $collection_id;
             $paper->file_path = $file_path;
+            $paper->original_filename = $file->getClientOriginalName();
             $paper->save();
         }
     }

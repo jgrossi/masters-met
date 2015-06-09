@@ -60,6 +60,7 @@
 			]) --}}
 			{!! Form::submit('Save Collection', [
 				'class' => 'btn btn-primary btn-block btn-lg btn-just-save',
+				'data-disable-with' => 'Saving...',
 			]) !!}
 		</div>
 		

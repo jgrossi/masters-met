@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddFilePathColumnToPapersTable extends Migration {
+class AddOriginalFilenameColumnToPapersTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -14,7 +14,7 @@ class AddFilePathColumnToPapersTable extends Migration {
 	{
 		Schema::table('papers', function(Blueprint $table)
 		{
-			$table->string('file_path')->after('status');
+			$table->string('original_filename')->after('file_path');
 		});
 	}
 
@@ -27,7 +27,7 @@ class AddFilePathColumnToPapersTable extends Migration {
 	{
 		Schema::table('papers', function(Blueprint $table)
 		{
-			$table->dropColumn('file_path');
+			$table->dropColumn('original_filename');
 		});
 	}
 

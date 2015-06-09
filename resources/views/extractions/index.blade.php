@@ -13,10 +13,10 @@
 				<td class="metadata" width="17%" colspan="2">Extraction</td>
 				<td class="metadata" width="37%">Collection</td>
 				<td class="metadata" width="18%">Date</td>
-				<td class="metadata tool" width="7%">C</td>
-				<td class="metadata tool" width="7%">CS</td>
-				<td class="metadata tool" width="7%">CR</td>
-				<td class="metadata tool" width="7%">PC</td>
+				<td class="metadata tool" width="7%" title="Cermine">C</td>
+				<td class="metadata tool" width="7%" title="CiteSeer">CS</td>
+				<td class="metadata tool" width="7%" title="CrossRef">CR</td>
+				<td class="metadata tool" width="7%" title="ParsCit">PC</td>
 			</tr>
 		</thead>
 		<tbody>

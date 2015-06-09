@@ -9,6 +9,7 @@ use Met\Http\Controllers\Controller;
 use Met\Models\CollectionFile;
 use Met\Models\Collection;
 use Met\Http\Requests\CreateCollectionRequest;
+use Met\Extraction\JsonParser;
 
 class CollectionsController extends Controller {
 
@@ -34,7 +35,15 @@ class CollectionsController extends Controller {
         $collection_id = Session::get('upload.collection_id');
         $collection = Collection::find($collection_id);
 
-        Session::flash('alert', ['success' => "Collection '{$collection->name}' created and uploaded successfully!"]);
+        // TODO Put inside Queue
+        $parser = new JsonParser($collection);
+        $parser->run();
+
+        if ($collection) {
+            Session::flash('alert', ['success' => "Collection '{$collection->name}' created and uploaded successfully!"]);
+        } else {
+            Session::flash('alert', ['danger' => "Cannot create the new Collection."]);
+        }
 
 		return redirect()->route('collections.index');
 	}
@@ -65,6 +74,11 @@ class CollectionsController extends Controller {
             if ($file->isValid()) {
 
                 $collection = new Collection($request->all());
+
+                if (empty($collection->name)) {
+                    $collection->name = $filename;
+                }
+
                 $collection->status = 'new';
                 $collection->save();
                 $collection_id = $collection->id;
