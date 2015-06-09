@@ -15,6 +15,17 @@ class ExtractionsController extends Controller {
 
 	public function index()
 	{
+//        $exec = new \Met\Extraction\Tools\CermineExtraction();
+//        $exec->execute(Collection::find(1));
+//
+//        $title = $exec->getTitle();
+//        $correct_title = "Automatic Extraction of Table Metadata from Digital Documents";//$exec->getTitle();
+//
+//        $comparison = new \Met\Extraction\Comparisons\TitleComparison($correct_title, $title);
+//        $comparison->calculate();
+//
+//        dd($comparison->getResult().'%');
+
 		return view('extractions.index');
 	}
 

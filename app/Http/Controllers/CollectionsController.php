@@ -4,6 +4,7 @@ use Request;
 use Storage;
 use Session;
 use File;
+use Queue;
 use Met\Http\Requests;
 use Met\Http\Controllers\Controller;
 use Met\Models\CollectionFile;
@@ -35,9 +36,16 @@ class CollectionsController extends Controller {
         $collection_id = Session::get('upload.collection_id');
         $collection = Collection::find($collection_id);
 
-        // TODO Put inside Queue
-        $parser = new JsonParser($collection);
-        $parser->run();
+        $collection->status = 'collecting';
+        $collection->save();
+
+        Queue::push(function($job) use ($collection) {
+
+            $parser = new JsonParser($collection);
+            $parser->run();
+
+            $job->delete();
+        });
 
         if ($collection) {
             Session::flash('alert', ['success' => "Collection '{$collection->name}' created and uploaded successfully!"]);
