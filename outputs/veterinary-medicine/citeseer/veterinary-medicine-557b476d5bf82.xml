@@ -1,0 +1,1244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title /><authors><author><name>Kanako Ishihara</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Natsumi Shimokubo</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Akie Sakagami</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Hiroshi Ueno</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Yasukazu Muramatsu</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Tsuyoshi Kadosawa</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name>Chie Yanagisawa</name><affiliation>Hokkaido University, and Research Center for Zoonosis Control</affiliation></author><author><name>Hideaki Hanaki</name><affiliation>Hokkaido University, and Research Center for Zoonosis Control</affiliation></author><author><name>Chie Nakajima</name></author><author><name>Yasuhiko Suzuki</name></author><author><name>Yutaka Tamura</name><affiliation>Kitasato Research Center for Anti-infection Drugs</affiliation></author><author><name /><affiliation>Rakuno Gakuen University, School of Veterinary Medicine</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" />
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="2010-08">Aug. 2010</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Kanako</forename>
+								<surname>Ishihara</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Natsumi</forename>
+								<surname>Shimokubo</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Akie</forename>
+								<surname>Sakagami</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Hiroshi</forename>
+								<surname>Ueno</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yasukazu</forename>
+								<surname>Muramatsu</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Tsuyoshi</forename>
+								<surname>Kadosawa</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Chie</forename>
+								<surname>Yanagisawa</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">and Research Center for Zoonosis Control</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Hokkaido</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Hideaki</forename>
+								<surname>Hanaki</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">and Research Center for Zoonosis Control</orgName>
+								<orgName type="institution">Hokkaido University</orgName>
+								<address>
+									<settlement>Hokkaido</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Chie</forename>
+								<surname>Nakajima</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yasuhiko</forename>
+								<surname>Suzuki</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yutaka</forename>
+								<surname>Tamura</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Kitasato Research Center for Anti-infection Drugs</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">School of Veterinary Medicine</orgName>
+								<orgName type="institution">Rakuno Gakuen University</orgName>
+								<address>
+									<settlement>Hokkaido</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">APPLIED AND ENVIRONMENTAL MICROBIOLOGY</title>
+						<imprint>
+							<biblScope unit="volume">76</biblScope>
+							<biblScope unit="issue">15</biblScope>
+							<biblScope from="5165" to="5174" unit="page" />
+							<date type="published" when="2010-08">Aug. 2010</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1128/AEM.02780-09</idno>
+					<note type="submission">Received 17 November 2009/Accepted 30 May 2010</note>
+					<note>0099-2240/10/$12.00 Occurrence and Molecular Characteristics of Methicillin-Resistant Staphylococcus aureus and Methicillin-Resistant Staphylococcus pseudintermedius in an Academic Veterinary Hospital ᰔ</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Recently, methicillin-resistant Staphylococcus aureus (MRSA) and methicillin-resistant Staphylococcus pseudinter-medius (MRSP) have been increasingly isolated from veterinarians and companion animals. With a view to preventing the spread of MRSA and MRSP, we evaluated the occurrence and molecular characteristics of each in a veterinary college. MRSA and MRSP were isolated from nasal samples from veterinarians, staff members, and veterinary students affiliated with a veterinary hospital. Using stepwise logistic regression, we identified two factors associated with MRSA carriage: (i) contact with an identified animal MRSA case (odds ratio [OR], 6.9; 95% confidence interval [95% CI], 2.2 to 21.6) and (ii) being an employee (OR, 6.2; 95% CI, 2.0 to 19.4). The majority of MRSA isolates obtained from individuals affiliated with the veterinary hospital and dog patients harbored spa type t002 and a type II staphylococcal cassette chromosome mec (SCCmec), similar to the hospital-acquired MRSA isolates in Japan. MRSA isolates harboring spa type t008 and a type IV SCCmec were obtained from one veterinarian on three different sampling occasions and also from dog patients. MRSA carriers can also be a source of MRSA infection in animals. The majority of MRSP isolates (85.2%) carried hybrid SCCmec type II-III, and almost all the remaining MRSP isolates (11.1%) carried SCCmec type V. MRSA and MRSP were also isolated from environmental samples collected from the veterinary hospital (5.1% and 6.4%, respectively). The application of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>M E C Anderson</author>
+<author>S L Lefebvre</author>
+<author>J S Weese</author>
+</authors>
+<title>Evaluation of prevalence and risk factors for methicillin-resistant Staphylococcus aureus colonization in veterinary personnel attending an international equine veterinary conference.</title>
+<date>2008</date>
+<journal>Vet. Microbiol.</journal>
+<pages>129--410</pages>
+<contexts>
+<context citStr="(1)" endWordPosition="4927" position="30956" startWordPosition="4927">ible to this antibiotic. The frequencies of MRSP resistance to kanamycin and gentamicin were higher than those for MRSA and MRSS. DISCUSSION Our study revealed that two factors were independently associated with MRSA carriage: (i) contact with an identified animal MRSA case, and (ii) being an employee of a veterinary hospital or a nonclinical laboratory (versus being a student). It is suggested that animal patients spread MRSA infection among human individuals in veterinary hospitals. Contact with MRSA-infected animals has previously been identified as a risk factor among equine veterinarians (1); however, it has never been identified among companion-animal veterinarians and personnel attending a veterinary surgery conference (6, 12, 28). The higher risk of MRSA carriage among employees might be attributed to their frequency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. Howe</context>
+<context citStr="(1)" endWordPosition="6702" position="40665" startWordPosition="6702"> recurrent carrier changed from SCCmec type II without kdp gene and spa type t1265 to SCCmec type II harboring the kdp gene and spa type t002. Because the latter genotype was more common among the MRSA isolates obtained from veterinary staff and environmental surfaces, this carrier might be infected from other MRSA carriers or contaminated environmental surfaces. Treatment of MRSA carriers should be undertaken simultaneously with the disinfection of the entire hospital and implementation of hand hygiene practices, which has been reported as a strong protective factor against MRSA colonization (1). MRSA was not detected in the five buccal mucosa samples of dogs owned by MRCPS-positive individuals. We chose buccal swab and not nasal swab, which is the traditional sample for MRSA isolation, because sampling from dogs was done at home by each owner without enough immobilization. Loeffler et al. reported that the isolation frequency of MRSA from the buccal swabs of dogs was as high as that from the nasal swabs (21). However, in another previous study, the nasal, axillary, and rectal swabs of dogs were tested for isolation MRSA, and the MRSA isolate was obtained only from the rectum (11). C</context>
+</contexts>
+<marker>1.</marker>
+<rawString>Anderson, M. E. C., S. L. Lefebvre, and J. S. Weese. 2008. Evaluation of prevalence and risk factors for methicillin-resistant Staphylococcus aureus colonization in veterinary personnel attending an international equine veterinary conference. Vet. Microbiol. 129:410–417.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T L Bannerman</author>
+<author>G A Hancock</author>
+<author>F C Tenover</author>
+<author>J M Miller</author>
+</authors>
+<title>Pulsed-field gel electrophoresis as a replacement for bacteriophage typing of Staphylococcus aureus.</title>
+<date>1995</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>33--551</pages>
+<contexts>
+<context citStr="(2, 15)" endWordPosition="2121" position="14246" startWordPosition="2120">armaceutical Co., Ltd., Tokyo, Japan); arbekacin (Meiji Seika Ltd., Tokyo, Japan); and teicoplanin (Astellas Pharma Inc., Tokyo, Japan). For the isolates obtained in 2008, we used the broth microdilution method with an Eiken frozen plate (Eiken Chemistry Co. Ltd.). Again, we tested 14 antimicrobial agents, 12 of which were the same as those tested for the 2007 isolates. This time, however, we used tetracycline and ciprofloxacin instead of oxytetracycline and enrofloxacin. Molecular typing. Pulsed-field gel electrophoresis (PFGE) analysis for MRSA isolates was performed as previously described (2, 15). Briefly, bacterial cultures were grown overnight in Mueller-Hinton broth (Oxoid Ltd.) and resuspended in TN buffer (10 mM Tris, 1 M NaCl, pH 8.0). The cultures were mixed with the same volume of 2% UltraPure low-melting-point (LMP) agarose (Invitrogen Japan Ltd., Tokyo, Japan), dissolved in TN buffer, and pipetted into a plug mold. After bacterial lysis in a lysis buffer containing 5 mg/ml lysozyme (Wako Pure Chemical Industries, Ltd., Osaka, Japan) and 20 g/ml lysostaphin (SigmaAldrich Japan K. K.), genomic DNA was digested with SmaI (Takara Bio, Ltd.). PFGE was performed using a CHEF-DRII</context>
+</contexts>
+<marker>2.</marker>
+<rawString>Bannerman, T. L., G. A. Hancock, F. C. Tenover, and J. M. Miller. 1995. Pulsed-field gel electrophoresis as a replacement for bacteriophage typing of Staphylococcus aureus. J. Clin. Microbiol. 33:551–555.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Bannoehr</author>
+<author>N L Ben Zakour</author>
+<author>A S Waller</author>
+<author>L Guardabassi</author>
+<author>K L Thoday</author>
+<author>A H M van den Broek</author>
+<author>J R Fitzgerald</author>
+</authors>
+<title>Population genetic structure of the Staphylococcus intermedius group: insights into agr diversification and the emergence of methicillin-resistant strains.</title>
+<date>2007</date>
+<journal>J. Bacteriol.</journal>
+<volume>189</volume>
+<pages>8685--8692</pages>
+<contexts>
+<context citStr="(3, 39)" endWordPosition="7230" position="43892" startWordPosition="7229"> of SCCmec in 23 MRSP isolates, as confirmed by M-PCR 4 and PCR 3, matched the DNA sequence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibi</context>
+</contexts>
+<marker>3.</marker>
+<rawString>Bannoehr, J., N. L. Ben Zakour, A. S. Waller, L. Guardabassi, K. L. Thoday, A. H. M. van den Broek, and J. R. Fitzgerald. 2007. Population genetic structure of the Staphylococcus intermedius group: insights into agr diversification and the emergence of methicillin-resistant strains. J. Bacteriol. 189: 8685–8692.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Bannoehr</author>
+<author>A Franco</author>
+<author>M Iurescia</author>
+<author>A Battisti</author>
+<author>J R Fitzgerald</author>
+</authors>
+<title>Molecular diagnostic identification of Staphylococcus pseudintermedius.</title>
+<date>2009</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>47--469</pages>
+<contexts>
+<context citStr="(4)" endWordPosition="1857" position="12503" startWordPosition="1857">ples were then maintained at 4°C. To identify the species of isolates other than S. aureus, direct sequencing of the sodA and hsp60 genes was performed as previously described (19, 37, 39). Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (18). The type of ccr complex was determined by M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5). Moreover, M-PCR 4 was performed to determine the structure of SCCmec using the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase (Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec type III isolates by PCR 3. The primer sequences are listed i</context>
+</contexts>
+<marker>4.</marker>
+<rawString>Bannoehr, J., A. Franco, M. Iurescia, A. Battisti, and J. R. Fitzgerald. 2009. Molecular diagnostic identification of Staphylococcus pseudintermedius. J. Clin. Microbiol. 47:469–471.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M V Boost</author>
+<author>M M O’Donoghue</author>
+<author>K H G Siu</author>
+</authors>
+<title>Characterisation of methicillin-resistant Staphylococcus aureus isolates from dogs and their owners.</title>
+<date>2007</date>
+<journal>Clin. Microbiol. Infect.</journal>
+<pages>13--731</pages>
+<contexts>
+<context citStr="(5)" endWordPosition="551" position="3792" startWordPosition="551">or the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40</context>
+<context citStr="(5, 31)" endWordPosition="5060" position="31788" startWordPosition="5059">requency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous studies have also reported that the prevalence of MRSA among dogs and cats was low (5, 31). Manian reported a case in which MRSA colonization was detected in a dog, which was believed to be the source of recurrent MRSA infection in its owner, a diabetes patient, and his wife; the dog was believed to have contracted the infection through contact with the owner (24). Another previous study reported MRSA colonization in a dog whose owner was a nurse caring for MRSA patients; it was concluded that the dog contracted the infection from the nurse, who was found to be a carrier of MRSA infection (50). Thus, human MRSA carriers can also be a source of MRSA infection in animals encountered </context>
+<context citStr="(5)" endWordPosition="5440" position="34112" startWordPosition="5440">ns and staff members in the veterinary hospital was found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008, respectively. These frequencies are comparable to the values reported in a previous study in the United Kingdom (17.9%) (21) and that reported in a study of veterinary personnel attending a veterinary surgery conference (17.3%) (6); however, these values were higher than those reported in a Japanese veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients witho</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Boost, M. V., M. M. O’Donoghue, and K. H. G. Siu. 2007. Characterisation of methicillin-resistant Staphylococcus aureus isolates from dogs and their owners. Clin. Microbiol. Infect. 13:731–733.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L C Burstiner</author>
+<author>M Faires</author>
+<author>J S Weese</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus aureus colonization in personnel attending a veterinary surgery conference.</title>
+<date>2010</date>
+<journal>Vet. Surg.</journal>
+<pages>39--150</pages>
+<contexts>
+<context citStr="(6)" endWordPosition="594" position="4099" startWordPosition="594">an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produ</context>
+<context citStr="(6, 12, 28)" endWordPosition="4946" position="31100" startWordPosition="4944">SION Our study revealed that two factors were independently associated with MRSA carriage: (i) contact with an identified animal MRSA case, and (ii) being an employee of a veterinary hospital or a nonclinical laboratory (versus being a student). It is suggested that animal patients spread MRSA infection among human individuals in veterinary hospitals. Contact with MRSA-infected animals has previously been identified as a risk factor among equine veterinarians (1); however, it has never been identified among companion-animal veterinarians and personnel attending a veterinary surgery conference (6, 12, 28). The higher risk of MRSA carriage among employees might be attributed to their frequency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous st</context>
+<context citStr="(6)" endWordPosition="5398" position="33852" startWordPosition="5398">tment to which the veterinarian belonged. This clone might, therefore, have spread from the veterinarian to the dog patient by direct contact or through the medium of contaminated environments. In this study, the frequencies of MRSA infection among veterinarians and staff members in the veterinary hospital was found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008, respectively. These frequencies are comparable to the values reported in a previous study in the United Kingdom (17.9%) (21) and that reported in a study of veterinary personnel attending a veterinary surgery conference (17.3%) (6); however, these values were higher than those reported in a Japanese veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived</context>
+</contexts>
+<marker>6.</marker>
+<rawString>Burstiner, L. C., M. Faires, and J. S. Weese. 2010. Methicillin-resistant Staphylococcus aureus colonization in personnel attending a veterinary surgery conference. Vet. Surg. 39:150–157.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>CLSI</author>
+</authors>
+<title>Performance standards for antimicrobial disk dilution susceptibility tests for bacteria isolated from animals; approved standard M31-A3,</title>
+<date>2008</date>
+<booktitle>Clinical and Laboratory Standards Institute,</booktitle>
+<volume>28</volume>
+<editor>3rd ed.,</editor>
+<location>Wayne, PA.</location>
+<contexts>
+<context citStr="(7)" endWordPosition="1980" position="13215" startWordPosition="1980">types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (18). The type of ccr complex was determined by M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5). Moreover, M-PCR 4 was performed to determine the structure of SCCmec using the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase (Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec type III isolates by PCR 3. The primer sequences are listed in Table 1. Antimicrobial susceptibility testing. We performed MIC determinations for 14 antimicrobial agents (7). For the isolates obtained in 2007, MIC tests were conducted using the agar dilution method with Mueller-Hinton agar (Oxoid Ltd., Hampshire, United Kingdom). The following antimicrobial agents were tested: oxacillin, ampicillin, cefazolin, kanamycin, gentamicin, erythromycin, chloramphenicol, minocycline, oxytetracycline, vancomycin, and enrofloxacin (all from Sigma-Aldrich Japan K. K., Tokyo, Japan); imipenem (Banyu Pharmaceutical Co., Ltd., Tokyo, Japan); arbekacin (Meiji Seika Ltd., Tokyo, Japan); and teicoplanin (Astellas Pharma Inc., Tokyo, Japan). For the isolates obtained in 2008, we u</context>
+</contexts>
+<marker>7.</marker>
+<rawString>CLSI. 2008. Performance standards for antimicrobial disk dilution susceptibility tests for bacteria isolated from animals; approved standard M31-A3, 3rd ed., vol. 28, no. 8. Clinical and Laboratory Standards Institute, Wayne, PA.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Descloux</author>
+<author>A Rossano</author>
+<author>V Perreten</author>
+</authors>
+<title>Characterization of new staphylococcal cassette chromosome mec (SCCmec) and topoisomerase genes in fluoroquinolone- and methicillin-resistant Staphylococcus pseudintermedius.</title>
+<date>2008</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>46--1818</pages>
+<contexts>
+<context citStr="(8)" endWordPosition="7124" position="43270" startWordPosition="7124">ted with the veterinary hospital (5.9%) was similar to that reported previously (38). Although it was reported that some MRSP isolates from dog patients had low-level resistance to oxacillin (MIC, 2 to 4 g/ml) (38), all MRSP isolates obtained in this study showed high-level resistance to oxacillin (MIC, 16 g/ml). The CHROMagar MRSA medium might be unable to detect MRSP that has low-level resistance to oxacillin. Descloux et al. described canine MRSP isolates with a new SCCmec type II-III, resulting from a combination of S. aureus SCCmec type III and Staphylococcus epidermidis SCCmec type II (8). The structure of SCCmec in 23 MRSP isolates, as confirmed by M-PCR 4 and PCR 3, matched the DNA sequence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the pr</context>
+</contexts>
+<marker>8.</marker>
+<rawString>Descloux, S., A. Rossano, and V. Perreten. 2008. Characterization of new staphylococcal cassette chromosome mec (SCCmec) and topoisomerase genes in fluoroquinolone- and methicillin-resistant Staphylococcus pseudintermedius. J. Clin. Microbiol. 46:1818–1823.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Guardabassi</author>
+<author>M E Loeber</author>
+<author>A Jacobson</author>
+</authors>
+<title>Transmission of multiple antimicrobial-resistant Staphylococcus intermedius between dogs affected by deep pyoderma and their owners.</title>
+<date>2004</date>
+<journal>Vet. Microbiol.</journal>
+<pages>98--23</pages>
+<contexts>
+<context citStr="(9)" endWordPosition="7291" position="44286" startWordPosition="7291">P isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were multidrug resistant but susceptible to the antibiotics used for treating MRSA infection in medical practice. All of the MRSP isolates were susceptible to imipenem and minocycline, although most of the MRSA isolates were resistant to these antibiotics. On the other hand, MRSS was susceptible to most antibiot</context>
+</contexts>
+<marker>9.</marker>
+<rawString>Guardabassi, L., M. E. Loeber, and A. Jacobson. 2004. Transmission of multiple antimicrobial-resistant Staphylococcus intermedius between dogs affected by deep pyoderma and their owners. Vet. Microbiol. 98:23–27.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Z Han</author>
+<author>E Lautenbach</author>
+<author>N Fishman</author>
+<author>I Nachamkin</author>
+</authors>
+<title>Evaluation of mannitol salt agar, CHROMagar Staph aureus and CHROMagar MRSA for detection of meticillin-resistant Staphylococcus aureus from nasal swab specimens.</title>
+<date>2007</date>
+<journal>J. Med. Microbiol.</journal>
+<pages>56--43</pages>
+<contexts>
+<context citStr="(10, 45)" endWordPosition="6852" position="41554" startWordPosition="6851">on. Loeffler et al. reported that the isolation frequency of MRSA from the buccal swabs of dogs was as high as that from the nasal swabs (21). However, in another previous study, the nasal, axillary, and rectal swabs of dogs were tested for isolation MRSA, and the MRSA isolate was obtained only from the rectum (11). Combination sampling of the nasal, buccal, and rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/liter oxacillin and after the enrichment of staphylococci in broth containing 7.5% sodium chloride (11). In other studies, MRSP isolates were selected from staphylococcal strains by testing their susceptibility to oxacillin (38, 40). The CHROMagar MRSA medium used in this study contained 6 mg/liter cefoxitin. Although we did not determine the MICs of cefoxitin for the MRSP isolates obtained in this study, we found that approximately half of the MRSP isolates were su</context>
+</contexts>
+<marker>10.</marker>
+<rawString>Han, Z., E. Lautenbach, N. Fishman, and I. Nachamkin. 2007. Evaluation of mannitol salt agar, CHROMagar Staph aureus and CHROMagar MRSA for detection of meticillin-resistant Staphylococcus aureus from nasal swab specimens. J. Med. Microbiol. 56:43–46.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B A Hanselman</author>
+<author>S Kruth</author>
+<author>J S Weese</author>
+</authors>
+<title>Methicillin-resistant staphylococcal colonization in dogs entering a veterinary teaching hospital.</title>
+<date>2008</date>
+<journal>Vet. Microbiol.</journal>
+<pages>126--277</pages>
+<contexts>
+<context citStr="(11, 31, 38, 40, 52)" endWordPosition="628" position="4397" startWordPosition="624"> to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr co</context>
+<context citStr="(11)" endWordPosition="6804" position="41262" startWordPosition="6804">ion (1). MRSA was not detected in the five buccal mucosa samples of dogs owned by MRCPS-positive individuals. We chose buccal swab and not nasal swab, which is the traditional sample for MRSA isolation, because sampling from dogs was done at home by each owner without enough immobilization. Loeffler et al. reported that the isolation frequency of MRSA from the buccal swabs of dogs was as high as that from the nasal swabs (21). However, in another previous study, the nasal, axillary, and rectal swabs of dogs were tested for isolation MRSA, and the MRSA isolate was obtained only from the rectum (11). Combination sampling of the nasal, buccal, and rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/liter oxacillin and after the enrichment of staphylococci in broth containing 7.5% sodium chloride (11). In other studies, MRSP isolates were selected from staphylococcal strains</context>
+</contexts>
+<marker>11.</marker>
+<rawString>Hanselman, B. A., S. Kruth, and J. S. Weese. 2008. Methicillin-resistant staphylococcal colonization in dogs entering a veterinary teaching hospital. Vet. Microbiol. 126:277–281.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B A Hanselman</author>
+<author>S A Kruth</author>
+<author>J Rousseau</author>
+<author>D E Low</author>
+<author>B M Willey</author>
+<author>A McGeer</author>
+<author>J S Weese</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus aureus colonization in veterinary personnel.</title>
+<date>2006</date>
+<journal>Emerg. Infect. Dis.</journal>
+<pages>12--1933</pages>
+<contexts>
+<context citStr="(12)" endWordPosition="567" position="3907" startWordPosition="567"> in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese</context>
+<context citStr="(6, 12, 28)" endWordPosition="4946" position="31100" startWordPosition="4944">SION Our study revealed that two factors were independently associated with MRSA carriage: (i) contact with an identified animal MRSA case, and (ii) being an employee of a veterinary hospital or a nonclinical laboratory (versus being a student). It is suggested that animal patients spread MRSA infection among human individuals in veterinary hospitals. Contact with MRSA-infected animals has previously been identified as a risk factor among equine veterinarians (1); however, it has never been identified among companion-animal veterinarians and personnel attending a veterinary surgery conference (6, 12, 28). The higher risk of MRSA carriage among employees might be attributed to their frequency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous st</context>
+</contexts>
+<marker>12.</marker>
+<rawString>Hanselman, B. A., S. A. Kruth, J. Rousseau, D. E. Low, B. M. Willey, A. McGeer, and J. S. Weese. 2006. Methicillin-resistant Staphylococcus aureus colonization in veterinary personnel. Emerg. Infect. Dis. 12:1933–1938.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Heller</author>
+<author>S K Armstrong</author>
+<author>E K Girvan</author>
+<author>S W J Reid</author>
+<author>A Moodley</author>
+<author>D J Mellor</author>
+</authors>
+<title>Prevalence and distribution of meticillin-resistant Staphylococcus aureus within the environment and staff of a university veterinary clinic.</title>
+<date>2009</date>
+<journal>J. Small Anim. Pract.</journal>
+<pages>50--168</pages>
+<contexts>
+<context citStr="(13)" endWordPosition="467" position="3320" startWordPosition="467">l-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, B</context>
+<context citStr="(13)" endWordPosition="889" position="6148" startWordPosition="889">STITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to establish the transmission route of MRCPS in a veterinary hospital and with a view to preventing the spread of MRCPS infection. In addition, we evaluated the factors associated with MRCPS. Further, as Heller et al. have reported the distribution of MRSA within veterinary hospital environments and suggested the necessity to review cleaning protocols of hospital environments (13), we also attempted to isolate MRCPS from environmental samples collected in a veterinary hospital for an evaluation of MRSA transmission cycle though environmental surfaces in the veterinary hospital. MATERIALS AND METHODS Sampling. This study was approved by the Ethics Committee of the Graduate School of Dairy Science, Rakuno Gakuen University (RGU). Volunteers were recruited to provide the nasal swabs for the isolation of MRCPS from staff affiliated with the Department of Veterinary Companion Animals (DVCA) of the veterinary hospital and with three nonclinical laboratories in the School of </context>
+<context citStr="(13)" endWordPosition="5418" position="33986" startWordPosition="5418"> contact or through the medium of contaminated environments. In this study, the frequencies of MRSA infection among veterinarians and staff members in the veterinary hospital was found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008, respectively. These frequencies are comparable to the values reported in a previous study in the United Kingdom (17.9%) (21) and that reported in a study of veterinary personnel attending a veterinary surgery conference (17.3%) (6); however, these values were higher than those reported in a Japanese veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to</context>
+<context citStr="(13, 21)" endWordPosition="7520" position="45819" startWordPosition="7519">fore implementing strategies for MRSA infection control in veterinary medical practice. The molecular and epidemiological analyses undertaken in the present study could provide some information regarding the transmission of MRSA between humans and companion animals in a veterinary hospital. MRSA carriers can be a source of MRSA infection in animals. MRSA animal patients may then, in turn, lead to MRSA infection in other individuals. Moreover, MRSA contamination was detected in the veterinary hospital environment. MRSA contamination in veterinary hospitals has been reported in previous studies (13, 21). These observations suggest that there is a dynamic transmission cycle 5172 ISHIHARA ET AL. APPL. ENVIRON. MICROBIOL. o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from of MRSA in veterinary hospitals similar to that occurring in human hospital environments. ACKNOWLEDGMENTS We thank the staff and students of Rakuno Gakuen University for providing samples. This work was supported in part by a grant-in-aid from the Ministry of Health, Labor and Welfare (H21-Shokuhin-Ippan-013) and the Food Safety Commission of the Cabine</context>
+</contexts>
+<marker>13.</marker>
+<rawString>Heller, J., S. K. Armstrong, E. K. Girvan, S. W. J. Reid, A. Moodley, and D. J. Mellor. 2009. Prevalence and distribution of meticillin-resistant Staphylococcus aureus within the environment and staff of a university veterinary clinic. J. Small Anim. Pract. 50:168–173.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Hisata</author>
+<author>K Kuwahara-Arai</author>
+<author>M Yamanoto</author>
+<author>T Ito</author>
+<author>Y Nakatomi</author>
+<author>L Cui</author>
+<author>T Baba</author>
+<author>M Terasawa</author>
+<author>C Sotozono</author>
+<author>S Kinoshita</author>
+<author>Y Yamashiro</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Dissemination of methicillin-resistant staphylococci among healthy Japanese children.</title>
+<date>2005</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>43--3364</pages>
+<contexts>
+<context citStr="(14, 32, 36, 49)" endWordPosition="410" position="2999" startWordPosition="407"> of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice. Methicillin-resistant Staphylococcus aureus (MRSA) is an important cause of nosocomial infections in human hospitals. The prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 ou</context>
+<context citStr="(14)" endWordPosition="5558" position="34852" startWordPosition="5558">tients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients without established risk factors for HA-MRSA (36). Moreover, MRSA isolates with SCCmec type II have also been isolated from healthy children (14); thus, infection of this MRSA clone has already spread from hospital environments to a wider community, including veterinary staff and animal patients, in Japan. Zaraket et al. reported that a MRSA clone with SCCmec type II has continued to colonize hospitals in Japan and has undergone genomic divergence (54). In the present study, all but two MRSA isolates with SCCmec type II had spa type t002; the remaining two isolates had spa type t062 and t1265. Unlike spa type t002, the spa type t062 has a deletion in the middle three repeats (34-17-20) of t002, whereas the spa type t1265 has a double r</context>
+<context citStr="(14)" endWordPosition="7399" position="45003" startWordPosition="7399">are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were multidrug resistant but susceptible to the antibiotics used for treating MRSA infection in medical practice. All of the MRSP isolates were susceptible to imipenem and minocycline, although most of the MRSA isolates were resistant to these antibiotics. On the other hand, MRSS was susceptible to most antibiotics. Hisata et al. reported that MIC to oxacillin and imipenem differed between SCCmec types or subtypes of MRSA (14). The degree of susceptibilities to cefazolin and imipenem differed in the SCCmec types and bacterial species in this study. It is necessary to obtain information regarding the prevalence of MRSA infection before implementing strategies for MRSA infection control in veterinary medical practice. The molecular and epidemiological analyses undertaken in the present study could provide some information regarding the transmission of MRSA between humans and companion animals in a veterinary hospital. MRSA carriers can be a source of MRSA infection in animals. MRSA animal patients may then, in turn, </context>
+</contexts>
+<marker>14.</marker>
+<rawString>Hisata, K., K. Kuwahara-Arai, M. Yamanoto, T. Ito, Y. Nakatomi, L. Cui, T. Baba, M. Terasawa, C. Sotozono, S. Kinoshita, Y. Yamashiro, and K. Hiramatsu. 2005. Dissemination of methicillin-resistant staphylococci among healthy Japanese children. J. Clin. Microbiol. 43:3364–3372.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Hososaka</author>
+<author>H Hanaki</author>
+<author>C Yanagisawa</author>
+<author>Y Yamaguchi</author>
+<author>H Matsui</author>
+<author>T Nakae</author>
+<author>S Iwata</author>
+<author>I Hayashi</author>
+<author>K Sunakawa</author>
+</authors>
+<title>Nosocomial infection of -lactam antibiotic-induced vancomycin-resistant Staphylococcus aureus (BIVR).</title>
+<date>2006</date>
+<journal>J. Infect. Chemother.</journal>
+<pages>12--181</pages>
+<contexts>
+<context citStr="(2, 15)" endWordPosition="2121" position="14246" startWordPosition="2120">armaceutical Co., Ltd., Tokyo, Japan); arbekacin (Meiji Seika Ltd., Tokyo, Japan); and teicoplanin (Astellas Pharma Inc., Tokyo, Japan). For the isolates obtained in 2008, we used the broth microdilution method with an Eiken frozen plate (Eiken Chemistry Co. Ltd.). Again, we tested 14 antimicrobial agents, 12 of which were the same as those tested for the 2007 isolates. This time, however, we used tetracycline and ciprofloxacin instead of oxytetracycline and enrofloxacin. Molecular typing. Pulsed-field gel electrophoresis (PFGE) analysis for MRSA isolates was performed as previously described (2, 15). Briefly, bacterial cultures were grown overnight in Mueller-Hinton broth (Oxoid Ltd.) and resuspended in TN buffer (10 mM Tris, 1 M NaCl, pH 8.0). The cultures were mixed with the same volume of 2% UltraPure low-melting-point (LMP) agarose (Invitrogen Japan Ltd., Tokyo, Japan), dissolved in TN buffer, and pipetted into a plug mold. After bacterial lysis in a lysis buffer containing 5 mg/ml lysozyme (Wako Pure Chemical Industries, Ltd., Osaka, Japan) and 20 g/ml lysostaphin (SigmaAldrich Japan K. K.), genomic DNA was digested with SmaI (Takara Bio, Ltd.). PFGE was performed using a CHEF-DRII</context>
+</contexts>
+<marker>15.</marker>
+<rawString>Hososaka, Y., H. Hanaki, C. Yanagisawa, Y. Yamaguchi, H. Matsui, T. Nakae, S. Iwata, I. Hayashi, and K. Sunakawa. 2006. Nosocomial infection of -lactam antibiotic-induced vancomycin-resistant Staphylococcus aureus (BIVR). J. Infect. Chemother. 12:181–184.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Ito</author>
+<author>Y Katayama</author>
+<author>K Asada</author>
+<author>N Mori</author>
+<author>K Tsutsumimoto</author>
+<author>C Tiensasitorn</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Structural comparison of three types of staphylococcal cassette chromosome mec integrated in the chromosome in methicillin-resistant Staphylococcus aureus. Antimicrob. Agents Chemother.</title>
+<date>2001</date>
+<pages>45--1323</pages>
+<contexts>
+<context citStr="(16)" endWordPosition="720" position="5009" startWordPosition="720">solates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â ht</context>
+<context citStr="(16)" endWordPosition="1911" position="12780" startWordPosition="1911">ncing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (18). The type of ccr complex was determined by M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5). Moreover, M-PCR 4 was performed to determine the structure of SCCmec using the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase (Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec type III isolates by PCR 3. The primer sequences are listed in Table 1. Antimicrobial susceptibility testing. We performed MIC determinations for 14 antimicrobial agents (7). For the isolates obtained in 2007, MIC tests were conducted using the agar dilution method with Mueller-Hinton agar (Oxoid Ltd., Hampshire, United Kingdom). The fo</context>
+</contexts>
+<marker>16.</marker>
+<rawString>Ito, T., Y. Katayama, K. Asada, N. Mori, K. Tsutsumimoto, C. Tiensasitorn, and K. Hiramatsu. 2001. Structural comparison of three types of staphylococcal cassette chromosome mec integrated in the chromosome in methicillin-resistant Staphylococcus aureus. Antimicrob. Agents Chemother. 45:1323–1336.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Kikuchi</author>
+<author>N Takahashi</author>
+<author>C Piao</author>
+<author>K Totsuka</author>
+<author>H Nishida</author>
+<author>T Uchiyama</author>
+</authors>
+<title>Molecular epidemiology of methicillin-resistant Staphylococcus aureus strains causing neonatal toxic shock syndrome-like exanthematous disease in neonatal and perinatal wards.</title>
+<date>2003</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>41--3001</pages>
+<contexts>
+<context citStr="(17, 22, 36, 54)" endWordPosition="5510" position="34535" startWordPosition="5507">se veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients without established risk factors for HA-MRSA (36). Moreover, MRSA isolates with SCCmec type II have also been isolated from healthy children (14); thus, infection of this MRSA clone has already spread from hospital environments to a wider community, including veterinary staff and animal patients, in Japan. Zaraket et al. reported that a MRSA clone with SCCmec type II has continued to colonize hospitals in Japan and has under</context>
+</contexts>
+<marker>17.</marker>
+<rawString>Kikuchi, K., N. Takahashi, C. Piao, K. Totsuka, H. Nishida, and T. Uchiyama. 2003. Molecular epidemiology of methicillin-resistant Staphylococcus aureus strains causing neonatal toxic shock syndrome-like exanthematous disease in neonatal and perinatal wards. J. Clin. Microbiol. 41:3001–3006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Kondo</author>
+<author>T Ito</author>
+<author>X X Ma</author>
+<author>S Watanabe</author>
+<author>B N Kreiswirth</author>
+<author>J Etienne</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Combination of multiplex PCRs for staphylococcal cassette chromosome mec type assignment: rapid identification system for mec, ccr, and major differences in junkyard regions.</title>
+<date>2007</date>
+<journal>Antimicrob. Agents Chemother.</journal>
+<pages>51--264</pages>
+<contexts>
+<context citStr="(18)" endWordPosition="1893" position="12690" startWordPosition="1893">9). Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (18). The type of ccr complex was determined by M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5). Moreover, M-PCR 4 was performed to determine the structure of SCCmec using the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase (Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec type III isolates by PCR 3. The primer sequences are listed in Table 1. Antimicrobial susceptibility testing. We performed MIC determinations for 14 antimicrobial agents (7). For the isolates obtained in 2007, MIC tests were conducted using the aga</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Kondo, Y., T. Ito, X. X. Ma, S. Watanabe, B. N. Kreiswirth, J. Etienne, and K. Hiramatsu. 2007. Combination of multiplex PCRs for staphylococcal cassette chromosome mec type assignment: rapid identification system for mec, ccr, and major differences in junkyard regions. Antimicrob. Agents Chemother. 51:264–274.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Y Kwok</author>
+<author>A W Chow</author>
+</authors>
+<title>Phylogenetic study of Staphylococcus and Macrococcus species based on partial hsp60 gene sequences.</title>
+<date>2003</date>
+<journal>Int. J. Syst. Evol. Microbiol.</journal>
+<pages>53--87</pages>
+<contexts>
+<context citStr="(19, 37, 39)" endWordPosition="1794" position="12088" startWordPosition="1792">Cl2), 200 M (each) deoxynucleoside triphosphate (dNTP), 200 nM (each) primer (Table 1), 1 U Phusion DNA polymerase (Finnzymes, Espoo, Finland), and 1 l of sample DNA. The samples were subjected to an initial denaturation at 98°C for 30 s, followed by 30 amplification cycles, with each cycle consisting of 98°C for 5 s, 57°C for 10 s, and 72°C at 10 s. A final primer extension was performed at 72°C for 5 min, and the samples were then maintained at 4°C. To identify the species of isolates other than S. aureus, direct sequencing of the sodA and hsp60 genes was performed as previously described (19, 37, 39). Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (1</context>
+</contexts>
+<marker>19.</marker>
+<rawString>Kwok, A. Y., and A. W. Chow. 2003. Phylogenetic study of Staphylococcus and Macrococcus species based on partial hsp60 gene sequences. Int. J. Syst. Evol. Microbiol. 53:87–92.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Lina</author>
+<author>Y Piemont</author>
+<author>F Godail-Gamot</author>
+<author>M Bes</author>
+<author>M O Peter</author>
+<author>V Gauduchon</author>
+<author>F Vandenesch</author>
+<author>J Etienne</author>
+</authors>
+<title>Involvement of Panton-Valentine leukocidin-producing Staphylococcus aureus in primary skin infections and pneumonia.</title>
+<date>1999</date>
+<journal>Clin. Infect. Dis.</journal>
+<pages>29--1128</pages>
+<contexts>
+<context citStr="(20)" endWordPosition="3665" position="23059" startWordPosition="3665">.7 1 (2.9) 0.1–15.3 Staff members 2007 21 3 (14.3) 3.0–36.3 1 (4.8) 0.1–23.8 0 0–13.3 2008 19 0e 0–14.6 0 0–14.6 0 0–14.6 Students 2007 51 3 (5.9)c 1.2–16.2 1 (2.0) 0.1–10.4 0 0–5.7 2008 74 2 (2.7)d 0.3–9.4 7 (9.5) 3.9–18.5 0 0–4.0 Staff and students in nonclinical laboratories 2007 36 0 0–8.0 0 0–8.0 0 0–8.0 Companion animalsb 2007 5 0 0–45.1 3 (60) 14.7–94.7 0 0–45.1 Environment in the veterinary hospital 2007 75 5 (6.7) 2.2–14.9 10 (13.3) 6.6–23.2 0 0–3.9 2008 81 3 (3.7) 0.8–10.4 0 0–3.6 4 (4.9) 1.4–12.2 MRSA carriers after treatment for MRSA colonization 2007 10 2 (20) 1.2–31.7 a MRSA, methicillin-resistant S. aureus; MRSP, methicillin-resistant S. pseudintermedius; MRSS, methicillin-resistant S. schleiferi. b These were kept by MRSA- or MRSP-positive persons in 2007. c The percentages of MRSA carriers among veterinarians and students in 2007 were not significantly different (P 0.08). d The percentage of MRSA carriers among veterinarians in 2008 was significantly higher than that among students in 2008 (P  0.01). e The percentage of MRSA carriers among veterinarians in 2008 was significantly higher than that among staff members in 2008 (P  0.01). 5168 IS</context>
+</contexts>
+<marker>20.</marker>
+<rawString>Lina, G., Y. Piemont, F. Godail-Gamot, M. Bes, M. O. Peter, V. Gauduchon, F. Vandenesch, and J. Etienne. 1999. Involvement of Panton-Valentine leukocidin-producing Staphylococcus aureus in primary skin infections and pneumonia. Clin. Infect. Dis. 29:1128–1132.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loeffler</author>
+<author>A K Boag</author>
+<author>J Sung</author>
+<author>J A Lindsay</author>
+<author>L Guardabassi</author>
+<author>A Dalsgaard</author>
+<author>H Smith</author>
+<author>K B Stevens</author>
+<author>D H Lloyd</author>
+</authors>
+<title>Prevalence of methicillin-resistant Staphylococcus aureus among staff and pets in a small animal referral hospital in the UK.</title>
+<date>2005</date>
+<journal>J. Antimicrob. Chemother.</journal>
+<pages>56--692</pages>
+<contexts>
+<context citStr="(21)" endWordPosition="459" position="3278" startWordPosition="459">human hospitals. The prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for la</context>
+<context citStr="(21)" endWordPosition="5381" position="33745" startWordPosition="5381">three different sampling occasions. The dog patient had undergone medical examinations in the clinical department to which the veterinarian belonged. This clone might, therefore, have spread from the veterinarian to the dog patient by direct contact or through the medium of contaminated environments. In this study, the frequencies of MRSA infection among veterinarians and staff members in the veterinary hospital was found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008, respectively. These frequencies are comparable to the values reported in a previous study in the United Kingdom (17.9%) (21) and that reported in a study of veterinary personnel attending a veterinary surgery conference (17.3%) (6); however, these values were higher than those reported in a Japanese veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of </context>
+<context citStr="(21)" endWordPosition="6775" position="41087" startWordPosition="6775">neously with the disinfection of the entire hospital and implementation of hand hygiene practices, which has been reported as a strong protective factor against MRSA colonization (1). MRSA was not detected in the five buccal mucosa samples of dogs owned by MRCPS-positive individuals. We chose buccal swab and not nasal swab, which is the traditional sample for MRSA isolation, because sampling from dogs was done at home by each owner without enough immobilization. Loeffler et al. reported that the isolation frequency of MRSA from the buccal swabs of dogs was as high as that from the nasal swabs (21). However, in another previous study, the nasal, axillary, and rectal swabs of dogs were tested for isolation MRSA, and the MRSA isolate was obtained only from the rectum (11). Combination sampling of the nasal, buccal, and rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/lit</context>
+<context citStr="(13, 21)" endWordPosition="7520" position="45819" startWordPosition="7519">fore implementing strategies for MRSA infection control in veterinary medical practice. The molecular and epidemiological analyses undertaken in the present study could provide some information regarding the transmission of MRSA between humans and companion animals in a veterinary hospital. MRSA carriers can be a source of MRSA infection in animals. MRSA animal patients may then, in turn, lead to MRSA infection in other individuals. Moreover, MRSA contamination was detected in the veterinary hospital environment. MRSA contamination in veterinary hospitals has been reported in previous studies (13, 21). These observations suggest that there is a dynamic transmission cycle 5172 ISHIHARA ET AL. APPL. ENVIRON. MICROBIOL. o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from of MRSA in veterinary hospitals similar to that occurring in human hospital environments. ACKNOWLEDGMENTS We thank the staff and students of Rakuno Gakuen University for providing samples. This work was supported in part by a grant-in-aid from the Ministry of Health, Labor and Welfare (H21-Shokuhin-Ippan-013) and the Food Safety Commission of the Cabine</context>
+</contexts>
+<marker>21.</marker>
+<rawString>Loeffler, A., A. K. Boag, J. Sung, J. A. Lindsay, L. Guardabassi, A. Dalsgaard, H. Smith, K. B. Stevens, and D. H. Lloyd. 2005. Prevalence of methicillin-resistant Staphylococcus aureus among staff and pets in a small animal referral hospital in the UK. J. Antimicrob. Chemother. 56:692–697.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>X X Ma</author>
+<author>T Ito</author>
+<author>P Chongtrakool</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Predominance of clones carrying Panton-Valentine leukocidin genes among methicillinresistant Staphylococcus aureus strains isolated in Japanese hospitals from 1979 to</title>
+<date>2006</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>44--4515</pages>
+<contexts>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+<context citStr="(17, 22, 36, 54)" endWordPosition="5510" position="34535" startWordPosition="5507">se veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients without established risk factors for HA-MRSA (36). Moreover, MRSA isolates with SCCmec type II have also been isolated from healthy children (14); thus, infection of this MRSA clone has already spread from hospital environments to a wider community, including veterinary staff and animal patients, in Japan. Zaraket et al. reported that a MRSA clone with SCCmec type II has continued to colonize hospitals in Japan and has under</context>
+</contexts>
+<marker>22.</marker>
+<rawString>Ma, X. X., T. Ito, P. Chongtrakool, and K. Hiramatsu. 2006. Predominance of clones carrying Panton-Valentine leukocidin genes among methicillinresistant Staphylococcus aureus strains isolated in Japanese hospitals from 1979 to 1985. J. Clin. Microbiol. 44:4515–4527.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Malik</author>
+<author>G W Coombs</author>
+<author>F G O’Brien</author>
+<author>H Peng</author>
+<author>M D Barton</author>
+</authors>
+<title>Molecular typing of methicillin-resistant staphylococci isolated from cats and dogs.</title>
+<date>2006</date>
+<journal>J. Antimicrob. Chemother.</journal>
+<pages>58--428</pages>
+<marker>23.</marker>
+<rawString>Malik, S., G. W. Coombs, F. G. O’Brien, H. Peng, and M. D. Barton. 2006. Molecular typing of methicillin-resistant staphylococci isolated from cats and dogs. J. Antimicrob. Chemother. 58:428–431.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F A Manian</author>
+</authors>
+<title>Asymptomatic nasal carriage of mupirocin-resistant, methicillin-resistant Staphylococcus aureus (MRSA) in a pet dog associated with MRSA infection in household contacts.</title>
+<date>2003</date>
+<journal>Clin. Infect. Dis.</journal>
+<volume>36</volume>
+<contexts>
+<context citStr="(24)" endWordPosition="5110" position="32064" startWordPosition="5110">it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous studies have also reported that the prevalence of MRSA among dogs and cats was low (5, 31). Manian reported a case in which MRSA colonization was detected in a dog, which was believed to be the source of recurrent MRSA infection in its owner, a diabetes patient, and his wife; the dog was believed to have contracted the infection through contact with the owner (24). Another previous study reported MRSA colonization in a dog whose owner was a nurse caring for MRSA patients; it was concluded that the dog contracted the infection from the nurse, who was found to be a carrier of MRSA infection (50). Thus, human MRSA carriers can also be a source of MRSA infection in animals encountered in veterinary medical practice. In the present study, the MRSA isolate with SCCmec type FIG. 1. PFGE dendrogram showing percentage similarities calculated by Dice coefficient (tolerance of 1% and optimization of 1%) and SCCmec and spa types of MRSA isolates. The MRSA isolates</context>
+<context citStr="(24, 50)" endWordPosition="6601" position="40033" startWordPosition="6600">ported that MRSA isolates harboring SCCmec type I obtained from inpatients belong to ST 8 or ST 30 strains (36, 54). There is little data regarding multilocus sequence analysis of MRSA having spa type t1767; however, the only MRSA with spa type t1767, which was isolated in Hong Kong, belonged to ST8 (http://www.spaserver.ridom.de/). Although the 10 human MRSA carriers were treated to eradicate colonization, two of these carriers were found to be harboring MRSA isolates even after 1 month of treatment. Recurrent MRSA infection in a patient and healthy MRSA carriers has been reported previously (24, 50). The genotype of MRSA from a recurrent carrier changed from SCCmec type II without kdp gene and spa type t1265 to SCCmec type II harboring the kdp gene and spa type t002. Because the latter genotype was more common among the MRSA isolates obtained from veterinary staff and environmental surfaces, this carrier might be infected from other MRSA carriers or contaminated environmental surfaces. Treatment of MRSA carriers should be undertaken simultaneously with the disinfection of the entire hospital and implementation of hand hygiene practices, which has been reported as a strong protective fact</context>
+</contexts>
+<marker>24.</marker>
+<rawString>Manian, F. A. 2003. Asymptomatic nasal carriage of mupirocin-resistant, methicillin-resistant Staphylococcus aureus (MRSA) in a pet dog associated with MRSA infection in household contacts. Clin. Infect. Dis. 36:e26–e28.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C L McLean</author>
+<author>M G Ness</author>
+</authors>
+<title>Meticillin-resistant Staphylococcus aureus in a veterinary orthopaedic referral hospital: staff nasal colonisation and incidence of clinical cases.</title>
+<date>2008</date>
+<journal>J. Small Anim. Pract.</journal>
+<pages>49--170</pages>
+<marker>25.</marker>
+<rawString>McLean, C. L., and M. G. Ness. 2008. Meticillin-resistant Staphylococcus aureus in a veterinary orthopaedic referral hospital: staff nasal colonisation and incidence of clinical cases. J. Small Anim. Pract. 49:170–177.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J R Middleton</author>
+<author>W H Fales</author>
+<author>C D Luby</author>
+<author>J L Oaks</author>
+<author>S Sanchez</author>
+<author>J M Kinyon</author>
+<author>C C Wu</author>
+<author>C W Maddox</author>
+<author>R D Welsh</author>
+<author>F Hartmann</author>
+</authors>
+<title>Surveillance of Staphylococcus aureus in veterinary teaching hospitals.</title>
+<date>2005</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>43--2916</pages>
+<marker>26.</marker>
+<rawString>Middleton, J. R., W. H. Fales, C. D. Luby, J. L. Oaks, S. Sanchez, J. M. Kinyon, C. C. Wu, C. W. Maddox, R. D. Welsh, and F. Hartmann. 2005. Surveillance of Staphylococcus aureus in veterinary teaching hospitals. J. Clin. Microbiol. 43:2916–2919.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Milheirico</author>
+<author>D C Oliveira</author>
+<author>H de Lencastre</author>
+</authors>
+<title>Update to the multiplex PCR strategy for assignment of mec element types in Staphylococcus aureus.</title>
+<date>2007</date>
+<journal>Antimicrob. Agents Chemother.</journal>
+<pages>51--3374</pages>
+<contexts>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+</contexts>
+<marker>27.</marker>
+<rawString>Milheirico, C., D. C. Oliveira, and H. de Lencastre. 2007. Update to the multiplex PCR strategy for assignment of mec element types in Staphylococcus aureus. Antimicrob. Agents Chemother. 51:3374–3377.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Moodley</author>
+<author>E C Nightingale</author>
+<author>M Stegger</author>
+<author>S S Nielsen</author>
+<author>R L Skov</author>
+<author>L Guardabassi</author>
+</authors>
+<title>High risk for nasal carriage of methicillin-resistant Staphylococcus aureus among Danish veterinary practitioners.</title>
+<date>2008</date>
+<journal>Scand. J. Work Environ. Health</journal>
+<pages>34--151</pages>
+<contexts>
+<context citStr="[28]" endWordPosition="4301" position="27125" startWordPosition="4301">ters (clusters A to L) of MRSA. Band position tolerance and optimization were both set at 1.0%. Similarities among the SCCmec type II isolates that harbored both pUB110 and kdp were higher than those among isolates that had lost either pUB110 or kdp. MRSA isolates with SCCmec type II in clusters I and J had spa type t062 and t1265, respectively. The remaining 25 MRSA isolates with SCCmec type II had spa type t002. All eight MRSA isolates with SCCmec type IV had spa type t008. All three MRSA isolates with SCCmec type I had spa type t1767. Two spa type t002 MRSA isolates in cluster G (2007-IM11 [28] and 2008-98 [28]) were isolated from a nasal sample from a veterinarian after treatment for MRSA carriage in November 2007 and in 2008; however, an MRSA isolate from the same veterinarian before treatment was grouped in cluster J and did not harbor kdp. The three spa type t008 isolates in cluster B were obtained from the same veterinarian, before and after treatment (March and November 2007 and February 2008). Twenty-three MRSP isolates carried a class A mec complex and a type 3 ccr complex. The absence of insertion Tn554 (loci E and F were negative, according to M-PCR 4) and pT181 (locus H) </context>
+</contexts>
+<marker>28.</marker>
+<rawString>Moodley, A., E. C. Nightingale, M. Stegger, S. S. Nielsen, R. L. Skov, and L. Guardabassi. 2008. High risk for nasal carriage of methicillin-resistant Staphylococcus aureus among Danish veterinary practitioners. Scand. J. Work Environ. Health 34:151–157.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Moodley</author>
+<author>M Stegger</author>
+<author>A F Bagcigil</author>
+<author>K E Baptiste</author>
+<author>A Loeffler</author>
+<author>D H Lloyd</author>
+<author>N J Williams</author>
+<author>N Leonard</author>
+<author>Y Abbott</author>
+<author>R Skov</author>
+<author>L Guardabassi</author>
+</authors>
+<contexts>
+<context citStr="(29)" endWordPosition="6434" position="39006" startWordPosition="6434">SS,m ethicillin-resistant S.schleiferi;U T ,untypeable. b R ange of M IC s for SC C m ec types I,II,and IV w ith ( ) and w ithout ( ) pU B 110 and the kdp or pls gene.T he num ber of isolates is show n in the parentheses after the SC C m ec type. cT etracycline and ciprofloxacin w ere used to test isolates obtained in 2008. d O xytetracycline and enrofloxacin w ere used to test isolates obtained in 2007. VOL. 76, 2010 OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5171 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from type (29). A combination of PFGE and spa typing was more useful than either method alone in discriminating MRSA isolates. MRSA isolates with SCCmec type I were obtained only in 2008, and these isolates also had spa type t1767. Isolates with SCCmec type I are not commonly encountered in human hospitals; however, they are sometimes isolated from Japanese hospital inpatients at risk of HA-MRSA infection (36, 54). It has been reported that MRSA isolates harboring SCCmec type I obtained from inpatients belong to ST 8 or ST 30 strains (36, 54). There is little data regarding multilocus sequence analysis of M</context>
+</contexts>
+<marker>29.</marker>
+<rawString>Moodley, A., M. Stegger, A. F. Bagcigil, K. E. Baptiste, A. Loeffler, D. H. Lloyd, N. J. Williams, N. Leonard, Y. Abbott, R. Skov, and L. Guardabassi.</rawString>
+</citation>
+<citation valid="false">
+<title>spa typing of methicillin-resistant Staphylococcus aureus isolated from domestic animals and veterinary staff in the UK and Ireland.</title>
+<journal>J. Antimicrob. Chemother.</journal>
+<pages>58--1118</pages>
+<marker>2006.</marker>
+<rawString>spa typing of methicillin-resistant Staphylococcus aureus isolated from domestic animals and veterinary staff in the UK and Ireland. J. Antimicrob. Chemother. 58:1118–1123.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Moodley</author>
+<author>M Stegger</author>
+<author>N L Ben Zakour</author>
+<author>J R Fitzgerald</author>
+<author>L Guardabassi</author>
+</authors>
+<title>Tandem repeat sequence analysis of staphylococcal protein A (spa) gene in methicillin-resistant Staphylococcus pseudintermedius.</title>
+<date>2009</date>
+<journal>Vet. Microbiol.</journal>
+<pages>135--320</pages>
+<contexts>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+<context citStr="(8, 30, 38)" endWordPosition="7187" position="43622" startWordPosition="7185">ight be unable to detect MRSP that has low-level resistance to oxacillin. Descloux et al. described canine MRSP isolates with a new SCCmec type II-III, resulting from a combination of S. aureus SCCmec type III and Staphylococcus epidermidis SCCmec type II (8). The structure of SCCmec in 23 MRSP isolates, as confirmed by M-PCR 4 and PCR 3, matched the DNA sequence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius s</context>
+</contexts>
+<marker>30.</marker>
+<rawString>Moodley, A., M. Stegger, N. L. Ben Zakour, J. R. Fitzgerald, and L. Guardabassi. 2009. Tandem repeat sequence analysis of staphylococcal protein A (spa) gene in methicillin-resistant Staphylococcus pseudintermedius. Vet. Microbiol. 135:320–326.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D O Morris</author>
+<author>K A Rook</author>
+<author>F S Shofer</author>
+<author>S C Rankin</author>
+</authors>
+<title>Screening of Staphylococcus aureus, Staphylococcus intermedius, and Staphylococcus schleiferi isolates obtained from small companion animals for antimicrobial resistance: a retrospective review of 749 isolates (2003–04).</title>
+<date>2006</date>
+<tech>Vet. Dermatol. 17:332–337.</tech>
+<contexts>
+<context citStr="(31)" endWordPosition="537" position="3716" startWordPosition="537">ion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), iso</context>
+<context citStr="(5, 31)" endWordPosition="5060" position="31788" startWordPosition="5059">requency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous studies have also reported that the prevalence of MRSA among dogs and cats was low (5, 31). Manian reported a case in which MRSA colonization was detected in a dog, which was believed to be the source of recurrent MRSA infection in its owner, a diabetes patient, and his wife; the dog was believed to have contracted the infection through contact with the owner (24). Another previous study reported MRSA colonization in a dog whose owner was a nurse caring for MRSA patients; it was concluded that the dog contracted the infection from the nurse, who was found to be a carrier of MRSA infection (50). Thus, human MRSA carriers can also be a source of MRSA infection in animals encountered </context>
+</contexts>
+<marker>31.</marker>
+<rawString>Morris, D. O., K. A. Rook, F. S. Shofer, and S. C. Rankin. 2006. Screening of Staphylococcus aureus, Staphylococcus intermedius, and Staphylococcus schleiferi isolates obtained from small companion animals for antimicrobial resistance: a retrospective review of 749 isolates (2003–04). Vet. Dermatol. 17:332–337.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T S Naimi</author>
+<author>K H LeDell</author>
+<author>D J Boxrud</author>
+<author>A V Groom</author>
+<author>C D Steward</author>
+<author>S K Johnson</author>
+<author>J M Besser</author>
+<author>C O’Boyle</author>
+<author>R N Danila</author>
+<author>J E Cheek</author>
+<author>M T Osterholm</author>
+<author>K A Moore</author>
+<author>K E Smith</author>
+</authors>
+<title>Epidemiology and clonality of community-acquired methicillin-resistant Staphylococcus aureus in</title>
+<date>2001</date>
+<journal>Clin. Infect. Dis.</journal>
+<pages>33--990</pages>
+<location>Minnesota,</location>
+<contexts>
+<context citStr="(14, 32, 36, 49)" endWordPosition="410" position="2999" startWordPosition="407"> of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice. Methicillin-resistant Staphylococcus aureus (MRSA) is an important cause of nosocomial infections in human hospitals. The prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 ou</context>
+<context citStr="(32, 36, 49)" endWordPosition="7321" position="44510" startWordPosition="7319"> been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were multidrug resistant but susceptible to the antibiotics used for treating MRSA infection in medical practice. All of the MRSP isolates were susceptible to imipenem and minocycline, although most of the MRSA isolates were resistant to these antibiotics. On the other hand, MRSS was susceptible to most antibiotics. Hisata et al. reported that MIC to oxacillin and imipenem differed between SCCmec types or subtypes of MRSA (14). The degree of susceptibilities to cefazolin and imipenem differed in the SCCmec types and bacterial speci</context>
+</contexts>
+<marker>32.</marker>
+<rawString>Naimi, T. S., K. H. LeDell, D. J. Boxrud, A. V. Groom, C. D. Steward, S. K. Johnson, J. M. Besser, C. O’Boyle, R. N. Danila, J. E. Cheek, M. T. Osterholm, K. A. Moore, and K. E. Smith. 2001. Epidemiology and clonality of community-acquired methicillin-resistant Staphylococcus aureus in Minnesota, 1996–1998. Clin. Infect. Dis. 33:990–996.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D C Oliveira</author>
+<author>H de Lencastre</author>
+</authors>
+<title>Multiplex PCR strategy for rapid identification of structural types and variants of the mec element in methicillin-resistant Staphylococcus aureus.</title>
+<date>2002</date>
+<journal>Antimicrob. Agents Chemother.</journal>
+<volume>46</volume>
+<pages>2155--2161</pages>
+<contexts>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+<context citStr="(33)" endWordPosition="1938" position="12935" startWordPosition="1938">MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (18). The type of ccr complex was determined by M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5). Moreover, M-PCR 4 was performed to determine the structure of SCCmec using the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase (Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec type III isolates by PCR 3. The primer sequences are listed in Table 1. Antimicrobial susceptibility testing. We performed MIC determinations for 14 antimicrobial agents (7). For the isolates obtained in 2007, MIC tests were conducted using the agar dilution method with Mueller-Hinton agar (Oxoid Ltd., Hampshire, United Kingdom). The following antimicrobial agents were tested: oxacillin, ampicillin, cefazolin, kanamycin, gentamicin, erythromycin, chloramphenicol, minocycline, oxytetracycl</context>
+</contexts>
+<marker>33.</marker>
+<rawString>Oliveira, D. C., and H. de Lencastre. 2002. Multiplex PCR strategy for rapid identification of structural types and variants of the mec element in methicillin-resistant Staphylococcus aureus. Antimicrob. Agents Chemother. 46: 2155–2161.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R O’Mahony</author>
+<author>Y Abbott</author>
+<author>F C Leonard</author>
+<author>B K Markey</author>
+<author>P J Quinn</author>
+<author>P J Pollock</author>
+<author>S Fanning</author>
+<author>A S Rossney</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus aureus (MRSA) isolated from animals and veterinary personnel in Ireland.</title>
+<date>2005</date>
+<journal>Vet. Microbiol.</journal>
+<pages>109--285</pages>
+<marker>34.</marker>
+<rawString>O’Mahony, R., Y. Abbott, F. C. Leonard, B. K. Markey, P. J. Quinn, P. J. Pollock, S. Fanning, and A. S. Rossney. 2005. Methicillin-resistant Staphylococcus aureus (MRSA) isolated from animals and veterinary personnel in Ireland. Vet. Microbiol. 109:285–296.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S M Paule</author>
+<author>A C Pasquariello</author>
+<author>D M Hacek</author>
+<author>A G Fisher</author>
+<author>R B Thomson</author>
+<author>K L Kaul</author>
+<author>L R Peterson</author>
+</authors>
+<title>Direct detection of Staphylococcus aureus from adult and neonate nasal swab specimens using real-time polymerase chain reaction.</title>
+<date>2004</date>
+<journal>J. Mol. Diagn.</journal>
+<pages>6--191</pages>
+<marker>35.</marker>
+<rawString>Paule, S. M., A. C. Pasquariello, D. M. Hacek, A. G. Fisher, R. B. Thomson, Jr., K. L. Kaul, and L. R. Peterson. 2004. Direct detection of Staphylococcus aureus from adult and neonate nasal swab specimens using real-time polymerase chain reaction. J. Mol. Diagn. 6:191–196.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Piao</author>
+<author>T Karasawa</author>
+<author>K Totsuka</author>
+<author>T Uchiyama</author>
+<author>K Kikuchi</author>
+</authors>
+<title>Prospective surveillance of community-onset and health care-associated methicillin-resistant Staphylococcus aureus isolated from a university-affiliated hospital in Japan.</title>
+<date>2005</date>
+<journal>Microbiol. Immunol.</journal>
+<pages>49--959</pages>
+<contexts>
+<context citStr="(14, 32, 36, 49)" endWordPosition="410" position="2999" startWordPosition="407"> of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice. Methicillin-resistant Staphylococcus aureus (MRSA) is an important cause of nosocomial infections in human hospitals. The prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 ou</context>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+<context citStr="(17, 22, 36, 54)" endWordPosition="5510" position="34535" startWordPosition="5507">se veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients without established risk factors for HA-MRSA (36). Moreover, MRSA isolates with SCCmec type II have also been isolated from healthy children (14); thus, infection of this MRSA clone has already spread from hospital environments to a wider community, including veterinary staff and animal patients, in Japan. Zaraket et al. reported that a MRSA clone with SCCmec type II has continued to colonize hospitals in Japan and has under</context>
+<context citStr="(36, 54)" endWordPosition="6501" position="39409" startWordPosition="6500"> in 2007. VOL. 76, 2010 OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5171 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from type (29). A combination of PFGE and spa typing was more useful than either method alone in discriminating MRSA isolates. MRSA isolates with SCCmec type I were obtained only in 2008, and these isolates also had spa type t1767. Isolates with SCCmec type I are not commonly encountered in human hospitals; however, they are sometimes isolated from Japanese hospital inpatients at risk of HA-MRSA infection (36, 54). It has been reported that MRSA isolates harboring SCCmec type I obtained from inpatients belong to ST 8 or ST 30 strains (36, 54). There is little data regarding multilocus sequence analysis of MRSA having spa type t1767; however, the only MRSA with spa type t1767, which was isolated in Hong Kong, belonged to ST8 (http://www.spaserver.ridom.de/). Although the 10 human MRSA carriers were treated to eradicate colonization, two of these carriers were found to be harboring MRSA isolates even after 1 month of treatment. Recurrent MRSA infection in a patient and healthy MRSA carriers has been repo</context>
+<context citStr="(32, 36, 49)" endWordPosition="7321" position="44510" startWordPosition="7319"> been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were multidrug resistant but susceptible to the antibiotics used for treating MRSA infection in medical practice. All of the MRSP isolates were susceptible to imipenem and minocycline, although most of the MRSA isolates were resistant to these antibiotics. On the other hand, MRSS was susceptible to most antibiotics. Hisata et al. reported that MIC to oxacillin and imipenem differed between SCCmec types or subtypes of MRSA (14). The degree of susceptibilities to cefazolin and imipenem differed in the SCCmec types and bacterial speci</context>
+</contexts>
+<marker>36.</marker>
+<rawString>Piao, C., T. Karasawa, K. Totsuka, T. Uchiyama, and K. Kikuchi. 2005. Prospective surveillance of community-onset and health care-associated methicillin-resistant Staphylococcus aureus isolated from a university-affiliated hospital in Japan. Microbiol. Immunol. 49:959–970.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Poyart</author>
+<author>G Quesne</author>
+<author>C Boumaila</author>
+<author>P Trieu-Cuot</author>
+</authors>
+<title>Rapid and accurate species-level identification of coagulase-negative staphylococci by using the sodA gene as a target.</title>
+<date>2001</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>39--4296</pages>
+<contexts>
+<context citStr="(19, 37, 39)" endWordPosition="1794" position="12088" startWordPosition="1792">Cl2), 200 M (each) deoxynucleoside triphosphate (dNTP), 200 nM (each) primer (Table 1), 1 U Phusion DNA polymerase (Finnzymes, Espoo, Finland), and 1 l of sample DNA. The samples were subjected to an initial denaturation at 98°C for 30 s, followed by 30 amplification cycles, with each cycle consisting of 98°C for 5 s, 57°C for 10 s, and 72°C at 10 s. A final primer extension was performed at 72°C for 5 min, and the samples were then maintained at 4°C. To identify the species of isolates other than S. aureus, direct sequencing of the sodA and hsp60 genes was performed as previously described (19, 37, 39). Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (1</context>
+</contexts>
+<marker>37.</marker>
+<rawString>Poyart, C., G. Quesne, C. Boumaila, and P. Trieu-Cuot. 2001. Rapid and accurate species-level identification of coagulase-negative staphylococci by using the sodA gene as a target. J. Clin. Microbiol. 39:4296–4301.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Sasaki</author>
+<author>K Kikuchi</author>
+<author>Y Tanaka</author>
+<author>N Takahashi</author>
+<author>S Kamata</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus pseudintermedius in a veterinary teaching hospital.</title>
+<date>2007</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>45--1118</pages>
+<contexts>
+<context citStr="(38)" endWordPosition="463" position="3297" startWordPosition="463">e prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 outpatient dogs (38). In the United States, MRSA isolates were detected in both dog (0.1%) and cat (0.1%) patients (31). The prevalence of MRSA among healthy dogs has been reported to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterina</context>
+<context citStr="(38)" endWordPosition="649" position="4541" startWordPosition="649">eported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular</context>
+<context citStr="(38)" endWordPosition="5041" position="31679" startWordPosition="5041">ry conference (6, 12, 28). The higher risk of MRSA carriage among employees might be attributed to their frequency of contact with each animal patient, their closeness of contact during treatment, and the duration of their experience in terms of contact with animal patients. Since contact with MRSA-infected animal patients is a factor considered to be associated with MRSA carriage, it can be inferred that MRSA carriers may originally have been infected by animal patients. However, a study conducted on 31 outpatient dogs in Japan reported that MRSA isolates were not detected in any of the dogs (38); similar previous studies have also reported that the prevalence of MRSA among dogs and cats was low (5, 31). Manian reported a case in which MRSA colonization was detected in a dog, which was believed to be the source of recurrent MRSA infection in its owner, a diabetes patient, and his wife; the dog was believed to have contracted the infection through contact with the owner (24). Another previous study reported MRSA colonization in a dog whose owner was a nurse caring for MRSA patients; it was concluded that the dog contracted the infection from the nurse, who was found to be a carrier of </context>
+<context citStr="(38)" endWordPosition="5414" position="33961" startWordPosition="5414">the dog patient by direct contact or through the medium of contaminated environments. In this study, the frequencies of MRSA infection among veterinarians and staff members in the veterinary hospital was found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008, respectively. These frequencies are comparable to the values reported in a previous study in the United Kingdom (17.9%) (21) and that reported in a study of veterinary personnel attending a veterinary surgery conference (17.3%) (6); however, these values were higher than those reported in a Japanese veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan cl</context>
+<context citStr="(38, 40)" endWordPosition="6906" position="41916" startWordPosition="6905">nd rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/liter oxacillin and after the enrichment of staphylococci in broth containing 7.5% sodium chloride (11). In other studies, MRSP isolates were selected from staphylococcal strains by testing their susceptibility to oxacillin (38, 40). The CHROMagar MRSA medium used in this study contained 6 mg/liter cefoxitin. Although we did not determine the MICs of cefoxitin for the MRSP isolates obtained in this study, we found that approximately half of the MRSP isolates were susceptible to cefazolin. Sasaki et al. also reported that almost all MRSP isolates were susceptible to cefazolin and cefotiame (38). The higher susceptibility of MRSP to cephalosporin than MRSA might explain why the colony size of MRSP on the CHROMagar MRSA medium was considerably smaller than that of MRSA. On the other hand, even cefazolin-susceptible MRSP iso</context>
+<context citStr="(8, 30, 38)" endWordPosition="7187" position="43622" startWordPosition="7185">ight be unable to detect MRSP that has low-level resistance to oxacillin. Descloux et al. described canine MRSP isolates with a new SCCmec type II-III, resulting from a combination of S. aureus SCCmec type III and Staphylococcus epidermidis SCCmec type II (8). The structure of SCCmec in 23 MRSP isolates, as confirmed by M-PCR 4 and PCR 3, matched the DNA sequence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius s</context>
+</contexts>
+<marker>38.</marker>
+<rawString>Sasaki, T., K. Kikuchi, Y. Tanaka, N. Takahashi, S. Kamata, and K. Hiramatsu. 2007. Methicillin-resistant Staphylococcus pseudintermedius in a veterinary teaching hospital. J. Clin. Microbiol. 45:1118–1125.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Sasaki</author>
+<author>K Kikuchi</author>
+<author>Y Tanaka</author>
+<author>N Takahashi</author>
+<author>S Kamata</author>
+<author>K Hiramatsu</author>
+</authors>
+<title>Reclassification of phenotypically identified Staphylococcus intermedius strains.</title>
+<date>2007</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>45--2770</pages>
+<contexts>
+<context citStr="(19, 37, 39)" endWordPosition="1794" position="12088" startWordPosition="1792">Cl2), 200 M (each) deoxynucleoside triphosphate (dNTP), 200 nM (each) primer (Table 1), 1 U Phusion DNA polymerase (Finnzymes, Espoo, Finland), and 1 l of sample DNA. The samples were subjected to an initial denaturation at 98°C for 30 s, followed by 30 amplification cycles, with each cycle consisting of 98°C for 5 s, 57°C for 10 s, and 72°C at 10 s. A final primer extension was performed at 72°C for 5 min, and the samples were then maintained at 4°C. To identify the species of isolates other than S. aureus, direct sequencing of the sodA and hsp60 genes was performed as previously described (19, 37, 39). Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310 genetic analyzer (Applied Biosystems). Additionally, restriction patterns produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta were also analyzed for the identification of S. pseudintermedius by the method of Bannoehr et al. (4). SCCmec typing was performed by amplification of the mec regions (classes A, B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was determined by M-PCR 2 (1</context>
+<context citStr="(3, 39)" endWordPosition="7230" position="43892" startWordPosition="7229"> of SCCmec in 23 MRSP isolates, as confirmed by M-PCR 4 and PCR 3, matched the DNA sequence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibi</context>
+</contexts>
+<marker>39.</marker>
+<rawString>Sasaki, T., K. Kikuchi, Y. Tanaka, N. Takahashi, S. Kamata, and K. Hiramatsu. 2007. Reclassification of phenotypically identified Staphylococcus intermedius strains. J. Clin. Microbiol. 45:2770–2778.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Schwarz</author>
+<author>K Kadlec</author>
+<author>B Strommenger</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus aureus and Staphylococcus pseudintermedius detected in the VOL.</title>
+<date>2008</date>
+<journal>OCCURRENCE AND GENOTYPE OF MRSA AND MRSP</journal>
+<volume>76</volume>
+<pages>61--282</pages>
+<note>5173 BfT-GermVet monitoring programme 2004–2006 in</note>
+<contexts>
+<context citStr="(11, 31, 38, 40, 52)" endWordPosition="628" position="4397" startWordPosition="624"> to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr co</context>
+<context citStr="(38, 40)" endWordPosition="6906" position="41916" startWordPosition="6905">nd rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/liter oxacillin and after the enrichment of staphylococci in broth containing 7.5% sodium chloride (11). In other studies, MRSP isolates were selected from staphylococcal strains by testing their susceptibility to oxacillin (38, 40). The CHROMagar MRSA medium used in this study contained 6 mg/liter cefoxitin. Although we did not determine the MICs of cefoxitin for the MRSP isolates obtained in this study, we found that approximately half of the MRSP isolates were susceptible to cefazolin. Sasaki et al. also reported that almost all MRSP isolates were susceptible to cefazolin and cefotiame (38). The higher susceptibility of MRSP to cephalosporin than MRSA might explain why the colony size of MRSP on the CHROMagar MRSA medium was considerably smaller than that of MRSA. On the other hand, even cefazolin-susceptible MRSP iso</context>
+</contexts>
+<marker>40.</marker>
+<rawString>Schwarz, S., K. Kadlec, and B. Strommenger. 2008. Methicillin-resistant Staphylococcus aureus and Staphylococcus pseudintermedius detected in the VOL. 76, 2010 OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5173 BfT-GermVet monitoring programme 2004–2006 in Germany. J. Antimicrob. Chemother. 61:282–285.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Shimizu</author>
+<author>Y Wakita</author>
+<author>S Nagase</author>
+<author>M Okabe</author>
+<author>T Koji</author>
+<author>T Hayashi</author>
+<author>N Nagase</author>
+<author>A Sasaki</author>
+<author>J Kawano</author>
+<author>K Yamashita</author>
+<author>M Takagi</author>
+</authors>
+<title>Antimicrobial susceptibility of Staphylococcus intermedius isolated from healthy and diseased dogs.</title>
+<date>2001</date>
+<journal>J. Vet. Med. Sci.</journal>
+<pages>63--357</pages>
+<contexts>
+<context citStr="(41, 46)" endWordPosition="7244" position="43978" startWordPosition="7243">quence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were </context>
+</contexts>
+<marker>41.</marker>
+<rawString>Shimizu, A., Y. Wakita, S. Nagase, M. Okabe, T. Koji, T. Hayashi, N. Nagase, A. Sasaki, J. Kawano, K. Yamashita, and M. Takagi. 2001. Antimicrobial susceptibility of Staphylococcus intermedius isolated from healthy and diseased dogs. J. Vet. Med. Sci. 63:357–360.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Shopsin</author>
+<author>M Gomez</author>
+<author>S O Montgomery</author>
+<author>D H Smith</author>
+<author>M Waddington</author>
+<author>D E Dodge</author>
+<author>D A Bost</author>
+<author>M Riehman</author>
+<author>S Naidich</author>
+<author>B N Kreiswirth</author>
+</authors>
+<title>Evaluation of protein A gene polymorphic region DNA sequencing for typing of Staphylococcus aureus strains.</title>
+<date>1999</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>37--3556</pages>
+<contexts>
+<context citStr="(42)" endWordPosition="2273" position="15177" startWordPosition="2273">ug mold. After bacterial lysis in a lysis buffer containing 5 mg/ml lysozyme (Wako Pure Chemical Industries, Ltd., Osaka, Japan) and 20 g/ml lysostaphin (SigmaAldrich Japan K. K.), genomic DNA was digested with SmaI (Takara Bio, Ltd.). PFGE was performed using a CHEF-DRIII system (Bio-Rad Laboratories Inc.), under the following conditions: switch time of 5.3 to 34.9 s and running time of 20 h for MRSA (15); included angle, 120°; voltage, 6 V/cm; and set temperature, 14°C. All MRSA isolates were typed by DNA sequence analysis of the X region of the protein A gene (spa) as previously described (42). The spa types of MRSA isolates were determined by using Ridom SpaServer (http://www.spaserver.ridom .de/). Statistical analysis. Categorical comparisons were performed using Fisher’s exact test. A P value of less than 0.05 was considered to be significant. The associations between MRSA and MRSP carriage and each inquiry shown in Table 3 were evaluated with a stepwise forward logistic regression using SPSS 15.0J software (SPSS Japan Inc., Tokyo, Japan). Variables with a significance level of P of 0.05 in the univariate analysis were considered for inclusion in the 5166 ISHIHARA ET AL. APPL. </context>
+</contexts>
+<marker>42.</marker>
+<rawString>Shopsin, B., M. Gomez, S. O. Montgomery, D. H. Smith, M. Waddington, D. E. Dodge, D. A. Bost, M. Riehman, S. Naidich, and B. N. Kreiswirth. 1999. Evaluation of protein A gene polymorphic region DNA sequencing for typing of Staphylococcus aureus strains. J. Clin. Microbiol. 37:3556–3563.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Shore</author>
+<author>A S Rossney</author>
+<author>C T Keane</author>
+<author>M C Enright</author>
+<author>D C Coleman</author>
+</authors>
+<contexts>
+<context citStr="(43)" endWordPosition="735" position="5099" startWordPosition="735">n a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and ch</context>
+</contexts>
+<marker>43.</marker>
+<rawString>Shore, A., A. S. Rossney, C. T. Keane, M. C. Enright, and D. C. Coleman.</rawString>
+</citation>
+<citation valid="false">
+<title>Seven novel variants of the staphylococcal chromosomal cassette mec in methicillin-resistant Staphylococcus aureus isolates from Ireland. Antimicrob. Agents Chemother.</title>
+<pages>49--2070</pages>
+<marker>2005.</marker>
+<rawString>Seven novel variants of the staphylococcal chromosomal cassette mec in methicillin-resistant Staphylococcus aureus isolates from Ireland. Antimicrob. Agents Chemother. 49:2070–2083.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Strommenger</author>
+<author>C Kehrenberg</author>
+<author>C Kettlitz</author>
+<author>C Cuny</author>
+<author>J Verspohl</author>
+<author>W Witte</author>
+<author>S Schwarz</author>
+</authors>
+<title>Molecular characterization of methicillin-resistant Staphylococcus aureus strains from pet animals and their relationship to human isolates.</title>
+<date>2006</date>
+<journal>J. Antimicrob. Chemother.</journal>
+<pages>57--461</pages>
+<contexts>
+<context citStr="(44)" endWordPosition="5746" position="35938" startWordPosition="5746">spa type t062 has a deletion in the middle three repeats (34-17-20) of t002, whereas the spa type t1265 has a double repeat of r12 instead of r17. Moreover, the MRSA isolates of spa type t002 were grouped into seven clusters by PFGE, and the SCCmec types therein were classified into different subtypes. It is not known whether the SCCmec type II clone varies in veterinary medical practice or if some clones with a small genetic diversity have been introduced into the veterinary hospital. The PFGE method can help divide MRSA isolates into more groups than spa typing, as shown in a previous study (44). Although spa types depend on the DNA sequence of only region X of the spa gene, PFGE profiles depend on the numbers and positions of the restriction sites in the DNA sequence of the entire genome. Therefore, PFGE enables better discrimination between strains. On the other hand, spa typing enabled comparison of the MRSA isolates obtained in this study with those reported in other studies. In some cases, spa typing could discriminate MRSA isolates of the same PFGE T A B L E 4. D istribution of M IC for m ethicillin-resistant coagulase-positive staphylococciin each SC C m ec type a A ntim icrob</context>
+</contexts>
+<marker>44.</marker>
+<rawString>Strommenger, B., C. Kehrenberg, C. Kettlitz, C. Cuny, J. Verspohl, W. Witte, and S. Schwarz. 2006. Molecular characterization of methicillin-resistant Staphylococcus aureus strains from pet animals and their relationship to human isolates. J. Antimicrob. Chemother. 57:461–465.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Taguchi</author>
+<author>T Kaneko</author>
+<author>M Onozaki</author>
+<author>R Kubo</author>
+<author>S Kamiya</author>
+</authors>
+<title>Evaluation of a new chromogenic medium for isolation of MRSA. Kansenshogaku Zasshi.</title>
+<date>2004</date>
+<pages>78--54</pages>
+<contexts>
+<context citStr="(10, 45)" endWordPosition="6852" position="41554" startWordPosition="6851">on. Loeffler et al. reported that the isolation frequency of MRSA from the buccal swabs of dogs was as high as that from the nasal swabs (21). However, in another previous study, the nasal, axillary, and rectal swabs of dogs were tested for isolation MRSA, and the MRSA isolate was obtained only from the rectum (11). Combination sampling of the nasal, buccal, and rectal swabs obtained from dogs may facilitate detection of MRSA carriage. In this investigation, we used the CHROMagar MRSA medium for the isolation of MRCPS. This medium has been reported to be highly effective in selecting for MRSA (10, 45). In a previous study describing the prevalence of MRSP, samples were directly inoculated onto mannitol-salt agar containing 2 mg/liter oxacillin and after the enrichment of staphylococci in broth containing 7.5% sodium chloride (11). In other studies, MRSP isolates were selected from staphylococcal strains by testing their susceptibility to oxacillin (38, 40). The CHROMagar MRSA medium used in this study contained 6 mg/liter cefoxitin. Although we did not determine the MICs of cefoxitin for the MRSP isolates obtained in this study, we found that approximately half of the MRSP isolates were su</context>
+</contexts>
+<marker>45.</marker>
+<rawString>Taguchi, H., T. Kaneko, M. Onozaki, R. Kubo, and S. Kamiya. 2004. Evaluation of a new chromogenic medium for isolation of MRSA. Kansenshogaku Zasshi. 78:54–58.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D A Talan</author>
+<author>D Staatz</author>
+<author>A Staatz</author>
+<author>E J Goldstein</author>
+<author>K Singer</author>
+<author>G D Overturf</author>
+</authors>
+<title>Staphylococcus intermedius in canine gingiva and canineinflicted human wound infections: laboratory characterization of a newly recognized zoonotic pathogen.</title>
+<date>1989</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>27--78</pages>
+<contexts>
+<context citStr="(41, 46)" endWordPosition="7244" position="43978" startWordPosition="7243">quence of SCCmec type II-III (GenBank accession no. AM904732); therefore, the SCCmec type of these 23 MRSP isolates was presumed to be type II-III. There are only a limited number of reports pertaining to the SCCmec type among MRSP isolates (8, 30, 38); accordingly, more data regarding the SCCmec types among MRSP isolates are needed in order to understand the reasons for the sudden emergence of MRSP, although canine S. intermedius isolates, which were presumed to be S. pseudintermedius in the previous studies (3, 39), have been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were </context>
+</contexts>
+<marker>46.</marker>
+<rawString>Talan, D. A., D. Staatz, A. Staatz, E. J. Goldstein, K. Singer, and G. D. Overturf. 1989. Staphylococcus intermedius in canine gingiva and canineinflicted human wound infections: laboratory characterization of a newly recognized zoonotic pathogen. J. Clin. Microbiol. 27:78–81.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Tsuchizaki</author>
+<author>J Ishikawa</author>
+<author>K Hotta</author>
+</authors>
+<title>Colony PCR for rapid detection of antibiotic resistance genes in MRSA and enterococci.</title>
+<date>2000</date>
+<journal>Jpn. J. Antibiot.</journal>
+<pages>53--422</pages>
+<marker>47.</marker>
+<rawString>Tsuchizaki, N., J. Ishikawa, and K. Hotta. 2000. Colony PCR for rapid detection of antibiotic resistance genes in MRSA and enterococci. Jpn. J. Antibiot. 53:422–429.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Ubukata</author>
+<author>R Nonoguchi</author>
+<author>M Matsuhashi</author>
+<author>M Konno</author>
+</authors>
+<title>Expression and inducibility in Staphylococcus aureus of the mecA gene, which encodes a methicillin-resistant S. aureus-specific penicillin-binding protein.</title>
+<date>1989</date>
+<journal>J. Bacteriol.</journal>
+<pages>171--2882</pages>
+<contexts>
+<context citStr="(48)" endWordPosition="693" position="4833" startWordPosition="693">pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-3</context>
+</contexts>
+<marker>48.</marker>
+<rawString>Ubukata, K., R. Nonoguchi, M. Matsuhashi, and M. Konno. 1989. Expression and inducibility in Staphylococcus aureus of the mecA gene, which encodes a methicillin-resistant S. aureus-specific penicillin-binding protein. J. Bacteriol. 171:2882–2885.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Vandenesch</author>
+<author>T Naimi</author>
+<author>M C Enright</author>
+<author>G Lina</author>
+<author>G R Nimmo</author>
+<author>H Heffernan</author>
+<author>N Liassine</author>
+<author>M Bes</author>
+<author>T Greenland</author>
+<author>M E Reverdy</author>
+<author>J Etienne</author>
+</authors>
+<title>Community-acquired methicillin-resistant Staphylococcus aureus carrying Panton-Valentine leukocidin genes: worldwide emergence.</title>
+<date>2003</date>
+<journal>Emerg. Infect. Dis.</journal>
+<pages>9--978</pages>
+<contexts>
+<context citStr="(14, 32, 36, 49)" endWordPosition="410" position="2999" startWordPosition="407"> of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice. Methicillin-resistant Staphylococcus aureus (MRSA) is an important cause of nosocomial infections in human hospitals. The prevalence of hospital-acquired MRSA (HA-MRSA) infection among inpatients in intensive care units (ICUs) continues to increase steadily in Japan. Recently, cases of community-acquired MRSA (CA-MRSA) have been documented in persons without an established risk factor for HA-MRSA infection (14, 32, 36, 49). There has also been an increase in the number of reports of the isolation of MRSA from veterinarians and companion animals (5, 21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the prevalence of MRSA among veterinary staff include 17.9% in the United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13), and 3.0% in Denmark (28). Loeffler et al. reported that the prevalence of MRSA among dog patients and healthy dogs owned by veterinary staff members was 8.9% (21). In Japan, an MRSA isolate was detected in only one inpatient dog (3.8%) and could not be detected in any of 31 ou</context>
+<context citStr="(32, 36, 49)" endWordPosition="7321" position="44510" startWordPosition="7319"> been reported as being susceptible to -lactam antibiotics in the past (41, 46). Although contact with MRSA animal patients has also been recognized as a factor associated with MRSP carriage, the reason for this association is unknown. A previous study has suggested the transmission of multidrug-resistant S. intermedius species among dogs affected by deep pyoderma and their owners (9). Therefore, animal patients could transmit MRSP infection to humans. Community-acquired MRSA (CA-MRSA) isolates are generally susceptible to most of the antimicrobial agents studied, except -lactam antibiotics (32, 36, 49). Almost all MRSA and MRSP isolates investigated in this study were multidrug resistant but susceptible to the antibiotics used for treating MRSA infection in medical practice. All of the MRSP isolates were susceptible to imipenem and minocycline, although most of the MRSA isolates were resistant to these antibiotics. On the other hand, MRSS was susceptible to most antibiotics. Hisata et al. reported that MIC to oxacillin and imipenem differed between SCCmec types or subtypes of MRSA (14). The degree of susceptibilities to cefazolin and imipenem differed in the SCCmec types and bacterial speci</context>
+</contexts>
+<marker>49.</marker>
+<rawString>Vandenesch, F., T. Naimi, M. C. Enright, G. Lina, G. R. Nimmo, H. Heffernan, N. Liassine, M. Bes, T. Greenland, M. E. Reverdy, and J. Etienne. 2003. Community-acquired methicillin-resistant Staphylococcus aureus carrying Panton-Valentine leukocidin genes: worldwide emergence. Emerg. Infect. Dis. 9:978–984.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E van Duijkeren</author>
+<author>M J H M Wolfhagen</author>
+<author>A T A Box</author>
+<author>M E O C Heck</author>
+<author>W J B Wannet</author>
+<author>A C Fluit</author>
+</authors>
+<title>Human-to-dog transmission of methicillin-resistant Staphylococcus aureus.</title>
+<date>2004</date>
+<journal>Emerg. Infect. Dis.</journal>
+<pages>10--2235</pages>
+<contexts>
+<context citStr="(50)" endWordPosition="5151" position="32298" startWordPosition="5151">ous studies have also reported that the prevalence of MRSA among dogs and cats was low (5, 31). Manian reported a case in which MRSA colonization was detected in a dog, which was believed to be the source of recurrent MRSA infection in its owner, a diabetes patient, and his wife; the dog was believed to have contracted the infection through contact with the owner (24). Another previous study reported MRSA colonization in a dog whose owner was a nurse caring for MRSA patients; it was concluded that the dog contracted the infection from the nurse, who was found to be a carrier of MRSA infection (50). Thus, human MRSA carriers can also be a source of MRSA infection in animals encountered in veterinary medical practice. In the present study, the MRSA isolate with SCCmec type FIG. 1. PFGE dendrogram showing percentage similarities calculated by Dice coefficient (tolerance of 1% and optimization of 1%) and SCCmec and spa types of MRSA isolates. The MRSA isolates were taken from the environment (E), dogs (dog patients at the RGU hospital [D*] and dog patients at the primary veterinary hospital [D**]), and humans (H). 5170 ISHIHARA ET AL. APPL. ENVIRON. MICROBIOL. o n June 12, 2015 by INSTITUT</context>
+<context citStr="(24, 50)" endWordPosition="6601" position="40033" startWordPosition="6600">ported that MRSA isolates harboring SCCmec type I obtained from inpatients belong to ST 8 or ST 30 strains (36, 54). There is little data regarding multilocus sequence analysis of MRSA having spa type t1767; however, the only MRSA with spa type t1767, which was isolated in Hong Kong, belonged to ST8 (http://www.spaserver.ridom.de/). Although the 10 human MRSA carriers were treated to eradicate colonization, two of these carriers were found to be harboring MRSA isolates even after 1 month of treatment. Recurrent MRSA infection in a patient and healthy MRSA carriers has been reported previously (24, 50). The genotype of MRSA from a recurrent carrier changed from SCCmec type II without kdp gene and spa type t1265 to SCCmec type II harboring the kdp gene and spa type t002. Because the latter genotype was more common among the MRSA isolates obtained from veterinary staff and environmental surfaces, this carrier might be infected from other MRSA carriers or contaminated environmental surfaces. Treatment of MRSA carriers should be undertaken simultaneously with the disinfection of the entire hospital and implementation of hand hygiene practices, which has been reported as a strong protective fact</context>
+</contexts>
+<marker>50.</marker>
+<rawString>van Duijkeren, E., M. J. H. M. Wolfhagen, A. T. A. Box, M. E. O. C. Heck, W. J. B. Wannet, and A. C. Fluit. 2004. Human-to-dog transmission of methicillin-resistant Staphylococcus aureus. Emerg. Infect. Dis. 10:2235–</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E van Duijkeren</author>
+<author>M J H M Wolfhagen</author>
+<author>M E O C Heck</author>
+<author>W J B Wannet</author>
+</authors>
+<title>Transmission of a Panton-Valentine leucocidin-positive, methicillin-resistant Staphylococcus aureus strain between humans and a dog.</title>
+<date>2005</date>
+<journal>J. Clin. Microbiol.</journal>
+<pages>43--6209</pages>
+<marker>51.</marker>
+<rawString>van Duijkeren, E., M. J. H. M. Wolfhagen, M. E. O. C. Heck, and W. J. B. Wannet. 2005. Transmission of a Panton-Valentine leucocidin-positive, methicillin-resistant Staphylococcus aureus strain between humans and a dog. J. Clin. Microbiol. 43:6209–6211.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Wettstein</author>
+<author>S Descloux</author>
+<author>A Rossano</author>
+<author>V Perreten</author>
+</authors>
+<title>Emergence of methicillin-resistant Staphylococcus pseudintermedius in Switzerland: three cases of urinary tract infections in cats.</title>
+<date>2008</date>
+<journal>Schweiz. Arch. Tierheilkd.</journal>
+<pages>150--339</pages>
+<contexts>
+<context citStr="(11, 31, 38, 40, 52)" endWordPosition="628" position="4397" startWordPosition="624"> to be 0.7% (5). Hanselman et al. suggested that MRSA colonization may be an occupational risk for large-animal veterinarians (12). Recently, Burstiner et al. reported that the frequency of MRSA colonization among companion-animal veterinary personnel was equal to the frequency among large-animal veterinary personnel (6). In addition, other methicillin-resistant coagulase-positive staphylococci (MRCPS), such as methicillin-resistant Staphylococcus pseudintermedius (MRSP) and methicillin-resistant Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and a veterinarian have been reported (11, 31, 38, 40, 52). MRSP isolates have also been detected among inpatient dogs (46.2%) and outpatient dogs (19.4%) in a Japanese veterinary teaching hospital (38). In Canada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr co</context>
+</contexts>
+<marker>52.</marker>
+<rawString>Wettstein, K., S. Descloux, A. Rossano, and V. Perreten. 2008. Emergence of methicillin-resistant Staphylococcus pseudintermedius in Switzerland: three cases of urinary tract infections in cats. Schweiz. Arch. Tierheilkd. 150:339–</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Wulf</author>
+<author>A van Nes</author>
+<author>A Eikelenboom-Boskamp</author>
+<author>J de Vries</author>
+<author>W Melchers</author>
+<author>C Klaassen</author>
+<author>A Voss</author>
+</authors>
+<title>Methicillin-resistant Staphylococcus aureus in veterinary doctors and students, the Netherlands.</title>
+<date>2006</date>
+<journal>Emerg. Infect. Dis.</journal>
+<volume>12</volume>
+<pages>1939--1941</pages>
+<marker>53.</marker>
+<rawString>Wulf, M., A. van Nes, A. Eikelenboom-Boskamp, J. de Vries, W. Melchers, C. Klaassen, and A. Voss. 2006. Methicillin-resistant Staphylococcus aureus in veterinary doctors and students, the Netherlands. Emerg. Infect. Dis. 12: 1939–1941.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>H Zaraket</author>
+<author>T Otsuka</author>
+<author>K Saito</author>
+<author>S Dohmae</author>
+<author>T Takano</author>
+<author>W Higuchi</author>
+<author>T Ohkubo</author>
+<author>K Ozaki</author>
+<author>M Takano</author>
+<author>I Reva</author>
+<author>T Baranovich</author>
+<author>T Yamamoto</author>
+</authors>
+<contexts>
+<context citStr="(17, 22, 36, 54)" endWordPosition="5510" position="34535" startWordPosition="5507">se veterinary teaching hospital (10%) (38), in Scotland (3.9%) (13), and in Denmark (3.0%) (28). Moreover, the frequency of MRSA carriers has been reported to be only 0.54% among dog owners (5). SCCmec type II was prevalent among the MRSA isolates obtained from individuals affiliated with the veterinary hospital and from dog patients. Most of the MRSA isolates with SCCmec type II also harbored spa type t002. A majority of the hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also harbor SCCmec type II and are derived from the New York/ Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54). The MRSA of the Japan clone is generally known to have spa type t002 (http://www.spaserver.ridom.de/). MRSA isolates with SCCmec type II have been isolated from patients without established risk factors for HA-MRSA (36). Moreover, MRSA isolates with SCCmec type II have also been isolated from healthy children (14); thus, infection of this MRSA clone has already spread from hospital environments to a wider community, including veterinary staff and animal patients, in Japan. Zaraket et al. reported that a MRSA clone with SCCmec type II has continued to colonize hospitals in Japan and has under</context>
+<context citStr="(36, 54)" endWordPosition="6501" position="39409" startWordPosition="6500"> in 2007. VOL. 76, 2010 OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5171 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from type (29). A combination of PFGE and spa typing was more useful than either method alone in discriminating MRSA isolates. MRSA isolates with SCCmec type I were obtained only in 2008, and these isolates also had spa type t1767. Isolates with SCCmec type I are not commonly encountered in human hospitals; however, they are sometimes isolated from Japanese hospital inpatients at risk of HA-MRSA infection (36, 54). It has been reported that MRSA isolates harboring SCCmec type I obtained from inpatients belong to ST 8 or ST 30 strains (36, 54). There is little data regarding multilocus sequence analysis of MRSA having spa type t1767; however, the only MRSA with spa type t1767, which was isolated in Hong Kong, belonged to ST8 (http://www.spaserver.ridom.de/). Although the 10 human MRSA carriers were treated to eradicate colonization, two of these carriers were found to be harboring MRSA isolates even after 1 month of treatment. Recurrent MRSA infection in a patient and healthy MRSA carriers has been repo</context>
+</contexts>
+<marker>54.</marker>
+<rawString>Zaraket, H., T. Otsuka, K. Saito, S. Dohmae, T. Takano, W. Higuchi, T. Ohkubo, K. Ozaki, M. Takano, I. Reva, T. Baranovich, and T. Yamamoto.</rawString>
+</citation>
+<citation valid="false">
+<title>Molecular characterization of methicillin-resistant Staphylococcus aureus in hospitals in Niigata, Japan: divergence and transmission.</title>
+<journal>Microbiol. Immunol.</journal>
+<pages>51--171</pages>
+<marker>2007.</marker>
+<rawString>Molecular characterization of methicillin-resistant Staphylococcus aureus in hospitals in Niigata, Japan: divergence and transmission. Microbiol. Immunol. 51:171–176.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Zhang</author>
+<author>J A McClure</author>
+<author>S Elsayed</author>
+<author>T Louie</author>
+<author>J M Conly</author>
+</authors>
+<title>Novel multiplex PCR assay for characterization and concomitant subtyping of staphylococcal cassette chromosome mec types I to V in methicillin-resistant Staphylococcus aureus.</title>
+<date>2005</date>
+<journal>J. Clin. Microbiol.</journal>
+<volume>43</volume>
+<pages>5174</pages>
+<contexts>
+<context citStr="(22, 27, 30, 33, 36, 55)" endWordPosition="750" position="5171" startWordPosition="745">anada, however, MRSP and MRSS isolates were detected in only 2.1% and 0.5% of dog patients, respectively (11). Methicillin-resistant staphylococci produce penicillin-binding protein 2, which reduces their affinity for -lactam antibiotics. This protein is encoded by the mecA gene (48), which is carried on the staphylococcal cassette chromosome mec (SCCmec). SCCmec is a mobile genetic element characterized by the combination of the mec and ccr complexes (16), and it is classified into subtypes according to differences in the junkyard regions (43). SCCmec typing can be used as a molecular tool (22, 27, 30, 33, 36, 55) for examining the molecular epidemiology of methicillin-resistant staphylococci. * Corresponding author. Mailing address: School of Veterinary Medicine, Rakuno Gakuen University, 582 Midorimachi Bunkyodai Ebetsu, Hokkaido 069-8501, Japan. Phone and fax: 81-11-388-4890. E-mail: tamuray@rakuno.ac.jp.  Published ahead of print on 11 June 2010. 5165 o n June 12, 2015 by INSTITUTO FEDERAL DO PARÃƒÂƒÃ†Â’ÃƒÂ‚Ã†Â’ÃƒÂƒÃ‚Â¯ÃƒÂ‚Ã‚Â¿ÃƒÂ‚Ã‚Â http://aem .asm .org/ D ow nloaded from In this study, we investigated the occurrence and characteristics of MRCPS isolates in a veterinary hospital in order to est</context>
+</contexts>
+<marker>55.</marker>
+<rawString>Zhang, K., J. A. McClure, S. Elsayed, T. Louie, and J. M. Conly. 2005. Novel multiplex PCR assay for characterization and concomitant subtyping of staphylococcal cassette chromosome mec types I to V in methicillin-resistant Staphylococcus aureus. J. Clin. Microbiol. 43:5026–5033. 5174 ISHIHARA ET AL. APPL. ENVIRON. MICROBIOL.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

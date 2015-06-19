@@ -1,0 +1,629 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>Analysis on the relationship between student grades and computer programming time in learning the C * programming language</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Zhixin Tie</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Hong Zhuang</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Qingyang Zhang</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Zhaoqing Wang</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>School of Information Science and Technology Zhejiang Sci-Tech University Hangzhou</institution>
+          ,
+          <addr-line>Zhejiang, 310018</addr-line>
+          ,
+          <country country="CN">P. R. China</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Tiezx</institution>
+          ,
+          <addr-line>Lisa, zqy</addr-line>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>-The C Programming Language is one of the most popular teaching programming languages. It is generally considered that the computer programming time that a student spent on his homework directly affects his grade of the C Programming Language. There is little research regarding the correlation of students' computer programming time and their test grades. The computer programming time, grades of final test and the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The students are divided into two groups based on their programming time. The T-Test is employed to analyze grades of final test and the ZCGTBII of the two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>C Programming language</kwd>
+        <kwd>Grade</kwd>
+        <kwd>Hypothesis test</kwd>
+        <kwd>Computer programming time</kwd>
+        <kwd>Homework</kwd>
+      </kwd-group>
+      <fpage>14</fpage>
+      <lpage>17</lpage>
+      <pub-date>
+        <year>2012</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>INTRODUCTION</title>
+      <p>The C programming language is one of the most widely
+used programming languages in industry [1][2]. It is also one
+of the most popular teaching programming languages [3]-[7].
+Harry H. Cheng listed ten good reasons to teach and learn the
+C programming language [7]. To learn the C programming
+language, a student needs to practice programming on
+computers. It is generally considered that the computer
+programming time of a student directly affects his
+performance on the course of the C programming language.
+There is little research regarding the effects of computer
+programming time and a student's progress learning the C
+programming language. Some experimental teaching
+systems and reforms were presented in [8][9]. Educational
+data mining methods were reviewed in [10]-[12].</p>
+      <p>In this paper, the computer programming time on
+homework, final grades and grades of the Zhejiang
+Computer Grade Test Band II (ZCGTBII) of students from a
+teaching class are collected. The Chi-Square Goodness-of-Fit
+Test is used to verify that final grades and ZCGTBII grades
+of this teaching class subject to the normal distribution. This
+is what we expect to be. Students of this teaching class are
+divided into two groups based on students’ computer
+programming time on homework and minimum computer
+programming time on homework that the course of the C
+programming language syllabus prescribed for a student to
+learn this course. Group I is the students whose total
+computer programming time on homework is greater than or
+equal to the minimum computer programming time on
+homework. Group II is the students whose total computer
+programming time on homework is less than the minimum
+total computer programming time on homework. The
+TwoSample Pooled T-Test is employed to analyze the final
+grades and the ZCGTBII grades of the two groups of
+students.</p>
+      <p>The rest of the paper is organized as follows. Section II
+gives an overview of some hypothesis tests that will be used
+in following sections. Section III introduces how to collect
+the analysis data. Section IV presents students’ grades
+analysis methods. Finally, conclusions are drawn in Section
+V.</p>
+    </sec>
+    <sec id="2">
+      <title>HYPOTHESIS TEST OVERVIEW</title>
+      <p>The Chi-square Goodness-of-Fit Test is used to test if a
+sample of data comes from a population with a specific
+distribution [13]. Given a random samples of measurements,</p>
+      <p>X n , The chi-square test is defined for the
+H0: The data follow a specified distribution.
+* This work is partially supported by Zhejiang new century higher education reform project under Grant No. yb2010023, the Bilingual
+Education Model Curriculum of Ministry of Education of China.
+Ha: The data do not follow the specified distribution.</p>
+      <p>Test Statistic: For the chi-square goodness-of-fit
+computation, the data are divided into k bins and the test
+statistic is defined as</p>
+      <p>(Oi − Ei ) 2 / Ei</p>
+      <p>Where Oi is the observed frequency for bin i and Ei is
+the expected frequency for bin i . The expected frequency is
+calculated by</p>
+      <p>Ei = N (F (Yu ) − F (Yl ))</p>
+      <p>Where F is the cumulative distribution function for the
+distribution being tested, Yu is the upper limit for class i , Yl
+is the lower limit for class i and N is the sample size.</p>
+      <p>The test statistic follows, approximately, a chi-square
+distribution with (k − r − 1) degrees of freedom where k is
+the number of non-empty cells and r is the number of
+estimated parameters.</p>
+      <p>Therefore, the hypothesis that the data are from a
+population with the specified distribution is rejected if</p>
+      <p>Where χ (2α ,k −r−1) is the chi-square percent point function
+with (k − r − 1) degrees of freedom and a significance level
+ofα .</p>
+      <p>B. Two-Sample Pooled T-Test[13][14]</p>
+      <p>and n2 , respectively, are drawn from two</p>
+      <p>are not equivalent.</p>
+      <p>The test statistic is
+F = S12 / S 2
+n1 i =1
+S1 =
+(Yi − Y )2 , S2 =</p>
+      <p>(Zi − Z )2</p>
+      <p>The test statistic F follows F-distribution with the
+numerator degrees of freedom v1 = n − 1 and denominator</p>
+      <p>1
+degrees of freedom v2 = n2 − 1 . Therefore, the hypothesis
+H0 is rejected if:
+n2 i =1
+F ≥ Fα / 2,v1,v2 or F ≤ F1−α / 2,v1,v2</p>
+      <p>Where Fα / 2,v1,v2 , F1−α / 2,v1,v2 are the F-value with
+v1 = n − 1 and v2 = n2 − 1 degrees of freedom and a</p>
+      <p>1
+significance level ofα .</p>
+      <p>If the variances σ 12 and σ 2 2 are equivalent, The
+TwoSample Pooled T-Test can be used to test the relation of the</p>
+      <p>The test statistic is</p>
+      <p>S 1/ n1 + 1/ n2
+t =
+S 2 =
+Y =
+n1 i =1
+v = n1 + n2 − 2 degrees
+hypothesis H0 is rejected if:
+Yi , Z =
+n2 i =1
+of freedom.
+Where tα ,v is the t-value with v = n + n2 − 2 degrees</p>
+      <p>1</p>
+    </sec>
+    <sec id="3">
+      <title>DATA COLLECTION</title>
+      <p>According to teaching syllabus of the course of the C
+Programming Language revised in 2008 [15], teaching
+activities include 16 lectures and 16 computer programming
+classes. Each lecture has two class hours and each computer
+programming class has three class hours. There is homework
+after each computer programming class. Students are asked
+to spend at least three hours working on a programming
+assignment in our public computer centers.</p>
+      <p>In order to analyze the relation between students’ grades
+and the time that students spent on programming after
+classes, one of C programming teaching classes is selected.
+This teaching class has 84 students. Students’ final grades
+and grades of the Zhejiang Computer Grade Test Band II
+(ZCGTBII) are collected, as shown in column two and three
+of TABLE I. The statistics graph of students’ final grades
+and the ZCGTBII grades are made, as shown in Figure 1 and
+Figure 2, respectively.</p>
+      <p>Students programming time can be divided into two
+parts. One is the time of computer programming classes. The
+other, which is called the computer programming
+time on</p>
+      <p>GRADES AND HOMEWORK PROGRAMMING TIME OF A</p>
+      <p>TEACHING CLASS.</p>
+      <p>Homework Programming Time</p>
+      <p>(Min.)
+homework, is the time that students used to do their
+homework after classes. The former is the same to each
+student, thus when analyzing students programming time,
+this part will be subtracted.</p>
+      <p>In our university, students do their C Programming
+Language homework in our public computer centers. Thus
+the computer programming time on homework of a student
+can be extracted from the Homework System that is
+developed to collect students’ homework online, and the
+Computer Laboratory Management System (CLMS) which
+is installed in our public computer centers to manage the
+usage of the computers. Because there has a record when a
+student commits his homework in the Homework System,
+and there has a record when a student starts using a computer
+and how long does it last in the CLMS. The computer
+programming time on homework of a student is summed
+from each time period that he (or she) uses a computer in
+public computer centers between the ends of each computer
+programming class and the moment that he (or she) commits
+his (or her) homework.</p>
+      <p>The total computer programming time on homework is a
+student spending on all homework assignments of the course
+of the C Programming Language. Because there have 16
+homework assignments for the C Programming Language,
+thus, the total computer programming time on homework is a
+sum of each computer programming time on homework. The
+total computer programming time on homework of each
+student is listed in column four of TABLE II.</p>
+      <p>STUDENTS’ GRADES ANALYSIS METHOD</p>
+      <p>Different students have different final grades and
+ZCGTBII grades, because they have different efforts on the
+course of the C Programming Language. Thus students’ final
+grades and ZCGTBII grades are considered random
+variables. The hypothesis tests that mentioned in section II
+can be employed to analyze students’ grades. Firstly the
+ChiSquare goodness-of-fit test is employed to test if students’
+final grades and ZCGTBII grades are following the normal
+distribution, which is expected to be. Then the Two-Sample
+Pooled T-Test is used to test if students who spend more
+computer programming time on homework get better scores
+than those of who spend less computer programming time on
+homework.</p>
+      <p>A. Grades distribution hypothesis testing
+1) Students’ final grades distribution hypothesis testing
+The hypothesis is:</p>
+      <p>Ha: the students’ final grades X do not follow the</p>
+      <p>deviation of X , respectively.</p>
+      <p>The test statistic is calculated in TABLE II.
+Here, n = 84 , k = 4 , r = 2 . The significance level α is
+select toα = 0.01 . Thus, if H0 is true, the test statistic
+follows, approximately, a chi-square distribution with
+(k − r − 1) = 1 degrees of freedom.</p>
+      <p>As shown in TABLE II:</p>
+      <p>Thus, hypothesis H0 is accepted. The students’ final
+grades X follow normal distribution</p>
+      <p>2) Students’ ZCGTBII grades distribution hypothesis
+testing</p>
+      <p>Using the same method as shown in last subsection, the
+test statistic is calculated in TABLE III.</p>
+      <p>Thus, The students’ ZCGTBII grades follow normal
+B. Spending more computer programming time on
+homework versus spending less computer programming
+time on homework: “Effects” on score</p>
+      <p>Do students who spend more computer programming
+time on homework receive higher scores than those who
+spending less computer programming time on homework?
+This question arises when instructors consider encouraging
+students to spend more programming time on the course of C
+programming Language. It is supposed to get higher grades
+if you spend more time to practice C programming. Does it
+true? The Two-Sample Pooled T-Test is employed to test it.</p>
+      <p>Based on teaching syllabus of the course of C
+Programming Language revised in 2008, students are asked
+to spend no less than three class hours to do each of their
+homework assignments. Thus the total computer
+programming time on homework of a student is supposed to
+be no less than 48 class hours, which is 2160 minutes.
+However, some students spend much more than the
+suggested time on homework assignments, and some
+students spend much less than the suggested time working on
+their assignments. Using this time, students are divided into
+two groups. One is the group of students whose total
+computer programming time on homework is greater than or
+equal to this time, denoted as Group I. The other is the group
+of students whose total computer programming time on
+homework is less than this time, denoted as Group II. Based
+on this classification principle, there are 68 students in Group
+I and 16 students in Group II. Students’ final grades and
+ZCGTBII grades are used to test if the Group I receives
+higher grades than the Group II.</p>
+      <sec id="3-1">
+        <title>1) Comparing the passing rate of two groups of students</title>
+        <p>We define the passing rate of a group in an exam as
+number of students who pass the exam divide by total
+number of students in that group. The passing rates of final
+test and ZCGTBII of the two groups of students are shown in
+TABLE iv. From TABLE iv, we know that the passing rates
+of final test and ZCGTBII of Group I are greater than those
+of Group II by 18.75 and 19.54 percentage points,
+respectively.</p>
+        <p>COMPUTING THE TEST STATISTIC OF STUDENTS’ FINAL GRADES.</p>
+        <p>F (Yu ) − F (Yl )</p>
+        <p>COMPUTING THE TEST STATISTIC OF STUDENTS’ ZCGTBII GRADES.</p>
+        <p>F (Yu ) − F (Yl )
+TABLE V. RELEVANT STATISTICS OF THE TWO-SAMPLE POOLED
+TTEST ON TWO GROUPS OF STUDENTS’ FINAL GRADES.
+TABLE VI. RELEVANT STATISTICS OF THE TWO-SAMPLE POOLED
+TTEST ON TWO GROUPS OF STUDENTS’ ZCGTBII GRADES.
+Number of. measurements
+Degrees of freedom
+Number of. measurements
+Degrees of freedom</p>
+        <p>THE PASSING RATE OF FINAL TEST AND ZCGTBII OF THE</p>
+        <p>TWO GROUPS OF STUDENTS.</p>
+        <p>passing rate of Final test
+passing rate of ZCGTBII</p>
+      </sec>
+      <sec id="3-2">
+        <title>2) Hypothesis test on two groups of students’ final</title>
+        <p>grades</p>
+        <p>In order to use the Two-Sample Pooled T-Test to test if
+two groups of students’ final grades have the same mean, the
+variances of two groups of students’ final grades are
+variances σ I 2 and σ II 2 to denote the mean and the
+variances of the two group respectively. Thus the first
+hypothesis is:</p>
+        <p>2
+and σ II are not equivalent.</p>
+        <p>Relevant statistics of two groups of students’ final grades
+are calculated in TABLE V. The test statistic F is
+F = 0.324
+Thus, the hypothesis H0 is accepted with a significance level
+ofα = 0.01.</p>
+        <p>Because the variances of two groups of students’ final
+grades are equivalent, the Two-Sample Pooled T-Test can be
+used to test if the mean of students’ final grades of Group I is
+greater than that of Group II. Thus, the second hypothesis is:
+From TABLE V, the test statistic t is
+t = 0.288 &gt; −t0.01,82 = −2.375</p>
+        <p>Thus, the hypothesis H0 is accepted with a significance
+level ofα = 0.01, i.e. the mean of group I of students’ final
+grades is greater than or equal to that of group II by 9.0
+points.</p>
+      </sec>
+      <sec id="3-3">
+        <title>3) Hypothesis test on two groups of students’ ZCGTBII</title>
+        <p>grades</p>
+        <p>Because two students did not take the ZCGTBII, the total
+sample size is 82 students in this hypothesis test.</p>
+        <p>Using the same methodology as shown in last subsection,
+relevant statistics of two groups of students’ ZCGTBII
+grades are calculated in TABLE VI.</p>
+        <p>From TABLE VI, the test statistic F is
+F = 1.215
+we can conclude that the variances of two groups of
+students’ ZCGTBII grades are equivalent with a significance
+level ofα = 0.01.</p>
+        <p>The following hypothesis test is used to test the relation
+of the two groups of students’ ZCGTBII grades.
+From TABLE VI, the test statistic t is
+t = 0.201 &gt; −t0.01,80 = −2.373</p>
+        <p>Thus, the hypothesis H0 is accepted with a significance
+level ofα = 0.01 , i.e. the mean of group I of students’
+ZCGTBII grades is greater than or equal to that of group II
+by 7.0 points.</p>
+      </sec>
+    </sec>
+    <sec id="4">
+      <title>CONCLUSION</title>
+      <p>Based on students’ computer programming time on
+homework and the minimum computer programming time
+on homework that the C programming language syllabus
+prescribed for a student to learn this course, students of a
+teaching class are divided into two groups. Group I is the
+students whose total computer programming time on
+homework is greater than or equal to the minimum computer
+programming time on homework. Group II is the students
+whose total computer programming time on homework is
+less than the minimum computer programming time on
+homework. Hypothesis tests are employed to analyze the
+final grades and the ZCGTBII grades of the two groups of
+students. Analysis results show that the mean of the final
+grades and the mean of ZCGTBII grades of Group I are
+greater than those of Group II by 9.0 and 7.0 points,
+respectively. Analysis results also show that the passing rates
+of final test and ZCGTBII of Group I are greater than those
+of Group II by 18.75 and 19.54 percentage points,
+respectively. Thus we can conclude that the time that a
+student practicing programming on computers plays a very
+important role in their C Programming Language learning.
+Therefore, in teaching process of the course of the C
+Programming Language, In addition to normal classroom
+teaching, teachers/instructors should encourage students to
+use computers to do an appropriate amount of homework.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <surname>Programming</surname>
+            <given-names>Language</given-names>
+          </string-name>
+          <string-name>
+            <surname>Popularity</surname>
+          </string-name>
+          , http://www.langpop.com/
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <article-title>TIOBE Software, “TIOBE programming community index for</article-title>
+          <source>June</source>
+          <year>2011</year>
+          ,” http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <surname>Harry</surname>
+            <given-names>H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Cheng</surname>
+          </string-name>
+          , “C for the course,” Mechanical Engineering Magazine, September,
+          <year>2009</year>
+          , pp
+          <fpage>50</fpage>
+          -
+          <lpage>52</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[4] Qinming He et al, National program of web-delivery for elaborate courses - The C programming language</article-title>
+          , http://jpkc.zju.edu.cn/k/409/ml15.htm
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[5] Kuanquan Wang et al, National program of web-delivery for elaborate courses - The C programming language</article-title>
+          , http://cms.hit.edu.cn/elite/
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <given-names>Zhaoqing</given-names>
+            <surname>Wang</surname>
+          </string-name>
+          et al, “
+          <source>Ministry of Education Bilingual Education Program - The C programming language</source>
+          ,” http://ecs.zstu.edu.cn/ce/KCGK/kcgk.htm.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [7]
+          <string-name>
+            <surname>Harry</surname>
+            <given-names>H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Cheng</surname>
+          </string-name>
+          , “Ten Reasons to Teach and Learn Computer Programming in C,” http://iel.ucdavis.edu/publication/WhyC.html.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[8] Ding Haiyan Zou Jiang Qiu Sha, “Experiment teaching system</article-title>
+          and reform measures in C language,”
+          <source>Experim ental Technology and Management</source>
+          , Vol
+          <volume>27</volume>
+          , No.
+          <issue>11</issue>
+          , pp.
+          <fpage>179</fpage>
+          -
+          <lpage>181</lpage>
+          , Nov.
+          <year>2010</year>
+          (in Chinese)
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <given-names>Chen</given-names>
+            <surname>Ting</surname>
+          </string-name>
+          , “
+          <source>Research on the teaching reform of C Language Programming,” Vol</source>
+          <volume>27</volume>
+          , No.
+          <issue>10</issue>
+          , pp.
+          <fpage>182</fpage>
+          -
+          <lpage>184</lpage>
+          , Oct.
+          <year>2010</year>
+          (in Chinese)
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [10]
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Romero</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Ventura</surname>
+          </string-name>
+          , “
+          <article-title>Educational data mining: a survey from 1995 to 2005,” Expert Systems with Applications</article-title>
+          , Vol.
+          <volume>33</volume>
+          , Issue 1, pp.
+          <fpage>135</fpage>
+          -
+          <lpage>146</lpage>
+          ,
+          <year>July 2007</year>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Baker</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Yacef</surname>
+          </string-name>
+          , “
+          <article-title>The state of educational data mining in 2009: A review and future visions,”</article-title>
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Educ</surname>
+          </string-name>
+          .
+          <source>DataMining</source>
+          , vol.
+          <volume>1</volume>
+          , no.
+          <issue>1</issue>
+          , pp.
+          <fpage>3</fpage>
+          -
+          <lpage>17</lpage>
+          ,
+          <year>2009</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [12]
+          <article-title>Crist´obal Romero and Sebasti´an Ventura, “Educational Data Mining: A Review of the State of the Art,” IEEE transactions on systems</article-title>
+          ,
+          <source>man, and cybernetics -- part c: applications and reviews</source>
+          , vol.
+          <volume>40</volume>
+          , no.
+          <issue>6</issue>
+          ,
+          <fpage>pp601</fpage>
+          -
+          <lpage>618</lpage>
+          ,
+          <year>November 2010</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>[13] NIST/SEMATECH, Engineering Statistics Handbook,” http://www.itl.nist.gov/div898/handbook.</mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [14]
+          <string-name>
+            <surname>Ribakd</surname>
+            <given-names>E.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Walpole</surname>
+            ,
+            <given-names>Raymond H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Myers</surname>
+            ,
+            <given-names>Sharon L.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Myers</surname>
+            and
+            <given-names>Keying</given-names>
+          </string-name>
+          <string-name>
+            <surname>Ye</surname>
+          </string-name>
+          , “Probability &amp; statistics for engineers &amp; scientists,” 7th edition,
+          <source>Prentice Hall</source>
+          ,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [15]
+          <article-title>Teaching committee of Instructional Division of Computer Technology</article-title>
+          , Zhejiang Sci-Tech University, “
+          <source>Syllabus Of the C Programming Language,” unpublished.</source>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

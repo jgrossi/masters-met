@@ -1,0 +1,1198 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Journal of Experimental Psychology:
+Human Perception and Performance</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Exposure Influences Expressive Timing Judgments in Music</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1037/a0012732</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Henkjan Honing</string-name>
+          <email>honing@uva.nl</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Olivia Ladinig</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Universiteit van Amsterdam</institution>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>This study is concerned with the question whether, and to what extent, listeners' previous exposure to music in everyday life, and expertise as a result of formal musical training, play a role in making expressive timing judgments in music. This was investigated by using a Web-based listening experiment in which listeners with a wide range of musical backgrounds were asked to compare 2 recordings of the same composition (15 pairs, grouped in 3 musical genres), 1 of which was tempo-transformed (manipulating the expressive timing). The results show that expressive timing judgments are not so much influenced by expertise levels, as is suggested by the expertise hypothesis, but by exposure to a certain musical idiom, as is suggested by the exposure hypothesis. As such, the current study provides evidence for the idea that some musical capabilities are acquired through mere exposure to music, and that these abilities are more likely enhanced by active listening (exposure) than by formal musical training (expertise).</p>
+      </abstract>
+      <kwd-group>
+        <kwd>music cognition</kwd>
+        <kwd>implicit knowledge</kwd>
+        <kwd>explicit knowledge</kwd>
+        <kwd>exposure</kwd>
+        <kwd>expertise</kwd>
+      </kwd-group>
+      <volume>35</volume>
+      <issue>1</issue>
+      <fpage>281</fpage>
+      <lpage>288</lpage>
+      <pub-date>
+        <year>2009</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>The ability to make, perceive, and enjoy music is generally
+regarded as an evolutionary by-product of more important
+functions, such as those involved in language (Pinker, 1997). However,
+there is increasing evidence that humans are born with musical
+biases and predispositions that are unique to human cognition
+(Hannon &amp; Trehub, 2005; Peretz, 2006; Zatorre, 2005). Although
+it remains unclear whether this evidence can be interpreted as a
+sign that a capacity for music is rooted in nature, rather than
+nurture, there is little controversy around the idea that musical
+competence is a special human capacity that is shared across ages
+and cultures (Blacking, 1974; Jackendoff &amp; Lerdahl, 2006;
+Mithen, 2005; Sloboda, 2000; Trehub, 2003). In the present article
+we concentrate on the question whether musical competence—the
+perceptual skills and musical knowledge that are required to
+perceive and appreciate musical input—is influenced by extensive
+formal musical training (explicit knowledge), or whether it can
+also be interpreted as a result of mere exposure to music (implicit
+knowledge).</p>
+      <p>Although some older studies argue that musical competence is a
+special, innate talent (“musicians are born, not made”; cf. Sloboda,
+1994), the most common view is that musical abilities are shaped
+mostly by intense musical training (Dienes &amp; Longuet-Higgins,
+2004; Sloboda, 1994; Smith, 1997; Wolpert, 2000) and that they
+remain rather rough in untrained listeners (Jackendoff &amp; Lerdahl,
+2006). Some authors even suggest that after the age of 10, musical
+abilities no longer evolve without explicit musical training
+(France`s, Zenatti, &amp; Imberty, 1979). These studies give support to
+the common idea that musicians, due to their specific musical
+talent and training, are more aware of musical detail (such as
+nuances in expressive timing,1 discussed in the present study) than
+are average listeners (Sloboda, 1994). We refer to this view as the
+expertise hypothesis, in which explicit knowledge and extensive
+musical training are considered the main contributors to musical
+competence.</p>
+      <p>Another, more recent view is that listeners without formal
+musical training, when given sufficient exposure (e.g., listening to
+music in everyday life, moving and dancing to music, attending
+concerts) to a certain musical idiom, might actually perform
+similarly in a task when compared with musically trained listeners
+(Levitin, 2006; Schellenberg, 2006), especially when they are
+asked to do a musical task that uses realistic and ecologically valid
+stimuli. With regard to the latter, it could be argued that the
+differences in musical competence between musicians and
+non</p>
+      <sec id="1-1">
+        <title>1 Expressive timing is the term used to refer to the minute deviations</title>
+        <p>from regularity that contribute to the quality of a music performance
+(Clarke, 1999; Palmer, 1997).
+musicians, as suggested by the literature, could well be an artifact
+of tasks using explicit naming—a situation in which musically
+trained listeners would have an advantage over untrained listeners.
+We refer to this view as the exposure hypothesis, in which implicit
+knowledge as a result of mere exposure (e.g., listening to one’s
+preferred music) is considered the main contributor to musical
+competence.</p>
+        <p>An example in support of the exposure hypothesis is a study by
+Bigand and Poulin-Charronnat (2006), who discovered that
+nonmusicians can be as sensitive as musicians to subtle aspects of
+music harmony, suggesting that musical training and explicit
+knowledge of music theory are unnecessary to acquire
+sophisticated knowledge about melody and harmony (Bigand, Tillmann,
+Poulin, D’Adamo, &amp; Madurell, 2001; Tillmann, Bharucha, &amp;
+Bigand, 2000).2 Furthermore, prolonged exposure to a specific
+musical idiom seems to allow nonmusicians, without explicit
+knowledge about a certain musical genre, to internalize the rules
+that are typical to such a genre and do almost equally well as
+musicians in a comparison task. Dalla Bella and Peretz (2005)
+found that all listeners—musicians and nonmusicians alike—are
+sensitive to styles of Western classical music, arguing that this is
+supported by cross-cultural perceptual processes that allow for
+discrimination of key perceptual features.</p>
+        <p>In the present study we are interested in whether these recent
+findings (i.e., the effect of exposure on making sophisticated
+musical judgments) also hold in the temporal domain of music
+cognition.</p>
+        <p>Listening Experiment Using a Comparison Task
+To study the effect of exposure and expertise in the temporal
+domain, we used a listening task that allows for testing the effect
+of different listener groups and different expertise levels on
+temporal sensitivity. In this task, participants were asked to compare
+two performances of the same composition (15 pairs, grouped in
+three musical genres: classical, rock, and jazz; see Tables 1, 2, and
+3). Each stimulus pair consisted of an audio recording by one artist
+and a manipulated, tempo-transformed audio recording by another
+artist. The tempo-transformed version was originally performed at
+a different tempo, but was scaled to be similar in overall tempo to
+the other performance of the pair. This resulted in stimulus pairs
+that have the same tempo, one of which is not manipulated, the
+other tempo-transformed. The participants had to indicate which of
+the two stimuli sounds more “natural” or musically plausible by
+focusing on the expressive timing that could have been
+manipulated as a result of the tempo-transformation.</p>
+        <p>This particular task was used for a number of reasons. First, the
+use of different musical genres (rock, jazz, classical) allows every
+participant to be either explicitly or implicitly competent, through
+either formal training or listening experience, in at least one
+musical genre. Second, expressive timing tends to be characteristic
+for a particular genre.3 In fact, Dalla Bella and Peretz (2005)
+showed that temporal variability can serve as an index to mark a
+certain musical style. Both aspects suggest that expressive timing
+could serve as an indicator of temporal sensitivity to a musical
+idiom. Third, because expressive timing was shown not to be
+perceptually invariant under tempo-transformation (Honing,
+2006a), as such it can function as a cue for listeners to decide
+whether or not a performance is tempo-transformed. Fourth, the
+time-scale algorithm used to make the tempo-transformed stimuli
+(Bonada, 2000) allows for manipulating the temporal information
+while maintaining musically realistic stimuli. This algorithm
+manipulates expressive timing while the original sound quality (e.g.,
+attack transients and timbre) is kept perceptually invariant. And
+finally, the task (i.e., comparing the quality of the expressive
+timing used in a performance) is similar to the “blindfold test” that
+is quite popular in media that review new CD recordings (such as
+magazines and radio shows). In such a test, a panel of music
+professionals is asked to compare and comment on the musical
+quality of a number of different recordings of the same music.
+Music lovers tend to find such a task attractive and challenging
+(Honing &amp; Ladinig, 2008).</p>
+        <p>A previous study (Honing, 2006a) showed that experienced
+listeners are quite good at this comparison task and can distinguish
+between a real and a tempo-transformed performance. In the
+current study we investigate whether this is expert behavior or
+whether listeners without formal musical training, but with
+sufficient exposure to a certain musical idiom (e.g., jazz, rock, or
+classical music), can do this equally well. The expertise hypothesis
+predicts that experts should do better, independent of musical
+genre. The exposure hypothesis predicts that experienced listeners
+should do better, independent of the amount of musical training
+they have received.</p>
+        <p>Invitations were sent to various mailing lists, online forums, and
+universities to reach a wide variety of respondents (N 208). Five
+gift certificates were raffled among those who responded. The
+respondents were between 12 and 63 years old (M 34, SD
+11.5, Mode 26) and had various musical backgrounds.
+Thirtyfour percent received little or no formal musical training, 29%
+could be considered musical experts (i.e., with more than 8 years
+of formal musical training and starting at a young age; Ericsson,
+Krampe, &amp; Tesch-Ro¨mer, 1993), and the remaining 37% could be
+classified as “semimusician.” Finally, 39% mentioned classical
+music as their main exposure category; 27%, jazz; and 34%, rock
+music.</p>
+        <p>We processed the responses in an online version of the
+experiment using standard Web browser technologies (see Honing,
+2006a, for details). The stimuli were excerpts of commercially
+available recordings and were converted to the MPEG-4 file
+format to guarantee optimal sound quality on different computer
+platforms and to minimize the download time.</p>
+      </sec>
+      <sec id="1-2">
+        <title>2 This is not to say that no differences exist between musicians and</title>
+        <p>nonmusicians but that these differences remain tiny in light of the
+considerable difference in the amount of explicit training that exists between both
+groups.</p>
+      </sec>
+      <sec id="1-3">
+        <title>3 For instance, tempo rubato (local speeding-up and slowing-down in a</title>
+        <p>performance) is often used in classical music (e.g., Hudson, 1994), whereas
+in jazz and rock it is more common to use timing deviations that are early
+or late with respect to a constant tempo (e.g., Ashley, 2002).</p>
+        <p>Sony, SK 87766, 2001
+Delos, GH 5601, 2004</p>
+        <p>RCA, 09026-63056-2, 1999</p>
+        <p>Decca, 452 982-2, 1997</p>
+        <p>Philips, 468 391-2, 2001</p>
+        <p>Decca, 417 798-2, 1990</p>
+        <p>Sony, SX4K 60150, 1997</p>
+        <p>BBC, BBCL 4116-2, 2002</p>
+        <p>DGG, 474 370-2, 1991</p>
+        <p>Philips, 468 391-2, 2001
+Note. BPM beats per minute; Op. opus; BWV Bach-Werke-Verzeichnis; WTC Das Wohl Temperierte Clavier; BBC British Broadcasting
+Corporation; RCA Radio Corporation of America; DGG Deutsche Grammophon Gesellschaft. SK, SX4K, GH, and BBCL are parts of record label
+identification.</p>
+        <p>Materials and Stimulus Preparation</p>
+        <p>For each of the three genres, 10 audio recordings were selected
+from commercially available CDs (see Tables 1–3). Each
+performance pair (labeled A and B in the tables) consists of two
+recordings of the same composition. These were selected such that
+they differed between 20% and 30% in overall tempo. All sound
+excerpts were taken from the beginning of a recording and
+restricted to instrumental music only (see motivation below). For the
+classical and jazz genres it was relatively easy to find such
+recordings (see Tables 1 and 2). However, for the rock genre this turned
+out to be quite a challenge, because it is less typical to have
+recordings of the same song in quite different tempi. However,
+using tools like iTunes (giving access to audio fragments of a large
+set of commercial recordings),4 we were able to find 10 recordings
+that were instrumental and had the desired tempo differences (see
+Table 3).</p>
+        <p>From each performance pair A and B, two stimulus pairs were
+derived (A/B and A /B, with prime indicating a
+tempotransformed recording). This resulted in a total of 30 real and 30
+tempo-transformed recordings. All 60 stimuli (constructed from
+the 30 recordings shown in Tables 1–3) can be found in the
+supplemental materials.</p>
+        <p>Furthermore, the two stimulus pairs derived from each
+performance pair were presented to two groups of listeners. This was
+done to prevent the respondents from remembering characteristics
+of the stimuli in one pair and using them to make a response to the
+other pair. Group 1 (n 101) was presented with 15 A/B pairs,
+whereas Group 2 (n 107) was presented with 15 A /B pairs.</p>
+        <p>For each recording, the tempo was matched with a metronome
+to the first four bars and checked perceptually by playing it along
+with the music. The resulting tempo estimate (see Tempo column
+in the tables) was used to calculate the tempo-scaling factor to
+make the stimulus pairs similar in tempo. The average tempo
+difference for each genre was about 24% (SD 3.5%).</p>
+        <p>The tempo-transformed stimuli were made using state-of-the-art
+time-scale modification software (Bonada, 2000). This software
+can change the overall tempo of a recording while keeping the
+pitch and sound quality (e.g., attack transients and timbre)
+invariant. As such, this algorithm minimizes the effect of sound quality
+artifacts that could bias the results. This was confirmed by an
+earlier study (Experiment 2 in Honing, 2006a) in which audio
+experts were presented with original and tempo-transformed
+stimuli and asked to identify what they considered a manipulated
+recording. Over the whole set of 28 stimuli, audio experts did no
+better than chance. Although three stimuli attracted slightly more
+responses, these did not bias the overall results (in fact, these
+stimuli contained snippets of voice, such as audience coughs and
+humming, that apparently caused small phasing effects that some
+audio experts could spot when asked to do so).</p>
+        <p>In the current study we therefore decided to use the same stimuli
+for the classical genre as used in Honing (2006a), minus the pairs
+that could have biased the results. Furthermore, we made sure that
+the stimuli selected for the jazz and rock genres were instrumental
+and did not contain any voice.</p>
+        <p>Finally, there are two additional reasons why we think sound
+quality is less of an issue in this study. First, participants were
+explicitly instructed to base their judgment on the use of
+ex</p>
+      </sec>
+      <sec id="1-4">
+        <title>4 See http://www.apple.com/itunes/.</title>
+        <p>Note. BPM beats per minute; OJC
+is part of record label identification.</p>
+        <p>Original Jazz Classics; MCA</p>
+        <p>Music Corporation of America; EMI
+Electric and Musical Industries Ltd. IMP
+pressive timing, not on the sound quality of the recordings (see
+“N.B.” under Procedure). Second, we were interested in
+differences between listener groups: With each listener group
+listening to the same stimuli, it is unlikely that the occasional
+participant ignoring these instructions would influence the
+results.</p>
+        <p>The presentation of the stimuli was randomized within and
+between pairs for each participant, as was the assignment of
+participants to either Group 1 or Group 2. Participants could
+choose between a Dutch or English version of the instructions.</p>
+        <p>Participants were invited to visit a Web page of the online
+experiment.5 First, they were asked to test their computer and
+audio system with a short sound excerpt and to adjust the
+volume to a comfortable level. Second, they were asked to fill
+in a questionnaire to obtain information on their musical
+background, listening experience, and musical training. Participants
+were, for instance, requested to estimate the distribution of their
+average listening time over particular musical genres (classical,
+jazz, pop, rock, etc.) in percentages. This information was used
+for the measures of exposure and expertise (see Analyses).
+Finally, they were referred to a Web page containing the actual
+experiment. The following instructions were given:
+You will be presented with fifteen pairs of audio fragments in three
+different repertoires (classical, jazz, and rock): one being a real
+recording (by one artist), the other a manipulated tempo-transformed
+recording (by another artist). The tempo-transformed version was
+originally recorded at a different tempo, but it has been time-stretched
+(or time-compressed) to become close in tempo to the other
+performance of the pair. Your task is to decide which is which. This might
+be quite a challenge.</p>
+        <p>Please do the following: 1) Listen to a pair of audio fragments once
+and in their entirety (in a quiet environment without distractions or
+with headphones). 2) Focus on the use of expressive timing by the
+performer (such as note asynchrony, tempo rubato and articulation).</p>
+        <sec id="1-4-1">
+          <title>3) Then answer the questions listed next to the excerpts, namely: Which is the real (i.e. not tempo-transformed) recording, the top or the bottom excerpt? Are you sure? And, do you know this composition? 4) Please do this for all fifteen pairs of audio fragments presented</title>
+          <p>below. N.B. All fragments are processed in some way, so please
+ignore sound quality as a possible cue for deciding which is which:
+Just focus on the timing of the performer(s).</p>
+          <p>The total experiment took, on average, 38 min to complete.6</p>
+          <p>The response forms were automatically sent by e-mail to the
+authors and converted into a tabulated file for further analysis with
+POCO (Honing, 1990), music software for symbolic and
+numerical analyses, and SPSS (Version 11), for statistical analyses. To
+filter out the occasional nonserious responses, we included only
+entirely completed response forms and those responses that took
+more than 10 min for the listening part of the experiment. Dropout
+(percentage of visitors who did not finalize the experiment or did
+it too quickly, e.g., against instruction to listen completely through
+each audio fragment) was 36% of all respondents.</p>
+          <p>The information as collected in the questionnaire was used to
+assign expertise and exposure levels to each participant. With
+regard to expertise, participants were classified into three
+categories: (a) nonmusicians, who had received less than 3 years of
+training or no training at all; (b) expert musicians, with formal
+musical training longer than 8 years starting before the age of 9;
+and (c) semimusicians, participants that fall between these two
+extremes. We refer to these categories as expertise.</p>
+          <p>With regard to exposure, participants were also classified into
+three categories: classical, jazz, and rock listener. A participant
+was assigned to a certain listener category when he or she
+indicated preference for one particular genre (with a minimum
+differ</p>
+        </sec>
+      </sec>
+      <sec id="1-5">
+        <title>5 The online experiment can be found in the supplemental materials.</title>
+      </sec>
+      <sec id="1-6">
+        <title>6 Although this might seem a long time, note that listeners could quit the</title>
+        <p>experiment at any time. Furthermore, 81% indicated that they would like to
+participate in a future experiment. Both aspects suggest that the participants
+were highly motivated (cf. Honing &amp; Ladinig, 2008).
+beats per minute; WEA</p>
+        <p>Warner-Elektra-Atlantic records; FAAB
+Free As A Boot records.
+Elektra/WEA, B0000032YA, 1993
+Def Jam, B0000024K5, 1995
+Warner Bros/WEA, B000008GHU, 1990
+Rhino/WEA, B000008IKZ, 1992
+FAAB Records, FAAB-0012-1, 2002/3
+FAAB Records, FAAB-0012-1, 2002/3
+Capitol, B000000QG4, 1991
+Blue Note Records, B000002UZ8, 1991
+Elektra/WEA, B0009SOFGI, 2005
+Other People’s Music, B000003TWS, 1997</p>
+        <p>Results and Discussion</p>
+        <p>Overall the participants correctly identified the real performance
+60.1% of the time (SD 9.7%). In the classical genre this was
+65.3% (SD 21.0%); for jazz, 56.6% (SD 19.0%); and for rock,
+58.2% (SD 20.2%). The average percentage correct for each of
+our nine participant groups (Exposure Expertise) was found to
+be significantly above chance level (50%) using a t test ( p .05).
+From this we can conclude that each participant group was capable
+of distinguishing a real recording from a manipulated,
+tempotransformed performance (see Figure 1). As such, we were able to
+replicate the main result from Honing (2006a), which used the
+same task and partly the same stimuli.8
+Effect of Exposure and Expertise</p>
+        <p>In this study, however, we were interested in seeing whether
+these judgments are the result of expert behavior or whether
+listeners without formal training, but with sufficient exposure to a
+certain musical genre, can do this equally well.</p>
+        <p>To analyze the effect of exposure and expertise on the amount
+of correct timing judgments of the participants, we calculated a 3
+(exposure) 3 (expertise) 3 (genre) analysis of variance, with
+exposure and expertise as between-subject variables and genre,
+with the levels classical music, jazz music, and rock music, as a
+within-subject variable.</p>
+        <p>We found an effect for genre, F(2, 244) 8.19, p .01, p2
+.063, showing that the overall performance, regardless of exposure
+or expertise, differed for each genre. Contrasts revealed that
+subjects performed better for classical music as compared with both
+jazz, F(1, 122) 15.77, p .001, and rock, F(1, 122) 8.41, p
+.01.9 Furthermore, we did not find effects for either of the
+between-subject variables, or an interaction of these variables.
+However, we did find a significant three-way interaction of genre,
+exposure, and expertise, F(8, 244) 2.14, p .05, 2p .065.</p>
+        <p>The interactions are indicated in Figure 1. In the left panel of
+Figure 1 the results are grouped according to expertise levels; in
+the right panel the results are grouped according to listener type.
+The interactions are indicated by asterisks (with an arrow pointing
+from the cell that got significantly higher values to the cell with the
+lower values). The majority of the interactions between exposure
+and expertise occur in the jazz genre. The interactions in the right
+panel show that expertise helps in making correct judgments,
+especially in the jazz genre. Also, the effect of exposure is visible
+in the jazz genre: Belonging to a certain listener group influences
+the performance, and this effect is emphasized for experts, less
+strong for semimusicians, and not visible for nonmusicians. The
+remaining interactions (not depicted in Figure 1) are for the
+participant groups “experts exposed to rock” and “naive listeners
+exposed to jazz.” Both performed worse in jazz than in the other
+genres ( p .05 for classical and p .05 for rock for the rock
+listeners, p .05 for rock and p .01 for classical for the jazz
+listeners). Finally, the participant group “experts exposed to
+classical music” performed better in the classical genre than in the
+other genres ( p .05 for jazz, p .01 for rock).</p>
+        <p>A possible cause of these interactions, mainly occurring in the
+jazz genre (see Figure 1, middle row), could be the special role of
+timing in jazz music, often intentionally deviating from standard
+patterns (Ashley, 2002). In a previous pilot study as well, timing in
+jazz turned out to be more difficult to judge, making even experts
+fail to recognize a tempo-transformed recording (Honing, 2007).
+Effect of Exposure and Expertise on Sure Judgments</p>
+        <p>However, due to the relative difficulty of the task, blurring the
+results with responses the participants were unsure about, and that</p>
+      </sec>
+      <sec id="1-7">
+        <title>7 Participants who did not have a specific musical preference (not</title>
+        <p>exceeding a threshold of 10% between the categories) were not considered
+in the ANOVAs (reducing this set to N 131). For the other analyses all
+responses (N 208) were used.</p>
+      </sec>
+      <sec id="1-8">
+        <title>8 The current study shares 10 classical recordings (see Table 1) with the</title>
+        <p>Honing (2006a) study. These 10 stimuli attracted 65.5% correct responses
+in the earlier study. In the current study this was 65.3%. As such, we
+replicate this earlier result.</p>
+      </sec>
+      <sec id="1-9">
+        <title>9 It is interesting to note that recent brain imaging research (Caldwell &amp;</title>
+        <p>Riby, 2007) suggests that exposure to one’s favorite (preferred) music
+facilitates conscious cognitive processes, whereas unconscious cognitive
+processes might be facilitated by exposure to classical music in general,
+regardless of one’s preferences.
+were likely a result of guessing, we decided also to consider only
+those judgments that the participants were sure about (referred to
+as “correct/sure” responses). For this we calculated a 3
+(exposure) 3 (expertise) 3 (genre) analysis of variance, with
+exposure and expertise as between-subject variables; genre (with
+the levels classical music, jazz music, and rock music) as a
+within-subject variable; and correct/sure responses as a dependent
+variable.</p>
+        <p>In this case the responses showed a significant interaction for
+genre and exposure, F(4, 244) 5.14, p .001, p2 .078,
+without apparent main effect of any variable or further interaction
+of these factors (see Figure 2).10</p>
+        <p>To view this interaction of genre and exposure in further detail,
+we first analyzed the differences in responses with regard to the
+different musical genres. For the classical genre, classical listeners
+showed higher scores ( p .01) than rock listeners. For the jazz
+repertoire, both classical and jazz listeners performed significantly
+better ( p .05 and p .01, respectively) than rock listeners. For
+the rock repertoire, there were no significant differences between
+listener groups.</p>
+        <p>Second, we analyzed how the responses differ within the listener
+groups. Classical listeners performed better on the classical
+repertoire than on the jazz or rock repertoire ( p .05 and p .001,
+respectively) and better for the jazz genre than for the rock genre
+( p .05). Rock listeners performed better on the rock repertoire
+than on the jazz repertoire ( p .05). No significant differences
+were found for the jazz listeners (although there was a tendency;
+see Figure 2).</p>
+        <p>In short, these results are in line with the idea that listeners
+perform best in the genre they listen to most, irrespective of
+expertise level, as was suggested by the exposure hypothesis.</p>
+        <p>This study addresses the influence of exposure versus expertise
+in making expressive timing judgments. It involved using an
+online listening experiment in which listeners with different
+musical preferences (exposure) and music education (expertise) were
+asked to compare two performances of the same composition (15
+pairs, grouped in three musical genres), one of which was
+tempotransformed (manipulating the expressive timing). An earlier study
+(Honing, 2006a) showed that expert listeners perform significantly
+above chance in such a comparison task. Surprisingly, the current
+study reveals that these judgments are not primarily influenced by
+expertise level (e.g., years of formal training) but mainly by
+exposure to a certain musical idiom. The interplay of familiarity
+with a particular genre (exposure) and the level of formal musical
+training (expertise) had a significant effect on discriminating a real
+from a manipulated performance. In addition, taking into account
+confidence, exposure positively influences the performance in a
+listener’s preferred genre. In short, performance is not simply a
+result of formal musical training, but is enhanced, and for the
+confident responses even solely influenced, by listening to one’s
+preferred music.</p>
+        <p>These results are in line with what has been found in the pitch
+domain (Bigand &amp; Poulin-Charronnat, 2006; Tillmann et al.,
+2000). These studies found responses of musically untrained
+listeners to be highly correlated with those of musically trained
+listeners, suggesting a musical capacity for melody and harmony
+judgments that is acquired through mere exposure to music,
+without the help of explicit training. Although not all listeners might be
+able to identify, label, or name explicitly what they perceive
+(Honing, 2006b; Schellenberg, 2006), most listeners seem to have
+a shared capability to distinguish between quite subtle musical
+nuances in a musical task (e.g., making judgments on expressive
+timing in the current study), a capability that is normally attributed
+to musical experts only.</p>
+        <p>Furthermore, these results are in line with Dalla Bella and Peretz
+(2005), who found that a sensitivity to Western musical styles is
+influenced by, but not conditional on, formal musical training, also
+showing an effect of both expertise and exposure.</p>
+        <p>In conclusion, the current study provides evidence in the
+temporal domain for the idea that some musical capabilities are
+acquired through exposure to music, and that these abilities are
+more likely enhanced by active listening (exposure) than by formal
+musical training (expertise).</p>
+        <p>10 To make certain the reported result was not simply due to analyzing
+part of the data, we also analyzed the “correct/not sure” responses. For
+these data we found, however, neither a significant effect of the
+independent variables nor an interaction. As such, we can be sure that the results
+reported for the correct/sure responses are not an artifact of the selection
+made. In addition, we found the same effect of genre as we have in the
+genre-specific correct judgments, F(2, 182) 5.45, p .01, p2 .057.
+Contrasts revealed that subjects performed better for the classical genre
+than the jazz genre, F(1, 91) 10.74, p .001, and the rock genre, F(1,
+91) 3.84, p .05.
+Ashley, R. (2002). Do[n’t] change a hair for me: The art of jazz rubato.</p>
+        <p>Music Perception, 19, 311–332.</p>
+        <p>Bigand, E., &amp; Poulin-Charronnat, B. (2006). Are we “experienced
+listeners”? A review of the musical capacities that do not depend on formal
+musical training. Cognition, 100, 100 –130.</p>
+        <p>Bigand, E., Tillmann, B., Poulin, B., D’Adamo, D. A., &amp; Madurell, F.
+(2001). The effect of harmonic context on phoneme monitoring in vocal
+music. Cognition, 81, B11–B20.</p>
+        <p>Blacking, J. (1974). How musical is man? Seattle: University of
+Washington Press.</p>
+        <p>Bonada, J. (2000). Automatic technique in frequency domain for
+nearlossless time-scale modification of audio. In Proceedings of the 2000
+International Computer Music Conference (pp. 396 –399). San
+Francisco: Computer Music Association.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Caldwell</surname>
+            ,
+            <given-names>G. N.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Riby</surname>
+            ,
+            <given-names>L. M.</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          ).
+          <article-title>The effect of music exposure and own genre preference on conscious and unconscious cognitive processes: A pilot ERP study</article-title>
+          .
+          <source>Consciousness and Cognition</source>
+          ,
+          <volume>16</volume>
+          ,
+          <fpage>992</fpage>
+          -
+          <lpage>996</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Clarke</surname>
+            ,
+            <given-names>E. F.</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          ).
+          <article-title>Rhythm and timing in music</article-title>
+          . In D. Deutsch (Ed.), Psychology of music (2nd ed., pp.
+          <fpage>473</fpage>
+          -
+          <lpage>500</lpage>
+          ).
+          <publisher-loc>New York</publisher-loc>
+          : Academic Press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <given-names>Dalla</given-names>
+            <surname>Bella</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            , &amp;
+            <surname>Peretz</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>I.</surname>
+          </string-name>
+          (
+          <year>2005</year>
+          ).
+          <article-title>Differentiation of classical music requires little learning but rhythm</article-title>
+          .
+          <source>Cognition</source>
+          ,
+          <volume>96</volume>
+          ,
+          <fpage>B65</fpage>
+          -
+          <lpage>B78</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Dienes</surname>
+            ,
+            <given-names>Z.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Longuet-Higgins</surname>
+            ,
+            <given-names>H. C.</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          ).
+          <article-title>Can musical transformations be implicitly learned?</article-title>
+          <source>Cognitive Science</source>
+          ,
+          <volume>28</volume>
+          ,
+          <fpage>531</fpage>
+          -
+          <lpage>558</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ericsson</surname>
+            ,
+            <given-names>K. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Krampe</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Th</surname>
+          </string-name>
+          ., &amp;
+          <fpage>Tesch</fpage>
+          -Ro¨mer,
+          <string-name>
+            <surname>C.</surname>
+          </string-name>
+          (
+          <year>1993</year>
+          ).
+          <article-title>The role of deliberate practice in the acquisition of expert performance</article-title>
+          .
+          <source>Psychological Review</source>
+          ,
+          <volume>100</volume>
+          ,
+          <fpage>363</fpage>
+          -
+          <lpage>406</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          France`s, R.,
+          <string-name>
+            <surname>Zenatti</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Imberty</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          (
+          <year>1979</year>
+          ).
+          <article-title>Le domaine musical [The musical domain]</article-title>
+          . In R. France`s (Ed.),
+          <source>Psychologie de l'art et de l'esthetique</source>
+          (pp.
+          <fpage>139</fpage>
+          -
+          <lpage>193</lpage>
+          ). Paris: Press Universitaires de France.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hannon</surname>
+            ,
+            <given-names>E. E.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Trehub</surname>
+            ,
+            <given-names>S. E.</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          ).
+          <article-title>Metrical categories in infancy and adulthood</article-title>
+          . Psychological Science,
+          <volume>16</volume>
+          ,
+          <fpage>48</fpage>
+          -
+          <lpage>55</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Honing</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          ).
+          <article-title>POCO: An environment for analysing, modifying, and generating expression in music</article-title>
+          .
+          <source>In Proceedings of the 1990 International Computer Music Conference</source>
+          (pp.
+          <fpage>364</fpage>
+          -
+          <lpage>368</lpage>
+          ). San Francisco: Computer Music Association.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Honing</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          (
+          <year>2006a</year>
+          ).
+          <article-title>Evidence for tempo-specific timing in music using a web-based experimental setup</article-title>
+          .
+          <source>Journal of Experimental Psychology: Human Perception and Performance</source>
+          ,
+          <volume>32</volume>
+          ,
+          <fpage>780</fpage>
+          -
+          <lpage>786</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Honing</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          (
+          <year>2006b</year>
+          , March
+          <volume>18</volume>
+          ).
+          <article-title>De analfabetische luisteraar (kan ook Groot Luisteren) [The illiterate listener]</article-title>
+          .
+          <source>NRC Handelsblad, Opinie &amp; Debat</source>
+          , p.
+          <fpage>19</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Honing</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          ).
+          <article-title>Is expressive timing relationally invariant under tempo transformation</article-title>
+          ?
+          <source>Psychology of Music</source>
+          ,
+          <volume>35</volume>
+          ,
+          <fpage>276</fpage>
+          -
+          <lpage>285</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Honing</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Ladinig</surname>
+            ,
+            <given-names>O.</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          ).
+          <article-title>The potential of the Internet for music perception research: A comment on lab-based versus Web-based studies</article-title>
+          .
+          <source>Empirical Musicology Review</source>
+          ,
+          <volume>3</volume>
+          ,
+          <fpage>4</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hudson</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          (
+          <year>1994</year>
+          ).
+          <article-title>Stolen time</article-title>
+          .
+          <article-title>The history of tempo rubato</article-title>
+          . Oxford, England: Clarendon Press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Jackendoff</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Lerdahl</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          ).
+          <article-title>The capacity for music: What is it, and what's special about it</article-title>
+          ?
+          <source>Cognition</source>
+          ,
+          <volume>100</volume>
+          ,
+          <fpage>33</fpage>
+          -
+          <lpage>72</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Levitin</surname>
+            ,
+            <given-names>D. J.</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          ).
+          <article-title>This is your brain on music: The science of a human obsession</article-title>
+          .
+          <publisher-loc>New York</publisher-loc>
+          : Penguin Books.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mithen</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          ).
+          <article-title>The singing Neanderthals: The origins of music, language, mind and body</article-title>
+          . London: Weidenfeld Nicolson.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Palmer</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          ).
+          <article-title>Music performance</article-title>
+          .
+          <source>Annual Review of Psychology</source>
+          ,
+          <volume>48</volume>
+          ,
+          <fpage>115</fpage>
+          -
+          <lpage>138</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Peretz</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          ).
+          <article-title>The nature of music from a biological perspective</article-title>
+          .
+          <source>Cognition</source>
+          ,
+          <volume>100</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>32</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Pinker</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          ).
+          <article-title>How the mind works</article-title>
+          .
+          <publisher-loc>New York</publisher-loc>
+          : Norton.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Schellenberg</surname>
+            ,
+            <given-names>E. G.</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          ).
+          <article-title>Exposure to music: The truth about the consequences</article-title>
+          . In G. E. McPherson (Ed.),
+          <article-title>The child as musician: A handbook of musical development</article-title>
+          (pp.
+          <fpage>111</fpage>
+          -
+          <lpage>134</lpage>
+          ). Oxford, England: Oxford University Press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sloboda</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          (
+          <year>1994</year>
+          ).
+          <article-title>What makes a musician</article-title>
+          ?
+          <source>EGTA Guitar Journal</source>
+          ,
+          <volume>5</volume>
+          ,
+          <fpage>18</fpage>
+          -
+          <lpage>22</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sloboda</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ).
+          <article-title>Individual differences in musical performance</article-title>
+          .
+          <source>Trends in Cognitive Science</source>
+          ,
+          <volume>4</volume>
+          ,
+          <fpage>397</fpage>
+          -
+          <lpage>403</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>J. D.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          ).
+          <article-title>The place of musical novices in music science</article-title>
+          .
+          <source>Music Perception</source>
+          ,
+          <volume>14</volume>
+          ,
+          <fpage>227</fpage>
+          -
+          <lpage>262</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Tillmann</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bharucha</surname>
+            ,
+            <given-names>J. J.</given-names>
+          </string-name>
+          , &amp;
+          <string-name>
+            <surname>Bigand</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ).
+          <article-title>Implicit learning of tonality: A self-organizing approach</article-title>
+          .
+          <source>Psychological Review</source>
+          ,
+          <volume>89</volume>
+          ,
+          <fpage>334</fpage>
+          -
+          <lpage>368</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Trehub</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          ).
+          <article-title>The developmental origins of musicality</article-title>
+          .
+          <source>Nature Neuroscience</source>
+          ,
+          <volume>6</volume>
+          ,
+          <fpage>669</fpage>
+          -
+          <lpage>673</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Wolpert</surname>
+            ,
+            <given-names>R. S.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ).
+          <article-title>Attention to key in a nondirected music listening task: Musicians vs</article-title>
+          . nonmusicians.
+          <source>Music Perception</source>
+          ,
+          <volume>18</volume>
+          ,
+          <fpage>225</fpage>
+          -
+          <lpage>230</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Zatorre</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          , March
+          <volume>17</volume>
+          ).
+          <source>Music: The food of neuroscience? Nature</source>
+          ,
+          <volume>434</volume>
+          ,
+          <fpage>312</fpage>
+          -
+          <lpage>315</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Received June 9,
+          <fpage>2007</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>Revision received February 4, 2008 Accepted February 21, 2008</article-title>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

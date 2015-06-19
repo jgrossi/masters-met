@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Employing Relative Entropy Techniques for Assessing Modifications in Animal Behavior</title><authors><author><name>Minoru Kadota</name><affiliation>Kinki University, Department of Fisheries, Faculty of Agriculture</affiliation></author><author><name>Eric J White</name><affiliation>University of Cincinnati, Department of Physics | United States of America</affiliation></author><author><name>Shinsuke Torisawa</name><affiliation>Kinki University, Department of Fisheries, Faculty of Agriculture</affiliation></author><author><name>Kazuyoshi Komeyama</name><affiliation>Kagoshima University, Faculty of Fisheries</affiliation></author><author><name>Tsutomu Takagi</name><affiliation>Kinki University, Department of Fisheries, Faculty of Agriculture</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Employing Relative Entropy Techniques for Assessing Modifications in Animal Behavior</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="2011">2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName>
+								<forename type="first">Minoru</forename>
+								<surname>Kadota</surname>
+							</persName>
+							<email>E-mail: kadota@cims.nyu.edu</email>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Fisheries</orgName>
+								<orgName key="dep2" type="department">Faculty of Agriculture</orgName>
+								<orgName type="institution">Kinki University</orgName>
+								<address>
+									<addrLine>Naka-machi</addrLine>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Eric</forename>
+								<forename type="middle">J</forename>
+								<surname>White</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Cincinnati</orgName>
+								<address>
+									<settlement>Cincinnati</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="institution">United States of America</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Shinsuke</forename>
+								<surname>Torisawa</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Fisheries</orgName>
+								<orgName key="dep2" type="department">Faculty of Agriculture</orgName>
+								<orgName type="institution">Kinki University</orgName>
+								<address>
+									<addrLine>Naka-machi</addrLine>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Kazuyoshi</forename>
+								<surname>Komeyama</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Faculty of Fisheries</orgName>
+								<orgName type="institution">Kagoshima University</orgName>
+								<address>
+									<settlement>Shimoarata Kagoshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Tsutomu</forename>
+								<surname>Takagi</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Fisheries</orgName>
+								<orgName key="dep2" type="department">Faculty of Agriculture</orgName>
+								<orgName type="institution">Kinki University</orgName>
+								<address>
+									<addrLine>Naka-machi</addrLine>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Employing Relative Entropy Techniques for Assessing Modifications in Animal Behavior</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLoS ONE</title>
+						<imprint>
+							<biblScope unit="volume">6</biblScope>
+							<biblScope unit="issue">12</biblScope>
+							<biblScope from="28241" unit="page" />
+							<date type="published" when="2011">2011</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1371/journal.pone.0028241</idno>
+					<note type="submission">Received July 6, 2011; Accepted November 4, 2011;</note>
+					<note>Editor: Enrico Scalas, Universita' del Piemonte Orientale, Italy aquaculture science of bluefin tuna and other cultured fish'', under the Global COE Program; a Grant-in-Aid for Scientific Research (no. 80399097) from the Ministry of Education, Culture, Science, Sport and Technology, Japan; and a Grant-in-Aid for Research Activity Start-up (no. 21880047) from the Japan Society for the Promotion of Science. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. Competing Interests: The authors have declared that no competing interests exist. *</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>In order to make quantitative statements regarding behavior patterns in animals, it is important to establish whether new observations are statistically consistent with the animal's equilibrium behavior. For example, traumatic stress from the presence of a telemetry transmitter may modify the baseline behavior of an animal, which in turn can lead to a bias in results. From the perspective of information theory such a bias can be interpreted as the amount of information gained from a new measurement, relative to an existing equilibrium distribution. One important concept in information theory is the relative entropy, from which we develop a framework for quantifying time-dependent differences between new observations and equilibrium. We demonstrate the utility of the relative entropy by analyzing observed speed distributions of Pacific bluefin tuna, recorded within a 48-hour time span after capture and release. When the observed and equilibrium distributions are Gaussian, we show that the tuna's behavior is modified by traumatic stress, and that the resulting modification is dominated by the difference in central tendencies of the two distributions. Within a 95% confidence level, we find that the tuna's behavior is significantly altered for approximately 5 hours after release. Our analysis reveals a periodic fluctuation in speed corresponding to the moment just before sunrise on each day, a phenomenon related to the tuna's daily diving pattern that occurs in response to changes in ambient light.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>J Godfrey</author>
+<author>D Bryant</author>
+</authors>
+<title>Effects of radio transmitters: review of recent radiotracking studies. Conservation applications of measuring energy expenditure of New Zealand birds: Assessing habitat quality and costs of carrying radio transmitters: Department of Conservation.</title>
+<date>2003</date>
+<pages>83--95</pages>
+<contexts>
+<context citStr="[1]" endWordPosition="679" position="4730" startWordPosition="679">ly tagged animals can be significantly different from speed distributions under normal behavior. However, mild stress may not always be reflected by statistically significant changes in the speed, even though an observer confidently asserts that the animal is not behaving normally. The key for a successful study of an animal’s behavior is to ensure that any data used for analysis is indicative of its natural behavior. Distress from capture, along with the physiological impacts due to the attachment and presence of a transmitter, can result in stress that modifies an animal’s baseline behavior [1], [2], [3]. James et al. [4] suspected some temporally short-term tagging effects on leatherback turtles at sea, and thus excluded from their data all results from the first week of tagging. In order to ensure that certain species of fish have properly recovered from the effects of anesthetics, attachment procedure, and transmitter presence, some studies have suggested that researchers would be well advised to exercise caution when analyzing data collected within the first twenty-four hours of transmitter attachment [5]. However, when it comes to quantifying the effects of external stress on a</context>
+</contexts>
+<marker>1.</marker>
+<rawString>Godfrey J, Bryant D (2003) Effects of radio transmitters: review of recent radiotracking studies. Conservation applications of measuring energy expenditure of New Zealand birds: Assessing habitat quality and costs of carrying radio transmitters: Department of Conservation. pp 83–95.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Hawkins</author>
+</authors>
+<title>Bio-logging and animal welfare: practical refinements.</title>
+<date>2004</date>
+<journal>Memoirs of National Institute of Polar Research</journal>
+<volume>58</volume>
+<pages>58--68</pages>
+<contexts>
+<context citStr="[2]" endWordPosition="680" position="4735" startWordPosition="680">gged animals can be significantly different from speed distributions under normal behavior. However, mild stress may not always be reflected by statistically significant changes in the speed, even though an observer confidently asserts that the animal is not behaving normally. The key for a successful study of an animal’s behavior is to ensure that any data used for analysis is indicative of its natural behavior. Distress from capture, along with the physiological impacts due to the attachment and presence of a transmitter, can result in stress that modifies an animal’s baseline behavior [1], [2], [3]. James et al. [4] suspected some temporally short-term tagging effects on leatherback turtles at sea, and thus excluded from their data all results from the first week of tagging. In order to ensure that certain species of fish have properly recovered from the effects of anesthetics, attachment procedure, and transmitter presence, some studies have suggested that researchers would be well advised to exercise caution when analyzing data collected within the first twenty-four hours of transmitter attachment [5]. However, when it comes to quantifying the effects of external stress on animal</context>
+</contexts>
+<marker>2.</marker>
+<rawString>Hawkins P (2004) Bio-logging and animal welfare: practical refinements. Memoirs of National Institute of Polar Research 58: 58–68.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wilson RP</author>
+<author>McMahon CR</author>
+</authors>
+<title>Measuring devices on wild animals: what constitutes acceptable practice?</title>
+<date>2006</date>
+<booktitle>Frontiers in Ecology and the Environment</booktitle>
+<volume>4</volume>
+<pages>147--154</pages>
+<contexts>
+<context citStr="[3]" endWordPosition="681" position="4740" startWordPosition="681">animals can be significantly different from speed distributions under normal behavior. However, mild stress may not always be reflected by statistically significant changes in the speed, even though an observer confidently asserts that the animal is not behaving normally. The key for a successful study of an animal’s behavior is to ensure that any data used for analysis is indicative of its natural behavior. Distress from capture, along with the physiological impacts due to the attachment and presence of a transmitter, can result in stress that modifies an animal’s baseline behavior [1], [2], [3]. James et al. [4] suspected some temporally short-term tagging effects on leatherback turtles at sea, and thus excluded from their data all results from the first week of tagging. In order to ensure that certain species of fish have properly recovered from the effects of anesthetics, attachment procedure, and transmitter presence, some studies have suggested that researchers would be well advised to exercise caution when analyzing data collected within the first twenty-four hours of transmitter attachment [5]. However, when it comes to quantifying the effects of external stress on animal beha</context>
+</contexts>
+<marker>3.</marker>
+<rawString>Wilson RP, McMahon CR (2006) Measuring devices on wild animals: what constitutes acceptable practice? Frontiers in Ecology and the Environment 4: 147–154.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>James MC</author>
+<author>Ottensmeyer CA</author>
+<author>Eckert SA</author>
+<author>Myers RA</author>
+</authors>
+<title>Changes in diel diving patterns accompany shifts between northern foraging and southward migration in leatherback turtles.</title>
+<date>2006</date>
+<journal>Canadian Journal of Zoology</journal>
+<volume>84</volume>
+<pages>754--765</pages>
+<contexts>
+<context citStr="[4]" endWordPosition="685" position="4758" startWordPosition="685">nificantly different from speed distributions under normal behavior. However, mild stress may not always be reflected by statistically significant changes in the speed, even though an observer confidently asserts that the animal is not behaving normally. The key for a successful study of an animal’s behavior is to ensure that any data used for analysis is indicative of its natural behavior. Distress from capture, along with the physiological impacts due to the attachment and presence of a transmitter, can result in stress that modifies an animal’s baseline behavior [1], [2], [3]. James et al. [4] suspected some temporally short-term tagging effects on leatherback turtles at sea, and thus excluded from their data all results from the first week of tagging. In order to ensure that certain species of fish have properly recovered from the effects of anesthetics, attachment procedure, and transmitter presence, some studies have suggested that researchers would be well advised to exercise caution when analyzing data collected within the first twenty-four hours of transmitter attachment [5]. However, when it comes to quantifying the effects of external stress on animal behavior, no sophistic</context>
+</contexts>
+<marker>4.</marker>
+<rawString>James MC, Ottensmeyer CA, Eckert SA, Myers RA (2006) Changes in diel diving patterns accompany shifts between northern foraging and southward migration in leatherback turtles. Canadian Journal of Zoology 84: 754–765.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Bridger CJ</author>
+<author>Booth RK</author>
+</authors>
+<title>The effects of biotelemetry transmitter presence and attachment procedures on fish physiology and behavior.</title>
+<date>2003</date>
+<journal>Reviews in Fishery Sciences</journal>
+<volume>11</volume>
+<pages>13--34</pages>
+<contexts>
+<context citStr="[5]" endWordPosition="758" position="5255" startWordPosition="758">nsmitter, can result in stress that modifies an animal’s baseline behavior [1], [2], [3]. James et al. [4] suspected some temporally short-term tagging effects on leatherback turtles at sea, and thus excluded from their data all results from the first week of tagging. In order to ensure that certain species of fish have properly recovered from the effects of anesthetics, attachment procedure, and transmitter presence, some studies have suggested that researchers would be well advised to exercise caution when analyzing data collected within the first twenty-four hours of transmitter attachment [5]. However, when it comes to quantifying the effects of external stress on animal behavior, no sophisticated or sufficiently quantitative methods have yet been established. Thus we turn to the question: how can one quantitatively distinguish the difference between stressinduced, non-equilibrium distributions and those of normal behavior ? Often it is the case that an equilibrium (reference) distribution is constructed from past records of observation. Upon making a new measurement, one is generally interested in the amount of information gained from the measured (observed) distribution. However</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Bridger CJ, Booth RK (2003) The effects of biotelemetry transmitter presence and attachment procedures on fish physiology and behavior. Reviews in Fishery Sciences 11: 13–34.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Sardeshmukh PD</author>
+<author>Compo GP</author>
+<author>C Penland</author>
+</authors>
+<title>Changes of probability associated with El Nino.</title>
+<date>2000</date>
+<journal>Journal of Climate</journal>
+<volume>13</volume>
+<pages>4268--4286</pages>
+<contexts>
+<context citStr="[6]" endWordPosition="942" position="6545" startWordPosition="942"> distribution, no meaningful information is gained. In this case, the inaccessibility of new information serves not as a statement about any inherent utility of the newly measured distribution, but rather that the observed distribution does not significantly differ from the reference distribution. PLoS ONE |www.plosone.org 1 December 2011 |Volume 6 |Issue 12 |e28241 There are currently several test statistics which are used to quantify the similarities between two distributions, including the tand F-tests for Gaussian distributions, and the KolmogorovSmirnov test for generalized distributions [6]. Bayesian methods often employ null hypothesis testing, an approach that has been criticized for its inherent subjectivity and emphasis on decisionmaking statistics [7]. The purpose of this paper is to introduce the readers to the use of relative entropy techniques as a method of quantifying timedependent differences between observed data and equilibrium. Relative entropy techniques are robust, compelling, and can be applied to many physical situations. Since relative entropy is sensitive to the higher-order moments of a distribution, and not just changes in the mean and variance, it has the </context>
+</contexts>
+<marker>6.</marker>
+<rawString>Sardeshmukh PD, Compo GP, Penland C (2000) Changes of probability associated with El Ninõ. Journal of Climate 13: 4268–4286.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Berger JO</author>
+</authors>
+<title>Statistical decision theory and Bayesian analysis.</title>
+<date>1985</date>
+<publisher>Springer.</publisher>
+<location>New York:</location>
+<contexts>
+<context citStr="[7]" endWordPosition="966" position="6714" startWordPosition="966">y measured distribution, but rather that the observed distribution does not significantly differ from the reference distribution. PLoS ONE |www.plosone.org 1 December 2011 |Volume 6 |Issue 12 |e28241 There are currently several test statistics which are used to quantify the similarities between two distributions, including the tand F-tests for Gaussian distributions, and the KolmogorovSmirnov test for generalized distributions [6]. Bayesian methods often employ null hypothesis testing, an approach that has been criticized for its inherent subjectivity and emphasis on decisionmaking statistics [7]. The purpose of this paper is to introduce the readers to the use of relative entropy techniques as a method of quantifying timedependent differences between observed data and equilibrium. Relative entropy techniques are robust, compelling, and can be applied to many physical situations. Since relative entropy is sensitive to the higher-order moments of a distribution, and not just changes in the mean and variance, it has the major advantage of more completely capturing probabilistic information [8]. For example, relative entropy techniques can be used to detect a divergence between an observ</context>
+</contexts>
+<marker>7.</marker>
+<rawString>Berger JO (1985) Statistical decision theory and Bayesian analysis. New York: Springer.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Kleeman</author>
+</authors>
+<title>Measuring dynamical prediction utility using relative entropy.</title>
+<date>2002</date>
+<journal>Journal of Atmospheric Science</journal>
+<volume>59</volume>
+<pages>2057--2072</pages>
+<contexts>
+<context citStr="[8]" endWordPosition="1043" position="7219" startWordPosition="1043">at has been criticized for its inherent subjectivity and emphasis on decisionmaking statistics [7]. The purpose of this paper is to introduce the readers to the use of relative entropy techniques as a method of quantifying timedependent differences between observed data and equilibrium. Relative entropy techniques are robust, compelling, and can be applied to many physical situations. Since relative entropy is sensitive to the higher-order moments of a distribution, and not just changes in the mean and variance, it has the major advantage of more completely capturing probabilistic information [8]. For example, relative entropy techniques can be used to detect a divergence between an observed distribution and equilibrium that may not affect low-order moments, such as a time-skewness introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despit</context>
+<context citStr="[8]" endWordPosition="1549" position="10420" startWordPosition="1549">roximation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a particular behavioral pattern, which often depends upon a choice of metric. A powerful feature of the relative entropy is that it is invariant under a change of coordinate systems. Consider a smooth, invertible transformation from x to y described by the function y~w(x). Since the relation D(p(x)jjq(x))~ D(pw(y)jjqw(y)) is always satisfied for such a re-parameterization, the relative entropy remains invariant under coordinate transformations [8], [19]. Thus, we are guaranteed that the difference between two probability distributions is always described by a single measure, regardless of the coordinate system. We further examine the significance of coordinate invariance as it applies specifically to the case of telemetry data in the Discussion section. Relative Entropy for Gaussian Distributions An analytical expression may be obtained for the relative entropy in the case that P(x) and Q(x) are Gaussian. Let us assume that the first and second moments of these distributions are denoted by mp, sp, mq, and sq, respectively. Given the st</context>
+</contexts>
+<marker>8.</marker>
+<rawString>Kleeman R (2002) Measuring dynamical prediction utility using relative entropy. Journal of Atmospheric Science 59: 2057–2072.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Shannon CE</author>
+<author>W Weaver</author>
+</authors>
+<title>The mathematical theory of communication.</title>
+<date>1949</date>
+<publisher>University of Illinois Press.</publisher>
+<location>Urbana:</location>
+<contexts>
+<context citStr="[9]" endWordPosition="1137" position="7805" startWordPosition="1137">c information [8]. For example, relative entropy techniques can be used to detect a divergence between an observed distribution and equilibrium that may not affect low-order moments, such as a time-skewness introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we an</context>
+</contexts>
+<marker>9.</marker>
+<rawString>Shannon CE, Weaver W (1949) The mathematical theory of communication. Urbana: University of Illinois Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Cover TM</author>
+<author>Thomas JA</author>
+</authors>
+<title>Elements of information theory.</title>
+<date>1991</date>
+<publisher>Wiley.</publisher>
+<location>New York:</location>
+<contexts>
+<context citStr="[10]" endWordPosition="1138" position="7811" startWordPosition="1138">ormation [8]. For example, relative entropy techniques can be used to detect a divergence between an observed distribution and equilibrium that may not affect low-order moments, such as a time-skewness introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze </context>
+<context citStr="[10]" endWordPosition="1384" position="9373" startWordPosition="1384">most common measure for doing this is the relative entropy. Consider a random variable x with a probability distribution function of Q(x). Following some measurement, we revise our estimate from Q(x) to P(x). The change in the probability function represents a measure of the amount of information introduced as a result of the measurement. The relative entropy D(PjQ) quantifies the change in information as an effective distance between the two probability distributions, given by D(PjQ)~ ð? {? P(x):log P(x) Q(x)   dx ð1Þ There exist many excellent reviews of the relative entropy in literature [10], [16], [17], [18]. Although this parameter, also known as the Kullback-Leibler divergence, is not a true metric, it serves as an effective distance between the distributions P(x) and Q(x). The relative entropy is always non-negative, and vanishes if and only if P=Q for all x. Although the relative entropy is not symmetric under the exchange of P and Q, nor does it satisfy the triangle inequality, these relations are satisfied to a good approximation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a pa</context>
+</contexts>
+<marker>10.</marker>
+<rawString>Cover TM, Thomas JA (1991) Elements of information theory. New York: Wiley.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U S National</author>
+</authors>
+<title>Research Council</title>
+<date>1994</date>
+<publisher>National Academies Press.</publisher>
+<contexts>
+<context citStr="[11]" endWordPosition="1170" position="8000" startWordPosition="1170">ime-skewness introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze the effects that transmitter attachment and presence can have on the behavior of Pacific bluefin tuna. In the final section we conclude with a discussion of the results. Methods Relative En</context>
+</contexts>
+<marker>11.</marker>
+<rawString>U.S. National Research Council (1994) Low-frequency sound and marine mammals: Current knowledge and research need. WashingtonDC: National Academies Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U S National</author>
+</authors>
+<title>Research Council</title>
+<date>2000</date>
+<publisher>National Academies Press.</publisher>
+<contexts>
+<context citStr="[12]" endWordPosition="1171" position="8006" startWordPosition="1171">ewness introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze the effects that transmitter attachment and presence can have on the behavior of Pacific bluefin tuna. In the final section we conclude with a discussion of the results. Methods Relative Entropy </context>
+</contexts>
+<marker>12.</marker>
+<rawString>U.S. National Research Council (2000) Marine mammals and low-frequency Sound: progress since 1994. WashingtonDC: National Academies Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U S National</author>
+</authors>
+<title>Research Council</title>
+<date>2003</date>
+<publisher>National Academies Press.</publisher>
+<contexts>
+<context citStr="[13]" endWordPosition="1172" position="8012" startWordPosition="1172"> introduced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze the effects that transmitter attachment and presence can have on the behavior of Pacific bluefin tuna. In the final section we conclude with a discussion of the results. Methods Relative Entropy When p</context>
+</contexts>
+<marker>13.</marker>
+<rawString>U.S. National Research Council (2003) Ocean Noise and Marine Mammals. WashingtonDC: National Academies Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U S National</author>
+</authors>
+<title>Research Council</title>
+<date>2005</date>
+<publisher>National Academies Press.</publisher>
+<contexts>
+<context citStr="[14]" endWordPosition="1173" position="8018" startWordPosition="1173">duced by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze the effects that transmitter attachment and presence can have on the behavior of Pacific bluefin tuna. In the final section we conclude with a discussion of the results. Methods Relative Entropy When perform</context>
+</contexts>
+<marker>14.</marker>
+<rawString>U.S. National Research Council (2005) Marine mammal populations and ocean noise: determining when noise causes biologically significant effects. WashingtonDC: National Academies Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Popper AN</author>
+<author>J Fewtrell</author>
+<author>Smith ME</author>
+<author>McCauley RD</author>
+</authors>
+<title>Anthropogenic sound: Effects on the behavior and physiology of fishes.</title>
+<date>2003</date>
+<journal>Marine Technology Society Journal</journal>
+<volume>37</volume>
+<pages>35--40</pages>
+<contexts>
+<context citStr="[15]" endWordPosition="1174" position="8024" startWordPosition="1174">by difficulties in detection. Although the relative entropy is not a true metric in the mathematical sense, another useful property is that it can be intuited as an effective distance between two probability distributions, in the sense that 1) it is always positive, 2) it is zero if and only if the two distributions are identical, and 3) it increases as the distributions diverge [9], [10]. Despite the concern raised by the increased use of telemetry techniques, very little is known about the effects of tagging devices, and even less is known about the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce relative entropy techniques as a method for assessing factors that can influence and modify animal behavior. In the Methods section we define relative entropy, give a brief overview of its properties as applied to generalized probability distributions, then specialize the definition for the case of Gaussian distributions. In the Results section we analyze the effects that transmitter attachment and presence can have on the behavior of Pacific bluefin tuna. In the final section we conclude with a discussion of the results. Methods Relative Entropy When performing a </context>
+</contexts>
+<marker>15.</marker>
+<rawString>Popper AN, Fewtrell J, Smith ME, McCauley RD (2003) Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine Technology Society Journal 37: 35–40.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Shannon</author>
+</authors>
+<title>A mathematical theory of communication.</title>
+<date>1948</date>
+<journal>Bell System Technical Journal</journal>
+<volume>27</volume>
+<pages>370--423</pages>
+<contexts>
+<context citStr="[16]" endWordPosition="1385" position="9379" startWordPosition="1385">ommon measure for doing this is the relative entropy. Consider a random variable x with a probability distribution function of Q(x). Following some measurement, we revise our estimate from Q(x) to P(x). The change in the probability function represents a measure of the amount of information introduced as a result of the measurement. The relative entropy D(PjQ) quantifies the change in information as an effective distance between the two probability distributions, given by D(PjQ)~ ð? {? P(x):log P(x) Q(x)   dx ð1Þ There exist many excellent reviews of the relative entropy in literature [10], [16], [17], [18]. Although this parameter, also known as the Kullback-Leibler divergence, is not a true metric, it serves as an effective distance between the distributions P(x) and Q(x). The relative entropy is always non-negative, and vanishes if and only if P=Q for all x. Although the relative entropy is not symmetric under the exchange of P and Q, nor does it satisfy the triangle inequality, these relations are satisfied to a good approximation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a particul</context>
+</contexts>
+<marker>16.</marker>
+<rawString>Shannon C (1948) A mathematical theory of communication. Bell System Technical Journal 27: 370–423, 623–656.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Goldman</author>
+</authors>
+<title>Information Theory.</title>
+<date>1953</date>
+<publisher>Prentice Hall.</publisher>
+<location>New York:</location>
+<contexts>
+<context citStr="[17]" endWordPosition="1386" position="9385" startWordPosition="1386">measure for doing this is the relative entropy. Consider a random variable x with a probability distribution function of Q(x). Following some measurement, we revise our estimate from Q(x) to P(x). The change in the probability function represents a measure of the amount of information introduced as a result of the measurement. The relative entropy D(PjQ) quantifies the change in information as an effective distance between the two probability distributions, given by D(PjQ)~ ð? {? P(x):log P(x) Q(x)   dx ð1Þ There exist many excellent reviews of the relative entropy in literature [10], [16], [17], [18]. Although this parameter, also known as the Kullback-Leibler divergence, is not a true metric, it serves as an effective distance between the distributions P(x) and Q(x). The relative entropy is always non-negative, and vanishes if and only if P=Q for all x. Although the relative entropy is not symmetric under the exchange of P and Q, nor does it satisfy the triangle inequality, these relations are satisfied to a good approximation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a particular beh</context>
+</contexts>
+<marker>17.</marker>
+<rawString>Goldman S (1953) Information Theory. New York: Prentice Hall.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Reza FM</author>
+</authors>
+<title>An introduction to information theory.</title>
+<date>1961</date>
+<publisher>MacGrawHill.</publisher>
+<location>New York:</location>
+<contexts>
+<context citStr="[18]" endWordPosition="1387" position="9391" startWordPosition="1387">e for doing this is the relative entropy. Consider a random variable x with a probability distribution function of Q(x). Following some measurement, we revise our estimate from Q(x) to P(x). The change in the probability function represents a measure of the amount of information introduced as a result of the measurement. The relative entropy D(PjQ) quantifies the change in information as an effective distance between the two probability distributions, given by D(PjQ)~ ð? {? P(x):log P(x) Q(x)   dx ð1Þ There exist many excellent reviews of the relative entropy in literature [10], [16], [17], [18]. Although this parameter, also known as the Kullback-Leibler divergence, is not a true metric, it serves as an effective distance between the distributions P(x) and Q(x). The relative entropy is always non-negative, and vanishes if and only if P=Q for all x. Although the relative entropy is not symmetric under the exchange of P and Q, nor does it satisfy the triangle inequality, these relations are satisfied to a good approximation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a particular behaviora</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Reza FM (1961) An introduction to information theory. New York: MacGrawHill.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Majda</author>
+<author>R Kleeman</author>
+<author>D Cai</author>
+</authors>
+<title>A mathematical framework for quantifying predictability through relative entropy.</title>
+<date>2002</date>
+<journal>Methods of Applied Analysis</journal>
+<volume>9</volume>
+<pages>425--444</pages>
+<contexts>
+<context citStr="[19]" endWordPosition="1550" position="10426" startWordPosition="1550">ation for P?Q. A useful criterion in the analysis of empirical data is that the results not be dependent on the coordinate system used to describe a particular behavioral pattern, which often depends upon a choice of metric. A powerful feature of the relative entropy is that it is invariant under a change of coordinate systems. Consider a smooth, invertible transformation from x to y described by the function y~w(x). Since the relation D(p(x)jjq(x))~ D(pw(y)jjqw(y)) is always satisfied for such a re-parameterization, the relative entropy remains invariant under coordinate transformations [8], [19]. Thus, we are guaranteed that the difference between two probability distributions is always described by a single measure, regardless of the coordinate system. We further examine the significance of coordinate invariance as it applies specifically to the case of telemetry data in the Discussion section. Relative Entropy for Gaussian Distributions An analytical expression may be obtained for the relative entropy in the case that P(x) and Q(x) are Gaussian. Let us assume that the first and second moments of these distributions are denoted by mp, sp, mq, and sq, respectively. Given the standard</context>
+</contexts>
+<marker>19.</marker>
+<rawString>Majda A, Kleeman R, Cai D (2002) A mathematical framework for quantifying predictability through relative entropy. Methods of Applied Analysis 9: 425–444.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Gardiner CW</author>
+</authors>
+<title>Handbook of Stochastic Methods.</title>
+<date>1990</date>
+<publisher>Springer.</publisher>
+<location>Berlin:</location>
+<contexts>
+<context citStr="[20]" endWordPosition="1649" position="11063" startWordPosition="1649">e difference between two probability distributions is always described by a single measure, regardless of the coordinate system. We further examine the significance of coordinate invariance as it applies specifically to the case of telemetry data in the Discussion section. Relative Entropy for Gaussian Distributions An analytical expression may be obtained for the relative entropy in the case that P(x) and Q(x) are Gaussian. Let us assume that the first and second moments of these distributions are denoted by mp, sp, mq, and sq, respectively. Given the standard form of a Gaussian distribution [20], it is straightforward to show that the relative entropy takes the form D(PjjQ)~ 1 2 log sq sp  2 z sp sq  2 {1 &amp;quot; # z 1 2 (mp{mq) 2 sq2 ð2Þ Notice that the relative entropy can be decomposed into a set of uncorrelated components. The term in square brackets reflects any difference in the variances between the two distributions, and is often referred to as the dispersion component [8], [19]. When the variance of the observed distribution is small compared to that of the reference distribution, the relative entropy is dominated by this first term. In this case, the dispersion represents the</context>
+</contexts>
+<marker>20.</marker>
+<rawString>Gardiner CW (1990) Handbook of Stochastic Methods. Berlin: Springer.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Willis</author>
+<author>J Phillips</author>
+<author>R Muheim</author>
+<author>Diego-Rasilla FJ</author>
+<author>Hobday AJ</author>
+</authors>
+<title>Spike dives of juvenile southern bluefin tuna (Thunnus maccoyii): a navigational role?</title>
+<date>2009</date>
+<journal>Behavioral Ecology and Sociobiology</journal>
+<volume>64</volume>
+<pages>57--68</pages>
+<contexts>
+<context citStr="[21]" endWordPosition="2801" position="18183" startWordPosition="2801">ference in the mean values between the distributions leads to a dominant contribution to D(tj) from the signal term. Since the step-length is directly correlated with the tuna’s speed, one could infer that behavior of a newly tagged tuna is considerably altered due to various factors of stress. Also evident in Figure 2 is a periodic increase in the tuna’s speed, at times corresponding to the moment just before sunrise on each day. Further inspection reveals that these signal spikes are offset by about 20 minutes to the earlier side of sunrise, a result that is consistent with a previous study [21]. In the latter study, it was discovered that both the deepest portion of the dives and the most rapid changes in depth are precisely timed with respect to sunrise, with spike dives occurring at times corresponding to a sun elevation of about 30 minutes before sunrise. In Figure 3 we plot the signal component of the relative entropy for three tuna fish. Large values of this term indicate that the tuna’s behavior is considerably modified by distress from capture and the physiological impacts of the attachments. As the tuna recovers from the distress of capture and stress, the signal term gradua</context>
+<context citStr="[21]" endWordPosition="4035" position="26129" startWordPosition="4035">served a high mortality of juveniles as a result of the fish buffeting the tank and net-pen at sunrise [22]. In the previous study it was also found that this phenomenon is caused by visual disorientation due to an incompatibility of the retina to adapt to changes in ambient light intensity. Kitagawa et al. [23] analyzed time-series data for depth, and reported that bluefin tuna display distinct patterns in their vertical movement at sunrise and sundown. It has also been reported that juvenile bluefin tuna make sharp descents and ascents, called spike dives, around sunrise and sunset each day [21]. Willis found that these spike dives are offset by about 30 minutes on the darker side of each sunrise or sunset, which is consistent with the results of our analysis. There is an abundance of opportunities in which relative entropy techniques can be applied. The relative entropy is a robust Figure 4. Comparison of relative entropy and t-test distributions. Relative entropy (top), calculated over the first seven hours after release. We determine that the distributions are indistinguishable when the relative entropy reaches a value of 0.069 (red horizontal line), first obtained after 5.1 hours</context>
+</contexts>
+<marker>21.</marker>
+<rawString>Willis J, Phillips J, Muheim R, Diego-Rasilla FJ, Hobday AJ (2009) Spike dives of juvenile southern bluefin tuna (Thunnus maccoyii): a navigational role? Behavioral Ecology and Sociobiology 64: 57–68.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Masuma</author>
+<author>G Kawamura</author>
+<author>N Tezuka</author>
+<author>M Koiso</author>
+<author>K Namba</author>
+</authors>
+<title>Retinomotor responses of juvenile bluefin tuna Thunnus thynnus.</title>
+<date>2001</date>
+<journal>Fisheries Science</journal>
+<volume>67</volume>
+<pages>228--231</pages>
+<contexts>
+<context citStr="[22]" endWordPosition="3955" position="25632" startWordPosition="3955"> Relative entropy techniques can be used to study behavior patterns that are modified by other factors, such as water temperature, exposure to sunlight, etc. For example, in this study we discovered a periodic variation in the tuna’s speed corresponding to the moment before sunrise on each day. Most likely such a fluctuation in the tuna’s diving pattern is due to changes in ambient light during sunrise, a hypothesis supported by evidence from other analyses. In captive bluefin tuna, it was observed a high mortality of juveniles as a result of the fish buffeting the tank and net-pen at sunrise [22]. In the previous study it was also found that this phenomenon is caused by visual disorientation due to an incompatibility of the retina to adapt to changes in ambient light intensity. Kitagawa et al. [23] analyzed time-series data for depth, and reported that bluefin tuna display distinct patterns in their vertical movement at sunrise and sundown. It has also been reported that juvenile bluefin tuna make sharp descents and ascents, called spike dives, around sunrise and sunset each day [21]. Willis found that these spike dives are offset by about 30 minutes on the darker side of each sunrise</context>
+</contexts>
+<marker>22.</marker>
+<rawString>Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K (2001) Retinomotor responses of juvenile bluefin tuna Thunnus thynnus. Fisheries Science 67: 228–231.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>T Kitagawa</author>
+<author>S Kimura</author>
+<author>H Nakata</author>
+<author>H Yamada</author>
+</authors>
+<title>Diving behavior of immature, feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in relation to season and area: the East China Sea and the Kuroshio-Oyashio transition region.</title>
+<date>2004</date>
+<journal>Fisheries Oceanography</journal>
+<booktitle>Relative Entropy on Animal Behavior PLoS ONE |www.plosone.org 6</booktitle>
+<volume>13</volume>
+<pages>161--180</pages>
+<contexts>
+<context citStr="[23]" endWordPosition="3990" position="25838" startWordPosition="3990">dic variation in the tuna’s speed corresponding to the moment before sunrise on each day. Most likely such a fluctuation in the tuna’s diving pattern is due to changes in ambient light during sunrise, a hypothesis supported by evidence from other analyses. In captive bluefin tuna, it was observed a high mortality of juveniles as a result of the fish buffeting the tank and net-pen at sunrise [22]. In the previous study it was also found that this phenomenon is caused by visual disorientation due to an incompatibility of the retina to adapt to changes in ambient light intensity. Kitagawa et al. [23] analyzed time-series data for depth, and reported that bluefin tuna display distinct patterns in their vertical movement at sunrise and sundown. It has also been reported that juvenile bluefin tuna make sharp descents and ascents, called spike dives, around sunrise and sunset each day [21]. Willis found that these spike dives are offset by about 30 minutes on the darker side of each sunrise or sunset, which is consistent with the results of our analysis. There is an abundance of opportunities in which relative entropy techniques can be applied. The relative entropy is a robust Figure 4. Compa</context>
+</contexts>
+<marker>23.</marker>
+<rawString>Kitagawa T, Kimura S, Nakata H, Yamada H (2004) Diving behavior of immature, feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in relation to season and area: the East China Sea and the Kuroshio-Oyashio transition region. Fisheries Oceanography 13: 161–180. Relative Entropy on Animal Behavior PLoS ONE  |www.plosone.org 6 December 2011  |Volume 6  |Issue 12  |e28241 Copyright of PLoS ONE is the property of Public Library of Science and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder&amp;apos;s express written permission. However, users may print, download, or email articles for individual use.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

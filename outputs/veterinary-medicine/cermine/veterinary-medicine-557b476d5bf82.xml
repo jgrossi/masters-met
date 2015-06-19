@@ -1,0 +1,3337 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>Occurrence and Molecular Characteristics of Methicillin-Resistant Staphylococcus aureus and Methicillin-Resistant Staphylococcus pseudintermedius in an Academic Veterinary Hospital</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1128/AEM.02780-09</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Kanako Ishihara</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Natsumi Shimokubo</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Akie Sakagami</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Hiroshi Ueno</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Yasukazu Muramatsu</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Tsuyoshi Kadosawa</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Chie Yanagisawa</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Hideaki Hanaki</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Chie Nakajima</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Yasuhiko Suzuki</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Yutaka Tamura</string-name>
+          <email>tamuray@rakuno.ac.jp</email>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>; and Research Center for Zoonosis Control, Hokkaido University</institution>
+          ,
+          <addr-line>Hokkaido</addr-line>
+          ,
+          <country country="JP">Japan</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>; Kitasato Research Center for Anti-infection Drugs</institution>
+          ,
+          <addr-line>Tokyo</addr-line>
+          ,
+          <country country="JP">Japan</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>School of Veterinary Medicine, Rakuno Gakuen University</institution>
+          ,
+          <addr-line>Hokkaido</addr-line>
+          ,
+          <country country="JP">Japan</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Recently, methicillin-resistant Staphylococcus aureus (MRSA) and methicillin-resistant Staphylococcus pseudintermedius (MRSP) have been increasingly isolated from veterinarians and companion animals. With a view to preventing the spread of MRSA and MRSP, we evaluated the occurrence and molecular characteristics of each in a veterinary college. MRSA and MRSP were isolated from nasal samples from veterinarians, staff members, and veterinary students affiliated with a veterinary hospital. Using stepwise logistic regression, we identified two factors associated with MRSA carriage: (i) contact with an identified animal MRSA case (odds ratio [OR], 6.9; 95% confidence interval [95% CI], 2.2 to 21.6) and (ii) being an employee (OR, 6.2; 95% CI, 2.0 to 19.4). The majority of MRSA isolates obtained from individuals affiliated with the veterinary hospital and dog patients harbored spa type t002 and a type II staphylococcal cassette chromosome mec (SCCmec), similar to the hospital-acquired MRSA isolates in Japan. MRSA isolates harboring spa type t008 and a type IV SCCmec were obtained from one veterinarian on three different sampling occasions and also from dog patients. MRSA carriers can also be a source of MRSA infection in animals. The majority of MRSP isolates (85.2%) carried hybrid SCCmec type II-III, and almost all the remaining MRSP isolates (11.1%) carried SCCmec type V. MRSA and MRSP were also isolated from environmental samples collected from the veterinary hospital (5.1% and 6.4%, respectively). The application of certain disinfection procedures is important for the prevention of nosocomial infection, and MRSA and MRSP infection control strategies should be adopted in veterinary medical practice.</p>
+      </abstract>
+      <fpage>5165</fpage>
+      <lpage>5174</lpage>
+      <pub-date>
+        <year>2010</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>5</month>
+          <year>2010</year>
+        </date>
+        <date date-type="received">
+          <day>17</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Methicillin-resistant Staphylococcus aureus (MRSA) is an
+important cause of nosocomial infections in human hospitals.
+The prevalence of hospital-acquired MRSA (HA-MRSA)
+infection among inpatients in intensive care units (ICUs)
+continues to increase steadily in Japan. Recently, cases of
+community-acquired MRSA (CA-MRSA) have been documented
+in persons without an established risk factor for HA-MRSA
+infection (14, 32, 36, 49).</p>
+      <p>There has also been an increase in the number of reports of the
+isolation of MRSA from veterinarians and companion animals (5,
+21, 23–26, 28, 31, 34, 38, 44, 50, 51, 53). Values reported for the
+prevalence of MRSA among veterinary staff include 17.9% in the
+United Kingdom (21), 10% in Japan (38), 3.9% in Scotland (13),
+and 3.0% in Denmark (28). Loeffler et al. reported that the
+prevalence of MRSA among dog patients and healthy dogs
+owned by veterinary staff members was 8.9% (21). In Japan, an
+MRSA isolate was detected in only one inpatient dog (3.8%) and
+could not be detected in any of 31 outpatient dogs (38). In the
+United States, MRSA isolates were detected in both dog (0.1%)
+and cat (0.1%) patients (31). The prevalence of MRSA among
+healthy dogs has been reported to be 0.7% (5). Hanselman et al.
+suggested that MRSA colonization may be an occupational risk
+for large-animal veterinarians (12). Recently, Burstiner et al.
+reported that the frequency of MRSA colonization among
+companion-animal veterinary personnel was equal to the frequency
+among large-animal veterinary personnel (6).</p>
+      <p>In addition, other methicillin-resistant coagulase-positive
+staphylococci (MRCPS), such as methicillin-resistant
+Staphylococcus pseudintermedius (MRSP) and methicillin-resistant
+Staphylococcus schleiferi (MRSS), isolated from dogs, cats, and
+a veterinarian have been reported (11, 31, 38, 40, 52). MRSP
+isolates have also been detected among inpatient dogs (46.2%)
+and outpatient dogs (19.4%) in a Japanese veterinary teaching
+hospital (38). In Canada, however, MRSP and MRSS isolates
+were detected in only 2.1% and 0.5% of dog patients,
+respectively (11).</p>
+      <p>Methicillin-resistant staphylococci produce
+penicillin-binding protein 2 , which reduces their affinity for -lactam
+antibiotics. This protein is encoded by the mecA gene (48), which
+is carried on the staphylococcal cassette chromosome mec
+(SCCmec). SCCmec is a mobile genetic element characterized
+by the combination of the mec and ccr complexes (16), and it
+is classified into subtypes according to differences in the
+junkyard regions (43). SCCmec typing can be used as a molecular
+tool (22, 27, 30, 33, 36, 55) for examining the molecular
+epidemiology of methicillin-resistant staphylococci.</p>
+      <p>In this study, we investigated the occurrence and
+characteristics of MRCPS isolates in a veterinary hospital in order to
+establish the transmission route of MRCPS in a veterinary
+hospital and with a view to preventing the spread of MRCPS
+infection. In addition, we evaluated the factors associated with
+MRCPS. Further, as Heller et al. have reported the
+distribution of MRSA within veterinary hospital environments and
+suggested the necessity to review cleaning protocols of hospital
+environments (13), we also attempted to isolate MRCPS from
+environmental samples collected in a veterinary hospital for an
+evaluation of MRSA transmission cycle though environmental
+surfaces in the veterinary hospital.</p>
+      <p>MATERIALS AND METHODS</p>
+      <p>Sampling. This study was approved by the Ethics Committee of the Graduate
+School of Dairy Science, Rakuno Gakuen University (RGU). Volunteers were
+recruited to provide the nasal swabs for the isolation of MRCPS from staff
+affiliated with the Department of Veterinary Companion Animals (DVCA) of
+the veterinary hospital and with three nonclinical laboratories in the School of
+Veterinary Medicine, RGU. Nasal swab samples were collected using BBL
+culture swab EZ (Becton Dickinson Japan, Co., Ltd., Tokyo, Japan) in March
+and April 2007 from 20 of the 46 veterinarians (43.5%) affiliated with the DVCA,
+all 21 staff members (including veterinary technicians) affiliated with the DVCA,
+and 51 of 60 veterinary students (85%) affiliated with the DVCA. In addition, 5
+staff members and 31 veterinary students of the 42 personnel (85.7%) affiliated
+with nonclinical laboratories also provided nasal samples. Ten nasal samples
+from the 31 veterinary students affiliated with nonclinical laboratories were
+collected in October 2007.</p>
+      <p>On a single day, we also collected 75 environmental surface samples (e.g., from
+floors, top parts of medical examination stands, and cages) from 30 areas in the
+veterinary hospital, including the following areas: waiting area; consulting,
+procedure, and operation rooms; dispensary; animal wards; administrative office;
+and a veterinarian’s office. Sampling areas were selected from areas frequented
+by individuals affiliated with the veterinary hospital and by animal patients. These
+samples were collected using single-use cotton swabs moistened with sterile
+physiological saline. In cases where presumptive MRCPS isolates were obtained
+from individuals who had companion animals at home, samples of buccal mucosa
+from the companion animals were also tested.</p>
+      <p>In the second sampling period from February to April 2008, the nasal samples
+were collected from 31 of 50 clinical veterinarians (62%), all 18 staff members,
+and 65 of 89 veterinary students (73%) affiliated with the DCVA of the
+veterinary hospital. In addition, three veterinarians, one staff member, and nine
+veterinary students affiliated with the Department of Large Animal Clinical
+Sciences provided nasal samples. Additionally, a total of 81 environmental surface
+samples were collected from areas similar to those described above.</p>
+      <p>Eight presumed MRSA strains from dog patients were also collected for use
+in this study for comparison with MRSA isolates from veterinarians, and
+veterinary students. These strains were isolated from the affected parts of dog patients
+during the period from 2007 to 2008. These strains were identified genetically
+and characterized by SCCmec and molecular typing in this study.</p>
+      <p>Fact-finding inquiry. In order to establish the factors associated with MRCPS
+carriage in humans, information on the following was gathered from subjects:
+hospitalization and surgery received within the previous year, antibiotics taken
+within the previous month, known contact with MRSA-identified animal
+patients, career, affiliations, and the presence of companion animals at home.
+During the 2008 investigation, we questioned volunteers about their
+participation in the previous investigation in 2007 and their MRSA-positive or -negative
+status as determined by the previous test. Human samples and questionnaire
+answers were coded to protect anonymity.</p>
+      <p>Isolation of MRCPS. Swabs were directly inoculated onto CHROMagar
+MRSA medium (Kanto Kagaku Co., Ltd., Tokyo, Japan) and incubated at 35°C
+for 24 h. For enrichment, the same swabs were inoculated into 5-ml portions of
+heart infusion broth (Nissui Pharmaceutical Co., Ltd., Tokyo, Japan) containing
+7.5% sodium chloride and incubated at 35°C for 48 h. Enrichment cultures were
+streaked out on CHROMagar MRSA medium and incubated as described
+above. Representative colonies colored light purple (presumptive MRSA), blue,
+or white were selected from each sample and subcultured on nutrient agar
+(Nissui Pharmaceutical Co., Ltd.).</p>
+      <p>For testing, we selected one isolate from each sample that was a
+catalasepositive, Gram-positive coccus and coagulase positive in tube tests with rabbit
+plasma (Eiken Chemistry Co., Ltd., Tokyo, Japan). The isolates were stored in a
+Microbank (Pro-Lab Diagnostics Inc., Richmond Hill, Canada) at 80°C.</p>
+      <p>Following the detection of MRSA carriage, 10 MRSA carriers requested
+consultation with a school doctor for treatment. They were treated with
+mupirocin ointment for 3 days. The nasal samples were again tested for the presence
+of MRSA after 1 month of treatment.</p>
+      <p>Detection of mecA and pvl, SCCmec typing, and identification of S. aureus and
+S. pseudintermedius. Staphylococcal genomic DNA was extracted from cultures
+using a QIAamp DNA minikit (Qiagen Co., Ltd., Tokyo, Japan) or an InstaGene
+matrix (Bio-Rad Laboratories Inc., Tokyo, Japan).</p>
+      <p>The Panton-Valentine leukocidin (pvl), mecA, and femA genes were
+investigated using multiplex PCR 1 (M-PCR 1) (Table 1); the primers for femA gene
+are specific to S. aureus. M-PCR 1 was performed in a 50- l reaction mixture
+containing 1 HF PCR buffer (containing 1.5 mM MgCl2), 200 M (each)
+deoxynucleoside triphosphate (dNTP), 200 nM (each) primer (Table 1), 1 U
+Phusion DNA polymerase (Finnzymes, Espoo, Finland), and 1 l of sample
+DNA. The samples were subjected to an initial denaturation at 98°C for 30 s,
+followed by 30 amplification cycles, with each cycle consisting of 98°C for 5 s,
+57°C for 10 s, and 72°C at 10 s. A final primer extension was performed at 72°C
+for 5 min, and the samples were then maintained at 4°C.</p>
+      <p>To identify the species of isolates other than S. aureus, direct sequencing of the
+sodA and hsp60 genes was performed as previously described (19, 37, 39).
+Sequencing reactions were performed using a Big Dye Terminator version 1.1 cycle
+sequencing kit (Applied Biosystems, Foster City, CA) and an ABI Prism 310
+genetic analyzer (Applied Biosystems). Additionally, restriction patterns
+produced by MboI (Takara Bio, Ltd., Shiga, Japan) digestion of PCR 1-amplified pta
+were also analyzed for the identification of S. pseudintermedius by the method of
+Bannoehr et al. (4).</p>
+      <p>SCCmec typing was performed by amplification of the mec regions (classes A,
+B, and C) and the ccr regions (types 1, 2, 3, and 5). The class of mec complex was
+determined by M-PCR 2 (18). The type of ccr complex was determined by
+M-PCR 3 (which detects types 1, 2, and 3) (16) or PCR 2 (which detects type 5).
+Moreover, M-PCR 4 was performed to determine the structure of SCCmec using
+the strategy of Oliveira and de Lencastre (33) with Phusion DNA polymerase
+(Finnzymes). Finally, the structure of the J1 region was confirmed for SCCmec
+type III isolates by PCR 3. The primer sequences are listed in Table 1.</p>
+      <p>Antimicrobial susceptibility testing. We performed MIC determinations for
+14 antimicrobial agents (7). For the isolates obtained in 2007, MIC tests were
+conducted using the agar dilution method with Mueller-Hinton agar (Oxoid Ltd.,
+Hampshire, United Kingdom). The following antimicrobial agents were tested:
+oxacillin, ampicillin, cefazolin, kanamycin, gentamicin, erythromycin,
+chloramphenicol, minocycline, oxytetracycline, vancomycin, and enrofloxacin (all from
+Sigma-Aldrich Japan K. K., Tokyo, Japan); imipenem (Banyu Pharmaceutical
+Co., Ltd., Tokyo, Japan); arbekacin (Meiji Seika Ltd., Tokyo, Japan); and
+teicoplanin (Astellas Pharma Inc., Tokyo, Japan). For the isolates obtained in 2008,
+we used the broth microdilution method with an Eiken frozen plate (Eiken
+Chemistry Co. Ltd.). Again, we tested 14 antimicrobial agents, 12 of which were
+the same as those tested for the 2007 isolates. This time, however, we used
+tetracycline and ciprofloxacin instead of oxytetracycline and enrofloxacin.</p>
+      <p>Molecular typing. Pulsed-field gel electrophoresis (PFGE) analysis for MRSA
+isolates was performed as previously described (2, 15). Briefly, bacterial cultures
+were grown overnight in Mueller-Hinton broth (Oxoid Ltd.) and resuspended in
+TN buffer (10 mM Tris, 1 M NaCl, pH 8.0). The cultures were mixed with the
+same volume of 2% UltraPure low-melting-point (LMP) agarose (Invitrogen
+Japan Ltd., Tokyo, Japan), dissolved in TN buffer, and pipetted into a plug mold.
+After bacterial lysis in a lysis buffer containing 5 mg/ml lysozyme (Wako Pure
+Chemical Industries, Ltd., Osaka, Japan) and 20 g/ml lysostaphin
+(SigmaAldrich Japan K. K.), genomic DNA was digested with SmaI (Takara Bio, Ltd.).
+PFGE was performed using a CHEF-DRIII system (Bio-Rad Laboratories
+Inc.), under the following conditions: switch time of 5.3 to 34.9 s and running
+time of 20 h for MRSA (15); included angle, 120°; voltage, 6 V/cm; and set
+temperature, 14°C.</p>
+      <p>All MRSA isolates were typed by DNA sequence analysis of the X region of
+the protein A gene (spa) as previously described (42). The spa types of MRSA
+isolates were determined by using Ridom SpaServer (http://www.spaserver.ridom
+.de/).</p>
+      <p>Statistical analysis. Categorical comparisons were performed using Fisher’s
+exact test. A P value of less than 0.05 was considered to be significant. The
+associations between MRSA and MRSP carriage and each inquiry shown in
+Table 3 were evaluated with a stepwise forward logistic regression using SPSS
+15.0J software (SPSS Japan Inc., Tokyo, Japan). Variables with a significance
+level of P of 0.05 in the univariate analysis were considered for inclusion in the</p>
+      <p>OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5167
+PCR method (purpose), locus, and primera
+Primer sequence (5 33 )</p>
+    </sec>
+    <sec id="2">
+      <title>Reference</title>
+      <p>M-PCR 2 (for amplication of mec gene</p>
+      <p>complex class)
+PCR 1 (for identification of S. pseudintermedius
+by restriction fragment length
+polymorphism using MboI)
+pta_f1
+pta_r1
+PCR 2 (for amplification of the ccrC gene)
+ccrC F2
+ccrC R2
+PCR 3 (for amplification of the J1 region)</p>
+      <p>SCCmec III J1 F
+SCCmec III J1 R
+a Forward and reverse primers are indicated by F and R, respectively.
+TGT CCG TAA CCT GAA TCA GC
+TGC TAT CCA CCC TCA AAC AG
+AAC TGT TGG CCA CTA TGA GT
+CCA GCA TTA CCT GTA ATC TCG
+TCA TTA GGT AAA ATG TCT GGA CAT GAT CCA
+GCA TCA AST GTA TTG GAT AGC AAA AGC
+CAT AAC TTC CCA TTC TGC AGA TG
+ATG CTT AAT GAT AGC ATC CGA ATG
+TGA GGT TAT TCA GAT ATT TCG ATG T
+ATA TAC CAA ACC CGA CAA CTA CA
+ATT GCC TTG ATA ATA GCC ITC T
+AAC CTA TAT CAT CAA TCA GTA CGT
+TAA AGG CAT CAA TGC ACA AAC ACT
+AGC TCA AAA GCA AGC AAT AGA AT
+TTC GAG TTG CTG ATG AAG AAG G
+ATT TAC CAC AAG GAC TAC CAG C
+AAT CAT CTG CCA TTG GTG ATG C
+CGA ATG AAG TGA AAG AAA GTG G
+ATC AAG ACT TGC ATT CAG GC
+GCG GTT TCA ATT CAC TTG TC
+CAT CCT ATG ATA GCT TGG TC
+CTA AAT CAT AGC CAT GAC CG
+GTG ATT GTT CGA GAT ATG TGG
+CGC TTT ATC TGT ATC TAT CGC
+TTC TTA AGT ACA CGC TGA ATC G
+GTC ACA GTA ATT CCA TCA ATG C
+CAG GTC TCT TCA GAT CTA CG
+GAG CCA TAA ACA CCA ATA GCC
+CAG GTC TCT TCA GAT CTA CG
+GAA GAA TGG GGA AAG CTT CAC
+TCC AGA TTA CAA CTT CAC CAG G
+CCA CTT CAT ATC TTG TAA CG
+AAA GAC AAA CTT TCA GGT AA
+GCA TAA ACA AGC ATT GTA CCG
+GTA CTC GTT ACA ATG TTT GG
+ATA ATG GCT TCA TGC TTA CC
+CAT TTG TGA AAC ACA GTA CG
+GTT ATT GAG ACT CCT AAA GC</p>
+      <p>Source of sample
+Individuals in the veterinary hospital</p>
+    </sec>
+    <sec id="3">
+      <title>Veterinarians</title>
+      <p>Staff members</p>
+    </sec>
+    <sec id="4">
+      <title>Students</title>
+      <p>Staff and students in nonclinical</p>
+      <p>laboratories
+Companion animalsb
+Environment in the veterinary hospital
+MRSA carriers after treatment for</p>
+      <p>MRSA colonization
+5 (25.0)c 8.7–49.1
+8 (23.5)d,e 10.7–41.2
+3 (14.3) 3.0–36.3
+0e 0–14.6
+3 (5.9)c 1.2–16.2
+2 (2.7)d 0.3–9.4
+0 0–8.0
+0 0–45.1
+5 (6.7) 2.2–14.9
+3 (3.7) 0.8–10.4
+2 (20) 1.2–31.7
+1 (5.0) 0.1–24.9
+3 (8.8) 1.9–23.7
+1 (4.8) 0.1–23.8
+0 0–14.6
+1 (2.0) 0.1–10.4
+7 (9.5) 3.9–18.5
+0 0–8.0
+3 (60) 14.7–94.7
+0 0–8.0
+0 0–45.1
+multivariate model. Variables with a P value of 0.05 in the final model were
+also considered significant, and odds ratios (ORs) with 95% confidence intervals
+(95% CIs) were calculated.</p>
+      <p>Identification and frequencies of MRSA, MRSP, and MRSS.
+The occurrence of methicillin-resistant Staphylococcus aureus
+(MRSA), methicillin-resistant Staphylococcus
+pseudintermedius (MRSP), and methicillin-resistant Staphylococcus
+schleiferi (MRSS) among each sample type are shown in Table 2.
+MRSA isolates were obtained from 11 of 92 individuals
+(12.0%; 95% CI, 6.1% to 20.4%) and 10 of 127 individuals
+(7.9%; 95% CI, 3.8% to 14.0%) affiliated with the veterinary
+hospital in 2007 and 2008, respectively. In addition, MRSA
+isolates were also obtained from 2 of 10 MRSA carriers even
+after they underwent treatment. Analysis of the environmental
+surface samples showed that MRSA had contaminated the
+floors of rooms used for X-ray computed tomography (CT)
+scans and administration of anesthetics and the cat ward, a cat
+cage in the cat ward room, and the top part of an anesthetics
+stand in 2007. The following areas were identified as infected:
+the floors of rooms in the cat ward, a preliminary meeting
+room for veterinary technicians, and an intern veterinarian’s
+office in 2008.</p>
+      <p>The values for the incidence of MRSP carriage among
+individuals affiliated with the veterinary hospital were 3.3% (3/92)
+(95% CI, 0.7% to 9.2%) and 7.9% (10/127) (95% CI, 3.8% to
+14.0%) in 2007 and 2008, respectively. MRSP isolates were
+obtained from three buccal mucosa samples from five
+companion animals owned by methicillin-resistant coagulase-positive
+staphylococci (MRCPS)-positive individuals (60%). In 2007,
+MRSP was found to have contaminated the following areas:
+the cages for large dogs, the top surfaces of an X-ray CT scan
+stand, a stand in the cat ward, the ICU, and the floor of a
+magnetic resonance imaging (MRI) room. These isolates were
+identified as MRSP by the high degree of similarity between
+their sodA and hsp60 sequences and those of the S.
+pseudintermedius strain LMG 22219T and by the MboI restriction
+pattern of the PCR-amplified pta gene. Although the
+aggregates of MRSP colonies cultured on the CHROMagar MRSA
+medium were light purple (similar to the MRSA colonies),
+most of the single colonies of MRSP were white and very small.
+The diameter of the MRSP single colonies cultured on the
+CHROMagar MRSA medium after incubation for 24 h was
+approximately 0.5 mm. On the other hand, the diameter of
+MRSA single colonies after the same incubation period was
+approximately 1 mm.</p>
+      <p>In 2008, MRSS isolates were obtained from a nasal swab
+sample from a veterinarian (1/127 [0.4%]) and from four
+environmental surface samples (4.9%). MRSS was found to have
+contaminated the floor of a consulting room, the reception
+area, an X-ray CT scan preparation room, and the top surface
+of an examination stand. These MRSS isolates were identified
+by the high degree of similarity between their sodA and hsp60
+sequences with those of the S. schleiferi subsp. coagulans strain
+CIP 104370T. The colonies of these isolates cultured on
+CHROMagar MRSA medium were also white and appeared
+to be very small.</p>
+      <p>Seven of eight presumed MRSA strains isolated from dog
+patients were confirmed as MRSA. Another isolate from a dog
+patient was identified as MRSP. MRSA, MRSP, and MRSS
+were not isolated from any of the nasal swab samples obtained
+from individuals affiliated with nonclinical laboratories.</p>
+      <p>Characteristics of MRSA- and MRSP-positive humans. A
+total of 64 individuals (20 veterinarians, 14 staff members, and
+30 students) provided samples in both 2007 and 2008. To avoid
+Contact with MRSA-positive animal patients</p>
+    </sec>
+    <sec id="5">
+      <title>Employee</title>
+      <p>Affiliated with the veterinary hospital
+Hospitalization or surgery within the previous year
+Intake of antibiotics within the previous month
+Presence of companion animals at home</p>
+    </sec>
+    <sec id="6">
+      <title>No</title>
+    </sec>
+    <sec id="7">
+      <title>Yes</title>
+    </sec>
+    <sec id="8">
+      <title>No</title>
+    </sec>
+    <sec id="9">
+      <title>Yes</title>
+      <p>Positive rate (%)
+Positive rateb (%)
+12/61 (19.7)
+5/130 (3.8)
+12/65 (18.5)
+5/126 (4.0)
+17/155 (11.0)
+0/36
+0/10
+17/180 (9.4)
+3/17 (17.6)
+14/173 (8.1)
+10/96 (10.4)
+7/93 (7.5)
+a MRSA, methicillin-resistant S. aureus; MRSP, methicillin-resistant S. pseudintermedius.
+b The positive rate is the number of individuals positive for methicillin-resistant staphylococci/number of those who answered “yes” or “no” for each inquiry.
+c OR, odds ratio.
+duplication, we undertook an analysis of the factors associated
+with MRSA and MRSP colonization by assessing the results
+from individuals who had first provided samples and answered
+the questionnaire. Research students and graduate students
+were categorized as employees because they diagnosed and
+treated animal patients in the capacity of veterinarians. One
+person failed to answer questions regarding hospitalization,
+surgery, and antibiotic intake, whereas an additional two
+people failed to answer questions regarding the presence of
+companion animals in the home; these individuals were therefore
+excluded from the analysis. The univariate analysis results for
+MRSA and MRSP carriage are shown in Table 3.</p>
+      <p>According to the stepwise forward logistic regression, both
+contact with MRSA-identified animal patients and
+employment were associated with MRSA carriage. The predictive
+accuracy was 91.0%, as determined by the Hosmer-Lemeshow
+test. The incidence of MRSA carriers among those who had
+had contact with MRSA-identified animal patients (19.7%)
+was higher than those who had had no contact (3.8%; OR,
+6.88; 95% CI, 2.20 to 21.57) (P 0.01). The incidence of
+MRSA carriers among employees of the veterinary hospital or
+of nonclinical laboratories (18.5%) was higher than that among
+students (4.0%; OR, 6.18; 95% CI, 1.97 to 19.41). Contact with
+MRSA-identified animal patients was also associated with
+MRSP carriage. The predictive accuracy was 96.8%, as
+determined by the Hosmer-Lemeshow test. The incidence of MRSP
+carriers among those who had had contact with
+MRSA-identified animal patients (8.2%) was higher than the incidence in
+those who had had no contact with MRSA-identified animal
+patients (0.8%; OR, 11.55; 95% CI, 1.32 to 101.14) (P 0.05).</p>
+      <p>Molecular characterization of MRCPS. Two MRSA isolates
+from MRSA carriers after treatment, seven MRSA isolates
+from dog patients, 21 MRSA isolates from individuals affiliated
+with the veterinary hospital, and eight MRSA isolates from
+environmental surface samples were characterized by SCCmec
+typing, PFGE, and spa typing. Twenty-seven MRSA isolates
+were classified as SCCmec type II. The absence of pUB110 and
+kdp was detected in seven isolates and one isolate of SCCmec
+type II, respectively. Eight MRSA isolates were classified as
+SCCmec type IV. All eight SCCmec type IV MRSA isolates
+harbored pUB110, and three of the eight isolates also
+harbored pls. Three of the MRSA isolates were classified as
+SCCmec type I.</p>
+      <p>The genetic relationship among the MRSA isolates, based
+on PFGE, is shown in Fig. 1. Analysis using the Dice
+coefficient, followed by the unweighted-pair group method with
+arithmetic means (UPGMA), revealed 12 clusters (clusters A
+to L) of MRSA. Band position tolerance and optimization
+were both set at 1.0%. Similarities among the SCCmec type II
+isolates that harbored both pUB110 and kdp were higher than
+those among isolates that had lost either pUB110 or kdp.</p>
+      <p>MRSA isolates with SCCmec type II in clusters I and J had spa
+type t062 and t1265, respectively. The remaining 25 MRSA
+isolates with SCCmec type II had spa type t002. All eight
+MRSA isolates with SCCmec type IV had spa type t008. All
+three MRSA isolates with SCCmec type I had spa type t1767.</p>
+      <p>Two spa type t002 MRSA isolates in cluster G (2007-IM11
+[28] and 2008-98 [28]) were isolated from a nasal sample from
+a veterinarian after treatment for MRSA carriage in
+November 2007 and in 2008; however, an MRSA isolate from the
+same veterinarian before treatment was grouped in cluster J
+and did not harbor kdp. The three spa type t008 isolates in
+cluster B were obtained from the same veterinarian, before
+and after treatment (March and November 2007 and February
+2008).</p>
+      <p>Twenty-three MRSP isolates carried a class A mec complex
+and a type 3 ccr complex. The absence of insertion Tn554 (loci
+E and F were negative, according to M-PCR 4) and pT181
+(locus H) was found in 23 MRSP isolates. These MRSP
+isolates harbored the dcs region and a gene in the J1 region
+present in SCCmec type III; the latter was confirmed by PCR
+3. The SCCmec structure in these 23 MRSP isolates matched
+the DNA sequence of SCCmec type II-III (GenBank accession
+no. AM904732); therefore, the SCCmec type of these MRSP
+isolates was presumed to be type II-III. Three MRSP isolates
+were classified as SCCmec type V and harbored Tn554 in the
+chromosomal right junction (locus F was positive). In one
+MRSP isolate, ccr was not amplified; therefore, the SCCmec
+type was not determined.</p>
+      <p>Five MRSS isolates were classified as SCCmec type IV.</p>
+      <p>These isolates harbored pls and the dcs region (loci A and D
+were positive). No pvl genes were found in any of the MRCPS
+isolates.</p>
+      <p>Antimicrobial susceptibility testing. The frequencies of
+resistance of MRSA, MRSP, and MRSS and the range of the
+MICs for each SCCmec type are shown in Table 4. All isolates
+were resistant to both oxacillin and ampicillin. All MRSA and
+MRSS isolates were resistant to cefazolin; however, more than
+half of the MRSP isolates were susceptible to it. Moreover,
+almost all MRSA SCCmec type I and II isolates were resistant
+to imipenem, whereas almost all MRSA SCCmec type IV
+isolates, all MRSP isolates, and MRSS isolates were susceptible
+to this antibiotic. The frequencies of MRSP resistance to
+kanamycin and gentamicin were higher than those for MRSA
+and MRSS.</p>
+      <p>DISCUSSION</p>
+      <p>Our study revealed that two factors were independently
+associated with MRSA carriage: (i) contact with an identified
+animal MRSA case, and (ii) being an employee of a veterinary
+hospital or a nonclinical laboratory (versus being a student). It
+is suggested that animal patients spread MRSA infection
+among human individuals in veterinary hospitals. Contact with
+MRSA-infected animals has previously been identified as a
+risk factor among equine veterinarians (1); however, it has
+never been identified among companion-animal veterinarians
+and personnel attending a veterinary surgery conference (6, 12,
+28). The higher risk of MRSA carriage among employees
+might be attributed to their frequency of contact with each
+animal patient, their closeness of contact during treatment,
+and the duration of their experience in terms of contact with
+animal patients.</p>
+      <p>Since contact with MRSA-infected animal patients is a
+factor considered to be associated with MRSA carriage, it can be
+inferred that MRSA carriers may originally have been infected
+by animal patients. However, a study conducted on 31
+outpatient dogs in Japan reported that MRSA isolates were not
+detected in any of the dogs (38); similar previous studies have
+also reported that the prevalence of MRSA among dogs and
+cats was low (5, 31). Manian reported a case in which MRSA
+colonization was detected in a dog, which was believed to be
+the source of recurrent MRSA infection in its owner, a
+diabetes patient, and his wife; the dog was believed to have
+contracted the infection through contact with the owner (24).</p>
+      <p>Another previous study reported MRSA colonization in a dog
+whose owner was a nurse caring for MRSA patients; it was
+concluded that the dog contracted the infection from the
+nurse, who was found to be a carrier of MRSA infection (50).</p>
+      <p>Thus, human MRSA carriers can also be a source of MRSA
+infection in animals encountered in veterinary medical
+practice. In the present study, the MRSA isolate with SCCmec type
+(5 0 0 0 0 (3 0 0 0 0 0 (51 (15 (51
+)100 )60 )00 )00 )00</p>
+      <p>OCCURRENCE AND GENOTYPE OF MRSA AND MRSP 5171</p>
+      <p>IV and spa type t008 was obtained from a dog patient in March
+2008 after one veterinarian was identified to be a carrier of
+MRSA spa type t008 on three different sampling occasions.</p>
+      <p>The dog patient had undergone medical examinations in the
+clinical department to which the veterinarian belonged. This
+clone might, therefore, have spread from the veterinarian to
+the dog patient by direct contact or through the medium of
+contaminated environments.</p>
+      <p>In this study, the frequencies of MRSA infection among
+veterinarians and staff members in the veterinary hospital was
+found to be 19.5% (8/41) and 15.1% (8/53) in 2007 and 2008,
+respectively. These frequencies are comparable to the values
+reported in a previous study in the United Kingdom (17.9%)
+(21) and that reported in a study of veterinary personnel
+attending a veterinary surgery conference (17.3%) (6); however,
+these values were higher than those reported in a Japanese
+veterinary teaching hospital (10%) (38), in Scotland (3.9%)
+(13), and in Denmark (3.0%) (28). Moreover, the frequency of
+MRSA carriers has been reported to be only 0.54% among dog
+owners (5).</p>
+      <p>SCCmec type II was prevalent among the MRSA isolates
+obtained from individuals affiliated with the veterinary hospital
+and from dog patients. Most of the MRSA isolates with SCCmec
+type II also harbored spa type t002. A majority of the
+hospitalacquired MRSA (HA-MRSA) isolates identified in Japan also
+harbor SCCmec type II and are derived from the New York/
+Japan clone (multilocus sequence type 5 [ST5]) (17, 22, 36, 54).</p>
+      <p>The MRSA of the Japan clone is generally known to have spa
+type t002 (http://www.spaserver.ridom.de/). MRSA isolates
+with SCCmec type II have been isolated from patients without
+established risk factors for HA-MRSA (36). Moreover,
+MRSA isolates with SCCmec type II have also been isolated
+from healthy children (14); thus, infection of this MRSA
+clone has already spread from hospital environments to a
+wider community, including veterinary staff and animal
+patients, in Japan.</p>
+      <p>Zaraket et al. reported that a MRSA clone with SCCmec
+type II has continued to colonize hospitals in Japan and has
+undergone genomic divergence (54). In the present study, all
+but two MRSA isolates with SCCmec type II had spa type t002;
+the remaining two isolates had spa type t062 and t1265. Unlike
+spa type t002, the spa type t062 has a deletion in the middle
+three repeats (34-17-20) of t002, whereas the spa type t1265
+has a double repeat of r12 instead of r17. Moreover, the
+MRSA isolates of spa type t002 were grouped into seven
+clusters by PFGE, and the SCCmec types therein were classified
+into different subtypes. It is not known whether the SCCmec
+type II clone varies in veterinary medical practice or if some
+clones with a small genetic diversity have been introduced into
+the veterinary hospital.</p>
+      <p>The PFGE method can help divide MRSA isolates into
+more groups than spa typing, as shown in a previous study (44).</p>
+      <p>Although spa types depend on the DNA sequence of only
+region X of the spa gene, PFGE profiles depend on the
+numbers and positions of the restriction sites in the DNA sequence
+of the entire genome. Therefore, PFGE enables better
+discrimination between strains. On the other hand, spa typing
+enabled comparison of the MRSA isolates obtained in this
+study with those reported in other studies. In some cases, spa
+typing could discriminate MRSA isolates of the same PFGE
+type (29). A combination of PFGE and spa typing was more
+useful than either method alone in discriminating MRSA
+isolates.</p>
+      <p>MRSA isolates with SCCmec type I were obtained only in
+2008, and these isolates also had spa type t1767. Isolates with
+SCCmec type I are not commonly encountered in human
+hospitals; however, they are sometimes isolated from Japanese
+hospital inpatients at risk of HA-MRSA infection (36, 54). It
+has been reported that MRSA isolates harboring SCCmec type
+I obtained from inpatients belong to ST 8 or ST 30 strains (36,
+54). There is little data regarding multilocus sequence analysis
+of MRSA having spa type t1767; however, the only MRSA with
+spa type t1767, which was isolated in Hong Kong, belonged to
+ST8 (http://www.spaserver.ridom.de/).</p>
+      <p>Although the 10 human MRSA carriers were treated to
+eradicate colonization, two of these carriers were found to be
+harboring MRSA isolates even after 1 month of treatment.</p>
+      <p>Recurrent MRSA infection in a patient and healthy MRSA
+carriers has been reported previously (24, 50). The genotype of
+MRSA from a recurrent carrier changed from SCCmec type II
+without kdp gene and spa type t1265 to SCCmec type II
+harboring the kdp gene and spa type t002. Because the latter
+genotype was more common among the MRSA isolates
+obtained from veterinary staff and environmental surfaces, this
+carrier might be infected from other MRSA carriers or
+contaminated environmental surfaces. Treatment of MRSA
+carriers should be undertaken simultaneously with the disinfection
+of the entire hospital and implementation of hand hygiene
+practices, which has been reported as a strong protective factor
+against MRSA colonization (1).</p>
+      <p>MRSA was not detected in the five buccal mucosa samples
+of dogs owned by MRCPS-positive individuals. We chose
+buccal swab and not nasal swab, which is the traditional sample for
+MRSA isolation, because sampling from dogs was done at
+home by each owner without enough immobilization. Loeffler
+et al. reported that the isolation frequency of MRSA from the
+buccal swabs of dogs was as high as that from the nasal swabs
+(21). However, in another previous study, the nasal, axillary,
+and rectal swabs of dogs were tested for isolation MRSA, and
+the MRSA isolate was obtained only from the rectum (11).</p>
+      <p>Combination sampling of the nasal, buccal, and rectal swabs
+obtained from dogs may facilitate detection of MRSA carriage.</p>
+      <p>In this investigation, we used the CHROMagar MRSA
+medium for the isolation of MRCPS. This medium has been
+reported to be highly effective in selecting for MRSA (10, 45).</p>
+      <p>In a previous study describing the prevalence of MRSP,
+samples were directly inoculated onto mannitol-salt agar
+containing 2 mg/liter oxacillin and after the enrichment of
+staphylococci in broth containing 7.5% sodium chloride (11). In other
+studies, MRSP isolates were selected from staphylococcal
+strains by testing their susceptibility to oxacillin (38, 40). The
+CHROMagar MRSA medium used in this study contained 6
+mg/liter cefoxitin. Although we did not determine the MICs of
+cefoxitin for the MRSP isolates obtained in this study, we
+found that approximately half of the MRSP isolates were
+susceptible to cefazolin. Sasaki et al. also reported that almost all
+MRSP isolates were susceptible to cefazolin and cefotiame
+(38). The higher susceptibility of MRSP to cephalosporin than
+MRSA might explain why the colony size of MRSP on the
+CHROMagar MRSA medium was considerably smaller than
+that of MRSA. On the other hand, even cefazolin-susceptible
+MRSP isolates could be obtained by using the CHROMagar
+MRSA medium in this study. In the present study, the
+frequency of MRSP isolated from individuals affiliated with the
+veterinary hospital (5.9%) was similar to that reported
+previously (38). Although it was reported that some MRSP isolates
+from dog patients had low-level resistance to oxacillin (MIC, 2
+to 4 g/ml) (38), all MRSP isolates obtained in this study
+showed high-level resistance to oxacillin (MIC, 16 g/ml).</p>
+      <p>The CHROMagar MRSA medium might be unable to detect
+MRSP that has low-level resistance to oxacillin.</p>
+      <p>Descloux et al. described canine MRSP isolates with a new
+SCCmec type II-III, resulting from a combination of S. aureus
+SCCmec type III and Staphylococcus epidermidis SCCmec type
+II (8). The structure of SCCmec in 23 MRSP isolates, as
+confirmed by M-PCR 4 and PCR 3, matched the DNA sequence
+of SCCmec type II-III (GenBank accession no. AM904732);
+therefore, the SCCmec type of these 23 MRSP isolates was
+presumed to be type II-III. There are only a limited number of
+reports pertaining to the SCCmec type among MRSP isolates
+(8, 30, 38); accordingly, more data regarding the SCCmec types
+among MRSP isolates are needed in order to understand the
+reasons for the sudden emergence of MRSP, although canine
+S. intermedius isolates, which were presumed to be S.
+pseudintermedius in the previous studies (3, 39), have been reported as
+being susceptible to -lactam antibiotics in the past (41, 46).</p>
+      <p>Although contact with MRSA animal patients has also been
+recognized as a factor associated with MRSP carriage, the
+reason for this association is unknown. A previous study has
+suggested the transmission of multidrug-resistant S.
+intermedius species among dogs affected by deep pyoderma and their
+owners (9). Therefore, animal patients could transmit MRSP
+infection to humans.</p>
+      <p>Community-acquired MRSA (CA-MRSA) isolates are
+generally susceptible to most of the antimicrobial agents studied,
+except -lactam antibiotics (32, 36, 49). Almost all MRSA and
+MRSP isolates investigated in this study were multidrug
+resistant but susceptible to the antibiotics used for treating MRSA
+infection in medical practice. All of the MRSP isolates were
+susceptible to imipenem and minocycline, although most of the
+MRSA isolates were resistant to these antibiotics. On the other
+hand, MRSS was susceptible to most antibiotics. Hisata et al.
+reported that MIC to oxacillin and imipenem differed between
+SCCmec types or subtypes of MRSA (14). The degree of
+susceptibilities to cefazolin and imipenem differed in the SCCmec
+types and bacterial species in this study.</p>
+      <p>It is necessary to obtain information regarding the
+prevalence of MRSA infection before implementing strategies for
+MRSA infection control in veterinary medical practice. The
+molecular and epidemiological analyses undertaken in the
+present study could provide some information regarding
+the transmission of MRSA between humans and companion
+animals in a veterinary hospital. MRSA carriers can be a
+source of MRSA infection in animals. MRSA animal patients
+may then, in turn, lead to MRSA infection in other individuals.</p>
+      <p>Moreover, MRSA contamination was detected in the
+veterinary hospital environment. MRSA contamination in veterinary
+hospitals has been reported in previous studies (13, 21). These
+observations suggest that there is a dynamic transmission cycle
+of MRSA in veterinary hospitals similar to that occurring in
+human hospital environments.</p>
+      <p>ACKNOWLEDGMENTS</p>
+      <p>We thank the staff and students of Rakuno Gakuen University for
+providing samples.</p>
+      <p>This work was supported in part by a grant-in-aid from the Ministry
+of Health, Labor and Welfare (H21-Shokuhin-Ippan-013) and the
+Food Safety Commission of the Cabinet Office (0707).</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Anderson</surname>
+            ,
+            <given-names>M. E. C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. L.</given-names>
+            <surname>Lefebvre</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J. S.</given-names>
+            <surname>Weese</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Evaluation of prevalence and risk factors for methicillin-resistant Staphylococcus aureus colonization in veterinary personnel attending an international equine veterinary conference</article-title>
+          .
+          <source>Vet. Microbiol</source>
+          .
+          <volume>129</volume>
+          :
+          <fpage>410</fpage>
+          -
+          <lpage>417</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Bannerman</surname>
+            ,
+            <given-names>T. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G. A.</given-names>
+            <surname>Hancock</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F. C.</given-names>
+            <surname>Tenover</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Miller</surname>
+          </string-name>
+          .
+          <year>1995</year>
+          .
+          <article-title>Pulsed-field gel electrophoresis as a replacement for bacteriophage typing of Staphylococcus aureus</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>33</volume>
+          :
+          <fpage>551</fpage>
+          -
+          <lpage>555</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Bannoehr</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N. L.</given-names>
+            <surname>Ben Zakour</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. S.</given-names>
+            <surname>Waller</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Guardabassi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. L.</given-names>
+            <surname>Thoday</surname>
+          </string-name>
+          , A. H. M. van den Broek, and
+          <string-name>
+            <given-names>J. R.</given-names>
+            <surname>Fitzgerald</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Population genetic structure of the Staphylococcus intermedius group: insights into agr diversification and the emergence of methicillin-resistant strains</article-title>
+          .
+          <source>J. Bacteriol</source>
+          .
+          <volume>189</volume>
+          :
+          <fpage>8685</fpage>
+          -
+          <lpage>8692</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Bannoehr</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Franco</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Iurescia</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Battisti</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J. R.</given-names>
+            <surname>Fitzgerald</surname>
+          </string-name>
+          .
+          <year>2009</year>
+          .
+          <article-title>Molecular diagnostic identification of Staphylococcus pseudintermedius</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>47</volume>
+          :
+          <fpage>469</fpage>
+          -
+          <lpage>471</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Boost</surname>
+            ,
+            <given-names>M. V.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. M.</given-names>
+            <surname>O'Donoghue</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K. H. G.</given-names>
+            <surname>Siu</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Characterisation of methicillin-resistant Staphylococcus aureus isolates from dogs and their owners</article-title>
+          .
+          <source>Clin. Microbiol</source>
+          . Infect.
+          <volume>13</volume>
+          :
+          <fpage>731</fpage>
+          -
+          <lpage>733</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Burstiner</surname>
+            , L. C.,
+            <given-names>M.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Faires</surname>
+            , and
+            <given-names>J. S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Weese</surname>
+          </string-name>
+          .
+          <year>2010</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus aureus colonization in personnel attending a veterinary surgery conference</article-title>
+          .
+          <source>Vet. Surg</source>
+          .
+          <volume>39</volume>
+          :
+          <fpage>150</fpage>
+          -
+          <lpage>157</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7. CLSI.
+          <year>2008</year>
+          .
+          <article-title>Performance standards for antimicrobial disk dilution susceptibility tests for bacteria isolated from animals; approved standard M31-A3</article-title>
+          , 3rd ed., vol.
+          <volume>28</volume>
+          , no.
+          <issue>8</issue>
+          . Clinical and
+          <string-name>
+            <given-names>Laboratory</given-names>
+            <surname>Standards Institute</surname>
+          </string-name>
+          , Wayne, PA.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Descloux</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Rossano</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>V.</given-names>
+            <surname>Perreten</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Characterization of new staphylococcal cassette chromosome mec (SCCmec) and topoisomerase genes in fluoroquinolone- and methicillin-resistant Staphylococcus pseudintermedius</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>46</volume>
+          :
+          <fpage>1818</fpage>
+          -
+          <lpage>1823</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Guardabassi</surname>
+            , L.,
+            <given-names>M. E.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Loeber</surname>
+            , and
+            <given-names>A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Jacobson</surname>
+          </string-name>
+          .
+          <year>2004</year>
+          .
+          <article-title>Transmission of multiple antimicrobial-resistant Staphylococcus intermedius between dogs affected by deep pyoderma and their owners</article-title>
+          .
+          <source>Vet. Microbiol</source>
+          .
+          <volume>98</volume>
+          :
+          <fpage>23</fpage>
+          -
+          <lpage>27</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Han</surname>
+            ,
+            <given-names>Z.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Lautenbach</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Fishman</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>I.</given-names>
+            <surname>Nachamkin</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Evaluation of mannitol salt agar, CHROMagar Staph aureus and CHROMagar MRSA for detection of meticillin-resistant Staphylococcus aureus from nasal swab specimens</article-title>
+          .
+          <source>J. Med. Microbiol</source>
+          .
+          <volume>56</volume>
+          :
+          <fpage>43</fpage>
+          -
+          <lpage>46</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Hanselman</surname>
+            , B. A.,
+            <given-names>S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kruth</surname>
+            , and
+            <given-names>J. S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Weese</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Methicillin-resistant staphylococcal colonization in dogs entering a veterinary teaching hospital</article-title>
+          .
+          <source>Vet. Microbiol</source>
+          .
+          <volume>126</volume>
+          :
+          <fpage>277</fpage>
+          -
+          <lpage>281</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Hanselman</surname>
+            , B. A.,
+            <given-names>S. A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kruth</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Rousseau</surname>
+            ,
+            <given-names>D. E.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Low</surname>
+            ,
+            <given-names>B. M.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Willey</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>McGeer</surname>
+            , and
+            <given-names>J. S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Weese</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus aureus colonization in veterinary personnel</article-title>
+          .
+          <source>Emerg. Infect. Dis</source>
+          .
+          <volume>12</volume>
+          :
+          <fpage>1933</fpage>
+          -
+          <lpage>1938</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Heller</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. K.</given-names>
+            <surname>Armstrong</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E. K.</given-names>
+            <surname>Girvan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. W. J.</given-names>
+            <surname>Reid</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Moodley</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>D. J.</given-names>
+            <surname>Mellor</surname>
+          </string-name>
+          .
+          <year>2009</year>
+          .
+          <article-title>Prevalence and distribution of meticillin-resistant Staphylococcus aureus within the environment and staff of a university veterinary clinic</article-title>
+          .
+          <source>J. Small Anim. Pract</source>
+          .
+          <volume>50</volume>
+          :
+          <fpage>168</fpage>
+          -
+          <lpage>173</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Hisata</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Kuwahara-Arai</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Yamanoto</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Ito</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Nakatomi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Cui</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Baba</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Terasawa</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Sotozono</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Kinoshita</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Yamashiro</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Dissemination of methicillin-resistant staphylococci among healthy Japanese children</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>43</volume>
+          :
+          <fpage>3364</fpage>
+          -
+          <lpage>3372</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Hososaka</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Hanaki</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Yanagisawa</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Yamaguchi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Matsui</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Nakae</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Iwata</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>I.</given-names>
+            <surname>Hayashi</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Sunakawa</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Nosocomial infection of -lactam antibiotic-induced vancomycin-resistant Staphylococcus aureus (BIVR)</article-title>
+          .
+          <source>J. Infect. Chemother</source>
+          .
+          <volume>12</volume>
+          :
+          <fpage>181</fpage>
+          -
+          <lpage>184</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Ito</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Katayama</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Asada</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Mori</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Tsutsumimoto</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Tiensasitorn</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2001</year>
+          .
+          <article-title>Structural comparison of three types of staphylococcal cassette chromosome mec integrated in the chromosome in methicillin-resistant Staphylococcus aureus</article-title>
+          .
+          <source>Antimicrob. Agents Chemother</source>
+          .
+          <volume>45</volume>
+          :
+          <fpage>1323</fpage>
+          -
+          <lpage>1336</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Kikuchi</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Takahashi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Piao</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Totsuka</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Nishida</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Uchiyama</surname>
+          </string-name>
+          .
+          <year>2003</year>
+          .
+          <article-title>Molecular epidemiology of methicillin-resistant Staphylococcus aureus strains causing neonatal toxic shock syndrome-like exanthematous disease in neonatal and perinatal wards</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>41</volume>
+          :
+          <fpage>3001</fpage>
+          -
+          <lpage>3006</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Kondo</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Ito</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>X. X.</given-names>
+            <surname>Ma</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Watanabe</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>B. N.</given-names>
+            <surname>Kreiswirth</surname>
+          </string-name>
+          , J. Etienne, and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Combination of multiplex PCRs for staphylococcal cassette chromosome mec type assignment: rapid identification system for mec, ccr, and major differences in junkyard regions</article-title>
+          .
+          <source>Antimicrob. Agents Chemother</source>
+          .
+          <volume>51</volume>
+          :
+          <fpage>264</fpage>
+          -
+          <lpage>274</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Kwok</surname>
+            ,
+            <given-names>A. Y</given-names>
+          </string-name>
+          ., and
+          <string-name>
+            <given-names>A. W.</given-names>
+            <surname>Chow</surname>
+          </string-name>
+          .
+          <year>2003</year>
+          .
+          <article-title>Phylogenetic study of Staphylococcus and Macrococcus species based on partial hsp60 gene sequences</article-title>
+          .
+          <source>Int. J. Syst. Evol. Microbiol</source>
+          .
+          <volume>53</volume>
+          :
+          <fpage>87</fpage>
+          -
+          <lpage>92</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Lina</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Piemont</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F.</given-names>
+            <surname>Godail-Gamot</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Bes</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. O.</given-names>
+            <surname>Peter</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>V.</given-names>
+            <surname>Gauduchon</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F.</given-names>
+            <surname>Vandenesch</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Etienne</surname>
+          </string-name>
+          .
+          <year>1999</year>
+          .
+          <article-title>Involvement of Panton-Valentine leukocidin-producing Staphylococcus aureus in primary skin infections and pneumonia</article-title>
+          .
+          <source>Clin. Infect. Dis</source>
+          .
+          <volume>29</volume>
+          :
+          <fpage>1128</fpage>
+          -
+          <lpage>1132</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Loeffler</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. K.</given-names>
+            <surname>Boag</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Sung</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. A.</given-names>
+            <surname>Lindsay</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Guardabassi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Dalsgaard</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Smith</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. B.</given-names>
+            <surname>Stevens</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>D. H.</given-names>
+            <surname>Lloyd</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Prevalence of methicillin-resistant Staphylococcus aureus among staff and pets in a small animal referral hospital in the UK</article-title>
+          .
+          <source>J. Antimicrob. Chemother</source>
+          .
+          <volume>56</volume>
+          :
+          <fpage>692</fpage>
+          -
+          <lpage>697</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Ma</surname>
+            , X. X.,
+            <given-names>T.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Ito</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Chongtrakool</surname>
+            , and
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Predominance of clones carrying Panton-Valentine leukocidin genes among methicillinresistant Staphylococcus aureus strains isolated in Japanese hospitals from 1979 to 1985</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>44</volume>
+          :
+          <fpage>4515</fpage>
+          -
+          <lpage>4527</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Malik</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G. W.</given-names>
+            <surname>Coombs</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F. G.</given-names>
+            <surname>O'Brien</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Peng</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>M. D.</given-names>
+            <surname>Barton</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Molecular typing of methicillin-resistant staphylococci isolated from cats and dogs</article-title>
+          .
+          <source>J. Antimicrob. Chemother</source>
+          .
+          <volume>58</volume>
+          :
+          <fpage>428</fpage>
+          -
+          <lpage>431</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Manian</surname>
+            ,
+            <given-names>F. A.</given-names>
+          </string-name>
+          <year>2003</year>
+          .
+          <article-title>Asymptomatic nasal carriage of mupirocin-resistant, methicillin-resistant Staphylococcus aureus (MRSA) in a pet dog associated with MRSA infection in household contacts</article-title>
+          .
+          <source>Clin. Infect. Dis</source>
+          .
+          <volume>36</volume>
+          :
+          <fpage>e26</fpage>
+          -
+          <lpage>e28</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>McLean</surname>
+            ,
+            <given-names>C. L.</given-names>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>M. G.</given-names>
+            <surname>Ness</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Meticillin-resistant Staphylococcus aureus in a veterinary orthopaedic referral hospital: staff nasal colonisation and incidence of clinical cases</article-title>
+          .
+          <source>J. Small Anim. Pract</source>
+          .
+          <volume>49</volume>
+          :
+          <fpage>170</fpage>
+          -
+          <lpage>177</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Middleton</surname>
+            ,
+            <given-names>J. R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W. H.</given-names>
+            <surname>Fales</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. D.</given-names>
+            <surname>Luby</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. L.</given-names>
+            <surname>Oaks</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Sanchez</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Kinyon</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. C.</given-names>
+            <surname>Wu</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. W.</given-names>
+            <surname>Maddox</surname>
+          </string-name>
+          , R. D. Welsh, and
+          <string-name>
+            <given-names>F.</given-names>
+            <surname>Hartmann</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Surveillance of Staphylococcus aureus in veterinary teaching hospitals</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>43</volume>
+          :
+          <fpage>2916</fpage>
+          -
+          <lpage>2919</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Milheirico</surname>
+            , C.,
+            <given-names>D. C.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Oliveira</surname>
+          </string-name>
+          , and H. de Lencastre.
+          <year>2007</year>
+          .
+          <article-title>Update to the multiplex PCR strategy for assignment of mec element types in Staphylococcus aureus</article-title>
+          .
+          <source>Antimicrob. Agents Chemother</source>
+          .
+          <volume>51</volume>
+          :
+          <fpage>3374</fpage>
+          -
+          <lpage>3377</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Moodley</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E. C.</given-names>
+            <surname>Nightingale</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Stegger</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. S.</given-names>
+            <surname>Nielsen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R. L.</given-names>
+            <surname>Skov</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Guardabassi</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>High risk for nasal carriage of methicillin-resistant Staphylococcus aureus among Danish veterinary practitioners</article-title>
+          .
+          <source>Scand. J. Work Environ. Health</source>
+          <volume>34</volume>
+          :
+          <fpage>151</fpage>
+          -
+          <lpage>157</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Moodley</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Stegger</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. F.</given-names>
+            <surname>Bagcigil</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. E.</given-names>
+            <surname>Baptiste</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Loeffler</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. H.</given-names>
+            <surname>Lloyd</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N. J.</given-names>
+            <surname>Williams</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Leonard</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Abbott</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Skov</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Guardabassi</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>spa typing of methicillin-resistant Staphylococcus aureus isolated from domestic animals and veterinary staff in the UK and Ireland</article-title>
+          .
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Antimicrob</surname>
+          </string-name>
+          . Chemother.
+          <volume>58</volume>
+          :
+          <fpage>1118</fpage>
+          -
+          <lpage>1123</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Moodley</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Stegger</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N. L.</given-names>
+            <surname>Ben Zakour</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. R.</given-names>
+            <surname>Fitzgerald</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Guardabassi</surname>
+          </string-name>
+          .
+          <year>2009</year>
+          .
+          <article-title>Tandem repeat sequence analysis of staphylococcal protein A (spa) gene in methicillin-resistant Staphylococcus pseudintermedius</article-title>
+          .
+          <source>Vet. Microbiol</source>
+          .
+          <volume>135</volume>
+          :
+          <fpage>320</fpage>
+          -
+          <lpage>326</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Morris</surname>
+            ,
+            <given-names>D. O.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. A.</given-names>
+            <surname>Rook</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F. S.</given-names>
+            <surname>Shofer</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>S. C.</given-names>
+            <surname>Rankin</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Screening of Staphylococcus aureus, Staphylococcus intermedius, and Staphylococcus schleiferi isolates obtained from small companion animals for antimicrobial resistance: a retrospective review of 749 isolates (2003-04)</article-title>
+          . Vet. Dermatol.
+          <volume>17</volume>
+          :
+          <fpage>332</fpage>
+          -
+          <lpage>337</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Naimi</surname>
+            ,
+            <given-names>T. S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. H.</given-names>
+            <surname>LeDell</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. J.</given-names>
+            <surname>Boxrud</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. V.</given-names>
+            <surname>Groom</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. D.</given-names>
+            <surname>Steward</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. K.</given-names>
+            <surname>Johnson</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Besser</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>O'Boyle</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R. N.</given-names>
+            <surname>Danila</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. E.</given-names>
+            <surname>Cheek</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. T.</given-names>
+            <surname>Osterholm</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. A.</given-names>
+            <surname>Moore</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K. E.</given-names>
+            <surname>Smith</surname>
+          </string-name>
+          .
+          <year>2001</year>
+          .
+          <article-title>Epidemiology and clonality of community-acquired methicillin-resistant Staphylococcus aureus in Minnesota</article-title>
+          ,
+          <year>1996</year>
+          -
+          <fpage>1998</fpage>
+          . Clin. Infect. Dis.
+          <volume>33</volume>
+          :
+          <fpage>990</fpage>
+          -
+          <lpage>996</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Oliveira</surname>
+            ,
+            <given-names>D. C.</given-names>
+          </string-name>
+          , and H. de Lencastre.
+          <year>2002</year>
+          .
+          <article-title>Multiplex PCR strategy for rapid identification of structural types and variants of the mec element in methicillin-resistant Staphylococcus aureus</article-title>
+          .
+          <source>Antimicrob. Agents Chemother</source>
+          .
+          <volume>46</volume>
+          :
+          <fpage>2155</fpage>
+          -
+          <lpage>2161</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>O'Mahony</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Abbott</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F. C.</given-names>
+            <surname>Leonard</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>B. K.</given-names>
+            <surname>Markey</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P. J.</given-names>
+            <surname>Quinn</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P. J.</given-names>
+            <surname>Pollock</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Fanning</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>A. S.</given-names>
+            <surname>Rossney</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus aureus (MRSA) isolated from animals and veterinary personnel in Ireland</article-title>
+          .
+          <source>Vet. Microbiol</source>
+          .
+          <volume>109</volume>
+          :
+          <fpage>285</fpage>
+          -
+          <lpage>296</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Paule</surname>
+            ,
+            <given-names>S. M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. C.</given-names>
+            <surname>Pasquariello</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. M.</given-names>
+            <surname>Hacek</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. G.</given-names>
+            <surname>Fisher</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R. B.</given-names>
+            <surname>Thomson</surname>
+          </string-name>
+          , Jr.,
+          <string-name>
+            <given-names>K. L.</given-names>
+            <surname>Kaul</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>L. R.</given-names>
+            <surname>Peterson</surname>
+          </string-name>
+          .
+          <year>2004</year>
+          .
+          <article-title>Direct detection of Staphylococcus aureus from adult and neonate nasal swab specimens using real-time polymerase chain reaction</article-title>
+          .
+          <source>J. Mol. Diagn</source>
+          .
+          <volume>6</volume>
+          :
+          <fpage>191</fpage>
+          -
+          <lpage>196</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Piao</surname>
+            , C.,
+            <given-names>T.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Karasawa</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Totsuka</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Uchiyama</surname>
+            , and
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kikuchi</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Prospective surveillance of community-onset and health care-associated methicillin-resistant Staphylococcus aureus isolated from a university-affiliated hospital in Japan</article-title>
+          . Microbiol. Immunol.
+          <volume>49</volume>
+          :
+          <fpage>959</fpage>
+          -
+          <lpage>970</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <string-name>
+            <surname>Poyart</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Quesne</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Boumaila</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Trieu-Cuot</surname>
+          </string-name>
+          .
+          <year>2001</year>
+          .
+          <article-title>Rapid and accurate species-level identification of coagulase-negative staphylococci by using the sodA gene as a target</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>39</volume>
+          :
+          <fpage>4296</fpage>
+          -
+          <lpage>4301</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Sasaki</surname>
+            , T.,
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kikuchi</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Tanaka</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Takahashi</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kamata</surname>
+            , and
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus pseudintermedius in a veterinary teaching hospital</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>45</volume>
+          :
+          <fpage>1118</fpage>
+          -
+          <lpage>1125</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>Sasaki</surname>
+            , T.,
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kikuchi</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Tanaka</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Takahashi</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Kamata</surname>
+            , and
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hiramatsu</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Reclassification of phenotypically identified Staphylococcus intermedius strains</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>45</volume>
+          :
+          <fpage>2770</fpage>
+          -
+          <lpage>2778</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Schwarz</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Kadlec</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>B.</given-names>
+            <surname>Strommenger</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus aureus and Staphylococcus pseudintermedius detected in the BfT-GermVet monitoring programme 2004-2006 in Germany</article-title>
+          . J. Antimicrob. Chemother.
+          <volume>61</volume>
+          :
+          <fpage>282</fpage>
+          -
+          <lpage>285</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Shimizu</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Wakita</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Nagase</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Okabe</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Koji</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Hayashi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Nagase</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Sasaki</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Kawano</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Yamashita</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Takagi</surname>
+          </string-name>
+          .
+          <year>2001</year>
+          .
+          <article-title>Antimicrobial susceptibility of Staphylococcus intermedius isolated from healthy and diseased dogs</article-title>
+          .
+          <source>J. Vet. Med. Sci</source>
+          .
+          <volume>63</volume>
+          :
+          <fpage>357</fpage>
+          -
+          <lpage>360</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>Shopsin</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Gomez</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. O.</given-names>
+            <surname>Montgomery</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. H.</given-names>
+            <surname>Smith</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Waddington</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. E.</given-names>
+            <surname>Dodge</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. A.</given-names>
+            <surname>Bost</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Riehman</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Naidich</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>B. N.</given-names>
+            <surname>Kreiswirth</surname>
+          </string-name>
+          .
+          <year>1999</year>
+          .
+          <article-title>Evaluation of protein A gene polymorphic region DNA sequencing for typing of Staphylococcus aureus strains</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>37</volume>
+          :
+          <fpage>3556</fpage>
+          -
+          <lpage>3563</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>Shore</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. S.</given-names>
+            <surname>Rossney</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. T.</given-names>
+            <surname>Keane</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. C.</given-names>
+            <surname>Enright</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>D. C.</given-names>
+            <surname>Coleman</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Seven novel variants of the staphylococcal chromosomal cassette mec in methicillin-resistant Staphylococcus aureus isolates from Ireland</article-title>
+          . Antimicrob.
+          <source>Agents Chemother</source>
+          .
+          <volume>49</volume>
+          :
+          <fpage>2070</fpage>
+          -
+          <lpage>2083</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <string-name>
+            <surname>Strommenger</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Kehrenberg</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Kettlitz</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Cuny</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Verspohl</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Witte</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Schwarz</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Molecular characterization of methicillin-resistant Staphylococcus aureus strains from pet animals and their relationship to human isolates</article-title>
+          .
+          <source>J. Antimicrob. Chemother</source>
+          .
+          <volume>57</volume>
+          :
+          <fpage>461</fpage>
+          -
+          <lpage>465</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Taguchi</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Kaneko</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Onozaki</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Kubo</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Kamiya</surname>
+          </string-name>
+          .
+          <year>2004</year>
+          .
+          <article-title>Evaluation of a new chromogenic medium for isolation of MRSA</article-title>
+          . Kansenshogaku Zasshi.
+          <volume>78</volume>
+          :
+          <fpage>54</fpage>
+          -
+          <lpage>58</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <string-name>
+            <surname>Talan</surname>
+            ,
+            <given-names>D.</given-names>
+            A., D.
+          </string-name>
+          <string-name>
+            <surname>Staatz</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Staatz</surname>
+            ,
+            <given-names>E. J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Goldstein</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Singer</surname>
+            , and
+            <given-names>G. D.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Overturf</surname>
+          </string-name>
+          .
+          <year>1989</year>
+          .
+          <article-title>Staphylococcus intermedius in canine gingiva and canineinflicted human wound infections: laboratory characterization of a newly recognized zoonotic pathogen</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>27</volume>
+          :
+          <fpage>78</fpage>
+          -
+          <lpage>81</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          47.
+          <string-name>
+            <surname>Tsuchizaki</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Ishikawa</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Hotta</surname>
+          </string-name>
+          .
+          <year>2000</year>
+          .
+          <article-title>Colony PCR for rapid detection of antibiotic resistance genes in MRSA and enterococci</article-title>
+          .
+          <source>Jpn. J. Antibiot</source>
+          .
+          <volume>53</volume>
+          :
+          <fpage>422</fpage>
+          -
+          <lpage>429</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          48.
+          <string-name>
+            <surname>Ubukata</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Nonoguchi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Matsuhashi</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Konno</surname>
+          </string-name>
+          .
+          <year>1989</year>
+          .
+          <article-title>Expression and inducibility in Staphylococcus aureus of the mecA gene, which encodes a methicillin-resistant S. aureus-specific penicillin-binding protein</article-title>
+          .
+          <source>J. Bacteriol</source>
+          .
+          <volume>171</volume>
+          :
+          <fpage>2882</fpage>
+          -
+          <lpage>2885</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          49.
+          <string-name>
+            <surname>Vandenesch</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Naimi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. C.</given-names>
+            <surname>Enright</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Lina</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G. R.</given-names>
+            <surname>Nimmo</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Heffernan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>N.</given-names>
+            <surname>Liassine</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Bes</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Greenland</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. E.</given-names>
+            <surname>Reverdy</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Etienne</surname>
+          </string-name>
+          .
+          <year>2003</year>
+          .
+          <article-title>Community-acquired methicillin-resistant Staphylococcus aureus carrying Panton-Valentine leukocidin genes: worldwide emergence</article-title>
+          .
+          <source>Emerg. Infect. Dis</source>
+          .
+          <volume>9</volume>
+          :
+          <fpage>978</fpage>
+          -
+          <lpage>984</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          50.
+          <string-name>
+            <surname>van Duijkeren</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. J. H. M.</given-names>
+            <surname>Wolfhagen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. T. A.</given-names>
+            <surname>Box</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. E. O. C.</given-names>
+            <surname>Heck</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W. J. B.</given-names>
+            <surname>Wannet</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>A. C.</given-names>
+            <surname>Fluit</surname>
+          </string-name>
+          .
+          <year>2004</year>
+          .
+          <article-title>Human-to-dog transmission of methicillin-resistant Staphylococcus aureus</article-title>
+          .
+          <source>Emerg. Infect. Dis</source>
+          .
+          <volume>10</volume>
+          :
+          <fpage>2235</fpage>
+          -
+          <lpage>2237</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          51.
+          <string-name>
+            <surname>van Duijkeren</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. J. H. M.</given-names>
+            <surname>Wolfhagen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M. E. O. C.</given-names>
+            <surname>Heck</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>W. J. B.</given-names>
+            <surname>Wannet</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Transmission of a Panton-Valentine leucocidin-positive, methicillin-resistant Staphylococcus aureus strain between humans and a dog</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>43</volume>
+          :
+          <fpage>6209</fpage>
+          -
+          <lpage>6211</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          52.
+          <string-name>
+            <surname>Wettstein</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Descloux</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Rossano</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>V.</given-names>
+            <surname>Perreten</surname>
+          </string-name>
+          .
+          <year>2008</year>
+          .
+          <article-title>Emergence of methicillin-resistant Staphylococcus pseudintermedius in Switzerland: three cases of urinary tract infections in cats</article-title>
+          .
+          <source>Schweiz. Arch. Tierheilkd</source>
+          .
+          <volume>150</volume>
+          :
+          <fpage>339</fpage>
+          -
+          <lpage>343</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          53.
+          <string-name>
+            <surname>Wulf</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , A. van Nes,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Eikelenboom-Boskamp</surname>
+          </string-name>
+          , J. de
+          <string-name>
+            <surname>Vries</surname>
+            ,
+            <given-names>W.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Melchers</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Klaassen</surname>
+            , and
+            <given-names>A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Voss</surname>
+          </string-name>
+          .
+          <year>2006</year>
+          .
+          <article-title>Methicillin-resistant Staphylococcus aureus in veterinary doctors and students, the Netherlands</article-title>
+          .
+          <source>Emerg. Infect. Dis</source>
+          .
+          <volume>12</volume>
+          :
+          <fpage>1939</fpage>
+          -
+          <lpage>1941</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          54.
+          <string-name>
+            <surname>Zaraket</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Otsuka</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Saito</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Dohmae</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Takano</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Higuchi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Ohkubo</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.</given-names>
+            <surname>Ozaki</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Takano</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>I.</given-names>
+            <surname>Reva</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Baranovich</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Yamamoto</surname>
+          </string-name>
+          .
+          <year>2007</year>
+          .
+          <article-title>Molecular characterization of methicillin-resistant Staphylococcus aureus in hospitals in Niigata, Japan: divergence and transmission</article-title>
+          .
+          <source>Microbiol. Immunol</source>
+          .
+          <volume>51</volume>
+          :
+          <fpage>171</fpage>
+          -
+          <lpage>176</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          55.
+          <string-name>
+            <surname>Zhang</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. A.</given-names>
+            <surname>McClure</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Elsayed</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Louie</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Conly</surname>
+          </string-name>
+          .
+          <year>2005</year>
+          .
+          <article-title>Novel multiplex PCR assay for characterization and concomitant subtyping of staphylococcal cassette chromosome mec types I to V in methicillin-resistant Staphylococcus aureus</article-title>
+          .
+          <source>J. Clin. Microbiol</source>
+          .
+          <volume>43</volume>
+          :
+          <fpage>5026</fpage>
+          -
+          <lpage>5033</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<figure confidence="0.946947947368421">
+Freely available online
+Brief Reports
+White Matter Microstructure in Idiopathic Craniocervical Dystonia
+1
+1
+2
+1
+2
+2
+Giordanna L. S. Pinheiro , Rachel P. Guimara˜es , Luiza G. Piovesana , Brunno M. Campos , Lidiane S. Campos , Paula C. Azevedo ,
+3
+4
+1,2
+3
+1,2
+1,2*
+Fabio R. Torres , Augusto C. Amato-Filho , Marcondes C. Franc¸a Jr , Iscia Lopes-Cendes , Fernando Cendes
+&amp; Anelyssa D’Abreu
+1
+</figure>
+<affiliation confidence="0.564525">
+Neuroimaging Laboratory, School of Medical Sciences, University of Campinas, Campinas, Brazil, 2 Department of Neurology, School of Medical Sciences,
+University of Campinas, Campinas, Brazil, 3 Department of Medical Genetics, School of Medical Sciences, University of Campinas, Campinas, Brazil, 4 Department of
+Radiology, School of Medical Sciences, University of Campinas, Campinas, Brazil
+</affiliation>
+<sectionHeader confidence="0.972966" genericHeader="abstract">
+Abstract
+</sectionHeader>
+<bodyText confidence="0.988950673469388">
+Background: Dystonias are hyperkinetic movement disorders characterized by involuntary muscle contractions resulting in abnormal torsional movements and
+postures. Recent neuroimaging studies in idiopathic craniocervical dystonia (CCD) have uncovered the involvement of multiple areas, including cortical ones. Our
+goal was to evaluate white matter (WM) microstructure in subjects with CCD using diffusion tensor imaging (DTI) analysis.
+Methods: We compared 40 patients with 40 healthy controls. Patients were then divided into subgroups: cervical dystonia, blepharospasm, blepharospasm +
+oromandibular dystonia, blepharospasm + oromandibular dystonia + cervical dystonia, using tract-based spatial statistics. We performed a region of interest-based
+analysis and tractography as confirmatory tests.
+Results: There was no significant difference in the mean fractional anisotropy (FA) and mean diffusivity (MD) between the groups in any analysis.
+Discussion: The lack of DTI changes in CCD suggests that the WM tracts are not primarily affected.
+Keywords: Craniocervical dystonia, idiopathic dystonia, blepharospasm, diffusion tensor imaging
+Citation: Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al. White matter microstructure in idiopathic craniocervical dystonia. Tremor Other Hyperkinet Mov
+2015; 5. doi: 10.7916/D86972H6
+* To whom correspondence should be addressed. E-mail: anelyssa@gmail.com
+Editor: Elan D. Louis, Yale University, USA
+Received: February 4, 2015 Accepted: April 28, 2015 Published: May 28, 2015
+Copyright: ’ 2015 Pinheiro et al. This is an open-access article distributed under the terms of the Creative Commons Attribution–Noncommercial–No Derivatives License, which
+permits the user to copy, distribute, and transmit the work provided that the original author(s) and source are credited; that no commercial use is made of the work; and that the work is not
+altered or transformed.
+Funding: This work was supported by FAPESP (Sa˜o Paulo Research Foundation) grant number 2010/11085-9 and CNPq (National Council for Scientific and Technological
+Development) grant number 131400/2013.
+Financial disclosures: None.
+Conflict of interest: The authors report no conflict of interest.
+diffusion.4 DTI provides information about the random displacement
+and passive diffusion of water molecules on the directionality and
+integrity of fibers. It can demonstrate neuronal loss through a decrease
+in diffusion anisotropy, shown by lower values of fractional anisotropy
+(FA) and higher values of mean diffusivity (MD). FA quantifies the
+preferred direction of diffusion of water molecules through white
+matter (WM) tracts, and MD represents the magnitude of the
+diffusion.5–7 DTI also allows for the visualization of neural projections
+in the central nervous system.8 The tract-based spatial statistics (TBSS)
+technique performs whole-brain analysis by measuring changes in
+water molecules in tissues and enables DTI sequence parameters to be
+compared using statistical analysis.9,10
+Previous DTI studies in CCD produced conflicting results. In CD,
+DTI documented changes mainly in the circuit involving the cortex,
+Introduction
+Dystonias are hyperkinetic movement disorders characterized by
+involuntary muscle contractions that result in abnormal torsional
+movements and postures. Dystonia is often initiated or exacerbated by
+voluntary action and associated with excess muscle activation.1
+Blepharospasm (BSP) and cervical dystonia (CD) are the most
+common forms of adult-onset dystonia; the term craniocervical
+dystonia (CCD) encompasses all of those forms occurring either in
+isolation or in combination.1–3
+Diffusion tensor imaging (DTI) works on the measurement of trends
+in random motion of water molecules in a given medium. This
+technique allows for the visualization of microstructures and quantifies
+water diffusion in tissues noninvasively. It is based on the theory that
+the water found in the tissues exhibits properties of anisotropic
+</bodyText>
+<figure confidence="0.278146142857143">
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+1
+The Center for Digital Research and Scholarship
+Columbia University Libraries/Information Services
+Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al.
+White Matter Microstructure
+</figure>
+<bodyText confidence="0.996589368421053">
+thalamus, basal ganglia, and cerebellum.8,11–14 In turn, patients with
+BSP and blepharospasm + oromandibular dystonia (BOM) showed
+alterations in the cerebellum, parietal lobe, lentiform nucleus, thalamus,
+and insula.15 There has never been a dedicated study of the WM in
+CCD; hence we performed DTI aiming to analyze the microstructure of
+WM in patients with CCD compared to healthy controls (HC).
+of the dystonia syndrome. We excluded 68 patients with idiopathic or
+genetic dystonia presenting in sites other than the craniocervical area,
+or with secondary dystonia.
+In addition, all subjects had a negative molecular test for DYT1 and
+DYT6 mutations.
+We included 40 age- and sex-matched HC without a family history
+of dystonia and with a normal neurological examination. For each
+subject the same control was used for the total group analyses and the
+subgroup analyses (Table 1).
+Since previous studies found differences as low as 0.016 in FA values
+to be significant,17 we hypothesized a standard deviation of the
+difference of 0.03. For a sample of 40 subjects, the expected Statistical
+Power for those parameters would be 90%.
+</bodyText>
+<subsectionHeader confidence="0.981728">
+Methods
+Subjects
+</subsectionHeader>
+<bodyText confidence="0.96456596875">
+The Institutional Review Board of the University Hospital approved
+the study and all subjects signed an informed consent prior to
+participation in any study-related procedure. Patients were consecutively recruited from March 2010 until November 2013, at the
+Outpatient Movement Disorders Clinic, the Dystonia Clinic, and the
+Neurogenetics Service at the University of Campinas University
+Hospital.
+A total of 108 patients were screened. 40 subjects presented
+idiopathic CCD were included: 5 subjects with isolated BSP
+(61.8¡10.3 years old), 9 with BOM (68.5¡5.0 years-old), 8 with
+BOM and CD (63.1¡11.1), and 18 subjects with isolated CD
+(52.8¡12.2). All subjects underwent a detailed review of their clinical
+history, family history, and treatment. A movement disorders specialist
+performed a neurological examination and assessed subjects on the
+Marsden–Fahn Scale.16 The exclusion criteria were the presence of
+neurological abnormalities other than tremor; dystonia located in
+segments other than the craniocervical region; presence of significant
+clinical comorbidities; history of exposure to medications known to
+induce dystonia; abnormalities at neuroimaging; and known etiology
+Magnetic resonance imaging (MRI) acquisition. Patients underwent
+magnetic resonance imaging (MRI) examination at the peak of action
+of the botulinum toxin (BoNT) to decrease the chance of motion
+artefacts.
+The MRI protocol was as follows. Images were acquired in a 3T
+Intera Achieva-PHILIPSH (Best, The Netherlands) scanner, release
+2.6.1.0, according to the following parameters:
+N
+N
+Diffusion tensor images with 32 gradient directions: 2 mm thick,
+repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000;
+matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm;
+T1-weighted images with isotropic voxels of 1 mm, acquired in the
+sagittal plane (1 mm thick, flip angle 8 ˚, TR 7.1, TE 3.2, matrix
+</bodyText>
+<tableCaption confidence="0.794191">
+2406240, and FOV 2406240 mm).
+Table 1. Demographic Information
+</tableCaption>
+<figure confidence="0.8810654">
+Dystonia (N)
+Sex
+Groups
+Mean Age¡SD
+(Men%)
+</figure>
+<equation confidence="0.9436082">
+TOTAL (40)
+CD (18)
+BSP (5)
+BOM (9)
+BOM+CD (8)
+</equation>
+<page confidence="0.541784">
+30%
+</page>
+<figure confidence="0.989515175824176">
+33,3%
+40%
+22,2%
+25%
+Mean Disease Duration
+Mean use of BoNT
+(y)¡SD
+(y)¡SD
+HC
+56.0¡15.0
+–
+–
+P
+59.5¡12.3
+13.6¡6.9
+9.5¡6.5
+HC
+53.1¡12.7
+–
+–
+P
+52.8¡12.2
+15.4¡6.3
+10¡6.0
+HC
+60.8¡10.1
+–
+–
+P
+61.8¡10.3
+10.6¡5.8
+6.8¡4.1
+HC
+68.6¡3.8
+–
+–
+P
+68.5¡5.0
+HC
+63.0¡11.3
+–
+–
+P
+63.1¡11.1
+11.3¡6.0
+9.1¡6.4
+13¡8.2
+10¡8.0
+Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP,
+Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years.
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+2
+The Center for Digital Research and Scholarship
+Columbia University Libraries/Information Services
+White Matter Microstructure
+Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al.
+Table 2. Mean FA Values per Group in the Confirmatory Analysis
+Dystonia
+Groups
+Mean FA¡SD
+P-Value
+TOTAL
+HC
+0.46¡0.003
+0.18
+P
+0.47¡0.003
+HC
+0.47¡0.022
+P
+0.47¡0.020
+HC
+0.46¡0.015
+P
+0.47¡0.025
+HC
+0.45¡0.016
+P
+0.45¡0.018
+HC
+0.47¡0.032
+P
+0.45¡0.019
+CD
+BSP
+BOM
+BOM+CD
+0.41
+0.62
+0.90
+</figure>
+<page confidence="0.536116">
+0.24
+</page>
+<bodyText confidence="0.966328611111111">
+Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BSP, Blepharospasm; CD, Cervical
+Dystonia; FA, Fractional Anisotropy; HC, Healthy Controls; P, Patients; SD, Standard Deviation.
+each subject, a native space FA map, a B0 map and an SPM8 (Statistical
+Parametric Mapping 8) deformation field file (native space–MNI) were
+created. The SPM8 new segment protocol was applied to the T1, aiming
+to generate normalized (MNI 152 (Montreal Neurological Institute 152) WM probabilistic maps. The SPM8 deformation field and
+co-registration pipelines were used to match the WM maps with the
+native space DTI images. The resultant WM image of each subject was
+used to mask the FA maps and to calculate the average FA value of the
+total consistent WM area. Statistical analysis was performed via a paired
+T-test, first at the whole-group level and then at subgroup level,
+comparing the group of patients with HC.
+DTI analysis
+TBSS. We compared all 40 patients with HC and then performed a
+subgroup analysis, based on dystonia body distribution.
+Images were corrected for eddy currents using the eddycorrect tool
+from Oxford centre for Functional Magnetic Resonance Imaging of
+the Brain (FMRIB)’s Diffusion Toolbox (FDT) (http://www.fmrib.ox.
+ac.uk/fsl/), which is part of the Functional Magnetic Resonance
+Imaging of the Brain Software Library (FSL) software, version 4.1.4.
+We obtained maps of FA using FDT. Voxelwise statistical analysis of
+the DTI data was carried out using TBSS. In summary, FA images
+were created by fitting a tensor model to the raw diffusion data using
+FDT, and then brain-extracted using the Brain Extraction Tool (BET).
+All FA data were aligned into a common space with the nonlinear
+registration tool (FNIRT), which uses a b-spline representation of the
+registration warp field. Following this, the mean FA image was created
+and thinned to generate a mean FA skeleton, which represents the
+center of all tracts common to the group. Each subject’s aligned FA
+data were then projected into this skeleton and the resulting data fed
+into the voxelwise cross-subject statistics.9,18 We performed a paired Ttest to compare patients and HC, and the level of significance was set
+at 0.05. We performed an analysis using FSL randomise 10,000
+permutations.9
+Tractography. We also performed tractography as a confirmatory
+analysis, evaluating the total group only and extracting the FA/MD
+values.
+The tensor calculation of all DTI was carried out with
+ExploreDTI21 and fiber tractography using a semiautomatic deterministic methodology, briefly described below. ROIs to seed each tract
+were manually drawn on a normalized template. This template was
+created with non-diffusion weighted images of 10 local control subjects
+(mean age533 years; age range522–47 years; 50% females) acquired
+in the same MRI scanner, with the aim of improving anatomical
+matching to the study sample. Sequentially, the method employs the
+three-dimensional deformation field matrix of each subject to apply an
+inverse normalization operation (SPM8-deformation field algorithm),
+using the variants between native and standardized space to bring the
+normalized ROIs to that subject-specific space. Finally, the adjusted
+(native space) ROIs were used for the fiber tracking. Additionally,
+three ROIs designed to divide the brain in three heights in the axial
+plane were also transferred to each subject space. The resultant fiber
+Region of interest (ROI). We used ROI analysis19,20 to confirm or
+refute our findings. This is based on obtaining the average FA values of
+all WM voxels. The DTI and the structural T1 weighted images (WI)
+of all patients were visually checked to find acquisition artefacts. The
+</bodyText>
+<table confidence="0.567579111111111">
+tensor calculation was performed with Explore DTI (A. Leemans,
+University Medical Center, Utrecht, The Netherlands) software.21 For
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+3
+The Center for Digital Research and Scholarship
+Columbia University Libraries/Information Services
+Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al.
+White Matter Microstructure
+</table>
+<bodyText confidence="0.999479846153846">
+tracts were divided into three different regions, allowing verification of
+diffusion alterations along the fiber length.
+We selected the pyramidal tract, due to previous findings of areas of
+atrophy in the motor cortex.22 The tract was divided into inferior,
+middle and superior regions, and the DTI data were acquired
+bilaterally. We also selected other tracts with automatic segmentation
+implemented in the Neuroimaging Laboratory for this analysis: the
+body of the corpus callosum, brainstem, uncinate fasciculus, cingulum,
+fornix, and inferior occipitofrontal fasciculus. Statistical analysis was
+performed using a paired t-test, comparing the whole group of patients
+to the paired control group.
+There are few studies using DTI in CCD and the results have not
+been consistent. We employed different software to confirm and
+complement the results obtained with TBSS. First, we used TBSS, a
+known method that performs a full analysis of the brain by measuring
+water diffusion properties.9 Second, we performed an ROI-based
+analysis, which uses well-established algorithms (ExploreDTI)21 to
+obtain diffusion maps and an SPM8 new segment algorithm to isolate
+a WM probabilistic map. Despite both analyses being conceptually
+equivalent, the codes behind these techniques are completely
+independent, strengthening our findings. Finally, we conducted a
+tractography study on the whole group only and extracted FA/MD
+values for the pyramidal tract, body of corpus callosum, brainstem,
+uncinate fasciculus, cingulum, fornix, and inferior occipitofrontal
+fasciculus, which also did not uncover any significant differences in FA
+and MD values. Only the MD values in the inferior left pyramidal
+tract tended to differ. However, considering the small absolute
+difference in the values observed between the two groups and the
+large number of comparisons made, we did not consider this a valid
+result.
+Our results may sound intriguing, but in light of the current
+literature, they are not necessarily controversial. DTI changes have not
+yet been observed in BSP compared to HC,11,12 but a recent study
+including patients with BOM and BSP revealed FA reductions in the
+left anterior lobe of the cerebellum and the right precuneus of the
+parietal lobe, and increases in MD were detected in the right lentiform
+nucleus, thalamus, and insula.15
+In CD, while some studies showed increased FA in the putamen,
+thalamus, brainstem, middle frontal and temporal gyrus, cingulate
+</bodyText>
+<subsectionHeader confidence="0.962061">
+Results
+</subsectionHeader>
+<bodyText confidence="0.979367625">
+Based on TBSS, there was no significant difference in FA/MD
+values between patients and HC, neither in the whole-group analysis
+nor in the subgroup analysis. ROI analysis showed no difference
+between FA values in either case (Table 2).
+Tractography also revealed no changes in FA/MD in the total
+group. However, in the left inferior pyramidal tract there was a
+tendency of MD values to differ between groups (p 5 0.05) (Tables 3
+and 4).
+</bodyText>
+<subsubsectionHeader confidence="0.850769">
+Discussion
+</subsubsectionHeader>
+<bodyText confidence="0.9058315">
+We performed an exploratory study to evaluate the whole WM in
+CCD compared to HC. We were aiming to uncover areas that might
+be involved but have not yet been studied. We found no significant
+difference between FA/MD values in any analysis.
+</bodyText>
+<tableCaption confidence="0.912686">
+Table 3. Tractography Results of Analysis Performed on the Total Group
+</tableCaption>
+<figure confidence="0.986512261538461">
+Tract (Pyramidal)
+Left Inferior
+Right Inferior
+Left Middle
+Right Middle
+Left Superior
+Right Superior
+Group (N)
+Mean FA¡SD
+Mean MD¡SD
+p (FA)
+p (MD)
+HC (36)
+0.61¡0.024
+0.00040¡0.000016
+0.95
+0.05
+P (36)
+0.61¡0.029
+0.00039¡0.000013
+HC (39)
+0.61¡0.022
+0.00039¡0.000015
+0.22
+0.92
+P (39)
+0.62¡0.031
+0.00039¡0.000024
+HC (36)
+0.49¡0.049
+0.00040¡0.000017
+0.24
+0.60
+P (36)
+0.48¡0.065
+0.00040¡0.000021
+HC (39)
+0.49¡0.038
+0.00042¡0.000020
+0.83
+0.10
+P (39)
+0.49¡0.069
+0.00041¡0.000024
+HC (36)
+0.61¡0.024
+0.00045¡0.00002
+0.27
+0.77
+P (36)
+0.62¡0.029
+0.00045¡0.000021
+HC (39)
+0.62¡0.028
+0.00045¡0.000022
+0.93
+0.89
+P (39)
+0.62¡0.030
+0.00045¡0.000017
+Abbreviations: FA, Fractional Anisotropy; HC, Healthy Controls; MD, Mean Diffusivity; P, Patients; SD, Standard Deviation.
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+4
+The Center for Digital Research and Scholarship
+Columbia University Libraries/Information Services
+White Matter Microstructure
+Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al.
+Table 4. Tractography Results of Analysis Performed on the Total Group
+Tract
+Body of CC
+BS
+Uncinate
+Fasciculus
+Cingulum
+Fornix
+IOF Fasciculus
+Group (N)
+Mean FA¡SD
+Mean MD¡SD
+p (FA)
+p (MD)
+HC (39)
+0.60¡0.016
+0.00084¡0.000033
+0.67
+0.64
+P (39)
+0.60¡ 0.22
+0.00084¡0.000052
+HC (39)
+0.62¡0.018
+0.00073¡0.000015
+0.29
+0.35
+P (39)
+0.62¡0.019
+0.00073¡0.000020
+HC (39)
+0.51¡0.028
+0.00073¡0.000027
+0.11
+0.95
+P (39)
+0.52¡0.031
+0.00073¡0.000045
+HC (39)
+0.57¡0.024
+0.00072¡0.000023
+0.84
+0.21
+P (39)
+0.57¡0.031
+0.00071¡0.000038
+HC (38)
+0.47¡0.038
+0.0013¡0.00013
+0.17
+0.06
+P (38)
+0.45¡0.034
+0.0013¡0.00015
+HC (39)
+0.55¡0.026
+0.00077¡0.000029
+0.46
+0.27
+P (39)
+0.55¡0.030
+0.00076¡0.000038
+</figure>
+<bodyText confidence="0.959472928571429">
+Abbreviations: BS, Brainstem; CC, Corpus Callosum; FA, Fractional Anisotropy; HC, Healthy Controls; IOF, Inferior Occipitofrontal; MD, Mean Diffusivity; P, Patients;
+SD, Standard Deviation.
+gyrus, medial lemniscus, and supplementary motor area, others
+showed decreased FA in the putamen, corpus callosum, ansa
+lenticularis, superior cerebellar peduncle, cerebellum, pre- and
+postcentral gyrus, and prefrontal cortex.8,11–14
+In an ROI-based approach, the authors described a WM
+microstructural abnormality in dystonia patients, which was observed
+before, but not after, BoNT treatment. They hypothesized that the
+dynamic WM microstructure changes provided preliminary proof of
+an activity-dependent brain WM plasticity.23 As mentioned previously,
+our image acquisition took place 1–2 weeks after BoNT injections.
+The reasons for the discrepancies between our own and previous
+results are probably the small sample size in some of the studies8,13,23–25;
+the use of an ROI-based8,11,13,14,23,24 rather than a whole-brain
+approach, which enhances the possibility of finding statistical differences
+but also increases the chance of a type II error; and the different software
+used for imaging processing. Whole-brain analysis may not provide the
+appropriate power to detect small differences, and the lack of difference
+may just point towards a type II error. Future studies should concentrate
+on WM tracts more relevant to dystonia pathophysiology such as those in
+the cerebellum–thalamus–cortical circuits. Power might also have been
+an issue in our subgroup analysis.
+Our results suggest that there is no primary or major involvement of
+the WM in CCD. Further studies should address functional abnormalities
+in these areas, or more relevant pre-selected white matter tracts.
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+</bodyText>
+<sectionHeader confidence="0.922269" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.918472227272727">
+1. Albanese A, Bhatia K, Bressman SB, et al. Phenomenology and
+classification of dystonia: a consensus update. Mov Disord 2013;28:863–873,
+doi: http://dx.doi.org/10.1002/mds.25475.
+2. Albanese A. Dystonia: clinical approach. Parkinsonism Relat Disord 2007;13:
+S356–S361, doi: http://dx.doi.org/10.1016/S1353-8020(08)70030-0.
+3. Berardelli A, Rothwell JC, Hallett M, Thompson PD, Manfredi M,
+Marsden CD. The pathophysiology of primary dystonia. Brain 1998;121:1195–
+1212, doi: http://dx.doi.org/10.1093/brain/121.7.1195.
+4. Rittner L, Lotufo RA. Processamento de imagens de tensores de difusa˜o.
+Neurocieˆncias e Epilepsia 2010;2:81–85.
+5. Pierpaoli C, Jezzard P, Basser PJ, Barnett A, Di Chiro G. Diffusion tensor
+MR imaging of the human brain. Radiology 1996;201:637–648, doi: http://dx.
+doi.org/10.1148/radiology.201.3.8939209.
+6. Little DM, Holloway RG. Diffusion tensor imaging: scientific advance,
+clinical tool or just a pretty picture? Neurology 2007;68:9–10, doi: http://dx.doi.
+org/10.1212/01.wnl.0000251193.41966.a8.
+7. Engelhardt E, Moreira MD. A substaˆncia branca cerebral. Localizac¸a˜o
+dos principais feixes com anisotropia fracionada direcional. Revista Brasileira de
+Neurologia 2008;44:19–34.
+8. Colosimo C, Pantano P, Calistri V, et al. Diffusion tensor imaging in
+primary cervical dystonia. J Neurol Neurosurg Psychiatry 2005;76:1591–1593, doi:
+http://dx.doi.org/10.1136/jnnp.2004.056614.
+</reference>
+<page confidence="0.762818">
+5
+</page>
+<reference confidence="0.99541825">
+The Center for Digital Research and Scholarship
+Columbia University Libraries/Information Services
+Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al.
+White Matter Microstructure
+9. Smith SM, Jenkinson M, Johansen-Berg H, et al. Tract-based spatial
+18. Rueckert D, Sonoda LI, Hayes C, et al. Nongrid registration using free-
+statistics: voxelwise analysis of multi-subject diffusion data. Neuroimage 2006;31:
+form deformations: application to breast MR images. IEEE Trans Med Imaging
+1487–1505, doi: http://dx.doi.org/10.1016/j.neuroimage.2006.02.024.
+1999;18:712–721, doi: http://dx.doi.org/10.1109/42.796284.
+10. Sierra A, Laitinen T, Lehtima¨ki K, Rieppo L, Pitka¨nen A, Gro¨hn O.
+19. Lee JE, Bigler ED, Alexander AL, et al. Diffusion tensor imaging of
+Diffusion tensor MRI with tract-based spatial statistics and histology reveals
+white matter in the superior temporal gyrus and temporal stem in autism.
+undiscovered lesioned areas in kainate model of epilepsy in rat. Brain Struct Funct
+Neurosci Lett 2007;424:127–132, doi: http://dx.doi.org/10.1016/j.neulet.2007.
+2011;216:123–135, doi: http://dx.doi.org/10.1007/s00429-010-0299-0.
+11. Fabbrini G, Pantano P, Totaro P, et al. Diffusion tensor imaging in patients
+07.042.
+with primary cervical dystonia and in patients with blepharospasm. Eur J Neurol
+analyzing white matter in children with dyslexia. Psychiatry Res 2009;172:215–
+20. Carter JC, Lanham DC, Lanham LE, et al. A dual DTI approach to
+2008;15:185–189, doi: http://dx.doi.org/10.1111/j.1468-1331.2007.02034.x.
+219, doi: http://dx.doi.org/10.1016/j.pscychresns.2008.09.005.
+12. Colosimo C, Suppa A, Fabbrini G, et al. Craniocervical dystonia: clinical
+21. Leemans A, Jeurissen B, Sijbers J, Jones DK. ExploreDTI: a graphical
+and pathophysiological features. Eur J Neurol 2010;17:15–21, doi: http://dx.doi.
+toolbox for processing, analyzing, and visualizing diffusion MR data. Proc Intl
+org/10.1111/j.1468-1331.2010.03045.x.
+Soc Mag Reson Med 2009;17:3537.
+13. Blood AJ, Kuster JK, Woodman SC, et al. Evidence for altered basal
+22. Piccinin CC, Piovesana LG, Santos MCA, et al. Diffuse decreased gray
+ganglia-brainstem connections in cervical dystonia. PLoS ONE 2012;7:e31654,
+doi: http://dx.doi.org/10.1371/journal.pone.0031654.
+matter in patients with idiopathic craniocervical dystonia: a voxel-based morphometry study. Front Neurol 2015;5:283, doi: http://dx.doi.org/10.3389/fneur.2014.
+14. Prell T, Peschel T, Ko¨hler B, et al. Structural brain abnormalities in
+00283.
+cervical dystonia. BMC Neurosci 2013;14:123, doi: http://dx.doi.org/10.1186/
+23. Blood AJ, Tuch DS, Makris N, Makhlouf ML, Sudarsky LR, Sharma N.
+1471-2202-14-123.
+15. Yang J, Yan Luo C, Song W, et al. Diffusion tensor imaging in
+White matter abnormalities in dystonia normalize after botulinum toxin
+blepharospasm and blepharospasm–oromandibular dystonia. J Neurol 2014;261:
+treatment. Neurorepor 2006;17:1251–1255, doi: http://dx.doi.org/10.1097/01.
+1413–1424, doi: http://dx.doi.org/10.1007/s00415-014-7359-y.
+wnr.0000230500.03330.01.
+16. Burke RE, Fahn S, Marsden CD, Bressman SB, Moskowitz C, Friedman
+J. Validity and reliability of a rating scale for the primary torsion dystonias.
+abnormalities in patients with idiopathic dystonia. Mov Disord 2007;22:1110–
+Neurology 1985;35:73–77, doi: http://dx.doi.org/10.1212/WNL.35.1.73.
+1116, doi: http://dx.doi.org/10.1002/mds.21295.
+24. Bonilha L, de Vries PM, Vincent DJ, et al. Structural white matter
+17. Campos BM, Coan AC, Beltramini GC, et al. White matter
+25. Carbon M, Kingsley PB, Tang C, Bressman S, Eidelberg D.
+abnormalities associate with type and localization of focal epileptogenic lesions.
+Microstructural white matter changes in primary torsion dystonia. Mov Disord
+Epilepsia 2015;56:125–132, doi: http://dx.doi.org/10.1111/epi.12871.
+2008;23:234–239, doi: http://dx.doi.org/10.1002/mds.21806.
+Tremor and Other Hyperkinetic Movements
+http://www.tremorjournal.org
+</reference>
+<page confidence="0.851932">
+6
+</page>
+<bodyText confidence="0.293581">
+The Center for Digital Research and Scholarship
+</bodyText>
+<affiliation confidence="0.640606">
+Columbia University Libraries/Information Services
+</affiliation>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>A Albanese</author>
+<author>K Bhatia</author>
+<author>Bressman SB</author>
+</authors>
+<title>Phenomenology and classification of dystonia: a consensus update. Mov Disord 2013;28:863–873,</title>
+<note>doi: http://dx.doi.org/10.1002/mds.25475.</note>
+<marker>1.</marker>
+<rawString>Albanese A, Bhatia K, Bressman SB, et al. Phenomenology and classification of dystonia: a consensus update. Mov Disord 2013;28:863–873, doi: http://dx.doi.org/10.1002/mds.25475.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Albanese</author>
+</authors>
+<title>Dystonia: clinical approach. Parkinsonism Relat Disord 2007;13: S356–S361,</title>
+<pages>10--1016</pages>
+<marker>2.</marker>
+<rawString>Albanese A. Dystonia: clinical approach. Parkinsonism Relat Disord 2007;13: S356–S361, doi: http://dx.doi.org/10.1016/S1353-8020(08)70030-0.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Berardelli</author>
+<author>Rothwell JC</author>
+<author>M Hallett</author>
+<author>Thompson PD</author>
+<author>M Manfredi</author>
+<author>Marsden CD</author>
+</authors>
+<title>The pathophysiology of primary dystonia.</title>
+<journal>Brain</journal>
+<volume>1998</volume>
+<pages>1212--10</pages>
+<marker>3.</marker>
+<rawString>Berardelli A, Rothwell JC, Hallett M, Thompson PD, Manfredi M, Marsden CD. The pathophysiology of primary dystonia. Brain 1998;121:1195– 1212, doi: http://dx.doi.org/10.1093/brain/121.7.1195.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Rittner</author>
+<author>Lotufo RA</author>
+</authors>
+<booktitle>Processamento de imagens de tensores de difusa˜o. Neurocieˆncias e Epilepsia</booktitle>
+<pages>2010--2</pages>
+<marker>4.</marker>
+<rawString>Rittner L, Lotufo RA. Processamento de imagens de tensores de difusa˜o. Neurocieˆncias e Epilepsia 2010;2:81–85.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Pierpaoli</author>
+<author>P Jezzard</author>
+<author>Basser PJ</author>
+<author>A Barnett</author>
+<author>G Di Chiro</author>
+</authors>
+<title>Diffusion tensor MR imaging of the human brain. Radiology 1996;201:637–648, doi:</title>
+<note>http://dx. doi.org/10.1148/radiology.201.3.8939209.</note>
+<contexts>
+<context position="8175" citStr="(5)" startWordPosition="1176" endWordPosition="1176">ows. Images were acquired in a 3T Intera Achieva-PHILIPSH (Best, The Netherlands) scanner, release 2.6.1.0, according to the following parameters: N N Diffusion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 ˚, TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex Groups Mean Age¡SD (Men%) TOTAL (40) CD (18) BSP (5) BOM (9) BOM+CD (8) 30% 33,3% 40% 22,2% 25% Mean Disease Duration Mean use of BoNT (y)¡SD (y)¡SD HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 HC 68.6¡3.8 – – P 68.5¡5.0 HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 13¡8.2 10¡8.0 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Tremor and Other Hyperkin</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Pierpaoli C, Jezzard P, Basser PJ, Barnett A, Di Chiro G. Diffusion tensor MR imaging of the human brain. Radiology 1996;201:637–648, doi: http://dx. doi.org/10.1148/radiology.201.3.8939209.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Little DM</author>
+<author>Holloway RG</author>
+</authors>
+<title>Diffusion tensor imaging: scientific advance, clinical tool or just a pretty picture? Neurology 2007;68:9–10, doi:</title>
+<note>http://dx.doi. org/10.1212/01.wnl.0000251193.41966.a8.</note>
+<marker>6.</marker>
+<rawString>Little DM, Holloway RG. Diffusion tensor imaging: scientific advance, clinical tool or just a pretty picture? Neurology 2007;68:9–10, doi: http://dx.doi. org/10.1212/01.wnl.0000251193.41966.a8.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Engelhardt</author>
+<author>Moreira MD</author>
+</authors>
+<title>A substaˆncia branca cerebral. Localizac¸a˜o dos principais feixes com anisotropia fracionada direcional. Revista Brasileira de Neurologia</title>
+<date>2008</date>
+<marker>7.</marker>
+<rawString>Engelhardt E, Moreira MD. A substaˆncia branca cerebral. Localizac¸a˜o dos principais feixes com anisotropia fracionada direcional. Revista Brasileira de Neurologia 2008;44:19–34.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Colosimo</author>
+<author>P Pantano</author>
+<author>V Calistri</author>
+</authors>
+<title>Diffusion tensor imaging in primary cervical dystonia.</title>
+<journal>J Neurol Neurosurg Psychiatry</journal>
+<volume>2005</volume>
+<pages>10--1136</pages>
+<institution>The Center for Digital Research and Scholarship Columbia University Libraries/Information Services</institution>
+<contexts>
+<context position="8194" citStr="(8)" startWordPosition="1180" endWordPosition="1180">quired in a 3T Intera Achieva-PHILIPSH (Best, The Netherlands) scanner, release 2.6.1.0, according to the following parameters: N N Diffusion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 ˚, TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex Groups Mean Age¡SD (Men%) TOTAL (40) CD (18) BSP (5) BOM (9) BOM+CD (8) 30% 33,3% 40% 22,2% 25% Mean Disease Duration Mean use of BoNT (y)¡SD (y)¡SD HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 HC 68.6¡3.8 – – P 68.5¡5.0 HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 13¡8.2 10¡8.0 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Tremor and Other Hyperkinetic Movements http</context>
+</contexts>
+<marker>8.</marker>
+<rawString>Colosimo C, Pantano P, Calistri V, et al. Diffusion tensor imaging in primary cervical dystonia. J Neurol Neurosurg Psychiatry 2005;76:1591–1593, doi: http://dx.doi.org/10.1136/jnnp.2004.056614. The Center for Digital Research and Scholarship Columbia University Libraries/Information Services Pinheiro GLS, Guimara˜es RP, Piovesana LG, et al. White Matter Microstructure</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Smith SM</author>
+<author>M Jenkinson</author>
+<author>H Johansen-Berg</author>
+</authors>
+<note>Tract-based spatial</note>
+<contexts>
+<context position="8183" citStr="(9)" startWordPosition="1178" endWordPosition="1178">ges were acquired in a 3T Intera Achieva-PHILIPSH (Best, The Netherlands) scanner, release 2.6.1.0, according to the following parameters: N N Diffusion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 ˚, TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex Groups Mean Age¡SD (Men%) TOTAL (40) CD (18) BSP (5) BOM (9) BOM+CD (8) 30% 33,3% 40% 22,2% 25% Mean Disease Duration Mean use of BoNT (y)¡SD (y)¡SD HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 HC 68.6¡3.8 – – P 68.5¡5.0 HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 13¡8.2 10¡8.0 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Tremor and Other Hyperkinetic Mov</context>
+</contexts>
+<marker>9.</marker>
+<rawString>Smith SM, Jenkinson M, Johansen-Berg H, et al. Tract-based spatial</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>D Rueckert</author>
+<author>Sonoda LI</author>
+<author>C Hayes</author>
+</authors>
+<title>Nongrid registration using freestatistics: voxelwise analysis of multi-subject diffusion data. Neuroimage 2006;31: form deformations: application to breast MR images.</title>
+<journal>IEEE Trans Med Imaging</journal>
+<volume>1487</volume>
+<pages>10--1109</pages>
+<contexts>
+<context position="8167" citStr="(18)" startWordPosition="1174" endWordPosition="1174">s as follows. Images were acquired in a 3T Intera Achieva-PHILIPSH (Best, The Netherlands) scanner, release 2.6.1.0, according to the following parameters: N N Diffusion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 ˚, TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex Groups Mean Age¡SD (Men%) TOTAL (40) CD (18) BSP (5) BOM (9) BOM+CD (8) 30% 33,3% 40% 22,2% 25% Mean Disease Duration Mean use of BoNT (y)¡SD (y)¡SD HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 HC 68.6¡3.8 – – P 68.5¡5.0 HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 13¡8.2 10¡8.0 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Tremor and Other </context>
+</contexts>
+<marker>18.</marker>
+<rawString>Rueckert D, Sonoda LI, Hayes C, et al. Nongrid registration using freestatistics: voxelwise analysis of multi-subject diffusion data. Neuroimage 2006;31: form deformations: application to breast MR images. IEEE Trans Med Imaging 1487–1505, doi: http://dx.doi.org/10.1016/j.neuroimage.2006.02.024. 1999;18:712–721, doi: http://dx.doi.org/10.1109/42.796284.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Sierra</author>
+<author>T Laitinen</author>
+<author>K Lehtima¨ki</author>
+<author>L Rieppo</author>
+<author>A Pitka¨nen</author>
+<author>O Gro¨hn</author>
+</authors>
+<marker>10.</marker>
+<rawString>Sierra A, Laitinen T, Lehtima¨ki K, Rieppo L, Pitka¨nen A, Gro¨hn O.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Lee JE</author>
+<author>Bigler ED</author>
+<author>Alexander AL</author>
+</authors>
+<title>Diffusion tensor imaging of Diffusion tensor MRI with tract-based spatial statistics and histology reveals white matter in the superior temporal gyrus and temporal stem in autism. undiscovered lesioned areas in kainate model of epilepsy in rat. Brain Struct Funct Neurosci Lett 2007;424:127–132, doi:</title>
+<pages>10--1016</pages>
+<marker>19.</marker>
+<rawString>Lee JE, Bigler ED, Alexander AL, et al. Diffusion tensor imaging of Diffusion tensor MRI with tract-based spatial statistics and histology reveals white matter in the superior temporal gyrus and temporal stem in autism. undiscovered lesioned areas in kainate model of epilepsy in rat. Brain Struct Funct Neurosci Lett 2007;424:127–132, doi: http://dx.doi.org/10.1016/j.neulet.2007. 2011;216:123–135, doi: http://dx.doi.org/10.1007/s00429-010-0299-0.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>G Fabbrini</author>
+<author>P Pantano</author>
+<author>P Totaro</author>
+</authors>
+<title>Diffusion tensor imaging in patients</title>
+<marker>11.</marker>
+<rawString>Fabbrini G, Pantano P, Totaro P, et al. Diffusion tensor imaging in patients</rawString>
+</citation>
+<citation valid="false">
+<title>with primary cervical dystonia and in patients with blepharospasm. Eur J Neurol analyzing white matter in children with dyslexia.</title>
+<journal>Psychiatry Res</journal>
+<volume>2009</volume>
+<marker>07.</marker>
+<rawString>042. with primary cervical dystonia and in patients with blepharospasm. Eur J Neurol analyzing white matter in children with dyslexia. Psychiatry Res 2009;172:215–</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Carter JC</author>
+<author>Lanham DC</author>
+<author>Lanham LE</author>
+</authors>
+<note>A dual DTI approach to 2008;15:185–189, doi: http://dx.doi.org/10.1111/j.1468-1331.2007.02034.x. 219, doi: http://dx.doi.org/10.1016/j.pscychresns.2008.09.005.</note>
+<marker>20.</marker>
+<rawString>Carter JC, Lanham DC, Lanham LE, et al. A dual DTI approach to 2008;15:185–189, doi: http://dx.doi.org/10.1111/j.1468-1331.2007.02034.x. 219, doi: http://dx.doi.org/10.1016/j.pscychresns.2008.09.005.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Colosimo</author>
+<author>A Suppa</author>
+<author>G Fabbrini</author>
+</authors>
+<note>Craniocervical dystonia: clinical</note>
+<marker>12.</marker>
+<rawString>Colosimo C, Suppa A, Fabbrini G, et al. Craniocervical dystonia: clinical</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Leemans</author>
+<author>B Jeurissen</author>
+<author>J Sijbers</author>
+<author>Jones DK</author>
+</authors>
+<title>ExploreDTI: a graphical and pathophysiological features. Eur J Neurol 2010;17:15–21, doi: http://dx.doi. toolbox for processing, analyzing, and visualizing diffusion MR data. Proc Intl org/10.1111/j.1468-1331.2010.03045.x. Soc Mag Reson Med</title>
+<date>2009</date>
+<marker>21.</marker>
+<rawString>Leemans A, Jeurissen B, Sijbers J, Jones DK. ExploreDTI: a graphical and pathophysiological features. Eur J Neurol 2010;17:15–21, doi: http://dx.doi. toolbox for processing, analyzing, and visualizing diffusion MR data. Proc Intl org/10.1111/j.1468-1331.2010.03045.x. Soc Mag Reson Med 2009;17:3537.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Blood AJ</author>
+<author>Kuster JK</author>
+<author>Woodman SC</author>
+</authors>
+<note>Evidence for altered basal</note>
+<marker>13.</marker>
+<rawString>Blood AJ, Kuster JK, Woodman SC, et al. Evidence for altered basal</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Piccinin CC</author>
+<author>Piovesana LG</author>
+<author>Santos MCA</author>
+</authors>
+<title>Diffuse decreased gray ganglia-brainstem connections in cervical dystonia. PLoS ONE 2012;7:e31654, doi: http://dx.doi.org/10.1371/journal.pone.0031654. matter in patients with idiopathic craniocervical dystonia: a voxel-based morphometry study. Front Neurol 2015;5:283,</title>
+<note>doi: http://dx.doi.org/10.3389/fneur.2014.</note>
+<marker>22.</marker>
+<rawString>Piccinin CC, Piovesana LG, Santos MCA, et al. Diffuse decreased gray ganglia-brainstem connections in cervical dystonia. PLoS ONE 2012;7:e31654, doi: http://dx.doi.org/10.1371/journal.pone.0031654. matter in patients with idiopathic craniocervical dystonia: a voxel-based morphometry study. Front Neurol 2015;5:283, doi: http://dx.doi.org/10.3389/fneur.2014.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>T Prell</author>
+<author>T Peschel</author>
+<author>B Ko¨hler</author>
+</authors>
+<note>Structural brain abnormalities in</note>
+<marker>14.</marker>
+<rawString>Prell T, Peschel T, Ko¨hler B, et al. Structural brain abnormalities in</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>cervical dystonia</author>
+</authors>
+<journal>BMC Neurosci</journal>
+<volume>2013</volume>
+<note>doi: http://dx.doi.org/10.1186/</note>
+<marker>00283.</marker>
+<rawString> cervical dystonia. BMC Neurosci 2013;14:123, doi: http://dx.doi.org/10.1186/</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Blood AJ</author>
+<author>Tuch DS</author>
+<author>N Makris</author>
+<author>Makhlouf ML</author>
+<author>Sudarsky LR</author>
+<author>N Sharma</author>
+</authors>
+<pages>1471--2202</pages>
+<marker>23.</marker>
+<rawString>Blood AJ, Tuch DS, Makris N, Makhlouf ML, Sudarsky LR, Sharma N. 1471-2202-14-123.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J Yang</author>
+<author>Yan Luo C</author>
+<author>W Song</author>
+</authors>
+<title>Diffusion tensor imaging in White matter abnormalities in dystonia normalize after botulinum toxin blepharospasm and blepharospasm–oromandibular dystonia.</title>
+<booktitle>J Neurol 2014;261: treatment. Neurorepor 2006;17:1251–1255, doi: http://dx.doi.org/10.1097/01.</booktitle>
+<pages>1413--1424</pages>
+<marker>15.</marker>
+<rawString>Yang J, Yan Luo C, Song W, et al. Diffusion tensor imaging in White matter abnormalities in dystonia normalize after botulinum toxin blepharospasm and blepharospasm–oromandibular dystonia. J Neurol 2014;261: treatment. Neurorepor 2006;17:1251–1255, doi: http://dx.doi.org/10.1097/01. 1413–1424, doi: http://dx.doi.org/10.1007/s00415-014-7359-y. wnr.0000230500.03330.01.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Burke RE</author>
+<author>S Fahn</author>
+<author>Marsden CD</author>
+<author>Bressman SB</author>
+<author>C Moskowitz</author>
+<author>J Friedman</author>
+</authors>
+<title>Validity and reliability of a rating scale for the primary torsion dystonias. abnormalities in patients with idiopathic dystonia.</title>
+<booktitle>Mov Disord 2007;22:1110– Neurology 1985;35:73–77, doi: http://dx.doi.org/10.1212/WNL.35.1.73.</booktitle>
+<pages>1116--10</pages>
+<marker>16.</marker>
+<rawString>Burke RE, Fahn S, Marsden CD, Bressman SB, Moskowitz C, Friedman J. Validity and reliability of a rating scale for the primary torsion dystonias. abnormalities in patients with idiopathic dystonia. Mov Disord 2007;22:1110– Neurology 1985;35:73–77, doi: http://dx.doi.org/10.1212/WNL.35.1.73. 1116, doi: http://dx.doi.org/10.1002/mds.21295.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Bonilha</author>
+<author>de Vries PM</author>
+<author>Vincent DJ</author>
+</authors>
+<note>Structural white matter</note>
+<marker>24.</marker>
+<rawString>Bonilha L, de Vries PM, Vincent DJ, et al. Structural white matter</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Campos BM</author>
+<author>Coan AC</author>
+<author>Beltramini GC</author>
+</authors>
+<note>White matter</note>
+<marker>17.</marker>
+<rawString>Campos BM, Coan AC, Beltramini GC, et al. White matter</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>M Carbon</author>
+<author>Kingsley PB</author>
+<author>C Tang</author>
+<author>S Bressman</author>
+<author>D Eidelberg</author>
+</authors>
+<title>abnormalities associate with type and localization of focal epileptogenic lesions. Microstructural white matter changes in primary torsion dystonia.</title>
+<booktitle>Mov Disord Epilepsia 2015;56:125–132, doi: http://dx.doi.org/10.1111/epi.12871. 2008;23:234–239, doi: http://dx.doi.org/10.1002/mds.21806. Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org</booktitle>
+<marker>25.</marker>
+<rawString>Carbon M, Kingsley PB, Tang C, Bressman S, Eidelberg D. abnormalities associate with type and localization of focal epileptogenic lesions. Microstructural white matter changes in primary torsion dystonia. Mov Disord Epilepsia 2015;56:125–132, doi: http://dx.doi.org/10.1111/epi.12871. 2008;23:234–239, doi: http://dx.doi.org/10.1002/mds.21806. Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

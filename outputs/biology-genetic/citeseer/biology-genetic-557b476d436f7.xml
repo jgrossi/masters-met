@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Circulating small non coding RNA signature in head and neck squamous cell carcinoma</title><authors><author><name>Berta Victoria Martinez</name><affiliation>University of Central Florida, Burnett School of Biomedical Sciences, College of Medicine Orlando</affiliation></author><author><name>Joseph M Dhahbi</name><affiliation>University of California at Riverside, Department of Biochemistry</affiliation></author><author><name>Yury O Nunez Lopez</name><affiliation>Florida Hospital, Translational Research Institute for Metabolism and Diabetes</affiliation></author><author><name>Katarzyna Lamperska</name><affiliation>Deptartment of Cancer Genetics, Greater Poland Cancer Centre</affiliation></author><author><name>Paweł Golusinski</name><affiliation>Poznan University of Medical Sciences, Department of Biology and Environmental Studies | Poznan University of Medical Sciences, Department of Head and Neck Surgery, Greater Poland Cancer Centre</affiliation></author><author><name>Lukasz Luczewski</name><affiliation>Poznan University of Medical Sciences, Department of Head and Neck Surgery, Greater Poland Cancer Centre</affiliation></author><author><name>Tomasz Kolenda</name><affiliation>Deptartment of Cancer Genetics, Greater Poland Cancer Centre | Medical University of Warsaw, Postgraduate School of Molecular Medicine</affiliation></author><author><name>Hani Atamna</name><affiliation>California Northstate University, Department of Medical Education</affiliation></author><author><name>Stephen R Spindler</name><affiliation>University of California at Riverside, Department of Biochemistry</affiliation></author><author><name>Wojciech Golusinski</name><affiliation>Poznan University of Medical Sciences, Department of Head and Neck Surgery, Greater Poland Cancer Centre</affiliation></author><author><name>Michal M Masternak</name><affiliation>University of Central Florida, Burnett School of Biomedical Sciences, College of Medicine Orlando | Poznan University of Medical Sciences, Department of Head and Neck Surgery, Greater Poland Cancer Centre</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Circulating small non coding RNA signature in head and neck squamous cell carcinoma</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Berta</forename>
+								<surname>Victoria Martinez</surname>
+							</persName>
+							<affiliation>
+								<orgName key="instit1" type="institution">University of Central Florida</orgName>
+								<orgName key="instit2" type="institution">Burnett School of Biomedical Sciences</orgName>
+								<orgName key="instit3" type="institution">College of Medicine Orlando</orgName>
+								<address>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Joseph</forename>
+								<forename type="middle">M</forename>
+								<surname>Dhahbi</surname>
+							</persName>
+							<email>email: joseph.dhahbi@ucr.edu</email>
+							<affiliation>
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of California at Riverside</orgName>
+								<address>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yury</forename>
+								<forename type="middle">O</forename>
+								<surname>Nunez Lopez</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Translational Research Institute for Metabolism and Diabetes</orgName>
+								<orgName type="institution">Florida Hospital</orgName>
+								<address>
+									<settlement>Orlando</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Katarzyna</forename>
+								<surname>Lamperska</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Deptartment of Cancer Genetics</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Paweł</forename>
+								<surname>Golusinski</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Biology and Environmental Studies</orgName>
+								<orgName type="institution">Poznan University of Medical Sciences</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Head and Neck Surgery</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<orgName type="institution">Poznan University of Medical Sciences</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Lukasz</forename>
+								<surname>Luczewski</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Head and Neck Surgery</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<orgName type="institution">Poznan University of Medical Sciences</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Tomasz</forename>
+								<surname>Kolenda</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Deptartment of Cancer Genetics</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Postgraduate School of Molecular Medicine</orgName>
+								<orgName type="institution">Medical University of Warsaw</orgName>
+								<address>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Hani</forename>
+								<surname>Atamna</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Medical Education</orgName>
+								<orgName type="institution">California Northstate University</orgName>
+								<address>
+									<settlement>Elk Grove</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Stephen</forename>
+								<forename type="middle">R</forename>
+								<surname>Spindler</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">University of California at Riverside</orgName>
+								<address>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Wojciech</forename>
+								<surname>Golusinski</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Head and Neck Surgery</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<orgName type="institution">Poznan University of Medical Sciences</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Michal</forename>
+								<forename type="middle">M</forename>
+								<surname>Masternak</surname>
+							</persName>
+							<email>email: michal.masternak@ucf.edu</email>
+							<affiliation>
+								<orgName key="instit1" type="institution">University of Central Florida</orgName>
+								<orgName key="instit2" type="institution">Burnett School of Biomedical Sciences</orgName>
+								<orgName key="instit3" type="institution">College of Medicine Orlando</orgName>
+								<address>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Head and Neck Surgery</orgName>
+								<orgName key="dep2" type="department">Greater Poland Cancer Centre</orgName>
+								<orgName type="institution">Poznan University of Medical Sciences</orgName>
+								<address>
+									<settlement>Poznan</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Circulating small non coding RNA signature in head and neck squamous cell carcinoma</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<note type="submission">Received: March 18, 2015 Accepted: May 13, 2015 Published: May 25, 2015</note>
+					<note>Oncotarget 1 www.impactjournals.com/oncotarget/ Oncotarget, Advance Publications 2015 * These authors have contributed equally to this paper Correspondence to: Michal M. Masternak, Correspondence to: Joseph M. Dhahbi, This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>head and neck cancer</term>
+					<term>next-generation sequencing</term>
+					<term>circulating small RNAs</term>
+					<term>microRNAs</term>
+					<term>tRNA halves</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>The Head and Neck Squamous Cell Carcinoma (HNSCC) is the sixth most common human cancer, causing 350,000 individuals die worldwide each year. The overall prognosis in HNSCC patients has not significantly changed for the last decade. Complete understanding of the molecular mechanisms in HNSCC carcinogenesis could allow an earlier diagnosis and the use of more specific and effective therapies. In the present study we used deep sequencing to characterize small non-coding RNAs (sncRNAs) in serum from HNSCC patients and healthy donors. We identified, for the first time, a multi-marker signature of 3 major classes of circulating sncRNAs in HNSCC, revealing the presence of circulating novel and known miRNAs, and tRNA-and YRNA-derived small RNAs that were significantly deregulated in the sera of HNSCC patients compared to healthy controls. By implementing a triple-filtering approach we identified a subset of highly biologically relevant miRNA-mRNA interactions and we demonstrated that the same genes/pathways affected by somatic mutations in cancer are affected by changes in the abundance of miRNAs. Therefore, one important conclusion from our work is that during cancer development, there seems to be a convergence of oncogenic processes driven by somatic mutations and/or miRNA regulation affecting key cellular pathways.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><error>ParsCit Failure. Possible error:
+scalar(undergo processing into smaller RNA molecules [11, 12, 13]) != scalar(879 880 881 882 883 884 885 885)
+undergo processing into smaller RNA molecules [11, 12, 13]
+</error>

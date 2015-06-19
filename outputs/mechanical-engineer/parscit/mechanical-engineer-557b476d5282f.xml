@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<reference confidence="0.2358896">
+ISSN 0040 6015, Thermal Engineering, 2012, Vol. 59, No. 3, pp. 221–227. © Pleiades Publishing, Inc., 2012.
+Original Russian Text © A.A. Lanin, 2012, published in Teploenergetika.
+Approaches for Mechanical and Technological Designing of Welded
+Items Used in Large Capacity Power Installations
+A. A. Lanin
+</reference>
+<sectionHeader confidence="0.352031" genericHeader="method">
+OAO NPO Central Boiler–Turbine Institute, ul. Atamanskaya 3/6, St. Petersburg, 191167 Russia
+</sectionHeader>
+<bodyText confidence="0.994618141176471">
+Abstract—Stages through which welded items of power installations are designed in mechanical and techno
+logical respects are analyzed. Results obtained from theoretical and experimental studies of the criteria for
+local brittle fractures used during manufacture and operation of welded structures are given. The most effi
+cient methodological approach for designing constructions and technologies is substantiated.
+DOI: 10.1134/S004060151203007X
+The main line in which modern power engineering
+is developed involves construction of economically
+efficient and reliable power installations, which is
+achieved through increasing their capacity and opti
+mizing their operating parameters (temperature and
+pressure of working medium). Use of new high
+strength materials for this purpose entails the need to
+achieve essentially better quality of technological and
+design elaborations. Under the conditions of strong
+competition, decreasing the net cost, and shortening
+the time taken to develop and manufacture the equip
+ment are becoming the main objectives. One of lines in
+which the above mentioned objectives can be
+achieved consists of applying welded items that make
+it possible to use combined constructions consisting of
+materials containing different alloys, as well as of bil
+lets fabricated as a result of various secondary conver
+sion processes (rolling, casting, and forging).
+Contradictions between the designers, specialists
+in materials science, process engineers, and produc
+tion structures always arise in the course of developing
+new equipment. Lack of interaction between them
+usually results in that equipment is designed with
+poorer quality, that the materials are selected inade
+quately, that nonoptimal technological processes of
+equipment manufacture are developed, due to which
+there is high probability that flaws (cracks and discon
+tinuities) and zones with pronounced structural and
+mechanical nonuniformity may appear during manu
+facture and operation, and as a consequence, that the
+actual performance characteristics of new equipment
+will differ from the design ones. Work on finalizing the
+design and technology at the stages of manufacture
+and operation result in a considerably longer time
+taken to develop a power installation and, accordingly,
+in a higher net cost of this installation.
+Welding is one of the main technological processes
+determining the operability of a construction. Use of
+welding essentially alters the stressed state of a con
+struction and mechanical properties of local zones in
+welded connections. In addition, it results in a higher
+risk of the occurrence of technological cracks and
+plastic deformations causing distortion of the design
+geometry of parts and assemblies. Application of the
+optimal welding technology makes it possible to
+achieve high quality and reliability of the construction.
+At the same time, it should be noted that even a slight
+change in the design of welded items and correct
+choice of materials can make it possible to use an
+essentially simpler technology and apply the most
+suitable welding methods. Therefore, welding tech
+nology must be developed jointly with working out the
+design and selecting the material.
+The general principles of combined mechanical
+and technological designing were formulated by a
+number of outstanding scientists, including
+N.O. Okerblom, G.L. Petrov, G.A. Nikolaev, V.N. Ze
+mzin, V.A. Vinokurov, N.N. Prokhorov, G.P. Karzov,
+F.A. Khromchenko, and some others. The cycle of
+combined mechanical and technological designing is
+implemented in carrying out interconnected stages
+through which equipment is developed. Feedforward
+and feedback links are formed between the develop
+ment of construction, selection of materials, elabora
+tion of technology, and the stage of equipment manu
+facture (Fig. 1). Below, interactions between the indi
+vidual stages of developing a construction are
+considered in more detail.
+Development of a construction (designing). The ini
+tial stage of designing includes development of a draft
+design with separation of individual items, preliminary
+selection of the design makeup of the main items and
+parts (all forged, cast, welded, welded and forged,
+and welded and cast), determination of the tempera
+ture and force parameters of operational loads, and
+definition of strength requirements for materials and
+welded connections. At the first stage of designing,
+preliminary selection of materials can efficiently be
+made using various nomographic charts demarcating
+the application fields of materials depending on their
+</bodyText>
+<page confidence="0.9296915">
+221
+222
+</page>
+<figure confidence="0.959239375">
+LANIN
+Development
+of construction
+Manufacture
+Selection of materials
+Development
+of technology
+Welded construction
+</figure>
+<figureCaption confidence="0.785490333333333">
+Fig. 1. Interconnection between the stages of combined
+mechanical and technological designing and manufactur
+ing of welded constructions.
+</figureCaption>
+<bodyText confidence="0.995980263157895">
+strength properties, safety margin, and stress concen
+tration factors in the most heavily stressed zones of the
+construction. An example of one nomographic chart is
+given in [1].
+At the second stage of designing, design engineers,
+working jointly with process engineers and specialists
+in materials science, work out additional requirements
+for materials of the main items in order to fulfill the
+strength characteristics specified by the designer
+(safety margins and strength degradation factors of
+welded connections), the required design service life,
+high resistance to brittle fracture, and technological
+strength against fracturing (weldability). Concurrently
+with this, the designer carries out the necessary
+strength calculations and elaborates in more detain the
+design makeup of items with direct participation of the
+process engineer.
+In analyzing the overall strength and geometrical
+stability of welded items, the designer can limit himself
+</bodyText>
+<tableCaption confidence="0.600066">
+Table 1. Results from determination of the critical and
+</tableCaption>
+<figure confidence="0.771736846153846">
+threshold fracture toughness values for different structural
+classes of steels under creep conditions
+Steel grade
+KIcth,
+MPa m0.5
+Kc,
+MPa m0.5
+Tt, °C
+τt, h
+12Kh1MF
+15Kh1M1F
+25Kh1M1FA
+15Kh11MF
+08Kh18N9
+08Kh18N10T
+6–9
+17–23
+15–20
+53–59
+26–29
+17–19
+100–132
+125–140
+108–122
+118–136
+143–152
+130–148
+550
+550
+550
+550
+550
+550
+2.2 × 104
+1.3 × 104
+1.2 × 104
+9 × 103
+1.3 × 104
+1.2 × 104
+</figure>
+<bodyText confidence="0.99539265">
+Note: Tt is the temperature of tests, and τt is the time of tests.
+or herself to consideration of equivalent working
+stresses and averaged temperatures related to the
+entire volume of the metal of a structural element.
+However, in estimating the integrity of a structure,
+local stressed state must first of all be studied. The
+majority of defects in and destructions of welded items
+are local in nature and are connected exactly with
+development of structural, mechanical, and chemical
+nonuniformities in the zones of welded connections.
+Taking into account the results obtained from a study
+of structural and mechanical nonuniformity of welded
+connections, the designer can make calculations of
+stressed and strain state essentially more confident and
+change the design jointly with the process engineer by
+placing welded joints away from the zone of increased
+stresses. Despite the fact that various software systems
+are presently available using which it is possible to sim
+ulate operational effects on structural elements and
+determine the distribution of temperatures, deforma
+tions, and stresses taking into account the geometry of
+items specified by the designer, a calculated analysis of
+the hazard of local brittle fractures still involves certain
+difficulties. A paradoxical situation occurs, in which
+local stressed and strain state can be determined with
+high trustworthiness by means of numerical computa
+tion methods, whereas attempts to estimate the condi
+tions under which brittle fracture occurs in welded
+items at the stage of mechanical and technological
+designing are not met with success due to lack of quan
+titative engineering criteria for local brittle fracture.
+Criteria for local fracture must be sufficiently universal
+and simple for the possibility of carrying out the anal
+ysis and considering different versions of a construc
+tion within the time scheduled for elaborating the
+design.
+For carrying out a quantitative analysis of resis
+tance to local fractures under creep conditions at high
+temperatures, specialists of the Central Boiler–Tur
+bine Institute (TsKTI) have developed a phenomeno
+logical model of brittle fracture [2–15] and criteria
+using which fast quantitative calculation assessments
+can be carried out at the stage of mechanical and tech
+nological designing. The model describes the kinetics
+characterizing the accumulation with time of local
+defects in individual zones of a construction and glo
+bal defects outside of stress concentration zones. The
+following engineering criteria have been proposed on
+the basis of the theoretical fracture model and experi
+mental studies: critical Kc and threshold KIcth [the let
+ters in the subscript have the following meaning: I
+denotes the type of loading (I means breaking off), c is
+creep loading, and th denotes the threshold value)]
+time characteristics of fracture resistance, isochronous
+dependences of crack growth rates in time on the stress
+intensity factor, using which one can predict all devel
+opment stages of local fractures: conditions under
+which cracks do not propagate, kinetics of slow crack
+growth under creep conditions, and critical conditions
+for spontaneous fracture in any zone of welded con
+</bodyText>
+<sectionHeader confidence="0.816011" genericHeader="method">
+THERMAL ENGINEERING
+</sectionHeader>
+<bodyText confidence="0.429519">
+Vol. 59
+No. 3
+</bodyText>
+<page confidence="0.80883">
+2012
+</page>
+<sectionHeader confidence="0.978234" genericHeader="method">
+APPROACHES FOR MECHANICAL AND TECHNOLOGICAL DESIGNING
+</sectionHeader>
+<page confidence="0.996089">
+223
+</page>
+<table confidence="0.312452">
+KI, MPa m1/2
+</table>
+<page confidence="0.973381">
+103
+</page>
+<figure confidence="0.839089444444444">
+2
+5
+102
+4
+1
+10
+3
+1
+10
+</figure>
+<page confidence="0.962174666666667">
+102
+103
+104
+</page>
+<figure confidence="0.8857738">
+(а)
+(b)
+τ, h
+(c)
+20 = 390 – 430 MPa) at T = 550°C. (a): (1) K
+</figure>
+<figureCaption confidence="0.914664">
+Fig. 2. Time dependences of KIcth and Kc for Grade 12Kh1MF steel (σ0.2
+</figureCaption>
+<equation confidence="0.729058">
+t
+Icth, (2) Kc,
+</equation>
+<listItem confidence="0.537467">
+(3) region in which no fracture occurs, (4) region corresponding to slow growth of cracks, and (5) region in which spontaneous
+</listItem>
+<bodyText confidence="0.987471230769231">
+fracture occurs; (b) intergranular fracture in zone 5 (×500 magnification); and (c) intergranular fracture in zone 4 (×500 magni
+fication).
+nection taking into account the quality of main metal
+and the technological heredity acquired in the course
+of manufacture.
+As an example, Fig. 2 shows time dependences of
+threshold and critical values of fracture toughness cor
+responding to the local and global damageability of
+Grade 12Kh1MF steel under creep conditions. The
+figure also shows fracture graphs (fracture surfaces),
+the dependence of fracture micromechanisms on the
+fracture localization degree [15]. Table 1 gives the
+threshold and critical values of fracture strength char
+acteristics for different grades of steel tested under
+creep conditions. The threshold values of KIcth are a
+factor of 15–20 smaller than the critical values of Kc,
+and their values for welded connections of the above
+mentioned grades of steel are still smaller. Table 2 gives
+the values of KIcth for metal of the near weld zone
+(NWZ), weld joint metal (WJM), and the base metal
+(BM). The local fracture strength characteristics of
+different zones differ considerably from each other
+depending on the degree of alloying the material and
+welding method. The threshold characteristics of frac
+ture strength are used for estimating the service life of
+different elements of power equipment and welded
+</bodyText>
+<sectionHeader confidence="0.704461" genericHeader="method">
+THERMAL ENGINEERING
+</sectionHeader>
+<bodyText confidence="0.43898">
+Vol. 59
+No. 3
+</bodyText>
+<page confidence="0.589826">
+2012
+</page>
+<bodyText confidence="0.93867">
+connections. At the first stage of calculation, the con
+dition under which a crack does not propagate is
+determined:
+</bodyText>
+<equation confidence="0.9988605">
+nk = KIcth/KI &gt; [n],
+(1)
+</equation>
+<bodyText confidence="0.964159">
+where nk is the fracture strength margin factor, and [n]
+is the permissible safety margin [10].
+</bodyText>
+<tableCaption confidence="0.707921333333333">
+Table 2. Results from determination of KIcth for welded
+connections in the local zones of main metal (MM), near
+weld area (NWA), and weld metal (WM)
+</tableCaption>
+<figure confidence="0.971858">
+KIñth, MPa m0.5
+Tt, °C
+τt, h
+12–15
+550
+2.2 × 104
+9–12
+12–15
+550
+1.3 × 104
+15–20
+8–13
+14–17
+550
+1.2 × 104
+15Kh11MF
+53–59
+31–40
+60–68
+550
+9 × 103
+08Kh18N9
+26–29
+20–23
+23–25
+550
+1.3 × 104
+8–9
+23–25
+550
+1.2 × 104
+Steel grade
+MM
+NWA
+WM
+12Kh1MF
+6–9
+4–5
+15Kh1M1F
+17–23
+25Kh1M1FA
+08Kh18N10T 17–19
+</figure>
+<page confidence="0.809535">
+224
+</page>
+<figure confidence="0.676261466666667">
+LANIN
+If nk ≤ [n], the remaining design service life is deter
+mined from the crack growth kinetics based the fol
+lowing condition:
+a(τ) ≤ [a],
+(2)
+τ
+where a ( τ) = ∫ a ( τ) d τ e; [a] is the permissible size of a
+0
+·
+is the isochronous crack growth rate
+crack, and a(τ)
+[15].
+The permissible values of [n] and [a] in expressions
+(1) and (2) are specified by the designer together with
+</figure>
+<bodyText confidence="0.993075538461539">
+the process engineer.
+Selection of structural materials. At this stage of
+combined mechanical and process designing, the spe
+cialist in materials science selects a steel grade or alloy
+proceeding from the parameters of working medium,
+levels of temperatures and stresses, and loading pat
+tern (static, dynamic, or cyclic) specified by the
+designer. Correct choice of materials made taking into
+account their thermal and physical characteristics
+(heat conductivity and linear expansion coefficients,
+and heat capacity) is of special importance, because
+these characteristics are used in design calculations for
+determining thermally stressed state. In selecting the
+materials, it is necessary to ensure the required level of
+strength and plastic characteristics and stability of the
+properties of materials throughout the entire design
+service life. In selecting the materials, proper attention
+should be paid to uniformity of properties over the
+cross section of billets and susceptibility of materials to
+localization of fractures due to the presence of metal
+lurgical flaws (various sorts of discontinuities, foreign
+inclusions, and liquation zones).
+The proposed structural materials must be esti
+mated with respect to their suitability for welding. The
+requirements for selected materials may be essentially
+changed according to recommendations of process
+engineers. In the cases when new materials have to be
+used, the properties of metal must be investigated
+according to programs developed jointly by the
+designer, specialist in materials science, and process
+engineer. The use of such an approach will make it
+possible to considerably shorten the time taken to cre
+ate a new material for concrete kinds of equipment
+and achieve considerably lower probability of design
+errors.
+Special attention must be paid to welded items
+made of different grades of steel operating at high tem
+peratures. Diffusion processes develop in the zones of
+welded connections of different grades of steel charac
+terized by considerable initial heterogeneity of their
+properties under the conditions of long term loading
+at high temperatures, which entail formation of brittle
+and low strength interlayers and occurrence of local
+stressed and strain state that is essentially different
+from the design state. If the designer knows only the
+properties of the main and deposited metal, he or she
+cannot determine the safety factors and design service
+life. In this case, a set of additional studies on estab
+lishing the properties of metal in different zones with
+determining the local fracture strength characteristics
+must be carried out.
+For the designer be able to estimate the influence of
+temperature effects on the level of stresses and on the
+strain state within the framework of selecting the
+materials, he or she must have the results from studies
+of creep characteristics and relaxation of stresses for
+the base metal and for different zones of welded con
+nections.
+Information contained in all the above mentioned
+characteristics of metal and welded connections must
+allow the designer to perform trustworthy simulation
+of the stressed and strain state of the construction for
+ensuring its guaranteed service life.
+In developing a new power installation with an
+increased power capacity that must comply with the
+requirement of having a decreased metal intensity, the
+designer is compelled to increase the level of stresses in
+its components and, accordingly, to use high strength
+materials. But as the strength of material increases, the
+indicators characterizing the technological and opera
+tional fracture strength of metal decrease considerably
+and, consequently, there is an increased risk of brittle
+fracture. The presence of structural stress concentra
+tions, as well as metallurgical and technological (weld
+ing) flaws facilitates development of brittle fractures.
+Figure 3 shows the decrease of the permissible size of
+defects with increasing the yield strength (σ0.2) for
+chromium–molybdenum–vanadium steels. It can be
+seen that, as the strength level of steels increases by a
+factor of 1.6–1.7, the permissible size of a defect with
+respect to the condition of local brittle fracture
+decreases by a factor of 9–10 [2–6, 11, 12, 15]. A con
+clusion can be drawn from what was said above that in
+selecting materials for welded parts it is necessary to
+consider not only the strength characteristics of metal,
+but also pay special attention to enhancement of
+requirements to its metallurgical quality in the part of
+imposing more stringent norms on the sizes of permis
+sible flaws.
+Development of welding and surfacing technologies.
+At the first stage of the welding process, the process
+engineer analyses the overall design of a welded item
+and technical requirements for operating parameters,
+and also the materials suggested for manufacture from
+the viewpoint of ensuring weldability. Based on a pre
+liminary analysis, he or she selects welding methods
+and welding materials taking into account the strength
+properties of metal specified by the designer and opti
+mizes the design of welded items, versions of grooving
+for welding, and the layout of weld joints.
+At the second stage, a program is developed for
+determining the optimal parameters of technological
+welding processes and thermal treatment. This stage is
+commenced with the following: the welding process is
+</bodyText>
+<figure confidence="0.262105">
+THERMAL ENGINEERING
+Vol. 59
+No. 3
+2012
+</figure>
+<sectionHeader confidence="0.988544" genericHeader="method">
+APPROACHES FOR MECHANICAL AND TECHNOLOGICAL DESIGNING
+</sectionHeader>
+<bodyText confidence="0.999460620689655">
+simulated, the temperature field in the welded con
+nection is determined, the kinetics of change in the
+stressed and strain state is evaluated, and the zones in
+which structural and phase conversions evolve are esti
+mated.
+The kinetic dependences are used for experimen
+tally simulating the deformation and destruction of
+material in different zones of welded connections dur
+ing tests of samples of the studied metal and for deter
+mining its resistance to technological cracks. Devel
+opment of quantitative engineering criteria for tech
+nological resistance to crack growth, as well as
+metrologically supported test methods, is of the most
+important significance for implementing such an
+approach.
+The results obtained from long term studies and
+theoretical elaborations carried out at TsKTI made it
+possible to establish general regularities in the devel
+opment of technological cracks during welding and
+thermal treatment [16–27]. It was shown that hot and
+cold cracks appearing during welding and cracks
+resulting from thermal treatment develop according to
+the mechanisms of brittle intergranular fracture under
+the effect of temporary and residual welding stresses.
+The formation of these stresses is characterized by
+kinetic regularities of creep and embrittlement in cer
+tain temperature and time intervals corresponding to
+nonequilibrium state of metal in the corresponding
+zone of welded connection [23, 24]. An analysis of
+phenomenological regularities in the development of
+this type of failures makes it possible to describe tech
+nological cracks in welded connections using the
+statements of general creep fracture theory. New crite
+ria for technological resistance to crack growth similar
+to the fracture criteria under creep and stress relax
+ation conditions have been developed. For quantita
+tively assessing the resistance to cold cracks and cracks
+appearing during thermal treatment, it has been pro
+posed to use threshold fracture strength values deter
+mined according to special procedures [28–30] under
+creep and stress relaxation conditions. The loading
+parameters are established based on the results of the
+previous simulation. The resistance to hot cracks is
+determined from the dip of plasticity in the tempera
+ture interval and from the actual deformation rate
+obtained from a preliminary calculation at the stage of
+simulating the technological process of welding [27].
+The temperature and stressed and strained states
+are simulated by means of the developed computer
+program using the finite element method. The
+mechanical model (the geometric relations and
+schemes characterizing the state of deformed
+medium) has been implemented according to the clas
+sic theory of strains and stresses. In the physical model
+characterizing the form of correlation between stresses
+and strains, and which is based on the statements of
+theory of nonisothermal plastic yield, the limiting
+condition is adopted in Mises form, and the hypothe
+</bodyText>
+<figure confidence="0.9368245">
+THERMAL ENGINEERING
+Vol. 59
+No. 3
+2012
+225
+[al]/[ah]
+1.0
+1
+2
+3
+0.8
+0.6
+0.4
+0.2
+0
+1.0
+1.2
+1.4
+1.6
+σ0.2l/σ0.2h
+</figure>
+<figureCaption confidence="0.996965">
+Fig. 3. Reduction of the sizes of permissible flaws vs. the
+</figureCaption>
+<bodyText confidence="0.514216">
+increase in the yield strength of chromium–molybde
+</bodyText>
+<equation confidence="0.92232825">
+l
+num–vanadium steels. (1) Grade 12Kh1MF steel, σ0.2
+=
+l
+298 MPa; (2) 15Kh1M1F, σ0.2
+= 360 MPa;
+l
+(3) 25Kh1M1FA, σ0.2
+</equation>
+<bodyText confidence="0.989773162162162">
+= 435 MPa; al and ah are the sizes
+of permissible flaws for low and high strength steels, and
+σl0.2 and σh are the low and high yield strength levels.
+sis of short term creep is used. The temperature prob
+lem is based on the unsteady equation of heat conduc
+tance with initial and boundary conditions. The load
+ing history was traced by sequentially solving the
+temperature and strain problems in nonlinear state
+ment at each moment of time taking into account the
+dependence of thermophysical and mechanical prop
+erties of materials on the temperature and the thermo
+kinetic diagrams of phase conversions.
+The use of the developed theoretical and numerical
+models, methodological principles, fracture criteria,
+and experimental methods makes it possible to quan
+titatively analyze a large number of technological
+alternatives within a short period of time and select the
+most stable welding technologies application of which
+ensures the highest safety margins (nk) with respect to
+technological resistance to growth of cracks. Figure 4
+shows the results from an analysis of technological
+resistance to crack growth for the versions of surfacing
+metal to the journals and thrust plates of the high and
+intermediate pressure rotors of a 660 MW steam tur
+bine. A comparison of margin factors with respect to
+resistance to cold cracks in the near weld zone of
+welded connections made of 11% chromium rotor
+steel [27] was carried out. A total of 68 technological
+versions were subjected to experimental and calculated
+studies, and 13 versions giving the highest margins
+with respect to technological resistance to crack
+growth were selected from them for further investiga
+tion based on the study results. The resistances to hot
+cracks and cracks due to thermal treatment were esti
+mated in a similar way. The results obtained from
+determination of safety margins with respect to tech
+nological strength are given in [27].
+</bodyText>
+<figure confidence="0.850340636363637">
+LANIN
+Margin factor with respect
+to technological fracture
+strength
+226
+NWA
+DM1
+DM2
+DM3
+DM4
+DM5
+20
+15
+10
+5
+0
+1
+1
+1.8
+3.9
+2.7
+3.5
+</figure>
+<page confidence="0.824334333333333">
+4.3
+3.3
+460
+</page>
+<figure confidence="0.853592774193548">
+150
+93
+2
+12.8
+7.7
+5.3
+6.3
+8.4
+6.1
+460
+300
+45
+2
+3
+4
+5
+6
+7
+8
+9
+Number of technology version
+Rotor journal
+NWA
+DM1
+DM2
+DM3
+DM4
+DM5
+q, J/mm
+Th, °С
+W0, °С/с
+9
+1.6
+3.7
+2.6
+3.2
+4.1
+3.0
+670
+150
+63
+11
+12
+13
+Rotor disk
+Zone
+8
+2.7
+7.5
+6.1
+6.7
+8.0
+6.3
+335
+50
+127
+10
+10
+21.8
+9.2
+6.3
+7.9
+</figure>
+<page confidence="0.741404">
+10.4
+7.4
+335
+</page>
+<figure confidence="0.804896727272727">
+300
+62
+11
+6.3
+7.8
+5.2
+6.1
+8.5
+5.7
+670
+300
+</figure>
+<page confidence="0.920969">
+31
+</page>
+<figure confidence="0.91313755">
+Versions
+3
+3.3
+1.4
+1.2
+1.3
+1.5
+1.2
+335
+150
+127
+4
+2.4
+2.2
+1.5
+1.9
+2.4
+1.8
+460
+150
+93
+5
+2.0
+2.0
+1.4
+1.7
+1.2
+1.1
+670
+150
+63
+6
+3.7
+3.3
+2.3
+2.7
+3.6
+2.6
+460
+300
+45
+7
+0.6
+1.2
+0.9
+1.0
+1.3
+0.9
+460
+20
+157
+12
+3.3
+3.4
+2.5
+2.6
+3.7
+2.5
+670
+300
+</figure>
+<page confidence="0.7509575">
+31
+13
+</page>
+<figure confidence="0.843247555555556">
+4.1
+3.3
+2.6
+2.8
+3.7
+2.6
+335
+300
+62
+</figure>
+<figureCaption confidence="0.97215">
+Fig. 4. Summary diagram for drawing up versions of the technological process of surfacing the rotor journal and disk based on the
+</figureCaption>
+<bodyText confidence="0.9641274">
+margin factor corresponding to the condition of cold crack development in the near weld area (NWA) and deposited metal (DM)
+with different extents of alloying. 1–5 are the numbers of welding materials. qh.r, Th, and W0 are the welding heat input, heating
+temperature, and cooling rate established during the calculated simulation of the surfacing process.
+Application of the principles of combined mechan
+ical and process designing makes it possible to con
+struct new power installations within a considerably
+shorter period of time while ensuring their high reli
+ability and essentially reducing costs for their develop
+ment.
+7.
+</bodyText>
+<sectionHeader confidence="0.980877" genericHeader="references">
+REFERENCES
+</sectionHeader>
+<reference confidence="0.96328725">
+1. STO (Enterprise Standard) of TsKTI 10.005 2006: Com
+bined Mechanical and Process Designing and Manufac
+ture of Welded Constructions of Steam, Gas, and Hydrau
+lic Turbines. General Requirements for Combined
+Mechanical and Process Designing (NPO TsKTI, St.
+Petersburg, 2006) [in Russian].
+2. A. A. Chizhik and A. A. Lanin, “Crack Resistance of
+Materials under Stress Relaxation Conditions,” Trudy
+TsKTI, 1985, Issue 228, 39–50 (1985).
+3. A. A. Chizhik and A. A. Lanin, “An Engineering
+Method for Estimating the Crack Resistance of Mate
+rials Used in Power Generating Equipment under
+Stress Relaxation Conditions,” Trudy TsKTI, Issue 230,
+100–107 (1986).
+4. A. A. Chizhik and A. A. Lanin, “Using the Threshold
+Values of Fracture Toughness for Estimating the
+Remaining Service Life of Power Equipment,” Trudy
+TsKTI, Issue 237, 31–41 (1987).
+5. A. A. Lanin and V. V. Artamonov, “Matters Concerned
+with Assessing the Resistance of Steam Turbine Shell
+Parts to Crack Growth,” Trudy TsKTI, Issue 246, 108–
+118 (1988).
+6. A. A. Lanin, “Estimating the Service Life of High
+Temperature Fastening Parts of Steam Turbines Using
+</reference>
+<figure confidence="0.919731333333333">
+8.
+9.
+10.
+11.
+12.
+Crack Resistance Criteria,” Trudy TsKTI, Issue 256,
+</figure>
+<reference confidence="0.966858423529411">
+29–38 (1989).
+A. A. Lanin, A. A. Chizhik, and A. V. Medvedev, “About
+the Correctness of Methods for Estimating the Crack
+Resistance of Heat Resistant Materials under Creep
+Conditions,” in Proceedings of the First All Union Sym
+posium “New High Temperature and Heat Resistant
+Metallic Materials,” Soviet Union’s Ministry for Ferrous
+Metallurgy, Moscow, 1989, pp. 21–22.
+A. A. Lanin, A. V. Medvedev, S. A. Tikhomirov, and
+V. I. Berlyand, “Temperature and Time Effects of
+Damageability in Solving Matters Concerned with the
+Service Life of the Metal of High Temperature Power
+Equipment with Respect to Crack Resistance Crite
+ria,” in Proceedings of the 3rd All Union Symposium on
+Fracture Mechanics, Zhitomir, Physicomechanical Insti
+tute, Ukrainian Academy of Sciences, 1990, pp. 20–21.
+A. A. Lanin, M. A. Anan’eva, and Yu. V. Zelenin,
+“Matters Concerned with Assessing the Service Life of
+Welded Connections of Austenite Materials Based on
+Crack Resistance Criteria,” in Proceedings of the Scien
+tific Practical Conference “Ensuring the Service Life
+of Power Equipment,” LDNTP, Leningrad, 1990,
+pp. 62–65.
+A. A. Chizhik, A. A. Lanin, and A. V. Medvedev, “Mat
+ters Concerned with Estimating the Service Life of
+High Temperature Shell Steels Based on Crack Resis
+tance Criteria,” Trudy TsKTI, Issue 260, 28–32 (1990).
+V. S. Balina and A. A. Lanin, Strength and Longevity of
+Structures under Creep Conditions (Politekhnika, St.
+Petersburg, 1995) [in Russian].
+A. A. Lanin, “Serviceability Criteria for Materials and
+Welded Connections of Ageing Equipment,” Tyazh.
+Mashinostr., No. 10, 56–58 (2002).
+THERMAL ENGINEERING
+Vol. 59
+No. 3
+2012
+APPROACHES FOR MECHANICAL AND TECHNOLOGICAL DESIGNING
+13. Yu. K. Petrenya and A. A. Lanin, “Combined Mechan
+ical and Technological Designing of Welded Parts for
+New Generation Power Installations,” in Proceedings
+of the 10th All Russia Seminar “Ensuring Safety and
+Economic Efficiency of Power Equipment,” NPO TsKTI,
+St. Petersburg, 2004, pp. 14–27.
+14. A. A. Lanin, M. A. Anan’eva, S. N. Galyatkin, and
+Yu. V. Zelenin, “Crack Resistance of Welded Connec
+tions Operating in High Temperature Power Installa
+tions under Creep Conditions,” in Proceedings of the
+10th All Russia Seminar “Ensuring Safety and Economic
+Efficiency of Power Equipment,” NPO TsKTI, St. Peters
+burg, 2004, pp. 195–209.
+15. A. A. Lanin, “Regularities of Brittle Local Fractures
+under the Conditions of High Temperature Creep,” in
+Proceedings of the 2nd International Ural Scientific
+Practical Conference “Ensuring Safety and Environmen
+tal Friendliness of Power Equipment under the Conditions
+of Long Term Operation,” ITsEU, a Branch of UralVTI,
+Chelyabinsk, 2010, pp. 122–129.
+16. V. N. Zemzin, A. A. Chizhik, A. A. Lanin, and
+R. Z. Shron, “Crack Incipience Conditions during
+Welding and Thermal Treatment. Part 1. The Role of
+Creep in the Incipience of Cracks,” Svarochn. Proizv.,
+No. 11, 1–4 (1983).
+17. V. N. Zemzin, A. A. Chizhik, and A. A. Lanin, “Crack
+Incipience Conditions during Welding and Thermal
+Treatment. Part 2. Estimating the Influence of the Stiff
+ness of Welded Structure,” Svarochn. Proizv., No. 4, 1–
+3 (1984).
+18. V. N. Zemzin, A. A. Chizhik, and A. A. Lanin, “Crack
+Incipience Conditions during Welding and Thermal
+Treatment. Part 3. Crack Development Kinetics,”
+Svarochn. Proizv., No. 2, 33–36 (1987).
+19. A. A. Lanin, B. S. Ermakov, and G. G. Kolchin, “Spe
+cific Features Relating to Grain Boundary Fracture of
+Hardened Chromium–Nickel–Molybdenum Steels,”
+Metally, No. 1, 107–111 (1988).
+20. A. A. Lanin, V. N. Zemzin, and A. V. Medvedev, “The
+influence of Technological Factors on the Resistance of
+High Strength Steels to Cold Cracks,” Svarochn.
+Proizv., No. 12, 26–28 (1988).
+21. A. A. Lanin, B. S. Ermakov, A. G. Kolchin, and
+A. A. Chizhik, “The Influence of Molybdenum of the
+Time Dependence and Threshold Fracture Toughness
+of Hardened Steels,” Fiz. Khim. Mekh. Mater., No. 4,
+105–106 (1986).
+</reference>
+<figure confidence="0.720123">
+THERMAL ENGINEERING
+Vol. 59
+No. 3
+2012
+</figure>
+<page confidence="0.968876">
+227
+</page>
+<reference confidence="0.999819021276596">
+22. A. A. Chizhik and A. A. Lanin, A New Engineering
+Methods for Estimating the Susceptibility of Materials to
+Incipience and Development of Technological Cracks
+during Welding and Thermal Processing (LDNTP, Len
+ingrad, 1987) [in Russian].
+23. A. A. Lanin and A. A. Chizhik, “Matters Relating to the
+Synenergetics of Fracture of Nonequilibrium Struc
+tures during Incipience and Development of Techno
+logical Cracks,” in Proceedings of the All Russia Scien
+tific Practical Conference Problems of Synenergetics,
+Ufa, June 6–8, 1989, pp. 23–24.
+24. A. A. Lanin, “Matters Relating to the Synenergetics of
+Fracture of Nonequilibrium Structures during Incipi
+ence and Development of Technological Cracks,” in
+Proceedings of the All Union Symposium on Fracture
+Mechanics, Physico Mechanical Institute, Ukrainian
+Academy of Sciences, Zhitomir, 1990, pp. 15–16.
+25. A. A. Lanin, V. N. Zemzin, V. M. Silevich, et al., “New
+Technologies for Repairing the Rotors of Large Steam
+Turbines Made of High Strength Steels,” in Proceed
+ings of the Scientific Seminar “Repairing and Restoring
+the Service Life of Power Equipment with Ensuring a
+Guaranteed Service Life,” NPO TsKTI, St. Petersburg,
+1995, pp. 192–194.
+26. L. A. Kopel’man, A. A. Lanin, and E. M. Vasil’ev,
+“Combined Mechanical and Technological Designing
+of Welded Parts as One of the Most Important Line of
+Works in the Development of Power Machinery Con
+struction,” Trudy TsKTI 1 (286), 268–282 (2002).
+27. A. A. Lanin, Yu. G. D’yakov, and T. V. Prokhorova,
+“Development of Technology for Surfacing Steam Tur
+bine Rotors Made of 9–12% Chromium Steels,” in
+Proceedings of the Second International Ural Scientific
+Practical Conference “Ensuring Safety and Environmen
+tal Friendliness of Power Equipment under the Conditions
+of Its Long Term Operation,” ITsEU, a Branch of
+UralVTI, Chelyabinsk, 2010, pp. 208–215.
+28. RU (Guidelines) 49: A Mass Scale Method for Determin
+ing the Fracture Strength of the Materials and Welded
+Connections of Power Equipment (NPO TsKTI, Lenin
+grad, 1982) [in Russian].
+29. RU (Guidelines) 60: Methods for Estimating Crack Resis
+tance of Metals and Alloys on Small Samples (NPO
+TsKTI, St. Petersburg, 1992) [in Russian].
+30. RU (Guidelines) 61: Methods for Estimating Fracture
+Strength under Creep Conditions on Small Samples
+(NPO TsKTI, St. Petersburg, 1994 [in Russian].
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<date>2012</date>
+<booktitle>ISSN 0040 6015, Thermal Engineering,</booktitle>
+<volume>59</volume>
+<pages>221--227</pages>
+<publisher>Pleiades Publishing, Inc.,</publisher>
+<note>published in Teploenergetika.</note>
+<marker>2012</marker>
+<rawString>ISSN 0040 6015, Thermal Engineering, 2012, Vol. 59, No. 3, pp. 221–227. © Pleiades Publishing, Inc., 2012. Original Russian Text © A.A. Lanin, 2012, published in Teploenergetika.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A</author>
+</authors>
+<title>Approaches for Mechanical and Technological Designing of Welded Items Used in Large Capacity Power Installations</title>
+<date>2006</date>
+<journal>STO (Enterprise Standard) of TsKTI</journal>
+<booktitle>Com bined Mechanical and Process Designing and Manufac ture of Welded Constructions of Steam, Gas, and Hydrau lic Turbines. General Requirements for Combined Mechanical and Process Designing (NPO</booktitle>
+<volume>10</volume>
+<publisher>TsKTI, St.</publisher>
+<marker>A, 2006</marker>
+<rawString>Approaches for Mechanical and Technological Designing of Welded Items Used in Large Capacity Power Installations A. A. Lanin 1. STO (Enterprise Standard) of TsKTI 10.005 2006: Com bined Mechanical and Process Designing and Manufac ture of Welded Constructions of Steam, Gas, and Hydrau lic Turbines. General Requirements for Combined Mechanical and Process Designing (NPO TsKTI, St.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Petersburg</author>
+</authors>
+<date>2006</date>
+<note>[in Russian].</note>
+<marker>Petersburg, 2006</marker>
+<rawString>Petersburg, 2006) [in Russian].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>Crack Resistance of Materials under Stress Relaxation Conditions,” Trudy TsKTI,</title>
+<date>1985</date>
+<journal>Issue</journal>
+<volume>228</volume>
+<pages>39--50</pages>
+<marker>Chizhik, Lanin, 1985</marker>
+<rawString>2. A. A. Chizhik and A. A. Lanin, “Crack Resistance of Materials under Stress Relaxation Conditions,” Trudy TsKTI, 1985, Issue 228, 39–50 (1985).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>An Engineering Method for Estimating the Crack Resistance of Mate rials Used in Power Generating Equipment under Stress Relaxation Conditions,” Trudy TsKTI,</title>
+<date>1986</date>
+<journal>Issue</journal>
+<volume>230</volume>
+<pages>100--107</pages>
+<marker>Chizhik, Lanin, 1986</marker>
+<rawString>3. A. A. Chizhik and A. A. Lanin, “An Engineering Method for Estimating the Crack Resistance of Mate rials Used in Power Generating Equipment under Stress Relaxation Conditions,” Trudy TsKTI, Issue 230, 100–107 (1986).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>Using the Threshold Values of Fracture Toughness for Estimating the Remaining Service</title>
+<date>1987</date>
+<journal>Life of Power Equipment,” Trudy TsKTI, Issue</journal>
+<volume>237</volume>
+<pages>31--41</pages>
+<marker>Chizhik, Lanin, 1987</marker>
+<rawString>4. A. A. Chizhik and A. A. Lanin, “Using the Threshold Values of Fracture Toughness for Estimating the Remaining Service Life of Power Equipment,” Trudy TsKTI, Issue 237, 31–41 (1987).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>V V Artamonov</author>
+</authors>
+<title>Matters Concerned with Assessing the Resistance of Steam Turbine Shell Parts to Crack Growth,” Trudy TsKTI,</title>
+<date>1988</date>
+<journal>Issue</journal>
+<volume>246</volume>
+<marker>Lanin, Artamonov, 1988</marker>
+<rawString>5. A. A. Lanin and V. V. Artamonov, “Matters Concerned with Assessing the Resistance of Steam Turbine Shell Parts to Crack Growth,” Trudy TsKTI, Issue 246, 108– 118 (1988).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+</authors>
+<title>Estimating the Service Life of High Temperature Fastening Parts of Steam Turbines Using</title>
+<date>1989</date>
+<marker>Lanin, 1989</marker>
+<rawString>6. A. A. Lanin, “Estimating the Service Life of High Temperature Fastening Parts of Steam Turbines Using 29–38 (1989).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>A A Chizhik</author>
+<author>A V Medvedev</author>
+</authors>
+<title>About the Correctness of Methods for Estimating the Crack Resistance of Heat Resistant Materials under Creep Conditions,”</title>
+<date>1989</date>
+<booktitle>in Proceedings of the First All Union Sym posium “New High Temperature and Heat Resistant Metallic Materials,” Soviet Union’s Ministry for Ferrous Metallurgy,</booktitle>
+<pages>21--22</pages>
+<location>Moscow,</location>
+<marker>Lanin, Chizhik, Medvedev, 1989</marker>
+<rawString>A. A. Lanin, A. A. Chizhik, and A. V. Medvedev, “About the Correctness of Methods for Estimating the Crack Resistance of Heat Resistant Materials under Creep Conditions,” in Proceedings of the First All Union Sym posium “New High Temperature and Heat Resistant Metallic Materials,” Soviet Union’s Ministry for Ferrous Metallurgy, Moscow, 1989, pp. 21–22.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A A Lanin</author>
+<author>A V Medvedev</author>
+<author>S A Tikhomirov</author>
+<author>V I Berlyand</author>
+</authors>
+<title>Temperature and Time Effects of Damageability in Solving Matters Concerned with the Service Life of the Metal of High Temperature Power Equipment with Respect to Crack Resistance Crite ria,”</title>
+<date>1990</date>
+<booktitle>in Proceedings of the 3rd All Union Symposium on Fracture Mechanics, Zhitomir, Physicomechanical Insti tute, Ukrainian Academy of Sciences,</booktitle>
+<pages>20--21</pages>
+<marker>Lanin, Medvedev, Tikhomirov, Berlyand, 1990</marker>
+<rawString>A. A. Lanin, A. V. Medvedev, S. A. Tikhomirov, and V. I. Berlyand, “Temperature and Time Effects of Damageability in Solving Matters Concerned with the Service Life of the Metal of High Temperature Power Equipment with Respect to Crack Resistance Crite ria,” in Proceedings of the 3rd All Union Symposium on Fracture Mechanics, Zhitomir, Physicomechanical Insti tute, Ukrainian Academy of Sciences, 1990, pp. 20–21.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Zelenin</author>
+</authors>
+<title>Matters Concerned with Assessing the Service Life of Welded Connections of Austenite Materials Based on Crack Resistance Criteria,”</title>
+<date>1990</date>
+<booktitle>in Proceedings of the Scien tific Practical Conference “Ensuring the Service Life of Power Equipment,” LDNTP,</booktitle>
+<pages>62--65</pages>
+<location>Leningrad,</location>
+<marker>Zelenin, 1990</marker>
+<rawString>A. A. Lanin, M. A. Anan’eva, and Yu. V. Zelenin, “Matters Concerned with Assessing the Service Life of Welded Connections of Austenite Materials Based on Crack Resistance Criteria,” in Proceedings of the Scien tific Practical Conference “Ensuring the Service Life of Power Equipment,” LDNTP, Leningrad, 1990, pp. 62–65.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+<author>A V Medvedev</author>
+</authors>
+<title>Mat ters Concerned with Estimating the Service Life of High Temperature Shell Steels Based on Crack Resis tance</title>
+<date>1990</date>
+<journal>Criteria,” Trudy TsKTI, Issue</journal>
+<volume>260</volume>
+<pages>28--32</pages>
+<publisher>Politekhnika, St.</publisher>
+<marker>Chizhik, Lanin, Medvedev, 1990</marker>
+<rawString>A. A. Chizhik, A. A. Lanin, and A. V. Medvedev, “Mat ters Concerned with Estimating the Service Life of High Temperature Shell Steels Based on Crack Resis tance Criteria,” Trudy TsKTI, Issue 260, 28–32 (1990). V. S. Balina and A. A. Lanin, Strength and Longevity of Structures under Creep Conditions (Politekhnika, St.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Petersburg</author>
+</authors>
+<title>Serviceability Criteria for Materials and Welded Connections of Ageing Equipment,” Tyazh.</title>
+<date>1995</date>
+<marker>Petersburg, 1995</marker>
+<rawString>Petersburg, 1995) [in Russian]. A. A. Lanin, “Serviceability Criteria for Materials and Welded Connections of Ageing Equipment,” Tyazh.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>No Mashinostr</author>
+</authors>
+<date>2002</date>
+<volume>10</volume>
+<pages>56--58</pages>
+<marker>Mashinostr, 2002</marker>
+<rawString>Mashinostr., No. 10, 56–58 (2002).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>THERMAL ENGINEERING Vol</author>
+</authors>
+<title>Combined Mechan ical and Technological Designing of Welded Parts for New Generation Power Installations,”</title>
+<date>2012</date>
+<journal>APPROACHES FOR MECHANICAL AND TECHNOLOGICAL DESIGNING</journal>
+<booktitle>in Proceedings of the 10th All Russia Seminar “Ensuring Safety and Economic Efficiency of Power Equipment,” NPO TsKTI, St.</booktitle>
+<volume>59</volume>
+<pages>14--27</pages>
+<location>Petersburg,</location>
+<marker>Vol, 2012</marker>
+<rawString>THERMAL ENGINEERING Vol. 59 No. 3 2012 APPROACHES FOR MECHANICAL AND TECHNOLOGICAL DESIGNING 13. Yu. K. Petrenya and A. A. Lanin, “Combined Mechan ical and Technological Designing of Welded Parts for New Generation Power Installations,” in Proceedings of the 10th All Russia Seminar “Ensuring Safety and Economic Efficiency of Power Equipment,” NPO TsKTI, St. Petersburg, 2004, pp. 14–27.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Zelenin</author>
+</authors>
+<title>Crack Resistance of Welded Connec tions Operating in High Temperature Power Installa tions under Creep Conditions,”</title>
+<date>2004</date>
+<booktitle>in Proceedings of the 10th All Russia Seminar “Ensuring Safety and Economic Efficiency of Power Equipment,” NPO TsKTI, St. Peters</booktitle>
+<pages>195--209</pages>
+<location>burg,</location>
+<marker>Zelenin, 2004</marker>
+<rawString>14. A. A. Lanin, M. A. Anan’eva, S. N. Galyatkin, and Yu. V. Zelenin, “Crack Resistance of Welded Connec tions Operating in High Temperature Power Installa tions under Creep Conditions,” in Proceedings of the 10th All Russia Seminar “Ensuring Safety and Economic Efficiency of Power Equipment,” NPO TsKTI, St. Peters burg, 2004, pp. 195–209.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+</authors>
+<title>Regularities of Brittle Local Fractures under the Conditions of High Temperature Creep,”</title>
+<date>2010</date>
+<booktitle>in Proceedings of the 2nd International Ural Scientific Practical Conference “Ensuring Safety and Environmen tal Friendliness of Power Equipment under the Conditions of Long Term Operation,” ITsEU, a Branch of UralVTI,</booktitle>
+<pages>122--129</pages>
+<location>Chelyabinsk,</location>
+<marker>Lanin, 2010</marker>
+<rawString>15. A. A. Lanin, “Regularities of Brittle Local Fractures under the Conditions of High Temperature Creep,” in Proceedings of the 2nd International Ural Scientific Practical Conference “Ensuring Safety and Environmen tal Friendliness of Power Equipment under the Conditions of Long Term Operation,” ITsEU, a Branch of UralVTI, Chelyabinsk, 2010, pp. 122–129.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V N Zemzin</author>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+<author>R Z Shron</author>
+</authors>
+<title>Crack Incipience Conditions during Welding and Thermal Treatment. Part 1.</title>
+<date>1983</date>
+<booktitle>The Role of Creep in the Incipience of Cracks,” Svarochn. Proizv., No.</booktitle>
+<volume>11</volume>
+<marker>Zemzin, Chizhik, Lanin, Shron, 1983</marker>
+<rawString>16. V. N. Zemzin, A. A. Chizhik, A. A. Lanin, and R. Z. Shron, “Crack Incipience Conditions during Welding and Thermal Treatment. Part 1. The Role of Creep in the Incipience of Cracks,” Svarochn. Proizv., No. 11, 1–4 (1983).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V N Zemzin</author>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>Crack Incipience Conditions during Welding and Thermal Treatment.</title>
+<date>1984</date>
+<booktitle>Part 2. Estimating the Influence of the Stiff ness of Welded Structure,” Svarochn. Proizv.,</booktitle>
+<volume>4</volume>
+<marker>Zemzin, Chizhik, Lanin, 1984</marker>
+<rawString>17. V. N. Zemzin, A. A. Chizhik, and A. A. Lanin, “Crack Incipience Conditions during Welding and Thermal Treatment. Part 2. Estimating the Influence of the Stiff ness of Welded Structure,” Svarochn. Proizv., No. 4, 1– 3 (1984).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V N Zemzin</author>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>Crack Incipience Conditions during Welding and Thermal Treatment.</title>
+<date>1987</date>
+<booktitle>Part 3. Crack Development Kinetics,” Svarochn. Proizv.,</booktitle>
+<volume>2</volume>
+<pages>33--36</pages>
+<marker>Zemzin, Chizhik, Lanin, 1987</marker>
+<rawString>18. V. N. Zemzin, A. A. Chizhik, and A. A. Lanin, “Crack Incipience Conditions during Welding and Thermal Treatment. Part 3. Crack Development Kinetics,” Svarochn. Proizv., No. 2, 33–36 (1987).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>B S Ermakov</author>
+<author>G G Kolchin</author>
+</authors>
+<title>Spe cific Features Relating to Grain Boundary Fracture of Hardened Chromium–Nickel–Molybdenum</title>
+<date>1988</date>
+<journal>Steels,” Metally,</journal>
+<booktitle>The influence of Technological Factors on the Resistance of High Strength Steels to Cold Cracks,” Svarochn.</booktitle>
+<volume>1</volume>
+<pages>107--111</pages>
+<marker>Lanin, Ermakov, Kolchin, 1988</marker>
+<rawString>19. A. A. Lanin, B. S. Ermakov, and G. G. Kolchin, “Spe cific Features Relating to Grain Boundary Fracture of Hardened Chromium–Nickel–Molybdenum Steels,” Metally, No. 1, 107–111 (1988). 20. A. A. Lanin, V. N. Zemzin, and A. V. Medvedev, “The influence of Technological Factors on the Resistance of High Strength Steels to Cold Cracks,” Svarochn.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>No Proizv</author>
+</authors>
+<date>1988</date>
+<volume>12</volume>
+<pages>26--28</pages>
+<marker>Proizv, 1988</marker>
+<rawString>Proizv., No. 12, 26–28 (1988).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>B S Ermakov</author>
+<author>A G Kolchin</author>
+<author>A A Chizhik</author>
+</authors>
+<date>1986</date>
+<journal>The Influence of Molybdenum of the Time Dependence and Threshold Fracture Toughness of Hardened Steels,” Fiz. Khim. Mekh. Mater.,</journal>
+<volume>4</volume>
+<pages>105--106</pages>
+<marker>Lanin, Ermakov, Kolchin, Chizhik, 1986</marker>
+<rawString>21. A. A. Lanin, B. S. Ermakov, A. G. Kolchin, and A. A. Chizhik, “The Influence of Molybdenum of the Time Dependence and Threshold Fracture Toughness of Hardened Steels,” Fiz. Khim. Mekh. Mater., No. 4, 105–106 (1986).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Chizhik</author>
+<author>A A Lanin</author>
+</authors>
+<title>A New Engineering Methods for Estimating the Susceptibility of</title>
+<date>1987</date>
+<booktitle>Materials to Incipience and Development of Technological Cracks during Welding and Thermal Processing (LDNTP, Len ingrad,</booktitle>
+<note>[in Russian].</note>
+<marker>Chizhik, Lanin, 1987</marker>
+<rawString>22. A. A. Chizhik and A. A. Lanin, A New Engineering Methods for Estimating the Susceptibility of Materials to Incipience and Development of Technological Cracks during Welding and Thermal Processing (LDNTP, Len ingrad, 1987) [in Russian].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>A A Chizhik</author>
+</authors>
+<title>Matters Relating to the Synenergetics of Fracture of Nonequilibrium Struc tures during</title>
+<date></date>
+<booktitle>Incipience and Development of Techno logical Cracks,” in Proceedings of the All Russia Scien tific Practical Conference Problems of Synenergetics,</booktitle>
+<volume>6</volume>
+<pages>23--24</pages>
+<location>Ufa,</location>
+<marker>Lanin, Chizhik, </marker>
+<rawString>23. A. A. Lanin and A. A. Chizhik, “Matters Relating to the Synenergetics of Fracture of Nonequilibrium Struc tures during Incipience and Development of Techno logical Cracks,” in Proceedings of the All Russia Scien tific Practical Conference Problems of Synenergetics, Ufa, June 6–8, 1989, pp. 23–24.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+</authors>
+<title>Matters Relating to the Synenergetics of Fracture of Nonequilibrium Structures during Incipi ence and Development of Technological Cracks,”</title>
+<date>1990</date>
+<booktitle>in Proceedings of the All Union Symposium on Fracture Mechanics, Physico Mechanical Institute, Ukrainian Academy of Sciences,</booktitle>
+<pages>15--16</pages>
+<location>Zhitomir,</location>
+<marker>Lanin, 1990</marker>
+<rawString>24. A. A. Lanin, “Matters Relating to the Synenergetics of Fracture of Nonequilibrium Structures during Incipi ence and Development of Technological Cracks,” in Proceedings of the All Union Symposium on Fracture Mechanics, Physico Mechanical Institute, Ukrainian Academy of Sciences, Zhitomir, 1990, pp. 15–16.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Lanin</author>
+<author>V N Zemzin</author>
+<author>V M Silevich</author>
+</authors>
+<title>New Technologies for Repairing the Rotors of Large Steam Turbines Made of High Strength Steels,”</title>
+<date>1995</date>
+<booktitle>in Proceed ings of the Scientific Seminar “Repairing and Restoring the Service Life of Power Equipment with Ensuring a Guaranteed Service Life,” NPO TsKTI, St.</booktitle>
+<pages>192--194</pages>
+<location>Petersburg,</location>
+<marker>Lanin, Zemzin, Silevich, 1995</marker>
+<rawString>25. A. A. Lanin, V. N. Zemzin, V. M. Silevich, et al., “New Technologies for Repairing the Rotors of Large Steam Turbines Made of High Strength Steels,” in Proceed ings of the Scientific Seminar “Repairing and Restoring the Service Life of Power Equipment with Ensuring a Guaranteed Service Life,” NPO TsKTI, St. Petersburg, 1995, pp. 192–194.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L A Kopel’man</author>
+<author>A A Lanin</author>
+<author>E M Vasil’ev</author>
+</authors>
+<date>2002</date>
+<booktitle>Combined Mechanical and Technological Designing of Welded Parts as One of the Most Important Line of Works in the Development of Power Machinery Con struction,” Trudy TsKTI</booktitle>
+<volume>1</volume>
+<issue>286</issue>
+<pages>268--282</pages>
+<marker>Kopel’man, Lanin, Vasil’ev, 2002</marker>
+<rawString>26. L. A. Kopel’man, A. A. Lanin, and E. M. Vasil’ev, “Combined Mechanical and Technological Designing of Welded Parts as One of the Most Important Line of Works in the Development of Power Machinery Con struction,” Trudy TsKTI 1 (286), 268–282 (2002).</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>G D’yakov</author>
+<author>T V Prokhorova</author>
+</authors>
+<title>Development of Technology for Surfacing Steam Tur bine Rotors Made of 9–12% Chromium Steels,”</title>
+<date>2010</date>
+<booktitle>in Proceedings of the Second International Ural Scientific Practical Conference “Ensuring Safety and Environmen tal Friendliness of Power Equipment under the Conditions of Its Long Term Operation,” ITsEU, a Branch of UralVTI,</booktitle>
+<pages>208--215</pages>
+<location>Chelyabinsk,</location>
+<marker>D’yakov, Prokhorova, 2010</marker>
+<rawString>27. A. A. Lanin, Yu. G. D’yakov, and T. V. Prokhorova, “Development of Technology for Surfacing Steam Tur bine Rotors Made of 9–12% Chromium Steels,” in Proceedings of the Second International Ural Scientific Practical Conference “Ensuring Safety and Environmen tal Friendliness of Power Equipment under the Conditions of Its Long Term Operation,” ITsEU, a Branch of UralVTI, Chelyabinsk, 2010, pp. 208–215.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>RU</author>
+</authors>
+<title>(Guidelines) 49: A Mass Scale Method for Determin ing the Fracture Strength of the Materials and Welded Connections of Power Equipment (NPO TsKTI, Lenin grad,</title>
+<date>1982</date>
+<note>[in Russian].</note>
+<marker>RU, 1982</marker>
+<rawString>28. RU (Guidelines) 49: A Mass Scale Method for Determin ing the Fracture Strength of the Materials and Welded Connections of Power Equipment (NPO TsKTI, Lenin grad, 1982) [in Russian].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>RU</author>
+</authors>
+<title>(Guidelines) 60: Methods for Estimating Crack Resis tance of Metals and</title>
+<date>1992</date>
+<booktitle>Alloys on Small Samples (NPO TsKTI, St.</booktitle>
+<location>Petersburg,</location>
+<note>[in Russian].</note>
+<marker>RU, 1992</marker>
+<rawString>29. RU (Guidelines) 60: Methods for Estimating Crack Resis tance of Metals and Alloys on Small Samples (NPO TsKTI, St. Petersburg, 1992) [in Russian].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>RU</author>
+</authors>
+<title>(Guidelines) 61: Methods for Estimating Fracture</title>
+<date>1994</date>
+<booktitle>Strength under Creep Conditions on Small Samples (NPO TsKTI, St.</booktitle>
+<location>Petersburg,</location>
+<note>[in Russian].</note>
+<marker>RU, 1994</marker>
+<rawString>30. RU (Guidelines) 61: Methods for Estimating Fracture Strength under Creep Conditions on Small Samples (NPO TsKTI, St. Petersburg, 1994 [in Russian].</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

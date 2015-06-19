@@ -1,0 +1,4533 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Nondestructive Testing and Evaluation</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1058-9759</issn>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Nondestructive testing of asphalt pavements for structural condition evaluation: a state of the art</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1080/10589750701848697</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>AMIT GOEL</string-name>
+          <email>amitji@iitk.ac.in</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>ANIMESH DAS</string-name>
+          <email>adas@iitk.ac.in</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Department of Civil Engineering, Indian Institute of Technology Kanpur</institution>
+          ,
+          <addr-line>Kanpur, UP 208016</addr-line>
+          ,
+          <country country="IN">India</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Nondestructive testing provides ideal means to test pavement structure in a rapid and convenient manner. In last few years, significant development has taken place in this field. This paper, presents some of the major conventional as well as emerging nondestructive evaluation methods for in situ structural assessment of asphalt pavements. Discussion of methods is primarily directed towards the estimation of layer moduli and thickness values which are direct indicators of the structural strength of pavement. Estimation of density, moisture content, etc. has not been emphasised in this paper.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Deflection</kwd>
+        <kwd>Layer moduli</kwd>
+        <kwd>Thickness estimation</kwd>
+        <kwd>Backcalculation</kwd>
+        <kwd>Spectral analysis</kwd>
+      </kwd-group>
+      <volume>23</volume>
+      <issue>2</issue>
+      <fpage>121</fpage>
+      <lpage>140</lpage>
+      <pub-date>
+        <year>2008</year>
+      </pub-date>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>7</month>
+          <year>2007</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>1. Introduction</title>
+      <p>Structural condition evaluation of existing asphalt pavement serves purposes such as,
+(i) estimation of its present sufficiency for the purpose served, (ii) estimation of remaining
+service-life and (iii) decision on the choice of rehabilitation measure. A desirable method is
+the one which neither causes disruption to traffic, nor causes any damage to the existing
+pavement structure. For quick acquisition of test data, a reliable and consistent test technique
+is needed. Nondestructive testing (NDT) methods provide all these features and are ideally
+suited for application to pavements. With NDT methods, a number of data sets can be acquired
+at the same point which provides statistical reliability to the experimentally acquired data.</p>
+      <p>In a structural evaluation process, the primary objective is to estimate the structural
+strength. For asphalt pavements, it may be expressed in terms of in situ layer elastic moduli,
+layer thickness, inter-layer bond conditions and anomaly characterisation. A simple and
+direct evaluation method for layer properties estimation is by visual examination after
+digging pits or taking cores from the pavement, which are destructive methods. Dynamic
+cone penetrometer test can give a qualitative (and to some extent quantitative) estimation of
+layer thickness, though it has some limitations (Loizos and Plati 2007, Roy 2007) in terms of
+test-speed, error and subjectivity in testing.</p>
+      <p>This paper discusses some of the emerging as well as contemporary nondestructive
+evaluation (NDE) methods which have found applications for in situ structural evaluation of
+asphalt pavements. Underlying principles and test set-up of various techniques alongwith
+their scope and performance are discussed in detail. Discussion is confined to the NDE
+methods specific to the estimation of in situ thickness and moduli values of asphalt pavement
+layers. It does not specifically cover the issues related to estimation of density, moisture
+content, etc.</p>
+    </sec>
+    <sec id="2">
+      <title>2. Basic principles of NDE techniques for asphalt pavements</title>
+      <p>A number of NDE methods have been developed for evaluation of asphalt pavements. For
+in situ NDT of pavements, only the top surface is available. Thus, methods requiring access
+to two different surfaces of the pavement structure cannot be employed in this case (X-ray
+method, etc.). Laboratory techniques such as resonance column method and ultrasonic
+testing have been used to determine the seismic moduli for complimenting the evaluation
+procedure (Nazarian et al. 1999, Celaya and Nazarian 2007). These techniques can also be
+used for calibration of field NDT methods (Hammons et al. 2006).</p>
+      <p>Many of the NDE methods involve implementation of forward approach for analysis and
+the inverse approach for interpretation. In forward approach, the system is idealised in the
+form of a model to study its physical response (say, deflection) due to some stimulus (say,
+force), when the properties of the pavement layers (say, layer elastic moduli) are assumed.
+A simple approach to forward modeling of pavement structure is to idealise it as a
+horizontally layered, linearly elastic, isotropic and homogenous media. More complex
+forward analysis schemes can be developed by dropping these idealisations, thereby
+achieving closer approximation to the actual response. In fact, the seismic/ loading response
+of pavement structure is quite complex, and its modeling is itself a difficult task (Brown
+1997). Asphalt layer is strongly sensitive to nature of loading (magnitude, frequency and
+duration) as well as temperature (Krishnan and Rajagopal 2003); whereas the elastic
+modulus of granular layer and subgrade is sensitive to stress conditions (Lekarp et al. 2000).</p>
+      <p>The inverse approach involves deductive analysis for which an unconstrained optimisation
+scheme is applied to the acquired data (say, deflection) so as to estimate the desired properties
+(say, layer elastic moduli) of the pavement system. Thus, the inverse algorithm typically
+involves recursive calls to the forward analysis with some assumed values of the unknown
+parameters, and any pre-defined error parameter is minimised through subsequent iterations.
+The error parameter is generally defined as root mean square of the difference between the
+obtained and predicted responses. Since, inverse calculation requires computation of forward
+calculations at each iteration, use of more realistic forward modeling does enhance the
+accuracy but it significantly increases the computation time as well.</p>
+      <p>Based on the underlying principles, the NDE methods for asphalt pavements can be
+classified under two broad headings as follows.
+. Deflection-basin methods
+- Static loading method
+- Steady state loading method
+- Dynamic impulse loading method
+. Wave propagation methods
+- Stress/Elastic wave method
+- Electromagnetic wave method
+These methods are discussed in the following sections.</p>
+    </sec>
+    <sec id="3">
+      <title>3. Deflection-basin methods</title>
+      <p>In deflection-basin methods, vertical deflections at various points on the surface of the
+pavement test-section, due to an applied load, are measured. Type of the load applied may be
+static, steady state harmonic or transient impulse type (ASTM D2003). The measurement of
+deflection at the load point and at locations radially outwards from it, can be done with the help
+of a dial gauge/linear variable differential transformer, or by using velocity transducers
+(geophones) (Haas et al. 1994). Various types of deflection based NDE methods are discussed
+further in the following subsections.</p>
+      <sec id="3-1">
+        <title>3.1 Static loading method In this method, a static load is applied to the test section and its deflection is measured. Benkelman beam deflection (BBD) test is a simple and relatively inexpensive method under this category.</title>
+        <p>Basic device in a BBD test consists of a lightweight frame to which a beam probe is
+attached alongwith a dial gauge (Zube and Forsyth 1966). BBD measures the deflection due
+to static loading of dual tyres of a loaded truck. Measurement process starts by placing the
+probe between the rear dual wheels of the test vehicle (figure 1). Initial dial gauge reading is
+recorded. The truck is made to move away by a specified distance and as the rebound rate of
+pavement surface falls below a specified level, intermediate reading is taken. Truck is again
+made to move further away and the final reading is taken. Such an approach is adopted as an
+attempt to reduce/nullify the influence of deflection bowl on the readings (Haas et al. 1994,
+Chakroborty and Das 2003). A characteristic BBD value, which is larger than allowable,
+warrants an overlay for the pavement.</p>
+        <p>The BBD device has been improved and made capable of multi-point probing with
+increased accuracy. Rolling weight deflectometer (RWD) is an example of such improved
+devices that employ similar basic principle (Bay and Stokoe 1998).</p>
+      </sec>
+      <sec id="3-2">
+        <title>3.2 Steady state loading In this method, a low frequency oscillatory loading is applied to the pavement and the deflection response is recorded (ASTM D4602 2003). The loading is generally applied</title>
+        <p>by counter rotating mass or electro-hydraulic system. The two trailer wheels equally
+distribute the vertical dynamic load to the pavement. A geophone series measures the
+velocity of movement with respect to time, which on integration gives the deflection basin
+(Haas et al. 1994). Thus, the deflection measurement for these devices are free from
+influence of deflection bowl. However, test loading is harmonic and does not have any rest
+period. Hence, the loading condition is somewhat different (Fwa 2006) and the magnitude of
+load applied is also smaller (Ullidtz 1987) than the actual situation of in-service pavements.
+Also, a relatively large amount of pre-load is applied to the pavement which may adversely
+affect the accuracy of pavement response (Fwa 2006).</p>
+      </sec>
+      <sec id="3-3">
+        <title>3.3 Transient impulse loading</title>
+        <p>This method uses an impulsive transient load application to the pavement test-section and the
+deflection response is recorded at a series of radial points (ASTM D4694 2003). This type of
+device is typically referred to as falling weight deflectometer (FWD) and is schematically
+shown in (figure 2). The amount of impact load, duration and the loading area is adjusted in
+such a way that it closely corresponds to the actual loading by a standard truck on in-service
+road (Sebaaly et al. 1991). The peak load is controlled by varying the falling mass, height of
+drop and the spring constant. The time of impulse load may vary between 0.025 and 0.30 s,
+and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al.
+2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter
+circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection
+response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection
+profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a
+load cell, and its variation may be used to evaluate the stress dependence of the layer
+modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006).
+Since the stiffness of asphalt layer is affected by temperature, a suitable temperature
+correction factor needs to be applied to the observed deflection values to convert them to
+values at the standard temperature (Chen et al. 2000, Park et al. 2002).</p>
+        <p>Some lighter versions of FWDs, called as light falling weight deflectometer, are also
+available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al.
+2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al.
+2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer
+(HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003).</p>
+        <p>Major advantage of this technique is that it closely simulates the actual in-service
+pavement loading. Another benefit is that the road need not be closed to traffic during the test
+process. However, FWD method is relatively expensive and inverse analysis is complex. For
+taking FWD measurements one needs to stop every time for deflection measurement. This
+problem is taken care of by the rolling dynamic deflectometer (RDD) where the vehicle
+moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured
+(Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the
+deflection from inertial frame of reference, hence the error associated with the geometry of
+the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the
+deflections are measured continuously, the statistical confidence is also good (Lee et al.
+2006).</p>
+        <p>Forward analysis approach which simulates the FWD loading can be divided into two
+broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset
+et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to
+take into account the inertia effects, and loss of impact energy due to hysteresis and seismic
+wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985,
+Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give
+erroneous results, especially when there exists a stiff bedrock layer below the pavement at a
+shallow depth.</p>
+        <p>The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are
+being made to evolve a generalised backcalculation approach (May and Von Quintus 1994)
+that can reach the solution quickly and accurately. Various approaches based on (i) closed
+formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular,
+No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991),
+(iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991,
+Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al.
+1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and
+Das) and (vi) combination of these methods have been implemented for backcalculation of
+layer moduli. The difficulties faced by various backcalculation approaches may be
+summarised as follows (Sharma and Das):
+. The closed formed solutions can handle only limited and idealistic situations.
+. The regression methods are fast, but sometimes may give inaccurate results (Lenngren
+1991).
+. The methods based on conventional optimisation techniques take a long time to
+backcalculate the layer moduli (Harichandran et al. 1993). There are chances that the
+solution may converge to a local optimal point. Also, the convergence depends on the
+initial solution (seed values) chosen (Harichandran et al. 1993, May and Von Quintus
+1994).
+. The approach based on artificial neural network (ANN) takes a long time for training
+data-sets and requires fresh training every time the input parameters change. Computation
+time in genetic algorithm (GA) based program is also large (Fwa et al. 1997, Kameyana
+et al. 1997).</p>
+      </sec>
+      <sec id="3-4">
+        <title>3.4 Closing remark Table 1 compares various types of deflection based equipment according to the characteristics of the impulse force applied.</title>
+        <p>Pittman (1996), Turner et al. (2003)
+Turner et al. (2003)
+Pittman (1996), Turner et al. (2003)</p>
+      </sec>
+    </sec>
+    <sec id="4">
+      <title>4. Wave propagation methods</title>
+      <p>The wave propagation based NDE methods employ wave propagation principles (for
+stress/electromagnetic waves) in a multilayer pavement structure, and the response is
+acquired, analyzed and interpreted. These methods are discussed in the following sections.
+The frequency-ranges of different types of waves that are utilised in these methods are
+presented in (figure 3).</p>
+      <sec id="4-1">
+        <title>4.1 Stress/elastic wave method</title>
+        <p>A stress/elastic wave is a type of mechanical wave that propagates in elastic/viscoelastic
+materials due to a stress based disturbance. There are two types of stress waves, namely,
+body-waves and surface-waves. The salient characteristics and propagation principles of
+these waves in multilayered media are discussed elsewhere (Richart et al. 1970, Ryden 2004,
+Goel and Das 2006). Stress waves may be generated through different devices like
+dropweight, strike hammer, or a transducer. The sensing element is also a transducer receiver
+(e.g. accelerometer). The data is recorded through a data acquisition system and
+subsequently analysed to get the required estimates. It is important to note that the estimated
+seismic moduli of pavement layers by these methods may typically show larger values as
+compared to those estimated by deflection based methods, since a low magnitude loading is
+applied at a high strain rate in this case. Therefore, suitable correction models need to be
+incorporated in the analysis scheme (Nazarian and Alvarado 2006). Based on the analysis
+technique used, the stress wave method can further be classified as:
+The first two methods employ body waves, whereas the third method primarily employs
+surface wave response to evaluate the pavement structure. These are discussed in the
+following subsections.</p>
+        <sec id="4-1-1">
+          <title>4.1.1 Impact echo/pulse echo method. In the IE/pulse echo method, an impact is made at</title>
+          <p>the test surface to generate stress waves and their reflections from any inhomogeneity in
+layer medium, interface, void, crack, etc. are recorded to extract information on its location
+(figure 4, Sansalone 1997). It is an established method for testing concrete structures (Sack
+and Olson 1995, Gucunski and Maher 2002 Nazarian et al. 2003, Cho and Linb 2005).</p>
+          <p>From the amplitude-time data of reflected body waves, the frequency peaks are identified
+using frequency domain analysis. Each of these peak indicates the resonant echo frequencies.
+Inverse of these frequencies gives the time required for the waves to get echoed from the
+pavement interface or the crack surface (Sack and Olson 1995, Sansalone 1997). For a single
+layer structure, the thickness of the layer (t) can be calculated as (Hill et al. 2000)
+where, t is the thickness of the layer, Vp is the longitudinal stress wave (P-wave) velocity, f is
+the resonant frequency and b is a correction factor. Theoretical basis of this factor b has been
+explained in a recent study (Gibson and Popovics 2005). If the Vp through the media is
+known, the depth of crack or interface can be estimated. IE method can be combined with the
+SASW method for Vp and thickness determination (ASTM C1383 2000, Kim et al. 2006).
+The SASW method is discussed in a later section. Ultrasonic pulse echo has been used for
+estimation of thickness and depth of surface cracks for asphalt pavements with success
+(Underwood and Kim 2002, Celaya and Nazarian 2007).</p>
+        </sec>
+        <sec id="4-1-2">
+          <title>4.1.2 Pulse velocity method. In the pulse velocity method, the P-wave velocity in the</title>
+          <p>material medium is determined which is used to calculate its dynamic elastic modulus or the</p>
+          <p>Poisson’s ratio using equations (2) and (3).
+where, Vp is the P-wave velocity, Vs is shear or S-wave velocity, n is Poisson’s ratio, E is
+stiffness modulus and r is the mass density of the material medium. Test set-up consists
+of a wave-pulse transmitter (Tx) and a transducer receiver (Rx) at a known distance apart
+(figure 5). Transit time for the wave-pulse is recorded by the data acquisition unit which then
+gives the stress wave velocity (ASTM C597-02 2002). Ultrasonic waves are commonly
+employed in this test. Laboratory studies suggest (Pellinen and Witczak 2002, Jiang et al.
+2006, Kanta Rao et al. 2006) that the ultrasonic pulse velocity (UPV) method can estimate
+the dynamic modulus of asphalt with reasonable accuracy. For field testing on in-service
+pavements, indirect configuration of sensors needs to be used, as only top surface is
+accessible. P-wave velocity also varies with the homogeneity of the material medium and
+this property can be used to characterise it. In some recent studies, UPV has been used to
+monitor top – down cracking (Khazanovich et al. 2005), fatigue damage and crack healing in
+asphalt pavements (Abo-Qudais and Suleiman 2005).</p>
+        </sec>
+        <sec id="4-1-3">
+          <title>4.1.3 Spectral analysis of surface waves method. The SASW method (Heisey et al. 1982,</title>
+          <p>Nazarian et al. 1988, 1999) introduced a relatively simple and portable surface wave test
+technique for pavements. Its major feature is the use of spectral analysis technique for signal
+processing which makes it possible to analyze a range of frequencies with a convenient
+hammer-impact type surface wave source and two transducer receivers. The method operates
+at negligible strain level and provides estimates of the elastic moduli and thicknesses of
+layers.</p>
+          <p>The basic assumption used in this method is that only the fundamental mode of Rayleigh
+wave (R-wave) propagation is excited and recorded. Higher modes of R-wave propagation
+are neglected. Physical quantity that is being determined, is the S-wave velocity (Vs) which is
+a characteristic engineering property of a material (Richart et al. 1970). Commonly used
+three-step evaluation procedure for this method is (i) generation of experimental dispersion
+curve (EDC), (ii) forward modeling of R-wave dispersion and (iii) inversion to generate
+vertical stiffness profile of the test section (Goel and Das 2006).</p>
+          <p>EDC is a curve between Vs and the generated wavelengths for the test section. It is
+generated from data obtained through field testing which consists of a suitable impact source
+to generate surface waves of a desired frequency range that are sensed by two vertical,
+singleaxis transducer receivers at known offsets (figure 6). Time domain data sets may be obtained
+from both forward and reverse configurations of the source-receiver system. Common
+receiver midpoint or common source test geometries (Nazarian and Stokoe 1986, Hiltunen
+and Woods 1989) are generally used to collect a number of data sets and stacking technique
+is applied to increase the signal to noise ratio (SNR). To calculate the phase-difference
+between the signals from the two receivers, the data is transformed to frequency domain
+using fast Fourier transform algorithm. Phase-difference values at each frequency gives the
+corresponding R-wave phase velocities VR (Nazarian and Desai 1993). Bergman (1948)
+proposed a relation between VR and Vs as follows:
+where; n is the poisson’s ratio of the material medium. This basic equation can be suitably
+used for Vs calculation (Sanchez-Salinero et al. 1987, Roesset et al. 1990, Nazarian et al.
+1999).</p>
+          <p>Forward modeling consists of generating a theoretical dispersion curve (TDC) for chosen
+values of layer properties. A computationally adaptable formulation, known as Haskell –
+Thomson’s propagator-matrix method (Thomson 1950, Haskell 1953, Jones 1955) was
+established in early 1950’s, that related the R-wave dispersion property in a homogeneous
+multi-layered media (such as asphalt pavement) with its elastic properties. This formulation
+gives the surface wave dispersion function as a product of layer matrices that relates the
+displacement and stress components at any interface to those for the deepest layer and is a
+function of the frequency and wave-number. A determinant search technique computes the
+values of the wave-number for which the determinant is zero (called as eigen values). For
+asphalt pavement profiles, no real eigen values exist above a specific maximum frequency.
+This leads to complex-domain computation of eigen values.</p>
+          <p>Propagator-matrix method became the basis for most of the theoretical forward modeling
+approaches of R-wave dispersion, such as: stiffness-matrix method, linearised
+stiffnessmatrix method, etc. (Kauseland and Rou¨sset 1981, Storme et al. 2005). Various tools
+utilising finite-difference (Hossian and Drnevich 1989), Green’s functions (Kausel and Peek
+1982, Hisada 1994), wavelet transforms (Kim and Park 2002), etc. have also been applied to
+solve for dispersion characteristics.</p>
+          <p>In the inversion process, a suitable analysis tool is employed to compare EDC with the
+TDC. This gives the final vertical Vs profile of the test site which is then used to determine the
+stiffness profile for the test-site using equation (3). It should be noted here that the estimated
+asphalt modulus is sensitive to the test temperature and hence proper correction needs to be
+applied (Mallick et al. 2005, Gucunski et al. 2006).</p>
+          <p>Besides the automated methods for EDC generation (Nazarian and Desai 1993), schemes
+employing manual masking of raw data are also used which demand experience in use.
+Analysis tools such as statistical/curve-fitting methods (Yuan and Nazarian 1993), simulation
+(Ganji et al. 1998), ANN (Williams and Gucunski 1995, Gucunski et al. 2000, Nazarian et al.
+2004), GA (Al-Hunaidi 1998) and more recently simulated annealing (Beaty et al. 2002,
+Ryden and Park 2006) have been used for automation of the inversion process. A different
+signal processing methodology employing continuous wavelet transform of surface waves
+has recently been used for void detection in pavements (Shokouhi et al. 2003). Construction
+or testing information for the test site may also be incorporated in the inversion process for
+more efficient profiling.</p>
+          <p>A number of variants of the basic evaluation method, as described above, have been
+reported. Park et al. (1998) introduced the multi-channel analysis of surface waves (MASW)
+method which makes use of more than two receivers to detect the other higher modes present
+in the surface waves. This method attempts to generate a more accurate dispersion curve
+representation using pattern recognition techniques which also automate the procedure.
+Multichannel simulation using one receiver (MSOR) method for pavement characterisation
+(Ryden et al. 2001) is based on MASW technique, and utilises a single fixed receiver and
+moving source (or vice versa) to take a number of data sets, and then use them to simulate
+multichannel data. A convenient testing and fast analysis procedure gives more efficiency to
+this method. Ultrasonic surface waves have also been successfully employed to estimate the
+depth of surface cracks and elastic modulus of asphalt layer (Mallick et al. 2005, Mallick and
+Nazarian 2006).</p>
+        </sec>
+      </sec>
+      <sec id="4-2">
+        <title>4.2 Electromagnetic wave method</title>
+        <p>In electromagnetic wave method, the reflections of the transmitted waves caused by any
+changes in the material and/or layer properties, are recorded and analyzed to deduce the
+required information. Infrared thermography (IRT) and ground penetrating radar (GPR) can
+be identified as two types of NDE techniques that find application on asphalt pavement, and
+are discussed in the following.</p>
+        <sec id="4-2-1">
+          <title>4.2.1 Infrared thermography. IRT employs an infrared camera to capture the thermal</title>
+          <p>image from top of the pavement. The subsurface defects affect the heat flow within the
+pavement, and this in turn affects the temperature distribution of the concerned area. The IRT
+can capture images of a larger area quickly. To some extent, this method can capture the
+location and extent of sub-surface distresses in the form of cracking, segregation, ageing and
+construction non-homogeneity, etc. (Gordon et al. 1998, Mahoney et al. 2000, Oloufa et al.
+2004). The test results can also get affected by various field conditions such as time of
+testing, cloud cover, wind flow, pavement surface texture, solar radiation and sub-surface
+conditions (moisture, frost penetration, etc.).</p>
+        </sec>
+        <sec id="4-2-2">
+          <title>4.2.2 Ground penetrating radar. GPR consists of a radar device that transmits</title>
+          <p>electromagnetic pulse. The subsurface anomalies, voids, location of dowel bar (applicable
+to concrete pavement), void below pavement, depth of bedrock, ground water level,
+pavement moisture content and frost penetration depth, type of subgrade soil strata, etc.
+can be estimated by this method (Al-Qadi 1992, Saarenketo 1997, Scullion and Saarenketo
+1997, Morey 1998, Saarenketo and Scullion 2000, Al-Qadi and Lahouar 2005, Maser et al.
+2006). Researchers have found that the estimation of surface-layer thickness of asphalt
+pavement by this technique is good (Maser 1999, Saarenketo and Scullion 2000, Maser et al.
+2006). GPR facility also provides a continuous data record for the full length of the test
+section, thereby giving direct information of test section at each point.</p>
+          <p>Figure 7 schematically explains the working of a typical GPR system (Maser et al. 2006).
+Depending on the type of antenna used, a GPR system can be of two types; air coupled (or
+horn-antenna) and ground coupled system. The two are further discussed in the following.
+. In air-coupled system, the antenna is typically placed 150 – 500 mm above the pavement
+surface (Al-Qadi and Lahouar 2005). The test set-up is mounted on a vehicle which
+operates on test pavement at specified speed. Operating speed depends on antenna type
+used and required frequency of data recording. The survey can be conducted at a speed of
+even 60 km/hr and the typical depth of penetration in the pavement is of the order of 0.5 to
+0.9 m (Saarenketo and Scullion 2000). Accuracy of this method depends on the resolution
+of the time scan and the dielectric constant of the material (Maser et al. 2006). As the
+equipment moves on the pavement surface, sequence of wavefronts are generated, and
+from this, the layer-boundaries can be directly visualised from the pictorial output of the
+collected wavefront data (Maser et al. 2006).</p>
+          <p>The relative reflection amplitude at the nth interface can be expressed as (Al-Qadi and
+Lahouar 2005)
+for n ¼ 1, 2, · · · N, where, N is the number of pavement layers, An is the reflection amplitude
+at the nth layer interface, Ainc is the amplitude of the incident GPR signal, e r;n and sn are the
+dielectric constant and conductivity of the nth layer, respectively, gi is the refection
+coefficient at the ith interface, ho is the wave impedance of free space. Ainc, can be estimated
+by collecting GPR data over a large and flat copper plate, placed on the test surface (Al-Qadi
+et al. 2001, Al-Qadi and Lahouar 2005). The reflection from plate’s surface is assumed to be
+equal and opposite to the incident GPR signal. The dielectric constant of the first layer can</p>
+          <p>Similarly, the expression for di-electric constant for the second layer (e r;2) can be obtained
+by putting n ¼ 2 in equation (5) and using the value of e r;1 obtained form equation (6) and so
+on. The depth of the ith layer of a pavement can be obtained as (ASTM D4748 2003, Al-Qadi
+and Lahouar 2005, Loizos and Plati 2007):
+where, di is the thickness of the ith layer, ti is the two way travel time of the electromagnetic
+wave through the ith layer, c is the speed of light in free space (approximately equal to
+1 £ 108 m/s) and e r;i is the dielectric constant of the ith layer. Its important to note here that
+these simple equations assume the asphalt layer to be homogeneous and isotropic with
+uniform dielectric constant. However, this assumption may not be always true for old or
+faulty pavement layers, thereby decreasing the accuracy evaluation (Saarenketo and Scullion
+2000, Lahouar et al. 2002, Loizos and Plati 2007).
+be obtained from the equation (5) by putting n ¼ 0, thus,
+. In ground coupled system, the antenna remains in full contact with the ground. Loss due
+to reflection at the pavement surface being less, the depth of penetration is more. But, this
+system has a limitation on the vehicle speed (Al-Qadi and Lahouar 2005).</p>
+          <p>Generally, the common mid-point (CMP) technique for ground coupled system is
+employed to increase the SNR (signal to noise ratio) (Lahouar et al. 2002). In this technique,
+two antennas are used, one is transmitter and the other is receiver. Initially, the two antennas
+are kept adjacent to each other and then they are moved equal distances step-wise from the
+mid-point and the data on travel time (ti) is collected. The following relationship can be used
+(Maser et al. 2006)
+where, i is the scan number, V is the velocity of wave in pavement layer, d is the thickness of
+the pavement layer, x(i) is the distance of any antenna from the CMP in ith scan and ti is the
+travel time of the pulse wave from transmitter to receiver. The resolution of this test largely
+depends on waveform sampling and the ability of distinction between the reflected wave
+from the direct wave (Maser et al. 2006).</p>
+          <p>Maser et al. (2006) found that the ground coupled GPR system can reliably identify a
+pavement thickness which is larger than 100 mm, whereas air-coupled GPR can measure
+asphalt layer thickness of the order of 50 mm. It is argued that amplitude based
+characterisation through GPR may not be very appropriate for evaluation of pavements,
+because amplitude is also affected by various factors (for example, height of the antenna)
+other than the reflection from the interfaces (Gordon et al. 1998). To take care of this
+problem, Mesher et al. (1995) developed multi-antenna bi-static array GPR system specific
+to evaluation of pavement thickness.</p>
+          <p>The GPR technology is developing at a rapid pace, in both towards the equipment as well
+as analysis algorithm. Some of the improvements towards the equipment include stepped
+frequency, synthetic aperture radar, switched antenna array, etc. (Maser 1996, Gordon et al.
+1998, Loulizi et al. 2003); whereas those towards the analysis algorithm include application
+of wavelet analysis, deconvolution and data migration, ANN, fuzzy logic, optimisation, etc.
+(Maser 1994, Gordon et al. 1998, Loulizi et al. 2003, Al-Qadi and Lahouar 2005).</p>
+          <p>Various researchers have found different levels of error in estimation of pavement
+thickness by GPR technology. Calibration of GPR using field core data is expected to
+enhance the accuracy achieved (Willett et al. 2006, Loizos and Plati 2007). In general, it is
+seen that the thickness estimation is more erroneous for thin layers (Gordon et al. 1998,
+Al-Qadi and Lahouar 2005, Loizos and Plati 2007). For newly built pavements, a greater
+accuracy has been reported (Al-Qadi et al. 2003, Maser et al. 2006). A listing of accuracy
+levels observed by different researches in estimating the thickness is presented in (table 2).</p>
+          <p>Some of the present limitations of the GPR technique, as identified by various researchers,
+are summarised as follows:</p>
+        </sec>
+      </sec>
+      <sec id="4-3">
+        <title>4.3 Closing remarks</title>
+        <p>Various wave propagation techniques, as applied for evaluating asphalt pavements, have
+been discussed in the previous sections. (Table 3) summarises some of the salient
+characteristics of these techniques. The ultrasonic waves travel much slower (about 100,000
+times) than electromagnetic waves providing means to display information in real-time</p>
+        <p>Order of error† (^%)
+Asphalt (,50 mm)
+Asphalt (51–150 mm)
+Asphalt (150–250 mm)
+Asphalt (250–380 mm)
+Asphalt (380–500 mm)
+Granular base (150–330 mm)
+† As compared to average core-thickness values.
+(David et al. 2002, Shull 2002). However, due to their high frequency and low energy
+response, they have been primarily used for evaluation of top asphaltic layer. User
+experience is required to choose a suitable NDT technique specific to the test objective and
+field conditions. For example, specialised techniques such as IRT can be successfully
+employed for evaluation of airport pavements (Moropoulou et al. 2001) as they make use of
+large temperature variations occurring there in.</p>
+      </sec>
+    </sec>
+    <sec id="5">
+      <title>5. Closure</title>
+      <p>It is argued that the stress wave related equipment (say, IE) work well for concrete
+pavements, because the signal impedance contrast between concrete and the base material is
+sharper as compared to asphalt pavements (Maser 2003, Maser et al. 2006). On the other
+hand, for GPR methods, the dielectric contrast between asphalt and the base material is
+sharper than between concrete and the base material (Maser et al. 2006). Since GPR testing is
+continuous, future automated versions of GPR technology has a strong potential of being
+developed as a routine pavement evaluation equipment (Saarenketo and Scullion 2000).</p>
+      <p>The accuracy achieved by employing individual NDE techniques can be improved by
+combining data from two or more methods in the final analysis (Abdallah et al. 2001).
+Similarly, FWD (or RDD) and GPR have been found as a good combination of technologies
+for measuring asphalt layer thickness as well as stiffness (Saarenketo and Scullion 2000,
+Hanna 2002, Lee et al. 2006). IRT can also be used to decide GPR survey locations thereby
+enhancing its effectiveness in evaluation (Weil 1993). The SASW and FWD methods are
+generally more suitable for evaluation of top and bottom layers respectively. This is due to a
+difference in the basic evaluation method and the loading which generates different
+magnitude wavelengths that give information on different depths of the pavement. So, if data
+from these two methods are combined, a more accurate and complete pavement profile may
+be obtained. Equipment such as seismic pavement analyzer, effectively employ this principle
+(Abdallah et al. 2006).</p>
+      <p>The present paper has discussed about various methods available for NDE of an asphalt
+pavement structure. A gradual shift can be noticed towards the usage of automatic equipment
+and adoption of quick evaluation techniques as compared to the conventional ones.
+A carefully chosen combination of different NDE methods can readily enhance the accuracy
+and reliability in the evaluation of pavements.</p>
+    </sec>
+    <sec id="6">
+      <title>6. List of symbols</title>
+      <p>Ainc¼ amplitude of the incident GPR signal
+e r,n ¼ dielectric constant of the nth layer
+sn ¼ electrical conductivity of the nth layer
+gi ¼ refection coefficient at the ith interface
+ho ¼ wave impedance of free space
+di ¼ thickness of the ith layer
+ti ¼ two way travel time of the electromagnetic way through the ith layer
+c ¼ speed of light in free space (approximately equal to 3 £ 108 m/s)</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>.</surname>
+          </string-name>
+          <article-title>Interpretation of GPR data requires experience and is subjective in nature (</article-title>
+          <source>Loulizi</source>
+          <year>2001</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>.</surname>
+          </string-name>
+          <article-title>An inability to clearly differentiate between layers of similar materials is present due to a low contrast in their dielectric properties (Al-Qadi</article-title>
+          et al.
+          <year>2001</year>
+          ,
+          <year>Loulizi 2001</year>
+          ,
+          <string-name>
+            <surname>Al-Qadi</surname>
+            and
+            <given-names>Lahouar</given-names>
+          </string-name>
+          <year>2005</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>.</surname>
+          </string-name>
+          <article-title>An increased attenuation of electromagnetic signal may be caused in the pavement layers due to presence of salt, water or high iron content in slag aggregates</article-title>
+          .
+          <article-title>As such, the analysis results may be misleading sometimes, specially for concrete pavements (Mesher et al</article-title>
+          .
+          <year>1995</year>
+          ,
+          <article-title>Gordon et al</article-title>
+          .
+          <year>1998</year>
+          ,
+          <string-name>
+            <surname>Al-Qadi</surname>
+          </string-name>
+          et al.
+          <year>2001</year>
+          ,
+          <article-title>ASTM D4748 2003, Maser et al</article-title>
+          .
+          <year>2006</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>.</surname>
+          </string-name>
+          <article-title>With high frequency antenna, resolution of recorded data gets enhanced, but the depth of penetration reduces (Gordon et al</article-title>
+          .
+          <year>1998</year>
+          ,
+          <string-name>
+            <surname>Al-Qadi</surname>
+            and
+            <given-names>Lahouar</given-names>
+          </string-name>
+          <year>2005</year>
+          , Loizos and
+          <string-name>
+            <surname>Plati</surname>
+          </string-name>
+          <year>2007</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Willett et al. (
+          <year>2006</year>
+          )
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Maser (
+          <year>1996</year>
+          ),
+          <article-title>Fauchard et al</article-title>
+          . (
+          <year>2003</year>
+          ),
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Loulizi et al. (
+          <year>2003</year>
+          ), Loizos and Plati (
+          <year>2007</year>
+          ) Maser (
+          <year>1996</year>
+          ), Loizos and Plati (
+          <year>2007</year>
+          )
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Maser (
+          <year>1996</year>
+          ),
+          <article-title>Lahouar et al</article-title>
+          . (
+          <year>2002</year>
+          )
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Maser (
+          <year>1996</year>
+          )
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          Maser (
+          <year>1996</year>
+          )
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>ASTM C597-02</article-title>
+          ,
+          <source>Standard Test Method for Pulse Velocity Through Concrete</source>
+          ,
+          <year>2002</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>ASTM C1383, Standard Test Method for Measuring the P-Wave Speed and Thickness of Concrete Plates Using the Impact</article-title>
+          -Echo Method,
+          <year>2000</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>ASTM D4602, Nondestructive Testing of Pavements Using Cyclic-Loading Dynamic Equipment</article-title>
+          ,
+          <year>2003</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>ASTM D4694</surname>
+          </string-name>
+          ,
+          <source>Standard Test Method for Deflections With a Falling Weight Type Impulseload Device</source>
+          ,
+          <year>2003</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>ASTM D4748</surname>
+          </string-name>
+          ,
+          <source>Standard Test Method for Determining the Thickness of Bound Pavement Layers Using ShortPulseradar</source>
+          ,
+          <year>2003</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>ASTM D4695</surname>
+          </string-name>
+          , Standard Guide for Pavement Deflection Measurements,
+          <year>2003</year>
+          (ASTM: West Conshohocken).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Abdallah</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yuan</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Integrating seismic and deflection methods to estimate pavement moduli</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2001</year>
+          ,
+          <volume>1755</volume>
+          ,
+          <fpage>43</fpage>
+          -
+          <lpage>50</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Abdallah</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Yuan</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          ,
+          <article-title>Design moduli for flexible pavements using seismic tests. 2006 Highway Geophysics-NDE Conference, St</article-title>
+          . Louis,
+          <year>Missouri 2006</year>
+          , pp.
+          <fpage>219</fpage>
+          -
+          <lpage>232</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Abo-Qudais</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Suleiman</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Monitoring fatigue damage and crack healing by ultrasound wave velocity</article-title>
+          .
+          <source>Nondestr. Test. Eval.</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>20</volume>
+          ,
+          <fpage>125</fpage>
+          -
+          <lpage>145</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <given-names>Advisory</given-names>
+            <surname>Circular</surname>
+          </string-name>
+          , No.
+          <issue>150</issue>
+          /
+          <fpage>5370</fpage>
+          -11A,
+          <article-title>Use of nondestructive testing in the evaluation of airport pavements</article-title>
+          , http:// www.airweb.faa.gov/
+          <year>2004</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Al-Hunaidi</surname>
+            ,
+            <given-names>M.O.</given-names>
+          </string-name>
+          ,
+          <article-title>Evolution-based genetic algorithms for analysis of non-destructive surface wave tests on pavements</article-title>
+          .
+          <source>NDT&amp;E Int</source>
+          .,
+          <year>1998</year>
+          ,
+          <volume>31</volume>
+          ,
+          <fpage>273</fpage>
+          -
+          <lpage>280</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          ,
+          <article-title>Using microwave measurements to detect moisture in hot-mix asphalt</article-title>
+          .
+          <source>J. Test. Eval.</source>
+          ,
+          <year>1992</year>
+          ,
+          <volume>20</volume>
+          ,
+          <fpage>45</fpage>
+          -
+          <lpage>50</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lahouar</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Measuring layer thicknesses with GPR-theory to practice</article-title>
+          . Constr. Build. Mater.,
+          <year>2005</year>
+          ,
+          <volume>19</volume>
+          ,
+          <fpage>763</fpage>
+          -
+          <lpage>772</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lahouar</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Loulizi</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>In situ measurements of hot-mix asphalt dielectric properties</article-title>
+          . NDT&amp;E Int.,
+          <year>2001</year>
+          ,
+          <volume>34</volume>
+          ,
+          <fpage>427</fpage>
+          -
+          <lpage>434</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lahouar</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Loulizi</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Successful application of ground-penetrating radar for quality assurancequality control of new pavements</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2003</year>
+          ,
+          <year>1861</year>
+          ,
+          <fpage>86</fpage>
+          -
+          <lpage>97</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ali</surname>
+            ,
+            <given-names>N.A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Khosla</surname>
+            ,
+            <given-names>N.P.</given-names>
+          </string-name>
+          ,
+          <article-title>Determination of layer moduli using a falling weight deflectometer</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1987</year>
+          ,
+          <volume>1117</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>10</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Alshibli</surname>
+            ,
+            <given-names>K.A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Abu-Farsakh</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Seyman</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <article-title>Laboratory evaluation of the geogauge and light falling weight deflectometer as construction control tools</article-title>
+          .
+          <source>J. Mater. Civ. Eng., ASCE</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>17</volume>
+          ,
+          <fpage>560</fpage>
+          -
+          <lpage>569</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Anderson</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <article-title>A data-base method for backcalculation of composite pavement layer moduli</article-title>
+          . In STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by A.
+          <source>III Bush and G.Y. Baladi</source>
+          , pp.
+          <fpage>201</fpage>
+          -
+          <lpage>216</lpage>
+          ,
+          <year>1989</year>
+          (ASTM: Philadelphia).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bay</surname>
+            ,
+            <given-names>J.A.</given-names>
+          </string-name>
+          and Stokoe, II, K.H.,
+          <article-title>Development of a Rolling Dynamic Deflectometer for Continuous Deflection Testing of Pavements</article-title>
+          , Center for Transportation Research,
+          <source>Bureau of Engineering Research</source>
+          ,
+          <year>1998</year>
+          (The University of Texas: Austin,
+          <string-name>
+            <surname>TX</surname>
+          </string-name>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bay</surname>
+            ,
+            <given-names>J.A.</given-names>
+          </string-name>
+          , Stokoe, II, K.H.,
+          <string-name>
+            <surname>McNerney</surname>
+            ,
+            <given-names>M.T.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Soralump</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Van-Vleet</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rozycki</surname>
+            ,
+            <given-names>D.K.</given-names>
+          </string-name>
+          ,
+          <article-title>Evaluating runway pavements at Seattle - Tacoma international airport: continuous deflection profiles measured with rolling dynamic deflectometer</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2000</year>
+          ,
+          <volume>1716</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Beaty</surname>
+            ,
+            <given-names>K.S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmidtt</surname>
+            ,
+            <given-names>D.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Sacchi</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <article-title>Simulated annealing inversion of multimode Rayleigh wave dispersion curves for geological structure</article-title>
+          .
+          <source>Geophys. J. Int.</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>151</volume>
+          ,
+          <fpage>622</fpage>
+          -
+          <lpage>631</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bergman</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          ,
+          <source>Ultrasonics and Their Scientific and Technical Applications</source>
+          ,
+          <year>1948</year>
+          (Wiley: New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Brown</surname>
+            ,
+            <given-names>S.F.</given-names>
+          </string-name>
+          ,
+          <article-title>Achievements and challenges in asphalt pavement engineering</article-title>
+          . in
+          <source>ISAP-8th Intl. Conf. on Asphalt Pavements</source>
+          , Seattle,
+          <year>1997</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bush</surname>
+            , III,
+            <given-names>A.J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Alexander</surname>
+            ,
+            <given-names>D.R.</given-names>
+          </string-name>
+          ,
+          <article-title>Pavement evaluation using deflection basin movement and layered theory</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1985</year>
+          ,
+          <volume>1022</volume>
+          ,
+          <fpage>16</fpage>
+          -
+          <lpage>29</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Celaya</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Stripping detection in asphalt pavements with seismic methods, in TRB 86th Annual Meeting Compendium of Papers CD-ROM</article-title>
+          , Transportation Research Record,
+          <year>2007</year>
+          ,
+          <fpage>07</fpage>
+          -
+          <lpage>3018</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Chakroborty</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Das</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <source>Principles of Transportation Engineering</source>
+          ,
+          <year>2003</year>
+          (Prentice-Hall of India: New Delhi).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Chang</surname>
+            ,
+            <given-names>D.W.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kang</surname>
+            ,
+            <given-names>Y.V.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Stokoe</surname>
+          </string-name>
+          , II, K.H.,
+          <article-title>Effect of depth to bedrock on deflection basins obtained with dynaflect and FWD tests</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1992</year>
+          ,
+          <volume>1355</volume>
+          ,
+          <fpage>8</fpage>
+          -
+          <lpage>16</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Chen</surname>
+            ,
+            <given-names>D.H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bilyeu</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lin</surname>
+            ,
+            <given-names>H.H.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Murphy</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <article-title>Temperature correction on falling weight deflectometer measurements</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2000</year>
+          ,
+          <volume>1716</volume>
+          ,
+          <fpage>30</fpage>
+          -
+          <lpage>39</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Cho</surname>
+            ,
+            <given-names>Y.S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Linb</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          ,
+          <article-title>Nondestructive evaluation of in-place cement mortar compressive strength using spectral analysis of surface waves</article-title>
+          .
+          <source>Constr. Build. Mater.</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>19</volume>
+          ,
+          <fpage>738</fpage>
+          -
+          <lpage>745</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Chou</surname>
+            ,
+            <given-names>Y.J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lytton</surname>
+            ,
+            <given-names>R.L.</given-names>
+          </string-name>
+          ,
+          <article-title>Accuracy and consistency of backcalculated pavement layer moduli</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1991</year>
+          ,
+          <volume>1293</volume>
+          ,
+          <fpage>72</fpage>
+          -
+          <lpage>85</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>David</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cheeke</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Cheeke</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          , Fundamentals and Applications of Ultrasonic Waves,
+          <year>2002</year>
+          ed.,
+          <year>2002</year>
+          (CRC Press: Florida).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Fauchard</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>De´robert</surname>
+          </string-name>
+          , X.,
+          <string-name>
+            <surname>Cariou</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Cote</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <article-title>GPR performances for thickness calibration on road test sites</article-title>
+          . NDT&amp;E Int.,
+          <year>2003</year>
+          ,
+          <volume>36</volume>
+          ,
+          <fpage>67</fpage>
+          -
+          <lpage>75</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Fwa</surname>
+            ,
+            <given-names>T.F.</given-names>
+          </string-name>
+          , The Handbook of Highway Engineering,
+          <year>2006</year>
+          (
+          <article-title>CRC-Taylor and Francis: Boca Raton)</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Fwa</surname>
+            ,
+            <given-names>T.F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tan</surname>
+            ,
+            <given-names>C.Y.</given-names>
+          </string-name>
+          and Chan, W.T.,
+          <article-title>Backcalculation analysis of pavement layer-moduli using genetic algorithm</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1997</year>
+          ,
+          <volume>1570</volume>
+          ,
+          <fpage>134</fpage>
+          -
+          <lpage>142</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ganji</surname>
+            ,
+            <given-names>V.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Automated inversion procedure for spectral analysis of surface waves</article-title>
+          .
+          <source>J. Geotech. Geoenviron. Eng.</source>
+          ,
+          <year>1998</year>
+          ,
+          <volume>124</volume>
+          ,
+          <fpage>757</fpage>
+          -
+          <lpage>770</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gibson</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Popovics</surname>
+            ,
+            <given-names>J.S.</given-names>
+          </string-name>
+          ,
+          <article-title>Lamb wave basis for impact-echo method analysis</article-title>
+          .
+          <source>ASCE</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>131</volume>
+          ,
+          <fpage>438</fpage>
+          -
+          <lpage>443</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Goel</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Das</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>A brief review on different surface wave methods for non-destructive evaluation of pavements and their applicability. in 2006 Highway Geophysics-NDE Conference, St</article-title>
+          . Louis, Missouri,
+          <year>2006</year>
+          , pp.
+          <fpage>337</fpage>
+          -
+          <lpage>350</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Goktepe</surname>
+            ,
+            <given-names>A.B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Agar</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lav</surname>
+            ,
+            <given-names>A.H.</given-names>
+          </string-name>
+          ,
+          <article-title>Advances in back calculating the mechanical properties of flexible pavements</article-title>
+          .
+          <source>Adv. Eng. Softw.</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>37</volume>
+          ,
+          <fpage>421</fpage>
+          -
+          <lpage>431</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gordon</surname>
+            ,
+            <given-names>M.O.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Broughton</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Hardy</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <article-title>The assessment of the value of GPR imaging of flexible pavements</article-title>
+          . NDT&amp;E Int.,
+          <year>1998</year>
+          ,
+          <volume>31</volume>
+          ,
+          <fpage>428</fpage>
+          -
+          <lpage>438</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Maher</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Evaluation of seismic pavement analyzer for pavement condition monitoring, Tech Rep FHWA-NJ-2002-012</article-title>
+          , FHWA,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Abdallah</surname>
+            ,
+            <given-names>I.N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>ANN backcalculation of pavement profiles from the SASW test</article-title>
+          .
+          <source>Pavement Subgrade Unbound Materials and Nondestructive Testing</source>
+          , vol.
+          <volume>98</volume>
+          , pp.
+          <fpage>31</fpage>
+          -
+          <lpage>50</lpage>
+          ,
+          <year>2000</year>
+          (ASCE: New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hadidi</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zaghloul</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maher</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Shokouhi</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <article-title>Sea-sonal and temperature adjustment models using seismic pavement analyzer (SPA)</article-title>
+          .
+          <source>In Pavement Mechanics and Performance (GSP154) Geo Shanghai</source>
+          <year>2006</year>
+          ,
+          <source>Proceedings of Sessions of Geo Shanghai</source>
+          <year>2006</year>
+          , edited by B. Huang,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Meier</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Prozzi</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Tutumluer</surname>
+          </string-name>
+          ,
+          <year>2006</year>
+          (Shanghai, China).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Haas</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hudson</surname>
+            ,
+            <given-names>W.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Zaniewski</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Modern Pavement Management</surname>
+          </string-name>
+          ,
+          <year>1994</year>
+          (Krieger Publishing Company: Florida).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hall</surname>
+            ,
+            <given-names>K.T.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Mohseni</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of asphalt concrete overlaid Portland cement concrete pavement layer moduli</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1991</year>
+          ,
+          <volume>1293</volume>
+          ,
+          <fpage>112</fpage>
+          -
+          <lpage>123</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hammons</surname>
+            ,
+            <given-names>M.I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Von Quintus</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Geary</surname>
+            ,
+            <given-names>G.M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wu</surname>
+            ,
+            <given-names>P.Y.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Jared</surname>
+            ,
+            <given-names>D.M.</given-names>
+          </string-name>
+          ,
+          <article-title>Detection of stripping in hot-mix asphalt</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2006</year>
+          ,
+          <year>1949</year>
+          ,
+          <fpage>20</fpage>
+          -
+          <lpage>31</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hanna</surname>
+            ,
+            <given-names>A.N.</given-names>
+          </string-name>
+          , Determination of In
+          <publisher-name>Situ Material Properties of Asphalt Concrete Pavement Layers from Nondestructive Tests, NCHRP Research Results Digest 271 Transportation Research</publisher-name>
+          <string-name>
+            <surname>Board</surname>
+            ,
+            <given-names>N.W.</given-names>
+          </string-name>
+          , Washington, DC,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Harichandran</surname>
+            ,
+            <given-names>R.S.</given-names>
+          </string-name>
+          , Mahmood,
+          <string-name>
+            <given-names>T.</given-names>
+            ,
+            <surname>Raab</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.R</given-names>
+            . and
+            <surname>Baladi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>G.Y.</surname>
+          </string-name>
+          ,
+          <article-title>Modified Newton algorithm for backcalculation of pavement layer properties</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1993</year>
+          ,
+          <volume>1384</volume>
+          ,
+          <fpage>15</fpage>
+          -
+          <lpage>22</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Haskell</surname>
+            ,
+            <given-names>N.A.</given-names>
+          </string-name>
+          ,
+          <article-title>The dispersion of surface waves on multilayered media</article-title>
+          .
+          <source>Bull. Seism. Soc. Am.</source>
+          ,
+          <year>1953</year>
+          ,
+          <volume>43</volume>
+          ,
+          <fpage>14</fpage>
+          -
+          <lpage>34</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Heisey</surname>
+            ,
+            <given-names>J.S.</given-names>
+          </string-name>
+          , Stokoe, II, K.H. and
+          <string-name>
+            <surname>Meyer</surname>
+            ,
+            <given-names>A.H.</given-names>
+          </string-name>
+          ,
+          <article-title>Moduli of pavement systems from spectral analysis of surface waves</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1982</year>
+          ,
+          <volume>852</volume>
+          ,
+          <fpage>22</fpage>
+          -
+          <lpage>31</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hill</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McHugh</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Turner</surname>
+            ,
+            <given-names>J.D.</given-names>
+          </string-name>
+          ,
+          <article-title>Cross-sectional modes in impact-echo testing of concrete structures</article-title>
+          .
+          <source>J. Struct. Eng.</source>
+          ,
+          <year>2000</year>
+          ,
+          <volume>126</volume>
+          ,
+          <fpage>228</fpage>
+          -
+          <lpage>234</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hiltunen</surname>
+            ,
+            <given-names>D.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Woods</surname>
+            ,
+            <given-names>R.D.</given-names>
+          </string-name>
+          ,
+          <source>Influence of Source and Receiver Geometry on the Testing of Pavements by Surface Waves Method</source>
+          ,
+          <year>1989</year>
+          (ASTM: Philadelphia).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hisada</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          ,
+          <article-title>An efficient method for computing Green's functions for a layered half-space with sources and receivers at close depths</article-title>
+          .
+          <source>Bull. Seism. Soc. Am.</source>
+          ,
+          <year>1994</year>
+          ,
+          <volume>84</volume>
+          ,
+          <fpage>1456</fpage>
+          -
+          <lpage>1472</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hossian</surname>
+            ,
+            <given-names>M.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Drnevich</surname>
+            ,
+            <given-names>V.P.</given-names>
+          </string-name>
+          ,
+          <article-title>Numerical and optimization techniques applied to surface waves for backcalculation of layer moduli</article-title>
+          .
+          <source>STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli</source>
+          , pp.
+          <fpage>649</fpage>
+          -
+          <lpage>669</lpage>
+          ,
+          <year>1989</year>
+          (ASTM: Philadelphia).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hugenschmidt</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <article-title>Concrete bridge inspection with a mobile GPR system</article-title>
+          . Constr. Build. Mater.,
+          <year>2002</year>
+          ,
+          <volume>16</volume>
+          ,
+          <fpage>147</fpage>
+          -
+          <lpage>154</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Jiang</surname>
+            ,
+            <given-names>Z.-Y.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ponniah</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Cascante</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <article-title>Improved ultrasonic pulse velocity technique for bituminous material characterization</article-title>
+          . in
+          <source>Annual Conference of the Transportation Association of Canada Charlottetown</source>
+          ,
+          <year>2006</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Jones</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <article-title>A vibration method for measuring the thickness of concrete road slabs in situ</article-title>
+          .
+          <source>Mag. Concr. Res</source>
+          .,
+          <year>1955</year>
+          ,
+          <volume>7</volume>
+          ,
+          <fpage>97</fpage>
+          -
+          <lpage>102</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kameyana</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Himeno</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kashana</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Maruyana</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of pavement layer moduli using genetic algorithm</article-title>
+          .
+          <source>in 8th Int Conf of Asphalt Pavements</source>
+          , Seattle
+          <year>1997</year>
+          , pp.
+          <fpage>1375</fpage>
+          -
+          <lpage>1385</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <given-names>Kanta</given-names>
+            <surname>Rao</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>V.V.L.</given-names>
+            ,
+            <surname>Rao</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.V.B.</given-names>
+            ,
+            <surname>Kumar</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            and
+            <surname>Pokhriyal</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>S.P.</surname>
+          </string-name>
+          ,
+          <article-title>Structural evaluation of cement concrete roads in Mumbai city</article-title>
+          .
+          <source>J. Perform. Constr. Facil.</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>20</volume>
+          ,
+          <fpage>156</fpage>
+          -
+          <lpage>166</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kausel</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Peek</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <article-title>Dynamic loads in the interior of a layered stratum: an explicit solution</article-title>
+          .
+          <source>Bull. Seism. Soc. Am.</source>
+          ,
+          <year>1982</year>
+          ,
+          <volume>72</volume>
+          ,
+          <fpage>1459</fpage>
+          -
+          <lpage>1508</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kausel</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rou¨sset</surname>
+          </string-name>
+          , J.M.,
+          <article-title>Stiffness matrices for layered soils</article-title>
+          .
+          <source>Bull. Seism. Soc. Am.</source>
+          ,
+          <year>1981</year>
+          ,
+          <volume>71</volume>
+          ,
+          <fpage>1743</fpage>
+          -
+          <lpage>1761</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kim</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Park</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          ,
+          <article-title>Determination of dispersive phase velocities for SASW method using harmonic wavelet transform</article-title>
+          .
+          <source>Soil Dyn. Earthquake Eng.</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>22</volume>
+          ,
+          <fpage>675</fpage>
+          -
+          <lpage>684</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Kim</surname>
+            ,
+            <given-names>D.S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Seo</surname>
+            ,
+            <given-names>W.S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lee</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <article-title>IE-SASW method for nondestructive evaluation of concrete structure</article-title>
+          . NDT&amp;E Int.,
+          <year>2006</year>
+          ,
+          <volume>39</volume>
+          ,
+          <fpage>143</fpage>
+          -
+          <lpage>154</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Krishnan</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rajagopal</surname>
+            ,
+            <given-names>K.R</given-names>
+          </string-name>
+          .,
+          <article-title>Review of the uses and modeling of bitumen from ancient to modern times</article-title>
+          .
+          <source>Appl. Mech. Rev. Am. Soc. Mech. Eng.</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>56</volume>
+          ,
+          <fpage>149</fpage>
+          -
+          <lpage>214</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lahouar</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Loulizi</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Clark</surname>
+            ,
+            <given-names>T.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lee</surname>
+            ,
+            <given-names>D.T.</given-names>
+          </string-name>
+          ,
+          <article-title>Approach to determining in situ dielectric constant of pavements</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2002</year>
+          ,
+          <year>1806</year>
+          ,
+          <fpage>81</fpage>
+          -
+          <lpage>87</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lee</surname>
+            ,
+            <given-names>J.L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Turner</surname>
+            ,
+            <given-names>D.J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stokoe</surname>
+          </string-name>
+          , II, K.H.,
+          <string-name>
+            <surname>Bay</surname>
+            ,
+            <given-names>J.A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rasmussen</surname>
+            ,
+            <given-names>R.O.</given-names>
+          </string-name>
+          ,
+          <article-title>Continuous structural evaluation of airport pavements with the rolling dynamic deflectometer</article-title>
+          .
+          <source>In Proceedings of Airfield Pavements, Challenges and New Technologies</source>
+          , edited by M. Karakouzian, pp.
+          <fpage>348</fpage>
+          -
+          <lpage>365</lpage>
+          ,
+          <year>2006</year>
+          (ASCE: New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lekarp</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Isacsson</surname>
+            ,
+            <given-names>U.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Dawson</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <source>State of the art</source>
+          . 1:
+          <article-title>resilient response of unbound aggregates</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2000</year>
+          ,
+          <volume>126</volume>
+          ,
+          <fpage>66</fpage>
+          -
+          <lpage>75</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lenngren</surname>
+            ,
+            <given-names>C.A.</given-names>
+          </string-name>
+          ,
+          <article-title>Relating deflection data to pavement strain</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1991</year>
+          ,
+          <volume>1293</volume>
+          ,
+          <fpage>103</fpage>
+          -
+          <lpage>111</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Khazanovich</surname>
+            , Lev, Velaquez, Raul and Nesvijski,
+            <given-names>Edward G.</given-names>
+          </string-name>
+          ,
+          <article-title>Evaluation of top- down cracks in asphalt pavements by using a self-calibrating ultrasonic technique</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2005</year>
+          ,
+          <year>1940</year>
+          ,
+          <fpage>6368</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Loizos</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Boukovalas</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <article-title>Pavement soil characterization using a dynamic stiffness model</article-title>
+          .
+          <source>Int. J. Pavement Eng.</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>6</volume>
+          ,
+          <fpage>5</fpage>
+          -
+          <lpage>15</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Loizos</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Plati</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          ,
+          <article-title>Accuracy of pavement thickness estimation using different ground penetrating radar analys is approach</article-title>
+          . NDT&amp;E Int.,
+          <year>2007</year>
+          ,
+          <volume>40</volume>
+          ,
+          <fpage>147</fpage>
+          -
+          <lpage>157</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Loizos</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Boukovalas</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Karlaftis</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Dynamic stiffness modulus for pavement sugrade evaluation</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>129</volume>
+          ,
+          <fpage>434</fpage>
+          -
+          <lpage>443</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Loulizi</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Development of ground penetrating radar signal modeling and implementation for transportation infrastructure assessment</article-title>
+          , Tech. rep.,
+          <source>Virginia Polytechnic Institute and State University</source>
+          ,
+          <year>2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Loulizi</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Al-Qadi</surname>
+            ,
+            <given-names>I.L.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Lahouar</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Optimizing of ground penetrating radar data to predict layer thickness inflexible pavements</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>129</volume>
+          ,
+          <fpage>93</fpage>
+          -
+          <lpage>99</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lytton</surname>
+            ,
+            <given-names>R.L.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of pavement layer properties</article-title>
+          .
+          <source>STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli</source>
+          , pp.
+          <fpage>7</fpage>
+          -
+          <lpage>38</lpage>
+          ,
+          <year>1989</year>
+          (ASTM: Philadelphia).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mahoney</surname>
+            ,
+            <given-names>J.P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Winters</surname>
+            ,
+            <given-names>B.C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jackson</surname>
+            ,
+            <given-names>N.C.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Pierce</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          ,
+          <article-title>Some observations about backcalculation and use of a stiff layer condition</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1993</year>
+          ,
+          <volume>1384</volume>
+          ,
+          <fpage>8</fpage>
+          -
+          <lpage>14</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mahoney</surname>
+            ,
+            <given-names>J.P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Muench</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pierce</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Read</surname>
+            ,
+            <given-names>S.A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Uhlmeyer</surname>
+            ,
+            <given-names>J.S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jakob</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Moore</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <article-title>Identification and assessment of construction-related asphalt concrete pavement temperature differentials</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2000</year>
+          ,
+          <volume>1712</volume>
+          ,
+          <fpage>93</fpage>
+          -
+          <lpage>100</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mallick</surname>
+            ,
+            <given-names>B.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>In-place determination of stiffness of subsurface reclaimed layers in thin surface hotmix asphalt pavements fast non destructive test and analysis method</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2006</year>
+          ,
+          <year>1949</year>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>19</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mallick</surname>
+            ,
+            <given-names>B.R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Das</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Fast non destructive field test method to determine stiffness of subsurface layer in thin surface hot mix asphalt pavement</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2005</year>
+          ,
+          <year>1905</year>
+          ,
+          <fpage>82</fpage>
+          -
+          <lpage>89</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maser</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <article-title>Ground penetrating radar surveys to characterize pavement layer thickness variations at GPS sites, SHRPP-397, Tech</article-title>
+          . rep,
+          <source>Strategic Highway Research Program, National Research Council, 2101 Constitution Avenue</source>
+          , NW, Washington, DC 20418 USA,
+          <year>1994</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maser</surname>
+            ,
+            <given-names>K.R</given-names>
+          </string-name>
+          .,
+          <article-title>Condition assessment of transportation infrastructure using ground-penetrating radar</article-title>
+          .
+          <source>J. Infrastruct. Syst.</source>
+          ,
+          <year>1996</year>
+          ,
+          <volume>2</volume>
+          ,
+          <fpage>94</fpage>
+          -
+          <lpage>101</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maser</surname>
+            ,
+            <given-names>K.R</given-names>
+          </string-name>
+          .,
+          <article-title>Pavement characterization using ground penetrating radar: state of the art and current practice</article-title>
+          . in STP 1375, Nondestructive Testing of Pavements and Backcalculation of Moduli, ASTM,
+          <string-name>
+            <surname>West Conshohocken</surname>
+          </string-name>
+          ,
+          <year>1999</year>
+          , pp.
+          <fpage>313</fpage>
+          -
+          <lpage>326</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maser</surname>
+            ,
+            <given-names>K.R</given-names>
+          </string-name>
+          .,
+          <article-title>Non-destructive measurement of pavement layer thickness</article-title>
+          ,
+          <source>Final report, California Department of Transportation</source>
+          ,
+          <year>2003</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maser</surname>
+            ,
+            <given-names>K.R</given-names>
+          </string-name>
+          ., Holland,
+          <string-name>
+            <given-names>T.J.</given-names>
+            ,
+            <surname>Roberts</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            and
+            <surname>Popovics</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>J.</surname>
+          </string-name>
+          ,
+          <article-title>NDE methods for quality assurance of new pavement thickness</article-title>
+          .
+          <source>Int. J. Pavement Eng.</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>7</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>10</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>May</surname>
+            ,
+            <given-names>R.W.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Von Quintus</surname>
+            ,
+            <given-names>H.L.</given-names>
+          </string-name>
+          ,
+          <article-title>The quest for a standard guide to NDT backcalculation</article-title>
+          . In STP 1198, Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by H. Von Quintus,
+          <source>A.J. III. Bush and G.Y. Baladi</source>
+          , vol.
+          <volume>2</volume>
+          , pp.
+          <fpage>505</fpage>
+          -
+          <lpage>520</lpage>
+          ,
+          <year>1994</year>
+          (ASTM: Philadelphia).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Meier</surname>
+            ,
+            <given-names>R.G.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rix</surname>
+            ,
+            <given-names>G.J.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of flexible pavement moduli using artificial neural networks</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <volume>1994a</volume>
+          ,
+          <volume>1448</volume>
+          ,
+          <fpage>75</fpage>
+          -
+          <lpage>82</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Meier</surname>
+            ,
+            <given-names>R.G.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rix</surname>
+            ,
+            <given-names>G.J.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of flexible pavement moduli from dynamic deflection basins using artificial neural networks</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <volume>1994b</volume>
+          ,
+          <volume>1473</volume>
+          ,
+          <fpage>72</fpage>
+          -
+          <lpage>81</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Mesher</surname>
+            ,
+            <given-names>D.E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dawley</surname>
+          </string-name>
+          , C.B.,
+          <string-name>
+            <surname>Davis</surname>
+            ,
+            <given-names>J.L.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rossiter</surname>
+            ,
+            <given-names>J.R.</given-names>
+          </string-name>
+          ,
+          <article-title>Evaluation of new ground penetrating radar technology to quantify pavement structure</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1995</year>
+          ,
+          <volume>1505</volume>
+          ,
+          <fpage>17</fpage>
+          -
+          <lpage>26</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Morey</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <article-title>Ground penetrating radar for evaluating subsurface conditions for transportation facilities</article-title>
+          .
+          <source>Synthesis of Highway Practice</source>
+          <volume>255</volume>
+          ,
+          <year>1998</year>
+          (NCHRP, National Academy Press: Washington, DC).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Moropoulou</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Avdelidis</surname>
+            ,
+            <given-names>N.P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Koui</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Kakaras</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <article-title>An application of thermography for detection of delaminations in airport pavements</article-title>
+          . NDT&amp;E Int.,
+          <year>2001</year>
+          ,
+          <volume>34</volume>
+          ,
+          <fpage>329</fpage>
+          -
+          <lpage>335</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>NCHRP Design Guide 1-37A, Guide for mechanistic-empirical design of new and rehabilitated pavement structures, National cooperative highway research program</article-title>
+          .
+          <source>Transportation Research Board, National Research Council, March</source>
+          <volume>2004</volume>
+          (available online http://www.trb.
+          <source>org.mepdg.guide.htm)</source>
+          ,
+          <year>2006</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Alvarado</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <article-title>Impact of temperature gradient on modulus of asphaltic concrete layers</article-title>
+          .
+          <source>J. Mater. Civ. Eng.</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>18</volume>
+          ,
+          <fpage>492</fpage>
+          -
+          <lpage>499</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Desai</surname>
+            ,
+            <given-names>M.R.</given-names>
+          </string-name>
+          ,
+          <source>Automated surface wave method: field testing. J. Geotech. Eng.</source>
+          ,
+          <year>1993</year>
+          ,
+          <volume>119</volume>
+          ,
+          <fpage>1094</fpage>
+          -
+          <lpage>1111</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and Stokoe, II, K.H.,
+          <article-title>Use of surface waves in pavement evaluation</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1986</year>
+          ,
+          <volume>1070</volume>
+          ,
+          <fpage>132</fpage>
+          -
+          <lpage>144</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          , Stokoe, II, K.H. and
+          <string-name>
+            <surname>Briggs</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <source>Determination of pavement layer thickness and moduli by SASW method. Transp. Res. Rec</source>
+          .,
+          <year>1988</year>
+          ,
+          <volume>1196</volume>
+          ,
+          <fpage>133</fpage>
+          -
+          <lpage>150</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Baker</surname>
+            ,
+            <given-names>M.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Crain</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <article-title>Development and testing of a seismic pavement analyzer</article-title>
+          , SHRP-H-
+          <volume>375</volume>
+          , Tech. rep.,
+          <source>Strategic High-way Research Program, National research Council, Washington</source>
+          , DC,
+          <year>1993</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yuan</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Tandon</surname>
+            ,
+            <given-names>V.</given-names>
+          </string-name>
+          ,
+          <article-title>Structural field testing of flexible layers with seismic methods for quality control</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1999</year>
+          ,
+          <volume>1654</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>27</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yuan</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Medichetti</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Optimizing opening of Portland cement concrete pavements using integrated maturity and nondestructive tests</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2003</year>
+          ,
+          <year>1861</year>
+          ,
+          <fpage>3</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          , Abdallah,
+          <string-name>
+            <given-names>I.N.</given-names>
+            and
+            <surname>Yuan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>D.</surname>
+          </string-name>
+          ,
+          <article-title>Neural networks for rapid reduction interpretation of spectral analysis of surface waves results</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2004</year>
+          ,
+          <year>1868</year>
+          ,
+          <fpage>150</fpage>
+          -
+          <lpage>155</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Oloufa</surname>
+            ,
+            <given-names>A.A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mahgoub</surname>
+            ,
+            <given-names>H.S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Ali</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          ,
+          <article-title>Infrared thermography for asphalt crack imaging and automated detection</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2004</year>
+          ,
+          <year>1889</year>
+          ,
+          <fpage>126</fpage>
+          -
+          <lpage>133</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Park</surname>
+            ,
+            <given-names>C.B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Miller</surname>
+            ,
+            <given-names>R.D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Xia</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <article-title>Imaging dispersion curves of surface waves on multi-channel records, expanded abstract</article-title>
+          . in
+          <source>Technical Program with Biographies</source>
+          , SEG, 68th Annual Meeting,
+          <source>Society of Exploration Geophysicists, New Orleans</source>
+          ,
+          <year>1998</year>
+          , pp.
+          <fpage>1377</fpage>
+          -
+          <lpage>1380</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Park</surname>
+            ,
+            <given-names>H.M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kim</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Park</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <article-title>Temperature correction of multiload-level falling weight deflectometer deflections</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2002</year>
+          ,
+          <year>1806</year>
+          ,
+          <fpage>3</fpage>
+          -
+          <lpage>8</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Pellinen</surname>
+            ,
+            <given-names>T.K.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Witczak</surname>
+            ,
+            <given-names>M.W.</given-names>
+          </string-name>
+          ,
+          <article-title>Use of stiffess of hot-mix asphalt as a simple performance test</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2002</year>
+          ,
+          <volume>1789</volume>
+          ,
+          <fpage>80</fpage>
+          -
+          <lpage>90</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Pittman</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          ,
+          <article-title>Load transfer characteristics of roller-compacted concrete pavement joints and cracks</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1996</year>
+          ,
+          <volume>1525</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Rahiom</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>George</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <article-title>Falling weight deflectometer for estimating subgrade elastic moduli</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>129</volume>
+          ,
+          <fpage>100</fpage>
+          -
+          <lpage>107</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Richart</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jr</surname>
+            .
+            <given-names>F.E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hall</surname>
+            ,
+            <given-names>Jr. J.R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Woods</surname>
+            ,
+            <given-names>R.D.</given-names>
+          </string-name>
+          ,
+          <source>Vibrations of Soils and Foundations</source>
+          ,
+          <year>1970</year>
+          (Prentice-Hall Inc.,
+          <string-name>
+            <given-names>Englewood</given-names>
+            <surname>Cliffs</surname>
+          </string-name>
+          , New Jersey).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          ,
+          <article-title>Nondestructive dynamic testing of soils and pavements</article-title>
+          .
+          <source>Tamkang J. Sci. Eng.</source>
+          ,
+          <year>1998</year>
+          ,
+          <volume>1</volume>
+          ,
+          <fpage>61</fpage>
+          -
+          <lpage>81</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Shao</surname>
+            ,
+            <given-names>K.Y.</given-names>
+          </string-name>
+          ,
+          <article-title>Dynamic interpretation of dynaflect and FWD tests</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1985</year>
+          ,
+          <volume>1022</volume>
+          ,
+          <fpage>7</fpage>
+          -
+          <lpage>16</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chang</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and Stokoe, II, K.H.,
+          <article-title>Modulus and thickness of the pavement surface layer from SASW tests</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1990</year>
+          ,
+          <volume>1260</volume>
+          ,
+          <fpage>53</fpage>
+          -
+          <lpage>63</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kausel</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cuellar</surname>
+            ,
+            <given-names>V.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Monte</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Valerio</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <article-title>Impact of weight falling on to the ground</article-title>
+          .
+          <source>J. Geotech. Eng.</source>
+          ,
+          <year>1994</year>
+          ,
+          <volume>120</volume>
+          ,
+          <fpage>1394</fpage>
+          -
+          <lpage>1412</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roque</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ruth</surname>
+            ,
+            <given-names>B.E.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Sedwick</surname>
+            ,
+            <given-names>S.C.</given-names>
+          </string-name>
+          ,
+          <article-title>Limitations of backcalculation and improved methods for pavement layer moduli predictions</article-title>
+          .
+          <source>in 5th International Conference on the Bearing Capacity of Roads and Airfields</source>
+          , Trondheium, Norway vol.
+          <volume>1</volume>
+          , pp.
+          <fpage>409</fpage>
+          -
+          <lpage>417</lpage>
+          ,
+          <year>1998</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Roy</surname>
+            ,
+            <given-names>B.K.</given-names>
+          </string-name>
+          ,
+          <article-title>New look at DCP test with a link to AASHTO SN concept</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2007</year>
+          ,
+          <volume>133</volume>
+          ,
+          <fpage>264</fpage>
+          -
+          <lpage>274</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ryden</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <article-title>Surface wave testing of pavements</article-title>
+          ,
+          <source>PhD thesis</source>
+          , Lund Institute of Technology,
+          <year>2004</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ryden</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Park</surname>
+            ,
+            <given-names>C.B.</given-names>
+          </string-name>
+          ,
+          <article-title>Fast simulated annealing inversion of surface waves on pavement using phase-velocity spectra</article-title>
+          .
+          <source>Geophysics</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>71</volume>
+          ,
+          <fpage>R49</fpage>
+          -
+          <lpage>R58</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ryden</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ulriksen</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          , Park, C.B.,
+          <string-name>
+            <surname>Miller</surname>
+            ,
+            <given-names>R.D.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Xia</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Ivanov</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <article-title>High frequency MASW for non-destructive testing of pavements-accelerometer approach</article-title>
+          . in Symposium on the Application of Geohysics to Engineering and
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Problems</surname>
+          </string-name>
+          (
+          <year>SAGEEP 2001</year>
+          ), Environmental and
+          <string-name>
+            <given-names>Engineering</given-names>
+            <surname>Geophysical Society</surname>
+          </string-name>
+          , Denver,
+          <year>2001</year>
+          , pp.
+          <source>RBA-1 - RBA-5.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Saarenketo</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <article-title>Using ground penetrating radar and dielectric probe measurements in pavement density quality control</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1997</year>
+          ,
+          <volume>1575</volume>
+          ,
+          <fpage>34</fpage>
+          -
+          <lpage>41</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Saarenketo</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Scullion</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <article-title>Road evaluation with ground penetrating radar</article-title>
+          .
+          <source>J. Appl. Geophys.</source>
+          ,
+          <year>2000</year>
+          ,
+          <volume>43</volume>
+          ,
+          <fpage>119</fpage>
+          -
+          <lpage>138</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sack</surname>
+            ,
+            <given-names>D.A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Olson</surname>
+            ,
+            <given-names>L.D.</given-names>
+          </string-name>
+          ,
+          <article-title>Advanced NDT methods for evaluating concrete bridges and other structures</article-title>
+          . NDT&amp;E Int.,
+          <year>1995</year>
+          ,
+          <volume>28</volume>
+          ,
+          <fpage>349</fpage>
+          -
+          <lpage>357</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sanchez-Salinero</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Roesset</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shao</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stokoe</surname>
+          </string-name>
+          , II, K.H. and
+          <string-name>
+            <surname>Rix</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <article-title>Analytical evaluation of variables affecting surface wave testing of pavements</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1987</year>
+          ,
+          <volume>1136</volume>
+          ,
+          <fpage>8695</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sansalone</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <article-title>Impact-echo: the complete story</article-title>
+          .
+          <source>ACI Struct. J</source>
+          .,
+          <year>1997</year>
+          ,
+          <volume>94</volume>
+          ,
+          <fpage>777</fpage>
+          -
+          <lpage>786</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Scrivner</surname>
+            ,
+            <given-names>F.H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Michalak</surname>
+          </string-name>
+          , C.H. and
+          <string-name>
+            <surname>Moore</surname>
+            ,
+            <given-names>W.M.</given-names>
+          </string-name>
+          ,
+          <article-title>Calculation of the elastic moduli of a two-layer pavement system from measured surface deflection</article-title>
+          .
+          <source>Highway Res. Rec</source>
+          .,
+          <year>1973</year>
+          ,
+          <volume>431</volume>
+          ,
+          <fpage>12</fpage>
+          -
+          <lpage>22</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Scullion</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Saarenketo</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <article-title>Using suction and dielectric measurements as performance indicators for aggregate base materials</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1997</year>
+          ,
+          <volume>1577</volume>
+          ,
+          <fpage>37</fpage>
+          -
+          <lpage>44</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sebaaly</surname>
+            ,
+            <given-names>P.E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tabatanee</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Scullion</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          ,
+          <article-title>Comparison of backcalculated moduli from falling weight deflectometer and truck loading</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1991</year>
+          ,
+          <volume>1377</volume>
+          ,
+          <fpage>17</fpage>
+          -
+          <lpage>25</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sharma</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Das</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Backcalculation of pavement layer moduli from falling weight deflectometer data using artificial neural network</article-title>
+          .
+          <source>Canadian Journal of Civil Engineering</source>
+          , (to appear in
+          <year>2008</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Shokouhi</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Maher</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <article-title>Application of wavelets in detection of cavities under pavements by surface waves</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2003</year>
+          ,
+          <year>1860</year>
+          ,
+          <fpage>57</fpage>
+          -
+          <lpage>65</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Shull</surname>
+          </string-name>
+          (Ed.)
+          <source>Nondestructive Evaluation: Theory, Techniques and Applications</source>
+          ,
+          <year>2002</year>
+          (Marcel and
+          <string-name>
+            <given-names>Dekker</given-names>
+            <surname>Inc</surname>
+          </string-name>
+          ., New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sivaneswaran</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kramer</surname>
+            ,
+            <given-names>S.L.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Mohoney</surname>
+            ,
+            <given-names>J.P.</given-names>
+          </string-name>
+          ,
+          <article-title>Advanced backcalculation using non-linear leasts quares optimization technique</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1991</year>
+          ,
+          <volume>1293</volume>
+          ,
+          <fpage>93</fpage>
+          -
+          <lpage>102</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Storme</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fortier</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Konrad</surname>
+            ,
+            <given-names>J.-M.</given-names>
+          </string-name>
+          ,
+          <article-title>Forward modeling of steady-state surface wave test</article-title>
+          .
+          <source>J. Geotech. Geoenviron. Eng.</source>
+          ,
+          <year>2005</year>
+          ,
+          <volume>131</volume>
+          ,
+          <fpage>662</fpage>
+          -
+          <lpage>665</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Thomson</surname>
+            ,
+            <given-names>W.</given-names>
+          </string-name>
+          ,
+          <article-title>Transmission of elastic waves through a stratified solid medium</article-title>
+          .
+          <source>J. Appl. Phys.</source>
+          ,
+          <year>1950</year>
+          ,
+          <volume>21</volume>
+          ,
+          <fpage>89</fpage>
+          -
+          <lpage>93</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Turner</surname>
+            ,
+            <given-names>D.J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lee</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stokoe</surname>
+          </string-name>
+          , II, K.H.,
+          <string-name>
+            <surname>Boudreau</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Watkins</surname>
+            ,
+            <given-names>Q.B.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Chang</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <article-title>Discrete and continuous deflection testing of runways at Hartsfield Atlanta international airport</article-title>
+          ,
+          <source>Georgia. Transp. Res. Rec</source>
+          .,
+          <year>2003</year>
+          ,
+          <year>1860</year>
+          ,
+          <fpage>76</fpage>
+          -
+          <lpage>89</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ullidtz</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pavement Analysis</surname>
+          </string-name>
+          ,
+          <year>1987</year>
+          (Elsevier: The Netherlands).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Underwood</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Kim</surname>
+            ,
+            <given-names>Y.R.</given-names>
+          </string-name>
+          ,
+          <article-title>Determination of depth of surface cracks in asphalt pavements</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>2002</year>
+          ,
+          <year>1853</year>
+          ,
+          <fpage>143</fpage>
+          -
+          <lpage>149</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Uzan</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <article-title>Advanced backcalculation techniques</article-title>
+          .
+          <source>STP 1198, Nondestructive Testing of Pavements and Backcalculation of Moduli</source>
+          , vol.
+          <volume>2</volume>
+          , pp.
+          <fpage>3</fpage>
+          -
+          <lpage>37</lpage>
+          ,
+          <year>1994</year>
+          (ASTM: Philadelphia, PA).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Weil</surname>
+            ,
+            <given-names>G.J.</given-names>
+          </string-name>
+          ,
+          <article-title>Non-destructive testing of bridge, highway and airport pavements</article-title>
+          . in
+          <source>Int Conf NDT of Concrete in the Infrastructure</source>
+          , Dearbon, MI,
+          <year>1993</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Willett</surname>
+            ,
+            <given-names>D.A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mahboub</surname>
+            ,
+            <given-names>K.C.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Rister</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          ,
+          <article-title>Accuracy of ground-penetrating radar for pavement-layer thickness analysis</article-title>
+          .
+          <source>J. Transp. Eng.</source>
+          ,
+          <year>2006</year>
+          ,
+          <volume>132</volume>
+          ,
+          <fpage>96</fpage>
+          -
+          <lpage>103</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Williams</surname>
+            ,
+            <given-names>T.P.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Gucunski</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <article-title>Neural networks for backcalculation of moduli from SASW test</article-title>
+          .
+          <source>J. Comput. Civ. Eng.</source>
+          ,
+          <year>1995</year>
+          ,
+          <volume>9</volume>
+          ,
+          <fpage>1</fpage>
+          -
+          <lpage>8</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Yuan</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Nazarian</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <source>Automated surface wave method: inversion technique. J. Geotech. Eng.</source>
+          ,
+          <year>1993</year>
+          ,
+          <volume>119</volume>
+          ,
+          <fpage>1112</fpage>
+          -
+          <lpage>1126</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Zube</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Forsyth</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <article-title>Flexible pavement maintenance requirements as determined by deflection measurement</article-title>
+          .
+          <source>Transp. Res. Rec</source>
+          .,
+          <year>1966</year>
+          ,
+          <volume>129</volume>
+          ,
+          <fpage>60</fpage>
+          -
+          <lpage>75</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

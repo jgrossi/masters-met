@@ -1,0 +1,1576 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Journal of Urban Economics</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>New urbanism and housing values: a disaggregate assessment</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1016/S0094-1190(03)00059-7</article-id>
+      <contrib-group>
+        <aff id="0">
+          <label>0</label>
+          <institution>Caroline Hall, National Center for Smart Growth Research and Education, University of Maryland</institution>
+          ,
+          <addr-line>College Park, MD 20742</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>In this paper, we attempt a formal analysis of the virtues of new urbanism, a movement hailed as the most significant movement in urban planning and architecture in this century. We proceed using the tools of Geographic Information Systems (GIS) to develop quantitative measures of urban form. We then incorporate those measures in a hedonic price analysis. We find that our measures of urban form capture meaningful differences in the characters of urban neighborhoods that could well have direct impacts on the utility of urban residents. Further, we find that such differences are capitalized into residential property values. The results imply that some but not all of the design features of new urbanism provide benefits for which urban residents are willing to pay.  2003 Elsevier Inc. All rights reserved.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>New urbanism</kwd>
+        <kwd>Housing price</kwd>
+        <kwd>Urban form</kwd>
+        <kwd>Quantitative measures</kwd>
+      </kwd-group>
+      <volume>54</volume>
+      <issue>2003</issue>
+      <fpage>218</fpage>
+      <lpage>238</lpage>
+      <pub-date>
+        <year>2003</year>
+      </pub-date>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>11</month>
+          <year>2002</year>
+        </date>
+        <date date-type="revised">
+          <day>17</day>
+          <month>4</month>
+          <year>2003</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>Yan Song ∗ and Gerrit-Jan Knaap</title>
+      <sec id="1-1">
+        <title>1. Introduction</title>
+        <p>In 1993, the Congress for the New Urbanism (CNU) was founded by a group of
+architects dedicated to “creat[ing] buildings, neighborhoods, and regions that provide a
+high quality of life for all residents, while protecting the natural environment” (CNU [13]).
+Through the redesign of regions, neighborhoods, and buildings, new urbanists promise
+no less than the end of urban sprawl, the recreation of communities, and improvements
+in the quality of life (NU [32]). New urbanism has been hailed as the most significant
+movement in urban planning and architecture in this century (Fulton [19] and CNU [13]).
+Though the movement has drawn criticism from much of the architectural academy, the
+ideas behind CNU’s Charter have been gradually integrated into curricula at top planning
+and architecture schools. In brief, the principles of new urbanism include high density,
+mixed use neighborhoods; convenient public transit, bicycles paths and pedestrian-friendly
+street networks; strategically placed open spaces; and architecture designed to foster social
+interaction (NU [32]).</p>
+        <p>While the movement has elicited considerable discussion and debate among urban
+planners, urban sociologists, urban geographers, and architects for over a decade, new
+urbanism has received little formal analysis. The reasons are twofold. First, new urbanism
+is primarily about urban design, which is difficult to quantify and thus poorly suited
+for applying formal analytical tools. Second, new urbanism, like its close relative, smart
+growth, generally favors the use of government plans and regulations to address an
+illdefined problem. Thus the movement is unlikely to draw the attention of those who favor
+formal analysis.</p>
+        <p>In this paper we attempt a formal analysis of the virtues of new urbanism. Using
+Geographic Information Systems (GIS) we first develop quantitative measures of urban
+form; we then incorporate those measures in a hedonic price analysis. In essence, our
+research strategy involves the disaggregation of new urbanism into its component parts
+and an examination of the implicit prices those parts yield in the market place. We do not
+argue that ours is the best approach to assess the contributions of new urbanist designs to
+social welfare. Such an examination would require an analysis of social benefits that accrue
+to nonresidents of new urbanist communities. We do argue, however, that our approach
+advances knowledge about this question both in the measurement of new urbanist features
+(or urban form) and in the identification of those features for which homeowners are willing
+to pay.</p>
+        <p>In the analysis that follows, we consider six sets of characteristics that affect the value
+of single-family homes: physical housing attributes of the homes, public service levels,
+location, amenities and disamenities, socioeconomic characteristics, and new urbanist
+design features in the neighborhood. By isolating the effects on price of these variables,
+we can estimate the contributions to single-family home values by features of urban form.
+We find that our measures of urban form capture meaningful differences in the character of
+urban neighborhoods that could well have direct impacts on the utility of urban residents.
+Further, we find that such differences are capitalized into residential property values. The
+results imply that some but not all of the design features of new urbanism provide benefits
+for which urban residents are willing to pay.</p>
+      </sec>
+      <sec id="1-2">
+        <title>2. Research context</title>
+        <sec id="1-2-1">
+          <title>2.1. Previous studies on urban form and property values</title>
+          <p>Ours is not the first study to examine the impacts of urban form or architectural
+character on property values. Cao and Cory [12], for example, showed that increasing
+industrial, commercial, multi-family and public land uses tend to increase surrounding
+home values. They thus concluded that an optimal mix of land use activities should be
+sought in locating economic activities into neighborhoods. Guttery [22] examined the sale
+prices of 1672 houses located in the Greater Dallas-Fort Worth-Denton metroplex and
+found negative impacts from having rear-entry alleyways. Asabere [5] provided empirical
+evidence from Halifax, Nova Scotia, which showed that location on a cul-de-sac yields a
+29 percent price premium over houses located on a grid street pattern. Benson et al. [9],
+Asabere and Huffman [7], and Grudnitski and Do [21] estimated the value of having
+scenic views of open space and from locating close to a golf course. Not surprising, they
+found that views and neighboring golf course increase property values. Finally, many
+have also examined the effects of proximity to transit on property values. Bowes and
+Ihlanfeldt [10] incorporated both the direct and the indirect effects of transit stations on
+the attractiveness of nearby neighborhoods. They found that stations located away from
+downtown have positive impacts on property values. They have also found that there are
+negative externalities from location near stations in low-income neighborhoods or close to
+downtown.</p>
+          <p>Other studies have measured the influence of architecture on property value. Asabere
+et al. [6] estimated the effect of residential architectural styles on housing prices in
+Newburyport, Massachusetts. They found premiums of 14 to 21 percent for four “older
+architectural styles,” Colonial, Victorian, Federal, and Garrison, relative to Ranch style.
+Moorhouse and Smith [29] explored the effects of a major 19th century American urban
+architectural form, the row house. They found that specific architectural features are
+more highly valued when they differentiate one row house from its immediate neighbors.
+Vandell and Lane [40] estimated the impact of “good architectural design” on the value of
+commercial buildings in Boston. They found a strong influence of design on rents and
+a weak relationship between vacancies and design quality. Hough and Kratz [24] also
+estimated the effect of “good architecture” on commercial rents in Chicago. They found
+that tenants are willing to pay a premium to be in new architecturally significant office
+buildings, but saw no benefits associated with old office buildings that express recognized
+aesthetic excellence.</p>
+          <p>The studies above notwithstanding, “new urbanism” per se has received little attention
+by economists. Recent market research shows that there is a demand for denser, more
+walkable residential environments in the United States as a whole, and the growing
+demand is a result of changing demographics, changing tastes, and the closing of the
+suburban frontier (CNU [14], and Myers and Gearin [30]). Eppli and Tu [17], and Tu
+and Eppli [38] are published studies that have examined the premiums captured by new
+urbanist developments. They compared the prices of single-family homes in new urbanist
+and suburban neighborhoods and found consumers willing to pay a premium for houses
+in a new urbanist neighborhood. They did not, however, attempt to isolate which design
+elements of a new urbanist neighborhood produced the price premium. The work by
+Eppli and Tu presumes that there are only two kinds of neighborhoods: new urbanist and
+traditional suburban. In fact there are many different types of neighborhoods with many
+different design features, and consumers might have multifaceted housing preferences
+(AL [2]). As suggested by Myers and Gearin [30], “Neither traditional neighborhood
+design nor conventional suburban development may be the housing consumer’s ideal.
+Rather, the ideal home style may be something else and may fall somewhere on the
+housing spectrum between there two design alternatives. Similarly, individual household
+preferences for a single ideal housing type may in fact include a spectrum of types, united
+by key design criteria.”</p>
+          <p>All together, considerable research suggests that certain elements of urban architectural
+style can be capitalized into property values. To date, however, there have been no studies
+that have focused on the features of new urbanism to determine if they, in isolation or
+combined, affect property values. We attempt to do so here.</p>
+        </sec>
+        <sec id="1-2-2">
+          <title>2.2. Portland and new urbanism</title>
+          <p>Portland is Oregon’s largest metropolitan area and has an international reputation as
+a leader in battle against urban sprawl.1 In 1991, Metro, Portland’s regional government,
+began work on the 2040 Plan. Following the principles of new urbanism, the goals of the
+plan include the transformation of the metropolitan area into a multi-nucleated urban form,
+the development of a multi-modal transportation system, and the designation of mixed
+use regional and town centers (Metro [27], Katz [25], and Calthorpe [11]). The Plan was
+approved in 1997 along with its implementation vehicle, the Urban Growth Functional
+Plan, which specified binding targets and performance measures for each of the subordinate
+cities and counties. Under Metro’s Charter, cities and counties are required to change their
+comprehensive plans and subdivision regulations to assure that local plans comply with
+the Functional Plan. Armed with this charter, a State mandate to manage Portland’s urban</p>
+          <p>Fig. 1. Portland metropolitan area and study area.</p>
+          <sec id="1-2-2-1">
+            <title>1 For more discussion on Metro, see Song and Knaap [36].</title>
+            <p>growth boundary, and a close association with Tri-Met, the regional transit district, Metro
+has substantial capacity to implement its new urbanist plan (Metro [28]).</p>
+            <p>Our study focuses on Washington County, which contains the western portion of the
+metropolitan area. As the most rapidly growing of the three counties within Metro’s
+jurisdiction, the study area contains the cities of Beaverton, Hillsboro, Tigard, Sherwood,
+Tualatin, King City, Cornelius, Forest Grove, and Durham (see Fig. 1).</p>
+          </sec>
+        </sec>
+      </sec>
+      <sec id="1-3">
+        <title>3. Data and method</title>
+        <sec id="1-3-1">
+          <title>3.1. Data</title>
+          <p>Our data come from three primary sources:
+(1) The tax assessment files from Washington County;
+(2) Regional Land Information System (RLIS) from Portland, Metro; and
+(3) Census data from the US Census Bureau.</p>
+          <p>Prior to estimation, invalid transactions and multiple sales were omitted to ensure that
+sales reflect market clearing prices,2 and to ensure independent observations. The cleaned
+dataset contains 48,070 real estate sales transactions in our study area for the period
+January 1990 through December 2000. The average sale price for the eleven-year period is
+$177,461, ranging from $50,000 to $916,300.</p>
+        </sec>
+        <sec id="1-3-2">
+          <title>3.2. Measures of urban form</title>
+          <p>To begin our analysis, we define several measures of urban form that capture
+new urbanist neighborhood characteristics. We first divide the study area into 186
+neighborhoods based on census blockgroup boundaries. What constitutes a neighborhood
+remains a matter of dispute. Lacking clear theoretical guidance, we explored three
+datadriven alternatives: census tracts, block groups, and sub-block groups. To choose among
+these we computed several measures of urban form for Washington County’s 60 census
+tracts, 186 block groups, and 237 sub-block groups (where sub-block groups are formed by
+further partitioning block groups by major arterials). Then for each neighborhood (census
+tract, block group, and sub-block group), we assigned the age of the neighborhood by the
+median “year built” attribute of all single-family units it contained. We then explored, both
+visually and statistically, changes in our measures of urban form over time. We found that
+neighborhoods defined at the census tract level reveal less about changes in urban form over</p>
+          <sec id="1-3-2-1">
+            <title>2 Following Eppli and Tu [17], we removed non-arms-length transactions and prevent coding errors based on</title>
+            <p>the ratio of sale price to assessed value. Transactions that have a sale price that is 60 percent greater than the
+assessed value or that is less than 60 percent of the assessed value are deleted from the data set. In addition,
+properties with lots greater than two acres, or age older than 80 years are excluded to maintain a homogenous
+pool of transactions. Furthermore, we removed the transactions if their assessed value of the land is less than
+$1.00 per square foot or the assessed value of the improvements is less than $25.00 per square foot.
+time due to aggregation. Neighborhoods measured at the sub-block group level, however,
+reveal little more information than those measured at the block group level. Thus we chose
+to use block groups as neighborhoods and divided the study area into 186 neighborhoods
+for the remaining analysis. We do not argue that census blocks are the best aerial unit for
+measuring urban form. We only claim that it is a convenient unit that illustrates the effects
+we seek to capture.3</p>
+            <p>For each block-group “neighborhood” we then computed five sets of urban form
+measures.4 Definitions of each variable are provided in Table 1.</p>
+            <sec id="1-3-2-1-1">
+              <title>3.2.1. Street design and circulation systems</title>
+              <p>According to critics of sprawl, contemporary suburban developments contain too many
+winding streets and cul-de-sacs, blocks that are too big, and road networks that lack
+connectivity. According to this point of view, better connectivity leads to more walking and
+biking, fewer vehicle miles traveled, higher air quality, and greater sense of community
+among residents (Benfield et al. [8]). Our measures of connectivity involve the number
+of street nodes and segments, total miles of streets in the neighborhood, the number and
+lengths of blocks, the proximity to cul-de-sacs, the lengths of cul-de-sacs, and the distance
+between points of access into the neighborhood.5</p>
+            </sec>
+            <sec id="1-3-2-1-2">
+              <title>3.2.2. Density</title>
+              <p>According to critics of sprawl, contemporary urban development is dominated by
+single-family housing on large lots. To such critics, low-density development increases
+automobile dependence, consumes excessive farmland, and raises the cost of public
+infrastructure (APA [4]). We offer two measures of density: single-family residential (SFR)
+dwelling unit density and population density.</p>
+            </sec>
+            <sec id="1-3-2-1-3">
+              <title>3.2.3. Land use mix</title>
+              <p>According to critics of sprawl, contemporary urban developments are homogeneous
+and lack a mix of land uses. To such critics greater mixing of uses facilitates walking and
+biking, lowers vehicle miles traveled, improves air quality, and enhances urban aesthetics
+(APA [4]). We offer two indices that measure land use diversity within a neighborhood.
+Both are based on the concept of entropy—a measure of variation, dispersion or diversity
+(Turner et al. [39]). The first measure includes single-family residential use and captures
+the overall mixture of land uses. The second measure excludes single-family use and
+captures the mixture of land uses in the non-single-family residential sector.</p>
+            </sec>
+            <sec id="1-3-2-1-4">
+              <title>3.2.4. Accessibility According to critics of sprawl, contemporary urban development is characterized by too much separation between uses and thus travel distances that are too long (APA [4]). Here</title>
+            </sec>
+          </sec>
+          <sec id="1-3-2-2">
+            <title>3 For more discussion on neighborhood definition, see Song and Knaap [36].</title>
+          </sec>
+          <sec id="1-3-2-3">
+            <title>4 All the calculations were computed using ARCInfo and ArcView with data from Metro’s Regional Land</title>
+            <p>Information System.</p>
+          </sec>
+          <sec id="1-3-2-4">
+            <title>5 Street segments are defined by the part of the street between two street nodes. Street nodes are defined as</title>
+            <p>street intersections, T-sections and street dead ends. For more on connectivity, see Allen [1] and Southworth [37].
+we offer three measures of accessibility: distance to commercial uses, distance to a bus
+stop, and distance to a public park. Each is measured as the median distance from every
+single-family parcel centroid in the neighborhood to the centroid of the nearest commercial
+use, bus stop, or public park.</p>
+            <sec id="1-3-2-4-1">
+              <title>3.2.5. Transportation mode choice</title>
+              <p>A fundamental element of new urbanism is design that enables transportation mode
+choice (Katz [25]). Here we focus on access to Portland’s light rail system. To explore
+the effect of accessibility to light rail stations, we proceed by disaggregating the effects of
+proximity to the stations into two time periods and by station location. That is, we identified
+properties that were located near stations before and after the line went into operation in
+downtown Hillsboro, in downtown Beaverton, and in between Hillsboro and Beaverton.</p>
+            </sec>
+            <sec id="1-3-2-4-2">
+              <title>3.2.6. Pedestrian walkability</title>
+              <p>According to critics of sprawl, contemporary development patterns create great
+distances between destinations and thus discourage walking. Pedestrian access encourages
+residents to walk, lowers vehicle miles traveled, and improves human health (Frank and
+Englke [18]). According to conventional wisdom, pedestrians in the United States are
+willing to walk no longer than one-quarter mile (Duany and Plater-Zyberk [16]). Thus
+we measure pedestrian walkability as the percentage of single-family homes (again using
+lot centroids) that are within one-quarter mile network distance of commercial uses and
+bus stops.</p>
+            </sec>
+          </sec>
+        </sec>
+        <sec id="1-3-3">
+          <title>3.3. Control variables</title>
+          <p>To control for the influence on price other than urban form we include five additional
+sets of variables. Definitions of each variable are provided in Table 2.</p>
+          <sec id="1-3-3-1">
+            <title>3.3.1. Physical housing attributes</title>
+            <p>The physical characteristics of a house—such as the number or rooms, quality of
+construction, and presence of fireplace, garage, etc.—are widely known to affect its value
+(Grether and Mieszkowski [20]). Our data sources do not have complete information on
+such attributes. To capture differences in physical attributes we include three variables: lot
+size, square feet of floor space, and age of the house.</p>
+          </sec>
+          <sec id="1-3-3-2">
+            <title>3.3.2. Public service levels</title>
+            <p>The value of public services is also widely known to affect housing values (Grether and
+Mieszkowski [20]). To capture these effects we include four variables: access to municipal
+services (measured as location within an incorporated municipality), the mean SAT score
+and student/teacher ratio of the pertinent school district; and the adjusted property tax rate.</p>
+          </sec>
+          <sec id="1-3-3-3">
+            <title>3.3.3. Location According to economic theory, location with respect to employment centers is a fundamental determinant of location rents (Grether and Mieszkowski [20]). To capture</title>
+            <p>(1) Property physical housing attributes
+LOTSIZE Lot area in square feet.</p>
+            <p>FLOORSPACE Building area in square feet.</p>
+            <p>AGE Age of the building in years.</p>
+            <p>AGESQUARE Square of the age variable. This variable allows for a nonlinear relationship between
+property value and age.</p>
+            <p>(2) Public service levels
+INCITY Dummy variable indicating if the house is located within the cities.</p>
+            <p>SAT SAT score in the school district in which the house is located.</p>
+            <p>STU/TEA Student/teacher ratio in school district in which the house is located.</p>
+            <p>HILLSC, Binary variables presenting if the house is located in one of the following school districts:
+BEAVSC, TTSC, Hillsboro (HILLSC), Beaverton (BEAVSC), Tigard-Tualatin (TTSC), Sherwood (SHERSC),
+SHERSC, FGSC and Forest Grove (FGSC) School District.</p>
+            <p>TAXRT Limited tax rate for the parcel.</p>
+            <p>(3) Location
+PORTCBD Distance in feet from the property to the Portland CBD.</p>
+            <p>HILLCBD Distance in feet from the property to the Hillsboro CBD.</p>
+            <p>BEAVCBD Distance in feet from the property to the Beaverton CBD.</p>
+            <p>(4) Amenity and disamenities
+GOLF Actual area of golf course in the neighborhood divided by number of housing units in a
+neighborhood.</p>
+            <p>ONWATER Dummy variable indicating whether the property is within 150 feet of water bodies
+(1 = Yes, 0 = No).</p>
+            <p>MOUNTNVW Dummy variable indicating whether the property has a mountain view (1 = Yes, 0 = No).
+MINRDDIS Distance in feet to the nearest minor road, where minor road includes major collector and
+collector.</p>
+            <p>ONMAJRD Dummy variable indicating whether the property is within 150 feet of a major road
+(1 = Yes, 0 = No).</p>
+            <p>ONLRT Dummy variable indicating whether the property is within 500 feet of the light rail line
+(1 = Yes, 0 = No).</p>
+            <p>(5) Socioeconomic characteristics
+PCTWHITE Percent of population that is white in the neighborhood.</p>
+            <p>MEDINC Median household income in the neighborhood.</p>
+            <p>TIMESALE Binary variables representing the year of the sale.
+these effects we include measures of distance to three central business districts: Portland,
+Hillsboro, and Beaverton.</p>
+          </sec>
+          <sec id="1-3-3-4">
+            <title>3.3.4. Amenities and disamenities</title>
+            <p>Amenities and disamenities have direct effects on resident utilities and thus can also
+affect property values. To capture the effects of amenities we include measures of proximity
+to a golf course, waterbodies, views of the Cascade and Coast Range mountains, and minor
+roads. To capture the effects of disamenities we include measures of exposure to traffic,
+specified as within a 150-foot buffer of a major road, or within a 500-foot buffer of a light
+rail transit line.</p>
+          </sec>
+          <sec id="1-3-3-5">
+            <title>3.3.5. Socioeconomic characteristics</title>
+            <p>Residents care about the social structure of their neighborhood. To capture these effects
+we include measures of racial composition, measured as percent of the white, and median
+household income of the neighborhood. Finally, to capture the effects of inflation we
+include the year the parcel was sold.</p>
+          </sec>
+        </sec>
+      </sec>
+      <sec id="1-4">
+        <title>4. Hedonic price analysis</title>
+        <sec id="1-4-1">
+          <title>4.1. Hedonic price equation</title>
+          <p>To explore the effects of urban form on property values we use a standard hedonic price
+model. As semi-log is a common form of such a model, we specify the dependent variable
+as the log of sale price.
+where β0 is the constant, βi (i = 54) are coefficients, xi (i = 54) are variables listed in
+Tables 1 and 2. Summary statistics for the dependent variable and all independent variables
+are provided in Table 3.
+144.28
+352
+1
+1
+0
+501.00
+35.41
+0
+0
+0
+0
+0
+12.54</p>
+          <p>1
+548.27
+36.98
+1
+1
+1
+1
+1
+18.73
+(4) Amenity and disamenities
+GOLF Square feet 292.40
+ONWATER Binary 0.14
+MOUNVW Binary 0.10
+MINRDDIS Feet 83.83
+ONMAJRD Binary 0.06
+ONLRT Binary 0.01</p>
+          <p>(5) Socioeconomic characteristics
+PCTWHITE Percentage 0.93
+MEDINC Dollar 40877.17
+YR91 Binary 0.03
+YR92 Binary 0.04
+YR93 Binary 0.06
+YR94 Binary 0.08
+YR95 Binary 0.08
+YR96 Binary 0.11
+YR97 Binary 0.13
+YR98 Binary 0.16
+YR99 Binary 0.16
+YR00 Binary 0.13</p>
+          <p>(6) New urbanism neighborhood characteristics
+INTCONN n.a. 1.30
+STMILES Feet 70.21</p>
+          <p>/HH unit
+BLOCKS #of Blocks 0.03</p>
+          <p>/HH unit
+BLOCKSIZE Feet 2658.11
+CULDESAC Binary 0.13
+LENGTHCDS Feet 242.20
+EXTCONN Feet 475.09
+SFRDNSTY #of HHunit/ 4.77</p>
+          <p>acre
+POPDNSTY #of People 2.28</p>
+          <p>/acre
+LUMIX Proportion
+NRMIX Proportion
+COMDIS Feet
+BUSDIS Feet
+PARKDIS Feet
+HILLBO Binary
+HILLAO Binary
+BEAVBO Binary
+BEAVAO Binary
+OTHERBO Binary
+OTHERAO Binary
+PEDCOM Percentage
+PEDBUS Percentage
+28879.63
+1
+1
+867.04
+1
+1
+1
+76093
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1.00
+1.00
+8345.52
+3984.98
+4183.17
+1
+1
+1
+1
+1
+1
+1.00
+1.00</p>
+        </sec>
+        <sec id="1-4-2">
+          <title>4.2. Regression results and implications6</title>
+          <p>The results of our analysis, including the t -statistics and coefficients of each of the
+significant variables, are provided in Table 4.7 The R2 indicates that we were able to
+explain 84 percent of the variation in single-family home prices. Most of the coefficients
+have expected signs.</p>
+          <sec id="1-4-2-1">
+            <title>4.2.1. Control variables</title>
+            <p>Property physical housing attributes. As expected, LOTSIZE and FLOORSPACE are
+positively related to house price. The expected negative sign of AGE reveals that an older
+home is worth less than a newer home, and the positive sign of AGESQUARE indicates that
+the relationship between house value and house age is not linear.</p>
+            <p>Public service levels. Public services are capitalized into property values. As expected,
+INCITY is positively related to house price, reflecting the value of services provided by
+cities. The expected negative sign of TAXRT reveals that property taxes are capitalized
+in property values. The positive sign of SAT and negative sign of STU/TEA indicate
+that, as expected, home buyers prefer school districts with higher SAT scores and lower
+student/teacher ratios.</p>
+            <p>Location. Location matters. Negative signs of the variables HILLCBD and PORTCBD,
+indicate that housing prices fall with distance from the Portland and Hillsboro CBDs. Since
+the CBDs of Portland and Hillsboro are major employment centers, this was expected.
+The sign of the variable BEAVCBD, however, is positive. Though not expected, this likely
+reflects the character of downtown Beaverton as more of an automobile-oriented retail
+center than an employment center.</p>
+            <p>Amenity and disamenities. Amenities and disamenities affect housing prices as expected.
+The positive sign of GOLF is consistent with earlier studies. The positive coefficient
+on the binary variable MOUTNVW indicates that a view of the mountains increases
+property value. The sign of MINRDDIS has the expected negative sign, indicating
+that home buyers pay a premium for the houses with better accessibility to minor
+roads.</p>
+            <sec id="1-4-2-1-1">
+              <title>6 We have also performed the exercise of incorporating spatial effects into our hedonic price structure</title>
+              <p>explicitly. From a subset of our dataset, the results indicated the presence of spatial error dependence. In other
+words, the error term at each location is correlated with values for the error term at other locations. This might be
+due to two of following reasons. First, measurement errors are likely to exist and to spill over across the spatial
+units since some data are collected and constructed at an aggregate scale. Second, some of the omitted variables,
+such as number of rooms, exterior material of the house and other house physical characteristics, are correlated
+and this might be another cause for the presence of spatial error dependence. In the presence of spatial error
+dependence and spatial heteroskedasticity, OLS estimates are still unbiased (Anselin [3]). Therefore, we present
+the results from OLS analysis in the paper.</p>
+            </sec>
+            <sec id="1-4-2-1-2">
+              <title>7 Eleven variables, HILLSC, BEAVSC, TTSC, FGSC, ONWATER, PCTWHITE, MEDINC, Y91, BUSDIS,</title>
+              <p>HILLAO, BEAVAO, are dropped out from the model.</p>
+              <p>The binary variables for exposure to traffic characteristics all exhibit the expected
+relationships. The negative signs of ONMAJRD and ONLRT indicate that home buyers
+pay less for the houses that are within 150 feet of a major road, or 500 feet of the light rail
+line for possible noise nuisance effects.</p>
+              <p>Socioeconomic characteristics. Socioeconomic variables PCTWHITE and MEDINC are
+not significant, perhaps due to the lack of variation of race and income in our study area.
+The dummy variables that capture the year of sale (with sales in 1990 as the reference
+variable) indicate that single-family home prices have been increasing since 1992.</p>
+            </sec>
+          </sec>
+          <sec id="1-4-2-2">
+            <title>4.2.2. Measures of urban form</title>
+            <p>Street design and circulation systems. The positive sign of INTCONN indicates that
+home buyers pay a premium for an internally connective neighborhood. This is consistent
+with the positive sign of STMILE, indicating that people prefer more streets being provided
+within a neighborhood. The positive sign of BLOCKS indicates that home buyers prefer to
+be located in a neighborhood designed with more blocks per housing unit. This result is
+consistent with the negative sign of BLOCKSIZE, which indicates that home buyers pay
+a premium for a house located in a neighborhood with smaller blocks. The positive sign
+of CULDESAC indicates that home buyers pay more to be located by cul-de-sacs. The
+negative sign of LENGTHCDS, however, indicates that people prefer shorter dead-end
+streets. The positive sign of EXTCONN indicates that home buyers prefer to be located
+in a neighborhood that is less connected to the outside.</p>
+            <p>Density. The negative signs of both SFRDNSTY and POPDNSTY are consistent with
+the previous market surveys which reveal that people prefer neighborhoods with low
+population density and low dwelling-unit density.</p>
+            <p>Land use mix. The negative sign of LUMIX indicates that consumers prefer single-family
+residential as the dominant use in the neighborhood. The positive sign of NRMIX further
+shows that the other land uses such as multi-family residential, industrial, public, and
+commercial uses are preferred to be distributed evenly in the neighborhoods.
+Accessibility. The positive sign of COMDIS is unexpected. The plausible
+explanation might be the nuisance effects brought by general commercial uses exceed the
+amenity effects of being closer to commercial uses. PARKDIS has the expected
+negative sign, indicating that home buyers pay a premium for the houses located closer to a
+park.</p>
+            <p>Transportation mode choice. The effects of proximity to light rail stations on housing
+price meet expectations. Properties sold at a higher price after the line was operated in
+all three areas: downtown Hillsboro, downtown Beaverton and those between Hillsboro
+and Beaverton. Before the line was operational, proximity to the stations had no effect
+on property values except for those between Hillsboro and Beaverton. The negative effect
+of proximity to stations between Hillsboro and Beaverton before the line was operated
+can be explained as follows. Before the light rail stations were constructed, this area
+was occupied mainly by vacant green spaces, and underdeveloped rural enclaves without
+established single-family neighborhoods. As planned, these areas were targeted for
+transitoriented redevelopment and increased in value as a result. These findings are consistent
+with previous research (Knaap et al. [26]).</p>
+            <p>Pedestrian walkability. For variables measuring pedestrian walkability to commercial
+uses and bus stops, the results are mixed. The positive sign of PEDCOM indicates that
+consumers prefer to have more pedestrian accessibility to commercial uses, while the
+negative sign of PEDBUS indicates that home buyers do not prefer to be too close to bus
+stops.</p>
+            <p>Additional 11 cross-sectional regressions (results are not presented in this paper) were
+run to examine possible variations in the effects of urban form features on housing prices
+over time. Similar results to those reported above have been found.</p>
+          </sec>
+        </sec>
+        <sec id="1-4-3">
+          <title>4.3. Evaluating the premium from new urbanist features</title>
+          <p>To evaluate the premium that home buyers pay for homes in new urbanist neighborhoods
+we compute the predicted value of a standardized house in two distinctly different
+neighborhoods in the study area (Fig. 2). The first is a hypothetical neighborhood
+characterized by the mean values of all the urban form measures in Washington County.
+The second is the Orenco Station neighborhood. This neighborhood is located next to an
+Intel plant and a light rail line, and has gained a great deal of notoriety as an exemplar
+Fig. 2. Forrest Glen (upper) and Orenco Station neighborhood (lower). (The urban form measures of the Forrest
+Glen neighborhood approximate the median values of all neighborhoods in the study area.)
+of a successful new urbanist development (NAH [31]). The values of the urban form
+measures for the hypothetical and Orenco Station neighborhood are highlighted in bold in
+Table 5. The data in Table 5 reveal that the hypothetical and Orenco Station neighborhoods
+differ significantly in most measures of urban form. Orenco Station has smaller lots, better
+internal street connectivity, more and smaller blocks, more streets but shorter cul-de-sacs,
+higher population and single-family dwelling unit densities, more mixing of land uses,
+better access to parks and commercial areas, more transit mode choices, better pedestrian
+walkability to commercial stores and bus stops, but lower external connectivity than the
+typical neighborhood. This comparison suggests that our measures of urban form appear
+−220.98
+1.30</p>
+          <p>70
+0.03
+2658</p>
+          <p>1
+242
+475
+4.77
+2.28
+0.60
+0.39
+2219.12
+895
+0
+0
+0
+0
+0.18
+0.34</p>
+          <p>(6) New urbanism neighborhood characteristics
+INTCONN 1.031393 5882.93
+STMILES 1.000384 57.60
+BLOCKS 1.202509 25260.78
+BLOCKSIZE 0.999999 −0.15
+CULDESAC 1.001091 313.83
+LENGTHCDS 0.999890 −16.56
+EXTCONN 1.000083 12.49
+SFRDNSTY 0.999311 −103.42
+POPDNSTY 0.990882 −1367.73
+LUMIX 0.952391 −7141.41
+NRMIX 1.014088 2113.25
+COMDIS 1.000009 1.39
+PARKDIS 0.999995 −0.79
+HILLAO 1.048887 7333.11
+OTHERBO 0.964717 −5292.38
+OTHERAO 1.004591 688.58
+BEAVAO 1.028478 4271.69
+PEDCOM 1.054641 8196.08
+PEDBUS 0.995500 −674.98
+to capture meaningful differences between a typical suburban neighborhood and a highly
+touted new urbanist neighborhood.8</p>
+          <p>We then determine the estimated sale price based on the set of explanatory attributes.
+Using the estimated coefficients from the regression model, we convert the unit of measure
+to dollars using the following equation:
+We then compute changes in sale price resulted from one-unit change in one of the
+independent variables while holding all other predictors constant. For example, ratio of
+the new price to the original price, when x1 is changed to (x1 + 1), can be computed by
+exp(βˆ0 + βˆ1(x1 + 1) + βˆ2x2 + · · ·)/ exp(βˆ0 + βˆ1x1 + βˆ2x2 + · · ·) = exp βˆ1. This expression
+for each independent variable corresponds to the values shown in the second column of
+Table 5. The value of premium (or discount) of sale price for a house with an original
+price of $150,000, from changing x1 to (x1 + 1) while holding other attributes constant,
+can then be computed by (exp βˆ1 − 1) ∗ 150,000. This value for each independent variable</p>
+          <sec id="1-4-3-1">
+            <title>8 For more on a comparison of urban form measures for all 186 neighborhoods in the study area, see Song</title>
+            <p>and Knaap [36].
+is shown in the third column.9 Using this procedure, we evaluate the premium that home
+buyers pay for a house in a new urbanist neighborhood. As discussed above, the fourth
+and fifth columns of Table 5 provide the attributes’ values of our two hypothetical
+singlefamily homes: one in a typical suburban neighborhood and the other in a new urbanist
+neighborhood. To calculate the sale prices for our two examples, the values of each of
+the attributes are inserted into Eq. (2), and the values of the coefficients are culled from
+Table 4. The overall prices for these two examples ($132,731 and $156,986) and the
+difference between the two ($24,255) are shown in the last row of Table 5. Following
+the above approach, the change in the value of a typical suburban house ($132,731), that
+resulted from a change in one attribute from suburban (x1_S ) to new urbanist (x1_NU ), can
+be computed by [exp β1(x1_NU − x1_S ) − 1] ∗ 132, 731. This value for each independent
+variable is shown in the last column of Table 5. Our calculations show that a house in a new
+urbanist neighborhood, even though it has a smaller lot than one in a typical neighborhood
+(3500 square feet vs. 8675 square feet), sells for $156,986—a $24,255 premium over one in
+a neighborhood with more conventional suburban attributes.10 The last column of Table 5
+further indicates that much of the premium comes from new urbanist features such as more
+internally connective street networks, more blocks, more street miles, better pedestrian
+access to commercial uses, and proximity to operating light rail stations. The comparison
+reveals that, holding other attributes constant, properties located in a neighborhood with
+new urbanist features command an estimated 15.5 percent premium.11</p>
+          </sec>
+        </sec>
+      </sec>
+      <sec id="1-5">
+        <title>5. Conclusions</title>
+        <p>In this study, we develop several measures of urban form and use them to characterize
+various neighborhoods in Washington County, Oregon. We find that the measures capture
+meaningful differences in the design character of urban neighborhoods. Our measures
+reveal, for example, that new urbanist neighborhoods indeed differ from traditional
+neighborhoods in ways that can be measured and used for analysis.12 Further we find
+that such differences are capitalized into residential property values. Specifically, we
+find that residents are willing to pay premiums for houses in neighborhoods with more</p>
+        <sec id="1-5-1">
+          <title>9 First two columns of Table 5 offer additional knowledge of determining implicit value of each independent</title>
+          <p>variable. For example, for variable FLOORSPACE, β was estimated to be 0.00000126. This number indicates
+that people prefer to pay exp 0.00000126 = 1.000306 = 100.0306% of the original house price if the floor space
+is increased by 1 square foot; if the original house price is $150,000, consumers pay $48 more.</p>
+          <p>10 $24,255 is the difference between the overall values of the two houses. It is not calculated by adding up all
+the marginal effects in the last column, which would be wrong due to nonlinearity of the exponential.</p>
+          <p>11 Critics have suggested that the premium resulting from new urbanism development might indeed reflect
+higher production costs of construction and highly perceived risks of investment in new urbanism communities
+(Rybczynski [35], Gyourko and Rybczynski [23]). To address this issue, analysis can be expanded to a two-stage
+estimation using the methodologies provided by Rosen [34]. If we can obtain the production functions for new
+urbanist construction, we would be able to estimate the underlying supply and demand functions of new urbanism
+development. We leave this for further research.</p>
+          <p>12 In other papers, for example, we have used these measures to examine changes in urban form over time
+(Song and Knaap [36]) and to estimate the effects of urban form on transportation mode choice (Rajamani et al.
+[33]).
+connective street networks; more streets, shorter dead-end streets; more and smaller blocks;
+better pedestrian accessibility to commercial uses; more evenly distributed mixed land
+uses in the neighborhood; and proximity to operating light rail stations. We also find
+residents are willing to pay less for houses in neighborhoods that are dense, contain more
+commercial, multifamily, and public uses (relative to single-family uses), and contain
+major transportation arterials.</p>
+          <p>When combining these features in composite sketches of new urbanist and traditional
+neighborhoods, we find that homes in a new urbanist neighborhood command an aggregate
+price premium. What is more, we find that this premium more than compensates for
+the severe price discount for the small size of new urbanists lots. Much of the premium
+comes from improvements in internal connectivity that stem from smaller blocks, and
+shorter streets. Some of the premium also stems from lesser external connectivity, or
+greater transport isolation. Some of the premium also comes from pedestrian accessibility
+to commercial uses—even though those uses are not valued in the neighborhood. It is
+dangerous, of course, to generalize from the attributes of a single new urbanist development
+as other developments that could be described as new urbanist could well differ in character
+a great deal from Orenco. But the Orenco example supports previous research that new
+urbanist neighborhoods do provide a price premium.</p>
+          <p>More importantly, our results show that the price premium, or discount, of any particular
+neighborhood depends on the particular design characteristics it has to offer. In short,
+design matters. Further, though the price of a single-family home is difficult to predict,
+the statistical relationships among design characteristics and 48,000 sales observations are
+robust and compelling. Based on market signals, the results suggest that the virtues of
+new urbanist neighborhoods include enhanced internal connectivity, improved pedestrian
+access to commercial uses, better transit access, and less external connectivity. The
+detractions of new urbanist neighborhoods include, higher densities, greater mixture of
+land uses, and smaller lots.</p>
+          <p>We thank Jan Brueckner and two anonymous referees for their remarkable advice. We
+express our appreciation for the support from Lincoln Institute of Land Policy and the US
+Housing and Urban Development Department (HUD). We alone are responsible for any
+remaining errors.</p>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Allen</surname>
+          </string-name>
+          ,
+          <article-title>INDEX: Software for community indicators</article-title>
+          , in: R.K.
+          <string-name>
+            <surname>Brail</surname>
+          </string-name>
+          , R.E. Klosterman (Eds.),
+          <source>Planning Supporting Systems: Integrating Geographic Information Systems, Models, and Visualization Tools</source>
+          , ESRI Press, Redlands, CA,
+          <year>2001</year>
+          , pp.
+          <fpage>229</fpage>
+          -
+          <lpage>261</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <string-name>
+            <surname>American</surname>
+            <given-names>LIVES</given-names>
+          </string-name>
+          Inc. (AL),
+          <article-title>Community preferences: What the buyers really want in design, features, and amenities-A follow-up study to the 1994 shopper and homeowner study and the 1995 New urbanism study</article-title>
+          , Oakland, CA,
+          <year>1999</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Anselin</surname>
+          </string-name>
+          ,
+          <article-title>Spatial econometrics: methods and models</article-title>
+          , in: Operational Regional Science Series, Kluwer Academic, Norwell, MA,
+          <year>1988</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[4] American Planning Association (APA), The principles of smart development</article-title>
+          ,
+          <source>PAS report #479</source>
+          , APA, Chicago, IL,
+          <year>1998</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [5]
+          <string-name>
+            <given-names>P.K.</given-names>
+            <surname>Asabere</surname>
+          </string-name>
+          ,
+          <article-title>The value of a neighborhood street with reference to cul-de-sac</article-title>
+          ,
+          <source>Journal of Real Estate Finance and Economics</source>
+          <volume>3</volume>
+          (
+          <issue>2</issue>
+          ) (
+          <year>1990</year>
+          )
+          <fpage>185</fpage>
+          -
+          <lpage>193</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <given-names>P.K.</given-names>
+            <surname>Asabere</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Hackey</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Grubaugh</surname>
+          </string-name>
+          ,
+          <article-title>Architecture, historic zoning, and the value of homes</article-title>
+          ,
+          <source>Journal of Real Estate Finance and Economics</source>
+          <volume>2</volume>
+          (
+          <year>1989</year>
+          )
+          <fpage>181</fpage>
+          -
+          <lpage>195</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [7]
+          <string-name>
+            <given-names>P.K.</given-names>
+            <surname>Asabere</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F.E.</given-names>
+            <surname>Huffman</surname>
+          </string-name>
+          ,
+          <article-title>Negative and positive impacts of golf course proximity on home prices</article-title>
+          , The Appraisal Journal (
+          <year>October 1996</year>
+          )
+          <fpage>351</fpage>
+          -
+          <lpage>355</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [8]
+          <string-name>
+            <given-names>F.K.</given-names>
+            <surname>Benfield</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.D.</given-names>
+            <surname>Raimi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D.D.</given-names>
+            <surname>Chen</surname>
+          </string-name>
+          ,
+          <article-title>Once there were greenfields: How urban sprawl is undermining America's environment, economy and social fabric</article-title>
+          ,
+          <source>Natural Resources Defense Council</source>
+          ,
+          <year>1999</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <given-names>E.D.</given-names>
+            <surname>Benson</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.L.</given-names>
+            <surname>Hansen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.L.</given-names>
+            <surname>Schwartz</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.T.</given-names>
+            <surname>Smersh</surname>
+          </string-name>
+          ,
+          <article-title>Pricing residential amenities: the value of a view</article-title>
+          ,
+          <source>Journal of Real Estate Finance and Economics</source>
+          <volume>16</volume>
+          (
+          <issue>1</issue>
+          ) (
+          <year>1998</year>
+          )
+          <fpage>55</fpage>
+          -
+          <lpage>73</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [10]
+          <string-name>
+            <given-names>D.R.</given-names>
+            <surname>Bowes</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K.R.</given-names>
+            <surname>Ihlanfeldt</surname>
+          </string-name>
+          ,
+          <article-title>Identifying the impacts of rail transit stations on residential property values</article-title>
+          ,
+          <source>Journal of Urban Economics</source>
+          <volume>50</volume>
+          (
+          <issue>1</issue>
+          ) (
+          <year>2001</year>
+          ) 1-
+          <fpage>25</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Calthorpe</surname>
+          </string-name>
+          , New Urbanism: not perfect, but improving, Available at http://www.pbs.org/newshour/ newurbanism/calthorpe.html,
+          <year>2000</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [12]
+          <string-name>
+            <given-names>T.V.</given-names>
+            <surname>Cao</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D.C.</given-names>
+            <surname>Cory</surname>
+          </string-name>
+          ,
+          <article-title>Mixed land uses, land-use externalities, and residential property values: a re-evaluation</article-title>
+          ,
+          <source>Annals of Regional Science</source>
+          <volume>16</volume>
+          (
+          <year>1981</year>
+          ) 1-
+          <fpage>24</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[13] Congress of New Urbanism, Charter of the new urbanism</article-title>
+          , Available at http://www.cnu.org/cnu_reports/ Charter.pdf,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[14] Congress of New Urbanism</article-title>
+          , The coming demand, Available at http://www.cnu.org/cnu_reports/ Coming_Demand.pdf,
+          <year>2003</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [15]
+          <string-name>
+            <given-names>M.N.</given-names>
+            <surname>DeMers</surname>
+          </string-name>
+          ,
+          <source>Fundamentals of Geographic Information Systems</source>
+          , Wiley, New York,
+          <year>1997</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [16]
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Duany</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Plater-Zyberk</surname>
+          </string-name>
+          ,
+          <article-title>The second coming of the American small town</article-title>
+          ,
+          <source>Plan Canada (May</source>
+          <year>1992</year>
+          )
+          <fpage>6</fpage>
+          -
+          <lpage>13</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [17]
+          <string-name>
+            <given-names>M.J.</given-names>
+            <surname>Eppli</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.C.</given-names>
+            <surname>Tu</surname>
+          </string-name>
+          ,
+          <article-title>Valuing The New Urbanism: The Impact of the New Urbanism On Prices of SingleFamily Homes, ULI-the Urban Land Institute</article-title>
+          , Washington, DC,
+          <year>1999</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [18]
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Frank</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Engelke</surname>
+          </string-name>
+          ,
+          <article-title>The built environment and human activity patterns: Exploring the impacts of urban form on human health</article-title>
+          ,
+          <source>Journal of Planning Literature</source>
+          <volume>16</volume>
+          (
+          <issue>2</issue>
+          ) (
+          <year>2001</year>
+          )
+          <fpage>202</fpage>
+          -
+          <lpage>218</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [19]
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Fulton</surname>
+          </string-name>
+          ,
+          <article-title>The new urbanism challenges conventional planning</article-title>
+          ,
+          <source>Land Lines</source>
+          <volume>8</volume>
+          (
+          <issue>5</issue>
+          ) (
+          <year>September 1996</year>
+          ), http://www.lincolninst.edu/landline/1996/septembr/newurb2.html.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [20]
+          <string-name>
+            <given-names>D.M.</given-names>
+            <surname>Grether</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Mieszkowski</surname>
+          </string-name>
+          ,
+          <article-title>Determinants of real estate values</article-title>
+          ,
+          <source>Journal of Urban Economics</source>
+          <volume>1</volume>
+          (
+          <year>1974</year>
+          )
+          <fpage>127</fpage>
+          -
+          <lpage>146</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [21]
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Grudnitski</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.Q.</given-names>
+            <surname>Do</surname>
+          </string-name>
+          ,
+          <article-title>Adjusting the value of houses located on a golf course</article-title>
+          ,
+          <source>The Appraisal Journal (July</source>
+          <year>1997</year>
+          )
+          <fpage>261</fpage>
+          -
+          <lpage>266</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [22]
+          <string-name>
+            <given-names>R.S.</given-names>
+            <surname>Guttery</surname>
+          </string-name>
+          ,
+          <article-title>The effects of subdivision design on housing values: the case of alleyways</article-title>
+          ,
+          <source>Journal of Planning Education and Research</source>
+          <volume>23</volume>
+          (
+          <issue>3</issue>
+          ) (
+          <year>2002</year>
+          )
+          <fpage>265</fpage>
+          -
+          <lpage>273</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [23]
+          <string-name>
+            <given-names>J.E.</given-names>
+            <surname>Gyourko</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Rybczynski</surname>
+          </string-name>
+          ,
+          <article-title>Financing new urbanism projects: obstacles and solutions</article-title>
+          ,
+          <source>Housing Policy Debate</source>
+          <volume>11</volume>
+          (
+          <issue>3</issue>
+          ) (
+          <year>2000</year>
+          )
+          <fpage>733</fpage>
+          -
+          <lpage>750</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [24]
+          <string-name>
+            <given-names>D.E.</given-names>
+            <surname>Hough</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.G.</given-names>
+            <surname>Kratz</surname>
+          </string-name>
+          ,
+          <article-title>Can “good” architecture meet the market test</article-title>
+          ,
+          <source>Journal of Urban Economics</source>
+          <volume>14</volume>
+          (
+          <year>1983</year>
+          )
+          <fpage>40</fpage>
+          -
+          <lpage>54</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [25]
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Katz</surname>
+          </string-name>
+          , The New Urbanism:
+          <article-title>Toward an Architechture of Community, McGraw-Hill</article-title>
+          , New York,
+          <year>1994</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [26]
+          <string-name>
+            <given-names>G.J.</given-names>
+            <surname>Knaap</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Ding</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>L.D.</given-names>
+            <surname>Hopkins</surname>
+          </string-name>
+          ,
+          <article-title>Do plans matter? Effects of light rail plans on land values in station areas</article-title>
+          ,
+          <source>Journal of Planning Education and Research</source>
+          <volume>21</volume>
+          (
+          <year>2001</year>
+          )
+          <fpage>32</fpage>
+          -
+          <lpage>39</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [27]
+          <string-name>
+            <surname>Metro</surname>
+          </string-name>
+          ,
+          <article-title>The Metro 2040 growth concept</article-title>
+          , Available at http://www.metro-region.org/growth/tfplan/ gconsum.html,
+          <year>1992</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[28] Metro, 2040 regional framework plan and functional plan</article-title>
+          , Available at http://www.metro-region.org/growth/ tfplan/framplan.html,
+          <year>2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [29]
+          <string-name>
+            <given-names>J.C.</given-names>
+            <surname>Moorehouse</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.S.</given-names>
+            <surname>Smith</surname>
+          </string-name>
+          ,
+          <article-title>The market for residential architecture: 19h century row housing in Boston's South End</article-title>
+          ,
+          <source>Journal of Urban Economics</source>
+          <volume>35</volume>
+          (
+          <year>1994</year>
+          )
+          <fpage>267</fpage>
+          -
+          <lpage>277</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [30]
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Myers</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Gearin</surname>
+          </string-name>
+          ,
+          <article-title>Current preferences and future demand for denser residential environments</article-title>
+          ,
+          <source>Housing Policy Debate</source>
+          <volume>12</volume>
+          (
+          <issue>4</issue>
+          ) (
+          <year>2001</year>
+          )
+          <fpage>633</fpage>
+          -
+          <lpage>659</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[31] National Association of Homebuilders (NAO), Smart Growth examples</article-title>
+          , Available at http://www.nahb.com/ smartexamples/menu.htm,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[32] New Urbanism (NU), Creating livable neighborhoods</article-title>
+          , Available at http://www.newurbanism.org,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [33]
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Rajamani</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Handy</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.J.</given-names>
+            <surname>Knaap</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Song</surname>
+          </string-name>
+          ,
+          <article-title>Assessing the impacts of urban form measures in nonwork trip model choices after controlling for demographic and level-of-service effects</article-title>
+          ,
+          <source>Journal of the Transportation Research Board</source>
+          , in press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [34]
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Rosen</surname>
+          </string-name>
+          ,
+          <article-title>Hedonic prices and implicit markets: product differentiation in pure competition</article-title>
+          ,
+          <source>Journal of Political Economy (January</source>
+          <year>1974</year>
+          )
+          <fpage>34</fpage>
+          -
+          <lpage>55</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [35]
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Rybczynski</surname>
+          </string-name>
+          ,
+          <article-title>Some people like new urbanism</article-title>
+          , Wharton Real Estate Review (
+          <year>Fall 1998</year>
+          )
+          <fpage>49</fpage>
+          -
+          <lpage>53</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [36]
+          <string-name>
+            <given-names>Y.</given-names>
+            <surname>Song</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.J.</given-names>
+            <surname>Knaap</surname>
+          </string-name>
+          ,
+          <article-title>Measuring urban form: Is Portland winning the war on sprawl? Journal of American Planning Association</article-title>
+          , in press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [37]
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Southworth</surname>
+          </string-name>
+          ,
+          <article-title>Walkable suburbs? An evaluation of neotraditional communities at the urban edge</article-title>
+          ,
+          <source>Journal of American Planning Association</source>
+          <volume>63</volume>
+          (
+          <year>1997</year>
+          )
+          <fpage>28</fpage>
+          -
+          <lpage>44</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [38]
+          <string-name>
+            <given-names>C.</given-names>
+            <surname>Tu</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.J.</given-names>
+            <surname>Eppli</surname>
+          </string-name>
+          ,
+          <source>Valuing new urbanism: the case of Kentlands, Real Estate Economics</source>
+          <volume>27</volume>
+          (
+          <issue>3</issue>
+          ) (
+          <year>1999</year>
+          )
+          <fpage>453</fpage>
+          -
+          <lpage>473</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [39]
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Turner</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.H.</given-names>
+            <surname>Gardner</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.V.</given-names>
+            <surname>O'Neill</surname>
+          </string-name>
+          ,
+          <source>Landscape Ecology in Theory and Practice: Pattern and Process</source>
+          , Springer-Verlag, New York,
+          <year>2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [40]
+          <string-name>
+            <given-names>K.D.</given-names>
+            <surname>Vandell</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.S.</given-names>
+            <surname>Lane</surname>
+          </string-name>
+          ,
+          <article-title>The economics of architectural and urban design: some preliminary findings</article-title>
+          ,
+          <source>AREUEA Journal</source>
+          <volume>17</volume>
+          (
+          <year>1989</year>
+          )
+          <fpage>235</fpage>
+          -
+          <lpage>260</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

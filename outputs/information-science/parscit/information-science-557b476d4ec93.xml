@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<page confidence="0.999241">
+276
+</page>
+<figureCaption confidence="0.2958365">
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</figureCaption>
+<title confidence="0.8044505">
+The Network Pattern of Journal Knowledge Transfer
+in Library and Information Science in China
+</title>
+<author confidence="0.864512">
+Rongying Zhao* and Shengnan Wu**
+</author>
+<affiliation confidence="0.906275">
+School of Information Management, Wuhan University, Luojiashan, Wuchang,
+</affiliation>
+<address confidence="0.459314">
+Wuhan, Hubei Province, P.R.China, 430072
+</address>
+<email confidence="0.785606">
+*&lt;zhaorongying@126.com&gt;, **&lt;vivian19870220@163.com&gt;
+</email>
+<bodyText confidence="0.9325441875">
+Rongying Zhao has a Ph.D. in information science (2006) and is a professor at the School of Information Management, Wuhan University, Hubei, P.R.China. She teaches knowledge management at the School of Information
+Management of Wuhan. Her research interests are knowledge management, informetrics and scientific evaluation.
+Shengnan Wu is a Ph.D. student at the School of Information Management, Wuhan University, Hubei,
+P.R.China. She has a bachelor’s degree in information management, and has been taking successive postgraduate and doctoral programs of study for doctoral degree since September, 2012. Her research interests are
+knowledge organization, domain analysis, knowledge management, informetrics and altmetrics.
+Zhao, Rongying and Wu, Shengnan. The Network Pattern of Journal Knowledge Transfer in Library and
+Information Science in China. Knowledge Organization. 41(4), 276-287. 16 references.
+Abstract: Using the library and information science journals 2003-2012 in Nanjing University’s Chinese Social
+Sciences Citation Index as data sources, the paper reveals the citation structure implied in these journals by applying social network analysis. Results show that, first, journal knowledge transfer activity in library and information science is frequent, and both the level of knowledge and discipline integration as well as the knowledge
+gap influenced knowledge transfer activity. According to the out-degree and in-degree, journals can be divided
+into three kinds. Second, based on professional bias and citation frequency, the knowledge transfer network
+can be divided into four blocks. With the change of discipline capacity and knowledge gap among journals, the
+“core-periphery” structure of the knowledge transfer network is getting weaker．Finally, regions of the
+knowledge transfer network evolved from a “weak-weak” subgroup to a “strong-weak” subgroup or a “weakstrong” subgroup，and then move to a “strong-strong” subgroup.
+Received: 26 March 2014; Revised: 21 June 2014; Accepted 28 June 2014
+Keywords: knowledge transfer network, journal citation, library and information science, informetrics, China
+</bodyText>
+<sectionHeader confidence="0.976193" genericHeader="abstract">
+1.0 Introduction
+</sectionHeader>
+<bodyText confidence="0.999161326530612">
+In recent years, studies in library and information science
+(LIS) in China have received much attention in theoretical
+research and practical applications, and a lot of achievements have been scored. It is necessary for us to grasp
+the current status of LIS in China and its development
+trends. Domain analysis (DA) as a mature quantitative research method has been applied to many disciplines at
+home and abroad. As a functionalist approach, it attempted to understand the implicit and explicit functions
+of information and communication, and to trace the me-
+chanisms underlying informational behavior from this insight (Hjørland and Albrechtsen 1995). At present, research advances in domain analysis come from many researchers (Smiraglia 2012; Tennis 2003). In the perception of these researchers, the concept of domain refers
+to a field of knowledge, activity, or interest in which certain knowledge is marked with defined limits and whose
+professionals or groups are entangled both in thought
+and in language, generating differentiated thought and interpretations (Freitas et al. 2012). The objects of domain
+analysis not only involve the entire science but also a specific discipline. For example, López-Huertas and Jiménez
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+Contreras (2004) conducted research to give an initial appraisal of research activity in Spain surrounding “knowledge organization” from 1992-2001 by the method of
+DA. And, more remarkable, De la Moneda Corrochano,
+López-Huertas, and Jiménez-Contreras (2013) conducted
+a similar study to analyze Spanish research in knowledge
+organization from 2002 to 2010 with the method of DA.
+When assessing scientific output in a special field, the
+most usual approach is to collect the literature. Literature
+is an essential source of information in scientific research. The reason why human knowledge can be passed
+on for generations mainly lies in the citation practices in
+scientific literature, where old literature transfers intelligence into new literature. The references or citations between scientific literatures not only reveal the accumulation, continuity and succession of scientific knowledge
+but also indicate the presence of knowledge transfer.
+Thus it is feasible and meaningful to make use of the citation relationship to study knowledge transfer. In scientific research, scholars tend to take academic journals as
+the first choice to publish their newfound knowledge,
+laws, theories, or methods. Because of the short diffusion
+cycle, huge capacity and other reasons unmentioned, academic journals are gradually becoming the major agents
+of scientific knowledge transfer. Therefore, to better study the feature and pattern of knowledge transfer in the
+field of library and information science in China, we chose
+the citation network of journals in library and information science as our research object.
+In China, the discipline of library and information science is often regarded as two disciplines. Those two disciplines share dissimilarities as well as commonalities, so
+an interesting question is how knowledge in these two
+disciplines is transferred from one to the other. Citation
+can be seen as a kind of knowledge transfer. Human
+knowledge can be passed on for generations through citations in and between scientific literatures. What’s more, a
+ten-year period is long enough to allow us to observe
+some of the evolution of one subject. Knowledge organization is a field whose boundaries are not always
+clearly defined; rather, it stands as a broad concept.
+Therefore we believe the activity of knowledge transfer is
+included in the domain of knowledge organization.
+Moreover, the purpose of knowledge organization is to
+accelerate knowledge communication as well as knowledge innovation, and knowledge transfer is a good way to
+achieve knowledge communication and knowledge innovation. This kind of study can help to accelerate knowledge communication and knowledge organization as well
+as the development of library and information science.
+The study of the history of the citation relationship can
+be traced back to the occurrence of concepts like citation
+identity and citation image. After White (1998, 2001) pro-
+</bodyText>
+<page confidence="0.992114">
+277
+</page>
+<bodyText confidence="0.99882184">
+posed citation image and citation identity, many scholars
+became committed to similar research. BonnevieNebelong and Frandsen (2006) introduced the concepts of
+citation image and citation identity to the process of journal assessment and analysis and then put forward the notions of journal citation image and journal citation identity.
+Since then, related research studying journals has sprung
+up; but it has been found that most studies still concentrate
+on citation itself, such as citation indicators, citation characteristics, and citation styles (Bonnevie-Nebelong 2006;
+Fangli 2013) but pay little attention to the knowledge transfer and knowledge communication behind the journalciting activity. In fact, citation image and citation identity
+can be regarded as two aspects of the citation relationship;
+only when the two are combined can we see the panorama
+of citation and further understand the knowledge transfer
+process and the growing and maturing of a subject revealed in a citation network. By building journal citation
+networks at different times and applying social network
+analysis (SNA), we investigate the changes in the centrality
+and the roles of citation networks of journals in library
+and information science in China at different times to dig
+deeper into the knowledge transfer pattern and traits of
+this field. We also utilize the associations generated by
+journal citation networks to calculate the knowledge transfer ratio of journals in library and information science in
+China to professionally similar journals and draw corresponding knowledge maps. We then summarize the pattern
+of journal knowledge transfer in library and information
+science in China in the hope of providing a basis for the
+formulation of corresponding knowledge transfer policy in
+this field.
+In this article we present a systematic and visual domain analysis of the LIS field in China in terms of citation networks to explore the knowledge transfer evolution of this knowledge domain over time. The objectives
+of this study are:
+</bodyText>
+<listItem confidence="0.789539875">
+– to examine the character of journals involved in the
+field of LIS in China in terms of knowledge input and
+output;
+– to study the block traits of journal knowledge transfer
+networks for identifying the knowledge transfer evolution of the field of LIS in China; and,
+– to detect the journal knowledge transfer model of the
+LIS field in China.
+2.0 Data and methods
+</listItem>
+<subsectionHeader confidence="0.834237">
+2.1 Data
+</subsectionHeader>
+<bodyText confidence="0.84718025">
+At present there are approximately 70 journals in library
+and information science in China, and there is no consen-
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</bodyText>
+<page confidence="0.986199">
+278
+</page>
+<figure confidence="0.686924260869565">
+No
+1
+2
+3
+No
+9
+10
+11
+Journal Title
+Library Theory and Practice - LTP
+Library Tribune - LT
+Library Journal - LJ
+12
+Library and Information Service - LIS
+5
+6
+Journal Title
+Journal of Academic Libraries - JAL
+Information Science - IS
+InformationStudies:Theory&amp;Application - ITA
+Journal of The China Society For Scientific and Technical Information - JCSSTI
+Journal of Information - JI
+Information and Documentation Services - IDS
+</figure>
+<page confidence="0.897158333333333">
+13
+14
+7
+</page>
+<figure confidence="0.6115889">
+Library
+15
+8
+Library Work and Study - LWS
+16
+Document, Information&amp;Knowledge - DIK
+Library and Information - LI
+New Technology of Library and Information Service
+- NTLIS
+Journal of Library Science In China - JLSIC
+</figure>
+<page confidence="0.936029">
+4
+</page>
+<tableCaption confidence="0.697751">
+Table 1. 16 core LIS journals in China
+</tableCaption>
+<bodyText confidence="0.99780184375">
+sus on which journals are the core periodical group in this
+field. The relatively authoritative journals are what have
+been included in Nanjing University’s Chinese Social Sciences
+Citation Index (CSSCI), and these are also the criteria used
+by most colleges and scientific research institutions to
+evaluate talent. So based on CSSCI, we chose 16 journals
+as the objects of study (see Table 1, we use the abbreviatied journal titles in the tables and figures that follow).
+Meanwhile, we take the reference database in CSSCI as a
+data source to retrieve the citation data of these 16 journals. To obtain a better grasp on the knowledge transfer
+condition in library and information science, we set a relatively long study period (2003-2012) out of the consideration that a long study period would reveal more accurately
+the variation of citation patterns in library and information
+science, from which we can find the traits of knowledge
+transfer. At the same time, to eliminate the impact of negative factors, our research divides the data into two phases:
+2003-2007 and 2008-2012, so the five-year data can more
+accurately show the citation relationships of journals.
+The initial data set from the database is more than
+25000, and the research employs our self-made VBA
+program to calculate how many times the journals are
+cross-cited and construct a journal cross-citation matrix.
+More details are shown in Figures and 2. The rows in the
+matrix are the citing journals, and the columns are the
+cited journals. The establishment of the journals’ citation
+matrix is also an embodiment of mutual knowledge
+transfer to some extent. When journal cross-citation is
+drawn in a network chart, a directed weight map forms.
+In this map, network nodes represent journals; sides represent the citation and reference relationship between the
+journals; the weight of each side represents the citation
+and reference frequency; the direction of the sides points
+from citing journals to the cited journals. In the figure, citation relationship is basically from citing journals to the
+cited journals, while the knowledge flow is just the opposite. However, the differences of citation frequency determine the differences of the knowledge transfer level.
+The more times papers are cited, the more knowledge
+flows out, and vice versa.
+</bodyText>
+<subsectionHeader confidence="0.998365">
+2.2 Research methodology
+</subsectionHeader>
+<bodyText confidence="0.998885454545455">
+Social network analysis (SNA) is a set of theories and
+methods which can analyze the structure and properties of
+various relations in the social network. It mainly analyzes
+the relation schema among actors and this method has
+been proved to be valid when applied to research on citation relationships (Yuanyuan and Qinghua 2008). We use
+SNA to systematically analyze the citation network of
+journals in library and information science in China; this
+mainly involves two levels, the properties of the whole
+network and the roles and locations of network nodes.
+This process would be conducted using UCINET’s network analysis tools. Specifically, the process consists of the
+aspects described below.
+</bodyText>
+<subsubsectionHeader confidence="0.973299">
+2.2.1 Centrality analysis
+</subsubsectionHeader>
+<bodyText confidence="0.869978416666667">
+Centrality measures power in the network. We can measure with the indexes of centrality and central potential.
+Centrality measures the extent to which members are in
+the network’s center; the degree of centrality is the most
+commonly used and in the topology network it represents the number of members who are directly connected to the chosen member while in the weighted network it represents the sum of edge weights directly connected to this member. Central potential measures the
+centralized degree of the whole network; the higher the
+central potential is the more concentrated the internet
+connections are on fewer nodes (Fengchao and Rongking
+2013). Because we are investigating a directed network,
+both centrality and central potential can be divided into
+out-degree and in-degree.
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</bodyText>
+<subsubsectionHeader confidence="0.69188">
+2.2.2 Block model analysis
+</subsubsectionHeader>
+<bodyText confidence="0.99941675">
+The notion of location is an essential notion which discusses the analysis of network structure. It mainly describes the location of nodes in the network and the interaction they have with other nodes. Block model analysis
+places similar nodes in a block according to equivalence in
+structure in order to simplify the complicated relationship
+between network nodes into the relationship between
+blocks (Liu 2009). Block model analysis usually consists of
+two-sided information: a) the nodes in the network which
+are divided into specific subsets are the locations; b) for
+each pair of locations, the existence or vacancy of links
+within or between locations reveals the relationship. Block
+models can simplify the complicated networks and then
+explain the network structure (Lin 2009). We can use the
+CONCOR program in the software UNINET to analyze
+the block model and the analysis result is the density of
+block models. We can further simplify the results of the
+block model into a matrix so as to briefly describe the
+block features of network structure.
+</bodyText>
+<sectionHeader confidence="0.796355" genericHeader="categories and subject descriptors">
+3.0 Results and Analysis
+</sectionHeader>
+<subsectionHeader confidence="0.997153">
+3.1 The characteristics of journals
+</subsectionHeader>
+<bodyText confidence="0.999540894736842">
+We use the UCINET software to calculate the centrality of
+the journal citation network in library and information science in China during the periods of 2003-2007 and 20082012. The exact results are shown in Figures 1 and 2.
+In Figures 1 and 2, in-degree represents knowledge
+input, and out-degree represents knowledge output.
+From the perspective of knowledge output, Journal of Library Science in China has always been in the leading position and reveals the professional strength of Chinese
+academic journals of library science. As a significant
+knowledge source in the field of library and information
+science, Journal of Library Science in China has provided
+crucial technical support for the evolution of library and
+information science and development of other journals.
+Comparing Figure 1 with Figure 2, we can find that Library and Information Service gradually dominates knowledge output because of its huge number of published
+papers but also its strong ability to absorb knowledge. Library and Information Service is both an essential knowledge
+output and vital for knowledge absorption in the field of
+library and information science, thus it is the core and the
+bond in the whole knowledge transfer process of library
+and information science. We can also conclude that each
+journal’s different numerical values of out-degree and indegree give rise to the knowledge potential difference. By
+the dimension of knowledge potential difference, we can
+divide the journals in library and information science into
+</bodyText>
+<page confidence="0.992751">
+279
+</page>
+<bodyText confidence="0.993433428571429">
+three categories: knowledge output-based journals, knowledge-sucking journals and knowledge balanced journals.
+Journal of Library Science, Journal of the China Society for Scientific and Technical Information, Journal of Academic Libraries,
+and New Technology of Library and Information Service are all
+knowledge output-based journals; they output more
+knowledge than they input. This demonstrates their authority in the field of library and information science. As
+knowledge output-based journals, they usually publish the
+most cutting-edge or up-to-date articles in aspects such as
+research contents and research methods. In general, highlevel research achievements will have more opportunities
+to be cited. However, Information Science, Journal of Information, Information and Documentation Service, Library Work and
+Study, and Library Tribune have maintained their positions
+as knowledge absorbers during the period 2003-2012. As
+knowledge-sucking journals, they publish research results,
+which take the research achievements in knowledge output-based journals much further and have relatively narrower intellectual vanity and better relative independence
+(closure); so it also means less impact on other journals.
+Document, Information &amp; Knowledge, Library Journal, Library
+and Information Service, and Library &amp; Information are
+viewed as equation-type journals for the positive and
+negative value of their potential difference changes little.
+Apart from Library Journal, Document, Information &amp; Knowledge, Library and Information Service, and Library &amp; Information involve both the disciplines of library science and informatics judging from their names. Knowledge in the
+field of library and information science realizes their intersection and mutual complementation and referencing
+in the subgroups of these journals. It is their positive interactions that lead other journals to advocate this field’s
+development. There also exist some journals whose types
+vary a lot, such as Library Theory and Practice, Library and
+Library and Information Studies: Theory &amp; Application. Library
+Theory and Practice changes from a knowledge-sucking
+journal into a knowledge output-based journal; Library
+turns from a knowledge balanced journal into a knowledge-sucking journal; Library and Information Studies: Theory
+&amp; Application varies from a knowledge output-based
+journal into a knowledge-sucking journal. After analysis,
+we find that it is perhaps related to the forwardness, creativity and disciplinary expansibility of the published articles. These journals should not only keep their advantages of academic styles and traits, but also publish more
+articles that are forward-looking and that have discipline
+integration in order to expand their influence.
+To sum up, the gap between knowledge strength and
+discipline integration causes the relatively big difference
+in each journal’s status in the knowledge transfer network. Journals with strong knowledge strength and discipline integration output knowledge constantly and absorb
+</bodyText>
+<page confidence="0.984393">
+280
+</page>
+<figureCaption confidence="0.892666333333333">
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+Figure 1. The degree centrality in the knowledge transfer network of library and information science journals from
+2003 to 2007
+Figure 2. The degree centrality in the knowledge transfer network of library and information science journals from
+2008 to 2012
+</figureCaption>
+<bodyText confidence="0.9705104">
+external knowledge to maintain their own strength. But
+journals with weak knowledge strength and discipline integration mainly gain resources by absorbing knowledge;
+because the field of articles they publish is narrow and
+not forward-looking, these journals do not have much
+progress in their knowledge output ability.
+</bodyText>
+<subsectionHeader confidence="0.933505">
+3.2 The blocks’ traits in the knowledge transfer network
+</subsectionHeader>
+<bodyText confidence="0.8500402">
+When establishing the cross-citation matrix in journals,
+we will find the relationship between knowledge output
+and knowledge absorption in journals of library and information science. We use the CONCOR procedure in
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</bodyText>
+<page confidence="0.984699">
+281
+</page>
+<figureCaption confidence="0.999998">
+Figure 3. The partitioning results from 2003 to 2007
+Figure 4. The partitioning results from 2008 to 2012
+</figureCaption>
+<bodyText confidence="0.9202688">
+UCINET to produce the partitioning results of the journal cross-citation knowledge transfer network during the
+periods of 2003-2007 and 2008-2012. Considering that
+we are studying the structural equivalence of citing and
+cited activity between journals, we take no account of
+journals’ self-citation, which means that there is no value
+of diagonal lines in the calculating process. The results
+are shown in Figures 3 and 4; Tables 2 and 3 are respectively the patch density matrix in the periods of 20032007 and 2008-2012 (because we are studying weighted
+networks, the density is more than 1.)
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</bodyText>
+<page confidence="0.8893">
+282
+</page>
+<figure confidence="0.982652222222222">
+1
+2
+3
+4
+1
+2
+153.000
+83.600
+226.200
+224.600
+345.000
+346.600
+286.429
+119.343
+2
+R =0.418
+3
+4
+47.000
+62.071
+135.900
+67.886
+183.500
+129.357
+95.857
+131.762
+density = 144.8958
+Table 2. The patch density matrix from 2003 to 2007
+1
+2
+3
+4
+1
+2
+88.833
+77.733
+273.133
+334.050
+148.333
+186.900
+82.167
+79.600
+R2=0.462
+3
+4
+27.833
+36.583
+108.300
+129.400
+169.833
+186.750
+71.250
+84.000
+density = 138.6417
+</figure>
+<tableCaption confidence="0.991284">
+Table 3. The patch density matrix from 2008 to 2012
+</tableCaption>
+<bodyText confidence="0.987899">
+After comparing the density of block matrix tables with
+that of the cross-citation network during the two periods,
+we can simplify the figures above into the following matrices.
+</bodyText>
+<figure confidence="0.99522852">
+Block
+1
+2
+3
+4
+1
+1
+1
+1
+1
+2
+0
+1
+1
+0
+3
+0
+0
+1
+0
+4
+0
+0
+0
+0
+</figure>
+<tableCaption confidence="0.583955">
+Table 4. The matrix of the cross-citation journal knowledge
+</tableCaption>
+<figure confidence="0.990005807692308">
+transfer network from 2003 to 2007
+Block
+1
+2
+3
+4
+1
+0
+1
+1
+0
+2
+0
+1
+1
+0
+3
+0
+0
+1
+0
+4
+0
+0
+1
+0
+</figure>
+<tableCaption confidence="0.978678">
+Table 5. The matrix of the cross-citation journal knowledge
+</tableCaption>
+<bodyText confidence="0.99283575">
+transfer network from 2008 to 2012
+According to Figures 3 and 4, we find that the knowledge
+transfer networks of cross-citation in journals during
+2003-2006 and 2008-2012 are both divided into 4 blocks.
+Based on the relationship between blocks, we can divide
+the blocks into a core block, a strong edge block, a weak
+edge block and a periphery block (Gao X et al.2011).
+According to Figures 3 and 4, the networks of journal
+cross-citation knowledge transfer during periods of 20032007 and 2008-2012 are clustered based on both professional bias and citation frequency. From the aspect of professional bias, we divide the journals into library science
+journals and informatics journals, and then further divide
+them based on citation condition, although there also exist
+exceptional cases. For instance, judging from their names,
+Information and Documentation Services and Journal of Library
+Science in China in Figure 3 should belong to informatics
+and library science respectively, the partitioning results are
+just the opposite; this phenomenon is principally due to
+the professional bias of articles in the two journals.
+Combining the four tables, our research points to further analysis. From 2003 to 2007, the first block including
+Journal of Library Science in China and Journal of Academic Libraries belongs to the core block of the network. It outputs
+knowledge to the second and third block of informatics
+and the fourth block of library science, while it sucks
+knowledge merely through its interior communication.
+From this we can see its core status. From 2003 to 2007,
+informatics had just sprung up and was not mature, so it
+was eager to refer to its brother disciplines and suck
+knowledge to develop itself. It well explains why journals
+in block 1 transfer large sums of knowledge to the journals
+in blocks 2 and 3. Block 2 consists of Journal of The China
+Society for Scientific and Technical Information, New Technology of
+Library and Information Service and other journals of informatics. Block 2 is not only closely tied to journals in block
+1, but also transfers knowledge to informatics journals in
+the third block. So the second block is a strong-edge block.
+Journal of Information and Information and Documentation Services are in block 3, and these journals mainly suck knowledge from others and have tight connections with the core
+block and the strong edge block; these journals belong to a
+weak-edge block. The fourth block contains many library
+science journals such as Library Tribune and Library Journal,
+and this block only absorbs knowledge of its own discipline and never communicates with informatics journals.
+So block 4 belongs to a periphery block.
+From 2008 to 2012, the value of R2 of the block model
+for the journal citation knowledge transfer network increased to 0.462 from 0.418; the number of nodes which
+have similar structure in the network decreased slightly and
+the blocks’ traits became more and more obvious. During
+that period, Journal of Library Science in China, Journal of The
+China Society for Scientific and Technical Information, and New
+Technology of Library and Information Service were assigned to
+the same block. It outputs knowledge to the second block,
+to which the journals of informatics belong, and the third
+block where the journals of library science are, respectively.
+Thus, it becomes the core block of the knowledge transfer
+network at this time. However, the second block includes a
+lot of journals of informatics. It not only maintains close
+relationship with the core block, but also outputs knowledge to the third block where the journals of library science are. Thus, it is called a strong-edge block. Going further, the journals in the two blocks all belong to informatics, excluding Journal of Library Science in China. This indi-
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+cates that the journals of informatics act as the knowledge
+source of library science and informatics. From 2008 to
+2012, the development of science and the progress in
+computer technology provide an opportunity for the study
+of informatics; informatics becomes mature as a science
+gradually, getting rid of the restraints of the library science
+knowledge and developing into a subject which needs
+strong theory and practice. But after long term development of library science, its research approaches a bottleneck. So it needs to refer to the related theories, methods,
+and technology in informatics urgently to make a breakthrough. Thus, it heavily cites related studies of informatics. But as the leading journal in the field of library science,
+Journal of Library Science in China also follows the needs of
+the subject’s development and carries a lot of articles
+which have a strong fusion of disciplines; its professional
+bias inclines to informatics science gradually. That’s why it
+is assigned to the same block with the other two journals of informatics. Journals in the third block not only
+have a close relationship with core block journals and
+strong-edge block journals, but also absorb substantial
+knowledge in the fourth block. Knowledge exchanging activities are frequent. Thus, it is called a weak-edge block.
+However, the fourth block where a lot of journals of library science are, just transfers knowledge from the weakedge block. So it is isolated gradually and belongs to the
+periphery block.
+According to the matrix of the journal cross-citation
+knowledge transfer network during the periods of 20032007 and 2008-2012, we can draw the related simplified
+diagram which is shown in Figure 5.
+</bodyText>
+<page confidence="0.990992">
+283
+</page>
+<bodyText confidence="0.987450944444444">
+From Figure 5, we find that from 2003 to 2007, the
+blocks’ traits in the journal cross-citation knowledge
+transfer network are obvious and the core-periphery
+structure whose core is the first block is formed. Further
+analysis reveals that journals in block 1 and block 4 are library science journals, while those in block 2 and block 3
+are informatics journals. During this period, library science has more professional strength and develops quickly.
+The professional strength of informatics is comparatively
+relatively weaker. In order to develop and grow, knowledge transfer and knowledge communication within informatics can no longer satisfy the need. So they seek
+large quantities of cutting-edge and essential knowledge
+in library science journals. For specific performance, informatics journals in block 2 and block 3 absorb knowledge in block 1, where most authoritative journals in library science lie. At this time, block 1 can be viewed as
+the knowledge source of the whole knowledge transfer
+network and effectively annexes the knowledge authority
+status in the network. According to the simplified block
+figure of the knowledge transfer network during the period of 2008 to 2012, the status and roles of blocks 2 and
+1 gradually converge, and the traits of the core-periphery
+structure of the journals’ network transfer network wear
+off. During this time, the development of technology, especially the growth of computer technology, offers further opportunities for informatics to advance. The professional power of the subject strengthens. On the contrary, library science comes across adversity and traditional research finds it hard to meet the requirements of
+a new epoch. At this moment, it is imperative for it to re-
+</bodyText>
+<figureCaption confidence="0.678005">
+Figure 5. The simplified block figure of library and information science journals’ knowledge transfer
+</figureCaption>
+<bodyText confidence="0.830442">
+network during the periods of 2003-2007 and 2008-2012
+</bodyText>
+<page confidence="0.994833">
+284
+</page>
+<bodyText confidence="0.983124545454546">
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+ference the advanced technologies and research methods
+in informatics in order to make a breakthrough. Thus
+blocks 1 and 2 where informatics journals lie can be regarded as the knowledge source of the entire knowledge
+transfer network. In sum, with the alternations of the
+professional strengths of the disciplines, the knowledge
+gap and the interactive model among journals changes
+with it. Thus the hierarchical structure of the knowledge
+transfer network of cross-citation in library and information science journals evolves towards a fuzzy core structure and a distinct periphery structure.
+4.0 Discussion: the analysis of the pattern of
+journal knowledge transfer in library and
+information science
+According to the structure of the network of journal
+knowledge transfer in library and information science, the
+knowledge power and discipline integration force of a
+journal determine their intensity of knowledge supply and
+demand and further determine their roles in the network;
+the gap between the professional powers of the journals’
+subjects decides their choice of the objects of knowledge
+supply and demand, and further decides the interactive
+model of knowledge transfer. According to the block traits
+of the network of journal knowledge transfer in library
+and information science, we find that the knowledge transfer network of the two periods of 2003-2007 and 20082012 can both be divided into four blocks, and these four
+blocks are all divided by the two dimensions of professional bias and citation frequency. To be specific, journals
+in two blocks belong to library science and journals in the
+other two blocks belong to informatics. At the same time,
+the journals in the same discipline are divided into two
+blocks by reference conditions. Thus the relationships between blocks are of two kinds, which are respectively the
+professionally close block and professionally distant block.
+We set blocks as the X-axis and the power of professionally close blocks as the Y-axis; knowledge power increases
+with the direction of the arrow. By recognizing the traits
+of knowledge input and output among the blocks, we construct the pattern of journal knowledge transfer in library
+</bodyText>
+<figureCaption confidence="0.9281754">
+and information science. The detailed process is shown in
+Figure 6.
+Figure 6. The pattern of journal cross-citation knowledge transfer in library and information science
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+</figureCaption>
+<bodyText confidence="0.998251282051282">
+According to Figure 4, when the power of journals in
+a certain block and its professionally close block are comparatively weak, that is to say, the power of the discipline
+where the two blocks’ journals lie is weak, their knowledge gap is narrow; thus they can be viewed as weakweak subgroups. In this situation, the blocks have to take
+advantage of the convenience of their close disciplines
+and output knowledge to the professionally close blocks
+with a platform of citing activity. In order to maintain
+their own power, this process will merely be realized by
+knowledge transfer within the blocks. At the same time,
+for their own development as well as that of the whole
+discipline, journals in this block have to overcome professional restrictions and cite articles from professionally
+distant journals to absorb knowledge needed from professionally distant blocks whose professional power is
+stronger in order to promote their knowledge power.
+During the period of 2003 to 2007, informatics journals
+reveal this condition and block 2 is a typical example. According to Figure 3, it can be seen clearly that block 2 is
+outputting knowledge to block 3, which is professionally
+close. While the self-communication in block 2 is frequent and it sucks knowledge from the professionally distant block, block 1, whose disciplinary power is stronger
+in order to promote its own power.
+As time goes on, if the knowledge transfer activity and
+methods above promote the development of journals in
+the block, while the power of professionally close blocks
+has little promotion and remains relatively weak, the gap
+between the block and its professionally close block further
+widens. Thus this can be viewed as a strong-weak subgroup. At this time, the block improves itself by interior
+knowledge transfer activity and outputs large quantities of
+knowledge to professionally close blocks. This shows that
+journals in the block develop well and have already formed
+superior academic strengths and academic styles; they have
+relatively independent knowledge transfer patterns. In this
+condition, it has already overcome its professional restrictions and the professionally distant blocks make full use of
+citations to make knowledge connections with it. The
+power of the discipline the journals lie in is the main factor
+affecting the pattern of knowledge transfer. From 2003 to
+2007, journals in block 1 belong to this condition. The
+technical power of block 1 far surpasses that of its professionally close block, block 4; block 1 primarily communicates and transfers knowledge with professionally distant
+blocks. This is specifically expressed as the phenomenon
+that journals in block 2 and block 3 cite mass information
+in block 1. So we can deduce that block 1 is in the knowledge authority status in the journal cross-citation knowledge transfer network.
+If the knowledge power of a block professionally
+close to a certain other block rises fast while its own
+</bodyText>
+<page confidence="0.969797">
+285
+</page>
+<bodyText confidence="0.999697173913044">
+knowledge strength is still in a bad situation, that is to say,
+the knowledge potential difference is big, these blocks
+make up the weak-strong subgroup. In this condition, the
+block will make full use of the advantage of close professions and suck knowledge from professionally close
+blocks by citation. However, the knowledge supplied by
+professionally close blocks is limited in the weak-strong
+subgroup and its needs cannot be fully met. So the block
+would absorb mass knowledge from professionally distant blocks in order to satisfy its needs and gain improvements at the same time. In this case, knowledge
+demand and the discipline’s development are the main
+factors affecting knowledge transfer. The blocks where
+journals of library science lie belong to this subgroup.
+If the power of the discipline where the journals of the
+block lie strengthens a lot, the knowledge power of the
+block and that of its professionally close block will also increase. So the knowledge potential difference narrows and
+these blocks form the strong-strong subgroup. At this
+time, the block will use the advantage of close professions
+to transfer knowledge to professionally distant blocks by
+discipline superiority. Different from the strong-weak subgroup, where a certain block occupies knowledge authority
+status, the roles and status of a certain block and its professionally close block in the strong-strong subgroup
+gradually converge, so cohesion subgroups of knowledge
+transfer who have favorable interaction form. Informatics
+journals in blocks 2 and 3 during the period of 2008 to
+2012 belong to this kind of subgroup.
+</bodyText>
+<sectionHeader confidence="0.623702" genericHeader="conclusions">
+5.0 Conclusion
+</sectionHeader>
+<bodyText confidence="0.999755470588235">
+We used the cross-citation data of journals in library and
+information science in CSSCI to analyze the network
+structure and pattern of knowledge transfer network in
+library and information science based on journal crosscitation. And we reach the following conclusions.
+From the aspect of the structure of the journal crosscitation knowledge transfer network in library and information science in China, we can see that journals’ knowledge transfer activity is frequent. The knowledge
+strength, the force of discipline integration and the
+knowledge gap between journals all affect the interactive
+model of knowledge transfer. From the out-degree and
+in-degree of the nodes in the network, journals in library
+and information science can be divided into knowledge
+output-based journals, knowledge sucking journals, and
+knowledge balanced journals. Knowledge output-based
+journals usually publish plentiful articles with hot topics
+by strong pioneers so the chances for them to be cited
+are abundant and their knowledge power and discipline
+integration are superior. Articles in knowledge-sucking
+journals are less specialized and have little impact on
+</bodyText>
+<page confidence="0.985716">
+286
+</page>
+<bodyText confidence="0.98914632">
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+other journals. Knowledge-balanced journals are always
+the junctions of knowledge; they realize the supplement
+and reference of discipline knowledge and their active interaction promotes the rapid development of disciplines.
+Comparing the data from 2003 to 2007 and that from
+2008 to 2012, we find that these types of journals remain
+relatively stable though small variations exist.
+According to the blocks’ traits in the journal crosscitation knowledge transfer network in library and information science in China, the websites during the periods
+of 2003-2007 and 2008-2012 are all divided into four
+blocks by professional bias and citations, which are respectively the core block, the strong-edge block, the
+weak-edge block and the periphery block. From 2003 to
+2007, the power of library science was strong, so the
+block where its authoritative journals lie was cited a lot
+and effectively annexed the status of knowledge authority. During this period, the network of journal crosscitation knowledge transfer in library and information
+science in China reveals the core-periphery structure.
+From 2008 to 2012, informatics developed rapidly and library science got stuck. The block in which journals of
+informatics lie replaced the core status of library science
+and became the knowledge source in the field of library
+and information science. During this time, the status and
+roles of the two blocks where journals of informatics lie
+gradually converged, and the core-periphery structure of
+the entire network was weakened. This shows that with
+the exchange of professional power the knowledge gap
+and interactive model will change accordingly. Thus the
+hierarchical structure of the knowledge transfer network
+of cross-citation in library and information science journals in China evolves towards a fuzzy core structure and a
+distinct periphery structure.
+Based on the traits of nodes and blocks in the network of journal cross-citation knowledge transfer in library and information sciencein China, we construct the
+pattern of its knowledge transfer. The knowledge transfer activity of journals of library and information science
+shows the evolving tendency from weak-weak subgroups
+to weak-strong or strong-weak subgroups and finally into
+strong-strong subgroups. The blocks should grasp their
+own developing condition, and prompt the formation of
+knowledge transfer cohesive subgroups which have good
+interaction.
+At present, it is still a brand new idea to study the
+process of knowledge transfer by cross-citation. It shares
+many similarities with citation identity and citation image
+so they can learn from each other. In this paper we have
+tried to serve as a modest spur to induce someone to
+come forward with other, related valuable contributions.
+We based our research on the citation environment of
+CSSCI, so the results of analysis might have certain limi-
+tations. We hope that follow-up research can show more
+comprehensive, intuitional and dynamic journal knowledge transfer activity by collecting more intact journals’
+citation information in library and information science
+and applying multiple analysis methods, so as to provide
+more sufficient and valuable information for the academic circle (periodicals circles, scholars, institutions, etc.)
+of library and information science.
+</bodyText>
+<sectionHeader confidence="0.99109" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.998737725">
+Bonnevie-Nebelong, Ellen. 2006. Methods for journal
+evaluation: journal citation identity, journal citation image and internationalization. Scientometrics 66: 411-24.
+Bonnevie-Nebelong, Ellen and Frandsen, Tove Faber.
+2006. Journal citation identity and journal citation image: a portrait of the journal of documentation. Journal
+of documentation 62: 30-57.
+De la Moneda Corrochano, Mercedes, López-Huertas,
+María J. and Jiménez-Contreras, Evaristo. Spanish research in knowledge organization (2002-2010). Knowledge organization 40: 28-41.
+Fangli, Su. 2013. The demonstration of journals’ citation
+identity and citation image. Information studies: theory &amp;
+application 36 no. 5: 92-7.
+Fengchao, Liu and Rongkang, Ma. 2013. The research on
+network structure and space distribution traits of inter-regional technology transfer: based on the analysis
+of contracts in inter-provincial from 2006 to 2010.
+Studies in science of science 31 no. 4：529-36.
+Freitas, Juliana Lazzarotto, Gabriel Junior, Rene Faustino
+and Bufrem, Leilah Santiago. Theoretical approximations between Brazilian and Spanish authors’ production in the field of knowledge organization in the production of journals on information science in Brazil.
+Knowledge organization 39: 216-23.
+Gao, Xia, Guan, Jiancheng and Rousseau, Ronald. 2011.
+Mapping collaborative knowledge production in China
+using patent co-inventorships. Scientometrics 88: 343-62．
+Hjørland, Birger and Albrechtsen, Hanne. 1995. Toward a
+new horizon in information science: domain-analysis.
+Journal of the American Society for Information Science 46:
+400-25.
+Jun, Liu.2009. The printed lecture of whole network: practical
+guidelines for UCINET. Shanghai: Gezhi press.
+Juren, Lin. 2009. Analysis of social network: theories, methods
+and application. Beijing, Beijing Normal University
+Press.
+López-Huertas, María and Jiménez Contreras, Evaristo.
+2004. Spanish research in knowledge organization
+(1992-2001). Knowledge organization 31: 136-50.
+Smiraglia, Richard P. 2012. Epistemology of domain analysis. In Smiraglia, Richard P. and Lee, Hur-Li, eds.,
+Knowl. Org. 41(2014)No.4
+R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China
+Cultural frames of knowledge. Würzburg: Ergon Verlag,
+pp. 111-24.
+Tennis, Joseph T. 2003. Two axes of domains for domain
+analysis. Knowledge organization 30: 191- 95.
+White, Howard D. 2001. Authors as citers over time. Journal of the American Society for Information Science and Technology 52: 87-108．
+</reference>
+<page confidence="0.932241">
+287
+</page>
+<reference confidence="0.946928777777778">
+White, Howard D. and McCain, Katherine W. 1998. Visualizing a discipline: an author co-citation analysis of
+information science. Journal of the American Society for
+Information Science 49: 327-55.
+Yuanyuan, Xu and Qinghua, Zhu. 2008. The appliance of
+SNA in citation analysis. Information studies: theory &amp; application 31 no. 2: 184-88.
+Copyright of Knowledge Organization is the property of Ergon Verlag GmbH and its content
+may not be copied or emailed to multiple sites or posted to a listserv without the copyright
+holder&apos;s express written permission. However, users may print, download, or email articles for
+individual use.
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Ellen Bonnevie-Nebelong</author>
+</authors>
+<title>Methods for journal evaluation: journal citation identity, journal citation image and internationalization.</title>
+<date>2006</date>
+<journal>Scientometrics</journal>
+<volume>66</volume>
+<pages>411--24</pages>
+<contexts>
+<context position="7463" citStr="Bonnevie-Nebelong 2006" startWordPosition="1082" endWordPosition="1083">itation image. After White (1998, 2001) pro277 posed citation image and citation identity, many scholars became committed to similar research. BonnevieNebelong and Frandsen (2006) introduced the concepts of citation image and citation identity to the process of journal assessment and analysis and then put forward the notions of journal citation image and journal citation identity. Since then, related research studying journals has sprung up; but it has been found that most studies still concentrate on citation itself, such as citation indicators, citation characteristics, and citation styles (Bonnevie-Nebelong 2006; Fangli 2013) but pay little attention to the knowledge transfer and knowledge communication behind the journalciting activity. In fact, citation image and citation identity can be regarded as two aspects of the citation relationship; only when the two are combined can we see the panorama of citation and further understand the knowledge transfer process and the growing and maturing of a subject revealed in a citation network. By building journal citation networks at different times and applying social network analysis (SNA), we investigate the changes in the centrality and the roles of citati</context>
+</contexts>
+<marker>Bonnevie-Nebelong, 2006</marker>
+<rawString>Bonnevie-Nebelong, Ellen. 2006. Methods for journal evaluation: journal citation identity, journal citation image and internationalization. Scientometrics 66: 411-24.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ellen Bonnevie-Nebelong</author>
+<author>Tove Faber Frandsen</author>
+</authors>
+<title>Journal citation identity and journal citation image: a portrait of the journal of documentation.</title>
+<date>2006</date>
+<journal>Journal of documentation</journal>
+<volume>62</volume>
+<pages>30--57</pages>
+<marker>Bonnevie-Nebelong, Frandsen, 2006</marker>
+<rawString>Bonnevie-Nebelong, Ellen and Frandsen, Tove Faber. 2006. Journal citation identity and journal citation image: a portrait of the journal of documentation. Journal of documentation 62: 30-57.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>De la Moneda Corrochano</author>
+<author>López-Huertas Mercedes</author>
+<author>J María</author>
+<author>Evaristo Jiménez-Contreras</author>
+</authors>
+<title>Spanish research in knowledge organization (2002-2010).</title>
+<journal>Knowledge organization</journal>
+<volume>40</volume>
+<pages>28--41</pages>
+<marker>Corrochano, Mercedes, María, Jiménez-Contreras, </marker>
+<rawString>De la Moneda Corrochano, Mercedes, López-Huertas, María J. and Jiménez-Contreras, Evaristo. Spanish research in knowledge organization (2002-2010). Knowledge organization 40: 28-41.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Su Fangli</author>
+</authors>
+<title>The demonstration of journals’ citation identity and citation image.</title>
+<date>2013</date>
+<journal>Information studies: theory &amp; application</journal>
+<volume>36</volume>
+<pages>92--7</pages>
+<contexts>
+<context position="7477" citStr="Fangli 2013" startWordPosition="1084" endWordPosition="1085">te (1998, 2001) pro277 posed citation image and citation identity, many scholars became committed to similar research. BonnevieNebelong and Frandsen (2006) introduced the concepts of citation image and citation identity to the process of journal assessment and analysis and then put forward the notions of journal citation image and journal citation identity. Since then, related research studying journals has sprung up; but it has been found that most studies still concentrate on citation itself, such as citation indicators, citation characteristics, and citation styles (Bonnevie-Nebelong 2006; Fangli 2013) but pay little attention to the knowledge transfer and knowledge communication behind the journalciting activity. In fact, citation image and citation identity can be regarded as two aspects of the citation relationship; only when the two are combined can we see the panorama of citation and further understand the knowledge transfer process and the growing and maturing of a subject revealed in a citation network. By building journal citation networks at different times and applying social network analysis (SNA), we investigate the changes in the centrality and the roles of citation networks of</context>
+</contexts>
+<marker>Fangli, 2013</marker>
+<rawString>Fangli, Su. 2013. The demonstration of journals’ citation identity and citation image. Information studies: theory &amp; application 36 no. 5: 92-7.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Liu Fengchao</author>
+<author>Ma Rongkang</author>
+</authors>
+<title>The research on network structure and space distribution traits of inter-regional technology transfer: based on the analysis of contracts in inter-provincial from</title>
+<date>2013</date>
+<journal>Knowledge organization</journal>
+<volume>31</volume>
+<pages>4--529</pages>
+<location>Freitas, Juliana Lazzarotto, Gabriel Junior, Rene Faustino</location>
+<marker>Fengchao, Rongkang, 2013</marker>
+<rawString>Fengchao, Liu and Rongkang, Ma. 2013. The research on network structure and space distribution traits of inter-regional technology transfer: based on the analysis of contracts in inter-provincial from 2006 to 2010. Studies in science of science 31 no. 4：529-36. Freitas, Juliana Lazzarotto, Gabriel Junior, Rene Faustino and Bufrem, Leilah Santiago. Theoretical approximations between Brazilian and Spanish authors’ production in the field of knowledge organization in the production of journals on information science in Brazil. Knowledge organization 39: 216-23.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Xia Gao</author>
+<author>Jiancheng Guan</author>
+<author>Ronald Rousseau</author>
+</authors>
+<date>2011</date>
+<marker>Gao, Guan, Rousseau, 2011</marker>
+<rawString>Gao, Xia, Guan, Jiancheng and Rousseau, Ronald. 2011.</rawString>
+</citation>
+<citation valid="true">
+<title>Mapping collaborative knowledge production in China using patent co-inventorships. Scientometrics 88: 343-62． Hjørland, Birger and Albrechtsen, Hanne.</title>
+<date>1995</date>
+<journal>Journal of the American Society for Information Science</journal>
+<volume>46</volume>
+<pages>400--25</pages>
+<marker>1995</marker>
+<rawString>Mapping collaborative knowledge production in China using patent co-inventorships. Scientometrics 88: 343-62． Hjørland, Birger and Albrechtsen, Hanne. 1995. Toward a new horizon in information science: domain-analysis. Journal of the American Society for Information Science 46: 400-25.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Liu 2009 Jun</author>
+</authors>
+<title>The printed lecture of whole network: practical guidelines for UCINET. Shanghai: Gezhi press.</title>
+<marker>Jun, </marker>
+<rawString>Jun, Liu.2009. The printed lecture of whole network: practical guidelines for UCINET. Shanghai: Gezhi press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Lin Juren</author>
+</authors>
+<title>Analysis of social network: theories, methods and application.</title>
+<date>2009</date>
+<publisher>Normal University Press.</publisher>
+<location>Beijing, Beijing</location>
+<marker>Juren, 2009</marker>
+<rawString>Juren, Lin. 2009. Analysis of social network: theories, methods and application. Beijing, Beijing Normal University Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>María López-Huertas</author>
+<author>Jiménez Contreras</author>
+<author>Evaristo</author>
+</authors>
+<title>Spanish research in knowledge organization</title>
+<date>2004</date>
+<journal>Knowledge organization</journal>
+<volume>31</volume>
+<pages>136--50</pages>
+<marker>López-Huertas, Contreras, Evaristo, 2004</marker>
+<rawString>López-Huertas, María and Jiménez Contreras, Evaristo. 2004. Spanish research in knowledge organization (1992-2001). Knowledge organization 31: 136-50.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Richard P Smiraglia</author>
+</authors>
+<title>Epistemology of domain analysis.</title>
+<date>2012</date>
+<booktitle>The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China Cultural frames of knowledge. Würzburg:</booktitle>
+<pages>111--24</pages>
+<editor>In Smiraglia, Richard P. and Lee, Hur-Li, eds., Knowl. Org. 41(2014)No.4 R. Zhao and Sh. Wu.</editor>
+<publisher>Ergon Verlag,</publisher>
+<contexts>
+<context position="3327" citStr="Smiraglia 2012" startWordPosition="465" endWordPosition="466">d practical applications, and a lot of achievements have been scored. It is necessary for us to grasp the current status of LIS in China and its development trends. Domain analysis (DA) as a mature quantitative research method has been applied to many disciplines at home and abroad. As a functionalist approach, it attempted to understand the implicit and explicit functions of information and communication, and to trace the mechanisms underlying informational behavior from this insight (Hjørland and Albrechtsen 1995). At present, research advances in domain analysis come from many researchers (Smiraglia 2012; Tennis 2003). In the perception of these researchers, the concept of domain refers to a field of knowledge, activity, or interest in which certain knowledge is marked with defined limits and whose professionals or groups are entangled both in thought and in language, generating differentiated thought and interpretations (Freitas et al. 2012). The objects of domain analysis not only involve the entire science but also a specific discipline. For example, López-Huertas and Jiménez Knowl. Org. 41(2014)No.4 R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Infor</context>
+</contexts>
+<marker>Smiraglia, 2012</marker>
+<rawString>Smiraglia, Richard P. 2012. Epistemology of domain analysis. In Smiraglia, Richard P. and Lee, Hur-Li, eds., Knowl. Org. 41(2014)No.4 R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science in China Cultural frames of knowledge. Würzburg: Ergon Verlag, pp. 111-24.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Joseph T Tennis</author>
+</authors>
+<title>Two axes of domains for domain analysis.</title>
+<date>2003</date>
+<journal>Knowledge organization</journal>
+<volume>30</volume>
+<pages>191--95</pages>
+<contexts>
+<context position="3341" citStr="Tennis 2003" startWordPosition="467" endWordPosition="468">ications, and a lot of achievements have been scored. It is necessary for us to grasp the current status of LIS in China and its development trends. Domain analysis (DA) as a mature quantitative research method has been applied to many disciplines at home and abroad. As a functionalist approach, it attempted to understand the implicit and explicit functions of information and communication, and to trace the mechanisms underlying informational behavior from this insight (Hjørland and Albrechtsen 1995). At present, research advances in domain analysis come from many researchers (Smiraglia 2012; Tennis 2003). In the perception of these researchers, the concept of domain refers to a field of knowledge, activity, or interest in which certain knowledge is marked with defined limits and whose professionals or groups are entangled both in thought and in language, generating differentiated thought and interpretations (Freitas et al. 2012). The objects of domain analysis not only involve the entire science but also a specific discipline. For example, López-Huertas and Jiménez Knowl. Org. 41(2014)No.4 R. Zhao and Sh. Wu. The Network Pattern of Journal Knowledge Transfer in Library and Information Science</context>
+</contexts>
+<marker>Tennis, 2003</marker>
+<rawString>Tennis, Joseph T. 2003. Two axes of domains for domain analysis. Knowledge organization 30: 191- 95.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Howard D White</author>
+</authors>
+<title>Authors as citers over time.</title>
+<date>2001</date>
+<journal>Journal of the American Society for Information Science and Technology</journal>
+<volume>52</volume>
+<pages>87--108</pages>
+<marker>White, 2001</marker>
+<rawString>White, Howard D. 2001. Authors as citers over time. Journal of the American Society for Information Science and Technology 52: 87-108． White, Howard D. and McCain, Katherine W. 1998. Visualizing a discipline: an author co-citation analysis of information science. Journal of the American Society for Information Science 49: 327-55.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Xu Yuanyuan</author>
+<author>Zhu Qinghua</author>
+</authors>
+<title>The appliance of SNA in citation analysis. Information studies: theory &amp;</title>
+<date>2008</date>
+<journal>application</journal>
+<volume>31</volume>
+<pages>184--88</pages>
+<contexts>
+<context position="12913" citStr="Yuanyuan and Qinghua 2008" startWordPosition="1960" endWordPosition="1963">m citing journals to the cited journals, while the knowledge flow is just the opposite. However, the differences of citation frequency determine the differences of the knowledge transfer level. The more times papers are cited, the more knowledge flows out, and vice versa. 2.2 Research methodology Social network analysis (SNA) is a set of theories and methods which can analyze the structure and properties of various relations in the social network. It mainly analyzes the relation schema among actors and this method has been proved to be valid when applied to research on citation relationships (Yuanyuan and Qinghua 2008). We use SNA to systematically analyze the citation network of journals in library and information science in China; this mainly involves two levels, the properties of the whole network and the roles and locations of network nodes. This process would be conducted using UCINET’s network analysis tools. Specifically, the process consists of the aspects described below. 2.2.1 Centrality analysis Centrality measures power in the network. We can measure with the indexes of centrality and central potential. Centrality measures the extent to which members are in the network’s center; the degree of ce</context>
+</contexts>
+<marker>Yuanyuan, Qinghua, 2008</marker>
+<rawString>Yuanyuan, Xu and Qinghua, Zhu. 2008. The appliance of SNA in citation analysis. Information studies: theory &amp; application 31 no. 2: 184-88. Copyright of Knowledge Organization is the property of Ergon Verlag GmbH and its content may not be copied or emailed to multiple sites or posted to a listserv without the copyright holder&apos;s express written permission. However, users may print, download, or email articles for individual use.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

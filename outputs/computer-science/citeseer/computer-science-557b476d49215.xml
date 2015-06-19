@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>A Joint Controller-Simulator Programming by Demonstration Method for PLC Devices</title><authors><author><name>Phissanu Changsakol</name><affiliation>King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</affiliation></author><author><name>Nopporn Chotikakamthorn</name><affiliation>King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</affiliation></author><author><name>Olarn Wongwirat</name><affiliation>King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Joint Controller-Simulator Programming by Demonstration Method for PLC Devices</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName>
+								<forename type="first">Phissanu</forename>
+								<surname>Changsakol</surname>
+							</persName>
+							<email>Phissanu@hotmail.com</email>
+							<affiliation>
+								<orgName type="department">King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Nopporn</forename>
+								<surname>Chotikakamthorn</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Olarn</forename>
+								<surname>Wongwirat</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology</orgName>
+								<address>
+									<settlement>Bangkok</settlement>
+									<country key="TH">Thailand</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Joint Controller-Simulator Programming by Demonstration Method for PLC Devices</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<note>1-4244-0023-6/06/$20.00</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>—Programming by Demonstration, Programmable</term>
+					<term>Logic</term>
+					<term>Controller,</term>
+					<term>Programming</term>
+					<term>Paradigm,</term>
+					<term>End-User</term>
+					<term>Programming</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>— In this paper, a problem of visual programming of PLC (programmable logic controller) devices is described. A programming by demonstration method is developed so that a problem-domain expert can program such devices without computer programming skill. The method is novel in the sense that, unlike other programming-by-demonstration methods, it requires little a priori knowledge of the controlled system model, nor it needs to interact with a real system. A simulation model, which captures the laws of nature governing the system behavior, is jointly programmed with a control device (PLC). A PLC programming tool, developed based on the proposed joint controller-simulator programming by demonstration paradigm, can generate a high-level structure text program code, from the demonstrated actions as performed by a user.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Gordon W Paynter</author>
+<author>Ian H Witten</author>
+</authors>
+<title>Applying machine learning to programming by demonstration”,</title>
+<date>2004</date>
+<institution>University of California, Riverside and University of Waikato</institution>
+<location>New Zealand,</location>
+<contexts>
+<context citStr="[1, 5]" endWordPosition="329" position="2385" startWordPosition="328">or an end user to program the devices. Programming by demonstration (PBD) concerns with providing a non-programmer tools and techniques to control, automate, and customize the software applications or intelligent physical devices. PBD technique is simpler than procedural programming because there is no need to learn a language syntax and rules. This concept has been applied for various purposes such as those listed below. • Automation of repetitive tasks using software functions. For example, a macro recorder learns patterns of user’s activity and can then execute those patterns autonomously. [1, 5] • User interface customization and personalization. Here, PBD is applied to change interface appearance to optimize access to frequently used functions. [6] • PBD is also applied to robotic manipulation. In [2, 4], a PBD technique is proposed. so that a robot arm movement can be programmed through demonstration. One of the most important limitations of those existing programming-by-demonstration methods, when applied to a problem of PLC programming, is the need for an existence of a real system to accompany a demonstration. Alternatively, without a real system, a complete simulation model of </context>
+</contexts>
+<marker>[1]</marker>
+<rawString>Gordon W. Paynter and Ian H. Witten, “Applying machine learning to programming by demonstration”, University of California, Riverside and University of Waikato New Zealand, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Haiying She</author>
+<author>Axel Graeser</author>
+</authors>
+<title>Closed Loop Control and Automatic Set Point Generation in Programming by Demonstration for Service Robotic Tasks”,</title>
+<date>2004</date>
+<institution>University of Bremen,</institution>
+<contexts>
+<context citStr="[2, 4]" endWordPosition="362" position="2599" startWordPosition="361">hysical devices. PBD technique is simpler than procedural programming because there is no need to learn a language syntax and rules. This concept has been applied for various purposes such as those listed below. • Automation of repetitive tasks using software functions. For example, a macro recorder learns patterns of user’s activity and can then execute those patterns autonomously. [1, 5] • User interface customization and personalization. Here, PBD is applied to change interface appearance to optimize access to frequently used functions. [6] • PBD is also applied to robotic manipulation. In [2, 4], a PBD technique is proposed. so that a robot arm movement can be programmed through demonstration. One of the most important limitations of those existing programming-by-demonstration methods, when applied to a problem of PLC programming, is the need for an existence of a real system to accompany a demonstration. Alternatively, without a real system, a complete simulation model of the system must be available so that a user can perform a demonstration on a system simulator instead. In this paper, a programming-by-demonstration method is developed to avoid such limitation. Without the need fo</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>Haiying She and Axel Graeser, “Closed Loop Control and Automatic Set Point Generation in Programming by Demonstration for Service Robotic Tasks”, University of Bremen, Germany, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Richard M Voyles</author>
+</authors>
+<title>Toward Gesture-Based Programming: AgentBased Haptic Skill Acquisition and Interpretation”,</title>
+<date>1997</date>
+<location>University of Minnesota,</location>
+<marker>[3]</marker>
+<rawString>Richard M. Voyles, “Toward Gesture-Based Programming: AgentBased Haptic Skill Acquisition and Interpretation”, University of Minnesota, 1997.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Munch</author>
+<author>J Kreuziger</author>
+<author>M Kaiser</author>
+<author>R Dillmann</author>
+</authors>
+<title>Robot Programming by Demonstration (RPD) Using Machine Learning and User Interaction Methods for the Development of Easy and Comfortable Robot Programming System”,</title>
+<date>1994</date>
+<institution>University of Karlsruhe,</institution>
+<contexts>
+<context citStr="[2, 4]" endWordPosition="362" position="2599" startWordPosition="361">hysical devices. PBD technique is simpler than procedural programming because there is no need to learn a language syntax and rules. This concept has been applied for various purposes such as those listed below. • Automation of repetitive tasks using software functions. For example, a macro recorder learns patterns of user’s activity and can then execute those patterns autonomously. [1, 5] • User interface customization and personalization. Here, PBD is applied to change interface appearance to optimize access to frequently used functions. [6] • PBD is also applied to robotic manipulation. In [2, 4], a PBD technique is proposed. so that a robot arm movement can be programmed through demonstration. One of the most important limitations of those existing programming-by-demonstration methods, when applied to a problem of PLC programming, is the need for an existence of a real system to accompany a demonstration. Alternatively, without a real system, a complete simulation model of the system must be available so that a user can perform a demonstration on a system simulator instead. In this paper, a programming-by-demonstration method is developed to avoid such limitation. Without the need fo</context>
+</contexts>
+<marker>[4]</marker>
+<rawString>S. Munch, J. Kreuziger, M. Kaiser, R. Dillmann , “Robot Programming by Demonstration (RPD) Using Machine Learning and User Interaction Methods for the Development of Easy and Comfortable Robot Programming System”, University of Karlsruhe, Germany, 1994.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Tessa Lau</author>
+</authors>
+<title>Programming by Demonstration: a Machine Learning Approach”,</title>
+<date>2001</date>
+<institution>University of Washington,</institution>
+<contexts>
+<context citStr="[1, 5]" endWordPosition="329" position="2385" startWordPosition="328">or an end user to program the devices. Programming by demonstration (PBD) concerns with providing a non-programmer tools and techniques to control, automate, and customize the software applications or intelligent physical devices. PBD technique is simpler than procedural programming because there is no need to learn a language syntax and rules. This concept has been applied for various purposes such as those listed below. • Automation of repetitive tasks using software functions. For example, a macro recorder learns patterns of user’s activity and can then execute those patterns autonomously. [1, 5] • User interface customization and personalization. Here, PBD is applied to change interface appearance to optimize access to frequently used functions. [6] • PBD is also applied to robotic manipulation. In [2, 4], a PBD technique is proposed. so that a robot arm movement can be programmed through demonstration. One of the most important limitations of those existing programming-by-demonstration methods, when applied to a problem of PLC programming, is the need for an existence of a real system to accompany a demonstration. Alternatively, without a real system, a complete simulation model of </context>
+</contexts>
+<marker>[5]</marker>
+<rawString>Tessa Lau, “Programming by Demonstration: a Machine Learning Approach”, University of Washington, 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Lawrence D Bergman</author>
+<author>Tessa A Lau</author>
+<author>Vittrio Castelli</author>
+<author>Daniel Oblinger</author>
+</authors>
+<title>Programming-by-Demonstration for Behavior-based User Interface Customization”, IBM T.J. Watson research</title>
+<date>2004</date>
+<location>Center, USA,</location>
+<contexts>
+<context citStr="[6]" endWordPosition="351" position="2542" startWordPosition="351">d customize the software applications or intelligent physical devices. PBD technique is simpler than procedural programming because there is no need to learn a language syntax and rules. This concept has been applied for various purposes such as those listed below. • Automation of repetitive tasks using software functions. For example, a macro recorder learns patterns of user’s activity and can then execute those patterns autonomously. [1, 5] • User interface customization and personalization. Here, PBD is applied to change interface appearance to optimize access to frequently used functions. [6] • PBD is also applied to robotic manipulation. In [2, 4], a PBD technique is proposed. so that a robot arm movement can be programmed through demonstration. One of the most important limitations of those existing programming-by-demonstration methods, when applied to a problem of PLC programming, is the need for an existence of a real system to accompany a demonstration. Alternatively, without a real system, a complete simulation model of the system must be available so that a user can perform a demonstration on a system simulator instead. In this paper, a programming-by-demonstration method i</context>
+</contexts>
+<marker>[6]</marker>
+<rawString>Lawrence D.Bergman, Tessa A. Lau, Vittrio Castelli, Daniel Oblinger, “Programming-by-Demonstration for Behavior-based User Interface Customization”, IBM T.J. Watson research Center, USA, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Henry Lieberman</author>
+</authors>
+<title>Your Wish is My Command: Giving Users the Power to Instruct their Software”,</title>
+<date>2000</date>
+<institution>Massachusetts Institute of Technology,</institution>
+<marker>[7]</marker>
+<rawString>Henry Lieberman, “Your Wish is My Command: Giving Users the Power to Instruct their Software”, Massachusetts Institute of Technology, 2000.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Richard G McDaniel</author>
+</authors>
+<title>Creating Complete User Interfaces by Demonstration”,</title>
+<date>1993</date>
+<institution>Carnegie Mellon University,</institution>
+<marker>[8]</marker>
+<rawString>Richard G. McDaniel, “Creating Complete User Interfaces by Demonstration”, Carnegie Mellon University, 1993.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ben Shneiderman</author>
+</authors>
+<title>Foreword to Your Wish is</title>
+<date>2000</date>
+<institution>My Command”, University of Maryland,</institution>
+<marker>[9]</marker>
+<rawString>Ben Shneiderman, “Foreword to Your Wish is My Command”, University of Maryland, 2000.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Karl-Heinz john</author>
+<author>Michael Tiegelkamp</author>
+</authors>
+<date>2001</date>
+<journal>ICE 61131-3 Programming Industrial Automation Systems”,</journal>
+<publisher>Springer,</publisher>
+<marker>[10]</marker>
+<rawString>Karl-Heinz john and Michael Tiegelkamp, “ICE 61131-3 Programming Industrial Automation Systems”, Springer, january 2001.</rawString>
+</citation>
+<citation valid="true">
+<title>Watch What I Do: Programming by Demonstration”,</title>
+<date>1993</date>
+<editor>Cypher, Allen, Introduction, In Cypher, Allen, ed.,</editor>
+<publisher>The MIT Press,</publisher>
+<location>Cambridge:</location>
+<contexts>
+<context citStr="[11]" endWordPosition="820" position="5626" startWordPosition="820">on chart. Figure 2. A block diagram of PLC programming under the visual programming paradigm Programming by Demonstrations (PBD) is the most recent approach to programming and is largely used at present for end-user programming. The essential notion is that the user demonstrates a program to the system by working through one or more examples. The system then generalizes the users’ sequence of actions to produce a general program. One of the best known such systems is Cypher’s EAGER system which can automatically detect repetitions in user’s actions and build a program to perform the use task. [11] Figure 3. A conceptual view of the programming by demonstration paradigm The programming by demonstration paradigm is generally applicable only when the full functional system (to be programmed) is available. Therefore, applicability of PBD to program a new system that has not yet existed is questionable. Similarly, applying PBD concept to PLC programming requires the existence of a controlled system to be interacted with during the demonstration. In this paper, the above problem is solved by a joint controller-simulator programming by demonstration method. This technique combines visual prog</context>
+</contexts>
+<marker>[11]</marker>
+<rawString>Cypher, Allen, Introduction, In Cypher, Allen, ed., “Watch What I Do: Programming by Demonstration”, Cambridge: The MIT Press, 1993.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

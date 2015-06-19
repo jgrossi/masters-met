@@ -1,0 +1,1675 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Nachman KE (2013) Availability of Information about Airborne Hazardous Releases from Animal Feeding Operations.
+PLoS ONE 8(12): e85342. doi:10.1371/journal.pone.0085342</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Availability of Information about Airborne Hazardous Releases from Animal Feeding Operations</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0085342</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Tyler J. S. Smith</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Leonard S. Rubenstein</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Keeve E. Nachman</string-name>
+          <email>knachman@jhsph.edu</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <string-name>Qinghua Sun, The Ohio State University, United States of America</string-name>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>1 Johns Hopkins Center for a Livable Future, Johns Hopkins University</institution>
+          ,
+          <addr-line>Baltimore</addr-line>
+          ,
+          <institution>Maryland, United States of America, 2 Department of Environmental Health Sciences, Johns Hopkins Bloomberg School of Public Health</institution>
+          ,
+          <addr-line>Baltimore</addr-line>
+          ,
+          <institution>Maryland, United States of America, 3 Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health</institution>
+          ,
+          <addr-line>Baltimore</addr-line>
+          ,
+          <institution>Maryland, United States of America, 4 Department of Health Policy and Management, Johns Hopkins Bloomberg School of Public Health</institution>
+          ,
+          <addr-line>Baltimore, Maryland</addr-line>
+          ,
+          <country country="US">United States of America</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Introduction: Air from animal feeding operations (AFOs) has been shown to transport numerous contaminants of public health concern. While federal statutes like the Emergency Planning and Community Right-to-Know Act (EPCRA) generally require that facilities report hazardous releases, AFOs have been exempted from most of these requirements by the U.S. Environmental Protection Agency (EPA). We assessed the availability of information about AFO airborne hazardous releases following these exemptions. Methods: We submitted public records requests to 7 states overlapping with or adjacent to the Chesapeake Bay watershed for reports of hazardous releases made by AFOs under EPCRA. From the records received, we calculated the proportion of AFOs in each state for which ≥1 reports were available. We also determined the availability of specific types of information required under EPCRA. The numbers of AFOs permitted under the Clean Water Act (CWA) or analogous state laws, as determined from permitting databases obtained from states, were used as denominators. Results: We received both EPCRA reports and permitting databases from 4 of 7 states. Across these 4 states, the mean proportion of AFOs for which ≥1 EPCRA reports were available was 15% (range: 2-33%). The mean proportions of AFOs for which the name or identity of the substance released, ≥1 estimates of quantity released, and information about nearby population density and sensitive populations were available were 15% (range: 2-33%), 8% (range: 0-22%), and 14% (range: 2-8%), respectively. Discussion: These results suggest that information about the airborne hazardous releases of a large majority of AFOs is not available under federal law in the states that we investigated. While the results cannot be attributed to specific factors by this method, attention to multiple factors, including revision of the EPA's exemptions, may increase the availability of information relevant to the health of populations living or working near AFOs.</p>
+      </abstract>
+      <volume>8</volume>
+      <issue>12</issue>
+      <pub-date>
+        <day>31</day>
+        <month>12</month>
+        <year>2013</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>3</day>
+          <month>12</month>
+          <year>2013</year>
+        </date>
+        <date date-type="received">
+          <day>31</day>
+          <month>7</month>
+          <year>2013</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Funding: The study was funded by a Directed Research grant from the Johns Hopkins Center for a Livable Future. The Center (aside from TJSS and
+KEN, who are both authors and CLF staff members) had no role in study design, data collection and analysis, decision to publish, or preparation of the
+manuscript.</p>
+      <p>Competing interests: The authors have declared that no competing interests exist.</p>
+      <p>Industrial food animal production is the dominant model of
+meat, poultry, dairy and egg production in the United States
+[1,2]. The model typically involves housing thousands to
+hundreds of thousands of animals in confinement at a single
+site, and results in the accumulation of large quantities of
+animal waste. Depending on the type of animal produced and
+the waste management system utilized, waste may be stored
+on-site for extended periods of time or piped into large cesspits
+known as “lagoons” [3]. The U.S. Environmental Protection
+Agency (EPA) terms these facilities “animal feeding operations”
+(AFOs) [4]. As defined by the Agency, AFOs are sites where
+non-aquatic animals are confined for ≥45 days/year and where
+crops or vegetation are not sustained or stored in the normal
+growing season [4]. The largest AFOs are known as
+“concentrated animal feeding operations” (CAFOs) and are
+classified as such based on the number of animals on-site (the
+number varies based on the type of animal) [4].</p>
+      <p>Research has shown that this model of food animal
+production and associated methods of waste management can
+contribute to compromised air quality [5,6]. Air within and
+emanating from AFOs has been shown to transport numerous
+contaminants of public health concern, including gases,
+particulate matter, bacterial and viral pathogens, endotoxins,
+and animal dander [7-13]. Epidemiologic investigations have
+illustrated relationships between residential proximity to AFOs
+and respiratory effects [14-16], mental health outcomes
+[17-19], and other quality-of-life-related impacts [20,21].</p>
+      <p>Federal statutes generally require that facilities report
+estimates of their emissions if these emissions exceed certain
+rates. Section 103 of the Comprehensive Environmental
+Response, Compensation, and Liability Act (CERCLA) requires
+facilities that release one or more “hazardous substances” in
+excess of “reportable quantities” (RQs, expressed as rates in
+pounds per day [lbs/day]) to immediately notify the National
+Response Center, unless the release is permitted under
+another federal statute [22]. Section 304 of the Emergency
+Planning and Community Right-to-Know Act (EPCRA) similarly
+requires facilities that release one or more “extremely
+hazardous substances” in excess of RQs to immediately notify
+state and local emergency management committees [23].</p>
+      <p>EPCRA requires these committees to make reports of
+hazardous releases available to the public [23].</p>
+      <p>The substances released by AFOs that are designated as
+hazardous under CERCLA [24] and/or extremely hazardous
+under EPCRA [25] include ammonia, hydrogen sulfide, and
+multiple volatile organic compounds (VOCs) [26]. From
+2001-2006, litigation by environmental advocates and, in two
+cases, the EPA confirmed that the reporting requirements of
+CERCLA Section 103 and EPCRA Section 304 applied to
+AFOs, resulting in penalties for multiple operations that
+released ammonia in excess of its RQ and did not report their
+releases [27]. (Agricultural operations, including AFOs, are not
+required to report to the Toxic Release Inventory established
+by EPCRA Section 313 [28].) Industry trade associations and
+some members of Congress subsequently proposed legislation
+to exempt AFOs from these requirements and petitioned the
+EPA to exempt AFOs by regulation [27,29]. The legislation was
+not enacted; despite this, the agency subsequently exempted
+most AFOs from the requirements of both statutes.</p>
+      <p>In 2005, the EPA and industry trade associations initiated the
+National Air Emissions Monitoring Study (NAEMS) to develop
+emissions-estimating methodologies (EEMs) for AFO air
+emissions [30,31]. More than 13,000 AFOs agreed to fund
+NAEMS under a 2005 consent agreement with the agency. In
+exchange, the EPA agreed not to sue participating AFOs for
+civil violations of CERCLA and EPCRA reporting requirements
+that occur before the EPA publishes final EEMs [32,33].. In
+2008, the EPA finalized a rule that indefinitely exempted all
+airborne hazardous releases from animal waste at farms
+(including AFOs) from CERCLA reporting requirements [34-36].</p>
+      <p>The same rule also indefinitely exempted such releases from
+all but Large CAFOs (the largest CAFOs, which in turn are the
+largest AFOs) from EPCRA reporting requirements [34,35]. In
+its preamble to the rule, the EPA also stated that reportable
+releases by Large CAFOs generally qualify for reduced EPCRA
+reporting requirements that were developed for reporting
+continuous releases [34,36]. Under these requirements, Large
+CAFOs must report releases to emergency management
+committees once by telephone and once in writing within 30
+days of the notification by telephone; subsequent releases that
+are similar to the initial reported release are not reportable [37].</p>
+      <p>The 2005 agreement and the 2008 rule were both in effect
+as of November 2013. The combined effect of the agreement
+and the rule is that, of all AFOs, only Large CAFOs currently
+are required to report under EPCRA and the EPA will not
+enforce this requirement against Large CAFOs that are
+participating in NAEMS. Large CAFOs that do report under
+EPCRA use an abbreviated reporting format designed for
+continuous releases. It is generally assumed that these
+changes have limited the availability of information about AFO
+hazardous releases [31,36], but this has not been confirmed.</p>
+      <p>The concept of availability encompasses both whether
+information was reported by an AFO and whether the reported
+information is accessible to the public. Both elements of
+availability in turn depend on multiple factors (Figure 1).</p>
+      <p>CERCLA and EPCRA reporting reflect whether an AFO
+releases a hazardous or extremely hazardous substance in
+excess of its RQ, whether the release is exempt from reporting
+under the 2008 rule, and whether the AFO complies with
+applicable reporting requirements. Notably, amnesty from civil
+prosecution under the 2005 agreement may influence AFO
+compliance. If an AFO complies fully, the types of information
+reported will vary with regulatory requirements; for example,
+reporting continuous releases under EPCRA requires AFOs to
+provide less information than does reporting other releases.</p>
+      <p>Availability also requires access to reported information, which
+depends on proper receipt and storage of reports by
+emergency management committees, as well as disclosure of
+these reports in response to public records requests.</p>
+      <p>The purpose of this study was to assess availability of
+information concerning airborne hazardous releases from
+AFOs under EPCRA following the 2005 agreement and
+promulgation of the 2008 rule. We determined the proportions
+of AFOs for which ≥1 EPCRA reports were available and the
+proportions of AFOs for which specific types of information
+required under EPCRA regulations were available. We discuss
+the feasibility of assessing human exposure to hazardous
+releases using the information available under EPCRA and
+options for assuring the availability of information needed to
+assess exposure.</p>
+      <p>We investigated the availability of information under EPCRA
+Section 304 because this section contains the only requirement
+under federal law (and therefore applicable across multiple
+states) to report airborne hazardous releases that currently
+applies to AFOs.</p>
+      <p>Between September 2010 and February 2012, we submitted
+public records requests to the six states that overlap with the
+Chesapeake Bay watershed (Delaware [DE], Maryland [MD],
+New York [NY], Pennsylvania [PA], Virginia [VA], and West
+Virginia [WV]) and North Carolina (NC) (Figure 2). The
+requests sought reports submitted by AFOs under the 2008
+rule, as described by an EPA document [38]. The Chesapeake
+Bay watershed was chosen because the high density of AFOs
+Figure 1. Is a specific type of information about AFO airborne hazardous releases available under EPCRA?. The availability
+of information encompasses two elements: whether information was reported and whether reported information is accessible to the
+public. These elements in turn depend on multiple factors. Reporting factors are determined by the U.S. Environmental Protection
+Agency via rulemaking. Access factors are determined by the state and local emergency management committees that receive
+reports under EPCRA.
+doi: 10.1371/journal.pone.0085342.g001
+in this region has impacted environmental quality [39]. NC is
+the second-largest swine producer in the U.S. [40], and was
+included so that production of most major food animal types
+(i.e., poultry, swine, and dairy cattle) was represented; NC was
+chosen as the swine-producing state because it is contiguous
+with the other states investigated.</p>
+      <p>Multiple forms are available to assist AFOs in reporting
+continuous releases under EPCRA, including forms developed
+by the EPA, state governments, and industry trade
+associations [41-43]. AFOs may choose which forms to use for
+their submissions. We developed a database of EPCRA forms
+received in response to our requests. For each form, we
+recorded the name of the AFO and the name of the AFO owner
+or operator. Because some AFOs submitted multiple forms, we
+matched the forms by the names of the AFO and/or AFO
+owner or operator and consolidated records to create one
+record per AFO. In some cases, releases from multiple AFOs
+were reported jointly on a single form. From these forms, we
+created separate records for each AFO. The end-result was a
+database with one record per AFO for which ≥1 forms was
+received. We recorded which forms were submitted by each
+AFO.</p>
+      <p>We then determined the proportion of AFOs in each state for
+which ≥1 EPCRA reports were submitted to state or local
+emergency management committees. For the numerators, we
+used the number of AFOs in each state for which we received
+≥1 forms. To develop denominators, we obtained databases of
+AFOs permitted under the Clean Water Act (CWA) or similar
+state laws (such as the Virginia Pollution Abatement Permit
+Regulation and Pollutant Discharge Elimination Programs [44])
+from states with active permitting programs. We divided the
+numerator for each state by the number of permitted AFOs in
+that state to obtain the proportion. Because permitting
+databases only include permitted AFOs, denominators derived
+from these databases likely are underestimates of the number
+of AFOs in each state; consequentially, the proportions
+calculated with these denominators likely are overestimates of
+the true percentage of AFOs that have reported airborne
+hazardous releases.</p>
+      <p>We then assessed availability of 6 types of information,
+including the identity of the substance released, estimates of
+the quantity released, and characteristics of potentially
+exposed populations, as required by EPCRA regulations. The
+identity of the substance released must be reported by its
+chemical name and Chemical Abstracts Service (CAS) number
+[37,45]. For continuous releases, estimates of the quantity
+released must be reported in two ways: estimates of the upper
+and lower bounds on the quantity released over any 24-hour
+period during the previous year and an estimate of the total
+amount released during the same year [37,45]. The quantities
+of some AFO releases have been estimated by multiplying the
+number of animals of a particular species at an AFO by a
+constant “emissions factor” for a given substance, animal
+species, and time period (e.g., x lbs of ammonia per broiler
+chicken per 24 hours) [26]. Multiple forms available to AFOs
+were designed to record the species and number of animals at
+an AFO in addition to or in lieu of actual estimates of the
+quantity released, and we assessed availability of this
+information as well. The only required information regarding
+potentially exposed populations is the population density within
+a one-mile radius of the AFO and the identity and the location
+of buildings that are indicative of sensitive populations (e.g.,
+elementary schools and nursing homes) [37,45].</p>
+      <p>To obtain the numerator for each type of information, we
+counted the number of AFOs in each state for which we
+received ≥1 EPCRA forms that were designed to record that
+information. We divided each numerator by the number of
+permitted AFOs in the state to obtain the proportion.</p>
+      <p>We received EPCRA reports from 5 of 7 states (see Table
+1). NY reported that the requested records could not be found
+and NC did not respond substantively to the request despite
+our follow up by email and phone. The permitting databases
+used to estimate the number of AFOs in each state were
+obtained from every state except WV, which was still
+developing its permitting program for AFOs and had not
+permitted any AFOs as of June 2013. For the 4 states from
+which EPCRA reports were received and that provided
+permitting databases (DE, MD, PA, and VA), we calculated the
+proportions of AFOs for which ≥1 EPCRA reports were
+available. The mean proportion across the 4 states was 15%
+(range: 2-33%).</p>
+      <p>We then determined the availability of the aforementioned
+types of information in the 4 states (see Table 2). The mean
+proportion of AFOs for which the name or CAS number of the
+substance released was available was 15% (range: 2-33%).</p>
+      <p>The mean proportion of AFOs for which the presence of
+sensitive populations within a 1-mile radius was available was
+14% (range: 2-32%) and the mean proportion for which
+population density was available was likewise 14% (range:
+2-32%).</p>
+      <p>Estimates of the upper and lower bounds on the quantity
+released in any 24-hour period were available, on average, for
+4% of AFOs across the 4 states (range: 0-8%). The mean
+availability of estimates of the total amount released annually
+was likewise 4% (range: 0-8%). Because the species and
+number of animals at an AFO also has been used to estimate
+the quantity released, we calculated the proportion of AFOs for
+which both of these types of information were available. The
+mean was 4% (range: 0-18%). The mean proportion of AFOs
+for which at least one of these estimates of quantity released
+(upper and lower bounds, amount released annually, or
+species and number of animals) was available was 8% (range:
+0-22%).</p>
+      <p>We assessed the availability of information concerning AFO
+airborne hazardous releases under EPCRA. We were
+unsuccessful in obtaining EPCRA reports submitted in 2 states,
+indicating that this information may not be available in these
+states. Across 4 other states, the mean proportion of AFOs for
+which we were unable to obtain EPCRA reports was 85%
+(range: 67-98%). The availability of quantitative information
+was even more limited: at least one estimate of the quantity
+released was not available for an average of 92% (range:
+78-100%) of permitted AFOs across 4 states. The findings
+suggest that information about the hazardous releases of a
+large majority of AFOs is not available in the states that we
+investigated. The included states contain large numbers of
+poultry, swine, and dairy cattle operations. A limitation of our
+study was that it did not include a major beef-cattle state.</p>
+      <p>The requirement to obtain a CWA or analogous permit and
+AFO compliance with permitting requirements vary by state,
+and it has been estimated that a majority of AFOs are not
+permitted [46]. Unpermitted AFOs could not be included in our
+denominators, as these were based on state permitting
+databases. The denominators therefore are underestimates of
+the actual numbers of AFOs by state and, accordingly, our
+results are likely to be overestimates of the proportions of
+AFOs for which information was available. There is no
+comprehensive database of AFOs across multiple states,
+limiting the development of more accurate denominators. The
+U.S. Government Accountability Office has recommended that
+the EPA develop such a database [46]. In July 2012, however,
+the agency withdrew a proposed rule that would have required
+many AFOs to report their location and characteristics
+regardless of whether they are required to obtain a CWA permit
+[47].</p>
+      <p>Information via EPCRA continuous release reporting</p>
+      <p>As noted above, the concept of availability under EPCRA
+encompasses both whether information was reported to state
+and local emergency management committees and whether
+the reported information was accessible. We believe that the
+lack of availability observed was influenced more by a lack of
+reporting than by a lack of access, but a limitation of our study
+was that the method employed did not allow us to attribute the
+lack of availability to specific factors. Attention to the factors
+that influence reporting and access (Figure 1), however, may
+allow the EPA and emergency management committees to
+increase availability of information relevant to the health of
+populations that live or work near AFOs.</p>
+      <p>AFOs that do not release an extremely hazardous substance
+in excess of the corresponding RQ are not required to report
+under EPCRA. Information about AFO releases below RQs is
+not currently available under federal law. Hazardous releases
+below RQs may nevertheless pose a health risk to exposed
+populations, either singularly or through cumulative exposure to
+releases from multiple sources. For example, a single AFO that
+releases ammonia at a rate of 100 lbs/day or more would be
+required to report the release under CERCLA and EPCRA
+unless exempted. In contrast, two adjacent AFOs that release
+50 lbs of ammonia per day are not required to report under
+either statute, although the resulting human exposure may be
+similar. Additionally, exposure that results from a single release
+of less than 100 lbs of ammonia per day may pose a health
+risk, depending on factors that influence human exposure and
+susceptibility. The RQ for a given substance is based on the
+intrinsic properties of that substance and not on projections of
+human exposure or resulting health risks [48], limiting the
+efficacy of the reporting requirements of EPCRA Section 304
+for informing exposed communities about the risks posed by
+hazardous releases.</p>
+      <p>It is also likely that many otherwise reportable releases were
+not reported due to the 2005 agreement and/or the 2008 rule.</p>
+      <p>Under the rule, only Large CAFOs are required to report under
+EPCRA. Under the agreement, the EPA has agreed not to sue
+AFOs, including Large CAFOs, that participated in NAEMS for
+civil violations of this and other requirements. The 2005
+agreement will expire following the finalization of EEMs by the
+EPA [30]. The 2008 rule is indefinite, although the EPA has
+suggested that it may be revised [49]. A withdrawal or revision
+of the 2008 rule could substantially increase the number of
+AFOs that report airborne hazardous releases. Any revision
+should be accompanied by enhanced enforcement of reporting
+requirements, as AFO compliance with environmental statutes
+may be limited [46].</p>
+      <p>Additionally, although the accuracy of available information
+was not assessed in this study, it is notable that EPCRA
+Section 304 directs facilities to report estimates of the quantity
+released rather than measure releases directly. A study found
+that trends in estimates reported to the TRI under EPCRA
+Section 313 were not matched by trends in measurements
+taken by EPA pollution monitors, suggesting that reported
+estimates were inaccurate [50]. This may mean that at least
+some of the limited information available under EPCRA Section
+304 is not accurate, which would limit its value.</p>
+      <p>Finally, even when AFOs do report releases, public records
+requests may not assure timely access to EPCRA reports. For
+example, while most states responded to our requests in a
+timely manner, NC never responded substantively. To assure
+public access to reported information, emergency management
+committees should consider alternative methods for releasing
+EPCRA reports, such as publishing reports online upon their
+submission.</p>
+      <p>Alternatives to EPCRA</p>
+      <p>Despite the accumulating body of evidence linking residential
+proximity to AFOs and adverse health outcomes [14-21], little is
+known about the magnitude, temporality, and variability of
+community exposures to AFO hazardous releases. Even less is
+known about how the geographic clustering of these operations
+may impact air quality in agricultural communities. The
+development of regulations and other interventions to minimize
+harmful exposures would be enhanced through a clearer
+understanding of these processes and relationships.</p>
+      <p>The first step toward characterization of the contribution of
+AFOs to rural community air quality would be the establishment
+of pollution monitors both at AFOs and in communities. These
+data, paired with AFO-specific production characteristics and
+information about atmospheric conditions, would allow for the
+development of process-based models that facilitate geospatial
+estimation of airborne concentrations of pollutants of AFO
+origin. Development of the these process-based models, which
+incorporate data on chemical, biological and physical
+processes at play in AFOs, have been recommended by the
+EPA’s Science Advisory Board [51]. Such information would
+serve multiple purposes, allowing both for epidemiologic
+investigations aimed at characterizing the community health
+risks posed by AFOs and for examinations of the public health
+benefits offered by interventions designed to mitigate risks.</p>
+      <p>Despite literature associating AFOs with compromised air
+quality and residential proximity to AFOs with adverse health
+outcomes, availability of information concerning AFO airborne
+hazardous releases ranged from limited to nonexistent across
+the states that we examined. These data would be
+complemented by a national spatially-referenced database of
+AFO locations, which would provide supporting information
+regarding the clustering of these operations in rural
+communities. These data gaps compromise the ability of public
+health officials and scientists to characterize exposures and
+risks, and limit their ability to implement and evaluate
+interventions when appropriate. The lack of data also means
+that information on AFO hazardous releases is not available to
+residents of affected communities. Lowering RQs, withdrawing
+exemptions for AFOs, and improving public access to EPCRA
+reports could increase availability within the existing statutory
+framework. Ultimately, however, air monitoring at AFOs and in
+surrounding communities will be needed to more robustly
+characterize the public health impacts of AFO air pollution.
+Conceived and designed the experiments: TS LR KN.</p>
+      <p>Performed the experiments: TS LR KN. Analyzed the data: TS.</p>
+      <p>Wrote the manuscript: TS LR KN.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Assardourian</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Flavin</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <article-title>State of the world 2004: a Worldwatch Institute Report on progress toward a sustainable society; special focus: the consumer society</article-title>
+          .
+          <publisher-loc>New York</publisher-loc>
+          : WW Norton.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Graham</surname>
+            <given-names>JP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nachman</surname>
+            <given-names>KE</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Managing waste from confined animal feeding operations in the United States: the need for sanitary reform</article-title>
+          .
+          <source>J Water Health</source>
+          <volume>8</volume>
+          :
+          <fpage>646</fpage>
+          -
+          <lpage>670</lpage>
+          . doi:10.2166/wh.2010.075. PubMed:
+          <fpage>20705978</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Wing</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cole</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Grant</surname>
+            <given-names>G</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Environmental injustice in North Carolina's hog industry</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>108</volume>
+          :
+          <fpage>225</fpage>
+          -
+          <lpage>231</lpage>
+          . doi: 10.1289/ehp.00108s2225.
+          <source>PubMed: 10706528.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <article-title>US Environmental Protection Agency What Is a CAFO?</article-title>
+          . Available: http://www.epa.gov/region7/water/cafo/index.htm.
+          <source>Accessed 2012 October 26</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Aneja</surname>
+            <given-names>VP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schlesinger</surname>
+            <given-names>WH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Erisman</surname>
+            <given-names>JW</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Effects of agriculture upon the air quality and climate: research</article-title>
+          , policy, and regulations.
+          <source>Environ Sci Technol</source>
+          <volume>43</volume>
+          :
+          <fpage>4234</fpage>
+          -
+          <lpage>4240</lpage>
+          . doi:10.1021/es8024403. PubMed:
+          <fpage>19603628</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Donham</surname>
+            <given-names>KJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lee</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Thu</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reynolds</surname>
+            <given-names>SJ</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Assessment of air quality at neighbor residences in the vicinity of swine production facilities</article-title>
+          .
+          <source>J Agromedicine</source>
+          <volume>11</volume>
+          :
+          <fpage>15</fpage>
+          -
+          <lpage>24</lpage>
+          . doi:10.1300/J096v11n03_03. PubMed:
+          <fpage>19274894</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Blunden</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Aneja</surname>
+            <given-names>VP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Westerman</surname>
+            <given-names>PW</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Measurement and analysis of ammonia and hydrogen sulfide emissions from a mechanically ventilated swine confinement building in North Carolina</article-title>
+          .
+          <source>Atmos Environ</source>
+          <volume>42</volume>
+          :
+          <fpage>3315</fpage>
+          -
+          <lpage>3331</lpage>
+          . doi:10.1016/j.atmosenv.
+          <year>2007</year>
+          .06.040.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Chapin</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rule</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gibson</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buckley</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schwab</surname>
+            <given-names>K</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Airborne multidrug-resistant bacteria isolated from a concentrated swine feeding operation</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>113</volume>
+          :
+          <fpage>137</fpage>
+          -
+          <lpage>142</lpage>
+          . PubMed:
+          <fpage>15687049</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Cole</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Todd</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wing</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Concentrated swine feeding operations and public health: a review of occupational and community health effects</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>108</volume>
+          :
+          <fpage>685</fpage>
+          -
+          <lpage>699</lpage>
+          . doi:10.1289/ehp. 00108685. PubMed:
+          <fpage>10964788</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Gilchrist</surname>
+            <given-names>MJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Greko</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wallinga</surname>
+            <given-names>DB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Beran</surname>
+            <given-names>GW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Riley</surname>
+            <given-names>DG</given-names>
+          </string-name>
+          et al. (
+          <year>2007</year>
+          )
+          <article-title>The potential role of concentrated animal feeding operations in infectious disease epidemics and antibiotic resistance</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>115</volume>
+          :
+          <fpage>313</fpage>
+          -
+          <lpage>316</lpage>
+          . doi:10.1289/ehp.115-a313b.
+          <source>PubMed: 17384785.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Ko</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Simmons Iiiod</surname>
+          </string-name>
+          , Likirdopulos CA,
+          <string-name>
+            <surname>Worley-Davis</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Williams</surname>
+            <given-names>CM</given-names>
+          </string-name>
+          et al. (
+          <year>2010</year>
+          )
+          <article-title>Endotoxin levels at swine farms using different waste treatment and management technologies</article-title>
+          .
+          <source>Environ Sci Technol</source>
+          <volume>44</volume>
+          :
+          <fpage>3442</fpage>
+          -
+          <lpage>3448</lpage>
+          . doi:10.1021/es9026024. PubMed:
+          <fpage>20356077</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Williams</surname>
+            <given-names>DL</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Breysse</surname>
+            <given-names>PN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McCormack</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Diette</surname>
+            <given-names>GB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McKenzie</surname>
+            <given-names>S</given-names>
+          </string-name>
+          et al. (
+          <year>2011</year>
+          )
+          <article-title>Airborne cow allergen, ammonia and particulate matter at homes vary with distance to industrial scale dairy operations: an exposure assessment</article-title>
+          .
+          <source>Environ Health</source>
+          <volume>10</volume>
+          : 72. doi: 10.1186/
+          <fpage>1476</fpage>
+          -
+          <lpage>069X</lpage>
+          -
+          <fpage>10</fpage>
+          -72. PubMed:
+          <fpage>21838896</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Wilson</surname>
+            <given-names>SM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Serre</surname>
+            <given-names>ML</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Examination of atmospheric ammonia levels near hog CAFOs, homes, and schools in Eastern North Carolina</article-title>
+          .
+          <source>Atmos Environ</source>
+          <volume>41</volume>
+          :
+          <fpage>4977</fpage>
+          -
+          <lpage>4987</lpage>
+          . doi:10.1016/j.atmosenv.
+          <year>2006</year>
+          .12.055.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Schinasi</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Horton</surname>
+            <given-names>RA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Guidry</surname>
+            <given-names>VT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wing</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Marshall</surname>
+            <given-names>SW</given-names>
+          </string-name>
+          et al. (
+          <year>2011</year>
+          )
+          <article-title>Air pollution, lung function, and physical symptoms in communities near concentrated swine feeding operations</article-title>
+          .
+          <source>Epidemiology</source>
+          <volume>22</volume>
+          :
+          <fpage>208</fpage>
+          -
+          <lpage>215</lpage>
+          . doi: 10.1097/01.ede.
+          <volume>0000392323</volume>
+          .03528.5f.
+          <source>PubMed: 21228696.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Merchant</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Naleway</surname>
+            <given-names>AL</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Svendsen</surname>
+            <given-names>ER</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kelly</surname>
+            <given-names>KM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Burmeister</surname>
+            <given-names>LF</given-names>
+          </string-name>
+          et al. (
+          <year>2005</year>
+          )
+          <article-title>Asthma and farm exposures in a cohort of rural Iowa children</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>113</volume>
+          :
+          <fpage>350</fpage>
+          -
+          <lpage>356</lpage>
+          . PubMed:
+          <fpage>15743727</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Radon</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schulze</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ehrenstein</surname>
+            <given-names>V</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>van Strien</surname>
+            <given-names>RT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Praml</surname>
+            <given-names>G</given-names>
+          </string-name>
+          et al. (
+          <year>2007</year>
+          )
+          <article-title>Environmental exposure to confined animal feeding operations and respiratory health of neighboring residents</article-title>
+          .
+          <source>Epidemiology</source>
+          <volume>18</volume>
+          :
+          <fpage>300</fpage>
+          -
+          <lpage>308</lpage>
+          . doi:10.1097/01.ede.
+          <volume>0000259966</volume>
+          .62137.84. PubMed:
+          <fpage>17435437</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Bullers</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Environmental stressors, perceived control, and health: the case of residents near large-scale hog farms in eastern North Carolina</article-title>
+          .
+          <source>Hum Ecol Interdiscip J</source>
+          <volume>33</volume>
+          :
+          <fpage>1</fpage>
+          -
+          <lpage>16</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Schiffman</surname>
+            <given-names>SS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Miller</surname>
+            <given-names>EA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Suggs</surname>
+            <given-names>MS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Graham</surname>
+            <given-names>BG</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          )
+          <article-title>The effect of environmental odors emanating from commercial swine operations on the mood of nearby residents</article-title>
+          .
+          <source>Brain. Res Bull</source>
+          <volume>37</volume>
+          :
+          <fpage>369</fpage>
+          -
+          <lpage>375</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Thu</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Donham</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ziegerhorn</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reynolds</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Thorne</surname>
+            <given-names>PS</given-names>
+          </string-name>
+          et al. (
+          <year>1997</year>
+          )
+          <article-title>A control study of the physical and mental health of residents living near a large-scale swine operation J</article-title>
+          .
+          <source>Journal of Agric Saf Health</source>
+          <volume>3</volume>
+          :
+          <fpage>13</fpage>
+          -
+          <lpage>22</lpage>
+          . doi:10.13031/
+          <year>2013</year>
+          .17747.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Radon</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Peters</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Praml</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ehrenstein</surname>
+            <given-names>V</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schulze</surname>
+            <given-names>A</given-names>
+          </string-name>
+          et al. (
+          <year>2004</year>
+          )
+          <article-title>Livestock odours and quality of life of neighbouring residents</article-title>
+          .
+          <source>Ann Agric Environ Med</source>
+          <volume>11</volume>
+          :
+          <fpage>59</fpage>
+          -
+          <lpage>62</lpage>
+          . PubMed:
+          <fpage>15236499</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Wing</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wolf</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Intensive livestock operations, health, and quality of life among eastern North Carolina residents</article-title>
+          .
+          <source>Environ Health Perspect</source>
+          <volume>108</volume>
+          :
+          <fpage>233</fpage>
+          -
+          <lpage>238</lpage>
+          . doi:10.1289/ehp.00108233. PubMed:
+          <fpage>10706529</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>United States Code</surname>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Comprehensive Environmental Response</article-title>
+          , Compensation, and
+          <string-name>
+            <given-names>Liability</given-names>
+            <surname>Act</surname>
+          </string-name>
+          ,
+          <fpage>42</fpage>
+          USC §9603.
+          <string-name>
+            <surname>Accessed</surname>
+          </string-name>
+          2013
+          <year>Jul</year>
+          25.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>United States Code</surname>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Emergency Planning and Community Rightto-Know Act, 42 USC §11004. Accessed 2013 Jul 25.</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24. Code of Federal Regulations (
+          <year>2011</year>
+          )
+          <article-title>List of Hazardous Substances</article-title>
+          and
+          <string-name>
+            <given-names>Reportable</given-names>
+            <surname>Quantities</surname>
+          </string-name>
+          ,
+          <fpage>40</fpage>
+          CFR §302.4.
+          <article-title>Accessed 2013 Jul 25.</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25. Code of Federal Regulations (
+          <year>2011</year>
+          )
+          <article-title>The List of Extremely Hazardous Substances and Their Threshold Planning Quantities</article-title>
+          ,
+          <fpage>40</fpage>
+          CFR §355,
+          <string-name>
+            <surname>Appendix</surname>
+            <given-names>A.</given-names>
+          </string-name>
+          <article-title>Accessed 2013 Jul 25.</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26. US National Research Council (
+          <year>2002</year>
+          )
+          <article-title>Air emissions from animal feeding operations: current knowledge, future needs</article-title>
+          . Washington, DC: The National Academies Press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Copeland</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Animal waste and hazardous substances: current laws and legislative issues</article-title>
+          . Washington, DC: Congressional Research Service.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28. Code of Federal Regulations (
+          <year>2011</year>
+          )
+          <article-title>Toxic Chemical Release Reporting: Community Right-to-Know</article-title>
+          ,
+          <fpage>40</fpage>
+          CFR §372.
+          <string-name>
+            <surname>Accessed</surname>
+          </string-name>
+          2013 Jul 25
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>National Chicken Council</surname>
+            ,
+            <given-names>U.S.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Poultry</surname>
+            &amp;
+            <given-names>Egg</given-names>
+          </string-name>
+          <string-name>
+            <surname>Association</surname>
+          </string-name>
+          , National Turkey Federation.
+          <article-title>Petition for Exemption from EPCRA and CERCLA Reporting Requirements for Ammonia Emissions from Poultry Operations</article-title>
+          . Available: http://www.uspoultry.org/environment/docs/ PoultryPetition.pdf.
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <article-title>US Environmental Protection Agency Agriculture - Air Monitoring</article-title>
+          . Available: http://www.epa.
+          <source>gov/compliance/resources/agreements/caa/ cafo-infosht-0309.html. Accessed</source>
+          <year>2012</year>
+          August 7
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Heinzen</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Stopping the campaign to deregulate factory farm air pollution</article-title>
+          .
+          <source>NY_U Environ Law J</source>
+          <volume>17</volume>
+          :
+          <fpage>1482</fpage>
+          -
+          <lpage>1526</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Animal feeding operations consent agreement and final order</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>70</volume>
+          :
+          <fpage>4958</fpage>
+          -
+          <lpage>4977</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <article-title>US Environmental Protection Agency Animal Feeding Operations Air Quality Compliance Fact Sheet</article-title>
+          . Available: http://www.epa.gov/ compliance/resources/agreements/caa/cafo-infosht-0309.html.
+          <source>Accessed August</source>
+          <volume>8</volume>
+          ,
+          <fpage>2012</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>CERCLA/EPCRA administrative reporting exemption for air releases of hazardous substances from animal waste at farms; final rule</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>73</volume>
+          :
+          <fpage>76948</fpage>
+          -
+          <lpage>76960</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>CERCLA/EPCRA administrative reporting exemption for air releases of hazardous substances from animal waste; proposed rule</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>72</volume>
+          :
+          <fpage>73700</fpage>
+          -
+          <lpage>73708</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Centner</surname>
+            <given-names>TJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Patel</surname>
+            <given-names>PG</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Reporting air emissions from animal production activities in the United States</article-title>
+          .
+          <source>Environ Int</source>
+          <volume>36</volume>
+          :
+          <fpage>237</fpage>
+          -
+          <lpage>242</lpage>
+          . doi: 10.1016/j.envint.
+          <year>2009</year>
+          .11.007. PubMed:
+          <fpage>20056277</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37. Code of Federal Regulations (
+          <year>2011</year>
+          )
+          <article-title>Which Emergency Release Notification Requirements Apply to Continuous Releases?, 40</article-title>
+          <string-name>
+            <surname>CFR</surname>
+          </string-name>
+          §355.32.
+          <article-title>Accessed 2013 July 25.</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <article-title>US Environmental Protection Agency</article-title>
+          ,
+          <article-title>CERCLA /EPCRA Administrative Reporting Exemption for Air Releases of Hazardous Substances from Animal Waste at Farms</article-title>
+          . Available: http://epa.gov/emergencies/docs/ chem/CAFO_rule_fact_sheet.pdf.
+          <source>Accessed</source>
+          <year>2012</year>
+          November 7
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <article-title>US Environmental Protection Agency The Next Generation of Tools and Actions to Restore Water Quality in the Chesapeake Bay</article-title>
+          . Available: http://executiveorder.chesapeakebay.
+          <source>net/file.axd? file=</source>
+          <year>2009</year>
+          %
+          <article-title>2f9%2f202(a)</article-title>
+          .
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <article-title>US Department of Agriculture 2007 Census of Agriculture</article-title>
+          , State Profile, North Carolina. Available: http://www.agcensus.usda.gov/Publications/
+          <year>2007</year>
+          /Online_Highlights/County_Profiles/North_Carolina/cp99037.pdf.
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <article-title>US Environmental Protection Agency Reporting Requirements for Continuous Releases of Hazardous Substances, A Guide for Facilities on Compliance</article-title>
+          . Available: http://www.epa.gov/superfund/policy/ release/faciliti.htm.
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <source>Maryland Department of the Environment Facts About</source>
+          ...
+          <article-title>Hazardous Release Reporting From Animal Waste to Air</article-title>
+          . Available: http:// www.mde.state.md.us/programs/BusinessInfoCenter/Community %20Right%20To%20Know/Documents/www.mde.state.md.
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <article-title>US Poultry &amp; Egg Association Emergency Planning and Community Right-to-Know Act Poultry Operations Continuous Release Written Report</article-title>
+          . Available: http://www.uspoultry.org/environment/docs/ USPOULTRYEPCRAFillableReportingForm.pdf.
+          <source>Accessed 2013 July 25</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <article-title>Virginia Department of Environmental Quality Livestock and Poultry</article-title>
+          . Available: http://www.deq.virginia.gov/Programs/Water/ LandApplicationBeneficialReuse/LivestockPoultry.aspx.
+          <source>Accessed</source>
+          <year>2013</year>
+          November 8
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <source>Code of Federal Regulations (accessed 2013 Jul</source>
+          <volume>25</volume>
+          ) Continuous Releases,
+          <fpage>40</fpage>
+          CFR §302.8 (
+          <year>2011</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <article-title>US Government Accountability Office</article-title>
+          .
+          <article-title>Concentrated animal feeding operations: EPA needs more information and a clearly defined strategy to protect air and water quality from pollutants of concern</article-title>
+          . Available: http://www.gao.gov/assets/290/280229.pdf.
+          <source>Accessed</source>
+          <year>2013</year>
+          25 Jul
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          47. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>2012</year>
+          )
+          <article-title>National Pollutant Discharge Elimination System (NPDES) Concentrated Animal Feeding Operation (CAFO) reporting rule, proposed rule; withdrawal</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>77</volume>
+          :
+          <fpage>42679</fpage>
+          -
+          <lpage>42682</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          48. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>1985</year>
+          )
+          <article-title>Notification requirements; reportable quantity adjustments</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>50</volume>
+          :
+          <fpage>13456</fpage>
+          -
+          <lpage>13474</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          49. US
+          <string-name>
+            <given-names>Environmental</given-names>
+            <surname>Protection Agency</surname>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>National Pollutant Discharge Elimination System (NPDES) Concentrated Animal Feeding Operation (CAFO) reporting rule, proposed rule</article-title>
+          .
+          <source>Fed Reg</source>
+          <volume>76</volume>
+          :
+          <fpage>65431</fpage>
+          -
+          <lpage>65458</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          50.
+          <string-name>
+            <surname>de Marchi</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hamilton</surname>
+            <given-names>JT</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Assessing the accuracy of selfreported data: An evaluation of the toxics release inventory</article-title>
+          .
+          <article-title>Assessing the accuracy of self-reported data: An evaluation of the toxics release inventory</article-title>
+          <volume>32</volume>
+          :
+          <fpage>57</fpage>
+          -
+          <lpage>76</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          51.
+          <article-title>US Environmental Protection Agency</article-title>
+          .
+          <article-title>SAB Review of EmissionsEstimating Methodologies for Broiler Animal Feeding Operations and for Lagoons and Basins at Swine and Dairy Animal Feeding Operations</article-title>
+          . Available: http://yosemite.epa.gov/sab/sabproduct.nsf/ 0/08A7FD5F8BD5D2FE85257B52004234FE/$
+          <source>File/EPA-SAB-13-003- unsigned+.pdf. Accessed</source>
+          <year>2013</year>
+          29 Jul
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000014">
+<figure confidence="0.32565575">
+Stem Cell Reports
+Perspective
+The Dynamic Duo: Niche/Stem Cell Interdependency
+Kailin R. Mesa,1 Panteleimon Rompolas,1 and Valentina Greco1,2,3,4,*
+</figure>
+<footnote confidence="0.9590653">
+1Department
+of Genetics
+of Dermatology
+3Yale Stem Cell Center
+4Yale Cancer Center
+Yale School of Medicine, New Haven, CT 06510, USA
+*Correspondence: valentina.greco@yale.edu
+http://dx.doi.org/10.1016/j.stemcr.2015.05.001
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+2Department
+</footnote>
+<sectionHeader confidence="0.938144" genericHeader="conclusions">
+SUMMARY
+</sectionHeader>
+<bodyText confidence="0.9979418">
+Most tissues in our bodies undergo constant cellular turnover.
+This process requires a dynamic balance between cell production
+and elimination. Stem cells have been shown in many of these
+tissues to be the major source of new cells. However, despite the
+tremendous advances made, it still remains unclear how stem cell
+behavior and activity are regulated in vivo. Furthermore, we lack
+basic understanding for the mechanisms that coordinate niche/
+stem cell interactions to maintain normal tissue homeostasis. Our
+lab has established a novel imaging approach in live mice using
+the skin as a model system to investigate these fundamental processes in both physiological and pathological settings such as cancer, with the goal of understanding how tissues successfully orchestrate tissue regeneration throughout the lifetime of an organism.
+The Hair Follicle as an Ideal Model System to Study
+Stem Cells and Their Niche
+The hair follicle stands up as a paradigm for stem cell biology
+given that several of its diverse cellular components, such as
+mesenchymal and epithelial cell types, as well as utilized
+signaling pathways are conserved in many other tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). The
+advantage of the hair follicle over other tissues lies both in
+its unique accessibility for investigation as well as its stereotypic and continuous pattern of regeneration. This process
+relies on a stem cell pool that is maintained through the
+sequential phases of growth (Anagen), regression (Catagen),
+and rest (Telogen) of hair regeneration (Figure 1). These key
+features enable the field to use this model system to study
+the regulation of stem cell quiescence and activation in
+the context of a complete mini-organ. Additionally, the
+epithelial component of the follicle is highly compartmentalized, which allows us to distinguish different cell types,
+such as distinct stem cell populations as well as their
+differentiated progeny, on the basis of their location,
+morphology, as well as molecular markers (Kretzschmar
+and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is
+comprised of two spatially distinct epithelial populations:
+the bulge, which surrounds the base of the hair proper
+(called hair shaft), and the hair germ, which is located
+directly below the bulge stem cells and in direct contact
+with the mesenchymal dermal papilla (DP) niche (Cotsarelis
+et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev
+et al., 2001; Rahmani et al., 2014; Sennett and Rendl,
+2012; Tumbar et al., 2004) (Figure 1). While previous data
+supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a
+new view that relies on the coexistence of two functionally
+distinct pools: the activated hair germ cells, which can more
+quickly respond to the environmental stimuli to engage in a
+new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem
+cell pool and has been found to be utilized by other tissues
+such as the blood and the brain (Greco and Guo, 2010;
+Greco et al., 2009; Li and Clevers, 2010).
+</bodyText>
+<subsectionHeader confidence="0.347455">
+Capturing Stem Cell Behaviors during Tissue
+Regeneration In Vivo
+</subsectionHeader>
+<bodyText confidence="0.991574823529412">
+At the start of a new cycle of regeneration, the epithelial
+compartment of the hair follicle begins its downward
+growth. We set out to test whether this directional growth
+was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by
+downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an
+intact organ, my group developed an intravital multiphoton imaging system, which allowed us to noninvasively image the skin of live mice over time. To visualize
+the hair follicle in vivo, we utilized transgenic mouse lines
+that were previously made to label epithelial (K14-H2BGFP)
+and mesenchymal (Lef1-RFP) hair follicle populations
+(Rendl et al., 2005; Tumbar et al., 2004) (Figure 1). Using
+these reporters in combination with our intravital imaging
+system, we have performed time-lapse recordings by generating 3D-optical stacks of hair follicles at regular time intervals throughout the phases of hair follicle regeneration
+(Figure 1). These approaches allowed us to directly capture
+hair follicle growth beginning with spatially confined
+epithelial cell division, which occurs in the activated hair
+germ compartment at the interface with the mesenchymal
+DP niche. Furthermore, the axes of these divisions are oriented perpendicular to the mesenchymal DP and parallel
+</bodyText>
+<figure confidence="0.838259">
+Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 961
+Stem Cell Reports
+Perspective
+</figure>
+<figureCaption confidence="0.996305">
+Figure 1. Live Imaging of Hair Follicle
+</figureCaption>
+<subsectionHeader confidence="0.759568">
+Stem Cell Behaviors and Fate during
+Tissue Regeneration
+</subsectionHeader>
+<bodyText confidence="0.989254910714286">
+The hair follicle is comprised of both
+epithelial and mesenchymal populations.
+To visualize both cellular compartments
+in vivo, we utilized the transgenic mouse
+lines K14-H2BGFP (epithelial) and Lef1-RFP
+(mesenchymal). Combining these reporter
+lines with our multiphoton intravital imaging system, we have performed time-lapse
+recordings of hair follicles during both
+growth and regression phases of the
+hair cycle. We find that cell behaviors, including proliferation, migration, cell death,
+and phagocytosis, are all spatiotemporally
+restricted events within subcompartments
+of the hair follicle epithelium. Coordination
+of these tissue dynamics results is spatially
+regulated fate of epithelial stem cells with
+relation to the mesenchymal DP niche.
+Scale bar, 25mm.
+to the long axis of growth of the hair follicles (Rompolas
+et al., 2012). These oriented divisions contribute to the
+newly formed inner differentiated layers, while the expanding basal epithelium (also called outer root sheath or
+ORS) is generated by a spatially restricted proliferation
+zone (Rompolas et al., 2013; Sequeira and Nicolas, 2012)
+(Figure 1). While cell production and loss are often concurrent events in several tissues, the hair follicle provides the
+advantage of studying them in isolation. To understand
+how cells are eliminated, we focused on the hair follicle
+regression phase, which previous work has defined as the
+destruction phase where the majority of epithelial cells
+are eliminated. Our imaging approaches showed that (1)
+cell death targets only the undifferentiated basal cells
+but spares differentiated inner cells and (2) cell death
+begins at the bottom of the follicle in contact with the
+mesenchymal DP niche and then spreads upward in the
+remaining basal epithelium. Strikingly, we found that
+epithelial cellular debris was not cleared by professional
+phagocytes. Rather, basal epithelial cells collectively act
+as phagocytes to clear dying epithelial neighbors (Mesa
+et al., 2015) (Figure 1). These findings in the hair follicle,
+along with work in the mammary gland (Monks et al.,
+2005), support a new paradigm of physiological epithelial
+self-clearance.
+Our work demonstrated that stem cell behaviors such as
+proliferation, migrations, cell death, and clearance are
+spatially organized within compartments and with respect
+to their proximity to the mesenchymal DP niche. However,
+we still failed to understand the long-term consequences
+of these cell behaviors and their spatial regulation toward
+tissue function during a regeneration cycle. To address
+whether the stem cell position with respect to their niche
+impacts their fate, we developed an approach to lineage
+trace single cells in the stem cell compartment and
+assess their contribution to the different epithelial layers
+that are generated during the hair regeneration cycle
+(3 weeks). To achieve this, we combined inducible genetic
+labeling, through inducible Cre-recombinases and fluorescent reporter alleles, with our intravital imaging. This
+allowed us to revisit hundreds of entire hair follicles (over
+several millimeters of skin and to depths of over 200 mm
+</bodyText>
+<figure confidence="0.857449333333333">
+962 Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors
+Stem Cell Reports
+Perspective
+</figure>
+<figureCaption confidence="0.997161">
+Figure 2. Epithelial/Mesenchymal Crosstalk Coordinates Tissue Regeneration
+</figureCaption>
+<bodyText confidence="0.996952214285714">
+Laser ablation in combination to our live
+imaging has allowed us to assess the role of
+the mesenchymal niche during tissue
+regeneration. We find that ablation of
+the niche blocks hair follicle regeneration,
+both in growth and regression. Epithelial/
+mesenchymal crosstalk relies on various
+molecular signaling pathways. Genetic
+modulation of these signals can lead
+to aberrant tissue regeneration through
+either bcat activation or TGF-b inhibition.
+Reconstitution of a mesenchymal niche
+can drive tissue growth into both the hair
+follicle and pathological settings, such as
+cancer. Conversely, growing tissues can be
+inducing to regress by niche factors such as
+retinoic acid (RA) or TGF-b1.
+within the skin) to trace the long-term fate of stem cells
+during hair follicle regeneration (Rompolas et al., 2013).
+Our revisits of labeled cell lineages revealed that stem cell
+fate is stereotypic and correlates with initial cell position
+with respect to the mesenchymal niche at the onset of
+growth. Specifically, the degree of commitment to differentiation was directly related to the proximity with the
+mesenchymal DP niche. Cells located at the furthest distance from the DP niche in the upper part of the bulge
+did not contribute to the next round of hair follicle growth,
+whereas cells located in the lower bulge engaged during
+growth to expand the undifferentiated basal ORS layer of
+the hair follicle. In contrast, cells located in hair germ,
+therefore in closer proximity to the DP niche at the onset
+of growth, were consistently found to contribute to the
+newly forming differentiated layers of the hair follicle,
+which collectively give rise to the new hair shaft (Rompolas
+et al., 2013). Conversely, lineage tracing of single basal ORS
+cells during regression showed that a spatial gradient of cell
+death emanates from the tip of the follicle. Thus, epithelial
+cells located in higher proximity of the mesenchymal DP
+niche have lower chances of surviving than cells located
+at further distances (Mesa et al., 2015). Finally, revisits
+over several rounds of hair regeneration cycles revealed
+the stepwise progression of bulge stem cells in their differentiation path whereby lower bulge stem cells give rise to
+basal ORS cells and form the hair germ during a complete
+regeneration cycle and will eventually make differentiated
+cells during the subsequent regeneration cycle (Rompolas
+et al., 2013) (Figure 1).
+These data collectively demonstrate a direct correlation
+between stem cell fate and their location with respect to
+the mesenchymal DP niche and establish a stepwise progression of bulge stem cell fate, with these cells undergoing
+an ORS/hair germ intermediate before contributing to
+the differentiated layers of the regenerating hair follicle.
+Positional correlation with stem cell fate has since been
+found in additional tissues such as the intestine (Ritsma
+et al., 2014)
+Niche Regulation of Stem Cell Activity
+Epithelial-mesenchymal interactions are essential in many
+developmental processes as well as for the regeneration of
+several adult tissues (Cunha and Hom, 1996; Ribatti and
+Santoiemma, 2014). Previous work has demonstrated that
+the mesenchymal niche of the hair follicle provides molecular signals that are sufficient to induce hair growth (Greco
+et al., 2009; Jahoda et al., 1984). However, it remained
+unclear whether the DP is required for hair regeneration
+and specifically to initiate hair follicle growth and/or
+regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically
+remove the DP prior to the hair regeneration phase under
+interrogation.
+Revisits of hair follicles in which the DP was ablated prior
+to growth onset showed that DP-ablated hair follicles
+remained stalled in the rest phase while neighboring
+unablated hair follicles continued to grow (Figure 2). This
+finding provides clear evidence that mesenchymal interactions are required to initiate hair growth and is consistent
+with previous work from invertebrate systems (Byrd and
+</bodyText>
+<table confidence="0.351622833333333">
+Kimble, 2009; Losick et al., 2011).
+When similar experiments were performed at the initiation of regression, we found that DP ablation resulted in a
+Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 963
+Stem Cell Reports
+Perspective
+dramatic reduction in cell death in the hair follicle epithelium, leading to retention of excess basal cells by the end
+</table>
+<bodyText confidence="0.993001058139535">
+of the regression phase when compared with neighboring
+follicles. This suggested that the DP promotes basal
+epithelial cell elimination during the regression phase
+and raised the question of whether DP-mediated regression serves to eliminate either exhausted basal cells or
+functional cells from an expanded stem cell pool. To
+test the functionality of the cells eliminated during regression, we devised an experimental setup to transiently remove the mesenchymal DP (Rahmani et al., 2014) during
+regression and then track the fate of retained cells. Upon
+DP regeneration, hair follicles were able to fuel a new
+round of growth from the pool of cells normally targeted
+for elimination. This work demonstrates that regression is
+a regulated process that actively reduces the stem cell pool
+following expansion during growth (Figure 2) (Mesa et al.,
+2015). This control of stem cell fate led us to ask whether
+the niche was sufficient to promote stem cell activity.
+To test this, we used laser ablation to specifically remove
+the stem cell compartment at the onset of growth.
+Interestingly, we found that epithelial cells that do not
+normally contribute to hair follicle regeneration compensated for bulge stem cell loss and once in contact with the
+mesenchymal DP niche gave rise to hair follicles that
+appear indistinguishable from surrounding unablated
+follicles. These data demonstrate that the niche is capable
+of conferring a stem cell fate upon injury to neighboring
+cell populations (Rompolas et al., 2013). Collectively,
+these data demonstrate that the niche is critical for stem
+cell activation, elimination, and regulating stem cell fate
+and behavior.
+Signaling Crosstalk between Stem Cells and Their
+Niche during Hair Regeneration
+Growth and regression phases are characterized by
+different epithelial cell behaviors, yet the mesenchymal
+DP niche promotes both sets of behaviors. One possible
+model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase
+of regeneration.
+At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways
+that are activate in the mesenchymal DP, including FGF7/
+10 and BMP inhibitors (Greco et al., 2009; Plikus et al.,
+2008), as well as in the hair germ, such as activation of
+Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013;
+Silva-Vargas et al., 2005). The sufficiency and requirement
+of several of these pathways for hair growth have been
+established (Lin and Yang, 2013; Oshimori and Fuchs,
+2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within
+the stem cells would overcome the dependence on the
+endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin
+activation and showed that b-catenin activated hair stem
+cells generated new hair outgrowths in the absence of
+their physiological mesenchymal DP niche. This is in
+contrast with the stall in growth observed in WT DP-ablated follicles. Intriguingly, surrounding mesenchymal cells
+were observed to broadly contact the newly formed hair
+growths, although they failed to spatially self-organize
+like DP clusters. This induction of a new mesenchyme
+around the growth is consistent with previous work
+(Collins et al., 2011; Gat et al., 1998; Silva-Vargas et al.,
+2005). Therefore, ectopic stem cell activation independent
+from the endogenous niche overrides normal tissue homeostasis signals to promote tissue growth. These results
+highlight that signals downstream of DP niche activation
+can drive aberrant growth within the stem cells independently of their endogenous physiological niche and
+possibly dependent on the induction of a new aberrant
+niche (Deschene et al., 2014) (Figure 2).
+Mesenchymal/epithelial crosstalk has been largely investigated during tissue growth; however, the signals that
+trigger tissue regression remain elusive. To understand
+the molecular signaling that facilitate epithelial cell death
+during regression, we investigated the transforming
+growth factor-b (TGF-b) signaling pathway, as exogenous
+delivery of TGF-b1 ligand induces precocious hair follicle
+regression (Foitzik et al., 2000). We found that TGF-b
+ligands are expressed in the DP during regression. Additionally, TGF-b signaling was found to be active in the
+hair follicle epithelium located near the DP niche. This
+suggested to us that epithelial/mesenchymal crosstalk during regression may be facilitated by TGF-b signaling and
+prompted us to functionally test the role of TGF-b signaling
+on epithelial cell death. Conditional ablation of TGF-b
+receptor I (TGF-bRI) in the hair follicle epithelium during
+regression led to a stall in hair follicles regression and
+inhibition of epithelial cell death. This demonstrated that
+hair follicle regression is regulated through an extrinsic
+regulation mediated via TGF-b signaling to induce epithelial cell death and spatially restrict the pool of surviving
+stem cells (Mesa et al., 2015).
+All together, these data show that niche/stem cell interactions and their molecular signals are key to regulate tissue
+growth but also to properly maintain tissue morphology
+and function.
+Niche and Stem Cells in Cancer
+The interplay between stem cells and their niche is not only
+central to tissue regeneration but has also been shown to be
+critical for cancer. Consistent with this, mutations affecting
+critical pathways such as Wnt/b-catenin and TGF-b have
+been found to fuel several cancers, including squamous
+</bodyText>
+<subsectionHeader confidence="0.725102666666667">
+964 Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors
+Stem Cell Reports
+Perspective
+</subsectionHeader>
+<bodyText confidence="0.987333347826087">
+cell carcinoma (SCC) in the skin (Guasch et al., 2007; Malanchi et al., 2008; Massague´, 2008). In order to understand
+how growth is regulated in a cancer setting, we investigated
+the effects of b-catenin activation on hair follicle stem cell
+behaviors as ectopic hair growths were forming. Strikingly,
+our data showed that b-catenin-activated stem cells
+recruited WT neighboring follicles into the growths. These
+WT cells contributed to fueling the new ectopic growth
+by actively proliferating. Transcriptional and genetic approaches demonstrated that b-catenin-activated stem cells
+created a field of Wnt activation around them by upregulating Wnt ligand production (Deschene et al., 2014). This
+finding expands our understanding of tumoral growth
+and expands the focus from the mutated stem cells to
+the changes in their environment in contribution to this
+aberrant growth.
+The skin regeneration cycle primed us to investigate
+potential mechanisms of tumor regression that could overcome tumoral growth. To this end, we utilized a peculiar
+skin tumor known to self-regress, called keratoacanthoma
+(KA) (Ko, 2010). This tumor has provided us with a powerful platform for understanding physiological principles of
+tumor regression. Our parallel approaches of SCC with
+KA revealed that while both tumors share Wnt activation
+during growth, regressing KAs displayed an upregulation
+of Wnt inhibitors in their surrounding mesenchyme and
+an overall reduction of Wnt signaling in the basal proliferative epithelium. Transcriptional approaches identified RA
+upregulation as an early event during KA regression and
+prior to Wnt downregulation. To test the function of RA
+signaling on tumor regression, we ectopically delivered
+RA to growing KAs and SCCs, which resulted in Wnt downregulation and massive regression of both forms of skin
+cancer (Zito et al., 2014).
+Epithelial cancers such as SCC have mutations that dysregulate epithelial/mesenchymal crosstalk and promote
+excessive tissue growth through pathways such as Wnt.
+This works provides a model where distinct behaviors of
+mesenchymal and epithelial components may shed light
+on therapeutic approaches to combat tumor growth and
+re-engage normal tissue regeneration.
+Conclusions
+Altogether, our innovative live imaging combined with
+genetic and cellular approaches has provided a new
+platform for understanding tissue regeneration and
+cancer in a living mammal. While the emphasis in the
+field has been centered on the stem cells, our work
+has shifted the attention to a critical role of the niche,
+which is consistent with pioneering work in several
+invertebrate systems. This work has further extended
+our understanding of tissue regeneration to reveal novel
+cellular behaviors that contribute to the process, as well
+as a critical role that the niche plays in orchestrating
+stem cell activity.
+</bodyText>
+<sectionHeader confidence="0.989216" genericHeader="acknowledgments">
+ACKNOWLEDGMENTS
+</sectionHeader>
+<bodyText confidence="0.607018181818182">
+We thank Peggy Myung (Yale) for critical feedback on the review.
+K.R.M. was supported by the NIH Predoctoral Program in Cellular
+and Molecular Biology, grant number 5T32 GM007223, and is
+currently an NSF Graduate Research Fellow. This work is supported
+by the American Cancer Society, grant number RSG-12-059-02; Yale
+Spore Grant National Cancer Institute, NIH, grant number
+2P50CA121974; the National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), NIH, grant number
+1R01AR063663-01; Regenerative Medicine Research Fund (RMRF),
+grant number M155915; and The New York Stem Cell Foundation.
+V.G. is a New York Stem Cell Foundation-Robertson Investigator.
+P.R. is a New York Stem Cell Foundation-Druckenmiller Fellow.
+</bodyText>
+<sectionHeader confidence="0.975392" genericHeader="references">
+REFERENCES
+</sectionHeader>
+<reference confidence="0.989934121951219">
+Byrd, D.T., and Kimble, J. (2009). Scratching the niche that controls Caenorhabditis elegans germline stem cells. Semin. Cell
+Dev. Biol. 20, 1107–1113.
+Choi, Y.S., Zhang, Y., Xu, M., Yang, Y., Ito, M., Peng, T., Cui, Z.,
+Nagy, A., Hadjantonakis, A.-K.K., Lang, R.A., et al. (2013). Distinct
+functions for Wnt/b-catenin in hair follicle stem cell proliferation
+and survival and interfollicular epidermal homeostasis. Cell Stem
+Cell 13, 720–733.
+Collins, C.A., Kretzschmar, K., and Watt, F.M. (2011). Reprogramming adult dermis to a neonatal state through epidermal activation of b-catenin. Development 138, 5189–5199.
+Cotsarelis, G., Sun, T.T., and Lavker, R.M. (1990). Label-retaining
+cells reside in the bulge area of pilosebaceous unit: implications
+for follicular stem cells, hair cycle, and skin carcinogenesis. Cell
+61, 1329–1337.
+Cunha, G.R., and Hom, Y.K. (1996). Role of mesenchymal-epithelial interactions in mammary gland development. J. Mammary
+Gland Biol. Neoplasia 1, 21–35.
+Deschene, E.R., Myung, P., Rompolas, P., Zito, G., Sun, T.Y., Taketo,
+M.M., Saotome, I., and Greco, V. (2014). b-Catenin activation regulates tissue growth non-cell autonomously in the hair stem cell
+niche. Science 343, 1353–1356.
+Foitzik, K., Lindner, G., Mueller-Roever, S., Maurer, M., Botchkareva, N., Botchkarev, V., Handjiski, B., Metz, M., Hibino, T., Soma,
+T., et al. (2000). Control of murine hair follicle regression (catagen)
+by TGF-beta1 in vivo. FASEB J. 14, 752–760.
+Gat, U., DasGupta, R., Degenstein, L., and Fuchs, E. (1998).
+De Novo hair follicle morphogenesis and hair tumors in mice expressing a truncated beta-catenin in skin. Cell 95, 605–614.
+Greco, V., and Guo, S. (2010). Compartmentalized organization: a
+common and required feature of stem cell niches? Development
+137, 1586–1594.
+Greco, V., Chen, T., Rendl, M., Schober, M., Pasolli, H.A., Stokes, N.,
+Dela Cruz-Racelis, J., and Fuchs, E. (2009). A two-step mechanism
+for stem cell activation during hair regeneration. Cell Stem Cell 4,
+155–169.
+Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 965
+Stem Cell Reports
+Perspective
+Guasch, G., Schober, M., Pasolli, H.A., Conn, E.B., Polak, L., and
+Fuchs, E. (2007). Loss of TGFbeta signaling destabilizes homeostasis
+and promotes squamous cell carcinomas in stratified epithelia.
+Cancer Cell 12, 313–327.
+Plikus, M.V., Mayer, J.A., de la Cruz, D., Baker, R.E., Maini, P.K.,
+Maxson, R., and Chuong, C.-M.M. (2008). Cyclic dermal BMP
+signalling regulates stem cell activation during hair regeneration.
+Nature 451, 340–344.
+Ito, M., Liu, Y., Yang, Z., Nguyen, J., Liang, F., Morris, R.J., and Cotsarelis, G. (2005). Stem cells in the hair follicle bulge contribute to
+wound repair but not to homeostasis of the epidermis. Nat. Med.
+11, 1351–1354.
+Rahmani, W., Abbasi, S., Hagner, A., Raharjo, E., Kumar, R., Hotta,
+A., Magness, S., Metzger, D., and Biernaskie, J. (2014). Hair follicle
+dermal stem cells regenerate the dermal sheath, repopulate the
+dermal papilla, and modulate hair type. Dev. Cell 31, 543–558.
+Jahoda, C.A., Horne, K.A., and Oliver, R.F. (1984). Induction of hair
+growth by implantation of cultured dermal papilla cells. Nature
+311, 560–562.
+Rendl, M., Lewis, L., and Fuchs, E. (2005). Molecular dissection of
+mesenchymal-epithelial interactions in the hair follicle. PLoS Biol.
+3, e331.
+Ko, C.J. (2010). Keratoacanthoma: facts and controversies. Clin.
+Dermatol. 28, 254–261.
+Ribatti, D., and Santoiemma, M. (2014). Epithelial-mesenchymal
+interactions: a fundamental Developmental Biology mechanism.
+Int. J. Dev. Biol. 58, 303–306.
+Kretzschmar, K., and Watt, F. (2014). Markers of epidermal stem
+cell subpopulations in adult mammalian skin. Cold Spring Harb
+Perspect Med. 4, a013631.
+Li, L., and Clevers, H. (2010). Coexistence of quiescent and active
+adult stem cells in mammals. Science 327, 542–545.
+Lin, H.-Y.Y., and Yang, L.-T.T. (2013). Differential response of
+epithelial stem cell populations in hair follicles to TGF-b signaling.
+Dev. Biol. 373, 394–406.
+Losick, V.P., Morris, L.X., Fox, D.T., and Spradling, A. (2011).
+Drosophila stem cell niches: a decade of discovery suggests a unified view of stem cell regulation. Dev. Cell 21, 159–171.
+Malanchi, I., Peinado, H., Kassen, D., Hussenet, T., Metzger, D.,
+Chambon, P., Huber, M., Hohl, D., Cano, A., Birchmeier, W., and
+Huelsken, J. (2008). Cutaneous cancer stem cell maintenance is
+dependent on beta-catenin signalling. Nature 452, 650–653.
+Massague´, J. (2008). TGFbeta in Cancer. Cell 134, 215–230.
+Mesa, K.R., Rompolas, P., Zito, G., Myung, P., Sun, T.Y., Brown, S.,
+Gonzalez, D.G., Blagoev, K.B., Haberman, A.M., and Greco, V.
+(2015). Niche-induced cell death and epithelial phagocytosis regulate hair follicle stem cell pool. Nature. Published online April 6,
+2015. http://dx.doi.org/10.1038/nature14306.
+Monks, J., Rosner, D., Geske, F.J., Lehman, L., Hanson, L., Neville,
+M.C., and Fadok, V.A. (2005). Epithelial cells as phagocytes:
+apoptotic epithelial cells are engulfed by mammary alveolar
+epithelial cells and repress inflammatory mediator release. Cell
+Death Differ. 12, 107–114.
+Myung, P.S., Takeo, M., Ito, M., and Atit, R.P. (2013). Epithelial
+Wnt ligand secretion is required for adult hair follicle growth
+and regeneration. J. Invest. Dermatol. 133, 31–41.
+Oshimori, N., and Fuchs, E. (2012). Paracrine TGF-b signaling
+counterbalances BMP-mediated repression in hair follicle stem
+cell activation. Cell Stem Cell 10, 63–75.
+Panteleyev, A.A., Jahoda, C.A., and Christiano, A.M. (2001). Hair
+follicle predetermination. J. Cell Sci. 114, 3419–3431.
+Ritsma, L., Ellenbroek, S.I., Zomer, A., Snippert, H.J., de Sauvage,
+F.J., Simons, B.D., Clevers, H., and van Rheenen, J. (2014). Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo
+live imaging. Nature 507, 362–365.
+Rogers, G.E. (2004). Hair follicle differentiation and regulation. Int.
+J. Dev. Biol. 48, 163–170.
+Rompolas, P., Deschene, E.R., Zito, G., Gonzalez, D.G., Saotome, I.,
+Haberman, A.M., and Greco, V. (2012). Live imaging of stem cell
+and progeny behaviour in physiological hair-follicle regeneration.
+Nature 487, 496–499.
+Rompolas, P., Mesa, K.R., and Greco, V. (2013). Spatial organization
+within a niche as a determinant of stem-cell fate. Nature 502,
+513–518.
+Schepeler, T., Page, M.E., and Jensen, K.B. (2014). Heterogeneity
+and plasticity of epidermal stem cells. Development 141, 2559–
+2567.
+Sennett, R., and Rendl, M. (2012). Mesenchymal-epithelial interactions during hair follicle morphogenesis and cycling. Semin. Cell
+Dev. Biol. 23, 917–927.
+Sequeira, I., and Nicolas, J.-F.F. (2012). Redefining the structure of
+the hair follicle by 3D clonal analysis. Development 139, 3741–
+3751.
+Silva-Vargas, V., Lo Celso, C., Giangreco, A., Ofstad, T., Prowse,
+D.M., Braun, K.M., and Watt, F.M. (2005). Beta-catenin and
+Hedgehog signal strength can specify number and location of
+hair follicles in adult epidermis without recruitment of bulge
+stem cells. Dev. Cell 9, 121–131.
+Tumbar, T., Guasch, G., Greco, V., Blanpain, C., Lowry, W.E., Rendl,
+M., and Fuchs, E. (2004). Defining the epithelial stem cell niche in
+skin. Science 303, 359–363.
+Zito, G., Saotome, I., Liu, Z., Ferro, E.G., Sun, T.Y., Nguyen, D.X.,
+Bilguvar, K., Ko, C.J., and Greco, V. (2014). Spontaneous tumour
+regression in keratoacanthomas is driven by Wnt/retinoic acid
+signalling cross-talk. Nat. Commun. 5, 3543.
+966 Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>D T Byrd</author>
+<author>J Kimble</author>
+</authors>
+<title>Scratching the niche that controls Caenorhabditis elegans germline stem cells.</title>
+<date>2009</date>
+<journal>Semin. Cell Dev. Biol.</journal>
+<volume>20</volume>
+<pages>1107--1113</pages>
+<contexts>
+<context position="12759" citStr="Byrd and Kimble, 2009" startWordPosition="1927" endWordPosition="1930">cle growth and/or regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was ablated prior to growth onset showed that DP-ablated hair follicles remained stalled in the rest phase while neighboring unablated hair follicles continued to grow (Figure 2). This finding provides clear evidence that mesenchymal interactions are required to initiate hair growth and is consistent with previous work from invertebrate systems (Byrd and Kimble, 2009; Losick et al., 2011). When similar experiments were performed at the initiation of regression, we found that DP ablation resulted in a Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 963 Stem Cell Reports Perspective dramatic reduction in cell death in the hair follicle epithelium, leading to retention of excess basal cells by the end of the regression phase when compared with neighboring follicles. This suggested that the DP promotes basal epithelial cell elimination during the regression phase and raised the question of whether DP-mediated regression serves to elimi</context>
+</contexts>
+<marker>Byrd, Kimble, 2009</marker>
+<rawString>Byrd, D.T., and Kimble, J. (2009). Scratching the niche that controls Caenorhabditis elegans germline stem cells. Semin. Cell Dev. Biol. 20, 1107–1113.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y S Choi</author>
+<author>Y Zhang</author>
+<author>M Xu</author>
+<author>Y Yang</author>
+<author>M Ito</author>
+<author>T Peng</author>
+<author>Z Cui</author>
+<author>A Nagy</author>
+<author>A-K K Hadjantonakis</author>
+<author>R A Lang</author>
+</authors>
+<title>Distinct functions for Wnt/b-catenin in hair follicle stem cell proliferation and survival and interfollicular epidermal homeostasis.</title>
+<date>2013</date>
+<journal>Cell Stem Cell</journal>
+<volume>13</volume>
+<pages>720--733</pages>
+<contexts>
+<context position="15473" citStr="Choi et al., 2013" startWordPosition="2353" endWordPosition="2356">ration Growth and regression phases are characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchym</context>
+</contexts>
+<marker>Choi, Zhang, Xu, Yang, Ito, Peng, Cui, Nagy, Hadjantonakis, Lang, 2013</marker>
+<rawString>Choi, Y.S., Zhang, Y., Xu, M., Yang, Y., Ito, M., Peng, T., Cui, Z., Nagy, A., Hadjantonakis, A.-K.K., Lang, R.A., et al. (2013). Distinct functions for Wnt/b-catenin in hair follicle stem cell proliferation and survival and interfollicular epidermal homeostasis. Cell Stem Cell 13, 720–733.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C A Collins</author>
+<author>K Kretzschmar</author>
+<author>F M Watt</author>
+</authors>
+<title>Reprogramming adult dermis to a neonatal state through epidermal activation of b-catenin.</title>
+<date>2011</date>
+<journal>Development</journal>
+<volume>138</volume>
+<pages>5189--5199</pages>
+<contexts>
+<context position="16449" citStr="Collins et al., 2011" startWordPosition="2499" endWordPosition="2502">dogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is in contrast with the stall in growth observed in WT DP-ablated follicles. Intriguingly, surrounding mesenchymal cells were observed to broadly contact the newly formed hair growths, although they failed to spatially self-organize like DP clusters. This induction of a new mesenchyme around the growth is consistent with previous work (Collins et al., 2011; Gat et al., 1998; Silva-Vargas et al., 2005). Therefore, ectopic stem cell activation independent from the endogenous niche overrides normal tissue homeostasis signals to promote tissue growth. These results highlight that signals downstream of DP niche activation can drive aberrant growth within the stem cells independently of their endogenous physiological niche and possibly dependent on the induction of a new aberrant niche (Deschene et al., 2014) (Figure 2). Mesenchymal/epithelial crosstalk has been largely investigated during tissue growth; however, the signals that trigger tissue regre</context>
+</contexts>
+<marker>Collins, Kretzschmar, Watt, 2011</marker>
+<rawString>Collins, C.A., Kretzschmar, K., and Watt, F.M. (2011). Reprogramming adult dermis to a neonatal state through epidermal activation of b-catenin. Development 138, 5189–5199.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Cotsarelis</author>
+<author>T T Sun</author>
+<author>R M Lavker</author>
+</authors>
+<title>Label-retaining cells reside in the bulge area of pilosebaceous unit: implications for follicular stem cells, hair cycle, and skin carcinogenesis.</title>
+<date>1990</date>
+<journal>Cell</journal>
+<volume>61</volume>
+<pages>1329--1337</pages>
+<contexts>
+<context position="2968" citStr="Cotsarelis et al., 1990" startWordPosition="433" endWordPosition="436">stinguish different cell types, such as distinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth</context>
+</contexts>
+<marker>Cotsarelis, Sun, Lavker, 1990</marker>
+<rawString>Cotsarelis, G., Sun, T.T., and Lavker, R.M. (1990). Label-retaining cells reside in the bulge area of pilosebaceous unit: implications for follicular stem cells, hair cycle, and skin carcinogenesis. Cell 61, 1329–1337.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G R Cunha</author>
+<author>Y K Hom</author>
+</authors>
+<title>Role of mesenchymal-epithelial interactions in mammary gland development.</title>
+<date>1996</date>
+<journal>J. Mammary Gland Biol. Neoplasia</journal>
+<volume>1</volume>
+<pages>21--35</pages>
+<contexts>
+<context position="1682" citStr="Cunha and Hom, 1996" startWordPosition="236" endWordPosition="239"> live mice using the skin as a model system to investigate these fundamental processes in both physiological and pathological settings such as cancer, with the goal of understanding how tissues successfully orchestrate tissue regeneration throughout the lifetime of an organism. The Hair Follicle as an Ideal Model System to Study Stem Cells and Their Niche The hair follicle stands up as a paradigm for stem cell biology given that several of its diverse cellular components, such as mesenchymal and epithelial cell types, as well as utilized signaling pathways are conserved in many other tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). The advantage of the hair follicle over other tissues lies both in its unique accessibility for investigation as well as its stereotypic and continuous pattern of regeneration. This process relies on a stem cell pool that is maintained through the sequential phases of growth (Anagen), regression (Catagen), and rest (Telogen) of hair regeneration (Figure 1). These key features enable the field to use this model system to study the regulation of stem cell quiescence and activation in the context of a complete mini-organ. Additionally, the epithelial component of </context>
+<context position="11797" citStr="Cunha and Hom, 1996" startWordPosition="1783" endWordPosition="1786">ion between stem cell fate and their location with respect to the mesenchymal DP niche and establish a stepwise progression of bulge stem cell fate, with these cells undergoing an ORS/hair germ intermediate before contributing to the differentiated layers of the regenerating hair follicle. Positional correlation with stem cell fate has since been found in additional tissues such as the intestine (Ritsma et al., 2014) Niche Regulation of Stem Cell Activity Epithelial-mesenchymal interactions are essential in many developmental processes as well as for the regeneration of several adult tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). Previous work has demonstrated that the mesenchymal niche of the hair follicle provides molecular signals that are sufficient to induce hair growth (Greco et al., 2009; Jahoda et al., 1984). However, it remained unclear whether the DP is required for hair regeneration and specifically to initiate hair follicle growth and/or regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was abl</context>
+</contexts>
+<marker>Cunha, Hom, 1996</marker>
+<rawString>Cunha, G.R., and Hom, Y.K. (1996). Role of mesenchymal-epithelial interactions in mammary gland development. J. Mammary Gland Biol. Neoplasia 1, 21–35.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E R Deschene</author>
+<author>P Myung</author>
+<author>P Rompolas</author>
+<author>G Zito</author>
+<author>T Y Sun</author>
+<author>M M Taketo</author>
+<author>I Saotome</author>
+<author>V Greco</author>
+</authors>
+<title>b-Catenin activation regulates tissue growth non-cell autonomously in the hair stem cell niche.</title>
+<date>2014</date>
+<journal>Science</journal>
+<volume>343</volume>
+<pages>1353--1356</pages>
+<contexts>
+<context position="16905" citStr="Deschene et al., 2014" startWordPosition="2565" endWordPosition="2568">h they failed to spatially self-organize like DP clusters. This induction of a new mesenchyme around the growth is consistent with previous work (Collins et al., 2011; Gat et al., 1998; Silva-Vargas et al., 2005). Therefore, ectopic stem cell activation independent from the endogenous niche overrides normal tissue homeostasis signals to promote tissue growth. These results highlight that signals downstream of DP niche activation can drive aberrant growth within the stem cells independently of their endogenous physiological niche and possibly dependent on the induction of a new aberrant niche (Deschene et al., 2014) (Figure 2). Mesenchymal/epithelial crosstalk has been largely investigated during tissue growth; however, the signals that trigger tissue regression remain elusive. To understand the molecular signaling that facilitate epithelial cell death during regression, we investigated the transforming growth factor-b (TGF-b) signaling pathway, as exogenous delivery of TGF-b1 ligand induces precocious hair follicle regression (Foitzik et al., 2000). We found that TGF-b ligands are expressed in the DP during regression. Additionally, TGF-b signaling was found to be active in the hair follicle epithelium </context>
+<context position="19466" citStr="Deschene et al., 2014" startWordPosition="2945" endWordPosition="2948">., 2008; Massague´, 2008). In order to understand how growth is regulated in a cancer setting, we investigated the effects of b-catenin activation on hair follicle stem cell behaviors as ectopic hair growths were forming. Strikingly, our data showed that b-catenin-activated stem cells recruited WT neighboring follicles into the growths. These WT cells contributed to fueling the new ectopic growth by actively proliferating. Transcriptional and genetic approaches demonstrated that b-catenin-activated stem cells created a field of Wnt activation around them by upregulating Wnt ligand production (Deschene et al., 2014). This finding expands our understanding of tumoral growth and expands the focus from the mutated stem cells to the changes in their environment in contribution to this aberrant growth. The skin regeneration cycle primed us to investigate potential mechanisms of tumor regression that could overcome tumoral growth. To this end, we utilized a peculiar skin tumor known to self-regress, called keratoacanthoma (KA) (Ko, 2010). This tumor has provided us with a powerful platform for understanding physiological principles of tumor regression. Our parallel approaches of SCC with KA revealed that while</context>
+</contexts>
+<marker>Deschene, Myung, Rompolas, Zito, Sun, Taketo, Saotome, Greco, 2014</marker>
+<rawString>Deschene, E.R., Myung, P., Rompolas, P., Zito, G., Sun, T.Y., Taketo, M.M., Saotome, I., and Greco, V. (2014). b-Catenin activation regulates tissue growth non-cell autonomously in the hair stem cell niche. Science 343, 1353–1356.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Foitzik</author>
+<author>G Lindner</author>
+<author>S Mueller-Roever</author>
+<author>M Maurer</author>
+<author>N Botchkareva</author>
+<author>V Botchkarev</author>
+<author>B Handjiski</author>
+<author>M Metz</author>
+<author>T Hibino</author>
+<author>T Soma</author>
+</authors>
+<title>Control of murine hair follicle regression (catagen) by TGF-beta1 in vivo.</title>
+<date>2000</date>
+<journal>FASEB J.</journal>
+<volume>14</volume>
+<pages>752--760</pages>
+<contexts>
+<context position="17347" citStr="Foitzik et al., 2000" startWordPosition="2621" endWordPosition="2624">aberrant growth within the stem cells independently of their endogenous physiological niche and possibly dependent on the induction of a new aberrant niche (Deschene et al., 2014) (Figure 2). Mesenchymal/epithelial crosstalk has been largely investigated during tissue growth; however, the signals that trigger tissue regression remain elusive. To understand the molecular signaling that facilitate epithelial cell death during regression, we investigated the transforming growth factor-b (TGF-b) signaling pathway, as exogenous delivery of TGF-b1 ligand induces precocious hair follicle regression (Foitzik et al., 2000). We found that TGF-b ligands are expressed in the DP during regression. Additionally, TGF-b signaling was found to be active in the hair follicle epithelium located near the DP niche. This suggested to us that epithelial/mesenchymal crosstalk during regression may be facilitated by TGF-b signaling and prompted us to functionally test the role of TGF-b signaling on epithelial cell death. Conditional ablation of TGF-b receptor I (TGF-bRI) in the hair follicle epithelium during regression led to a stall in hair follicles regression and inhibition of epithelial cell death. This demonstrated that </context>
+</contexts>
+<marker>Foitzik, Lindner, Mueller-Roever, Maurer, Botchkareva, Botchkarev, Handjiski, Metz, Hibino, Soma, 2000</marker>
+<rawString>Foitzik, K., Lindner, G., Mueller-Roever, S., Maurer, M., Botchkareva, N., Botchkarev, V., Handjiski, B., Metz, M., Hibino, T., Soma, T., et al. (2000). Control of murine hair follicle regression (catagen) by TGF-beta1 in vivo. FASEB J. 14, 752–760.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U Gat</author>
+<author>R DasGupta</author>
+<author>L Degenstein</author>
+<author>E Fuchs</author>
+</authors>
+<title>De Novo hair follicle morphogenesis and hair tumors in mice expressing a truncated beta-catenin in skin.</title>
+<date>1998</date>
+<journal>Cell</journal>
+<volume>95</volume>
+<pages>605--614</pages>
+<contexts>
+<context position="16467" citStr="Gat et al., 1998" startWordPosition="2503" endWordPosition="2506"> growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is in contrast with the stall in growth observed in WT DP-ablated follicles. Intriguingly, surrounding mesenchymal cells were observed to broadly contact the newly formed hair growths, although they failed to spatially self-organize like DP clusters. This induction of a new mesenchyme around the growth is consistent with previous work (Collins et al., 2011; Gat et al., 1998; Silva-Vargas et al., 2005). Therefore, ectopic stem cell activation independent from the endogenous niche overrides normal tissue homeostasis signals to promote tissue growth. These results highlight that signals downstream of DP niche activation can drive aberrant growth within the stem cells independently of their endogenous physiological niche and possibly dependent on the induction of a new aberrant niche (Deschene et al., 2014) (Figure 2). Mesenchymal/epithelial crosstalk has been largely investigated during tissue growth; however, the signals that trigger tissue regression remain elusi</context>
+</contexts>
+<marker>Gat, DasGupta, Degenstein, Fuchs, 1998</marker>
+<rawString>Gat, U., DasGupta, R., Degenstein, L., and Fuchs, E. (1998). De Novo hair follicle morphogenesis and hair tumors in mice expressing a truncated beta-catenin in skin. Cell 95, 605–614.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Greco</author>
+<author>S Guo</author>
+</authors>
+<title>Compartmentalized organization: a common and required feature of stem cell niches?</title>
+<date>2010</date>
+<journal>Development</journal>
+<volume>137</volume>
+<pages>1586--1594</pages>
+<contexts>
+<context position="3717" citStr="Greco and Guo, 2010" startWordPosition="561" endWordPosition="564">04) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by other tissues such as the blood and the brain (Greco and Guo, 2010; Greco et al., 2009; Li and Clevers, 2010). Capturing Stem Cell Behaviors during Tissue Regeneration In Vivo At the start of a new cycle of regeneration, the epithelial compartment of the hair follicle begins its downward growth. We set out to test whether this directional growth was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an intact organ, my group developed an intravital multiphoton imaging system, which allowed us to n</context>
+</contexts>
+<marker>Greco, Guo, 2010</marker>
+<rawString>Greco, V., and Guo, S. (2010). Compartmentalized organization: a common and required feature of stem cell niches? Development 137, 1586–1594.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Greco</author>
+<author>T Chen</author>
+<author>M Rendl</author>
+<author>M Schober</author>
+<author>H A Pasolli</author>
+<author>N Stokes</author>
+<author>Dela Cruz-Racelis</author>
+<author>J</author>
+<author>E Fuchs</author>
+</authors>
+<title>A two-step mechanism for stem cell activation during hair regeneration.</title>
+<date>2009</date>
+<journal>Cell Stem Cell</journal>
+<volume>4</volume>
+<pages>155--169</pages>
+<contexts>
+<context position="3737" citStr="Greco et al., 2009" startWordPosition="565" endWordPosition="568"> previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by other tissues such as the blood and the brain (Greco and Guo, 2010; Greco et al., 2009; Li and Clevers, 2010). Capturing Stem Cell Behaviors during Tissue Regeneration In Vivo At the start of a new cycle of regeneration, the epithelial compartment of the hair follicle begins its downward growth. We set out to test whether this directional growth was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an intact organ, my group developed an intravital multiphoton imaging system, which allowed us to noninvasively image t</context>
+<context position="11997" citStr="Greco et al., 2009" startWordPosition="1813" endWordPosition="1816">diate before contributing to the differentiated layers of the regenerating hair follicle. Positional correlation with stem cell fate has since been found in additional tissues such as the intestine (Ritsma et al., 2014) Niche Regulation of Stem Cell Activity Epithelial-mesenchymal interactions are essential in many developmental processes as well as for the regeneration of several adult tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). Previous work has demonstrated that the mesenchymal niche of the hair follicle provides molecular signals that are sufficient to induce hair growth (Greco et al., 2009; Jahoda et al., 1984). However, it remained unclear whether the DP is required for hair regeneration and specifically to initiate hair follicle growth and/or regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was ablated prior to growth onset showed that DP-ablated hair follicles remained stalled in the rest phase while neighboring unablated hair follicles continued to grow (Figure 2). This finding provides clear</context>
+<context position="15366" citStr="Greco et al., 2009" startWordPosition="2333" endWordPosition="2336">ating stem cell fate and behavior. Signaling Crosstalk between Stem Cells and Their Niche during Hair Regeneration Growth and regression phases are characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-cate</context>
+</contexts>
+<marker>Greco, Chen, Rendl, Schober, Pasolli, Stokes, Cruz-Racelis, J, Fuchs, 2009</marker>
+<rawString>Greco, V., Chen, T., Rendl, M., Schober, M., Pasolli, H.A., Stokes, N., Dela Cruz-Racelis, J., and Fuchs, E. (2009). A two-step mechanism for stem cell activation during hair regeneration. Cell Stem Cell 4, 155–169.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Stem Cell</author>
+</authors>
+<title>Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 965 Stem Cell Reports Perspective</title>
+<date>2007</date>
+<journal>Cancer Cell</journal>
+<volume>12</volume>
+<pages>313--327</pages>
+<marker>Cell, 2007</marker>
+<rawString>Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 965 Stem Cell Reports Perspective Guasch, G., Schober, M., Pasolli, H.A., Conn, E.B., Polak, L., and Fuchs, E. (2007). Loss of TGFbeta signaling destabilizes homeostasis and promotes squamous cell carcinomas in stratified epithelia. Cancer Cell 12, 313–327.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M V Plikus</author>
+<author>J A Mayer</author>
+<author>de la Cruz</author>
+<author>D Baker</author>
+<author>R E Maini</author>
+<author>P K Maxson</author>
+<author>R</author>
+<author>C-M M Chuong</author>
+</authors>
+<title>Cyclic dermal BMP signalling regulates stem cell activation during hair regeneration.</title>
+<date>2008</date>
+<journal>Nature</journal>
+<volume>451</volume>
+<pages>340--344</pages>
+<contexts>
+<context position="15388" citStr="Plikus et al., 2008" startWordPosition="2337" endWordPosition="2340"> and behavior. Signaling Crosstalk between Stem Cells and Their Niche during Hair Regeneration Growth and regression phases are characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair ste</context>
+</contexts>
+<marker>Plikus, Mayer, Cruz, Baker, Maini, Maxson, R, Chuong, 2008</marker>
+<rawString>Plikus, M.V., Mayer, J.A., de la Cruz, D., Baker, R.E., Maini, P.K., Maxson, R., and Chuong, C.-M.M. (2008). Cyclic dermal BMP signalling regulates stem cell activation during hair regeneration. Nature 451, 340–344.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Ito</author>
+<author>Y Liu</author>
+<author>Z Yang</author>
+<author>J Nguyen</author>
+<author>F Liang</author>
+<author>R J Morris</author>
+<author>G Cotsarelis</author>
+</authors>
+<title>Stem cells in the hair follicle bulge contribute to wound repair but not to homeostasis of the epidermis.</title>
+<date>2005</date>
+<journal>Nat. Med.</journal>
+<volume>11</volume>
+<pages>1351--1354</pages>
+<contexts>
+<context position="2986" citStr="Ito et al., 2005" startWordPosition="437" endWordPosition="440">types, such as distinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining</context>
+</contexts>
+<marker>Ito, Liu, Yang, Nguyen, Liang, Morris, Cotsarelis, 2005</marker>
+<rawString>Ito, M., Liu, Y., Yang, Z., Nguyen, J., Liang, F., Morris, R.J., and Cotsarelis, G. (2005). Stem cells in the hair follicle bulge contribute to wound repair but not to homeostasis of the epidermis. Nat. Med. 11, 1351–1354.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Rahmani</author>
+<author>S Abbasi</author>
+<author>A Hagner</author>
+<author>E Raharjo</author>
+<author>R Kumar</author>
+<author>A Hotta</author>
+<author>S Magness</author>
+<author>D Metzger</author>
+<author>J Biernaskie</author>
+</authors>
+<title>Hair follicle dermal stem cells regenerate the dermal sheath, repopulate the dermal papilla, and modulate hair type.</title>
+<date>2014</date>
+<journal>Dev. Cell</journal>
+<volume>31</volume>
+<pages>543--558</pages>
+<contexts>
+<context position="3054" citStr="Rahmani et al., 2014" startWordPosition="449" endWordPosition="452">ifferentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by oth</context>
+<context position="13611" citStr="Rahmani et al., 2014" startWordPosition="2062" endWordPosition="2065">Perspective dramatic reduction in cell death in the hair follicle epithelium, leading to retention of excess basal cells by the end of the regression phase when compared with neighboring follicles. This suggested that the DP promotes basal epithelial cell elimination during the regression phase and raised the question of whether DP-mediated regression serves to eliminate either exhausted basal cells or functional cells from an expanded stem cell pool. To test the functionality of the cells eliminated during regression, we devised an experimental setup to transiently remove the mesenchymal DP (Rahmani et al., 2014) during regression and then track the fate of retained cells. Upon DP regeneration, hair follicles were able to fuel a new round of growth from the pool of cells normally targeted for elimination. This work demonstrates that regression is a regulated process that actively reduces the stem cell pool following expansion during growth (Figure 2) (Mesa et al., 2015). This control of stem cell fate led us to ask whether the niche was sufficient to promote stem cell activity. To test this, we used laser ablation to specifically remove the stem cell compartment at the onset of growth. Interestingly, </context>
+</contexts>
+<marker>Rahmani, Abbasi, Hagner, Raharjo, Kumar, Hotta, Magness, Metzger, Biernaskie, 2014</marker>
+<rawString>Rahmani, W., Abbasi, S., Hagner, A., Raharjo, E., Kumar, R., Hotta, A., Magness, S., Metzger, D., and Biernaskie, J. (2014). Hair follicle dermal stem cells regenerate the dermal sheath, repopulate the dermal papilla, and modulate hair type. Dev. Cell 31, 543–558.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C A Jahoda</author>
+<author>K A Horne</author>
+<author>R F Oliver</author>
+</authors>
+<title>Induction of hair growth by implantation of cultured dermal papilla cells.</title>
+<date>1984</date>
+<journal>Nature</journal>
+<volume>311</volume>
+<pages>560--562</pages>
+<contexts>
+<context position="3007" citStr="Jahoda et al., 1984" startWordPosition="441" endWordPosition="444">tinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cel</context>
+<context position="12019" citStr="Jahoda et al., 1984" startWordPosition="1817" endWordPosition="1820">uting to the differentiated layers of the regenerating hair follicle. Positional correlation with stem cell fate has since been found in additional tissues such as the intestine (Ritsma et al., 2014) Niche Regulation of Stem Cell Activity Epithelial-mesenchymal interactions are essential in many developmental processes as well as for the regeneration of several adult tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). Previous work has demonstrated that the mesenchymal niche of the hair follicle provides molecular signals that are sufficient to induce hair growth (Greco et al., 2009; Jahoda et al., 1984). However, it remained unclear whether the DP is required for hair regeneration and specifically to initiate hair follicle growth and/or regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was ablated prior to growth onset showed that DP-ablated hair follicles remained stalled in the rest phase while neighboring unablated hair follicles continued to grow (Figure 2). This finding provides clear evidence that mesench</context>
+</contexts>
+<marker>Jahoda, Horne, Oliver, 1984</marker>
+<rawString>Jahoda, C.A., Horne, K.A., and Oliver, R.F. (1984). Induction of hair growth by implantation of cultured dermal papilla cells. Nature 311, 560–562.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Rendl</author>
+<author>L Lewis</author>
+<author>E Fuchs</author>
+</authors>
+<title>Molecular dissection of mesenchymal-epithelial interactions in the hair follicle.</title>
+<date>2005</date>
+<journal>PLoS Biol.</journal>
+<volume>3</volume>
+<pages>331</pages>
+<contexts>
+<context position="4575" citStr="Rendl et al., 2005" startWordPosition="692" endWordPosition="695">t to test whether this directional growth was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an intact organ, my group developed an intravital multiphoton imaging system, which allowed us to noninvasively image the skin of live mice over time. To visualize the hair follicle in vivo, we utilized transgenic mouse lines that were previously made to label epithelial (K14-H2BGFP) and mesenchymal (Lef1-RFP) hair follicle populations (Rendl et al., 2005; Tumbar et al., 2004) (Figure 1). Using these reporters in combination with our intravital imaging system, we have performed time-lapse recordings by generating 3D-optical stacks of hair follicles at regular time intervals throughout the phases of hair follicle regeneration (Figure 1). These approaches allowed us to directly capture hair follicle growth beginning with spatially confined epithelial cell division, which occurs in the activated hair germ compartment at the interface with the mesenchymal DP niche. Furthermore, the axes of these divisions are oriented perpendicular to the mesenchy</context>
+</contexts>
+<marker>Rendl, Lewis, Fuchs, 2005</marker>
+<rawString>Rendl, M., Lewis, L., and Fuchs, E. (2005). Molecular dissection of mesenchymal-epithelial interactions in the hair follicle. PLoS Biol. 3, e331.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C J Ko</author>
+</authors>
+<title>Keratoacanthoma: facts and controversies.</title>
+<date>2010</date>
+<journal>Clin. Dermatol.</journal>
+<volume>28</volume>
+<pages>254--261</pages>
+<contexts>
+<context position="19890" citStr="Ko, 2010" startWordPosition="3011" endWordPosition="3012">ional and genetic approaches demonstrated that b-catenin-activated stem cells created a field of Wnt activation around them by upregulating Wnt ligand production (Deschene et al., 2014). This finding expands our understanding of tumoral growth and expands the focus from the mutated stem cells to the changes in their environment in contribution to this aberrant growth. The skin regeneration cycle primed us to investigate potential mechanisms of tumor regression that could overcome tumoral growth. To this end, we utilized a peculiar skin tumor known to self-regress, called keratoacanthoma (KA) (Ko, 2010). This tumor has provided us with a powerful platform for understanding physiological principles of tumor regression. Our parallel approaches of SCC with KA revealed that while both tumors share Wnt activation during growth, regressing KAs displayed an upregulation of Wnt inhibitors in their surrounding mesenchyme and an overall reduction of Wnt signaling in the basal proliferative epithelium. Transcriptional approaches identified RA upregulation as an early event during KA regression and prior to Wnt downregulation. To test the function of RA signaling on tumor regression, we ectopically deli</context>
+</contexts>
+<marker>Ko, 2010</marker>
+<rawString>Ko, C.J. (2010). Keratoacanthoma: facts and controversies. Clin. Dermatol. 28, 254–261.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Ribatti</author>
+<author>M Santoiemma</author>
+</authors>
+<title>Epithelial-mesenchymal interactions: a fundamental Developmental Biology mechanism.</title>
+<date>2014</date>
+<journal>Int. J. Dev. Biol.</journal>
+<volume>58</volume>
+<pages>303--306</pages>
+<contexts>
+<context position="1713" citStr="Ribatti and Santoiemma, 2014" startWordPosition="240" endWordPosition="243">skin as a model system to investigate these fundamental processes in both physiological and pathological settings such as cancer, with the goal of understanding how tissues successfully orchestrate tissue regeneration throughout the lifetime of an organism. The Hair Follicle as an Ideal Model System to Study Stem Cells and Their Niche The hair follicle stands up as a paradigm for stem cell biology given that several of its diverse cellular components, such as mesenchymal and epithelial cell types, as well as utilized signaling pathways are conserved in many other tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). The advantage of the hair follicle over other tissues lies both in its unique accessibility for investigation as well as its stereotypic and continuous pattern of regeneration. This process relies on a stem cell pool that is maintained through the sequential phases of growth (Anagen), regression (Catagen), and rest (Telogen) of hair regeneration (Figure 1). These key features enable the field to use this model system to study the regulation of stem cell quiescence and activation in the context of a complete mini-organ. Additionally, the epithelial component of the follicle is highly compartm</context>
+<context position="11828" citStr="Ribatti and Santoiemma, 2014" startWordPosition="1787" endWordPosition="1790"> fate and their location with respect to the mesenchymal DP niche and establish a stepwise progression of bulge stem cell fate, with these cells undergoing an ORS/hair germ intermediate before contributing to the differentiated layers of the regenerating hair follicle. Positional correlation with stem cell fate has since been found in additional tissues such as the intestine (Ritsma et al., 2014) Niche Regulation of Stem Cell Activity Epithelial-mesenchymal interactions are essential in many developmental processes as well as for the regeneration of several adult tissues (Cunha and Hom, 1996; Ribatti and Santoiemma, 2014). Previous work has demonstrated that the mesenchymal niche of the hair follicle provides molecular signals that are sufficient to induce hair growth (Greco et al., 2009; Jahoda et al., 1984). However, it remained unclear whether the DP is required for hair regeneration and specifically to initiate hair follicle growth and/or regression. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was ablated prior to growth onset show</context>
+</contexts>
+<marker>Ribatti, Santoiemma, 2014</marker>
+<rawString>Ribatti, D., and Santoiemma, M. (2014). Epithelial-mesenchymal interactions: a fundamental Developmental Biology mechanism. Int. J. Dev. Biol. 58, 303–306.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Kretzschmar</author>
+<author>F Watt</author>
+</authors>
+<title>Markers of epidermal stem cell subpopulations in adult mammalian skin. Cold Spring Harb Perspect Med.</title>
+<date>2014</date>
+<volume>4</volume>
+<pages>013631</pages>
+<contexts>
+<context position="2557" citStr="Kretzschmar and Watt, 2014" startWordPosition="369" endWordPosition="372"> that is maintained through the sequential phases of growth (Anagen), regression (Catagen), and rest (Telogen) of hair regeneration (Figure 1). These key features enable the field to use this model system to study the regulation of stem cell quiescence and activation in the context of a complete mini-organ. Additionally, the epithelial component of the follicle is highly compartmentalized, which allows us to distinguish different cell types, such as distinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem </context>
+</contexts>
+<marker>Kretzschmar, Watt, 2014</marker>
+<rawString>Kretzschmar, K., and Watt, F. (2014). Markers of epidermal stem cell subpopulations in adult mammalian skin. Cold Spring Harb Perspect Med. 4, a013631.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Li</author>
+<author>H Clevers</author>
+</authors>
+<title>Coexistence of quiescent and active adult stem cells in mammals.</title>
+<date>2010</date>
+<journal>Science</journal>
+<volume>327</volume>
+<pages>542--545</pages>
+<contexts>
+<context position="3760" citStr="Li and Clevers, 2010" startWordPosition="569" endWordPosition="572">rted a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by other tissues such as the blood and the brain (Greco and Guo, 2010; Greco et al., 2009; Li and Clevers, 2010). Capturing Stem Cell Behaviors during Tissue Regeneration In Vivo At the start of a new cycle of regeneration, the epithelial compartment of the hair follicle begins its downward growth. We set out to test whether this directional growth was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an intact organ, my group developed an intravital multiphoton imaging system, which allowed us to noninvasively image the skin of live mice ov</context>
+</contexts>
+<marker>Li, Clevers, 2010</marker>
+<rawString>Li, L., and Clevers, H. (2010). Coexistence of quiescent and active adult stem cells in mammals. Science 327, 542–545.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H-Y Y Lin</author>
+<author>L-T T Yang</author>
+</authors>
+<title>Differential response of epithelial stem cell populations in hair follicles to TGF-b signaling.</title>
+<date>2013</date>
+<journal>Dev. Biol.</journal>
+<volume>373</volume>
+<pages>394--406</pages>
+<contexts>
+<context position="15641" citStr="Lin and Yang, 2013" startWordPosition="2380" endWordPosition="2383">e model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is in contrast with the stall in growth observed in WT DP-ablated follicles. Intriguingly, surrounding mesenchymal cells were observed to broadly cont</context>
+</contexts>
+<marker>Lin, Yang, 2013</marker>
+<rawString>Lin, H.-Y.Y., and Yang, L.-T.T. (2013). Differential response of epithelial stem cell populations in hair follicles to TGF-b signaling. Dev. Biol. 373, 394–406.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V P Losick</author>
+<author>L X Morris</author>
+<author>D T Fox</author>
+<author>A Spradling</author>
+</authors>
+<title>Drosophila stem cell niches: a decade of discovery suggests a unified view of stem cell regulation.</title>
+<date>2011</date>
+<journal>Dev. Cell</journal>
+<volume>21</volume>
+<pages>159--171</pages>
+<contexts>
+<context position="12781" citStr="Losick et al., 2011" startWordPosition="1931" endWordPosition="1934">ssion. To test this, we developed a laser ablation procedure using our multiphoton imaging system to specifically remove the DP prior to the hair regeneration phase under interrogation. Revisits of hair follicles in which the DP was ablated prior to growth onset showed that DP-ablated hair follicles remained stalled in the rest phase while neighboring unablated hair follicles continued to grow (Figure 2). This finding provides clear evidence that mesenchymal interactions are required to initiate hair growth and is consistent with previous work from invertebrate systems (Byrd and Kimble, 2009; Losick et al., 2011). When similar experiments were performed at the initiation of regression, we found that DP ablation resulted in a Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors 963 Stem Cell Reports Perspective dramatic reduction in cell death in the hair follicle epithelium, leading to retention of excess basal cells by the end of the regression phase when compared with neighboring follicles. This suggested that the DP promotes basal epithelial cell elimination during the regression phase and raised the question of whether DP-mediated regression serves to eliminate either exhausted </context>
+</contexts>
+<marker>Losick, Morris, Fox, Spradling, 2011</marker>
+<rawString>Losick, V.P., Morris, L.X., Fox, D.T., and Spradling, A. (2011). Drosophila stem cell niches: a decade of discovery suggests a unified view of stem cell regulation. Dev. Cell 21, 159–171.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Malanchi</author>
+<author>H Peinado</author>
+<author>D Kassen</author>
+<author>T Hussenet</author>
+<author>D Metzger</author>
+<author>P Chambon</author>
+<author>M Huber</author>
+<author>D Hohl</author>
+<author>A Cano</author>
+<author>W Birchmeier</author>
+<author>J Huelsken</author>
+</authors>
+<title>Cutaneous cancer stem cell maintenance is dependent on beta-catenin signalling.</title>
+<date>2008</date>
+<journal>Nature</journal>
+<volume>452</volume>
+<pages>650--653</pages>
+<contexts>
+<context position="18851" citStr="Malanchi et al., 2008" startWordPosition="2858" endWordPosition="2861">olecular signals are key to regulate tissue growth but also to properly maintain tissue morphology and function. Niche and Stem Cells in Cancer The interplay between stem cells and their niche is not only central to tissue regeneration but has also been shown to be critical for cancer. Consistent with this, mutations affecting critical pathways such as Wnt/b-catenin and TGF-b have been found to fuel several cancers, including squamous 964 Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors Stem Cell Reports Perspective cell carcinoma (SCC) in the skin (Guasch et al., 2007; Malanchi et al., 2008; Massague´, 2008). In order to understand how growth is regulated in a cancer setting, we investigated the effects of b-catenin activation on hair follicle stem cell behaviors as ectopic hair growths were forming. Strikingly, our data showed that b-catenin-activated stem cells recruited WT neighboring follicles into the growths. These WT cells contributed to fueling the new ectopic growth by actively proliferating. Transcriptional and genetic approaches demonstrated that b-catenin-activated stem cells created a field of Wnt activation around them by upregulating Wnt ligand production (Deschen</context>
+</contexts>
+<marker>Malanchi, Peinado, Kassen, Hussenet, Metzger, Chambon, Huber, Hohl, Cano, Birchmeier, Huelsken, 2008</marker>
+<rawString>Malanchi, I., Peinado, H., Kassen, D., Hussenet, T., Metzger, D., Chambon, P., Huber, M., Hohl, D., Cano, A., Birchmeier, W., and Huelsken, J. (2008). Cutaneous cancer stem cell maintenance is dependent on beta-catenin signalling. Nature 452, 650–653.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Massague´</author>
+</authors>
+<title>TGFbeta in Cancer.</title>
+<date>2008</date>
+<journal>Cell</journal>
+<volume>134</volume>
+<pages>215--230</pages>
+<marker>Massague´, 2008</marker>
+<rawString>Massague´, J. (2008). TGFbeta in Cancer. Cell 134, 215–230.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K R Mesa</author>
+<author>P Rompolas</author>
+<author>G Zito</author>
+<author>P Myung</author>
+<author>T Y Sun</author>
+<author>S Brown</author>
+<author>D G Gonzalez</author>
+<author>K B Blagoev</author>
+<author>A M Haberman</author>
+<author>V Greco</author>
+</authors>
+<marker>Mesa, Rompolas, Zito, Myung, Sun, Brown, Gonzalez, Blagoev, Haberman, Greco, </marker>
+<rawString>Mesa, K.R., Rompolas, P., Zito, G., Myung, P., Sun, T.Y., Brown, S., Gonzalez, D.G., Blagoev, K.B., Haberman, A.M., and Greco, V.</rawString>
+</citation>
+<citation valid="true">
+<title>Niche-induced cell death and epithelial phagocytosis regulate hair follicle stem cell pool.</title>
+<date>2015</date>
+<journal>Nature. Published online April</journal>
+<volume>6</volume>
+<note>http://dx.doi.org/10.1038/nature14306.</note>
+<marker>2015</marker>
+<rawString>(2015). Niche-induced cell death and epithelial phagocytosis regulate hair follicle stem cell pool. Nature. Published online April 6, 2015. http://dx.doi.org/10.1038/nature14306.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Monks</author>
+<author>D Rosner</author>
+<author>F J Geske</author>
+<author>L Lehman</author>
+<author>L Hanson</author>
+<author>M C Neville</author>
+<author>V A Fadok</author>
+</authors>
+<title>Epithelial cells as phagocytes: apoptotic epithelial cells are engulfed by mammary alveolar epithelial cells and repress inflammatory mediator release.</title>
+<date>2005</date>
+<journal>Cell Death Differ.</journal>
+<volume>12</volume>
+<pages>107--114</pages>
+<contexts>
+<context position="7487" citStr="Monks et al., 2005" startWordPosition="1126" endWordPosition="1129">inated. Our imaging approaches showed that (1) cell death targets only the undifferentiated basal cells but spares differentiated inner cells and (2) cell death begins at the bottom of the follicle in contact with the mesenchymal DP niche and then spreads upward in the remaining basal epithelium. Strikingly, we found that epithelial cellular debris was not cleared by professional phagocytes. Rather, basal epithelial cells collectively act as phagocytes to clear dying epithelial neighbors (Mesa et al., 2015) (Figure 1). These findings in the hair follicle, along with work in the mammary gland (Monks et al., 2005), support a new paradigm of physiological epithelial self-clearance. Our work demonstrated that stem cell behaviors such as proliferation, migrations, cell death, and clearance are spatially organized within compartments and with respect to their proximity to the mesenchymal DP niche. However, we still failed to understand the long-term consequences of these cell behaviors and their spatial regulation toward tissue function during a regeneration cycle. To address whether the stem cell position with respect to their niche impacts their fate, we developed an approach to lineage trace single cell</context>
+</contexts>
+<marker>Monks, Rosner, Geske, Lehman, Hanson, Neville, Fadok, 2005</marker>
+<rawString>Monks, J., Rosner, D., Geske, F.J., Lehman, L., Hanson, L., Neville, M.C., and Fadok, V.A. (2005). Epithelial cells as phagocytes: apoptotic epithelial cells are engulfed by mammary alveolar epithelial cells and repress inflammatory mediator release. Cell Death Differ. 12, 107–114.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P S Myung</author>
+<author>M Takeo</author>
+<author>M Ito</author>
+<author>R P Atit</author>
+</authors>
+<title>Epithelial Wnt ligand secretion is required for adult hair follicle growth and regeneration.</title>
+<date>2013</date>
+<journal>J. Invest. Dermatol.</journal>
+<volume>133</volume>
+<pages>31--41</pages>
+<contexts>
+<context position="15493" citStr="Myung et al., 2013" startWordPosition="2357" endWordPosition="2360">egression phases are characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is</context>
+</contexts>
+<marker>Myung, Takeo, Ito, Atit, 2013</marker>
+<rawString>Myung, P.S., Takeo, M., Ito, M., and Atit, R.P. (2013). Epithelial Wnt ligand secretion is required for adult hair follicle growth and regeneration. J. Invest. Dermatol. 133, 31–41.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Oshimori</author>
+<author>E Fuchs</author>
+</authors>
+<title>Paracrine TGF-b signaling counterbalances BMP-mediated repression in hair follicle stem cell activation.</title>
+<date>2012</date>
+<journal>Cell Stem Cell</journal>
+<volume>10</volume>
+<pages>63--75</pages>
+<contexts>
+<context position="15668" citStr="Oshimori and Fuchs, 2012" startWordPosition="2384" endWordPosition="2387">or this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is in contrast with the stall in growth observed in WT DP-ablated follicles. Intriguingly, surrounding mesenchymal cells were observed to broadly contact the newly formed hair g</context>
+</contexts>
+<marker>Oshimori, Fuchs, 2012</marker>
+<rawString>Oshimori, N., and Fuchs, E. (2012). Paracrine TGF-b signaling counterbalances BMP-mediated repression in hair follicle stem cell activation. Cell Stem Cell 10, 63–75.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Panteleyev</author>
+<author>C A Jahoda</author>
+<author>A M Christiano</author>
+</authors>
+<title>Hair follicle predetermination.</title>
+<date>2001</date>
+<journal>J. Cell Sci.</journal>
+<volume>114</volume>
+<pages>3419--3431</pages>
+<contexts>
+<context position="3032" citStr="Panteleyev et al., 2001" startWordPosition="445" endWordPosition="448">ations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found</context>
+</contexts>
+<marker>Panteleyev, Jahoda, Christiano, 2001</marker>
+<rawString>Panteleyev, A.A., Jahoda, C.A., and Christiano, A.M. (2001). Hair follicle predetermination. J. Cell Sci. 114, 3419–3431.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Ritsma</author>
+<author>S I Ellenbroek</author>
+<author>A Zomer</author>
+<author>H J Snippert</author>
+<author>F J de Sauvage</author>
+<author>B D Simons</author>
+<author>H Clevers</author>
+<author>J van Rheenen</author>
+</authors>
+<title>Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo live imaging.</title>
+<date>2014</date>
+<journal>Nature</journal>
+<volume>507</volume>
+<pages>362--365</pages>
+<marker>Ritsma, Ellenbroek, Zomer, Snippert, de Sauvage, Simons, Clevers, van Rheenen, 2014</marker>
+<rawString>Ritsma, L., Ellenbroek, S.I., Zomer, A., Snippert, H.J., de Sauvage, F.J., Simons, B.D., Clevers, H., and van Rheenen, J. (2014). Intestinal crypt homeostasis revealed at single-stem-cell level by in vivo live imaging. Nature 507, 362–365.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G E Rogers</author>
+</authors>
+<title>Hair follicle differentiation and regulation.</title>
+<date>2004</date>
+<journal>Int. J. Dev. Biol.</journal>
+<volume>48</volume>
+<pages>163--170</pages>
+<contexts>
+<context position="2571" citStr="Rogers, 2004" startWordPosition="373" endWordPosition="374">the sequential phases of growth (Anagen), regression (Catagen), and rest (Telogen) of hair regeneration (Figure 1). These key features enable the field to use this model system to study the regulation of stem cell quiescence and activation in the context of a complete mini-organ. Additionally, the epithelial component of the follicle is highly compartmentalized, which allows us to distinguish different cell types, such as distinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric m</context>
+</contexts>
+<marker>Rogers, 2004</marker>
+<rawString>Rogers, G.E. (2004). Hair follicle differentiation and regulation. Int. J. Dev. Biol. 48, 163–170.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Rompolas</author>
+<author>E R Deschene</author>
+<author>G Zito</author>
+<author>D G Gonzalez</author>
+<author>I Saotome</author>
+<author>A M Haberman</author>
+<author>V Greco</author>
+</authors>
+<title>Live imaging of stem cell and progeny behaviour in physiological hair-follicle regeneration.</title>
+<date>2012</date>
+<journal>Nature</journal>
+<volume>487</volume>
+<pages>496--499</pages>
+<contexts>
+<context position="6238" citStr="Rompolas et al., 2012" startWordPosition="936" endWordPosition="939">Combining these reporter lines with our multiphoton intravital imaging system, we have performed time-lapse recordings of hair follicles during both growth and regression phases of the hair cycle. We find that cell behaviors, including proliferation, migration, cell death, and phagocytosis, are all spatiotemporally restricted events within subcompartments of the hair follicle epithelium. Coordination of these tissue dynamics results is spatially regulated fate of epithelial stem cells with relation to the mesenchymal DP niche. Scale bar, 25mm. to the long axis of growth of the hair follicles (Rompolas et al., 2012). These oriented divisions contribute to the newly formed inner differentiated layers, while the expanding basal epithelium (also called outer root sheath or ORS) is generated by a spatially restricted proliferation zone (Rompolas et al., 2013; Sequeira and Nicolas, 2012) (Figure 1). While cell production and loss are often concurrent events in several tissues, the hair follicle provides the advantage of studying them in isolation. To understand how cells are eliminated, we focused on the hair follicle regression phase, which previous work has defined as the destruction phase where the majorit</context>
+</contexts>
+<marker>Rompolas, Deschene, Zito, Gonzalez, Saotome, Haberman, Greco, 2012</marker>
+<rawString>Rompolas, P., Deschene, E.R., Zito, G., Gonzalez, D.G., Saotome, I., Haberman, A.M., and Greco, V. (2012). Live imaging of stem cell and progeny behaviour in physiological hair-follicle regeneration. Nature 487, 496–499.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Rompolas</author>
+<author>K R Mesa</author>
+<author>V Greco</author>
+</authors>
+<title>Spatial organization within a niche as a determinant of stem-cell fate.</title>
+<date>2013</date>
+<journal>Nature</journal>
+<volume>502</volume>
+<pages>513--518</pages>
+<contexts>
+<context position="6481" citStr="Rompolas et al., 2013" startWordPosition="971" endWordPosition="974">ation, migration, cell death, and phagocytosis, are all spatiotemporally restricted events within subcompartments of the hair follicle epithelium. Coordination of these tissue dynamics results is spatially regulated fate of epithelial stem cells with relation to the mesenchymal DP niche. Scale bar, 25mm. to the long axis of growth of the hair follicles (Rompolas et al., 2012). These oriented divisions contribute to the newly formed inner differentiated layers, while the expanding basal epithelium (also called outer root sheath or ORS) is generated by a spatially restricted proliferation zone (Rompolas et al., 2013; Sequeira and Nicolas, 2012) (Figure 1). While cell production and loss are often concurrent events in several tissues, the hair follicle provides the advantage of studying them in isolation. To understand how cells are eliminated, we focused on the hair follicle regression phase, which previous work has defined as the destruction phase where the majority of epithelial cells are eliminated. Our imaging approaches showed that (1) cell death targets only the undifferentiated basal cells but spares differentiated inner cells and (2) cell death begins at the bottom of the follicle in contact with</context>
+<context position="9517" citStr="Rompolas et al., 2013" startWordPosition="1428" endWordPosition="1431">llicle regeneration, both in growth and regression. Epithelial/ mesenchymal crosstalk relies on various molecular signaling pathways. Genetic modulation of these signals can lead to aberrant tissue regeneration through either bcat activation or TGF-b inhibition. Reconstitution of a mesenchymal niche can drive tissue growth into both the hair follicle and pathological settings, such as cancer. Conversely, growing tissues can be inducing to regress by niche factors such as retinoic acid (RA) or TGF-b1. within the skin) to trace the long-term fate of stem cells during hair follicle regeneration (Rompolas et al., 2013). Our revisits of labeled cell lineages revealed that stem cell fate is stereotypic and correlates with initial cell position with respect to the mesenchymal niche at the onset of growth. Specifically, the degree of commitment to differentiation was directly related to the proximity with the mesenchymal DP niche. Cells located at the furthest distance from the DP niche in the upper part of the bulge did not contribute to the next round of hair follicle growth, whereas cells located in the lower bulge engaged during growth to expand the undifferentiated basal ORS layer of the hair follicle. In </context>
+<context position="11112" citStr="Rompolas et al., 2013" startWordPosition="1682" endWordPosition="1685">spatial gradient of cell death emanates from the tip of the follicle. Thus, epithelial cells located in higher proximity of the mesenchymal DP niche have lower chances of surviving than cells located at further distances (Mesa et al., 2015). Finally, revisits over several rounds of hair regeneration cycles revealed the stepwise progression of bulge stem cells in their differentiation path whereby lower bulge stem cells give rise to basal ORS cells and form the hair germ during a complete regeneration cycle and will eventually make differentiated cells during the subsequent regeneration cycle (Rompolas et al., 2013) (Figure 1). These data collectively demonstrate a direct correlation between stem cell fate and their location with respect to the mesenchymal DP niche and establish a stepwise progression of bulge stem cell fate, with these cells undergoing an ORS/hair germ intermediate before contributing to the differentiated layers of the regenerating hair follicle. Positional correlation with stem cell fate has since been found in additional tissues such as the intestine (Ritsma et al., 2014) Niche Regulation of Stem Cell Activity Epithelial-mesenchymal interactions are essential in many developmental pr</context>
+<context position="14634" citStr="Rompolas et al., 2013" startWordPosition="2226" endWordPosition="2229">us to ask whether the niche was sufficient to promote stem cell activity. To test this, we used laser ablation to specifically remove the stem cell compartment at the onset of growth. Interestingly, we found that epithelial cells that do not normally contribute to hair follicle regeneration compensated for bulge stem cell loss and once in contact with the mesenchymal DP niche gave rise to hair follicles that appear indistinguishable from surrounding unablated follicles. These data demonstrate that the niche is capable of conferring a stem cell fate upon injury to neighboring cell populations (Rompolas et al., 2013). Collectively, these data demonstrate that the niche is critical for stem cell activation, elimination, and regulating stem cell fate and behavior. Signaling Crosstalk between Stem Cells and Their Niche during Hair Regeneration Growth and regression phases are characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previou</context>
+</contexts>
+<marker>Rompolas, Mesa, Greco, 2013</marker>
+<rawString>Rompolas, P., Mesa, K.R., and Greco, V. (2013). Spatial organization within a niche as a determinant of stem-cell fate. Nature 502, 513–518.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Schepeler</author>
+<author>M E Page</author>
+<author>K B Jensen</author>
+</authors>
+<title>Heterogeneity and plasticity of epidermal stem cells.</title>
+<date>2014</date>
+<journal>Development</journal>
+<volume>141</volume>
+<pages>2567</pages>
+<contexts>
+<context position="2596" citStr="Schepeler et al., 2014" startWordPosition="375" endWordPosition="378"> phases of growth (Anagen), regression (Catagen), and rest (Telogen) of hair regeneration (Figure 1). These key features enable the field to use this model system to study the regulation of stem cell quiescence and activation in the context of a complete mini-organ. Additionally, the epithelial component of the follicle is highly compartmentalized, which allows us to distinguish different cell types, such as distinct stem cell populations as well as their differentiated progeny, on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair fol</context>
+</contexts>
+<marker>Schepeler, Page, Jensen, 2014</marker>
+<rawString>Schepeler, T., Page, M.E., and Jensen, K.B. (2014). Heterogeneity and plasticity of epidermal stem cells. Development 141, 2559– 2567.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Sennett</author>
+<author>M Rendl</author>
+</authors>
+<title>Mesenchymal-epithelial interactions during hair follicle morphogenesis and cycling.</title>
+<date>2012</date>
+<journal>Semin. Cell Dev. Biol.</journal>
+<volume>23</volume>
+<pages>917--927</pages>
+<contexts>
+<context position="3079" citStr="Sennett and Rendl, 2012" startWordPosition="453" endWordPosition="456"> on the basis of their location, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by other tissues such as the bl</context>
+</contexts>
+<marker>Sennett, Rendl, 2012</marker>
+<rawString>Sennett, R., and Rendl, M. (2012). Mesenchymal-epithelial interactions during hair follicle morphogenesis and cycling. Semin. Cell Dev. Biol. 23, 917–927.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Sequeira</author>
+<author>J-F F Nicolas</author>
+</authors>
+<title>Redefining the structure of the hair follicle by 3D clonal analysis.</title>
+<date>2012</date>
+<journal>Development</journal>
+<volume>139</volume>
+<pages>3751</pages>
+<contexts>
+<context position="6510" citStr="Sequeira and Nicolas, 2012" startWordPosition="975" endWordPosition="978">death, and phagocytosis, are all spatiotemporally restricted events within subcompartments of the hair follicle epithelium. Coordination of these tissue dynamics results is spatially regulated fate of epithelial stem cells with relation to the mesenchymal DP niche. Scale bar, 25mm. to the long axis of growth of the hair follicles (Rompolas et al., 2012). These oriented divisions contribute to the newly formed inner differentiated layers, while the expanding basal epithelium (also called outer root sheath or ORS) is generated by a spatially restricted proliferation zone (Rompolas et al., 2013; Sequeira and Nicolas, 2012) (Figure 1). While cell production and loss are often concurrent events in several tissues, the hair follicle provides the advantage of studying them in isolation. To understand how cells are eliminated, we focused on the hair follicle regression phase, which previous work has defined as the destruction phase where the majority of epithelial cells are eliminated. Our imaging approaches showed that (1) cell death targets only the undifferentiated basal cells but spares differentiated inner cells and (2) cell death begins at the bottom of the follicle in contact with the mesenchymal DP niche and</context>
+</contexts>
+<marker>Sequeira, Nicolas, 2012</marker>
+<rawString>Sequeira, I., and Nicolas, J.-F.F. (2012). Redefining the structure of the hair follicle by 3D clonal analysis. Development 139, 3741– 3751.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Silva-Vargas</author>
+<author>Lo Celso</author>
+<author>C Giangreco</author>
+<author>A Ofstad</author>
+<author>T Prowse</author>
+<author>D M Braun</author>
+<author>K M</author>
+<author>F M Watt</author>
+</authors>
+<title>Beta-catenin and Hedgehog signal strength can specify number and location of hair follicles in adult epidermis without recruitment of bulge stem cells.</title>
+<date>2005</date>
+<journal>Dev. Cell</journal>
+<volume>9</volume>
+<pages>121--131</pages>
+<contexts>
+<context position="15521" citStr="Silva-Vargas et al., 2005" startWordPosition="2361" endWordPosition="2364"> characterized by different epithelial cell behaviors, yet the mesenchymal DP niche promotes both sets of behaviors. One possible model to account for this regulation is that the mesenchymal DP niche utilizes different signals in each phase of regeneration. At the onset of hair growth, transcriptional and expression analysis have previously identified signaling pathways that are activate in the mesenchymal DP, including FGF7/ 10 and BMP inhibitors (Greco et al., 2009; Plikus et al., 2008), as well as in the hair germ, such as activation of Wnt/b-catenin (Choi et al., 2013; Myung et al., 2013; Silva-Vargas et al., 2005). The sufficiency and requirement of several of these pathways for hair growth have been established (Lin and Yang, 2013; Oshimori and Fuchs, 2012). However, it remains unclear whether ectopic activation of downstream regulators of these pathways within the stem cells would overcome the dependence on the endogenous DP for tissue growth. To test this, we combined DP-ablation experiments with genetic b-catenin activation and showed that b-catenin activated hair stem cells generated new hair outgrowths in the absence of their physiological mesenchymal DP niche. This is in contrast with the stall </context>
+</contexts>
+<marker>Silva-Vargas, Celso, Giangreco, Ofstad, Prowse, Braun, M, Watt, 2005</marker>
+<rawString>Silva-Vargas, V., Lo Celso, C., Giangreco, A., Ofstad, T., Prowse, D.M., Braun, K.M., and Watt, F.M. (2005). Beta-catenin and Hedgehog signal strength can specify number and location of hair follicles in adult epidermis without recruitment of bulge stem cells. Dev. Cell 9, 121–131.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Tumbar</author>
+<author>G Guasch</author>
+<author>V Greco</author>
+<author>C Blanpain</author>
+<author>W E Lowry</author>
+<author>M Rendl</author>
+<author>E Fuchs</author>
+</authors>
+<title>Defining the epithelial stem cell niche in skin.</title>
+<date>2004</date>
+<journal>Science</journal>
+<volume>303</volume>
+<pages>359--363</pages>
+<contexts>
+<context position="3101" citStr="Tumbar et al., 2004" startWordPosition="457" endWordPosition="460">cation, morphology, as well as molecular markers (Kretzschmar and Watt, 2014; Rogers, 2004; Schepeler et al., 2014). Specifically, within the hair follicle, the stem cell compartment is comprised of two spatially distinct epithelial populations: the bulge, which surrounds the base of the hair proper (called hair shaft), and the hair germ, which is located directly below the bulge stem cells and in direct contact with the mesenchymal dermal papilla (DP) niche (Cotsarelis et al., 1990; Ito et al., 2005; Jahoda et al., 1984; Panteleyev et al., 2001; Rahmani et al., 2014; Sennett and Rendl, 2012; Tumbar et al., 2004) (Figure 1). While previous data supported a bulge stem cell-centric model to initiate hair follicle growth, our work and that of others have opened up a new view that relies on the coexistence of two functionally distinct pools: the activated hair germ cells, which can more quickly respond to the environmental stimuli to engage in a new growth and the quiescent bulge stem cells. This bicompartmental organization reconciles the need of the tissue for rapid growth while maintaining a long-term stem cell pool and has been found to be utilized by other tissues such as the blood and the brain (Gre</context>
+<context position="4597" citStr="Tumbar et al., 2004" startWordPosition="696" endWordPosition="699">is directional growth was achieved through a spatial organization of cell divisions or instead by randomized cell divisions followed by downward migration and reorganization. To capture behaviors such as cell divisions and migrations within an intact organ, my group developed an intravital multiphoton imaging system, which allowed us to noninvasively image the skin of live mice over time. To visualize the hair follicle in vivo, we utilized transgenic mouse lines that were previously made to label epithelial (K14-H2BGFP) and mesenchymal (Lef1-RFP) hair follicle populations (Rendl et al., 2005; Tumbar et al., 2004) (Figure 1). Using these reporters in combination with our intravital imaging system, we have performed time-lapse recordings by generating 3D-optical stacks of hair follicles at regular time intervals throughout the phases of hair follicle regeneration (Figure 1). These approaches allowed us to directly capture hair follicle growth beginning with spatially confined epithelial cell division, which occurs in the activated hair germ compartment at the interface with the mesenchymal DP niche. Furthermore, the axes of these divisions are oriented perpendicular to the mesenchymal DP and parallel St</context>
+</contexts>
+<marker>Tumbar, Guasch, Greco, Blanpain, Lowry, Rendl, Fuchs, 2004</marker>
+<rawString>Tumbar, T., Guasch, G., Greco, V., Blanpain, C., Lowry, W.E., Rendl, M., and Fuchs, E. (2004). Defining the epithelial stem cell niche in skin. Science 303, 359–363.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Zito</author>
+<author>I Saotome</author>
+<author>Z Liu</author>
+<author>E G Ferro</author>
+<author>T Y Sun</author>
+<author>D X Nguyen</author>
+<author>K Bilguvar</author>
+<author>C J Ko</author>
+<author>V Greco</author>
+</authors>
+<title>Spontaneous tumour regression in keratoacanthomas is driven by Wnt/retinoic acid signalling cross-talk.</title>
+<date>2014</date>
+<journal>Nat. Commun.</journal>
+<volume>5</volume>
+<pages>3543</pages>
+<contexts>
+<context position="20632" citStr="Zito et al., 2014" startWordPosition="3120" endWordPosition="3123">rallel approaches of SCC with KA revealed that while both tumors share Wnt activation during growth, regressing KAs displayed an upregulation of Wnt inhibitors in their surrounding mesenchyme and an overall reduction of Wnt signaling in the basal proliferative epithelium. Transcriptional approaches identified RA upregulation as an early event during KA regression and prior to Wnt downregulation. To test the function of RA signaling on tumor regression, we ectopically delivered RA to growing KAs and SCCs, which resulted in Wnt downregulation and massive regression of both forms of skin cancer (Zito et al., 2014). Epithelial cancers such as SCC have mutations that dysregulate epithelial/mesenchymal crosstalk and promote excessive tissue growth through pathways such as Wnt. This works provides a model where distinct behaviors of mesenchymal and epithelial components may shed light on therapeutic approaches to combat tumor growth and re-engage normal tissue regeneration. Conclusions Altogether, our innovative live imaging combined with genetic and cellular approaches has provided a new platform for understanding tissue regeneration and cancer in a living mammal. While the emphasis in the field has been </context>
+</contexts>
+<marker>Zito, Saotome, Liu, Ferro, Sun, Nguyen, Bilguvar, Ko, Greco, 2014</marker>
+<rawString>Zito, G., Saotome, I., Liu, Z., Ferro, E.G., Sun, T.Y., Nguyen, D.X., Bilguvar, K., Ko, C.J., and Greco, V. (2014). Spontaneous tumour regression in keratoacanthomas is driven by Wnt/retinoic acid signalling cross-talk. Nat. Commun. 5, 3543.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Stem</author>
+</authors>
+<title>Cell Reports j</title>
+<date>2015</date>
+<volume>4</volume>
+<pages>j</pages>
+<marker>Stem, 2015</marker>
+<rawString>966 Stem Cell Reports j Vol. 4 j 961–966 j June 9, 2015 j ª2015 The Authors</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

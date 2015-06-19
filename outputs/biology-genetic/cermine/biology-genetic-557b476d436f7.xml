@@ -1,0 +1,3292 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>www.impactjournals.com/oncotarget/</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Circulating small non coding RNA signature in head and neck squamous cell carcinoma</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Berta Victoria Martinez</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Joseph M. Dhahbi</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Yury O. Nunez Lopez</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Katarzyna Lamperska</string-name>
+          <xref ref-type="aff" rid="6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Paweł Golusinski</string-name>
+          <xref ref-type="aff" rid="4">4</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Lukasz Luczewski</string-name>
+          <xref ref-type="aff" rid="4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Tomasz Kolenda</string-name>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Hani Atamna</string-name>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Stephen R. Spindler</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Wojciech Golusinski</string-name>
+          <xref ref-type="aff" rid="4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Michal M. Masternak</string-name>
+          <email>michal.masternak@ucf.edu</email>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="4">4</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Translational Research Institute for Metabolism and Diabetes, Florida Hospital</institution>
+          ,
+          <addr-line>Orlando, FL</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Department of Biochemistry, University of California at Riverside</institution>
+          ,
+          <addr-line>Riverside, CA</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>University of Central Florida, Burnett School of Biomedical Sciences, College of Medicine Orlando, FL</institution>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="3">
+          <label>3</label>
+          <institution>Postgraduate School of Molecular Medicine, Medical University of Warsaw</institution>
+          ,
+          <country country="PL">Poland</country>
+        </aff>
+        <aff id="4">
+          <label>4</label>
+          <institution>Department of Head and Neck Surgery, Greater Poland Cancer Centre, Poznan University of Medical Sciences</institution>
+          ,
+          <addr-line>Poznan</addr-line>
+          ,
+          <country country="PL">Poland</country>
+        </aff>
+        <aff id="5">
+          <label>5</label>
+          <institution>Department of Biology and Environmental Studies, Poznan University of Medical Sciences</institution>
+          ,
+          <addr-line>Poznan</addr-line>
+          ,
+          <country country="PL">Poland</country>
+        </aff>
+        <aff id="6">
+          <label>6</label>
+          <institution>Deptartment of Cancer Genetics, Greater Poland Cancer Centre</institution>
+          ,
+          <addr-line>Poznan</addr-line>
+          ,
+          <country country="PL">Poland</country>
+        </aff>
+        <aff id="7">
+          <label>7</label>
+          <institution>Department of Medical Education, California Northstate University</institution>
+          ,
+          <addr-line>Elk Grove, CA</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>The Head and Neck Squamous Cell Carcinoma (HNSCC) is the sixth most common human cancer, causing 350,000 individuals die worldwide each year. The overall prognosis in HNSCC patients has not significantly changed for the last decade. Complete understanding of the molecular mechanisms in HNSCC carcinogenesis could allow an earlier diagnosis and the use of more specific and effective therapies. In the present study we used deep sequencing to characterize small non-coding RNAs (sncRNAs) in serum from HNSCC patients and healthy donors. We identified, for the first time, a multi-marker signature of 3 major classes of circulating sncRNAs in HNSCC, revealing the presence of circulating novel and known miRNAs, and tRNA- and YRNA-derived small RNAs that were significantly deregulated in the sera of HNSCC patients compared to healthy controls. By implementing a triple-filtering approach we identified a subset of highly biologically relevant miRNA-mRNA interactions and we demonstrated that the same genes/pathways affected by somatic mutations in cancer are affected by changes in the abundance of miRNAs. Therefore, one important conclusion from our work is that during cancer development, there seems to be a convergence of oncogenic processes driven by somatic mutations and/or miRNA regulation affecting key cellular pathways.</p>
+      </abstract>
+      <pub-date>
+        <day>25</day>
+        <month>5</month>
+        <year>2015</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>5</month>
+          <year>2015</year>
+        </date>
+        <date date-type="received">
+          <day>18</day>
+          <month>3</month>
+          <year>2015</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Head and Neck Squamous Cell Carcinoma
+(HNSCC) is the sixth most common human cancer.
+Close to 600,000 new patients are diagnosed and
+approximately 350,000 individuals die of this disease
+worldwide each year [1, 2]. Tobacco use and alcohol
+consumption are the major risk factors for HNSCC
+[3]. Lastly, infection with high-risk types of human
+papillomavirus (HPV) has been identified as a novel risk
+factor for a subset of HNSCCs, particularly those of the
+oropharynx [4]. Recent advances in HNSCC treatment
+have improved the quality of life and life expectancy
+of HNSCC patients if this disease is diagnosed at early
+stages [5]. However, the overall prognosis in HNSCC
+patients has not significantly changed for the last decade
+[6]. Currently, the most common HNSCC therapeutic
+modalities include the use of nonselective treatments
+(surgery, radiation and chemotherapy) with very high
+systemic toxicities and associated morbidity and mortality.
+Complete understanding of the molecular mechanisms in
+HNSCC carcinogenesis (identifying actionable targets of
+therapeutic value) will benefit the development of more
+selective cancer treatment options for HNSCC. Head and
+neck carcinogenesis is a multistep process driven by an
+accumulation of several genetic and epigenetic alterations
+in oncogenes and tumor suppressor genes leading to the
+progression of a normal cell to a cancer cell [7]. HNSCC
+cells are genetically unstable and often display extensive
+chromosomal changes, including amplifications, deletions,
+and translocations. Recently, next-generation sequencing
+(NGS) studies have revealed that the genetic alterations
+in HNSCC are mainly in a group of molecular pathways
+and/or biological processes including p53 pathways
+(TP53), mitogenic pathways (RAS/PI3K/mTOR pathway,
+PIK3CA, HRAS), cell cycle (CDKN2A), Notch pathways
+(NOTCH1, NOTCH2, NOTCH3), and cell communication
+and death (FAT1, CASP8) [8] (Reviewed in [9]).</p>
+      <p>On the other hand, advanced cancer studies suggest
+small non-coding RNAs (sncRNAs) as useful biomarkers
+of cancer development and determination of tumor
+stage. MicroRNAs are a type of sncRNA that regulate
+diverse biological processes. Each miRNA can control
+hundreds of gene targets, underscoring the potential
+influence of miRNAs on almost every genetic pathway.
+Recent evidence has shown that miRNA mutations or
+mis-expression correlate with various human cancers and
+indicates that miRNAs can function as tumor suppressors
+and/or oncogenes (Reviewed in [10]). There is increasing
+number of studies on miRNAs expression in HNSCC
+(mainly in tumor tissue samples). However, once the
+patients undergo surgical intervention and tumor tissue
+is removed, it is difficult to determine the risk of disease
+recurrence or death. The presence of sncRNAs circulating
+in the blood provides a new venue for easy access to
+noninvasive frequent screening of patients.</p>
+      <p>The recent advent of NGS expedited the
+identification of new types of small RNAs; specifically,
+known sncRNAs including tRNA, rRNA, and YRNA can
+undergo processing into smaller RNA molecules [11-13]
+that can function in normal biology and in pathologic
+conditions [13-19]. In addition to miRNAs, our deep
+sequencing studies of serum/plasma have consistently
+detected two other major classes of extracellular small
+RNAs: tRNA-derived RNAs of size 30-33 nt, and
+YRNAderived RNAs of sizes 27 nt and 30-33 nt [20, 21]. These
+new sncRNAs have only recently emerged because early
+studies focused on miRNAs and systematically excluded
+sequencing reads whose length exceeded the size of mature
+miRNAs (18-24 nt) or reads that align with tRNAs and
+rRNAs since they were considered degradation products.
+Similarly to miRNAs, these derivatives of sncRNAs
+can be released into the extracellular environment and
+thereby carry paracrine and even endocrine signaling
+functions [22]. Accumulating evidence suggests they may
+function in cell-to-cell communication both in normal
+biology and in disease states [23-26]. We have found that
+aging changes the circulating levels of 5’ tRNA halves
+derived from specific tRNA isoacceptors and the
+ageinduced changes can be mitigated by calorie restriction
+[21]. This alleviation of the age-associated changes by
+calorie restriction reveals functional significance because
+it validates the age-associated alterations in the levels of
+circulating 5’ tRNA halves, and provides further evidence
+that circulating 5’ tRNA halves are physiologically
+regulated. More recently, we have reported that breast
+cancer and its clinicopathological characteristics can
+be associated with changes in serum levels of specific
+types of both YRNA- and tRNA-derived small RNAs
+[27]. The presence of these new small RNAs in serum/
+plasma, as well as their close associations with relevant
+pathophysiological processes such as aging and cancer,
+should spark strong interest in developing them into
+noninvasive diagnostic biomarkers and therapeutic targets.</p>
+      <p>In the present study using NGS, we characterized for
+the first time three major classes of circulating sncRNAs
+(miRNA, tRNA- and YRNA-derived small RNAs) in
+serum from HNSCC patients and healthy donors. Our
+analysis revealed the presence of circulating novel and
+known miRNAs, 5’ tRNA halves, and 5’ or 3’
+YRNAderived small RNAs that were significantly deregulated in
+the HNSCC patients as compared to the healthy controls.</p>
+    </sec>
+    <sec id="2">
+      <title>RESULTS</title>
+      <p>Characterization of small RNAs circulating in
+serum of normal subjects and oral cancer patients</p>
+      <p>We used deep sequencing to investigate the changes
+in circulating small RNAs associated with oral cancer. The
+sequenced small RNAs were extracted from the sera of 7
+male patients with oral cancer (Table 1) and 7 adult males
+with no known pathologies at the time of blood collection.</p>
+      <p>Sequencing reads from both normal and cancer samples
+were pooled to determine the general characteristics of
+the reads, i.e., length distribution of the reads, the pattern
+and size of peaks, and the types and proportions of small
+RNAs from which the reads are derived from. Pooling is
+used only to examine the characteristics of the reads, and
+not to measure the differential expression of small RNAs
+between control and cancer groups. A combined total
+of 79,944,976 pre-processed reads were aligned to the
+hg19 human genome to generate a dataset of 67,401,008
+mapped reads (84%), ranging in size from 18 to 48 nt.</p>
+      <p>Annotation and length distribution analyses revealed that
+reads in the 20-24 nt peak were derived from miRNAs,
+while the 30-33 nt peak consists of reads mapping to
+both YRNA and tRNA genes (Figure 1A). Annotation
+analysis showed that of the total reads mapping to known
+small RNAs, 50% were annotated as miRNAs, 38% as
+YRNAs, and 10% as tRNAs (Figure 1B). The remaining
+&lt; 1% of reads mapped to sequences annotated as rRNA,
+snRNA and snoRNA. These results are consistent with
+our previous findings [20, 21]. Interestingly, we detected
+an extremely statistically significant difference in the
+distribution of small RNA reads in the HNSCC group as
+compared to the normal group (Chi-square P &lt; 0.0001,
+Supplementary Figure S1 and S2). The proportion of
+miRNA reads significantly increased in HNSCC patients
+and accounted for 66.4% of total reads as compared to
+39.6% in the normal group. Correspondingly, HNSCC
+tRNAs and YRNAs dramatically decreased their
+proportions and accounted for 3% and 30.2% respectively,
+as compared to 15.6% and 44.2% in normal subjects. This
+suggests a remodeling of the small non-coding RNA
+networks in HNSCC. We did not find age as a determining
+factor in the observed changes in the levels of small RNAs
+as evidence by the lack of significant correlation between
+the subjects’ age and the normalized expression levels of
+differentially abundant small RNAs.
+Multi-dimensional scaling analysis</p>
+      <p>Before proceeding to the statistical analysis of the
+differential abundance (DA) of circulating small RNAs
+between normal and cancer cases, we used the plotMDS
+function of edgeR to examine the samples quality. The
+multi-dimensional scaling function displays pairwise
+similarity of each sample in two automatically determined
+dimensions; the plot separates the samples according to
+the expression levels and homogeneity of the replicates.</p>
+      <p>The analysis shows clear separation between tumor and
+normal conditions, revealing distinct effects of cancer on
+the abundance of all 3 types of circulating small RNAs
+(Figure 2A-2C). However, the homogeneity of the
+replicates is more marked in the normal than in the tumor
+samples.</p>
+      <p>Analysis of differential expression of circulating
+small RNAs between normal subjects and oral
+cancer patients</p>
+      <p>To measure the DA of circulating miRNAs between
+normal subjects and cancer patients, the sequencing
+reads from each serum sample were pre-processed and
+analyzed with miRDeep2 [28], which detects known and
+novel miRNAs and reports their expression levels. Our
+study revealed significant differences in the levels of 7
+novel (P &lt; 0.05, FDR &lt; 0.10) and 28 known (P &lt; 0.05,
+FDR &lt; 0.15) miRNAs in serum from HNSCC patients
+as compare with healthy donors. Among the novel DA
+miRNAs, 3 were significantly downregulated while 4
+were significantly upregulated (Table 2). Among the
+known DA miRNAs, 13 were significantly upregulated
+and 15 were significantly downregulated in serum from
+HNSCC patients as compared to healthy controls (Table
+2). Importantly, upregulated circulating miR-103a-3p/107
+demonstrated significant positive correlation with the size
+and/or extent (reach) of the primary tumor (r = 0.86, P =
+0.0127, Figure 3).</p>
+      <p>To determine the functional relevance of the DA
+miRNAs, we identified putative targets for each miRNA as
+described in the Materials and Methods section. Because
+prediction software identify a large number of putative
+miRNA targets that are not all biologically relevant, we
+implemented a triple-filtering approach that included:
+first, the over-representation analysis of all deregulated
+HNSCC miRNA targeting events on each predicted and
+validated target; second, the selection of overtargeted
+genes found to contain somatic mutations in cancer
+tissues (as reported by the COSMIC database); and third,
+the functional enrichment for KEGG pathways and GO
+annotations. This triple-filtering approach (accounting for
+miRNA overtargeting, somatic mutations in cancer, and
+pathway/GO category enrichment) allowed us to identify
+a relatively small subset of highly biologically relevant
+miRNA-mRNA interactions including 48 COSMIC
+genes overtargeted by upregulated miRNAs and 76
+COSMIC genes overtargeted by downregulated miRNAs
+(Supplementary Table S1). The functional annotation
+analysis performed on this overtargeted COSMIC gene
+set identified several clusters of cancer-related biological
+processes such as regulation of apoptosis, cell cycle, blood
+vessel morphogenesis, immune system activation, and
+transcription among others that are key to development of
+HNSCC (Supplementary Table S2 and S3). In Figure 3 and
+4, we highlight these important HNSCC miRNA-mRNA
+interaction subnetworks. Genes overtargeted by miRNAs
+that are upregulated in the circulation of cancer patients
+are expected to be downregulated in the respective target
+tissues. On the contrary, genes overtargeted by miRNAs
+that are downregulated in the circulation of cancer patients
+are expected to be upregulated in the respective target
+tissues.</p>
+      <p>We compared serum tRNA-derived small RNAs
+in datasets from HNSCC and normal subjects using the
+Bioconductor package edgeR [29] and found significant
+differential abundance of 5’ tRNA halves derived from a
+small number of tRNA genes; there are 625 human tRNA
+genes, each of them potentially capable of producing small
+RNAs. Our findings suggest that an HNSCC diagnosis is
+associated with alterations – either increase or decrease –
+in the circulating levels of 5’ tRNA halves derived from
+specific tRNA isoacceptors (Table 3). Individuals with
+HNSCC had significantly increased circulating levels
+of 5’ tRNA halves derived from isoacceptors of
+tRNAAla, -Cys, and -Tyr, and decreased circulating levels of 5’
+tRNA halves derived from tRNA-Arg, -Glu, -Gly, -Lys,
+-Trp, and -Val.</p>
+      <p>YRNA-derived small RNAs</p>
+      <p>Similarly to 5’ tRNA halves, we analyzed serum
+levels of YRNA-derived small RNAs and found that their
+serum levels are altered – either increase or decrease – in
+HNSCC subjects (Table 4). Among the 19 types of the
+decreased YRNA-derived small RNAs, 11 were derived
+from the 3’ end, and 8 were derived from the 5’ end of
+YRNA genes. Only two YRNA-derived small RNAs
+increased in abundance, and both of them were derived
+from the 5’ ends of YRNA genes. We have previously
+observed that small RNAs derived from the 5’ end of
+YRNAs are more abundant in serum that those derived
+from the 3’ end [27, 30]. We also, have found that small
+RNAs derived from the 3’ end of YRNAs are 25-29 nt in
+size, while those derived from the 5’ end can be 25-29 nt
+or 30-33 nt [27]. However, in HNSCC subjects slightly
+more small RNAs derived from the 3’ than the 5’ end of
+YRNAs display altered serum levels. This observation
+is consistent with our previous finding that, despite the
+Figure 3: Association between differentially abundant circulating miR-103a-3p/miR-107 and HNSCC T stage.
+Circulating miRNA levels were tested for normal distribution using the Shapiro-Wilk Normality Test and subjected to correlation analysis
+(r: Pearson correlation) in GraphPad Prism 6.05.
+preponderance of the 5’ YRNA fragments, many more 3’
+than 5’ YRNA fragments displayed altered serum levels
+associated with breast cancer [27]. Thus, there may be
+a specific association between at least these two types
+of cancer and the minor population of circulating small
+RNAs derived from the 3’ end of YRNAs. The functional
+significance of this specificity in size and YRNA end is
+not clear, especially since there is little known about the
+biological role of YRNA-derived small RNAs.</p>
+      <p>MicroRNAs are known to be regulators of
+critical steps in the pathogenesis of cancer. They have
+been implicated in all stages of neoplastic progression
+including proliferation, apoptosis, initiation, progression,
+invasion, chemo/radiotherapy resistance, metastasis,
+and relapse (reviewed in [31]). In the present study we
+found 7 novel and 28 known miRNAs either increasing
+or decreasing their circulating levels in the cancer patients
+as compared to normal controls. Several circulating
+miRNAs that we found deregulated in HNSCC patients
+were previously reported deregulated (often changing in
+the same direction) in distinct types of cancer [32-35].</p>
+      <p>Remarkably, circulating miRNA is miR-103-3p/107 was
+found significantly associated with the size and/or extent
+(reach) of the primary tumor (T). Although the number of
+cancer patients in our study was small, this result suggests
+the potential clinical utility of these miRNAs for
+noninvasive staging of HNSCC. Future work on independent
+larger cohorts is guaranteed to validate and extend these
+findings.</p>
+      <p>The circulating DA miRNAs in our HNSCC
+patients appear to coordinately and non-randomly target
+a group of genes relevant to cancer development and
+progression. These genes, identified by selecting DA
+miRNA-overtargeted genes (which interact with more
+DA miRNAs than expected by chance) that are found
+mutated in cancer tissue (as reported by the COSMIC
+database census [36]), are enriched in biological functions
+such as regulation of apoptosis, cell cycle, blood vessel
+morphogenesis (angiogenesis), immune system activation,
+and transcription among others. As evidenced in Figure
+4 and 5, the interaction network approach underscores
+the key role of let-7a/f, miR-26a/b, miR-103, miR-107,
+miR-205, and miR-320a/b among others. Supporting our
+findings, multiple miRNA-mRNA interactions identified
+by our analysis have been experimentally validated
+(thick grey edges in the networks) [37] and several DA
+circulating miRNAs found deregulated in distinct types of
+tumor tissues including HNSCC [38-44].</p>
+      <p>Chen and colleagues showed that miR-103 and
+miR-107 target the metastasis suppressors DAPK and
+KLF4 [45]. Notably, our over-representation analysis
+demonstrated that DAPK and KLF4 were overtargeted by
+circulating miRNAs increasing expression in the HNSCC
+serum samples. Importantly, according to published data,
+the DAPK gene is one of the more often methylated in
+laryngeal squamous cell carcinoma [46] and ablation of
+Klf4 in mice results in more severe dysplastic lesions
+in oral mucosa and higher incidence of squamous cell
+carcinoma [47]. Another in vitro study demonstrated
+the interaction of miR-103 with GPRC5A, a
+G-proteincoupled receptor that has been associated with a variety
+of cancers (reviewed in [48]). Other authors demonstrated
+that miR-103 is an oncomiR that promotes colorectal
+cancer proliferation and migration through
+downregulation of the tumor suppressor genes DICER and
+PTEN [49]. Relevantly, our interaction network analysis of
+miRNA-overtargeted genes underscored the central role of
+these interactions (Figure 4). Moreover, NF1 (a negative
+regulator of the ras signal transduction pathway) is also
+overtargeted by miR-103/107 and two other HNSCC
+upregulated miRNAs. Loss of NF1 expression in human
+endothelial cells promotes autonomous proliferation
+in human endothelial cells [50]. Furthermore, high
+expression of miR-103/107 was found correlated with
+poor survival in human esophageal cancer [41].</p>
+      <p>In contrast to the clear oncogenic role demonstrated
+for miR-103a and miR-107, miR-320 has been mainly
+reported as an anti-angiogenic miRNA in breast cancer
+[51] and oral squamous cell carcinoma [43]. This may
+indicate that miR-320 overexpression in the circulation
+of our HNSCC patients is part of an adaptive response
+against the cancer. Alternatively, miR-320 might perform
+as an oncomir under certain conditions (e.g., distinct
+miRNA partners involved in cooperative gene targeting
+could inhibit the activity of distinct subsets of genes).</p>
+      <p>The report by Kim and Choi [52] supports the oncogenic
+potential of miR-320. These authors found that miR-320
+promotes proliferation of Dgcr8-deficient embryonic
+stem cells (ESCs) by releasing them from G1 arrest. This
+is accomplished by inhibition of the cell cycle inhibitors
+p57 and p21. Notably, our interaction network analysis
+of miRNA-overtargeted genes showed that miR-320
+is involved in several interactions that target important
+tumor suppressor genes such as CDKN2A and PTEN
+(Figure 4). Mutations in the CDKN2A gene are found
+in approximately 25% of head and neck squamous cell
+carcinomas (HNSCC). Most of these mutations lead to
+production of little or no functional p16(INK4a), a protein
+that regulate cell growth and division (reviewed in [53]).</p>
+      <p>Recently, low PTEN expression was found associated
+with worse overall survival in head and neck squamous
+cell carcinoma patients treated with chemotherapy and
+cetuximab [54].</p>
+      <p>In addition, we detected increased levels of
+miR205 in the circulation of HNSCC patients as compared
+to healthy subjects. Importantly, we also found increased
+expression of miR-205 in HNSCC tumor tissue as
+compared to healthy tissue from the same patients in a
+different cohort (unpublished data). Supporting our
+findings, Tsukamoto and colleagues found correlation
+between the changes in the expression of a group of
+endometroid endometrial carcinoma (EEC)-associated
+miRNAs (including miR-205) in both tissue and plasma
+[42]. These authors proposed that these miRNAs represent
+potential non-invasive biomarkers for EEC. Similarly, the
+relative expression of miR-205-5p was significantly higher
+in both non-small cell lung carcinoma tissue (compared
+with cancer-adjacent paired specimens) and serum
+(compared with serum from benign pulmonary condition
+patients and healthy volunteers) [55]. This miRNA was
+also found upregulated in high-grade serous ovarian
+carcinoma [56]. Moreover, miR-205-5p and members
+of the miR-200 family target epithelial-mesenchymal
+transition regulators (ZEB1 and SIP1), apparently being
+important in tumor progression [57].</p>
+      <p>Regarding to miRNAs with reduced levels in
+the circulation of the HNSCC patients, our interaction
+network analysis underscores the key role of let-7a/f
+and miR-26a/b, among others. As highlighted in Figure
+3, several of these interactions (i.e., with BCL2, BRAF,
+BRD3, CCND1, CCND2, EP300, FOXA1, HRAS,
+KRAS, NRAS, MAP2K1, NPM1, PBRM1, PDGFRB,
+SMAD4, SOCS1) have been previously validated [37].</p>
+      <p>Our results suggest that depletion of these miRNAs in the
+circulation of HNSCC patients will allow overexpression
+of the respective target genes in specific target tissues.</p>
+      <p>Indeed, we demonstrate the overtargeting of important
+oncogenes by these miRNAs. Adding support,
+let7 has been shown to function as a tumor suppressor
+by regulating multiple oncogenic signaling pathways,
+therefore, its downregulation would promote cancer. Yang
+and colleagues demonstrated that a polymorphism in the
+let-7 binding site in the 3’-UTR of the KRAS gene was
+associated with increased oncogenic KRAS expression in
+an in vitro model [58]. Furthermore, this polymorphism
+was found associated with increased cancer risk in
+nonsmall-cell lung cancer patients and reduced overall survival
+in oral cancers [38, 58], suggesting functional and clinical
+significance. In addition, Yu and colleagues demonstrated
+that let-7a expression was significantly reduced in head
+and neck cancer (HNC) tissues as compared to adjacent
+normal cells. These authors showed that let-7a negatively
+modulates the expression of stemness genes and plays
+a role as a tumor suppressor in HNC [59]. Our analysis
+revealed that let-7a and let-7f are overtargeting important
+cell cycle genes with demonstrated roles in HNC and
+other types of cancers (Figure 4) [60-62]. In particular,
+the expression of CCDN1 was found to be regulated by
+LIN28A via the inhibition of let-7 miRNA biogenesis in
+cancer cells [61]. Similarly, direct regulation of CCND2
+via a let-7/Lin28b mechanism was also validated in an
+HNC cell line [60].</p>
+      <p>MicroRNAs miR-26a and miR-26b have also been
+found downregulated in distinct types of cancer tissue,
+including squamous cell carcinoma of the tongue [63].</p>
+      <p>Recently, Lu and colleagues reported that miR-26a is
+commonly downregulated in nasopharyngeal carcinoma
+(NPC) and functions by repressing EZH2 expression [44].</p>
+      <p>In addition, the in vitro expression of miR-26 in liver
+cancer cells induced cell-cycle arrest associated with direct
+targeting of cyclin D2 [64]. Similarly, our interaction
+network analysis revealed that cyclin D2 is overtargeted by
+HNSCC DA miRNAs including miR-26a/b. Remarkably,
+Kota and colleagues found that systemic administration of
+miR-26a in a mouse model of hepatocellular carcinoma
+resulted in inhibition of cancer cell proliferation, induction
+of tumor-specific apoptosis, and dramatic protection from
+disease progression [64].</p>
+      <p>Family members of the miR-183 are proposed
+as promising biomarkers for early cancer detection,
+prognosis, and as therapeutic targets in several cancers
+[65-67]. However, the results of their expression profiling
+in cancer tissues are inconsistent and controversial
+(Reviewed in [68]). Members of this miRNA family has
+been mainly reported as oncomirs that inhibit apoptosis
+and promote proliferation and invasion in different types
+of carcinomas [69, 70]. Our work provides evidence for
+a potential tumor suppressor role of miR-183, which
+we found depleted in HNSCC serum samples. Another
+controversial miRNA is miR-93, depleted in the serum
+of HNSCC patients. MicroRNA miR-93, has been found
+deregulated in head and neck cancer and often reported
+as an oncomir [71, 72]. However, our results and those of
+other investigators suggest a tumor suppressor role for this
+miRNA [73].</p>
+      <p>Our analysis showed that miR-150 (also reduced
+in the serum of the HNSCC patients) appears to target
+several genes involved in the regulation of cell growth and
+division such as PIM1 and EP300 (Figure 4). Particularly,
+the interaction of miR-150 with EP300 was previously
+reported in the regulation of high glucose-induced
+cardiomyocyte hypertrophy [74]. This miRNA functions
+as a tumor suppressor in different types of human cancers
+[2, 75, 76]. Regarding to HNSCC, Persson and colleagues
+described a new mechanism of activation of the oncogene
+MYB in human HNC by deleting conserved target sites for
+miR-150 [2]. In addition, a full exome and transcriptome
+sequencing of a large set of HNSCC-derived cells revealed
+that most HNSCC cells harbor multiple mutations and
+copy number variations in the 3’-UTR of EP300 that
+encompases the miR-150 binding site may contribute
+to HNSCC initiation and progression [77]. Moreover,
+the expression of miR-98 (depleted in our HNSCC
+samples) was significantly lower in esophageal squamous
+cell carcinoma tissues as compared to matched normal
+tissues [78], and in human samples from squamous cell
+carcinomas of the oral cavity [79]. This study highlighted
+the role of miR-98 in the regulation of tumor metastasis
+by inhibiting migration and invasion in a cell line of
+esophageal squamous cell carcinoma [78].</p>
+      <p>Remarkably, most of the genes overtargeted by
+DA miRNAs and playing central roles in our HNSCC
+miRNA-mRNA interaction networks (such as DICER,
+PTEN, CDKN2A, NOTCH, MDM2, CCND1, HRAS, and
+SMAD4 among others) (Figure 4 &amp; 5) were previously
+reported within a group of genes altered in HNSCC
+(reviewed in [9]). Moreover, a comprehensive integrative
+genomic study of HNSCC just reported by The Cancer
+Genome Atlas Network showed that several of these genes
+(i.e., HRAS, PTEN, NOTCH, SMAD4 and CDKN2A and
+CCND1) are more often altered in HPV(-) tumors [8].</p>
+      <p>By conducting miRNA-mRNA interaction network
+analysis of overtargeted COSMIC genes (triple-filtering
+strategy described in Material and Methods), we
+demonstrated that the same genes/pathways affected by
+somatic mutations in cancer are affected by changes in the
+abundance of miRNAs that target the respective relevant
+genes. Therefore, one important conclusion from our
+work is that during cancer development, there seems to be
+a convergence of oncogenic processes driven by somatic
+mutations and/or miRNA regulation affecting key cellular
+pathways.</p>
+      <p>In addition to miRNAs, we detected changes in
+serum abundance of two other major classes of circulating
+sncRNAs (i.e., tRNA- and YRNA-derived small RNAs)
+in HNSCC patients when compared to healthy donors
+with no known pathologies. Despite the small number
+of cases used in this study, the multi-dimensional scaling
+analysis of miRNA, and tRNA- and YRNA-derived small
+RNAs showed a significant separation between cancer
+and normal samples indicating low biological coefficient
+of variation (Figure 2). This result also reflects a strong
+association between the cancer diagnosis and the changes
+in the circulating levels of the small RNAs, which
+suggests important mechanistic role in cancer biology
+(Figure 2). Consistent with this idea, some of the functions
+attributed so far to tRNA- and YRNA-derived small RNAs
+are involved in carcinogenesis. Recently, tRNA-derived
+small RNAs [80] and full length tRNAs [81-86] have been
+shown to inhibit apoptosis by sequestering cytochrome
+c. Also, blocking the formation of tRNA-derived
+small RNAs by inhibiting tRNA cleavage slows tumor
+development [87]. The tRNA-derived stress-induced
+small RNAs, which suppress global protein translation,
+seem to reprogram protein translation in response to
+stress, thereby promoting cell survival when cells are
+exposed to unfavorable conditions [88-90]. Promotion of
+injured cells survival instead of apoptosis allows damaged
+cells to persist and acquire abnormalities that alter tissue
+microenvironment and promote cancer. YRNAs or their
+derivatives are linked to processes relevant to DNA
+replication and cell proliferation [91-93], stress responses
+[94], apoptosis [13], viral infections [95, 96], senescence
+[97-99], and several types of cancer [100, 101]. We have
+recently found that changes in serum levels of specific
+types of both YRNA- and tRNA-derived small RNAs are
+associated with breast cancer and its clinicopathological
+characteristics [27]. The association between cancer and
+changes in these novel circulating RNA species raises the
+possibility of a causal connection between carcinogenesis
+and the tRNA- and YRNA-derived small RNAs. Even
+though it is tempting to speculate that tRNA- and
+YRNAderived small RNAs may mediate systemic effects of
+cancer, it remains to determine whether they originate
+from the cancer itself, or from peripheral cells affected
+by the cancer. Does cancer itself change the serum
+composition of tRNA- and YRNA-derived small RNAs,
+or is the change caused by some physiological response
+to the cancer? A more definite answer requires elucidation
+of the secretion pathways of extracellular YRNA- and
+tRNA-derived small RNAs, the cells that produce and
+release them in the extracellular environment, their
+packaging inside cells, their transport and delivery to their
+destination, and the functions they may exert once inside
+recipient cells to contribute to malignancy.</p>
+      <p>The presence of tRNA- and YRNA-derived small
+RNAs in the bloodstream, in addition to miRNAs, and the
+alterations of their levels in cancer patients provide strong
+foundation for exploring these circulating RNA species
+as new noninvasive biomarkers. This may lead to the
+development of a multi-marker signature optimal for early
+detection of cancer. A signature with more than one type
+of markers (for instance, tRNA- and YRNA-derived small
+RNAs in addition to miRNAs) would be more successful
+in clinical use because it is likely less sensitive to
+biological differences than signatures with miRNAs only.</p>
+      <p>Establishing a reliable signature of circulating sncRNAs
+in HNSCC will allow for early detection, prediction of
+prognosis, and more precise adjustment of the therapeutic
+approach for each individual patient, therefore reducing
+the complications related to under- or over-treatment of
+the patients affected by HNSCC.</p>
+      <p>MATERIALS AND METHODS
+Blood collection and serum preparation</p>
+      <p>Serum was prepared in the Department of Head
+and Neck Surgery, Greater Poland Cancer Center before
+surgical treatment from 7 males (Mean age = 56.3 years
+and STDEV = 7.6) diagnosed with HNSCC (Table 1)
+and in the health clinic at the University of
+CaliforniaRiverside from 7 healthy control males (Mean age =
+65.4 years and STDEV = 2.7). The Institutional Review
+Board of University of Medical Sciences in Poznan
+approved the study, and informed consents were obtained
+from all patients. The University of California-Riverside
+Institutional Review Board approved the collection of
+blood from volunteers who served as the control group in
+this study. Blood samples were collected in BD Vacutainer
+Serum Separation Tubes, incubated for 15 minutes at room
+temperature to allow coagulation, and centrifuged at 1300
+g for 10 minutes. The serum supernatant was transferred
+to new tubes, centrifuged at 16,000 g for 15 minutes to
+remove any residual cells and debris, and stored at -80°C.</p>
+      <p>Following the study protocol, patients with local
+recurrences, second primary tumor and HPV positive
+were excluded from experimental groups. Patients with
+a previous history of chemo- or radiotherapy were also
+excluded.</p>
+      <p>RNA isolation and small RNA library construction</p>
+      <p>Total RNA, including small RNA, was isolated
+using the miRNeasy kit (Qiagen) from 0.4 mL of serum
+from each participant. RNA isolated from each serum
+sample was used to construct sequencing libraries with the
+Illumina TruSeq Small RNA Sample Prep Kit (Illumina).</p>
+      <p>Briefly, 3′ and 5′ adapters were sequentially ligated to
+small RNA molecules and the obtained ligation products
+were subjected to a reverse transcription reaction to create
+single stranded cDNA. To selectively enrich fragments
+with adapter molecules on both ends, the cDNA was
+amplified with 15 PCR cycles using a common primer
+and a primer containing an index tag to allow sample
+multiplexing. The amplified cDNA constructs were gel
+purified, and validated by checking the size, purity, and
+concentration of the amplicons on the Agilent Bioanalyzer
+High Sensitivity DNA chip (#5067-4626, Genomics
+Agilent, Santa Clara, CA). The libraries were pooled in
+equimolar amounts, and sequenced on an Illumina HiSeq</p>
+      <p>Bioinformatics and statistics analyses
+circulating small RNA sequencing reads
+a. Alignment and annotation of sequencing reads</p>
+      <p>Sequencing reads were pre-processed and mapped
+to the human (hg19) genome with Bowtie version 0.12.8
+[102] using the “end-to-end k-difference (-v)” alignment
+mode and allowing up to 2 mismatches. In addition, this
+mode of alignment was combined with options (-k 1 –best)
+that instructed Bowtie to report only the best alignment if
+more than one valid alignment exists. Annotation of the
+mapped sequencing reads was performed with BEDTools
+[103] using non-coding RNAs from Ensembl GRCh37
+release 70, miRNAs from miRBase 20 (mirbase.org), and
+tRNAs from Genomic tRNA Database [104].
+b. Generation of the expression values of circulating
+tRNA- and YRNA-derived small RNAs</p>
+      <p>The Bowtie alignment files described above were
+analyzed with BEDTools [103] to count the reads that
+align to tRNA genes in the Genomic tRNA Database
+[104] and YRNA genes and pseudogenes in the noncoding
+RNAs of Ensembl GRCh37 release 70.
+c. Detection of miRNAs and generation of their
+expression values with miRDeep2</p>
+      <p>Sequencing reads were analyzed with miRDeep2
+[28], a probabilistic algorithm based on the miRNA
+biogenesis model and designed to detect miRNAs from
+deep sequencing reads. Briefly, miRDeep2 removes the
+3′ adapter sequence and discards reads shorter than 18
+nucleotides, before aligning them to the human hg19
+genome. Only reads that map perfectly to the genome
+five or less times are used for miRNA detection, since
+human miRNAs usually map to few genomic locations.</p>
+      <p>For the purpose of analyzing the sequenced miRNAs, the
+known miRNA input was from miRBase v.20 [105], and
+Mus musculus was designated as the related species. The
+miRDeep2 algorithm uses a miRNA biogenesis model to
+detect known miRNAs and discover novels miRNAs. It
+aligns reads to potential hairpin structures in a manner
+consistent with Dicer processing and assigns scores that
+measure the probability that hairpins are true miRNA
+precursors; it also estimates the expression levels of the
+identified miRNAs.</p>
+      <p>Expression values of miRNAs and tRNA- and
+YRNA-derived small RNAs obtained as described above
+were analyzed with the Bioconductor package edgeR [29]
+to detect statistical differences in the levels of circulating
+small RNAs between HNSCC and control groups. The
+algorithm of edgeR uses the negative binomial model to
+measure differential gene expression. Expression values
+were normalized for the libraries size with the trimmed
+mean of M-values (TMM) method. The overall degree of
+inter-library variability in the data and the coefficient of
+biological variation (BCV) were measured by estimating
+first the common then the tagwise dispersions as
+recommended for experiments with a single factor. The
+differential expression is determined by the exact test
+which is only applicable to experiments with a single
+factor. P-values were adjusted for multiple testing using
+the Benjamini and Hochberg method to control the false
+discovery rate (FDR). Differences in expression were
+considered significant below an FDR of 15%.
+e. Correlation analysis</p>
+      <p>Circulating miRNA levels were tested for normal
+distribution using the Shapiro-Wilk Normality Test and
+subjected to correlation analysis with tumor staging.</p>
+      <p>Pearson correlation for normally distributed data and
+Nonparametric Spearman correlation for non-normal data)
+in GraphPad Prism 6.05.
+f. Prediction of peripheral genes potentially targeted by
+differentially abundant circulating miRNAs</p>
+      <p>The databases miRBase [105] and TargetScan [106]
+from the R packages microRNA [107] targetscan.Hs.eg.
+db [108] were used to predict the genes that are potentially
+targeted by the differentially abundant miRNAs. Lists of
+putative targets are generated by the intersection of the
+targets predicted from TargetScan and miRBase.
+g. Over-representation analysis of miRNA-targeting
+events on predicted targets and miRNA-mRNA
+interaction network construction</p>
+      <p>Statistical hypergeometric tests were implemented in
+the R environment for comparison of observed proportions
+of differentially abundant (DA) miRNA interaction
+events on each predicted target mRNA versus expected
+proportions in the predicted miRNA-mRNA interaction
+universe. Validated interactions from miRTarBase 4.5 were
+added to the interaction universe. The overtargeted genes
+(P &lt; 0.01, FDR &lt; 0.05) were then additionally filtered
+by selecting those included in the list of cancer genes
+reported by the COSMIC database (genes containing
+somatic mutations in cancer tissue) [36] and analyzed
+with the Functional Annotation Clustering tool from the
+DAVID Bioinformatics Database [109] to determine
+which pathways and GO categories are enriched in the
+gene list. The subset of overtargeted COSMIC genes that
+are found functionally enriched were then used to filter
+the list of interactions between DA miRNAs and putative
+overtargeted mRNAs. The subset of relevant interactions
+was then used to build miRNA-mRNA interaction
+networks using the Cytoscape 3.0.2 software [110].
+ACKNOWLEDGMENTS</p>
+      <p>Research reported in this publication was supported
+by National Institute on Aging of the National Institutes
+of Health under award number R01AG032290, Polish
+National Science Centre N N403 186934
+CONFLICTS OF INTEREST</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Siegel</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          , et al.,
+          <source>Cancer statistics</source>
+          ,
+          <year>2014</year>
+          .
+          <source>CA Cancer J Clin</source>
+          ,
+          <year>2014</year>
+          . 64: p.
+          <fpage>9</fpage>
+          -
+          <lpage>29</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Persson</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Recurrent fusion of MYB and NFIB transcription factor genes in carcinomas of the breast and head and neck</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A</source>
+          ,
+          <year>2009</year>
+          . 106: p.
+          <fpage>18740</fpage>
+          -
+          <lpage>4</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Hashibe</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Interaction between tobacco and alcohol use and the risk of head and neck cancer: pooled analysis in the International Head and Neck Cancer Epidemiology Consortium</article-title>
+          .
+          <source>Cancer Epidemiol Biomarkers Prev</source>
+          ,
+          <year>2009</year>
+          . 18: p.
+          <fpage>541</fpage>
+          -
+          <lpage>50</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Ang</surname>
+            ,
+            <given-names>K.K.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Human papillomavirus and survival of patients with oropharyngeal cancer</article-title>
+          .
+          <source>N Engl J Med</source>
+          ,
+          <year>2010</year>
+          . 363: p.
+          <fpage>24</fpage>
+          -
+          <lpage>35</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Leemans</surname>
+            , C.R.,
+            <given-names>B.J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Braakhuis</surname>
+            , and
+            <given-names>R.H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Brakenhoff</surname>
+          </string-name>
+          ,
+          <article-title>The molecular biology of head and neck cancer</article-title>
+          .
+          <source>Nat Rev Cancer</source>
+          ,
+          <year>2011</year>
+          . 11: p.
+          <fpage>9</fpage>
+          -
+          <lpage>22</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Kamangar</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G.M.</given-names>
+            <surname>Dores</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>W.F.</given-names>
+            <surname>Anderson</surname>
+          </string-name>
+          ,
+          <article-title>Patterns of cancer incidence, mortality, and prevalence across five continents: defining priorities to reduce cancer disparities in different geographic regions of the world</article-title>
+          .
+          <source>J Clin Oncol</source>
+          ,
+          <year>2006</year>
+          . 24: p.
+          <fpage>2137</fpage>
+          -
+          <lpage>50</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Zhi</surname>
+            ,
+            <given-names>X.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Gene expression analysis of head and neck squamous cell carcinoma survival and recurrence</article-title>
+          .
+          <source>Oncotarget</source>
+          ,
+          <year>2014</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <given-names>Cancer</given-names>
+            <surname>Genome Atlas</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>N.</surname>
+          </string-name>
+          ,
+          <article-title>Comprehensive genomic characterization of head and neck squamous cell carcinomas</article-title>
+          .
+          <source>Nature</source>
+          ,
+          <year>2015</year>
+          . 517: p.
+          <fpage>576</fpage>
+          -
+          <lpage>82</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Sun</surname>
+            , W. and
+            <given-names>J.A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Califano</surname>
+          </string-name>
+          ,
+          <article-title>Sequencing the head and neck cancer genome: implications for therapy</article-title>
+          .
+          <source>Ann N Y Acad Sci</source>
+          ,
+          <year>2014</year>
+          . 1333: p.
+          <fpage>33</fpage>
+          -
+          <lpage>42</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Esquela-Kerscher</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>F.J.</given-names>
+            <surname>Slack</surname>
+          </string-name>
+          ,
+          <article-title>Oncomirs - microRNAs with a role in cancer</article-title>
+          .
+          <source>Nat Rev Cancer</source>
+          ,
+          <year>2006</year>
+          .
+          <issue>6</issue>
+          : p.
+          <fpage>259</fpage>
+          -
+          <lpage>69</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Rother</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Meister</surname>
+          </string-name>
+          ,
+          <article-title>Small RNAs derived from longer non-coding RNAs</article-title>
+          .
+          <source>Biochimie</source>
+          ,
+          <year>2011</year>
+          . 93: p.
+          <fpage>1905</fpage>
+          -
+          <lpage>15</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Sobala</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Hutvagner</surname>
+          </string-name>
+          ,
+          <article-title>Transfer RNA-derived fragments: origins</article-title>
+          , processing, and functions.
+          <source>Wiley Interdiscip Rev RNA</source>
+          ,
+          <year>2011</year>
+          .
+          <issue>2</issue>
+          : p.
+          <fpage>853</fpage>
+          -
+          <lpage>62</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Rutjes</surname>
+            ,
+            <given-names>S.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Rapid nucleolytic degradation of the small cytoplasmic Y RNAs during apoptosis</article-title>
+          .
+          <source>J Biol Chem</source>
+          ,
+          <year>1999</year>
+          . 274: p.
+          <fpage>24799</fpage>
+          -
+          <lpage>807</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Fu</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Stress induces tRNA cleavage by angiogenin in mammalian cells</article-title>
+          .
+          <source>FEBS Lett</source>
+          ,
+          <year>2009</year>
+          . 583: p.
+          <fpage>437</fpage>
+          -
+          <lpage>42</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Haussecker</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Human tRNA-derived small RNAs in the global regulation of RNA silencing</article-title>
+          .
+          <source>RNA</source>
+          ,
+          <year>2010</year>
+          . 16: p.
+          <fpage>673</fpage>
+          -
+          <lpage>95</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Lee</surname>
+            ,
+            <given-names>Y.S.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>A novel class of small RNAs: tRNAderived RNA fragments (tRFs)</article-title>
+          .
+          <source>Genes Dev</source>
+          ,
+          <year>2009</year>
+          . 23: p.
+          <fpage>2639</fpage>
+          -
+          <lpage>49</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Martens-Uzunova</surname>
+            ,
+            <given-names>E.S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Olvedy</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Jenster</surname>
+          </string-name>
+          ,
+          <article-title>Beyond microRNA - novel RNAs derived from small non-coding RNA and their implication in cancer</article-title>
+          .
+          <source>Cancer Lett</source>
+          ,
+          <year>2013</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Wang</surname>
+            ,
+            <given-names>Q.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Identification and Functional Characterization of tRNA-derived RNA Fragments (tRFs) in Respiratory Syncytial Virus Infection</article-title>
+          .
+          <source>Mol Ther</source>
+          ,
+          <year>2012</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Zhao</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>New role for tRNA and its fragment purified from human urinary bladder carcinoma conditioned medium: inhibition of endothelial cell growth</article-title>
+          .
+          <source>J Cell Biochem</source>
+          ,
+          <year>1999</year>
+          . 76: p.
+          <fpage>109</fpage>
+          -
+          <lpage>17</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Dhahbi</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          , et al.,
+          <volume>5</volume>
+          '-
+          <article-title>YRNA fragments derived by processing of transcripts from specific YRNA genes and pseudogenes are abundant in human serum and plasma</article-title>
+          .
+          <source>Physiol Genomics</source>
+          ,
+          <year>2013</year>
+          . 45: p.
+          <fpage>990</fpage>
+          -
+          <lpage>8</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Dhahbi</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          , et al.,
+          <volume>5</volume>
+          '
+          <article-title>tRNA halves are present as abundant complexes in serum, concentrated in blood cells, and modulated by aging and calorie restriction</article-title>
+          .
+          <source>BMC Genomics</source>
+          ,
+          <year>2013</year>
+          . 14: p.
+          <fpage>298</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Hoy</surname>
+            ,
+            <given-names>A.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>A.H.</given-names>
+            <surname>Buck</surname>
+          </string-name>
+          ,
+          <article-title>Extracellular small RNAs: what</article-title>
+          , where, why?
+          <source>Biochem Soc Trans</source>
+          ,
+          <year>2012</year>
+          .
+          <volume>40</volume>
+          (
+          <issue>4</issue>
+          ): p.
+          <fpage>886</fpage>
+          -
+          <lpage>90</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Cortez</surname>
+            ,
+            <given-names>M.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNAs in body fluids-the mix of hormones and biomarkers</article-title>
+          .
+          <source>Nat Rev Clin Oncol</source>
+          ,
+          <year>2011</year>
+          .
+          <issue>8</issue>
+          : p.
+          <fpage>467</fpage>
+          -
+          <lpage>77</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Shah</surname>
+            ,
+            <given-names>M.Y.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>G.A.</given-names>
+            <surname>Calin</surname>
+          </string-name>
+          ,
+          <article-title>The Mix of Two Worlds: NonCoding RNAs and Hormones</article-title>
+          .
+          <source>Nucleic Acid Ther</source>
+          ,
+          <year>2012</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>Turchinovich</surname>
+            , A., L. Weiz, and
+            <given-names>B.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Burwinkel</surname>
+          </string-name>
+          ,
+          <article-title>Extracellular miRNAs: the mystery of their origin and function</article-title>
+          .
+          <source>Trends Biochem Sci</source>
+          ,
+          <year>2012</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Kosaka</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Trash or Treasure: extracellular microRNAs and cell-to-cell communication</article-title>
+          .
+          <source>Front Genet</source>
+          ,
+          <year>2013</year>
+          .
+          <issue>4</issue>
+          : p.
+          <fpage>173</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Dhahbi</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Deep Sequencing of Serum Small RNAs Identifies Patterns of 5' tRNA Half and YRNA Fragment Expression Associated with Breast Cancer</article-title>
+          .
+          <source>Biomark Cancer</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>6</issue>
+          : p.
+          <fpage>37</fpage>
+          -
+          <lpage>47</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Friedlander</surname>
+            ,
+            <given-names>M.R.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miRDeep2 accurately identifies known and hundreds of novel microRNA genes in seven animal clades</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          ,
+          <year>2012</year>
+          . 40: p.
+          <fpage>37</fpage>
+          -
+          <lpage>52</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Robinson</surname>
+            , M.D.,
+            <given-names>D.J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>McCarthy</surname>
+            , and
+            <given-names>G.K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Smyth</surname>
+          </string-name>
+          ,
+          <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>
+          .
+          <source>Bioinformatics</source>
+          ,
+          <year>2010</year>
+          .
+          <volume>26</volume>
+          (
+          <issue>1</issue>
+          ): p.
+          <fpage>139</fpage>
+          -
+          <lpage>40</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Dhahbi</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          , et al.,
+          <volume>5</volume>
+          '
+          <article-title>YRNA fragments derived by processing of transcripts from specific YRNA genes and pseudogenes are abundant in human serum and plasma</article-title>
+          .
+          <source>Physiol Genomics</source>
+          ,
+          <year>2013</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Dhahbi</surname>
+            ,
+            <given-names>J.M.</given-names>
+          </string-name>
+          ,
+          <article-title>Circulating small noncoding RNAs as biomarkers of aging</article-title>
+          .
+          <source>Ageing Res Rev</source>
+          ,
+          <year>2014</year>
+          . 17: p.
+          <fpage>86</fpage>
+          -
+          <lpage>98</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Zhao</surname>
+            ,
+            <given-names>B.S.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Screening of microRNA in patients with esophageal cancer at same tumor node metastasis stage with different prognoses</article-title>
+          .
+          <source>Asian Pac J Cancer Prev</source>
+          ,
+          <year>2013</year>
+          . 14: p.
+          <fpage>139</fpage>
+          -
+          <lpage>43</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Gao</surname>
+            ,
+            <given-names>W.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MiR-21 overexpression in human primary squamous cell lung carcinoma is associated with poor patient prognosis</article-title>
+          .
+          <source>J Cancer Res Clin Oncol</source>
+          ,
+          <year>2011</year>
+          . 137: p.
+          <fpage>557</fpage>
+          -
+          <lpage>66</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>Zhang</surname>
+            ,
+            <given-names>J.X.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Prognostic and predictive value of a microRNA signature in stage II colon cancer: a microRNA expression analysis</article-title>
+          .
+          <source>Lancet Oncol</source>
+          ,
+          <year>2013</year>
+          . 14: p.
+          <fpage>1295</fpage>
+          -
+          <lpage>306</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Szabo</surname>
+            ,
+            <given-names>D.R.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Analysis of circulating microRNAs in adrenocortical tumors</article-title>
+          .
+          <source>Lab Invest</source>
+          ,
+          <year>2014</year>
+          . 94: p.
+          <fpage>331</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Forbes</surname>
+            ,
+            <given-names>S.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>The Catalogue of Somatic Mutations in Cancer (COSMIC)</article-title>
+          .
+          <source>Curr Protoc Hum Genet</source>
+          ,
+          <year>2008</year>
+          .
+          <source>Chapter</source>
+          <volume>10</volume>
+          : p.
+          <source>Unit 10 11.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <string-name>
+            <surname>Hsu</surname>
+            ,
+            <given-names>S.D.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miRTarBase: a database curates experimentally validated microRNA-target interactions</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          ,
+          <year>2011</year>
+          .
+          <volume>39</volume>
+          (
+          <article-title>Database issue): p. D163-9.</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Christensen</surname>
+            ,
+            <given-names>B.C.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>A let-7 microRNA-binding site polymorphism in the KRAS 3' UTR is associated with reduced survival in oral cancers</article-title>
+          .
+          <source>Carcinogenesis</source>
+          ,
+          <year>2009</year>
+          .
+          <volume>30</volume>
+          (
+          <issue>6</issue>
+          ): p.
+          <fpage>1003</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>Schneider</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA 28 controls cell proliferation and is down-regulated in B-cell lymphomas</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A</source>
+          ,
+          <year>2014</year>
+          . 111: p.
+          <fpage>8185</fpage>
+          -
+          <lpage>90</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Martinez</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miR-29 and miR-30 regulate B-Myb expression during cellular senescence</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A</source>
+          ,
+          <year>2011</year>
+          . 108: p.
+          <fpage>522</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Guo</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Distinctive microRNA profiles relating to patient survival in esophageal squamous cell carcinoma</article-title>
+          .
+          <source>Cancer Res</source>
+          ,
+          <year>2008</year>
+          . 68: p.
+          <fpage>26</fpage>
+          -
+          <lpage>33</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>Tsukamoto</surname>
+            ,
+            <given-names>O.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Identification of endometrioid endometrial carcinoma-associated microRNAs in tissue and plasma</article-title>
+          .
+          <source>Gynecol Oncol</source>
+          ,
+          <year>2014</year>
+          . 132: p.
+          <fpage>715</fpage>
+          -
+          <lpage>21</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>Wu</surname>
+            ,
+            <given-names>Y.Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miR-320 regulates tumor angiogenesis driven by vascular endothelial cells in oral cancer by silencing neuropilin 1</article-title>
+          . Angiogenesis,
+          <year>2014</year>
+          . 17: p.
+          <fpage>247</fpage>
+          -
+          <lpage>60</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <string-name>
+            <surname>Lu</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MiR-26a inhibits cell growth and tumorigenesis of nasopharyngeal carcinoma through repression of EZH2</article-title>
+          .
+          <source>Cancer Res</source>
+          ,
+          <year>2011</year>
+          . 71: p.
+          <fpage>225</fpage>
+          -
+          <lpage>33</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Chen</surname>
+            ,
+            <given-names>H.Y.</given-names>
+          </string-name>
+          , et al., miR-
+          <fpage>103</fpage>
+          /
+          <article-title>107 promote metastasis of colorectal cancer by targeting the metastasis suppressors DAPK and KLF4</article-title>
+          .
+          <source>Cancer Res</source>
+          ,
+          <year>2012</year>
+          . 72: p.
+          <fpage>3631</fpage>
+          -
+          <lpage>41</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <string-name>
+            <surname>Paluszczak</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Frequent hypermethylation of DAPK, RARbeta, MGMT, RASSF1A and FHIT in laryngeal squamous cell carcinomas and adjacent normal mucosa</article-title>
+          .
+          <source>Oral Oncol</source>
+          ,
+          <year>2011</year>
+          . 47: p.
+          <fpage>104</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          47.
+          <string-name>
+            <surname>Paparella</surname>
+            ,
+            <given-names>M.L.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Oral-specific ablation of Klf4 disrupts epithelial terminal differentiation and increases premalignant lesions and carcinomas upon chemical carcinogenesis</article-title>
+          .
+          <source>J Oral Pathol Med</source>
+          ,
+          <year>2015</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          48.
+          <string-name>
+            <surname>Zhou</surname>
+            ,
+            <given-names>H.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>I.</given-names>
+            <surname>Rigoutsos</surname>
+          </string-name>
+          ,
+          <article-title>MiR-103a-3p targets the 5' UTR of GPRC5A in pancreatic cells</article-title>
+          .
+          <source>RNA</source>
+          ,
+          <year>2014</year>
+          . 20: p.
+          <fpage>1431</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          49.
+          <string-name>
+            <surname>Geng</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA-103 promotes colorectal cancer by targeting tumor suppressor DICER and PTEN</article-title>
+          .
+          <source>Int J Mol Sci</source>
+          ,
+          <year>2014</year>
+          . 15: p.
+          <fpage>8458</fpage>
+          -
+          <lpage>72</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          50.
+          <string-name>
+            <surname>Bajaj</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Loss of NF1 expression in human endothelial cells promotes autonomous proliferation and altered vascular morphogenesis</article-title>
+          .
+          <source>PLoS One</source>
+          ,
+          <year>2012</year>
+          .
+          <issue>7</issue>
+          : p.
+          <fpage>e49222</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          51.
+          <string-name>
+            <surname>Bronisz</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Reprogramming of the tumour microenvironment by stromal PTEN-regulated miR-320</article-title>
+          .
+          <source>Nat Cell Biol</source>
+          ,
+          <year>2012</year>
+          . 14: p.
+          <fpage>159</fpage>
+          -
+          <lpage>67</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          52.
+          <string-name>
+            <surname>Kim</surname>
+            , B.M. and
+            <given-names>M.Y.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Choi</surname>
+          </string-name>
+          ,
+          <article-title>Non-canonical microRNAs miR-320 and miR-702 promote proliferation in Dgcr8- deficient embryonic stem cells</article-title>
+          .
+          <source>Biochem Biophys Res Commun</source>
+          ,
+          <year>2012</year>
+          . 426: p.
+          <fpage>183</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          53.
+          <string-name>
+            <surname>Mountzios</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Rampias</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Psyrri</surname>
+          </string-name>
+          ,
+          <article-title>The mutational spectrum of squamous-cell carcinoma of the head and neck: targetable genetic events and clinical impact</article-title>
+          .
+          <source>Ann Oncol</source>
+          ,
+          <year>2014</year>
+          . 25: p.
+          <fpage>1889</fpage>
+          -
+          <lpage>900</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          54. da Costa,
+          <string-name>
+            <surname>A.A.</surname>
+          </string-name>
+          , et al.,
+          <article-title>Low PTEN expression is associated with worse overall survival in head and neck squamous cell carcinoma patients treated with chemotherapy and cetuximab</article-title>
+          .
+          <source>Int J Clin Oncol</source>
+          ,
+          <year>2014</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          55.
+          <string-name>
+            <surname>Jiang</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <source>Relative expressions of miR-205-5p</source>
+          ,
+          <fpage>miR205</fpage>
+          -
+          <lpage>3p</lpage>
+          ,
+          <article-title>and miR-21 in tissues and serum of non-small cell lung cancer patients</article-title>
+          .
+          <source>Mol Cell Biochem</source>
+          ,
+          <year>2013</year>
+          . 383: p.
+          <fpage>67</fpage>
+          -
+          <lpage>75</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          56.
+          <string-name>
+            <surname>Vilming Elgaaen</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Global miRNA expression analysis of serous and clear cell ovarian carcinomas identifies differentially expressed miRNAs including miR200c-3p as a prognostic marker</article-title>
+          .
+          <source>BMC Cancer</source>
+          ,
+          <year>2014</year>
+          . 14: p.
+          <fpage>80</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          57.
+          <string-name>
+            <surname>Gregory</surname>
+            ,
+            <given-names>P.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>The miR-200 family and miR-205 regulate epithelial to mesenchymal transition by targeting ZEB1 and SIP1</article-title>
+          .
+          <source>Nat Cell Biol</source>
+          ,
+          <year>2008</year>
+          . 10: p.
+          <fpage>593</fpage>
+          -
+          <lpage>601</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          58.
+          <string-name>
+            <surname>Zhang</surname>
+            ,
+            <given-names>W.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>A let-7 microRNA-binding site polymorphism in 3'-untranslated region of KRAS gene predicts response in wild-type KRAS patients with metastatic colorectal cancer treated with cetuximab monotherapy</article-title>
+          .
+          <source>Ann Oncol</source>
+          ,
+          <year>2011</year>
+          . 22: p.
+          <fpage>104</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          59.
+          <string-name>
+            <surname>Yu</surname>
+            ,
+            <given-names>C.C.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA let-7a represses chemoresistance and tumourigenicity in head and neck cancer via stem-like properties ablation</article-title>
+          .
+          <source>Oral Oncol</source>
+          ,
+          <year>2011</year>
+          . 47: p.
+          <fpage>202</fpage>
+          -
+          <lpage>10</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          60.
+          <string-name>
+            <surname>Alajez</surname>
+            ,
+            <given-names>N.M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Lin28b promotes head and neck cancer progression via modulation of the insulin-like growth factor survival pathway</article-title>
+          .
+          <source>Oncotarget</source>
+          ,
+          <year>2012</year>
+          .
+          <issue>3</issue>
+          : p.
+          <fpage>1641</fpage>
+          -
+          <lpage>52</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          61.
+          <string-name>
+            <surname>Li</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Lin-28 homologue A (LIN28A) promotes cell cycle progression via regulation of cyclin-dependent kinase 2 (CDK2), cyclin D1 (CCND1), and cell division cycle 25 homolog A (CDC25A) expression in cancer</article-title>
+          .
+          <source>J Biol Chem</source>
+          ,
+          <year>2012</year>
+          . 287: p.
+          <fpage>17386</fpage>
+          -
+          <lpage>97</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          62.
+          <string-name>
+            <surname>Kim</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Extensive sequence variation in the 3' untranslated region of the KRAS gene in lung and ovarian cancer cases</article-title>
+          .
+          <source>Cell Cycle</source>
+          ,
+          <year>2014</year>
+          . 13: p.
+          <fpage>1030</fpage>
+          -
+          <lpage>40</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          63.
+          <string-name>
+            <surname>Wong</surname>
+            ,
+            <given-names>T.S.</given-names>
+          </string-name>
+          , et al.,
+          <source>Mature miR-184 as Potential Oncogenic microRNA of Squamous Cell Carcinoma of Tongue. Clin Cancer Res</source>
+          ,
+          <year>2008</year>
+          . 14: p.
+          <fpage>2588</fpage>
+          -
+          <lpage>92</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          64.
+          <string-name>
+            <surname>Kota</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Therapeutic microRNA delivery suppresses tumorigenesis in a murine liver cancer model</article-title>
+          .
+          <source>Cell</source>
+          ,
+          <year>2009</year>
+          . 137: p.
+          <fpage>1005</fpage>
+          -
+          <lpage>17</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          65.
+          <string-name>
+            <surname>Tang</surname>
+            ,
+            <given-names>J.F.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Five miRNAs as novel diagnostic biomarker candidates for primary nasopharyngeal carcinoma</article-title>
+          .
+          <source>Asian Pac J Cancer Prev</source>
+          ,
+          <year>2014</year>
+          . 15: p.
+          <fpage>7575</fpage>
+          -
+          <lpage>81</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          66.
+          <string-name>
+            <surname>Ouyang</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA profiling implies new markers of chemoresistance of triple-negative breast cancer</article-title>
+          .
+          <source>PLoS One</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>9</issue>
+          : p.
+          <fpage>e96228</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          67.
+          <string-name>
+            <surname>Wang</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>A ten-microRNA signature identified from a genome-wide microRNA expression profiling in human epithelial ovarian cancer</article-title>
+          .
+          <source>PLoS One</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>9</issue>
+          : p.
+          <fpage>e96472</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          68.
+          <string-name>
+            <surname>Zhang</surname>
+            ,
+            <given-names>Q.H.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Meta-analysis of microRNA-183 family expression in human cancer studies comparing cancer tissues with noncancerous tissues</article-title>
+          .
+          <source>Gene</source>
+          ,
+          <year>2013</year>
+          . 527: p.
+          <fpage>26</fpage>
+          -
+          <lpage>32</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          69.
+          <string-name>
+            <surname>Wojtas</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Differential miRNA expression defines migration and reduced apoptosis in follicular thyroid carcinomas</article-title>
+          .
+          <source>Mol Cell Endocrinol</source>
+          ,
+          <year>2014</year>
+          . 388: p.
+          <fpage>1</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          70.
+          <string-name>
+            <surname>Ren</surname>
+            ,
+            <given-names>L.H.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA-183 promotes proliferation and invasion in oesophageal squamous cell carcinoma by targeting programmed cell death 4</article-title>
+          .
+          <string-name>
+            <surname>Br</surname>
+            <given-names>J Cancer</given-names>
+          </string-name>
+          ,
+          <year>2014</year>
+          . 111: p.
+          <fpage>2003</fpage>
+          -
+          <lpage>13</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          71.
+          <string-name>
+            <surname>Xiao</surname>
+            ,
+            <given-names>X.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA-93 regulates cyclin G2 expression and plays an oncogenic role in laryngeal squamous cell carcinoma</article-title>
+          .
+          <source>Int J Oncol</source>
+          ,
+          <year>2015</year>
+          . 46: p.
+          <fpage>161</fpage>
+          -
+          <lpage>74</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          72.
+          <string-name>
+            <surname>Summerer</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Changes in circulating microRNAs after radiochemotherapy in head and neck cancer patients</article-title>
+          .
+          <source>Radiat Oncol</source>
+          ,
+          <year>2013</year>
+          .
+          <issue>8</issue>
+          : p.
+          <fpage>296</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          73.
+          <string-name>
+            <surname>Tang</surname>
+            ,
+            <given-names>Q.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA-93 suppress colorectal cancer development via Wnt/beta-catenin pathway downregulating</article-title>
+          .
+          <source>Tumour Biol</source>
+          ,
+          <year>2014</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          74.
+          <string-name>
+            <surname>Duan</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miR-150 regulates high glucose-induced cardiomyocyte hypertrophy by targeting the transcriptional co-activator p300</article-title>
+          .
+          <source>Exp Cell Res</source>
+          ,
+          <year>2013</year>
+          . 319: p.
+          <fpage>173</fpage>
+          -
+          <lpage>84</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          75.
+          <string-name>
+            <surname>Feng</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>miR-150 functions as a tumour suppressor in human colorectal cancer by targeting c-Myb</article-title>
+          .
+          <source>J Cell Mol Med</source>
+          ,
+          <year>2014</year>
+          . 18: p.
+          <fpage>2125</fpage>
+          -
+          <lpage>34</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          76.
+          <string-name>
+            <surname>Li</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          , et al., miR-
+          <fpage>150</fpage>
+          -
+          <article-title>5p Inhibits Hepatoma Cell Migration and Invasion by Targeting MMP14</article-title>
+          .
+          <source>PLoS One</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>9</issue>
+          : p.
+          <fpage>e115577</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          77.
+          <string-name>
+            <surname>Martin</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>The head and neck cancer cell oncogenome: A platform for the development of precision molecular therapies</article-title>
+          .
+          <source>Oncotarget</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>5</issue>
+          : p.
+          <fpage>8906</fpage>
+          -
+          <lpage>23</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          78.
+          <string-name>
+            <surname>Huang</surname>
+            ,
+            <given-names>S.D.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>MicroRNA-98 and microRNA-214 post-transcriptionally regulate enhancer of zeste homolog 2 and inhibit migration and invasion in human esophageal squamous cell carcinoma</article-title>
+          .
+          <source>Mol Cancer</source>
+          ,
+          <year>2012</year>
+          . 11: p.
+          <fpage>51</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          79.
+          <string-name>
+            <surname>Sterenczak</surname>
+            ,
+            <given-names>K.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>HMGA1 and HMGA2 expression and comparative analyses of HMGA2, Lin28 and let-7 miRNAs in oral squamous cell carcinoma</article-title>
+          .
+          <source>BMC Cancer</source>
+          ,
+          <year>2014</year>
+          . 14: p.
+          <fpage>694</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          80.
+          <string-name>
+            <surname>Saikia</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Angiogenin-Cleaved tRNA Halves Interact with Cytochrome c, Protecting Cells from Apoptosis during Osmotic Stress</article-title>
+          .
+          <source>Mol Cell Biol</source>
+          ,
+          <year>2014</year>
+          . 34: p.
+          <fpage>2450</fpage>
+          -
+          <lpage>63</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          81.
+          <string-name>
+            <surname>Mei</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>tRNA binds to cytochrome c and inhibits caspase activation</article-title>
+          .
+          <source>Mol Cell</source>
+          ,
+          <year>2010</year>
+          . 37: p.
+          <fpage>668</fpage>
+          -
+          <lpage>78</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          82.
+          <string-name>
+            <surname>Hou</surname>
+            ,
+            <given-names>Y.M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>X.</given-names>
+            <surname>Yang</surname>
+          </string-name>
+          ,
+          <article-title>Regulation of cell death by transfer RNA</article-title>
+          .
+          <source>Antioxid Redox Signal</source>
+          ,
+          <year>2013</year>
+          . 19: p.
+          <fpage>583</fpage>
+          -
+          <lpage>94</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          83.
+          <string-name>
+            <surname>Mei</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <source>Apoptotic regulation and tRNA. Protein Cell</source>
+          ,
+          <year>2010</year>
+          .
+          <issue>1</issue>
+          : p.
+          <fpage>795</fpage>
+          -
+          <lpage>801</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          84.
+          <string-name>
+            <surname>Mei</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>tRNA and cytochrome c in cell death and beyond</article-title>
+          .
+          <source>Cell Cycle</source>
+          ,
+          <year>2010</year>
+          .
+          <issue>9</issue>
+          : p.
+          <fpage>2936</fpage>
+          -
+          <lpage>9</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          85.
+          <string-name>
+            <surname>Suryanarayana</surname>
+            , T.,
+            <given-names>J.K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Uppala</surname>
+            , and
+            <given-names>U.K.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Garapati</surname>
+          </string-name>
+          ,
+          <article-title>Interaction of cytochrome c with tRNA and other polynucleotides</article-title>
+          .
+          <source>Mol Biol Rep</source>
+          ,
+          <year>2012</year>
+          . 39: p.
+          <fpage>9187</fpage>
+          -
+          <lpage>91</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          86.
+          <string-name>
+            <surname>Raina</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Ibba</surname>
+          </string-name>
+          ,
+          <article-title>tRNAs as regulators of biological processes</article-title>
+          .
+          <source>Front Genet</source>
+          ,
+          <year>2014</year>
+          .
+          <issue>5</issue>
+          : p.
+          <fpage>171</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          87.
+          <string-name>
+            <surname>Olson</surname>
+            ,
+            <given-names>K.A.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Angiogenin antagonists prevent tumor growth in vivo</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A</source>
+          ,
+          <year>1995</year>
+          . 92: p.
+          <fpage>442</fpage>
+          -
+          <lpage>6</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          88.
+          <string-name>
+            <surname>Yamasaki</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Angiogenin cleaves tRNA and promotes stress-induced translational repression</article-title>
+          .
+          <source>J Cell Biol</source>
+          ,
+          <year>2009</year>
+          . 185: p.
+          <fpage>35</fpage>
+          -
+          <lpage>42</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          89.
+          <string-name>
+            <surname>Emara</surname>
+            ,
+            <given-names>M.M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Angiogenin-induced tRNA-derived stress-induced RNAs promote stress-induced stress granule assembly</article-title>
+          .
+          <source>J Biol Chem</source>
+          ,
+          <year>2010</year>
+          .
+          <volume>285</volume>
+          (
+          <issue>14</issue>
+          ): p.
+          <fpage>10959</fpage>
+          -
+          <lpage>68</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          90.
+          <string-name>
+            <surname>Ivanov</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Angiogenin-induced tRNA fragments inhibit translation initiation</article-title>
+          .
+          <source>Mol Cell</source>
+          ,
+          <year>2011</year>
+          . 43: p.
+          <fpage>613</fpage>
+          -
+          <lpage>23</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          91.
+          <string-name>
+            <surname>Christov</surname>
+            ,
+            <given-names>C.P.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Functional requirement of noncoding Y RNAs for human chromosomal DNA replication</article-title>
+          .
+          <source>Mol Cell Biol</source>
+          ,
+          <year>2006</year>
+          . 26: p.
+          <fpage>6993</fpage>
+          -
+          <lpage>7004</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          92.
+          <string-name>
+            <surname>Krude</surname>
+            ,
+            <given-names>T.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Y RNA functions at the initiation step of mammalian chromosomal DNA replication</article-title>
+          .
+          <source>J Cell Sci</source>
+          ,
+          <year>2009</year>
+          .
+          <volume>122</volume>
+          (Pt 16): p.
+          <fpage>2836</fpage>
+          -
+          <lpage>45</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          93.
+          <string-name>
+            <surname>Zhang</surname>
+            ,
+            <given-names>A.T.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Dynamic interaction of Y RNAs with chromatin and initiation proteins during human DNA replication</article-title>
+          .
+          <source>J Cell Sci</source>
+          ,
+          <year>2011</year>
+          . 124: p.
+          <fpage>2058</fpage>
+          -
+          <lpage>69</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          94.
+          <string-name>
+            <surname>Nicolas</surname>
+            ,
+            <given-names>F.E.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Biogenesis of Y RNA-derived small RNAs is independent of the microRNA pathway</article-title>
+          .
+          <source>FEBS Lett</source>
+          ,
+          <year>2012</year>
+          . 586: p.
+          <fpage>1226</fpage>
+          -
+          <lpage>30</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          95.
+          <string-name>
+            <surname>Cui</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Identification of microRNAs involved in the host response to enterovirus 71 infection by a deep sequencing approach</article-title>
+          .
+          <source>J Biomed Biotechnol</source>
+          ,
+          <year>2010</year>
+          .
+          <year>2010</year>
+          : p.
+          <fpage>425939</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          96.
+          <string-name>
+            <surname>Qi</surname>
+            ,
+            <given-names>Y.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>High-throughput sequencing of microRNAs in adenovirus type 3 infected human laryngeal epithelial cells</article-title>
+          .
+          <source>J Biomed Biotechnol</source>
+          ,
+          <year>2010</year>
+          .
+          <year>2010</year>
+          : p.
+          <fpage>915980</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          97.
+          <string-name>
+            <surname>Clancy</surname>
+            ,
+            <given-names>R.M.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Ro60-associated single-stranded RNA links inflammation with fetal cardiac fibrosis via ligation of TLRs: a novel pathway to autoimmune-associated heart block</article-title>
+          .
+          <source>J Immunol</source>
+          ,
+          <year>2010</year>
+          . 184: p.
+          <fpage>2148</fpage>
+          -
+          <lpage>55</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          98.
+          <string-name>
+            <surname>Meredith</surname>
+            ,
+            <given-names>B.K.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>A genome-wide association study for somatic cell score using the Illumina high-density bovine beadchip identifies several novel QTL potentially related to mastitis susceptibility</article-title>
+          .
+          <source>Front Genet</source>
+          ,
+          <year>2013</year>
+          .
+          <issue>4</issue>
+          : p.
+          <fpage>229</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          99.
+          <string-name>
+            <surname>Reed</surname>
+            ,
+            <given-names>J.H.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Ro60 requires y3 RNA for cell surface exposure and inflammation associated with cardiac manifestations of neonatal lupus</article-title>
+          .
+          <source>J Immunol</source>
+          ,
+          <year>2013</year>
+          . 191: p.
+          <fpage>110</fpage>
+          -
+          <lpage>6</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          100.
+          <string-name>
+            <surname>Meiri</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Discovery of microRNAs and other small RNAs in solid tumors</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          ,
+          <year>2010</year>
+          . 38: p.
+          <fpage>6234</fpage>
+          -
+          <lpage>46</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          101.
+          <string-name>
+            <surname>Schotte</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Identification of new microRNA genes and aberrant microRNA profiles in childhood acute lymphoblastic leukemia</article-title>
+          .
+          <source>Leukemia</source>
+          ,
+          <year>2009</year>
+          . 23: p.
+          <fpage>313</fpage>
+          -
+          <lpage>22</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          102.
+          <string-name>
+            <surname>Langmead</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Ultrafast and memory-efficient alignment of short DNA sequences to the human genome</article-title>
+          .
+          <source>Genome Biol</source>
+          ,
+          <year>2009</year>
+          . 10: p.
+          <fpage>R25</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          103.
+          <string-name>
+            <surname>Quinlan</surname>
+            ,
+            <given-names>A.R</given-names>
+          </string-name>
+          . and
+          <string-name>
+            <given-names>I.M.</given-names>
+            <surname>Hall</surname>
+          </string-name>
+          ,
+          <article-title>BEDTools: a flexible suite of utilities for comparing genomic features</article-title>
+          .
+          <source>Bioinformatics</source>
+          ,
+          <year>2010</year>
+          . 26: p.
+          <fpage>841</fpage>
+          -
+          <lpage>2</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          104.
+          <string-name>
+            <surname>Chan</surname>
+            , P.P. and
+            <given-names>T.M.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Lowe</surname>
+          </string-name>
+          ,
+          <article-title>GtRNAdb: a database of transfer RNA genes detected in genomic sequence</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          ,
+          <year>2009</year>
+          . 37: p.
+          <fpage>D93</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          105.
+          <string-name>
+            <surname>Kozomara</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Griffiths-Jones</surname>
+          </string-name>
+          ,
+          <article-title>miRBase: annotating high confidence microRNAs using deep sequencing data</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          ,
+          <year>2014</year>
+          . 42: p.
+          <fpage>D68</fpage>
+          -
+          <lpage>73</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          106.
+          <string-name>
+            <surname>Lewis</surname>
+            , B.P., C.B. Burge, and
+            <given-names>D.P.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Bartel</surname>
+          </string-name>
+          ,
+          <article-title>Conserved seed pairing, often flanked by adenosines, indicates that thousands of human genes are microRNA targets</article-title>
+          .
+          <source>Cell</source>
+          ,
+          <year>2005</year>
+          . 120: p.
+          <fpage>15</fpage>
+          -
+          <lpage>20</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          107.
+          <string-name>
+            <surname>Falcon</surname>
+          </string-name>
+          , R.G.a.S. microRNA:
+          <article-title>Data and functions for dealing with microRNAs</article-title>
+          . Available from: http://www. bioconductor.org/packages/release/bioc/html/microRNA. html.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          108.
+          <string-name>
+            <surname>Csardi</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          , targetscan.Hs.eg.db:
+          <article-title>TargetScan miRNA target predictions for human</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          109.
+          <string-name>
+            <surname>Huang da</surname>
+            , W.,
+            <given-names>B.T.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Sherman</surname>
+            , and
+            <given-names>R.A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Lempicki</surname>
+          </string-name>
+          ,
+          <article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>
+          .
+          <source>Nat Protoc</source>
+          ,
+          <year>2009</year>
+          .
+          <issue>4</issue>
+          : p.
+          <fpage>44</fpage>
+          -
+          <lpage>57</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          110.
+          <string-name>
+            <surname>Shannon</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          , et al.,
+          <article-title>Cytoscape: a software environment for integrated models of biomolecular interaction networks</article-title>
+          .
+          <source>Genome Res</source>
+          ,
+          <year>2003</year>
+          . 13: p.
+          <fpage>2498</fpage>
+          -
+          <lpage>504</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

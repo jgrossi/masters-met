@@ -1,0 +1,2359 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Anal Bioanal Chem</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Wide-scope analysis of veterinary drug and pesticide residues in animal feed by liquid chromatography coupled to quadrupole-time-of-flight mass spectrometry</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1007/s00216-013-7060-5</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>María M. Aguilera-Luiz</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Roberto Romero-González</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Patricia Plaza-Bolaños</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>José Luis Martínez Vidal</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Antonia Garrido Frenich</string-name>
+          <email>agarrido@ual.es</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>M. M. Aguilera-Luiz</institution>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>) Department of Chemistry and Physics (Analytical Chemistry Area), Research Centre for Agricultural and Food Biotechnology (BITAL), University of Almería, Agrifood Campus of International Excellence</institution>
+          ,
+          <addr-line>ceiA3, 04120 Almería</addr-line>
+          ,
+          <country country="ES">Spain</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>A fast and generic method has been developed for the simultaneous monitoring of &gt;250 pesticides and veterinary drugs (VDs) in animal feed. A 'dilute-and-shoot' extraction with water and acetonitrile (1 % formic acid) followed by a clean-up step with Florisil cartridges was applied. The extracts were analysed by ultra-high performance liquid chromatography coupled to hybrid analyser quadrupole-time-of-flight mass spectrometry using both positive and negative electrospray ionisation. The detection of the residues was accomplished by retention time and accurate mass using an in-house database. The identification of the detected compounds was carried out by searching of fragment ions for each compound and isotopic pattern. The optimised method was validated and recoveries ranged from 60 % to 120 % at three concentrations (10, 50 and 100 μg kg−1) for 30 %, 68 % and 80 % of compounds, respectively, included in the database (364) in chicken feed. Document SANCO 12495/2011 and Directive 2002/657/CE were used as guidelines for method validation. Intra-day and inter-day precisions, expressed as relative standard deviations, were lower than 20 % for more than 90 % of compounds. The limits of quantification ranged from 4 to 200 μg kg−1 for most analytes, which are sufficient to verify compliance of products with legal tolerances. The applicability of the procedure was further tested on different types of feed (chicken, hen, rabbit and horse feed), evaluating recoveries and repeatability. Finally, the method was applied to the analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one pesticide (chlorpyrifos).</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Animal feed</kwd>
+        <kwd>Pesticides</kwd>
+        <kwd>Veterinary drugs</kwd>
+        <kwd>UHPLC</kwd>
+        <kwd>QqTOF-MS</kwd>
+        <kwd>Dilute-and-shoot</kwd>
+      </kwd-group>
+      <volume>405</volume>
+      <fpage>6543</fpage>
+      <lpage>6553</lpage>
+      <pub-date>
+        <year>2013</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+        <date date-type="received">
+          <day>22</day>
+          <month>2</month>
+          <year>2013</year>
+        </date>
+        <date date-type="revised">
+          <day>2</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>The use of pesticides and veterinary drugs (VDs) in food
+industries is widespread, and they are utilised to fight
+against plagues [1] and treat diseases that could affect
+animals [2]. However, their fraudulent use can result in the
+presence of residues in the final animal products [3, 4],
+which involves several problems to public health such as
+the increased risk of allergies, the development of
+antibioticresistant bacteria and harmful effects on the human system
+(e.g. carcinogenic effects) [5, 6].</p>
+      <p>The study of pesticide and VD residues in animal feed is
+an important issue because they can reach the food chain.</p>
+      <p>On the one hand, animal feed is usually employed to
+administer drugs to animals [7] and, on the other hand, they
+can be prepared with several ingredients, which are not
+always free of pesticides [3]. Consequently, in order to
+ensure animal safety, the European Union (EU) has
+established regulations for the control of residues in feed,
+setting maximum residue limits (MRLs) for pesticides [8]
+and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003
+banned the use of all antibiotics other than coccidiostats
+and histomonostats as feed additives (used as growth
+promoters) since 1 January 2006. Furthermore, these
+products have been completely banned on December 2012 [11].</p>
+      <p>Thus, VDs should be strictly applied for the prevention or
+treatment of diseases. In this way, these regulated limits
+require the determination of an extremely high number of
+VD and pesticide residues in feed with the aim of ensuring
+their use in a rational and safe way.</p>
+      <p>Therefore, sensitive and reliable methodologies have
+been developed for the analysis of each group of residues
+separately. The determination of pesticides in feed has been
+based on Soxhlet [12–14], pressurised liquid extraction
+(PLE) [15], matrix solid-phase dispersion (MSPD) [16] or
+QuEChERS [17]. Some of these procedures have been
+followed by a clean-up step based on solid-phase extraction
+(SPE) [14, 18] or dispersive SPE (d-SPE) [17], and
+subsequent chromatographic analysis by gas chromatography
+(GC) coupled to electron capture detection (ECD) [12, 14],
+mass spectrometry (MS) [13, 15] or tandem mass
+spectrometry (MS/MS) [12, 14, 16–18]. For the determination of
+VDs, solvent extraction assisted by mechanical shaking
+[19–22], modified QuEChERS methodology [23] and PLE
+[24, 25] followed by SPE clean-up [19–21, 24, 25] or
+liquid–liquid extraction (LLE) [22] have been utilised, using
+liquid chromatography coupled to MS (LC–MS) [19] or
+MS/MS (LC–MS/MS) [20–25] methodologies.</p>
+      <p>Normally, most of these methods are focused on specific
+groups of residues, not being suitable for wide-scope
+multiresidue analysis able to cover different classes of residues
+and contaminants. However, the use of wide-scope methods
+inherently involves the need for generic extraction
+procedures, and this strategy shortens the possibilities for
+cleanup steps [26, 27], in order to minimise analyte losses.</p>
+      <p>Nevertheless, the lack of selectivity in sample preparation
+can be compensated by selectivity/sensitivity in
+instrumental analysis. Although in terms of sensitivity, the use of GC
+or LC coupled to triple quadrupole (QqQ) is usually
+preferred, and the number of compounds that can be acquired
+by these techniques in one run is limited [28, 29]. The use of
+high-resolution mass spectrometry (HRMS), such as
+timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF)
+or Orbitrap [29], is considered as a powerful alternative.</p>
+      <p>These full-scan technologies provide the selectivity and
+the sensitivity required for efficient and wide-range
+screening, as they combine high, full-spectral sensitivity with high
+mass resolution, allowing the measurement of accurate mass
+of any ionisable component in the sample. In this way, the
+combination of ultra-high performance liquid
+chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has
+demonstrated to be an excellent tool for the analysis of
+different classes of residues and contaminants in food and
+environmental samples [30–32]. However, the number of
+applications in feed matrices is quite limited [28, 33, 34],
+where a group of pesticides, VDs, mycotoxins and plant
+toxins are determined in horse feed [28, 33] and coccidiostats
+in animal feed [34].</p>
+      <p>Therefore, the aim of this work is the development of a
+reliable and sensitive methodology based on the use of
+advanced UHPLC–QqTOF–MS technique for the
+quantitative determination and reliable identification of more than
+250 pesticides and VDs in different types of feed matrices
+using generic methods.
+Reagents and apparatus
+VD and pesticide analytical standards were purchased from
+Riedel-de-Haën (Seelze, Germany), Dr. Ehrenstorfer GmbH
+(Ausburg, Germany), Sigma-Aldrich (Madrid, Spain), Fluka
+(Steinheim, Germany), Santa Cruz (Santa Cruz, CA, USA),
+European Pharmacopoeia (Strasbourg, France), Witega
+(Berlin, Germany) and LGC Standards (Barcelona, Spain).</p>
+      <p>Stock standard solutions of individual compounds (200–
+400 mg L−1) were prepared in methanol or acetonitrile
+(HPLC grade, Fluka), and they were stored at 5 °C or
+−18 °C (VDs). A solution for each family of VDs was
+prepared from corresponding individual stock standard
+solutions in methanol or acetonitrile and a multi-pesticide
+solution was prepared in methanol. Tetracycline and
+penicillin solutions were renewed monthly. Then, a
+multicompound working solution containing all the analytes
+(0.31 mg L−1) was prepared by combining suitable aliquots
+of each individual stock standard solution and diluting them
+with LC–MS-grade methanol, obtained from Fluka. This
+solution was kept at −18 °C.</p>
+      <p>Ultrapure water, obtained from a Milli-Q Gradient
+water system (Millipore, Bedford, MA, USA), was used for
+the preparation of all aqueous solutions. Formic acid
+(purity &gt;98 %) and ammonium formate (purity &gt;99 %)
+were obtained from Panreac (Barcelona, Spain). LC–MS
+water was purchased from Scharlau (Barcelona, Spain)
+and LC–MS acetonitrile was obtained from Fluka.</p>
+      <p>ExtraBond Florisil cartridges (500 mg) were provided by
+Scharlau (Barcelona, Spain). D-SPE sorbents for clean-up
+experiments included C18-bonded silica, which was
+purchased from Agilent technologies (Santa Clara, CA,
+USA), and Florisil from J.T. Backer (Deventer, Holland).</p>
+      <p>For accurate mass calibration of the QqTOF instrument, a
+sodium formate solution (prepared from a mixture of 100
+μL of 0.1 M sodium hydroxide solution, 200 μL of an
+aqueous solution of 10 % of formic acid and 20 mL of
+acetonitrile/water (80:20, v/v)) and a leucine–enkephalin
+solution at 500 pg μL−1 (prepared from 500 μL of
+1 mg mL−1 leucine–enkephalin solution in water with
+1,000 mL of acetonitrile/water 50:50, v/v and 0.1 % formic
+UHPLC–QqTOF–MS/MS analysis
+acid) were used as calibration and lock-mass solution,
+respectively. All reagents were purchased from
+SigmaAldrich.</p>
+      <p>Centrifugations were performed in a high-volume
+centrifuge Centronic II (JP Selecta, Barcelona, Spain). An analytical
+AB204-S balance (Mettler Toledo, Greinfesee, Switzerland)
+was also used. A Reax-2 rotary agitator from Heidolph
+(Schwabach, Germany) was used for sample extraction.</p>
+      <p>The analyses were carried out using an Acquity UPLC system
+using an Acquity UPLC BEH C18 column (2.1 mm×100 mm,
+1.7 μm particle size), both from Waters (Milford, MA, USA).</p>
+      <p>The mobile phase consisted of 0.1 % (v/v) formic acid and
+ammonium formate 4 mM in water (eluent A) and 0.1 % (v/v)
+formic acid and ammonium formate 4 mM in methanol (eluent
+B). The analysis started with 95 % of eluent A, which was kept
+constant during 1 min. Then, it was linearly decreased up to
+0 % in 7 min. This composition was held during 4 min before
+returning to the initial composition in 0.5 min, followed by a
+re-equilibration time of 1.5 min, giving a total running time of
+14 min. The flow rate was 0.3 mL min−1 and the column
+temperature was set at 30 °C. Aliquots of 5 μL of the sample
+extract were injected into the chromatographic system.</p>
+      <p>The UHPLC system was coupled to a QqTOF (Xevo™
+QtofMS, Waters) equipped with an electrospray interface
+(ESI) operating in positive (ESI+) and negative ionisation
+mode (ESI−) using the following parameters: cone voltage,
+30 V; capillary voltage, 3.5 kV for ESI (+) and 3.4 kV for
+ESI (−); desolvation temperature, 350 °C; source
+temperature, 120 °C; cone gas, 80 L h−1; and desolvation gas,
+600 L h−1. Mass spectra were acquired in positive-ion and
+negative-ion centroid mode. The microchannel plate (MCP)
+detector was set at 2,000 V. Resolution was at least 9,000
+FWHM at m/z of the lock mass (see below). Dynamic range
+enhancement (DRE) was switched on. Mass range in the full
+scan experiments was set at m/z 90–1,000 with a scan time
+of 0.050 s and interscan time of 0.025 s. In order to perform
+the fragmentation acquisition for identification purposes,
+MS/MS (MSE™) mode was used. This fragmentation mode
+consists in two simultaneous MS acquisition functions: (1)
+low energy function (LE) using a collision energy of 4 eV
+with poor or no fragmentation; and (2) high energy function
+(HE) using collision energy of 30 eV, promoting collision
+cell fragmentation. All the analyses were performed using a
+lock spray with internal lock mass of a solution of leucine–
+enkephalin (12C[M+H]+, m/z 556.2771 and 12C[M−H]−, m/z
+554.2620) delivered to the ESI source at 10 μL min−1. The
+instrument was verified or calibrated before the analysis by
+using the calibration solution.</p>
+      <p>Data acquisition was performed using MassLynx 4.1
+software with QuanLynx program (Waters).
+Different types of feed samples were purchased from several
+markets in Almería, Granada, Murcia (Spain) and local
+farms located in Almería. All samples were grinded and
+stored at room temperature in the dark. A chicken feed
+sample was used for optimisation and validation purposes,
+after checking that it was free of the selected compounds.</p>
+      <p>Pesticides and VDs were extracted from feed using an
+extraction method based on the procedure previously described by
+Gómez-Pérez et al. [35]. Briefly, 2.5 g of feed was weighed
+into a 50-mL propylene tube and 2.5 mL of water (LC–MS
+grade) was added. The mixture was shaken in a vortex. Then
+7.5 mL of acetonitrile (1 % formic acid, v/v) was added, and
+the sample was put into a rotary agitator and extracted by
+endover-end shaking for 1 h at 50 rpm. After that, the mixture was
+centrifuged for 10 min at 4,500 rpm (2,264×g), and 1 mL of
+the supernatant was passed through a Florisil cartridge. The
+final extract was transferred to a vial and injected into the
+chromatographic system.</p>
+      <p>Detection and identification of the analytes
+For detection and identification of analytes, an in-house
+database containing 364 compounds was performed. In order to
+develop it, a previous characterisation of the analytes was
+carried out by injection of a multi-compound standard
+solution containing all the analytes at 250 μg L−1 into the
+UHPLC–QqTOF–MS system under the conditions previously
+optimised. Compounds were acquired in both ESI (+) and ESI
+(−) mode. In this way, after injection in MS mode, the essential
+information obtained was the retention time (RT), ionisation
+mode (polarity), characteristic ions and possible adducts. In
+total, 364 compounds were included in the database to
+facilitate the analysis of pesticides and VDs in feed matrices.</p>
+      <p>Additional information related to each analyte can be found
+in the Electronic Supplementary Material (ESM, Table S1).</p>
+      <p>To identify the compounds, the same multi-compound
+standard solution was injected into the system employing
+the MSE™ mode for the detection of the main fragment ions
+in the HE acquisition function. Thus, one or more fragment
+ions were selected for each compound and included into the
+database. In addition to the monitored fragment ions, the
+identification of the compounds was also carried out by the
+use of the isotopic pattern.</p>
+      <p>Validation of the optimised methodology
+The proposed method was validated, estimating linearity
+range, trueness, intra-day and inter-day precision, and limits
+of quantification (LOQs). Document SANCO 12495/2011
+[36] and Directive 2002/657/CE [37] were used as
+guidelines for method validation.</p>
+      <p>Linearity was evaluated performing matrix-matched
+calibration, using blank feed extracts and adding the
+corresponding amount of working solution with the target
+compounds at five concentrations, 1, 2.5, 12.5, 50 and
+150 μg kg−1. Calibration curves were obtained by
+leastsquares linear regression analysis of the peak area versus
+concentration. To evaluate trueness, recovery studies were
+carried out at three concentrations (10, 50 and 100 μg kg−1)
+using spiked blank feed samples (n =5), and they were
+quantified using matrix-matched calibration. Intra-day and
+inter-day precision (evaluated in five consecutive days) was
+evaluated at the same concentrations (n = 5).</p>
+      <p>The instrument LOQs were estimated by analysing
+spiked extracted feed samples at low concentrations (from
+1 to 50 μg kg−1). They were calculated as the minimum
+concentration for which the accurate mass error was &lt;5 ppm
+for the characteristic ion of the selected compounds ([M+
+H]+, [M+Na]+, [M+NH4]+ or [M−H]−) and one fragment
+ion, as well as the experimental isotopic pattern matched
+with the theoretical isotopic pattern for these ions.</p>
+      <p>Results and discussion
+In this work, 129 VDs have been studied, including
+macrolides, quinolones, tetracyclines, sulphonamides,
+avermectines, nitroimidazoles, coccidiostats, penicillins, amphenicols,
+tranquilisers, corticoids, ionophores, non-steroidal
+antiinflammatory drugs, β-agonists and estrogens, gestagens
+and androgens. Furthermore, 235 pesticides including
+organophosphorus, organochlorines, carbamates, neocotinoids,
+triazines, triazoles and ureas were also selected.</p>
+      <p>Development of the UHPLC–QqTOF–MS analysis
+Firstly, general conditions for the ion source and ion
+transmission parameters were studied. To this aim, a
+solventbased standard at 250 μg L−1 was injected into the system,
+in positive and negative mode, and different parameters of
+the source and the analyser (scan time, inter-scan time and
+collision energy of the acquisition functions of LE and HE
+employed in the MSE mode) were optimised in order to
+improve absolute sensitivity of the characteristic ions,
+observing that the conditions indicated in the previous section
+provided suitable results.</p>
+      <p>Secondly, in relation to the chromatographic conditions,
+generic chromatographic conditions reported in a previous
+study [35] were used. The overall analysis time was 14 min,
+and the retention time ranged from 0.9 (cyromazine) to
+9.4 min (narasin and salinomycin).</p>
+      <p>In order to develop a database for the detection of the target
+compounds, the analytes were characterised and the essential
+information includes retention time (RT), ionisation mode
+(polarity), characteristic ions and possible adducts (i.e. with
+Na+ or NH4+). In this way, a solvent standard solution of the
+studied compounds at 250 μg L−1 was analysed. Because the
+QqTOF–MS instrument utilised in this study cannot acquire
+simultaneously in (+) and (−), two separate injections were
+needed for each polarity mode. The compounds were
+monitored employing narrow mass extraction windows (10 ppm)
+within their characteristic RT windows (RTWs). Exact mass
+values, characteristic ions, RTWs, ionisation mode and mass
+errors for the studied VDs and pesticides are shown in
+Table S1, Electronic Supplementary Material.</p>
+      <p>Regarding the identification of the detected compounds,
+it was necessary to select fragments for each compound,
+taking into account the identification requirements provided
+by the SANCO guidelines [36]. In the case of QqTOF
+working at high resolution and mass accuracy, the detection
+of two or more diagnostic ions (quasi-molecular ion and at
+least one fragment ion) with mass accuracy &lt;5 ppm is
+required. Besides, the comparison of the obtained and the
+theoretical isotopic patterns was carried out. For that
+purpose, a solvent-based standard at 250 μg L−1 was injected
+and MS/MS acquisitions were obtained. In this way, the
+peak shape of the extracted chromatogram for each fragment
+(in the HE acquisition function) was compared to that of the
+main ion (in the LE acquisition function) checking that both
+traces showed the same RT and elution profile. Moreover,
+accurate mass errors must be &lt;5 ppm, as well as the isotopic
+pattern of the fragment ion must be similar to the
+theoretically profile of the empirical formulae.</p>
+      <p>Optimisation of the extraction method
+The generic extraction method developed by Mol et al. [33]
+allowed the extraction of a wide set of pesticides, VDs and
+other contaminants in feed. A slight modification of this
+method has already been employed for the simultaneous
+determination of pesticides and VDs in other matrices such
+as honey in our laboratory [35], and it was selected as the
+starting point herein. Initially, the experiments were carried
+out employing blank chicken feed samples spiked at
+100 μg kg−1. As result of this first assay, 75 % of the
+compounds (275 compounds) showed acceptable recoveries
+(acceptable range 60–125 %). Tetracyclines and penicillins
+were not successfully extracted, and some quinolones and
+avermectins did not show adequate performance
+characteristics. This could be due to the high volume of acetonitrile
+employed, which is not efficient to extract polar analytes
+like tetracyclines and penicillins because of co-precipitation
+of some analytes with the proteins. However, the
+chromatograms obtained after UHPLC–QqTOF–MS analysis showed
+numerous background interference peaks for some
+compounds (Fig. 1a). This can be explained because of the
+complexity of this matrix, which contains cereals, sugars/fruits,
+fats, roots/tubers, leguminous/oleaginous plants, amino acids
+and/or minerals [7]. Therefore, the high complexity of the
+matrix makes the clean-up of the extracts almost mandatory
+to obtain reliable results, except in cases where the sensitivity
+of the method is high enough to offer the option of simply
+diluting the extracts. Hence, clean-up is an important step
+when extracts are analysed with TOF, which has showed
+lower sensitivity than other HRMS analyser, such as
+Orbitrap, in certain food applications [38]. Bearing in mind
+this and the results obtained in the first experiment, an
+additional clean-up stage was checked. In this way, three fast
+clean-up procedures were evaluated: (1) d-SPE with Florisil,
+(2) d-SPE with C18 and (3) SPE employing Florisil cartridges.</p>
+      <p>For d-SPE clean-ups, 1 mL of sample extract was taken to an
+Eppendorf tube containing 100 mg of Florisil or C18
+dispersive phase. The mixture was shaken in a vortex for 1 min and
+then it was centrifuged for 5 min at 4,500 rpm (2,264×g). The
+final extract was collected and was placed in a vial. To test
+SPE clean-up, 1 mL of the extract was loaded onto the Florisil
+cartridge. The final extract was collected and placed in a vial
+for injection. The obtained results are shown in Fig. 2, and it
+can be observed that they are similar regarding the number of
+extracted compounds, although slightly better recovery results
+were obtained when SPE-Florisil was used. Furthermore, the
+clean-up with Florisil cartridges provided ‘cleaner’
+chromatograms (Fig. 1b) with an apparent lower number of interference
+peaks and slightly better sensibility.</p>
+      <p>Therefore, the generic approach using a SPE clean-up
+step was chosen and tested at lower concentrations in the
+further validation: 10 μg kg−1 and 50 μg kg−1.
+Ion suppression or matrix enhancement is an important
+parameter that must be evaluated during method validation. To study
+matrix effect, two calibration sets (from 1 to 150 μg kg−1) were
+compared: solvent and matrix-matched standard calibration,
+using chicken feed. Matrix effect was calculated as described
+elsewhere [35]. It can be noticed that matrix effect was
+observed for 86 % of the compounds: 49 % of the analytes
+showed ion suppression and 37 % of the compounds matrix
+enhancement. On the other hand, only 14 % of the compounds
+showed a slight ion suppression (7 %) or ion enhancement
+(7 %). Consequently, matrix-matched standard calibration was
+used for quantification purposes.</p>
+      <p>Linearity was then evaluated in the range from 1 to
+150 μg kg−1. Good linearity was obtained when peak area
+Fig. 1 UHPLC–QqTOF–MS chromatograms of both quantification and detection transition of albendazole and meclofenamic acid obtained: a
+without clean-up; b clean-up by SPE using Florisil cartridges
+Fig. 2 Recovery results obtained for the extraction of spiked chicken
+feed samples (100 μg kg−1) without clean-up step and using different
+procedures of clean-up, d-SPE procedure employing Florisil, C18 and
+SPE procedure employing Florisil cartridges
+was used as the analytical response, and determination
+coefficients (R2) were higher than 0.9800.</p>
+      <p>Trueness was estimated through recovery studies at three
+concentrations (10, 50 and 100 μg kg−1). Figure S1 in the
+Electronic Supplementary Material shows the total ion
+chromatograms obtained for the four different feed samples
+(chicken, hen, rabbit and horse) spiked at 50 μg kg−1. Table 1 shows a
+summary of the obtained results, whereas full results can be
+found in Table S2, Electronic Supplementary Material. It can be
+observed that 30 % of compounds (111 compounds) showed
+adequate recovery (recovery ranging from 60 % to 125 %) at
+the lowest concentration checked (10 μg kg−1). As expected,
+the number of compounds showing acceptable recovery at
+50 μg kg−1 and 100 μg kg−1 was considerably higher: 68 %
+and 80 % (247 and 291 compounds), respectively. Intra-day
+and inter-day precision values (expressed as relative standard
+derivation, RSD, %) obtained for each concentration are shown
+in Table S2, Electronic Supplementary Material. It can be
+observed that intra- and inter-day precision values were always
+≤20 % for the majority of compounds (Table S2, Electronic
+Supplementary Material).</p>
+      <p>LOQs obtained for the studied compounds (Table S2,
+Electronic Supplementary Material) were lower than or equal
+to 10 μg kg−1 for 43 % of the compounds, equal to 50 μg kg−1
+for 37 % and equal to or higher than 200 μg kg−1 in sample for
+6 % of the target compounds (Table 1). Some compounds
+showed LOQs higher than the lowest level of concentration at
+which they can be recovered, as heptenophos or isoxicam
+(Table S2, Electronic Supplementary Material). It can be
+explained due to the quasi-molecular ion, which was used
+for quantification, could be perfectly detected at
+concentrations lower than the LOQ. However, the fragments were not
+detected at such low concentration because of the low
+sensitivity of the fragments. In these cases, the isotopic pattern was
+used for the reliable identification of the compounds at
+concentrations lower than LOQ.</p>
+      <p>Additionally, the feasibility of the method for the analysis
+of target compounds in different types of feed was checked.</p>
+      <p>Thus, three additional types of feed (hen, rabbit and horse
+feed) were submitted to validation. Firstly, we tested if
+chicken feed could be selected as representative matrix for
+these three types of feed. Matrix effect was evaluated and
+the same concentrations (from 1 to 150 μg kg−1) were
+analysed in each type of feed. Then, the slopes of the
+calibration curves were compared with the slope of the
+calibration curve obtained in chicken feed samples. A
+significant difference was observed among the tested feed
+matrices. In the case of hen feed, 21 % of the compounds
+showed significant differences with chicken feed, whereas
+in rabbit and horse feed, the number of compounds with
+significantly different slopes was higher, 69 % and 67 %,
+respectively. Therefore, it was not possible to select one type
+of feed as a representative matrix, which is probably due to
+the different composition of each type of feed (type of
+nutritional properties), requiring specific matrix-matched
+calibration standards. Moreover, trueness and repeatability
+were also evaluated following the same procedure employed
+Table 1 Summary of the validation results showing percentage of analytes with acceptable recoveries (60–125 %) and LOQs
+% Compounds with acceptable recovery
+% Compoundsa
+a Percentage results based on all target compounds initially included in the study (364 compounds)
+b The remaining percentage corresponds with the number of compounds not extracted
+in chicken feed, showing the obtained results in Table S3,
+Electronic Supplementary Material, and a summary in
+Table 1. It can be observed that for hen feed, the percentage
+of compounds with adequate recovery and repeatability
+values was 25 % (90 compounds) at 10 μg kg−1, 53 %
+(193 compounds) at 50 μg kg−1 and 61 % (221 compounds)
+at 100 μg kg−1. For rabbit feed, these percentages are 22 %
+(81 compounds) at 10 μg kg−1, 51 % (187 compounds) at
+50 μg kg−1 and 59 % (216 compounds) at 100 μg kg−1.</p>
+      <p>Finally for horse feed, the number of compounds with
+adequate figures of merit was 24 % (88 compounds) at
+10 μg kg−1, 57 % (209 compounds) at 50 μg kg−1 and
+64 % (234 compounds) at 100 μg kg−1. As expected, the
+number of compounds extracted in hen, rabbit and horse
+feed with acceptable recovery was considerably lower than
+in chicken feed due to the fact that these matrices have
+different composition (especially different fatty content)
+and they can be considered more complex.</p>
+      <p>Finally, LOQs obtained for each compound in the matrices
+evaluated are shown in Table S3, Electronic Supplementary
+Material. It can be observed that 69 % of compounds showed
+LOQs ≤50 μg kg−1 in hen feed, whereas in rabbit and horse
+feed, the number of compounds with LOQs ≤50 μg kg−1 was
+55 % and 61 %, respectively. Table 1 shows a summary of the
+results obtained for all the matrices. As aforementioned, some
+compounds showed LOQs higher than the lowest concentration
+at which they can be recovered. Again, these compounds
+showed problems to detect the fragment at LOQ concentration,
+although their quasi-molecular ion was perfectly detected.</p>
+      <p>Despite the higher levels of LOQ obtained for some
+compounds, many of them were lower than MRLs
+established by the legislation for some specific compounds,
+as it can be seen in Table 2.</p>
+      <p>In general, it can be observed that the obtained LOQs
+were relatively high. This can be explained bearing in mind
+the acquisition mode of the fragments based on the MSE
+procedure. Despite its aforementioned advantages, the
+success of the MSE approach can be limited by the quality of
+the spectrum [31]. The low sensitivity or strongly interfered
+spectra make difficult the identification of compounds using
+fragments at low concentrations.</p>
+      <p>As aforementioned, many analytical methods have been
+developed for the determination of compounds belonging to
+one family of pesticides or VDs in feed [7, 14, 23, 39, 40].</p>
+      <p>Nevertheless, the number of multi-class or wide-scope
+multiclass methods is scarce. In consequence, it is important to
+highlight the ability of the proposed method to analyse a high
+variety of pesticides and VDs in different feed samples.</p>
+      <p>If the proposed method is compared with the published
+multi-class methods developed for the determination of VDs
+[22, 24, 41] and pesticides [15, 17] in feed, it can be indicated
+that the combination of a generic extraction method with
+UHPLC–QqTOF–MS analysis is simpler and faster than
+Table 2 Comparison of MRL established for some VDs and pesticides
+in animal feed with LOQs obtained with the proposed method
+previous methods. Moreover, the presented methodology
+increased sample throughput because it only requires a rapid
+clean-up step through Florisil cartridges instead of d-SPE
+clean-up [17, 41], LLE followed by concentration step [22]
+or an extraction by SPE [24]. In relation to the number of
+validated compounds, the proposed method allowed the
+determination and quantification of an average of 200
+compounds in different feed improving the number of compounds
+of other works: 33 VDs [41], 10 prohibited medical additives
+(three analytes were analysed in qualitative mode) [22], 18
+antibacterials [24] and 33 [15] and 122 [17] pesticides.</p>
+      <p>Concerning the performance characteristics, the developed
+method allowed the extraction and quantification of a high
+number of VDs and pesticides at low levels (10 μg kg−1).</p>
+      <p>These results are better than those obtained in a previous
+multi-class method developed for the determination of 122
+pesticides [17], where some pesticides were validated at a
+higher concentration, 50 μg kg−1 (for example atrazine,
+carbaryl or metalaxyl). In another study, 100 μg kg−1 was the
+lowest level at which antibacterial compounds were
+determined [22]. In contrast to this, a multi-class method developed
+for the analysis of 33 VDs [41] showed good recoveries at low
+levels (&lt;10 μg kg−1).</p>
+      <p>Regarding LOQs, the obtained values in the proposed
+method (ranged from 4 to 200 μg kg−1 in sample) were
+lower than those obtained in two previous works [17, 22].</p>
+      <p>The first one determined pesticides in wheat grain (7–
+400 μg kg−1) [17] and the second one measured VDs in
+pig and poultry compound feed (100–169 μg kg−1) [22].</p>
+      <p>However, other works showed better LOQs, such as those
+obtained by Boscher et al. [41] (LOQs ranging from 3.8 to
+65 μg kg−1 in sample, piglet feed) and by Kantiani et al. [24]
+(instrumental LOQs from 0.57 to 2.92 μg kg−1). These low
+LOQ values can be explained due to the fact that both works
+employed QqQ as analyser, which showed better sensitivity
+than QqTOF using MSE. Moreover, these methods were
+developed for a limited number of compounds.</p>
+      <p>One of the main disadvantages of the proposed method is
+that it was not able to extract and quantify some families of
+compounds, such as tetracyclines, quinolones or penicillins,
+which were analysed in other works [24, 41] with good
+recoveries, and therefore, current work is focused on this.</p>
+      <p>If it is compared with the two wide-scope multi-class
+methods previously developed for analysis of VDs and
+pesticides in feed samples (horse feed and cereal-based product,
+respectively) [33, 42], some advantages can be mentioned.</p>
+      <p>Firstly, the generic extraction method was developed from
+Mol et al. [33], which is similar to the method proposed in this
+work, with a slight modification by the addition of a simple
+clean-up step. Secondly, the generic extraction method is faster
+than the method developed by van der Lee et al. [42], where the
+extraction time was 18 h and it required a clean-up procedure
+by gel permeation chromatography and SPE. Furthermore, the
+number of pesticides and VDs validated with our method was
+higher or similar than the number of compounds of both works,
+106 compounds [42] and 222 [33], respectively. Finally,
+regarding LOQs, both methods showed similar values compared
+with our method. In one of these works, the instrumental LOQs
+ranged from 1 to 46 μg kg−1 [42], and in the other one, LODs
+ranged from 10 to 50 μg kg−1 [33].</p>
+      <p>Analysis of real samples
+The optimised method was applied to 18 samples of feed,
+including rabbit (four), chicken (seven), hen (two), pig (one),
+lamb (one) and horse (one) feed. Moreover, one sample of
+Table 3 Concentration of VDs and pesticides in the analysed samples
+barley and one sample of maize (two components of animal
+feed) were also selected.</p>
+      <p>An internal quality control was carried out for every batch
+of samples to check if the system is under control, and it
+implies four matrix-matched calibrations (in chicken, hen,
+rabbit and horse), reagent blanks, full procedural blanks and
+fortified extracts at 150 μg kg−1. Instrument blanks were
+composed of methanol and were analysed at the beginning
+of the batch. Since analyte signals were not found in the
+instrumental blanks, no further actions were taken. Full
+procedural blanks were prepared by four different types of feed
+sample extracted and analysed after instrumental blanks. This
+experiment showed zero carry-over for all the analytes,
+ensuring that no cross-contamination was taking place.</p>
+      <p>As aforementioned, analyte detection and identification
+was based on the criteria showed in section ‘Detection and
+identification of the analytes’.</p>
+      <p>When the samples were analysed by the proposed method,
+seven samples contained traces of VDs and pesticides
+(Table 3). Some VDs (sulfadiazine, trimetoprim, robenidine
+and monensin sodium) and one pesticide (chlorpyrifos) were
+detected. Sulfadiazine and trimethoprim were detected in two
+chicken samples. One of them contained 1,114 μg kg−1 of
+sulfadiazine and 225 μg kg−1 of trimethoprim, and the other
+one contained 217 μg kg−1 of sulfadiazine and 72 μg kg−1 of
+trimethoprim. Sulfadiazine, which is an antibiotic that belongs
+to the group of sulphonamides, is a synthetic bacteriostatic
+compound that is commonly used to treat urinary tract
+infections. On the other hand, trimethoprim is a dihydropteroate
+synthetase inhibitor that is commonly used in combination
+with sulphonamides for broad-spectrum antimicrobial therapy.</p>
+      <p>In veterinary medicines, the combination of sulphonamides
+with trimethoprim is widely used for prevention and treatment
+of respiratory or gastro-intestinal tract infections in cattle,
+swine and poultry [43]. Robenidine was detected in a rabbit
+sample at 4,186 μg kg−1, being this level lower than the MRL
+a Type of feed is indicated herein: rabbit, M1 and M2; chicken, M5 and M11; pig, M15; lamb, M16; horse, M17
+b Figures in bold indicate that the concentration in sample exceeded MRL
+c MRL maximum residue level
+d N.E. not established
+Fig. 3 UHPLC–QqTOF–MS/
+MS extracted chromatograms of
+a positive sample of rabbit feed
+showing quantification and
+detection transition (upper) and
+confirmation (lower) transitions
+containing a monensin sodium
+at 315 μg kg−1 and b robenidine
+at 4,186 μg kg−1
+established in legislation (6,600 μg kg−1) [44]. Its presence in
+this sample can be explained due to this coccidiostat can be
+used in fattening and breeding rabbits in feedstuffs [45]. The
+coccidiostat monensin sodium was detected in five feed
+samples: rabbit (two), pig (one), lamb (one) and horse (one) feed
+(Table 3). This coccidiostat is used as additive in feed to protect
+animals against coccidiosis in animal husbandry, which can
+explain its occurrence. However, all concentrations (up to
+315 μg kg−1) were below the established MRLs for each
+matrix. Figure 3 shows the extracted ion chromatograms for
+sample 2 (rabbit feed sample) containing 4,186 μg kg−1 of
+robenidine and 315 μg kg−1 of monensin sodium.</p>
+      <p>An important result concerns that only one pesticide was
+found, chlorpyrifos, which was detected in four samples at
+concentrations higher than the MRL (Table 3) in all cases. Its
+occurrence can be explained as a consequence of its wide
+application in agriculture and, thus, in the cereals used to
+produce feed. Besides, this pesticide is defined by the United
+States Environmental Protection Agency (EPA) as ‘one of the
+most widely used organophosphate insecticides’ [46].
+As aforementioned, the development of wide-scope
+multiresidue methods able to cover the analysis of pesticide and
+VD residues in feed is a current need due to the gap that exists
+in this area of feed safety. Consequently, in this work, an
+UHPLC–QqTOF–MS method has been developed for
+simultaneous determination of a huge number of target
+pesticides and VD residues in feed. A generic sample procedure
+followed by a simple clean-up step by Florisil cartridges was
+selected as the most appropriate for the analysis of the wide
+range of compounds in feed in terms of recovery yields and
+matrix effect. The developed method allows the analysis of an
+average of 200 residues of different families of pesticides and
+VDs in various feed. The developed method was validated
+according to Directive 2002/657/CE and Document SANCO
+12495/2011; it showed good quantitative results for most of
+the studied compounds and the LOQs range from 4 to
+200 μg kg−1. Despite the variety of compounds that could
+be determined by the current method, further experiments are
+needed to include the analysis of tetracyclines, quinolones,
+avermectins and penicillins, which could not be determined
+with this method. Although the sensitivity attained by the
+proposed method was lower than some of published methods,
+it was enough to comply with MRLs established by EU.</p>
+      <p>Finally, the method was applied to different kinds of feed
+demonstrating its applicability as quantitative method in any
+type of feed. This method illustrated the feasibility of using
+QqTOF for detecting, identifying and quantifying pesticides
+and VDs residues in a multi-class method. In spite of the
+advantages showed by the proposed method, it shows some
+limitations due to some families of VDs, such as tetracyclines,
+quinolones and penicillins, which are not properly extracted.</p>
+      <p>Furthermore, the proposed method showed low sensitivity
+making the detection of some compounds and fragments at
+low concentrations unfeasible.
+Acknowledgements The authors gratefully acknowledge the Spanish
+Ministry of Economy and Competitiveness (MINECO) and FEDER for
+financial support (Project Ref. AGL2010-21370). M.M.A.L.
+acknowledges her grant (F.P.U.) (MINECO, Ref. AP2008-02811). R.R.G. is also
+grateful for personal funding through the Ramón y Cajal Program
+(MINECO-ESF). P.P.B. gratefully acknowledges personal funding
+through the Agrifood Campus of International Excellence, ceiA3
+(Spanish Ministry of Education, Culture and Sport).</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Wang</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chow</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cheung</surname>
+            <given-names>W</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Application of a tandem mass spectrometer and core-shell particle column for the determination of 151 pesticides in grains</article-title>
+          .
+          <source>J Agric Food Chem</source>
+          <volume>59</volume>
+          :
+          <fpage>8589</fpage>
+          -
+          <lpage>8608</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Stolker</surname>
+            <given-names>AAM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brinkman</surname>
+            <given-names>UAT</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Analytical strategies for residue analysis of veterinary drugs and growth-promoting agents in food-producing animals-a review</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1067</volume>
+          :
+          <fpage>15</fpage>
+          -
+          <lpage>53</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>MacLachlan</surname>
+            <given-names>DJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bhula</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Estimating the residue transfer of pesticides in animal feedstuffs to livestock tissues, milk and eggs: a review</article-title>
+          .
+          <source>Aust J Exp Agric</source>
+          <volume>48</volume>
+          :
+          <fpage>589</fpage>
+          -
+          <lpage>598</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <given-names>Garrido</given-names>
+            <surname>Frenich</surname>
+          </string-name>
+          <string-name>
+            <given-names>A</given-names>
+            ,
+            <surname>Plaza-Bolaños</surname>
+          </string-name>
+          <string-name>
+            <given-names>P</given-names>
+            ,
+            <surname>Aguilera-Luiz</surname>
+          </string-name>
+          <string-name>
+            <given-names>MM</given-names>
+            ,
+            <surname>Martínez Vidal</surname>
+          </string-name>
+          <string-name>
+            <surname>JL</surname>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>In: Quintin TJ (ed) Chromatography types, techniques and methods</article-title>
+          .
+          <publisher-loc>Nova, New York</publisher-loc>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Moreno-Bondi</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Marazuela</surname>
+            <given-names>MD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Herranz</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rodriguez</surname>
+            <given-names>E</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>An overview of sample preparation procedures for LCMS multiclass antibiotic determination in environmental and food samples</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>395</volume>
+          :
+          <fpage>921</fpage>
+          -
+          <lpage>946</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Ritter</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Goushleff</surname>
+            <given-names>NCI</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Arbuckle</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cole</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Raizenne</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Addressing the linkage between exposure to pesticides and human health effects-research trends and priorities for research</article-title>
+          .
+          <source>J Toxicol Environ Health B Crit Rev</source>
+          <volume>9</volume>
+          :
+          <fpage>441</fpage>
+          -
+          <lpage>456</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Borràs</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Companyó</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Granados</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Guiteras</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pérez-Vendrell</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brufau</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Medina</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bosch</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Analysis of antimicrobial agents in animal feed</article-title>
+          .
+          <source>Trends Anal Chem</source>
+          <volume>30</volume>
+          :
+          <fpage>1250</fpage>
+          -
+          <lpage>1268</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Regulation</surname>
+          </string-name>
+          (EC)
+          <article-title>No 299/2008 of the European Parliament and of the Council of 11 March 2008 amending Regulation (EC) No 396/ 2005 on maximum residue levels of pesticides in or on food and feed of plant and animal origin, as regards the implementing powers conferred on the Commission</article-title>
+          ,
+          <source>Official Journal of the European Union L</source>
+          <volume>97</volume>
+          /67; available at http://eur-lex.
+          <source>europa.eu/ LexUriServ/LexUriServ.do?uri= OJ:L:2008:097:0067:0071:en:PDF. Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <source>Commission Directive</source>
+          <year>2009</year>
+          /8/
+          <article-title>EC of 10 February 2009 amending Annex I to Directive 2002/32/EC of the European Parliament and of the Council as regards maximum levels of unavoidable carryover of coccidiostats or histomonostats in nontarget feed</article-title>
+          ,
+          <source>Official Journal of the European Union L</source>
+          <volume>40</volume>
+          /19; available at http://eurlex.europa.
+          <source>eu/LexUriServ/LexUriServ.do?uri= OJ:L:2009:040:0019:0025:EN:PDF. Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <source>Directive</source>
+          <year>2002</year>
+          /32/
+          <article-title>EC of the European Parliament and of the Council of 7 May 2002 on undesirable substances in animal feed</article-title>
+          ,
+          <source>L 140/10. (consolidated version:</source>
+          <year>2002</year>
+          L0032-
+          <fpage>ES</fpage>
+          -01.01.
+          <fpage>2012</fpage>
+          -
+          <lpage>014</lpage>
+          .
+          <issue>002-1</issue>
+          ); available at http://eur-lex.
+          <source>europa.eu/LexUriServ/LexUriServ.do?uri= OJ:L:2002:140:0010:0021:ES:PDF. Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Regulation</surname>
+          </string-name>
+          (EC)
+          <article-title>No 1831/2003 of the European Parliament and of the Council of 22 September 2003 on additives for use in animal nutrition</article-title>
+          ,
+          <source>Official Journal of the European Union L</source>
+          <volume>268</volume>
+          /29; available at http://irmm.jrc.
+          <source>ec.europa.eu/SiteCollectionDocuments/EC1831-2003</source>
+          .pdf.
+          <source>Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Aulakh</surname>
+            <given-names>RS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gill</surname>
+            <given-names>JPS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bedi</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sharma</surname>
+            <given-names>JK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Joia</surname>
+            <given-names>BS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ockerman</surname>
+            <given-names>HW</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Organochlorine pesticide residues in poultry feed, chicken muscle and eggs at a poultry farm in Punjab, India</article-title>
+          .
+          <source>J Sci Food Agric</source>
+          <volume>86</volume>
+          :
+          <fpage>741</fpage>
+          -
+          <lpage>744</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Guo</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yu</surname>
+            <given-names>HY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhang</surname>
+            <given-names>BZ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zeng</surname>
+            <given-names>EY</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Persistent halogenated hydrocarbons in fish feeds manufactured in South China</article-title>
+          .
+          <source>J Agric Food Chem</source>
+          <volume>57</volume>
+          :
+          <fpage>3674</fpage>
+          -
+          <lpage>3680</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Iglesias-García</surname>
+            <given-names>I</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barriada-Pereira</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>González-Castro</surname>
+            <given-names>MJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Muniategui-Lorenzo</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>López-Mahía</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Prada-Rodríguez</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Development of an analytical method based on microwave-assisted extraction and solid phase extraction cleanup for the determination of organochlorine pesticides in animal feed</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>391</volume>
+          :
+          <fpage>745</fpage>
+          -
+          <lpage>752</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Fernandez-Alvarez</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Llompart</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lamas</surname>
+            <given-names>JP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lores</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>GarcíaJares</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>García-Chao</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dagnac</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Simultaneous extraction and cleanup method based on pressurized solvent extraction for multiresidue analysis of pesticides in complex feed samples</article-title>
+          .
+          <source>J Agric Food Chem</source>
+          <volume>57</volume>
+          :
+          <fpage>3963</fpage>
+          -
+          <lpage>3973</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Carro</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lorenzo</surname>
+            <given-names>RA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fernández</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rodil</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cela</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Multi-residue screening of chlorinated and brominated compounds from aquaculture samples using matrix solid-phase dispersion-gas chromatography-mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1071</volume>
+          :
+          <fpage>93</fpage>
+          -
+          <lpage>98</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Walorczyk</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Development of a multi-residue screening method for the determination of pesticides in cereals and dry animal feed using gas chromatography-triple quadrupole tandem mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1165</volume>
+          :
+          <fpage>200</fpage>
+          -
+          <lpage>212</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Nácher-Mestre</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Serrano</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Portolés-Nicolau</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hernández</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Benedito-Palos</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pérez-Sánchez</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>A reliable analytical approach based on gas chromatography coupled to triple quadrupole and time-of-flight mass analyzers for the determination and confirmation of polycyclic aromatic hydrocarbons in complex matrices from aquaculture activities</article-title>
+          .
+          <source>Rapid Commun Mass Spectrom</source>
+          <volume>23</volume>
+          :
+          <fpage>2075</fpage>
+          -
+          <lpage>2086</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Van Poucke</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>De Keyser</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Baltusnikiene</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McEvoy</surname>
+            <given-names>JDG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Van Peteghem</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Liquid chromatographic-tandem mass spectrometric detection of banned antibacterial growth promoters in animal feed</article-title>
+          .
+          <source>Anal Chim Acta</source>
+          <volume>483</volume>
+          :
+          <fpage>99</fpage>
+          -
+          <lpage>109</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Vincent</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chedin</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yasar</surname>
+            <given-names>S</given-names>
+          </string-name>
+          , von
+          <string-name>
+            <surname>Holst</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Determination of ionophore coccidiostats in feeding stuffs by liquid chromatography-tandem mass spectrometry</article-title>
+          . Part I.
+          <article-title>Application to targeted feed</article-title>
+          .
+          <source>J Pharm Biomed Anal</source>
+          <volume>47</volume>
+          :
+          <fpage>750</fpage>
+          -
+          <lpage>757</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>van Holthoon</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mulder</surname>
+            <given-names>PPJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>van Bennekom</surname>
+            <given-names>EO</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Heskamp</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zuidema</surname>
+            <given-names>T</given-names>
+          </string-name>
+          , van
+          <string-name>
+            <surname>Rhijn</surname>
+            <given-names>HJA</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>396</volume>
+          :
+          <fpage>3027</fpage>
+          -
+          <lpage>3040</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Cronly</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Behan</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Foleya</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Malone</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Earley</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gallagher</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shearan</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Regan</surname>
+            <given-names>L</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Development and validation of a rapid multi-class method for the confirmation of fourteen prohibited medicinal additives in pig and poultry compound feed by liquid chromatography-tandem mass spectrometry</article-title>
+          .
+          <source>J Pharm Biomed Anal</source>
+          <volume>53</volume>
+          :
+          <fpage>929</fpage>
+          -
+          <lpage>938</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Cronly</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Behan</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Foley</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Malone</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shearan</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Regan</surname>
+            <given-names>L</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Determination of eleven coccidiostats in animal feed by liquid chromatography-tandem mass spectrometry at cross contamination levels</article-title>
+          .
+          <source>Anal Chim Acta</source>
+          <volume>700</volume>
+          :
+          <fpage>26</fpage>
+          -
+          <lpage>33</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Kantiani</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Farré</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Grases</surname>
+            <given-names>IFJM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barceló</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Development and validation of a pressurised liquid extraction liquid chromatography-electrospray-tandem mass spectrometry method for β- lactams and sulfonamides in animal feed</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1217</volume>
+          :
+          <fpage>4247</fpage>
+          -
+          <lpage>4254</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>Kantiani</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Farré</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Grases</surname>
+            <given-names>IFJM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barceló</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Determination of antibacterials in animal feed by pressurized liquid extraction followed by online purification and liquid chromatography-electrospray tandem mass spectrometry</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>398</volume>
+          :
+          <fpage>1195</fpage>
+          -
+          <lpage>1205</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Stolker</surname>
+            <given-names>AAM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rutgers</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Oosterink</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lasaroms</surname>
+            <given-names>JJP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Peters</surname>
+            <given-names>RJB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>van Rhijn</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nielen</surname>
+            <given-names>MWF</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Comprehensive screening and quantification of veterinary drugs in milk using UPLC-ToF-MS</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>391</volume>
+          :
+          <fpage>2309</fpage>
+          -
+          <lpage>2322</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Kinsella</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>O'Mahony</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Malone</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Moloney</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cantwell</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Furey</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Danahera</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Current trends in sample preparation for growth promoter and veterinary drug residue analysis</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1216</volume>
+          :
+          <fpage>7977</fpage>
+          -
+          <lpage>8015</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Kellmann</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Muenster</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zomer</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mol</surname>
+            <given-names>H</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Full scan MS in comprehensive qualitative and quantitative residue analysis in food and feed matrices: how much resolving power is required</article-title>
+          ?
+          <source>J Am Soc Mass Spectrom</source>
+          <volume>20</volume>
+          :
+          <fpage>1464</fpage>
+          -
+          <lpage>1476</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Kaufmann</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2012</year>
+          )
+          <article-title>The current role of high-resolution mass spectrometry in food analysis</article-title>
+          .
+          <source>Anal Bioanal Chem</source>
+          <volume>403</volume>
+          :
+          <fpage>1233</fpage>
+          -
+          <lpage>1249</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Ortelli</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cognard</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jan</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Edder</surname>
+            <given-names>P</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Comprehensive fast multiresidue screening of 150 veterinary drugs in milk by ultraperformance liquid chromatography coupled to time of flight mass spectrometry</article-title>
+          .
+          <source>J Chromatogr B</source>
+          <volume>877</volume>
+          :
+          <fpage>2363</fpage>
+          -
+          <lpage>2374</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Díaz</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ibáñez</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sancho</surname>
+            <given-names>JV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hernández</surname>
+            <given-names>F</given-names>
+          </string-name>
+          (
+          <year>2012</year>
+          )
+          <article-title>Target and nontarget screening strategies for organic contaminants, residues and illicit substances in food, environmental and human biological samples by UHPLC-QTOF-MS</article-title>
+          .
+          <source>Anal Methods</source>
+          <volume>4</volume>
+          :
+          <fpage>196</fpage>
+          -
+          <lpage>209</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Nurmi</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pellinen</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Multiresidue method for the analysis of emerging contaminants in wastewater by ultra performance liquid chromatography-time-of-flight mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1218</volume>
+          :
+          <fpage>6712</fpage>
+          -
+          <lpage>6719</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Mol</surname>
+            <given-names>HGJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Plaza-Bolaños</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zomer</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>de Rijk</surname>
+            <given-names>TC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stolker</surname>
+            <given-names>AAM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mulder</surname>
+            <given-names>PPJ</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Toward a generic extraction method for simultaneous determination of pesticides, mycotoxins, plant toxins, and veterinary drugs in feed and food matrixes</article-title>
+          .
+          <source>Anal Chem</source>
+          <volume>80</volume>
+          :
+          <fpage>9450</fpage>
+          -
+          <lpage>9459</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>van der Heeft</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bolck</surname>
+            <given-names>YJC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Beumer</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nijrolder</surname>
+            <given-names>AWJM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stolker</surname>
+            <given-names>AAM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nielen</surname>
+            <given-names>MWF</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Full-scan accurate mass selectivity of ultra-performance liquid chromatography combined with time-offlight and orbitrap mass spectrometry in hormone and veterinary drug residue analysis</article-title>
+          .
+          <source>J Am Soc Mass Spectrom</source>
+          <volume>20</volume>
+          :
+          <fpage>451</fpage>
+          -
+          <lpage>463</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Gómez-Pérez</surname>
+            <given-names>ML</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Plaza-Bolaños</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Romero-González</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Martínez-Vidal</surname>
+            <given-names>JL</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Garrido-Frenich</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2012</year>
+          )
+          <article-title>Comprehensive qualitative and quantitative determination of pesticides and veterinary drugs in honey using liquid chromatography-orbitrap high resolution mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1248</volume>
+          :
+          <fpage>130</fpage>
+          -
+          <lpage>138</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Document No</surname>
+            <given-names>SANCO</given-names>
+          </string-name>
+          /12495/2011.
+          <article-title>Method validation and quality control procedures for pesticide residues analysis in food and feed</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <article-title>Commission Decision of 12 August 2002 implementing Council Directive 96/23/EC concerning the performance of analytical methods and the interpretation of results</article-title>
+          ,
+          <source>Official Journal of the European Union L</source>
+          <volume>221</volume>
+          /8; available at http://eurl.craw.eu/img/page/ Legislation/657
+          <year>_2002</year>
+          _
+          <article-title>EN.pdf Accessed 25 Apr 2013</article-title>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Peters</surname>
+            <given-names>RJB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stolker</surname>
+            <given-names>AAM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mol</surname>
+            <given-names>JGJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lommen</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lyris</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Angelis</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vonaparti</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stamou</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Georgakopoulos</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nielen</surname>
+            <given-names>MWF</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Screening in veterinary drug analysis and sports doping control based on full-scan, accurate-mass spectrometry</article-title>
+          .
+          <source>Trends Anal Chem</source>
+          <volume>29</volume>
+          :
+          <fpage>1250</fpage>
+          -
+          <lpage>1268</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>van Holthoon</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mulder</surname>
+            <given-names>PPJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>van Bennekom</surname>
+            <given-names>EO</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Heskamp</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zuidema</surname>
+            <given-names>T</given-names>
+          </string-name>
+          , van
+          <string-name>
+            <surname>Rhijn</surname>
+            <given-names>HJA</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry</article-title>
+          .
+          <source>Anal Bional Chem</source>
+          <volume>396</volume>
+          :
+          <fpage>3027</fpage>
+          -
+          <lpage>3040</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Juan</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Igualada</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Moragues</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>León</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mañes</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Development and validation of a liquid chromatography tandem mass spectrometry method for the analysis of β-agonists in animal feed and drinking water</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1217</volume>
+          :
+          <fpage>6061</fpage>
+          -
+          <lpage>6068</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Boscher</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Guignard</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pellet</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hoffmann</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bohn</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Development of a multi-class method for the quantification of veterinary drug residues in feedingstuffs by liquid chromatography-tandem mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1217</volume>
+          :
+          <fpage>6394</fpage>
+          -
+          <lpage>6404</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>van der Lee</surname>
+            <given-names>MK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>van der Weg</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Traag</surname>
+            <given-names>WA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mol</surname>
+            <given-names>HGJ</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Qualitative screening and quantitative determination of pesticides and contaminants in animal feed using comprehensive twodimensional gas chromatography with time-of-flight mass spectrometry</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1186</volume>
+          :
+          <fpage>325</fpage>
+          -
+          <lpage>339</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>de Paula</surname>
+            <given-names>FCCR</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>de Pietro</surname>
+            <given-names>AC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cass</surname>
+            <given-names>QB</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Simultaneous quantification of sulfamethoxazole and trimethoprim in whole egg samples by column-switching high-performance liquid chromatography using restricted access media column for on-line sample clean-up</article-title>
+          .
+          <source>J Chromatogr A</source>
+          <volume>1189</volume>
+          :
+          <fpage>221</fpage>
+          -
+          <lpage>226</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <article-title>Commission implementing regulation (EU) 532/2011 of 31 May 2011 concerning the authorisation of robenidine hydrochloride as a feed additive for rabbits for breeding and rabbits for fattening (holder of authorisation Alpharma Belgium BVBA) and amending Regulations (EC) No 2430/1999</article-title>
+          and (
+          <source>EC) No</source>
+          <year>1800</year>
+          /
+          <year>2004</year>
+          ,
+          <source>Official Journal of the European Union L</source>
+          <volume>146</volume>
+          /7; available at http://eurlex.europa.
+          <source>eu/LexUriServ/LexUriServ.do?uri= OJ:L:2011:146:0007:0010:EN:PDF. Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Vancraeynest</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>De Gussem</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Marien</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maertens</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>The anticoccidial efficacy of robenidine hydrochloride in Eimeria challenged rabbits</article-title>
+          .
+          <source>Pathology and Hygiene</source>
+          <publisher-name>, 9th World Rabbit Congress-June</publisher-name>
+          10-13,
+          <fpage>2008</fpage>
+          -
+          <lpage>Verona</lpage>
+          -Italy,
+          <fpage>1103</fpage>
+          -
+          <lpage>1106</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <article-title>Interim Reregistration Eligibility Decision for Chlorpyrifos, United States Environmental Protection Agency</article-title>
+          , Prevention, Pesticides and Toxic substances,
+          <source>EPA 738-R-01-007</source>
+          ; available at http://www.epa.gov/oppsrrd1/REDs/chlorpyrifos_ired.pdf.
+          <source>Accessed 25 Apr 2013</source>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

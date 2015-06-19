@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Gene flow across linguistic boundaries in Native North American populations</title><authors><author><name>Keith Hunley</name><affiliation>University of Michigan Medical School, Department of Human Genetics</affiliation></author><author><name>Jeffrey C Long</name><affiliation>University of Michigan Medical School, Department of Human Genetics</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gene flow across linguistic boundaries in Native North American populations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Keith</forename>
+								<surname>Hunley</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Human Genetics</orgName>
+								<orgName type="institution">University of Michigan Medical School</orgName>
+								<address>
+									<postCode>48109-0618</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Jeffrey</forename>
+								<forename type="middle">C</forename>
+								<surname>Long</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Human Genetics</orgName>
+								<orgName type="institution">University of Michigan Medical School</orgName>
+								<address>
+									<postCode>4909, 48109-0618</postCode>
+									<settlement>Buhl Building, Ann Arbor</settlement>
+									<region>MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gene flow across linguistic boundaries in Native North American populations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<note type="submission">Communicated by Francisco Mauro Salzano, Federal University of Rio Grande do Sul, Porto Alegre, Brazil, December 21, 2004 (received for review September 30, 2004)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Cultural and linguistic groups are often expected to represent genetic populations. In this article, we tested the hypothesis that the hierarchical classification of languages proposed by J. Green-berg [(1987) Language in the Americas (Stanford Univ. Press, Stan-ford, CA)] also represents the genetic structure of Native North American populations. The genetic data are mtDNA sequences for 17 populations gleaned from literature sources and public databases. The hypothesis was rejected. Further analysis showed that departure of the genetic structure from the linguistic classification was pervasive and not due to an outlier population or a problematic language group. Therefore, Greenberg's language groups are at best an imperfect approximation to the genetic structure of these populations. Moreover, we show that the genetic structure among these Native North American populations departs significantly from the best-fitting hierarchical models. Analysis of median joining networks for mtDNA haplotypes provides strong evidence for gene flow across linguistic boundaries. In principle, the language of a population can be replaced more rapidly than its genes because language can be transmitted both vertically from parents to children and horizontally between unrelated people. However, languages are part of a cultural complex, and there may be strong pressure to maintain a language in place whereas genes are free to flow. language and genetics ͉ mtDNA</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>logical Research</author>
+</authors>
+<pages>3--16</pages>
+<location>Cambridge, U.K.),</location>
+<marker>Research, </marker>
+<rawString> logical Research, Cambridge, U.K.), pp. 3–16.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B A</author>
+<author>L Campbell</author>
+<author>I Goddard</author>
+</authors>
+<date>2004</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>75</volume>
+<pages>519--523</pages>
+<contexts>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="781" position="5278" startWordPosition="777">pulations that represent diverse language groups. There are three advantages to themtDNAdata. First, they have high power to resolve population affinities. Second, it is easy to identify and remove non-Native American mtDNA sequences. Third, by contrasting gene and population trees, it is possible to discern patterns of gene flow. We begin our analyses by formally testing the hypothesis that a classification of languages proposed by Greenberg (19) represents the structure of Native North American gene pools. Although the majority of linguists do not endorse Greenberg’s language classification (4, 10, 18, 20, 21), it is important to test this model because it remains one of the main tenets against which questions about Native American population genetics and physical anthropology are formulated (3). To preempt our results, this hypothesis is rejected. Because of this finding, we proceed to ask two questions. First, is the genetic structure of these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native Nor</context>
+<context citStr="(4)" endWordPosition="3448" position="22664" startWordPosition="3448">ttleneck andor expansion events in the postcontact era would have changed relative branch lengths but would not have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that t</context>
+<context citStr="(4, 10)" endWordPosition="3679" position="24180" startWordPosition="3678">GLC. In fact, the NJ tree conflicts with generally accepted language groups presented by Campbell (10). Aleuts do not cluster with Eskimos. Neither the Yupik nor Inuit populations form distinct clusters within Eskimo. The two Algonquin-speaking populations do not form a cluster. The Navajo and Apache are separated in the NJ tree by the nonAthabascan-speaking Bella Coola. It is possible that a stronger relationship between language groups and gene pools would be found by directly assessing language areas that arise from diffusion of linguistic traits across phylogenetic boundaries of languages (4, 10). The poor correspondence between the genetic data and language groups reflects the current population structure. Genetic and linguistic variation may have shared the same hierarchical relationships in the past. In fact, there are several features in the data that can be interpreted as remnants of such relationships. These features include the Eskimo-Aleut-specific transition polymorphism (29) and the two Athabascan-specific transition polymorphisms (14). Interestingly, these results are consistent with a linguistic model proposed by Nettle (9) that predicts that high diversity of language sto</context>
+</contexts>
+<marker>4.</marker>
+<rawString>Bolnick (Weiss), D. A., Shook (Shultz), B. A., Campbell, L. &amp; Goddard, I. (2004) Am. J. Hum. Genet. 75, 519–523.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J N Spuhler</author>
+</authors>
+<title>in The First Americans: Origins,Affinities,</title>
+<date>1979</date>
+<editor>and Adaptations, ed. Harper, A. B. (Bustav–Fischer,</editor>
+<location>New York).</location>
+<contexts>
+<context citStr="(5, 6)" endWordPosition="325" position="2189" startWordPosition="324"> from parents to children and horizontally between unrelated people. However, languages are part of a cultural complex, and there may be strong pressure to maintain a language in place whereas genes are free to flow. language and genetics  mtDNA Geneticists and anthropologists often expect that humanlanguage groups and gene pools will share a common structure (1–4). It is noted that both language and genes are passed from parents to children, mating tends to be endogamous with respect to linguistic groups, and splits in linguistic communities usually occur with splits in breeding populations (5, 6). Cavalli-Sforza et al. (7) have reported that genetic trees of major geographic populations correlate well with language families. They argue that a process consisting of population fissions, expansion into new territories, and isolation between ancestral and descendant groups will produced a tree-like structure common to both genes and languages. Linguists agree that population fissions and range expansions play an important role in the generation of linguistic diversity (8–10). The correlation between patterns of linguistic and genetic variation has been studied by many researchers in diffe</context>
+<context citStr="(5, 6)" endWordPosition="610" position="4095" startWordPosition="609">zation of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between genetics and language in Native North American populations. Comparable mtDNA sequences are now available for many populations that represent diverse lan</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Spuhler, J. N. (1979) in The First Americans: Origins,Affinities, and Adaptations, ed. Harper, A. B. (Bustav–Fischer, New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J N Spuhler</author>
+</authors>
+<title>in The Assessment of Population Affinities</title>
+<date>1972</date>
+<editor>in Man, ed. Huizinga, J. (Clarendon</editor>
+<publisher>Press,</publisher>
+<location>Oxford).</location>
+<contexts>
+<context citStr="(5, 6)" endWordPosition="325" position="2189" startWordPosition="324"> from parents to children and horizontally between unrelated people. However, languages are part of a cultural complex, and there may be strong pressure to maintain a language in place whereas genes are free to flow. language and genetics  mtDNA Geneticists and anthropologists often expect that humanlanguage groups and gene pools will share a common structure (1–4). It is noted that both language and genes are passed from parents to children, mating tends to be endogamous with respect to linguistic groups, and splits in linguistic communities usually occur with splits in breeding populations (5, 6). Cavalli-Sforza et al. (7) have reported that genetic trees of major geographic populations correlate well with language families. They argue that a process consisting of population fissions, expansion into new territories, and isolation between ancestral and descendant groups will produced a tree-like structure common to both genes and languages. Linguists agree that population fissions and range expansions play an important role in the generation of linguistic diversity (8–10). The correlation between patterns of linguistic and genetic variation has been studied by many researchers in diffe</context>
+<context citStr="(5, 6)" endWordPosition="610" position="4095" startWordPosition="609">zation of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between genetics and language in Native North American populations. Comparable mtDNA sequences are now available for many populations that represent diverse lan</context>
+</contexts>
+<marker>6.</marker>
+<rawString>Spuhler, J. N. (1972) in The Assessment of Population Affinities in Man, ed. Huizinga, J. (Clarendon Press, Oxford).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L L Cavalli-Sforza</author>
+<author>A Piazza</author>
+<author>P Menozzi</author>
+<author>J Mountain</author>
+</authors>
+<date>1988</date>
+<journal>Proc. Natl. Acad. Sci. USA</journal>
+<volume>85</volume>
+<pages>6002--6006</pages>
+<contexts>
+<context citStr="(7)" endWordPosition="329" position="2216" startWordPosition="329">horizontally between unrelated people. However, languages are part of a cultural complex, and there may be strong pressure to maintain a language in place whereas genes are free to flow. language and genetics  mtDNA Geneticists and anthropologists often expect that humanlanguage groups and gene pools will share a common structure (1–4). It is noted that both language and genes are passed from parents to children, mating tends to be endogamous with respect to linguistic groups, and splits in linguistic communities usually occur with splits in breeding populations (5, 6). Cavalli-Sforza et al. (7) have reported that genetic trees of major geographic populations correlate well with language families. They argue that a process consisting of population fissions, expansion into new territories, and isolation between ancestral and descendant groups will produced a tree-like structure common to both genes and languages. Linguists agree that population fissions and range expansions play an important role in the generation of linguistic diversity (8–10). The correlation between patterns of linguistic and genetic variation has been studied by many researchers in different world regions with mix</context>
+<context citStr="(1, 2, 7)" endWordPosition="4405" position="29060" startWordPosition="4403">r North share A-group lineages with interior dwelling Alaskan Athabascans. If language replacements predominated over gene replacements, we would expect good treeness for the genetic data but poor agreement between genetic and linguistic trees. In opposition to this expectation, even the best trees for the genetic data display a significant lack of treeness. 1316  www.pnas.orgcgidoi10.1073pnas.0409301102 Hunley and Long Many researchers have noted that either the language or the genes in a population can be replaced, and examples of both gene and language replacement have been identified (1, 2, 7). There has been a tendency to expect that language replacements will be more common (3, 41). In principle, language replacement can occur more rapidly than gene replacement because language can be transmitted both vertically from parents to children and horizontally between unrelated people, creating bilingual and multilingual individuals, whereas genes can be transmitted only vertically (1, 42). However, we found that the constraints imposed by mechanisms of transmission may be relatively weak as compared with other factors that will influence whether genes, languages, or both will be replac</context>
+</contexts>
+<marker>7.</marker>
+<rawString>Cavalli-Sforza, L. L., Piazza, A., Menozzi, P. &amp; Mountain, J. (1988) Proc. Natl. Acad. Sci. USA 85, 6002–6006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R M W Dixon</author>
+</authors>
+<title>The Rise and Fall of Languages (Cambridge</title>
+<date>1997</date>
+<publisher>Univ. Press,</publisher>
+<location>Cambridge, U.K.).</location>
+<marker>8.</marker>
+<rawString>Dixon, R.M.W. (1997) The Rise and Fall of Languages (Cambridge Univ. Press, Cambridge, U.K.).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Nettle</author>
+</authors>
+<date>1999</date>
+<booktitle>Proc. Natl. Acad. Sci. USA 96,</booktitle>
+<pages>3325--3329</pages>
+<contexts>
+<context citStr="(9, 10, 18, 19)" endWordPosition="590" position="3946" startWordPosition="587">ondence between gene pools and language groups in Native North American populations is particularly interesting for several reasons. First, the initial colonization of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between gen</context>
+<context citStr="(9)" endWordPosition="3757" position="24730" startWordPosition="3757">s across phylogenetic boundaries of languages (4, 10). The poor correspondence between the genetic data and language groups reflects the current population structure. Genetic and linguistic variation may have shared the same hierarchical relationships in the past. In fact, there are several features in the data that can be interpreted as remnants of such relationships. These features include the Eskimo-Aleut-specific transition polymorphism (29) and the two Athabascan-specific transition polymorphisms (14). Interestingly, these results are consistent with a linguistic model proposed by Nettle (9) that predicts that high diversity of language stocks is a transitory phase in linguistic evolution. According to Nettle’s model, the entry of humans into a new region such as the Americas affords significant opportunity for the birth of new languages. Upon entry, population growth will be rapid and groups will fission and spread at high rate until the region is filled. New linguistic lineages will be founded, with population splits creating a tree-like structure. However, the rate of population fission will decline as open niches fill. Eventually, population dynamics will be governed by compe</context>
+</contexts>
+<marker>9.</marker>
+<rawString>Nettle, D. (1999) Proc. Natl. Acad. Sci. USA 96, 3325–3329.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Campbell</author>
+</authors>
+<title>American Indian Languages: The Historical Linguistics of Native America</title>
+<date>1997</date>
+<publisher>Univ. Press,</publisher>
+<location>Oxford</location>
+<contexts>
+<context citStr="(9, 10, 18, 19)" endWordPosition="590" position="3946" startWordPosition="587">ondence between gene pools and language groups in Native North American populations is particularly interesting for several reasons. First, the initial colonization of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between gen</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="781" position="5278" startWordPosition="777">pulations that represent diverse language groups. There are three advantages to themtDNAdata. First, they have high power to resolve population affinities. Second, it is easy to identify and remove non-Native American mtDNA sequences. Third, by contrasting gene and population trees, it is possible to discern patterns of gene flow. We begin our analyses by formally testing the hypothesis that a classification of languages proposed by Greenberg (19) represents the structure of Native North American gene pools. Although the majority of linguists do not endorse Greenberg’s language classification (4, 10, 18, 20, 21), it is important to test this model because it remains one of the main tenets against which questions about Native American population genetics and physical anthropology are formulated (3). To preempt our results, this hypothesis is rejected. Because of this finding, we proceed to ask two questions. First, is the genetic structure of these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native Nor</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="3462" position="22731" startWordPosition="3458"> era would have changed relative branch lengths but would not have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among it</context>
+<context citStr="(4, 10)" endWordPosition="3679" position="24180" startWordPosition="3678">GLC. In fact, the NJ tree conflicts with generally accepted language groups presented by Campbell (10). Aleuts do not cluster with Eskimos. Neither the Yupik nor Inuit populations form distinct clusters within Eskimo. The two Algonquin-speaking populations do not form a cluster. The Navajo and Apache are separated in the NJ tree by the nonAthabascan-speaking Bella Coola. It is possible that a stronger relationship between language groups and gene pools would be found by directly assessing language areas that arise from diffusion of linguistic traits across phylogenetic boundaries of languages (4, 10). The poor correspondence between the genetic data and language groups reflects the current population structure. Genetic and linguistic variation may have shared the same hierarchical relationships in the past. In fact, there are several features in the data that can be interpreted as remnants of such relationships. These features include the Eskimo-Aleut-specific transition polymorphism (29) and the two Athabascan-specific transition polymorphisms (14). Interestingly, these results are consistent with a linguistic model proposed by Nettle (9) that predicts that high diversity of language sto</context>
+</contexts>
+<marker>10.</marker>
+<rawString>Campbell, L. (1997) American Indian Languages: The Historical Linguistics of Native America (Oxford Univ. Press, New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N J Fagundes</author>
+<author>S L Bonatto</author>
+<author>S M Callegari-Jacques</author>
+<author>F M Salzano</author>
+</authors>
+<date>2002</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>117</volume>
+<pages>68--78</pages>
+<marker>11.</marker>
+<rawString>Fagundes, N. J., Bonatto, S. L., Callegari-Jacques, S. M. &amp; Salzano, F. M. (2002) Am. J. Phys. Anthropol. 117, 68–78.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D A Merriwether</author>
+<author>J S Friedlaender</author>
+<author>J Mediavilla</author>
+<author>C Mgone</author>
+<author>F Gentz</author>
+<author>R E Ferrell</author>
+</authors>
+<date>1999</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>110</volume>
+<pages>243--270</pages>
+<marker>12.</marker>
+<rawString>Merriwether, D. A., Friedlaender, J. S., Mediavilla, J., Mgone, C., Gentz, F. &amp; Ferrell, R. E. (1999) Am. J. Phys. Anthropol. 110, 243–270.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Piazza</author>
+<author>S Rendine</author>
+<author>E Minch</author>
+<author>P Menozzi</author>
+<author>J Mountain</author>
+<author>L L Cavalli-Sforza</author>
+</authors>
+<title>in</title>
+<date>1995</date>
+<booktitle>Proc. Natl. Acad. Sci. USA 92,</booktitle>
+<pages>5836--5840</pages>
+<marker>13.</marker>
+<rawString>Piazza, A., Rendine, S., Minch, E., Menozzi, P., Mountain, J. &amp; Cavalli-Sforza, L. L. (1995) in Proc. Natl. Acad. Sci. USA 92, 5836–5840.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Torroni</author>
+<author>T G Schurr</author>
+<author>M F Cabell</author>
+<author>M D Brown</author>
+<author>J V Neel</author>
+<author>M Larsen</author>
+<author>D G Smith</author>
+<author>C M Vullo</author>
+<author>D C Wallace</author>
+</authors>
+<date>1993</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>53</volume>
+<pages>563--590</pages>
+<contexts>
+<context citStr="(14)" endWordPosition="1874" position="12652" startWordPosition="1874">an and Haida populations, who reside in the North, have low nucleotide diversities, in the range of nucleotide diversities in the Eskimo-Aleut-speaking populations. The Navajo and Apache, who reside in the Southwest, have high nucleotide diversities, in the range of nucleotide diversities in populations classified as Amerind speaking. The A to G transition at nucleotide position (np) 16265 described by Starikovskaya et al. (29) appeared in all of the Eskimo samples, and none of the non-Eskimo samples (including Aleut). The A toG transitions at nps 16233 and 16331, identified by Torroni et al. (14), were observed in, and only in, the three Athabascan samples. Several sites were polymorphic only in populations classified as Amerind-speaking, but none occurred in all populations attributed to Amerind. Statistical Analyses. Fig. 1 displays the GLC as a tree. Fig. 2A shows the result of fitting this tree to the genetic data. Fig. 2A looks different from Fig. 1 because the branch lengths vary, and because the estimated length for many branches is zero. Notably, length zero was estimated for the branches leading to two of the three principal language families, Eskimo-Aleut and Na-Dene. The li</context>
+<context citStr="(14)" endWordPosition="3744" position="24638" startWordPosition="3744">d be found by directly assessing language areas that arise from diffusion of linguistic traits across phylogenetic boundaries of languages (4, 10). The poor correspondence between the genetic data and language groups reflects the current population structure. Genetic and linguistic variation may have shared the same hierarchical relationships in the past. In fact, there are several features in the data that can be interpreted as remnants of such relationships. These features include the Eskimo-Aleut-specific transition polymorphism (29) and the two Athabascan-specific transition polymorphisms (14). Interestingly, these results are consistent with a linguistic model proposed by Nettle (9) that predicts that high diversity of language stocks is a transitory phase in linguistic evolution. According to Nettle’s model, the entry of humans into a new region such as the Americas affords significant opportunity for the birth of new languages. Upon entry, population growth will be rapid and groups will fission and spread at high rate until the region is filled. New linguistic lineages will be founded, with population splits creating a tree-like structure. However, the rate of population fission</context>
+</contexts>
+<marker>14.</marker>
+<rawString>Torroni, A., Schurr, T. G., Cabell, M. F., Brown, M. D., Neel, J. V., Larsen, M., Smith, D. G., Vullo, C. M. &amp; Wallace, D. C. (1993) Am. J. Hum. Genet. 53, 563–590.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S L Bonatto</author>
+<author>F M Salzano</author>
+</authors>
+<date>1997</date>
+<booktitle>Proc. Natl. Acad. Sci. USA 94,</booktitle>
+<pages>1866--1871</pages>
+<marker>15.</marker>
+<rawString>Bonatto, S. L. &amp; Salzano, F. M. (1997) Proc. Natl. Acad. Sci. USA 94, 1866–1871.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Watson</author>
+<author>K Bauer</author>
+<author>R Aman</author>
+<author>G Weiss</author>
+<author>A von Haeseler</author>
+<author>S Paabo</author>
+</authors>
+<date>1996</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>59</volume>
+<pages>437--444</pages>
+<marker>16.</marker>
+<rawString>Watson, E., Bauer, K., Aman, R., Weiss, G., von Haeseler, A. &amp; Paabo, S. (1996) Am. J. Hum. Genet. 59, 437–444.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R H Ward</author>
+<author>A Redd</author>
+<author>D Valencia</author>
+<author>B Frazier</author>
+<author>S Paabo</author>
+</authors>
+<date>1993</date>
+<booktitle>Proc. Natl. Acad. Sci. USA 90,</booktitle>
+<pages>10663--10667</pages>
+<marker>17.</marker>
+<rawString>Ward, R. H., Redd, A., Valencia, D., Frazier, B. &amp; Paabo, S. (1993) Proc. Natl. Acad. Sci. USA 90, 10663–10667.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Nichols</author>
+</authors>
+<date>1990</date>
+<journal>Language</journal>
+<volume>66</volume>
+<pages>475--521</pages>
+<contexts>
+<context citStr="(9, 10, 18, 19)" endWordPosition="590" position="3946" startWordPosition="587">ondence between gene pools and language groups in Native North American populations is particularly interesting for several reasons. First, the initial colonization of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between gen</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="781" position="5278" startWordPosition="777">pulations that represent diverse language groups. There are three advantages to themtDNAdata. First, they have high power to resolve population affinities. Second, it is easy to identify and remove non-Native American mtDNA sequences. Third, by contrasting gene and population trees, it is possible to discern patterns of gene flow. We begin our analyses by formally testing the hypothesis that a classification of languages proposed by Greenberg (19) represents the structure of Native North American gene pools. Although the majority of linguists do not endorse Greenberg’s language classification (4, 10, 18, 20, 21), it is important to test this model because it remains one of the main tenets against which questions about Native American population genetics and physical anthropology are formulated (3). To preempt our results, this hypothesis is rejected. Because of this finding, we proceed to ask two questions. First, is the genetic structure of these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native Nor</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="3462" position="22731" startWordPosition="3458"> era would have changed relative branch lengths but would not have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among it</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Nichols, J. (1990) Language 66, 475–521.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Greenberg</author>
+</authors>
+<title>Language in the Americas (Stanford Univ.</title>
+<date>1987</date>
+<publisher>Press,</publisher>
+<location>Stanford, CA).</location>
+<contexts>
+<context citStr="(9, 10, 18, 19)" endWordPosition="590" position="3946" startWordPosition="587">ondence between gene pools and language groups in Native North American populations is particularly interesting for several reasons. First, the initial colonization of the Americas involved a population radiation from an effectively small number of founders into an uninhabited region. Second, it occurred long enough ago to permit the accumulation of both linguistic and genetic differences, but not so long ago that the early history would necessarily have been erased by subsequent events. Third, there was a rich diversity of indigenous languages in North America at the time of European contact (9, 10, 18, 19). Early investigations of the correspondence between genetic groups and linguistic groups in Native North Americans produced equivocal results (5, 6). On the one hand, average genetic distances between populations in different language families were greater than average genetic distances between populations within language families. On the other hand, genetic distances were not significantly correlated with glottochronological distances. However, the methods and data available 30 years ago had limited power to resolve the question. This article revisits the question of relationship between gen</context>
+<context citStr="(19)" endWordPosition="3147" position="20731" startWordPosition="3147">sification is fitted to the genetic data. And finally, the resulting tree is tested for treeness by using themethod developed by Cavalli-Sforza and Piazza (25). The null hypothesis is that the pattern of relationships among languages is the same as the pattern of relationships among gene pools. We applied this approach to linguistic and Fig. 4. Median joining networks for mtDNA haplogroups A (A), B (B), C (C), and D (D). Hunley and Long PNAS  February 1, 2005  vol. 102  no. 5  1315 A N TH RO PO LO G Y genetic data for Native North Americans by fitting Greenberg’s linguistic classification (19) to mitochondrial D-loop nucleotide sequence variations. The hypothesis of treeness was rejected. Therefore, a significant difference exists between Greenberg’s linguistic classification and the genetic structures of these populations. Trees produced by the NJ and Fitch algorithms fit the genetic data better than did the Greenberg tree, but the treeness hypothesis was rejected even for these trees. Thus, we conclude that the genetic relationships among populations are not treelike. The lack of treeness in the genetic data makes it unlikely that any hierarchical language classification will pro</context>
+</contexts>
+<marker>19.</marker>
+<rawString>Greenberg, J. (1987) Language in the Americas (Stanford Univ. Press, Stanford, CA).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Mithun</author>
+</authors>
+<date>1990</date>
+<journal>Annu. Rev. Anthropol.</journal>
+<volume>19</volume>
+<pages>309--330</pages>
+<contexts>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="781" position="5278" startWordPosition="777">pulations that represent diverse language groups. There are three advantages to themtDNAdata. First, they have high power to resolve population affinities. Second, it is easy to identify and remove non-Native American mtDNA sequences. Third, by contrasting gene and population trees, it is possible to discern patterns of gene flow. We begin our analyses by formally testing the hypothesis that a classification of languages proposed by Greenberg (19) represents the structure of Native North American gene pools. Although the majority of linguists do not endorse Greenberg’s language classification (4, 10, 18, 20, 21), it is important to test this model because it remains one of the main tenets against which questions about Native American population genetics and physical anthropology are formulated (3). To preempt our results, this hypothesis is rejected. Because of this finding, we proceed to ask two questions. First, is the genetic structure of these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native Nor</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="3462" position="22731" startWordPosition="3458"> era would have changed relative branch lengths but would not have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among it</context>
+</contexts>
+<marker>20.</marker>
+<rawString>Mithun, M. (1990) Annu. Rev. Anthropol. 19, 309–330.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Ringe</author>
+</authors>
+<date>2000</date>
+<booktitle>in America Past, America Present: Genes and Languages in the Americas and Beyond,</booktitle>
+<pages>139--162</pages>
+<editor>ed. Renfrew, C. (McDonald</editor>
+<location>Cambridge, U.K.),</location>
+<contexts>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="781" position="5278" startWordPosition="777">pulations that represent diverse language groups. There are three advantages to themtDNAdata. First, they have high power to resolve population affinities. Second, it is easy to identify and remove non-Native American mtDNA sequences. Third, by contrasting gene and population trees, it is possible to discern patterns of gene flow. We begin our analyses by formally testing the hypothesis that a classification of languages proposed by Greenberg (19) represents the structure of Native North American gene pools. Although the majority of linguists do not endorse Greenberg’s language classification (4, 10, 18, 20, 21), it is important to test this model because it remains one of the main tenets against which questions about Native American population genetics and physical anthropology are formulated (3). To preempt our results, this hypothesis is rejected. Because of this finding, we proceed to ask two questions. First, is the genetic structure of these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native Nor</context>
+<context citStr="(4, 10, 18, 20, 21)" endWordPosition="3462" position="22731" startWordPosition="3458"> era would have changed relative branch lengths but would not have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among it</context>
+</contexts>
+<marker>21.</marker>
+<rawString>Ringe, D. (2000) in America Past, America Present: Genes and Languages in the Americas and Beyond, ed. Renfrew, C. (McDonald Institute for Archaeological Research, Cambridge, U.K.), pp. 139–162.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Anderson</author>
+<author>A T Bankier</author>
+<author>B G Barrell</author>
+<author>M H de Bruijn</author>
+<author>A R Coulson</author>
+<author>J Drouin</author>
+<author>I C Eperon</author>
+<author>D P Nierlich</author>
+<author>B A Roe</author>
+<author>F Sanger</author>
+</authors>
+<date>1981</date>
+<journal>Nature</journal>
+<volume>290</volume>
+<pages>457--465</pages>
+<contexts>
+<context citStr="(22)" endWordPosition="921" position="6217" startWordPosition="921">f these populations hierarchical? Second, is there evidence from mtDNA sequences for exchange across the boundaries of widely accepted language families? Materials and Methods Sample. We obtained 1,056 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native North American populations from the literature and public databases. No biological samples were handled. We included only sequences classified as founding Native American haplogroups A, B, C, D, or X (references in Table 1). The sequences were aligned and edited to 341 nucleotides covering the reference nucleotide positions 16024–16364 (22). Table 1 provides each population’s sample size, and placement in the Greenberg language classification (GLC). The terminology used for the language categories in this table is taken from Ruhlen (23). Fig. 1 presents the placement of these 17 populations within the GLC in tree form. Each of Greenberg’s primary Abbreviations: GLC, Greenberg language classification; NJ, neighbor-joining. *Present address: Department of Anthropology, University of NewMexico, Albuquerque, NM 87131. †To whom correspondence should be addressed at: Department of Human Genetics, 4909 Buhl Building, University of Mich</context>
+</contexts>
+<marker>22.</marker>
+<rawString>Anderson, S., Bankier, A. T., Barrell, B. G., de Bruijn, M. H., Coulson, A. R., Drouin, J., Eperon, I. C., Nierlich, D. P., Roe, B. A., Sanger, F., et al. (1981) Nature 290, 457–465.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Ruhlen</author>
+</authors>
+<title>Classification, A Guide to the World’s Languages</title>
+<date>1991</date>
+<volume>1</volume>
+<pages>463</pages>
+<publisher>Stanford Univ. Press,</publisher>
+<location>Stanford),</location>
+<contexts>
+<context citStr="(23)" endWordPosition="952" position="6417" startWordPosition="952">6 mtDNA hypervariable segment (HVS) 1 sequences for 17 Native North American populations from the literature and public databases. No biological samples were handled. We included only sequences classified as founding Native American haplogroups A, B, C, D, or X (references in Table 1). The sequences were aligned and edited to 341 nucleotides covering the reference nucleotide positions 16024–16364 (22). Table 1 provides each population’s sample size, and placement in the Greenberg language classification (GLC). The terminology used for the language categories in this table is taken from Ruhlen (23). Fig. 1 presents the placement of these 17 populations within the GLC in tree form. Each of Greenberg’s primary Abbreviations: GLC, Greenberg language classification; NJ, neighbor-joining. *Present address: Department of Anthropology, University of NewMexico, Albuquerque, NM 87131. †To whom correspondence should be addressed at: Department of Human Genetics, 4909 Buhl Building, University of Michigan Medical School, Ann Arbor, MI 48109-0618. E-mail: longjc@umich.edu. © 2005 by The National Academy of Sciences of the USA 1312–1317  PNAS  February 1, 2005  vol. 102  no. 5 www.pnas.orgcgid</context>
+</contexts>
+<marker>23.</marker>
+<rawString>Ruhlen, M. (1991) Classification, A Guide to the World’s Languages (Stanford Univ. Press, Stanford), Vol. 1, pp. 463.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Nei</author>
+</authors>
+<title>Molecular Evolutionary Genetics</title>
+<date>1987</date>
+<publisher>Univ. Press,</publisher>
+<location>Columbia</location>
+<contexts>
+<context citStr="(24)" endWordPosition="1133" position="7664" startWordPosition="1133">s (Eskimo-Aleut, Na-Dene, and Amerind) is represented by at least four populations. Statistical Analyses. The basic unit of analysis is a matrix composed of the average number of nucleotide substitutions between pairs of mtDNA sequences. The diagonal elements dii pertain to averages for pairs drawn from the same population, whereas the off-diagonal elements dij pertain to averages for pairs drawn from two different populations. Pairwise differences lead naturally to the net number of nucleotide substitutions dAij  dij  (dii  djj)2 as a measure of genetic distance between populations (24). Model trees (e.g., the GLC) were fitted to the matrix of observed, or ‘‘realized,’’ pairwise differences by using maximum likelihood (25–27). Each fitted tree produces a matrix of ‘‘expected’’ average pairwise nucleotide substitutions contingent on the assumption that the model tree accurately represents the true genetic relationships among populations. The lack-of-fit of the expected average pairwise differences relative to the realized pairwise differences is measured by a likelihood ratio statistic,, which under the idealized circumstances of a large number of independent polymorphic sit</context>
+</contexts>
+<marker>24.</marker>
+<rawString>Nei, M. (1987) Molecular Evolutionary Genetics (Columbia Univ. Press, New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L L Cavalli-Sforza</author>
+<author>A Piazza</author>
+</authors>
+<date>1975</date>
+<journal>Theor. Popul. Biol.</journal>
+<volume>8</volume>
+<pages>127--165</pages>
+<contexts>
+<context citStr="(25)" endWordPosition="1224" position="8303" startWordPosition="1224">fitted to the matrix of observed, or ‘‘realized,’’ pairwise differences by using maximum likelihood (25–27). Each fitted tree produces a matrix of ‘‘expected’’ average pairwise nucleotide substitutions contingent on the assumption that the model tree accurately represents the true genetic relationships among populations. The lack-of-fit of the expected average pairwise differences relative to the realized pairwise differences is measured by a likelihood ratio statistic,, which under the idealized circumstances of a large number of independent polymorphic sites is distributed as a 2 variable (25). The degrees of freedom associated with this statistic are equal to r(r 1)2 minus the number of parameters specified by the fitted tree, where r is the number of populations sampled. To visualize the fit of a model tree, we plotted realized versus expected net nucleotide distances against one another. If a tree model fit the genetic data, the expected genetic distances for each population will be overestimated approximately as frequently as they are underestimated. The scattergram should assume a symmetric cigar-shaped distribution. Either or both of two potential reasons can explain why th</context>
+<context citStr="(25)" endWordPosition="3064" position="20286" startWordPosition="3064">North American mtDNA confirm the haplogroup distributions observed for the populations and regions represented here; however, broader distributions for the A, B, C, and D haplogroups are noted when samples from other regions are included (32, 33). Discussion In this study, we adopt a rigorous approach to tree comparisons. First, a language classification is proposed as an a priori hypothesis for the genetic structure. Next, the language classification is fitted to the genetic data. And finally, the resulting tree is tested for treeness by using themethod developed by Cavalli-Sforza and Piazza (25). The null hypothesis is that the pattern of relationships among languages is the same as the pattern of relationships among gene pools. We applied this approach to linguistic and Fig. 4. Median joining networks for mtDNA haplogroups A (A), B (B), C (C), and D (D). Hunley and Long PNAS  February 1, 2005  vol. 102  no. 5  1315 A N TH RO PO LO G Y genetic data for Native North Americans by fitting Greenberg’s linguistic classification (19) to mitochondrial D-loop nucleotide sequence variations. The hypothesis of treeness was rejected. Therefore, a significant difference exists between Greenb</context>
+</contexts>
+<marker>25.</marker>
+<rawString>Cavalli-Sforza, L. L. &amp; Piazza, A. (1975) Theor. Popul. Biol. 8, 127–165.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Urbanek</author>
+<author>D Goldman</author>
+<author>J C Long</author>
+</authors>
+<date>1996</date>
+<journal>Mol. Biol. Evol.</journal>
+<volume>13</volume>
+<pages>943--953</pages>
+<marker>26.</marker>
+<rawString>Urbanek, M., Goldman, D. &amp; Long, J. C. (1996) Mol. Biol. Evol. 13, 943–953.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J C Long</author>
+<author>R A Kittles</author>
+</authors>
+<date>2003</date>
+<journal>Hum. Biol.</journal>
+<volume>75</volume>
+<pages>449--471</pages>
+<marker>27.</marker>
+<rawString>Long, J. C. &amp; Kittles, R. A. (2003) Hum. Biol. 75, 449–471.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H J Bandelt</author>
+<author>P Forster</author>
+<author>A Rohl</author>
+</authors>
+<date>1999</date>
+<journal>Mol. Biol. Evol.</journal>
+<volume>16</volume>
+<pages>37--48</pages>
+<contexts>
+<context citStr="(28)" endWordPosition="1498" position="10045" startWordPosition="1498">est for treeness, and examined plots of the realized versus expected genetic distances. The rationale underlying this test is that, if the genetic data are in fact tree-like, and only the language hierarchy in particular is incompatible with the genetic hierarchy, optimized trees will fit the genetic data. To determine whether there was evidence in the mtDNA sequences for local mate exchange across linguistic boundaries, we investigated the pattern of relationships among individual mtDNA sequences using median joining networks constructed for each haplogroup using the method of Bandelt et al. (28). Results Sequence Polymorphisms. The 1,056 mtDNA sequences contain 111 variable sites and 201 distinct haplotypes. The estimated nucleotide diversity (Table 1) shows an interesting trend within populations. With respect to Greenberg’s three language families, the average nucleotide diversity within populations is low in Eskimo-Aleut populations and high in Amerind populations. However, nucleotide diversity varies considerably among the populations classified as Na-Dene-speaking. The Alaskan AthaTable 1. Population sample size, estimated nucleotide diversity, sampling location, and language cl</context>
+</contexts>
+<marker>28.</marker>
+<rawString>Bandelt, H. J., Forster, P. &amp; Rohl, A. (1999) Mol. Biol. Evol. 16, 37–48.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y B Starikovskaya</author>
+<author>R I Sukernik</author>
+<author>T G Schurr</author>
+<author>A M &amp;Wallace Kogelnik</author>
+<author>D C</author>
+</authors>
+<date>1998</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>63</volume>
+<pages>1473--1491</pages>
+<contexts>
+<context citStr="(29)" endWordPosition="1844" position="12479" startWordPosition="1844">thabascan; UA, Uto-Aztecan; AK, Almosan-Keresiouan. Fig. 1. GLC for 17 populations Hunley and Long PNAS  February 1, 2005  vol. 102  no. 5  1313 A N TH RO PO LO G Y bascan and Haida populations, who reside in the North, have low nucleotide diversities, in the range of nucleotide diversities in the Eskimo-Aleut-speaking populations. The Navajo and Apache, who reside in the Southwest, have high nucleotide diversities, in the range of nucleotide diversities in populations classified as Amerind speaking. The A to G transition at nucleotide position (np) 16265 described by Starikovskaya et al. (29) appeared in all of the Eskimo samples, and none of the non-Eskimo samples (including Aleut). The A toG transitions at nps 16233 and 16331, identified by Torroni et al. (14), were observed in, and only in, the three Athabascan samples. Several sites were polymorphic only in populations classified as Amerind-speaking, but none occurred in all populations attributed to Amerind. Statistical Analyses. Fig. 1 displays the GLC as a tree. Fig. 2A shows the result of fitting this tree to the genetic data. Fig. 2A looks different from Fig. 1 because the branch lengths vary, and because the estimated le</context>
+<context citStr="(29)" endWordPosition="3737" position="24576" startWordPosition="3737">onger relationship between language groups and gene pools would be found by directly assessing language areas that arise from diffusion of linguistic traits across phylogenetic boundaries of languages (4, 10). The poor correspondence between the genetic data and language groups reflects the current population structure. Genetic and linguistic variation may have shared the same hierarchical relationships in the past. In fact, there are several features in the data that can be interpreted as remnants of such relationships. These features include the Eskimo-Aleut-specific transition polymorphism (29) and the two Athabascan-specific transition polymorphisms (14). Interestingly, these results are consistent with a linguistic model proposed by Nettle (9) that predicts that high diversity of language stocks is a transitory phase in linguistic evolution. According to Nettle’s model, the entry of humans into a new region such as the Americas affords significant opportunity for the birth of new languages. Upon entry, population growth will be rapid and groups will fission and spread at high rate until the region is filled. New linguistic lineages will be founded, with population splits creating </context>
+</contexts>
+<marker>29.</marker>
+<rawString>Starikovskaya, Y. B., Sukernik, R. I., Schurr, T. G., Kogelnik, A. M. &amp;Wallace, D. C. (1998) Am. J. Hum. Genet. 63, 1473–1491.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J H Gunnerson</author>
+</authors>
+<title>inHandbook of North American Indians: Southwest,</title>
+<date>1979</date>
+<volume>9</volume>
+<pages>162--169</pages>
+<editor>ed. Ortiz, A. (Smithsonian Institution, Washington, D.C.),</editor>
+<contexts>
+<context citStr="(30)" endWordPosition="2709" position="17989" startWordPosition="2709">ing Navajo. Second, there is a strong North-South geographic pattern to the clustering pattern. An Arctic-Pacific Northwest cluster that includes all Aleut-Eskimo populations, all Na-Dene populations, and the Amerind Nuu Chah Nulth and Bella Coola populations originates on one side of branch a, whereas a more Southern group includes the Pima, Cherokee, Sioux, and Chippewa Amerindspeaking population forms to the other side of branch a. The Southwestern Athabascan-speaking populations, Navajo and Apache, defy the geographic groupings, but this result is consistent with the archaeological record (30). Anthropologists agree that circa anno Domini 1400 the ancestors of Navajos and Apaches migrated from the Mackenzie Basin of Canada to the Southwest region, where they came into contact with Amerindspeaking populations who had been living there for thousands of years (31). Fig. 4 shows the distribution of the canonical Native American mtDNA haplogroups in the 17 populations. The occurrence of haplogroupA differs markedly between the far Northern and the Southwestern samples. With only few exceptions, mtDNA lineages observed in the northern Na-Dene classified populations (Haida and Alaskan Ath</context>
+</contexts>
+<marker>30.</marker>
+<rawString>Gunnerson, J. H. (1979) inHandbook of North American Indians: Southwest, ed. Ortiz, A. (Smithsonian Institution, Washington, D.C.), Vol. 9, pp. 162–169.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M E Opler</author>
+</authors>
+<date>1983</date>
+<booktitle>in Handbook of North American Indians: Southwest,</booktitle>
+<volume>10</volume>
+<pages>368--392</pages>
+<editor>ed. Ortiz, A. (Smithsonian Institution, Washington, D.C.),</editor>
+<contexts>
+<context citStr="(31)" endWordPosition="2752" position="18262" startWordPosition="2752"> one side of branch a, whereas a more Southern group includes the Pima, Cherokee, Sioux, and Chippewa Amerindspeaking population forms to the other side of branch a. The Southwestern Athabascan-speaking populations, Navajo and Apache, defy the geographic groupings, but this result is consistent with the archaeological record (30). Anthropologists agree that circa anno Domini 1400 the ancestors of Navajos and Apaches migrated from the Mackenzie Basin of Canada to the Southwest region, where they came into contact with Amerindspeaking populations who had been living there for thousands of years (31). Fig. 4 shows the distribution of the canonical Native American mtDNA haplogroups in the 17 populations. The occurrence of haplogroupA differs markedly between the far Northern and the Southwestern samples. With only few exceptions, mtDNA lineages observed in the northern Na-Dene classified populations (Haida and Alaskan Athabascans) belong to haplogroup A (Fig. 4). Haplogroup A is also common in Eskimos and Aleuts. Outside of the far North, the only samples in which haplogroup A appears commonly are the Southwestern Athabascanspeaking populations (Navajo and Apache). mtDNA sequences belongin</context>
+<context citStr="(31)" endWordPosition="4211" position="27781" startWordPosition="4211"> would have appeared in the Pima sample if they had absorbed a substantial number of Athabascan-speaking migrants. The pattern of asymmetrical genetic exchanges is all the more interesting given current mate exchange practices. Today, marriage practice in both the Western Apache and Navajo is strongly matrilineal. On this basis, we would not expect to see the inclusion of female lineages introduced from the surrounding non-Athabascan-speaking populations. However, the practice of matrilineality in these populations is likely to have begun after the Navajos and Apaches arrived in the Southwest (31). This practice makes it likely that the haplogroup B and C mtDNA sequences carried in the Navajo and Apache today were introduced early in their experience in the Southwest, and before the current cultural practices were initiated. In addition to the presence of B- and C-group haplotypes in the Navajo and Apache, other features of the median-joining networks indicate genetic exchange between linguistically divergent neighboring populations in the Northwest and Arctic. For example, the Northwest Coast Bella Coola and Nuu Chah Nulth (attributed to Amerind) share A-group lineages with the Northw</context>
+</contexts>
+<marker>31.</marker>
+<rawString>Opler, M. E. (1983) in Handbook of North American Indians: Southwest, ed. Ortiz, A. (Smithsonian Institution, Washington, D.C.), Vol. 10, pp. 368–392.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R S Malhi</author>
+<author>J A Eshleman</author>
+<author>J A Greenberg</author>
+<author>D A Weiss</author>
+<author>Schultz Shook</author>
+<author>B A</author>
+<author>F A Kaestle</author>
+<author>J G Lorenz</author>
+<author>B M Kemp</author>
+<author>J R Johnson</author>
+<author>D G Smith</author>
+</authors>
+<date>2002</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>70</volume>
+<pages>905--919</pages>
+<contexts>
+<context citStr="(32, 33)" endWordPosition="3008" position="19928" startWordPosition="3007">nd the Bella Coola and Nuu Chah Nulth on the Northwest Coast. In summary, the distribution of the major mtDNA haplogroups exhibits a strong regional pattern in these samples. Haplogroups A and D are concentrated in the far North and Northwest Coast, whereas haplogroups B and C appear regularly on the Northwest Coast and further South. Recent surveys of Native North American mtDNA confirm the haplogroup distributions observed for the populations and regions represented here; however, broader distributions for the A, B, C, and D haplogroups are noted when samples from other regions are included (32, 33). Discussion In this study, we adopt a rigorous approach to tree comparisons. First, a language classification is proposed as an a priori hypothesis for the genetic structure. Next, the language classification is fitted to the genetic data. And finally, the resulting tree is tested for treeness by using themethod developed by Cavalli-Sforza and Piazza (25). The null hypothesis is that the pattern of relationships among languages is the same as the pattern of relationships among gene pools. We applied this approach to linguistic and Fig. 4. Median joining networks for mtDNA haplogroups A (A), B</context>
+</contexts>
+<marker>32.</marker>
+<rawString>Malhi, R. S., Eshleman, J. A., Greenberg, J. A., Weiss, D. A., Schultz Shook, B. A., Kaestle, F. A., Lorenz, J. G., Kemp, B. M., Johnson, J. R. &amp; Smith, D. G. (2002) Am. J. Hum. Genet. 70, 905–919.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R S Malhi</author>
+<author>H M Mortensen</author>
+<author>J A Eshleman</author>
+<author>B M Kemp</author>
+<author>J G Lorenz</author>
+<author>F A Kaestle</author>
+<author>J R Johnson</author>
+<author>C Gorodezky</author>
+<author>D G Smith</author>
+</authors>
+<date>2003</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>120</volume>
+<pages>108--124</pages>
+<contexts>
+<context citStr="(32, 33)" endWordPosition="3008" position="19928" startWordPosition="3007">nd the Bella Coola and Nuu Chah Nulth on the Northwest Coast. In summary, the distribution of the major mtDNA haplogroups exhibits a strong regional pattern in these samples. Haplogroups A and D are concentrated in the far North and Northwest Coast, whereas haplogroups B and C appear regularly on the Northwest Coast and further South. Recent surveys of Native North American mtDNA confirm the haplogroup distributions observed for the populations and regions represented here; however, broader distributions for the A, B, C, and D haplogroups are noted when samples from other regions are included (32, 33). Discussion In this study, we adopt a rigorous approach to tree comparisons. First, a language classification is proposed as an a priori hypothesis for the genetic structure. Next, the language classification is fitted to the genetic data. And finally, the resulting tree is tested for treeness by using themethod developed by Cavalli-Sforza and Piazza (25). The null hypothesis is that the pattern of relationships among languages is the same as the pattern of relationships among gene pools. We applied this approach to linguistic and Fig. 4. Median joining networks for mtDNA haplogroups A (A), B</context>
+<context citStr="(33, 40)" endWordPosition="4033" position="26583" startWordPosition="4032">es belonging to haplogroup B are not observed in the northern Na-Dene-attributed populations, and members of haplogroup C occur rarely (Fig. 4). By contrast, mtDNA sequences in Southwestern non-Athabascan speakers are characterized by the predominance of members of haplogroups B and C and the absence of members of haplogroup A. The haplogroup configuration for non-Athabascan speakers in the Southwest is exemplified in the present study by the Pima mtDNA sequences (Fig. 4) and has been established in surveys of haplogroups determined from diagnostic sites in many other Southwestern populations (33, 40). The Navajo and Apache possess many haplogroup A sequences typical of Northwestern populations with languages attributed to the Na Dene language family. However, DNA sequences belonging to haplogroups B and C are also common in the Navajo and Apache, and these are most likely due to immigrants from the local non-Athabascanspeaking populations. The elevated nucleotide diversity in the Navajo and Apache relative to their northern counterparts is the consequence of these haplogroup B and C mtDNA sequences. Interestingly, the pattern of genetic exchange is not reciprocal. A-group haplotypes would</context>
+</contexts>
+<marker>33.</marker>
+<rawString>Malhi, R. S., Mortensen, H. M., Eshleman, J. A., Kemp, B. M., Lorenz, J. G., Kaestle, F. A., Johnson, J. R., Gorodezky, C. &amp; Smith, D. G. (2003) Am. J. Phys. Anthropol. 120, 108–124.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D H O’Rourke</author>
+<author>M G Hayes</author>
+<author>S W Carlyle</author>
+</authors>
+<date>2000</date>
+<journal>Hum. Biol.</journal>
+<volume>72</volume>
+<pages>15--34</pages>
+<marker>34.</marker>
+<rawString>O’Rourke, D. H., Hayes, M. G. &amp; Carlyle, S. W. (2000) Hum. Biol. 72, 15–34.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A C Stone</author>
+<author>M Stoneking</author>
+</authors>
+<date>1993</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>92</volume>
+<pages>463--471</pages>
+<marker>35.</marker>
+<rawString>Stone, A. C. &amp; Stoneking, M. (1993) Am. J. Phys. Anthropol. 92, 463–471.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S W Carlyle</author>
+<author>R L Parr</author>
+<author>M G Hayes</author>
+<author>D H O’Rourke</author>
+</authors>
+<date>2000</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>113</volume>
+<pages>85--101</pages>
+<marker>36.</marker>
+<rawString>Carlyle, S. W., Parr, R. L., Hayes, M. G. &amp; O’Rourke, D. H. (2000) Am. J. Phys. Anthropol. 113, 85–101.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Ringe</author>
+</authors>
+<date>1996</date>
+<journal>Diachronica</journal>
+<volume>13</volume>
+<pages>135--154</pages>
+<contexts>
+<context citStr="(21, 37)" endWordPosition="3469" position="22782" startWordPosition="3468">have destroyed the treeness in the data. Third, 14 of the 17 populations are situated today in the same localities that they occupied at the time of first European contact. Fourth, mtDNA from ancient (precontact) Native American populations look similar to postcontact populations in the same region (34–36). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among its descendants. The NJ tree (Fig. 3) shows that the </context>
+</contexts>
+<marker>37.</marker>
+<rawString>Ringe, D. (1996) Diachronica 13, 135–154.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J H Hill</author>
+<author>K C Hill</author>
+</authors>
+<date>2000</date>
+<journal>Am. Anthropol.</journal>
+<volume>102</volume>
+<pages>161--163</pages>
+<contexts>
+<context citStr="(10, 38, 39)" endWordPosition="3511" position="23092" startWordPosition="3509">). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among its descendants. The NJ tree (Fig. 3) shows that the classifications within Aleut-Eskimo and Na Dene language families disagree with the population genetic relationships, regardless of whether or not they are analyzed within the context of the GLC. In fact, the NJ tree conflicts with generally accepted language groups presented by Campbell (10). Aleuts do not c</context>
+</contexts>
+<marker>38.</marker>
+<rawString>Hill, J. H. &amp; Hill, K. C. (2000) Am. Anthropol. 102, 161–163.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Golla</author>
+</authors>
+<date>2000</date>
+<booktitle>in America Past, America Present: Genes and Languages in the Americas and Beyond,</booktitle>
+<pages>59--76</pages>
+<editor>ed. Renfrew, C. (McDonald</editor>
+<location>Cambridge, U.K.),</location>
+<contexts>
+<context citStr="(10, 38, 39)" endWordPosition="3511" position="23092" startWordPosition="3509">). Another possibility for the disagreement between the genetic data and the GLC is that the GLC is a poor representation of the relationships among Native North American languages (4). In fact, most linguists do not accept the GLC (4, 10, 18, 20, 21). Greenberg’s methods have been criticized (21, 37), and it is felt widely that there is not sufficient information to establish deep linguistic connections (10). Nevertheless, Greenberg included some undisputed language families within his classification. These undisputed families include the Eskimo-Aleut family and the Athabascan language group (10, 38, 39). We therefore find it quite interesting that the fitted branch to both Eskimo-Aleut and Athabascan was estimated to have zero length (Fig. 2). This finding suggests that the branch accounts for no increase in genetic relationship among its descendants. The NJ tree (Fig. 3) shows that the classifications within Aleut-Eskimo and Na Dene language families disagree with the population genetic relationships, regardless of whether or not they are analyzed within the context of the GLC. In fact, the NJ tree conflicts with generally accepted language groups presented by Campbell (10). Aleuts do not c</context>
+</contexts>
+<marker>39.</marker>
+<rawString>Golla, V. (2000) in America Past, America Present: Genes and Languages in the Americas and Beyond, ed. Renfrew, C. (McDonald Institute for Archaeological Research, Cambridge, U.K.), pp. 59–76.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J G Lorenz</author>
+<author>D G Smith</author>
+</authors>
+<date>1996</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>101</volume>
+<pages>307--323</pages>
+<contexts>
+<context citStr="(33, 40)" endWordPosition="4033" position="26583" startWordPosition="4032">es belonging to haplogroup B are not observed in the northern Na-Dene-attributed populations, and members of haplogroup C occur rarely (Fig. 4). By contrast, mtDNA sequences in Southwestern non-Athabascan speakers are characterized by the predominance of members of haplogroups B and C and the absence of members of haplogroup A. The haplogroup configuration for non-Athabascan speakers in the Southwest is exemplified in the present study by the Pima mtDNA sequences (Fig. 4) and has been established in surveys of haplogroups determined from diagnostic sites in many other Southwestern populations (33, 40). The Navajo and Apache possess many haplogroup A sequences typical of Northwestern populations with languages attributed to the Na Dene language family. However, DNA sequences belonging to haplogroups B and C are also common in the Navajo and Apache, and these are most likely due to immigrants from the local non-Athabascanspeaking populations. The elevated nucleotide diversity in the Navajo and Apache relative to their northern counterparts is the consequence of these haplogroup B and C mtDNA sequences. Interestingly, the pattern of genetic exchange is not reciprocal. A-group haplotypes would</context>
+</contexts>
+<marker>40.</marker>
+<rawString>Lorenz, J. G. &amp; Smith, D. G. (1996) Am. J. Phys. Anthropol. 101, 307–323.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L L Cavalli-Sforza</author>
+<author>M W Feldman</author>
+</authors>
+<date>2003</date>
+<booktitle>Nat.Genet. 33, Suppl.,</booktitle>
+<pages>266--275</pages>
+<contexts>
+<context citStr="(3, 41)" endWordPosition="4421" position="29152" startWordPosition="4420">ments predominated over gene replacements, we would expect good treeness for the genetic data but poor agreement between genetic and linguistic trees. In opposition to this expectation, even the best trees for the genetic data display a significant lack of treeness. 1316  www.pnas.orgcgidoi10.1073pnas.0409301102 Hunley and Long Many researchers have noted that either the language or the genes in a population can be replaced, and examples of both gene and language replacement have been identified (1, 2, 7). There has been a tendency to expect that language replacements will be more common (3, 41). In principle, language replacement can occur more rapidly than gene replacement because language can be transmitted both vertically from parents to children and horizontally between unrelated people, creating bilingual and multilingual individuals, whereas genes can be transmitted only vertically (1, 42). However, we found that the constraints imposed by mechanisms of transmission may be relatively weak as compared with other factors that will influence whether genes, languages, or both will be replaced. Finally, we note that our findings are relevant to a multiple migration theory for the p</context>
+</contexts>
+<marker>41.</marker>
+<rawString>Cavalli-Sforza, L. L. &amp; Feldman, M. W. (2003) Nat.Genet. 33, Suppl., 266–275.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L L Cavalli-Sforza</author>
+<author>M W Feldman</author>
+</authors>
+<title>Cultural Transmission and Evolution: A Quantitative Approach</title>
+<date>1981</date>
+<publisher>Princeton Univ. Press,</publisher>
+<location>Princeton).</location>
+<contexts>
+<context citStr="(1, 42)" endWordPosition="4462" position="29459" startWordPosition="4461">.0409301102 Hunley and Long Many researchers have noted that either the language or the genes in a population can be replaced, and examples of both gene and language replacement have been identified (1, 2, 7). There has been a tendency to expect that language replacements will be more common (3, 41). In principle, language replacement can occur more rapidly than gene replacement because language can be transmitted both vertically from parents to children and horizontally between unrelated people, creating bilingual and multilingual individuals, whereas genes can be transmitted only vertically (1, 42). However, we found that the constraints imposed by mechanisms of transmission may be relatively weak as compared with other factors that will influence whether genes, languages, or both will be replaced. Finally, we note that our findings are relevant to a multiple migration theory for the peopling of the Americas. According to this hypothesis, the ancestors of modern Amerind, Na-Dene, and Eskimo-Aleut speakers migrated into the Americas in three independent waves of migration, separated in time by thousands of years. Proponents have claimed support from a perceived parallel in patterns of va</context>
+</contexts>
+<marker>42.</marker>
+<rawString>Cavalli-Sforza, L. L. &amp; Feldman, M. W. (1981) Cultural Transmission and Evolution: A Quantitative Approach (Princeton Univ. Press, Princeton).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J H Greenberg</author>
+<author>C G Turner</author>
+<author>S L Zegura</author>
+</authors>
+<date>1986</date>
+<journal>Curr. Anthropol.</journal>
+<volume>27</volume>
+<pages>477--497</pages>
+<contexts>
+<context citStr="(43)" endWordPosition="4564" position="30133" startWordPosition="4564">smission may be relatively weak as compared with other factors that will influence whether genes, languages, or both will be replaced. Finally, we note that our findings are relevant to a multiple migration theory for the peopling of the Americas. According to this hypothesis, the ancestors of modern Amerind, Na-Dene, and Eskimo-Aleut speakers migrated into the Americas in three independent waves of migration, separated in time by thousands of years. Proponents have claimed support from a perceived parallel in patterns of variation in language, dental morphology, and classical genetic markers (43). Although it has been recognized that the original genetic data used in this argument lacked resolving power, our analyses of the currently available mtDNA sequences show that the patterns of variation in genes and languages actually disagree. Although our findings do not disprove that multiple migrations occurred historically, they dissipate a principal argument that was advanced to formulate the theory. This work evaluates scientific hypotheses about the nature of correspondence between language groups and genetic populations. It is not a test of cultural practices or spiritual beliefs held</context>
+</contexts>
+<marker>43.</marker>
+<rawString>Greenberg, J. H., Turner, C. G. &amp; Zegura, S. L. (1986) Curr. Anthropol. 27, 477–497.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Rubicz</author>
+<author>K L Melvin</author>
+<author>M H Crawford</author>
+</authors>
+<date>2002</date>
+<journal>Hum. Biol.</journal>
+<volume>74</volume>
+<pages>743--760</pages>
+<marker>44.</marker>
+<rawString>Rubicz, R., Melvin, K. L. &amp; Crawford, M. H. (2002) Hum. Biol. 74, 743–760.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G F Shields</author>
+<author>A M Schmiechen</author>
+<author>B L Frazier</author>
+<author>A Redd</author>
+<author>M I Voevoda</author>
+<author>J K Reed</author>
+<author>R H Ward</author>
+</authors>
+<date>1993</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>53</volume>
+<pages>549--562</pages>
+<marker>45.</marker>
+<rawString>Shields, G. F., Schmiechen, A. M., Frazier, B. L., Redd, A., Voevoda, M. I., Reed, J. K. &amp; Ward, R. H. (1993) Am. J. Hum. Genet. 53, 549–562.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Saillard</author>
+<author>P Forster</author>
+<author>N Lynnerup</author>
+<author>H J Bandelt</author>
+<author>S Norby</author>
+</authors>
+<date>2000</date>
+<journal>Am. J. Hum. Genet.</journal>
+<volume>67</volume>
+<pages>718--726</pages>
+<marker>46.</marker>
+<rawString>Saillard, J., Forster, P., Lynnerup, N., Bandelt, H. J. &amp; Norby, S. (2000) Am. J. Hum. Genet. 67, 718–726.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Budowle</author>
+<author>M W Allard</author>
+<author>C L Fisher</author>
+<author>A R Isenberg</author>
+<author>K L Monson</author>
+<author>J E Stewart</author>
+<author>M R Wilson</author>
+<author>K W Miller</author>
+</authors>
+<date>2002</date>
+<journal>Int. J. Legal Med.</journal>
+<volume>116</volume>
+<pages>212--215</pages>
+<marker>47.</marker>
+<rawString>Budowle, B., Allard, M. W., Fisher, C. L., Isenberg, A. R., Monson, K. L., Stewart, J. E., Wilson, M. R. &amp; Miller, K. W. (2002) Int. J. Legal Med. 116, 212–215.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R A Kittles</author>
+<author>A W Bergen</author>
+<author>M Urbanek</author>
+<author>M Virkkunen</author>
+<author>M Linnoila</author>
+<author>D Goldman</author>
+<author>J C Long</author>
+</authors>
+<date>1999</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>108</volume>
+<pages>381--399</pages>
+<marker>48.</marker>
+<rawString>Kittles, R. A., Bergen, A. W., Urbanek, M., Virkkunen, M., Linnoila, M., Goldman, D. &amp; Long, J. C. (1999) Am. J. Phys. Anthropol. 108, 381–399.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R S Malhi</author>
+<author>B A Schultz</author>
+<author>D G Smith</author>
+</authors>
+<date>2001</date>
+<journal>Hum. Biol.</journal>
+<volume>73</volume>
+<pages>17--55</pages>
+<marker>49.</marker>
+<rawString>Malhi, R. S., Schultz, B. A. &amp; Smith, D. G. (2001) Hum. Biol. 73, 17–55.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R H Ward</author>
+<author>B L Frazier</author>
+<author>K Dew-Jager</author>
+<author>S Paabo</author>
+</authors>
+<title>in</title>
+<date>1991</date>
+<journal />
+<booktitle>Proc. Natl. Acad. Sci. USA 88, 8720–8724. Hunley and Long PNAS </booktitle>
+<volume>102</volume>
+<pages>1317</pages>
+<marker>50.</marker>
+<rawString>Ward, R. H., Frazier, B. L., Dew-Jager, K. &amp; Paabo, S. (1991) in Proc. Natl. Acad. Sci. USA 88, 8720–8724. Hunley and Long PNAS  February 1, 2005  vol. 102  no. 5  1317</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

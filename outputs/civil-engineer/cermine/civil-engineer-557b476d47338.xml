@@ -1,0 +1,1021 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Magazine of Concrete Research</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Influence of construction loading on deflections in reinforced concrete slabs</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1680/macr.2009.61.1.3</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>R. L. Vollum</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>N. Afshar</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Imperial College London</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>E</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>t Eceff</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Department of Civil and Environmental Engineering, Imperial College London</institution>
+          ,
+          <addr-line>South Kensington Campus, London</addr-line>
+          ,
+          <country country="UK">UK</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>This paper describes and analyses a series of tests on one-way spanning slabs, which were carried out at Imperial College London to investigate the influence of peak construction loads on long-term tension stiffening and slab deflections. The work was carried out to investigate the validity of conclusions drawn from the first author's back analysis of deflection data in the Cardington in situ concrete building, which suggested that long-term deflections in slabs could be governed by short-term construction and in-service loads. An improved method is proposed for taking account of the effect of peak construction loads on long-term slab deflections. The method is shown to be more accurate than the rigorous method in Concrete Society Report TR58 which is based on the first authors' analysis of slab deflections at Cardington.</p>
+      </abstract>
+      <volume>61</volume>
+      <issue>1</issue>
+      <fpage>3</fpage>
+      <lpage>14</lpage>
+      <pub-date>
+        <year>2009</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Mconc mean
+elastic modulus for concrete at time t
+effective elastic modulus for concrete,
+¼ Ect/(1 + (ti, t ))
+equivalent effective elastic modulus for
+concrete loaded in stages
+concrete tensile strength
+damage coefficient, ¼ ˇ fct/w
+applied bending moment
+mean bending moment resisted by concrete
+in tension between cracks,
+¼ M Tsm(d xm/3)
+bending moment under peak construction
+load
+bending moment under permanent load
+cracking moment
+Mpeak Mperm
+curvature in uncracked section
+curvature in fully cracked section
+mean curvature
+mean tensile force in reinforcement
+between cracks, ¼ AsEs sm
+uniformly distributed load
+mean depth to neutral axis between cracks
+coefficient used in calculation of
+free shrinkage strain
+mean strain in reinforcement
+creep coefficient at time t for concrete
+loaded at time ti
+coefficients used in calculation of mean
+curvature
+Introduction</p>
+      <p>Analysis of deflection data from the Cardington in
+situ concrete building1 suggested that long-term slab
+deflections can be governed by early-age striking or
+peak construction loads from casting slabs above. At that
+time, there were no suitable laboratory data available to
+validate the analytical model derived from back analysis
+of the Cardington1,2 data. The current test programme
+was designed to rectify this omission. Vollum’s
+method1–3 for accounting for construction loading in
+deflection calculations is a refinement of the moment –
+curvature approach given in Eurocode 2.4 The method
+was subsequently adopted in Concrete Society Technical
+Report TR58,5 where it is referred to as the ‘rigorous
+method’. It is useful to review the approach adopted in
+Eurocode 24 for predicting long-term deflections, and
+the loss of tension stiffening with time, before
+considering the influence of construction loading. Curvatures
+increase with time in reinforced concrete flexural
+members owing to the combined effects of creep, shrinkage
+and loss of tension stiffening with time. In Eurocode 2,4
+the mean curvature in cracked members is given by
+1=rm ¼
+1=r2 þ (1</p>
+      <p>)1=r1</p>
+      <p>(M r=M )2
+1/r1 and 1/r2 are the curvatures of uncracked and full
+sections respectively including shrinkage and Mr is the
+cracking moment. The coefficient in equation (2)
+takes account of loss of tension stiffening with time
+owing to additional internal- and macro-cracking under
+sustained load. Eurocode 24 states that should be
+taken as 1 for short-term loading and 0.5 for long-term
+loading, but does not define the variation in with
+time.</p>
+      <p>Recently, Beeby and Scott6 carried out a series of
+relatively short-term tests (up to around 100 days) on
+tension members which showed that the residual tensile
+force resisted by cracked concrete reduces to its
+longterm value within a few weeks of loading. The
+specimens were first loaded around 28 days after casting.
+They found that the long-term mean residual tensile
+stress in the concrete between cracks was around half
+the instantaneous value after first cracking. Beeby and
+Scott6 concluded that tension stiffening was largely lost
+owing to additional cracking and internal damage under
+sustained load as the tensile strength of concrete
+reduces to around 70% of its instantaneous value under
+sustained loading. Beeby and Scott’s6 data suggest that
+the time function describing the rate of loss of tension
+stiffening in tension specimens is approximately
+0:12 log10 (t) þ 0:65 with 0:5 &lt;
+(t) &lt; 1:0
+where (t ) is a function of time and t is the time in
+days from first cracking.</p>
+      <p>Beeby and Scott6 carried out some exploratory slab
+tests which suggested that tension stiffening is lost
+rapidly in slabs but at a slower rate than in tension
+specimens. As a result of these tests Beeby and Scott6
+suggested that should be taken as 0.5 in most cases
+in equation (2). Vollum7 also analysed deflection data
+from various slabs tested by others in the laboratory
+under constant loading and concluded that typically
+reduced from 1 to around 0.7, in cracked members,
+between 1 and 2 days after first loading. Some aspects
+of Vollum’s7 analysis were speculative as creep and
+shrinkage strains were typically measured in control
+specimens which had a significantly smaller notional
+size than the slabs. It was therefore difficult accurately
+to assess the contributions of creep and shrinkage to
+deflection in the first few days after loading.</p>
+      <p>Influence of construction loads on
+longterm slab deflections</p>
+      <p>Relatively short-term peaks in slab loads can arise
+during the construction of multi-storey buildings from
+casting slabs above or in service as illustrated in Fig. 1,
+which was derived from back prop forces measured at
+St George Wharf.8 It is assumed in Fig. 1 that the slab
+carries its self-weight after striking. The main problems
+in predicting deflections under loading histories similar
+to that shown in Fig. 1 are to determine (a) the
+influence of short-term peak loads on the long-term residual
+tension stiffening under sustained load and (b) the
+deflection after repeated unloading and reloading.</p>
+      <p>The Cardington deflection data1–3 are particularly
+useful for assessing the influence of construction
+loading on slab deflections as the loading on the first six
+floors was measured during construction and the
+permanent loading was the same at all floors. Variations in
+construction loading, concrete strengths and
+reinforcement between floors led to significant variations in
+deflection between floors. Analysis of the Cardington
+data1,2,7 showed that the measured deflections under the
+permanent load, at a specific location, varied almost
+linearly with the minimum value of a coefficient k,
+which was defined as
+k ¼ p f ct=w
+where fct and w were evaluated at either striking, under
+the peak construction load or under the permanent load.
+The minimum value of k corresponds to the loading
+stage which induces the worst cracking. It was assumed
+that the interpolation coefficient corresponding to
+kmin governs long-term deflections as cracking is
+irreversible. The long-term deflections were shown to be
+governed by striking or peak construction loads
+provided that was taken as less than 0.86 in kstrike and
+kpeak. Hossain and Vollum2 obtained good estimates of
+long-term deflections at Cardington using (a) an
+incremental analytical procedure with ¼ 0.7 and (b) a
+single step analysis with ¼ 0.5. Hossain and Vollum2
+adopted Rotilio’s9 procedure for calculating curvatures
+after unloading in their incremental procedure for
+calculating deflection. Rotilio9 assumed that the
+shortterm unloading response follows a line that intersects
+the response of the uncracked section at a moment
+equal and opposite to that immediately before
+unloading. A drawback with Rotilio’s9 approach is that it
+needs to be implemented in an incremental procedure
+Fig. 1. Load history from casting slabs above for two levels
+of backprops
+such as that devised by Hossain and Vollum.2 In
+practice, it is more convenient to calculate deflections
+corresponding to load histories such as that in Fig. 1 in a
+single step procedure in conjunction with a suitably
+modified concrete tensile strength and creep
+coefficient. The slab tests described in the current paper were
+designed to enable the development of improved
+methods for deflection prediction under load histories such
+as those presented Fig. 1.</p>
+      <p>Slab tests</p>
+      <p>A series of six simply supported one-way spanning
+slabs were tested in the Concrete Structures Laboratory
+at Imperial College to determine the influence of
+shortterm construction loads on long-term slab deflections.
+The slabs measured 500 mm wide by 3600 mm long by
+150 mm thick and were reinforced with 3T10 bars as
+shown in Fig. 2. The span of 3300 mm was chosen to
+satisfy the span-to-effective depth ratios in Eurocode
+2,4 which are intended to limit the total deflection to
+span/250 under a quasi-permanent load equal to half
+the design ultimate load. Equation (7.16a) in Eurocode
+24 gives a maximum permissible span of 3537 mm for
+the authors’ slabs with fck ¼ 30 MPa.</p>
+      <p>The slabs were loaded at their third points with straps
+attached to one or two concrete blocks with additional
+steel kentledge as required, which gave an almost
+constant moment within the central third of the slab. The
+ratio of the maximum to minimum moments in the
+central third of the beam varied between 1.03 and 1.04
+in the tests. Slabs S1–S3 were first loaded 9 days after
+casting. Constant loads were applied to slabs S1 and S2
+throughout the test. Slab S3 was loaded for 5 days with a
+peak load equal to 1.4 times the permanent load, which
+was the same as for slab S2. Slabs S4–S6 were first
+loaded with their self-weight at 7 days and the
+quasipermanent load was applied at 34 days. In between, a
+peak construction load was applied to slabs S4 and S5 at
+13 days and sustained for a period of 4 days. The peak
+load applied to S4 equalled the permanent load which
+Note: All times in days from casting.</p>
+      <p>Cover 20 mm
+All reinforcement H10</p>
+      <p>Time from casting: days
+Fig. 2. Details of test specimens
+was notionally identical in slabs S2–S6. Full details of
+the load histories are given in Table 1, which should be
+read in conjunction with Fig. 2.</p>
+      <p>Long-term deflections are governed by factors
+including
+(a) the reinforcement stress under the quasi-permanent
+(sustained) loading,
+(b) the ratio between the peak construction moment
+and the quasi-permanent moment (Mpeak/Mperm) and
+(c) the ratio between the peak moment and the
+cracking moment (Mpeak/Mr).</p>
+      <p>These data are summarised in Table 2, which also
+gives the maximum deflections measured in the tests.
+Table 2 also shows that the ratio between Mperm and the
+Notes: ł All times in days from first loading, All deflections in mm, *End of test.
+design ultimate moment of resistance MRd varied
+between 0.56 and 0.65, which is typical for slabs in
+buildings.</p>
+    </sec>
+    <sec id="2">
+      <title>Instrumentation</title>
+      <p>Deflections were measured at the centre of the slab
+and adjacent to the loading points. Strains were
+measured with a 150 mm Demec gauge along one edge of
+each slab (a) near the level of the reinforcement, (b) at
+mid-height and (c) just below the top surface of the
+slab. In situ strains were also measured with a Demec
+gauge in the top surface of each slab, parallel and
+perpendicular to the direction of span. Strains were also
+measured in the top and bottom surfaces of the slabs
+with electrical resistance strain gauges.</p>
+      <p>Concrete material properties</p>
+      <p>The slabs were cast in two batches of three,
+approximately 5 months apart, from ready-mix concrete with a
+target 28 day cylinder strength of 30 MPa. The flexural
+and splitting strengths of the concrete were determined
+from control specimens cured in air and water. The
+depth of the beams used in the flexural tests was
+chosen to be 150 mm to eliminate the influence on
+flexural strength of differences in section depth
+between the control specimens and slabs. The resulting
+tensile strengths are given in Table 3 which also gives
+tensile strengths derived from the concrete compressive
+strength using the equations given in Eurocode 2.4</p>
+      <p>Creep and shrinkage strains were measured in 4 3 10
+inches (10.16 3 25.40 cm) control cylinders and
+derived from strain measurements in the slabs. The in
+situ shrinkage strain was calculated as follows
+l)=(1 þ
+where
+l is the longitudinal strain
+t is the transverse strain
+is Poisson’s ratio</p>
+      <p>Figures 3 and 4 show the increments in shrinkage
+Note: All concrete strengths in MPa
+Fig. 3. Shrinkage strains in slabs S1 to S3
+strain measured in the slabs and control cylinders from
+first loading. The figures also show the increments in
+shrinkage strains predicted by Eurocode 24 from first
+loading. Fig. 3 shows that the shrinkage strains
+measured in tests S1–S3 were similar to those predicted by
+Eurocode 2. Fig. 4 shows that the shrinkage strains
+measured in slabs S4–S6 increased more rapidly than
+predicted by Eurocode 2 and that no significant
+increase in shrinkage occurred after 200 days.
+Fig. 4. Shrinkage strains in slabs S4 to S6</p>
+      <p>Creep coefficients were estimated from strain
+measurements in the control cylinders and from changes in
+curvature derived from strain measurements in the
+uncracked sections of the slabs adjacent to the supports.
+The in situ creep coefficients were derived in a section
+analysis which compensated for the influences of
+shrinkage and internal restraint from the reinforcement.
+The creep coefficients in Figs 5 and 6 were calculated
+in terms of instantaneous strains corresponding to the
+in situ elastic modulus of the slabs at first loading.
+Fig. 5. Creep coefficients for slabs S1 to S3
+(Ec(t0) ¼ 30 GPa)
+t 2·5
+n
+e
+ii
+ffc 2·0
+e
+o
+cp 1·5
+e
+e
+rC1·0
+t 3·0
+n
+e
+i
+ifc2·5
+f
+e
+co2·0
+p
+e
+rce1·5
+e
+tcv1·0
+i
+e
+ff
+E0·5
+Fig. 6. Creep coefficients for slab S6 (Ec(t0) ¼ 23.4 GPa)</p>
+      <p>The resulting creep coefficients are shown in Fig. 5
+for tests S1–S3 and in Fig. 6 for test S6. The figures
+also give the creep coefficients predicted by Eurocode
+24 which were scaled by Ec(t0)/Ec28 where Ec28 is the
+elastic modulus at 28 days. It is interesting to note that
+the creep coefficients measured in situ were slightly
+greater than those measured in the control cylinders
+which was unexpected. The rate of increase of the in
+situ creep coefficients in slabs S1–S3 was also
+significantly greater after 30 days than predicted by Eurocode</p>
+      <sec id="2-1">
+        <title>2.4 The current authors attribute the difference in creep</title>
+        <p>behaviour between the control cylinders and slabs to
+the slabs being in flexure unlike the control cylinders
+which were in compression. The creep coefficient
+is greater in flexure in compression because it is
+increased by creep in tension, which is greater than in
+compression. Neville10 also points out that the decrease
+in the rate of creep with time is much less pronounced
+in tension than compression because the increase in
+tensile strength with time is less.</p>
+        <p>Determination of in situ cracking moment</p>
+        <p>It was anticipated that the effective flexural strength
+of the concrete in the slabs would lie between the
+splitting and flexural strengths as the flexural strength
+of reinforced concrete is reduced by shrinkage owing to
+the internal restraint provided by reinforcement. Three
+approaches were used to estimate the in situ flexural
+strength of the concrete in the slabs. In method M1, the
+in situ strength was estimated by reducing the flexural
+strength of the control beams by the tensile stress
+induced in the slabs by restrained shrinkage which was
+estimated as follows
+f ctsh( t) ¼ Es sh( ts)S1( h</p>
+        <p>x1)=I 1
+þ As Es sh(ts)=(Ac(1 þ mr))
+where r ¼ As/Ac, m is the effective modular ratio Es/
+Eceff and ts is the time at onset of shrinkage.</p>
+        <p>In method M2, the flexural strength was estimated
+from the moment at which the moment-curvature
+response of the slabs became non-linear. In method M3,
+the flexural strength was chosen to give a good fit
+between the instantaneous measured deflections and
+those predicted by Eurocode 2 with ¼ 1. Method
+M3 is illustrated in Figs 7 and 8, which show that
+curvatures are underestimated around the cracking
+moment if the flexural strength is chosen to give the
+best overall estimate of the measured instantaneous
+curvatures. In reality, tension stiffening is lost
+progressively as cracks form successively as the moment
+increases. It is unclear from the present tests to what
+extent Eurocode 24 takes this into account as strain
+data are unavailable to relate the loss of tension
+stiffening in the tests to the development of cracks during
+loading. It appears that the Eurocode 24 moment –
+:kN15
+d
+a
+o
+ll
+ta10
+o
+T
+Fig. 7. Deflection plotted against load in slabs S1 to S3
+2·9 offset 0·6 mm
+2·9 offset 1·6 mm
+the mid-span curvatures in Figs 9 and 10. It is apparent
+that the peak construction load increased deflections
+significantly in slabs S3 (compared to S2) and S5
+(compared to S6) at 100 days, and that the difference in
+deflections between slabs S5 and S6 reduced with time.</p>
+        <p>The rate of loss of tension stiffening with time is
+significant in the calculation of long-term deflections
+under load histories similar to Fig. 1 as long-term
+deflections can be governed by the residual tension
+stiffening remaining immediately before unloading from
+the peak load. Slab tests S1, S2 and S6 provide data on
+the rate of loss of tension stiffening in slabs under a
+uniform sustained load. Tests S3–S5 provide data on the
+residual tension stiffening remaining after unloading
+from a short-term peak load. The mean moment resisted
+by the concrete in tension between cracks was estimated
+in the test slabs with the following equation
+xm=3)
+where M is the applied moment, Tsm ¼ AsEs sm, sm is
+the mean strain in the concrete at the level of the
+reinforcement and xm is the mean value of the depth to the
+neutral axis both of which were determined from the
+Demec strain readings.
+Fig. 9. Comparison between curvatures in central third of
+slabs S1–S3
+Fig. 8. Deflection plotted against load in slabs S4 to S6
+curvature relationship may underestimate the
+shortterm tension stiffening effect provided by cracked
+concrete below the neutral axis if the moment at first
+cracking is used in equation (2). This conclusion is
+consistent with the common practice of using the
+mean concrete rather than minimum tensile strength to
+determine a best estimate of likely deflections.</p>
+        <p>The concrete flexural strengths corresponding to
+methods M1–M3 are listed in Table 3, which includes
+the measured flexural and splitting strengths for
+comparison. The tensile strengths obtained with M3 were
+adopted in the analysis of the slab data described in this
+article as they give the best estimates of deflection in
+conjunction with Eurocode 2.4 The concrete tensile
+strength given by M3 was the same for slabs S4 and
+S6. This was unexpected as slab S1 was loaded to
+cracking at 13 days whereas slab S6 was loaded to
+cracking at 34 days when the tensile strength of the
+control specimens was greater as shown in Table 3.</p>
+      </sec>
+    </sec>
+    <sec id="3">
+      <title>Results</title>
+      <p>The influence of peak construction loads on deflection
+can be seen by comparing the deflections in Table 2 and
+Fig. 10. Comparison between curvatures in central third of
+slabs S4–S6
+Fig. 11. (a) Variation in with log(time) in slabs S1–S6;
+(b) Variation in with time in slabs S1–S6</p>
+      <p>The development of deflection with time depends
+significantly on the rate of loss in the tension stiffening
+moment with time which is governed by in equation
+(2). According to the Eurocode 24 moment –curvature
+model, the mean residual moment resisted by the
+concrete between cracks is given by
+(Mr=M )2 Mconc 1 (8)
+where Mconc1 is the moment resisted by concrete in
+tension in an uncracked section, which is close to the
+total bending moment M in lightly reinforced sections
+such as slabs. The coefficient in equation (2) can be
+estimated by assuming Mconc1 ¼ M and rearranging
+equation (8) as follows
+t ¼ (Mconc mean=Mr)(M (t)=Mr)
+where M(t ) is the bending moment at time t. The
+variation in with log(time) was estimated with
+equation (9) with Mconcmean from equation (7) assuming
+Mconc1 ¼ M. The resulting values of are plotted
+against log10(time) in Fig. 11(a) and against time in
+Fig. 11(b). It can be seen that reduced at a similar
+rate with time in all the slabs. The discontinuity in the
+values of in slabs S3 and S5 arises as was
+calculated under the current rather than peak moment. In all
+cases, reduced linearly in log10(time) for around 12
+days from first loading or the duration of the peak load
+if less. Thereafter, reduced much more slowly as
+shown in Fig. 11(b) for the duration of the
+measurements presented which is up to one year. It appears that
+reduced more rapidly after the shrinkage strain
+plateaued at around 200 days.</p>
+      <p>A number of different mechanisms are responsible
+for the long-term loss of tension stiffening in slabs. It
+seems likely that the rapid loss of tension stiffening
+after first cracking is attributable to internal cracking
+of the concrete under sustained load as proposed by
+Beeby and Scott.6 The subsequent gradual loss of
+tension stiffening appears to be caused by relaxation of
+the concrete in tension between the cracks owing to
+creep. The effect of creep is counter-balanced in part
+by shrinkage, which induces tensile stresses in the
+concrete between the cracks owing to the restraining effect
+of the reinforcement. These suppositions are supported
+by the observation that increased more rapidly after
+the shrinkage plateaued at 200 days. Fig. 11(a) also
+shows that reduced at a significantly slower rate in
+the slabs than in the tension specimens of Beeby and
+Scott.6</p>
+      <p>The authors’ tests were designed primarily to
+investigate the short-term loss of tension stiffening under peak
+construction loads and no change is suggested to the
+long-term value of of 0.5 in Eurocode 2.4 Regression
+analysis showed that reduced as follows in slab S6
+which was typical</p>
+      <p>0:0364 ln (t) þ 0:8279
+0:0008t þ 0:7327
+t . 12 days (10b)
+with 0.5 &lt; (t) &lt; 1.0.</p>
+      <p>The accuracy of equation (8) was investigated by
+plotting Mconcmean/Mr in slabs S1–S6 against M/Mr four
+days after the application of the peak construction load
+when was around 0.8. Fig. 12 shows that the
+experimental values of Mconcmean/Mr given by equation (7)
+compare very well with the theoretical values given by
+equation (8) derived from Euocode24 with ¼ 0.8.
+CMpeak/Mr
+Fig. 12. Relationship between Mconcmean/Mr and M/Mr in
+slabs S1–S6
+Influence of short term peak loads on
+tension stiffening</p>
+      <p>Vollum et al.1,2 showed that deflections at
+Cardington varied linearly with the coefficient kmin defined
+in equation (4). They went on to propose that the
+influence of peak construction loads could be accounted for
+in deflection calculations by using a modified concrete
+tensile strength given by
+where kmin ¼ minimum value of k ¼ ˇ fct/w evaluated
+during construction and subsequently.</p>
+      <p>Vollum et al.1–3 attributed the linear relationship
+between k and deflection to the fact that Eurocode 24
+predicts long-term deflections in cracked slabs with
+given dimensions, reinforcement and loading to vary
+almost linearly with fct. The current research shows this
+explanation is overly simplistic and presents a more
+thorough explanation, which accounts for the effects of
+unloading. The starting point is to rearrange equation
+(2) as below
+1=rm ¼ 1=r2
+(Mr=M )2ð1=r2
+1=r1)
+It follows that the mean curvatures in a set of
+geometrically identical slabs vary linearly at any given time
+with (Mr/M)2 or k2 for a given M (i.e. 1/r1 and 1/r2).
+Analysis shows that k typically varies almost linearly
+with k2 for cracked slabs which explains the observed
+linear relationship between k and deflections predicted
+with Eurocode 24 under constant load and varying
+concrete tensile strength. The data from slabs S1–S6 were
+analysed to determine if, at any given time, there was a
+linear relationship between (Mperm S1/Mperm)1/rm and (a)
+(Mr/M)2 and (b) Mr/M as anticipated from the first
+author’s analysis of the Cardington deflection data. The
+curvatures 1/rm were normalised by the ratio Mperm S1/
+Mperm (where Mperm is the mid-span moment in the slab
+under consideration under the permanent load and S1
+denotes slab S1) as the permanent load varied between
+the tests as shown in Table 2. The normalisation is
+justified as the curvatures 1/r1 and 1/r2 are almost
+proportional to the applied moment as the curvature
+induced by shrinkage is relatively small. The results of
+a typical analysis are shown in Figs 13 and 14, which
+show that there was a linear relationship between
+(Mperm S1/Mperm)1/rm and both (Mr/Mpeak)2 and Mr/Mpeak
+in slabs S1 to S6 at 93 days when the permanent load
+was removed from slabs S1–S3.</p>
+      <p>The reason for the linear relationship between
+(Mperm S1/Mperm)1/rm and (Mr/M)2 in slabs that have
+been unloaded requires further explanation as the
+unloading line does not pass through the origin. In this
+case, the mean curvature can be expressed as
+1=rm ¼
+1=r2 þ (1
+)1=r1
+where * depends on the previous load history. Fig. 7
+shows that the deflection reduced almost linearly in
+Fig. 13. Relationship between normalised curvatures and
+Mr/Mpeak for slabs S1–S6 at 93 days
+Fig. 14. Relationship between normalised curvatures and
+(Mr/Mpeak)2 for slabs S1–S6 at 93 days
+slab S3 after unloading from the peak construction
+load. If Mconc1/M is assumed to be 1, which is
+reasonable for lightly reinforced members like slabs,
+consideration of Fig. 12 shows that the mean tension
+stiffening moment after unloading is given by
+)Mperm ¼ Mpeak(1
+peak=(1 þ C))
+where ˜M ¼ Mpeak Mperm and CMpeak/Mr is the
+horizontal ordinate at which the unloading line
+intersects line A in Fig. 12.</p>
+      <p>Rotilio8 method8 can be shown to be equivalent to
+assuming C ¼ 1 in equation (14). The coefficient C in
+equation (14) was evaluated for slabs S3 to S5 by
+equating the measured mean tension stiffening moment
+after unloading to that given by equation (14) using the
+graphical procedure illustrated in Fig. 12. The
+corresponding values of C were 1.0 for S3, 1.3 for S4 and
+0.9 for S5 with a mean of 1.1. The mean measured and
+predicted tension stiffening moments Mconc mean given
+by equations (8) and (14) respectively are compared for
+slabs S3, S5 and S6 in Figs 15(a) to (c), which show a
+remarkable agreement between the measured and
+predicted values. Rearranging equation (14) gives
+Measured S3
+Predicted beta S3</p>
+      <p>Predicted S5
+Measured S5
+Fig. 15. (a) Comparison between measured and predicted
+Mconcmean for slab S3; (b) Comparison between measured and
+predicted Mconcmean for slab S5; (c). Comparison between
+measured and predicted Mconcmean for slab S6
+peak(1 þ CM peak=M perm)=(1 þ C)
+Analysis shows that the curvatures given by equation
+(13) are relatively insensitive to the value used for C in
+the calculation of * in equation (15) and it is
+suggested that C is taken as1 throughout as implicitly
+assumed in the Rotilio8 method.</p>
+      <p>Equation (13) implies that the normalised curvatures
+((Mperm S1/Mperm)1/rm) and corresponding mid-span
+deflections should vary linearly with 1 * at any given
+time. This has been investigated for slabs S1 to S6 and
+the results are given in Fig. 16, which shows a
+remarkably linear relationship between 1 * and curvature
+in slabs S1 to S6 at 93 days as predicted. Analysis
+shows that the linear relationship is virtually
+independent of the value of C used to define the slope of the
+unloading line in equation (15).
+S1–S6 at 93 days</p>
+      <p>Linear (S1–S6 at 93 days)
+Fig. 16. Relationship between normalised curvatures at 90
+days and 1 * for slabs S1–S6 at 93 days
+Rigorous method for deflection prediction</p>
+    </sec>
+    <sec id="4">
+      <title>in Concrete Society Technical Report TR58</title>
+      <p>Concrete Society Technical Report TR585 uses a
+single step method, based on the recommendations of
+Vollum et al.,1–3 to predict curvatures owing to load
+histories as presented in Fig. 2. The mean curvature is
+calculated with equation (1) in conjunction with
+equation (2) and modified values for the concrete tensile
+strength and effective elastic modulus. TR585 uses the
+following equation, based on the theory of
+superposition, to calculate a modified effective elastic modulus
+for concrete
+where Wi is the load increment at time ti and
+Eceff ¼ Ect/(1 + (ti, t )) where ti is the age at
+application of Wi and t is the age at which deflections are
+required.</p>
+      <p>TR585 uses equation (11) to modify the concrete
+tensile strength to account for cracking during
+construction and under peak loads. It is recommended in
+TR585 that is taken as 0.5 in equation (2) as tension
+stiffening is lost rapidly after first loading. The method
+in TR585 neglects the residual increase in curvature
+˜*1/rm that remains after unloading from peak loads
+(see Fig. 8). This omission was justified in the
+development of the method by observing that the effect of
+neglecting ˜*1/rm in the calculation of the long-term
+curvature under wperm is largely compensated by
+overestimating the loss in tension stiffening under the peak
+construction load.</p>
+      <p>Proposed method for deflection prediction</p>
+      <p>It is proposed that the rigorous method for deflection
+prediction in TR585 should be modified by calculating
+the interpolation coefficient in equation (1)
+corresponding to the peak construction load with equation (15)
+with C ¼ 1. In practice, peak can be calculated under
+the applied loading using fctmod (see equation (11)) and
+Mpeak/Mperm can be approximated as wpeak/wperm for
+uniformly loaded slabs. The coefficient used in the
+calculation of peak can be estimated with equation (10)
+if the duration of the peak construction load is known
+or, more conservatively, can be taken as 0.7 for peak
+construction loads of up to five weeks duration. It is
+suggested that the interpolation coefficient should be
+taken as the greatest of either frequent (where frequent is
+calculated under the frequent load with ¼ 0.5) or *
+in the calculation of long-term deflections.</p>
+      <p>Validation of proposed method</p>
+      <p>The accuracy of the proposed method for deflection
+prediction has been evaluated by comparing measured
+and predicted deflections in slabs S1–S6. Curvatures
+were calculated with methods outlined below.
+(a) TR58 A: TR585 with concrete material properties
+derived with Eurocode 2 from the concrete
+compressive strength with the concrete tensile strength
+taken as the flexural strength.
+(b) TR58 B: TR585 with concrete material properties
+derived with Eurocode 2 from the concrete
+compressive strength with the concrete tensile strength
+taken as the splitting strength.
+(c) TR58 C: TR585 with the measured concrete
+material properties.
+(d ) Proposed: Proposed method with the measured
+concrete material properties and the experimental
+values of .</p>
+      <p>The creep and shrinkage values used in TR58 C and
+the proposed method were derived from the equations
+of the lines of best fit to the mean in situ data shown in
+Figs 3–6. Measured creep coefficients were used to
+determine the curvatures under the peak construction
+loads in slabs S3, S4 and S5 but the increase in creep
+owing to the application of the peak construction load
+was neglected in the calculation of curvatures after the
+removal of the peak construction load. In reality, the in
+situ creep coefficients were greater in slabs S4 and S5
+than S6 as the additional creep under the peak
+construction load was not fully recovered on unloading as
+shown in Fig. 17. Despite this the measured long-term
+curvatures within the constant moment region of slabs
+S4 and S6 are very similar as shown in Fig. 10, even
+though the curvature was greater in the uncracked
+sections, adjacent to the supports, of slab S4 than S6. The
+reason for this is probably related to the fact that the
+effective creep coefficient is greater in the uncracked
+regions of the slab than in the cracked regions where
+tension is relieved in the concrete by cracking. In
+practice, compressive creep coefficients are usually used in
+deflection calculations. The present work suggests that
+Fig. 17. Comparison between curvatures in uncracked section
+of slabs S4 and S6
+this can lead to an underestimate of deflection in lightly
+loaded slabs with significant tension stiffening.</p>
+      <p>The measured and predicted mean mid-span
+curvatures are compared in Figs 18(a)–(f), which show that
+the proposed method gives significantly more realistic
+estimates of curvature in slabs S3 to S5 under the peak
+construction load and subsequently than the rigorous
+method in TR58.5 Furthermore, it can be seen that the
+curvature predictions are significantly improved when
+measured material properties are used, with curvatures
+being particularly sensitive to the concrete tensile
+strength, which was unexpectedly low in tests S4–S6
+for unknown reasons. It can be seen that deflections
+were overestimated in slabs S1 and S2 if the concrete
+tensile strengths were calculated in terms of the
+compressive strength using Eurocode 2. Conversely,
+deflections were significantly underestimated in slab S6 if the
+concrete tensile strength was taken as the flexural
+strength given by Eurcode 2 at 34 days when the
+permanent load was applied and cracking occurred.
+Conclusions</p>
+      <p>It has been demonstrated that tension stiffening is
+lost rapidly after cracking in flexural members but less
+rapidly than measured by Beeby and Scott6 in tension
+members. It is shown that long-term deflections can be
+governed by short-term peaks in construction loading
+as suggested by analysis of deflection data from
+Cardington.1,2 A modification is proposed to the Eurocode
+24 moment –curvature model to calculate the residual
+tension stiffening moment remaining in members after
+unloading from short-term peak loads. Expressions are
+developed to calculate the variation in time of the
+coefficient in the Eurocode 24 moment –curvature
+relationship. A refinement is proposed to the rigorous
+method for deflection prediction in Concrete Society
+Technical report 58,5 which is shown to give improved
+estimates of deflection after the removal of the peak
+construction load. The analysis of the test data shows
+that deflections can vary significantly from values
+predicted with material properties derived in terms of the
+concrete compressive strength. It is shown that
+deflections in slabs can be particularly sensitive to the
+concrete tensile strength, which is uncertain at the design
+stage. It is noteworthy that the final deflections in all
+the slabs were greater than span/250 (13.2 mm) even
+though the slabs complied with the span-to-effective
+depth ratios in Eurocode 2.4</p>
+      <p>Proposed
+TR58 A
+30 60 90 120 150 180 210 240 270 300 330</p>
+      <p>Time: days
+(f)</p>
+      <p>Discussion contributions on this paper should reach the editor by</p>
+      <sec id="4-1">
+        <title>1 August 2009</title>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Vollum</surname>
+            <given-names>R. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Moss R. M.</given-names>
+            and
+            <surname>Hossain</surname>
+          </string-name>
+          <string-name>
+            <surname>T. R.</surname>
+          </string-name>
+          <article-title>Slab deflections in the Cardington in-situ concrete frame building</article-title>
+          .
+          <source>Magazine of Concrete Research</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>54</volume>
+          , No.
+          <issue>1</issue>
+          ,
+          <fpage>23</fpage>
+          -
+          <lpage>34</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <given-names>Hossain</given-names>
+            <surname>T</surname>
+          </string-name>
+          . R and
+          <string-name>
+            <surname>Vollum</surname>
+            <given-names>R. L.</given-names>
+          </string-name>
+          <article-title>Prediction of slab deflections and validation against Cardington data</article-title>
+          .
+          <source>Proceedings of the Institution of Civil Engineers, Structures and Building</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>152</volume>
+          , No.
+          <issue>3</issue>
+          ,
+          <fpage>235</fpage>
+          -
+          <lpage>248</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Vollum</surname>
+            <given-names>R. L.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Hossain T. R.</surname>
+          </string-name>
+          <article-title>Are existing span-to-depth rules conservative for flat slabs</article-title>
+          ?
+          <source>Magazine of Concrete Research</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>54</volume>
+          , No.
+          <issue>6</issue>
+          ,
+          <fpage>411</fpage>
+          -
+          <lpage>421</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4. British Standards Institution.
+          <year>Eurocode</year>
+          2:
+          <article-title>Design of Concrete Structures: Part 1-1: General Rules and Rules for Buildings</article-title>
+          . BSI, London,
+          <year>2004</year>
+          .
+          <source>BS EN 1992-1-1:2004</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <given-names>Concrete</given-names>
+            <surname>Society</surname>
+          </string-name>
+          .
+          <article-title>Deflections in Concrete Beams and Slabs</article-title>
+          . The Concrete Society, Camberley,
+          <year>2005</year>
+          .
+          <source>Technical Report 58.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Beeby</surname>
+            <given-names>A. W.</given-names>
+          </string-name>
+          and
+          <string-name>
+            <surname>Scott</surname>
+            <given-names>R</given-names>
+          </string-name>
+          . H.
+          <article-title>Tension stiffening of concrete, behaviour of tension zones in reinforced concrete including time dependent effects</article-title>
+          .
+          <source>Supplementary Information. The Concrete Society, Camberley</source>
+          ,
+          <year>2004</year>
+          .
+          <source>Technical Report 59.</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Vollum</surname>
+            <given-names>R</given-names>
+          </string-name>
+          . L.
+          <article-title>Influences of shrinkage and construction loading on loss of tension stiffening in slabs</article-title>
+          .
+          <source>Magazine of Concrete Research</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>54</volume>
+          , No.
+          <issue>4</issue>
+          ,
+          <fpage>273</fpage>
+          -
+          <lpage>282</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Vollum</surname>
+            <given-names>R</given-names>
+          </string-name>
+          . L.
+          <article-title>Investigation into backprop forces and deflections at St George Wharf</article-title>
+          .
+          <source>Magazine of Concrete Research</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>55</volume>
+          , No.
+          <issue>5</issue>
+          ,
+          <fpage>449</fpage>
+          -
+          <lpage>460</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <source>Rotilio J.-D. Moment-curvature relationship. XIII FIP Congress and Exhibition, The Netherlands</source>
+          ,
+          <year>1998</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Neville</surname>
+            <given-names>A. M.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Properties of Concrete</surname>
+          </string-name>
+          ,
+          <year>4th</year>
+          edn. Longman, Harlow,
+          <year>1995</year>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

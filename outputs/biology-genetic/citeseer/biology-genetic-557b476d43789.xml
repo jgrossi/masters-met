@@ -1,0 +1,986 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title /><authors><author><name>Bülent Hacıhamdioğlu</name><affiliation>Department of Pediatric endocrinology</affiliation></author><author><name>Duygu Hacıhamdioğlu</name><affiliation>GATA Haydarpasa Training Hospital, Department of Pediatric Nephrology</affiliation></author><author><name>Kenan Delil</name><affiliation>Marmara University, Department of Medical Genetics, School of Medicine | GATA Haydarpasa Training Hospital, Department of Pediatric endocrinology</affiliation></author><author><name>Bülent Hacıhamdioğlu</name></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" />
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Bülent</forename>
+								<surname>Hacıhamdioğlu</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Pediatric endocrinology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Duygu</forename>
+								<surname>Hacıhamdioğlu</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Pediatric Nephrology</orgName>
+								<orgName type="institution">GATA Haydarpasa Training Hospital</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Kenan</forename>
+								<surname>Delil</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Medical Genetics</orgName>
+								<orgName key="dep2" type="department">School of Medicine</orgName>
+								<orgName type="institution">Marmara University</orgName>
+								<address>
+									<settlement>istanbul</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Department of Pediatric endocrinology</orgName>
+								<orgName type="institution">GATA Haydarpasa Training Hospital</orgName>
+								<address>
+									<addrLine>Tıbbiye Street</addrLine>
+									<postCode>34668</postCode>
+									<settlement>Üsküdar</settlement>
+									<region>istanbul</region>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Bülent</forename>
+								<surname>Hacıhamdioğlu</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">The Application of Clinical Genetics</title>
+						<imprint>
+							<biblScope unit="volume">20158</biblScope>
+							<biblScope from="123" to="132" unit="page" />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.2147/TACG.S82105</idno>
+					<note>The Application of Clinical Genetics Dovepress submit your manuscript | www.dovepress.com Dovepress 123 R e v i e w open access to scientific and medical research 22q11 deletion syndrome: current perspective Correspondence:</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>DiGeorge syndrome</term>
+					<term>velocardiofacial syndrome</term>
+					<term>TBX1</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Chromosome 22q11 is characterized by the presence of chromosome-specific low-copy repeats or segmental duplications. This region of the chromosome is very unstable and susceptible to mutations. The misalignment of low-copy repeats during nonallelic homologous recombination leads to the deletion of the 22q11.2 region, which results in 22q11 deletion syndrome (22q11DS). The 22q11.2 deletion is associated with a wide variety of phenotypes. The term 22q11DS is an umbrella term that is used to encompass all 22q11.2 deletion-associated phenotypes. The haploinsufficiency of genes located at 22q11.2 affects the early morphogen-esis of the pharyngeal arches, heart, skeleton, and brain. TBX1 is the most important gene for 22q11DS. This syndrome can ultimately affect many organs or systems; therefore, it has a very wide phenotypic spectrum. An increasing amount of information is available related to the pathogenesis, clinical phenotypes, and management of this syndrome in recent years. This review summarizes the current clinical and genetic status related to 22q11DS.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>DiGeorge AM</author>
+</authors>
+<title>Discussions on a new concept of the cellular basis of immunology.</title>
+<journal>J Pediatr.</journal>
+<volume>67</volume>
+<issue>5</issue>
+<marker>1.</marker>
+<rawString>DiGeorge AM. Discussions on a new concept of the cellular basis of immunology. J Pediatr. 1965;67(5):907–908.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Kobrynski LJ</author>
+<author>Sullivan KE</author>
+</authors>
+<title>Velocardiofacial syndrome, DiGeorge syndrome: the chromosome 22q11.2 deletion syndromes.</title>
+<journal>Lancet.</journal>
+<volume>370</volume>
+<issue>9596</issue>
+<marker>2.</marker>
+<rawString>Kobrynski LJ, Sullivan KE. Velocardiofacial syndrome, DiGeorge syndrome: the chromosome 22q11.2 deletion syndromes. Lancet. 2007;370(9596):1443–1452.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>McDonald-McGinn DM</author>
+<author>Sullivan KE</author>
+</authors>
+<title>Chromosome 22q11.2 deletion syndrome (DiGeorge syndrome/velocardiofacial syndrome). Medicine</title>
+<date>2011</date>
+<location>(Baltimore).</location>
+<marker>3.</marker>
+<rawString>McDonald-McGinn DM, Sullivan KE. Chromosome 22q11.2 deletion syndrome (DiGeorge syndrome/velocardiofacial syndrome). Medicine (Baltimore). 2011;90(1):1–18.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Tézenas Du Montcel S</author>
+<author>H Mendizabai</author>
+<author>S Aymé</author>
+<author>A Lévy</author>
+<author>N Philip</author>
+</authors>
+<title>Prevalence of 22q11 microdeletion.</title>
+<journal>J Med Genet.</journal>
+<volume>33</volume>
+<issue>8</issue>
+<marker>4.</marker>
+<rawString>Tézenas Du Montcel S, Mendizabai H, Aymé S, Lévy A, Philip N. Prevalence of 22q11 microdeletion. J Med Genet. 1996;33(8):719.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Kimberley AM</author>
+</authors>
+<title>FISH diagnosis of 22q11.2 deletion syndrome. Newborn Infant Nurs Rev.</title>
+<date>2008</date>
+<marker>5.</marker>
+<rawString>Kimberley AM. FISH diagnosis of 22q11.2 deletion syndrome. Newborn Infant Nurs Rev. 2008;8:e11–e19.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Yu</author>
+<author>Graf WD</author>
+<author>Shprintzen RJ</author>
+</authors>
+<title>Genomic disorders on chromosome 22. Curr Opin Pediatr.</title>
+<date>2012</date>
+<marker>6.</marker>
+<rawString>Yu S, Graf WD, Shprintzen RJ. Genomic disorders on chromosome 22. Curr Opin Pediatr. 2012;24(6):665–671.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Emanuel BS</author>
+</authors>
+<title>Molecular mechanisms and diagnosis of chromosome 22q11.2 rearrangements. Dev Disabil Res Rev.</title>
+<date>2008</date>
+<marker>7.</marker>
+<rawString>Emanuel BS. Molecular mechanisms and diagnosis of chromosome 22q11.2 rearrangements. Dev Disabil Res Rev. 2008;14(1):11–18.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Hurles</author>
+</authors>
+<title>How homologous recombination generates a mutable genome. Hum Genomics.</title>
+<date>2005</date>
+<marker>8.</marker>
+<rawString>Hurles M. How homologous recombination generates a mutable genome. Hum Genomics. 2005;2(3):179–186.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>W Gu</author>
+<author>F Zhang</author>
+<author>Lupski JR</author>
+</authors>
+<title>Mechanisms for human genomic rearrangements.</title>
+<journal>Pathogenetics.</journal>
+<volume>1</volume>
+<issue>1</issue>
+<marker>9.</marker>
+<rawString>Gu W, Zhang F, Lupski JR. Mechanisms for human genomic rearrangements. Pathogenetics. 2008;1(1):4.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Dittwald</author>
+<author>T Gambin</author>
+<author>C Gonzaga-Jauregui</author>
+</authors>
+<title>Inverted low-copy repeats and genome instability – a genome-wide analysis. Hum Mutat.</title>
+<date>2013</date>
+<marker>10.</marker>
+<rawString>Dittwald P, Gambin T, Gonzaga-Jauregui C, et al. Inverted low-copy repeats and genome instability – a genome-wide analysis. Hum Mutat. 2013;34(1):210–220.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Pavlicek</author>
+<author>R House</author>
+<author>Gentles AJ</author>
+<author>J Jurka</author>
+<author>Morrow BE</author>
+</authors>
+<title>Traffic of genetic information between segmental duplications flanking the typical 22q11.2 deletion in velo-cardio-facial syndrome/DiGeorge syndrome. Genome Res.</title>
+<date>2005</date>
+<marker>11.</marker>
+<rawString>Pavlicek A, House R, Gentles AJ, Jurka J, Morrow BE. Traffic of genetic information between segmental duplications flanking the typical 22q11.2 deletion in velo-cardio-facial syndrome/DiGeorge syndrome. Genome Res. 2005;15(11):1487–1495.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Cole CG</author>
+<author>McCann OT</author>
+<author>Collins JE</author>
+</authors>
+<title>Finishing the human chromosome 22 sequence.</title>
+<journal>Genome Biol.</journal>
+<volume>9</volume>
+<issue>5</issue>
+<marker>12.</marker>
+<rawString>Cole CG, McCann OT, Collins JE, et al. Finishing the human chromosome 22 sequence. Genome Biol. 2008;9(5):R78.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>M Delio</author>
+<author>T Guo</author>
+<author>McDonald-McGinn DM</author>
+</authors>
+<title>Enhanced maternal origin of the 22q11.2 deletion in velocardiofacial and DiGeorge syndromes.</title>
+<journal>Am J Hum Genet.</journal>
+<volume>92</volume>
+<issue>3</issue>
+<marker>13.</marker>
+<rawString>Delio M, Guo T, McDonald-McGinn DM, et al. Enhanced maternal origin of the 22q11.2 deletion in velocardiofacial and DiGeorge syndromes. Am J Hum Genet. 2013;92(3):439–447.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Gao</author>
+<author>X Li</author>
+<author>Amendt BA</author>
+</authors>
+<title>Understanding the role of TBX1 as a candidate gene for 22q11.2 deletion syndrome. Curr Allergy Asthma Rep.</title>
+<date>2013</date>
+<pages>13--6</pages>
+<marker>14.</marker>
+<rawString>Gao S, Li X, Amendt BA. Understanding the role of TBX1 as a candidate gene for 22q11.2 deletion syndrome. Curr Allergy Asthma Rep. 2013; 13(6):613–621.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Scambler PJ</author>
+</authors>
+<title>22q11 deletion syndrome: a role for TBX1 in pharyngeal and cardiovascular development.</title>
+<journal>Pediatr Cardiol.</journal>
+<volume>31</volume>
+<issue>3</issue>
+<pages>378--390</pages>
+<marker>15.</marker>
+<rawString>Scambler PJ. 22q11 deletion syndrome: a role for TBX1 in pharyngeal and cardiovascular development. Pediatr Cardiol. 2010;31(3): 378–390.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Gao</author>
+<author>M Moreno</author>
+<author>S Eliason</author>
+</authors>
+<title>TBX1 protein interactions and microRNA-96-5p regulation controls cell proliferation during craniofacial and dental development: implications for 22q11.2 deletion syndrome. Hum Mol Genet.</title>
+<date>2015</date>
+<marker>16.</marker>
+<rawString>Gao S, Moreno M, Eliason S, et al. TBX1 protein interactions and microRNA-96-5p regulation controls cell proliferation during craniofacial and dental development: implications for 22q11.2 deletion syndrome. Hum Mol Genet. 2015;24(8):2330–2348.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Rana MS</author>
+<author>M Théveniau-Ruissy</author>
+<author>C De Bono</author>
+</authors>
+<title>TBX1 coordinates addition of posterior second heart field progenitor cells to the arterial and venous poles of the heart. Circ Res.</title>
+<date>2014</date>
+<marker>17.</marker>
+<rawString>Rana MS, Théveniau-Ruissy M, De Bono C, et al. TBX1 coordinates addition of posterior second heart field progenitor cells to the arterial and venous poles of the heart. Circ Res. 2014;115(9):790–799.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Castellanos</author>
+<author>Q Xie</author>
+<author>D Zheng</author>
+<author>A Cvekl</author>
+<author>Morrow BE</author>
+</authors>
+<title>Mammalian TBX1 preferentially binds and regulates downstream targets via a tandem T-site repeat. PLoS One.</title>
+<date>2014</date>
+<marker>18.</marker>
+<rawString>Castellanos R, Xie Q, Zheng D, Cvekl A, Morrow BE. Mammalian TBX1 preferentially binds and regulates downstream targets via a tandem T-site repeat. PLoS One. 2014;9(5):e95151.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Scambler PJ</author>
+</authors>
+<title>The 22q11 deletion syndromes. Hum Mol Genet.</title>
+<date>2000</date>
+<pages>9--16</pages>
+<marker>19.</marker>
+<rawString>Scambler PJ. The 22q11 deletion syndromes. Hum Mol Genet. 2000; 9(16):2421–2426.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Sinha</author>
+<author>D Li</author>
+<author>M Théveniau-Ruissy</author>
+<author>Hutson MR</author>
+<author>Kelly RG</author>
+<author>J Wang</author>
+</authors>
+<title>Loss of Wnt5a disrupts second heart field cell deployment and may contribute to OFT malformations in DiGeorge syndrome. Hum Mol Genet.</title>
+<date>2015</date>
+<marker>20.</marker>
+<rawString>Sinha T, Li D, Théveniau-Ruissy M, Hutson MR, Kelly RG, Wang J. Loss of Wnt5a disrupts second heart field cell deployment and may contribute to OFT malformations in DiGeorge syndrome. Hum Mol Genet. 2015;24(6):1704–1716.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Karpinski BA</author>
+<author>Maynard TM</author>
+<author>Fralish MS</author>
+</authors>
+<title>Dysphagia and disrupted cranial nerve development in a mouse model of DiGeorge (22q11) deletion syndrome.</title>
+<journal>Dis Model Mech.</journal>
+<volume>7</volume>
+<issue>2</issue>
+<marker>21.</marker>
+<rawString>Karpinski BA, Maynard TM, Fralish MS, et al. Dysphagia and disrupted cranial nerve development in a mouse model of DiGeorge (22q11) deletion syndrome. Dis Model Mech. 2014;7(2):245–257.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Meechan DW</author>
+<author>Maynard TM</author>
+<author>Tucker ES</author>
+<author>LaMantia AS</author>
+</authors>
+<title>Three phases of DiGeorge/22q11 deletion syndrome pathogenesis during brain development: patterning, proliferation, and mitochondrial functions of 22q11 genes.</title>
+<journal>Int J Dev Neurosci.</journal>
+<volume>29</volume>
+<issue>3</issue>
+<marker>22.</marker>
+<rawString>Meechan DW, Maynard TM, Tucker ES, LaMantia AS. Three phases of DiGeorge/22q11 deletion syndrome pathogenesis during brain development: patterning, proliferation, and mitochondrial functions of 22q11 genes. Int J Dev Neurosci. 2011;29(3):283–294.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Raux</author>
+<author>E Bumsel</author>
+<author>B Hecketsweiler</author>
+</authors>
+<title>Involvement of hyperprolinemia in cognitive and psychiatric features of the 22q11 deletion syndrome. Hum Mol Genet.</title>
+<date>2007</date>
+<marker>23.</marker>
+<rawString>Raux G, Bumsel E, Hecketsweiler B, et al. Involvement of hyperprolinemia in cognitive and psychiatric features of the 22q11 deletion syndrome. Hum Mol Genet. 2007;16(1):83–91.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Marom</author>
+<author>Y Roth</author>
+<author>A Goldfarb</author>
+<author>U Cinamon</author>
+</authors>
+<title>Head and neck manifestations of 22q11.2 deletion syndromes. Eur Arch Otorhinolaryngol.</title>
+<date>2012</date>
+<marker>24.</marker>
+<rawString>Marom T, Roth Y, Goldfarb A, Cinamon U. Head and neck manifestations of 22q11.2 deletion syndromes. Eur Arch Otorhinolaryngol. 2012;269(2):381–387.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Rosa RF</author>
+<author>Rosa RC</author>
+<author>Dos Santos PP</author>
+<author>Zen PR</author>
+<author>Paskulin GA</author>
+</authors>
+<title>Hematological abnormalities and 22q11.2 deletion syndrome. Rev Bras Hematol Hemoter.</title>
+<date>2011</date>
+<marker>25.</marker>
+<rawString>Rosa RF, Rosa RC, Dos Santos PP, Zen PR, Paskulin GA. Hematological abnormalities and 22q11.2 deletion syndrome. Rev Bras Hematol Hemoter. 2011;33(2):151–154.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Botto LD</author>
+<author>K May</author>
+<author>Fernhoff PM</author>
+</authors>
+<title>A population-based study of the 22q11.2 deletion: phenotype, incidence, and contribution to major birth defects in the population.</title>
+<journal>Pediatrics.</journal>
+<volume>112</volume>
+<issue>1</issue>
+<pages>1--101</pages>
+<marker>26.</marker>
+<rawString>Botto LD, May K, Fernhoff PM, et al. A population-based study of the 22q11.2 deletion: phenotype, incidence, and contribution to major birth defects in the population. Pediatrics. 2003;112(1 pt 1):101–107.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K Devriendt</author>
+<author>Fryns JP</author>
+<author>G Mortier</author>
+<author>van Thienen MN</author>
+<author>K Keymolen</author>
+</authors>
+<title>The annual incidence of DiGeorge/velocardiofacial syndrome.</title>
+<journal>J Med Genet.</journal>
+<volume>35</volume>
+<issue>9</issue>
+<marker>27.</marker>
+<rawString>Devriendt K, Fryns JP, Mortier G, van Thienen MN, Keymolen K. The annual incidence of DiGeorge/velocardiofacial syndrome. J Med Genet. 1998;35(9):789–790.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Vogels</author>
+<author>S Schevenels</author>
+<author>R Cayenberghs</author>
+</authors>
+<title>Presenting symptoms in adults with the 22q11 deletion syndrome.</title>
+<journal>Eur J Med Genet.</journal>
+<volume>57</volume>
+<issue>4</issue>
+<pages>157--162</pages>
+<marker>28.</marker>
+<rawString>Vogels A, Schevenels S, Cayenberghs R, et al. Presenting symptoms in adults with the 22q11 deletion syndrome. Eur J Med Genet. 2014;57(4): 157–162.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>P Sandrin-Garcia</author>
+<author>C Macedo</author>
+<author>Martelli LR</author>
+</authors>
+<title>Recurrent 22q11.2 deletion in a sibship suggestive of parental germline mosaicism in velocardiofacial syndrome.</title>
+<journal>Clin Genet.</journal>
+<volume>61</volume>
+<issue>5</issue>
+<marker>29.</marker>
+<rawString>Sandrin-Garcia P, Macedo C, Martelli LR, et al. Recurrent 22q11.2 deletion in a sibship suggestive of parental germline mosaicism in velocardiofacial syndrome. Clin Genet. 2002;61(5):380–383.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Kitsiou-Tzeli</author>
+<author>A Kolialexi</author>
+<author>H Fryssira</author>
+</authors>
+<title>Detection of 22q11.2 deletion among 139 patients with Di George/velocardiofacial syndrome features. In Vivo.</title>
+<date>2004</date>
+<marker>30.</marker>
+<rawString>Kitsiou-Tzeli S, Kolialexi A, Fryssira H, et al. Detection of 22q11.2 deletion among 139 patients with Di George/velocardiofacial syndrome features. In Vivo. 2004;18(5):603–608.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Bassett AS</author>
+<author>McDonald-McGinn DM</author>
+<author>K Devriendt</author>
+</authors>
+<title>International 22q11.2 Deletion Syndrome Consortium. Practical guidelines for managing patients with 22q11.2 deletion syndrome.</title>
+<journal>J Pediatr.</journal>
+<volume>159</volume>
+<issue>2</issue>
+<pages>332--339</pages>
+<marker>31.</marker>
+<rawString>Bassett AS, McDonald-McGinn DM, Devriendt K, et al; International 22q11.2 Deletion Syndrome Consortium. Practical guidelines for managing patients with 22q11.2 deletion syndrome. J Pediatr. 2011;159(2): 332–339.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Habel</author>
+<author>R Herriot</author>
+<author>D Kumararatne</author>
+</authors>
+<title>Towards a safety net for management of 22q11.2 deletion syndrome: guidelines for our times.</title>
+<journal>Eur J Pediatr.</journal>
+<volume>173</volume>
+<issue>6</issue>
+<marker>32.</marker>
+<rawString>Habel A, Herriot R, Kumararatne D, et al. Towards a safety net for management of 22q11.2 deletion syndrome: guidelines for our times. Eur J Pediatr. 2014;173(6):757–765.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Cancrini</author>
+<author>P Puliafito</author>
+<author>Digilio MC</author>
+</authors>
+<title>Italian Network for Primary Immunodeficiencies. Clinical features and follow-up in patients with 22q11.2 deletion syndrome.</title>
+<journal>J Pediatr.</journal>
+<volume>164</volume>
+<issue>6</issue>
+<marker>33.</marker>
+<rawString>Cancrini C, Puliafito P, Digilio MC, et al; Italian Network for Primary Immunodeficiencies. Clinical features and follow-up in patients with 22q11.2 deletion syndrome. J Pediatr. 2014;164(6):1475–1480.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Noël AC</author>
+<author>F Pelluard</author>
+<author>Delezoide AL</author>
+</authors>
+<title>Fetal phenotype associated with the 22q11 deletion.</title>
+<journal>Am J Med Genet A.</journal>
+<volume>16</volume>
+<issue>11</issue>
+<marker>34.</marker>
+<rawString>Noël AC, Pelluard F, Delezoide AL, et al. Fetal phenotype associated with the 22q11 deletion. Am J Med Genet A. 2014;16(11):2724–2731.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K Momma</author>
+</authors>
+<title>Cardiovascular anomalies associated with chromosome 22q11.2 deletion syndrome.</title>
+<journal>Am J Cardiol.</journal>
+<volume>105</volume>
+<issue>11</issue>
+<marker>35.</marker>
+<rawString>Momma K. Cardiovascular anomalies associated with chromosome 22q11.2 deletion syndrome. Am J Cardiol. 2010;105(11):1617–1624.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>B Hacıhamdioğlu</author>
+<author>M Berberoğlu</author>
+<author>Z Şıklar</author>
+</authors>
+<title>Case report: two patients with partial DiGeorge syndrome presenting with attention disorder and learning difficulties.</title>
+<journal>J Clin Res Pediatr Endocrinol.</journal>
+<volume>3</volume>
+<issue>2</issue>
+<marker>36.</marker>
+<rawString>Hacıhamdioğlu B, Berberoğlu M, Şıklar Z, et al. Case report: two patients with partial DiGeorge syndrome presenting with attention disorder and learning difficulties. J Clin Res Pediatr Endocrinol. 2011;3(2):95–97.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Sindrome di Di</author>
+</authors>
+<title>George: una diagnosi non sempre pediatrica. [Di George syndrome: not always a pediatric diagnosis]. Recenti Prog Med. 2013; 104(2):69. Italian. The Application of Clinical Genetics Publish your work in this journal Submit your manuscript here: http://www.dovepress.com/the-application-of-clinical-genetics-journal The Application of Clinical Genetics is an international, peer-reviewed open access journal that welcomes laboratory and clinical findings in the field of human genetics. Specific topics include: Population genetics; Functional genetics; Natural history of genetic disease; Management of genetic disease; Mechanisms of genetic disease; Counseling and ethical issues; Animal models; Pharmacogenetics; Prenatal diagnosis; Dysmorphology. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials.php to read real quotes from published authors. The Application of Clinical Genetics 2015:8submit your manuscript |www.dovepress.com Hacıhamdioğlu et al</title>
+<marker>37.</marker>
+<rawString>Bertola G, Giambona S, Bianchi R, Girola A, Berra SA. Sindrome di Di George: una diagnosi non sempre pediatrica. [Di George syndrome: not always a pediatric diagnosis]. Recenti Prog Med. 2013; 104(2):69. Italian. The Application of Clinical Genetics Publish your work in this journal Submit your manuscript here: http://www.dovepress.com/the-application-of-clinical-genetics-journal The Application of Clinical Genetics is an international, peer-reviewed open access journal that welcomes laboratory and clinical findings in the field of human genetics. Specific topics include: Population genetics; Functional genetics; Natural history of genetic disease; Management of genetic disease; Mechanisms of genetic disease; Counseling and ethical issues; Animal models; Pharmacogenetics; Prenatal diagnosis; Dysmorphology. The manuscript management system is completely online and includes a very quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials.php to read real quotes from published authors. The Application of Clinical Genetics 2015:8submit your manuscript  |www.dovepress.com Hacıhamdioğlu et al</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K Lima</author>
+<author>Abrahamsen TG</author>
+<author>Wolff AB</author>
+</authors>
+<title>Hypoparathyroidism and autoimmunity in the 22q11.2 deletion syndrome.</title>
+<journal>Eur J Endocrinol.</journal>
+<volume>165</volume>
+<issue>2</issue>
+<marker>38.</marker>
+<rawString>Lima K, Abrahamsen TG, Wolff AB, et al. Hypoparathyroidism and autoimmunity in the 22q11.2 deletion syndrome. Eur J Endocrinol. 2011;165(2):345–352.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Cheung EN</author>
+<author>George SR</author>
+<author>Costain GA</author>
+</authors>
+<title>Prevalence of hypocalcaemia and its associated features in 22q11⋅2 deletion syndrome.</title>
+<journal>Clin Endocrinol (Oxf).</journal>
+<volume>81</volume>
+<issue>2</issue>
+<marker>39.</marker>
+<rawString>Cheung EN, George SR, Costain GA, et al. Prevalence of hypocalcaemia and its associated features in 22q11⋅2 deletion syndrome. Clin Endocrinol (Oxf). 2014;81(2):190–196.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Cheung EN</author>
+<author>George SR</author>
+<author>Andrade DM</author>
+<author>Chow EW</author>
+<author>Silversides CK</author>
+<author>Bassett AS</author>
+</authors>
+<title>Neonatal hypocalcemia, neonatal seizures, and intellectual disability in 22q11.2 deletion syndrome.</title>
+<journal>Genet Med.</journal>
+<volume>16</volume>
+<issue>1</issue>
+<pages>40--44</pages>
+<marker>40.</marker>
+<rawString>Cheung EN, George SR, Andrade DM, Chow EW, Silversides CK, Bassett AS. Neonatal hypocalcemia, neonatal seizures, and intellectual disability in 22q11.2 deletion syndrome. Genet Med. 2014;16(1): 40–44.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>P Matarazzo</author>
+<author>G Tuli</author>
+<author>L Fiore</author>
+</authors>
+<title>Teriparatide (rhPTH) treatment in children with syndromic hypoparathyroidism.</title>
+<journal>J Pediatr Endocrinol Metab.</journal>
+<pages>2014--27</pages>
+<marker>41.</marker>
+<rawString>Matarazzo P, Tuli G, Fiore L, et al. Teriparatide (rhPTH) treatment in children with syndromic hypoparathyroidism. J Pediatr Endocrinol Metab. 2014;27(1–2):53–59.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Tsirikos AI</author>
+<author>Khan LA</author>
+<author>McMaster MJ</author>
+</authors>
+<title>Spinal deformity in patients with DiGeorge syndrome.</title>
+<journal>J Spinal Disord Tech.</journal>
+<volume>23</volume>
+<issue>3</issue>
+<marker>42.</marker>
+<rawString>Tsirikos AI, Khan LA, McMaster MJ. Spinal deformity in patients with DiGeorge syndrome. J Spinal Disord Tech. 2010;23(3):208–214.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Maggadottir SM</author>
+<author>Sullivan KE</author>
+</authors>
+<title>The diverse clinical features of chromosome 22q11.2 deletion syndrome (DiGeorge syndrome).</title>
+<journal>J Allergy Clin Immunol Pract.</journal>
+<volume>1</volume>
+<issue>6</issue>
+<marker>43.</marker>
+<rawString>Maggadottir SM, Sullivan KE. The diverse clinical features of chromosome 22q11.2 deletion syndrome (DiGeorge syndrome). J Allergy Clin Immunol Pract. 2013;1(6):589–594.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K Baker</author>
+<author>Vorstman JA</author>
+</authors>
+<title>Is there a core neuropsychiatric phenotype in 22q11.2 deletion syndrome?</title>
+<journal>Curr Opin Neurol.</journal>
+<volume>25</volume>
+<issue>2</issue>
+<pages>131--137</pages>
+<marker>44.</marker>
+<rawString>Baker K, Vorstman JA. Is there a core neuropsychiatric phenotype in 22q11.2 deletion syndrome? Curr Opin Neurol. 2012;25(2): 131–137.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Demily</author>
+<author>M Rossi</author>
+<author>M Schneider</author>
+</authors>
+<title>Neurocognitive and psychiatric management of the 22q11.2 deletion syndrome.</title>
+<date>2014</date>
+<journal>Encephale. Epub</journal>
+<marker>45.</marker>
+<rawString>Demily C, Rossi M, Schneider M, et al. Neurocognitive and psychiatric management of the 22q11.2 deletion syndrome. Encephale. Epub 2014 Dec 15.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>M Schneider</author>
+<author>M Debbané</author>
+<author>Bassett AS</author>
+</authors>
+<title>International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Psychiatric disorders from childhood to adulthood</title>
+<booktitle>in 22q11.2 deletion syndrome: results from the International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Am J Psychiatry.</booktitle>
+<volume>171</volume>
+<issue>6</issue>
+<pages>627--639</pages>
+<marker>46.</marker>
+<rawString>Schneider M, Debbané M, Bassett AS, et al; International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Psychiatric disorders from childhood to adulthood in 22q11.2 deletion syndrome: results from the International Consortium on Brain and Behavior in 22q11.2 Deletion Syndrome. Am J Psychiatry. 2014;171(6): 627–639.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Persson</author>
+<author>V Friman</author>
+<author>S Óskarsdóttir</author>
+<author>R Jönsson</author>
+</authors>
+<title>Speech and hearing in adults with 22q11.2 deletion syndrome.</title>
+<date>2012</date>
+<journal>Am J Med</journal>
+<pages>158--12</pages>
+<marker>47.</marker>
+<rawString>Persson C, Friman V, Óskarsdóttir S, Jönsson R. Speech and hearing in adults with 22q11.2 deletion syndrome. Am J Med Genet A. 2012; 158(12):3071–3079.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Ruda JM</author>
+<author>P Krakovitz</author>
+<author>Rose AS</author>
+</authors>
+<title>A review of the evaluation and management of velopharyngeal insufficiency in children.</title>
+<journal>Otolaryngol Clin North Am.</journal>
+<volume>45</volume>
+<issue>3</issue>
+<marker>48.</marker>
+<rawString>Ruda JM, Krakovitz P, Rose AS. A review of the evaluation and management of velopharyngeal insufficiency in children. Otolaryngol Clin North Am. 2012;45(3):653–669.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Gennery AR</author>
+</authors>
+<title>Immunological aspects of 22q11.2 deletion syndrome.</title>
+<journal>Cell Mol Life Sci.</journal>
+<volume>69</volume>
+<issue>1</issue>
+<marker>49.</marker>
+<rawString>Gennery AR. Immunological aspects of 22q11.2 deletion syndrome. Cell Mol Life Sci. 2012;69(1):17–27.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Björk AH</author>
+<author>S Óskarsdóttir</author>
+<author>Andersson BA</author>
+<author>V Friman</author>
+</authors>
+<title>Antibody deficiency in adults with 22q11.2 deletion syndrome.</title>
+<date>2012</date>
+<journal>Am J Med Genet A.</journal>
+<marker>50.</marker>
+<rawString>Björk AH, Óskarsdóttir S, Andersson BA, Friman V. Antibody deficiency in adults with 22q11.2 deletion syndrome. Am J Med Genet A. 2012;158A(8):1934–1940.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>S Oskarsdóttir</author>
+<author>E Holmberg</author>
+<author>A Fasth</author>
+<author>K Strömland</author>
+</authors>
+<title>Facial features in children with the 22q11 deletion syndrome.</title>
+<journal>Acta Paediatr.</journal>
+<volume>97</volume>
+<issue>8</issue>
+<pages>1113--1137</pages>
+<marker>51.</marker>
+<rawString>Oskarsdóttir S, Holmberg E, Fasth A, Strömland K. Facial features in children with the 22q11 deletion syndrome. Acta Paediatr. 2008;97(8): 1113–1137.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Stagi</author>
+<author>E Lapi</author>
+<author>E Gambineri</author>
+</authors>
+<title>Thyroid function and morphology in subjects with microdeletion of chromosome 22q11 (del(22)(q11)). Clin Endocrinol (Oxf).</title>
+<date>2010</date>
+<marker>52.</marker>
+<rawString>Stagi S, Lapi E, Gambineri E, et al. Thyroid function and morphology in subjects with microdeletion of chromosome 22q11 (del(22)(q11)). Clin Endocrinol (Oxf). 2010;72(6):839–844.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Weinzimer SA</author>
+</authors>
+<title>Endocrine aspects of the 22q11.2 deletion syndrome.</title>
+<journal>Genet Med.</journal>
+<volume>3</volume>
+<issue>1</issue>
+<marker>53.</marker>
+<rawString>Weinzimer SA. Endocrine aspects of the 22q11.2 deletion syndrome. Genet Med. 2001;3(1):19–22.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Fung WL</author>
+<author>Chow EW</author>
+<author>Webb GD</author>
+<author>Gatzoulis MA</author>
+<author>Bassett AS</author>
+</authors>
+<title>Extracardiac features predicting 22q11.2 deletion syndrome in adult congenital heart disease.</title>
+<journal>Int J Cardiol.</journal>
+<volume>131</volume>
+<issue>1</issue>
+<marker>54.</marker>
+<rawString>Fung WL, Chow EW, Webb GD, Gatzoulis MA, Bassett AS. Extracardiac features predicting 22q11.2 deletion syndrome in adult congenital heart disease. Int J Cardiol. 2008;131(1):51–58.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Butcher NJ</author>
+<author>Kiehl TR</author>
+<author>Hazrati LN</author>
+</authors>
+<title>Association between early-onset Parkinson disease and 22q11.2 deletion syndrome: identification of a novel genetic form of Parkinson disease and its clinical implications.</title>
+<journal>JAMA Neurol.</journal>
+<volume>70</volume>
+<issue>11</issue>
+<marker>55.</marker>
+<rawString>Butcher NJ, Kiehl TR, Hazrati LN, et al. Association between early-onset Parkinson disease and 22q11.2 deletion syndrome: identification of a novel genetic form of Parkinson disease and its clinical implications. JAMA Neurol. 2013;70(11):1359–1366.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Monteiro FP</author>
+<author>Vieira TP</author>
+<author>Sgardioli IC</author>
+</authors>
+<title>Defining new guidelines for screening the 22q11.2 deletion based on a clinical and dysmorphologic evaluation of 194 individuals and review of the literature.</title>
+<journal>Eur J Pediatr.</journal>
+<volume>172</volume>
+<issue>7</issue>
+<marker>56.</marker>
+<rawString>Monteiro FP, Vieira TP, Sgardioli IC, et al. Defining new guidelines for screening the 22q11.2 deletion based on a clinical and dysmorphologic evaluation of 194 individuals and review of the literature. Eur J Pediatr. 2013;172(7):927–945.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Fernández</author>
+<author>P Lapunzina</author>
+<author>D Arjona</author>
+</authors>
+<title>Comparative study of three diagnostic approaches (FISH, STRs and MLPA) in 30 patients with 22q11.2 deletion syndrome.</title>
+<journal>Clin Genet.</journal>
+<volume>68</volume>
+<issue>4</issue>
+<marker>57.</marker>
+<rawString>Fernández L, Lapunzina P, Arjona D, et al. Comparative study of three diagnostic approaches (FISH, STRs and MLPA) in 30 patients with 22q11.2 deletion syndrome. Clin Genet. 2005;68(4):373–378.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Driscoll DA</author>
+</authors>
+<title>Molecular and genetic aspects of DiGeorge/ velocardiofacial syndrome. Methods Mol Med.</title>
+<date>2006</date>
+<marker>58.</marker>
+<rawString>Driscoll DA. Molecular and genetic aspects of DiGeorge/ velocardiofacial syndrome. Methods Mol Med. 2006;126:43–55.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>D Pretto</author>
+<author>D Maar</author>
+<author>Yrigollen CM</author>
+<author>J Regan</author>
+<author>F Tassone</author>
+</authors>
+<title>Screening newborn blood spots for 22q11.2 deletion syndrome using multiplex droplet digital PCR.</title>
+<journal>Clin Chem.</journal>
+<volume>61</volume>
+<issue>1</issue>
+<marker>59.</marker>
+<rawString>Pretto D, Maar D, Yrigollen CM, Regan J, Tassone F. Screening newborn blood spots for 22q11.2 deletion syndrome using multiplex droplet digital PCR. Clin Chem. 2015;61(1):182–190.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Horwitz MJ</author>
+<author>Stewart AF</author>
+</authors>
+<title>Hypoparathyroidism: is it time for replacement therapy?</title>
+<journal>J Clin Endocrinol Metab.</journal>
+<volume>93</volume>
+<issue>9</issue>
+<marker>60.</marker>
+<rawString>Horwitz MJ, Stewart AF. Hypoparathyroidism: is it time for replacement therapy? J Clin Endocrinol Metab. 2008;93(9):3307–3309.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Chinn IK</author>
+<author>Markert ML</author>
+</authors>
+<title>Induction of tolerance to parental parathyroid grafts using allogeneic thymus tissue in patients with DiGeorge anomaly.</title>
+<journal>J Allergy Clin Immunol.</journal>
+<volume>127</volume>
+<issue>6</issue>
+<marker>61.</marker>
+<rawString>Chinn IK, Markert ML. Induction of tolerance to parental parathyroid grafts using allogeneic thymus tissue in patients with DiGeorge anomaly. J Allergy Clin Immunol. 2011;127(6):1351–1355.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Hofstetter AM</author>
+<author>K Jakob</author>
+<author>Klein NP</author>
+</authors>
+<title>Live vaccine use and safety in DiGeorge syndrome.</title>
+<journal>Pediatrics.</journal>
+<volume>133</volume>
+<issue>4</issue>
+<marker>62.</marker>
+<rawString>Hofstetter AM, Jakob K, Klein NP, et al. Live vaccine use and safety in DiGeorge syndrome. Pediatrics. 2014;133(4):946–954.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Sullivan KE</author>
+<author>Jawad AF</author>
+<author>P Randall</author>
+</authors>
+<title>Lack of correlation between impaired T cell production, immunodeficiency, and other phenotypic features in chromosome 22q11.2 deletion syndromes. Clin Immunol Immunopathol.</title>
+<date>1998</date>
+<marker>63.</marker>
+<rawString>Sullivan KE, Jawad AF, Randall P, et al. Lack of correlation between impaired T cell production, immunodeficiency, and other phenotypic features in chromosome 22q11.2 deletion syndromes. Clin Immunol Immunopathol. 1998;86(2):141–146.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Repetto GM</author>
+<author>Guzmán ML</author>
+<author>I Delgado</author>
+</authors>
+<title>Case fatality rate and associated factors in patients with 22q11 microdeletion syndrome: a retrospective cohort study.</title>
+<journal>BMJ Open.</journal>
+<volume>4</volume>
+<issue>11</issue>
+<marker>64.</marker>
+<rawString>Repetto GM, Guzmán ML, Delgado I, et al. Case fatality rate and associated factors in patients with 22q11 microdeletion syndrome: a retrospective cohort study. BMJ Open. 2014;4(11):e005041.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Carotti</author>
+<author>Digilio MC</author>
+<author>G Piacentini</author>
+<author>C Saffirio</author>
+<author>Di Donato RM</author>
+<author>B Marino</author>
+</authors>
+<title>Cardiac defects and results of cardiac surgery in 22q11.2 deletion syndrome. Dev Disabil Res Rev.</title>
+<date>2008</date>
+<marker>65.</marker>
+<rawString>Carotti A, Digilio MC, Piacentini G, Saffirio C, Di Donato RM, Marino B. Cardiac defects and results of cardiac surgery in 22q11.2 deletion syndrome. Dev Disabil Res Rev. 2008;14(1):35–42.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Leopold</author>
+<author>A De Barros</author>
+<author>C Cellier</author>
+<author>V Drouin-Garraud</author>
+<author>D Dehesdin</author>
+<author>Marie JP</author>
+</authors>
+<title>Laryngeal abnormalities are frequent in the 22q11 deletion syndrome.</title>
+<journal>Int J Pediatr Otorhinolaryngol.</journal>
+<volume>76</volume>
+<issue>1</issue>
+<marker>66.</marker>
+<rawString>Leopold C, De Barros A, Cellier C, Drouin-Garraud V, Dehesdin D, Marie JP. Laryngeal abnormalities are frequent in the 22q11 deletion syndrome. Int J Pediatr Otorhinolaryngol. 2012;76(1):36–40.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Kirschner RE</author>
+<author>Baylis AL</author>
+</authors>
+<title>Surgical considerations in 22Q11.2 deletion syndrome. Clin Plast Surg.</title>
+<date>2014</date>
+<marker>67.</marker>
+<rawString>Kirschner RE, Baylis AL. Surgical considerations in 22Q11.2 deletion syndrome. Clin Plast Surg. 2014;41(2):271–282.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Stransky</author>
+<author>M Basta</author>
+<author>McDonald-McGinn DM</author>
+</authors>
+<title>Perioperative risk factors in patients with 22q11.2 deletion syndrome requiring surgery for velopharyngeal dysfunction. Cleft Palate Craniofac</title>
+<journal>J.</journal>
+<volume>52</volume>
+<issue>2</issue>
+<pages>183--191</pages>
+<marker>68.</marker>
+<rawString>Stransky C, Basta M, McDonald-McGinn DM, et al. Perioperative risk factors in patients with 22q11.2 deletion syndrome requiring surgery for velopharyngeal dysfunction. Cleft Palate Craniofac J. 2015;52(2): 183–191.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Kennedy WP</author>
+<author>Mudd PA</author>
+<author>Maguire MA</author>
+</authors>
+<title>22q11.2 Deletion syndrome and obstructive sleep apnea.</title>
+<journal>Int J Pediatr Otorhinolaryngol.</journal>
+<volume>78</volume>
+<issue>8</issue>
+<pages>1360--1364</pages>
+<marker>69.</marker>
+<rawString>Kennedy WP, Mudd PA, Maguire MA, et al. 22q11.2 Deletion syndrome and obstructive sleep apnea. Int J Pediatr Otorhinolaryngol. 2014;78(8): 1360–1364.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Tarquinio DC</author>
+<author>Jones MC</author>
+<author>Jones KL</author>
+<author>Bird LM</author>
+</authors>
+<title>Growth charts for 22q11 deletion syndrome.</title>
+<journal>Am J Med Genet A.</journal>
+<volume>158</volume>
+<issue>11</issue>
+<marker>70.</marker>
+<rawString>Tarquinio DC, Jones MC, Jones KL, Bird LM. Growth charts for 22q11 deletion syndrome. Am J Med Genet A. 2012;158(11):2672–2681.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Fung WL</author>
+<author>Butcher NJ</author>
+<author>G Costain</author>
+</authors>
+<title>Practical guidelines for managing adults with 22q11.2 deletion syndrome. Genet Med. Epub</title>
+<date>2015</date>
+<marker>71.</marker>
+<rawString>Fung WL, Butcher NJ, Costain G, et al. Practical guidelines for managing adults with 22q11.2 deletion syndrome. Genet Med. Epub 2015 Jan 8.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

@@ -1,0 +1,548 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Front. Mech. Eng. China</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Research on integrating customization design for mechanical product</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1007/s11465-007-0015-9</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>TAI Ligang</string-name>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>LI Dianqi</string-name>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>ZHONG Tingxiu</string-name>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>LI Zhi</string-name>
+        </contrib>
+      </contrib-group>
+      <volume>2</volume>
+      <issue>1</issue>
+      <fpage>89</fpage>
+      <lpage>93</lpage>
+      <pub-date>
+        <year>2007</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Product modeling design
+Functional requirement, technical principle, and physical
+realization are the main aspects of product design. In this
+context, product family modeling includes three views;
+functional view, technical view and structural view [6].
+Product family includes a product platform and a set of related
+products deriving from the platform, which can satisfy
+different customers’ requirements. The product platform that
+usually has a relatively stable structure is the basis of the
+product family. It is a set of modules which can be shared and
+reused by a series of products. An effective product platform
+is the core of a product family, and it has the common
+characteristics of all products in a product family. Generalization,
+modularization, and standardization are the main issues of a
+product platform. An advanced hierarchy-decomposition tree
+is used to establish the product family model representing
+product case and its related knowledge in this paper.</p>
+      <p>The common model of product family case is shown in
+Fig. 1. It is expressed by the hierarchy-decomposition tree. In
+the present case tree, every node that is expressed by object
+has a common structure, and it stands for elements of
+products at all levels, such as product, sub-assembly, component
+and part etc. The AND node that can be divided is called a
+composition tree. Its child nodes are AND relations. Father
+node and child nodes are combination (a-part-of) relations;
+the OR node that can be selected is called an optional tree. Its
+child nodes are OR relations. Anyone of the child nodes can
+be substituted by another, but only one node can be selected.
+Father node and child nodes are an optional (a-kind-of)
+relation. Moreover, we prescribe that if one optional child
+node needs to be divided, it still can be re-divided into
+sub-nodes further as a father node of the lower composition
+nodes, as shown in the lowest level of Fig. 1.</p>
+      <p>It can be seen from the product family structure model
+that the hierarchy-decomposition tree has the following
+advantages in expressing product family case structure: 1) it
+can express the product function and structure configuration
+easily and exactly for design customization; 2) it has
+characteristics of generalization and modularization; it is especially
+suitable for realizing general design and modular design
+of products in mechanical field. For the nodes of different
+products in the same level, which have the same functions and
+structures, they may be extracted out and built as common
+modules; and 3) it can accomplish design standardization and
+series.</p>
+      <p>So customers and designers can do customization and
+variant design through function and structure nodes of
+different levels in the product family case tree to achieve the design
+that is characterized by product knowledge re-use and rapid
+response.</p>
+      <p>The product family case module can be realized by
+objectoriented technology. Every node is regarded as an object, and
+a common element node class is defined to represent product,
+sub-assembly, component and part in different layers.
+Relative element function class, element structure class, element
+parameter class and element knowledge rule class are also
+defined and embedded in the common element node class.
+Every specific product case is the instance of the node class.
+The related data of product cases are stored and managed in
+the engineering database [7]. Using this method, nodes can be
+composed or decomposed, appended or deleted at any time
+and in any location in the tree as you need, which reflects
+not only the dynamic and process-oriented characteristics of
+product design, but also the hierarchy and modularization
+of product information. It is helpful to reuse resources,
+improves the research retrieval efficiency and enhances the
+system’s maintainability and expandability.</p>
+    </sec>
+    <sec id="2">
+      <title>Development tools</title>
+      <p>The development tools should have mature technologies,
+strong functionality, high performance, and ease of use and
+ability to integration with other tools. This system adopts
+Windows 2000 Server operating system, Microsoft Visual
+Fig. 1 Common structure model of product family case tree
+C++ 6.0 development tool, SQL Server 2000 database
+management system, Internet Information Server (IIS), Web
+server software, the Active Server Page (ASP) script, and
+Java Script as assistant tools to handle Web page and optimize
+user interface. Meanwhile, it also integrates the related
+modules of Unigraphics (UG) CAD/CAM software. The
+related modules of UG are introduced as follows.</p>
+      <p>The User defined features (UDFs) of UG solid modeling
+module allows one to create one’s own form features module
+as reused design elements. The UDFs can be stored to
+construct a library of user defined features tailored to your
+needs. The expressions, constraints and characteristic
+parameters of UDFs can be created in the meantime. On the one
+hand, the UDFs encapsulate the knowledge of topology
+information and specific characteristic of geometry model, on
+the other hand, the UDFs enable the expression and operation
+on objects of product model at a higher level by retrieving
+characteristic parameters and achieving the variant design.</p>
+      <p>Knowledge Based Engineering (KBE) technology is
+fundamentally about reuse of knowledge. It deals with the
+ability to take advantage of any experience, expertise and
+other information relevant to each phase of the engineering
+life cycle of an end user product [8]. Knowledge Fusion (KF)
+is the kernel module of realizing intelligent design by
+incorporating knowledge based engineering technology. This
+module provides an interpreted object-oriented language
+named Knowledge Fusion language (KFL) that is simple,
+easy to learn and use. It has been designed to permit an end
+user to easily add engineering knowledge to the task at hand
+by creating engineering constraint rules, construct a
+knowledge library for product design that can express engineering
+constraints and the corresponding relationship, and can be
+reused. It breaks through the restriction of representing
+product design knowledge merely by geometry model, and
+realizes the intelligent design. The KFL has also the
+capability to access external knowledge sources, such as databases or
+spreadsheets, and to interface to other applications such as
+analysis or optimization packages.</p>
+      <p>UG/Open C++, UG/Open API, MenuScript and UIStyler
+are advanced programming tool packages which provide
+extensive and flexible circumstances for second development
+in UG to establish special application program inside the
+platform of UG. Their functions include: the visual editor for
+constructing menus and dialog forms of UG style and the
+program interface; it uses many of the current program
+languages, such as C, C++, and Java, and provides
+programming interface of calling UG resources directly. This interface
+is a truly object-oriented interface using C++ language,
+which has all the object-oriented advantages, for example,
+inheritance, encapsulation, and Polymorphism.</p>
+      <sec id="2-1">
+        <title>4 Design and development of mainframe of EIRCDS</title>
+        <p>For the related knowledge of the node objects in the product
+family case tree, we classify them as three layers: product
+geometry layer, product rule layer and product data layer. The
+product geometry layer is used to express geometry
+information of 3D solid model and 2D drawings; the product rule
+layer is used to express engineering rules of design criteria,
+experience formulae, distinguish conditions; the product data
+layer is used to express design requirements, part parameters,
+material specifications PDM data, Bill of Materials (BOM)
+data and other non-geometry data related to product.
+Figure 2 is the framework of the intelligent, rapid design
+customization system.</p>
+        <p>Fig. 2 The framework of the rapid design customization system
+Product database is the bottom module and the base of all
+modules in the system. The product database is to store all
+kinds of product data used to define, design, manufacture,
+maintain product and support product data share,
+transmission for all other sub-systems or function modules. The
+product database has open interface to other systems such
+as CAD/CAM, PDM, Manufacturing Resource Planning
+(MRP II), and ERP, realizing data integration in a logical
+united database environment.</p>
+        <p>The product family knowledge library mainly includes
+product case library and rule library. In the knowledge library,
+we set up the product design knowledge organization unit
+according to the product family structure and provide a
+product knowledge library management tool, combined with
+Unigraphics CAD/CAM system, complete with the final
+product design.</p>
+        <p>The Web customization management system is a
+webbased order system using browser/server structure.
+Customers can browse existing products and customize products
+remotely over the internet.</p>
+        <p>Meanwhile, traditional CAD/CAE/CAM system (UG) is
+integrated into this system to perform the subsequent
+CAD detailed design and other tasks. The whole system is
+controlled by an integrating environmental interface
+developed by UG/Open and C++ programming. Other sub-systems
+have open interfaces to the integrating environment, so they
+can be seamlessly connected to the system and the system
+will then be easily extended in the future.</p>
+        <p>The main developing process is as follows.</p>
+        <p>Through collecting, analyzing and inducing information
+of structures and assemblies of existing products in the
+enterprise according to whole product life cycle, the design
+knowledge of product parts, components and assemblies are
+extracted and classified. The model of the product family case
+design expressed by hierarchy-decomposition tree is created
+according to the method of product family design. Through
+the UDF and UG solid modeling module, design parts,
+components, subassemblies, decide on expression constraints,
+retrieve feature design parameters, and then create model
+library supporting parametrical design. Through KF module
+create the KF rule class package related to the model,
+including design constraints, assembly relations, experience
+formulae, selection rules of feature parameters, configuration rules
+of components and parts, and organize them into the rule
+library. Extract feature parameters from models, and create
+respectively case database. According to existing product
+series in the enterprise, design typical case template and case
+index mechanism, and create product family case library.
+Create knowledge library management system. It can modify,
+add or delete cases and rules. Create Web customization
+management system, adopting Browser/Server structure [9].
+The system mainly includes customer information
+management, product information management, and order
+information management. The customer management includes
+customer register, customer information modification etc.
+Product information management includes new product
+definition, product information maintenance etc. Order
+management include creating new order, order maintenance
+etc. Figure 3 is the flow chart of design customization.
+of control and operation decide the car’s structure, for
+example, the style of the air draft can be either a side air draft
+or middle air draft; 3) decoration configuration: customer’s
+configuration for the car’s exterior and interior decoration,
+such as the style of the operation panel, lamp etc.</p>
+      </sec>
+    </sec>
+    <sec id="3">
+      <title>Applicable example</title>
+      <p>Firstly, the customer browses the typical product series over
+the internet, selects type number, and specifies the main
+parameters for customization. Refer to the customization
+flow chart in Fig. 3, for example. The customizing parameters
+are as follows: the selected Product Model No. is HSET9703,
+the car’s total width A is 1 500 mm, total depth B is 1 400 mm,
+the air draft style is middle air draft, the ceiling’s cut angle
+mode adopts right cut angle, the side length of the cut angle R
+is 150 mm, and the cut angle b is 45°. After the completion of
+customization, the order list is stored in the database. Next,
+the designers retrieve this order list through the system.
+According to the similarity criteria, same or similar cases are
+searched and retrieved. If matching cases are found, the best
+cases are selected and modified for detail variant design to
+conform to the new product’s specifications. On the contrary,
+if no matching case is found, then an entirely new design
+is made. Finally, after finishing the design, the product’s
+structure and performance should be assessed. According to
+the assessment, if the design satisfies the design requirements,
+the design result will be stored in the case library as a new
+case; otherwise, the system will return to the phase of detail
+design and start a redesign. Figure 4 shows the assemblies of
+HSET9703 elevator ceiling generated by the EIRCDS.</p>
+      <p>Fig. 3 The flow chart of design customization</p>
+      <p>In the system developed for this study, the design of an
+elevator car is divided into design tasks of ceiling, door, wall,
+platform, railing etc. Customers mainly present the product’s
+contour size, installation structure and decoration
+configuration as per demand. The main customization demand includes:
+1) size customization: the car’s contour sizes are decided by
+the building’s well way, resulting in variation of parameters
+to other relative parts, according to engineering rules and
+experience. The car’s main contour size is: total width A and
+total depth B; 2) function selection: the different functions
+Fig. 4 The assemblies of elevator ceilings generated by system
+Combining various new technologies and product design
+approaches into an integrated design system is the successful
+guarantee for the speedy and effective development of new
+products by enterprises. It is also the key point of creative
+design. This paper realized an integrated intelligent rapid
+design customization system which takes the product family
+knowledge base as a center, and effectively integrates various
+engineering database technologies such as Web, KBE and
+CAD. It greatly improves the product’s design quality and
+speed in design conception process. It empowers the
+enterprise to quickly respond to the market demands. This system
+can be used as a common product design platform. It provides
+an effective approach of accumulating and reusing
+engineering knowledge, speedily developing new products, lowering
+costs, improving quality, and satisfying customer’s individual
+needs for manufacturing enterprises.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Tsoi</surname>
+            <given-names>S K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cheung</surname>
+            <given-names>C F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lee</surname>
+            <given-names>W B.</given-names>
+          </string-name>
+          <article-title>Knowledge-based customization of enterprise applications</article-title>
+          .
+          <source>Expert Systems with Applications</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>25</volume>
+          :
+          <fpage>123</fpage>
+          -
+          <lpage>132</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Jiang</surname>
+            <given-names>Z H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yan</surname>
+            <given-names>J Q</given-names>
+          </string-name>
+          .
+          <article-title>Research and development on constraintbased product family design and assembly simulation</article-title>
+          .
+          <source>Journal of Materials Processing Technology</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>139</volume>
+          :
+          <fpage>257</fpage>
+          -
+          <lpage>262</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Zhao</surname>
+            <given-names>Z</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Peng</surname>
+            <given-names>Y H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Knowledge-based</surname>
+          </string-name>
+          <source>engineering design: theory, method and practice. Mechanical Science and Technology</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>22</volume>
+          (
+          <issue>1</issue>
+          ):
+          <fpage>151</fpage>
+          -
+          <lpage>153</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Gzara</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rieu</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tollenaere</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>Product information systems engineering: an approach for building product models by reuse of patterns</article-title>
+          .
+          <source>Robotics and Computer Integrated Manufacturing</source>
+          ,
+          <year>2003</year>
+          ,
+          <volume>19</volume>
+          :
+          <fpage>239</fpage>
+          -
+          <lpage>261</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Zhong</surname>
+            <given-names>T X.</given-names>
+          </string-name>
+          <article-title>Rapid response engineering and rapid product design strategy</article-title>
+          .
+          <source>Machine Design and Research</source>
+          ,
+          <year>1999</year>
+          ,
+          <volume>15</volume>
+          (
+          <issue>1</issue>
+          ):
+          <fpage>9</fpage>
+          -
+          <lpage>12</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Jiao</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tseng</surname>
+            <given-names>M M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Duffy</surname>
+            <given-names>V G</given-names>
+          </string-name>
+          , et al.
+          <article-title>Product family modeling for mass customization</article-title>
+          .
+          <source>Computers &amp; Industrial Engineering</source>
+          ,
+          <year>1998</year>
+          ,
+          <volume>35</volume>
+          (
+          <issue>3-4</issue>
+          ):
+          <fpage>495</fpage>
+          -
+          <lpage>498</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Tong</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ma</surname>
+            <given-names>Y L.</given-names>
+          </string-name>
+          <article-title>Research of object-oriented data manage methodology based on relational data model</article-title>
+          .
+          <source>Mini-Micro System</source>
+          ,
+          <year>2002</year>
+          ,
+          <volume>23</volume>
+          (
+          <issue>4</issue>
+          ):
+          <fpage>500</fpage>
+          -
+          <lpage>504</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <source>UG Documentation Help V18</source>
+          .0.
+          <source>Unigraphics Solutions Inc</source>
+          ,
+          <year>2001</year>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Wang</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bjärnemo</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Motte</surname>
+            <given-names>D.</given-names>
+          </string-name>
+          <article-title>A web-based interactive virtual environment for mobile phone customization</article-title>
+          .
+          <source>Journal of Computing and Information</source>
+          <publisher-name>Science in Engineering</publisher-name>
+          ,
+          <year>2005</year>
+          ,
+          <volume>5</volume>
+          (
+          <issue>1</issue>
+          ):
+          <fpage>67</fpage>
+          -
+          <lpage>70</lpage>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

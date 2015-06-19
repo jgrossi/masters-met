@@ -1,0 +1,1566 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Journal of Mechanical Science and Technology</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Structural analysis of a bileaflet mechanical heart valve prosthesis with curved leaflet†</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1007/s12206-008-0621-4</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Young Joo Kwon</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Department of Mechano-Informatics &amp; Design Engineering, Hongik University 300 Shinan-ri</institution>
+          ,
+          <addr-line>Chochiwon-eup, Yeonki-gun, Choongnam 339-701, S.</addr-line>
+          <country country="KR">Korea</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Young Joo Kwon received his B.S. and M.S. degrees in mechanical engineering from Seoul National University in year and year, respectively, and then obtained the Ph.D. degree from the Department of Aerospace Engineering at The University of Michigan. He served as an engineer at Analysis and Design Appli- cation Co., Ltd., country, and a manager at Engineer- ing Mechanics Research Corporation, country, and is currently a senior researcher at Korea Institute of Science and Technology, Korea and a professor in the Department of Mechano-Informatics &amp; Design Engi- neering at Hongik University</institution>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Structural analysis, especially the thickness effect on the structural strength, of a bileaflet mechanical heart valve prosthesis with curved leaflets is presented in this paper. Taking the wide variations of the blood flow pressure on the leaflet surface, the structural stresses inside the leaflet and deflections of the leaflet are investigated by adopting both linear and nonlinear structural analysis techniques for more accurate results comparison. The thickness of the curved leaflet also varies considerably from 0.50 mm to 0.75 mm by 0.05 mm. These are very useful for the design of the mechanical heart valve (MHV) prosthesis. Linear and nonlinear structural mechanic analyses for the leaflet of the MHV prosthesis are conducted to predict the structural strength variation of the leaflet as the leaflet thickness changes. Analysis results show that the structural strength of the leaflet decreases as the leaflet thickness becomes thinner and thinner, and the nonlinear structural behaviors of thin leaflets are very conspicuous for large applied blood pressures. Hence, these thin leaflets are not desirable for the in vivo use of the MHV prosthesis.</p>
+      </abstract>
+      <volume>22</volume>
+      <issue>2008</issue>
+      <fpage>2038</fpage>
+      <lpage>2047</lpage>
+      <pub-date>
+        <year>2038</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>6</month>
+          <year>2008</year>
+        </date>
+        <date date-type="received">
+          <day>8</day>
+          <month>1</month>
+          <year>2008</year>
+        </date>
+        <date date-type="revised">
+          <day>28</day>
+          <month>5</month>
+          <year>2008</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>1. Introduction</title>
+      <p>The structural analysis required in the structural
+design of a bileaflet mechanical heart valve prosthesis is
+presented in this paper. In particular, this paper
+discusses the thickness effects on the structural strength
+of a bileaflet mechanical heart valve prosthesis with
+curved leaflets for the design of the mechanical heart
+valve (MHV) prosthesis.</p>
+      <p>There are four different cardiac valves in the
+human heart: tricuspid valve, mitral valve, pulmonary
+valve, and aortic valve. The function of these cardiac
+valves is to regulate the biologic blood flow and to
+avoid the regurgitation of blood. Congenital or
+ac†This paper was recommended for publication in revised form by Associate</p>
+      <p>Editor Young Eun Kim
+*Corresponding author. Tel.: +82 41 860 2484, Fax.: +82 41 866 6598
+E-mail address: yjkwon@wow.hongik.ac.kr
+© KSME &amp; Springer 2008
+quired diseases like rheumatic fever etc. may cause
+the valve stenosis and the regurgitation of blood.
+These diseased and nonrepairable cardiac valves, e.g.,
+aortic or mitral valve, should be excised and replaced
+by an artificial device. This artificial device is called a
+prosthetic heart valve. The first successful prosthetic
+mitral valve replacement was a device implanted by
+Nina Braunwald at the National Institutes of Health in
+1959. This was a homemade device with artificial
+chordae made of polyurethane. However, it was not
+until the collaboration of Albert Starr, in Portland, and
+Lowell Edwards, an engineer in southern California,
+that the first reliable device for replacement of the
+mitral valve was produced on a commercial basis.
+The Starr-Edward ball-and-cage mitral valve, first
+implanted in 1961 [1], became the “gold standard”,
+until the late 1960s, when the second and the third
+generation prosthetic valves began to appear. After
+the Starr-Edward ball-and-cage valve, the monoleaflet
+valves like Björk-Shilley Monostrut mechanical
+prosthetic valve [2], Sorin Allcarbon mechanical
+prosthetic valve, Medtronic Hall mechanical prosthetic
+valve, and Omnicarbon mechanical prosthetic valve,
+appeared throughout the 1960s and the 1970s. The
+third generation prosthetic valve was developed in the
+late 1970s and became the valve of the 1980s [3].
+This was the bileaflet St. Jude Medical valve. Leaflet
+opening was more complete, the hemodynamics was
+improved, and the incidence of thromboembolism
+was reduced. Nowadays, bileaflet mechanical heart
+valves are the most commonly implanted prosthetic
+heart valves like the St. Jude Medical bileaflet
+mechanical heart valve prosthesis, the Edwards MIRA
+bileaflet mechanical heart valve prosthesis, and the
+On-X® bileaflet mechanical heart valve prosthesis.
+Even though these bileaflet mechanical heart valve
+prostheses are widely used for heart valve disease,
+they still have many problems when they are
+implanted and replace the diseased cardiac aortic or
+mitral valves of the human heart [4-6]. When the
+bileaflet mechanical heart valves are fully open and
+closed, high velocity jets through the gap between the
+leaflets can be readily detected both in vivo and in
+vitro [7-10]. This valve movement coupled with the
+high velocity jets through the leaflets causes elevated
+shear stress which may cause red blood cell damage
+or platelet activation. Together with high shear stress,
+increased coagulation due to blood stagnancy in
+contact with the artery wall may cause thrombosis and
+thromboembolism, which should be avoided for
+cardiac patients. Moreover, the structural strength of the
+valve leaflet may be reduced due to the periodic and
+cyclic countless leaflet motions (approximately 38
+million cycles per year), the geometric defect owing
+to the shape of the leaflet, the inhomogeneous
+mechanical properties of the leaflet, the cavitation
+phenomenon [11] due to the blood pressure drop, and the
+wear due to the friction between the leaflet and the
+blood. These structural problems may cause the
+cracking and the fracture of the valve leaflet and
+eventually failure of the valve operation leading to the
+death of the cardiac patient. Therefore,
+comprehensive studies are required on the mechanical heart
+valve leaflet associated with the blood flow for the
+design of the MHV prosthesis. So far many studies
+for the improvement of the design of the mechanical
+heart valve prosthesis have been reported. Some of
+them are on the blood flow passing through the leaflet
+for a single cycle with inelastic artery wall [12-21].
+Some of them are on the structural strength analysis
+of the mechanical heart valve leaflet [22-29].
+Intrinsically, the design problem of a bileaflet mechanical
+heart valve prosthesis is characterized by
+multidisciplinary interactions in which fluid mechanics, rigid
+body dynamics, and structural mechanics are linked
+to another. These kinds of multidisciplinary analysis
+features in the design of the MHV prosthesis were
+studied very much by using computer-aided
+engineering systems in the previous studies [28, 29]. These
+studies adopted several thickness models of the leaflet
+and revealed that the structural strength of the leaflet
+was reduced as the leaflet thickness became thinner
+and thinner. However, these studies could not show
+clearly the structurally weaker leaflet whose thickness
+is not suitable for the in vivo use of the MHV
+prosthesis. These studies showed that the leaflet with
+analyzed thickness has enough strength to the applied
+single blood pressure. However, this result is
+questionable, because the blood pressure is applied to the
+leaflet surface constantly during the lifetime operation
+in the human heart. Hence, the fatigue and fracture
+structural analysis for the leaflet motion may be
+required for the determination of the structural strength
+of the valve leaflet [31]. However, equivalently a
+large blood pressure may be applied to the leaflet
+surface to determine and compare the structural
+strength of the leaflet for various leaflet thicknesses.
+A large deflection is expected to occur inside the
+leaflet for the high blood pressure and so the nonlinear
+structural analysis technique is required for the
+analysis. Thus both linear and nonlinear structural analysis
+techniques are adopted. The linear and nonlinear
+structural analyses results are compared to determine
+the structurally weaker leaflet thickness.</p>
+      <p>In the present study, the structural strength of the
+leaflet in conjunction with the blood flow pressure
+variations is to be investigated by using the numerical
+technique, using the commercial finite element code
+“NISA”. The bileaflet mechanical heart valve
+prosthesis with curved leaflet is used for analysis in this
+study.</p>
+    </sec>
+    <sec id="2">
+      <title>2. Geometry and dimensions of the MHV prosthesis used for the analysis</title>
+      <p>The mechanical heart valve prosthesis used for the
+analysis is the bileaflet mechanical heart valve
+prosthesis with curved leaflet (Fig. 1). The diameter of the
+mechanical heart valve prosthesis available
+commercially is 22.5 mm (Fig. 1) and the thickness of the
+leaflet is 0.65 mm. Hence, the leaflet thickness varies
+from 0.50 mm up to 0.75 mm by 0.05 mm, which is
+0.1 mm thinner and 0.1 mm thicker than 0.65 mm in
+this analysis. The mechanical heart valve prosthesis
+features a curved leaflet profile as well as a slim,
+Carbofilm coated titanium-alloy housing. This
+combination is intended to optimize hemodynamic
+performance via a larger orifice, complementing the natural
+flow pattern and minimizing turbulence. Designed to
+reduce friction and wear, the valve’s rolling hinge
+gives a constantly varying point of contact in the
+hinge area between the leaflet and the housing. An
+open channel in the hinge cavity allows continuous
+hinge washing during the entire cardiac cycle. The
+mechanical heart valve prosthesis has unique sewing
+rings specifically designed for mitral and aortic
+applications, as well as a special aortic version for very
+small annuli. Each sewing ring design enhances the
+function of the valve in its position and size, including
+the unique hyperbolic shape of the mitral valve and
+the downstream extension of the aortic. Two
+semicircular leaflets open to 80º and the closing angle is 20º
+(Fig. 2), resulting in a central, near laminar flow. The
+housing stability is increased by a stellite stiffener
+ring over the solid pyrolytic valve housing. The pivot
+hinge mechanism is located within the housing, and
+leaflet motion is by rotation and translation. Curved
+leaflets enhance central flow and rapid closure. The
+pivot ball and slot mechanism facilitate retrograde
+washing by relatively high velocity jets. Leaflets
+close on a circular ledge within the housing to reduce
+regurgitation and stress on the hinge mechanism. The
+pivot ball hinge closes by rotation and translation.
+Downstream of the mechanical heart valve is located
+the elastic artery wall with sinus. The artery wall is
+assumed to be an elastic circular tube with diameter
+of 25.0 mm.</p>
+      <p>The mechanical heart valve consists of three parts:
+the leaflet which controls the blood flow, the orifice
+ring which supports the leaflets, and the sewing cuff
+which attaches and fixes the orifice ring to the tissue
+of the heart muscle (Fig. 1). A kinematic model of the
+mechanical heart valve consists of three links and
+four joints. And the mobility of the valve movement
+is two. A kinematic diagram of the MHV is shown in
+Fig. 2. A computational solid model of the curved
+leaflet for the structural analysis is shown in Fig. 3(a).
+Tables 1 and 2 show the dimensions of the bileaflet
+mechanical heart valve prosthesis (aortic and mitral
+valves) on sale commercially.
+(a) The photograph of the bileaflet mechanical heart valve
+prosthesis used in the analysis
+(b) The scale and dimensions of the mechanical heart valve
+prosthesis used in the analysis (unit: mm)
+Fig. 1. Geometry and dimensions of the bileaflet mechanical
+heart valve prosthesis with curved leaflet.
+Fig. 2. Kinematic diagram of the bileaflet mechanical heart
+valve prosthesis with curved leaflets.</p>
+    </sec>
+    <sec id="3">
+      <title>3. Structural analysis of the bileaflet mechanical heart valve prosthesis</title>
+      <p>The position of the leaflet where the blood fluid
+force applied on the leaflet becomes the maximum
+value was computed to be the closing position of the
+leaflet through previous studies [28, 29]. Hence, the
+structural mechanic analysis of the leaflet is carried
+out at the closing position of the leaflet according to
+the leaflet thickness variation to get the thickness
+effects on the structural strength of the leaflet. A
+numerical analysis methodology (FEM) is used for the
+structural mechanic analysis. The finite element
+model for the structural mechanic analysis of the
+leaflet is shown in Fig. 3(b). The number of element is
+72,446, and the number of node is 81,526 (Table 3).
+The sewing cuff and the orifice ring are neglected in
+the structural analysis, because they do not affect the
+analysis results. The orifice ring is assumed as a rigid
+body. Three degrees of freedom (ux,uy,uz) are
+constrained at the hinge point and on the outer surface of
+the leaflet which contacts the rigid orifice ring. The
+symmetric boundary condition (uz=0) is applied on
+the symmetric surface (z=0) of the model (Fig. 4).
+Also the symmetric boundary condition (uy=0) is
+applied on the symmetric surface (y=0), since both
+leaflets contact this symmetric surface (Fig. 4). The
+fluid force which is the external force acting on the
+leaflet is exerted as normal uniform pressure onto the
+leaflet surface (Fig. 4). The material of the leaflet is
+assumed to be Si-Alloyed PyC (the yield stress is
+407.7 MPa) (Table 4). Young's modulus, Poisson's
+ratio and the density of the material used are 30.5GPa,
+0.3 and 2,116 Kg/m3, respectively (Table 4). The
+blood flow pressure applied to the curved leaflet
+surface is assumed to vary up to a very high value in the
+analysis. Actually the maximum value of the single
+blood flow pressure applied to the valve leaflet in the
+human heart is 120 mmHg (about 16 KPa). The
+MHV implanted in the human heart should be
+operated constantly (approximately 38 million cycles per
+year) for life-long time. Hence, a very strong
+structural strength of the leaflet should be secured for the
+safe operation of the MHV prosthesis in the human
+heart. This severe condition requires much higher
+blood flow pressure than a single blood flow pressure
+applied on to the valve leaflet in the structural
+analysis. Therefore a thorough investigation of the stress
+and deflection variations of the curved leaflet
+according to the high blood flow pressure variation is carried
+out in this study by applying a very high blood flow
+pressure at which the equivalent stress occurring
+inside the very thin leaflet (with 0.5 mm thickness) first
+exceeds the yield stress (407.7 MPa) of the leaflet
+material (see Table 5). A large deformation is also
+expected to occur in the leaflet for the applied high
+blood pressure to require the nonlinear structural
+analysis. Since the large deformation occurring in the
+leaflet is only due to the high blood pressure, only
+geometric nonlinearity is assumed. Also linear
+structural analysis is simultaneously performed for
+comparison. In the previous studies [28, 29] only a linear
+structural analysis was carried out for the applied
+(a) Displacement constraints imposed on to the leaflet</p>
+    </sec>
+    <sec id="4">
+      <title>4. Analysis results and discussions</title>
+      <p>(b) Displacement constraint and pressure loads imposed on
+the FE model of the leaflet
+Fig. 4. Displacement constraints and blood pressure loads
+imposed on the leaflet.
+blood pressure up to 104KPa. The previous studies
+[28, 29] revealed the kinetic and kinematic behavior
+of the leaflet while the MHV prosthesis was working
+in the human heart. According to the previous studies
+[28, 29], the structural deformation of the leaflet is
+expected at the closing position of the valve where the
+maximum reaction force occurs at the hinge. Hence
+both the linear and nonlinear structural mechanic
+analyses for the curved leaflet are carried out for this
+closing position of the valve in the present study.</p>
+      <p>The structural deformation and stress distribution
+results obtained from the structural analysis of the
+leaflet are shown in Fig. 5, Fig. 6, Fig. 7, and Fig. 8.</p>
+      <p>The maximum deflection occurs at the lower central
+part of the leaflet (Fig. 5, Fig. 6) and the maximum
+stress occurs at the hinge of the leaflet (Part A in Fig.
+7 and Fig. 8) for all leaflet thickness. Hence, the
+geometrically weak part is the hinge part for this curved
+bileaflet mechanical heart valve prosthesis, and so a
+fracture may possibly occur in this hinge part. This
+coincides with the in vivo leaflet fracture observation
+made by Klepetko [32]. A large stress also occurs at
+the lower sharp corner part of the leaflet end surface
+(Part B in Fig. 7 and Fig. 8). Table 5 shows the
+variations of the mass and the weight of the leaflet and also
+the computed equivalent stress variation according to
+the leaflet thickness change for the applied blood
+pressure of 500 KPa. Fig. 9 shows the maximum
+deflection variations and the maximum von Mises
+stress variations as the leaflet thickness varies from
+the 0.5 mm to 0.75 mm by 0.05 mm and the blood
+flow pressure varies up to 500 KPa.</p>
+      <p>As indicated in Fig. 9(a), the computed stresses do
+not show any difference between the linear and the
+nonlinear structural analysis results for each leaflet
+thickness (i.e., the linearly computed stress and the
+nonlinearly computed stress are almost same.) while
+the computed stresses increase as the leaflet thickness
+becomes thinner and thinner. This result is quite
+reasonable and anticipated because the stress occurring
+in the leaflet should be proportional to the applied
+external blood pressure regardless of the analysis type
+(linear or nonlinear analysis) if the structure does not
+change itself. The thin leaflets are structurally weak
+because the stress occurring in the leaflet becomes
+larger and larger as the leaflet thickness becomes
+thinner and thinner as shown in Fig. 9(a). This result
+coincides with the previous studies [28, 29]. The
+structural strength of a structure is usually decided
+from the yield criterion (e.g., von Mises yield
+criterion, Tresca yield criterion, etc.). According to the
+von Mises yield criterion, if the maximum value of
+the equivalent stress occurring in the structure
+exceeds the yield stress of the structure material, the
+structure begins to yield for the applied external load.</p>
+      <p>From this point of view, Table 5 shows that the 0.5
+mm thickness leaflet is expected to begin to yield for
+the applied 500 KPa blood pressure because the
+computed maximum equivalent stress (411.88 MPa) in
+the leaflet exceeds the yield stress (407.7 MPa) of the
+leaflet material, while other thickness leaflets do not
+seem to begin to yield. Table 5 also shows that the
+structural strength is not directly proportional to the
+leaflet thickness. The structural strength of the leaflet
+increases at a higher rate than the leaflet weight (or
+thickness), e.g., the structural strength of the 0.65 mm
+thickness leaflet is 1.41 (the ratio of the equivalent
+stresses of the 0.5 mm thickness leaflet and the 0.65
+mm leaflet thickness leaflet) times as large as the
+structural strength of the 0.5 mm thickness leaflet
+while the weight of the 0.65 mm thickness leaflet is
+1.3 times as large as the weight of the 0.5 mm
+thickness leaflet. From the design point of view, a safety
+factor (defined as the ratio of the material yield stress
+to the maximum stress occurring in the structure)
+value of 2.0 is usually adopted as the design standard
+of the structure. According to this standard, the
+maximum stress in the leaflet should not exceed the
+half value (203.85 MPa) of the yield stress (407.7
+MPa) of the leaflet material adopted in this analysis.</p>
+      <p>Hence, stresses larger than 203.85 MPa in Table 6 are
+not desirable for the in vivo use of the leaflet in the
+human heart. Table 6 shows that very thin 0.5 mm
+and 0.55 mm thickness leaflets are not suitable for
+blood pressure greater than 300 KPa, 0.6 mm and
+0.65 mm thickness leaflets are not suitable for blood
+pressure greater than 350 KPa, 0.7 mm thickness
+leaflet is not suitable for blood pressure above 400
+KPa, and 0.75 mm thickness leaflet is not suitable for
+blood pressure greater than 450 KPa. These results
+were not revealed in the previous studies [28, 29]
+where the maximum blood pressure applied on to the
+leaflet was 104 KPa.</p>
+      <p>By examining the computed deflections of the
+leaflet shown in Fig. 9(b), the result is quite different
+from the stress results in Fig. 9(a). The computed
+deflections of the leaflet increase as the leaflet
+thickness becomes thinner and thinner. This result
+coincides with the previous studies [28, 29]. However, the
+difference between the linear structural analysis result
+and the nonlinear structural analysis result becomes
+larger and larger as the leaflet thickness becomes
+thinner and thinner and as the applied blood pressure
+becomes larger and larger. Hence, the geometric
+nonlinearity is very conspicuous for the very thin
+leaflet. Fig. 9(b) shows that the geometric nonlinear
+deflections of the 0.5 mm thickness leaflet are
+conspicuous for blood pressure above 250 KPa; the
+geometric nonlinear deflection of the 0.55 mm thickness
+leaflet is conspicuous for the blood pressure over 300
+KPa; the geometric nonlinear deflection of the 0.60
+mm and 0.65 mm thickness leaflets are conspicuous
+for the blood pressure larger than 350 KPa; the
+geometric nonlinear deflection of the 0.70 mm thickness
+leaflet is conspicuous for the blood pressure larger
+than 400 KPa; and the geometric nonlinear deflection
+of the 0.75 mm thickness leaflet is conspicuous for
+the blood pressure larger than 450 KPa. Hence,
+geometric nonlinear deflections occur in the very thin
+leaflet (e.g., 0.5 mm and 0.55 mm thickness leaflets)
+for high blood pressures (300-500 KPa) applied to the
+leaflet surface, and so these thin leaflets are not
+desirable for in vivo use in the human heart. Therefore, a
+nonlinear structural analysis seems to be useful for
+the accurate design of the bileaflet MHV prosthesis
+for high applied blood pressures.</p>
+      <p>Conclusively, from the present analysis very thin</p>
+      <p>Linear analysis result Nonlinear analysis result
+(a) Isometric view (blood pressure = 40 KPa)
+Linear analysis result
+Nonlinear analysis result
+Linear analysis result Nonlinear analysis result
+(thickness = 0.5 mm, (thickness = 0.75 mm,
+blood pressure = 40 KPa) blood pressure = 400 KPa)</p>
+      <p>(a) Isometric view (top surface)
+Fig. 7. Stress distribution contour in the leaflet (unit : Pa).</p>
+      <p>Linear analysis result Nonlinear analysis result
+(thickness = 0.5 mm, (thickness = 0.75 mm,
+blood pressure = 40 KPa) blood pressure = 400 KPa)
+(b) Rotated reverse view (bottom surface)
+leaflets (e.g., 0.5 mm and 0.55 mm thickness leaflets
+in this study) are not desirable for in vivo use in the
+human heart. The validity of this study is clear since
+the structurally weak part, i.e., the hinge part revealed
+in this study coincides with the in vivo leaflet fracture
+part observed in the existing literature [32]. The
+leaflet thickness 0.65 mm available commercially is
+structurally safe according to the present study.
+Fig. 8. Detailed views of Part A and B in the stress
+distribution contour of the leaflet (thickness = 0.65 mm, stress unit : Pa).</p>
+      <p>Thickness Volume
+(mm) (×10-8m3)
+5.49989 1.163776724 1.14050119
+6.04988 1.280154608 1.254551516
+6.59986 1.396530376 1.368599768</p>
+      <p>1.51290826 1.482650095
+7.69984 1.629286144 1.596700421
+8.24983 1.745664028 1.710750747
+Fig. 9. Linear and nonlinear structural analysis results for
+various leaflet thickness.
+60 100 160 200 250 300 350 400 450 500
+54.40 90.60 144.8 180.8 225.8 270.7 315.5 360.2 404.8 449.3
+46.78 77.93 124.6 155.6 194.4 233.2 271.9 310.5 349.1 387.7
+40.72 67.85 108.5 135.6 169.4 203.3 237.0 270.8 304.6 338.3
+35.85 59.74 95.56 119.4 149.3 179.1 208.9 238.7 268.5 298.3
+31.88 53.13 85.01 106.3 132.8 159.4 180.6 212.5 239.1 265.7
+28.61 47.69 76.32 95.41 119.3 143.5 167.8 192.3 216.9 241.6</p>
+    </sec>
+    <sec id="5">
+      <title>5. Conclusions</title>
+      <p>In this paper the linear and nonlinear structural
+analyses required in the design of a bileaflet
+mechanical heart valve prosthesis with curved leaflet are
+executed. The analysis results show that the geometric
+nonlinear deflections of the very thin leaflets are
+conspicuous for high applied blood pressures. Hence, the
+nonlinear structural analysis seems to be useful for
+the design of the MHV prosthesis. Through the linear
+and nonlinear structural analyses, this paper presents
+the moderate thickness leaflet for the applied blood
+pressure as shown in Fig. 9 and in Table 6, and
+discusses the validity of the structural strength of the
+leaflet according to the leaflet thickness variation and
+the applied blood pressure variation. These results
+were not revealed in the previous studies [28, 29].
+And the structurally weak part, i.e., the hinge part
+revealed in this study coincides with the in vivo
+leaflet fracture part observed in the existing study which
+proves the validity of this numerical study.</p>
+      <p>This work was supported by 2006 Hongik
+University Research Fund.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Starr</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>M. L.</given-names>
+            <surname>Edwards</surname>
+          </string-name>
+          ,
+          <article-title>Mitral replacement clinical experience with a ball-valve prosthesis</article-title>
+          , Ann. Surg.,
+          <volume>154</volume>
+          (
+          <year>1961</year>
+          )
+          <fpage>726</fpage>
+          -
+          <lpage>740</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <string-name>
+            <given-names>V. O.</given-names>
+            <surname>Björk</surname>
+          </string-name>
+          ,
+          <article-title>A new tilting disc valve prosthesis</article-title>
+          ,
+          <source>Scan J. of Thorac. Cardiovasc. Surg.</source>
+          ,
+          <volume>3</volume>
+          (
+          <year>1969</year>
+          ) 1-
+          <fpage>10</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <given-names>M. M.</given-names>
+            <surname>Black</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P. J.</given-names>
+            <surname>Drury</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>W. B.</given-names>
+            <surname>Tindale</surname>
+          </string-name>
+          ,
+          <article-title>Twenty five years of heart valve substitutes ; a review</article-title>
+          ,
+          <source>Journal of the Royal Society of Medicine</source>
+          ,
+          <volume>76</volume>
+          (
+          <year>1983</year>
+          )
+          <fpage>667</fpage>
+          -
+          <lpage>680</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [4]
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yoganathan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W. H.</given-names>
+            <surname>Corcoran</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E. C.</given-names>
+            <surname>Harrison</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>J.R.</given-names>
+            <surname>Cari</surname>
+          </string-name>
+          ,
+          <article-title>The Björk-Shiley aortic prosthesis : Flow characteristics, thrombus formation and tissue over-growth</article-title>
+          ,
+          <source>Circulation</source>
+          ,
+          <volume>58</volume>
+          (
+          <year>1978</year>
+          )
+          <fpage>70</fpage>
+          -
+          <lpage>76</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [5]
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yoganathan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H. S.</given-names>
+            <surname>Sung</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y. R.</given-names>
+            <surname>Woo</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Jones</surname>
+          </string-name>
+          ,
+          <article-title>In vitro velocity and turbulent measurements in the vicinity of three new mechanical aortic heart valve prosthesis</article-title>
+          , J. of
+          <string-name>
+            <surname>Thorac</surname>
+          </string-name>
+          . Cardiovasc. Surg.,
+          <volume>95</volume>
+          (
+          <year>1988</year>
+          )
+          <fpage>929</fpage>
+          -
+          <lpage>939</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <given-names>J. J.</given-names>
+            <surname>Baldwin</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Tarbell</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Deutsch</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>D. B.</given-names>
+            <surname>Gaselowitz</surname>
+          </string-name>
+          ,
+          <article-title>Mean velocity pattern within a ventricular assist device</article-title>
+          ,
+          <source>ASAIO</source>
+          ,
+          <volume>35</volume>
+          (
+          <year>1989</year>
+          )
+          <fpage>429</fpage>
+          -
+          <lpage>433</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [7]
+          <string-name>
+            <given-names>K. B.</given-names>
+            <surname>Chandran</surname>
+          </string-name>
+          ,
+          <article-title>Pulsatile flow past a St. Jude Medical bileaflet heart valve</article-title>
+          , J. of
+          <string-name>
+            <surname>Thorac</surname>
+          </string-name>
+          . Cardiovasc. Surg.,
+          <volume>89</volume>
+          (
+          <year>1985</year>
+          )
+          <fpage>743</fpage>
+          -
+          <lpage>749</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [8]
+          <string-name>
+            <given-names>Y. R.</given-names>
+            <surname>Woo</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yogananthan</surname>
+          </string-name>
+          ,
+          <article-title>Pulsatile flow velocity and shear stress measurement on the St</article-title>
+          .
+          <article-title>Jude valve prosthesis, Scand</article-title>
+          . J. of
+          <string-name>
+            <surname>Thorac</surname>
+          </string-name>
+          . Cardiovasc. Surg.,
+          <volume>20</volume>
+          (
+          <year>1986</year>
+          )
+          <fpage>15</fpage>
+          -
+          <lpage>28</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Hasenkam</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Nygaard</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Giersiepen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Reul</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Stodkide-Jorgensen</surname>
+          </string-name>
+          ,
+          <article-title>Turbulent stress measurements downstream of six mechanical aortic valves in a pulsatile flow model</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>21</volume>
+          (
+          <year>1988</year>
+          )
+          <fpage>631</fpage>
+          -
+          <lpage>645</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [10]
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Nygaard</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P. K.</given-names>
+            <surname>Paulsen</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. M.</given-names>
+            <surname>Hasenkam</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E. M.</given-names>
+            <surname>Pedersenn</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Rovsing</surname>
+          </string-name>
+          ,
+          <article-title>Turbulent stresses downstream of three mechanical aortic valve prostheses in human beings</article-title>
+          , J. of
+          <string-name>
+            <surname>Thorac</surname>
+          </string-name>
+          . Cardiovasc. Surg.,
+          <volume>107</volume>
+          (
+          <year>1994</year>
+          )
+          <fpage>438</fpage>
+          -
+          <lpage>446</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <given-names>C. S.</given-names>
+            <surname>Lee</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>K. B.</given-names>
+            <surname>Chandran</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>L. D.</given-names>
+            <surname>Chen</surname>
+          </string-name>
+          ,
+          <article-title>Cavitation dynamics of medtronic hall mechanical heart valve prosthesis : fluid squeezing effect</article-title>
+          ,
+          <source>Journal of Biomechanical Engineering</source>
+          ,
+          <volume>118</volume>
+          (
+          <year>1996</year>
+          )
+          <fpage>97</fpage>
+          -
+          <lpage>105</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [12]
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yogananthan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>W. H.</given-names>
+            <surname>Corcoran</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>E. C.</given-names>
+            <surname>Harrison</surname>
+          </string-name>
+          ,
+          <article-title>In vitro velocity measurements in the vicinity of aortic prostheses</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>12</volume>
+          (
+          <year>1979</year>
+          )
+          <fpage>135</fpage>
+          -
+          <lpage>152</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [13]
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yoganathan</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y. R.</given-names>
+            <surname>Woo</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>H. W.</given-names>
+            <surname>Sung</surname>
+          </string-name>
+          ,
+          <article-title>Turbulent shear stress measurements in the vicinity of aortic heart valve prostheses</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>19</volume>
+          (
+          <issue>6</issue>
+          ) (
+          <year>1986</year>
+          )
+          <fpage>433</fpage>
+          -
+          <lpage>442</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [14]
+          <string-name>
+            <given-names>Y. R.</given-names>
+            <surname>Woo</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Yoganathan</surname>
+          </string-name>
+          ,
+          <article-title>In vitro pulsatile flow velocity and shear stress measurements in the vicinity of mechanical mitral heart valve prostheses</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>19</volume>
+          (
+          <issue>1</issue>
+          ) (
+          <year>1986</year>
+          )
+          <fpage>39</fpage>
+          -
+          <lpage>51</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [15]
+          <string-name>
+            <given-names>R. S.</given-names>
+            <surname>Fatermi</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>K. B.</given-names>
+            <surname>Chandran</surname>
+          </string-name>
+          ,
+          <article-title>An in vitro study of the St</article-title>
+          .
+          <article-title>Jude Medical and Edwards Duromedics bileaflet valve using laser anemometry</article-title>
+          , J. of
+          <string-name>
+            <surname>Biomech</surname>
+          </string-name>
+          . Engr.,
+          <volume>111</volume>
+          (
+          <year>1989</year>
+          )
+          <fpage>298</fpage>
+          -
+          <lpage>302</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [16]
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Bluestein</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Einav</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>N. H. C.</given-names>
+            <surname>Hwang</surname>
+          </string-name>
+          ,
+          <article-title>A squeeze flow phenomenon at the closing of a bileaflet mechanical heart valve prosthesis</article-title>
+          ,
+          <source>J. of Biomechnaics</source>
+          ,
+          <volume>27</volume>
+          (
+          <issue>11</issue>
+          ) (
+          <year>1994</year>
+          )
+          <fpage>1369</fpage>
+          -
+          <lpage>1378</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [17]
+          <string-name>
+            <given-names>M. J.</given-names>
+            <surname>King</surname>
+          </string-name>
+          ,
+          <article-title>Computational and experimental studies of flow through a bileaflet mechanical heart valve</article-title>
+          ,
+          <source>Ph.D. Thesis</source>
+          , University of Leeds UK (
+          <year>1994</year>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [18]
+          <string-name>
+            <given-names>M. J.</given-names>
+            <surname>King</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>David</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Fisher</surname>
+          </string-name>
+          ,
+          <article-title>An initial parametric study of fluid flow through bileaflet mechanical heart valves using computational fluid dynamics</article-title>
+          , J. of
+          <string-name>
+            <surname>Eng</surname>
+          </string-name>
+          . Med.,
+          <volume>208</volume>
+          (
+          <year>1994</year>
+          )
+          <fpage>63</fpage>
+          -
+          <lpage>71</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [19]
+          <string-name>
+            <given-names>C. R.</given-names>
+            <surname>Choi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. N.</given-names>
+            <surname>Kim</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>Y. J.</given-names>
+            <surname>Kwon</surname>
+          </string-name>
+          ,
+          <article-title>Interaction of blood flow and leaflet behavior in a bileaflet mechanical heart valve</article-title>
+          ,
+          <source>J. of Biomed. Engr. Res</source>
+          .,
+          <volume>21</volume>
+          (
+          <issue>5</issue>
+          )
+          <fpage>505</fpage>
+          -
+          <lpage>512</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [20]
+          <string-name>
+            <given-names>C. R.</given-names>
+            <surname>Choi</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>C. N.</given-names>
+            <surname>Kim</surname>
+          </string-name>
+          ,
+          <article-title>Analysis of blood flow interacted with leaflets in MHV in views of fluidstructure interaction</article-title>
+          ,
+          <source>KSME International Journal</source>
+          ,
+          <volume>15</volume>
+          (
+          <issue>5</issue>
+          ) (
+          <year>2001</year>
+          )
+          <fpage>613</fpage>
+          -
+          <lpage>622</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [21]
+          <string-name>
+            <given-names>C. R.</given-names>
+            <surname>Choi</surname>
+          </string-name>
+          .,
+          <string-name>
+            <given-names>C. N.</given-names>
+            <surname>Kim</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>Y. J.</given-names>
+            <surname>Kwon</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. W.</given-names>
+            <surname>Lee</surname>
+          </string-name>
+          ,
+          <article-title>Pulsatile blood flows through a bileaflet mechanical heart valve with different approach methods of numerical analysis; pulsatile flows with fixed leaflets and interacted with moving leaflets</article-title>
+          ,
+          <source>KSME International Journal</source>
+          ,
+          <volume>17</volume>
+          (
+          <issue>7</issue>
+          ) (
+          <year>2003</year>
+          )
+          <fpage>1073</fpage>
+          -
+          <lpage>1082</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [22]
+          <string-name>
+            <given-names>D. N.</given-names>
+            <surname>Ghista</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>A. P.</given-names>
+            <surname>Rao</surname>
+          </string-name>
+          ,
+          <article-title>Structural mechanics of the mitral valve : stresses sustained by the valve ; Non-traumatic determination of the stiffness of the in vivo valve</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>5</volume>
+          (
+          <issue>3</issue>
+          ) (
+          <year>1972</year>
+          )
+          <fpage>295</fpage>
+          -
+          <lpage>296</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [23]
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Cataloglu</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R. E.</given-names>
+            <surname>Clark</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>P. L.</given-names>
+            <surname>Gould</surname>
+          </string-name>
+          ,
+          <article-title>Stress analysis of aortic valve leaflets with smoothed geometrical data</article-title>
+          , J. of Biomechanics,
+          <volume>10</volume>
+          (
+          <issue>3</issue>
+          ) (
+          <year>1977</year>
+          )
+          <fpage>153</fpage>
+          -
+          <lpage>158</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [24]
+          <string-name>
+            <given-names>E. P. M.</given-names>
+            <surname>Rousseau</surname>
+          </string-name>
+          , A. A. van Steenhoven,
+          <string-name>
+            <given-names>J. D.</given-names>
+            <surname>Janssen</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>H. A.</given-names>
+            <surname>Huysmans</surname>
+          </string-name>
+          ,
+          <article-title>A mechanical analysis of the closed Hancock heart valve prosthesis</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>21</volume>
+          (
+          <issue>7</issue>
+          ) (
+          <year>1988</year>
+          )
+          <fpage>545</fpage>
+          -
+          <lpage>562</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [25]
+          <string-name>
+            <given-names>K. B.</given-names>
+            <surname>Chandran</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>S. H.</given-names>
+            <surname>Kim</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Han</surname>
+          </string-name>
+          ,
+          <article-title>Stress distribution on the cusps of a polyurethane trileaflet heart valve prosthesis in the closed position</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>24</volume>
+          (
+          <issue>6</issue>
+          ) (
+          <year>1991</year>
+          )
+          <fpage>385</fpage>
+          -
+          <lpage>387</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [26]
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Cacciola</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G. W. M.</given-names>
+            <surname>Peters</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>P. J. G.</given-names>
+            <surname>Schreurs</surname>
+          </string-name>
+          ,
+          <article-title>A three-dimensional mechanical analysis of a stentless fibre-reinforced aortic valve prosthesis</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>33</volume>
+          (
+          <issue>5</issue>
+          ) (
+          <year>2000</year>
+          )
+          <fpage>521</fpage>
+          -
+          <lpage>530</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [27]
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Hart</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>F. P. T.</given-names>
+            <surname>Baaijens</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>G. W. M.</given-names>
+            <surname>Peters</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>P. J. G.</given-names>
+            <surname>Schreurs</surname>
+          </string-name>
+          ,
+          <article-title>A computational fluid-structure interaction analysis of a fibre-reinforced stentless aortic valves</article-title>
+          ,
+          <source>J. of Biomechanics</source>
+          ,
+          <volume>36</volume>
+          (
+          <issue>5</issue>
+          ) (
+          <year>2003</year>
+          )
+          <fpage>699</fpage>
+          -
+          <lpage>712</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [28]
+          <string-name>
+            <given-names>Y. J.</given-names>
+            <surname>Kwon</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>C. N.</given-names>
+            <surname>Kim</surname>
+          </string-name>
+          , J. W Lee,
+          <article-title>A structural analysis on the leaflet motion induced by the blood flow for design of a bileaflet mechanical heart valve prosthesis</article-title>
+          ,
+          <source>KSME International Journal</source>
+          ,
+          <volume>17</volume>
+          (
+          <issue>9</issue>
+          ) (
+          <year>2003</year>
+          )
+          <fpage>1316</fpage>
+          -
+          <lpage>1323</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [29]
+          <string-name>
+            <given-names>Y. J.</given-names>
+            <surname>Kwon</surname>
+          </string-name>
+          ,
+          <article-title>A Structural analysis of a mechanical heart valve prosthesis with flat leaflet</article-title>
+          ,
+          <source>JSME International Journal Series A</source>
+          <volume>46</volume>
+          (
+          <issue>4</issue>
+          ) (
+          <year>2003</year>
+          )
+          <fpage>550</fpage>
+          -
+          <lpage>558</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [30] J. R Ely, M. R Emken,
+          <string-name>
+            <given-names>J. A.</given-names>
+            <surname>Accuntius</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D. S.</given-names>
+            <surname>Wilde</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A. D.</given-names>
+            <surname>Haubold</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R. B.</given-names>
+            <surname>More</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J. C.</given-names>
+            <surname>Bokros</surname>
+          </string-name>
+          , Pure Pyrolytic Carbon:
+          <article-title>Preparation and properties of a new material</article-title>
+          , On-X®
+          <article-title>Carbon for mechanical heart valve prostheses</article-title>
+          ,
+          <source>Material Carbon Research Institute</source>
+          (
+          <year>1998</year>
+          ) 1-
+          <fpage>15</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [31]
+          <string-name>
+            <given-names>R. O.</given-names>
+            <surname>Ritchie</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Lubock</surname>
+          </string-name>
+          ,
+          <article-title>Fatigue life estimation procedures for the endurance of a cardiac valve prosthesis : stress/life and damage-tolerant analysis</article-title>
+          ,
+          <source>ASME Transactions, Journal of Biomechanical Engineering</source>
+          ,
+          <volume>108</volume>
+          (
+          <year>1986</year>
+          )
+          <fpage>153</fpage>
+          -
+          <lpage>160</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [32]
+          <string-name>
+            <given-names>W.</given-names>
+            <surname>Klepetko</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>A.</given-names>
+            <surname>Moritz</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Miczoch</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>H.</given-names>
+            <surname>Schurawitzki</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Domdnig</surname>
+          </string-name>
+          amd
+          <string-name>
+            <given-names>E.</given-names>
+            <surname>Wolner</surname>
+          </string-name>
+          ,
+          <article-title>Leaflet fracture in Edwards-duromedics bileaflet valves</article-title>
+          ,
+          <source>The Journal of Thoracic and Cardiovascular Surgery</source>
+          ,
+          <volume>98</volume>
+          (
+          <year>1989</year>
+          )
+          <fpage>90</fpage>
+          -
+          <lpage>94</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

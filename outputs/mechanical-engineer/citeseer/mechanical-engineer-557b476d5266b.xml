@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>The fundamentals of barriers to reverse engineering and their implementation into mechanical components</title><authors><author><name>Shane K Curtis</name></author><author><name>Stephen P Harston</name></author><author><name>Christopher A Mattson</name></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The fundamentals of barriers to reverse engineering and their implementation into mechanical components</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Shane</forename>
+								<forename type="middle">K</forename>
+								<surname>Curtis</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Stephen</forename>
+								<forename type="middle">P</forename>
+								<surname>Harston</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Christopher</forename>
+								<forename type="middle">A</forename>
+								<surname>Mattson</surname>
+							</persName>
+						</author>
+						<title level="a" type="main">The fundamentals of barriers to reverse engineering and their implementation into mechanical components</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1007/s00163-011-0109-6</idno>
+					<note type="submission">Received: 1 June 2010 / Accepted: 21 March 2011 / Published online: 9 April 2011 Ó Springer-Verlag London Limited 2011</note>
+					<note>ORIGINAL PAPER</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Reverse engineering</term>
+					<term>Barrier to reverse engineering</term>
+					<term>Product imitation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Reverse engineering is a common design strategy in industry. It is a term that has come to encompass a large array of engineering and design activities in the literature; however, in its basic form, reverse engineering is simply the process of extracting information about a product from the product itself. Depending on its use, it may or may not be advantageous to utilize a reverse engineering strategy. As with any rational decision, reverse engineering is only favorable when the benefits from its use outweigh the investment. Therefore, a general understanding of the principles that increase the difficulty or investment required to reverse engineer mechanical products would be helpful for everyone affected by reverse engineering activities. In this paper, we articulate and explore these fundamental principles after reviewing examples from the literature and from our own experience. We then use the principles as a basis for the development of a methodology to build barriers to reverse engineering into new products.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>Abraham DG</author>
+<author>Dolan GM</author>
+<author>Double GP</author>
+<author>Stevens JV</author>
+</authors>
+<title>Transaction security system.</title>
+<date>1991</date>
+<journal>IBM Syst J</journal>
+<booktitle>The 2008 IAJC-IJME international conference Barbero BR</booktitle>
+<volume>30</volume>
+<issue>2</issue>
+<publisher>BYU Academic Publishing,</publisher>
+<location>Provo</location>
+<marker>DG, GM, GP, JV, 1991</marker>
+<rawString>Abraham DG, Dolan GM, Double GP, Stevens JV (1991) Transaction security system. IBM Syst J 30(2):206–229 Adams BL, Kalidindi SR, Fullwood DT (2005) Microstructure sensitive design for performance optimization. BYU Academic Publishing, Provo Ali F, Chowdary B, Imbert C (2008) Part design and evaluation through reverse engineering approach. In: The 2008 IAJC-IJME international conference Barbero BR (2009) The recovery of design intent in reverse engineering problems. Comput Ind Eng 56(4):1265–1275 Boyne WJ (2009) Carbon copy bomber. Air Force Mag 92(6):52–56 Bradley C, Currie B (2005) Advances in the field of reverse engineering. Comput Aided Des Appl 2(5):697–706 Campbell RJ, Flynn PJ (2001) A survey of free-form object representation and recognition techniques. Comput Vis Image Underst 81:166–210 Christiansen BD (2006) Active FPGA security through decoy circuits.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Master’s thesis</author>
+</authors>
+<title>Decoy circuits for FPGA design protection. In:</title>
+<date>2006</date>
+<journal>J Mech Des</journal>
+<booktitle>IEEE international</booktitle>
+<volume>132</volume>
+<pages>87--106</pages>
+<publisher>National Academy Press,</publisher>
+<institution>Air Force Institute of Technology</institution>
+<location>Lake Buena Vista, Florida, USA,</location>
+<marker>thesis, 2006</marker>
+<rawString>Master’s thesis, Air Force Institute of Technology Christiansen BD, Kim YC, Bennington RW, Ristich CJ (2006) Decoy circuits for FPGA design protection. In: IEEE international Creehan KD, Bidanda B (2006) Rapid prototyping: theory and practice, Springer US, chap reverse engineering: a review &amp; evaluation of non-contact based systems. pp 87–106 Curtis SK, Harston SP, Mattson CA (2009) A generic formulaic characterization of the time to reverse engineer the tolerances of a product. In: ASME IMECE 2009, Lake Buena Vista, Florida, USA, IMECE2009-13123 Dam KW, Lin HS (1996) Cryptography’s role in securing the information society. National Academy Press, Washington, D.C. Danelek JA (2008) UFOs: the great debate. Llewellyn Publications, Woodbury Dube TE, Birrer BD, Raines RA, Baldwin RO, Mullins BE, Bennington RW, Reuter CE (2008) Hindering reverse engineering: thinking outside the box. IEEE Secur Priv 6:58–64 Fernandes KJ (2008) Reverse engineering: an industrial perspective, chap 11. Springer, London, pp 207–218 Grand J (2004) Practical secure hardware design for embedded systems. In: Proceedings of the 2004 embedded systems Tech. rep., Time Compression Technologies Harrington HJ (1991) Business process improvement: the breakthrough strategy for total quality, productivity, and competitiveness. McGraw-Hill Professional Harston SP, Mattson CA (2010a) Capitalizing on heterogeneity and anisotropy to design desirable hardware that is diffcult to reverse engineer. J Mech Des 132:081001 Harston SP, Mattson CA (2010b) Metrics for evaluating the barrier and time to reverse engineer a product. J Mech Des 132:041,009 (p 9) von Hippel E (1998) Economics of product development by users: the impact of ‘‘sticky’’ local information. Manag Sci 44:629–644 Hsiao SW, Chuang JC (2003) A reverse engineering based approach for product form design. Des Stud 24(2):155–171 Ingle KA (1994) Reverse engineering. McGraw-Hill, New York, NY James D (2006) Reverse engineering delivers product knowledge, aids technology spread. Tech. Rep. ED Online ID #11966, Electronic Design, http://electronicdesign.com/Articles/ArticleID/ 11966/11966.html Knight DC, Mattson CA, Adams BL (2009) Maximizing return on investment by constructing optimal barriers against competitors’ market entry. In: 50th AIAA/ASME/ASCE/AHS/ASC structures, structural dynamics, and materials conference. AIAA, Palm Springs, pp 2009–2224 Li M, Langbein FC, Martin RR (2010) Detecting design intent in approximate cad models using symmetry. Comput Aid Des 42:183–201 Livingston H (2007) Avoiding counterfeit electronic components.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>I Macmillan</author>
+<author>McCaffery ML</author>
+<author>G van Wijk</author>
+</authors>
+<title>Competitors’ responses to easily imitated new products-exploring commercial banking product introductions.</title>
+<date>1985</date>
+<journal>IEEE Trans Compon Packag Technol</journal>
+<booktitle>Maskus KE, Dougherty SM, Mertha A</booktitle>
+<volume>30</volume>
+<marker>Macmillan, ML, van Wijk, 1985</marker>
+<rawString>IEEE Trans Compon Packag Technol 30:187–189 Macmillan I, McCaffery ML, van Wijk G (1985) Competitors’ responses to easily imitated new products-exploring commercial banking product introductions. Strateg Manag J 6(1):75–86 Maskus KE, Dougherty SM, Mertha A (1998) Intellectual property rights and economic development in China. In: Conference on intellectual property rights and economic development McEvily AJ (2005) Reverse engineering gone wrong: a case study.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Eng Fail</author>
+</authors>
+<title>Anal 12:834–838 McLoughlin I</title>
+<date>2008</date>
+<journal>IEEE Computer Society,</journal>
+<booktitle>J Chem Educ 81:87–89 Musker DC</booktitle>
+<volume>32</volume>
+<pages>729--736</pages>
+<location>Nelson ML</location>
+<marker>Fail, 2008</marker>
+<rawString>Eng Fail Anal 12:834–838 McLoughlin I (2008) Secure embedded systems: the threat of reverse engineering. In: ICPADS ’08: proceedings of the 2008 14th IEEE international conference on parallel and distributed systems. IEEE Computer Society, pp 729–736 Mohaghegh K, Sadeghi MH, Abdullah A (2007) Reverse engineering of turbine blades based on design intent. Int J Adv Manuf Technol 32:1009–1020 Mowery KA, Blanchard DE, Smith S, Betts TA (2004) Investigation of imposter perfumes using GC-MS. J Chem Educ 81:87–89 Musker DC (1998) Reverse engineering. In: Protecting and exploiting intellectual property in electronics, IBC conferences, 10 June 1998 Naumovich G, Memon N (2003) Preventing piracy, reverse engineering, and tampering. IEEE Comput Soc 36:64–71 Nelson ML (1996) A survey of reverse engineering and program comprehension. In: In ODU CS 551—Software Engineering Survey Norby MO (1978) Soviet aerospace handbook. Department of the US Air Force Ohly A (2009) Patents and technological progress in a globalized worlda, 6th edn, Springer-Verlag, chap reverse engineering: unfair competition or catalyst for innovation?, pp 535–552 Ohm GS (1827) Die galvanische Kette, mathematisch bearbeitet.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T H Riemann</author>
+<author>Berlin Otto K</author>
+<author>K Wood</author>
+</authors>
+<title>Product design. Prentice Hall, Upper Saddle River Owen CB</title>
+<date>2001</date>
+<tech>Master’s thesis,</tech>
+<institution>Brigham Young University Pal</institution>
+<marker>Riemann, K, Wood, 2001</marker>
+<rawString>T. H. Riemann, Berlin Otto K, Wood K (2001) Product design. Prentice Hall, Upper Saddle River Owen CB (2006) Two dimensional friction stir welding model with experimental validation. Master’s thesis, Brigham Young University Pal DK, Ravi B, Bhargava LS, Chandrasekhar U (2006) Computeraided reverse engineering for replacement parts: a case study.</rawString>
+</citation>
+<citation valid="true">
+<title>Trade secrets.</title>
+<date>2008</date>
+<publisher>Law Journal Press,</publisher>
+<location>New York Raja V</location>
+<contexts>
+<context citStr="(2008)" endWordPosition="1276" position="8335" startWordPosition="1276">hat may be used to analyze barriers to reverse engineer a product. In Sect. 4, we introduce a barrier implementation methodology to assist original designers in creating products that are more difficult to reverse engineer. Finally, in Sec. 6, we provide concluding remarks. 2 Barriers in the reverse engineering process The general procedure of reverse engineering has been defined and examined in detail by both Ingle (1994) and Otto and Wood (2001). Additional techniques for digitizing physical objects for CAD applications have been presented by Varady (2001), Sarkar and Menq (1991), and Raja (2008). Though there exist multiple descriptions of the reverse engineering process, they can all be distilled to three simple steps as seen in Fig. 1. The three basic reverse engineering steps are: (i) planning, (ii) data collection, and (iii) data processing. As Fig. 1 suggests, the process can be iterative in nature. During data processing, for example, the reverse engineering team must validate extracted information, so as to know when the process is complete. If errors are discovered, due to missing or low quality data, the reverse engineering team must extract more information from the product</context>
+<context citStr="(2008)" endWordPosition="7268" position="46635" startWordPosition="7268">re difficult to access (Grand 2004) • Require unique tools to extract information (Campbell and Flynn 2001; Grand 2004) • Require unique skills to extract information (Reed and DeFillippi 1990) • Avoid explicitly disclosing information such as labels on electrical components (McLoughlin 2008; Grand 2004; Naumovich and Memon 2003) • Obfuscate information (McLoughlin 2008) • Avoid standard sizes (Suvorov 1981) • Increase or decrease geometric scale (Musker 1998; James 2006) • Couple component functions (von Hippel 1998) • Design components that self destruct when tampered with Pooley and Graves (2008), Dam and Lin (1996), Grand (2004) • Remove evidence of manufacturing processes (Harston and Mattson 2010a) • Create anti-robust designs—components only work at within a small tolerance (McLoughlin 2008) • Design components that require multiple disciplines that are typically not coupled (Reed and DeFillippi 1990) Generate Candidate Barriers Compare Concept Performance to Target Values Establish Barrier Related Product Requirements Barrier(s) Selected? NO YES Gather Information and Specify Target Values Traditional Product Development Process Fig. 4 Barrier implementation methodology 254 Res E</context>
+<context citStr="(2008)" endWordPosition="9134" position="58490" startWordPosition="9134">nformation, K, the rate at which that information can be extracted, F, and the effort, P, put into extracting the information contained by the L-beams (i.e., geometry, material, and material microstructure). The method used to quantify K; F, and P, does not matter so long as accuracy is ensured. The accuracy of the reverse engineering estimations of T, and B, are dependent upon the accuracy of K; F, and P. Numerous papers from the literature discuss how to reverse engineer geometric features utilizing CAD systems (Varady and Facello 2005; Stamati and Fudos 2007; Li et al. 2010. Toledo et al. (2008) present an efficient method by which geometric information may be determined, even from complicated systems, in an effort to determine original geometric data. Varady et al. (2007) present an automated approach to create CAD representations of structures that are accurate, capture design intent, and require little or no user assistance. Many of these methods may be used directly to estimate the quantity of geometric information, Kg, contained by a product. By recording the length of time to extract the geometric information, an estimation of the rate at which geometric information is extract</context>
+</contexts>
+<marker>2008</marker>
+<rawString>Def Sci J 56(2):225–238 Pooley J, Graves CT (2008) Trade secrets. Law Journal Press, New York Raja V (2008) Reverse engineering: an industrial perspective, chap 1.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>R Reed</author>
+<author>DeFillippi RJ</author>
+</authors>
+<title>Casual ambiguity, barriers to imitation, and sustainable competitive advantage. Acad Manag Rev 15:88</title>
+<date>1990</date>
+<journal>Yale Law J</journal>
+<booktitle>Proceedings of the 2007 ACM symposium on solid and physical modeling, vol 2. pp 1–9 Summers JD, Shah JJ</booktitle>
+<volume>111</volume>
+<issue>7</issue>
+<pages>1021--1034</pages>
+<location>Henderson TC</location>
+<marker>Reed, RJ, 1990</marker>
+<rawString>Springer, London, pp 1–9 Reed R, DeFillippi RJ (1990) Casual ambiguity, barriers to imitation, and sustainable competitive advantage. Acad Manag Rev 15:88 Samuelson P, Scotchmer S (2002) The law and economics of reverse engineering. Yale Law J 111(7):1575–1663 Sarkar B, Menq CH (1991) Smooth-surface approximation and reverse engineering. Comput Aided Des 23(9):623–628 Shapiro C (1985) Patent licensing and r &amp; d rivalry. Am Econ Rev 75:25–30 Soo SMK, Yuen EMW, Yu KM (2005) Reverse engineering of a bamboo-net handicraft. In: IEEE ninth international conference on computer aided design and computer graphics Stamati V, Fudos I (2007) A feature based approach to re-engineering objects of freeform design by exploiting point cloud morphology. In: Proceedings of the 2007 ACM symposium on solid and physical modeling, vol 2. pp 1–9 Summers JD, Shah JJ (2010) Mechanical engineering design complexity metrics: size, coupling, and solvability. J Mech Des 132:021,004 (p 11) Suvorov V (1981) The liberators: inside the Soviet army. New English Library, London Thompson WB, Owen JC, de St Germain HJ, Stark SR, Henderson TC (1999) Feature-based reverse engineering of mechanical parts. IEEE Trans Robot Autom 15(1):57–66 de Toledo R, Levy B, Paul JC (2008) Reverse engineering for industrial-plant cad models. In: Tools and methods for competitive engineering, Izmir, Turkey. pp 1021–1034 Ulrich KT, Eppinger SD (2004) Product design and development, 3rd edn. McGraw-Hill/Irwin, Boston Urbanic RJ, ElMaraghy WH (2009) Using a modified failure modes and effects analysis within the structured design recovery framework. J Mech Des 131:111,005 (13 pages) USAF (1944) Boeing b-29. http://www.nationalmuseum.af.mil/ Várady T, Facello MA (2005) New trends in digital shape reconstruction. Math Surf XI 3604:395–412 Várady T, Martin RR, Cox J (1997) Reverse engineering of geometric models: an introduction. Comput Aided Des 29:255–268 Várady T, Facello MA, Terék Z (2007) Automatic extraction of surface structures in digital shape reconstruction. Comput Aided Des 39:379–388 Weingart SH, White SR, Arnold WC, Double GP (1990) An evaluation system for the physical security of computing systems. In: The sixth annual computer security applications conference. pp 232–243 Res Eng Design (2011) 22:245–261 261</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

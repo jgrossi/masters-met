@@ -1,0 +1,1268 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>Compilation of Extended Recursion in Call-by-Value Functional Languages ∗</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Tom Hirschowitz INRIA Rocquencourt Tom.Hirschowitz@inria.fr</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Xavier Leroy INRIA Rocquencourt Xavier.Leroy@inria.fr</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>J. B. Wells Heriot-Watt University</institution>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>This paper formalizes and proves correct a compilation scheme for mutually-recursive definitions in call-by-value functional languages. This scheme supports a wider range of recursive definitions than standard call-by-value recursive definitions. We formalize our technique as a translation scheme to a lambda-calculus featuring in-place update of memory blocks, and prove the translation to be faithful.</p>
+      </abstract>
+      <fpage>160</fpage>
+      <lpage>171</lpage>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>compilation, recursion, semantics, functional languages</p>
+      <p>Functional languages usually feature mutually recursive
+definition of values. In ML, this is supported by the let rec
+construct. Languages differ, however, in the kind of
+expressions they allow as right-hand sides of mutually recursive
+definitions. For instance, Haskell [7] allows arbitrary
+expressions as right-hand sides of recursive definitions, while
+Standard ML [13] only allows syntactic λ-abstractions, and
+∗Partially supported by EPSRC grant GR/R 41545/01
+Permission to make digital or hard copies of all or part of this work for
+personal or classroom use is granted without fee provided that copies are
+not made or distributed for profit or commercial advantage and that copies
+bear this notice and the full citation on the first page. To copy otherwise, to
+republish, to post on servers or to redistribute to lists, requires prior specific
+permission and/or a fee.</p>
+      <p>PPDP’03, August 27–29, 2003, Uppsala, Sweden.</p>
+      <p>Copyright 2003 ACM 1-58113-705-2/03/0008 ...$5.00.</p>
+      <p>OCaml [12, 11] allows both λ-abstractions and limited forms
+of constructor applications.</p>
+      <p>Several criteria come into play when determining the
+range of allowed right-hand sides. First, languages have to
+give a status to ill-founded definitions such as x = x + 1.
+In a lazy language, this definition can be represented by a
+recursive block of code. When its evaluation is requested,
+this code is executed, but it begins by requesting its
+own evaluation. So, depending on the compiler, it will
+either loop indefinitely or result in a run-time error. For
+call-by-value languages, ill-founded definitions are more
+problematic: during the evaluation of x = x + 1, the
+right-hand side x + 1 must be evaluated while the value of
+x is still unknown. There is no strict call-by-value strategy
+that allows this. Thus, such ill-founded definitions must be
+rejected. Moreover, the burden recursive definitions impose
+to the rest of the compiler must be taken into account.
+For example, one could systematically implement recursive
+definitions through reference cells or thunks, but this
+would force the compiler to maintain information about
+whether values are recursive or not. Finally, the efficiency
+of the generated code is important. All these criteria
+interact tightly, yielding a tension between expressiveness,
+efficiency, and simplicity.</p>
+      <p>Recent work by Boudol [4] introduces a call-by-value
+let rec construct that is more expressive than that of ML
+or OCaml. In Boudol’s work, right-hand sides of recursive
+definitions are not syntactically restricted, but ill-founded
+definitions are ruled out by a type system. This approach
+is further refined by Hirschowitz and Leroy [8]. Boudol
+and Zimmer [5] propose an implementation technique
+for this extended let rec, where recursive definitions of
+syntactic functions are implemented in a standard way,
+while reference cells are introduced to deal with more
+complex recursive definitions. The implementation of the
+Scheme letrec construct proposed by Waddell et al. [15]
+follows the same approach.</p>
+      <p>The present paper develops and proves correct a
+compilation scheme and call-by-value evaluation strategy for
+an extended let rec construct. This let rec construct
+supports both λ-abstractions and record constructions as
+righthand sides of recursive definitions. Moreover, it allows
+nonrecursive definitions to be interleaved with recursive
+definitions within a single let rec binding. The compilation scheme
+we propose for this flavor of let rec is a generalization of the
+“in-place update trick” described by Cousineau et al. [6].
+It is less expressive than that of Boudol [5], as discussed in
+section 7,
+but it is simpler and more efficient, since it does not
+require the introduction of reference cells.</p>
+      <p>Our main motivation in studying this extended let rec
+construct is that it plays an important role in the language of
+call-by-value mixin modules currently investigated by the
+authors [10]. Moreover, the OCaml compiler uses a subset
+of the compilation scheme described here to compile
+nonfunctional recursive definitions; this paper is the first formal
+proof of the correctness of this compilation scheme.</p>
+      <p>The remainder of this paper is organized as follows. In
+section 2, we first review informally the “in-place update
+trick” [6], and show that it extends to combinations of
+recursive and non-recursive bindings within the same let rec.
+In section 3, we formalize the corresponding source language
+λ◦. Section 4 defines a target language λalloc, featuring
+inplace update of memory blocks. We define the compilation
+scheme from λ◦ to λalloc in section 5, and prove its
+correctness in section 6. Related work and conclusions are discussed
+in sections 7 and 8. Proofs are omitted in this paper, but
+can be found in a companion technical report [9].</p>
+      <p>THE IN-PLACE UPDATE TRICK</p>
+      <p>The original scheme The “in-place update trick”
+outlined by Cousineau et al. [6] and refined in the OCaml
+compiler [11], implements let rec definitions that satisfy the
+following two conditions. For any mutually recursive definition
+x1 = e1 . . . xn = en, first, the value of each definition should
+be represented at run-time by a heap allocated block of
+statically predictable size; second, for each i, the computation of
+ei should not need the value of any of the definitions ej, but
+only their names xj. As an example of the second condition,
+the recursive definition f = λx.(... f ...) is accepted,
+since the computation of the right-hand side does not need
+the value of f. We say that it safely depends on f. In
+contrast, the recursive definition f = (f 0) is rejected. We say
+that the right-hand side strictly depends on f.</p>
+      <p>Evaluation of a let rec definition with in-place update
+consists of three steps. First, for each definition, allocate
+an uninitialized block of the expected size, and bind it to
+the recursively-defined identifier. Those blocks are called
+dummy blocks. Second, compute the right-hand sides of
+the definitions. Recursively-defined identifiers thus refer to
+the corresponding dummy blocks. Owing to the second
+condition, no attempt is made to access the contents of
+the dummy blocks. This step leads, for each definition, to
+a block of the expected size. Third, the contents of the
+obtained blocks are copied to the dummy blocks, updating
+them in place.</p>
+      <p>For example, consider a mutually recursive definition x1 =
+e1, x2 = e2, where it is statically predictable that the values
+of the expressions e1 and e2 will be represented at runtime by
+heap allocated blocks of sizes 2 and 1, respectively. Here is
+what the compiled code does, as depicted in figure 1. First,
+it allocates two uninitialized heap blocks, at addresses 1
+and 2, of respective sizes 2 and 1. This is called the
+preallocation step. As a second step, it computes e1, where
+x1 and x2 are bound to 1 and 2, respectively. The result
+is a heap block of size 2, with possible references to the
+two uninitialized blocks. The same process is carried on for
+e2, resulting in a heap block of size 1. The third and final
+step copies the contents of the two obtained blocks to the
+two uninitialized blocks. The result is that the two initially
+dummy blocks now contain the proper cyclic data structures.</p>
+      <sec id="1-1">
+        <title>2. Computation:</title>
+      </sec>
+      <sec id="1-2">
+        <title>3. In-place update:</title>
+        <p>The extended scheme The scheme described above
+computes all definitions in sequence, and only then updates
+the dummy blocks in place. From the example above, it
+seems quite clear that in-place update for a definition could
+be done as soon as its value is available.</p>
+        <p>As long as definitions safely depend on each other, as
+happens with functions for instance, both schemes behave
+identically. Nevertheless, in the case where e2 strictly
+depends on x1, for example if e2 = fst(x1) + 1, the original
+scheme can go wrong. Indeed, the contents of the dummy
+block pre-allocated for x1 are still undefined when e2 is
+computed. Instead, with immediate in-place update, the value
+v1 is already available when computing e2. This trivial
+modification to the scheme thus increases the expressive power
+of let rec. It allows definitions to de-structure the values
+of previous definitions. Furthermore, it allows to introduce
+definitions with unknown sizes in let rec, as shown by the
+following example.</p>
+        <p>An example of execution is presented in figure 2. The
+definition is x1 = e1, x2 = e2, x3 = e3, where e1 and e3
+are expected to evaluate to blocks of sizes 2 and 1,
+respectively, but where the representation for the value of e2 is
+not statically predictable. The pre-allocation step only
+allocates dummy blocks for x1 and x3. The value v1 of e1 is
+then computed. It can reference x1 and x3, which
+correspond to pointers to the dummy blocks, but not x2, which
+would not make any sense here. This value is copied to
+the corresponding dummy block. Then, the value v2 of e2
+is computed. The computation can refer to both dummy
+blocks, but it can also strictly depend on x1. Finally, the
+value v3 of e3 is computed and copied to the corresponding
+dummy block.</p>
+        <p>This modified scheme implements more mutually
+recursive definitions than the initial one. The next section
+formalizes its semantics.</p>
+      </sec>
+      <sec id="1-3">
+        <title>1. Pre-allocation:</title>
+      </sec>
+      <sec id="1-4">
+        <title>2. Computing e1:</title>
+      </sec>
+      <sec id="1-5">
+        <title>3. Updating x1 with v1:</title>
+      </sec>
+      <sec id="1-6">
+        <title>4. Computing e2 and binding its value to x2: x2 x2 x2</title>
+      </sec>
+      <sec id="1-7">
+        <title>5. Computing e3:</title>
+      </sec>
+      <sec id="1-8">
+        <title>6. Updating x3 with v3:</title>
+        <p>Records s ::=
+Bindings b ::=
+Expressions of predictable shape
+e↓ ∈ Predictable ::=</p>
+      </sec>
+    </sec>
+    <sec id="2">
+      <title>THE SOURCE LANGUAGE Syntax</title>
+      <p>The syntax of λ◦ is defined in figure 3. The
+meta-variables X and x range over names and variables,
+respectively. Names are used for accessing record fields.
+The language includes λ-calculus: variables x, abstraction
+λx.e, and application e1 e2. The language also features
+records {X1 = e1 . . . Xn = en}, record selection e.X and a
+let rec construct. A mutually recursive definition has the
+shape let rec x1 = e1 . . . xn = en in e.</p>
+      <p>Syntactic correctness Records s = (X1 =
+e1 . . . Xn = en) and bindings b = (x1 = e1 . . . xn = en) are
+required to be finite maps: a record is a finite map from
+names to expressions, and a binding is a finite map from
+variables to expressions. Requiring them to be finite maps
+means that they should not bind the same variable or name
+twice.</p>
+      <p>In the sequel, we refer collectively to records and bindings
+as sequences, and use the usual notions on finite maps f ,
+such as the domain dom(f ), the codomain cod(f ), the
+restriction f| P to a set P , or the co-restriction f\P outside of
+a set P , which is the restriction to the set dom(f ) \ P .</p>
+      <p>Syntactic correctness of let rec bindings includes an
+additional requirement on dependencies between definitions. In
+a let rec binding b = (x1 = e1 . . . xn = en), we say that
+there is a backward dependency of xi on xj if 1 ≤ i ≤ j ≤ n
+and xj ∈ FV(ei). This let rec binding is syntactically
+correct only if, for any backward dependency of xi on xj, the
+expression ej is of predictable shape. An expression of
+predictable shape, written e↓, is either a function abstraction, a
+record, or a binding followed by an expression of predictable
+shape. (See figure 3.)</p>
+      <p>Structural equivalence We consider expressions
+equivalent up to alpha-conversion of variables bound in λ
+or let rec expressions. The set of terms of λ◦ is defined as
+the set of structural equivalence classes of syntactically
+correct expressions.</p>
+      <p>The semantics of λ◦ is quite standard, except for the
+treatment of let rec bindings.</p>
+      <p>As shown in figure 5, values include function abstractions
+λx.e and records of values {sv}, where sv denotes an
+evaluated record X1 = v1 . . . Xn = vn. Notice that variables
+are also values. This is required to allow the reduction of
+recursive definitions of the form let rec x = (λy.e) x.</p>
+      <p>The semantics of record selection and of function
+application are defined in figure 4, by computational contraction
+{X1 = v1 . . . Xn = vn}.Xi
+c vi (Project)
+dom(b) ∩ FV(L ) = ∅
+Computational contraction rules</p>
+      <p>Computational reduction rules
+Evaluation contexts</p>
+      <p>Access in evaluation contexts</p>
+      <p>The issue is how to arrange these operations to make the
+evaluation deterministic and ensure that it reaches the
+answer when it exists. Our choice can be summarized as
+follows. There is a top-most binding. When this top-most
+binding is already evaluated, evaluation can proceed under
+this binding. Otherwise, evaluation is allowed inside this
+(bv, x = (let rec b1 in e), b2
+e)(x) = bv(x) (IA)</p>
+      <sec id="2-1">
+        <title>3. External merging. As shown in figure 5, the shape of</title>
+        <p>answers in λ◦ allows only one binding to wrap values.
+Therefore, if evaluation results in two nested bindings,
+they must be merged into a single one. An
+expression of the shape let rec b1 in let rec b2 in e becomes
+let rec b1, b2 in e, provided no variable capture occurs.
+c let rec x = v in e
+x ∈/ FV(v)</p>
+        <p>c ::= b e
+v ∈ values ::= x | λx.e | {sv}
+sv ::= X1 = v1 . . . Xn = vn
+bv ::= x1 = v1 . . . xn = vn
+a ∈ answers ::= bv v
+rules, defining the local computational contraction relation
+c. Record projection selects the appropriate field in the
+record. The application of a function λx.e to a value v
+reduces to the body of the function where the argument is
+bound to x using a let rec.</p>
+        <p>The remaining rules in figure 4 are computational
+reduction rules that deal with the reduction of let rec bindings.
+These rules implement a deterministic evaluation strategy
+over the five basic operations on recursive bindings
+identified by Ariola et al. [2]. Before explaining the strategy, we
+first recall these five basic operations.</p>
+        <p>1. let rec lifting lifts a let rec node up one level in an
+expression. For example, an expression of the shape
+e1 + (let rec b in e2) becomes let rec b in e1 + e2.</p>
+      </sec>
+      <sec id="2-2">
+        <title>2. Internal merging. During the evaluation of a bind</title>
+        <p>ing, a definition may return a let rec as an answer,
+where a value is expected. Internal merging merges
+this binding with the current one. An expression of
+the shape let rec b1, x = (let rec b2 in e), b3 in f
+be</p>
+        <p>A ∈ Answers ::=
+E series of nested lift contexts, and an evaluation context is a
+E E transforms an expression of the shape [D [x]] into [D [v]],
+9 9 K the global computational reduction relation c is a binary
+D capture occurs. The meta-variable ranges over
+dereferE F text , as defined in figure 4. A nested lift context is a
+9 9 K The computational reduction relation c extends the
+2 appears immediately under the first node, in position of
+2 a non-dereferencing context is (λx.e) , that is, the
+argu2 uate. An example of dereferencing context is v, that is,
+E provided the context [D ] defines x as v and no variable
+L binding up a lift context . As defined in figure 4, a lift
+binding. If evaluation meets another binding inside the
+expression, this binding is lifted until it is immediately under
+the top-most binding. Then, it is merged with it, internally
+or externally according to the context. External and
+internal substitutions are allowed only from the evaluated part
+of the top-most binding, and when the substituted variable
+is in a dereferencing context (see below). In order to
+simplify the presentation of the translation and the correctness
+proof, we distinguish this top-most binding syntactically:
+relation on configurations c, which are pairs of a binding,
+the top-most binding, and an expression, written b e (see
+figure 5). Thus, the top-most binding plays the role of an
+environment, with the additional feature that values bound
+in this environment can be mutually recursive.</p>
+        <p>More formally, the contraction rule Lift lifts a let rec
+context is any non-let rec expression where the context hole
+the next sub-expression to be evaluated.
+computational contraction relation to any evaluation
+connested lift context, possibly inside the (partially evaluated)
+top-most binding, or under the (fully evaluated) top-most
+binding.</p>
+        <p>The reduction rule IM corresponds to internal merging. If,
+during the evaluation of the top-most binding, one definition
+evaluates to a binding, then this binding is merged with the
+top-most one, provided no variable capture occurs. The
+evaluation can then continue.</p>
+        <p>The EM reduction rule corresponds to external merging.</p>
+        <p>It is only possible at top-level, provided no variable capture
+occurs.</p>
+        <p>Finally, the external and internal substitution operations
+are modeled within a single reduction rule Subst. This rule
+encing contexts. A dereferencing context is a context that
+expects a non-variable value to fill the hole in order to
+evalthe function part of a function application. An example of
+ment part of a function application, where a variable would
+allow the evaluation to continue. Dereferencing contexts are
+formally defined in figure 4. The Subst rule replaces a
+variable in a dereferencing context with its value, found in the
+current top-most binding.</p>
+        <p>The values of the variables bound by the top-most
+binding are accessible in two possible ways. If bv, x = e, b is
+the partially evaluated, top-most binding, then the already
+evaluated definitions in bv can be used for the evaluation
+of the remaining definitions, beginning with e. Otherwise,
+if the top-most binding is fully evaluated, then the bound
+variables can be used to evaluate the enclosed expression.
+Rules EA and IA in figure 4 capture these two possibilities.
+They implement the external and internal substitution
+operations, respectively.</p>
+        <p>The computational reduction relation on expressions is
+compatible with structural equivalence. Hence we can
+define computational reduction over equivalence classes of
+expressions, obtaining the reduction relation −→.</p>
+        <p>In the remainder of this paper, we study the compilation
+of the λ◦ language, concentrating on its non-standard let rec
+construct. Our target language for this compilation is
+presented in the next section: it is a λ-calculus without a let rec
+construct, but with support for heap blocks, locations, and
+in-place update.</p>
+        <p>THE TARGET LANGUAGE</p>
+        <p>The syntax of the target language λalloc is presented in
+figure 6. It includes the λ-calculus with integer constants,
+and a non-recursive let binding. The expression let x1 =
+E1 . . . xn = En in E is semantically equivalent to let x1 =
+E1 in . . . let xn = En in E. Additionally, there are
+constructs for record operations (creation and selection), and
+constructs for modeling the heap: an allocation operator
+alloc, an update operator update, and heap locations .</p>
+        <p>The semantics of λalloc is defined as a reduction relation
+on configurations. As defined in figure 7, a configuration C
+is a pair of a heap Θ and an expression E, written Θ E.
+A heap is a finite map from locations to evaluated heap
+blocks. An evaluated heap block Hv ∈ HeapValues is either
+a function λx.E, or an evaluated record {Sv} (where Sv is
+an evaluated record sequence of the shape X1 = V1 . . . Xn =
+Vn), or an application of the shape alloc n for some positive
+integer n. The heap value alloc n represents a dummy heap</p>
+        <p>C ::=</p>
+        <p>Locs −F−i→n HeapValues
+λx.E | {Sv} | alloc n
+X1 = V1 . . . Xn = Vn
+tional contraction relation is defined by the rules in figure
+8, using the notion of lift contexts.</p>
+        <p>The Beta rule is unusual in that it applies a heap
+allocated function to an argument V . The function must be a
+location bound in the heap to a value λx.E, and the result
+is E{x → V }.</p>
+        <p>The Project rule works similarly: it projects a name
+X out of a heap-allocated record {Sv} at location , where
+Sv is a finite set of evaluated record field definitions of the
+shape X1 = V1 . . . Xn = Vn. The result is Sv(X), i.e. Vi if
+X = Xi.</p>
+        <p>The Allocate rule is one of the key points of λalloc . It
+states that a value block Hv evaluates into a fresh heap
+location containing Hv, and a pointer to it: Θ + { → Hv}</p>
+        <p>( fresh). In particular, if Hv is a dummy block alloc n,
+the result is a dummy block on the heap.</p>
+        <p>The Update rule copies the contents of a heap block into
+another heap block. If the locations 1 and 2 are
+respectively bound to blocks Hv1 and Hv2 in the heap Θ, then
+Θ update 1 2 will evaluate to Θ 1 → Hv2 {}.</p>
+        <p>Finally, as in λ◦, the evaluation of bindings is confined to
+the top level of configurations. This requires the Lift rule,
+which lifts a binding outside of a lift context. In λalloc , lift
+contexts Λ are defined by
+block of size n, containing unspecified data. A well-formed
+configuration is such that all the locations it mentions are
+bound in its heap.</p>
+        <p>Evaluated heap blocks are not values. Only integers,
+variables and locations are values. In this calculus, function
+abstractions are not values, since their evaluation allocates the
+function in the heap, and returns its location: the answer of
+the evaluation of λx.E is a configuration Θ , where the
+location is bound to λx.E in the heap Θ.</p>
+        <p>The operators related to heaps are alloc, which creates
+a new empty block of the size given by its argument, and
+update, which overwrites the contents of its first argument
+with the contents of its second argument, provided they have
+the same size. To model this constraint, we assume given a
+function Size from heap values Hv to integers.</p>
+      </sec>
+    </sec>
+    <sec id="3">
+      <title>Notations We write Θ → Hv for the map equal to</title>
+      <p>Θ anywhere but on where it returns Hv. We write Θ1 + Θ2
+for the union of two heaps Θ1 and Θ2 whose domains are
+disjoint. In particular, when the heap Θ is undefined on
+, we write Θ + { → Hv} to denote the union of Θ and
+{ → Hv}.</p>
+      <p>Structural equivalence and substitutions In λalloc ,
+expressions are identified up to renaming of bound locations.
+Locations are bound only by heaps, at top level in
+configurations. We consider configurations equal modulo renaming
+of bound locations. This relation is easy to define since the
+location renamings never cross any location binder.</p>
+      <p>Moreover, we consider configurations equal modulo
+renaming of bound variables. However, we will see that the
+computational reduction relation uses a more complex
+notion of substitution than just variable renaming: it must also
+replace variables with locations in some cases. Therefore, we
+consider variable renaming as a special case of general
+substitutions, which we now define.</p>
+    </sec>
+    <sec id="4">
+      <title>Substitutions are elements of Subst = Vars → Values.</title>
+      <p>The domain of a substitution is the set of variables x such
+that σ(x) = x. Its codomain is the image of its domain. We
+write x{σ} as synonymous for σ(x). We often describe
+substitutions by sets of bindings {x1 → V1 . . . xn → Vn},
+implying that their domain is included in the set {x1 . . . xn}. We
+sometimes consider substitutions as sets, taking the union of
+two of them when it makes sense, and sometimes we
+compose them. The composition of σ1 and σ2 is defined by
+e{σ2 ◦σ1} = e{σ1}{σ2}: it acts like σ1 followed by σ2.
+Moreover, we call variable renamings, or simply renamings, the
+injective substitutions whose codomains contain only
+variables, and we denote them by ζ. Symmetrically, we call
+variable allocations the injective substitutions mapping
+variables to locations, and denote them by η.</p>
+      <p>We extend substitutions to λalloc expressions and
+configurations in the usual capture-avoiding manner. A precise
+definition of substitution is given in the companion
+technical report [9].
+2 Sv, X = , S.
+where Σ ranges over record contexts, of the shape Σ ::=</p>
+      <p>Computational reduction relation The
+computational reduction relation is defined in figure 8.</p>
+      <p>The Context rule shifts the contraction relation to a
+nested lift context Φ. Lift contexts have been defined in the
+last paragraph, and nested lift contexts are simply series of
+nested lift contexts.</p>
+      <p>The Let rule describes the top-level evaluation of
+bindings. Once the first definition is evaluated, the bound
+variable is replaced by the obtained value in the rest of the
+expression. Eventually, the binding becomes empty and can
+be removed with rule EmptyLet.</p>
+      <p>By rule GC, when a heap binding is not used by any
+other binding than itself, and not used either by the
+expression, it may be removed. (The need for this rule arises
+from the translation scheme for let rec definitions: after a
+pre-allocated block has been updated by the contents of the
+value of the right-hand side expression, the top-most block
+of this value becomes unreferenced. Rule GC allows to
+remove this top-most block entirely.)</p>
+      <p>Finally, the EM rule states that it is equivalent to evaluate
+two bindings in succession, or to evaluate their union.</p>
+      <p>The calculus and its confluence</p>
+      <p>The computational reduction relation on expressions is
+compatible with structural equivalence, so we can extend it
+to terms, obtaining the reduction relation −→.</p>
+      <p>The semantics of λalloc, like the one of λ◦, is given in
+terms of a computational contraction relation that handles
+rules for the basic constructions, and a computational
+reduction relation that handles global rules. Evaluation
+answers Θ V are values surrounded by a heap binding.
+(See figure 7.)</p>
+      <p>Computational contraction relation</p>
+      <p>Definition 2 The λalloc calculus is the set of terms,
+equipped with the relation −→.</p>
+      <p>Unlike in λ◦, the reduction of λalloc is not deterministic
+because of rules GC and EM. Rule GC can apply at any
+time, and rule EM gives a choice between two possibilities
+when two successive bindings are encountered. Despite this
+source of non-determinism, it can be shown that λalloc is
+confluent [9].
+Computational reduction rules
+(let B in E){x → V } (Let)
+Evaluation contexts</p>
+      <p>E (EmptyLet)
+let B1, B2 in E (EM)</p>
+      <p>Relation to a machine language</p>
+      <p>While λalloc is presented above as an extended λ-calculus
+with reduction semantics, it was carefully engineered to map
+directly to an abstract machine with a store, and to allow
+efficient compilation to machine code. In particular, the
+heaps and locations used in the semantics correspond
+exactly to machine-level heaps and memory addresses. (This
+is apparent in the requirement that the update operation
+works only if the two blocks have the same size.) Actually,
+the λalloc calculus is similar to a subset of one of the
+intermediate languages used by the OCaml compiler, from which
+it generates efficient native machine code.</p>
+    </sec>
+    <sec id="5">
+      <title>TRANSLATION The standard translation</title>
+      <p>We now define a translation from λ◦ to λalloc that
+implements straightforwardly the in-place update trick. This
+translation, called the standard translation, is defined in
+figure 9. It is straightforward for variables, functions,
+applications, and record operations, but the translation of bindings
+is more intricate. The translation of a binding b is the
+concatenation of two bindings in λalloc. The first binding is
+called the pre-allocation binding, and gives instructions to
+allocate dummy blocks on the heap for definitions of known
+sizes. The second binding is called the update binding. It
+computes definitions, and either updates the previously
+preallocated dummy blocks for definitions of known sizes, or
+simply binds the result for definitions of unknown sizes.</p>
+      <p>This translation relies on a function Size that associates
+to each λ◦ expression a size indication, which can be either</p>
+      <p>Translation of expressions:
+Dummy pre-allocation of bindings:</p>
+      <p>Computation of bindings:
+2 the λ◦ context x = y, z = x does not correspond to
+any standard evaluation context in λalloc. Instead, we have
+to define a stronger kind of evaluation contexts, including
+a heap Θ, a standard context Φ, and a substitution σ. We
+write these extended contexts Θ Φ[σ], and denote them
+by Ψ.</p>
+      <p>Applying a context to a configuration is valid if the two
+heaps define disjoint sets of locations, and if the
+substitution carried by the context is correct for the configuration.</p>
+      <p>Fortunately, when the proposed substitution is not correct
+for the considered configuration, structural equivalence
+allows to rename all the problematic binders in it, and find an
+equivalent configuration for which the substitution is
+correct. The application of a context Θ Φ[σ] to a
+configuration Θ E is the configuration (Θ + Θ Φ[E]){σ}.</p>
+      <p>Similarly, the composition Ψ1 ◦ Ψ2 of two contexts Ψi =
+Θi Φi[σi] is Θ1 + Θ2 Φ1[Φ2][σ1 ◦σ2], provided the
+substitution σ1 ◦σ2 is correct for the heap Θ1 +Θ2 and the context
+Φ1[Φ2]. Fortunately, in λalloc contexts, binders are not in
+position to capture the placeholder, so structural equivalence
+always allows to find correct, equivalent contexts.</p>
+      <p>Sv =
+(X1 =
+Dummy( ) =
+Dummy(x = e, b) = (x = alloc n, Dummy(b))</p>
+      <p>if Size(e) = n
+Dummy(x = e, b) =
+These additional reductions suffice to ensure, in particular,
+that answers are mapped to answers. Continuing the
+example above, the TOP translation maps λx.x to the
+configuration { → λx.x} , which is an answer.</p>
+      <p>As outlined above, the TOP translation maps λ◦
+expressions to λalloc configurations, and not just expressions.</p>
+      <p>An unfortunate consequence of this requirement is that
+the TOP translation cannot be compositional, in the
+usual sense: configurations do not compose syntactically.</p>
+      <p>For instance, the translation of an application such as
+(λx.x) (λx.x) is not the application of the translation of
+the function to the translation of the argument.</p>
+      <p>To recover some degree of compositionality, we introduce
+a non-standard notion of contexts in λalloc, which take as
+an argument configurations, rather than just expressions.</p>
+      <p>Contexts are pairs of a heap and a nested lift context, and
+the application of a context Θ Φ to a configuration Θ E
+is the configuration Θ + Θ Φ[E].</p>
+      <p>This is not sufficient, however. Recall that answers in
+λ◦ can be of the shape bv v. Intuitively, bv should be
+translated as a heap. But heaps of λalloc only contain heap
+blocks, i.e. dummy blocks, functions or evaluated records,
+while the binding bv can also contain definitions of the shape
+x = y for example (or x = 1 if λ◦ featured constants), which
+we do not want to translate as heap bindings. Furthermore,
+we have to take into account the asymmetry of let rec in λ◦.</p>
+      <p>Indeed, the heap x = y, z = x maps both x and z to the value
+y. Our solution is to retain the part of λ◦ heaps that cannot
+be included in λalloc heaps as substitutions. For instance,
+the λ◦ binding x = y, z = x is translated as the substitution
+{x → y} ◦ {z → x}. This approach complicates the notion
+of contexts: now, they must include a substitution. Indeed,
+]</p>
+      <p>TOP translation of expressions The TOP
+translation, defined in figures 10 and 11, associates λalloc
+configurations to λ◦ expressions, and λalloc configurations to λ◦
+configurations.</p>
+      <p>The idea is that the TOP translation is used until the
+current point of evaluation in the expression, and beyond
+that point, the standard translation is used.</p>
+      <p>Variables are still translated as variables. A function λx.e
+is translated as with the standard translation, i.e. λx.J eK ,
+but the result is allocated on the heap, at a fresh location :
+{ → λx.J eK } .</p>
+      <p>The translation of an evaluated record takes the
+translations of its fields and puts them in a record allocated on the
+heap at a fresh location , obtaining Θ + { → {Sv}} .</p>
+      <p>Here, Θ Sv is the translation of the record sv, defined
+in figure 10. If sv = (X1 = v1 . . . Xn = vn), and for each</p>
+      <p>Definition of the TOP translation
+1≤i≤n</p>
+      <p>Translation of expressions into configurations:
+Translation of configurations:
+Translation of bindings and evaluated records:
+Actual dummy pre-allocation: Binding → (heap × variable allocation)
+TDum(x = e, b) =
+TUp(x = e, b) =
+x = E, B
+y = (update x E), B if</p>
+      <p>= ∅
+TUp(x = e, b) =</p>
+      <p>Sv
+E
+V
+E
+Translation of evaluated bindings: Evaluated binding → (heap × substitution × variable allocation)
+TOP(x = v, bv) =
+1≤i≤n
+• Size(let rec b in e) = Size(e).</p>
+      <p>• Size(e) = Size(f ) = n implies Size(C [e]) = Size(C [f ]).
+2 binding B, which form a context Θ let B in [id ]. The
+2 allocation η, which form a context Θ [η ◦ σ]. Notice
+2 text Θ [η]. The TUp function returns a heap Θ and a
+follows. In the standard translation, the pre-allocation pass,
+consists in giving instructions for allocating dummy blocks.</p>
+      <p>Here, these blocks are directly allocated by the function
+TDum, which returns the heap of dummy blocks, and the
+substitution replacing variables with the corresponding
+locations. The update pass, in the standard translation,
+either updates a dummy block with the translation of the
+definition, or simply binds it. In the TOP translation, the
+only difference is that the first definition is translated with
+the TOP translation, while the remaining ones are
+translated with the standard translation. The function TUp is in
+charge of these operations.</p>
+      <p>The evaluated part of the binding, bv, is translated as a
+heap and a substitution, by the TOP function. A definition
+of unknown size x = v yields a translation of the shape
+∅ V , and is included in the translation as the substitution
+x → V . A definition of known size x = v is translated as
+a heap and a variable allocation: v has a translation of the
+shape Θ , and it is included in the translation of bv as Θ,
+and the allocation x → .</p>
+      <p>In practice, it is useful to distinguish substitutions
+coming from definitions of unknown sizes, which can be of any
+shape, from substitutions coming from definitions of known
+sizes, which are allocations, and therefore have the shape
+x → . Indeed, when putting the results together, it is
+important to take the order into account for definitions of
+unknown sizes. For instance, as noticed above, a binding
+such as x = y, z = x generates two substitutions x → y
+and z → x, but the former must be performed last. This
+is why, according to the definition of TOP, the result is
+{x → y} ◦ {z → x}. This works because, due to the
+syntactic restrictions on let rec, definitions of unknown sizes can
+only be mentioned by subsequent definitions in the
+binding. However, definitions of known sizes can be mentioned
+by previous definitions. The key observation is that the
+substitutions they generate are allocations, so they are not
+modified by other substitutions, and can be performed last.</p>
+      <p>Formally, the translation of bv is a heap Θ, a substitution
+σ, corresponding to the definitions of unknown sizes, and
+an allocation η, giving the locations allocated in Θ for the
+definitions of known sizes. Semantically, it corresponds to a
+heap Θ and the substitution η ◦ σ, and will be used as such.</p>
+      <p>The three functions for translating bindings, TDum, TUp,
+and TOP, can be viewed as contexts. The TDum function
+returns a heap Θ and an allocation η, which form a
+conTOP function returns a heap Θ, a substitution σ, and an
+that the context corresponding to TUp is not an
+evaluation context. Fortunately, the substitutions that are
+applied to it do not involve the domain of its binding, thus
+preserving the meaning. In case the whole binding bv, b
+is evaluated (i.e. b is empty), then the contexts for
+preallocation and update, TDum(b) and TUp(b) are empty, and
+the translation of let rec bv, b in e is the TOP translation
+of e put in the context TOP(bv). Otherwise, the translation
+of let rec bv, b in e is the standard translation of e, put in
+the context TDum(b) ◦ TOP(bv) ◦ TUp(b).</p>
+      <p>An interesting fact is that the standard translation of any
+expression reduces to its TOP translation, in any context,
+8 9
+By the same translation, c is translated to a configuration</p>
+      <p>C = &gt;&lt;&gt;:&gt;&gt; 1234 →→→→ {{λλXXyy..yy==,, 13}}, &gt;&gt;=&gt;&gt;; ( 4.X) 2.</p>
+      <p>Relating the two translations</p>
+    </sec>
+    <sec id="6">
+      <title>TRANSLA</title>
+      <p>• If Size(e) = n and b
+e −→ b
+e , then Size(e ) = n.</p>
+    </sec>
+    <sec id="7">
+      <title>CORRECTNESS</title>
+    </sec>
+    <sec id="8">
+      <title>TION</title>
+    </sec>
+    <sec id="9">
+      <title>OF THE</title>
+      <p>• internal or external merge steps strictly decrease the
+number of let rec nodes;
+• internal or external substitution steps replace a
+variable with another variable bound earlier in the
+expression.</p>
+      <p>The last obstacle to the simulation theorem is the different
+sharing properties of the two languages. Consider the
+configuration c = (x = {X = λy.y} (x.X) x). It reduces by
+rule Subst to c = (x = {X = λy.y} ({X = λy.y}.X) x).</p>
+      <p>By the TOP translation, c is translated to a configuration</p>
+      <p>While our initial goal was to prove the correctness of our
+compilation scheme, a completeness result also follows from
+theorem 2.
+∃i, ei ∈/ Vars
+Our solution to this problem consists in considering only
+expressions where all the record fields are variables, which we
+call R-normal expressions. Any expression can be
+transformed into an R-normal one, by applying the following
+NameFields rule, in any context.</p>
+      <p>The heap Θ of C contains an additional copy of the record
+and the function. This phenomenon happens at each
+application of the Subst rule. But, except in case of a faulty
+configuration, such a reduction step can be followed
+immediately by a Beta or a Project step. In our example, a
+Project step occurs in λ◦: c reduces to c = (x = {X =
+λy.y} (λy.y) x). This reduction step destroys the copied
+record immediately after it has been copied. Similarly, when
+a function is copied, the copy is immediately destroyed by
+the subsequent Beta reduction step. In both cases, the
+translated configuration reduces in one step, by the same
+rule (Project or Beta). As a consequence, our
+simulation theorem takes this possibility into account, and allows
+a couple of successive reduction steps to be simulated by a
+single one.</p>
+      <p>However, in the case of the Project rule, not only the
+record is duplicated, but also the values it contains. In our
+example, the function λy.y is copied. And even after
+applying the Project rule, it remains, as shown by the
+translation of c :</p>
+      <p>Remark 1 (Free variables) Free variables do not appear
+during reduction. Thus, evaluation never gets stuck on a
+free variable if the initial expression is closed.</p>
+      <p>RELATED WORK</p>
+      <p>Cyclic explicit substitutions Rose [14] defines a
+calculus with mutually recursive definitions, where recursion
+is introduced by explicit cyclic substitutions, extending the
+explicit substitutions of Abadi et al. [1]. Instead of lifting
+recursive bindings to the top of terms like we do, Rose’s
+calculus pushes them inside terms, as usual with explicit
+substitutions. This results in the loss of sharing
+information. Any term is allowed in recursive bindings, but inside
+a recursive binding, when computing a definition, it is not
+possible to use the value of any definition from the same
+binding. In λ◦, the rule for substitution Subst allows this,
+in conjunction with the internal access rule IA. In Rose’s
+calculus, correct call-by-value reduction requires that in any
+binding, recursive definitions reduce to values, without using
+the value of each other. In this respect, it is less powerful
+than λ◦. Besides, it does not impose size constraints on
+C =</p>
+      <sec id="9-1">
+        <title>1. Either c and C are faulty. C c</title>
+      </sec>
+      <sec id="9-2">
+        <title>1. If ∅</title>
+        <p>definitions, but does not address the issue of efficient data
+representation.</p>
+        <p>Benaissa et al. [3] study sharing and different evaluation
+strategies, for a slightly different notion of cyclic explicit
+substitution. Any term is accepted in a recursive definition,
+but instead of going wrong when the recursive value is
+really needed, as in our system, the system of Benaissa et al.
+loops. The focus of the paper is on the comparison between
+λ-graph reduction and environment based evaluation, and
+different evaluation strategies. No emphasis is put on data
+representation either.</p>
+        <p>Equational theories of the λ-calculus with explicit
+recursion Ariola et al. [2] study a λ-calculus with
+explicit recursion. Its semantics is given by source-to-source
+rewrite rules, where let rec is lifted to the top of terms, and
+definitions in a binding may use each other, as in λ◦. The
+semantics of our source language λ◦ is largely inspired by
+their call-by-value calculus. Thus, our work can be seen
+as transferring the internal substitution rule IA from
+equational theory to actual language design. Nevertheless, the
+concerns are different: we deal with implementation and
+data representation, while Ariola et al. focus on confluence,
+sharing and different evaluation strategies, including strong
+reduction (reduction under λ-abstraction).</p>
+        <p>let rec for objects and mixin modules The let rec
+constructs used by Boudol [4] and Hirschowitz and Leroy
+[8] differ from the one of λ◦ in several aspects. First, they
+accept strictly more expressions as recursive definitions. For
+instance, Boudol’s semantics of objects makes extensive use
+of recursive definitions such as let rec o = generator (o) in e.
+Such definitions are not allowed in λ◦. However, λ◦ allows
+to define in the same binding recursive values and
+computations using these values. The semantics of mixin
+modules [10] requires complex sequences of alternate recursive
+and non-recursive bindings, which are trivial to write in λ◦.
+Moreover, compared to Boudol’s language, the restrictions
+of λ◦ allow for more efficient execution, since additional
+indirections are avoided.</p>
+        <p>CONCLUSION AND FUTURE WORK
+We have presented and proved correct an efficient
+compilation scheme for call-by-value evaluation of mutually
+recursive definitions. The recursive definitions supported by this
+scheme go beyond recursive functions, and include recursive
+data structures, as well as the interleaving of recursive and
+non-recursive bindings in a single let rec construct. These
+results are relevant to the efficient implementation of
+callby-value mixin modules. Additionally, they formally justify
+the compilation scheme for non-functional let rec definitions
+used in the OCaml compiler.</p>
+        <p>In future work, we plan to extend further the class of
+let rec definitions supported by the compilation scheme.
+Consider a language where the right-hand sides of recursive
+definitions are arbitrary expressions, optionally annotated
+with integers representing the expected sizes for the r.h.s.
+expressions. This language can be compiled exactly like
+λ◦: r.h.s. expressions annotated with sizes are treated
+as having predictable shape, with pre-allocation and
+in-place update, while unannotated r.h.s. expressions are
+handled by evaluation and binding. This language is
+more expressive than λ◦, since it can evaluate recursive
+definitions such as o = generator (o) provided the size of
+the result of generator can be predicted. For some typed
+compilation schemes, the size of the result of an expression
+is a function of the static type of the expression, and
+can easily be predicted. In other settings, compile-time
+determination of sizes can be achieved by static analysis.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Abadi</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>L.</given-names>
+            <surname>Cardelli</surname>
+          </string-name>
+          ,
+          <source>P.-L. Curien, and J.-J. L´evy. Explicit substitutions. J. Func. Progr.</source>
+          ,
+          <volume>1</volume>
+          (
+          <issue>4</issue>
+          ):
+          <fpage>375</fpage>
+          -
+          <lpage>416</lpage>
+          ,
+          <year>1991</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <string-name>
+            <given-names>Z. M.</given-names>
+            <surname>Ariola</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Blom</surname>
+          </string-name>
+          .
+          <article-title>Skew confluence and the lambda calculus with letrec</article-title>
+          .
+          <source>Annals of pure and applied logic</source>
+          ,
+          <volume>117</volume>
+          (
+          <issue>1-3</issue>
+          ):
+          <fpage>95</fpage>
+          -
+          <lpage>178</lpage>
+          ,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <given-names>Z.-E.-A.</given-names>
+            <surname>Benaissa</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Lescanne</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>K. H.</given-names>
+            <surname>Rose</surname>
+          </string-name>
+          .
+          <article-title>Modeling sharing and recursion for weak reduction strategies using explicit substitution</article-title>
+          . In Prog. Lang., Impl.,
+          <source>Logics, and Programs</source>
+          , volume
+          <volume>1140</volume>
+          <source>of LNCS</source>
+          , pages
+          <fpage>393</fpage>
+          -
+          <lpage>407</lpage>
+          ,
+          <year>1996</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [4]
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Boudol</surname>
+          </string-name>
+          .
+          <article-title>The recursive record semantics of objects revisited</article-title>
+          . In D. Sands, editor,
+          <source>Europ. Symp. on Progr.</source>
+          , volume
+          <volume>2028</volume>
+          <source>of LNCS</source>
+          , pages
+          <fpage>269</fpage>
+          -
+          <lpage>283</lpage>
+          . Springer-Verlag,
+          <year>2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [5]
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Boudol</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>P.</given-names>
+            <surname>Zimmer</surname>
+          </string-name>
+          .
+          <article-title>Recursion in the call-by-value lambda-calculus</article-title>
+          .
+          <source>Fixed Points in Comp. Sc</source>
+          .
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <given-names>G.</given-names>
+            <surname>Cousineau</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>P.-L.</given-names>
+            <surname>Curien</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Mauny</surname>
+          </string-name>
+          . The categorical abstract machine.
+          <source>Science of Computer Programming</source>
+          ,
+          <volume>8</volume>
+          (
+          <issue>2</issue>
+          ):
+          <fpage>173</fpage>
+          -
+          <lpage>202</lpage>
+          ,
+          <year>1987</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[7] The Haskell language</article-title>
+          . http://www.haskell.org.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [8]
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Hirschowitz</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>X.</given-names>
+            <surname>Leroy</surname>
+          </string-name>
+          .
+          <article-title>Mixin modules in a call-by-value setting</article-title>
+          . In D. Le M´etayer, editor,
+          <source>Europ. Symp. on Progr.</source>
+          , volume
+          <volume>2305</volume>
+          <source>of LNCS</source>
+          , pages
+          <fpage>6</fpage>
+          -
+          <lpage>20</lpage>
+          ,
+          <year>2002</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Hirschowitz</surname>
+          </string-name>
+          , X. Leroy, and
+          <string-name>
+            <given-names>J. B.</given-names>
+            <surname>Wells</surname>
+          </string-name>
+          .
+          <article-title>On the implementation of recursion in call-by-value functional languages</article-title>
+          .
+          <source>Research report RR-4728</source>
+          , INRIA,
+          <year>February 2003</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [10]
+          <string-name>
+            <given-names>T.</given-names>
+            <surname>Hirschowitz</surname>
+          </string-name>
+          , X. Leroy, and
+          <string-name>
+            <given-names>J. B.</given-names>
+            <surname>Wells</surname>
+          </string-name>
+          .
+          <article-title>A reduction semantics for call-by-value mixin modules</article-title>
+          .
+          <source>Research report RR-4682</source>
+          , INRIA,
+          <year>January 2003</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <given-names>X.</given-names>
+            <surname>Leroy</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Doligez</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Garrigue</surname>
+          </string-name>
+          , D. R´emy, and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Vouillon</surname>
+          </string-name>
+          .
+          <article-title>The OCaml 3.06 reference manual</article-title>
+          ,
+          <year>2002</year>
+          . Available at http://caml.inria.fr/.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [12]
+          <string-name>
+            <given-names>X.</given-names>
+            <surname>Leroy</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Doligez</surname>
+          </string-name>
+          , J. Garrigue, and
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Vouillon</surname>
+          </string-name>
+          .
+          <article-title>The Objective Caml system</article-title>
+          .
+          <source>Software and documentation available on the Web</source>
+          , http://caml.inria.fr/,
+          <year>1996</year>
+          -
+          <fpage>2003</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [13]
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Milner</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Tofte</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Harper</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>MacQueen</surname>
+          </string-name>
+          .
+          <article-title>The Definition of Standard ML (revised)</article-title>
+          . The MIT Press,
+          <year>1997</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [14]
+          <string-name>
+            <given-names>K. H.</given-names>
+            <surname>Rose</surname>
+          </string-name>
+          .
+          <article-title>Explicit cyclic substitutions</article-title>
+          .
+          <source>In M. Rusinowitch and J</source>
+          .-L. R´emy, editors,
+          <source>CTRS '92-3rd International Workshop on Conditional Term Rewriting Systems</source>
+          , volume
+          <volume>656</volume>
+          <source>of LNCS</source>
+          , pages
+          <fpage>36</fpage>
+          -
+          <lpage>50</lpage>
+          . Springer-Verlag,
+          <year>1992</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [15]
+          <string-name>
+            <given-names>O.</given-names>
+            <surname>Waddell</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>D.</given-names>
+            <surname>Sarkar</surname>
+          </string-name>
+          , and
+          <string-name>
+            <given-names>R. K.</given-names>
+            <surname>Dybvig</surname>
+          </string-name>
+          .
+          <article-title>Robust and effective transformation of letrec</article-title>
+          .
+          <source>In Electronic proceedings of the 2002 Scheme Workshop</source>
+          ,
+          <year>2002</year>
+          . http://scheme2002.ccs.neu.edu/.
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

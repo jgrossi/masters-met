@@ -1,0 +1,572 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>A Joint Controller-Simulator Programming by Demonstration Method for PLC Devices</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Phissanu Changsakol</string-name>
+          <email>Phissanu@hotmail.com</email>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Nopporn Chotikakamthorn</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Olarn Wongwirat</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>King Mongkut's Institute of Technology Ladkrabang Faculty of Information Technology and Research Center for Communication and Information Technology Bangkok</institution>
+          ,
+          <country country="TH">Thailand</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>- In this paper, a problem of visual programming of PLC (programmable logic controller) devices is described. A programming by demonstration method is developed so that a problem-domain expert can program such devices without computer programming skill. The method is novel in the sense that, unlike other programming-by-demonstration methods, it requires little a priori knowledge of the controlled system model, nor it needs to interact with a real system. A simulation model, which captures the laws of nature governing the system behavior, is jointly programmed with a control device (PLC). A PLC programming tool, developed based on the proposed joint controller-simulator programming by demonstration paradigm, can generate a high-level structure text program code, from the demonstrated actions as performed by a user.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Programming by Demonstration</kwd>
+        <kwd>Programmable Logic Controller</kwd>
+        <kwd>Programming Paradigm</kwd>
+        <kwd>End-User Programming</kwd>
+      </kwd-group>
+      <pub-date>
+        <year>2006</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>INTRODUCTION</title>
+      <p>Programmable Logic Controller (PLC) is a digitally
+operating electronic apparatus which uses a programmable
+memory for the internal storage of instructions. It includes
+functions such as logic sequencing, timing, counting, and
+arithmetic operations, to control various types of machines or
+processes. PLCs programs are generally written by a
+specialized programming language as specified by the IEC
+1131-3 standard. It is thus not possible for an end user to
+program the devices. Programming by demonstration (PBD)
+concerns with providing a non-programmer tools and
+techniques to control, automate, and customize the software
+applications or intelligent physical devices. PBD technique is
+simpler than procedural programming because there is no need
+to learn a language syntax and rules. This concept has been
+applied for various purposes such as those listed below.</p>
+      <p>Automation of repetitive tasks using software
+functions. For example, a macro recorder learns
+patterns of user’s activity and can then execute those
+patterns autonomously. [1, 5]
+User interface customization and personalization. Here,
+PBD is applied to change interface appearance to
+optimize access to frequently used functions. [6]</p>
+      <p>PBD is also applied to robotic manipulation. In [2, 4], a
+PBD technique is proposed. so that a robot arm
+movement can be programmed through demonstration.</p>
+      <p>One of the most important limitations of those existing
+programming-by-demonstration methods, when applied to a
+problem of PLC programming, is the need for an existence of a
+real system to accompany a demonstration. Alternatively,
+without a real system, a complete simulation model of the
+system must be available so that a user can perform a
+demonstration on a system simulator instead. In this paper, a
+programming-by-demonstration method is developed to avoid
+such limitation. Without the need for a priori knowledge on the
+system simulation model, the method shares a similar
+generality property of standard programming languages.</p>
+      <p>The paper is divided into two parts. First, PLC
+programming paradigms are described. Next, the proposed
+joint controller-simulator programming by demonstration
+method is detailed in Sections 3 and 4. Use of the PLC
+programming tool, developed based on the proposed
+programming paradigm, is described using a simple water tank
+system as a case study. Finally, concluding remarks are given.</p>
+    </sec>
+    <sec id="2">
+      <title>PROGRAMMING PARADIGMS FOR PLC DEVICES</title>
+      <p>Programming paradigm is a paradigmatic style of
+programming. It provides and determines the view that the
+programmer has of the execution of the program. For
+examples, in object-oriented programming, programmers can
+think of a program as a collection of interacting objects, while
+in functional programming it can be thought of as a sequence
+of stateless function evaluations. The common PLC
+programming paradigms are described below.</p>
+      <sec id="2-1">
+        <title>1) Conventional programming paradigm: This is a</title>
+        <p>programming paradigm based upon the concept of procedures,
+also known as routines, subroutines, methods, or functions, that
+contain a series of computational steps. Examples of PLC
+languages under this conventional programming paradigm
+category are mnemonic and ST (Structure text) language.</p>
+      </sec>
+      <sec id="2-2">
+        <title>2) Visual programming paradigm: This is a programming</title>
+        <p>language that uses a visual representation such as graphics,
+drawing, animation or icons, partially or completely. It views
+program construction as a visual task similar to the solving of
+jigsaw puzzles. Example of the language that uses this
+programming paradigm includes the ladder diagram, the
+function block, and the sequential function chart.</p>
+        <p>Programming by Demonstrations (PBD) is the most recent
+approach to programming and is largely used at present for
+end-user programming. The essential notion is that the user
+demonstrates a program to the system by working through one
+or more examples. The system then generalizes the users’
+sequence of actions to produce a general program. One of the
+best known such systems is Cypher’s EAGER system which
+can automatically detect repetitions in user’s actions and build
+a program to perform the use task. [11]
+The programming by demonstration paradigm is generally
+applicable only when the full functional system (to be
+programmed) is available. Therefore, applicability of PBD to
+program a new system that has not yet existed is questionable.
+Similarly, applying PBD concept to PLC programming
+requires the existence of a controlled system to be interacted
+with during the demonstration.</p>
+        <p>In this paper, the above problem is solved by a joint
+controller-simulator programming by demonstration method.
+This technique combines visual programming and PBD for
+jointly programming of controller devices and a simulation
+model of the controlled devices. A joint controller-simulator
+programming by demonstration method is described in the next
+section.</p>
+        <sec id="2-2-1">
+          <title>III. A JOINT CONTROLLER-SIMULATOR</title>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="3">
+      <title>PROGRAMMING BY DEMONSTRATION METHOD FOR PLC DEVICES A joint controller-simulator programming by demonstration method is composed of four parts as follows (see Figure 4):</title>
+      <p>Model builder: This module is responsible for building
+relationships among controller devices and controlled
+system.</p>
+      <p>System simulator: This module provides an animated
+display of the controlled system dynamics in response
+to a controller action.</p>
+      <p>User action recorder: This module records a user action
+for the purpose of both programming the controlled
+system simulation model and the controller.</p>
+      <p>Compiler: This module is used to transform a recorded
+user action into an actual PLC programming code. The
+code can be in a high level language such as a structure
+text, or a low-level one such as a mnemonic code.</p>
+      <p>Conceptually, the system as shown in Figure 4 operates in
+one of five modes (states) as explained below (see Figure 5).</p>
+      <sec id="3-1">
+        <title>1) System initialization mode: In this mode, a controlled</title>
+        <p>system is created by a user through visual interface. Each
+controlled device and the corresponding properties can be
+defined. In addition, through visual programming, general
+relationship among controlled devices, and between controlled
+devices and the controller devices can be declared (visually).</p>
+      </sec>
+      <sec id="3-2">
+        <title>2) Simulator programming mode: Under this mode, a</title>
+        <p>system simulation model, which captures the relationship
+among controlling and controlled devices, can be programmed
+through user demonstration. A user programs the model by
+demonstrating how controlled device’s properties change in
+response to a controller action, as well as to changes in other
+controlled devices’ properties.</p>
+      </sec>
+      <sec id="3-3">
+        <title>3) Controller programming mode: In this mode, a user is</title>
+        <p>allowed to define a controller action in response to a particular
+system state. As for the case of the simulator programming
+mode, a controller is programmed through user demonstration
+of actions.</p>
+      </sec>
+      <sec id="3-4">
+        <title>4) Simulation mode: In this mode, a programming tool</title>
+        <p>demonstrates to a user how a system state changes in response
+to a controller action and vice versa. The simulation is provided
+based on a system simulation model, constructed from previous
+user actions under Mode 2. Therefore, the model may be
+incomplete and the simulation may be inaccurate. System
+model and simulation accuracy can be corrected, however,
+through iteratively re-programming.</p>
+      </sec>
+      <sec id="3-5">
+        <title>5) Compiler mode: When in this mode, the tool transforms</title>
+        <p>user actions into an actual PLC programming code. For
+example, the tool developed in this study chooses ST (Structure
+Text) as specified by the IEC1131-3 standard as a targeted PLC
+programming language.</p>
+      </sec>
+    </sec>
+    <sec id="4">
+      <title>PBD-BASED PLC PROGRAMMING TOOL</title>
+      <p>In this section, design of the tool developed based on the
+proposed method as described in Section 3 is described below.</p>
+      <sec id="4-1">
+        <title>1) Model builder: This module is active when the tool is in</title>
+        <p>the system initialization mode. It is used for system model
+construction. Using a visual programming paradigm, a
+controlled and/or controller device is defined by the selection
+of icons from the tool palette. Each device’s properties are
+defined through the object inspector (see Figure6).</p>
+      </sec>
+    </sec>
+    <sec id="5">
+      <title>STANDARD OBJECT CLASSES SUPPORTED BY THE TOOL</title>
+      <sec id="5-1">
+        <title>1. Activator</title>
+      </sec>
+      <sec id="5-2">
+        <title>7. PipeLine</title>
+        <p>A generic controller’s output device
+A generic controller’s input device
+A generic controlled device
+A specialized counter device
+A specialized timer device
+A general purpose device class for extension</p>
+        <p>TABLE I summarizes standard device classes as supported
+by the developed tool.</p>
+        <p>To illustrate how the tool is used for PLC programming, a
+simple water tank controlling system shown in Figure 7 is used
+as a case study. To create a simulator model, relationship
+between controlling device and controlled device as well as the
+relation between controlled device and controlled device need
+to be defined. Through the language of visual programming,
+two types of relationship can be defined.</p>
+        <sec id="5-2-1">
+          <title>a) Association relationship: Once defined, allows the</title>
+          <p>associated objects to exchange message (parameters,
+commands, etc.) with each other. For examples, in our case
+study, when Valve1 is connected with Tank1 through the
+connector device, opening or closing of Valve1 can have an
+effect on the properties (such as a water level) of Tank1. The
+direction of the connector’s arrow head is used to identify the
+direction of message flow.
+b) Dependency relationship: Is applied to define a
+partof relationship between two or more controlled devices, or
+between a controlled device and one or more controller
+devices. For example, in our case study, to install a controller
+sensor to measure a tank’s water level, the sensor is placed
+inside the container Tank1 to establish the required
+relationship. In Figure 9, two such sensors, L1 and L2, are
+defined with this type of relationship with Tank1, so that two
+(low and high) water levels can be sensed.</p>
+          <sec id="5-2-1-1">
+            <title>2) User action recorder: This module is responsible to</title>
+            <p>recording a user action. It operates in one of the two modes, the
+simulator and controller programming modes. The two modes,
+along with the simulation mode, can be inter-changed.
+Generally, the simulator programming mode is activated when
+a user changes the state of a controlling device of which the
+corresponding system response is not known yet. Once a
+system state change in response to the controller action is
+defined during the simulation programming mode, the tool
+should be switched to the simulation mode. From then, when a
+particular system state occurs, a user can switch to the
+controller programming mode so that an appropriate controller
+action can be defined.</p>
+            <p>To illustrate how to program a system simulation mode,
+consider our case when Valve1 or Pump1 is turned on/off
+(Figure 10).</p>
+          </sec>
+        </sec>
+        <sec id="5-2-2">
+          <title>a) In response to the controller state change when the</title>
+          <p>status of Pump1 is turned to “ON”, a user switches to the
+mode. Based on the association relationship between Pump1
+and Tank1 as established through visual programming during
+system model initialization, the tool prompts for a change to
+any of Tank1’s properties. A user can then program the
+simulation model by raising the tank’s water level. The tool
+records the action, with a dialogue for the user to define the
+rate of water level increase.
+b) Consider then the case where Valve1 is turned on.
+When switched to the simulator programming mode, Tank1 is
+highlighted as a result of the established relationship between
+Valve1 and Tank1.To drain the water level in the tank, a user
+select the tank’s property that is affected by this controller
+action and then lowering the water level. The tool then records
+the action (see Figure 11).</p>
+          <sec id="5-2-2-1">
+            <title>3) Controller Porgramming: To illustrate how to program</title>
+            <p>a controller through demonstration, consider the following
+scenarios.</p>
+            <p>a) While in a simulation mode, a user notices that a
+water level is increasing. Once the level arrives at the point
+specified by Sensor 1, the simulator then prompts a user for a
+controller action by switching to a controller programming
+mode. The user informs the tool to continue the simulation.
+When the level arrives at the point specified by Sensor 2, the
+simulator prompts for the action again. This time, however,
+the user defines the action by visually turning Pump1 off. The
+tool then records that action (and if no other action, the tool
+switches to the simulator programming mode).</p>
+          </sec>
+        </sec>
+        <sec id="5-2-3">
+          <title>b) While in a simulation mode, the water level is</title>
+          <p>decreasing. When it passes the level below that specified by
+Sensor1, a user can proactively turns the tool into a controller
+programming mode himself. He then can program the
+controller by visually turning Pump1 on (see Figure 12).</p>
+          <p>Figure 13 describes the sequence of user actions to program
+both the simulator and the controller. From the figure, note the
+iterative nature of the joint-programming process.</p>
+          <p>From the changes in controller devices’ states as described,
+those involved devices’ states can be summarized as shown in
+TABLE II.</p>
+          <p>CONTROLLER AND CONTROLLED DEVICES’ STATE CHANGES</p>
+          <p>From the truth table (see TABLE III), an actual controller
+program can be generated when the tool is switched to the
+compiler mode. For the case of our simple water tank system,
+the generated code for each scenario as explained so far is
+summarized in TABLE IV.
+0 = State Off, 1=State On, X=User Ignore.</p>
+          <p>From the above state table, a truth table describing all
+possible logic combinations of the controller devices’ states can
+be derived as shown in TABLE III. In this case, user action
+scenarios cover all possible combinations. Therefore, the truth
+table is simply the state table with redundant row being
+removed. When user action scenarios do not cover all possible
+combinations, the tool must ask the user for more information
+by displaying the missing scenarios. The topic of generating a
+missing scenario is discussed elsewhere, however.</p>
+          <sec id="5-2-3-1">
+            <title>A TRUTH TABLE AS GENERATED FROM THE STATE TABLE</title>
+            <p>CODES GENERATED CORRESPONDING TO VISITED SCENARIOS</p>
+            <p>AND USER DEMONSTRATIONS
+IF(Sensor1.State = Off &amp;
+Sensor2.State = Off)
+Pump1.State = On;
+IF(Sensor1.State = On &amp;
+Sensor2.State = On)
+Pump1.State = Off;
+FALSE THEN Pump1 :=TRUE;</p>
+            <p>CONCLUDING REMARKS</p>
+            <p>In this paper, the problem of PLC programming by the
+programming by demonstration paradigm has been considered.
+A new joint controller-simulator
+programming-bydemonstration method has been proposed. Details of the design
+and implementation of the PLC programming tool based on the
+proposed method has been given. Use of the tool for PLC
+programming has been demonstrated by using a simple case of
+a water tank system. Based on user demonstration, the tool can
+generate a PLC programming code in a form of a structure text
+as defined by IEC 1131-3 standard.</p>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <surname>Gordon</surname>
+            <given-names>W.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Paynter</surname>
+            and
+            <given-names>Ian H.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Witten</surname>
+          </string-name>
+          , “
+          <article-title>Applying machine learning to programming by demonstration”</article-title>
+          , University of California, Riverside and University of Waikato New Zealand,
+          <year>2004</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <string-name>
+            <given-names>Haiying</given-names>
+            <surname>She</surname>
+          </string-name>
+          and
+          <string-name>
+            <given-names>Axel</given-names>
+            <surname>Graeser</surname>
+          </string-name>
+          , “
+          <article-title>Closed Loop Control and Automatic Set Point Generation in Programming by Demonstration for Service Robotic Tasks”</article-title>
+          , University of Bremen, Germany,
+          <year>2004</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <surname>Richard</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Voyles</surname>
+          </string-name>
+          , “
+          <article-title>Toward Gesture-Based Programming: AgentBased Haptic Skill Acquisition</article-title>
+          and Interpretation”, University of Minnesota,
+          <year>1997</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [4]
+          <string-name>
+            <given-names>S.</given-names>
+            <surname>Munch</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>J.</given-names>
+            <surname>Kreuziger</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>M.</given-names>
+            <surname>Kaiser</surname>
+          </string-name>
+          ,
+          <string-name>
+            <given-names>R.</given-names>
+            <surname>Dillmann</surname>
+          </string-name>
+          , “
+          <article-title>Robot Programming by Demonstration (RPD) Using Machine Learning and User Interaction Methods for the Development of Easy</article-title>
+          and Comfortable
+          <source>Robot Programming System”</source>
+          , University of Karlsruhe, Germany,
+          <year>1994</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [5]
+          <string-name>
+            <given-names>Tessa</given-names>
+            <surname>Lau</surname>
+          </string-name>
+          , “
+          <article-title>Programming by Demonstration: a Machine Learning Approach”</article-title>
+          , University of Washington,
+          <year>2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <surname>Lawrence</surname>
+            <given-names>D.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Bergman</surname>
+            ,
+            <given-names>Tessa A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Lau</surname>
+            ,
+            <given-names>Vittrio</given-names>
+          </string-name>
+          <string-name>
+            <surname>Castelli</surname>
+            ,
+            <given-names>Daniel</given-names>
+          </string-name>
+          <string-name>
+            <surname>Oblinger</surname>
+          </string-name>
+          ,
+          <article-title>“Programming-by-Demonstration for Behavior-based User Interface Customization”</article-title>
+          ,
+          <string-name>
+            <surname>IBM T</surname>
+          </string-name>
+          .J. Watson research Center, USA,
+          <year>2004</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [7]
+          <string-name>
+            <given-names>Henry</given-names>
+            <surname>Lieberman</surname>
+          </string-name>
+          , “
+          <article-title>Your Wish is My Command: Giving Users the Power to Instruct their Software”</article-title>
+          , Massachusetts Institute of Technology,
+          <year>2000</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [8]
+          <string-name>
+            <surname>Richard</surname>
+            <given-names>G.</given-names>
+          </string-name>
+          <string-name>
+            <surname>McDaniel</surname>
+          </string-name>
+          , “
+          <source>Creating Complete Demonstration”, Carnegie Mellon University</source>
+          ,
+          <year>1993</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <given-names>Ben</given-names>
+            <surname>Shneiderman</surname>
+          </string-name>
+          , “Foreword to Your
+          <source>Wish is My Command”</source>
+          , University of Maryland,
+          <year>2000</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>[10] Karl-Heinz john and Michael Tiegelkamp, “ICE 61131-3 Programming Industrial Automation Systems”</article-title>
+          , Springer,
+          <year>january 2001</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <surname>Cypher</surname>
+          </string-name>
+          , Allen, Introduction, In Cypher, Allen, ed., “
+          <source>Watch What I Do: Programming by Demonstration”</source>
+          , Cambridge: The MIT Press,
+          <year>1993</year>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

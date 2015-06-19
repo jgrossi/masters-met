@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Effects of Temporal Fine Structure on the Lateralization of Speech and on Speech Understanding in Noise</title><authors><author><name>Ward R Drennan</name><affiliation>University of Washington, VM Bloedel Hearing Research Center | University of Washington, Department of Otolaryngology, Head and Neck Surgery</affiliation></author><author><name>Jong Ho Won</name><affiliation>University of Washington, VM Bloedel Hearing Research Center | University of Washington, Department of Bioengineering</affiliation></author><author><name>Vasant K Dasika</name><affiliation>University of Washington, VM Bloedel Hearing Research Center</affiliation></author><author><name>Jay T Rubinstein</name><affiliation>University of Washington, VM Bloedel Hearing Research Center | University of Washington, Department of Otolaryngology, Head and Neck Surgery | University of Washington, Department of Bioengineering</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of Temporal Fine Structure on the Lateralization of Speech and on Speech Understanding in Noise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Ward</forename>
+								<forename type="middle">R</forename>
+								<surname>Drennan</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">VM Bloedel Hearing Research Center</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postBox>Box 357923</postBox>
+									<postCode>98195-7923</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Department of Otolaryngology, Head and Neck Surgery</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Jong</forename>
+								<surname>Ho Won</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">VM Bloedel Hearing Research Center</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postBox>Box 357923</postBox>
+									<postCode>98195-7923</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Vasant</forename>
+								<forename type="middle">K</forename>
+								<surname>Dasika</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">VM Bloedel Hearing Research Center</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postBox>Box 357923</postBox>
+									<postCode>98195-7923</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Jay</forename>
+								<forename type="middle">T</forename>
+								<surname>Rubinstein</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">VM Bloedel Hearing Research Center</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<postBox>Box 357923</postBox>
+									<postCode>98195-7923</postCode>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Department of Otolaryngology, Head and Neck Surgery</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of Temporal Fine Structure on the Lateralization of Speech and on Speech Understanding in Noise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1007/s10162-007-0074-y</idno>
+					<note type="submission">Received: 30 August 2006; Accepted: 17 January 2007; Online publication: 27 February 2007</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>binaural hearing</term>
+					<term>fine structure</term>
+					<term>cochlear implant</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>This study evaluated the role of temporal fine structure in the lateralization and understanding of speech in six normal-hearing listeners. Interaural time differences (ITDs) were introduced to invoke lateralization. Speech reception thresholds (SRTs) were evaluated in backgrounds of two-talker babble and speech-shaped noise. Two-syllable words with ITDs of 0 and 700 ms were used as targets. A vocoder technique, which systematically randomized fine structure, was used to evaluate the effects of fine structure on these tasks. Randomization of temporal fine structure was found to significantly reduce the ability of normal-hearing listeners to lateralize words, although for many listeners, good lateralization performance was achieved with as much as 80% fine-structure randomization. Most listeners demonstrated some rudimentary ability to lateralize with 100% fine-structure randomization. When ITDs were 0 ms, randomization of fine structure had a much greater effect on SRT in two-talker babble than in speech-shaped noise. Binaural advantages were also observed. In steady noise, the difference in SRT between words with 0-vs 700-ms ITDs was, on average, 6 dB with no fine-structure randomization and 2 dB with 100% fine-structure randomization. In two-talker babble this difference was 1.9 dB and, for most listeners, showed little effect of the degree of fine-structure randomization. These results suggest that (1) improved delivery of temporal fine structure would improve speech understanding in noise for implant recipients, (2) bilateral implant recipients might benefit from temporal envelope ITDs, and (3) improved delivery of temporal information could improve binaural benefits.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Soc</author>
+</authors>
+<date>1990</date>
+<journal>Am.</journal>
+<volume>88</volume>
+<marker>Soc, 1990</marker>
+<rawString>Acoust. Soc. Am. 88:680–697, 1990.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V BEST</author>
+<author>SCHAIK AV</author>
+<author>S CARLILE</author>
+</authors>
+<title>Separation of concurrent broadband sound sources by human listeners.</title>
+<date>2004</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>115</volume>
+<marker>BEST, AV, CARLILE, 2004</marker>
+<rawString>BEST V, SCHAIK AV, CARLILE S. Separation of concurrent broadband sound sources by human listeners. J. Acoust. Soc. Am. 115:324– 336, 2004. BILGER RC, NUETZEL JM, RABINOWITZ WM, RZECZKOWSKI C. Standardization of a test of speech perception in noise. J. Speech Hear.</rawString>
+</citation>
+<citation valid="false">
+<date>1984</date>
+<marker>1984</marker>
+<rawString>Res. 27:32–48, 1984.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J BIRD</author>
+<author>DARWIN CJ</author>
+</authors>
+<title>Effects of a difference in fundamental frequency in separating two sentences. In:</title>
+<date>1998</date>
+<booktitle>Palmer AR, Rees A, Summerfield AQ and Meddis R (eds) Psychophysical and Physiological Advances in Hearing.</booktitle>
+<pages>263--269</pages>
+<location>London, Whurr,</location>
+<marker>BIRD, CJ, 1998</marker>
+<rawString>BIRD J, DARWIN CJ. Effects of a difference in fundamental frequency in separating two sentences. In: Palmer AR, Rees A, Summerfield AQ and Meddis R (eds) Psychophysical and Physiological Advances in Hearing. London, Whurr, pp. 263–269, 1998.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>BROKX JPL</author>
+<author>NOOTEBOOM SG</author>
+</authors>
+<title>Intonation and the perceptual separation of simultaneous voices.</title>
+<date>1982</date>
+<journal>J. Phon.</journal>
+<volume>10</volume>
+<marker>JPL, SG, 1982</marker>
+<rawString>BROKX JPL, NOOTEBOOM SG. Intonation and the perceptual separation of simultaneous voices. J. Phon. 10:23–36, 1982. BRONKHORST AW, PLOMP R. The effect of head-induced interaural time and level differences on speech intelligibility in noise. J.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc</author>
+</authors>
+<date>1988</date>
+<tech>Am. 83:1508–1516,</tech>
+<marker>Soc, 1988</marker>
+<rawString>Acoust. Soc. Am. 83:1508–1516, 1988.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R CARHART</author>
+<author>TILLMAN TW</author>
+<author>JOHNSON KR</author>
+</authors>
+<title>Release of masking for speech through interaural time delay.</title>
+<date>1967</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>42</volume>
+<marker>CARHART, TW, KR, 1967</marker>
+<rawString>CARHART R, TILLMAN TW, JOHNSON KR. Release of masking for speech through interaural time delay. J. Acoust. Soc. Am. 42:124–138, 1967. CULLING JF, DARWIN CJ. Perceptual separation of simultaneous vowels: within and across-formant grouping by F0. J. Acoust.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Am</author>
+</authors>
+<title>CULLING JF, HAWLEY ML, LITOVSKY RY. The role of head-induced interaural time and level differences in the speech reception threshold for multiple interfering sound sources.</title>
+<date>1993</date>
+<journal>J. Acoust. Soc.</journal>
+<marker>Am, 1993</marker>
+<rawString>Soc. Am. 93:3454–3467, 1993. CULLING JF, HAWLEY ML, LITOVSKY RY. The role of head-induced interaural time and level differences in the speech reception threshold for multiple interfering sound sources. J. Acoust. Soc.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>DORMAN MF</author>
+<author>LOIZOU PC</author>
+<author>J FITZKE</author>
+<author>Z TU</author>
+</authors>
+<title>The recognition of sentences in noise by normal-hearing listeners using simulations of cochlear-implant signal processors with 6–20 channels.</title>
+<marker>MF, PC, FITZKE, TU, </marker>
+<rawString>Am. 116:1057–1065, 2004. DORMAN MF, LOIZOU PC, FITZKE J, TU Z. The recognition of sentences in noise by normal-hearing listeners using simulations of cochlear-implant signal processors with 6–20 channels.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc Am</author>
+</authors>
+<title>DRENNAN WR, GATEHOUSE S, LEVER C. Perceptual segregation of competing speech sounds: the role of spatial location.</title>
+<date>1998</date>
+<journal>J. Acoust.</journal>
+<marker>Am, 1998</marker>
+<rawString>J. Acoust. Soc. Am. 104:3583–3585, 1998. DRENNAN WR, GATEHOUSE S, LEVER C. Perceptual segregation of competing speech sounds: the role of spatial location. J. Acoust.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Am</author>
+</authors>
+<date>2003</date>
+<volume>114</volume>
+<marker>Am, 2003</marker>
+<rawString>Soc. Am. 114:2178–2189, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K FISHMAN</author>
+<author>SHANNON RV</author>
+<author>SLATTERY WH</author>
+</authors>
+<title>Speech recognition as a function of the number of electrodes used in the SPEAK cochlear implant speech processor.</title>
+<date>1997</date>
+<journal>J. Speech Hear. Res.</journal>
+<volume>32</volume>
+<marker>FISHMAN, RV, WH, 1997</marker>
+<rawString>FISHMAN K, SHANNON RV, SLATTERY WH. Speech recognition as a function of the number of electrodes used in the SPEAK cochlear implant speech processor. J. Speech Hear. Res. 32:524–535, 1997. FRIESEN LM, SHANNON RV, BASKENT D, WANG X. Speech recognition in noise as a function of the number of spectral channels: comparison of acoustic hearing and cochlear implants. J.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc</author>
+</authors>
+<date>2001</date>
+<journal>Am.</journal>
+<volume>110</volume>
+<marker>Soc, 2001</marker>
+<rawString>Acoust. Soc. Am. 110:1150–1163, 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>GOOD MD</author>
+<author>GILKEY RH</author>
+</authors>
+<title>Sound localization in noise. The effect of signal-to-noise ratio.</title>
+<date>1996</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>99</volume>
+<marker>MD, RH, 1996</marker>
+<rawString>GOOD MD, GILKEY RH. Sound localization in noise. The effect of signal-to-noise ratio. J. Acoust. Soc. Am. 99:1108–1117, 1996.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>HARRIS RW</author>
+</authors>
+<title>Speech audiometry materials compact disk.</title>
+<date>1991</date>
+<pages>pp.</pages>
+<institution>Brigham Young University,</institution>
+<location>Provo, UT,</location>
+<marker>RW, 1991</marker>
+<rawString>HARRIS RW. Speech audiometry materials compact disk. Provo, UT, Brigham Young University, pp. 1991.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>HENNING GB</author>
+</authors>
+<title>Detectability of interaural delay in high-frequency complex waveforms.</title>
+<journal>J. Acoust. Soc. Am.</journal>
+<pages>55--1974</pages>
+<marker>GB, </marker>
+<rawString>HENNING GB. Detectability of interaural delay in high-frequency complex waveforms. J. Acoust. Soc. Am. 55:1974.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>HOUTSMA AJM</author>
+<author>J SMURZYNSKI</author>
+</authors>
+<title>Pitch identification and discrimination for complex tones with many harmonics.</title>
+<date>1990</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>87</volume>
+<marker>AJM, SMURZYNSKI, 1990</marker>
+<rawString>HOUTSMA AJM, SMURZYNSKI J. Pitch identification and discrimination for complex tones with many harmonics. J. Acoust. Soc. Am. 87:304–310, 1990. JEFFRESS LA. A place theory of sound localization. J. Comp. Physiol.</rawString>
+</citation>
+<citation valid="true">
+<title>JEFFRESS LA. Medial geniculate body—a disavowal.</title>
+<date>1948</date>
+<journal>J. Acoust. Soc.</journal>
+<marker>1948</marker>
+<rawString>Psychol. 41:35–39, 1948. JEFFRESS LA. Medial geniculate body—a disavowal. J. Acoust. Soc.</rawString>
+</citation>
+<citation valid="true">
+<title>Effect of interaural correlation on the precision of centering a noise.</title>
+<date>1958</date>
+<journal>J. Acoust. Soc.</journal>
+<marker>1958</marker>
+<rawString>Am. 30:802–803, 1958. JEFFRESS LA, BLODGETT HC, DEATHERAGE BH. Effect of interaural correlation on the precision of centering a noise. J. Acoust. Soc.</rawString>
+</citation>
+<citation valid="false">
+<date>1962</date>
+<contexts>
+<context citStr="(1962)" endWordPosition="3551" position="22382" startWordPosition="3551">strated the dominance of fine structure (relative to envelope) in lateralization based on ITDs. There was some lateralization ability even with 100% fine-structure randomization, but performance was greatly enhanced by fine structure. The result might also underestimate the effect of fine structure because the interaural level differences were 0, which could push the percept toward center, although center bias was only apparent in the high-NF conditions when r2 values were low. The results from the listeners least affected by finestructure randomization paralleled results from Jeffress et al. (1962) in which listeners centered noises by adjusting the ITD of noises at the two ears. They found that listeners could center a noise image well when the interaural correlation was as low as 0.2. The fine structure of the noise bands in the present experiment were individually uncorrelated, making the experimental conditions similar to those of Jeffress et al., but the stimuli in the present experiment had some interaural correlation, even at NF=1 because the temporal envelopes in each band matched. The listeners showed some lateralization ability even when the NF was 1, suggesting sensitivity to</context>
+</contexts>
+<marker>1962</marker>
+<rawString>Am. 34:1122–1123, 1962.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>KLUMPP RG</author>
+<author>EADY HR</author>
+</authors>
+<title>Some measurements of interaural time difference thresholds.</title>
+<date>1956</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>28</volume>
+<marker>RG, HR, 1956</marker>
+<rawString>KLUMPP RG, EADY HR. Some measurements of interaural time difference thresholds. J. Acoust. Soc. Am. 28:859–860, 1956. KONG Y-Y, STICKNEY GS, ZENG F-G. Speech and melody recognition in binaurally combined acoustic and electric hearing. J. Acoust.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Am</author>
+</authors>
+<date>2005</date>
+<volume>117</volume>
+<marker>Am, 2005</marker>
+<rawString>Soc. Am. 117:1351–1361, 2005.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B LABACK</author>
+<author>S-M POK</author>
+<author>W-D BAUMGARTNER</author>
+<author>DEUTSCH WA</author>
+<author>K SCHMID</author>
+</authors>
+<title>Sensitivity to interaural level and envelope differences of two bilateral cochlear implant listeners using clinical sound processors. Ear Hear.</title>
+<date>2004</date>
+<volume>25</volume>
+<marker>LABACK, POK, BAUMGARTNER, WA, SCHMID, 2004</marker>
+<rawString>LABACK B, POK S-M, BAUMGARTNER W-D, DEUTSCH WA, SCHMID K. Sensitivity to interaural level and envelope differences of two bilateral cochlear implant listeners using clinical sound processors. Ear Hear. 25:488–500, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L LITVAK</author>
+<author>B DELGUTTE</author>
+<author>D EDDINGTON</author>
+</authors>
+<title>Improved neural representation of vowels in electric stimulation using desynchronizing pulse trains.</title>
+<date>2003</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>114</volume>
+<marker>LITVAK, DELGUTTE, EDDINGTON, 2003</marker>
+<rawString>LITVAK L, DELGUTTE B, EDDINGTON D. Improved neural representation of vowels in electric stimulation using desynchronizing pulse trains. J. Acoust. Soc. Am. 114:2099–2111, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>LONG CJ</author>
+<author>CARLYON RP</author>
+<author>LITOVSKY RY</author>
+<author>DOWNS DH</author>
+</authors>
+<title>Binaural unmasking with bilateral cochlear implants.</title>
+<date>2006</date>
+<journal>J. Assoc. Res. Otolaryngol.</journal>
+<volume>7</volume>
+<marker>CJ, RP, RY, DH, 2006</marker>
+<rawString>LONG CJ, CARLYON RP, LITOVSKY RY, DOWNS DH. Binaural unmasking with bilateral cochlear implants. J. Assoc. Res. Otolaryngol. 7:352–360, 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>LONG CJ</author>
+<author>EDDINGTON DK</author>
+<author>COLBURN HS</author>
+<author>RABINOWITZ WM</author>
+</authors>
+<title>Binaural sensitivity as a function of interaural electrode position with a bilateral cochlear implant user.</title>
+<date>2003</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>114</volume>
+<pages>1574</pages>
+<marker>CJ, DK, HS, WM, 2003</marker>
+<rawString>LONG CJ, EDDINGTON DK, COLBURN HS, RABINOWITZ WM. Binaural sensitivity as a function of interaural electrode position with a bilateral cochlear implant user. J. Acoust. Soc. Am. 114:1565– 1574, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D MCFADDEN</author>
+<author>PASANEN EG</author>
+</authors>
+<title>Lateralization at high frequencies based on interaural time differences.</title>
+<date>1976</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>59</volume>
+<marker>MCFADDEN, EG, 1976</marker>
+<rawString>MCFADDEN D, PASANEN EG. Lateralization at high frequencies based on interaural time differences. J. Acoust. Soc. Am. 59:634–639, 1976. MEDDIS R, O_MARD L. A unitary model of pitch perception. J.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc</author>
+</authors>
+<date>1997</date>
+<journal>Am.</journal>
+<volume>102</volume>
+<marker>Soc, 1997</marker>
+<rawString>Acoust. Soc. Am. 102:1811–1820, 1997.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>MILLER GA</author>
+</authors>
+<title>The masking of speech.</title>
+<date>1947</date>
+<journal>Psychol. Bull.</journal>
+<volume>44</volume>
+<marker>GA, 1947</marker>
+<rawString>MILLER GA. The masking of speech. Psychol. Bull. 44:105–129, 1947.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R PLOMP</author>
+</authors>
+<title>Pitch of complex tones.</title>
+<date>1967</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>41</volume>
+<marker>PLOMP, 1967</marker>
+<rawString>PLOMP R. Pitch of complex tones. J. Acoust. Soc. Am. 41:1526–1533, 1967. QIN MK, OXENHAM AJ. Effects of simulated cochlear-implant processing on speech reception in fluctuating maskers. J.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc</author>
+</authors>
+<date>2003</date>
+<journal>Am.</journal>
+<volume>114</volume>
+<marker>Soc, 2003</marker>
+<rawString>Acoust. Soc. Am. 114:446–454, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>QIN MK</author>
+</authors>
+<title>OXENHAM AJ. Effects of envelope-vocoder processing on F0 discrimination and concurrent-vowel identification. Ear Hear.</title>
+<date>2005</date>
+<marker>MK, 2005</marker>
+<rawString>QIN MK, OXENHAM AJ. Effects of envelope-vocoder processing on F0 discrimination and concurrent-vowel identification. Ear Hear. 26:451–460, 2005.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>QIN MK</author>
+</authors>
+<title>OXENHAM AJ. Effects of introducing unprocessed lowfrequency information on the reception of envelope-vocoder processed speech.</title>
+<date>2006</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>119</volume>
+<marker>MK, 2006</marker>
+<rawString>QIN MK, OXENHAM AJ. Effects of introducing unprocessed lowfrequency information on the reception of envelope-vocoder processed speech. J. Acoust. Soc. Am. 119:2417–2426, 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L RAYLEIGH</author>
+</authors>
+<title>On our perception of sound direction.</title>
+<date>1907</date>
+<journal>Philos. Mag.</journal>
+<volume>74</volume>
+<marker>RAYLEIGH, 1907</marker>
+<rawString>RAYLEIGH L. On our perception of sound direction. Philos. Mag. 74:214–231, 1907.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>RUBINSTEIN JT</author>
+<author>TURNER CW</author>
+</authors>
+<title>A novel acoustic simulation of cochlear implant hearing: effects of temporal fine structure.</title>
+<date>2003</date>
+<booktitle>First International IEEE EMBS Conference on Neural Engineering,</booktitle>
+<pages>142--145</pages>
+<publisher>IEEE Press,</publisher>
+<marker>JT, CW, 2003</marker>
+<rawString>RUBINSTEIN JT, TURNER CW. A novel acoustic simulation of cochlear implant hearing: effects of temporal fine structure. First International IEEE EMBS Conference on Neural Engineering, IEEE Press, 142–145, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>RUBINSTEIN JT</author>
+<author>WILSON BS</author>
+<author>FINLEY CC</author>
+<author>ABBAS PJ</author>
+</authors>
+<title>Pseudospontaneous activity: stochastic independence of auditory nerve fibers with electrical stimulation.</title>
+<date>1999</date>
+<journal>Hear. Res.</journal>
+<volume>127</volume>
+<marker>JT, BS, CC, PJ, 1999</marker>
+<rawString>RUBINSTEIN JT, WILSON BS, FINLEY CC, ABBAS PJ. Pseudospontaneous activity: stochastic independence of auditory nerve fibers with electrical stimulation. Hear. Res. 127:108–118, 1999.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>DRENNAN ET AL Binaural Fine Structure SHANNON RV</author>
+<author>F-G ZENG</author>
+<author>V KAMATH</author>
+<author>J WYGONSKI</author>
+<author>M EKELID</author>
+</authors>
+<title>Speech recognition with primarily temporal cues. Science 270:303–304,</title>
+<date>1995</date>
+<marker>RV, ZENG, KAMATH, WYGONSKI, EKELID, 1995</marker>
+<rawString>382 DRENNAN ET AL.: Binaural Fine Structure SHANNON RV, ZENG F-G, KAMATH V, WYGONSKI J, EKELID M. Speech recognition with primarily temporal cues. Science 270:303–304, 1995.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>SMITH ZM</author>
+<author>B DELGUTTE</author>
+<author>OXENHAM AJ</author>
+</authors>
+<title>Chimaeric sounds reveal dichotomies in auditory perception.</title>
+<date>2002</date>
+<journal>Nature</journal>
+<volume>416</volume>
+<marker>ZM, DELGUTTE, AJ, 2002</marker>
+<rawString>SMITH ZM, DELGUTTE B, OXENHAM AJ. Chimaeric sounds reveal dichotomies in auditory perception. Nature 416:87–90, 2002.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>STICKNEY GS</author>
+<author>F-G ZENG</author>
+<author>R LITOVSKY</author>
+<author>P ASSMANN</author>
+</authors>
+<title>Cochlear implant speech recognition with speech maskers.</title>
+<date>2004</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>116</volume>
+<marker>GS, ZENG, LITOVSKY, ASSMANN, 2004</marker>
+<rawString>STICKNEY GS, ZENG F-G, LITOVSKY R, ASSMANN P. Cochlear implant speech recognition with speech maskers. J. Acoust. Soc. Am. 116:1081–1091, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>TOBIAS JV</author>
+<author>SCHUBERT ED</author>
+</authors>
+<title>Effective onset duration of auditory stimuli.</title>
+<date>1959</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>31</volume>
+<marker>JV, ED, 1959</marker>
+<rawString>TOBIAS JV, SCHUBERT ED. Effective onset duration of auditory stimuli. J. Acoust. Soc. Am. 31:1595–1605, 1959.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>TURNER CW</author>
+<author>GANTZ BJ</author>
+<author>C VIDAL</author>
+<author>A BEHRENS</author>
+<author>HENRY BA</author>
+</authors>
+<title>Speech recognition in noise for cochlear implant listeners: Benefits of residual acoustic hearing.</title>
+<date>2004</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>115</volume>
+<marker>CW, BJ, VIDAL, BEHRENS, BA, 2004</marker>
+<rawString>TURNER CW, GANTZ BJ, VIDAL C, BEHRENS A, HENRY BA. Speech recognition in noise for cochlear implant listeners: Benefits of residual acoustic hearing. J. Acoust. Soc. Am. 115:1729–1735, 2004. VAN DE PAR S, KOHLRAUSCH A. A new approach to comparing binaural masking level differences at low and high frequencies.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc Am</author>
+</authors>
+<title>VAN HOESEL RJM, TYLER RS. Speech perception, localization and lateralization with bilateral cochlear implants.</title>
+<date>1997</date>
+<journal>J. Acoust. Soc.</journal>
+<volume>101</volume>
+<marker>Am, 1997</marker>
+<rawString>J. Acoust. Soc. Am. 101:1671–1680, 1997. VAN HOESEL RJM, TYLER RS. Speech perception, localization and lateralization with bilateral cochlear implants. J. Acoust. Soc.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>WIGHTMAN FL</author>
+<author>KISTLER DJ</author>
+</authors>
+<title>The dominant role of low frequency interaural time differences in sound localization.</title>
+<journal>J. Acoust. Soc.</journal>
+<marker>FL, DJ, </marker>
+<rawString>Am. 113:1617–1630, 2003. WIGHTMAN FL, KISTLER DJ. The dominant role of low frequency interaural time differences in sound localization. J. Acoust. Soc.</rawString>
+</citation>
+<citation valid="false">
+<date>1992</date>
+<marker>1992</marker>
+<rawString>Am. 91:1648–1661, 1992.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>WON JH</author>
+<author>W DRENNAN</author>
+<author>J RUBINSTEIN</author>
+</authors>
+<title>Spectral ripple resolution and speech perception in babble and speech-shaped noise by cochlear implant listeners.</title>
+<date>2007</date>
+<booktitle>Presented at the 30th annual midwinter meeting of the Association for Research in Otolaryngology,</booktitle>
+<volume>30</volume>
+<pages>304</pages>
+<marker>JH, DRENNAN, RUBINSTEIN, 2007</marker>
+<rawString>WON JH, DRENNAN W, RUBINSTEIN J. Spectral ripple resolution and speech perception in babble and speech-shaped noise by cochlear implant listeners. Presented at the 30th annual midwinter meeting of the Association for Research in Otolaryngology, vol. 30, pp. 304, 2007.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L XU</author>
+<author>PFINGST BE</author>
+</authors>
+<title>Relative importance of temporal envelope and fine structure in lexical-tone perception.</title>
+<date>2003</date>
+<journal>J. Acoust. Soc. Am.</journal>
+<volume>114</volume>
+<publisher>YOST</publisher>
+<marker>XU, BE, 2003</marker>
+<rawString>XU L, PFINGST BE. Relative importance of temporal envelope and fine structure in lexical-tone perception. J. Acoust. Soc. Am. 114:3024–3027, 2003. YOST WA, WIGHTMAN FL, GREEN DM. Lateralization of filtered clicks.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Soc Am</author>
+</authors>
+<date>1971</date>
+<journal>DRENNAN ET AL.: Binaural Fine Structure</journal>
+<volume>39</volume>
+<marker>Am, 1971</marker>
+<rawString>J. Acoust. Soc. Am. 39:1526–1531, 1971. DRENNAN ET AL.: Binaural Fine Structure 383</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

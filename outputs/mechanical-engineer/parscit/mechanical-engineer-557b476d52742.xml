@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<figure confidence="0.681303214285714">
+Journal of
+Mechanical
+Science and
+Technology
+Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+www.springerlink.com/content/1738-494x
+DOI 10.1007/s12206-008-0621-4
+Structural analysis of a bileaflet mechanical heart valve
+prosthesis with curved leaflet†
+Young Joo Kwon*
+Department of Mechano-Informatics &amp; Design Engineering, Hongik University
+300 Shinan-ri, Chochiwon-eup, Yeonki-gun, Choongnam 339-701, S. Korea
+(Manuscript Received January 8, 2008; Revised May 28, 2008; Accepted June 30, 2008)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</figure>
+<sectionHeader confidence="0.933455" genericHeader="abstract">
+Abstract
+</sectionHeader>
+<bodyText confidence="0.909042545454545">
+Structural analysis, especially the thickness effect on the structural strength, of a bileaflet mechanical heart valve
+prosthesis with curved leaflets is presented in this paper. Taking the wide variations of the blood flow pressure on the
+leaflet surface, the structural stresses inside the leaflet and deflections of the leaflet are investigated by adopting both
+linear and nonlinear structural analysis techniques for more accurate results comparison. The thickness of the curved
+leaflet also varies considerably from 0.50 mm to 0.75 mm by 0.05 mm. These are very useful for the design of the mechanical heart valve (MHV) prosthesis. Linear and nonlinear structural mechanic analyses for the leaflet of the MHV
+prosthesis are conducted to predict the structural strength variation of the leaflet as the leaflet thickness changes. Analysis results show that the structural strength of the leaflet decreases as the leaflet thickness becomes thinner and thinner,
+and the nonlinear structural behaviors of thin leaflets are very conspicuous for large applied blood pressures. Hence,
+these thin leaflets are not desirable for the in vivo use of the MHV prosthesis.
+Keywords: Bileaflet mechanical heart valve prosthesis; Linear and nonlinear structural analyses; Leaflet thickness; Blood pressure;
+Structural strength
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</bodyText>
+<sectionHeader confidence="0.981544" genericHeader="keywords">
+1. Introduction
+</sectionHeader>
+<bodyText confidence="0.992954">
+The structural analysis required in the structural design of a bileaflet mechanical heart valve prosthesis is
+presented in this paper. In particular, this paper discusses the thickness effects on the structural strength
+of a bileaflet mechanical heart valve prosthesis with
+curved leaflets for the design of the mechanical heart
+valve (MHV) prosthesis.
+There are four different cardiac valves in the human heart: tricuspid valve, mitral valve, pulmonary
+valve, and aortic valve. The function of these cardiac
+valves is to regulate the biologic blood flow and to
+avoid the regurgitation of blood. Congenital or ac†This paper was recommended for publication in revised form by Associate
+</bodyText>
+<table confidence="0.2603888">
+Editor Young Eun Kim
+*
+Corresponding author. Tel.: +82 41 860 2484, Fax.: +82 41 866 6598
+E-mail address: yjkwon@wow.hongik.ac.kr
+© KSME &amp; Springer 2008
+</table>
+<bodyText confidence="0.999128967213115">
+quired diseases like rheumatic fever etc. may cause
+the valve stenosis and the regurgitation of blood.
+These diseased and nonrepairable cardiac valves, e.g.,
+aortic or mitral valve, should be excised and replaced
+by an artificial device. This artificial device is called a
+prosthetic heart valve. The first successful prosthetic
+mitral valve replacement was a device implanted by
+Nina Braunwald at the National Institutes of Health in
+1959. This was a homemade device with artificial
+chordae made of polyurethane. However, it was not
+until the collaboration of Albert Starr, in Portland, and
+Lowell Edwards, an engineer in southern California,
+that the first reliable device for replacement of the
+mitral valve was produced on a commercial basis.
+The Starr-Edward ball-and-cage mitral valve, first
+implanted in 1961 [1], became the “gold standard”,
+until the late 1960s, when the second and the third
+generation prosthetic valves began to appear. After
+the Starr-Edward ball-and-cage valve, the monoleaflet
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+valves like Björk-Shilley Monostrut mechanical prosthetic valve [2], Sorin Allcarbon mechanical prosthetic valve, Medtronic Hall mechanical prosthetic
+valve, and Omnicarbon mechanical prosthetic valve,
+appeared throughout the 1960s and the 1970s. The
+third generation prosthetic valve was developed in the
+late 1970s and became the valve of the 1980s [3].
+This was the bileaflet St. Jude Medical valve. Leaflet
+opening was more complete, the hemodynamics was
+improved, and the incidence of thromboembolism
+was reduced. Nowadays, bileaflet mechanical heart
+valves are the most commonly implanted prosthetic
+heart valves like the St. Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA
+bileaflet mechanical heart valve prosthesis, and the
+On-X® bileaflet mechanical heart valve prosthesis.
+Even though these bileaflet mechanical heart valve
+prostheses are widely used for heart valve disease,
+they still have many problems when they are implanted and replace the diseased cardiac aortic or
+mitral valves of the human heart [4-6]. When the
+bileaflet mechanical heart valves are fully open and
+closed, high velocity jets through the gap between the
+leaflets can be readily detected both in vivo and in
+vitro [7-10]. This valve movement coupled with the
+high velocity jets through the leaflets causes elevated
+shear stress which may cause red blood cell damage
+or platelet activation. Together with high shear stress,
+increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and
+thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the
+valve leaflet may be reduced due to the periodic and
+cyclic countless leaflet motions (approximately 38
+million cycles per year), the geometric defect owing
+to the shape of the leaflet, the inhomogeneous mechanical properties of the leaflet, the cavitation phenomenon [11] due to the blood pressure drop, and the
+wear due to the friction between the leaflet and the
+blood. These structural problems may cause the
+cracking and the fracture of the valve leaflet and
+eventually failure of the valve operation leading to the
+death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart
+valve leaflet associated with the blood flow for the
+design of the MHV prosthesis. So far many studies
+for the improvement of the design of the mechanical
+heart valve prosthesis have been reported. Some of
+them are on the blood flow passing through the leaflet
+for a single cycle with inelastic artery wall [12-21].
+</bodyText>
+<page confidence="0.694884">
+2039
+</page>
+<bodyText confidence="0.9956335">
+Some of them are on the structural strength analysis
+of the mechanical heart valve leaflet [22-29]. Intrinsically, the design problem of a bileaflet mechanical
+heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid
+body dynamics, and structural mechanics are linked
+to another. These kinds of multidisciplinary analysis
+features in the design of the MHV prosthesis were
+studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These
+studies adopted several thickness models of the leaflet
+and revealed that the structural strength of the leaflet
+was reduced as the leaflet thickness became thinner
+and thinner. However, these studies could not show
+clearly the structurally weaker leaflet whose thickness
+is not suitable for the in vivo use of the MHV prosthesis. These studies showed that the leaflet with analyzed thickness has enough strength to the applied
+single blood pressure. However, this result is questionable, because the blood pressure is applied to the
+leaflet surface constantly during the lifetime operation
+in the human heart. Hence, the fatigue and fracture
+structural analysis for the leaflet motion may be required for the determination of the structural strength
+of the valve leaflet [31]. However, equivalently a
+large blood pressure may be applied to the leaflet
+surface to determine and compare the structural
+strength of the leaflet for various leaflet thicknesses.
+A large deflection is expected to occur inside the leaflet for the high blood pressure and so the nonlinear
+structural analysis technique is required for the analysis. Thus both linear and nonlinear structural analysis
+techniques are adopted. The linear and nonlinear
+structural analyses results are compared to determine
+the structurally weaker leaflet thickness.
+In the present study, the structural strength of the
+leaflet in conjunction with the blood flow pressure
+variations is to be investigated by using the numerical
+technique, using the commercial finite element code
+“NISA”. The bileaflet mechanical heart valve prosthesis with curved leaflet is used for analysis in this
+study.
+2. Geometry and dimensions of the MHV prosthesis used for the analysis
+The mechanical heart valve prosthesis used for the
+analysis is the bileaflet mechanical heart valve prosthesis with curved leaflet (Fig. 1). The diameter of the
+mechanical heart valve prosthesis available commercially is 22.5 mm (Fig. 1) and the thickness of the
+</bodyText>
+<page confidence="0.666959">
+2040
+</page>
+<bodyText confidence="0.997031925">
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+leaflet is 0.65 mm. Hence, the leaflet thickness varies
+from 0.50 mm up to 0.75 mm by 0.05 mm, which is
+0.1 mm thinner and 0.1 mm thicker than 0.65 mm in
+this analysis. The mechanical heart valve prosthesis
+features a curved leaflet profile as well as a slim, Carbofilm coated titanium-alloy housing. This combination is intended to optimize hemodynamic performance via a larger orifice, complementing the natural
+flow pattern and minimizing turbulence. Designed to
+reduce friction and wear, the valve’s rolling hinge
+gives a constantly varying point of contact in the
+hinge area between the leaflet and the housing. An
+open channel in the hinge cavity allows continuous
+hinge washing during the entire cardiac cycle. The
+mechanical heart valve prosthesis has unique sewing
+rings specifically designed for mitral and aortic applications, as well as a special aortic version for very
+small annuli. Each sewing ring design enhances the
+function of the valve in its position and size, including
+the unique hyperbolic shape of the mitral valve and
+the downstream extension of the aortic. Two semicircular leaflets open to 80º and the closing angle is 20º
+(Fig. 2), resulting in a central, near laminar flow. The
+housing stability is increased by a stellite stiffener
+ring over the solid pyrolytic valve housing. The pivot
+hinge mechanism is located within the housing, and
+leaflet motion is by rotation and translation. Curved
+leaflets enhance central flow and rapid closure. The
+pivot ball and slot mechanism facilitate retrograde
+washing by relatively high velocity jets. Leaflets
+close on a circular ledge within the housing to reduce
+regurgitation and stress on the hinge mechanism. The
+pivot ball hinge closes by rotation and translation.
+Downstream of the mechanical heart valve is located
+the elastic artery wall with sinus. The artery wall is
+assumed to be an elastic circular tube with diameter
+of 25.0 mm.
+The mechanical heart valve consists of three parts:
+the leaflet which controls the blood flow, the orifice
+ring which supports the leaflets, and the sewing cuff
+which attaches and fixes the orifice ring to the tissue
+of the heart muscle (Fig. 1). A kinematic model of the
+mechanical heart valve consists of three links and
+four joints. And the mobility of the valve movement
+</bodyText>
+<figureCaption confidence="0.7989965">
+is two. A kinematic diagram of the MHV is shown in
+Fig. 2. A computational solid model of the curved
+</figureCaption>
+<bodyText confidence="0.949742">
+leaflet for the structural analysis is shown in Fig. 3(a).
+Tables 1 and 2 show the dimensions of the bileaflet
+mechanical heart valve prosthesis (aortic and mitral
+valves) on sale commercially.
+</bodyText>
+<figure confidence="0.765138">
+Mitral valve
+Aortic valve
+(a) The photograph of the bileaflet mechanical heart valve
+</figure>
+<figureCaption confidence="0.680459">
+prosthesis used in the analysis
+(b) The scale and dimensions of the mechanical heart valve
+prosthesis used in the analysis (unit: mm)
+Fig. 1. Geometry and dimensions of the bileaflet mechanical
+</figureCaption>
+<figure confidence="0.756561666666667">
+heart valve prosthesis with curved leaflet.
+Closed shape
+Opened shape
+</figure>
+<figureCaption confidence="0.928351">
+Fig. 2. Kinematic diagram of the bileaflet mechanical heart
+</figureCaption>
+<bodyText confidence="0.451646">
+valve prosthesis with curved leaflets.
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+</bodyText>
+<tableCaption confidence="0.904037">
+Table 1. Dimensions of the bileaflet MHV prosthesis (Aortic
+</tableCaption>
+<figure confidence="0.882118192307693">
+Model 3600 valves).
+Aortic
+Mounting
+sizer
+Orifice Orifice Overall
+Size(mm) Diameter
+Height
+1136 Diameter Area
+(mm) Diameter (mm) (cm2) Open(mm)
+(mm)
+19 finesse
+19.1
+19.3
+15.20
+1.76
+9.7
+21 finesse
+21.3
+21.5
+17.22
+2.27
+10.6
+21
+21.3
+21.5
+17.22
+2.27
+10.6
+23
+23.5
+23.7
+19.24
+2.83
+11.5
+25
+25.6
+25.8
+21.26
+3.45
+12.4
+27
+27.9
+28.1
+23.30
+4.14
+13.6
+29
+30.3
+30.5
+25.60
+5.00
+14.7
+</figure>
+<page confidence="0.935483333333333">
+31
+31.6
+31.8
+</page>
+<figure confidence="0.7207635">
+25.60
+5.00
+</figure>
+<page confidence="0.758486">
+14.7
+</page>
+<tableCaption confidence="0.772717">
+Table 2. Dimensions of the bileaflet MHV prosthesis (Mitral
+</tableCaption>
+<figure confidence="0.971801684210526">
+Model 9600 valves).
+Size
+(mm)
+Aortic
+Mounting
+Orifice Orifice Overall
+sizer
+Diameter
+Height
+1136 Diameter Area
+(mm)
+(cm2) Open(mm)
+Diameter (mm)
+(mm)
+23
+23.5
+23.7
+19.24
+2.83
+11.5
+25
+25.6
+25.8
+21.26
+3.45
+12.4
+27
+27.9
+28.1
+23.30
+4.14
+13.6
+29
+30.3
+30.5
+25.60
+5.00
+14.7
+</figure>
+<page confidence="0.743708">
+31
+31.3
+31.6
+</page>
+<figure confidence="0.895086375">
+25.60
+5.00
+14.7
+33
+32.9
+33.0
+25.60
+5.00
+</figure>
+<page confidence="0.880809">
+14.7
+</page>
+<listItem confidence="0.694031">
+3. Structural analysis of the bileaflet mechanical heart valve prosthesis
+</listItem>
+<bodyText confidence="0.99242076">
+The position of the leaflet where the blood fluid
+force applied on the leaflet becomes the maximum
+value was computed to be the closing position of the
+leaflet through previous studies [28, 29]. Hence, the
+structural mechanic analysis of the leaflet is carried
+out at the closing position of the leaflet according to
+the leaflet thickness variation to get the thickness
+effects on the structural strength of the leaflet. A numerical analysis methodology (FEM) is used for the
+structural mechanic analysis. The finite element
+2041
+model for the structural mechanic analysis of the leaflet is shown in Fig. 3(b). The number of element is
+72,446, and the number of node is 81,526 (Table 3).
+The sewing cuff and the orifice ring are neglected in
+the structural analysis, because they do not affect the
+analysis results. The orifice ring is assumed as a rigid
+body. Three degrees of freedom (ux,uy,uz) are constrained at the hinge point and on the outer surface of
+the leaflet which contacts the rigid orifice ring. The
+symmetric boundary condition (uz=0) is applied on
+the symmetric surface (z=0) of the model (Fig. 4).
+Also the symmetric boundary condition (uy=0) is
+applied on the symmetric surface (y=0), since both
+leaflets contact this symmetric surface (Fig. 4). The
+fluid force which is the external force acting on the
+leaflet is exerted as normal uniform pressure onto the
+leaflet surface (Fig. 4). The material of the leaflet is
+assumed to be Si-Alloyed PyC (the yield stress is
+407.7 MPa) (Table 4). Young&amp;apos;s modulus, Poisson&amp;apos;s
+ratio and the density of the material used are 30.5GPa,
+0.3 and 2,116 Kg/m3, respectively (Table 4). The
+blood flow pressure applied to the curved leaflet surface is assumed to vary up to a very high value in the
+analysis. Actually the maximum value of the single
+blood flow pressure applied to the valve leaflet in the
+human heart is 120 mmHg (about 16 KPa). The
+MHV implanted in the human heart should be operated constantly (approximately 38 million cycles per
+year) for life-long time. Hence, a very strong structural strength of the leaflet should be secured for the
+safe operation of the MHV prosthesis in the human
+heart. This severe condition requires much higher
+blood flow pressure than a single blood flow pressure
+applied on to the valve leaflet in the structural analysis. Therefore a thorough investigation of the stress
+and deflection variations of the curved leaflet according to the high blood flow pressure variation is carried
+out in this study by applying a very high blood flow
+pressure at which the equivalent stress occurring inside the very thin leaflet (with 0.5 mm thickness) first
+exceeds the yield stress (407.7 MPa) of the leaflet
+material (see Table 5). A large deformation is also
+expected to occur in the leaflet for the applied high
+blood pressure to require the nonlinear structural
+analysis. Since the large deformation occurring in the
+leaflet is only due to the high blood pressure, only
+geometric nonlinearity is assumed. Also linear structural analysis is simultaneously performed for comparison. In the previous studies [28, 29] only a linear
+structural analysis was carried out for the applied
+</bodyText>
+<page confidence="0.722435">
+2042
+</page>
+<tableCaption confidence="0.808255">
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+Table 3. F.E. model data for the leaflet.
+</tableCaption>
+<figure confidence="0.936448272727273">
+Parameter
+Data
+Number of nodes
+81,526
+Number of elements
+72,446
+Table 4. Mechanical properties of the leaflet material [30].
+Data
+Property
+(a) Solid model
+(b) FE model
+</figure>
+<figureCaption confidence="0.960169">
+Fig. 3. Solid model and FE model of the leaflet (thickness=0.65.mm).
+</figureCaption>
+<figure confidence="0.9784235">
+Flexural strength
+407.7 MPa
+Young’s modulus (E)
+30.5 Gpa
+Yield stress (σy)
+407.7 MPa
+Hardness (H)
+287 DPH
+Density (ρ)
+2,116 kg/m3
+Poisson’s ratio (ν)
+0.3
+Strain-to-failure
+1.28 %
+</figure>
+<bodyText confidence="0.9594019">
+blood pressure up to 104KPa. The previous studies
+[28, 29] revealed the kinetic and kinematic behavior
+of the leaflet while the MHV prosthesis was working
+in the human heart. According to the previous studies
+[28, 29], the structural deformation of the leaflet is
+expected at the closing position of the valve where the
+maximum reaction force occurs at the hinge. Hence
+both the linear and nonlinear structural mechanic
+analyses for the curved leaflet are carried out for this
+closing position of the valve in the present study.
+</bodyText>
+<listItem confidence="0.852313333333333">
+(a) Displacement constraints imposed on to the leaflet
+(b) Displacement constraint and pressure loads imposed on
+the FE model of the leaflet
+</listItem>
+<figureCaption confidence="0.638822333333333">
+Fig. 4. Displacement constraints and blood pressure loads
+imposed on the leaflet.
+4. Analysis results and discussions
+</figureCaption>
+<bodyText confidence="0.996962038461538">
+The structural deformation and stress distribution
+results obtained from the structural analysis of the
+leaflet are shown in Fig. 5, Fig. 6, Fig. 7, and Fig. 8.
+The maximum deflection occurs at the lower central
+part of the leaflet (Fig. 5, Fig. 6) and the maximum
+stress occurs at the hinge of the leaflet (Part A in Fig.
+7 and Fig. 8) for all leaflet thickness. Hence, the geometrically weak part is the hinge part for this curved
+bileaflet mechanical heart valve prosthesis, and so a
+fracture may possibly occur in this hinge part. This
+coincides with the in vivo leaflet fracture observation
+made by Klepetko [32]. A large stress also occurs at
+the lower sharp corner part of the leaflet end surface
+(Part B in Fig. 7 and Fig. 8). Table 5 shows the variations of the mass and the weight of the leaflet and also
+the computed equivalent stress variation according to
+the leaflet thickness change for the applied blood
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+pressure of 500 KPa. Fig. 9 shows the maximum
+deflection variations and the maximum von Mises
+stress variations as the leaflet thickness varies from
+the 0.5 mm to 0.75 mm by 0.05 mm and the blood
+flow pressure varies up to 500 KPa.
+As indicated in Fig. 9(a), the computed stresses do
+not show any difference between the linear and the
+nonlinear structural analysis results for each leaflet
+thickness (i.e., the linearly computed stress and the
+nonlinearly computed stress are almost same.) while
+the computed stresses increase as the leaflet thickness
+becomes thinner and thinner. This result is quite reasonable and anticipated because the stress occurring
+in the leaflet should be proportional to the applied
+external blood pressure regardless of the analysis type
+(linear or nonlinear analysis) if the structure does not
+change itself. The thin leaflets are structurally weak
+because the stress occurring in the leaflet becomes
+larger and larger as the leaflet thickness becomes
+thinner and thinner as shown in Fig. 9(a). This result
+coincides with the previous studies [28, 29]. The
+structural strength of a structure is usually decided
+from the yield criterion (e.g., von Mises yield criterion, Tresca yield criterion, etc.). According to the
+von Mises yield criterion, if the maximum value of
+the equivalent stress occurring in the structure exceeds the yield stress of the structure material, the
+structure begins to yield for the applied external load.
+From this point of view, Table 5 shows that the 0.5
+mm thickness leaflet is expected to begin to yield for
+the applied 500 KPa blood pressure because the computed maximum equivalent stress (411.88 MPa) in
+the leaflet exceeds the yield stress (407.7 MPa) of the
+leaflet material, while other thickness leaflets do not
+seem to begin to yield. Table 5 also shows that the
+structural strength is not directly proportional to the
+leaflet thickness. The structural strength of the leaflet
+increases at a higher rate than the leaflet weight (or
+thickness), e.g., the structural strength of the 0.65 mm
+thickness leaflet is 1.41 (the ratio of the equivalent
+stresses of the 0.5 mm thickness leaflet and the 0.65
+mm leaflet thickness leaflet) times as large as the
+structural strength of the 0.5 mm thickness leaflet
+while the weight of the 0.65 mm thickness leaflet is
+1.3 times as large as the weight of the 0.5 mm thickness leaflet. From the design point of view, a safety
+factor (defined as the ratio of the material yield stress
+to the maximum stress occurring in the structure)
+value of 2.0 is usually adopted as the design standard
+of the structure. According to this standard, the
+2043
+maximum stress in the leaflet should not exceed the
+half value (203.85 MPa) of the yield stress (407.7
+MPa) of the leaflet material adopted in this analysis.
+Hence, stresses larger than 203.85 MPa in Table 6 are
+not desirable for the in vivo use of the leaflet in the
+human heart. Table 6 shows that very thin 0.5 mm
+and 0.55 mm thickness leaflets are not suitable for
+blood pressure greater than 300 KPa, 0.6 mm and
+0.65 mm thickness leaflets are not suitable for blood
+pressure greater than 350 KPa, 0.7 mm thickness
+leaflet is not suitable for blood pressure above 400
+KPa, and 0.75 mm thickness leaflet is not suitable for
+blood pressure greater than 450 KPa. These results
+were not revealed in the previous studies [28, 29]
+where the maximum blood pressure applied on to the
+leaflet was 104 KPa.
+By examining the computed deflections of the leaflet shown in Fig. 9(b), the result is quite different
+from the stress results in Fig. 9(a). The computed
+deflections of the leaflet increase as the leaflet thickness becomes thinner and thinner. This result coincides with the previous studies [28, 29]. However, the
+difference between the linear structural analysis result
+and the nonlinear structural analysis result becomes
+larger and larger as the leaflet thickness becomes
+thinner and thinner and as the applied blood pressure
+becomes larger and larger. Hence, the geometric
+nonlinearity is very conspicuous for the very thin
+leaflet. Fig. 9(b) shows that the geometric nonlinear
+deflections of the 0.5 mm thickness leaflet are conspicuous for blood pressure above 250 KPa; the geometric nonlinear deflection of the 0.55 mm thickness
+leaflet is conspicuous for the blood pressure over 300
+KPa; the geometric nonlinear deflection of the 0.60
+mm and 0.65 mm thickness leaflets are conspicuous
+for the blood pressure larger than 350 KPa; the geometric nonlinear deflection of the 0.70 mm thickness
+leaflet is conspicuous for the blood pressure larger
+than 400 KPa; and the geometric nonlinear deflection
+of the 0.75 mm thickness leaflet is conspicuous for
+the blood pressure larger than 450 KPa. Hence, geometric nonlinear deflections occur in the very thin
+leaflet (e.g., 0.5 mm and 0.55 mm thickness leaflets)
+for high blood pressures (300-500 KPa) applied to the
+leaflet surface, and so these thin leaflets are not desirable for in vivo use in the human heart. Therefore, a
+nonlinear structural analysis seems to be useful for
+the accurate design of the bileaflet MHV prosthesis
+for high applied blood pressures.
+Conclusively, from the present analysis very thin
+</bodyText>
+<page confidence="0.774153">
+2044
+</page>
+<listItem confidence="0.922002666666667">
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+(a) Linear analysis result (blood pressure = 40 KPa)
+(b) Nonlinear analysis result (Blood pressure = 400 KPa)
+</listItem>
+<figureCaption confidence="0.990998">
+Fig. 5. Deformed shape (half model, mapped view)(thickness = 0.75.mm).
+</figureCaption>
+<figure confidence="0.9535578">
+Linear analysis result
+Nonlinear analysis result
+(a) Isometric view (blood pressure = 40 KPa)
+Linear analysis result
+Nonlinear analysis result
+</figure>
+<figureCaption confidence="0.8364745">
+(b) Rotated reverse view (blood pressure = 400 KPa)
+Fig. 6. Resultant displacement contour and deformed shape (half model) of the leaflet (thickness = 0.5 mm, unit : m).
+</figureCaption>
+<figure confidence="0.891638857142857">
+Linear analysis result
+Nonlinear analysis result
+(thickness = 0.5 mm,
+(thickness = 0.75 mm,
+blood pressure = 40 KPa)
+blood pressure = 400 KPa)
+(a) Isometric view (top surface)
+</figure>
+<figureCaption confidence="0.981352">
+Fig. 7. Stress distribution contour in the leaflet (unit : Pa).
+</figureCaption>
+<table confidence="0.809450666666667">
+Linear analysis result
+Nonlinear analysis result
+(thickness = 0.5 mm,
+(thickness = 0.75 mm,
+blood pressure = 40 KPa)
+blood pressure = 400 KPa)
+</table>
+<listItem confidence="0.580225222222222">
+(b) Rotated reverse view (bottom surface)
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+leaflets (e.g., 0.5 mm and 0.55 mm thickness leaflets
+in this study) are not desirable for in vivo use in the
+human heart. The validity of this study is clear since
+the structurally weak part, i.e., the hinge part revealed
+(a) Linear analysis result (Part A, blood pressure=40 KPa)
+(b) Nonlinear analysis result (Part B, blood pressure = 400
+KPa)
+</listItem>
+<figureCaption confidence="0.885925">
+Fig. 8. Detailed views of Part A and B in the stress distribution contour of the leaflet (thickness = 0.65 mm, stress unit : Pa).
+</figureCaption>
+<tableCaption confidence="0.831425">
+Table 5. Leaflet weight and maximum equivalent stress (applied blood pressure = 500 KPa).
+</tableCaption>
+<figure confidence="0.980379772727273">
+Thickness Volume
+(mm) (×10-8m3)
+Mass
+(×10-4Kg)
+Weight
+(×10-3N)
+Equivalent
+stress (MPa)
+0.50
+5.49989 1.163776724 1.14050119
+411.88
+0.55
+6.04988 1.280154608 1.254551516
+363.97
+0.60
+6.59986 1.396530376 1.368599768
+324.80
+0.65
+7.14985 1.51290826 1.482650095
+0.70
+0.75
+2045
+</figure>
+<bodyText confidence="0.988834333333333">
+in this study coincides with the in vivo leaflet fracture
+part observed in the existing literature [32]. The leaflet thickness 0.65 mm available commercially is
+structurally safe according to the present study.
+</bodyText>
+<figure confidence="0.677086">
+(a) Maximum von Mises stress variation versus applied blood
+pressure
+(b) Maximum deflection variation versus applied blood pressure
+</figure>
+<figureCaption confidence="0.995428">
+Fig. 9. Linear and nonlinear structural analysis results for
+</figureCaption>
+<tableCaption confidence="0.7338885">
+various leaflet thickness.
+Table 6. Computed maximum von Mises stresses occurring in
+</tableCaption>
+<figure confidence="0.945637666666667">
+the leaflet (nonlinear structural analysis results, unit : MPa).
+Blood pressure
+(KPa)
+60
+100 160 200 250 300 350 400 450 500
+Thickness
+(mm)
+0.50
+54.40 90.60 144.8 180.8 225.8 270.7 315.5 360.2 404.8 449.3
+0.55
+46.78 77.93 124.6 155.6 194.4 233.2 271.9 310.5 349.1 387.7
+0.60
+40.72 67.85 108.5 135.6 169.4 203.3 237.0 270.8 304.6 338.3
+292.09
+0.65
+35.85 59.74 95.56 119.4 149.3 179.1 208.9 238.7 268.5 298.3
+7.69984 1.629286144 1.596700421
+264.73
+0.70
+31.88 53.13 85.01 106.3 132.8 159.4 180.6 212.5 239.1 265.7
+8.24983 1.745664028 1.710750747
+241.54
+0.75
+28.61 47.69 76.32 95.41 119.3 143.5 167.8 192.3 216.9 241.6
+</figure>
+<page confidence="0.380478">
+2046
+</page>
+<bodyText confidence="0.538949">
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+</bodyText>
+<sectionHeader confidence="0.987067" genericHeader="conclusions">
+5. Conclusions
+</sectionHeader>
+<bodyText confidence="0.999372857142857">
+In this paper the linear and nonlinear structural
+analyses required in the design of a bileaflet mechanical heart valve prosthesis with curved leaflet are executed. The analysis results show that the geometric
+nonlinear deflections of the very thin leaflets are conspicuous for high applied blood pressures. Hence, the
+nonlinear structural analysis seems to be useful for
+the design of the MHV prosthesis. Through the linear
+and nonlinear structural analyses, this paper presents
+the moderate thickness leaflet for the applied blood
+pressure as shown in Fig. 9 and in Table 6, and discusses the validity of the structural strength of the
+leaflet according to the leaflet thickness variation and
+the applied blood pressure variation. These results
+were not revealed in the previous studies [28, 29].
+And the structurally weak part, i.e., the hinge part
+revealed in this study coincides with the in vivo leaflet fracture part observed in the existing study which
+proves the validity of this numerical study.
+</bodyText>
+<sectionHeader confidence="0.758288" genericHeader="acknowledgments">
+Acknowledgment
+</sectionHeader>
+<bodyText confidence="0.979019">
+This work was supported by 2006 Hongik University Research Fund.
+</bodyText>
+<sectionHeader confidence="0.983142" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.996955533898305">
+[1] A. Starr and M. L. Edwards, Mitral replacement
+clinical experience with a ball-valve prosthesis, Ann.
+Surg., 154 (1961) 726-740.
+[2] V. O. Björk, A new tilting disc valve prosthesis,
+Scan J. of Thorac. Cardiovasc. Surg., 3 (1969) 1-10.
+[3] M. M. Black, P. J. Drury and W. B. Tindale,
+Twenty five years of heart valve substitutes ; a review, Journal of the Royal Society of Medicine, 76
+(1983) 667-680.
+[4] A. P. Yoganathan, W. H. Corcoran, E. C. Harrison
+and J.R. Cari, The Björk-Shiley aortic prosthesis :
+Flow characteristics, thrombus formation and tissue
+over-growth, Circulation, 58 (1978) 70-76.
+[5] A. P. Yoganathan, H. S. Sung, Y. R. Woo and M.
+Jones, In vitro velocity and turbulent measurements
+in the vicinity of three new mechanical aortic heart
+valve prosthesis, J. of Thorac. Cardiovasc. Surg.,
+95 (1988) 929-939.
+[6] J. J. Baldwin, J. M. Tarbell, S. Deutsch and D. B.
+Gaselowitz, Mean velocity pattern within a ventricular assist device, ASAIO, 35 (1989) 429-433.
+[7] K. B. Chandran, Pulsatile flow past a St. Jude
+Medical bileaflet heart valve, J. of Thorac. Cardiovasc. Surg., 89 (1985) 743-749.
+[8] Y. R. Woo and A. P. Yogananthan, Pulsatile flow
+velocity and shear stress measurement on the St.
+Jude valve prosthesis, Scand. J. of Thorac. Cardiovasc. Surg., 20 (1986) 15-28.
+[9] J. M. Hasenkam, H. Nygaard, M. Giersiepen, H.
+Reul and H. Stodkide-Jorgensen, Turbulent stress
+measurements downstream of six mechanical aortic
+valves in a pulsatile flow model, J. of Biomechanics,
+21 (1988) 631-645.
+[10] H. Nygaard, P. K. Paulsen, J. M. Hasenkam, E. M.
+Pedersenn and J. Rovsing, Turbulent stresses downstream of three mechanical aortic valve prostheses
+in human beings, J. of Thorac. Cardiovasc. Surg.,
+107 (1994) 438-446.
+[11] C. S. Lee, K. B. Chandran and L. D. Chen, Cavitation dynamics of medtronic hall mechanical heart
+valve prosthesis : fluid squeezing effect, Journal of
+Biomechanical Engineering, 118 (1996) 97-105.
+[12] A. P. Yogananthan, W. H. Corcoran and E. C.
+Harrison, In vitro velocity measurements in the vicinity of aortic prostheses, J. of Biomechanics, 12
+(1979) 135-152.
+[13] A. P. Yoganathan, Y. R. Woo and H. W. Sung,
+Turbulent shear stress measurements in the vicinity
+of aortic heart valve prostheses, J. of Biomechanics,
+19 (6) (1986) 433-442.
+[14] Y. R. Woo and A. P. Yoganathan, In vitro pulsatile flow velocity and shear stress measurements in
+the vicinity of mechanical mitral heart valve prostheses, J. of Biomechanics, 19 (1) (1986) 39-51.
+[15] R. S. Fatermi and K. B. Chandran, An in vitro
+study of the St. Jude Medical and Edwards Duromedics bileaflet valve using laser anemometry, J.
+of Biomech. Engr., 111 (1989) 298-302.
+[16] D. Bluestein, S. Einav and N. H. C. Hwang, A
+squeeze flow phenomenon at the closing of a bileaflet mechanical heart valve prosthesis, J. of Biomechnaics, 27 (11) (1994) 1369-1378.
+[17] M. J. King, Computational and experimental studies of flow through a bileaflet mechanical heart
+valve, Ph.D. Thesis, University of Leeds UK (1994).
+[18] M. J. King, T. David and J. Fisher, An initial parametric study of fluid flow through bileaflet mechanical heart valves using computational fluid dynamics, J. of Eng. Med., 208 (1994) 63-71.
+[19] C. R. Choi, C. N. Kim and Y. J. Kwon, Interaction
+of blood flow and leaflet behavior in a bileaflet me-
+Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047
+chanical heart valve, J. of Biomed. Engr. Res., 21
+(5) 505-512.
+[20] C. R. Choi and C. N. Kim, Analysis of blood flow
+interacted with leaflets in MHV in views of fluidstructure interaction, KSME International Journal,
+15 (5) (2001) 613-622.
+[21] C. R. Choi., C. N. Kim, Y. J. Kwon, J. W. Lee,
+Pulsatile blood flows through a bileaflet mechanical
+heart valve with different approach methods of numerical analysis; pulsatile flows with fixed leaflets
+and interacted with moving leaflets, KSME International Journal, 17 (7) (2003) 1073-1082.
+[22] D. N. Ghista and A. P. Rao, Structural mechanics
+of the mitral valve : stresses sustained by the valve ;
+Non-traumatic determination of the stiffness of the
+in vivo valve, J. of Biomechanics, 5 (3) (1972) 295296.
+[23] A. Cataloglu, R. E. Clark and P. L. Gould, Stress
+analysis of aortic valve leaflets with smoothed
+geometrical data, J. of Biomechanics, 10 (3) (1977)
+153-158.
+[24] E. P. M. Rousseau, A. A. van Steenhoven, J. D.
+Janssen and H. A. Huysmans, A mechanical analysis of the closed Hancock heart valve prosthesis, J.
+of Biomechanics, 21 (7) (1988) 545-562.
+[25] K. B. Chandran, S. H. Kim and G. Han, Stress
+distribution on the cusps of a polyurethane trileaflet
+heart valve prosthesis in the closed position, J. of
+Biomechanics, 24 (6) (1991) 385-387.
+[26] G. Cacciola, G. W. M. Peters and P. J. G. Schreurs,
+A three-dimensional mechanical analysis of a stentless fibre-reinforced aortic valve prosthesis, J. of
+Biomechanics, 33 (5) (2000) 521-530.
+[27] D. Hart, F. P. T. Baaijens, G. W. M. Peters and P.
+J. G. Schreurs, A computational fluid-structure interaction analysis of a fibre-reinforced stentless aortic valves, J. of Biomechanics, 36 (5) (2003) 699712.
+[28] Y. J. Kwon, C. N. Kim, J. W Lee, A structural
+analysis on the leaflet motion induced by the blood
+2047
+flow for design of a bileaflet mechanical heart valve
+prosthesis, KSME International Journal, 17 (9)
+(2003) 1316-1323.
+[29] Y. J. Kwon, A Structural analysis of a mechanical
+heart valve prosthesis with flat leaflet, JSME International Journal Series A 46 (4) (2003) 550-558.
+[30] J. R Ely, M. R Emken, J. A. Accuntius, D. S.
+Wilde, A. D. Haubold, R. B. More, J. C. Bokros,
+Pure Pyrolytic Carbon: Preparation and properties
+of a new material, On-X® Carbon for mechanical
+heart valve prostheses, Material Carbon Research
+Institute (1998) 1-15.
+[31] R. O. Ritchie and P. Lubock, Fatigue life estimation procedures for the endurance of a cardiac valve
+prosthesis : stress/life and damage-tolerant analysis,
+ASME Transactions, Journal of Biomechanical Engineering, 108 (1986) 153-160.
+[32] W. Klepetko, A. Moritz, J. Miczoch, H. Schurawitzki, E. Domdnig amd E. Wolner, Leaflet fracture
+in Edwards-duromedics bileaflet valves, The Journal of Thoracic and Cardiovascular Surgery, 98
+(1989) 90-94.
+Young Joo Kwon received
+his B.S. and M.S. degrees in
+mechanical engineering from
+Seoul National University in
+year and year, respectively,
+and then obtained the Ph.D.
+degree from the Department of
+Aerospace Engineering at The
+University of Michigan. He
+served as an engineer at Analysis and Design Application Co., Ltd., country, and a manager at Engineering Mechanics Research Corporation, country, and is
+currently a senior researcher at Korea Institute of
+Science and Technology, Korea and a professor in the
+Department of Mechano-Informatics &amp; Design Engineering at Hongik University.
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>A Starr</author>
+<author>M L Edwards</author>
+</authors>
+<title>Mitral replacement clinical experience with a ball-valve prosthesis,</title>
+<date>1961</date>
+<journal>Ann. Surg.,</journal>
+<volume>154</volume>
+<pages>726--740</pages>
+<contexts>
+<context position="4064" citStr="[1]" startWordPosition="514" endWordPosition="514">an artificial device. This artificial device is called a prosthetic heart valve. The first successful prosthetic mitral valve replacement was a device implanted by Nina Braunwald at the National Institutes of Health in 1959. This was a homemade device with artificial chordae made of polyurethane. However, it was not until the collaboration of Albert Starr, in Portland, and Lowell Edwards, an engineer in southern California, that the first reliable device for replacement of the mitral valve was produced on a commercial basis. The Starr-Edward ball-and-cage mitral valve, first implanted in 1961 [1], became the “gold standard”, until the late 1960s, when the second and the third generation prosthetic valves began to appear. After the Starr-Edward ball-and-cage valve, the monoleaflet Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 valves like Björk-Shilley Monostrut mechanical prosthetic valve [2], Sorin Allcarbon mechanical prosthetic valve, Medtronic Hall mechanical prosthetic valve, and Omnicarbon mechanical prosthetic valve, appeared throughout the 1960s and the 1970s. The third generation prosthetic valve was developed in the late 1970s and became the va</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>A. Starr and M. L. Edwards, Mitral replacement clinical experience with a ball-valve prosthesis, Ann. Surg., 154 (1961) 726-740.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V O Björk</author>
+</authors>
+<title>A new tilting disc valve prosthesis,</title>
+<date>1969</date>
+<journal>Scan J. of Thorac. Cardiovasc. Surg.,</journal>
+<volume>3</volume>
+<pages>1--10</pages>
+<contexts>
+<context position="4397" citStr="[2]" startWordPosition="562" endWordPosition="562">boration of Albert Starr, in Portland, and Lowell Edwards, an engineer in southern California, that the first reliable device for replacement of the mitral valve was produced on a commercial basis. The Starr-Edward ball-and-cage mitral valve, first implanted in 1961 [1], became the “gold standard”, until the late 1960s, when the second and the third generation prosthetic valves began to appear. After the Starr-Edward ball-and-cage valve, the monoleaflet Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 valves like Björk-Shilley Monostrut mechanical prosthetic valve [2], Sorin Allcarbon mechanical prosthetic valve, Medtronic Hall mechanical prosthetic valve, and Omnicarbon mechanical prosthetic valve, appeared throughout the 1960s and the 1970s. The third generation prosthetic valve was developed in the late 1970s and became the valve of the 1980s [3]. This was the bileaflet St. Jude Medical valve. Leaflet opening was more complete, the hemodynamics was improved, and the incidence of thromboembolism was reduced. Nowadays, bileaflet mechanical heart valves are the most commonly implanted prosthetic heart valves like the St. Jude Medical bileaflet mechanical h</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>V. O. Björk, A new tilting disc valve prosthesis, Scan J. of Thorac. Cardiovasc. Surg., 3 (1969) 1-10.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M M Black</author>
+<author>P J Drury</author>
+<author>W B Tindale</author>
+</authors>
+<title>Twenty five years of heart valve substitutes ; a review,</title>
+<date>1983</date>
+<journal>Journal of the Royal Society of Medicine,</journal>
+<volume>76</volume>
+<pages>667--680</pages>
+<contexts>
+<context position="4684" citStr="[3]" startWordPosition="603" endWordPosition="603">d standard”, until the late 1960s, when the second and the third generation prosthetic valves began to appear. After the Starr-Edward ball-and-cage valve, the monoleaflet Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 valves like Björk-Shilley Monostrut mechanical prosthetic valve [2], Sorin Allcarbon mechanical prosthetic valve, Medtronic Hall mechanical prosthetic valve, and Omnicarbon mechanical prosthetic valve, appeared throughout the 1960s and the 1970s. The third generation prosthetic valve was developed in the late 1970s and became the valve of the 1980s [3]. This was the bileaflet St. Jude Medical valve. Leaflet opening was more complete, the hemodynamics was improved, and the incidence of thromboembolism was reduced. Nowadays, bileaflet mechanical heart valves are the most commonly implanted prosthetic heart valves like the St. Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they </context>
+</contexts>
+<marker>[3]</marker>
+<rawString>M. M. Black, P. J. Drury and W. B. Tindale, Twenty five years of heart valve substitutes ; a review, Journal of the Royal Society of Medicine, 76 (1983) 667-680.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A P Yoganathan</author>
+<author>W H Corcoran</author>
+<author>E C Harrison</author>
+<author>J R Cari</author>
+</authors>
+<title>The Björk-Shiley aortic prosthesis : Flow characteristics, thrombus formation and tissue over-growth,</title>
+<date>1978</date>
+<journal>Circulation,</journal>
+<volume>58</volume>
+<pages>70--76</pages>
+<contexts>
+<context position="5383" citStr="[4, 5, 6]" startWordPosition="704" endWordPosition="704">modynamics was improved, and the incidence of thromboembolism was reduced. Nowadays, bileaflet mechanical heart valves are the most commonly implanted prosthetic heart valves like the St. Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the </context>
+</contexts>
+<marker>[4]</marker>
+<rawString>A. P. Yoganathan, W. H. Corcoran, E. C. Harrison and J.R. Cari, The Björk-Shiley aortic prosthesis : Flow characteristics, thrombus formation and tissue over-growth, Circulation, 58 (1978) 70-76.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A P Yoganathan</author>
+<author>H S Sung</author>
+<author>Y R Woo</author>
+<author>M Jones</author>
+</authors>
+<title>In vitro velocity and turbulent measurements in the vicinity of three new mechanical aortic heart valve prosthesis,</title>
+<date>1988</date>
+<journal>J. of Thorac. Cardiovasc. Surg.,</journal>
+<volume>95</volume>
+<pages>929--939</pages>
+<contexts>
+<context position="5383" citStr="[4, 5, 6]" startWordPosition="704" endWordPosition="704">modynamics was improved, and the incidence of thromboembolism was reduced. Nowadays, bileaflet mechanical heart valves are the most commonly implanted prosthetic heart valves like the St. Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the </context>
+</contexts>
+<marker>[5]</marker>
+<rawString>A. P. Yoganathan, H. S. Sung, Y. R. Woo and M. Jones, In vitro velocity and turbulent measurements in the vicinity of three new mechanical aortic heart valve prosthesis, J. of Thorac. Cardiovasc. Surg., 95 (1988) 929-939.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J J Baldwin</author>
+<author>J M Tarbell</author>
+<author>S Deutsch</author>
+<author>D B Gaselowitz</author>
+</authors>
+<title>Mean velocity pattern within a ventricular assist device,</title>
+<date>1989</date>
+<journal>ASAIO,</journal>
+<volume>35</volume>
+<pages>429--433</pages>
+<contexts>
+<context position="5383" citStr="[4, 5, 6]" startWordPosition="704" endWordPosition="704">modynamics was improved, and the incidence of thromboembolism was reduced. Nowadays, bileaflet mechanical heart valves are the most commonly implanted prosthetic heart valves like the St. Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the </context>
+</contexts>
+<marker>[6]</marker>
+<rawString>J. J. Baldwin, J. M. Tarbell, S. Deutsch and D. B. Gaselowitz, Mean velocity pattern within a ventricular assist device, ASAIO, 35 (1989) 429-433.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K B Chandran</author>
+</authors>
+<title>Pulsatile flow past a St. Jude Medical bileaflet heart valve,</title>
+<date>1985</date>
+<journal>J. of Thorac. Cardiovasc. Surg.,</journal>
+<volume>89</volume>
+<pages>743--749</pages>
+<contexts>
+<context position="5574" citStr="[7, 8, 9, 10]" startWordPosition="735" endWordPosition="735"> Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the valve leaflet may be reduced due to the periodic and cyclic countless leaflet motions (approximately 38 million cycles per year), the geometric defect owing to the shape of the leaflet, the i</context>
+</contexts>
+<marker>[7]</marker>
+<rawString>K. B. Chandran, Pulsatile flow past a St. Jude Medical bileaflet heart valve, J. of Thorac. Cardiovasc. Surg., 89 (1985) 743-749.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y R Woo</author>
+<author>A P Yogananthan</author>
+</authors>
+<title>Pulsatile flow velocity and shear stress measurement on the St. Jude valve prosthesis,</title>
+<date>1986</date>
+<journal>Scand. J. of Thorac. Cardiovasc. Surg.,</journal>
+<volume>20</volume>
+<pages>15--28</pages>
+<contexts>
+<context position="5574" citStr="[7, 8, 9, 10]" startWordPosition="735" endWordPosition="735"> Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the valve leaflet may be reduced due to the periodic and cyclic countless leaflet motions (approximately 38 million cycles per year), the geometric defect owing to the shape of the leaflet, the i</context>
+</contexts>
+<marker>[8]</marker>
+<rawString>Y. R. Woo and A. P. Yogananthan, Pulsatile flow velocity and shear stress measurement on the St. Jude valve prosthesis, Scand. J. of Thorac. Cardiovasc. Surg., 20 (1986) 15-28.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J M Hasenkam</author>
+<author>H Nygaard</author>
+<author>M Giersiepen</author>
+<author>H Reul</author>
+<author>H Stodkide-Jorgensen</author>
+</authors>
+<title>Turbulent stress measurements downstream of six mechanical aortic valves in a pulsatile flow model,</title>
+<date>1988</date>
+<journal>J. of Biomechanics,</journal>
+<volume>21</volume>
+<pages>631--645</pages>
+<contexts>
+<context position="5574" citStr="[7, 8, 9, 10]" startWordPosition="735" endWordPosition="735"> Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the valve leaflet may be reduced due to the periodic and cyclic countless leaflet motions (approximately 38 million cycles per year), the geometric defect owing to the shape of the leaflet, the i</context>
+</contexts>
+<marker>[9]</marker>
+<rawString>J. M. Hasenkam, H. Nygaard, M. Giersiepen, H. Reul and H. Stodkide-Jorgensen, Turbulent stress measurements downstream of six mechanical aortic valves in a pulsatile flow model, J. of Biomechanics, 21 (1988) 631-645.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Nygaard</author>
+<author>P K Paulsen</author>
+<author>J M Hasenkam</author>
+<author>E M Pedersenn</author>
+<author>J Rovsing</author>
+</authors>
+<title>Turbulent stresses downstream of three mechanical aortic valve prostheses in human beings,</title>
+<date>1994</date>
+<journal>J. of Thorac. Cardiovasc. Surg.,</journal>
+<volume>107</volume>
+<pages>438--446</pages>
+<contexts>
+<context position="5574" citStr="[7, 8, 9, 10]" startWordPosition="735" endWordPosition="735"> Jude Medical bileaflet mechanical heart valve prosthesis, the Edwards MIRA bileaflet mechanical heart valve prosthesis, and the On-X® bileaflet mechanical heart valve prosthesis. Even though these bileaflet mechanical heart valve prostheses are widely used for heart valve disease, they still have many problems when they are implanted and replace the diseased cardiac aortic or mitral valves of the human heart [4, 5, 6]. When the bileaflet mechanical heart valves are fully open and closed, high velocity jets through the gap between the leaflets can be readily detected both in vivo and in vitro [7, 8, 9, 10]. This valve movement coupled with the high velocity jets through the leaflets causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the valve leaflet may be reduced due to the periodic and cyclic countless leaflet motions (approximately 38 million cycles per year), the geometric defect owing to the shape of the leaflet, the i</context>
+</contexts>
+<marker>[10]</marker>
+<rawString>H. Nygaard, P. K. Paulsen, J. M. Hasenkam, E. M. Pedersenn and J. Rovsing, Turbulent stresses downstream of three mechanical aortic valve prostheses in human beings, J. of Thorac. Cardiovasc. Surg., 107 (1994) 438-446.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C S Lee</author>
+<author>K B Chandran</author>
+<author>L D Chen</author>
+</authors>
+<title>Cavitation dynamics of medtronic hall mechanical heart valve prosthesis : fluid squeezing effect,</title>
+<date>1996</date>
+<journal>Journal of Biomechanical Engineering,</journal>
+<volume>118</volume>
+<pages>97--105</pages>
+<contexts>
+<context position="6255" citStr="[11]" startWordPosition="837" endWordPosition="837">s causes elevated shear stress which may cause red blood cell damage or platelet activation. Together with high shear stress, increased coagulation due to blood stagnancy in contact with the artery wall may cause thrombosis and thromboembolism, which should be avoided for cardiac patients. Moreover, the structural strength of the valve leaflet may be reduced due to the periodic and cyclic countless leaflet motions (approximately 38 million cycles per year), the geometric defect owing to the shape of the leaflet, the inhomogeneous mechanical properties of the leaflet, the cavitation phenomenon [11] due to the blood pressure drop, and the wear due to the friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through th</context>
+</contexts>
+<marker>[11]</marker>
+<rawString>C. S. Lee, K. B. Chandran and L. D. Chen, Cavitation dynamics of medtronic hall mechanical heart valve prosthesis : fluid squeezing effect, Journal of Biomechanical Engineering, 118 (1996) 97-105.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A P Yogananthan</author>
+<author>W H Corcoran</author>
+<author>E C Harrison</author>
+</authors>
+<title>In vitro velocity measurements in the vicinity of aortic prostheses,</title>
+<date>1979</date>
+<journal>J. of Biomechanics,</journal>
+<volume>12</volume>
+<pages>135--152</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[12]</marker>
+<rawString>A. P. Yogananthan, W. H. Corcoran and E. C. Harrison, In vitro velocity measurements in the vicinity of aortic prostheses, J. of Biomechanics, 12 (1979) 135-152.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A P Yoganathan</author>
+<author>Y R Woo</author>
+<author>H W Sung</author>
+</authors>
+<title>Turbulent shear stress measurements in the vicinity of aortic heart valve prostheses,</title>
+<date>1986</date>
+<journal>J. of Biomechanics,</journal>
+<volume>19</volume>
+<issue>6</issue>
+<pages>433--442</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[13]</marker>
+<rawString>A. P. Yoganathan, Y. R. Woo and H. W. Sung, Turbulent shear stress measurements in the vicinity of aortic heart valve prostheses, J. of Biomechanics, 19 (6) (1986) 433-442.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y R Woo</author>
+<author>A P Yoganathan</author>
+</authors>
+<title>In vitro pulsatile flow velocity and shear stress measurements in the vicinity of mechanical mitral heart valve prostheses,</title>
+<date>1986</date>
+<journal>J. of Biomechanics,</journal>
+<volume>19</volume>
+<issue>1</issue>
+<pages>39--51</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[14]</marker>
+<rawString>Y. R. Woo and A. P. Yoganathan, In vitro pulsatile flow velocity and shear stress measurements in the vicinity of mechanical mitral heart valve prostheses, J. of Biomechanics, 19 (1) (1986) 39-51.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R S Fatermi</author>
+<author>K B Chandran</author>
+</authors>
+<title>An in vitro study of the St. Jude Medical and Edwards Duromedics bileaflet valve using laser anemometry,</title>
+<date>1989</date>
+<journal>J. of Biomech. Engr.,</journal>
+<volume>111</volume>
+<pages>298--302</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[15]</marker>
+<rawString>R. S. Fatermi and K. B. Chandran, An in vitro study of the St. Jude Medical and Edwards Duromedics bileaflet valve using laser anemometry, J. of Biomech. Engr., 111 (1989) 298-302.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Bluestein</author>
+<author>S Einav</author>
+<author>N H C Hwang</author>
+</authors>
+<title>A squeeze flow phenomenon at the closing of a bileaflet mechanical heart valve prosthesis,</title>
+<date>1994</date>
+<journal>J. of Biomechnaics,</journal>
+<volume>27</volume>
+<issue>11</issue>
+<pages>1369--1378</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[16]</marker>
+<rawString>D. Bluestein, S. Einav and N. H. C. Hwang, A squeeze flow phenomenon at the closing of a bileaflet mechanical heart valve prosthesis, J. of Biomechnaics, 27 (11) (1994) 1369-1378.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J King</author>
+</authors>
+<title>Computational and experimental studies of flow through a bileaflet mechanical heart valve,</title>
+<date>1994</date>
+<tech>Ph.D. Thesis,</tech>
+<institution>University of Leeds UK</institution>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[17]</marker>
+<rawString>M. J. King, Computational and experimental studies of flow through a bileaflet mechanical heart valve, Ph.D. Thesis, University of Leeds UK (1994).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J King</author>
+<author>T David</author>
+<author>J Fisher</author>
+</authors>
+<title>An initial parametric study of fluid flow through bileaflet mechanical heart valves using computational fluid dynamics,</title>
+<date>1994</date>
+<journal>J. of Eng. Med.,</journal>
+<volume>208</volume>
+<pages>63--71</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[18]</marker>
+<rawString>M. J. King, T. David and J. Fisher, An initial parametric study of fluid flow through bileaflet mechanical heart valves using computational fluid dynamics, J. of Eng. Med., 208 (1994) 63-71.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C R Choi</author>
+<author>C N Kim</author>
+<author>Y J Kwon</author>
+</authors>
+<title>Interaction of blood flow and leaflet behavior in a bileaflet meY.</title>
+<date>2008</date>
+<journal>J. Kwon / Journal of Mechanical Science and Technology</journal>
+<volume>22</volume>
+<pages>505--512</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[19]</marker>
+<rawString>C. R. Choi, C. N. Kim and Y. J. Kwon, Interaction of blood flow and leaflet behavior in a bileaflet meY. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 chanical heart valve, J. of Biomed. Engr. Res., 21 (5) 505-512.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C R Choi</author>
+<author>C N Kim</author>
+</authors>
+<title>Analysis of blood flow interacted with leaflets in MHV in views of fluidstructure interaction,</title>
+<date>2001</date>
+<journal>KSME International Journal,</journal>
+<volume>15</volume>
+<issue>5</issue>
+<pages>613--622</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[20]</marker>
+<rawString>C. R. Choi and C. N. Kim, Analysis of blood flow interacted with leaflets in MHV in views of fluidstructure interaction, KSME International Journal, 15 (5) (2001) 613-622.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C R Choi</author>
+<author>C N Kim</author>
+<author>Y J Kwon</author>
+<author>J W Lee</author>
+</authors>
+<title>Pulsatile blood flows through a bileaflet mechanical heart valve with different approach methods of numerical analysis; pulsatile flows with fixed leaflets and interacted with moving leaflets,</title>
+<date>2003</date>
+<journal>KSME International Journal,</journal>
+<volume>17</volume>
+<issue>7</issue>
+<pages>1073--1082</pages>
+<contexts>
+<context position="6951" citStr="[12, 13, 14, 15, 16, 17, 18, 19, 20, 21]" startWordPosition="948" endWordPosition="948"> friction between the leaflet and the blood. These structural problems may cause the cracking and the fracture of the valve leaflet and eventually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of t</context>
+</contexts>
+<marker>[21]</marker>
+<rawString>C. R. Choi., C. N. Kim, Y. J. Kwon, J. W. Lee, Pulsatile blood flows through a bileaflet mechanical heart valve with different approach methods of numerical analysis; pulsatile flows with fixed leaflets and interacted with moving leaflets, KSME International Journal, 17 (7) (2003) 1073-1082.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D N Ghista</author>
+<author>A P Rao</author>
+</authors>
+<title>Structural mechanics of the mitral valve : stresses sustained by the valve ; Non-traumatic determination of the stiffness of the in vivo valve,</title>
+<date>1972</date>
+<journal>J. of Biomechanics,</journal>
+<volume>5</volume>
+<issue>3</issue>
+<pages>295296</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[22]</marker>
+<rawString>D. N. Ghista and A. P. Rao, Structural mechanics of the mitral valve : stresses sustained by the valve ; Non-traumatic determination of the stiffness of the in vivo valve, J. of Biomechanics, 5 (3) (1972) 295296.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Cataloglu</author>
+<author>R E Clark</author>
+<author>P L Gould</author>
+</authors>
+<title>Stress analysis of aortic valve leaflets with smoothed geometrical data,</title>
+<date>1977</date>
+<journal>J. of Biomechanics,</journal>
+<volume>10</volume>
+<issue>3</issue>
+<pages>153--158</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[23]</marker>
+<rawString>A. Cataloglu, R. E. Clark and P. L. Gould, Stress analysis of aortic valve leaflets with smoothed geometrical data, J. of Biomechanics, 10 (3) (1977) 153-158.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E P M Rousseau</author>
+<author>A A van Steenhoven</author>
+<author>J D Janssen</author>
+<author>H A Huysmans</author>
+</authors>
+<title>A mechanical analysis of the closed Hancock heart valve prosthesis,</title>
+<date>1988</date>
+<journal>J. of Biomechanics,</journal>
+<volume>21</volume>
+<issue>7</issue>
+<pages>545--562</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[24]</marker>
+<rawString>E. P. M. Rousseau, A. A. van Steenhoven, J. D. Janssen and H. A. Huysmans, A mechanical analysis of the closed Hancock heart valve prosthesis, J. of Biomechanics, 21 (7) (1988) 545-562.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K B Chandran</author>
+<author>S H Kim</author>
+<author>G Han</author>
+</authors>
+<title>Stress distribution on the cusps of a polyurethane trileaflet heart valve prosthesis in the closed position,</title>
+<date>1991</date>
+<journal>J. of Biomechanics,</journal>
+<volume>24</volume>
+<issue>6</issue>
+<pages>385--387</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[25]</marker>
+<rawString>K. B. Chandran, S. H. Kim and G. Han, Stress distribution on the cusps of a polyurethane trileaflet heart valve prosthesis in the closed position, J. of Biomechanics, 24 (6) (1991) 385-387.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Cacciola</author>
+<author>G W M Peters</author>
+<author>P J G Schreurs</author>
+</authors>
+<title>A three-dimensional mechanical analysis of a stentless fibre-reinforced aortic valve prosthesis,</title>
+<date>2000</date>
+<journal>J. of Biomechanics,</journal>
+<volume>33</volume>
+<issue>5</issue>
+<pages>521--530</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[26]</marker>
+<rawString>G. Cacciola, G. W. M. Peters and P. J. G. Schreurs, A three-dimensional mechanical analysis of a stentless fibre-reinforced aortic valve prosthesis, J. of Biomechanics, 33 (5) (2000) 521-530.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Hart</author>
+<author>F P T Baaijens</author>
+<author>G W M Peters</author>
+<author>P J G Schreurs</author>
+</authors>
+<title>A computational fluid-structure interaction analysis of a fibre-reinforced stentless aortic valves,</title>
+<date>2003</date>
+<journal>J. of Biomechanics,</journal>
+<volume>36</volume>
+<issue>5</issue>
+<pages>699712</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+</contexts>
+<marker>[27]</marker>
+<rawString>D. Hart, F. P. T. Baaijens, G. W. M. Peters and P. J. G. Schreurs, A computational fluid-structure interaction analysis of a fibre-reinforced stentless aortic valves, J. of Biomechanics, 36 (5) (2003) 699712.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y J Kwon</author>
+<author>C N Kim</author>
+<author>J W Lee</author>
+</authors>
+<title>A structural analysis on the leaflet motion induced by the blood flow for design of a bileaflet mechanical heart valve prosthesis,</title>
+<date>2003</date>
+<journal>KSME International Journal,</journal>
+<volume>17</volume>
+<issue>9</issue>
+<pages>1316--1323</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+<context position="13786" citStr="[28, 29]" startWordPosition="2033" endWordPosition="2034">osthesis (Mitral Model 9600 valves). Size (mm) Aortic Mounting Orifice Orifice Overall sizer Diameter Height 1136 Diameter Area (mm) (cm2) Open(mm) Diameter (mm) (mm) 23 23.5 23.7 19.24 2.83 11.5 25 25.6 25.8 21.26 3.45 12.4 27 27.9 28.1 23.30 4.14 13.6 29 30.3 30.5 25.60 5.00 14.7 31 31.3 31.6 25.60 5.00 14.7 33 32.9 33.0 25.60 5.00 14.7 3. Structural analysis of the bileaflet mechanical heart valve prosthesis The position of the leaflet where the blood fluid force applied on the leaflet becomes the maximum value was computed to be the closing position of the leaflet through previous studies [28, 29]. Hence, the structural mechanic analysis of the leaflet is carried out at the closing position of the leaflet according to the leaflet thickness variation to get the thickness effects on the structural strength of the leaflet. A numerical analysis methodology (FEM) is used for the structural mechanic analysis. The finite element 2041 model for the structural mechanic analysis of the leaflet is shown in Fig. 3(b). The number of element is 72,446, and the number of node is 81,526 (Table 3). The sewing cuff and the orifice ring are neglected in the structural analysis, because they do not affect</context>
+<context position="16695" citStr="[28, 29]" startWordPosition="2512" endWordPosition="2513">udy by applying a very high blood flow pressure at which the equivalent stress occurring inside the very thin leaflet (with 0.5 mm thickness) first exceeds the yield stress (407.7 MPa) of the leaflet material (see Table 5). A large deformation is also expected to occur in the leaflet for the applied high blood pressure to require the nonlinear structural analysis. Since the large deformation occurring in the leaflet is only due to the high blood pressure, only geometric nonlinearity is assumed. Also linear structural analysis is simultaneously performed for comparison. In the previous studies [28, 29] only a linear structural analysis was carried out for the applied 2042 Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 Table 3. F.E. model data for the leaflet. Parameter Data Number of nodes 81,526 Number of elements 72,446 Table 4. Mechanical properties of the leaflet material [30]. Data Property (a) Solid model (b) FE model Fig. 3. Solid model and FE model of the leaflet (thickness=0.65.mm). Flexural strength 407.7 MPa Young’s modulus (E) 30.5 Gpa Yield stress (σy) 407.7 MPa Hardness (H) 287 DPH Density (ρ) 2,116 kg/m3 Poisson’s ratio (ν) 0.3 Strain-to-failure</context>
+<context position="20170" citStr="[28, 29]" startWordPosition="3086" endWordPosition="3087">re almost same.) while the computed stresses increase as the leaflet thickness becomes thinner and thinner. This result is quite reasonable and anticipated because the stress occurring in the leaflet should be proportional to the applied external blood pressure regardless of the analysis type (linear or nonlinear analysis) if the structure does not change itself. The thin leaflets are structurally weak because the stress occurring in the leaflet becomes larger and larger as the leaflet thickness becomes thinner and thinner as shown in Fig. 9(a). This result coincides with the previous studies [28, 29]. The structural strength of a structure is usually decided from the yield criterion (e.g., von Mises yield criterion, Tresca yield criterion, etc.). According to the von Mises yield criterion, if the maximum value of the equivalent stress occurring in the structure exceeds the yield stress of the structure material, the structure begins to yield for the applied external load. From this point of view, Table 5 shows that the 0.5 mm thickness leaflet is expected to begin to yield for the applied 500 KPa blood pressure because the computed maximum equivalent stress (411.88 MPa) in the leaflet exc</context>
+<context position="22463" citStr="[28, 29]" startWordPosition="3479" endWordPosition="3480">et material adopted in this analysis. Hence, stresses larger than 203.85 MPa in Table 6 are not desirable for the in vivo use of the leaflet in the human heart. Table 6 shows that very thin 0.5 mm and 0.55 mm thickness leaflets are not suitable for blood pressure greater than 300 KPa, 0.6 mm and 0.65 mm thickness leaflets are not suitable for blood pressure greater than 350 KPa, 0.7 mm thickness leaflet is not suitable for blood pressure above 400 KPa, and 0.75 mm thickness leaflet is not suitable for blood pressure greater than 450 KPa. These results were not revealed in the previous studies [28, 29] where the maximum blood pressure applied on to the leaflet was 104 KPa. By examining the computed deflections of the leaflet shown in Fig. 9(b), the result is quite different from the stress results in Fig. 9(a). The computed deflections of the leaflet increase as the leaflet thickness becomes thinner and thinner. This result coincides with the previous studies [28, 29]. However, the difference between the linear structural analysis result and the nonlinear structural analysis result becomes larger and larger as the leaflet thickness becomes thinner and thinner and as the applied blood pressu</context>
+</contexts>
+<marker>[28]</marker>
+<rawString>Y. J. Kwon, C. N. Kim, J. W Lee, A structural analysis on the leaflet motion induced by the blood flow for design of a bileaflet mechanical heart valve prosthesis, KSME International Journal, 17 (9) (2003) 1316-1323.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y J Kwon</author>
+</authors>
+<title>A Structural analysis of a mechanical heart valve prosthesis with flat leaflet,</title>
+<date>2003</date>
+<journal>JSME International Journal Series A</journal>
+<volume>46</volume>
+<issue>4</issue>
+<pages>550--558</pages>
+<contexts>
+<context position="7081" citStr="[22, 23, 24, 25, 26, 27, 28, 29]" startWordPosition="965" endWordPosition="965">entually failure of the valve operation leading to the death of the cardiac patient. Therefore, comprehensive studies are required on the mechanical heart valve leaflet associated with the blood flow for the design of the MHV prosthesis. So far many studies for the improvement of the design of the mechanical heart valve prosthesis have been reported. Some of them are on the blood flow passing through the leaflet for a single cycle with inelastic artery wall [12, 13, 14, 15, 16, 17, 18, 19, 20, 21]. 2039 Some of them are on the structural strength analysis of the mechanical heart valve leaflet [22, 23, 24, 25, 26, 27, 28, 29]. Intrinsically, the design problem of a bileaflet mechanical heart valve prosthesis is characterized by multidisciplinary interactions in which fluid mechanics, rigid body dynamics, and structural mechanics are linked to another. These kinds of multidisciplinary analysis features in the design of the MHV prosthesis were studied very much by using computer-aided engineering systems in the previous studies [28, 29]. These studies adopted several thickness models of the leaflet and revealed that the structural strength of the leaflet was reduced as the leaflet thickness became thinner and thinne</context>
+<context position="13786" citStr="[28, 29]" startWordPosition="2033" endWordPosition="2034">osthesis (Mitral Model 9600 valves). Size (mm) Aortic Mounting Orifice Orifice Overall sizer Diameter Height 1136 Diameter Area (mm) (cm2) Open(mm) Diameter (mm) (mm) 23 23.5 23.7 19.24 2.83 11.5 25 25.6 25.8 21.26 3.45 12.4 27 27.9 28.1 23.30 4.14 13.6 29 30.3 30.5 25.60 5.00 14.7 31 31.3 31.6 25.60 5.00 14.7 33 32.9 33.0 25.60 5.00 14.7 3. Structural analysis of the bileaflet mechanical heart valve prosthesis The position of the leaflet where the blood fluid force applied on the leaflet becomes the maximum value was computed to be the closing position of the leaflet through previous studies [28, 29]. Hence, the structural mechanic analysis of the leaflet is carried out at the closing position of the leaflet according to the leaflet thickness variation to get the thickness effects on the structural strength of the leaflet. A numerical analysis methodology (FEM) is used for the structural mechanic analysis. The finite element 2041 model for the structural mechanic analysis of the leaflet is shown in Fig. 3(b). The number of element is 72,446, and the number of node is 81,526 (Table 3). The sewing cuff and the orifice ring are neglected in the structural analysis, because they do not affect</context>
+<context position="16695" citStr="[28, 29]" startWordPosition="2512" endWordPosition="2513">udy by applying a very high blood flow pressure at which the equivalent stress occurring inside the very thin leaflet (with 0.5 mm thickness) first exceeds the yield stress (407.7 MPa) of the leaflet material (see Table 5). A large deformation is also expected to occur in the leaflet for the applied high blood pressure to require the nonlinear structural analysis. Since the large deformation occurring in the leaflet is only due to the high blood pressure, only geometric nonlinearity is assumed. Also linear structural analysis is simultaneously performed for comparison. In the previous studies [28, 29] only a linear structural analysis was carried out for the applied 2042 Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 Table 3. F.E. model data for the leaflet. Parameter Data Number of nodes 81,526 Number of elements 72,446 Table 4. Mechanical properties of the leaflet material [30]. Data Property (a) Solid model (b) FE model Fig. 3. Solid model and FE model of the leaflet (thickness=0.65.mm). Flexural strength 407.7 MPa Young’s modulus (E) 30.5 Gpa Yield stress (σy) 407.7 MPa Hardness (H) 287 DPH Density (ρ) 2,116 kg/m3 Poisson’s ratio (ν) 0.3 Strain-to-failure</context>
+<context position="20170" citStr="[28, 29]" startWordPosition="3086" endWordPosition="3087">re almost same.) while the computed stresses increase as the leaflet thickness becomes thinner and thinner. This result is quite reasonable and anticipated because the stress occurring in the leaflet should be proportional to the applied external blood pressure regardless of the analysis type (linear or nonlinear analysis) if the structure does not change itself. The thin leaflets are structurally weak because the stress occurring in the leaflet becomes larger and larger as the leaflet thickness becomes thinner and thinner as shown in Fig. 9(a). This result coincides with the previous studies [28, 29]. The structural strength of a structure is usually decided from the yield criterion (e.g., von Mises yield criterion, Tresca yield criterion, etc.). According to the von Mises yield criterion, if the maximum value of the equivalent stress occurring in the structure exceeds the yield stress of the structure material, the structure begins to yield for the applied external load. From this point of view, Table 5 shows that the 0.5 mm thickness leaflet is expected to begin to yield for the applied 500 KPa blood pressure because the computed maximum equivalent stress (411.88 MPa) in the leaflet exc</context>
+<context position="22463" citStr="[28, 29]" startWordPosition="3479" endWordPosition="3480">et material adopted in this analysis. Hence, stresses larger than 203.85 MPa in Table 6 are not desirable for the in vivo use of the leaflet in the human heart. Table 6 shows that very thin 0.5 mm and 0.55 mm thickness leaflets are not suitable for blood pressure greater than 300 KPa, 0.6 mm and 0.65 mm thickness leaflets are not suitable for blood pressure greater than 350 KPa, 0.7 mm thickness leaflet is not suitable for blood pressure above 400 KPa, and 0.75 mm thickness leaflet is not suitable for blood pressure greater than 450 KPa. These results were not revealed in the previous studies [28, 29] where the maximum blood pressure applied on to the leaflet was 104 KPa. By examining the computed deflections of the leaflet shown in Fig. 9(b), the result is quite different from the stress results in Fig. 9(a). The computed deflections of the leaflet increase as the leaflet thickness becomes thinner and thinner. This result coincides with the previous studies [28, 29]. However, the difference between the linear structural analysis result and the nonlinear structural analysis result becomes larger and larger as the leaflet thickness becomes thinner and thinner and as the applied blood pressu</context>
+</contexts>
+<marker>[29]</marker>
+<rawString>Y. J. Kwon, A Structural analysis of a mechanical heart valve prosthesis with flat leaflet, JSME International Journal Series A 46 (4) (2003) 550-558.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J R Ely</author>
+<author>M R Emken</author>
+<author>J A Accuntius</author>
+<author>D S Wilde</author>
+<author>A D Haubold</author>
+<author>R B More</author>
+<author>J C Bokros</author>
+</authors>
+<title>Pure Pyrolytic Carbon: Preparation and properties of a new material, On-X® Carbon for mechanical heart valve prostheses,</title>
+<date>1998</date>
+<journal>Material Carbon Research Institute</journal>
+<pages>1--15</pages>
+<contexts>
+<context position="17010" citStr="[30]" startWordPosition="2565" endWordPosition="2565">e to require the nonlinear structural analysis. Since the large deformation occurring in the leaflet is only due to the high blood pressure, only geometric nonlinearity is assumed. Also linear structural analysis is simultaneously performed for comparison. In the previous studies [28, 29] only a linear structural analysis was carried out for the applied 2042 Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 Table 3. F.E. model data for the leaflet. Parameter Data Number of nodes 81,526 Number of elements 72,446 Table 4. Mechanical properties of the leaflet material [30]. Data Property (a) Solid model (b) FE model Fig. 3. Solid model and FE model of the leaflet (thickness=0.65.mm). Flexural strength 407.7 MPa Young’s modulus (E) 30.5 Gpa Yield stress (σy) 407.7 MPa Hardness (H) 287 DPH Density (ρ) 2,116 kg/m3 Poisson’s ratio (ν) 0.3 Strain-to-failure 1.28 % blood pressure up to 104KPa. The previous studies [28, 29] revealed the kinetic and kinematic behavior of the leaflet while the MHV prosthesis was working in the human heart. According to the previous studies [28, 29], the structural deformation of the leaflet is expected at the closing position of the val</context>
+</contexts>
+<marker>[30]</marker>
+<rawString>J. R Ely, M. R Emken, J. A. Accuntius, D. S. Wilde, A. D. Haubold, R. B. More, J. C. Bokros, Pure Pyrolytic Carbon: Preparation and properties of a new material, On-X® Carbon for mechanical heart valve prostheses, Material Carbon Research Institute (1998) 1-15.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R O Ritchie</author>
+<author>P Lubock</author>
+</authors>
+<title>Fatigue life estimation procedures for the endurance of a cardiac valve prosthesis : stress/life and damage-tolerant analysis,</title>
+<date>1986</date>
+<journal>ASME Transactions, Journal of Biomechanical Engineering,</journal>
+<volume>108</volume>
+<pages>153--160</pages>
+<contexts>
+<context position="8282" citStr="[31]" startWordPosition="1144" endWordPosition="1144">nner. However, these studies could not show clearly the structurally weaker leaflet whose thickness is not suitable for the in vivo use of the MHV prosthesis. These studies showed that the leaflet with analyzed thickness has enough strength to the applied single blood pressure. However, this result is questionable, because the blood pressure is applied to the leaflet surface constantly during the lifetime operation in the human heart. Hence, the fatigue and fracture structural analysis for the leaflet motion may be required for the determination of the structural strength of the valve leaflet [31]. However, equivalently a large blood pressure may be applied to the leaflet surface to determine and compare the structural strength of the leaflet for various leaflet thicknesses. A large deflection is expected to occur inside the leaflet for the high blood pressure and so the nonlinear structural analysis technique is required for the analysis. Thus both linear and nonlinear structural analysis techniques are adopted. The linear and nonlinear structural analyses results are compared to determine the structurally weaker leaflet thickness. In the present study, the structural strength of the </context>
+</contexts>
+<marker>[31]</marker>
+<rawString>R. O. Ritchie and P. Lubock, Fatigue life estimation procedures for the endurance of a cardiac valve prosthesis : stress/life and damage-tolerant analysis, ASME Transactions, Journal of Biomechanical Engineering, 108 (1986) 153-160.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>W Klepetko</author>
+<author>A Moritz</author>
+<author>J Miczoch</author>
+<author>H Schurawitzki</author>
+<author>E Domdnig amd E Wolner</author>
+</authors>
+<title>Leaflet fracture in Edwards-duromedics bileaflet valves, The Journal of Thoracic and Cardiovascular Surgery,</title>
+<date>1989</date>
+<contexts>
+<context position="18708" citStr="[32]" startWordPosition="2846" endWordPosition="2846">l deformation and stress distribution results obtained from the structural analysis of the leaflet are shown in Fig. 5, Fig. 6, Fig. 7, and Fig. 8. The maximum deflection occurs at the lower central part of the leaflet (Fig. 5, Fig. 6) and the maximum stress occurs at the hinge of the leaflet (Part A in Fig. 7 and Fig. 8) for all leaflet thickness. Hence, the geometrically weak part is the hinge part for this curved bileaflet mechanical heart valve prosthesis, and so a fracture may possibly occur in this hinge part. This coincides with the in vivo leaflet fracture observation made by Klepetko [32]. A large stress also occurs at the lower sharp corner part of the leaflet end surface (Part B in Fig. 7 and Fig. 8). Table 5 shows the variations of the mass and the weight of the leaflet and also the computed equivalent stress variation according to the leaflet thickness change for the applied blood Y. J. Kwon / Journal of Mechanical Science and Technology 22 (2008) 2038~2047 pressure of 500 KPa. Fig. 9 shows the maximum deflection variations and the maximum von Mises stress variations as the leaflet thickness varies from the 0.5 mm to 0.75 mm by 0.05 mm and the blood flow pressure varies up</context>
+<context position="26321" citStr="[32]" startWordPosition="4093" endWordPosition="4093"> = 400 KPa) Fig. 8. Detailed views of Part A and B in the stress distribution contour of the leaflet (thickness = 0.65 mm, stress unit : Pa). Table 5. Leaflet weight and maximum equivalent stress (applied blood pressure = 500 KPa). Thickness Volume (mm) (×10-8m3) Mass (×10-4Kg) Weight (×10-3N) Equivalent stress (MPa) 0.50 5.49989 1.163776724 1.14050119 411.88 0.55 6.04988 1.280154608 1.254551516 363.97 0.60 6.59986 1.396530376 1.368599768 324.80 0.65 7.14985 1.51290826 1.482650095 0.70 0.75 2045 in this study coincides with the in vivo leaflet fracture part observed in the existing literature [32]. The leaflet thickness 0.65 mm available commercially is structurally safe according to the present study. (a) Maximum von Mises stress variation versus applied blood pressure (b) Maximum deflection variation versus applied blood pressure Fig. 9. Linear and nonlinear structural analysis results for various leaflet thickness. Table 6. Computed maximum von Mises stresses occurring in the leaflet (nonlinear structural analysis results, unit : MPa). Blood pressure (KPa) 60 100 160 200 250 300 350 400 450 500 Thickness (mm) 0.50 54.40 90.60 144.8 180.8 225.8 270.7 315.5 360.2 404.8 449.3 0.55 46.7</context>
+</contexts>
+<marker>[32]</marker>
+<rawString>W. Klepetko, A. Moritz, J. Miczoch, H. Schurawitzki, E. Domdnig amd E. Wolner, Leaflet fracture in Edwards-duromedics bileaflet valves, The Journal of Thoracic and Cardiovascular Surgery, 98 (1989) 90-94. Young Joo Kwon received his B.S. and M.S. degrees in mechanical engineering from Seoul National University in year and year, respectively, and then obtained the Ph.D. degree from the Department of Aerospace Engineering at The University of Michigan. He served as an engineer at Analysis and Design Application Co., Ltd., country, and a manager at Engineering Mechanics Research Corporation, country, and is currently a senior researcher at Korea Institute of Science and Technology, Korea and a professor in the Department of Mechano-Informatics &amp; Design Engineering at Hongik University.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

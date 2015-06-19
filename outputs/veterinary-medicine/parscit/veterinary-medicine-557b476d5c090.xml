@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<table confidence="0.197238">
+Anal Bioanal Chem (2013) 405:6543–6553
+DOI 10.1007/s00216-013-7060-5
+</table>
+<sectionHeader confidence="0.965116" genericHeader="abstract">
+RESEARCH PAPER
+</sectionHeader>
+<bodyText confidence="0.933849">
+Wide-scope analysis of veterinary drug and pesticide
+residues in animal feed by liquid chromatography coupled
+to quadrupole-time-of-flight mass spectrometry
+</bodyText>
+<table confidence="0.9207854">
+María M. Aguilera-Luiz &amp; Roberto Romero-González &amp;
+Patricia Plaza-Bolaños &amp; José Luis Martínez Vidal &amp;
+Antonia Garrido Frenich
+Received: 22 February 2013 / Revised: 2 May 2013 / Accepted: 10 May 2013 / Published online: 28 May 2013
+# Springer-Verlag Berlin Heidelberg 2013
+</table>
+<sectionHeader confidence="0.876581" genericHeader="categories and subject descriptors">
+Abstract A fast and generic method has been developed for
+</sectionHeader>
+<bodyText confidence="0.93977580952381">
+the simultaneous monitoring of &amp;gt;250 pesticides and veterinary drugs (VDs) in animal feed. A ‘dilute-and-shoot’ extraction with water and acetonitrile (1 % formic acid)
+followed by a clean-up step with Florisil cartridges was
+applied. The extracts were analysed by ultra-high performance liquid chromatography coupled to hybrid analyser
+quadrupole-time-of-flight mass spectrometry using both
+positive and negative electrospray ionisation. The detection
+of the residues was accomplished by retention time and
+accurate mass using an in-house database. The identification
+of the detected compounds was carried out by searching of
+fragment ions for each compound and isotopic pattern. The
+optimised method was validated and recoveries ranged from
+60 % to 120 % at three concentrations (10, 50 and
+100 μg kg−1) for 30 %, 68 % and 80 % of compounds,
+respectively, included in the database (364) in chicken feed.
+Document SANCO 12495/2011 and Directive 2002/657/CE
+were used as guidelines for method validation. Intra-day and
+inter-day precisions, expressed as relative standard deviations,
+were lower than 20 % for more than 90 % of compounds.
+The limits of quantification ranged from 4 to 200 μg kg−1 for
+most analytes, which are sufficient to verify compliance of
+products with legal tolerances. The applicability of the
+Electronic supplementary material The online version of this article
+</bodyText>
+<listItem confidence="0.4918475">
+(doi:10.1007/s00216-013-7060-5) contains supplementary material,
+which is available to authorized users.
+M. M. Aguilera-Luiz : R. Romero-González : P. Plaza-Bolaños :
+J. L. Martínez Vidal : A. Garrido Frenich (*)
+</listItem>
+<affiliation confidence="0.851755333333333">
+Department of Chemistry and Physics (Analytical Chemistry Area),
+Research Centre for Agricultural and Food Biotechnology (BITAL),
+University of Almería, Agrifood Campus of International
+</affiliation>
+<address confidence="0.495642">
+Excellence, ceiA3, 04120 Almería, Spain
+</address>
+<email confidence="0.375111">
+e-mail: agarrido@ual.es
+</email>
+<bodyText confidence="0.9947046">
+procedure was further tested on different types of feed
+(chicken, hen, rabbit and horse feed), evaluating recoveries
+and repeatability. Finally, the method was applied to the
+analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one
+pesticide (chlorpyrifos).
+</bodyText>
+<sectionHeader confidence="0.417379666666667" genericHeader="general terms">
+Keywords Animal feed . Pesticides . Veterinary drugs .
+UHPLC . QqTOF–MS . Dilute-and-shoot
+Introduction
+</sectionHeader>
+<bodyText confidence="0.999718111111111">
+The use of pesticides and veterinary drugs (VDs) in food
+industries is widespread, and they are utilised to fight
+against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the
+presence of residues in the final animal products [3, 4],
+which involves several problems to public health such as
+the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system
+(e.g. carcinogenic effects) [5, 6].
+The study of pesticide and VD residues in animal feed is
+an important issue because they can reach the food chain.
+On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they
+can be prepared with several ingredients, which are not
+always free of pesticides [3]. Consequently, in order to
+ensure animal safety, the European Union (EU) has
+established regulations for the control of residues in feed,
+setting maximum residue limits (MRLs) for pesticides [8]
+and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003
+banned the use of all antibiotics other than coccidiostats
+and histomonostats as feed additives (used as growth
+</bodyText>
+<page confidence="0.917403">
+6544
+</page>
+<bodyText confidence="0.99699268">
+promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11].
+Thus, VDs should be strictly applied for the prevention or
+treatment of diseases. In this way, these regulated limits
+require the determination of an extremely high number of
+VD and pesticide residues in feed with the aim of ensuring
+their use in a rational and safe way.
+Therefore, sensitive and reliable methodologies have
+been developed for the analysis of each group of residues
+separately. The determination of pesticides in feed has been
+based on Soxhlet [12–14], pressurised liquid extraction
+(PLE) [15], matrix solid-phase dispersion (MSPD) [16] or
+QuEChERS [17]. Some of these procedures have been
+followed by a clean-up step based on solid-phase extraction
+(SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography
+(GC) coupled to electron capture detection (ECD) [12, 14],
+mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of
+VDs, solvent extraction assisted by mechanical shaking
+[19–22], modified QuEChERS methodology [23] and PLE
+[24, 25] followed by SPE clean-up [19–21, 24, 25] or
+liquid–liquid extraction (LLE) [22] have been utilised, using
+liquid chromatography coupled to MS (LC–MS) [19] or
+MS/MS (LC–MS/MS) [20–25] methodologies.
+Normally, most of these methods are focused on specific
+groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues
+and contaminants. However, the use of wide-scope methods
+inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses.
+Nevertheless, the lack of selectivity in sample preparation
+can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms of sensitivity, the use of GC
+or LC coupled to triple quadrupole (QqQ) is usually preferred, and the number of compounds that can be acquired
+by these techniques in one run is limited [28, 29]. The use of
+high-resolution mass spectrometry (HRMS), such as timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF)
+or Orbitrap [29], is considered as a powerful alternative.
+These full-scan technologies provide the selectivity and
+the sensitivity required for efficient and wide-range screening, as they combine high, full-spectral sensitivity with high
+mass resolution, allowing the measurement of accurate mass
+of any ionisable component in the sample. In this way, the
+combination of ultra-high performance liquid chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has
+demonstrated to be an excellent tool for the analysis of
+different classes of residues and contaminants in food and
+environmental samples [30–32]. However, the number of
+applications in feed matrices is quite limited [28, 33, 34],
+where a group of pesticides, VDs, mycotoxins and plant
+M.M. Aguilera-Luiz et al.
+toxins are determined in horse feed [28, 33] and coccidiostats
+in animal feed [34].
+Therefore, the aim of this work is the development of a
+reliable and sensitive methodology based on the use of
+advanced UHPLC–QqTOF–MS technique for the quantitative determination and reliable identification of more than
+250 pesticides and VDs in different types of feed matrices
+using generic methods.
+</bodyText>
+<subsectionHeader confidence="0.8077885">
+Experimental
+Reagents and apparatus
+</subsectionHeader>
+<bodyText confidence="0.9762555625">
+VD and pesticide analytical standards were purchased from
+Riedel-de-Haën (Seelze, Germany), Dr. Ehrenstorfer GmbH
+(Ausburg, Germany), Sigma-Aldrich (Madrid, Spain), Fluka
+(Steinheim, Germany), Santa Cruz (Santa Cruz, CA, USA),
+European Pharmacopoeia (Strasbourg, France), Witega
+(Berlin, Germany) and LGC Standards (Barcelona, Spain).
+Stock standard solutions of individual compounds (200–
+400 mg L−1) were prepared in methanol or acetonitrile
+(HPLC grade, Fluka), and they were stored at 5 °C or
+−18 °C (VDs). A solution for each family of VDs was
+prepared from corresponding individual stock standard solutions in methanol or acetonitrile and a multi-pesticide
+solution was prepared in methanol. Tetracycline and penicillin solutions were renewed monthly. Then, a multicompound working solution containing all the analytes
+(0.31 mg L−1) was prepared by combining suitable aliquots
+of each individual stock standard solution and diluting them
+with LC–MS-grade methanol, obtained from Fluka. This
+solution was kept at −18 °C.
+Ultrapure water, obtained from a Milli-Q Gradient water system (Millipore, Bedford, MA, USA), was used for
+the preparation of all aqueous solutions. Formic acid
+(purity &amp;gt;98 %) and ammonium formate (purity &amp;gt;99 %)
+were obtained from Panreac (Barcelona, Spain). LC–MS
+water was purchased from Scharlau (Barcelona, Spain)
+and LC–MS acetonitrile was obtained from Fluka.
+ExtraBond Florisil cartridges (500 mg) were provided by
+Scharlau (Barcelona, Spain). D-SPE sorbents for clean-up
+experiments included C18-bonded silica, which was purchased from Agilent technologies (Santa Clara, CA,
+USA), and Florisil from J.T. Backer (Deventer, Holland).
+For accurate mass calibration of the QqTOF instrument, a
+sodium formate solution (prepared from a mixture of 100
+μL of 0.1 M sodium hydroxide solution, 200 μL of an
+aqueous solution of 10 % of formic acid and 20 mL of
+acetonitrile/water (80:20, v/v)) and a leucine–enkephalin
+solution at 500 pg μL−1 (prepared from 500 μL of
+</bodyText>
+<footnote confidence="0.655776">
+1 mg mL−1 leucine–enkephalin solution in water with
+1,000 mL of acetonitrile/water 50:50, v/v and 0.1 % formic
+Wide-scope analysis of veterinary drug and pesticide residues
+</footnote>
+<page confidence="0.980681">
+6545
+</page>
+<bodyText confidence="0.927854208333333">
+acid) were used as calibration and lock-mass solution, respectively. All reagents were purchased from SigmaAldrich.
+Centrifugations were performed in a high-volume centrifuge Centronic II (JP Selecta, Barcelona, Spain). An analytical
+AB204-S balance (Mettler Toledo, Greinfesee, Switzerland)
+was also used. A Reax-2 rotary agitator from Heidolph
+(Schwabach, Germany) was used for sample extraction.
+Feed samples
+UHPLC–QqTOF–MS/MS analysis
+Sample extraction
+The analyses were carried out using an Acquity UPLC system
+using an Acquity UPLC BEH C18 column (2.1 mm×100 mm,
+1.7 μm particle size), both from Waters (Milford, MA, USA).
+The mobile phase consisted of 0.1 % (v/v) formic acid and
+ammonium formate 4 mM in water (eluent A) and 0.1 % (v/v)
+formic acid and ammonium formate 4 mM in methanol (eluent
+B). The analysis started with 95 % of eluent A, which was kept
+constant during 1 min. Then, it was linearly decreased up to
+0 % in 7 min. This composition was held during 4 min before
+returning to the initial composition in 0.5 min, followed by a
+re-equilibration time of 1.5 min, giving a total running time of
+14 min. The flow rate was 0.3 mL min−1 and the column
+temperature was set at 30 °C. Aliquots of 5 μL of the sample
+extract were injected into the chromatographic system.
+The UHPLC system was coupled to a QqTOF (Xevo™
+QtofMS, Waters) equipped with an electrospray interface
+</bodyText>
+<listItem confidence="0.788803909090909">
+(ESI) operating in positive (ESI+) and negative ionisation
+mode (ESI−) using the following parameters: cone voltage,
+30 V; capillary voltage, 3.5 kV for ESI (+) and 3.4 kV for
+ESI (−); desolvation temperature, 350 °C; source temperature, 120 °C; cone gas, 80 L h−1; and desolvation gas,
+600 L h−1. Mass spectra were acquired in positive-ion and
+negative-ion centroid mode. The microchannel plate (MCP)
+detector was set at 2,000 V. Resolution was at least 9,000
+FWHM at m/z of the lock mass (see below). Dynamic range
+enhancement (DRE) was switched on. Mass range in the full
+scan experiments was set at m/z 90–1,000 with a scan time
+of 0.050 s and interscan time of 0.025 s. In order to perform
+</listItem>
+<bodyText confidence="0.994976113207547">
+the fragmentation acquisition for identification purposes,
+MS/MS (MSE™) mode was used. This fragmentation mode
+consists in two simultaneous MS acquisition functions: (1)
+low energy function (LE) using a collision energy of 4 eV
+with poor or no fragmentation; and (2) high energy function
+(HE) using collision energy of 30 eV, promoting collision
+cell fragmentation. All the analyses were performed using a
+lock spray with internal lock mass of a solution of leucine–
+enkephalin (12C[M+H]+, m/z 556.2771 and 12C[M−H]−, m/z
+554.2620) delivered to the ESI source at 10 μL min−1. The
+instrument was verified or calibrated before the analysis by
+using the calibration solution.
+Data acquisition was performed using MassLynx 4.1
+software with QuanLynx program (Waters).
+Pesticides and VDs were extracted from feed using an extraction method based on the procedure previously described by
+Gómez-Pérez et al. [35]. Briefly, 2.5 g of feed was weighed
+into a 50-mL propylene tube and 2.5 mL of water (LC–MS
+grade) was added. The mixture was shaken in a vortex. Then
+7.5 mL of acetonitrile (1 % formic acid, v/v) was added, and
+the sample was put into a rotary agitator and extracted by endover-end shaking for 1 h at 50 rpm. After that, the mixture was
+centrifuged for 10 min at 4,500 rpm (2,264×g), and 1 mL of
+the supernatant was passed through a Florisil cartridge. The
+final extract was transferred to a vial and injected into the
+chromatographic system.
+Different types of feed samples were purchased from several
+markets in Almería, Granada, Murcia (Spain) and local
+farms located in Almería. All samples were grinded and
+stored at room temperature in the dark. A chicken feed
+sample was used for optimisation and validation purposes,
+after checking that it was free of the selected compounds.
+Detection and identification of the analytes
+For detection and identification of analytes, an in-house database containing 364 compounds was performed. In order to
+develop it, a previous characterisation of the analytes was
+carried out by injection of a multi-compound standard solution containing all the analytes at 250 μg L−1 into the
+UHPLC–QqTOF–MS system under the conditions previously
+optimised. Compounds were acquired in both ESI (+) and ESI
+(−) mode. In this way, after injection in MS mode, the essential
+information obtained was the retention time (RT), ionisation
+mode (polarity), characteristic ions and possible adducts. In
+total, 364 compounds were included in the database to facilitate the analysis of pesticides and VDs in feed matrices.
+Additional information related to each analyte can be found
+in the Electronic Supplementary Material (ESM, Table S1).
+To identify the compounds, the same multi-compound
+standard solution was injected into the system employing
+the MSE™ mode for the detection of the main fragment ions
+in the HE acquisition function. Thus, one or more fragment
+ions were selected for each compound and included into the
+database. In addition to the monitored fragment ions, the
+identification of the compounds was also carried out by the
+use of the isotopic pattern.
+Validation of the optimised methodology
+The proposed method was validated, estimating linearity
+range, trueness, intra-day and inter-day precision, and limits
+</bodyText>
+<page confidence="0.968719">
+6546
+</page>
+<listItem confidence="0.75596225">
+of quantification (LOQs). Document SANCO 12495/2011
+[36] and Directive 2002/657/CE [37] were used as guidelines for method validation.
+Linearity was evaluated performing matrix-matched calibration, using blank feed extracts and adding the corresponding amount of working solution with the target compounds at five concentrations, 1, 2.5, 12.5, 50 and
+150 μg kg−1. Calibration curves were obtained by leastsquares linear regression analysis of the peak area versus
+</listItem>
+<bodyText confidence="0.960372857142857">
+concentration. To evaluate trueness, recovery studies were
+carried out at three concentrations (10, 50 and 100 μg kg−1)
+using spiked blank feed samples (n=5), and they were
+quantified using matrix-matched calibration. Intra-day and
+inter-day precision (evaluated in five consecutive days) was
+evaluated at the same concentrations (n=5).
+The instrument LOQs were estimated by analysing
+spiked extracted feed samples at low concentrations (from
+1 to 50 μg kg−1). They were calculated as the minimum
+concentration for which the accurate mass error was &lt;5 ppm
+for the characteristic ion of the selected compounds ([M+
+H]+, [M+Na]+, [M+NH4]+ or [M−H]−) and one fragment
+ion, as well as the experimental isotopic pattern matched
+with the theoretical isotopic pattern for these ions.
+</bodyText>
+<subsectionHeader confidence="0.746013">
+Results and discussion
+</subsectionHeader>
+<bodyText confidence="0.994063066666667">
+In this work, 129 VDs have been studied, including macrolides, quinolones, tetracyclines, sulphonamides, avermectines, nitroimidazoles, coccidiostats, penicillins, amphenicols,
+tranquilisers, corticoids, ionophores, non-steroidal antiinflammatory drugs, β-agonists and estrogens, gestagens
+and androgens. Furthermore, 235 pesticides including organophosphorus, organochlorines, carbamates, neocotinoids, triazines, triazoles and ureas were also selected.
+Development of the UHPLC–QqTOF–MS analysis
+Firstly, general conditions for the ion source and ion transmission parameters were studied. To this aim, a solventbased standard at 250 μg L−1 was injected into the system,
+in positive and negative mode, and different parameters of
+the source and the analyser (scan time, inter-scan time and
+collision energy of the acquisition functions of LE and HE
+employed in the MSE mode) were optimised in order to
+improve absolute sensitivity of the characteristic ions, observing that the conditions indicated in the previous section
+provided suitable results.
+Secondly, in relation to the chromatographic conditions,
+generic chromatographic conditions reported in a previous
+study [35] were used. The overall analysis time was 14 min,
+and the retention time ranged from 0.9 (cyromazine) to
+</bodyText>
+<subsectionHeader confidence="0.715541">
+9.4 min (narasin and salinomycin).
+</subsectionHeader>
+<bodyText confidence="0.992791434782609">
+M.M. Aguilera-Luiz et al.
+In order to develop a database for the detection of the target
+compounds, the analytes were characterised and the essential
+information includes retention time (RT), ionisation mode
+(polarity), characteristic ions and possible adducts (i.e. with
+Na+ or NH4+). In this way, a solvent standard solution of the
+studied compounds at 250 μg L−1 was analysed. Because the
+QqTOF–MS instrument utilised in this study cannot acquire
+simultaneously in (+) and (−), two separate injections were
+needed for each polarity mode. The compounds were monitored employing narrow mass extraction windows (10 ppm)
+within their characteristic RT windows (RTWs). Exact mass
+values, characteristic ions, RTWs, ionisation mode and mass
+errors for the studied VDs and pesticides are shown in
+Table S1, Electronic Supplementary Material.
+Regarding the identification of the detected compounds,
+it was necessary to select fragments for each compound,
+taking into account the identification requirements provided
+by the SANCO guidelines [36]. In the case of QqTOF
+working at high resolution and mass accuracy, the detection
+of two or more diagnostic ions (quasi-molecular ion and at
+least one fragment ion) with mass accuracy &lt;5 ppm is
+required. Besides, the comparison of the obtained and the
+theoretical isotopic patterns was carried out. For that purpose, a solvent-based standard at 250 μg L−1 was injected
+and MS/MS acquisitions were obtained. In this way, the
+peak shape of the extracted chromatogram for each fragment
+(in the HE acquisition function) was compared to that of the
+main ion (in the LE acquisition function) checking that both
+traces showed the same RT and elution profile. Moreover,
+accurate mass errors must be &lt;5 ppm, as well as the isotopic
+pattern of the fragment ion must be similar to the theoretically profile of the empirical formulae.
+Optimisation of the extraction method
+The generic extraction method developed by Mol et al. [33]
+allowed the extraction of a wide set of pesticides, VDs and
+other contaminants in feed. A slight modification of this
+method has already been employed for the simultaneous
+determination of pesticides and VDs in other matrices such
+as honey in our laboratory [35], and it was selected as the
+starting point herein. Initially, the experiments were carried
+out employing blank chicken feed samples spiked at
+100 μg kg−1. As result of this first assay, 75 % of the
+compounds (275 compounds) showed acceptable recoveries
+(acceptable range 60–125 %). Tetracyclines and penicillins
+were not successfully extracted, and some quinolones and
+avermectins did not show adequate performance characteristics. This could be due to the high volume of acetonitrile
+employed, which is not efficient to extract polar analytes
+like tetracyclines and penicillins because of co-precipitation
+of some analytes with the proteins. However, the chromatograms obtained after UHPLC–QqTOF–MS analysis showed
+Wide-scope analysis of veterinary drug and pesticide residues
+numerous background interference peaks for some compounds (Fig. 1a). This can be explained because of the complexity of this matrix, which contains cereals, sugars/fruits,
+fats, roots/tubers, leguminous/oleaginous plants, amino acids
+and/or minerals [7]. Therefore, the high complexity of the
+matrix makes the clean-up of the extracts almost mandatory
+to obtain reliable results, except in cases where the sensitivity
+of the method is high enough to offer the option of simply
+diluting the extracts. Hence, clean-up is an important step
+when extracts are analysed with TOF, which has showed
+lower sensitivity than other HRMS analyser, such as
+Orbitrap, in certain food applications [38]. Bearing in mind
+this and the results obtained in the first experiment, an additional clean-up stage was checked. In this way, three fast
+clean-up procedures were evaluated: (1) d-SPE with Florisil,
+(2) d-SPE with C18 and (3) SPE employing Florisil cartridges.
+For d-SPE clean-ups, 1 mL of sample extract was taken to an
+Eppendorf tube containing 100 mg of Florisil or C18 dispersive phase. The mixture was shaken in a vortex for 1 min and
+then it was centrifuged for 5 min at 4,500 rpm (2,264×g). The
+final extract was collected and was placed in a vial. To test
+SPE clean-up, 1 mL of the extract was loaded onto the Florisil
+cartridge. The final extract was collected and placed in a vial
+for injection. The obtained results are shown in Fig. 2, and it
+can be observed that they are similar regarding the number of
+</bodyText>
+<page confidence="0.929875">
+6547
+</page>
+<bodyText confidence="0.980462909090909">
+extracted compounds, although slightly better recovery results
+were obtained when SPE-Florisil was used. Furthermore, the
+clean-up with Florisil cartridges provided ‘cleaner’ chromatograms (Fig. 1b) with an apparent lower number of interference
+peaks and slightly better sensibility.
+Therefore, the generic approach using a SPE clean-up
+step was chosen and tested at lower concentrations in the
+further validation: 10 μg kg−1 and 50 μg kg−1.
+Validation
+Ion suppression or matrix enhancement is an important parameter that must be evaluated during method validation. To study
+matrix effect, two calibration sets (from 1 to 150 μg kg−1) were
+compared: solvent and matrix-matched standard calibration,
+using chicken feed. Matrix effect was calculated as described
+elsewhere [35]. It can be noticed that matrix effect was observed for 86 % of the compounds: 49 % of the analytes
+showed ion suppression and 37 % of the compounds matrix
+enhancement. On the other hand, only 14 % of the compounds
+showed a slight ion suppression (7 %) or ion enhancement
+(7 %). Consequently, matrix-matched standard calibration was
+used for quantification purposes.
+Linearity was then evaluated in the range from 1 to
+150 μg kg−1. Good linearity was obtained when peak area
+Fig. 1 UHPLC–QqTOF–MS chromatograms of both quantification and detection transition of albendazole and meclofenamic acid obtained: a
+without clean-up; b clean-up by SPE using Florisil cartridges
+</bodyText>
+<page confidence="0.861696">
+6548
+</page>
+<bodyText confidence="0.951673517857142">
+M.M. Aguilera-Luiz et al.
+in Table S2, Electronic Supplementary Material. It can be
+observed that intra- and inter-day precision values were always
+≤20 % for the majority of compounds (Table S2, Electronic
+Supplementary Material).
+LOQs obtained for the studied compounds (Table S2,
+Electronic Supplementary Material) were lower than or equal
+to 10 μg kg−1 for 43 % of the compounds, equal to 50 μg kg−1
+for 37 % and equal to or higher than 200 μg kg−1 in sample for
+6 % of the target compounds (Table 1). Some compounds
+showed LOQs higher than the lowest level of concentration at
+which they can be recovered, as heptenophos or isoxicam
+(Table S2, Electronic Supplementary Material). It can be
+explained due to the quasi-molecular ion, which was used
+for quantification, could be perfectly detected at concentrations lower than the LOQ. However, the fragments were not
+detected at such low concentration because of the low sensitivity of the fragments. In these cases, the isotopic pattern was
+used for the reliable identification of the compounds at concentrations lower than LOQ.
+Additionally, the feasibility of the method for the analysis
+of target compounds in different types of feed was checked.
+Thus, three additional types of feed (hen, rabbit and horse
+feed) were submitted to validation. Firstly, we tested if
+chicken feed could be selected as representative matrix for
+these three types of feed. Matrix effect was evaluated and
+the same concentrations (from 1 to 150 μg kg−1) were
+analysed in each type of feed. Then, the slopes of the
+calibration curves were compared with the slope of the
+calibration curve obtained in chicken feed samples. A significant difference was observed among the tested feed
+matrices. In the case of hen feed, 21 % of the compounds
+showed significant differences with chicken feed, whereas
+in rabbit and horse feed, the number of compounds with
+significantly different slopes was higher, 69 % and 67 %,
+respectively. Therefore, it was not possible to select one type
+of feed as a representative matrix, which is probably due to
+the different composition of each type of feed (type of
+nutritional properties), requiring specific matrix-matched
+calibration standards. Moreover, trueness and repeatability
+were also evaluated following the same procedure employed
+Fig. 2 Recovery results obtained for the extraction of spiked chicken
+feed samples (100 μg kg−1) without clean-up step and using different
+procedures of clean-up, d-SPE procedure employing Florisil, C18 and
+SPE procedure employing Florisil cartridges
+was used as the analytical response, and determination coefficients (R2) were higher than 0.9800.
+Trueness was estimated through recovery studies at three
+concentrations (10, 50 and 100 μg kg−1). Figure S1 in the
+Electronic Supplementary Material shows the total ion chromatograms obtained for the four different feed samples (chicken, hen, rabbit and horse) spiked at 50 μg kg−1. Table 1 shows a
+summary of the obtained results, whereas full results can be
+found in Table S2, Electronic Supplementary Material. It can be
+observed that 30 % of compounds (111 compounds) showed
+adequate recovery (recovery ranging from 60 % to 125 %) at
+the lowest concentration checked (10 μg kg−1). As expected,
+the number of compounds showing acceptable recovery at
+50 μg kg−1 and 100 μg kg−1 was considerably higher: 68 %
+and 80 % (247 and 291 compounds), respectively. Intra-day
+and inter-day precision values (expressed as relative standard
+derivation, RSD, %) obtained for each concentration are shown
+Table 1 Summary of the validation results showing percentage of analytes with acceptable recoveries (60–125 %) and LOQs
+</bodyText>
+<figure confidence="0.96030625">
+% Compoundsa
+% Compounds with acceptable recovery
+Feed
+10 μg kg−1
+50 μg kg−1
+100 μg kg−1
+LOQ≤10 μg kg−1
+LOQ&amp;gt;10 μg kg−1
+Chicken
+Hen
+Rabbit
+Horse
+30a
+25
+22
+24
+68
+53
+51
+57
+80
+61
+59
+64
+</figure>
+<page confidence="0.881937">
+43
+</page>
+<figure confidence="0.9283841">
+28
+16
+17
+43b
+59
+71
+70
+a
+Percentage results based on all target compounds initially included in the study (364 compounds)
+b
+</figure>
+<bodyText confidence="0.944465666666667">
+The remaining percentage corresponds with the number of compounds not extracted
+Wide-scope analysis of veterinary drug and pesticide residues
+in chicken feed, showing the obtained results in Table S3,
+</bodyText>
+<tableCaption confidence="0.7458595">
+Electronic Supplementary Material, and a summary in
+Table 1. It can be observed that for hen feed, the percentage
+</tableCaption>
+<table confidence="0.9863621">
+of compounds with adequate recovery and repeatability
+values was 25 % (90 compounds) at 10 μg kg−1, 53 %
+(193 compounds) at 50 μg kg−1 and 61 % (221 compounds)
+at 100 μg kg−1. For rabbit feed, these percentages are 22 %
+(81 compounds) at 10 μg kg−1, 51 % (187 compounds) at
+50 μg kg−1 and 59 % (216 compounds) at 100 μg kg−1.
+Finally for horse feed, the number of compounds with
+adequate figures of merit was 24 % (88 compounds) at
+10 μg kg−1, 57 % (209 compounds) at 50 μg kg−1 and
+64 % (234 compounds) at 100 μg kg−1. As expected, the
+</table>
+<bodyText confidence="0.999086815789474">
+number of compounds extracted in hen, rabbit and horse
+feed with acceptable recovery was considerably lower than
+in chicken feed due to the fact that these matrices have
+different composition (especially different fatty content)
+and they can be considered more complex.
+Finally, LOQs obtained for each compound in the matrices
+evaluated are shown in Table S3, Electronic Supplementary
+Material. It can be observed that 69 % of compounds showed
+LOQs ≤50 μg kg−1 in hen feed, whereas in rabbit and horse
+feed, the number of compounds with LOQs ≤50 μg kg−1 was
+55 % and 61 %, respectively. Table 1 shows a summary of the
+results obtained for all the matrices. As aforementioned, some
+compounds showed LOQs higher than the lowest concentration
+at which they can be recovered. Again, these compounds
+showed problems to detect the fragment at LOQ concentration,
+although their quasi-molecular ion was perfectly detected.
+Despite the higher levels of LOQ obtained for some
+compounds, many of them were lower than MRLs
+established by the legislation for some specific compounds,
+as it can be seen in Table 2.
+In general, it can be observed that the obtained LOQs
+were relatively high. This can be explained bearing in mind
+the acquisition mode of the fragments based on the MSE
+procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of
+the spectrum [31]. The low sensitivity or strongly interfered
+spectra make difficult the identification of compounds using
+fragments at low concentrations.
+As aforementioned, many analytical methods have been
+developed for the determination of compounds belonging to
+one family of pesticides or VDs in feed [7, 14, 23, 39, 40].
+Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to
+highlight the ability of the proposed method to analyse a high
+variety of pesticides and VDs in different feed samples.
+If the proposed method is compared with the published
+multi-class methods developed for the determination of VDs
+[22, 24, 41] and pesticides [15, 17] in feed, it can be indicated
+that the combination of a generic extraction method with
+UHPLC–QqTOF–MS analysis is simpler and faster than
+</bodyText>
+<page confidence="0.942242">
+6549
+</page>
+<tableCaption confidence="0.659284">
+Table 2 Comparison of MRL established for some VDs and pesticides
+in animal feed with LOQs obtained with the proposed method
+</tableCaption>
+<figure confidence="0.994834721311475">
+Compound
+Animal
+feed
+MRL
+(μg kg−1)
+LOQ
+(μg kg−1)
+Diclazuril
+Chicken
+Horse
+Chicken
+Chicken
+Rabbit
+Horse
+Hen
+Rabbit
+Horse
+10
+30
+100
+1,250
+1,250
+1,250
+700
+700
+2,100
+12.5
+50
+12.5
+12.5
+2.5
+2.5
+12.5
+12.5
+12.5
+Hen
+Rabbit
+Horse
+Chicken
+Hen
+Rabbit
+Horse
+700
+6,600
+2,100
+700
+700
+700
+2,100
+12.5
+12.5
+12.5
+12.5
+150
+150
+50
+Endosulfan sulphate
+Monesin Na
+Narasin
+Robenidine
+Salinomicin
+</figure>
+<bodyText confidence="0.99848216">
+previous methods. Moreover, the presented methodology increased sample throughput because it only requires a rapid
+clean-up step through Florisil cartridges instead of d-SPE
+clean-up [17, 41], LLE followed by concentration step [22]
+or an extraction by SPE [24]. In relation to the number of
+validated compounds, the proposed method allowed the determination and quantification of an average of 200 compounds in different feed improving the number of compounds
+of other works: 33 VDs [41], 10 prohibited medical additives
+(three analytes were analysed in qualitative mode) [22], 18
+antibacterials [24] and 33 [15] and 122 [17] pesticides.
+Concerning the performance characteristics, the developed
+method allowed the extraction and quantification of a high
+number of VDs and pesticides at low levels (10 μg kg−1).
+These results are better than those obtained in a previous
+multi-class method developed for the determination of 122
+pesticides [17], where some pesticides were validated at a
+higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the
+lowest level at which antibacterial compounds were determined [22]. In contrast to this, a multi-class method developed
+for the analysis of 33 VDs [41] showed good recoveries at low
+levels (&lt;10 μg kg−1).
+Regarding LOQs, the obtained values in the proposed
+method (ranged from 4 to 200 μg kg−1 in sample) were
+lower than those obtained in two previous works [17, 22].
+The first one determined pesticides in wheat grain (7–
+400 μg kg−1) [17] and the second one measured VDs in
+pig and poultry compound feed (100–169 μg kg−1) [22].
+However, other works showed better LOQs, such as those
+</bodyText>
+<page confidence="0.888718">
+6550
+</page>
+<bodyText confidence="0.996980827586207">
+M.M. Aguilera-Luiz et al.
+obtained by Boscher et al. [41] (LOQs ranging from 3.8 to
+65 μg kg−1 in sample, piglet feed) and by Kantiani et al. [24]
+(instrumental LOQs from 0.57 to 2.92 μg kg−1). These low
+LOQ values can be explained due to the fact that both works
+employed QqQ as analyser, which showed better sensitivity
+than QqTOF using MSE. Moreover, these methods were
+developed for a limited number of compounds.
+One of the main disadvantages of the proposed method is
+that it was not able to extract and quantify some families of
+compounds, such as tetracyclines, quinolones or penicillins,
+which were analysed in other works [24, 41] with good
+recoveries, and therefore, current work is focused on this.
+If it is compared with the two wide-scope multi-class
+methods previously developed for analysis of VDs and pesticides in feed samples (horse feed and cereal-based product,
+respectively) [33, 42], some advantages can be mentioned.
+Firstly, the generic extraction method was developed from
+Mol et al. [33], which is similar to the method proposed in this
+work, with a slight modification by the addition of a simple
+clean-up step. Secondly, the generic extraction method is faster
+than the method developed by van der Lee et al. [42], where the
+extraction time was 18 h and it required a clean-up procedure
+by gel permeation chromatography and SPE. Furthermore, the
+number of pesticides and VDs validated with our method was
+higher or similar than the number of compounds of both works,
+106 compounds [42] and 222 [33], respectively. Finally, regarding LOQs, both methods showed similar values compared
+with our method. In one of these works, the instrumental LOQs
+ranged from 1 to 46 μg kg−1 [42], and in the other one, LODs
+ranged from 10 to 50 μg kg−1 [33].
+</bodyText>
+<subsectionHeader confidence="0.661336">
+Analysis of real samples
+</subsectionHeader>
+<bodyText confidence="0.988030166666666">
+The optimised method was applied to 18 samples of feed,
+including rabbit (four), chicken (seven), hen (two), pig (one),
+lamb (one) and horse (one) feed. Moreover, one sample of
+barley and one sample of maize (two components of animal
+feed) were also selected.
+An internal quality control was carried out for every batch
+of samples to check if the system is under control, and it
+implies four matrix-matched calibrations (in chicken, hen,
+rabbit and horse), reagent blanks, full procedural blanks and
+fortified extracts at 150 μg kg−1. Instrument blanks were
+composed of methanol and were analysed at the beginning
+of the batch. Since analyte signals were not found in the
+instrumental blanks, no further actions were taken. Full procedural blanks were prepared by four different types of feed
+sample extracted and analysed after instrumental blanks. This
+experiment showed zero carry-over for all the analytes, ensuring that no cross-contamination was taking place.
+As aforementioned, analyte detection and identification
+was based on the criteria showed in section ‘Detection and
+identification of the analytes’.
+When the samples were analysed by the proposed method,
+seven samples contained traces of VDs and pesticides
+(Table 3). Some VDs (sulfadiazine, trimetoprim, robenidine
+and monensin sodium) and one pesticide (chlorpyrifos) were
+detected. Sulfadiazine and trimethoprim were detected in two
+chicken samples. One of them contained 1,114 μg kg−1 of
+sulfadiazine and 225 μg kg−1 of trimethoprim, and the other
+one contained 217 μg kg−1 of sulfadiazine and 72 μg kg−1 of
+trimethoprim. Sulfadiazine, which is an antibiotic that belongs
+to the group of sulphonamides, is a synthetic bacteriostatic
+compound that is commonly used to treat urinary tract infections. On the other hand, trimethoprim is a dihydropteroate
+synthetase inhibitor that is commonly used in combination
+with sulphonamides for broad-spectrum antimicrobial therapy.
+In veterinary medicines, the combination of sulphonamides
+with trimethoprim is widely used for prevention and treatment
+of respiratory or gastro-intestinal tract infections in cattle,
+swine and poultry [43]. Robenidine was detected in a rabbit
+sample at 4,186 μg kg−1, being this level lower than the MRL
+</bodyText>
+<tableCaption confidence="0.748616">
+Table 3 Concentration of VDs and pesticides in the analysed samples
+</tableCaption>
+<figure confidence="0.904075303030303">
+Compound
+Concentration (μg kg−1)
+M1a
+M2
+Chlorpyrifos
+Sulfadiazine
+Trimetoprim
+Robenidin
+65b
+18
+Monensin Na
+124
+a
+MRLc
+M5
+M11
+1,114
+225
+217
+72
+M15
+M16
+M17
+92
+193
+10
+N.E.d
+N.E.
+6,600
+189
+84
+1,250
+4,186
+</figure>
+<page confidence="0.905286">
+315
+239
+</page>
+<table confidence="0.242659111111111">
+Type of feed is indicated herein: rabbit, M1 and M2; chicken, M5 and M11; pig, M15; lamb, M16; horse, M17
+b
+Figures in bold indicate that the concentration in sample exceeded MRL
+c
+MRL maximum residue level
+d
+N.E. not established
+Wide-scope analysis of veterinary drug and pesticide residues
+6551
+Fig. 3 UHPLC–QqTOF–MS/
+MS extracted chromatograms of
+a positive sample of rabbit feed
+showing quantification and
+detection transition (upper) and
+confirmation (lower) transitions
+containing a monensin sodium
+at 315 μg kg−1 and b robenidine
+at 4,186 μg kg−1
+</table>
+<bodyText confidence="0.989889480769231">
+established in legislation (6,600 μg kg−1) [44]. Its presence in
+this sample can be explained due to this coccidiostat can be
+used in fattening and breeding rabbits in feedstuffs [45]. The
+coccidiostat monensin sodium was detected in five feed samples: rabbit (two), pig (one), lamb (one) and horse (one) feed
+(Table 3). This coccidiostat is used as additive in feed to protect
+animals against coccidiosis in animal husbandry, which can
+explain its occurrence. However, all concentrations (up to
+315 μg kg−1) were below the established MRLs for each
+matrix. Figure 3 shows the extracted ion chromatograms for
+sample 2 (rabbit feed sample) containing 4,186 μg kg−1 of
+robenidine and 315 μg kg−1 of monensin sodium.
+An important result concerns that only one pesticide was
+found, chlorpyrifos, which was detected in four samples at
+concentrations higher than the MRL (Table 3) in all cases. Its
+occurrence can be explained as a consequence of its wide
+application in agriculture and, thus, in the cereals used to
+produce feed. Besides, this pesticide is defined by the United
+States Environmental Protection Agency (EPA) as ‘one of the
+most widely used organophosphate insecticides’ [46].
+Conclusions
+As aforementioned, the development of wide-scope multiresidue methods able to cover the analysis of pesticide and
+VD residues in feed is a current need due to the gap that exists
+in this area of feed safety. Consequently, in this work, an
+UHPLC–QqTOF–MS method has been developed for
+simultaneous determination of a huge number of target pesticides and VD residues in feed. A generic sample procedure
+followed by a simple clean-up step by Florisil cartridges was
+selected as the most appropriate for the analysis of the wide
+range of compounds in feed in terms of recovery yields and
+matrix effect. The developed method allows the analysis of an
+average of 200 residues of different families of pesticides and
+VDs in various feed. The developed method was validated
+according to Directive 2002/657/CE and Document SANCO
+12495/2011; it showed good quantitative results for most of
+the studied compounds and the LOQs range from 4 to
+200 μg kg−1. Despite the variety of compounds that could
+be determined by the current method, further experiments are
+needed to include the analysis of tetracyclines, quinolones,
+avermectins and penicillins, which could not be determined
+with this method. Although the sensitivity attained by the
+proposed method was lower than some of published methods,
+it was enough to comply with MRLs established by EU.
+Finally, the method was applied to different kinds of feed
+demonstrating its applicability as quantitative method in any
+type of feed. This method illustrated the feasibility of using
+QqTOF for detecting, identifying and quantifying pesticides
+and VDs residues in a multi-class method. In spite of the
+advantages showed by the proposed method, it shows some
+limitations due to some families of VDs, such as tetracyclines,
+quinolones and penicillins, which are not properly extracted.
+Furthermore, the proposed method showed low sensitivity
+making the detection of some compounds and fragments at
+low concentrations unfeasible.
+</bodyText>
+<page confidence="0.837779">
+6552
+</page>
+<bodyText confidence="0.800864142857143">
+Acknowledgements The authors gratefully acknowledge the Spanish
+Ministry of Economy and Competitiveness (MINECO) and FEDER for
+financial support (Project Ref. AGL2010-21370). M.M.A.L. acknowledges her grant (F.P.U.) (MINECO, Ref. AP2008-02811). R.R.G. is also
+grateful for personal funding through the Ramón y Cajal Program
+(MINECO-ESF). P.P.B. gratefully acknowledges personal funding
+through the Agrifood Campus of International Excellence, ceiA3
+(Spanish Ministry of Education, Culture and Sport).
+</bodyText>
+<sectionHeader confidence="0.903439" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.892235055555556">
+1. Wang J, Chow W, Cheung W (2011) Application of a tandem mass
+spectrometer and core–shell particle column for the determination
+of 151 pesticides in grains. J Agric Food Chem 59:8589–8608
+2. Stolker AAM, Brinkman UAT (2005) Analytical strategies for residue analysis of veterinary drugs and growth-promoting agents in
+food-producing animals—a review. J Chromatogr A 1067:15–53
+3. MacLachlan DJ, Bhula R (2008) Estimating the residue transfer of
+pesticides in animal feedstuffs to livestock tissues, milk and eggs: a
+review. Aust J Exp Agric 48:589–598
+4. Garrido Frenich A, Plaza-Bolaños P, Aguilera-Luiz MM, Martínez
+Vidal JL (2010) In: Quintin TJ (ed) Chromatography types, techniques and methods. Nova, New York
+5. Moreno-Bondi MC, Marazuela MD, Herranz S, Rodriguez E
+(2009) An overview of sample preparation procedures for LC–
+MS multiclass antibiotic determination in environmental and food
+samples. Anal Bioanal Chem 395:921–946
+6. Ritter L, Goushleff NCI, Arbuckle T, Cole D, Raizenne M (2006)
+Addressing the linkage between exposure to pesticides and human
+health effects—research trends and priorities for research. J
+Toxicol Environ Health B Crit Rev 9:441–456
+7. Borràs S, Companyó R, Granados M, Guiteras J, Pérez-Vendrell
+AM, Brufau J, Medina M, Bosch J (2011) Analysis of antimicrobial agents in animal feed. Trends Anal Chem 30:1250–1268
+8. Regulation (EC) No 299/2008 of the European Parliament and of
+the Council of 11 March 2008 amending Regulation (EC) No 396/
+2005 on maximum residue levels of pesticides in or on food and
+feed of plant and animal origin, as regards the implementing
+powers conferred on the Commission, Official Journal of the
+European Union L 97/67; available at http://eur-lex.europa.eu/
+LexUriServ/LexUriServ.do?uri=
+OJ:L:2008:097:0067:0071:en:PDF. Accessed 25 Apr 2013
+9. Commission Directive 2009/8/EC of 10 February 2009 amending
+Annex I to Directive 2002/32/EC of the European Parliament and
+of the Council as regards maximum levels of unavoidable carryover of coccidiostats or histomonostats in nontarget feed, Official
+Journal of the European Union L 40/19; available at http://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri=
+OJ:L:2009:040:0019:0025:EN:PDF. Accessed 25 Apr 2013
+10. Directive 2002/32/EC of the European Parliament and of the Council
+of 7 May 2002 on undesirable substances in animal feed, L 140/10.
+(consolidated version: 2002 L0032—ES—01.01.2012—014.002—1);
+available at http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=
+OJ:L:2002:140:0010:0021:ES:PDF. Accessed 25 Apr 2013
+11. Regulation (EC) No 1831/2003 of the European Parliament and of
+the Council of 22 September 2003 on additives for use in animal
+nutrition, Official Journal of the European Union L 268/29; available at http://irmm.jrc.ec.europa.eu/SiteCollectionDocuments/EC1831-2003.pdf. Accessed 25 Apr 2013
+12. Aulakh RS, Gill JPS, Bedi JS, Sharma JK, Joia BS, Ockerman HW
+(2006) Organochlorine pesticide residues in poultry feed, chicken
+muscle and eggs at a poultry farm in Punjab, India. J Sci Food
+Agric 86:741–744
+M.M. Aguilera-Luiz et al.
+13. Guo Y, Yu HY, Zhang BZ, Zeng EY (2009) Persistent halogenated
+hydrocarbons in fish feeds manufactured in South China. J Agric
+Food Chem 57:3674–3680
+14. Iglesias-García I, Barriada-Pereira M, González-Castro MJ,
+Muniategui-Lorenzo S, López-Mahía P, Prada-Rodríguez D (2008)
+Development of an analytical method based on microwave-assisted
+extraction and solid phase extraction cleanup for the determination of
+organochlorine pesticides in animal feed. Anal Bioanal Chem
+391:745–752
+15. Fernandez-Alvarez M, Llompart M, Lamas JP, Lores M, GarcíaJares C, García-Chao M, Dagnac T (2009) Simultaneous extraction
+and cleanup method based on pressurized solvent extraction for
+multiresidue analysis of pesticides in complex feed samples. J
+Agric Food Chem 57:3963–3973
+16. Carro AM, Lorenzo RA, Fernández F, Rodil R, Cela R (2005)
+Multi-residue screening of chlorinated and brominated compounds
+from aquaculture samples using matrix solid-phase dispersion–gas
+chromatography–mass spectrometry. J Chromatogr A 1071:93–98
+17. Walorczyk S (2007) Development of a multi-residue screening
+method for the determination of pesticides in cereals and dry
+animal feed using gas chromatography–triple quadrupole tandem
+mass spectrometry. J Chromatogr A 1165:200–212
+18. Nácher-Mestre J, Serrano R, Portolés-Nicolau T, Hernández F,
+Benedito-Palos L, Pérez-Sánchez J (2009) A reliable analytical
+approach based on gas chromatography coupled to triple quadrupole and time-of-flight mass analyzers for the determination and
+confirmation of polycyclic aromatic hydrocarbons in complex
+matrices from aquaculture activities. Rapid Commun Mass
+Spectrom 23:2075–2086
+19. Van Poucke C, De Keyser K, Baltusnikiene A, McEvoy JDG, Van
+Peteghem C (2003) Liquid chromatographic–tandem mass spectrometric detection of banned antibacterial growth promoters in
+animal feed. Anal Chim Acta 483:99–109
+20. Vincent U, Chedin M, Yasar S, von Holst C (2008) Determination
+of ionophore coccidiostats in feeding stuffs by liquid chromatography–tandem mass spectrometry. Part I. Application to targeted
+feed. J Pharm Biomed Anal 47:750–757
+21. van Holthoon F, Mulder PPJ, van Bennekom EO, Heskamp H,
+Zuidema T, van Rhijn HJA (2010) Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation
+with piperidine and stable isotope dilution liquid chromatography
+tandem mass spectrometry. Anal Bioanal Chem 396:3027–3040
+22. Cronly M, Behan P, Foleya B, Malone E, Earley S, Gallagher M,
+Shearan P, Regan L (2010) Development and validation of a rapid
+multi-class method for the confirmation of fourteen prohibited
+medicinal additives in pig and poultry compound feed by liquid
+chromatography–tandem mass spectrometry. J Pharm Biomed
+Anal 53:929–938
+23. Cronly M, Behan P, Foley B, Malone E, Shearan P, Regan L
+(2011) Determination of eleven coccidiostats in animal feed by
+liquid chromatography–tandem mass spectrometry at cross contamination levels. Anal Chim Acta 700:26–33
+24. Kantiani L, Farré M, Grases IFJM, Barceló D (2010) Development
+and validation of a pressurised liquid extraction liquid chromatography–electrospray–tandem mass spectrometry method for βlactams and sulfonamides in animal feed. J Chromatogr A
+1217:4247–4254
+25. Kantiani L, Farré M, Grases IFJM, Barceló D (2010)
+Determination of antibacterials in animal feed by pressurized liquid extraction followed by online purification and liquid chromatography–electrospray tandem mass spectrometry. Anal Bioanal
+Chem 398:1195–1205
+26. Stolker AAM, Rutgers P, Oosterink E, Lasaroms JJP, Peters RJB,
+van Rhijn JA, Nielen MWF (2008) Comprehensive screening and
+quantification of veterinary drugs in milk using UPLC–ToF–MS.
+Anal Bioanal Chem 391:2309–2322
+Wide-scope analysis of veterinary drug and pesticide residues
+27. Kinsella B, O’Mahony J, Malone E, Moloney M, Cantwell H,
+Furey A, Danahera M (2009) Current trends in sample preparation
+for growth promoter and veterinary drug residue analysis. J
+Chromatogr A 1216:7977–8015
+28. Kellmann M, Muenster H, Zomer P, Mol H (2009) Full scan MS in
+comprehensive qualitative and quantitative residue analysis in food
+and feed matrices: how much resolving power is required? J Am
+Soc Mass Spectrom 20:1464–1476
+29. Kaufmann A (2012) The current role of high-resolution mass
+spectrometry in food analysis. Anal Bioanal Chem 403:1233–1249
+30. Ortelli D, Cognard E, Jan P, Edder P (2009) Comprehensive fast
+multiresidue screening of 150 veterinary drugs in milk by ultraperformance liquid chromatography coupled to time of flight mass
+spectrometry. J Chromatogr B 877:2363–2374
+31. Díaz R, Ibáñez M, Sancho JV, Hernández F (2012) Target and nontarget screening strategies for organic contaminants, residues and
+illicit substances in food, environmental and human biological
+samples by UHPLC–QTOF–MS. Anal Methods 4:196–209
+32. Nurmi J, Pellinen J (2011) Multiresidue method for the analysis of
+emerging contaminants in wastewater by ultra performance liquid
+chromatography–time-of-flight mass spectrometry. J Chromatogr
+A 1218:6712–6719
+33. Mol HGJ, Plaza-Bolaños P, Zomer P, de Rijk TC, Stolker AAM,
+Mulder PPJ (2008) Toward a generic extraction method for simultaneous determination of pesticides, mycotoxins, plant toxins, and
+veterinary drugs in feed and food matrixes. Anal Chem 80:9450–
+9459
+34. van der Heeft E, Bolck YJC, Beumer B, Nijrolder AWJM, Stolker
+AAM, Nielen MWF (2009) Full-scan accurate mass selectivity of
+ultra-performance liquid chromatography combined with time-offlight and orbitrap mass spectrometry in hormone and veterinary
+drug residue analysis. J Am Soc Mass Spectrom 20:451–463
+35. Gómez-Pérez ML, Plaza-Bolaños P, Romero-González R,
+Martínez-Vidal JL, Garrido-Frenich A (2012) Comprehensive
+qualitative and quantitative determination of pesticides and veterinary drugs in honey using liquid chromatography–orbitrap high
+resolution mass spectrometry. J Chromatogr A 1248:130–138
+36. Document No SANCO/12495/2011. Method validation and quality control procedures for pesticide residues analysis in food and
+feed
+37. Commission Decision of 12 August 2002 implementing Council
+Directive 96/23/EC concerning the performance of analytical
+methods and the interpretation of results, Official Journal of the
+European Union L 221/8; available at http://eurl.craw.eu/img/page/
+Legislation/657_2002_EN.pdf Accessed 25 Apr 2013
+6553
+38. Peters RJB, Stolker AAM, Mol JGJ, Lommen A, Lyris E, Angelis
+Y, Vonaparti A, Stamou M, Georgakopoulos C, Nielen MWF
+(2010) Screening in veterinary drug analysis and sports doping
+control based on full-scan, accurate-mass spectrometry. Trends
+Anal Chem 29:1250–1268
+39. van Holthoon F, Mulder PPJ, van Bennekom EO, Heskamp H,
+Zuidema T, van Rhijn HJA (2010) Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation
+with piperidine and stable isotope dilution liquid chromatography
+tandem mass spectrometry. Anal Bional Chem 396:3027–3040
+40. Juan C, Igualada C, Moragues F, León N, Mañes J (2010)
+Development and validation of a liquid chromatography tandem
+mass spectrometry method for the analysis of β-agonists in animal
+feed and drinking water. J Chromatogr A 1217:6061–6068
+41. Boscher A, Guignard C, Pellet T, Hoffmann L, Bohn T (2010)
+Development of a multi-class method for the quantification of
+veterinary drug residues in feedingstuffs by liquid chromatography–tandem mass spectrometry. J Chromatogr A 1217:6394–6404
+42. van der Lee MK, van der Weg G, Traag WA, Mol HGJ (2008)
+Qualitative screening and quantitative determination of pesticides
+and contaminants in animal feed using comprehensive twodimensional gas chromatography with time-of-flight mass spectrometry. J Chromatogr A 1186:325–339
+43. de Paula FCCR, de Pietro AC, Cass QB (2008) Simultaneous
+quantification of sulfamethoxazole and trimethoprim in whole
+egg samples by column-switching high-performance liquid chromatography using restricted access media column for on-line sample clean-up. J Chromatogr A 1189:221–226
+44. Commission implementing regulation (EU) 532/2011 of 31 May
+2011 concerning the authorisation of robenidine hydrochloride as a
+feed additive for rabbits for breeding and rabbits for fattening
+(holder of authorisation Alpharma Belgium BVBA) and amending
+Regulations (EC) No 2430/1999 and (EC) No 1800/2004, Official
+Journal of the European Union L 146/7; available at http://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri=
+OJ:L:2011:146:0007:0010:EN:PDF. Accessed 25 Apr 2013
+45. Vancraeynest D, De Gussem M, Marien M, Maertens L. The
+anticoccidial efficacy of robenidine hydrochloride in Eimeria challenged rabbits. Pathology and Hygiene, 9th World Rabbit
+Congress—June 10–13, 2008—Verona—Italy, 1103–1106
+46. Interim Reregistration Eligibility Decision for Chlorpyrifos,
+United States Environmental Protection Agency, Prevention,
+Pesticides and Toxic substances, EPA 738-R-01-007; available at
+http://www.epa.gov/oppsrrd1/REDs/chlorpyrifos_ired.pdf.
+Accessed 25 Apr 2013
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>J Wang</author>
+<author>W Chow</author>
+<author>W Cheung</author>
+</authors>
+<title>Application of a tandem mass spectrometer and core–shell particle column for the determination of 151 pesticides in grains.</title>
+<date>2011</date>
+<journal>J Agric Food Chem</journal>
+<volume>59</volume>
+<contexts>
+<context position="2975" citStr="[1]" startWordPosition="429" endWordPosition="429">3, 04120 Almería, Spain e-mail: agarrido@ual.es procedure was further tested on different types of feed (chicken, hen, rabbit and horse feed), evaluating recoveries and repeatability. Finally, the method was applied to the analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one pesticide (chlorpyrifos). Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they c</context>
+</contexts>
+<marker>1.</marker>
+<rawString>Wang J, Chow W, Cheung W (2011) Application of a tandem mass spectrometer and core–shell particle column for the determination of 151 pesticides in grains. J Agric Food Chem 59:8589–8608</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Stolker AAM</author>
+<author>Brinkman UAT</author>
+</authors>
+<title>Analytical strategies for residue analysis of veterinary drugs and growth-promoting agents in food-producing animals—a review.</title>
+<date>2005</date>
+<journal>J Chromatogr A</journal>
+<pages>1067--15</pages>
+<contexts>
+<context position="3024" citStr="[2]" startWordPosition="437" endWordPosition="437">rocedure was further tested on different types of feed (chicken, hen, rabbit and horse feed), evaluating recoveries and repeatability. Finally, the method was applied to the analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one pesticide (chlorpyrifos). Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which ar</context>
+</contexts>
+<marker>2.</marker>
+<rawString>Stolker AAM, Brinkman UAT (2005) Analytical strategies for residue analysis of veterinary drugs and growth-promoting agents in food-producing animals—a review. J Chromatogr A 1067:15–53</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>MacLachlan DJ</author>
+<author>R Bhula</author>
+</authors>
+<title>Estimating the residue transfer of pesticides in animal feedstuffs to livestock tissues, milk and eggs: a review.</title>
+<date>2008</date>
+<journal>Aust J Exp Agric</journal>
+<volume>48</volume>
+<contexts>
+<context position="3130" citStr="[3, 4]" startWordPosition="454" endWordPosition="455">g recoveries and repeatability. Finally, the method was applied to the analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one pesticide (chlorpyrifos). Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (E</context>
+</contexts>
+<marker>3.</marker>
+<rawString>MacLachlan DJ, Bhula R (2008) Estimating the residue transfer of pesticides in animal feedstuffs to livestock tissues, milk and eggs: a review. Aust J Exp Agric 48:589–598</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Garrido Frenich A</author>
+<author>P Plaza-Bolaños</author>
+<author>Aguilera-Luiz MM</author>
+</authors>
+<title>In: Quintin TJ (ed) Chromatography types, techniques and methods.</title>
+<date>2010</date>
+<location>Martínez Vidal JL</location>
+<contexts>
+<context position="3130" citStr="[3, 4]" startWordPosition="454" endWordPosition="455">g recoveries and repeatability. Finally, the method was applied to the analysis of 18 feed samples, detecting some VDs (sulfadiazine, trimethoprim, robenidin and monensin Na) and only one pesticide (chlorpyrifos). Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (E</context>
+</contexts>
+<marker>4.</marker>
+<rawString>Garrido Frenich A, Plaza-Bolaños P, Aguilera-Luiz MM, Martínez Vidal JL (2010) In: Quintin TJ (ed) Chromatography types, techniques and methods. Nova, New York</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Moreno-Bondi MC</author>
+<author>Marazuela MD</author>
+<author>S Herranz</author>
+<author>E Rodriguez</author>
+</authors>
+<title>An overview of sample preparation procedures for LC– MS multiclass antibiotic determination in environmental and food samples.</title>
+<date>2009</date>
+<journal>Anal Bioanal Chem</journal>
+<volume>395</volume>
+<contexts>
+<context position="3344" citStr="[5, 6]" startWordPosition="485" endWordPosition="486">Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics ot</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Moreno-Bondi MC, Marazuela MD, Herranz S, Rodriguez E (2009) An overview of sample preparation procedures for LC– MS multiclass antibiotic determination in environmental and food samples. Anal Bioanal Chem 395:921–946</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Ritter</author>
+<author>Goushleff NCI</author>
+<author>T Arbuckle</author>
+<author>D Cole</author>
+<author>M Raizenne</author>
+</authors>
+<title>Addressing the linkage between exposure to pesticides and human health effects—research trends and priorities for research.</title>
+<date>2006</date>
+<journal>J Toxicol Environ Health B Crit Rev</journal>
+<pages>9--441</pages>
+<contexts>
+<context position="3344" citStr="[5, 6]" startWordPosition="485" endWordPosition="486">Keywords Animal feed . Pesticides . Veterinary drugs . UHPLC . QqTOF–MS . Dilute-and-shoot Introduction The use of pesticides and veterinary drugs (VDs) in food industries is widespread, and they are utilised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics ot</context>
+</contexts>
+<marker>6.</marker>
+<rawString>Ritter L, Goushleff NCI, Arbuckle T, Cole D, Raizenne M (2006) Addressing the linkage between exposure to pesticides and human health effects—research trends and priorities for research. J Toxicol Environ Health B Crit Rev 9:441–456</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Borràs</author>
+<author>R Companyó</author>
+<author>M Granados</author>
+<author>J Guiteras</author>
+<author>Pérez-Vendrell AM</author>
+<author>J Brufau</author>
+<author>M Medina</author>
+<author>J Bosch</author>
+</authors>
+<title>Analysis of antimicrobial agents in animal feed.</title>
+<date>2011</date>
+<journal>Trends Anal Chem</journal>
+<volume>30</volume>
+<contexts>
+<context position="3544" citStr="[7]" startWordPosition="522" endWordPosition="522">lised to fight against plagues [1] and treat diseases that could affect animals [2]. However, their fraudulent use can result in the presence of residues in the final animal products [3, 4], which involves several problems to public health such as the increased risk of allergies, the development of antibioticresistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics other than coccidiostats and histomonostats as feed additives (used as growth 6544 promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, V</context>
+<context position="20818" citStr="[7]" startWordPosition="3137" endWordPosition="3137">cs. This could be due to the high volume of acetonitrile employed, which is not efficient to extract polar analytes like tetracyclines and penicillins because of co-precipitation of some analytes with the proteins. However, the chromatograms obtained after UHPLC–QqTOF–MS analysis showed Wide-scope analysis of veterinary drug and pesticide residues numerous background interference peaks for some compounds (Fig. 1a). This can be explained because of the complexity of this matrix, which contains cereals, sugars/fruits, fats, roots/tubers, leguminous/oleaginous plants, amino acids and/or minerals [7]. Therefore, the high complexity of the matrix makes the clean-up of the extracts almost mandatory to obtain reliable results, except in cases where the sensitivity of the method is high enough to offer the option of simply diluting the extracts. Hence, clean-up is an important step when extracts are analysed with TOF, which has showed lower sensitivity than other HRMS analyser, such as Orbitrap, in certain food applications [38]. Bearing in mind this and the results obtained in the first experiment, an additional clean-up stage was checked. In this way, three fast clean-up procedures were eva</context>
+<context position="30057" citStr="[7, 14, 23, 39, 40]" startWordPosition="4642" endWordPosition="4646">Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides i</context>
+</contexts>
+<marker>7.</marker>
+<rawString>Borràs S, Companyó R, Granados M, Guiteras J, Pérez-Vendrell AM, Brufau J, Medina M, Bosch J (2011) Analysis of antimicrobial agents in animal feed. Trends Anal Chem 30:1250–1268</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Regulation</author>
+</authors>
+<title>No 299/2008 of the European Parliament and of the Council of 11</title>
+<date>2008</date>
+<journal>Accessed</journal>
+<volume>25</volume>
+<contexts>
+<context position="3854" citStr="[8]" startWordPosition="571" endWordPosition="571">resistant bacteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics other than coccidiostats and histomonostats as feed additives (used as growth 6544 promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologi</context>
+</contexts>
+<marker>8.</marker>
+<rawString>Regulation (EC) No 299/2008 of the European Parliament and of the Council of 11 March 2008 amending Regulation (EC) No 396/ 2005 on maximum residue levels of pesticides in or on food and feed of plant and animal origin, as regards the implementing powers conferred on the Commission, Official Journal of the European Union L 97/67; available at http://eur-lex.europa.eu/ LexUriServ/LexUriServ.do?uri= OJ:L:2008:097:0067:0071:en:PDF. Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="false">
+<title>amending Annex I to Directive 2002/32/EC of the European Parliament and of the Council as regards maximum levels of unavoidable carryover of coccidiostats or histomonostats in nontarget feed, Official Journal of the European Union L 40/19; available at http://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri= OJ:L:2009:040:0019:0025:EN:PDF.</title>
+<date>2009</date>
+<journal>Accessed</journal>
+<booktitle>Commission Directive 2009/8/EC of 10</booktitle>
+<volume>25</volume>
+<contexts>
+<context position="3870" citStr="[9, 10]" startWordPosition="574" endWordPosition="575">cteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics other than coccidiostats and histomonostats as feed additives (used as growth 6544 promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been dev</context>
+</contexts>
+<marker>9.</marker>
+<rawString>Commission Directive 2009/8/EC of 10 February 2009 amending Annex I to Directive 2002/32/EC of the European Parliament and of the Council as regards maximum levels of unavoidable carryover of coccidiostats or histomonostats in nontarget feed, Official Journal of the European Union L 40/19; available at http://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri= OJ:L:2009:040:0019:0025:EN:PDF. Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="true">
+<title>Directive 2002/32/EC of the European Parliament and of the</title>
+<date>2002</date>
+<journal>Council of</journal>
+<volume>7</volume>
+<contexts>
+<context position="3870" citStr="[9, 10]" startWordPosition="574" endWordPosition="575">cteria and harmful effects on the human system (e.g. carcinogenic effects) [5, 6]. The study of pesticide and VD residues in animal feed is an important issue because they can reach the food chain. On the one hand, animal feed is usually employed to administer drugs to animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics other than coccidiostats and histomonostats as feed additives (used as growth 6544 promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been dev</context>
+</contexts>
+<marker>10.</marker>
+<rawString>Directive 2002/32/EC of the European Parliament and of the Council of 7 May 2002 on undesirable substances in animal feed, L 140/10. (consolidated version: 2002 L0032—ES—01.01.2012—014.002—1); available at http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri= OJ:L:2002:140:0010:0021:ES:PDF. Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Regulation</author>
+</authors>
+<title>No 1831/2003 of the European Parliament and of the</title>
+<date>2003</date>
+<journal>Council of</journal>
+<volume>22</volume>
+<contexts>
+<context position="4135" citStr="[11]" startWordPosition="613" endWordPosition="613">o animals [7] and, on the other hand, they can be prepared with several ingredients, which are not always free of pesticides [3]. Consequently, in order to ensure animal safety, the European Union (EU) has established regulations for the control of residues in feed, setting maximum residue limits (MRLs) for pesticides [8] and VDs [9, 10]. Moreover, Regulation (EC) 1831/2003 banned the use of all antibiotics other than coccidiostats and histomonostats as feed additives (used as growth 6544 promoters) since 1 January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures h</context>
+</contexts>
+<marker>11.</marker>
+<rawString>Regulation (EC) No 1831/2003 of the European Parliament and of the Council of 22 September 2003 on additives for use in animal nutrition, Official Journal of the European Union L 268/29; available at http://irmm.jrc.ec.europa.eu/SiteCollectionDocuments/EC1831-2003.pdf. Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Aulakh RS</author>
+<author>Gill JPS</author>
+<author>Bedi JS</author>
+<author>Sharma JK</author>
+<author>Joia BS</author>
+<author>Ockerman HW</author>
+</authors>
+<title>Organochlorine pesticide residues in poultry feed, chicken muscle and eggs at a poultry farm in Punjab,</title>
+<date>2006</date>
+<journal>India. J Sci Food Agric 86:741–744 M.M. Aguilera-Luiz</journal>
+<contexts>
+<context position="4970" citStr="[12, 14]" startWordPosition="740" endWordPosition="741">ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residue</context>
+</contexts>
+<marker>12.</marker>
+<rawString>Aulakh RS, Gill JPS, Bedi JS, Sharma JK, Joia BS, Ockerman HW (2006) Organochlorine pesticide residues in poultry feed, chicken muscle and eggs at a poultry farm in Punjab, India. J Sci Food Agric 86:741–744 M.M. Aguilera-Luiz et al.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Guo</author>
+<author>Yu HY</author>
+<author>Zhang BZ</author>
+<author>Zeng EY</author>
+</authors>
+<title>Persistent halogenated hydrocarbons in fish feeds manufactured in South China.</title>
+<date>2009</date>
+<journal>J Agric Food Chem</journal>
+<volume>57</volume>
+<contexts>
+<context position="5003" citStr="[13, 15]" startWordPosition="745" endWordPosition="746">and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the </context>
+</contexts>
+<marker>13.</marker>
+<rawString>Guo Y, Yu HY, Zhang BZ, Zeng EY (2009) Persistent halogenated hydrocarbons in fish feeds manufactured in South China. J Agric Food Chem 57:3674–3680</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Iglesias-García</author>
+<author>M Barriada-Pereira</author>
+<author>González-Castro MJ</author>
+<author>S Muniategui-Lorenzo</author>
+<author>P López-Mahía</author>
+<author>D Prada-Rodríguez</author>
+</authors>
+<title>Development of an analytical method based on microwave-assisted extraction and solid phase extraction cleanup for the determination of organochlorine pesticides in animal feed.</title>
+<date>2008</date>
+<journal>Anal Bioanal Chem</journal>
+<volume>391</volume>
+<contexts>
+<context position="4818" citStr="[14, 18]" startWordPosition="719" endWordPosition="720">iseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of thes</context>
+<context position="30057" citStr="[7, 14, 23, 39, 40]" startWordPosition="4642" endWordPosition="4646">Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides i</context>
+</contexts>
+<marker>14.</marker>
+<rawString>Iglesias-García I, Barriada-Pereira M, González-Castro MJ, Muniategui-Lorenzo S, López-Mahía P, Prada-Rodríguez D (2008) Development of an analytical method based on microwave-assisted extraction and solid phase extraction cleanup for the determination of organochlorine pesticides in animal feed. Anal Bioanal Chem 391:745–752</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Fernandez-Alvarez</author>
+<author>M Llompart</author>
+<author>Lamas JP</author>
+<author>M Lores</author>
+<author>C GarcíaJares</author>
+<author>M García-Chao</author>
+<author>T Dagnac</author>
+</authors>
+<title>Simultaneous extraction and cleanup method based on pressurized solvent extraction for multiresidue analysis of pesticides in complex feed samples.</title>
+<date>2009</date>
+<journal>J Agric Food Chem</journal>
+<pages>57--3963</pages>
+<contexts>
+<context position="4647" citStr="[15]" startWordPosition="694" endWordPosition="694"> January 2006. Furthermore, these products have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liqui</context>
+<context position="30447" citStr="[15, 17]" startWordPosition="4706" endWordPosition="4707">ompounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides in animal feed with LOQs obtained with the proposed method Compound Animal feed MRL (μg kg−1) LOQ (μg kg−1) Diclazuril Chicken Horse Chicken Chicken Rabbit Horse Hen Rabbit Horse 10 30 100 1,250 1,250 1,250 700 700 2,100 12.5 50 12.5 12.5 2.5 2.5 12.5 12.5 12.5 Hen Rabbit Horse Chicken Hen Rabbit Horse 700 6,600 2,100 700 700 700 2,100 12.5 12.5 12.5 12.5 150 150 50 Endosulfan sulphate Mo</context>
+<context position="31700" citStr="[15]" startWordPosition="4908" endWordPosition="4908">methods. Moreover, the presented methodology increased sample throughput because it only requires a rapid clean-up step through Florisil cartridges instead of d-SPE clean-up [17, 41], LLE followed by concentration step [22] or an extraction by SPE [24]. In relation to the number of validated compounds, the proposed method allowed the determination and quantification of an average of 200 compounds in different feed improving the number of compounds of other works: 33 VDs [41], 10 prohibited medical additives (three analytes were analysed in qualitative mode) [22], 18 antibacterials [24] and 33 [15] and 122 [17] pesticides. Concerning the performance characteristics, the developed method allowed the extraction and quantification of a high number of VDs and pesticides at low levels (10 μg kg−1). These results are better than those obtained in a previous multi-class method developed for the determination of 122 pesticides [17], where some pesticides were validated at a higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the lowest level at which antibacterial compounds were determined [22]. In contrast to this, a multi-class met</context>
+</contexts>
+<marker>15.</marker>
+<rawString>Fernandez-Alvarez M, Llompart M, Lamas JP, Lores M, GarcíaJares C, García-Chao M, Dagnac T (2009) Simultaneous extraction and cleanup method based on pressurized solvent extraction for multiresidue analysis of pesticides in complex feed samples. J Agric Food Chem 57:3963–3973</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Carro AM</author>
+<author>Lorenzo RA</author>
+<author>F Fernández</author>
+<author>R Rodil</author>
+<author>R Cela</author>
+</authors>
+<title>Multi-residue screening of chlorinated and brominated compounds from aquaculture samples using matrix solid-phase dispersion–gas chromatography–mass spectrometry.</title>
+<date>2005</date>
+<journal>J Chromatogr A</journal>
+<pages>1071--93</pages>
+<contexts>
+<context position="4690" citStr="[16]" startWordPosition="699" endWordPosition="699">have been completely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been ut</context>
+</contexts>
+<marker>16.</marker>
+<rawString>Carro AM, Lorenzo RA, Fernández F, Rodil R, Cela R (2005) Multi-residue screening of chlorinated and brominated compounds from aquaculture samples using matrix solid-phase dispersion–gas chromatography–mass spectrometry. J Chromatogr A 1071:93–98</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Walorczyk</author>
+</authors>
+<title>Development of a multi-residue screening method for the determination of pesticides in cereals and dry animal feed using gas chromatography–triple quadrupole tandem mass spectrometry.</title>
+<date>2007</date>
+<journal>J Chromatogr A</journal>
+<pages>1165--200</pages>
+<contexts>
+<context position="4707" citStr="[17]" startWordPosition="702" endWordPosition="702">ely banned on December 2012 [11]. Thus, VDs should be strictly applied for the prevention or treatment of diseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liq</context>
+<context position="30447" citStr="[15, 17]" startWordPosition="4706" endWordPosition="4707">ompounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides in animal feed with LOQs obtained with the proposed method Compound Animal feed MRL (μg kg−1) LOQ (μg kg−1) Diclazuril Chicken Horse Chicken Chicken Rabbit Horse Hen Rabbit Horse 10 30 100 1,250 1,250 1,250 700 700 2,100 12.5 50 12.5 12.5 2.5 2.5 12.5 12.5 12.5 Hen Rabbit Horse Chicken Hen Rabbit Horse 700 6,600 2,100 700 700 700 2,100 12.5 12.5 12.5 12.5 150 150 50 Endosulfan sulphate Mo</context>
+<context position="31713" citStr="[17]" startWordPosition="4911" endWordPosition="4911">over, the presented methodology increased sample throughput because it only requires a rapid clean-up step through Florisil cartridges instead of d-SPE clean-up [17, 41], LLE followed by concentration step [22] or an extraction by SPE [24]. In relation to the number of validated compounds, the proposed method allowed the determination and quantification of an average of 200 compounds in different feed improving the number of compounds of other works: 33 VDs [41], 10 prohibited medical additives (three analytes were analysed in qualitative mode) [22], 18 antibacterials [24] and 33 [15] and 122 [17] pesticides. Concerning the performance characteristics, the developed method allowed the extraction and quantification of a high number of VDs and pesticides at low levels (10 μg kg−1). These results are better than those obtained in a previous multi-class method developed for the determination of 122 pesticides [17], where some pesticides were validated at a higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the lowest level at which antibacterial compounds were determined [22]. In contrast to this, a multi-class method developed</context>
+</contexts>
+<marker>17.</marker>
+<rawString>Walorczyk S (2007) Development of a multi-residue screening method for the determination of pesticides in cereals and dry animal feed using gas chromatography–triple quadrupole tandem mass spectrometry. J Chromatogr A 1165:200–212</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Nácher-Mestre</author>
+<author>R Serrano</author>
+<author>T Portolés-Nicolau</author>
+<author>F Hernández</author>
+<author>L Benedito-Palos</author>
+<author>J Pérez-Sánchez</author>
+</authors>
+<title>A reliable analytical approach based on gas chromatography coupled to triple quadrupole and time-of-flight mass analyzers for the determination and confirmation of polycyclic aromatic hydrocarbons in complex matrices from aquaculture activities.</title>
+<date>2009</date>
+<journal>Rapid Commun Mass Spectrom</journal>
+<pages>23--2075</pages>
+<contexts>
+<context position="4818" citStr="[14, 18]" startWordPosition="719" endWordPosition="720">iseases. In this way, these regulated limits require the determination of an extremely high number of VD and pesticide residues in feed with the aim of ensuring their use in a rational and safe way. Therefore, sensitive and reliable methodologies have been developed for the analysis of each group of residues separately. The determination of pesticides in feed has been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of thes</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Nácher-Mestre J, Serrano R, Portolés-Nicolau T, Hernández F, Benedito-Palos L, Pérez-Sánchez J (2009) A reliable analytical approach based on gas chromatography coupled to triple quadrupole and time-of-flight mass analyzers for the determination and confirmation of polycyclic aromatic hydrocarbons in complex matrices from aquaculture activities. Rapid Commun Mass Spectrom 23:2075–2086</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Van Poucke</author>
+<author>K De Keyser</author>
+<author>A Baltusnikiene</author>
+<author>McEvoy JDG</author>
+<author>C Van Peteghem</author>
+</authors>
+<title>Liquid chromatographic–tandem mass spectrometric detection of banned antibacterial growth promoters in animal feed.</title>
+<date>2003</date>
+<journal>Anal Chim Acta</journal>
+<volume>483</volume>
+<contexts>
+<context position="5352" citStr="[19]" startWordPosition="797" endWordPosition="797">owed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms</context>
+</contexts>
+<marker>19.</marker>
+<rawString>Van Poucke C, De Keyser K, Baltusnikiene A, McEvoy JDG, Van Peteghem C (2003) Liquid chromatographic–tandem mass spectrometric detection of banned antibacterial growth promoters in animal feed. Anal Chim Acta 483:99–109</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U Vincent</author>
+<author>M Chedin</author>
+<author>S Yasar</author>
+<author>C von Holst</author>
+</authors>
+<title>Determination of ionophore coccidiostats in feeding stuffs by liquid chromatography–tandem mass spectrometry. Part I. Application to targeted feed.</title>
+<date>2008</date>
+<journal>J Pharm Biomed Anal</journal>
+<volume>47</volume>
+<marker>20.</marker>
+<rawString>Vincent U, Chedin M, Yasar S, von Holst C (2008) Determination of ionophore coccidiostats in feeding stuffs by liquid chromatography–tandem mass spectrometry. Part I. Application to targeted feed. J Pharm Biomed Anal 47:750–757</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F van Holthoon</author>
+<author>Mulder PPJ</author>
+<author>van Bennekom EO</author>
+<author>H Heskamp</author>
+<author>T Zuidema</author>
+<author>van Rhijn HJA</author>
+</authors>
+<title>Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry.</title>
+<date>2010</date>
+<journal>Anal Bioanal Chem</journal>
+<volume>396</volume>
+<marker>21.</marker>
+<rawString>van Holthoon F, Mulder PPJ, van Bennekom EO, Heskamp H, Zuidema T, van Rhijn HJA (2010) Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry. Anal Bioanal Chem 396:3027–3040</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Cronly</author>
+<author>P Behan</author>
+<author>B Foleya</author>
+<author>E Malone</author>
+<author>S Earley</author>
+<author>M Gallagher</author>
+<author>P Shearan</author>
+<author>L Regan</author>
+</authors>
+<title>Development and validation of a rapid multi-class method for the confirmation of fourteen prohibited medicinal additives in pig and poultry compound feed by liquid chromatography–tandem mass spectrometry.</title>
+<date>2010</date>
+<journal>J Pharm Biomed Anal</journal>
+<volume>53</volume>
+<contexts>
+<context position="5277" citStr="[22]" startWordPosition="786" endWordPosition="786">rsion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compens</context>
+<context position="30423" citStr="[22, 24, 41]" startWordPosition="4701" endWordPosition="4703">cult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides in animal feed with LOQs obtained with the proposed method Compound Animal feed MRL (μg kg−1) LOQ (μg kg−1) Diclazuril Chicken Horse Chicken Chicken Rabbit Horse Hen Rabbit Horse 10 30 100 1,250 1,250 1,250 700 700 2,100 12.5 50 12.5 12.5 2.5 2.5 12.5 12.5 12.5 Hen Rabbit Horse Chicken Hen Rabbit Horse 700 6,600 2,100 700 700 700 2,100 12.5 12.5 12.5 12.5 150 150 5</context>
+<context position="31664" citStr="[22]" startWordPosition="4902" endWordPosition="4902">sin Robenidine Salinomicin previous methods. Moreover, the presented methodology increased sample throughput because it only requires a rapid clean-up step through Florisil cartridges instead of d-SPE clean-up [17, 41], LLE followed by concentration step [22] or an extraction by SPE [24]. In relation to the number of validated compounds, the proposed method allowed the determination and quantification of an average of 200 compounds in different feed improving the number of compounds of other works: 33 VDs [41], 10 prohibited medical additives (three analytes were analysed in qualitative mode) [22], 18 antibacterials [24] and 33 [15] and 122 [17] pesticides. Concerning the performance characteristics, the developed method allowed the extraction and quantification of a high number of VDs and pesticides at low levels (10 μg kg−1). These results are better than those obtained in a previous multi-class method developed for the determination of 122 pesticides [17], where some pesticides were validated at a higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the lowest level at which antibacterial compounds were determined [22]. In</context>
+</contexts>
+<marker>22.</marker>
+<rawString>Cronly M, Behan P, Foleya B, Malone E, Earley S, Gallagher M, Shearan P, Regan L (2010) Development and validation of a rapid multi-class method for the confirmation of fourteen prohibited medicinal additives in pig and poultry compound feed by liquid chromatography–tandem mass spectrometry. J Pharm Biomed Anal 53:929–938</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Cronly</author>
+<author>P Behan</author>
+<author>B Foley</author>
+<author>E Malone</author>
+<author>P Shearan</author>
+<author>L Regan</author>
+</authors>
+<title>Determination of eleven coccidiostats in animal feed by liquid chromatography–tandem mass spectrometry at cross contamination levels.</title>
+<date>2011</date>
+<journal>Anal Chim Acta</journal>
+<volume>700</volume>
+<contexts>
+<context position="5180" citStr="[23]" startWordPosition="770" endWordPosition="770">been based on Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to mi</context>
+<context position="30057" citStr="[7, 14, 23, 39, 40]" startWordPosition="4642" endWordPosition="4646">Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides i</context>
+</contexts>
+<marker>23.</marker>
+<rawString>Cronly M, Behan P, Foley B, Malone E, Shearan P, Regan L (2011) Determination of eleven coccidiostats in animal feed by liquid chromatography–tandem mass spectrometry at cross contamination levels. Anal Chim Acta 700:26–33</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Kantiani</author>
+<author>M Farré</author>
+<author>Grases IFJM</author>
+<author>D Barceló</author>
+</authors>
+<title>Development and validation of a pressurised liquid extraction liquid chromatography–electrospray–tandem mass spectrometry method for βlactams and sulfonamides in animal feed.</title>
+<date>2010</date>
+<journal>J Chromatogr A</journal>
+<pages>1217--4247</pages>
+<contexts>
+<context position="5197" citStr="[24, 25]" startWordPosition="773" endWordPosition="774"> Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte lo</context>
+<context position="30423" citStr="[22, 24, 41]" startWordPosition="4701" endWordPosition="4703">cult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides in animal feed with LOQs obtained with the proposed method Compound Animal feed MRL (μg kg−1) LOQ (μg kg−1) Diclazuril Chicken Horse Chicken Chicken Rabbit Horse Hen Rabbit Horse 10 30 100 1,250 1,250 1,250 700 700 2,100 12.5 50 12.5 12.5 2.5 2.5 12.5 12.5 12.5 Hen Rabbit Horse Chicken Hen Rabbit Horse 700 6,600 2,100 700 700 700 2,100 12.5 12.5 12.5 12.5 150 150 5</context>
+<context position="31688" citStr="[24]" startWordPosition="4905" endWordPosition="4905">in previous methods. Moreover, the presented methodology increased sample throughput because it only requires a rapid clean-up step through Florisil cartridges instead of d-SPE clean-up [17, 41], LLE followed by concentration step [22] or an extraction by SPE [24]. In relation to the number of validated compounds, the proposed method allowed the determination and quantification of an average of 200 compounds in different feed improving the number of compounds of other works: 33 VDs [41], 10 prohibited medical additives (three analytes were analysed in qualitative mode) [22], 18 antibacterials [24] and 33 [15] and 122 [17] pesticides. Concerning the performance characteristics, the developed method allowed the extraction and quantification of a high number of VDs and pesticides at low levels (10 μg kg−1). These results are better than those obtained in a previous multi-class method developed for the determination of 122 pesticides [17], where some pesticides were validated at a higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the lowest level at which antibacterial compounds were determined [22]. In contrast to this, a mul</context>
+<context position="32929" citStr="[24]" startWordPosition="5113" endWordPosition="5113">lysis of 33 VDs [41] showed good recoveries at low levels (&lt;10 μg kg−1). Regarding LOQs, the obtained values in the proposed method (ranged from 4 to 200 μg kg−1 in sample) were lower than those obtained in two previous works [17, 22]. The first one determined pesticides in wheat grain (7– 400 μg kg−1) [17] and the second one measured VDs in pig and poultry compound feed (100–169 μg kg−1) [22]. However, other works showed better LOQs, such as those 6550 M.M. Aguilera-Luiz et al. obtained by Boscher et al. [41] (LOQs ranging from 3.8 to 65 μg kg−1 in sample, piglet feed) and by Kantiani et al. [24] (instrumental LOQs from 0.57 to 2.92 μg kg−1). These low LOQ values can be explained due to the fact that both works employed QqQ as analyser, which showed better sensitivity than QqTOF using MSE. Moreover, these methods were developed for a limited number of compounds. One of the main disadvantages of the proposed method is that it was not able to extract and quantify some families of compounds, such as tetracyclines, quinolones or penicillins, which were analysed in other works [24, 41] with good recoveries, and therefore, current work is focused on this. If it is compared with the two wide</context>
+</contexts>
+<marker>24.</marker>
+<rawString>Kantiani L, Farré M, Grases IFJM, Barceló D (2010) Development and validation of a pressurised liquid extraction liquid chromatography–electrospray–tandem mass spectrometry method for βlactams and sulfonamides in animal feed. J Chromatogr A 1217:4247–4254</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Kantiani</author>
+<author>M Farré</author>
+<author>Grases IFJM</author>
+<author>D Barceló</author>
+</authors>
+<title>Determination of antibacterials in animal feed by pressurized liquid extraction followed by online purification and liquid chromatography–electrospray tandem mass spectrometry.</title>
+<date>2010</date>
+<journal>Anal Bioanal Chem</journal>
+<pages>398--1195</pages>
+<contexts>
+<context position="5197" citStr="[24, 25]" startWordPosition="773" endWordPosition="774"> Soxhlet [12–14], pressurised liquid extraction (PLE) [15], matrix solid-phase dispersion (MSPD) [16] or QuEChERS [17]. Some of these procedures have been followed by a clean-up step based on solid-phase extraction (SPE) [14, 18] or dispersive SPE (d-SPE) [17], and subsequent chromatographic analysis by gas chromatography (GC) coupled to electron capture detection (ECD) [12, 14], mass spectrometry (MS) [13, 15] or tandem mass spectrometry (MS/MS) [12, 14, 16–18]. For the determination of VDs, solvent extraction assisted by mechanical shaking [19–22], modified QuEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte lo</context>
+</contexts>
+<marker>25.</marker>
+<rawString>Kantiani L, Farré M, Grases IFJM, Barceló D (2010) Determination of antibacterials in animal feed by pressurized liquid extraction followed by online purification and liquid chromatography–electrospray tandem mass spectrometry. Anal Bioanal Chem 398:1195–1205</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Stolker AAM</author>
+<author>P Rutgers</author>
+<author>E Oosterink</author>
+<author>Lasaroms JJP</author>
+<author>Peters RJB</author>
+<author>van Rhijn JA</author>
+<author>Nielen MWF</author>
+</authors>
+<title>Comprehensive screening and quantification of veterinary drugs in milk using UPLC–ToF–MS. Anal Bioanal Chem 391:2309–2322 Wide-scope analysis of veterinary drug and pesticide residues</title>
+<date>2008</date>
+<contexts>
+<context position="5764" citStr="[26, 27]" startWordPosition="854" endWordPosition="855">uEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms of sensitivity, the use of GC or LC coupled to triple quadrupole (QqQ) is usually preferred, and the number of compounds that can be acquired by these techniques in one run is limited [28, 29]. The use of high-resolution mass spectrometry (HRMS), such as timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF) or Orbitrap [29], is considered as a powerful alternative. These full-scan technologies provid</context>
+</contexts>
+<marker>26.</marker>
+<rawString>Stolker AAM, Rutgers P, Oosterink E, Lasaroms JJP, Peters RJB, van Rhijn JA, Nielen MWF (2008) Comprehensive screening and quantification of veterinary drugs in milk using UPLC–ToF–MS. Anal Bioanal Chem 391:2309–2322 Wide-scope analysis of veterinary drug and pesticide residues</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Kinsella</author>
+<author>J O’Mahony</author>
+<author>E Malone</author>
+<author>M Moloney</author>
+<author>H Cantwell</author>
+<author>A Furey</author>
+<author>M Danahera</author>
+</authors>
+<title>Current trends in sample preparation for growth promoter and veterinary drug residue analysis.</title>
+<date>2009</date>
+<journal>J Chromatogr A</journal>
+<pages>1216--7977</pages>
+<contexts>
+<context position="5764" citStr="[26, 27]" startWordPosition="854" endWordPosition="855">uEChERS methodology [23] and PLE [24, 25] followed by SPE clean-up [19–21, 24, 25] or liquid–liquid extraction (LLE) [22] have been utilised, using liquid chromatography coupled to MS (LC–MS) [19] or MS/MS (LC–MS/MS) [20–25] methodologies. Normally, most of these methods are focused on specific groups of residues, not being suitable for wide-scope multiresidue analysis able to cover different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms of sensitivity, the use of GC or LC coupled to triple quadrupole (QqQ) is usually preferred, and the number of compounds that can be acquired by these techniques in one run is limited [28, 29]. The use of high-resolution mass spectrometry (HRMS), such as timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF) or Orbitrap [29], is considered as a powerful alternative. These full-scan technologies provid</context>
+</contexts>
+<marker>27.</marker>
+<rawString>Kinsella B, O’Mahony J, Malone E, Moloney M, Cantwell H, Furey A, Danahera M (2009) Current trends in sample preparation for growth promoter and veterinary drug residue analysis. J Chromatogr A 1216:7977–8015</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Kellmann</author>
+<author>H Muenster</author>
+<author>P Zomer</author>
+<author>H Mol</author>
+</authors>
+<title>Full scan MS in comprehensive qualitative and quantitative residue analysis in food and feed matrices: how much resolving power is required?</title>
+<date>2009</date>
+<journal>J Am Soc Mass Spectrom</journal>
+<pages>20--1464</pages>
+<contexts>
+<context position="6145" citStr="[28, 29]" startWordPosition="914" endWordPosition="915">over different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms of sensitivity, the use of GC or LC coupled to triple quadrupole (QqQ) is usually preferred, and the number of compounds that can be acquired by these techniques in one run is limited [28, 29]. The use of high-resolution mass spectrometry (HRMS), such as timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF) or Orbitrap [29], is considered as a powerful alternative. These full-scan technologies provide the selectivity and the sensitivity required for efficient and wide-range screening, as they combine high, full-spectral sensitivity with high mass resolution, allowing the measurement of accurate mass of any ionisable component in the sample. In this way, the combination of ultra-high performance liquid chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has demonstr</context>
+</contexts>
+<marker>28.</marker>
+<rawString>Kellmann M, Muenster H, Zomer P, Mol H (2009) Full scan MS in comprehensive qualitative and quantitative residue analysis in food and feed matrices: how much resolving power is required? J Am Soc Mass Spectrom 20:1464–1476</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Kaufmann</author>
+</authors>
+<title>The current role of high-resolution mass spectrometry in food analysis.</title>
+<date>2012</date>
+<journal>Anal Bioanal Chem</journal>
+<volume>403</volume>
+<contexts>
+<context position="6145" citStr="[28, 29]" startWordPosition="914" endWordPosition="915">over different classes of residues and contaminants. However, the use of wide-scope methods inherently involves the need for generic extraction procedures, and this strategy shortens the possibilities for cleanup steps [26, 27], in order to minimise analyte losses. Nevertheless, the lack of selectivity in sample preparation can be compensated by selectivity/sensitivity in instrumental analysis. Although in terms of sensitivity, the use of GC or LC coupled to triple quadrupole (QqQ) is usually preferred, and the number of compounds that can be acquired by these techniques in one run is limited [28, 29]. The use of high-resolution mass spectrometry (HRMS), such as timeof-flight (TOF), hybrid quadrupole-time-of-flight (QqTOF) or Orbitrap [29], is considered as a powerful alternative. These full-scan technologies provide the selectivity and the sensitivity required for efficient and wide-range screening, as they combine high, full-spectral sensitivity with high mass resolution, allowing the measurement of accurate mass of any ionisable component in the sample. In this way, the combination of ultra-high performance liquid chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has demonstr</context>
+</contexts>
+<marker>29.</marker>
+<rawString>Kaufmann A (2012) The current role of high-resolution mass spectrometry in food analysis. Anal Bioanal Chem 403:1233–1249</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Ortelli</author>
+<author>E Cognard</author>
+<author>P Jan</author>
+<author>P Edder</author>
+</authors>
+<title>Comprehensive fast multiresidue screening of 150 veterinary drugs in milk by ultraperformance liquid chromatography coupled to time of flight mass spectrometry.</title>
+<date>2009</date>
+<journal>J Chromatogr B</journal>
+<pages>877--2363</pages>
+<marker>30.</marker>
+<rawString>Ortelli D, Cognard E, Jan P, Edder P (2009) Comprehensive fast multiresidue screening of 150 veterinary drugs in milk by ultraperformance liquid chromatography coupled to time of flight mass spectrometry. J Chromatogr B 877:2363–2374</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Díaz</author>
+<author>M Ibáñez</author>
+<author>Sancho JV</author>
+<author>F Hernández</author>
+</authors>
+<title>Target and nontarget screening strategies for organic contaminants, residues and illicit substances in food, environmental and human biological samples by UHPLC–QTOF–MS.</title>
+<date>2012</date>
+<journal>Anal Methods</journal>
+<volume>4</volume>
+<contexts>
+<context position="29748" citStr="[31]" startWordPosition="4600" endWordPosition="4600">wed problems to detect the fragment at LOQ concentration, although their quasi-molecular ion was perfectly detected. Despite the higher levels of LOQ obtained for some compounds, many of them were lower than MRLs established by the legislation for some specific compounds, as it can be seen in Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the publis</context>
+</contexts>
+<marker>31.</marker>
+<rawString>Díaz R, Ibáñez M, Sancho JV, Hernández F (2012) Target and nontarget screening strategies for organic contaminants, residues and illicit substances in food, environmental and human biological samples by UHPLC–QTOF–MS. Anal Methods 4:196–209</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Nurmi</author>
+<author>J Pellinen</author>
+</authors>
+<title>Multiresidue method for the analysis of emerging contaminants in wastewater by ultra performance liquid chromatography–time-of-flight mass spectrometry.</title>
+<date>2011</date>
+<journal>J Chromatogr A</journal>
+<pages>1218--6712</pages>
+<marker>32.</marker>
+<rawString>Nurmi J, Pellinen J (2011) Multiresidue method for the analysis of emerging contaminants in wastewater by ultra performance liquid chromatography–time-of-flight mass spectrometry. J Chromatogr A 1218:6712–6719</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Mol HGJ</author>
+<author>P Plaza-Bolaños</author>
+<author>P Zomer</author>
+<author>de Rijk TC</author>
+<author>Stolker AAM</author>
+<author>Mulder PPJ</author>
+</authors>
+<title>Toward a generic extraction method for simultaneous determination of pesticides, mycotoxins, plant toxins, and veterinary drugs in feed and food matrixes.</title>
+<date>2008</date>
+<journal>Anal Chem</journal>
+<volume>80</volume>
+<contexts>
+<context position="6966" citStr="[28, 33, 34]" startWordPosition="1028" endWordPosition="1030">ies provide the selectivity and the sensitivity required for efficient and wide-range screening, as they combine high, full-spectral sensitivity with high mass resolution, allowing the measurement of accurate mass of any ionisable component in the sample. In this way, the combination of ultra-high performance liquid chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has demonstrated to be an excellent tool for the analysis of different classes of residues and contaminants in food and environmental samples [30–32]. However, the number of applications in feed matrices is quite limited [28, 33, 34], where a group of pesticides, VDs, mycotoxins and plant M.M. Aguilera-Luiz et al. toxins are determined in horse feed [28, 33] and coccidiostats in animal feed [34]. Therefore, the aim of this work is the development of a reliable and sensitive methodology based on the use of advanced UHPLC–QqTOF–MS technique for the quantitative determination and reliable identification of more than 250 pesticides and VDs in different types of feed matrices using generic methods. Experimental Reagents and apparatus VD and pesticide analytical standards were purchased from Riedel-de-Haën (Seelze, Germany), Dr</context>
+<context position="19523" citStr="[33]" startWordPosition="2950" endWordPosition="2950">, a solvent-based standard at 250 μg L−1 was injected and MS/MS acquisitions were obtained. In this way, the peak shape of the extracted chromatogram for each fragment (in the HE acquisition function) was compared to that of the main ion (in the LE acquisition function) checking that both traces showed the same RT and elution profile. Moreover, accurate mass errors must be &lt;5 ppm, as well as the isotopic pattern of the fragment ion must be similar to the theoretically profile of the empirical formulae. Optimisation of the extraction method The generic extraction method developed by Mol et al. [33] allowed the extraction of a wide set of pesticides, VDs and other contaminants in feed. A slight modification of this method has already been employed for the simultaneous determination of pesticides and VDs in other matrices such as honey in our laboratory [35], and it was selected as the starting point herein. Initially, the experiments were carried out employing blank chicken feed samples spiked at 100 μg kg−1. As result of this first assay, 75 % of the compounds (275 compounds) showed acceptable recoveries (acceptable range 60–125 %). Tetracyclines and penicillins were not successfully ex</context>
+<context position="33688" citStr="[33, 42]" startWordPosition="5234" endWordPosition="5235">howed better sensitivity than QqTOF using MSE. Moreover, these methods were developed for a limited number of compounds. One of the main disadvantages of the proposed method is that it was not able to extract and quantify some families of compounds, such as tetracyclines, quinolones or penicillins, which were analysed in other works [24, 41] with good recoveries, and therefore, current work is focused on this. If it is compared with the two wide-scope multi-class methods previously developed for analysis of VDs and pesticides in feed samples (horse feed and cereal-based product, respectively) [33, 42], some advantages can be mentioned. Firstly, the generic extraction method was developed from Mol et al. [33], which is similar to the method proposed in this work, with a slight modification by the addition of a simple clean-up step. Secondly, the generic extraction method is faster than the method developed by van der Lee et al. [42], where the extraction time was 18 h and it required a clean-up procedure by gel permeation chromatography and SPE. Furthermore, the number of pesticides and VDs validated with our method was higher or similar than the number of compounds of both works, 106 compo</context>
+</contexts>
+<marker>33.</marker>
+<rawString>Mol HGJ, Plaza-Bolaños P, Zomer P, de Rijk TC, Stolker AAM, Mulder PPJ (2008) Toward a generic extraction method for simultaneous determination of pesticides, mycotoxins, plant toxins, and veterinary drugs in feed and food matrixes. Anal Chem 80:9450–</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E van der Heeft</author>
+<author>Bolck YJC</author>
+<author>B Beumer</author>
+<author>Nijrolder AWJM</author>
+<author>Stolker AAM</author>
+<author>Nielen MWF</author>
+</authors>
+<title>Full-scan accurate mass selectivity of ultra-performance liquid chromatography combined with time-offlight and orbitrap mass spectrometry in hormone and veterinary drug residue analysis.</title>
+<date>2009</date>
+<journal>J Am Soc Mass Spectrom</journal>
+<pages>20--451</pages>
+<contexts>
+<context position="6966" citStr="[28, 33, 34]" startWordPosition="1028" endWordPosition="1030">ies provide the selectivity and the sensitivity required for efficient and wide-range screening, as they combine high, full-spectral sensitivity with high mass resolution, allowing the measurement of accurate mass of any ionisable component in the sample. In this way, the combination of ultra-high performance liquid chromatography (UHPLC) with TOF, QqTOF or Orbitrap analysers has demonstrated to be an excellent tool for the analysis of different classes of residues and contaminants in food and environmental samples [30–32]. However, the number of applications in feed matrices is quite limited [28, 33, 34], where a group of pesticides, VDs, mycotoxins and plant M.M. Aguilera-Luiz et al. toxins are determined in horse feed [28, 33] and coccidiostats in animal feed [34]. Therefore, the aim of this work is the development of a reliable and sensitive methodology based on the use of advanced UHPLC–QqTOF–MS technique for the quantitative determination and reliable identification of more than 250 pesticides and VDs in different types of feed matrices using generic methods. Experimental Reagents and apparatus VD and pesticide analytical standards were purchased from Riedel-de-Haën (Seelze, Germany), Dr</context>
+</contexts>
+<marker>34.</marker>
+<rawString>van der Heeft E, Bolck YJC, Beumer B, Nijrolder AWJM, Stolker AAM, Nielen MWF (2009) Full-scan accurate mass selectivity of ultra-performance liquid chromatography combined with time-offlight and orbitrap mass spectrometry in hormone and veterinary drug residue analysis. J Am Soc Mass Spectrom 20:451–463</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Gómez-Pérez ML</author>
+<author>P Plaza-Bolaños</author>
+<author>R Romero-González</author>
+<author>Martínez-Vidal JL</author>
+</authors>
+<title>Garrido-Frenich A</title>
+<date>2012</date>
+<journal>J Chromatogr A</journal>
+<pages>1248--130</pages>
+<contexts>
+<context position="12629" citStr="[35]" startWordPosition="1910" endWordPosition="1910">llision energy of 30 eV, promoting collision cell fragmentation. All the analyses were performed using a lock spray with internal lock mass of a solution of leucine– enkephalin (12C[M+H]+, m/z 556.2771 and 12C[M−H]−, m/z 554.2620) delivered to the ESI source at 10 μL min−1. The instrument was verified or calibrated before the analysis by using the calibration solution. Data acquisition was performed using MassLynx 4.1 software with QuanLynx program (Waters). Pesticides and VDs were extracted from feed using an extraction method based on the procedure previously described by Gómez-Pérez et al. [35]. Briefly, 2.5 g of feed was weighed into a 50-mL propylene tube and 2.5 mL of water (LC–MS grade) was added. The mixture was shaken in a vortex. Then 7.5 mL of acetonitrile (1 % formic acid, v/v) was added, and the sample was put into a rotary agitator and extracted by endover-end shaking for 1 h at 50 rpm. After that, the mixture was centrifuged for 10 min at 4,500 rpm (2,264×g), and 1 mL of the supernatant was passed through a Florisil cartridge. The final extract was transferred to a vial and injected into the chromatographic system. Different types of feed samples were purchased from seve</context>
+<context position="17424" citStr="[35]" startWordPosition="2622" endWordPosition="2622">ters were studied. To this aim, a solventbased standard at 250 μg L−1 was injected into the system, in positive and negative mode, and different parameters of the source and the analyser (scan time, inter-scan time and collision energy of the acquisition functions of LE and HE employed in the MSE mode) were optimised in order to improve absolute sensitivity of the characteristic ions, observing that the conditions indicated in the previous section provided suitable results. Secondly, in relation to the chromatographic conditions, generic chromatographic conditions reported in a previous study [35] were used. The overall analysis time was 14 min, and the retention time ranged from 0.9 (cyromazine) to 9.4 min (narasin and salinomycin). M.M. Aguilera-Luiz et al. In order to develop a database for the detection of the target compounds, the analytes were characterised and the essential information includes retention time (RT), ionisation mode (polarity), characteristic ions and possible adducts (i.e. with Na+ or NH4+). In this way, a solvent standard solution of the studied compounds at 250 μg L−1 was analysed. Because the QqTOF–MS instrument utilised in this study cannot acquire simultaneo</context>
+<context position="19786" citStr="[35]" startWordPosition="2993" endWordPosition="2993">nction) checking that both traces showed the same RT and elution profile. Moreover, accurate mass errors must be &lt;5 ppm, as well as the isotopic pattern of the fragment ion must be similar to the theoretically profile of the empirical formulae. Optimisation of the extraction method The generic extraction method developed by Mol et al. [33] allowed the extraction of a wide set of pesticides, VDs and other contaminants in feed. A slight modification of this method has already been employed for the simultaneous determination of pesticides and VDs in other matrices such as honey in our laboratory [35], and it was selected as the starting point herein. Initially, the experiments were carried out employing blank chicken feed samples spiked at 100 μg kg−1. As result of this first assay, 75 % of the compounds (275 compounds) showed acceptable recoveries (acceptable range 60–125 %). Tetracyclines and penicillins were not successfully extracted, and some quinolones and avermectins did not show adequate performance characteristics. This could be due to the high volume of acetonitrile employed, which is not efficient to extract polar analytes like tetracyclines and penicillins because of co-precip</context>
+<context position="22849" citStr="[35]" startWordPosition="3463" endWordPosition="3463">er’ chromatograms (Fig. 1b) with an apparent lower number of interference peaks and slightly better sensibility. Therefore, the generic approach using a SPE clean-up step was chosen and tested at lower concentrations in the further validation: 10 μg kg−1 and 50 μg kg−1. Validation Ion suppression or matrix enhancement is an important parameter that must be evaluated during method validation. To study matrix effect, two calibration sets (from 1 to 150 μg kg−1) were compared: solvent and matrix-matched standard calibration, using chicken feed. Matrix effect was calculated as described elsewhere [35]. It can be noticed that matrix effect was observed for 86 % of the compounds: 49 % of the analytes showed ion suppression and 37 % of the compounds matrix enhancement. On the other hand, only 14 % of the compounds showed a slight ion suppression (7 %) or ion enhancement (7 %). Consequently, matrix-matched standard calibration was used for quantification purposes. Linearity was then evaluated in the range from 1 to 150 μg kg−1. Good linearity was obtained when peak area Fig. 1 UHPLC–QqTOF–MS chromatograms of both quantification and detection transition of albendazole and meclofenamic acid obta</context>
+</contexts>
+<marker>35.</marker>
+<rawString>Gómez-Pérez ML, Plaza-Bolaños P, Romero-González R, Martínez-Vidal JL, Garrido-Frenich A (2012) Comprehensive qualitative and quantitative determination of pesticides and veterinary drugs in honey using liquid chromatography–orbitrap high resolution mass spectrometry. J Chromatogr A 1248:130–138</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Document No</author>
+</authors>
+<title>SANCO/12495/2011. Method validation and quality control procedures for pesticide residues analysis in food and feed</title>
+<contexts>
+<context position="15040" citStr="[36]" startWordPosition="2292" endWordPosition="2292">und standard solution was injected into the system employing the MSE™ mode for the detection of the main fragment ions in the HE acquisition function. Thus, one or more fragment ions were selected for each compound and included into the database. In addition to the monitored fragment ions, the identification of the compounds was also carried out by the use of the isotopic pattern. Validation of the optimised methodology The proposed method was validated, estimating linearity range, trueness, intra-day and inter-day precision, and limits 6546 of quantification (LOQs). Document SANCO 12495/2011 [36] and Directive 2002/657/CE [37] were used as guidelines for method validation. Linearity was evaluated performing matrix-matched calibration, using blank feed extracts and adding the corresponding amount of working solution with the target compounds at five concentrations, 1, 2.5, 12.5, 50 and 150 μg kg−1. Calibration curves were obtained by leastsquares linear regression analysis of the peak area versus concentration. To evaluate trueness, recovery studies were carried out at three concentrations (10, 50 and 100 μg kg−1) using spiked blank feed samples (n=5), and they were quantified using ma</context>
+<context position="18603" citStr="[36]" startWordPosition="2798" endWordPosition="2798">cannot acquire simultaneously in (+) and (−), two separate injections were needed for each polarity mode. The compounds were monitored employing narrow mass extraction windows (10 ppm) within their characteristic RT windows (RTWs). Exact mass values, characteristic ions, RTWs, ionisation mode and mass errors for the studied VDs and pesticides are shown in Table S1, Electronic Supplementary Material. Regarding the identification of the detected compounds, it was necessary to select fragments for each compound, taking into account the identification requirements provided by the SANCO guidelines [36]. In the case of QqTOF working at high resolution and mass accuracy, the detection of two or more diagnostic ions (quasi-molecular ion and at least one fragment ion) with mass accuracy &lt;5 ppm is required. Besides, the comparison of the obtained and the theoretical isotopic patterns was carried out. For that purpose, a solvent-based standard at 250 μg L−1 was injected and MS/MS acquisitions were obtained. In this way, the peak shape of the extracted chromatogram for each fragment (in the HE acquisition function) was compared to that of the main ion (in the LE acquisition function) checking that</context>
+</contexts>
+<marker>36.</marker>
+<rawString>Document No SANCO/12495/2011. Method validation and quality control procedures for pesticide residues analysis in food and feed</rawString>
+</citation>
+<citation valid="true">
+<title>implementing Council Directive 96/23/EC concerning the performance of analytical methods and the interpretation of results,</title>
+<date>2002</date>
+<journal>Commission Decision of</journal>
+<volume>12</volume>
+<contexts>
+<context position="15071" citStr="[37]" startWordPosition="2296" endWordPosition="2296">ted into the system employing the MSE™ mode for the detection of the main fragment ions in the HE acquisition function. Thus, one or more fragment ions were selected for each compound and included into the database. In addition to the monitored fragment ions, the identification of the compounds was also carried out by the use of the isotopic pattern. Validation of the optimised methodology The proposed method was validated, estimating linearity range, trueness, intra-day and inter-day precision, and limits 6546 of quantification (LOQs). Document SANCO 12495/2011 [36] and Directive 2002/657/CE [37] were used as guidelines for method validation. Linearity was evaluated performing matrix-matched calibration, using blank feed extracts and adding the corresponding amount of working solution with the target compounds at five concentrations, 1, 2.5, 12.5, 50 and 150 μg kg−1. Calibration curves were obtained by leastsquares linear regression analysis of the peak area versus concentration. To evaluate trueness, recovery studies were carried out at three concentrations (10, 50 and 100 μg kg−1) using spiked blank feed samples (n=5), and they were quantified using matrix-matched calibration. Intra</context>
+</contexts>
+<marker>37.</marker>
+<rawString>Commission Decision of 12 August 2002 implementing Council Directive 96/23/EC concerning the performance of analytical methods and the interpretation of results, Official Journal of the European Union L 221/8; available at http://eurl.craw.eu/img/page/ Legislation/657_2002_EN.pdf Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Peters RJB</author>
+<author>Stolker AAM</author>
+<author>Mol JGJ</author>
+<author>A Lommen</author>
+<author>E Lyris</author>
+<author>Y Angelis</author>
+<author>A Vonaparti</author>
+<author>M Stamou</author>
+<author>C Georgakopoulos</author>
+<author>Nielen MWF</author>
+</authors>
+<title>Screening in veterinary drug analysis and sports doping control based on full-scan, accurate-mass spectrometry. Trends Anal Chem</title>
+<date>2010</date>
+<pages>29--1250</pages>
+<contexts>
+<context position="21251" citStr="[38]" startWordPosition="3206" endWordPosition="3206">xplained because of the complexity of this matrix, which contains cereals, sugars/fruits, fats, roots/tubers, leguminous/oleaginous plants, amino acids and/or minerals [7]. Therefore, the high complexity of the matrix makes the clean-up of the extracts almost mandatory to obtain reliable results, except in cases where the sensitivity of the method is high enough to offer the option of simply diluting the extracts. Hence, clean-up is an important step when extracts are analysed with TOF, which has showed lower sensitivity than other HRMS analyser, such as Orbitrap, in certain food applications [38]. Bearing in mind this and the results obtained in the first experiment, an additional clean-up stage was checked. In this way, three fast clean-up procedures were evaluated: (1) d-SPE with Florisil, (2) d-SPE with C18 and (3) SPE employing Florisil cartridges. For d-SPE clean-ups, 1 mL of sample extract was taken to an Eppendorf tube containing 100 mg of Florisil or C18 dispersive phase. The mixture was shaken in a vortex for 1 min and then it was centrifuged for 5 min at 4,500 rpm (2,264×g). The final extract was collected and was placed in a vial. To test SPE clean-up, 1 mL of the extract w</context>
+</contexts>
+<marker>38.</marker>
+<rawString>Peters RJB, Stolker AAM, Mol JGJ, Lommen A, Lyris E, Angelis Y, Vonaparti A, Stamou M, Georgakopoulos C, Nielen MWF (2010) Screening in veterinary drug analysis and sports doping control based on full-scan, accurate-mass spectrometry. Trends Anal Chem 29:1250–1268</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F van Holthoon</author>
+<author>Mulder PPJ</author>
+<author>van Bennekom EO</author>
+<author>H Heskamp</author>
+<author>T Zuidema</author>
+<author>van Rhijn HJA</author>
+</authors>
+<title>Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry.</title>
+<date>2010</date>
+<journal>Anal Bional Chem</journal>
+<volume>396</volume>
+<contexts>
+<context position="30057" citStr="[7, 14, 23, 39, 40]" startWordPosition="4642" endWordPosition="4646">Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides i</context>
+</contexts>
+<marker>39.</marker>
+<rawString>van Holthoon F, Mulder PPJ, van Bennekom EO, Heskamp H, Zuidema T, van Rhijn HJA (2010) Quantitative analysis of penicillins in porcine tissues, milk and animal feed using derivatisation with piperidine and stable isotope dilution liquid chromatography tandem mass spectrometry. Anal Bional Chem 396:3027–3040</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Juan</author>
+<author>C Igualada</author>
+<author>F Moragues</author>
+<author>N León</author>
+<author>J Mañes</author>
+</authors>
+<title>Development and validation of a liquid chromatography tandem mass spectrometry method for the analysis of β-agonists in animal feed and drinking water.</title>
+<date>2010</date>
+<journal>J Chromatogr A</journal>
+<pages>1217--6061</pages>
+<contexts>
+<context position="30057" citStr="[7, 14, 23, 39, 40]" startWordPosition="4642" endWordPosition="4646">Table 2. In general, it can be observed that the obtained LOQs were relatively high. This can be explained bearing in mind the acquisition mode of the fragments based on the MSE procedure. Despite its aforementioned advantages, the success of the MSE approach can be limited by the quality of the spectrum [31]. The low sensitivity or strongly interfered spectra make difficult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides i</context>
+</contexts>
+<marker>40.</marker>
+<rawString>Juan C, Igualada C, Moragues F, León N, Mañes J (2010) Development and validation of a liquid chromatography tandem mass spectrometry method for the analysis of β-agonists in animal feed and drinking water. J Chromatogr A 1217:6061–6068</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Boscher</author>
+<author>C Guignard</author>
+<author>T Pellet</author>
+<author>L Hoffmann</author>
+<author>T Bohn</author>
+</authors>
+<title>Development of a multi-class method for the quantification of veterinary drug residues in feedingstuffs by liquid chromatography–tandem mass spectrometry.</title>
+<date>2010</date>
+<journal>J Chromatogr A</journal>
+<pages>1217--6394</pages>
+<contexts>
+<context position="30423" citStr="[22, 24, 41]" startWordPosition="4701" endWordPosition="4703">cult the identification of compounds using fragments at low concentrations. As aforementioned, many analytical methods have been developed for the determination of compounds belonging to one family of pesticides or VDs in feed [7, 14, 23, 39, 40]. Nevertheless, the number of multi-class or wide-scope multiclass methods is scarce. In consequence, it is important to highlight the ability of the proposed method to analyse a high variety of pesticides and VDs in different feed samples. If the proposed method is compared with the published multi-class methods developed for the determination of VDs [22, 24, 41] and pesticides [15, 17] in feed, it can be indicated that the combination of a generic extraction method with UHPLC–QqTOF–MS analysis is simpler and faster than 6549 Table 2 Comparison of MRL established for some VDs and pesticides in animal feed with LOQs obtained with the proposed method Compound Animal feed MRL (μg kg−1) LOQ (μg kg−1) Diclazuril Chicken Horse Chicken Chicken Rabbit Horse Hen Rabbit Horse 10 30 100 1,250 1,250 1,250 700 700 2,100 12.5 50 12.5 12.5 2.5 2.5 12.5 12.5 12.5 Hen Rabbit Horse Chicken Hen Rabbit Horse 700 6,600 2,100 700 700 700 2,100 12.5 12.5 12.5 12.5 150 150 5</context>
+<context position="32345" citStr="[41]" startWordPosition="5008" endWordPosition="5008">performance characteristics, the developed method allowed the extraction and quantification of a high number of VDs and pesticides at low levels (10 μg kg−1). These results are better than those obtained in a previous multi-class method developed for the determination of 122 pesticides [17], where some pesticides were validated at a higher concentration, 50 μg kg−1 (for example atrazine, carbaryl or metalaxyl). In another study, 100 μg kg−1 was the lowest level at which antibacterial compounds were determined [22]. In contrast to this, a multi-class method developed for the analysis of 33 VDs [41] showed good recoveries at low levels (&lt;10 μg kg−1). Regarding LOQs, the obtained values in the proposed method (ranged from 4 to 200 μg kg−1 in sample) were lower than those obtained in two previous works [17, 22]. The first one determined pesticides in wheat grain (7– 400 μg kg−1) [17] and the second one measured VDs in pig and poultry compound feed (100–169 μg kg−1) [22]. However, other works showed better LOQs, such as those 6550 M.M. Aguilera-Luiz et al. obtained by Boscher et al. [41] (LOQs ranging from 3.8 to 65 μg kg−1 in sample, piglet feed) and by Kantiani et al. [24] (instrumental L</context>
+</contexts>
+<marker>41.</marker>
+<rawString>Boscher A, Guignard C, Pellet T, Hoffmann L, Bohn T (2010) Development of a multi-class method for the quantification of veterinary drug residues in feedingstuffs by liquid chromatography–tandem mass spectrometry. J Chromatogr A 1217:6394–6404</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>van der Lee MK</author>
+<author>G van der Weg</author>
+<author>Traag WA</author>
+<author>Mol HGJ</author>
+</authors>
+<title>Qualitative screening and quantitative determination of pesticides and contaminants in animal feed using comprehensive twodimensional gas chromatography with time-of-flight mass spectrometry.</title>
+<date>2008</date>
+<journal>J Chromatogr A</journal>
+<pages>1186--325</pages>
+<contexts>
+<context position="33688" citStr="[33, 42]" startWordPosition="5234" endWordPosition="5235">howed better sensitivity than QqTOF using MSE. Moreover, these methods were developed for a limited number of compounds. One of the main disadvantages of the proposed method is that it was not able to extract and quantify some families of compounds, such as tetracyclines, quinolones or penicillins, which were analysed in other works [24, 41] with good recoveries, and therefore, current work is focused on this. If it is compared with the two wide-scope multi-class methods previously developed for analysis of VDs and pesticides in feed samples (horse feed and cereal-based product, respectively) [33, 42], some advantages can be mentioned. Firstly, the generic extraction method was developed from Mol et al. [33], which is similar to the method proposed in this work, with a slight modification by the addition of a simple clean-up step. Secondly, the generic extraction method is faster than the method developed by van der Lee et al. [42], where the extraction time was 18 h and it required a clean-up procedure by gel permeation chromatography and SPE. Furthermore, the number of pesticides and VDs validated with our method was higher or similar than the number of compounds of both works, 106 compo</context>
+</contexts>
+<marker>42.</marker>
+<rawString>van der Lee MK, van der Weg G, Traag WA, Mol HGJ (2008) Qualitative screening and quantitative determination of pesticides and contaminants in animal feed using comprehensive twodimensional gas chromatography with time-of-flight mass spectrometry. J Chromatogr A 1186:325–339</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>de Paula FCCR</author>
+<author>de Pietro AC</author>
+<author>Cass QB</author>
+</authors>
+<title>Simultaneous quantification of sulfamethoxazole and trimethoprim in whole egg samples by column-switching high-performance liquid chromatography using restricted access media column for on-line sample clean-up.</title>
+<date>2008</date>
+<journal>J Chromatogr A</journal>
+<pages>1189--221</pages>
+<contexts>
+<context position="36724" citStr="[43]" startWordPosition="5707" endWordPosition="5707"> of sulfadiazine and 72 μg kg−1 of trimethoprim. Sulfadiazine, which is an antibiotic that belongs to the group of sulphonamides, is a synthetic bacteriostatic compound that is commonly used to treat urinary tract infections. On the other hand, trimethoprim is a dihydropteroate synthetase inhibitor that is commonly used in combination with sulphonamides for broad-spectrum antimicrobial therapy. In veterinary medicines, the combination of sulphonamides with trimethoprim is widely used for prevention and treatment of respiratory or gastro-intestinal tract infections in cattle, swine and poultry [43]. Robenidine was detected in a rabbit sample at 4,186 μg kg−1, being this level lower than the MRL Table 3 Concentration of VDs and pesticides in the analysed samples Compound Concentration (μg kg−1) M1a M2 Chlorpyrifos Sulfadiazine Trimetoprim Robenidin 65b 18 Monensin Na 124 a MRLc M5 M11 1,114 225 217 72 M15 M16 M17 92 193 10 N.E.d N.E. 6,600 189 84 1,250 4,186 315 239 Type of feed is indicated herein: rabbit, M1 and M2; chicken, M5 and M11; pig, M15; lamb, M16; horse, M17 b Figures in bold indicate that the concentration in sample exceeded MRL c MRL maximum residue level d N.E. not establi</context>
+</contexts>
+<marker>43.</marker>
+<rawString>de Paula FCCR, de Pietro AC, Cass QB (2008) Simultaneous quantification of sulfamethoxazole and trimethoprim in whole egg samples by column-switching high-performance liquid chromatography using restricted access media column for on-line sample clean-up. J Chromatogr A 1189:221–226</rawString>
+</citation>
+<citation valid="false">
+<title>Commission implementing regulation (EU) 532/2011 of 31</title>
+<date>2011</date>
+<journal>Accessed</journal>
+<volume>25</volume>
+<contexts>
+<context position="37700" citStr="[44]" startWordPosition="5869" endWordPosition="5869">39 Type of feed is indicated herein: rabbit, M1 and M2; chicken, M5 and M11; pig, M15; lamb, M16; horse, M17 b Figures in bold indicate that the concentration in sample exceeded MRL c MRL maximum residue level d N.E. not established Wide-scope analysis of veterinary drug and pesticide residues 6551 Fig. 3 UHPLC–QqTOF–MS/ MS extracted chromatograms of a positive sample of rabbit feed showing quantification and detection transition (upper) and confirmation (lower) transitions containing a monensin sodium at 315 μg kg−1 and b robenidine at 4,186 μg kg−1 established in legislation (6,600 μg kg−1) [44]. Its presence in this sample can be explained due to this coccidiostat can be used in fattening and breeding rabbits in feedstuffs [45]. The coccidiostat monensin sodium was detected in five feed samples: rabbit (two), pig (one), lamb (one) and horse (one) feed (Table 3). This coccidiostat is used as additive in feed to protect animals against coccidiosis in animal husbandry, which can explain its occurrence. However, all concentrations (up to 315 μg kg−1) were below the established MRLs for each matrix. Figure 3 shows the extracted ion chromatograms for sample 2 (rabbit feed sample) containi</context>
+</contexts>
+<marker>44.</marker>
+<rawString>Commission implementing regulation (EU) 532/2011 of 31 May 2011 concerning the authorisation of robenidine hydrochloride as a feed additive for rabbits for breeding and rabbits for fattening (holder of authorisation Alpharma Belgium BVBA) and amending Regulations (EC) No 2430/1999 and (EC) No 1800/2004, Official Journal of the European Union L 146/7; available at http://eurlex.europa.eu/LexUriServ/LexUriServ.do?uri= OJ:L:2011:146:0007:0010:EN:PDF. Accessed 25 Apr 2013</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>D Vancraeynest</author>
+<author>M De Gussem</author>
+<author>M Marien</author>
+<author>L Maertens</author>
+</authors>
+<title>The anticoccidial efficacy of robenidine hydrochloride</title>
+<booktitle>in Eimeria challenged rabbits. Pathology and Hygiene, 9th World Rabbit Congress—June 10–13, 2008—Verona—Italy,</booktitle>
+<pages>1103--1106</pages>
+<contexts>
+<context position="37836" citStr="[45]" startWordPosition="5892" endWordPosition="5892">that the concentration in sample exceeded MRL c MRL maximum residue level d N.E. not established Wide-scope analysis of veterinary drug and pesticide residues 6551 Fig. 3 UHPLC–QqTOF–MS/ MS extracted chromatograms of a positive sample of rabbit feed showing quantification and detection transition (upper) and confirmation (lower) transitions containing a monensin sodium at 315 μg kg−1 and b robenidine at 4,186 μg kg−1 established in legislation (6,600 μg kg−1) [44]. Its presence in this sample can be explained due to this coccidiostat can be used in fattening and breeding rabbits in feedstuffs [45]. The coccidiostat monensin sodium was detected in five feed samples: rabbit (two), pig (one), lamb (one) and horse (one) feed (Table 3). This coccidiostat is used as additive in feed to protect animals against coccidiosis in animal husbandry, which can explain its occurrence. However, all concentrations (up to 315 μg kg−1) were below the established MRLs for each matrix. Figure 3 shows the extracted ion chromatograms for sample 2 (rabbit feed sample) containing 4,186 μg kg−1 of robenidine and 315 μg kg−1 of monensin sodium. An important result concerns that only one pesticide was found, chlor</context>
+</contexts>
+<marker>45.</marker>
+<rawString>Vancraeynest D, De Gussem M, Marien M, Maertens L. The anticoccidial efficacy of robenidine hydrochloride in Eimeria challenged rabbits. Pathology and Hygiene, 9th World Rabbit Congress—June 10–13, 2008—Verona—Italy, 1103–1106</rawString>
+</citation>
+<citation valid="true">
+<title>Interim Reregistration Eligibility Decision for Chlorpyrifos, United States Environmental Protection Agency, Prevention, Pesticides and Toxic substances, EPA 738-R-01-007; available at http://www.epa.gov/oppsrrd1/REDs/chlorpyrifos_ired.pdf.</title>
+<date>2013</date>
+<journal>Accessed</journal>
+<volume>25</volume>
+<contexts>
+<context position="38838" citStr="[46]" startWordPosition="6051" endWordPosition="6051">acted ion chromatograms for sample 2 (rabbit feed sample) containing 4,186 μg kg−1 of robenidine and 315 μg kg−1 of monensin sodium. An important result concerns that only one pesticide was found, chlorpyrifos, which was detected in four samples at concentrations higher than the MRL (Table 3) in all cases. Its occurrence can be explained as a consequence of its wide application in agriculture and, thus, in the cereals used to produce feed. Besides, this pesticide is defined by the United States Environmental Protection Agency (EPA) as ‘one of the most widely used organophosphate insecticides’ [46]. Conclusions As aforementioned, the development of wide-scope multiresidue methods able to cover the analysis of pesticide and VD residues in feed is a current need due to the gap that exists in this area of feed safety. Consequently, in this work, an UHPLC–QqTOF–MS method has been developed for simultaneous determination of a huge number of target pesticides and VD residues in feed. A generic sample procedure followed by a simple clean-up step by Florisil cartridges was selected as the most appropriate for the analysis of the wide range of compounds in feed in terms of recovery yields and ma</context>
+</contexts>
+<marker>46.</marker>
+<rawString>Interim Reregistration Eligibility Decision for Chlorpyrifos, United States Environmental Protection Agency, Prevention, Pesticides and Toxic substances, EPA 738-R-01-007; available at http://www.epa.gov/oppsrrd1/REDs/chlorpyrifos_ired.pdf. Accessed 25 Apr 2013</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

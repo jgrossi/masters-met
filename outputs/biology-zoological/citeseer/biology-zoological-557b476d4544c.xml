@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Chimpanzee (Pan troglodytes) Birth Patterns and Human Presence in Zoological Settings</title><authors><author><name>Katherine E Wagner</name></author><author><name>Stephen R Ross</name></author><author><name>Ã Lincoln</name></author><author><name>Park Zoo</name></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chimpanzee (Pan troglodytes) Birth Patterns and Human Presence in Zoological Settings</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="2008">2008 . 2008</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Katherine</forename>
+								<forename type="middle">E</forename>
+								<surname>Wagner</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Stephen</forename>
+								<forename type="middle">R</forename>
+								<surname>Ross</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Ã</forename>
+								<surname>Lincoln</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Park</forename>
+								<surname>Zoo</surname>
+								<roleName>Chicago, Illinois</roleName>
+							</persName>
+						</author>
+						<title level="a" type="main">Chimpanzee (Pan troglodytes) Birth Patterns and Human Presence in Zoological Settings</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">American Journal of Primatology J. Primatol</title>
+						<imprint>
+							<biblScope unit="volume">70</biblScope>
+							<biblScope unit="issue">70</biblScope>
+							<biblScope from="703" to="706703" unit="page" />
+							<date type="published" when="2008">2008 . 2008</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1002/ajp.20545</idno>
+					<note>BRIEF REPORT</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>chimpanzee</term>
+					<term>Pan troglodytes</term>
+					<term>day of birth</term>
+					<term>parturition</term>
+					<term>captivity</term>
+					<term>visitor effect</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In response to work demonstrating a negative correlation between human staff activity and parturition in laboratory-managed primates, this study examined the distribution of 231 captive chimpanzee (Pan troglodytes) births that occurred in accredited American zoological institutions by the day of the week on which the birth was discovered. We hypothesized that if chimpanzee parturition patterns displayed sensitivity to human presence, then fewer births per day would be reported during the weekend period, when the visitor density was high, as compared with the lower density working week. Analyses indicated that chimpanzee births were randomly distributed throughout the week. In the context of the questionable sensitivity of primate parturition to external influence, results suggest that variations in human presence do not affect the fine-level timing of birth in chimpanzees managed in a zoological setting. Am.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Alford PL</author>
+<author>Nash LT</author>
+<author>J Fritz</author>
+<author>Bowen JA</author>
+</authors>
+<title>Effects of management practices on the timing of captive chimpanzee births. Zoo Biol 11:253–260.</title>
+<date>1992</date>
+<marker>PL, LT, Fritz, JA, 1992</marker>
+<rawString>Alford PL, Nash LT, Fritz J, Bowen JA. 1992. Effects of management practices on the timing of captive chimpanzee births. Zoo Biol 11:253–260.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Bicca-Marques JC</author>
+<author>Gomes DF</author>
+</authors>
+<title>Birth seasonality of Cebus apella (Platyrrhini, Cebidae) in Brazilian zoos along a latitudinal gradient.</title>
+<date>2005</date>
+<journal>Am J Primatol</journal>
+<volume>65</volume>
+<pages>141--147</pages>
+<marker>JC, DF, 2005</marker>
+<rawString>Bicca-Marques JC, Gomes DF. 2005. Birth seasonality of Cebus apella (Platyrrhini, Cebidae) in Brazilian zoos along a latitudinal gradient. Am J Primatol 65: 141–147.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Chamove AS</author>
+<author>Hosey GR</author>
+<author>P Schaetzel</author>
+</authors>
+<title>Visitors excite primates in zoos. Zoo Biol 7:359–369.</title>
+<date>1988</date>
+<marker>AS, GR, Schaetzel, 1988</marker>
+<rawString>Chamove AS, Hosey GR, Schaetzel P. 1988. Visitors excite primates in zoos. Zoo Biol 7:359–369.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Chism</author>
+<author>Rowell TE</author>
+<author>Richards SM</author>
+</authors>
+<title>Daytime births in captive patas monkeys. Primates 19:765–767.</title>
+<date>1978</date>
+<journal>Am. J. Primatol.</journal>
+<contexts>
+<context citStr="Chism et al., 1978" endWordPosition="274" position="1883" startWordPosition="271">tion; captivity; visitor effect INTRODUCTION At the moment of birth, maternal and infant fitness is affected by a range of ecological variables: predation, availability and quality of food resources, social and environmental factors, and the energetic cost of delivery [Bicca-Marques &amp; Gomes, 2005; De Lathouwers &amp; Van Elsacker, 2005; Whittle et al., 2001]. Sensitivity to these factors has shaped patterns of parturition in which birth is synchronized with periods of (1) high food availability and (2) low conspecific and predator activity levels [Alford et al., 1992; Bicca-Marques &amp; Gomes, 2005; Chism et al., 1978; McGrew &amp; McLuckie, 1984; Schino &amp; Troisi, 2005]. These shaping forces are substantially altered in captivity: food resources are consistently available, predation threats are eliminated, and other environmental factors are stabilized [De Lathouwers &amp; Van Elsacker, 2005; Hosey, 2005]; however, some speciestypical patterns of birth timing persist across captive context, including the tendency for diurnal and nocturnal primates to give birth during the night and day, respectively [Bicca-Marques &amp; Gomes, 2005]. In examining this consistency, investigators have questioned whether a unique factor </context>
+</contexts>
+<marker>Chism, TE, SM, 1978</marker>
+<rawString>Chism J, Rowell TE, Richards SM. 1978. Daytime births in captive patas monkeys. Primates 19:765–767. Am. J. Primatol.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Cook JL</author>
+<author>Shallow MC</author>
+<author>Zaragoza DB</author>
+<author>Anderson KI</author>
+<author>Olson DM</author>
+</authors>
+<title>Mouse placental prostaglandins are associated with uterine activation and the timing of birth.</title>
+<date>2003</date>
+<journal>Biol Reprod</journal>
+<pages>68--579</pages>
+<marker>JL, MC, DB, KI, DM, 2003</marker>
+<rawString>Captive Chimpanzee Births and Human Presence / 705 Cook JL, Shallow MC, Zaragoza DB, Anderson KI, Olson DM. 2003. Mouse placental prostaglandins are associated with uterine activation and the timing of birth. Biol Reprod 68:579–587.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Davis</author>
+<author>Schaffner CM</author>
+<author>Smith TE</author>
+</authors>
+<title>Evidence that zoo visitors influence HPA activity in spider monkeys (Ateles geoffroyii rufiventris).</title>
+<date>2005</date>
+<journal>Appl Anim Behav Sci</journal>
+<volume>90</volume>
+<pages>131--141</pages>
+<contexts>
+<context citStr="Davis et al., 2005" endWordPosition="416" position="2869" startWordPosition="413">ext, including the tendency for diurnal and nocturnal primates to give birth during the night and day, respectively [Bicca-Marques &amp; Gomes, 2005]. In examining this consistency, investigators have questioned whether a unique factor in captivity —presence of and interactions with humans—affects the timing of the birthing process on a secondary, fine-grained level, beyond these circadian-related rhythms [Cook et al., 2003; McGrew &amp; McLuckie, 1984]. In support of this potential influence, human activity has been associated with a range of behavioral and physiological effects on captive primates [Davis et al., 2005; Hosey, 2000, 2005; Lambeth et al., 1997; Mitchell et al., 1992; Wells, 2005]. Many of these reports link human presence to an increase in arousal, as indicated by increased levels of activity [Chamove et al., 1988; Mitchell et al., 1992; Wells, 2005] and agonism, often with an accompanying decrease in conspecific affiliation [Chamove et al., 1988; Wells, 2005] and an increase in cortisol levels [Davis et al., 2005]. To assess whether these apparent effects extend to parturition, McGrew and McLuckie [1984] and Alford et al. [1992] examined the distribution of captive primate births over the c</context>
+<context citStr="Davis et al., 2005" endWordPosition="1598" position="10596" startWordPosition="1595">rew &amp; McLuckie, 1984]. In the zoological setting, the behavioral and physiological effects of human exposure may be less pronounced than in a laboratory setting as a result of the lower differential in presence (with weekend visitor access) and the inclusion of secluded areas (with naturalistic elements and enrichment structures) from which humans (and conspecifics) are visually occluded [Hosey, 2000, 2005]. These factors may have also served to confound a clear relationship in the current data set, given the large time range of birth events and corresponding changes in zoological management [Davis et al., 2005; Hosey, 2005; Wells, 2005]. The absence of significant differences in birth distributions within institutions tempers this argument, but future analyses may include exhibit type (naturalistic vs. laboratory) and days of public access as additional variables. In concert with these habitat-based factors, a high species-typical ‘‘nervousness’’ [Alford et al., 1992; McGrew &amp; McLuckie, 1984] (i.e. disposition to arousal) may enhance reactivity to visitor presence. Such species may exhibit the most robust birthtiming sensitivities [Chamove et al., 1988; Hosey, 2000], a possibility suggested by McGr</context>
+</contexts>
+<marker>Davis, CM, TE, 2005</marker>
+<rawString>Davis N, Schaffner CM, Smith TE. 2005. Evidence that zoo visitors influence HPA activity in spider monkeys (Ateles geoffroyii rufiventris). Appl Anim Behav Sci 90: 131–141.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Debyser IWJ</author>
+</authors>
+<title>Catarrhine juvenile mortality in captivity, under seminatural conditions, and in the wild.</title>
+<date>1995</date>
+<journal>Int J Primatol</journal>
+<pages>16--935</pages>
+<marker>IWJ, 1995</marker>
+<rawString>Debyser IWJ. 1995. Catarrhine juvenile mortality in captivity, under seminatural conditions, and in the wild. Int J Primatol 16:935–969.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M De Lathouwers</author>
+<author>L Van Elsacker</author>
+</authors>
+<title>Reproductive parameters of female Pan paniscus and P. troglodytes: quality versus quantity.</title>
+<date>2005</date>
+<journal>Int J Primatol</journal>
+<pages>26--56</pages>
+<marker>De Lathouwers, Van Elsacker, 2005</marker>
+<rawString>De Lathouwers M, Van Elsacker L. 2005. Reproductive parameters of female Pan paniscus and P. troglodytes: quality versus quantity. Int J Primatol 26:56–71.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Hosey GR</author>
+</authors>
+<title>Zoo animals and their human audiences: what is the visitor effect? Anim Welfare 9:343–357.</title>
+<date>2000</date>
+<marker>GR, 2000</marker>
+<rawString>Hosey GR. 2000. Zoo animals and their human audiences: what is the visitor effect? Anim Welfare 9:343–357.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Hosey GR</author>
+</authors>
+<title>How does the zoo environment affect the behaviour of captive primates? Appl Anim Behav Sci 90:107–129.</title>
+<date>2005</date>
+<marker>GR, 2005</marker>
+<rawString>Hosey GR. 2005. How does the zoo environment affect the behaviour of captive primates? Appl Anim Behav Sci 90:107–129.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Lambeth SP</author>
+<author>Alford PL BloomsmithMA</author>
+</authors>
+<title>Effects of human activity on chimpanzee wounding.</title>
+<date>1997</date>
+<journal>Zoo Biol</journal>
+<pages>16--327</pages>
+<marker>SP, BloomsmithMA, 1997</marker>
+<rawString>Lambeth SP, BloomsmithMA, Alford PL. 1997. Effects of human activity on chimpanzee wounding. Zoo Biol 16:327–333.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>McGrew WC</author>
+<author>McLuckie EC</author>
+</authors>
+<title>Do monkeys prefer to give birth on weekends? Lab Primate News 23:1–4.</title>
+<date>1984</date>
+<marker>WC, EC, 1984</marker>
+<rawString>McGrew WC, McLuckie EC. 1984. Do monkeys prefer to give birth on weekends? Lab Primate News 23:1–4.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Mitchell</author>
+<author>Tromborg CT</author>
+<author>J Kaufman</author>
+<author>S Bargabus</author>
+<author>R Simoni</author>
+<author>V Geissler</author>
+</authors>
+<title>More on the ‘‘influence’’ of zoo visitors on the behaviour of captive primates.</title>
+<date>1992</date>
+<journal>Appl Anim Behav Sci</journal>
+<pages>35--189</pages>
+<contexts>
+<context citStr="Mitchell et al., 1992" endWordPosition="427" position="2933" startWordPosition="424">s to give birth during the night and day, respectively [Bicca-Marques &amp; Gomes, 2005]. In examining this consistency, investigators have questioned whether a unique factor in captivity —presence of and interactions with humans—affects the timing of the birthing process on a secondary, fine-grained level, beyond these circadian-related rhythms [Cook et al., 2003; McGrew &amp; McLuckie, 1984]. In support of this potential influence, human activity has been associated with a range of behavioral and physiological effects on captive primates [Davis et al., 2005; Hosey, 2000, 2005; Lambeth et al., 1997; Mitchell et al., 1992; Wells, 2005]. Many of these reports link human presence to an increase in arousal, as indicated by increased levels of activity [Chamove et al., 1988; Mitchell et al., 1992; Wells, 2005] and agonism, often with an accompanying decrease in conspecific affiliation [Chamove et al., 1988; Wells, 2005] and an increase in cortisol levels [Davis et al., 2005]. To assess whether these apparent effects extend to parturition, McGrew and McLuckie [1984] and Alford et al. [1992] examined the distribution of captive primate births over the course of the week, postulating that primates respond to human-as</context>
+</contexts>
+<marker>Mitchell, CT, Kaufman, Bargabus, Simoni, Geissler, 1992</marker>
+<rawString>Mitchell G, Tromborg CT, Kaufman J, Bargabus S, Simoni R,Geissler V. 1992. More on the ‘‘influence’’ of zoo visitors on the behaviour of captive primates. Appl Anim Behav Sci 35:189–198.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Newell-Morris LL</author>
+<author>Fahrenbruch CE</author>
+<author>Sackett GP</author>
+</authors>
+<title>Prenatal psychological stress, dermatoglyphic asymmetry and pregnancy outcome in the pigtailed macaque (Macaca nemestrina).</title>
+<date>1989</date>
+<journal>Biol Neonat</journal>
+<pages>56--61</pages>
+<marker>LL, CE, GP, 1989</marker>
+<rawString>Newell-Morris LL, Fahrenbruch CE, Sackett GP. 1989. Prenatal psychological stress, dermatoglyphic asymmetry and pregnancy outcome in the pigtailed macaque (Macaca nemestrina). Biol Neonat 56:61–75.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Reppert SM</author>
+</authors>
+<title>Does a fetal circadian clock participate in the initiation of birth? In:</title>
+<date>1988</date>
+<pages>339--358</pages>
+<editor>McNellis D, Challis J, MacDonald P, Nathanielsz P, editors.</editor>
+<publisher>Perinatology Press.</publisher>
+<location>Ithaca:</location>
+<marker>SM, 1988</marker>
+<rawString>Reppert SM. 1988. Does a fetal circadian clock participate in the initiation of birth? In: McNellis D, Challis J, MacDonald P, Nathanielsz P, editors. Onset of labor: cellular and integrative mechanisms. Ithaca: Perinatology Press. p 339–358.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ross SR</author>
+</authors>
+<title>North American regional studbook for the chimpanzee (Pan troglodytes). Chicago: Lincoln Park Zoo.</title>
+<date>2006</date>
+<volume>124</volume>
+<pages>p.</pages>
+<marker>SR, 2006</marker>
+<rawString>Ross SR. 2006. North American regional studbook for the chimpanzee (Pan troglodytes). Chicago: Lincoln Park Zoo. 124 p.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Schino</author>
+<author>A Troisi</author>
+</authors>
+<title>Neonatal abandonment in Japanese macaques.</title>
+<date>2005</date>
+<journal>Am J Phys Anthropol</journal>
+<pages>126--447</pages>
+<contexts>
+<context citStr="Schino &amp; Troisi, 2005" endWordPosition="282" position="1931" startWordPosition="279">At the moment of birth, maternal and infant fitness is affected by a range of ecological variables: predation, availability and quality of food resources, social and environmental factors, and the energetic cost of delivery [Bicca-Marques &amp; Gomes, 2005; De Lathouwers &amp; Van Elsacker, 2005; Whittle et al., 2001]. Sensitivity to these factors has shaped patterns of parturition in which birth is synchronized with periods of (1) high food availability and (2) low conspecific and predator activity levels [Alford et al., 1992; Bicca-Marques &amp; Gomes, 2005; Chism et al., 1978; McGrew &amp; McLuckie, 1984; Schino &amp; Troisi, 2005]. These shaping forces are substantially altered in captivity: food resources are consistently available, predation threats are eliminated, and other environmental factors are stabilized [De Lathouwers &amp; Van Elsacker, 2005; Hosey, 2005]; however, some speciestypical patterns of birth timing persist across captive context, including the tendency for diurnal and nocturnal primates to give birth during the night and day, respectively [Bicca-Marques &amp; Gomes, 2005]. In examining this consistency, investigators have questioned whether a unique factor in captivity —presence of and interactions with </context>
+</contexts>
+<marker>Schino, Troisi, 2005</marker>
+<rawString>Schino G, Troisi A. 2005. Neonatal abandonment in Japanese macaques. Am J Phys Anthropol 126:447–452.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wells DL</author>
+</authors>
+<title>A note on the influence of visitors on the behaviour and welfare of zoo-housed gorillas. Appl Anim Behav Sci 93:13–17.</title>
+<date>2005</date>
+<marker>DL, 2005</marker>
+<rawString>Wells DL. 2005. A note on the influence of visitors on the behaviour and welfare of zoo-housed gorillas. Appl Anim Behav Sci 93:13–17.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Whittle WL</author>
+<author>Patel FA</author>
+<author>N Alfaidy</author>
+<author>Holloway AC</author>
+<author>M Fraser</author>
+<author>Gyomorey SJ</author>
+<author>S Lye</author>
+<author>W Gibb</author>
+<author>Challis JRG</author>
+</authors>
+<title>Glucocorticoid regulation of human and ovine parturition: the relationship between fetal hypothalamic–pituitary–adrenal axis activation and intrauterine prostaglandin production.</title>
+<date>2001</date>
+<marker>WL, FA, Alfaidy, AC, Fraser, SJ, Lye, Gibb, JRG, 2001</marker>
+<rawString>Whittle WL, Patel FA, Alfaidy N, Holloway AC, Fraser M, Gyomorey SJ, Lye S, Gibb W, Challis JRG. 2001. Glucocorticoid regulation of human and ovine parturition: the relationship between fetal hypothalamic–pituitary–adrenal axis activation and intrauterine prostaglandin production.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J Primatol</author>
+</authors>
+<note>706 / Wagner and Ross</note>
+<marker>Primatol, </marker>
+<rawString>Biol Reprod 64:1019–1032. Am. J. Primatol. 706 / Wagner and Ross</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

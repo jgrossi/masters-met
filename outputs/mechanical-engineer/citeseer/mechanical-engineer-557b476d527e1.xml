@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Control System Design Automation for Mechanical Systems</title><authors><author><name>Kiyoshi Maekawa</name><affiliation>Mitsubishi Electric Corporation, Industrial Electronics &amp; Systems Laboratory, Department of Electronics &amp; Electronic Engineering</affiliation></author><author><name>Grantham K H Pang</name><affiliation>The University of Hong Kong</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Control System Design Automation for Mechanical Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="1998">1998</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Kiyoshi</forename>
+								<surname>Maekawa</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Industrial Electronics &amp; Systems Laboratory</orgName>
+								<orgName key="dep2" type="department">Department of Electronics &amp; Electronic Engineering</orgName>
+								<orgName type="institution">Mitsubishi Electric Corporation</orgName>
+								<address>
+									<addrLine>8-1-1, Tsukaguchi-Honmachi</addrLine>
+									<postCode>661</postCode>
+									<settlement>Amagasaki</settlement>
+									<region>Hyogo</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Grantham</forename>
+								<forename type="middle">K H</forename>
+								<surname>Pang</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">The University of Hong Kong</orgName>
+								<address>
+									<addrLine>Pokfulam Road</addrLine>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Control System Design Automation for Mechanical Systems</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Intelligent and Robotic Systems</title>
+						<imprint>
+							<biblScope unit="volume">21</biblScope>
+							<biblScope from="239" to="256" unit="page" />
+							<date type="published" when="1998">1998</date>
+						</imprint>
+					</monogr>
+					<note type="submission">(Received: 10 December 1996; accepted: 5 September 1997)</note>
+					<note>239</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>control system design</term>
+					<term>mechanical systems</term>
+					<term>feedback control</term>
+					<term>design automation</term>
+					<term>computer-aided control system design</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In this paper, a user-friendly and comprehensive control system design package called Control System Design Automation (CSDA) is described. The system consists of five main blocks: a requirement interpretation block, a modeling block, an analysis/design block, a database management and knowledge base block, and a verification block. The requirement interpretation block transforms the specifications in terms of the application to those in terms of control. The analy-sis/design block selects an optimal control structure and determines the controller parameters. In addition to the conventional design methods, CSDA also contains the more recent design methods such as the LMI design approach and the Kessler/Manabe method. The LMI approach can obtain a controller which satisfies multiple specification items at the same time. The configuration of the system as well as the analysis/design block are described in detail in this paper.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Amagasaki Tsukaguchi-Honmachi</author>
+</authors>
+<title>Hyogo 661, Japan; e-mail: maekawa@fas.sdl.melco.co.jp</title>
+<date>1996</date>
+<journal>Received:</journal>
+<volume>10</volume>
+<pages>5</pages>
+<marker>Tsukaguchi-Honmachi, 1996</marker>
+<rawString> Tsukaguchi-Honmachi, Amagasaki, Hyogo 661, Japan; e-mail: maekawa@fas.sdl.melco.co.jp GRANTHAM K. H. PANG Department of Electronics &amp; Electronic Engineering, The University of Hong Kong, Pokfulam Road, Hong Kong; e-mail: gpang@hkueee.hku.hk (Received: 10 December 1996; accepted: 5 September 1997) Abstract. In this paper, a user-friendly and comprehensive control system design package called</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Reilly</author>
+<author>W S Levine</author>
+<author>E Eadan</author>
+<author>C Huang</author>
+</authors>
+<title>A computer-aided optimization-based controller design tool, in:</title>
+<date>1991</date>
+<booktitle>Proc. Am. Control Conf.,</booktitle>
+<pages>990--995</pages>
+<marker>1.</marker>
+<rawString>Reilly, J., Levine, W. S, Eadan, E., and Huang, C.: A computer-aided optimization-based controller design tool, in: Proc. Am. Control Conf., 1991, pp. 990–995.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Murakami</author>
+<author>T Knnno</author>
+<author>K Kurotani</author>
+<author>M Takano</author>
+</authors>
+<title>Optimization system for control system design,</title>
+<date>1994</date>
+<journal>IEEE Tokyo Section Denshi Tokyo</journal>
+<volume>33</volume>
+<pages>124--127</pages>
+<marker>2.</marker>
+<rawString>Murakami, K., Knnno, T., Kurotani, K., and Takano, M.: Optimization system for control system design, IEEE Tokyo Section Denshi Tokyo 33 (1994), 124–127.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Gahinet</author>
+<author>A Nemirowski</author>
+<author>A J Laub</author>
+<author>M Chilali</author>
+</authors>
+<date>1994</date>
+<booktitle>LMI Control Toolbox, The Math Works Inc.,</booktitle>
+<marker>3.</marker>
+<rawString>Gahinet, P., Nemirowski, A., Laub, A. J., and Chilali, M.: LMI Control Toolbox, The Math Works Inc., 1994.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Hori</author>
+</authors>
+<title>Novel methods and recent trends of 2-inertia resonant system control, in:</title>
+<date>1994</date>
+<journal>ROBOMEC</journal>
+<volume>94</volume>
+<pages>1278--1283</pages>
+<note>(in Japanese),</note>
+<marker>4.</marker>
+<rawString>Hori, Y.: Novel methods and recent trends of 2-inertia resonant system control, in: ROBOMEC ’94, 1994 (in Japanese), pp. 1278–1283.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Boyd</author>
+</authors>
+<date>1994</date>
+<booktitle>Linear Matrix Inequalities in System and Control Theory, SIAM,</booktitle>
+<marker>5.</marker>
+<rawString>Boyd, S. et al.: Linear Matrix Inequalities in System and Control Theory, SIAM, 1994.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Chilali</author>
+<author>P Gahinet</author>
+</authors>
+<title>H-1 design with pole placement constraints: an LMI approach,</title>
+<date>1996</date>
+<journal>Trans. Automatic Control</journal>
+<volume>41</volume>
+<issue>3</issue>
+<pages>358--367</pages>
+<marker>6.</marker>
+<rawString>Chilali, M. and Gahinet, P.: H-1 design with pole placement constraints: an LMI approach, Trans. Automatic Control 41(3) (1996), 358–367.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Sugie</author>
+<author>K Hamamoto</author>
+</authors>
+<title>Controller design of two mass-spring system via LMI,</title>
+<date>1996</date>
+<journal>Systems Control and Information</journal>
+<volume>9</volume>
+<issue>5</issue>
+<pages>219--226</pages>
+<note>(in Japanese).</note>
+<marker>7.</marker>
+<rawString>Sugie, T. and Hamamoto, K.: Controller design of two mass-spring system via LMI, Systems Control and Information 9(5) (1996), 219–226 (in Japanese).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J H Taylor</author>
+</authors>
+<title>Database management for computer-aided control engr., in:</title>
+<date>1992</date>
+<booktitle>Recent Advances in Computer-Aided Control Systems Engineering, Elsevier Science,</booktitle>
+<pages>127--150</pages>
+<marker>8.</marker>
+<rawString>Taylor, J. H.: Database management for computer-aided control engr., in: M. Jamshidi and C. J. Herget (eds), Recent Advances in Computer-Aided Control Systems Engineering, Elsevier Science, 1992, pp. 127–150.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G K H Pang</author>
+</authors>
+<title>MEDAL: Matrix &amp; expert system development aid language, in:</title>
+<date>1992</date>
+<booktitle>Proc. IEEE Symp. on Computer-Aided Control System Design,</booktitle>
+<pages>148--155</pages>
+<location>Napa, California, USA,</location>
+<marker>9.</marker>
+<rawString>Pang, G. K. H.: MEDAL: Matrix &amp; expert system development aid language, in: Proc. IEEE Symp. on Computer-Aided Control System Design, Napa, California, USA, 1992, pp. 148–155.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G K H Pang</author>
+</authors>
+<title>Knowledge-based control system design, in:</title>
+<date>1992</date>
+<booktitle>Recent Advances in Computer-Aided Control Systems Engineering, Elsevier Science,</booktitle>
+<pages>127--150</pages>
+<publisher>PANG</publisher>
+<marker>10.</marker>
+<rawString>Pang, G. K. H.: Knowledge-based control system design, in: M. Jamshidi and C. J. Herget (eds), Recent Advances in Computer-Aided Control Systems Engineering, Elsevier Science, 1992, pp. 127–150. JINT1398.tex; 21/01/1998; 9:03; v.7; p.17 256 K. MAEKAWA AND G. K. H. PANG</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G K H Pang</author>
+</authors>
+<title>A knowledge environment for an interactive control system design package,</title>
+<date>1992</date>
+<journal>Automatica</journal>
+<volume>28</volume>
+<issue>3</issue>
+<pages>473--491</pages>
+<marker>11.</marker>
+<rawString>Pang, G. K. H.: A knowledge environment for an interactive control system design package, Automatica 28(3) (1992), 473–491.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A V Lipatov</author>
+<author>N I Sokolov</author>
+</authors>
+<title>Some sufficient conditions for stability and instability of continuous linear stationary systems,</title>
+<date>1979</date>
+<journal>Automat. Remote Control</journal>
+<booktitle>1285–1291 (translated from Automatika i Telemekhanika</booktitle>
+<volume>39</volume>
+<pages>30--37</pages>
+<marker>12.</marker>
+<rawString>Lipatov, A. V. and Sokolov, N. I.: Some sufficient conditions for stability and instability of continuous linear stationary systems, Automat. Remote Control 39 (1979), 1285–1291 (translated from Automatika i Telemekhanika 9 (1978), 30–37).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Y Ng</author>
+</authors>
+<title>Perspectives on search-based computer-aided control system design,</title>
+<date>1993</date>
+<journal>Control System Magazine</journal>
+<volume>13</volume>
+<issue>2</issue>
+<pages>65--72</pages>
+<marker>13.</marker>
+<rawString>Ng, W. Y.: Perspectives on search-based computer-aided control system design, Control System Magazine 13(2) (1993), 65–72.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>S P Boyd</author>
+<author>C H Barratt</author>
+</authors>
+<title>Linear Controller Design: Limits of Performance,</title>
+<publisher>Prentice-Hall,</publisher>
+<marker>14.</marker>
+<rawString>Boyd, S. P. and Barratt, C. H.: Linear Controller Design: Limits of Performance, Prentice-Hall,</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Kessler</author>
+</authors>
+<title>Article on theory of multiple loop control (translated from Ein Beitrag zur Theorie mehrschleifiger Regelungen),</title>
+<date>1960</date>
+<journal>Regelungstechnik</journal>
+<volume>8</volume>
+<issue>8</issue>
+<pages>261--266</pages>
+<marker>15.</marker>
+<rawString>Kessler, C.: Article on theory of multiple loop control (translated from Ein Beitrag zur Theorie mehrschleifiger Regelungen), Regelungstechnik 8(8) (1960), 261–266.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Manabe</author>
+</authors>
+<title>Coefficient diagram method as applied to the attitude control of controlledbiasmomentum satellite, in:</title>
+<date>1994</date>
+<booktitle>Proc. 13th IFAC Symposium on Automatic Control in Aerospace,</booktitle>
+<pages>322--327</pages>
+<location>Palo Alto, California,</location>
+<marker>16.</marker>
+<rawString>Manabe, S.: Coefficient diagram method as applied to the attitude control of controlledbiasmomentum satellite, in: Proc. 13th IFAC Symposium on Automatic Control in Aerospace, Palo Alto, California, Sept. 12–16, 1994, pp. 322–327.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Blaschke</author>
+</authors>
+<title>Das Verfahren der Feldorientierung zur Regelung der</title>
+<date>1974</date>
+<institution>Drehfeldmaschine, Dr.-Ing. Dissertation, Technische Universitat Braunschweig,</institution>
+<marker>17.</marker>
+<rawString>Blaschke, F.: Das Verfahren der Feldorientierung zur Regelung der Drehfeldmaschine, Dr.-Ing. Dissertation, Technische Universität Braunschweig, 1974.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Hori</author>
+</authors>
+<title>Two-mass system control based on resonance ratio control and Manabe polynomials, in:</title>
+<date>1994</date>
+<booktitle>Proc. First Asian Control Conf.,</booktitle>
+<volume>3</volume>
+<pages>741--744</pages>
+<marker>18.</marker>
+<rawString>Hori, Y.: Two-mass system control based on resonance ratio control and Manabe polynomials, in: Proc. First Asian Control Conf., Vol. 3, 1994, pp. 741–744.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Voda</author>
+<author>I D Landau</author>
+</authors>
+<title>A method for the auto-calibration of PID controllers,</title>
+<date>1995</date>
+<journal>Automatica</journal>
+<volume>31</volume>
+<issue>1</issue>
+<pages>41--53</pages>
+<marker>19.</marker>
+<rawString>Voda, A. A. and Landau, I. D.: A method for the auto-calibration of PID controllers, Automatica 31(1) (1995), 41–53.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>S Manabe</author>
+</authors>
+<title>Coefficient diagram method: a polynomial design approach, to be submitted to</title>
+<journal>Journal of Guidance, Control, and Dynamics.</journal>
+<marker>20.</marker>
+<rawString>Manabe, S.: Coefficient diagram method: a polynomial design approach, to be submitted to Journal of Guidance, Control, and Dynamics.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Herbert</author>
+</authors>
+<title>Automotive control: from concept to experiment to product, in:</title>
+<date>1996</date>
+<booktitle>Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design,</booktitle>
+<pages>129--134</pages>
+<marker>21.</marker>
+<rawString>Herbert, H.: Automotive control: from concept to experiment to product, in: Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design, 1996, pp. 129–134.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J H Taylor</author>
+<author>P Seres</author>
+</authors>
+<title>An intelligent front end for control system implementation, in:</title>
+<date>1996</date>
+<booktitle>Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design,</booktitle>
+<pages>7--13</pages>
+<marker>22.</marker>
+<rawString>Taylor, J. H. and Seres, P.: An intelligent front end for control system implementation, in: Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design, 1996, pp. 7–13.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J F Whidborne</author>
+<author>I Postlethwaite</author>
+<author>D-W Gu</author>
+</authors>
+<title>A mixed optimization approach to multiobjective computer-aided control system design, in:</title>
+<date>1996</date>
+<booktitle>Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design,</booktitle>
+<pages>309--314</pages>
+<marker>23.</marker>
+<rawString>Whidborne, J. F., Postlethwaite I., and Gu, D.-W.: A mixed optimization approach to multiobjective computer-aided control system design, in: Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design, 1996, pp. 309–314.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Sienel</author>
+<author>T Bunte</author>
+<author>J PARADISE Ackermann</author>
+</authors>
+<title>Parametric robust analysis and design interactive software environment: A Matlab-based robust control toolbox, in:</title>
+<date>1996</date>
+<booktitle>Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design,</booktitle>
+<pages>380--385</pages>
+<marker>24.</marker>
+<rawString>Sienel, W., Bunte, T., and Ackermann, J.: PARADISE – Parametric robust analysis and design interactive software environment: A Matlab-based robust control toolbox, in: Proc 9th IEEE Int. Symp. on Computer-Aided Control System Design, 1996, pp. 380–385.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A J Chipperfield</author>
+<author>P J Fleming</author>
+</authors>
+<title>PARSIM: A paralel optimization tool,</title>
+<date>1995</date>
+<journal>IEEE Control Systems</journal>
+<volume>15</volume>
+<issue>2</issue>
+<pages>48--53</pages>
+<marker>25.</marker>
+<rawString>Chipperfield, A. J. and Fleming, P. J.: PARSIM: A paralel optimization tool, IEEE Control Systems 15(2) (1995), 48–53. JINT1398.tex; 21/01/1998; 9:03; v.7; p.18</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

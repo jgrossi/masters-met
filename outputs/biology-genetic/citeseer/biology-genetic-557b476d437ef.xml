@@ -1,0 +1,705 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Coupling between the circadian clock and cell cycle oscillators: implication for healthy cells and malignant growth</title><authors><author><name>Urs Albrecht</name></author><author><name>Steven Brown</name></author><author><name>Georg A Bjarnason</name></author><author><name>Franck Delaunay</name></author><author><name>Celine Feillet</name><affiliation>Circadian Systems Biology, CNRS, INSERM, Université Nice Sophia Antipolis, Institut de Biologie Valrose</affiliation></author><author><name>Gijsbertus T J Van Der Horst</name><affiliation>Erasmus University Medical Center, Department of Genetics</affiliation></author><author><name>Francis Levi</name><affiliation>University of Warwick, Cancer Chronotherapy Unit</affiliation></author><author><name>David A Rand</name><affiliation>University of Warwick, Systems Biology Centre</affiliation></author><author><name>Franck Delaunay</name><affiliation>Circadian Systems Biology, CNRS, INSERM, Université Nice Sophia Antipolis, Institut de Biologie Valrose</affiliation></author><author><name /><affiliation>University of Fribourg</affiliation></author><author><name /><affiliation>University of Zürich</affiliation></author><author><name /><affiliation>Sunnybrook Odette Cancer Centre</affiliation></author><author><name /><affiliation>Circadian Systems Biology, CNRS</affiliation></author><author><name /><affiliation>INSERM, Institut de Biologie Valrose</affiliation></author><author><name /><affiliation>Université Nice Sophia Antipolis</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Coupling between the circadian clock and cell cycle oscillators: implication for healthy cells and malignant growth</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="2015-03">May 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Urs</forename>
+								<surname>Albrecht</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Steven</forename>
+								<surname>Brown</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Georg</forename>
+								<forename type="middle">A</forename>
+								<surname>Bjarnason</surname>
+							</persName>
+						</author>
+						<author role="corresp">
+							<persName>
+								<forename type="first">Franck</forename>
+								<surname>Delaunay</surname>
+							</persName>
+							<email>franck.delaunay@unice.fr</email>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Celine</forename>
+								<surname>Feillet</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Institut de Biologie Valrose</orgName>
+								<orgName key="instit1" type="institution">Circadian Systems Biology</orgName>
+								<orgName key="instit2" type="institution">CNRS</orgName>
+								<orgName key="instit3" type="institution">INSERM</orgName>
+								<orgName key="instit4" type="institution">Université Nice Sophia Antipolis</orgName>
+								<address>
+									<settlement>Nice</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Gijsbertus</forename>
+								<forename type="middle">T J</forename>
+								<surname>Van Der Horst</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Genetics</orgName>
+								<orgName type="institution">Erasmus University Medical Center</orgName>
+								<address>
+									<settlement>Rotterdam</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Francis</forename>
+								<surname>Levi</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Cancer Chronotherapy Unit</orgName>
+								<orgName type="institution">University of Warwick</orgName>
+								<address>
+									<settlement>Coventry</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">David</forename>
+								<forename type="middle">A</forename>
+								<surname>Rand</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Systems Biology Centre</orgName>
+								<orgName type="institution">University of Warwick</orgName>
+								<address>
+									<settlement>Coventry</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Franck</forename>
+								<surname>Delaunay</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Institut de Biologie Valrose</orgName>
+								<orgName key="instit1" type="institution">Circadian Systems Biology</orgName>
+								<orgName key="instit2" type="institution">CNRS</orgName>
+								<orgName key="instit3" type="institution">INSERM</orgName>
+								<orgName key="instit4" type="institution">Université Nice Sophia Antipolis</orgName>
+								<address>
+									<settlement>Nice</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">University of Fribourg</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">University of Zürich</orgName>
+								<address>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">Sunnybrook Odette Cancer Centre</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName key="instit1" type="institution">Circadian Systems Biology</orgName>
+								<orgName key="instit2" type="institution">CNRS</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">Institut de Biologie Valrose</orgName>
+								<orgName type="institution">INSERM</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">Université Nice Sophia Antipolis</orgName>
+								<address>
+									<addrLine>28 Avenue de Valrose</addrLine>
+									<postCode>Cedex 2 06108</postCode>
+									<settlement>Nice</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Coupling between the circadian clock and cell cycle oscillators: implication for healthy cells and malignant growth</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope unit="volume">6</biblScope>
+							<biblScope from="96" unit="page" />
+							<date type="published" when="2015-03">May 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.3389/fneur.2015.00096</idno>
+					<note type="submission">Received: 20 February 2015 Paper pending published: 25 March 2015 Accepted: 20 April 2015</note>
+					<note>1 Mini Review Frontiers in Neurology | www.frontiersin.org Edited by: Reviewed by: *Correspondence: Specialty section: This article was submitted to Sleep and Chronobiology, a section of the journal Frontiers in Neurology Citation: Feillet C, van der Horst GTJ, Levi F, Rand DA and Delaunay F (2015) Coupling between the circadian clock and cell cycle oscillators: implication for healthy cells and malignant growth. Front. Neurol. 6:96.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>circadian desynchrony</term>
+					<term>cell cycle</term>
+					<term>coupling</term>
+					<term>cancer</term>
+					<term>mathematical modeling Clock and Cell Cycle</term>
+					<term>2 Biological Oscillators</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Uncontrolled cell proliferation is one of the key features leading to cancer. Seminal works in chronobiology have revealed that disruption of the circadian timing system in mice, either by surgical, genetic, or environmental manipulation, increased tumor development. In humans, shift work is a risk factor for cancer. Based on these observations, the link between the circadian clock and cell cycle has become intuitive. But despite identification of molecular connections between the two processes, the influence of the clock on the dynamics of the cell cycle has never been formally observed. Recently, two studies combining single live cell imaging with computational methods have shed light on robust coupling between clock and cell cycle oscillators. We recapitulate here these novel findings and integrate them with earlier results in both healthy and cancerous cells. Moreover, we propose that the cell cycle may be synchronized or slowed down through coupling with the circadian clock, which results in reduced tumor growth. More than ever, systems biology has become instrumental to understand the dynamic interaction between the circadian clock and cell cycle, which is critical in cellular coordination and for diseases such as cancer.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Kondratov RV</author>
+</authors>
+<title>Antoch MP. Circadian proteins in the regulation of cell cycle and genotoxic stress responses. Trends Cell Biol</title>
+<date>2007</date>
+<pages>17--311</pages>
+<contexts>
+<context citStr="(12, 13, 29, 30)" endWordPosition="1850" position="12486" startWordPosition="1847">cle, by transcriptional control or direct protein–protein interactions. For instance, in G1, the CKI P21 is transcriptionally regulated by REV-ERBα and RORα/γ (26). At G1/S transition, NONO regulates the p16-Ink4A check-point gene in a PER-dependent fashion (27). Transcription of the WEE1 kinase (G2/M transition) is tightly controlled by the CLOCK:BMAL1 dimer (28). At the post-translational level, CRY modulates CHK1/ATR (G1/S transition checkpoint) by interacting with TIMELESS (TIM) in a time-of-day-dependent manner. PER and TIM also regulate the G2/M transition via interactions with CHK2-ATM (12, 13, 29, 30). Other clock-controlled cell cycle regulators include known oncogenes (c-Myc, Mdm2, and β-catenin), cyclins (CCND1, B, and A), and tumor suppressor p53. Many key cell cycle regulators, such as Cdk4, Itga6, Wnt3, LHx2, Tcf4, Sox 9, and Smad7 are also directly clock-regulated (31). This multitude of interactions gives a reasonable explanation why loss of coupling between clock and cell cycle may play a key role in carcinogenesis and abnormal growth in vivo (see below). influence of the Cell Cycle on the Circadian Clock Apart from transcription silencing occurring at mitosis (32), which is bound</context>
+</contexts>
+<marker>30.</marker>
+<rawString>Kondratov RV, Antoch MP. Circadian proteins in the regulation of cell cycle and genotoxic stress responses. Trends Cell Biol (2007) 17:311–7. doi:10.1016/j. tcb.2007.07.001</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Fu</author>
+<author>Kettner NM</author>
+</authors>
+<title>The circadian clock in cancer development and therapy. Prog Mol Biol Transl Sci</title>
+<date>2013</date>
+<pages>119--221</pages>
+<contexts>
+<context citStr="(31)" endWordPosition="1892" position="12766" startWordPosition="1892">nase (G2/M transition) is tightly controlled by the CLOCK:BMAL1 dimer (28). At the post-translational level, CRY modulates CHK1/ATR (G1/S transition checkpoint) by interacting with TIMELESS (TIM) in a time-of-day-dependent manner. PER and TIM also regulate the G2/M transition via interactions with CHK2-ATM (12, 13, 29, 30). Other clock-controlled cell cycle regulators include known oncogenes (c-Myc, Mdm2, and β-catenin), cyclins (CCND1, B, and A), and tumor suppressor p53. Many key cell cycle regulators, such as Cdk4, Itga6, Wnt3, LHx2, Tcf4, Sox 9, and Smad7 are also directly clock-regulated (31). This multitude of interactions gives a reasonable explanation why loss of coupling between clock and cell cycle may play a key role in carcinogenesis and abnormal growth in vivo (see below). influence of the Cell Cycle on the Circadian Clock Apart from transcription silencing occurring at mitosis (32), which is bound to influence the circadian feedback loops, molecular evidence of cell cycle-dependent control of the circadian clock is sparse. Nevertheless, DNA damage can phase advance cellular and behavioral circadian rhythms in a dose- and time-dependent manner. The underlying mechanism inv</context>
+<context citStr="(31)" endWordPosition="2755" position="18542" startWordPosition="2755">or the same cells. Gray histogram and trace show random background densities. Colored histogram and trace show the observed phase of the clock at division. We observe a preferred clock phase for performing cell division (phase locking). cancer. Among the hallmarks of cancer, genome instability and mutations in cell cycle genes are a recurring enabling factor (43). Indeed, mutation in Cyclin, Cdk, or Cki genes was found in 90% of human cancers (44). However, evidence is increasing that cancer cells also display a deregulation of the circadian clockwork, which may promote abnormal proliferation (31). May 2015 |Volume 6 |Article 965 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org Circadian Disruption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully acco</context>
+<context citStr="(31)" endWordPosition="3070" position="20703" startWordPosition="3070">SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circadian disruption with an increased risk of cancer development (31). Since 2007, the International Agency for Research on Cancer even listed “shiftwork that involves circadian disruption” as a “probable carcinogen.” Cell Cycle Deregulation and Cancer Lead to Circadian Disruption Many human cancer cell lines (including breast, prostate, colon, liver, and lung), which by definition show abnormal cell cycle progression and proliferation, also display abnormal circadian gene expression (31). In the context of bidirectional interaction between the clock and cell cycle oscillators, it is tricky to decipher which alteration is the cause or consequence. If mutations </context>
+</contexts>
+<marker>31.</marker>
+<rawString>Fu L, Kettner NM. The circadian clock in cancer development and therapy. Prog Mol Biol Transl Sci (2013) 119:221–82. doi:10.1016/B978-0-12-396971-2.00009-9</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Gottesfeld JM</author>
+<author>Forbes DJ</author>
+</authors>
+<title>Mitotic repression of the transcriptional machinery. Trends Biochem Sci</title>
+<date>1997</date>
+<pages>22--197</pages>
+<contexts>
+<context citStr="(32)" endWordPosition="1940" position="13070" startWordPosition="1940">ATM (12, 13, 29, 30). Other clock-controlled cell cycle regulators include known oncogenes (c-Myc, Mdm2, and β-catenin), cyclins (CCND1, B, and A), and tumor suppressor p53. Many key cell cycle regulators, such as Cdk4, Itga6, Wnt3, LHx2, Tcf4, Sox 9, and Smad7 are also directly clock-regulated (31). This multitude of interactions gives a reasonable explanation why loss of coupling between clock and cell cycle may play a key role in carcinogenesis and abnormal growth in vivo (see below). influence of the Cell Cycle on the Circadian Clock Apart from transcription silencing occurring at mitosis (32), which is bound to influence the circadian feedback loops, molecular evidence of cell cycle-dependent control of the circadian clock is sparse. Nevertheless, DNA damage can phase advance cellular and behavioral circadian rhythms in a dose- and time-dependent manner. The underlying mechanism involves ATM-mediated damage signaling, possibly through interaction with the PER and TIM proteins (33). More recently, an impact of the tumor suppressors P53 and promyelocytic leukemia (PML) proteins on circadian function was proposed: Per2 transcription is repressed by P53, which prevents binding of CLOC</context>
+</contexts>
+<marker>32.</marker>
+<rawString>Gottesfeld JM, Forbes DJ. Mitotic repression of the transcriptional machinery. Trends Biochem Sci (1997) 22:197–202. doi:10.1016/S0968-0004(97)01045-1</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Oklejewicz</author>
+<author>E Destici</author>
+<author>F Tamanini</author>
+<author>Hut RA</author>
+<author>R Janssens</author>
+<author>Van</author>
+</authors>
+<title>Der Horst GT. Phase resetting of the mammalian circadian clock by DNA damage. Curr Biol</title>
+<date>2008</date>
+<pages>18--286</pages>
+<contexts>
+<context citStr="(33)" endWordPosition="1995" position="13466" startWordPosition="1995">ck and cell cycle may play a key role in carcinogenesis and abnormal growth in vivo (see below). influence of the Cell Cycle on the Circadian Clock Apart from transcription silencing occurring at mitosis (32), which is bound to influence the circadian feedback loops, molecular evidence of cell cycle-dependent control of the circadian clock is sparse. Nevertheless, DNA damage can phase advance cellular and behavioral circadian rhythms in a dose- and time-dependent manner. The underlying mechanism involves ATM-mediated damage signaling, possibly through interaction with the PER and TIM proteins (33). More recently, an impact of the tumor suppressors P53 and promyelocytic leukemia (PML) proteins on circadian function was proposed: Per2 transcription is repressed by P53, which prevents binding of CLOCK:BMAL1. At the post translational level, PML physically interacts with PER2, and promotes its nuclear localization. These molecular connections are translated into altered circadian behavior (34, 35). As a whole, these results point to a global influence of cell cycle regulation on circadian function. Among these molecular interactions, only p53 has been found to impact on clock and cell cycl</context>
+</contexts>
+<marker>33.</marker>
+<rawString>Oklejewicz M, Destici E, Tamanini F, Hut RA, Janssens R, Van Der Horst GT. Phase resetting of the mammalian circadian clock by DNA damage. Curr Biol (2008) 18:286–91. doi:10.1016/j.cub.2008.01.047</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Miki</author>
+<author>Z Xu</author>
+<author>M Chen-Goodspeed</author>
+<author>M Liu</author>
+<author>A Van Oort-Jansen</author>
+<author>Rea MA</author>
+</authors>
+<title>PML regulates PER2 nucrlear localization and circadian function.</title>
+<date>2012</date>
+<journal>EMBO J</journal>
+<pages>31--1427</pages>
+<contexts>
+<context citStr="(34, 35)" endWordPosition="2052" position="13870" startWordPosition="2051">ular and behavioral circadian rhythms in a dose- and time-dependent manner. The underlying mechanism involves ATM-mediated damage signaling, possibly through interaction with the PER and TIM proteins (33). More recently, an impact of the tumor suppressors P53 and promyelocytic leukemia (PML) proteins on circadian function was proposed: Per2 transcription is repressed by P53, which prevents binding of CLOCK:BMAL1. At the post translational level, PML physically interacts with PER2, and promotes its nuclear localization. These molecular connections are translated into altered circadian behavior (34, 35). As a whole, these results point to a global influence of cell cycle regulation on circadian function. Among these molecular interactions, only p53 has been found to impact on clock and cell cycle in a bidirectional way. Thus, it may participate in coupling between the two oscillators, which remains to be confirmed. Cellular Consequences of Coupling in Healthy Cells A major impact of clock and cell cycle coupling on cell physiology resides in timed mitoses. For instance, about 1/6th of human epidermal cells divide daily, mainly at night (36), which is determined by intrinsic Bmal1 expression </context>
+</contexts>
+<marker>34.</marker>
+<rawString>Miki T, Xu Z, Chen-Goodspeed M, Liu M, Van Oort-Jansen A, Rea MA, et al. PML regulates PER2 nucrlear localization and circadian function. EMBO J (2012) 31:1427–39. doi:10.1038/emboj.2012.1</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Miki</author>
+<author>T Matsumoto</author>
+<author>Z Zhao</author>
+<author>Lee CC</author>
+</authors>
+<date>2013</date>
+<booktitle>p53 regulates Period2 expression and the circadian clock. Nat Commun</booktitle>
+<pages>4--2444</pages>
+<contexts>
+<context citStr="(34, 35)" endWordPosition="2052" position="13870" startWordPosition="2051">ular and behavioral circadian rhythms in a dose- and time-dependent manner. The underlying mechanism involves ATM-mediated damage signaling, possibly through interaction with the PER and TIM proteins (33). More recently, an impact of the tumor suppressors P53 and promyelocytic leukemia (PML) proteins on circadian function was proposed: Per2 transcription is repressed by P53, which prevents binding of CLOCK:BMAL1. At the post translational level, PML physically interacts with PER2, and promotes its nuclear localization. These molecular connections are translated into altered circadian behavior (34, 35). As a whole, these results point to a global influence of cell cycle regulation on circadian function. Among these molecular interactions, only p53 has been found to impact on clock and cell cycle in a bidirectional way. Thus, it may participate in coupling between the two oscillators, which remains to be confirmed. Cellular Consequences of Coupling in Healthy Cells A major impact of clock and cell cycle coupling on cell physiology resides in timed mitoses. For instance, about 1/6th of human epidermal cells divide daily, mainly at night (36), which is determined by intrinsic Bmal1 expression </context>
+</contexts>
+<marker>35.</marker>
+<rawString>Miki T, Matsumoto T, Zhao Z, Lee CC. p53 regulates Period2 expression and the circadian clock. Nat Commun (2013) 4:2444. doi:10.1038/ncomms3444</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Scheving LE</author>
+</authors>
+<title>Mitotic activity in the human epidermis. Anat Rec</title>
+<date>1959</date>
+<pages>135--7</pages>
+<contexts>
+<context citStr="(36)" endWordPosition="2142" position="14418" startWordPosition="2142"> are translated into altered circadian behavior (34, 35). As a whole, these results point to a global influence of cell cycle regulation on circadian function. Among these molecular interactions, only p53 has been found to impact on clock and cell cycle in a bidirectional way. Thus, it may participate in coupling between the two oscillators, which remains to be confirmed. Cellular Consequences of Coupling in Healthy Cells A major impact of clock and cell cycle coupling on cell physiology resides in timed mitoses. For instance, about 1/6th of human epidermal cells divide daily, mainly at night (36), which is determined by intrinsic Bmal1 expression (37). Rhythmicity in cell cycle parameters was also found in the hematopoietic and immune systems (spleen, thymus, bone marrow), gastro-intestinal tract (colon, liver), skin, and cornea of rodents and/or humans (38). DNA synthesis and mitosis rhythmicity seem impervious to ablation of adrenals, medulla, pituitary, or even SCN, although sometimes displaying altered characteristics (38–40). Hence, if systemic circadian cues are required to coordinate cell divisions in the whole organism, local clock/cell cycle coupling likely governs rhythmic m</context>
+</contexts>
+<marker>36.</marker>
+<rawString>Scheving LE. Mitotic activity in the human epidermis. Anat Rec (1959) 135:7–19. doi:10.1002/ar.1091350103</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Geyfman</author>
+<author>V Kumar</author>
+<author>Q Liu</author>
+<author>R Ruiz</author>
+<author>W Gordon</author>
+<author>F Espitia</author>
+</authors>
+<title>Brain and muscle Arnt-like protein-1 (BMAL1) controls circadian cell proliferation and susceptibility to UVB-induced DNA damage in the epidermis.</title>
+<date>2012</date>
+<booktitle>Proc Natl Acad Sci U S A</booktitle>
+<pages>109--11758</pages>
+<contexts>
+<context citStr="(37)" endWordPosition="2150" position="14474" startWordPosition="2150">. As a whole, these results point to a global influence of cell cycle regulation on circadian function. Among these molecular interactions, only p53 has been found to impact on clock and cell cycle in a bidirectional way. Thus, it may participate in coupling between the two oscillators, which remains to be confirmed. Cellular Consequences of Coupling in Healthy Cells A major impact of clock and cell cycle coupling on cell physiology resides in timed mitoses. For instance, about 1/6th of human epidermal cells divide daily, mainly at night (36), which is determined by intrinsic Bmal1 expression (37). Rhythmicity in cell cycle parameters was also found in the hematopoietic and immune systems (spleen, thymus, bone marrow), gastro-intestinal tract (colon, liver), skin, and cornea of rodents and/or humans (38). DNA synthesis and mitosis rhythmicity seem impervious to ablation of adrenals, medulla, pituitary, or even SCN, although sometimes displaying altered characteristics (38–40). Hence, if systemic circadian cues are required to coordinate cell divisions in the whole organism, local clock/cell cycle coupling likely governs rhythmic mitosis at the cellular and tissue levels. In line with t</context>
+</contexts>
+<marker>37.</marker>
+<rawString>Geyfman M, Kumar V, Liu Q, Ruiz R, Gordon W, Espitia F, et al. Brain and muscle Arnt-like protein-1 (BMAL1) controls circadian cell proliferation and susceptibility to UVB-induced DNA damage in the epidermis. Proc Natl Acad Sci U S A (2012) 109:11758–63. doi:10.1073/pnas.1209592109</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Lévi</author>
+<author>E Filipski</author>
+<author>I Iurisci</author>
+<author>Li XM</author>
+<author>P Innominato</author>
+</authors>
+<title>Cross-talks between circadian timing system and cell division cycle determine cancer biology and therapeutics. Cold Spring Harb Symp Quant Biol</title>
+<date>2007</date>
+<pages>205--239</pages>
+<contexts>
+<context citStr="(38)" endWordPosition="2180" position="14685" startWordPosition="2180">ional way. Thus, it may participate in coupling between the two oscillators, which remains to be confirmed. Cellular Consequences of Coupling in Healthy Cells A major impact of clock and cell cycle coupling on cell physiology resides in timed mitoses. For instance, about 1/6th of human epidermal cells divide daily, mainly at night (36), which is determined by intrinsic Bmal1 expression (37). Rhythmicity in cell cycle parameters was also found in the hematopoietic and immune systems (spleen, thymus, bone marrow), gastro-intestinal tract (colon, liver), skin, and cornea of rodents and/or humans (38). DNA synthesis and mitosis rhythmicity seem impervious to ablation of adrenals, medulla, pituitary, or even SCN, although sometimes displaying altered characteristics (38–40). Hence, if systemic circadian cues are required to coordinate cell divisions in the whole organism, local clock/cell cycle coupling likely governs rhythmic mitosis at the cellular and tissue levels. In line with this hypothesis, different populations of epidermal stem cells were found to express clock genes in opposite phases, which results in a differential propensity for activation. Specific disruption of the circadian</context>
+<context citStr="(38)" endWordPosition="3258" position="22021" startWordPosition="3258"> that cell cycle and circadian functions will be synergistically disrupted as a consequence of their coupling. At the physiological level, recent studies have explored circadian rhythmicity in metastatic colorectal or breast cancer patients (rest activity and/or salivary cortisol rhythms). All studies concluded to large disparities in behavioral and endocrine rhythmicity in these patients, ranging from robust to absent rhythms. Interestingly, the outcome of the disease in patients with damped or abnormal circadian rhythmicity is generally unfavorable, independently of other prognostic factors (38). Circadian Lifestyle and Slowing Down Tumor Progression: Perspectives of Coupling Temporal restricted feeding (RF), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, t</context>
+<context citStr="(38)" endWordPosition="3653" position="24606" startWordPosition="3653">ectionality of clock and cell cycle interactions. At the moment, only P53 has been identified as capable of impinging on both clock and cell cycle, but its role in coupling needs to be confirmed. Given the complexity of these oscillatory circuits, additional candidates likely exist, but remain to be found. In terms of physiology, the consequences of coupling in healthy cells are obvious. But coupling becomes critical when considering a pathology such as cancer, where circadian and cell cycle phenomena are intertwined. The benefits of chronotherapeutics for cancer treatment is well established (38). They are a consequence of circadian fluctuations in toxicity and efficacy of cancer drugs (and drug metabolism in general). Considering that reinforcing the circadian clock through a May 2015 |Volume 6 |Article 966 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org References 1. Moore RY, Eichler VB. Loss of a circadian adrenal corticosterone rhythm following suprachiasmatic lesions in the rat. Brain Res (1972) 42:201–6. doi:10.1016/0006-8993(72)90054-6 2. Stephan FK, Zucker I. Circadian rhythms in drinking behavior and locomotor activity of rats are eli</context>
+</contexts>
+<marker>38.</marker>
+<rawString>Lévi F, Filipski E, Iurisci I, Li XM, Innominato P. Cross-talks between circadian timing system and cell division cycle determine cancer biology and therapeutics. Cold Spring Harb Symp Quant Biol (2007) 72:465–75. doi:10.1101/ into deoxyribonucleic acid in mouse intestinal tract, mitotic index of corneal epithelium, and serum corticosterone. Anat Rec (1983) 205:239–49. doi:10.1002/ ar.1092050302</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Filipski</author>
+<author>King VM</author>
+<author>Etienne MC</author>
+<author>X Li</author>
+<author>B Claustrat</author>
+<author>Granda TG</author>
+</authors>
+<title>Persistent twenty-four hour changes in liver and bone marrow despite suprachiasmatic nuclei ablation in mice.</title>
+<date>2004</date>
+<journal>Am J Physiol Regul Integr Comp Physiol</journal>
+<pages>287--844</pages>
+<marker>40.</marker>
+<rawString>Filipski E, King VM, Etienne MC, Li X, Claustrat B, Granda TG, et al. Persistent twenty-four hour changes in liver and bone marrow despite suprachiasmatic nuclei ablation in mice. Am J Physiol Regul Integr Comp Physiol (2004) 287:R844–51. doi:10.1152/ajpregu.00085.2004</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Janich</author>
+<author>G Pascual</author>
+<author>A Merlos-Suárez</author>
+<author>E Batlle</author>
+<author>J Ripperger</author>
+<author>U Albrecht</author>
+</authors>
+<title>The circadian molecular clock creates epidermal stem cell heterogeneity. Nature</title>
+<date>2011</date>
+<pages>480--209</pages>
+<contexts>
+<context citStr="(41)" endWordPosition="2285" position="15420" startWordPosition="2285">s displaying altered characteristics (38–40). Hence, if systemic circadian cues are required to coordinate cell divisions in the whole organism, local clock/cell cycle coupling likely governs rhythmic mitosis at the cellular and tissue levels. In line with this hypothesis, different populations of epidermal stem cells were found to express clock genes in opposite phases, which results in a differential propensity for activation. Specific disruption of the circadian clock in these cells led to premature epidermal aging, which confirms that local coupling is necessary to ensure tissue integrity (41). Coupling even manifests itself in a post-mitotic tissue such as the adult brain, where quiescent neural progenitors in the hippocampus show rhythmic proliferation. Per2 and Bmal1 play a critical role in this rhythmic neurogenesis, impacting on cognitive function. Mathematical modeling pointed to clock-driven p21 expression as a trigger for cell cycle progression through regulation of the CCND/CDK4–6 complexes (42). In the adult liver, only 1% of hepatocytes show rhythmic mitoses under normal conditions. After partial hepatectomy, however, most of the remaining hepatocytes enter cell cycle sy</context>
+</contexts>
+<marker>41.</marker>
+<rawString>Janich P, Pascual G, Merlos-Suárez A, Batlle E, Ripperger J, Albrecht U, et al. The circadian molecular clock creates epidermal stem cell heterogeneity. Nature (2011) 480:209–14. doi:10.1038/nature10649</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Bouchard-Cannon</author>
+<author>L Mendoza-Viveros</author>
+<author>A Yuen</author>
+<author>M Kærn</author>
+<author>Cheng HY</author>
+</authors>
+<title>The circadian molecular clock regulates adult hippocampal neurogenesis by controlling the timing of cell-cycle entry and exit. Cell Rep</title>
+<date>2013</date>
+<pages>5--961</pages>
+<contexts>
+<context citStr="(42)" endWordPosition="2345" position="15839" startWordPosition="2345">r activation. Specific disruption of the circadian clock in these cells led to premature epidermal aging, which confirms that local coupling is necessary to ensure tissue integrity (41). Coupling even manifests itself in a post-mitotic tissue such as the adult brain, where quiescent neural progenitors in the hippocampus show rhythmic proliferation. Per2 and Bmal1 play a critical role in this rhythmic neurogenesis, impacting on cognitive function. Mathematical modeling pointed to clock-driven p21 expression as a trigger for cell cycle progression through regulation of the CCND/CDK4–6 complexes (42). In the adult liver, only 1% of hepatocytes show rhythmic mitoses under normal conditions. After partial hepatectomy, however, most of the remaining hepatocytes enter cell cycle synchronously, in a clock-dependent manner, which will restore liver mass within few days. In arrhythmic Cry deficient mice, liver regeneration still occurs, although full recovery of liver mass is delayed (28). A more common situation requiring controlled cell division at an adult age is wound repair: after skin incision, wound healing defects were found in mice lacking NONO, a possible link between clock and cell cy</context>
+</contexts>
+<marker>42.</marker>
+<rawString>Bouchard-Cannon P, Mendoza-Viveros L, Yuen A, Kærn M, Cheng HY. The circadian molecular clock regulates adult hippocampal neurogenesis by controlling the timing of cell-cycle entry and exit. Cell Rep (2013) 5:961–73. doi:10.1016/j. celrep.2013.10.037</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Hanahan</author>
+<author>Weinberg RA</author>
+</authors>
+<title>Hallmarks of cancer: the next generation. Cell</title>
+<date>2011</date>
+<pages>144--646</pages>
+<contexts>
+<context citStr="(43)" endWordPosition="2718" position="18303" startWordPosition="2718">periods for both the clock (green) and cell cycle (red) in the whole population. In non-synchronized cells, mean clock period (19.4 ± 0.5 h) is not significantly different from mean cell cycle period: (18.6 ± 0.6 h). (C) Phase histograms for the same cells. Gray histogram and trace show random background densities. Colored histogram and trace show the observed phase of the clock at division. We observe a preferred clock phase for performing cell division (phase locking). cancer. Among the hallmarks of cancer, genome instability and mutations in cell cycle genes are a recurring enabling factor (43). Indeed, mutation in Cyclin, Cdk, or Cki genes was found in 90% of human cancers (44). However, evidence is increasing that cancer cells also display a deregulation of the circadian clockwork, which may promote abnormal proliferation (31). May 2015 |Volume 6 |Article 965 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org Circadian Disruption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes </context>
+</contexts>
+<marker>43.</marker>
+<rawString>Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation. Cell (2011) 144:646–74. doi:10.1016/j.cell.2011.02.013</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Bonelli</author>
+<author>Tuccillo FM</author>
+<author>A Borrelli</author>
+<author>A Schiattarella</author>
+<author>Buonaguro FM</author>
+</authors>
+<title>CDK/CCN and CDKI alterations for cancer prognosis and therapeutic predictivity. Biomed Res Int</title>
+<date>2014</date>
+<pages>2014--361020</pages>
+<contexts>
+<context citStr="(44)" endWordPosition="2734" position="18389" startWordPosition="2734">n-synchronized cells, mean clock period (19.4 ± 0.5 h) is not significantly different from mean cell cycle period: (18.6 ± 0.6 h). (C) Phase histograms for the same cells. Gray histogram and trace show random background densities. Colored histogram and trace show the observed phase of the clock at division. We observe a preferred clock phase for performing cell division (phase locking). cancer. Among the hallmarks of cancer, genome instability and mutations in cell cycle genes are a recurring enabling factor (43). Indeed, mutation in Cyclin, Cdk, or Cki genes was found in 90% of human cancers (44). However, evidence is increasing that cancer cells also display a deregulation of the circadian clockwork, which may promote abnormal proliferation (31). May 2015 |Volume 6 |Article 965 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org Circadian Disruption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On th</context>
+</contexts>
+<marker>44.</marker>
+<rawString>Bonelli P, Tuccillo FM, Borrelli A, Schiattarella A, Buonaguro FM. CDK/CCN and CDKI alterations for cancer prognosis and therapeutic predictivity. Biomed Res Int (2014) 2014:361020. doi:10.1155/2014/361020</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Fu</author>
+<author>H Pelicano</author>
+<author>J Liu</author>
+<author>P Huang</author>
+<author>C Lee</author>
+</authors>
+<title>The circadian gene Period2 plays an important role in tumor suppression and DNA damage response in vivo. Cell</title>
+<date>2002</date>
+<pages>111--41</pages>
+<contexts>
+<context citStr="(45)" endWordPosition="2820" position="18982" startWordPosition="2820">ancers (44). However, evidence is increasing that cancer cells also display a deregulation of the circadian clockwork, which may promote abnormal proliferation (31). May 2015 |Volume 6 |Article 965 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org Circadian Disruption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully account for the observed phenotype in Per2 mutant mice. Additionally, mutation of Bmal1 or Clock does not lead to enhanced cancer development (47, 48). These results are subject to debate, as a more recent study showed that Per1−/−Per2−/−, Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer</context>
+</contexts>
+<marker>45.</marker>
+<rawString>Fu L, Pelicano H, Liu J, Huang P, Lee C. The circadian gene Period2 plays an important role in tumor suppression and DNA damage response in vivo. Cell (2002) 111:41–50. doi:10.1016/S0092-8674(02)01223-0</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Gauger MA</author>
+<author>Sancar A Cryptochrome</author>
+</authors>
+<title>circadian cycle, cell cycle checkpoints, and cancer. Cancer Res</title>
+<date>2005</date>
+<pages>65--6828</pages>
+<contexts>
+<context citStr="(46)" endWordPosition="2836" position="19086" startWordPosition="2836">ian clockwork, which may promote abnormal proliferation (31). May 2015 |Volume 6 |Article 965 Feillet et al. Clock and cell cycle coupling Frontiers in Neurology |www.frontiersin.org Circadian Disruption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully account for the observed phenotype in Per2 mutant mice. Additionally, mutation of Bmal1 or Clock does not lead to enhanced cancer development (47, 48). These results are subject to debate, as a more recent study showed that Per1−/−Per2−/−, Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these g</context>
+</contexts>
+<marker>46.</marker>
+<rawString>Gauger MA, Sancar A. Cryptochrome, circadian cycle, cell cycle checkpoints, and cancer. Cancer Res (2005) 65:6828–34. doi:10.1158/0008-5472. CAN-05-1119</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Kondratov RV</author>
+<author>Kondratova AA</author>
+<author>Gorbacheva VY</author>
+<author>Vykhovanets OV</author>
+<author>Antoch MP</author>
+</authors>
+<title>Early aging and age-related pathologies in mice deficient in BMAL1, the core componentof the circadian clock. Genes Dev</title>
+<date>2006</date>
+<pages>20--1868</pages>
+<contexts>
+<context citStr="(47, 48)" endWordPosition="2868" position="19288" startWordPosition="2867">ption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully account for the observed phenotype in Per2 mutant mice. Additionally, mutation of Bmal1 or Clock does not lead to enhanced cancer development (47, 48). These results are subject to debate, as a more recent study showed that Per1−/−Per2−/−, Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or</context>
+</contexts>
+<marker>47.</marker>
+<rawString>Kondratov RV, Kondratova AA, Gorbacheva VY, Vykhovanets OV, Antoch MP. Early aging and age-related pathologies in mice deficient in BMAL1, the core componentof the circadian clock. Genes Dev (2006) 20:1868–73. doi:10.1101/ gad.1432206</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Antoch MP</author>
+<author>Gorbacheva VY</author>
+<author>O Vykhovanets</author>
+<author>Toshkov IA</author>
+<author>Kondratov RV</author>
+<author>Kondratova AA</author>
+</authors>
+<title>Disruption of the circadian clock due to the clock mutation has discrete effects on aging and carcinogenesis. Cell Cycle</title>
+<date>2008</date>
+<pages>7--1197</pages>
+<contexts>
+<context citStr="(47, 48)" endWordPosition="2868" position="19288" startWordPosition="2867">ption and Cell Cycle Deregulation Although mutations in clock genes are frequent in human cancer cells, it is unclear whether it may be a primary cause of cancer development. Per2 mutant mice display tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully account for the observed phenotype in Per2 mutant mice. Additionally, mutation of Bmal1 or Clock does not lead to enhanced cancer development (47, 48). These results are subject to debate, as a more recent study showed that Per1−/−Per2−/−, Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or</context>
+</contexts>
+<marker>48.</marker>
+<rawString>Antoch MP, Gorbacheva VY, Vykhovanets O, Toshkov IA, Kondratov RV, Kondratova AA, et al. Disruption of the circadian clock due to the clock mutation has discrete effects on aging and carcinogenesis. Cell Cycle (2008) 7:1197–204. doi:10.4161/cc.7.9.5886</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Lee</author>
+<author>Donehower LA</author>
+<author>Herron AJ</author>
+<author>Moore DD</author>
+<author>L Fu</author>
+</authors>
+<title>Disrupting circadian homeostasis of sympathetic signaling promotes tumor development in mice. PLoS One</title>
+<date>2010</date>
+<pages>5--10995</pages>
+<contexts>
+<context citStr="(49)" endWordPosition="2894" position="19483" startWordPosition="2894"> tumor-prone phenotypes and deregulation of various cyclins, protooncogenes, and tumor suppressors (45). On the other hand, Cry1/Cry2 KO mice do not show increased cancer development after γ-irradiation (46). Thus, deregulation of the core clock cannot fully account for the observed phenotype in Per2 mutant mice. Additionally, mutation of Bmal1 or Clock does not lead to enhanced cancer development (47, 48). These results are subject to debate, as a more recent study showed that Per1−/−Per2−/−, Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disru</context>
+</contexts>
+<marker>49.</marker>
+<rawString>Lee S, Donehower LA, Herron AJ, Moore DD, Fu L. Disrupting circadian homeostasis of sympathetic signaling promotes tumor development in mice. PLoS One (2010) 5:e10995. doi:10.1371/journal.pone.0010995</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Shah PN</author>
+<author>Mhatre MC</author>
+<author>Kothari LS</author>
+</authors>
+<title>Effect of melatonin on mammary carcinogenesis in intact and pinealectomized rats in varying photoperiods. Cancer Res</title>
+<date>1984</date>
+<pages>44--3403</pages>
+<contexts>
+<context citStr="(50, 51)" endWordPosition="2978" position="20038" startWordPosition="2977">ntaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disruption following SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circa</context>
+</contexts>
+<marker>50.</marker>
+<rawString>Shah PN, Mhatre MC, Kothari LS. Effect of melatonin on mammary carcinogenesis in intact and pinealectomized rats in varying photoperiods. Cancer Res (1984) 44:3403–7.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Van Den Heiligenberg</author>
+<author>P Deprés-Brummer</author>
+<author>H Barbason</author>
+<author>B Claustrat</author>
+<author>M Reynes</author>
+<author>F Lévi</author>
+</authors>
+<title>The tumor promoting effect of constant light exposure on diethylnitrosamine-induced hepatocarcinogenesis in rats. Life Sci</title>
+<date>1999</date>
+<pages>64--2523</pages>
+<contexts>
+<context citStr="(50, 51)" endWordPosition="2978" position="20038" startWordPosition="2977">ntaneous and radiation-induced tumor development (49). So it remains unclear whether a mutation in clock genes is by itself sufficient to trigger cancer development. These observed cancer-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disruption following SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circa</context>
+</contexts>
+<marker>51.</marker>
+<rawString>Van Den Heiligenberg S, Deprés-Brummer P, Barbason H, Claustrat B, Reynes M, Lévi F. The tumor promoting effect of constant light exposure on diethylnitrosamine-induced hepatocarcinogenesis in rats. Life Sci (1999) 64:2523–34. doi:10.1016/S0024-3205(99)00210-6</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Filipski</author>
+<author>King VM</author>
+<author>X Li</author>
+<author>Granda TG</author>
+<author>Mormont MC</author>
+<author>X Liu</author>
+</authors>
+<title>Host circadian clock as a control point in tumor progression.</title>
+<date>2002</date>
+<journal>J Natl Cancer Inst</journal>
+<pages>94--690</pages>
+<contexts>
+<context citStr="(52, 53)" endWordPosition="3002" position="20224" startWordPosition="3001">r-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disruption following SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circadian disruption with an increased risk of cancer development (31). Since 2007, the International Agency for Research on Cancer even listed “shiftwork that involves circadian disruption” </context>
+</contexts>
+<marker>52.</marker>
+<rawString>Filipski E, King VM, Li X, Granda TG, Mormont MC, Liu X, et al. Host circadian clock as a control point in tumor progression. J Natl Cancer Inst (2002) 94:690–7. doi:10.1093/jnci/94.9.690</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Filipski</author>
+<author>F Delaunay</author>
+<author>King VM</author>
+<author>Wu MW</author>
+<author>B Claustrat</author>
+<author>A Gréchez-Cassiau</author>
+</authors>
+<title>Effects of chronic jet lag on tumor progression in mice. Cancer Res</title>
+<date>2004</date>
+<pages>64--7879</pages>
+<contexts>
+<context citStr="(52, 53)" endWordPosition="3002" position="20224" startWordPosition="3001">r-prone phenotypes might be due to a non-circadian function of these genes. If clock gene mutations do not induce cancer per se, systemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disruption following SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circadian disruption with an increased risk of cancer development (31). Since 2007, the International Agency for Research on Cancer even listed “shiftwork that involves circadian disruption” </context>
+</contexts>
+<marker>53.</marker>
+<rawString>Filipski E, Delaunay F, King VM, Wu MW, Claustrat B, Gréchez-Cassiau A, et al. Effects of chronic jet lag on tumor progression in mice. Cancer Res (2004) 64:7879–85. doi:10.1158/0008-5472.CAN-04-0674</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Filipski</author>
+<author>P Subramanian</author>
+<author>J Carrière</author>
+<author>C Guettier</author>
+<author>H Barbason</author>
+<author>F Lévi</author>
+</authors>
+<title>Circadian disruption accelerates liver carcinogenesis in mice. Mutat Res</title>
+<date>2009</date>
+<pages>680--95</pages>
+<contexts>
+<context citStr="(54)" endWordPosition="3020" position="20351" startWordPosition="3020">stemic environmental disruption of the circadian function may impact on cancer development and cell proliferation. Constant light exposure or ablation of the pineal gland results in perturbation of endocrine rhythms and increase carcinogenesis in liver and mammary glands of rodents (50, 51). In line with these results, circadian disruption following SCN lesions or chronic jetlag increases proliferation of implanted Glasgow osteosarcoma or pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes tumor development in the liver of mice exposed to the hepatic carcinogen diethylnitrosamine (54). The latter finding is of particular interest when considering cancer development in humans. As already mentioned, circadian alterations at the molecular level have been found in numerous human cancers. At the epidemiological level, studies involving shift workers have associated circadian disruption with an increased risk of cancer development (31). Since 2007, the International Agency for Research on Cancer even listed “shiftwork that involves circadian disruption” as a “probable carcinogen.” Cell Cycle Deregulation and Cancer Lead to Circadian Disruption Many human cancer cell lines (inclu</context>
+</contexts>
+<marker>54.</marker>
+<rawString>Filipski E, Subramanian P, Carrière J, Guettier C, Barbason H, Lévi F. Circadian disruption accelerates liver carcinogenesis in mice. Mutat Res (2009) 680:95–105. doi:10.1016/j.mrgentox.2009.10.002</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Damiola</author>
+<author>N Le Minh</author>
+<author>N Preitner</author>
+<author>B Kornmann</author>
+<author>F Fleury-Olela</author>
+<author>U Schibler</author>
+</authors>
+<title>Restricted feeding uncouples circadian oscillators in peripheral tissues from the central pacemaker in the suprachiasmatic nucleus. Genes Dev</title>
+<date>2000</date>
+<pages>14--2950</pages>
+<contexts>
+<context citStr="(55)" endWordPosition="3282" position="22207" startWordPosition="3282">ity in metastatic colorectal or breast cancer patients (rest activity and/or salivary cortisol rhythms). All studies concluded to large disparities in behavioral and endocrine rhythmicity in these patients, ranging from robust to absent rhythms. Interestingly, the outcome of the disease in patients with damped or abnormal circadian rhythmicity is generally unfavorable, independently of other prognostic factors (38). Circadian Lifestyle and Slowing Down Tumor Progression: Perspectives of Coupling Temporal restricted feeding (RF), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and surviva</context>
+</contexts>
+<marker>55.</marker>
+<rawString>Damiola F, Le Minh N, Preitner N, Kornmann B, Fleury-Olela F, Schibler U. Restricted feeding uncouples circadian oscillators in peripheral tissues from the central pacemaker in the suprachiasmatic nucleus. Genes Dev (2000) 14:2950–61. doi:10.1101/gad.183500</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Vollmers</author>
+<author>S Gill</author>
+<author>L Ditacchio</author>
+<author>Pulivarthy SR</author>
+<author>Panda S Le HD</author>
+</authors>
+<title>Time of feeding and the intrinsic circadian clock drive rhythms in hepatic gene expression.</title>
+<date>2009</date>
+<booktitle>Proc Natl Acad Sci U S A</booktitle>
+<pages>106--21453</pages>
+<contexts>
+<context citStr="(56)" endWordPosition="3299" position="22314" startWordPosition="3299">l studies concluded to large disparities in behavioral and endocrine rhythmicity in these patients, ranging from robust to absent rhythms. Interestingly, the outcome of the disease in patients with damped or abnormal circadian rhythmicity is generally unfavorable, independently of other prognostic factors (38). Circadian Lifestyle and Slowing Down Tumor Progression: Perspectives of Coupling Temporal restricted feeding (RF), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and survival was prolonged in mice submitted to RF. Thus, reinforcement of host’s circadian rhythms may lead to improv</context>
+</contexts>
+<marker>56.</marker>
+<rawString>Vollmers C, Gill S, Ditacchio L, Pulivarthy SR, Le HD, Panda S. Time of feeding and the intrinsic circadian clock drive rhythms in hepatic gene expression. Proc Natl Acad Sci U S A (2009) 106:21453–8. doi:10.1073/pnas.0909591106</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wu MW</author>
+<author>Li XM</author>
+<author>Xian LJ</author>
+<author>F Lévi</author>
+</authors>
+<title>Effects of meal timing on tumor progression in mice. Life Sci</title>
+<date>2004</date>
+<pages>75--1181</pages>
+<contexts>
+<context citStr="(57, 58)" endWordPosition="3344" position="22590" startWordPosition="3343">dently of other prognostic factors (38). Circadian Lifestyle and Slowing Down Tumor Progression: Perspectives of Coupling Temporal restricted feeding (RF), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and survival was prolonged in mice submitted to RF. Thus, reinforcement of host’s circadian rhythms may lead to improved host-mediated tumor control or alteration of the tumor circadian clock, which in the end slows down tumor progression. Looking at this data with the newly discovered bidirectional coupling between clock and cell cycle, we would like to put forward the possibility that the </context>
+</contexts>
+<marker>57.</marker>
+<rawString>Wu MW, Li XM, Xian LJ, Lévi F. Effects of meal timing on tumor progression in mice. Life Sci (2004) 75:1181–93. doi:10.1016/j.lfs.2004.02.014</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Li XM</author>
+<author>F Delaunay</author>
+<author>S Dulong</author>
+<author>B Claustrat</author>
+<author>S Zampera</author>
+<author>Y Fujii</author>
+</authors>
+<title>Cancer inhibition through circadian reprogramming of tumor transcriptome with meal timing. Cancer Res</title>
+<date>2010</date>
+<pages>70--3351</pages>
+<contexts>
+<context citStr="(57, 58)" endWordPosition="3344" position="22590" startWordPosition="3343">dently of other prognostic factors (38). Circadian Lifestyle and Slowing Down Tumor Progression: Perspectives of Coupling Temporal restricted feeding (RF), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and survival was prolonged in mice submitted to RF. Thus, reinforcement of host’s circadian rhythms may lead to improved host-mediated tumor control or alteration of the tumor circadian clock, which in the end slows down tumor progression. Looking at this data with the newly discovered bidirectional coupling between clock and cell cycle, we would like to put forward the possibility that the </context>
+</contexts>
+<marker>58.</marker>
+<rawString>Li XM, Delaunay F, Dulong S, Claustrat B, Zampera S, Fujii Y, et al. Cancer inhibition through circadian reprogramming of tumor transcriptome with meal timing. Cancer Res (2010) 70:3351–60. doi:10.1158/0008-5472. CAN-09-4235</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Buhr ED</author>
+<author>Yoo SH</author>
+<author>Takahashi JS</author>
+</authors>
+<title>Temperature as a universal resetting cue for mammalian circadian oscillators. Science</title>
+<date>2010</date>
+<pages>330--379</pages>
+<contexts>
+<context citStr="(59, 60)" endWordPosition="3366" position="22742" startWordPosition="3365">F), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and survival was prolonged in mice submitted to RF. Thus, reinforcement of host’s circadian rhythms may lead to improved host-mediated tumor control or alteration of the tumor circadian clock, which in the end slows down tumor progression. Looking at this data with the newly discovered bidirectional coupling between clock and cell cycle, we would like to put forward the possibility that the cell cycle may be synchronized/ slowed down through coupling with the circadian clock. Hence, it would be possible to use a known circadian synchronizer</context>
+</contexts>
+<marker>59.</marker>
+<rawString>Buhr ED, Yoo SH, Takahashi JS. Temperature as a universal resetting cue for mammalian circadian oscillators. Science (2010) 330:379–85. doi:10.1126/ science.1195262</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Saini</author>
+<author>J Morf</author>
+<author>M Stratmann</author>
+<author>P Gos</author>
+<author>U Schibler</author>
+</authors>
+<title>Simulated body temperature rhythms reveal the phase-shifting behavior and plasticity of mammalian circadian oscillators. Genes Dev (2012) 26:567–80. doi:10.1101/gad.183251.111 Conflict of Interest Statement: The authors declare that the research was conducted</title>
+<contexts>
+<context citStr="(59, 60)" endWordPosition="3366" position="22742" startWordPosition="3365">F), also known as meal timing, powerfully entrains peripheral clocks (55). It is also capable of restoring circadian rhythms in peripheral tissues of otherwise arrhythmic mice (56). Tumor cells often show abnormal circadian rhythms in LD and ad libitum feeding conditions, but they are not blind to cyclic metabolic cues. Two studies tested the impact of RF on growth rate of implanted Glasgow osteosarcoma or P03 pancreatic adenocarcinoma in mice (57, 58). At the physiological level, this treatment increased the amplitude of body temperature rhythms, known to be a powerful circadian synchronizer (59, 60). Interestingly, tumor size was significantly reduced and survival was prolonged in mice submitted to RF. Thus, reinforcement of host’s circadian rhythms may lead to improved host-mediated tumor control or alteration of the tumor circadian clock, which in the end slows down tumor progression. Looking at this data with the newly discovered bidirectional coupling between clock and cell cycle, we would like to put forward the possibility that the cell cycle may be synchronized/ slowed down through coupling with the circadian clock. Hence, it would be possible to use a known circadian synchronizer</context>
+</contexts>
+<marker>60.</marker>
+<rawString>Saini C, Morf J, Stratmann M, Gos P, Schibler U. Simulated body temperature rhythms reveal the phase-shifting behavior and plasticity of mammalian circadian oscillators. Genes Dev (2012) 26:567–80. doi:10.1101/gad.183251.111 Conflict of Interest Statement: The authors declare that the research was conducted</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

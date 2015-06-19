@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Analysis on the relationship between student grades and computer programming time in learning the C programming language *</title><authors><author><name>Zhixin Tie</name><affiliation>Zhejiang Sci-Tech University Hangzhou, School of Information Science and Technology</affiliation></author><author><name>Hong Zhuang</name><affiliation>Zhejiang Sci-Tech University Hangzhou, School of Information Science and Technology</affiliation></author><author><name>Qingyang Zhang</name><affiliation>Zhejiang Sci-Tech University Hangzhou, School of Information Science and Technology</affiliation></author><author><name>Zhaoqing Wang</name><affiliation>Zhejiang Sci-Tech University Hangzhou, School of Information Science and Technology</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analysis on the relationship between student grades and computer programming time in learning the C programming language *</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Zhixin</forename>
+								<surname>Tie</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Information Science and Technology</orgName>
+								<orgName type="institution">Zhejiang Sci-Tech University Hangzhou</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Zhejiang</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Hong</forename>
+								<surname>Zhuang</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Information Science and Technology</orgName>
+								<orgName type="institution">Zhejiang Sci-Tech University Hangzhou</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Zhejiang</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Qingyang</forename>
+								<surname>Zhang</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Information Science and Technology</orgName>
+								<orgName type="institution">Zhejiang Sci-Tech University Hangzhou</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Zhejiang</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Zhaoqing</forename>
+								<surname>Wang</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Information Science and Technology</orgName>
+								<orgName type="institution">Zhejiang Sci-Tech University Hangzhou</orgName>
+								<address>
+									<postCode>310018</postCode>
+									<settlement>Zhejiang</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Analysis on the relationship between student grades and computer programming time in learning the C programming language *</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Index Terms— C Programming language</term>
+					<term>Grade</term>
+					<term>Hypothesis test</term>
+					<term>Computer programming time</term>
+					<term>Homework</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>—The C Programming Language is one of the most popular teaching programming languages. It is generally considered that the computer programming time that a student spent on his homework directly affects his grade of the C Programming Language. There is little research regarding the correlation of students' computer programming time and their test grades. The computer programming time, grades of final test and the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The students are divided into two groups based on their programming time. The T-Test is employed to analyze grades of final test and the ZCGTBII of the two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<title>Programming Language Popularity,</title>
+<location>http://www.langpop.com/</location>
+<contexts>
+<context citStr="[1]" endWordPosition="262" position="1731" startWordPosition="262">e T-Test is employed to analyze grades of final test and the ZCGTBII of the two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language. Index Terms— C Programming language, Grade, Hypothesis test, Computer programming time, Homework I. INTRODUCTION The C programming language is one of the most widely used programming languages in industry [1][2]. It is also one of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms w</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>Programming Language Popularity, http://www.langpop.com/</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>TIOBE Software</author>
+</authors>
+<title>TIOBE programming community index for</title>
+<date>2011</date>
+<note>http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html</note>
+<contexts>
+<context citStr="[2]" endWordPosition="262" position="1734" startWordPosition="262">-Test is employed to analyze grades of final test and the ZCGTBII of the two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language. Index Terms— C Programming language, Grade, Hypothesis test, Computer programming time, Homework I. INTRODUCTION The C programming language is one of the most widely used programming languages in industry [1][2]. It is also one of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>TIOBE Software, “TIOBE programming community index for June 2011,” http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Harry H Cheng</author>
+</authors>
+<title>C for the course,” Mechanical Engineering Magazine,</title>
+<date>2009</date>
+<pages>50--52</pages>
+<contexts>
+<context citStr="[3]" endWordPosition="274" position="1805" startWordPosition="274">e two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language. Index Terms— C Programming language, Grade, Hypothesis test, Computer programming time, Homework I. INTRODUCTION The C programming language is one of the most widely used programming languages in industry [1][2]. It is also one of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in </context>
+</contexts>
+<marker>[3]</marker>
+<rawString>Harry H. Cheng, “C for the course,” Mechanical Engineering Magazine, September, 2009, pp 50-52</rawString>
+</citation>
+<citation valid="false">
+<title>Qinming Heˈet al,ĀNational program of web-delivery for elaborate courses - The C programming language, ā http://jpkc.zju.edu.cn/k/409/ml15.htm</title>
+<marker>[4]</marker>
+<rawString>Qinming Heˈet al,ĀNational program of web-delivery for elaborate courses - The C programming language, ā http://jpkc.zju.edu.cn/k/409/ml15.htm</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Kuanquan Wangˈ</author>
+</authors>
+<title>et al,ĀNational program of web-delivery for elaborate courses - The C programming language, ā http://cms.hit.edu.cn/elite/</title>
+<marker>[5]</marker>
+<rawString>Kuanquan Wangˈ et al,ĀNational program of web-delivery for elaborate courses - The C programming language, ā http://cms.hit.edu.cn/elite/</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Zhaoqing Wang</author>
+</authors>
+<title>Ministry of Education Bilingual Education Program - The C programming language,” http://ecs.zstu.edu.cn/ce/KCGK/kcgk.htm.</title>
+<marker>[6]</marker>
+<rawString>Zhaoqing Wang et al, “Ministry of Education Bilingual Education Program - The C programming language,” http://ecs.zstu.edu.cn/ce/KCGK/kcgk.htm.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Harry H Cheng</author>
+</authors>
+<title>Ten Reasons to Teach and Learn Computer Programming</title>
+<note>in C,” http://iel.ucdavis.edu/publication/WhyC.html.</note>
+<contexts>
+<context citStr="[7]" endWordPosition="274" position="1809" startWordPosition="274">o groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language. Index Terms— C Programming language, Grade, Hypothesis test, Computer programming time, Homework I. INTRODUCTION The C programming language is one of the most widely used programming languages in industry [1][2]. It is also one of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in [10]</context>
+</contexts>
+<marker>[7]</marker>
+<rawString>Harry H. Cheng, “Ten Reasons to Teach and Learn Computer Programming in C,” http://iel.ucdavis.edu/publication/WhyC.html.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ding HaiyanˈZou JiangˈQiu Sha</author>
+</authors>
+<title>Experiment teaching system and reform measures</title>
+<date>2010</date>
+<booktitle>in C language,” Experim ental Technology and Management, Vol 27,</booktitle>
+<volume>11</volume>
+<pages>179--181</pages>
+<note>(in Chinese)</note>
+<contexts>
+<context citStr="[8]" endWordPosition="358" position="2351" startWordPosition="358">ne of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in [10]-[12]. In this paper, the computer programming time on homework, final grades and grades of the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The Chi-Square Goodness-of-Fit Test is used to verify that final grades and ZCGTBII grades of this teaching class subject to the normal distribution. This is what we expect to be. Students of this teaching class are divided into two groups based on students’ computer programming time on homework and minimum computer programming time on homework tha</context>
+</contexts>
+<marker>[8]</marker>
+<rawString>Ding HaiyanˈZou JiangˈQiu Sha, “Experiment teaching system and reform measures in C language,” Experim ental Technology and Management, Vol 27, No. 11, pp. 179–181, Nov. 2010 (in Chinese)</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Chen Ting</author>
+</authors>
+<title>Research on the teaching reform of</title>
+<date>2010</date>
+<journal>C Language Programming,”</journal>
+<volume>27</volume>
+<pages>182--184</pages>
+<note>(in Chinese)</note>
+<contexts>
+<context citStr="[9]" endWordPosition="358" position="2354" startWordPosition="358">of the most popular teaching programming languages [3]-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in [10]-[12]. In this paper, the computer programming time on homework, final grades and grades of the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The Chi-Square Goodness-of-Fit Test is used to verify that final grades and ZCGTBII grades of this teaching class subject to the normal distribution. This is what we expect to be. Students of this teaching class are divided into two groups based on students’ computer programming time on homework and minimum computer programming time on homework that t</context>
+</contexts>
+<marker>[9]</marker>
+<rawString>Chen Ting, “Research on the teaching reform of C Language Programming,” Vol 27, No. 10, pp. 182–184, Oct. 2010 (in Chinese)</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Romero</author>
+<author>S Ventura</author>
+</authors>
+<title>Educational data mining: a survey from</title>
+<date>1995</date>
+<journal>Expert Systems with Applications,</journal>
+<volume>33</volume>
+<pages>135--146</pages>
+<note>to</note>
+<contexts>
+<context citStr="[10]" endWordPosition="366" position="2409" startWordPosition="366">-[7]. Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in [10]-[12]. In this paper, the computer programming time on homework, final grades and grades of the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The Chi-Square Goodness-of-Fit Test is used to verify that final grades and ZCGTBII grades of this teaching class subject to the normal distribution. This is what we expect to be. Students of this teaching class are divided into two groups based on students’ computer programming time on homework and minimum computer programming time on homework that the course of the C programming language syllabus prescr</context>
+</contexts>
+<marker>[10]</marker>
+<rawString>C. Romero and S. Ventura, “Educational data mining: a survey from 1995 to 2005,” Expert Systems with Applications, Vol. 33, Issue 1, pp. 135-146, July 2007</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Baker</author>
+<author>K Yacef</author>
+</authors>
+<title>The state of educational data mining in 2009: A review and future visions,”</title>
+<date>2009</date>
+<journal>J. Educ. DataMining,</journal>
+<volume>1</volume>
+<pages>3--17</pages>
+<marker>[11]</marker>
+<rawString>R. Baker and K. Yacef, “The state of educational data mining in 2009: A review and future visions,” J. Educ. DataMining, vol. 1, no. 1, pp. 3–17, 2009.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Crist´obal Romero</author>
+<author>Sebasti´an Ventura</author>
+</authors>
+<title>Educational Data Mining: A Review of the State of the Art,” IEEE transactions on systems, man, and cybernetics -- part c: applications and reviews,</title>
+<date>2010</date>
+<volume>40</volume>
+<pages>601--618</pages>
+<contexts>
+<context citStr="[12]" endWordPosition="366" position="2414" startWordPosition="366"> Harry H. Cheng listed ten good reasons to teach and learn the C programming language [7]. To learn the C programming language, a student needs to practice programming on computers. It is generally considered that the computer programming time of a student directly affects his performance on the course of the C programming language. There is little research regarding the effects of computer programming time and a student's progress learning the C programming language. Some experimental teaching systems and reforms were presented in [8][9]. Educational data mining methods were reviewed in [10]-[12]. In this paper, the computer programming time on homework, final grades and grades of the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The Chi-Square Goodness-of-Fit Test is used to verify that final grades and ZCGTBII grades of this teaching class subject to the normal distribution. This is what we expect to be. Students of this teaching class are divided into two groups based on students’ computer programming time on homework and minimum computer programming time on homework that the course of the C programming language syllabus prescribed </context>
+</contexts>
+<marker>[12]</marker>
+<rawString>Crist´obal Romero and Sebasti´an Ventura, “Educational Data Mining: A Review of the State of the Art,” IEEE transactions on systems, man, and cybernetics -- part c: applications and reviews, vol. 40, no. 6, pp601-618, November 2010.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>NISTSEMATECH</author>
+</authors>
+<title>Engineering Statistics Handbook,”</title>
+<note>http://www.itl.nist.gov/div898/handbook.</note>
+<contexts>
+<context citStr="[13]" endWordPosition="616" position="3962" startWordPosition="616">ple Pooled T-Test is employed to analyze the final grades and the ZCGTBII grades of the two groups of students. The rest of the paper is organized as follows. Section II gives an overview of some hypothesis tests that will be used in following sections. Section III introduces how to collect the analysis data. Section IV presents students’ grades analysis methods. Finally, conclusions are drawn in Section V. II. HYPOTHESIS TEST OVERVIEW A. Chi-Square Goodness-of-Fit Test The Chi-square Goodness-of-Fit Test is used to test if a sample of data comes from a population with a specific distribution [13]. Given a random samples of measurements, nXXX ,, 21 , The chi-square test is defined for the hypothesis: H0: The data follow a specified distribution. 978-1-4673-0242-5/12/$31.00 ©2012 IEEE The 7th International Conference on Computer Science &amp; Education (ICCSE 2012) July 14-17, 2012. Melbourne, Australia 1584 ThE3.7 Ha: The data do not follow the specified distribution. Test Statistic: For the chi-square goodness-of-fit computation, the data are divided into k bins and the test statistic is defined as  = −= k i iii EEO 1 22 /)(χ Where iO is the observed frequency for bin i and iE is the ex</context>
+<context citStr="[13]" endWordPosition="847" position="5306" startWordPosition="847">r the distribution being tested, uY is the upper limit for class i , lY is the lower limit for class i and N is the sample size. The test statistic follows, approximately, a chi-square distribution with )1( −− rk degrees of freedom where k is the number of non-empty cells and r is the number of estimated parameters. Therefore, the hypothesis that the data are from a population with the specified distribution is rejected if 2 )1,( 2 −− &gt; rkαχχ Where 2 )1,( −−rkαχ is the chi-square percent point function with )1( −− rk degrees of freedom and a significance level ofα . B. Two-Sample Pooled T-Test[13][14] Given two random samples of measurements, 1 ,, 21 nYYY  and 2,, 21 nZZZ  , which have samples of size 1n and 2n , respectively, are drawn from two populations with means 1μ and 2μ , and variances 2 1σ and 22σ . The following hypothesis test can be used to test that the variances 21σ and 2 2σ are equivalent or not. H0: The variances 21σ and 2 2σ are equivalent. Ha: The variances 21σ and 2 2σ are not equivalent. The test statistic is 2 2 2 1 / SSF = Where  = −= 1 1 2 1 1 )( 1 n i i YYn S ,  = −= 2 1 2 2 2 )( 1 n i i ZZn S The test statistic F follows F-distribution with the numerator de</context>
+</contexts>
+<marker>[13]</marker>
+<rawString>NIST/SEMATECH, ̌ Engineering Statistics Handbook,” http://www.itl.nist.gov/div898/handbook.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ribakd E Walpole</author>
+<author>Raymond H Myers</author>
+<author>L Sharon</author>
+</authors>
+<title>Myers and Keying Ye, “Probability &amp; statistics for engineers &amp; scientists,” 7th edition,</title>
+<date>2002</date>
+<publisher>Prentice Hall,</publisher>
+<contexts>
+<context citStr="[14]" endWordPosition="847" position="5310" startWordPosition="847">e distribution being tested, uY is the upper limit for class i , lY is the lower limit for class i and N is the sample size. The test statistic follows, approximately, a chi-square distribution with )1( −− rk degrees of freedom where k is the number of non-empty cells and r is the number of estimated parameters. Therefore, the hypothesis that the data are from a population with the specified distribution is rejected if 2 )1,( 2 −− &gt; rkαχχ Where 2 )1,( −−rkαχ is the chi-square percent point function with )1( −− rk degrees of freedom and a significance level ofα . B. Two-Sample Pooled T-Test[13][14] Given two random samples of measurements, 1 ,, 21 nYYY  and 2,, 21 nZZZ  , which have samples of size 1n and 2n , respectively, are drawn from two populations with means 1μ and 2μ , and variances 2 1σ and 22σ . The following hypothesis test can be used to test that the variances 21σ and 2 2σ are equivalent or not. H0: The variances 21σ and 2 2σ are equivalent. Ha: The variances 21σ and 2 2σ are not equivalent. The test statistic is 2 2 2 1 / SSF = Where  = −= 1 1 2 1 1 )( 1 n i i YYn S ,  = −= 2 1 2 2 2 )( 1 n i i ZZn S The test statistic F follows F-distribution with the numerator degree</context>
+</contexts>
+<marker>[14]</marker>
+<rawString>Ribakd E. Walpole, Raymond H. Myers, Sharon L. Myers and Keying Ye, “Probability &amp; statistics for engineers &amp; scientists,” 7th edition, Prentice Hall, 2002.</rawString>
+</citation>
+<citation valid="false">
+<journal>the C Programming Language,” unpublished.</journal>
+<institution>Teaching committee of Instructional Division of Computer Technology, Zhejiang Sci-Tech University, “Syllabus Of</institution>
+<contexts>
+<context citStr="[15]" endWordPosition="1185" position="6845" startWordPosition="1185">woSample Pooled T-Test can be used to test the relation of the means 1μ and 2μ . H0: δμμ ≥− 21 . Ha: δμμ &lt;− 21 . The test statistic is 21 /1/1 )( nnS ZYt + −− = δ Where 2 )1()1( 21 2 2 21 2 12 −+ −+− = nn nSnSS  = = 1 11 1 n i iYn Y ,  = = 2 12 1 n i iZn Z The test statistic t follows t-distribution with 221 −+= nnv degrees of freedom. Therefore, the hypothesis H0 is rejected if: vtt ,α−≤ Where vt ,α is the t-value with 221 −+= nnv degrees of freedom and a significance level ofα . III. DATA COLLECTION According to teaching syllabus of the course of the C Programming Language revised in 2008 [15], teaching activities include 16 lectures and 16 computer programming classes. Each lecture has two class hours and each computer programming class has three class hours. There is homework after each computer programming class. Students are asked 1585 ThE3.7 to spend at least three hours working on a programming assignment in our public computer centers. In order to analyze the relation between students’ grades and the time that students spent on programming after classes, one of C programming teaching classes is selected. This teaching class has 84 students. Students’ final grades and grades </context>
+</contexts>
+<marker>[15]</marker>
+<rawString>Teaching committee of Instructional Division of Computer Technology, Zhejiang Sci-Tech University, “Syllabus Of the C Programming Language,” unpublished.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

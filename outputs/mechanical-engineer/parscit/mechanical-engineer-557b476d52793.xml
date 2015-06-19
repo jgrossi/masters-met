@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<bodyText confidence="0.218412">
+Trans. Tianjin Univ. 2011, 17: 293-297
+DOI 10.1007/s12209-011-1643-z
+Systematic Method of Applying Structural Characteristics
+of Natural Organisms to Mechanical Structures*
+</bodyText>
+<sectionHeader confidence="0.280165" genericHeader="abstract">
+XING Denghai (行登海)，CHEN Wuyi (陈五一)
+</sectionHeader>
+<bodyText confidence="0.951595">
+(School of Mechanical Engineering and Automation, Beihang University, Beijing 100191, China)
+© Tianjin University and Springer-Verlag Berlin Heidelberg 2011
+Abstract：Structural bionic design lacks mature and scientific theories, and the excellent structural characteristics of
+natural organisms sometimes cannot be transferred into engineering structures effectively. Aiming at overcoming the
+existing problems, this paper summarizes three related theories: similarity theory, fuzzy evaluation theory and optimization theory. Based on the related theories, a method of structural bionic design is introduced, which includes four
+steps: selecting the most useful structural characteristic of natural organism; analyzing the structural characteristic
+finally chosen for engineering problem; completing the structural bionic design for engineering structure; and verifying the structural bionic design. Similarity theory and fuzzy evaluation theory are employed to achieve Step 1. In Step
+2 and Step 3, optimization theory is employed to analyze the parameters of structures. Together with the thoughts of
+simplification and grouping, optimization theory can reveal the relationship between organism structure and engineering structure, providing a way to structural bionic design. A general evaluation criterion is proposed in Step 4, which is
+feasible to evaluate the performance of different structures. Finally, based on the method, a structural bionic design of
+thin-walled cylindrical shell is introduced.
+Keywords：structural bionic design; similarity theory; fuzzy evaluation; optimization; evaluation criterion
+In human history, many creative design and innovation were invented through inspiration from nature[1]. For
+natural organisms, billions of years of evolution was a slow
+but effective process of optimization, and many excellent
+properties and ingenious frames, which artificial design
+could not always match, have been developed. They provide a new way to solve engineering problems[2,3].
+Design of mechanical structure is an important engineering field. Light structure is needed in aircraft, because it is one of the most important ways to improve the
+mobility of aircraft. The development of high speed machining tool demands structures with high stiffness and
+light weight. As a result, high demands are put forward to
+structure design, and light weight design, drag reduction
+design etc become the key issues[4,5]. However, some of
+the issues have been well solved by natural organisms.
+Zhao et al[6] improved the specific stiffness of a machine
+tool column with bionic stiffening ribs, inspired by biological skeleton and sandwich stem. By analyzing the
+structural characteristic of dragonfly wing, Ma et al [7]
+designed a bionic aircraft reinforced frame, and its specific stiffness and specific strength were increased by
+2% — 6% and 1% — 8%, respectively. Inspired by soilburrowing animals like dung beetle, Ren et al [8] designed
+bulldozer blades with rough surfaces, and found that the
+bionic surfaces could reduce the mean draft force compared with smooth ones. Selecting the dung beetle as bionic prototype, Gao et al [9] designed the working layer of
+an impregnated diamond bit, and their tests showed that
+the bionic bit improved the drilling speed and lifetime by
+44% and 74%, respectively, compared with a common bit.
+Through learning from natural organisms, some researchers have done structural bionic design for engineering
+structures successfully. However, they could not provide
+a systematic method of applying the structural characteristics of natural organisms to engineering structures.
+Some efforts have been made to approach a systematic method of structural bionic design. Ren[10] summarized several types of geometric constitutive units on the
+body surfaces of soil animals, which was very helpful for
+drag reduction design of a structure. Vincent and
+Mann[11] compared solutions of some engineering problems such as cleaning and joining surfaces by natural
+organisms with those by TRIZ (Teoriya Resheniya Izo-
+</bodyText>
+<table confidence="0.924665428571429">
+Accepted date: 2011-05-20.
+*Supported by National Natural Science Foundation of China (No. 50975012) and Research Fund for the Doctoral Program of Higher Education
+of China (No. 20091102110022).
+XING Denghai, born in 1986, male, doctorate student.
+Correspondence to XING Denghai, E-mail: xingdenghai@126.com.
+Transactions of Tianjin University
+Vol.17 No.4 2011
+</table>
+<bodyText confidence="0.967822642857143">
+bretatelskikh Zadatch) method worked out by Russian
+researchers for inventive problem solving, and noted that
+TRIZ seemed to have the main qualifications of an effective bridge between biology and engineering. However,
+they gave a good proposal rather than a systematic
+method. Zhao et al[12] introduced a flowchart of structural
+bionic design, but one of the most important parts analyzing the structural characteristics of natural organisms was
+nearly neglected. This paper is aiming at providing a systematic method, which will overcome the existing problems.
+out. Usually, function, load and geometric structure are
+the factors, which almost represent an engineering problem, so similarity degree between the structural characteristics of organism and the engineering problem in
+these three factors represents to what extent the structural
+characteristics can help engineers with the structure design. If a structural characteristic is very similar to the
+structure design of engineering problem in any factor of
+the three, it may be useful, and should be picked out. In
+this way, several possibly helpful structural characteristics can be found.
+</bodyText>
+<listItem confidence="0.4269705">
+(2) The most useful structural characteristic should
+1 Summarization of related theories
+</listItem>
+<bodyText confidence="0.995258666666667">
+be chosen from those ones. To achieve this, fuzzy evaluation theory, which uses weighted evaluation vector to
+Although it solves many engineering problems
+evaluate similarity, is employed. The weighted evaluation
+successfully, structural bionic design lacks mature and
+vector can be expressed as
+scientific theories. Here, three related theories are sumB = W × R = [ B1 , B2 , B3 ,&amp;quot;]
+</bodyText>
+<equation confidence="0.807566">
+(1)
+</equation>
+<bodyText confidence="0.955742714285714">
+marized: similarity theory, fuzzy evaluation theory and
+optimization theory. They are employed in the following where B is the weighted evaluation vector; W the weight
+vector; and R the evaluation matrix. The former three
+method of structural bionic design.
+Similarity theory is the basic theory to find the factors, which can mostly describe the engineering probsimilar characteristics between different objects. This lem, are chosen to be the factors in fuzzy evaluation. W is
+theory can help designers with the search of organisms, defined as
+(2)
+</bodyText>
+<equation confidence="0.989622">
+W = [ w1 , w2 , w3 ] = [ 0.45,0.35,0.2]
+</equation>
+<bodyText confidence="0.994518777777778">
+which are similar to engineering structure.
+Fuzzy evaluation theory is a quantitative evaluation where w1, w2 and w3 represent weighting coefficients of
+method for multi-factor problem. It gives a quantitative function, load and geometric structure respectively. Funcvalue by calculating the weighted average of all the fac- tion is the most important factor of the three, because
+tors. Fuzzy evaluation theory provides a feasible way to structural characteristics with different functions is much
+find the most useful structural characteristic of organism less useful for the engineering problem. Hence, it is assigned the maximum value. Geometric structure is what
+among several ones.
+Optimization theory is to optimize the objective needs to be improved, so it is assigned the minimum value.
+R is defined as
+function by mathematical iteration in the design domain.
+</bodyText>
+<equation confidence="0.857798666666667">
+⎡ R11 R12 R13 &amp;quot;⎤
+Optimization theory is used during structural bionic de(3)
+R = [ R1 , R2 , R3 ,&amp;quot;] = ⎢ R21 R22 R23 &amp;quot;⎥
+</equation>
+<bodyText confidence="0.9702263125">
+sign to reveal how parameters affect the whole structure
+⎢⎣ R31 R32 R33 &amp;quot;⎥⎦
+and the function of an organism, and to optimize some of
+The evaluation matrix of structural characteristic
+the parameters for the engineering.
+number i is Ri, and R1i, R2i and R3i represent its evaluation
+value for the factor of function, load and geometric struc2 Method of structural bionic design
+ture, respectively. Values of R1i, R2i and R3i should be
+The method of structural bionic design includes four carefully assigned according to the similarity between the
+structural characteristics of organism and engineering
+steps.
+Step 1 Selecting the most useful structural charac- problem, because they can affect the weighted evaluation
+teristic of natural organism. There are many excellent vector, which is the basis to choose the structural characstructural characteristics in nature, but not all of them are teristics to be used in structural bionic design for the ensuitable for the structure design of the engineering prob- gineering problem.
+By comparison of the values in the weighted evalualem that needs to be solved. Hence, useful structural
+tion vector, the one with the maximum value, which is
+characteristics should be chosen from them.
+</bodyText>
+<listItem confidence="0.64961975">
+(1) Several structural characteristics, which are pos- also the most useful, will be chosen.
+Step 2 Analyzing the structural characteristics fisibly helpful for the structure design, should be picked
+—294—
+XING Denghai et al: Systematic Method of Applying Structural Characteristics of Natural Organisms to Mechanical Structures
+</listItem>
+<bodyText confidence="0.909857138888889">
+nally chosen for the engineering problem. After the structural characteristics, such as non-smooth surfaces, graded
+structures, hierarchical structures, is picked out, it cannot
+be used in structure design directly, because it is just a
+guideline. To transfer this guideline into structural bionic
+design, the following analyses should be done.
+(1) Simplifying the structure of natural organism.
+The structure of natural organism, which is usually complex, is not suitable to be analyzed and machined, so
+simplification is needed. Aiming at solving engineering
+problem, simplification should be done according to the
+function of engineering structure. The function of engineering structure indicates which parts of organisms are
+important, while the others are not. For example, if the
+function of engineering structure is to reduce drag force,
+the surface characteristics of organism should be paid
+more attention, while the internal structure is not important.
+Considering manufacturability, some simple geometric models such as circles, rectangles and cuboids are
+employed here. Through division, a complex structure of
+organism can usually be divided into several less complex parts, which may contain surfaces and inner supporting parts. If surfaces are important, some points on surfaces are measured, and then surface fitting method is
+used to build the complex model. If surfaces are not important, the combined surface from simple surfaces like
+planes, cylinder surfaces and spherical surfaces will make
+sense. Common structures in engineering like cylinder
+bars and cuboid beams can replace the inner supporting
+parts of organism structure. Fig.1 is an example, which
+shows the structural bionic design for a thin-walled cylindrical shell based on the cross-section structure of
+bamboo. In the process of simplification, combined structure of big rings and small rings replace the complex one
+in bamboo cross-section.
+Fig.1
+Simplification of bamboo cross-section[13]
+(2) Extracting and analyzing the parameters of the
+simplified structure. The parameters could be found
+mostly from parameters of the simple geometric models
+used in the simplified structure. For example, the parameters of the simplified structure in Fig.1 are those of the
+rings. For each parameter, single-factor optimization is
+done in finite element analysis software, taking the performance of achieving the function of engineering structure as the objective and the result indicates how the parameter affects the structure of organism. According to
+the effect, these parameters will be divided into two
+groups, Groups A and B, and they will be treated differently in the following step. If the optimal value of a parameter makes the structural characteristics of the simplified structure agree with that of organism, it will be included in Group A; otherwise, it will be put into Group B.
+Step 3 Completing the structural bionic design for
+</bodyText>
+<listItem confidence="0.8643825">
+engineering structure.
+(1) Designing a preliminary bionic structure. If surfaces are important, the approximate surfaces will be applied to the design of the preliminary bionic structure by
+surface fitting method with some structural adjustment in
+its parameters. If the inner supporting parts are important,
+</listItem>
+<bodyText confidence="0.960153619047619">
+they should be designed using the simple geometric models, which are employed in the simplified structure of
+organism, gradually, hierarchically or in branch style according to the chosen structural characteristics. By
+changing the diameters of different rings according to
+engineering problem, the simplified structure in Fig.1 can
+be designed as the preliminary bionic structure.
+The parameters of the preliminary bionic structure
+can be found from those of the simple geometric models,
+which are employed here.
+(2) Assigning the values of parameters. After the
+preliminary bionic structure was achieved, it is time to
+handle the parameters. If a parameter is in Group A, its
+final value is the optimal value coming from single-factor
+optimization of the preliminary bionic structure. Values
+of parameters in Group B will be decided by multi-factor
+optimization. However, there is a possibility that the preliminary bionic structure is too complex to do multifactor optimization. If so, do several single-factor optimizations to give every parameter an initial value, and then
+search groups of values nearby by hand, and find the best
+group among them. Once the values of all parameters are
+assigned, the bionic structure is completed.
+Step 4 Verifying the structural bionic design. There
+are two important points, the evaluation criterion for
+comparison and design of the contrastive structure.
+</bodyText>
+<listItem confidence="0.901374666666667">
+(1) The evaluation criterion for comparison is usually dependent on the requirement of the engineering
+problem. The evaluation criterion should reflect the effect
+of both positive and negative influencing factors. A general evaluation criterion proposed in this paper is ex—295—
+</listItem>
+<table confidence="0.5606685">
+Transactions of Tianjin University
+Vol.17 No.4 2011
+</table>
+<bodyText confidence="0.9424285">
+shown in Fig.2. One end of the shell is simply supported
+(radial displacement is constrained), and bears an axial
+(4) uniform pressure P. The other end is clamped. According
+to the similarity in the factors of function, load and geowhere η is evaluation value; Fi positive factor; fj negative metric structure, three kinds of structural characteristics
+factor; n number of positive factors; m number of of organisms were found: gradient structure of bamboo
+negative factors. η can reflect every factor in a right way, cross-section, porous structure of wood and layered comand, to some extent, it can be a quantitative reference for posite structure of seashells.
+comparison.
+(2) The conventional design for engineering structure is the best as a contrastive structure. When there is
+more than one factor, the contrastive structure should be
+designed conventionally, eliminating the influence of
+minor factors. Designing two structures with the same
+values in minor factors is a good way to eliminate their
+Fig.2 Buckling problem of thin-walled cylindrical shells
+influences.
+The weighted evaluation vector was calculated in
+There are two ways to compare the two structures.
+Eq.(5),
+and gradient structure of bamboo cross-section
+One is through finite element analysis software. Some
+software like ANSYS is a powerful tool to analyze me- got the maximum value, 0.845. Gradient structure was
+chanical properties of structures. Besides, experimental chosen for the structural bionic design of thin-walled cylindrical shell.
+verification is the other effective way for comparison.
+⎡ 0.9 0.6 0.8⎤
+Compare the bionic structure with the contrastive
+</bodyText>
+<equation confidence="0.659569">
+B = W × R = [ 0.45,0.35,0.2] × ⎢ 0.8 0.7 0.4⎥ =
+⎢⎣ 0.8 0.8 0.4 ⎥⎦
+</equation>
+<bodyText confidence="0.942776451612903">
+one. If the bionic one is better, the structural bionic design for the engineering problem is effective. Otherwise,
+(5)
+[0.845,0.675,0.58]
+the design fails, and some other structural characteristics
+Fig.1 shows the process of simplifying bamboo
+in the weighted evaluation vector are needed to be added
+cross-section. Small cylindrical shells were employed in
+into Step 2, which means that the design should restart
+the process, and they were simple and easy to machine.
+from Step 2. Under this condition, more than one strucFor the simplified structure, seven parameters were found
+tural characteristic are used, and they should be combined
+to describe it (shown in Fig.3(a)). The basic parameters
+and analyzed in Step 2.
+affecting the performance and distribution were d and T.
+The function of the shell was to improve the buck3 Case study
+ling load, so the buckling load was taken as the objective.
+Thin-walled cylindrical shell is one of the most Meantime, the total mass was kept invariant. Through
+common structures, and it is widely used in the manufac- analysis in finite element software ANSYS, it was found
+turing of aircraft, automobiles, missile, boilers, pipelines that the value of d made the structural characteristics of
+etc. However, thin-walled cylindrical shells are easy to the simplified structure agree with gradient distribution
+buckle, and this may significantly reduce the resistance of of bamboo cross-section. Parameter T made the structure
+the shell against other forces like bending. Meanwhile, tend toward a uniform distribution. Hence, d1 and d2 were
+thin-walled cylindrical shells should be designed as light included in Group A, and the others were in Group B.
+As mentioned above, the simplified structure in
+as possible, which is beneficial especially to aircraft.
+Hence, there is a great need to improve its buckling load Fig.3(a) could be used as the preliminary bionic strucagainst axial compression and reduce its weight. The ture with some structural adjustment in its parameters.
+process of structural bionic design can be described as Values of parameters d1 and d2 were assigned through
+single-factor optimization, and values of other parameters
+follows.
+The function of the shell is to improve the load- were given by searching among groups of values. There
+bearing ability in axial direction and avoid buckling. are two factors influencing the evaluation of the thinBuckling problem of thin-walled cylindrical shells is walled cylindrical shell against buckling, i.e., the buckpressed as
+</bodyText>
+<equation confidence="0.902280166666667">
+n
+m
+⎧
+⎪η = ∏ Fi ∏ f j
+⎨
+i =0
+j =0
+⎪ F = 1, f = 1
+0
+⎩ 0
+—296—
+XING Denghai et al: Systematic Method of Applying Structural Characteristics of Natural Organisms to Mechanical Structures
+</equation>
+<bodyText confidence="0.991850333333333">
+ling load and mass. The buckling load needs to be de- in Tab.1. The bionic structure is much better than the
+signed as high as possible, and it is a positive factor. In contrastive one, and the improvement is 44.7%.
+contrast, the mass is a negative factor. Hence, the evaluation criterion can be expressed as
+</bodyText>
+<equation confidence="0.82004025">
+F
+η=
+(6)
+M
+</equation>
+<bodyText confidence="0.9809">
+where η is the evaluation criterion; F critical buckling
+load; and M structure mass.
+The contrastive structure (its cross-section is shown
+</bodyText>
+<figure confidence="0.941821875">
+(a) Bionic structure
+(b) Contrastive structure
+in Fig.3(b)) was designed with the same mass as the bi
+Fig.3
+Cross-sections
+of
+bionic
+structure
+</figure>
+<figureCaption confidence="0.885358">
+and its contrastive one
+onic structure. Their values of η were compared as listed
+</figureCaption>
+<figure confidence="0.909407125">
+Tab.1 Comparison of bionic structure and its contrastive one
+Load-bearing efficiency /(kN·kg 1)
+-
+4
+Contrastive structure
+159.9
+Conclusions
+(1) Three related theories, similarity theory, fuzzy
+</figure>
+<bodyText confidence="0.705706166666667">
+evaluation theory and optimization theory, are summarized. They are the basis of the method proposed in this
+paper.
+(2) Analyses of the structural characteristics of organism for engineering problems, which are usually neglected, are emphasized, and a feasible way is introduced.
+This step is the main part, which builds bridges between
+the structural characteristics of organisms and engineering structures, and it is crucial for the method of structural bionic design. Through simplifying organism structure and grouping its parameters, the structural characteristics of organisms can be extracted and transferred into
+engineering structures.
+</bodyText>
+<listItem confidence="0.911355">
+(3) A general evaluation criterion is proposed. It
+can reflect the effect of both positive and negative influencing factors in a right way, and is a quantitative reference for the comparison between two different designs
+for engineering problem.
+(4) This paper proposes a systematic method of
+</listItem>
+<bodyText confidence="0.99286925">
+structural bionic design. Based on the method, a bionic
+thin-walled cylindrical shell is designed, and its loadbearing efficiency is improved by as much as 44.7%.
+Through structural bionic design of the shell, the method
+is confirmed to be a feasible and effective one.
+</bodyText>
+<sectionHeader confidence="0.921321" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.859396">
+［1］ Yoseph B C. Biomimetics: Using nature to inspire human
+innovation[J]. Bioinspiration &amp; Biomimetics, 2006, 1(1):
+</reference>
+<figure confidence="0.686750571428571">
+1-12.
+［2］ Vincent J F V. Applications: Influence of biology on engineering[J]. Journal of Bionic Engineering, 2006, 3(3):
+Bionic structure
+213.5
+Percentage of improvement
+44.7%
+161-177.
+</figure>
+<reference confidence="0.99551446875">
+［3］ Lu Y X. Significance and progress of bionics[J]. Journal
+of Bionic Engineering, 2004, 1(1): 1-3.
+［4］ Smith S, Tlusty J. Current trends in high-speed machining[J]. Journal of Manufacturing Science and Engineering, 1997, 119(4B): 664-666.
+［5］ Ren L Q, Chen D X, Chen B C. A summary of study on
+soil adhesion[J]. Transactions of CSAE, 1990, 6(1): 1-7
+(in Chinese).
+［6］ Zhao L, Chen W Y, Ma J F et al. Structural bionic design
+and experimental verification of a machine tool column[J]. Journal of Bionic Engineering, 2008, 5 (Suppl):
+46-52.
+［7］ Ma J F, Chen W Y, Zhao L et al. Bionic design of aircraft
+reinforced frame based on structure of dragonfly wing[J].
+Acta Aeronautica Et Astronautica Sinica, 2009, 30(3):
+562-569(in Chinese).
+［8］ Ren L Q, Han Z W, Li J Q et al. Experimental investigation
+of bionic rough curved soil cutting blade surface to reduce
+soil adhesion and friction[J]. Soil &amp; Tillage Research,
+2006, 85(1/2): 1-12.
+［9］ Gao K, Sun Y H, Gao R F et al. Application and prospect
+of bionic non-smooth theory in drilling engineering[J].
+Petroleum Exploration and Development, 2009, 36(4):
+519-522, 540.
+［10］ Ren L Q. Progress in the bionic study on anti-adhesion and
+resistance reduction of terrain machines[J]. Science in
+China Series E: Technological Science, 2009, 52(2): 273284.
+［11］ Vincent J F V, Mann D L. Systematic technology transfer
+from biology to engineering[J]. Philosophical Transactions of the Royal Society of London A, 2002, 360(1791):
+159-173.
+［12］ Zhao L, Ma J F, Wang T et al. Lightweight design of mechanical structures based on structural bionic methodology
+[J]. Journal of Bionic Engineering, 2010, 7(Suppl): 224231.
+［13］ Ma J F, Chen W Y, Zhao L et al. Bionic design of columnar
+structure based on microstructure of bamboo[J]. Journal
+of Machine Design, 2008, 25(12): 50-52(in Chinese).
+</reference>
+<page confidence="0.706718">
+—297—
+</page>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>B C Yoseph</author>
+</authors>
+<title>Biomimetics: Using nature to inspire human innovation[J].</title>
+<date>2004</date>
+<journal>Bioinspiration &amp; Biomimetics,</journal>
+<volume>1</volume>
+<issue>1</issue>
+<pages>1--3</pages>
+<marker>Yoseph, 2004</marker>
+<rawString>［1］ Yoseph B C. Biomimetics: Using nature to inspire human innovation[J]. Bioinspiration &amp; Biomimetics, 2006, 1(1): ［3］ Lu Y X. Significance and progress of bionics[J]. Journal of Bionic Engineering, 2004, 1(1): 1-3.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Smith</author>
+<author>J Tlusty</author>
+</authors>
+<title>Current trends in high-speed machining[J].</title>
+<date>1997</date>
+<journal>Journal of Manufacturing Science and Engineering,</journal>
+<pages>119--4</pages>
+<marker>Smith, Tlusty, 1997</marker>
+<rawString>［4］ Smith S, Tlusty J. Current trends in high-speed machining[J]. Journal of Manufacturing Science and Engineering, 1997, 119(4B): 664-666.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Q Ren</author>
+<author>D X Chen</author>
+<author>B C Chen</author>
+</authors>
+<title>A summary of study on soil adhesion[J].</title>
+<date>1990</date>
+<journal>Transactions of CSAE,</journal>
+<volume>6</volume>
+<issue>1</issue>
+<pages>1--7</pages>
+<note>(in Chinese).</note>
+<marker>Ren, Chen, Chen, 1990</marker>
+<rawString>［5］ Ren L Q, Chen D X, Chen B C. A summary of study on soil adhesion[J]. Transactions of CSAE, 1990, 6(1): 1-7 (in Chinese).</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Zhao</author>
+<author>W Y Chen</author>
+<author>J F Ma</author>
+</authors>
+<title>Structural bionic design and experimental verification of a machine tool column[J].</title>
+<journal>Journal of Bionic Engineering,</journal>
+<volume>2008</volume>
+<marker>Zhao, Chen, Ma, </marker>
+<rawString>［6］ Zhao L, Chen W Y, Ma J F et al. Structural bionic design and experimental verification of a machine tool column[J]. Journal of Bionic Engineering, 2008, 5 (Suppl): 46-52. ［7］ Ma J F, Chen W Y, Zhao L et al. Bionic design of aircraft reinforced frame based on structure of dragonfly wing[J].</rawString>
+</citation>
+<citation valid="true">
+<title>Acta Aeronautica Et Astronautica Sinica,</title>
+<date>2009</date>
+<volume>30</volume>
+<issue>3</issue>
+<pages>562--569</pages>
+<note>Chinese).</note>
+<marker>2009</marker>
+<rawString>Acta Aeronautica Et Astronautica Sinica, 2009, 30(3): 562-569(in Chinese).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Q Ren</author>
+<author>Z W Han</author>
+<author>J Q Li</author>
+</authors>
+<title>Experimental investigation of bionic rough curved soil cutting blade surface to reduce soil adhesion and friction[J].</title>
+<date>2006</date>
+<journal>Soil &amp; Tillage Research,</journal>
+<volume>85</volume>
+<issue>1</issue>
+<pages>1--12</pages>
+<marker>Ren, Han, Li, 2006</marker>
+<rawString>［8］ Ren L Q, Han Z W, Li J Q et al. Experimental investigation of bionic rough curved soil cutting blade surface to reduce soil adhesion and friction[J]. Soil &amp; Tillage Research, 2006, 85(1/2): 1-12. ［9］ Gao K, Sun Y H, Gao R F et al. Application and prospect of bionic non-smooth theory in drilling engineering[J].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Petroleum Exploration</author>
+<author>Development</author>
+</authors>
+<date>2009</date>
+<volume>36</volume>
+<issue>4</issue>
+<pages>519--522</pages>
+<marker>Exploration, Development, 2009</marker>
+<rawString>Petroleum Exploration and Development, 2009, 36(4): 519-522, 540.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Q Ren</author>
+</authors>
+<title>Progress in the bionic study on anti-adhesion and resistance reduction of terrain machines[J].</title>
+<date>2009</date>
+<booktitle>Science in China Series E: Technological Science,</booktitle>
+<volume>52</volume>
+<issue>2</issue>
+<pages>273284</pages>
+<marker>Ren, 2009</marker>
+<rawString>［10］ Ren L Q. Progress in the bionic study on anti-adhesion and resistance reduction of terrain machines[J]. Science in China Series E: Technological Science, 2009, 52(2): 273284.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J F V Vincent</author>
+<author>D L Mann</author>
+</authors>
+<title>Systematic technology transfer from biology to engineering[J].</title>
+<date>2002</date>
+<journal>Philosophical Transactions of the Royal Society of London A,</journal>
+<volume>360</volume>
+<issue>1791</issue>
+<pages>159--173</pages>
+<marker>Vincent, Mann, 2002</marker>
+<rawString>［11］ Vincent J F V, Mann D L. Systematic technology transfer from biology to engineering[J]. Philosophical Transactions of the Royal Society of London A, 2002, 360(1791): 159-173.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Zhao</author>
+<author>J F Ma</author>
+<author>T Wang</author>
+</authors>
+<title>Lightweight design of mechanical structures based on structural bionic methodology [J].</title>
+<journal>Journal of Bionic Engineering,</journal>
+<volume>2010</volume>
+<pages>224231</pages>
+<marker>Zhao, Ma, Wang, </marker>
+<rawString>［12］ Zhao L, Ma J F, Wang T et al. Lightweight design of mechanical structures based on structural bionic methodology [J]. Journal of Bionic Engineering, 2010, 7(Suppl): 224231.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J F Ma</author>
+<author>W Y Chen</author>
+<author>L Zhao</author>
+</authors>
+<title>Bionic design of columnar structure based on microstructure of bamboo[J].</title>
+<journal>Journal of Machine Design,</journal>
+<volume>25</volume>
+<issue>12</issue>
+<pages>50--52</pages>
+<institution>Chinese).</institution>
+<marker>Ma, Chen, Zhao, </marker>
+<rawString>［13］ Ma J F, Chen W Y, Zhao L et al. Bionic design of columnar structure based on microstructure of bamboo[J]. Journal of Machine Design, 2008, 25(12): 50-52(in Chinese).</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

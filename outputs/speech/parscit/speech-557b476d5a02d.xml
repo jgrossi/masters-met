@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<table confidence="0.192929">
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+DOI 10.1007/s00405-010-1256-5
+</table>
+<sectionHeader confidence="0.942719" genericHeader="abstract">
+RHINOLOGY
+</sectionHeader>
+<bodyText confidence="0.799533">
+The use of automatic speech recognition showing the influence
+of nasality on speech intelligibility
+</bodyText>
+<listItem confidence="0.902668333333333">
+S. Mayr • K. Burkhardt • M. Schuster
+K. Rogler • A. Maier • H. Iro
+•
+</listItem>
+<bodyText confidence="0.910814380952381">
+Received: 16 November 2009 / Accepted: 12 April 2010 / Published online: 27 April 2010
+Ó Springer-Verlag 2010
+Abstract Altered nasality influences speech intelligibility. Automatic speech recognition (ASR) has proved
+suitable for quantifying speech intelligibility in patients
+with different degrees of nasal emissions. We investigated
+the influence of hyponasality on the results of speech recognition before and after nasal surgery using ASR. Speech
+recordings, nasal peak inspiratory flow and self-perception
+measurements were carried out in 20 German-speaking
+patients (8 women, 12 men; aged 38 ± 22 years) who
+underwent surgery for various nasal and sinus pathologies.
+The degree of speech intelligibility was quantified as the
+percentage of correctly recognized words of a standardized
+word chain by ASR (word recognition rate; WR). WR was
+measured 1 day before (t1), 1 day after with nasal packings
+(t2), and 3 months after (t3) surgery; nasal peak flow on t1
+and t3. WR was calculated with program for the automatic
+evaluation of all kinds of speech disorders (PEAKS). WR
+as a parameter of speech intelligibility was significantly
+decreased immediately after surgery (t1 vs. t2 p \ 0.01)
+but increased 3 months after surgery (t2 vs. t3 p \ 0.01).
+S. Mayr (&amp;) Á K. Burkhardt Á K. Rogler Á H. Iro
+</bodyText>
+<affiliation confidence="0.729145">
+Department of Otolaryngology, Head and Neck Surgery,
+University Hospital, University Erlangen-Nuremberg,
+</affiliation>
+<table confidence="0.487349222222222">
+Waldstrasse 1, 91054 Erlangen, Germany
+e-mail: susanne.mayr@uk-erlangen.de
+M. Schuster
+Division of Phoniatrics and Pedaudiology, University Hospital,
+University Erlangen-Nuremberg, Bohlenplatz 21,
+91054 Erlangen, Germany
+A. Maier
+Pattern Recognition Lab, School of Engineering,
+University Erlangen-Nuremberg, Martensstrasse 3,
+</table>
+<address confidence="0.565664">
+91058 Erlangen, Germany
+</address>
+<bodyText confidence="0.982726285714286">
+WR showed no association with age or gender. There was
+no significant difference between WR at t1 and t3, despite a
+post-operative increase in nasal peak inspiratory flow
+measurements. The results show that ASR is capable of
+quantifying the influence of hyponasality on speech; nasal
+obstruction leads to significantly reduced WR and nasal
+peak flow cannot replace evaluation of nasality.
+</bodyText>
+<sectionHeader confidence="0.671851" genericHeader="keywords">
+Keywords Sinus surgery Á Nasality Á
+</sectionHeader>
+<bodyText confidence="0.981311315789474">
+Speech intelligibility Á Automatic speech recognition Á
+Word recognition rate Á Nasal peak inspiratory flow
+Introduction
+Speech is a superior achievement of human communication, demonstrating the ability to present thoughts with
+articulation and voice [1]. Voice is itself determined by two
+factors, the voice source and the vocal tract. Anatomically,
+the larynx serves as tone generator [2]. This primary signal
+is further modulated by characteristics of the cross-sectional area of the vocal tract, involving the supraglottic
+space, including the pharynx, nasal cavity, and paranasal
+sinuses [2]. Even minor alterations in these structures may
+lead to changes in voice and thereby influence speech
+intelligibility.
+Research in this field has focused on various factors that
+influence speech intelligibility. Studies have been undertaken to assess speech quality in patients with cleft palate,
+motor speech disorders, and hearing impairment [3–5].
+However, the relationship between speech intelligibility,
+nose and sinus pathologies, as well as the effects of surgical
+treatments, has not been adequately explored [6]. In contrast, several studies have investigated sinus symptoms
+such as nasal obstruction, rhinorrhoea, loss of smell etc.,
+</bodyText>
+<page confidence="0.954401">
+123
+1720
+</page>
+<bodyText confidence="0.999862408163265">
+in attempts to identify the most suitable techniques for
+surgery to nose and paranasal sinuses [7–11].
+Research on the function of the sinuses themselves has
+been carried out for many years [12–14]. In addition to the
+important functions of air-conditioning, olfaction, and filtering, pneumatisation may serve to decrease the weight of
+the head, and sinuses are assumed an important acoustic
+resonator modulating voice [6, 15]. The secretory mucosal
+function, with active convection of water into the sinuses,
+leads to saturation of the inspiratory air with water [16].
+One of the main functions of surgery on pathologies of
+nose and paranasal sinuses is to increase aeration, in order
+to reduce inflammation in these cavities [17].
+Changes in nasality are thought to influence speech
+intelligibility [6]. Nasal obstruction, especially of the nasal
+cavity, is one of the main factors in decreasing nasality [5].
+Often the presence of hyponasality is of minor interest in
+clinical evaluations, even though it is of major interest for
+patients—especially with high demands on their speech.
+However, speech evaluation prior to endonasal surgery is
+neither routinely performed nor standardized. Perceptual
+evaluation by several listeners is presently accepted as an
+‘‘objective’’ assessment of nasality. Here, nasal vowels
+such as /m/, /n/, and /ng/ are altered or replaced by
+pre-nasal plosives. It appears as decreased nasal resonance
+with a dull, obstructed-sounding voice. If consonants,
+especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present.
+Air leaks through the nose, the intraoral pressure of air is
+reduced, and the acuity of oral consonants is decreased [18]
+by changing resonance functions and altered formant
+structure of the phoneme [19]. MRI studies of the spectral
+characteristics of human nasal sounds showed that the
+paranasal sinuses have an important role in shaping these
+functions [20]. Further investigation of the effects of sinus
+surgery supported this assumption [6, 21].
+Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech
+intelligibility and showed very good concordance with
+perceptual evaluation [3, 4, 22].
+ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or
+dictating systems. It relies on the analysis of acoustic
+properties of speech and often includes phonetic and
+linguistic knowledge using stochastic methods [23, 24]. ASR
+is now increasingly being used to quantify speech alterations
+for medical purposes [25]. For the ASR system presented
+here, the percentage of correctly recognized words of a
+known sequence (word recognition rate; WR) corresponds to
+speech intelligibility. Thus, the method can be used to
+evaluate global speech quality. In previous investigations, it
+has shown a diminished degree of intelligibility in children
+with increased nasality due to cleft palate [26].
+</bodyText>
+<page confidence="0.997994">
+123
+</page>
+<bodyText confidence="0.937359">
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+It is important to learn more about the effects of nose
+and sinus surgery on speech intelligibility and also to
+investigate short-, as well as long-term changes after surgery. Here we present the first data on the use of an ASR
+system to measure the speech intelligibility of patients with
+pathology of nose and paranasal sinuses.
+</bodyText>
+<subsectionHeader confidence="0.634035">
+Participants and methods
+</subsectionHeader>
+<bodyText confidence="0.9983725">
+Twenty adult patients, who were admitted to an academic
+tertiary referral center from April to July 2007 for surgery
+of the nose and/or paranasal sinuses, were included in this
+study (Table 1). Informed consent was obtained for all
+participants prior to the study. The study population consisted of 8 female and 12 male German-speaking patients.
+The mean age at the time of diagnosis was 38 years
+(18–93 years). Patients with previous sinus surgery and
+those with alterations of voice due to laryngeal reasons or
+tobacco consumption were excluded. No patient had had
+Table 1 Characteristics of the study population (n = 20), word
+recognition rate (WR) pre-operative (t1), direct post-operative with
+nasal packing (t2), 3 months post-operative (t3), for (a) female
+</bodyText>
+<equation confidence="0.9805435">
+(n = 8), (b) male (n = 12) participants
+Age (years)
+WR t1 (%) WR t2 (%)
+WR t3 (%)
+</equation>
+<page confidence="0.762321678571429">
+18
+73.2
+55.5
+75
+18
+78.7
+75.9
+69.4
+24
+71.3
+45.4
+73.2
+24
+59.3
+48.2
+64.8
+35
+67
+72.2
+72.2
+74.1
+59.2
+68.5
+68.5
+68
+73.2
+80.6
+67.6
+</page>
+<figure confidence="0.745449">
+70
+69.4
+54.6
+71.3
+(a) Female (n = 8)
+Mean (±SD) 40.5 (±23.7) 71.2 (±5.5) 61.7 (±13.4) 69.8 (±3.3)
+(b) Male (n = 12)
+21
+71.3
+62
+64.8
+22
+75.9
+52.8
+70.4
+22
+75
+65.7
+64.8
+22
+75.9
+44.4
+71.3
+25
+63
+32.4
+57.4
+25
+74.1
+74.1
+75
+26
+68.5
+46.3
+65.7
+28
+71.3
+47.2
+70.4
+41
+(4.6)
+51.9
+66.7
+44
+50.9
+43.5
+59.3
+66
+93
+47.2
+65.7
+50.9
+</figure>
+<page confidence="0.729442333333333">
+48.2
+75.9
+59.3
+</page>
+<table confidence="0.8931975">
+Mean (±SD) 35.8 (±23.3) 67.2 (±9.9) 51.6 (±11.1) 66.8 (±6.1)
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+</table>
+<bodyText confidence="0.989268923076923">
+speech training. Patients were admitted for chronic rhinosinusitis (CRS), septal deviation, rhinoplasty, and combinations of these diseases.
+All patients underwent endoscopy of the nose, nasopharynx, and larynx prior to standardized speech recordings immediately before surgery (t1), on the first
+postoperative day with nasal packings (t2), and 3 months
+after surgery (t3). On each occasion, patients were also
+asked about their general health, sinus condition, and
+condition of nasal resonance, that were both recorded using
+a visual analog scale (VAS). The VAS scale included
+scores from 1 (excellent) to 10 (extremely bad), respectively. Surgery consisted of either rhinoplasty and/or
+endoscopic sinus surgery, using the surgical techniques of
+Wigand [17, 27, 28]. All patients had bilateral nasal
+packing on the first postoperative day (t2).
+Nasal peak inspiratory flow measurements
+Nasal flow was measured using the nasal peak inspiratory flow meter (nPIF) (In Check; Clement Clarke,
+Harlow, UK) at voice recording sessions, t1 and t3. Total
+nasal inspiratory flow was measured with a peak
+flow device while closing the mouth with an adjusted
+naso-oral mask.
+Automatic speech recognition
+Standardized speech recordings of the patients were performed digitally with a dnt Call4you head-set (16 kHz/16
+bit) at t1–t3 as described earlier and analyzed using
+PEAKS [4, 29–31]. The ASR system used a unigram
+speech model excluding syntactic knowledge, in order to
+emphasize acoustic characteristics of speech. It was polyphone-based, including co-articulatory phonetic properties.
+WR was calculated as the percentage of correctly recognized words of the standard text ‘‘Der Nordwind und die
+Sonne’’. It is a phonetically balanced text with 71 different
+words.
+</bodyText>
+<page confidence="0.925283">
+1721
+</page>
+<subsectionHeader confidence="0.926733">
+Results
+</subsectionHeader>
+<bodyText confidence="0.996784766666666">
+The WR at the time of each speech recording session was
+calculated. The mean WR for the pre-operative speech
+recording (t1) was 65.7 ± 16.5% (47.2% min, 78.7% max)
+(Table 1). At t1, one patient reached a WR of only 4.6%
+due to microphone problems during recording and that
+information was excluded from further calculations.
+Female patients had a slightly higher WR at t1 (mean
+71.2 ± 5.5%) than males (mean 67.2 ± 9.9%), with a
+smaller range of results (Table 1; Fig. 1). Age showed no
+influence on WR (Table 2).
+The mean WR at the second speech recording session on
+the first post-operative day (t2), still with nasal packing,
+was 55.7 ± 12.8% (32.4% min, 80.6% max) for the whole
+study group (Table 1). For female patients, the mean WR
+was 61.7 ± 13.4% and for male patients 51.6 ± 11.1%
+(Table 1; Fig. 1). Results in female patients tended to show
+greater scatter than in males.
+Three months postoperatively (t3), mean WR had
+increased to 68 ± 5.3% (57.4% min, 75.9% max) and the
+degree of scatter was non-significantly lower compared
+with t1 and t2 (Table 1). In this context the lowest WR
+result at t3 measured about 10 points higher than at t1 and
+also the whole study group showed fewer outliers, so the
+degree of scatter of WR results became lower in t3. Gender
+had no relevant influence on WR results, with a mean of
+69.8 ± 3.3% for female and 66.8 ± 6.1% for male
+patients. The range of WR results was again smaller in
+women than in men (Table 1; Fig. 1).
+Comparison of the results between the first (t1) and the
+last (t3) speech recording sessions did not show a significant difference in mean WR (p = 1.0). However, there was
+</bodyText>
+<equation confidence="0.5520424">
+p=0.001
+p=0.002
+p=0.001
+p=0.002
+Statistics
+</equation>
+<bodyText confidence="0.9529436">
+Statistical analyses were performed using Microsoft
+Office Excel (2003), SPSS (Version 16.0.2. SPSS Inc.,
+USA) and PEAKS (Version 1.6.2) [29]. We used the
+fully automatic speech evaluation routine as described in
+[29]. Based on the reference text and recognized word
+chain of the ASR system, an estimate of the speech
+intelligibility is computed WR. The WR shows similar
+performance to a transcription-based perceptual evaluation [29, 30]. PEAKS features an export interface to
+Excel and SPSS. Correlation analysis was calculated
+according to Pearson [32].
+</bodyText>
+<equation confidence="0.608774">
+t1
+t2
+t3
+</equation>
+<table confidence="0.708029">
+Time point of speech recording
+Fig. 1 Word recognition rate (WR) (%) according to gender, at time
+point t1 (pre-operative), t2 (post-operative with nasal packing), t3
+(3 months post-operative)
+123
+1722
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+</table>
+<tableCaption confidence="0.938111">
+Table 2 Mean of word recognition rate (WR) (%) for t1, t2, t3
+according to age (n = 20)
+Table 3 Pre- and post-operative comparison of subjective scores
+</tableCaption>
+<figure confidence="0.961756813559322">
+(VAS) for general health and nasal resonance (n = 20)
+Age (year)
+n
+t1
+t2
+t3
+Subjective
+score
+General health
+B20
+2
+76.0
+65.8
+72.2
+20–30
+10
+70.6
+51.9
+67.8
+1–2
+–
+1
+3
+8
+30–50
+3
+61.6
+56.6
+64.8
+3–4
+4
+11
+7
+5
+60–70
+4
+65.5
+61.3
+70.8
+93
+1
+65.7
+48.2
+59.3
+5–6
+7–8
+12
+3
+6
+2
+8
+2
+7
+–
+9–10
+1
+–
+–
+–
+</figure>
+<bodyText confidence="0.979814666666667">
+a significant difference (p = 0.001) between mean WR at
+t1 and t2. Similarly, mean WR results for t3 were significantly higher than for t2 (p = 0.002) (Fig. 2).
+Calculations on the influence of age on WR showed no
+relevant differences (Table 2).
+No patient reported worsening of their nasal resonance
+or their general health 3 months after surgery (Table 3).
+Different surgical procedures were performed according
+to the nasal and sinus pathology. This study population,
+with its small size, did not show any procedure-related
+differences in WR rates. Surgery improved nasal flow as
+measured with the nasal peak inspiratory flow meter
+(nPIF). The mean preoperative nasal peak flow was
+70.8 ± 47.0 l/min; postoperatively (t3) nasal peak flow
+increased to 91.5 ± 57.0 l/min. No correlation was found
+between the measures of nasal peak flow and WR results.
+</bodyText>
+<subsubsectionHeader confidence="0.850277">
+Discussion
+</subsubsectionHeader>
+<bodyText confidence="0.995724333333333">
+The aim of this preliminary study on 20 adult patients was
+to investigate whether ASR could be used for the automatic
+quantification of speech intelligibility in patients before
+</bodyText>
+<equation confidence="0.8891106">
+p=0.002
+p=0.001
+t1
+t2
+t3
+</equation>
+<bodyText confidence="0.538944">
+Time point of speech recording
+Fig. 2 Word recognition rate (WR) (%) of the whole study population (n = 20), at time point t1 (pre-operative), t2 (post-operative with
+nasal packing), t3 (3 months post-operative)
+</bodyText>
+<page confidence="0.905604">
+123
+</page>
+<figure confidence="0.34757075">
+Nasal resonance
+Preoperative Postoperative Preoperative Postoperative
+Visual analog scale (VAS) with scores from 1 to 10, with 1 being
+excellent
+</figure>
+<bodyText confidence="0.996535641975308">
+and after surgery of nose and paranasal sinuses. Measurements during total nasal obstruction with bilateral nasal
+packing were performed to demonstrate the influence of
+changes in nasality on ASR. The study group consisted of
+consecutively admitted patients for nasal/sinus surgery.
+A broad spectrum of diseases was included in order to
+measure a wide range of speech characteristics as shown in
+Fig. 2 and Tables 1 and 2. Data included 59 speech samples (WR at t1 was excluded from one patient for reasons
+described earlier) and 40 measurements of nasal inspiratory
+flow using the nasal peak inspiratory flow meter from 20
+patients.
+The generation of universal parameters for reporting
+speech outcomes in individuals has been the aim of a
+number of studies focusing on different components of
+speech [5, 33, 34].
+The quality of phonetic implementation of words, and
+therefore the evaluation of speech intelligibility, serves as
+global evaluation of quality of speech. The percentage of
+correctly identified words is a measure of speech intelligibility [26]. Of course, a speech recognition system does
+not understand the speech as a human listener would. The
+subjective factor—meaning the interpretation and processing of perceived speech in the respective brain areas—
+is also a relevant criterion for a human observer. Voice
+quality, phonetic and morpho-syntactic structure, background noises, loudness, and rate of speech all influence
+perception. Context and prosodic elements in particular
+contribute to a better understanding of a human listener.
+That is why speech intelligibility is often rated differently
+by differently experienced and competent listeners and
+limits the reliability of the perceptual evaluation of speech.
+It is also known that other factors such as the speaker
+and his native tongue, the speaking style, vocabulary,
+grammatical complexity, and acoustic properties of the
+recording system can greatly affect ASR. In the present
+study, a standardized procedure was used in order to
+exclude the above-mentioned confounding factors and
+others such as perplexity of speech and free- versus read
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+speech [35]. By using a standard text (‘‘Der Nordwind und
+die Sonne’’) and stable recording conditions, the impact of
+most of these factors on ASR and the subsequent analysis
+of results was minimized.
+The percentage of correctly identified words of a word
+sequence, which is defined as the WR, has been shown to
+correspond to speech intelligibility—as demonstrated previously for children and adults with phonetic disorders
+[4, 22]. Moreover, since the system excludes semantic and
+syntactic knowledge, the method is more precise and
+accurate than the usually used perceptual evaluations
+summarized from several listeners. Of course, no information about acceptability or esthetic appearance of speech
+can be provided by ASR.
+The ASR system is trained with 6.9 h of adult speech in
+order to model a ‘‘standard’’ listener. Unlike perceptual
+evaluation by human listeners, it is not affected by perceptual and subjective influences [3]. Evaluation of the
+same speech data will always lead to the same result.
+Therefore, speech recognition is an objective and accurate
+tool for the measurement of speech intelligibility [22]. ASR
+is based on the statistical modeling of the acoustic and
+linguistic features of human speech. In this study we
+focussed on the acoustic features of speech [36].
+The results of WR in this study population never
+reached 100%, which one might expect for normal
+speakers. However, similar results were obtained in previous studies with the same ASR system where the WR
+also did not reach 100% [4]. This is due to limitations of
+the method and these consistent results show there is nonsystematic influences.
+Given that there is still no gold standard for the perception of spoken speech rather than merely vowels, we
+consider ASR to be the best method in that regard. The
+ASR system used here has already been employed in
+several previous studies. Of course, as an objective method,
+the intention is for this system to be used in other
+languages. Ongoing tests with different languages have
+already produced promising preliminary results [37].
+Age had no significant influence on WR in this study
+because the study population was rather small. However,
+the effects of age on WR have recently been demonstrated
+by Wilpon [38], for children [26, 39]. In adults, similar
+results were found after total laryngectomy [4] and in
+patients with oral squamous cell carcinoma [22].
+An increase of hyponasality and decrease of speech
+intelligibility is generally assumed to occur as the severity
+of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve
+such conditions ought to improve speech intelligibility
+[40]. However, the population in the present study was too
+small to allow further statistic evaluations. Previous
+investigations of a similar design also had small study
+</bodyText>
+<page confidence="0.800952">
+1723
+</page>
+<bodyText confidence="0.99951204">
+populations and varying surgical interventions [6, 21, 40].
+Those evaluations primarily focused on speech analysis
+based on single vocals and consonant variations [6, 21].
+However, the main aim of this study was to evaluate
+speech intelligibility using the ASR system for the first
+time in a study population as defined above. Consistency
+regarding the extent of surgery of nose and sinuses lay
+outside the primary focus of this study, but led us to the
+initiation of further studies looking specifically at different
+surgical interventions. An interesting study done by Yue
+et al. [41] studied changes in resonance characteristics of
+the nasal cavity and nasal airway resistance after endoscopic sinus surgery, with pre-operative staging of the
+chronic sinusitis. They concluded that nasality cannot be
+ameliorated immediately after surgery, to which we would
+agree.
+Comparison of speech intelligibility in this study measured by ASR at t1 and t3 showed minimal differences in
+WR rates. A significant reduction in speech intelligibility
+was only demonstrated at t2 when participants had nasal
+packings—a situation only tolerated in the context of nose/
+sinus surgery. Total obstruction of the nasal cavity with
+nasal packings caused maximal hyponasality analogous to
+nasal obstruction caused by nasal and sinus pathologies. It
+can be concluded that hyponasality induced by total
+obstruction of the nasal cavity significantly influences
+speech intelligibility. Hence the ASR system does help to
+evaluate speech intelligibility. Similar results have been
+shown for spectral properties of consonants and nasalized
+vowels before and after surgery [21] and the testing of
+nasalance with nasalized sentences [15].
+Nevertheless, our results may be interpreted in different
+ways. First, an insignificant difference between pre- and
+post-operative speech intelligibility results may reassure
+patients that they do not need to expect major voice
+changes. On the other hand, expectations to improve
+hyponasality as the main intention for surgery need to be
+lowered. It may also be argued that the ASR system used
+was incapable of detecting small changes in nasality.
+There are reports in the literature of similar studies that
+attempted to establish methods and parameters to determine, for example, if there is a relationship between
+chronic sinusitis and dysphonia. However, these studies
+demonstrated that, due to the small changes, more effort
+needs to be directed at increasing the size of the study
+population [42].
+Interestingly in the clinical daily routine, patients often
+present with massive nasal polyposis or septal deviation,
+whose hyponasality is less prominent than in patients with
+acute onset of rhinosinusitis. Hence, changes in nasal flow
+and pressure in the nasal cavity and sinuses may be less
+relevant for speech when they are chronic and persistent,
+whereas acute changes are more significant. Other
+</bodyText>
+<page confidence="0.813822">
+123
+1724
+</page>
+<bodyText confidence="0.96570312">
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+components such as the velopharyngeal opening may play
+an important role [43].
+Measurement of the degree of nasal obstruction by
+nasal inspiratory peak flow demonstrated that no patient
+had complete obstruction of the nasal cavity, either at
+time point t1 or t3. We found no correlation of speech
+intelligibility and nasal inspiratory peak flow. Studies on
+nasal flow and the percentage of laminar and turbulent
+nasal flow have been carried out using various models
+[44–46]. These studies led to a primarily functional
+approach in septal surgery, but no evaluation of speech
+was undertaken.
+Conclusion
+Automatic speech recognition can quantify the influence of
+hyponasality on speech. Nasal obstruction leads to significantly reduced WR. Nasal peak flow cannot replace
+evaluation of nasality. Furthermore, the consequences of
+different nasal diseases or surgical procedures on nasality
+and speech need to be investigated.
+Acknowledgments We would like to express our sincere gratitude
+to Julia von Ochsenstein and Anika Stro¨bele for their great support in
+performing this study.
+Conflict of interest statement
+no conflict of interest.
+The authors declare that they have
+</bodyText>
+<sectionHeader confidence="0.977527" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.81163">
+1. Friedrich G, Bigenzahn W (1995) Phoniatrie—Einfu¨hrung in die
+medizinischen, psychologischen und linguistischen Grundlagen
+von Stimme und Sprache. Verlag Hans Huber, Bern
+2. Fant G (1970) Acoustic theory of speech production: with calculations based on X-ray studies of Russian articulations. Walter
+de Gruyter, Mouton, The Hague, The Netherlands
+3. Schuster M, Haderlein T, Nkenke E, Wohlleben U, Rosanowski F,
+Eysholdt U, No¨th E (2006) Evaluation of speech intelligibility for
+children with cleft lip and palate by means of speech recognizer
+technique. Int J Pediatr Otorhinolaryngol 70:1741–1747
+4. Schuster M, Haderlein T, Noth E, Lohscheller J, Eysholdt U,
+Rosanowski F (2006) Intelligibility of laryngectomees’ substitute
+speech: automatic speech recognition and subjective rating. Eur
+Arch Otorhinolaryngol 263:188–193
+5. Henningsson G, Kuehn DP, Sell D, Sweeney T, Trost-Cardamone
+JE, Whitehill TL (2008) Universal parameters for reporting
+speech outcomes in individuals with cleft palate. Cleft Palate
+Craniofac J 45:1–17
+6. Hosemann W, Gode U, Dunker JE, Eysholdt U (1998) Influence
+of endoscopic sinus surgery on voice quality. Eur Arch Otorhinolaryngol 255:499–503
+7. Lund VJ, Kennedy DW (1997) Staging for rhinosinusitis.
+Otolaryngol Head Neck Surg 117:S35–S40
+8. Hosemann W (2000) Chronic sinusitis and obstructive respiratory
+tract diseases. Laryngorhinootologie 79:643–644
+</reference>
+<page confidence="0.981784">
+123
+</page>
+<reference confidence="0.978138206896552">
+9. Dursun E, Bayiz U, Korkmaz H, Akmansu H, Uygur K (1998)
+Follow-up results of 415 patients after endoscopic sinus surgery.
+Eur Arch Otorhinolaryngol 255:504–510
+10. Catalano P, Roffman E (2003) Outcome in patients with chronic
+sinusitis after the minimally invasive sinus technique. Am J
+Rhinol 17:17–22
+11. Iro H, Mayr S, Schick B, Mrakovcic G, Wigand ME (2006)
+Clinical outcome of partial ethmoidectomy for chronic rhinosinusitis. Eur Arch Otorhinolaryngol 263:572–577
+12. Marquez S (2008) The paranasal sinuses: the last frontier in
+craniofacial biology. Anat Rec (Hoboken) 291:1350–1361
+13. Leopold D (1996) A history of rhinology in North America.
+Otolaryngol Head Neck Surg 115:283–297
+14. Stammberger H (1989) History of rhinology: anatomy of the
+paranasal sinuses. Rhinology 27:197–210
+15. Hong KH, Kwon SH, Jung SS (1997) The assessment of nasality
+with a nasometer and sound spectrography in patients with nasal
+polyposis. Otolaryngol Head Neck Surg 117:343–348
+16. Beule AG, Hosemann W (2009) Wound healing after endoscopic
+sinus surgery and postoperative management. HNO 57:763–771
+17. Wigand ME (1981) Transnasal, endoscopical sinus surgery for
+chronic sinusitis. I. A biomechanical concept of the endonasal
+mucosa surgery (author’s transl). HNO 29:215–221
+18. Petursson M, Neppert J (1996) Elementarbuch der Phonetik.
+Buske Verlag, Hamburg
+19. Ohala JJ (1993) Coarticulation and phonology. Lang Speech
+36(Pt 2–3):155–170
+20. Dang J, Honda K, Suzuki H (1994) Morphological and acoustical
+analysis of the nasal and the paranasal cavities. J Acoust Soc Am
+96:2088–2100
+21. Chen MY, Metson R (1997) Effects of sinus surgery on speech.
+Arch Otolaryngol Head Neck Surg 123:845–852
+22. Windrich M, Maier A, Kohler R, Noth E, Nkenke E, Eysholdt U,
+Schuster M (2008) Automatic quantification of speech intelligibility of adults with oral squamous cell carcinoma. Folia Phoniatr
+Logop 60:151–156
+23. Gallwitz F, Niemann H, No¨th E (1999) Spracherkennung—
+Stand der Technik, Einsatzmo¨glichkeiten und Perspektiven.
+Wirtschaftsinformatik 41:538–547
+24. Euler E (2006) Grundkurs Spracherkennung. Vieweg-Verlag,
+Wiesbaden
+25. Gales M, Pye D, Woodland P (1996) Variance compensation
+within the MLLR framework for robust speech recognition and
+speaker adaptation. In: Proceedings of ICSLP’96, Philadelphia,
+USA
+26. Vogt B, Maier A, Batliner A, Noth E, Nkenke E, Eysholdt U,
+Schuster M (2007) Numeric quantification of intelligibility in
+schoolchildren with isolated and combined cleft palate. HNO
+55:891–898
+27. Wigand ME (1981) Transnasal, endoscopical surgery for chronic
+sinusitis. III. Endonasal ethmoidectomy (author’s transl). HNO
+29:287–293
+28. Wigand ME (1981) Transnasal, endoscopical sinus surgery for
+chronic sinusitis. II. Endonasal operation of the maxillary antrum
+(author’s transl). HNO 29:263–269
+29. Maier A, No¨th E, Nkenke E, Schuster M (2006) Fully automatic
+assessment of speech of children with cleft lip and palate.
+Informatica 30(4):477–482
+30. Maier A, Haderlein T, Eysholdt U, Rosanowski F, Batliner A,
+Schuster M, No¨th E (2009) Peaks—a system for the automatic
+evaluation of voice and speech disorders. Speech Commun
+51:425–437
+31. Haderlein T, Noth E, Toy H, Batliner A, Schuster M, Eysholdt U,
+Hornegger J, Rosanowski F (2007) Automatic evaluation of
+prosodic features of tracheoesophageal substitute voice. Eur Arch
+Otorhinolaryngol 264:1315–1321
+Eur Arch Otorhinolaryngol (2010) 267:1719–1725
+32. Pearson K (1896) Mathematical contributions to the theory of
+evolution III regression, heredity and panmixia. Philos Trans R
+Soc London 187:253–318
+33. Smith BE, Kuehn DP (2007) Speech evaluation of velopharyngeal dysfunction. J Craniofac Surg 18:251–261 quiz 266–257
+34. Dworkin JP, Marunick MT, Krouse JH (2004) Velopharyngeal
+dysfunction: speech characteristics, variable etiologies, evaluation techniques, and differential treatments. Lang Speech Hear
+Serv Sch 35:333–352
+35. Chen MY (1997) Acoustic correlates of English and French
+nasalized vowels. J Acoust Soc Am 102:2360–2370
+36. Kitzing P, Maier A, Ahlander VL (2009) Automatic speech
+recognition (ASR) and its use as a tool for assessment or therapy
+of voice, speech, and language disorders. Logoped Phoniatr
+Vocol 34:91–96
+37. Scipioni M, Gerosa M, Giuliani D, Noeth E, Maier A (2009)
+Intelligibility assessment in children with cleft lip and palate in
+Italian and German. In: Moore R (Ed) 10th annual conference of
+the international speech communication association (Interspeech
+2009). ISCA, Brighton, England, pp 967–970
+38. Wilpon JG, Jacobsen C (1996) A study of speech recognition for
+children and the elderly. In: Proceedings of ICASSP, pp 349–352
+39. Dames F, Maier A, Schutzenberger A, Stelzle F, Holst A, Noth E,
+Eysholdt U, Schuster M (2009) Intelligibility of children with
+</reference>
+<figure confidence="0.721972111111111">
+1725
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+bilateral and unilateral cleft lip and palate. Laryngorhinootologie
+</figure>
+<page confidence="0.475867">
+88:723–728
+</page>
+<reference confidence="0.986368157894737">
+Soneghet R, Santos RP, Behlau M, Habermann W, Friedrich G,
+Stammberger H (2002) Nasalance changes after functional
+endoscopic sinus surgery. J Voice 16:392–397
+Yue J, Kong W, Tan H, Xiong X, Zhang X, Wang Y, Zhang S
+(2006) The effects of endoscopic sinus surgery on nasality and
+nasal patency. Lin Chuang Er Bi Yan Hou Ke Za Zhi 20:917–
+918, 921
+Cecil M, Tindall L, Haydon R (2001) The relationship between
+dysphonia and sinusitis: a pilot study. J Voice 15:270–277
+Sundberg J, Birch P, Gumoes B, Stavad H, Prytz S, Karle A
+(2007) Experimental findings on the nasal tract resonator in
+singing. J Voice 21:127–137
+Lam DJ, James KT, Weaver EM (2006) Comparison of anatomic,
+physiological, and subjective measures of the nasal airway. Am J
+Rhinol 20:463–470
+Clement PA, Gordts F (2005) Consensus report on acoustic
+rhinometry and rhinomanometry. Rhinology 43:169–179
+Numminen J, Dastidar P, Rautiainen M (2004) Influence of sinus
+surgery in rhinometric measurements. J Otolaryngol 33:98–103
+</reference>
+<page confidence="0.999153">
+123
+</page>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>G Friedrich</author>
+<author>W Bigenzahn</author>
+</authors>
+<title>Phoniatrie—Einfu¨hrung in die medizinischen, psychologischen und linguistischen Grundlagen von Stimme und Sprache. Verlag Hans Huber,</title>
+<date>1995</date>
+<location>Bern</location>
+<contexts>
+<context position="2695" citStr="[1]" startWordPosition="395" endWordPosition="395">nce between WR at t1 and t3, despite a post-operative increase in nasal peak inspiratory flow measurements. The results show that ASR is capable of quantifying the influence of hyponasality on speech; nasal obstruction leads to significantly reduced WR and nasal peak flow cannot replace evaluation of nasality. Keywords Sinus surgery Á Nasality Á Speech intelligibility Á Automatic speech recognition Á Word recognition rate Á Nasal peak inspiratory flow Introduction Speech is a superior achievement of human communication, demonstrating the ability to present thoughts with articulation and voice [1]. Voice is itself determined by two factors, the voice source and the vocal tract. Anatomically, the larynx serves as tone generator [2]. This primary signal is further modulated by characteristics of the cross-sectional area of the vocal tract, involving the supraglottic space, including the pharynx, nasal cavity, and paranasal sinuses [2]. Even minor alterations in these structures may lead to changes in voice and thereby influence speech intelligibility. Research in this field has focused on various factors that influence speech intelligibility. Studies have been undertaken to assess speech</context>
+</contexts>
+<marker>1.</marker>
+<rawString>Friedrich G, Bigenzahn W (1995) Phoniatrie—Einfu¨hrung in die medizinischen, psychologischen und linguistischen Grundlagen von Stimme und Sprache. Verlag Hans Huber, Bern</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Fant</author>
+</authors>
+<title>Acoustic theory of speech production: with calculations based on X-ray studies of Russian articulations.</title>
+<date>1970</date>
+<journal>Walter de Gruyter, Mouton, The Hague, The Netherlands</journal>
+<contexts>
+<context position="2831" citStr="[2]" startWordPosition="417" endWordPosition="417"> capable of quantifying the influence of hyponasality on speech; nasal obstruction leads to significantly reduced WR and nasal peak flow cannot replace evaluation of nasality. Keywords Sinus surgery Á Nasality Á Speech intelligibility Á Automatic speech recognition Á Word recognition rate Á Nasal peak inspiratory flow Introduction Speech is a superior achievement of human communication, demonstrating the ability to present thoughts with articulation and voice [1]. Voice is itself determined by two factors, the voice source and the vocal tract. Anatomically, the larynx serves as tone generator [2]. This primary signal is further modulated by characteristics of the cross-sectional area of the vocal tract, involving the supraglottic space, including the pharynx, nasal cavity, and paranasal sinuses [2]. Even minor alterations in these structures may lead to changes in voice and thereby influence speech intelligibility. Research in this field has focused on various factors that influence speech intelligibility. Studies have been undertaken to assess speech quality in patients with cleft palate, motor speech disorders, and hearing impairment [3–5]. However, the relationship between speech i</context>
+</contexts>
+<marker>2.</marker>
+<rawString>Fant G (1970) Acoustic theory of speech production: with calculations based on X-ray studies of Russian articulations. Walter de Gruyter, Mouton, The Hague, The Netherlands</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Schuster</author>
+<author>T Haderlein</author>
+<author>E Nkenke</author>
+<author>U Wohlleben</author>
+<author>F Rosanowski</author>
+<author>U Eysholdt</author>
+<author>E No¨th</author>
+</authors>
+<title>Evaluation of speech intelligibility for children with cleft lip and palate by means of speech recognizer technique.</title>
+<date>2006</date>
+<journal>Int J Pediatr Otorhinolaryngol</journal>
+<volume>70</volume>
+<contexts>
+<context position="5929" citStr="[3, 4, 22]" startWordPosition="870" endWordPosition="872">he intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality.</context>
+<context position="17713" citStr="[3]" startWordPosition="2787" endWordPosition="2787">ch intelligibility—as demonstrated previously for children and adults with phonetic disorders [4, 22]. Moreover, since the system excludes semantic and syntactic knowledge, the method is more precise and accurate than the usually used perceptual evaluations summarized from several listeners. Of course, no information about acceptability or esthetic appearance of speech can be provided by ASR. The ASR system is trained with 6.9 h of adult speech in order to model a ‘‘standard’’ listener. Unlike perceptual evaluation by human listeners, it is not affected by perceptual and subjective influences [3]. Evaluation of the same speech data will always lead to the same result. Therefore, speech recognition is an objective and accurate tool for the measurement of speech intelligibility [22]. ASR is based on the statistical modeling of the acoustic and linguistic features of human speech. In this study we focussed on the acoustic features of speech [36]. The results of WR in this study population never reached 100%, which one might expect for normal speakers. However, similar results were obtained in previous studies with the same ASR system where the WR also did not reach 100% [4]. This is due </context>
+</contexts>
+<marker>3.</marker>
+<rawString>Schuster M, Haderlein T, Nkenke E, Wohlleben U, Rosanowski F, Eysholdt U, No¨th E (2006) Evaluation of speech intelligibility for children with cleft lip and palate by means of speech recognizer technique. Int J Pediatr Otorhinolaryngol 70:1741–1747</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Schuster</author>
+<author>T Haderlein</author>
+<author>E Noth</author>
+<author>J Lohscheller</author>
+<author>U Eysholdt</author>
+<author>F Rosanowski</author>
+</authors>
+<title>Intelligibility of laryngectomees’ substitute speech: automatic speech recognition and subjective rating.</title>
+<date>2006</date>
+<journal>Eur Arch Otorhinolaryngol</journal>
+<pages>263--188</pages>
+<contexts>
+<context position="5929" citStr="[3, 4, 22]" startWordPosition="870" endWordPosition="872">he intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality.</context>
+<context position="17211" citStr="[4, 22]" startWordPosition="2710" endWordPosition="2711">s used in order to exclude the above-mentioned confounding factors and others such as perplexity of speech and free- versus read Eur Arch Otorhinolaryngol (2010) 267:1719–1725 speech [35]. By using a standard text (‘‘Der Nordwind und die Sonne’’) and stable recording conditions, the impact of most of these factors on ASR and the subsequent analysis of results was minimized. The percentage of correctly identified words of a word sequence, which is defined as the WR, has been shown to correspond to speech intelligibility—as demonstrated previously for children and adults with phonetic disorders [4, 22]. Moreover, since the system excludes semantic and syntactic knowledge, the method is more precise and accurate than the usually used perceptual evaluations summarized from several listeners. Of course, no information about acceptability or esthetic appearance of speech can be provided by ASR. The ASR system is trained with 6.9 h of adult speech in order to model a ‘‘standard’’ listener. Unlike perceptual evaluation by human listeners, it is not affected by perceptual and subjective influences [3]. Evaluation of the same speech data will always lead to the same result. Therefore, speech recogn</context>
+<context position="19118" citStr="[4]" startWordPosition="3018" endWordPosition="3018">, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations and varying surgical interventions [6, 21, 40]. Those evaluations pri</context>
+</contexts>
+<marker>4.</marker>
+<rawString>Schuster M, Haderlein T, Noth E, Lohscheller J, Eysholdt U, Rosanowski F (2006) Intelligibility of laryngectomees’ substitute speech: automatic speech recognition and subjective rating. Eur Arch Otorhinolaryngol 263:188–193</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Henningsson</author>
+<author>Kuehn DP</author>
+<author>D Sell</author>
+<author>T Sweeney</author>
+<author>Trost-Cardamone JE</author>
+<author>Whitehill TL</author>
+</authors>
+<title>Universal parameters for reporting speech outcomes in individuals with cleft palate.</title>
+<date>2008</date>
+<journal>Cleft Palate Craniofac J</journal>
+<pages>45--1</pages>
+<contexts>
+<context position="4601" citStr="[5]" startWordPosition="680" endWordPosition="680">ve to decrease the weight of the head, and sinuses are assumed an important acoustic resonator modulating voice [6, 15]. The secretory mucosal function, with active convection of water into the sinuses, leads to saturation of the inspiratory air with water [16]. One of the main functions of surgery on pathologies of nose and paranasal sinuses is to increase aeration, in order to reduce inflammation in these cavities [17]. Changes in nasality are thought to influence speech intelligibility [6]. Nasal obstruction, especially of the nasal cavity, is one of the main factors in decreasing nasality [5]. Often the presence of hyponasality is of minor interest in clinical evaluations, even though it is of major interest for patients—especially with high demands on their speech. However, speech evaluation prior to endonasal surgery is neither routinely performed nor standardized. Perceptual evaluation by several listeners is presently accepted as an ‘‘objective’’ assessment of nasality. Here, nasal vowels such as /m/, /n/, and /ng/ are altered or replaced by pre-nasal plosives. It appears as decreased nasal resonance with a dull, obstructed-sounding voice. If consonants, especially voiced plos</context>
+<context position="15426" citStr="[5, 33, 34]" startWordPosition="2445" endWordPosition="2447">study group consisted of consecutively admitted patients for nasal/sinus surgery. A broad spectrum of diseases was included in order to measure a wide range of speech characteristics as shown in Fig. 2 and Tables 1 and 2. Data included 59 speech samples (WR at t1 was excluded from one patient for reasons described earlier) and 40 measurements of nasal inspiratory flow using the nasal peak inspiratory flow meter from 20 patients. The generation of universal parameters for reporting speech outcomes in individuals has been the aim of a number of studies focusing on different components of speech [5, 33, 34]. The quality of phonetic implementation of words, and therefore the evaluation of speech intelligibility, serves as global evaluation of quality of speech. The percentage of correctly identified words is a measure of speech intelligibility [26]. Of course, a speech recognition system does not understand the speech as a human listener would. The subjective factor—meaning the interpretation and processing of perceived speech in the respective brain areas— is also a relevant criterion for a human observer. Voice quality, phonetic and morpho-syntactic structure, background noises, loudness, and r</context>
+</contexts>
+<marker>5.</marker>
+<rawString>Henningsson G, Kuehn DP, Sell D, Sweeney T, Trost-Cardamone JE, Whitehill TL (2008) Universal parameters for reporting speech outcomes in individuals with cleft palate. Cleft Palate Craniofac J 45:1–17</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Hosemann</author>
+<author>U Gode</author>
+<author>Dunker JE</author>
+<author>U Eysholdt</author>
+</authors>
+<title>Influence of endoscopic sinus surgery on voice quality.</title>
+<date>1998</date>
+<journal>Eur Arch Otorhinolaryngol</journal>
+<pages>255--499</pages>
+<contexts>
+<context position="3558" citStr="[6]" startWordPosition="520" endWordPosition="520">supraglottic space, including the pharynx, nasal cavity, and paranasal sinuses [2]. Even minor alterations in these structures may lead to changes in voice and thereby influence speech intelligibility. Research in this field has focused on various factors that influence speech intelligibility. Studies have been undertaken to assess speech quality in patients with cleft palate, motor speech disorders, and hearing impairment [3–5]. However, the relationship between speech intelligibility, nose and sinus pathologies, as well as the effects of surgical treatments, has not been adequately explored [6]. In contrast, several studies have investigated sinus symptoms such as nasal obstruction, rhinorrhoea, loss of smell etc., 123 1720 in attempts to identify the most suitable techniques for surgery to nose and paranasal sinuses [7–11]. Research on the function of the sinuses themselves has been carried out for many years [12–14]. In addition to the important functions of air-conditioning, olfaction, and filtering, pneumatisation may serve to decrease the weight of the head, and sinuses are assumed an important acoustic resonator modulating voice [6, 15]. The secretory mucosal function, with ac</context>
+<context position="5738" citStr="[6, 21]" startWordPosition="844" endWordPosition="845">dull, obstructed-sounding voice. If consonants, especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present. Air leaks through the nose, the intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the </context>
+<context position="19695" citStr="[6, 21, 40]" startWordPosition="3098" endWordPosition="3100">found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations and varying surgical interventions [6, 21, 40]. Those evaluations primarily focused on speech analysis based on single vocals and consonant variations [6, 21]. However, the main aim of this study was to evaluate speech intelligibility using the ASR system for the first time in a study population as defined above. Consistency regarding the extent of surgery of nose and sinuses lay outside the primary focus of this study, but led us to the initiation of further studies looking specifically at different surgical interventions. An interesting study done by Yue et al. [41] studied changes in resonance characteristics of the nasal cavity and na</context>
+</contexts>
+<marker>6.</marker>
+<rawString>Hosemann W, Gode U, Dunker JE, Eysholdt U (1998) Influence of endoscopic sinus surgery on voice quality. Eur Arch Otorhinolaryngol 255:499–503</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Lund VJ</author>
+<author>Kennedy DW</author>
+</authors>
+<title>Staging for rhinosinusitis. Otolaryngol Head Neck Surg 117:S35–S40</title>
+<date>1997</date>
+<marker>7.</marker>
+<rawString>Lund VJ, Kennedy DW (1997) Staging for rhinosinusitis. Otolaryngol Head Neck Surg 117:S35–S40</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Hosemann</author>
+</authors>
+<title>Chronic sinusitis and obstructive respiratory tract diseases.</title>
+<date>2000</date>
+<journal>Laryngorhinootologie</journal>
+<volume>79</volume>
+<marker>8.</marker>
+<rawString>Hosemann W (2000) Chronic sinusitis and obstructive respiratory tract diseases. Laryngorhinootologie 79:643–644</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Dursun</author>
+<author>U Bayiz</author>
+<author>H Korkmaz</author>
+<author>H Akmansu</author>
+<author>K Uygur</author>
+</authors>
+<title>Follow-up results of 415 patients after endoscopic sinus surgery.</title>
+<date>1998</date>
+<journal>Eur Arch Otorhinolaryngol</journal>
+<pages>255--504</pages>
+<marker>9.</marker>
+<rawString>Dursun E, Bayiz U, Korkmaz H, Akmansu H, Uygur K (1998) Follow-up results of 415 patients after endoscopic sinus surgery. Eur Arch Otorhinolaryngol 255:504–510</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Catalano</author>
+<author>E Roffman</author>
+</authors>
+<title>Outcome in patients with chronic sinusitis after the minimally invasive sinus technique.</title>
+<date>2003</date>
+<journal>Am J Rhinol</journal>
+<volume>17</volume>
+<marker>10.</marker>
+<rawString>Catalano P, Roffman E (2003) Outcome in patients with chronic sinusitis after the minimally invasive sinus technique. Am J Rhinol 17:17–22</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Iro</author>
+<author>S Mayr</author>
+<author>B Schick</author>
+<author>G Mrakovcic</author>
+<author>Wigand ME</author>
+</authors>
+<title>Clinical outcome of partial ethmoidectomy for chronic rhinosinusitis.</title>
+<date>2006</date>
+<journal>Eur Arch Otorhinolaryngol</journal>
+<pages>263--572</pages>
+<marker>11.</marker>
+<rawString>Iro H, Mayr S, Schick B, Mrakovcic G, Wigand ME (2006) Clinical outcome of partial ethmoidectomy for chronic rhinosinusitis. Eur Arch Otorhinolaryngol 263:572–577</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Marquez</author>
+</authors>
+<title>The paranasal sinuses: the last frontier in craniofacial biology. Anat Rec</title>
+<date>2008</date>
+<pages>291--1350</pages>
+<location>(Hoboken)</location>
+<marker>12.</marker>
+<rawString>Marquez S (2008) The paranasal sinuses: the last frontier in craniofacial biology. Anat Rec (Hoboken) 291:1350–1361</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Leopold</author>
+</authors>
+<title>A history of rhinology in North America. Otolaryngol Head Neck Surg 115:283–297</title>
+<date>1996</date>
+<marker>13.</marker>
+<rawString>Leopold D (1996) A history of rhinology in North America. Otolaryngol Head Neck Surg 115:283–297</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Stammberger</author>
+</authors>
+<title>History of rhinology: anatomy of the paranasal sinuses.</title>
+<date>1989</date>
+<journal>Rhinology</journal>
+<pages>27--197</pages>
+<marker>14.</marker>
+<rawString>Stammberger H (1989) History of rhinology: anatomy of the paranasal sinuses. Rhinology 27:197–210</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Hong KH</author>
+<author>Kwon SH</author>
+<author>Jung SS</author>
+</authors>
+<title>The assessment of nasality with a nasometer and sound spectrography in patients with nasal polyposis. Otolaryngol Head Neck Surg 117:343–348</title>
+<date>1997</date>
+<contexts>
+<context position="4117" citStr="[6, 15]" startWordPosition="603" endWordPosition="604">treatments, has not been adequately explored [6]. In contrast, several studies have investigated sinus symptoms such as nasal obstruction, rhinorrhoea, loss of smell etc., 123 1720 in attempts to identify the most suitable techniques for surgery to nose and paranasal sinuses [7–11]. Research on the function of the sinuses themselves has been carried out for many years [12–14]. In addition to the important functions of air-conditioning, olfaction, and filtering, pneumatisation may serve to decrease the weight of the head, and sinuses are assumed an important acoustic resonator modulating voice [6, 15]. The secretory mucosal function, with active convection of water into the sinuses, leads to saturation of the inspiratory air with water [16]. One of the main functions of surgery on pathologies of nose and paranasal sinuses is to increase aeration, in order to reduce inflammation in these cavities [17]. Changes in nasality are thought to influence speech intelligibility [6]. Nasal obstruction, especially of the nasal cavity, is one of the main factors in decreasing nasality [5]. Often the presence of hyponasality is of minor interest in clinical evaluations, even though it is of major intere</context>
+<context position="19363" citStr="[15]" startWordPosition="3053" endWordPosition="3053">ests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations and varying surgical interventions [6, 21, 40]. Those evaluations primarily focused on speech analysis based on single vocals and consonant variations [6, 21]. However, the main aim of this study was to evaluate speech intelligibility using the ASR system for the first time in a study population as defined above.</context>
+<context position="21344" citStr="[15]" startWordPosition="3347" endWordPosition="3347">a situation only tolerated in the context of nose/ sinus surgery. Total obstruction of the nasal cavity with nasal packings caused maximal hyponasality analogous to nasal obstruction caused by nasal and sinus pathologies. It can be concluded that hyponasality induced by total obstruction of the nasal cavity significantly influences speech intelligibility. Hence the ASR system does help to evaluate speech intelligibility. Similar results have been shown for spectral properties of consonants and nasalized vowels before and after surgery [21] and the testing of nasalance with nasalized sentences [15]. Nevertheless, our results may be interpreted in different ways. First, an insignificant difference between pre- and post-operative speech intelligibility results may reassure patients that they do not need to expect major voice changes. On the other hand, expectations to improve hyponasality as the main intention for surgery need to be lowered. It may also be argued that the ASR system used was incapable of detecting small changes in nasality. There are reports in the literature of similar studies that attempted to establish methods and parameters to determine, for example, if there is a rel</context>
+</contexts>
+<marker>15.</marker>
+<rawString>Hong KH, Kwon SH, Jung SS (1997) The assessment of nasality with a nasometer and sound spectrography in patients with nasal polyposis. Otolaryngol Head Neck Surg 117:343–348</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Beule AG</author>
+<author>W Hosemann</author>
+</authors>
+<title>Wound healing after endoscopic sinus surgery and postoperative management.</title>
+<date>2009</date>
+<journal>HNO</journal>
+<pages>57--763</pages>
+<contexts>
+<context position="4259" citStr="[16]" startWordPosition="626" endWordPosition="626">rhoea, loss of smell etc., 123 1720 in attempts to identify the most suitable techniques for surgery to nose and paranasal sinuses [7–11]. Research on the function of the sinuses themselves has been carried out for many years [12–14]. In addition to the important functions of air-conditioning, olfaction, and filtering, pneumatisation may serve to decrease the weight of the head, and sinuses are assumed an important acoustic resonator modulating voice [6, 15]. The secretory mucosal function, with active convection of water into the sinuses, leads to saturation of the inspiratory air with water [16]. One of the main functions of surgery on pathologies of nose and paranasal sinuses is to increase aeration, in order to reduce inflammation in these cavities [17]. Changes in nasality are thought to influence speech intelligibility [6]. Nasal obstruction, especially of the nasal cavity, is one of the main factors in decreasing nasality [5]. Often the presence of hyponasality is of minor interest in clinical evaluations, even though it is of major interest for patients—especially with high demands on their speech. However, speech evaluation prior to endonasal surgery is neither routinely perfo</context>
+</contexts>
+<marker>16.</marker>
+<rawString>Beule AG, Hosemann W (2009) Wound healing after endoscopic sinus surgery and postoperative management. HNO 57:763–771</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wigand ME</author>
+</authors>
+<title>Transnasal, endoscopical sinus surgery for chronic sinusitis. I. A biomechanical concept of the endonasal mucosa surgery (author’s transl).</title>
+<date>1981</date>
+<journal>HNO</journal>
+<pages>29--215</pages>
+<contexts>
+<context position="4422" citStr="[17]" startWordPosition="653" endWordPosition="653"> of the sinuses themselves has been carried out for many years [12–14]. In addition to the important functions of air-conditioning, olfaction, and filtering, pneumatisation may serve to decrease the weight of the head, and sinuses are assumed an important acoustic resonator modulating voice [6, 15]. The secretory mucosal function, with active convection of water into the sinuses, leads to saturation of the inspiratory air with water [16]. One of the main functions of surgery on pathologies of nose and paranasal sinuses is to increase aeration, in order to reduce inflammation in these cavities [17]. Changes in nasality are thought to influence speech intelligibility [6]. Nasal obstruction, especially of the nasal cavity, is one of the main factors in decreasing nasality [5]. Often the presence of hyponasality is of minor interest in clinical evaluations, even though it is of major interest for patients—especially with high demands on their speech. However, speech evaluation prior to endonasal surgery is neither routinely performed nor standardized. Perceptual evaluation by several listeners is presently accepted as an ‘‘objective’’ assessment of nasality. Here, nasal vowels such as /m/,</context>
+<context position="9248" citStr="[17, 27, 28]" startWordPosition="1412" endWordPosition="1414">underwent endoscopy of the nose, nasopharynx, and larynx prior to standardized speech recordings immediately before surgery (t1), on the first postoperative day with nasal packings (t2), and 3 months after surgery (t3). On each occasion, patients were also asked about their general health, sinus condition, and condition of nasal resonance, that were both recorded using a visual analog scale (VAS). The VAS scale included scores from 1 (excellent) to 10 (extremely bad), respectively. Surgery consisted of either rhinoplasty and/or endoscopic sinus surgery, using the surgical techniques of Wigand [17, 27, 28]. All patients had bilateral nasal packing on the first postoperative day (t2). Nasal peak inspiratory flow measurements Nasal flow was measured using the nasal peak inspiratory flow meter (nPIF) (In Check; Clement Clarke, Harlow, UK) at voice recording sessions, t1 and t3. Total nasal inspiratory flow was measured with a peak flow device while closing the mouth with an adjusted naso-oral mask. Automatic speech recognition Standardized speech recordings of the patients were performed digitally with a dnt Call4you head-set (16 kHz/16 bit) at t1–t3 as described earlier and analyzed using PEAKS [</context>
+</contexts>
+<marker>17.</marker>
+<rawString>Wigand ME (1981) Transnasal, endoscopical sinus surgery for chronic sinusitis. I. A biomechanical concept of the endonasal mucosa surgery (author’s transl). HNO 29:215–221</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Petursson</author>
+<author>J Neppert</author>
+</authors>
+<title>Elementarbuch der Phonetik.</title>
+<date>1996</date>
+<publisher>Buske Verlag,</publisher>
+<location>Hamburg</location>
+<contexts>
+<context position="5411" citStr="[18]" startWordPosition="796" endWordPosition="796">rior to endonasal surgery is neither routinely performed nor standardized. Perceptual evaluation by several listeners is presently accepted as an ‘‘objective’’ assessment of nasality. Here, nasal vowels such as /m/, /n/, and /ng/ are altered or replaced by pre-nasal plosives. It appears as decreased nasal resonance with a dull, obstructed-sounding voice. If consonants, especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present. Air leaks through the nose, the intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize sp</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Petursson M, Neppert J (1996) Elementarbuch der Phonetik. Buske Verlag, Hamburg</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ohala JJ</author>
+</authors>
+<title>Coarticulation and phonology.</title>
+<date>1993</date>
+<journal>Lang Speech</journal>
+<volume>36</volume>
+<pages>2--3</pages>
+<contexts>
+<context position="5493" citStr="[19]" startWordPosition="808" endWordPosition="808">ual evaluation by several listeners is presently accepted as an ‘‘objective’’ assessment of nasality. Here, nasal vowels such as /m/, /n/, and /ng/ are altered or replaced by pre-nasal plosives. It appears as decreased nasal resonance with a dull, obstructed-sounding voice. If consonants, especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present. Air leaks through the nose, the intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acous</context>
+</contexts>
+<marker>19.</marker>
+<rawString>Ohala JJ (1993) Coarticulation and phonology. Lang Speech 36(Pt 2–3):155–170</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Dang</author>
+<author>K Honda</author>
+<author>H Suzuki</author>
+</authors>
+<title>Morphological and acoustical analysis of the nasal and the paranasal cavities.</title>
+<date>1994</date>
+<journal>J Acoust Soc Am</journal>
+<volume>96</volume>
+<contexts>
+<context position="5649" citStr="[20]" startWordPosition="832" endWordPosition="832">red or replaced by pre-nasal plosives. It appears as decreased nasal resonance with a dull, obstructed-sounding voice. If consonants, especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present. Air leaks through the nose, the intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quant</context>
+</contexts>
+<marker>20.</marker>
+<rawString>Dang J, Honda K, Suzuki H (1994) Morphological and acoustical analysis of the nasal and the paranasal cavities. J Acoust Soc Am 96:2088–2100</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Chen MY</author>
+<author>R Metson</author>
+</authors>
+<title>Effects of sinus surgery on speech. Arch Otolaryngol Head Neck Surg 123:845–852</title>
+<date>1997</date>
+<contexts>
+<context position="5738" citStr="[6, 21]" startWordPosition="844" endWordPosition="845">dull, obstructed-sounding voice. If consonants, especially voiced plosives, are substituted with correspondent nasalized consonants, hypernasality is present. Air leaks through the nose, the intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the </context>
+<context position="19695" citStr="[6, 21, 40]" startWordPosition="3098" endWordPosition="3100">found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations and varying surgical interventions [6, 21, 40]. Those evaluations primarily focused on speech analysis based on single vocals and consonant variations [6, 21]. However, the main aim of this study was to evaluate speech intelligibility using the ASR system for the first time in a study population as defined above. Consistency regarding the extent of surgery of nose and sinuses lay outside the primary focus of this study, but led us to the initiation of further studies looking specifically at different surgical interventions. An interesting study done by Yue et al. [41] studied changes in resonance characteristics of the nasal cavity and na</context>
+<context position="21285" citStr="[21]" startWordPosition="3338" endWordPosition="3338">ly demonstrated at t2 when participants had nasal packings—a situation only tolerated in the context of nose/ sinus surgery. Total obstruction of the nasal cavity with nasal packings caused maximal hyponasality analogous to nasal obstruction caused by nasal and sinus pathologies. It can be concluded that hyponasality induced by total obstruction of the nasal cavity significantly influences speech intelligibility. Hence the ASR system does help to evaluate speech intelligibility. Similar results have been shown for spectral properties of consonants and nasalized vowels before and after surgery [21] and the testing of nasalance with nasalized sentences [15]. Nevertheless, our results may be interpreted in different ways. First, an insignificant difference between pre- and post-operative speech intelligibility results may reassure patients that they do not need to expect major voice changes. On the other hand, expectations to improve hyponasality as the main intention for surgery need to be lowered. It may also be argued that the ASR system used was incapable of detecting small changes in nasality. There are reports in the literature of similar studies that attempted to establish methods </context>
+</contexts>
+<marker>21.</marker>
+<rawString>Chen MY, Metson R (1997) Effects of sinus surgery on speech. Arch Otolaryngol Head Neck Surg 123:845–852</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Windrich</author>
+<author>A Maier</author>
+<author>R Kohler</author>
+<author>E Noth</author>
+<author>E Nkenke</author>
+<author>U Eysholdt</author>
+<author>M Schuster</author>
+</authors>
+<title>Automatic quantification of speech intelligibility of adults with oral squamous cell carcinoma. Folia Phoniatr Logop</title>
+<date>2008</date>
+<pages>60--151</pages>
+<contexts>
+<context position="5929" citStr="[3, 4, 22]" startWordPosition="870" endWordPosition="872">he intraoral pressure of air is reduced, and the acuity of oral consonants is decreased [18] by changing resonance functions and altered formant structure of the phoneme [19]. MRI studies of the spectral characteristics of human nasal sounds showed that the paranasal sinuses have an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality.</context>
+<context position="17211" citStr="[4, 22]" startWordPosition="2710" endWordPosition="2711">s used in order to exclude the above-mentioned confounding factors and others such as perplexity of speech and free- versus read Eur Arch Otorhinolaryngol (2010) 267:1719–1725 speech [35]. By using a standard text (‘‘Der Nordwind und die Sonne’’) and stable recording conditions, the impact of most of these factors on ASR and the subsequent analysis of results was minimized. The percentage of correctly identified words of a word sequence, which is defined as the WR, has been shown to correspond to speech intelligibility—as demonstrated previously for children and adults with phonetic disorders [4, 22]. Moreover, since the system excludes semantic and syntactic knowledge, the method is more precise and accurate than the usually used perceptual evaluations summarized from several listeners. Of course, no information about acceptability or esthetic appearance of speech can be provided by ASR. The ASR system is trained with 6.9 h of adult speech in order to model a ‘‘standard’’ listener. Unlike perceptual evaluation by human listeners, it is not affected by perceptual and subjective influences [3]. Evaluation of the same speech data will always lead to the same result. Therefore, speech recogn</context>
+<context position="19173" citStr="[22]" startWordPosition="3027" endWordPosition="3027">. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations and varying surgical interventions [6, 21, 40]. Those evaluations primarily focused on speech analysis based on single vocal</context>
+</contexts>
+<marker>22.</marker>
+<rawString>Windrich M, Maier A, Kohler R, Noth E, Nkenke E, Eysholdt U, Schuster M (2008) Automatic quantification of speech intelligibility of adults with oral squamous cell carcinoma. Folia Phoniatr Logop 60:151–156</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Gallwitz</author>
+<author>H Niemann</author>
+<author>E No¨th</author>
+</authors>
+<date>1999</date>
+<booktitle>Spracherkennung— Stand der Technik, Einsatzmo¨glichkeiten und Perspektiven. Wirtschaftsinformatik</booktitle>
+<pages>41--538</pages>
+<contexts>
+<context position="6204" citStr="[23, 24]" startWordPosition="912" endWordPosition="913">ave an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality. In previous investigations, it has shown a diminished degree of intelligibility in children with increased nasality due to cleft palate [26]. 123 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 It is important to learn more about the effects of nose and sinus surgery on spee</context>
+</contexts>
+<marker>23.</marker>
+<rawString>Gallwitz F, Niemann H, No¨th E (1999) Spracherkennung— Stand der Technik, Einsatzmo¨glichkeiten und Perspektiven. Wirtschaftsinformatik 41:538–547</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Euler</author>
+</authors>
+<title>Grundkurs Spracherkennung.</title>
+<date>2006</date>
+<publisher>Vieweg-Verlag,</publisher>
+<location>Wiesbaden</location>
+<contexts>
+<context position="6204" citStr="[23, 24]" startWordPosition="912" endWordPosition="913">ave an important role in shaping these functions [20]. Further investigation of the effects of sinus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality. In previous investigations, it has shown a diminished degree of intelligibility in children with increased nasality due to cleft palate [26]. 123 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 It is important to learn more about the effects of nose and sinus surgery on spee</context>
+</contexts>
+<marker>24.</marker>
+<rawString>Euler E (2006) Grundkurs Spracherkennung. Vieweg-Verlag, Wiesbaden</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Gales</author>
+<author>D Pye</author>
+<author>P Woodland</author>
+</authors>
+<title>Variance compensation within the MLLR framework for robust speech recognition and speaker adaptation. In:</title>
+<date>1996</date>
+<booktitle>Proceedings of ICSLP’96,</booktitle>
+<location>Philadelphia, USA</location>
+<contexts>
+<context position="6297" citStr="[25]" startWordPosition="927" endWordPosition="927">nus surgery supported this assumption [6, 21]. Recently, an automatic speech recognition (ASR) system was used for the objective assessment of speech intelligibility and showed very good concordance with perceptual evaluation [3, 4, 22]. ASR is usually used for automatic communication systems in order to recognize speech, e.g., for telephone or dictating systems. It relies on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality. In previous investigations, it has shown a diminished degree of intelligibility in children with increased nasality due to cleft palate [26]. 123 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 It is important to learn more about the effects of nose and sinus surgery on speech intelligibility and also to investigate short-, as well as long-term changes after surgery</context>
+</contexts>
+<marker>25.</marker>
+<rawString>Gales M, Pye D, Woodland P (1996) Variance compensation within the MLLR framework for robust speech recognition and speaker adaptation. In: Proceedings of ICSLP’96, Philadelphia, USA</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Vogt</author>
+<author>A Maier</author>
+<author>A Batliner</author>
+<author>E Noth</author>
+<author>E Nkenke</author>
+<author>U Eysholdt</author>
+<author>M Schuster</author>
+</authors>
+<title>Numeric quantification of intelligibility in schoolchildren with isolated and combined cleft palate.</title>
+<date>2007</date>
+<journal>HNO</journal>
+<pages>55--891</pages>
+<contexts>
+<context position="6670" citStr="[26]" startWordPosition="983" endWordPosition="983">es on the analysis of acoustic properties of speech and often includes phonetic and linguistic knowledge using stochastic methods [23, 24]. ASR is now increasingly being used to quantify speech alterations for medical purposes [25]. For the ASR system presented here, the percentage of correctly recognized words of a known sequence (word recognition rate; WR) corresponds to speech intelligibility. Thus, the method can be used to evaluate global speech quality. In previous investigations, it has shown a diminished degree of intelligibility in children with increased nasality due to cleft palate [26]. 123 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 It is important to learn more about the effects of nose and sinus surgery on speech intelligibility and also to investigate short-, as well as long-term changes after surgery. Here we present the first data on the use of an ASR system to measure the speech intelligibility of patients with pathology of nose and paranasal sinuses. Participants and methods Twenty adult patients, who were admitted to an academic tertiary referral center from April to July 2007 for surgery of the nose and/or paranasal sinuses, were included in this study (Table 1</context>
+<context position="15671" citStr="[26]" startWordPosition="2482" endWordPosition="2482">s (WR at t1 was excluded from one patient for reasons described earlier) and 40 measurements of nasal inspiratory flow using the nasal peak inspiratory flow meter from 20 patients. The generation of universal parameters for reporting speech outcomes in individuals has been the aim of a number of studies focusing on different components of speech [5, 33, 34]. The quality of phonetic implementation of words, and therefore the evaluation of speech intelligibility, serves as global evaluation of quality of speech. The percentage of correctly identified words is a measure of speech intelligibility [26]. Of course, a speech recognition system does not understand the speech as a human listener would. The subjective factor—meaning the interpretation and processing of perceived speech in the respective brain areas— is also a relevant criterion for a human observer. Voice quality, phonetic and morpho-syntactic structure, background noises, loudness, and rate of speech all influence perception. Context and prosodic elements in particular contribute to a better understanding of a human listener. That is why speech intelligibility is often rated differently by differently experienced and competent </context>
+<context position="19050" citStr="[26, 39]" startWordPosition="3007" endWordPosition="3008">ld standard for the perception of spoken speech rather than merely vowels, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations a</context>
+</contexts>
+<marker>26.</marker>
+<rawString>Vogt B, Maier A, Batliner A, Noth E, Nkenke E, Eysholdt U, Schuster M (2007) Numeric quantification of intelligibility in schoolchildren with isolated and combined cleft palate. HNO 55:891–898</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wigand ME</author>
+</authors>
+<title>Transnasal, endoscopical surgery for chronic sinusitis. III. Endonasal ethmoidectomy (author’s transl).</title>
+<date>1981</date>
+<journal>HNO</journal>
+<pages>29--287</pages>
+<contexts>
+<context position="9248" citStr="[17, 27, 28]" startWordPosition="1412" endWordPosition="1414">underwent endoscopy of the nose, nasopharynx, and larynx prior to standardized speech recordings immediately before surgery (t1), on the first postoperative day with nasal packings (t2), and 3 months after surgery (t3). On each occasion, patients were also asked about their general health, sinus condition, and condition of nasal resonance, that were both recorded using a visual analog scale (VAS). The VAS scale included scores from 1 (excellent) to 10 (extremely bad), respectively. Surgery consisted of either rhinoplasty and/or endoscopic sinus surgery, using the surgical techniques of Wigand [17, 27, 28]. All patients had bilateral nasal packing on the first postoperative day (t2). Nasal peak inspiratory flow measurements Nasal flow was measured using the nasal peak inspiratory flow meter (nPIF) (In Check; Clement Clarke, Harlow, UK) at voice recording sessions, t1 and t3. Total nasal inspiratory flow was measured with a peak flow device while closing the mouth with an adjusted naso-oral mask. Automatic speech recognition Standardized speech recordings of the patients were performed digitally with a dnt Call4you head-set (16 kHz/16 bit) at t1–t3 as described earlier and analyzed using PEAKS [</context>
+</contexts>
+<marker>27.</marker>
+<rawString>Wigand ME (1981) Transnasal, endoscopical surgery for chronic sinusitis. III. Endonasal ethmoidectomy (author’s transl). HNO 29:287–293</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wigand ME</author>
+</authors>
+<title>Transnasal, endoscopical sinus surgery for chronic sinusitis. II. Endonasal operation of the maxillary antrum (author’s transl).</title>
+<date>1981</date>
+<journal>HNO</journal>
+<pages>29--263</pages>
+<contexts>
+<context position="9248" citStr="[17, 27, 28]" startWordPosition="1412" endWordPosition="1414">underwent endoscopy of the nose, nasopharynx, and larynx prior to standardized speech recordings immediately before surgery (t1), on the first postoperative day with nasal packings (t2), and 3 months after surgery (t3). On each occasion, patients were also asked about their general health, sinus condition, and condition of nasal resonance, that were both recorded using a visual analog scale (VAS). The VAS scale included scores from 1 (excellent) to 10 (extremely bad), respectively. Surgery consisted of either rhinoplasty and/or endoscopic sinus surgery, using the surgical techniques of Wigand [17, 27, 28]. All patients had bilateral nasal packing on the first postoperative day (t2). Nasal peak inspiratory flow measurements Nasal flow was measured using the nasal peak inspiratory flow meter (nPIF) (In Check; Clement Clarke, Harlow, UK) at voice recording sessions, t1 and t3. Total nasal inspiratory flow was measured with a peak flow device while closing the mouth with an adjusted naso-oral mask. Automatic speech recognition Standardized speech recordings of the patients were performed digitally with a dnt Call4you head-set (16 kHz/16 bit) at t1–t3 as described earlier and analyzed using PEAKS [</context>
+</contexts>
+<marker>28.</marker>
+<rawString>Wigand ME (1981) Transnasal, endoscopical sinus surgery for chronic sinusitis. II. Endonasal operation of the maxillary antrum (author’s transl). HNO 29:263–269</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Maier</author>
+<author>E No¨th</author>
+<author>E Nkenke</author>
+<author>M Schuster</author>
+</authors>
+<title>Fully automatic assessment of speech of children with cleft lip and palate.</title>
+<date>2006</date>
+<journal>Informatica</journal>
+<volume>30</volume>
+<issue>4</issue>
+<contexts>
+<context position="12077" citStr="[29]" startWordPosition="1888" endWordPosition="1888">of scatter of WR results became lower in t3. Gender had no relevant influence on WR results, with a mean of 69.8 ± 3.3% for female and 66.8 ± 6.1% for male patients. The range of WR results was again smaller in women than in men (Table 1; Fig. 1). Comparison of the results between the first (t1) and the last (t3) speech recording sessions did not show a significant difference in mean WR (p = 1.0). However, there was p=0.001 p=0.002 p=0.001 p=0.002 Statistics Statistical analyses were performed using Microsoft Office Excel (2003), SPSS (Version 16.0.2. SPSS Inc., USA) and PEAKS (Version 1.6.2) [29]. We used the fully automatic speech evaluation routine as described in [29]. Based on the reference text and recognized word chain of the ASR system, an estimate of the speech intelligibility is computed WR. The WR shows similar performance to a transcription-based perceptual evaluation [29, 30]. PEAKS features an export interface to Excel and SPSS. Correlation analysis was calculated according to Pearson [32]. t1 t2 t3 Time point of speech recording Fig. 1 Word recognition rate (WR) (%) according to gender, at time point t1 (pre-operative), t2 (post-operative with nasal packing), t3 (3 month</context>
+</contexts>
+<marker>29.</marker>
+<rawString>Maier A, No¨th E, Nkenke E, Schuster M (2006) Fully automatic assessment of speech of children with cleft lip and palate. Informatica 30(4):477–482</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Maier</author>
+<author>T Haderlein</author>
+<author>U Eysholdt</author>
+<author>F Rosanowski</author>
+<author>A Batliner</author>
+<author>M Schuster</author>
+<author>E No¨th</author>
+</authors>
+<title>Peaks—a system for the automatic evaluation of voice and speech disorders.</title>
+<date>2009</date>
+<journal>Speech Commun</journal>
+<volume>51</volume>
+<contexts>
+<context position="12374" citStr="[29, 30]" startWordPosition="1933" endWordPosition="1934">t1) and the last (t3) speech recording sessions did not show a significant difference in mean WR (p = 1.0). However, there was p=0.001 p=0.002 p=0.001 p=0.002 Statistics Statistical analyses were performed using Microsoft Office Excel (2003), SPSS (Version 16.0.2. SPSS Inc., USA) and PEAKS (Version 1.6.2) [29]. We used the fully automatic speech evaluation routine as described in [29]. Based on the reference text and recognized word chain of the ASR system, an estimate of the speech intelligibility is computed WR. The WR shows similar performance to a transcription-based perceptual evaluation [29, 30]. PEAKS features an export interface to Excel and SPSS. Correlation analysis was calculated according to Pearson [32]. t1 t2 t3 Time point of speech recording Fig. 1 Word recognition rate (WR) (%) according to gender, at time point t1 (pre-operative), t2 (post-operative with nasal packing), t3 (3 months post-operative) 123 1722 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 Table 2 Mean of word recognition rate (WR) (%) for t1, t2, t3 according to age (n = 20) Table 3 Pre- and post-operative comparison of subjective scores (VAS) for general health and nasal resonance (n = 20) Age (year) n t1 t</context>
+</contexts>
+<marker>30.</marker>
+<rawString>Maier A, Haderlein T, Eysholdt U, Rosanowski F, Batliner A, Schuster M, No¨th E (2009) Peaks—a system for the automatic evaluation of voice and speech disorders. Speech Commun 51:425–437</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Haderlein</author>
+<author>E Noth</author>
+<author>H Toy</author>
+<author>A Batliner</author>
+<author>M Schuster</author>
+<author>U Eysholdt</author>
+<author>J Hornegger</author>
+<author>F Rosanowski</author>
+</authors>
+<title>Automatic evaluation of prosodic features of tracheoesophageal substitute voice. Eur Arch Otorhinolaryngol 264:1315–1321 Eur Arch Otorhinolaryngol</title>
+<date>2007</date>
+<pages>267--1719</pages>
+<marker>31.</marker>
+<rawString>Haderlein T, Noth E, Toy H, Batliner A, Schuster M, Eysholdt U, Hornegger J, Rosanowski F (2007) Automatic evaluation of prosodic features of tracheoesophageal substitute voice. Eur Arch Otorhinolaryngol 264:1315–1321 Eur Arch Otorhinolaryngol (2010) 267:1719–1725</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>K Pearson</author>
+</authors>
+<title>(1896) Mathematical contributions to the theory of evolution III regression, heredity and panmixia. Philos Trans R Soc London 187:253–318</title>
+<contexts>
+<context position="12491" citStr="[32]" startWordPosition="1951" endWordPosition="1951">e was p=0.001 p=0.002 p=0.001 p=0.002 Statistics Statistical analyses were performed using Microsoft Office Excel (2003), SPSS (Version 16.0.2. SPSS Inc., USA) and PEAKS (Version 1.6.2) [29]. We used the fully automatic speech evaluation routine as described in [29]. Based on the reference text and recognized word chain of the ASR system, an estimate of the speech intelligibility is computed WR. The WR shows similar performance to a transcription-based perceptual evaluation [29, 30]. PEAKS features an export interface to Excel and SPSS. Correlation analysis was calculated according to Pearson [32]. t1 t2 t3 Time point of speech recording Fig. 1 Word recognition rate (WR) (%) according to gender, at time point t1 (pre-operative), t2 (post-operative with nasal packing), t3 (3 months post-operative) 123 1722 Eur Arch Otorhinolaryngol (2010) 267:1719–1725 Table 2 Mean of word recognition rate (WR) (%) for t1, t2, t3 according to age (n = 20) Table 3 Pre- and post-operative comparison of subjective scores (VAS) for general health and nasal resonance (n = 20) Age (year) n t1 t2 t3 Subjective score General health B20 2 76.0 65.8 72.2 20–30 10 70.6 51.9 67.8 1–2 – 1 3 8 30–50 3 61.6 56.6 64.8 </context>
+</contexts>
+<marker>32.</marker>
+<rawString>Pearson K (1896) Mathematical contributions to the theory of evolution III regression, heredity and panmixia. Philos Trans R Soc London 187:253–318</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Smith BE</author>
+<author>Kuehn DP</author>
+</authors>
+<title>Speech evaluation of velopharyngeal dysfunction.</title>
+<date>2007</date>
+<journal>J Craniofac Surg</journal>
+<volume>18</volume>
+<pages>266--257</pages>
+<contexts>
+<context position="15426" citStr="[5, 33, 34]" startWordPosition="2445" endWordPosition="2447">study group consisted of consecutively admitted patients for nasal/sinus surgery. A broad spectrum of diseases was included in order to measure a wide range of speech characteristics as shown in Fig. 2 and Tables 1 and 2. Data included 59 speech samples (WR at t1 was excluded from one patient for reasons described earlier) and 40 measurements of nasal inspiratory flow using the nasal peak inspiratory flow meter from 20 patients. The generation of universal parameters for reporting speech outcomes in individuals has been the aim of a number of studies focusing on different components of speech [5, 33, 34]. The quality of phonetic implementation of words, and therefore the evaluation of speech intelligibility, serves as global evaluation of quality of speech. The percentage of correctly identified words is a measure of speech intelligibility [26]. Of course, a speech recognition system does not understand the speech as a human listener would. The subjective factor—meaning the interpretation and processing of perceived speech in the respective brain areas— is also a relevant criterion for a human observer. Voice quality, phonetic and morpho-syntactic structure, background noises, loudness, and r</context>
+</contexts>
+<marker>33.</marker>
+<rawString>Smith BE, Kuehn DP (2007) Speech evaluation of velopharyngeal dysfunction. J Craniofac Surg 18:251–261 quiz 266–257</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Dworkin JP</author>
+<author>Marunick MT</author>
+<author>Krouse JH</author>
+</authors>
+<title>Velopharyngeal dysfunction: speech characteristics, variable etiologies, evaluation techniques, and differential treatments. Lang Speech Hear Serv Sch 35:333–352</title>
+<date>2004</date>
+<contexts>
+<context position="15426" citStr="[5, 33, 34]" startWordPosition="2445" endWordPosition="2447">study group consisted of consecutively admitted patients for nasal/sinus surgery. A broad spectrum of diseases was included in order to measure a wide range of speech characteristics as shown in Fig. 2 and Tables 1 and 2. Data included 59 speech samples (WR at t1 was excluded from one patient for reasons described earlier) and 40 measurements of nasal inspiratory flow using the nasal peak inspiratory flow meter from 20 patients. The generation of universal parameters for reporting speech outcomes in individuals has been the aim of a number of studies focusing on different components of speech [5, 33, 34]. The quality of phonetic implementation of words, and therefore the evaluation of speech intelligibility, serves as global evaluation of quality of speech. The percentage of correctly identified words is a measure of speech intelligibility [26]. Of course, a speech recognition system does not understand the speech as a human listener would. The subjective factor—meaning the interpretation and processing of perceived speech in the respective brain areas— is also a relevant criterion for a human observer. Voice quality, phonetic and morpho-syntactic structure, background noises, loudness, and r</context>
+</contexts>
+<marker>34.</marker>
+<rawString>Dworkin JP, Marunick MT, Krouse JH (2004) Velopharyngeal dysfunction: speech characteristics, variable etiologies, evaluation techniques, and differential treatments. Lang Speech Hear Serv Sch 35:333–352</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Chen MY</author>
+</authors>
+<title>Acoustic correlates of English and French nasalized vowels.</title>
+<date>1997</date>
+<journal>J Acoust Soc Am</journal>
+<volume>102</volume>
+<contexts>
+<context position="16791" citStr="[35]" startWordPosition="2645" endWordPosition="2645">intelligibility is often rated differently by differently experienced and competent listeners and limits the reliability of the perceptual evaluation of speech. It is also known that other factors such as the speaker and his native tongue, the speaking style, vocabulary, grammatical complexity, and acoustic properties of the recording system can greatly affect ASR. In the present study, a standardized procedure was used in order to exclude the above-mentioned confounding factors and others such as perplexity of speech and free- versus read Eur Arch Otorhinolaryngol (2010) 267:1719–1725 speech [35]. By using a standard text (‘‘Der Nordwind und die Sonne’’) and stable recording conditions, the impact of most of these factors on ASR and the subsequent analysis of results was minimized. The percentage of correctly identified words of a word sequence, which is defined as the WR, has been shown to correspond to speech intelligibility—as demonstrated previously for children and adults with phonetic disorders [4, 22]. Moreover, since the system excludes semantic and syntactic knowledge, the method is more precise and accurate than the usually used perceptual evaluations summarized from several</context>
+</contexts>
+<marker>35.</marker>
+<rawString>Chen MY (1997) Acoustic correlates of English and French nasalized vowels. J Acoust Soc Am 102:2360–2370</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Kitzing</author>
+<author>A Maier</author>
+<author>Ahlander VL</author>
+</authors>
+<title>Automatic speech recognition (ASR) and its use as a tool for assessment or therapy of voice, speech, and language disorders. Logoped Phoniatr Vocol 34:91–96</title>
+<date>2009</date>
+<contexts>
+<context position="18066" citStr="[36]" startWordPosition="2844" endWordPosition="2844">ppearance of speech can be provided by ASR. The ASR system is trained with 6.9 h of adult speech in order to model a ‘‘standard’’ listener. Unlike perceptual evaluation by human listeners, it is not affected by perceptual and subjective influences [3]. Evaluation of the same speech data will always lead to the same result. Therefore, speech recognition is an objective and accurate tool for the measurement of speech intelligibility [22]. ASR is based on the statistical modeling of the acoustic and linguistic features of human speech. In this study we focussed on the acoustic features of speech [36]. The results of WR in this study population never reached 100%, which one might expect for normal speakers. However, similar results were obtained in previous studies with the same ASR system where the WR also did not reach 100% [4]. This is due to limitations of the method and these consistent results show there is nonsystematic influences. Given that there is still no gold standard for the perception of spoken speech rather than merely vowels, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as a</context>
+</contexts>
+<marker>36.</marker>
+<rawString>Kitzing P, Maier A, Ahlander VL (2009) Automatic speech recognition (ASR) and its use as a tool for assessment or therapy of voice, speech, and language disorders. Logoped Phoniatr Vocol 34:91–96</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Scipioni</author>
+<author>M Gerosa</author>
+<author>D Giuliani</author>
+<author>E Noeth</author>
+</authors>
+<title>Maier A</title>
+<date>2009</date>
+<booktitle>Moore R (Ed) 10th annual conference of the international speech communication association (Interspeech 2009). ISCA,</booktitle>
+<pages>967--970</pages>
+<location>Brighton, England,</location>
+<contexts>
+<context position="18845" citStr="[37]" startWordPosition="2973" endWordPosition="2973">e same ASR system where the WR also did not reach 100% [4]. This is due to limitations of the method and these consistent results show there is nonsystematic influences. Given that there is still no gold standard for the perception of spoken speech rather than merely vowels, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech</context>
+</contexts>
+<marker>37.</marker>
+<rawString>Scipioni M, Gerosa M, Giuliani D, Noeth E, Maier A (2009) Intelligibility assessment in children with cleft lip and palate in Italian and German. In: Moore R (Ed) 10th annual conference of the international speech communication association (Interspeech 2009). ISCA, Brighton, England, pp 967–970</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wilpon JG</author>
+<author>C Jacobsen</author>
+</authors>
+<title>A study of speech recognition for children and the elderly. In:</title>
+<date>1996</date>
+<booktitle>Proceedings of ICASSP,</booktitle>
+<pages>349--352</pages>
+<contexts>
+<context position="19027" citStr="[38]" startWordPosition="3004" endWordPosition="3004">here is still no gold standard for the perception of spoken speech rather than merely vowels, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small s</context>
+</contexts>
+<marker>38.</marker>
+<rawString>Wilpon JG, Jacobsen C (1996) A study of speech recognition for children and the elderly. In: Proceedings of ICASSP, pp 349–352</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>F Dames</author>
+<author>A Maier</author>
+<author>A Schutzenberger</author>
+<author>F Stelzle</author>
+<author>A Holst</author>
+<author>E Noth</author>
+<author>U Eysholdt</author>
+<author>M Schuster</author>
+</authors>
+<title>Intelligibility of children with</title>
+<date>2009</date>
+<journal>J Voice</journal>
+<volume>16</volume>
+<pages>921</pages>
+<contexts>
+<context position="19050" citStr="[26, 39]" startWordPosition="3007" endWordPosition="3008">ld standard for the perception of spoken speech rather than merely vowels, we consider ASR to be the best method in that regard. The ASR system used here has already been employed in several previous studies. Of course, as an objective method, the intention is for this system to be used in other languages. Ongoing tests with different languages have already produced promising preliminary results [37]. Age had no significant influence on WR in this study because the study population was rather small. However, the effects of age on WR have recently been demonstrated by Wilpon [38], for children [26, 39]. In adults, similar results were found after total laryngectomy [4] and in patients with oral squamous cell carcinoma [22]. An increase of hyponasality and decrease of speech intelligibility is generally assumed to occur as the severity of sinus diseases and obstruction-inducing nasal deformities increases [15]. Surgical interventions aiming to relieve such conditions ought to improve speech intelligibility [40]. However, the population in the present study was too small to allow further statistic evaluations. Previous investigations of a similar design also had small study 1723 populations a</context>
+</contexts>
+<marker>39.</marker>
+<rawString>Dames F, Maier A, Schutzenberger A, Stelzle F, Holst A, Noth E, Eysholdt U, Schuster M (2009) Intelligibility of children with Soneghet R, Santos RP, Behlau M, Habermann W, Friedrich G, Stammberger H (2002) Nasalance changes after functional endoscopic sinus surgery. J Voice 16:392–397 Yue J, Kong W, Tan H, Xiong X, Zhang X, Wang Y, Zhang S (2006) The effects of endoscopic sinus surgery on nasality and nasal patency. Lin Chuang Er Bi Yan Hou Ke Za Zhi 20:917– 918, 921 Cecil M, Tindall L, Haydon R (2001) The relationship between dysphonia and sinusitis: a pilot study. J Voice 15:270–277 Sundberg J, Birch P, Gumoes B, Stavad H, Prytz S, Karle A (2007) Experimental findings on the nasal tract resonator in singing. J Voice 21:127–137 Lam DJ, James KT, Weaver EM (2006) Comparison of anatomic, physiological, and subjective measures of the nasal airway. Am J Rhinol 20:463–470 Clement PA, Gordts F (2005) Consensus report on acoustic rhinometry and rhinomanometry. Rhinology 43:169–179 Numminen J, Dastidar P, Rautiainen M (2004) Influence of sinus surgery in rhinometric measurements. J Otolaryngol 33:98–103</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

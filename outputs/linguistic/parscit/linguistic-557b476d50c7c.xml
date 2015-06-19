@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<subsectionHeader confidence="0.666553">
+Developmental Psychology
+</subsectionHeader>
+<bodyText confidence="0.101244">
+2013, Vol. 49, No. 6, 1076 –1089
+</bodyText>
+<sectionHeader confidence="0.3154595" genericHeader="method">
+© 2012 American Psychological Association
+0012-1649/13/$12.00 DOI: 10.1037/a0026918
+</sectionHeader>
+<bodyText confidence="0.794525666666667">
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+Top-Down Influence in Young Children’s Linguistic Ambiguity Resolution
+</bodyText>
+<author confidence="0.637999">
+Hugh Rabagliati
+</author>
+<affiliation confidence="0.572078666666667">
+Liina Pylkka¨nen and Gary F. Marcus
+New York University and Brown University
+New York University
+</affiliation>
+<bodyText confidence="0.947186853333334">
+Language is rife with ambiguity. Do children and adults meet this challenge in similar ways? Recent
+work suggests that while adults resolve syntactic ambiguities by integrating a variety of cues, children
+are less sensitive to top-down evidence. We test whether this top-down insensitivity is specific to syntax
+or a general feature of children’s linguistic ambiguity resolution by evaluating whether children rely
+largely or completely on lexical associations to resolve lexical ambiguities (e.g., the word swing primes
+the baseball meaning of bat) or additionally integrate top-down global plausibility. Using a picture choice
+task, we compared 4-year-olds’ ability to resolve polysemes and homophones with a Bayesian algorithm
+reliant purely on lexical associations and found that the algorithm’s power to predict children’s choices
+was limited. A 2nd experiment confirmed that children override associations and integrate top-down
+plausibility. We discuss this with regard to models of psycholinguistic development.
+Keywords: language development, child language processing, lexical ambiguity, sense resolution
+Like adults, children process language quickly and incrementally:
+They make guesses about plausible interpretations on the basis of
+the currently available evidence and do not hold off on interpreting
+a sentence until it has finished (Fernald, Zangl, Portillo, &amp; Marchman, 2008; Snedeker, 2009; Trueswell &amp; Gleitman, 2004;
+Trueswell, Sekerina, Hill, &amp; Logrip, 1999). But, in other respects,
+children’s ambiguity resolution is very different. In particular,
+their coordination of different levels of linguistic representation to
+ultimately choose an interpretation is distinctly not adultlike.
+Research on syntactic ambiguity resolution suggests that although children have little difficulty using bottom-up information
+in their decisions, they find the integration of top-down information considerably more demanding. Evidence for this distinction
+comes from children’s ability to resolve ambiguous phrases such
+as tickle the frog with the feather. Here, the ambiguity arises over
+where to attach the prepositional phrase with the feather, as an
+instrument phrase attached to the verb (tickling using the feather)
+or as a modifier of the noun (the frog holding the feather).
+Five-year-olds can resolve these ambiguities using bottom-up
+cues such as lexical statistics, the frequency with which a verb is
+found in a particular syntactic structure. Because a prepositional
+phrase subsequent to the verb tickle most frequently describes an
+instrument, children tend to attach all ambiguous prepositional
+phrases following tickle as instruments, whereas for verbs that
+typically do not take an instrument phrase (e.g., choose the frog
+with the feather), children take the phrase to modify the frog (Kidd
+&amp; Bavin, 2005; Snedeker &amp; Trueswell, 2004; Trueswell et al.,
+1999). This bottom-up facility extends to additional cues, such as
+the prosodic rhythm and stress in a sentence (Snedeker &amp; Yuan,
+2008).
+However, children’s use of top-down information is very different. For instance, adults will quickly account for a cue called
+referential context. If tickle the frog with the feather is uttered in
+front of two frogs, one holding a feather and one empty-handed,
+adults immediately make the inference that the prepositional
+phrase modifies the noun to disambiguate which of the two frogs
+is being referred to. In contrast, 5-year-old children fail to make
+Human language is rife with ambiguity. Sentences can be ambiguous between multiple syntactic structures, words can be ambiguous between multiple meanings or senses, and an acoustic
+signal can be ambiguous between multiple words. Nevertheless,
+adults manage to resolve the vast majority of linguistic ambiguity
+rapidly and accurately.
+Research in psycholinguistics suggests that this accuracy is
+achieved through a cognitive architecture in which a wide variety
+of information sources, both bottom-up and top-down, are used to
+select the best interpretation from the multiple possible alternatives
+(see, e.g., Altmann, 1998; Dahan &amp; Magnuson, 2006; MacDonald,
+Pearlmutter, &amp; Seidenberg, 1994; Swinney, 1979). For example,
+the intended meaning of a noun–verb homophone like duck could
+be resolved using information from the same level of representation, such as priming by a related word (e.g., quack) or through
+top-down feedback from its syntactic context (e.g., whether it is
+preceded by a definite article).
+Far less is known, however, about how the mechanisms of
+ambiguity resolution develop. To what extent does the cognitive
+machinery that children use for language comprehension relate to
+the machinery used by adults? In fact, recent work suggests that, in
+many respects, child and adult language processing are similar.
+This article was published Online First January 9, 2012.
+Hugh Rabagliati, Department of Psychology, New York University, and
+Department of Cognitive, Linguistic, and Psychological Sciences, Brown
+University; Liina Pylkka¨nen, Department of Psychology and Department
+of Linguistics, New York University; Gary F. Marcus, Department of
+Psychology, New York University.
+This work was supported by National Institutes of Health Grant R01HD48733. Thanks to Gregory Murphy, Athena Vouloumanos, Marjorie
+Rhodes, Sandeep Prasada, and Anja Sautmann for helpful discussion and
+support and to Amanda Pogue and Christina Starmans for help with testing.
+Correspondence concerning this article should be addressed to Hugh
+Rabagliati, who is now at Department of Psychology, Harvard University,
+William James Hall, 33 Kirkland Street, Cambridge, MA 02138. E-mail:
+</bodyText>
+<email confidence="0.857785">
+hugh@wjh.harvard.edu
+</email>
+<page confidence="0.994961">
+1076
+</page>
+<bodyText confidence="0.988892">
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.960091" genericHeader="method">
+LEXICAL RESOLUTION
+</sectionHeader>
+<bodyText confidence="0.999466936170213">
+this inference and rely on lexical statistics. It is only by around 7
+years of age that children appear to use a top-down cue like
+referential context (Snedeker &amp; Trueswell, 2004; Trueswell et al.,
+1999).
+Building on this, Kidd and Bavin (2005) demonstrated that
+children 3 years 8 months old pay little attention to another
+top-down cue, global plausibility. Consider the phrase chop the
+tree with the leaves. Even though chop typically takes an instrument phrase, adults generally attach the prepositional phrase as a
+modifier of the noun, because leaves are implausible instruments.
+By contrast, their participants treated the phrase as an instrument
+60% of the time; that is, they implausibly took it as an instruction
+to chop the tree using some leaves (see also Snedeker, Worek, &amp;
+Shafto, 2009). Finally, Hurewitz, Brown-Schmidt, Thorpe, Gleitman, and Trueswell (2000) demonstrated that when 4.5-year-olds
+heard a question that (for adults) should promote modifier interpretations for subsequent ambiguities (e.g., Which frog went to
+Mrs. Squid’s house?), it did not in fact do so.
+What might cause this disparity in children’s use of bottom-up
+and top-down cues? Snedeker and Yuan (2008) discussed two
+possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if
+top-down processing is too computationally arduous for children
+to deploy quickly and accurately or if children do not know how to
+correctly align levels of representation.
+Second, Snedeker and Yuan (2008) discussed an informativity
+account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp;
+Gleitman, 2007; Trueswell et al., 1999), who proposed that children can potentially integrate a variety of information sources but
+that they instead choose to base their decisions on a smaller set of
+highly frequent and reliable cues. Under this informativity account, lexical statistics are used early because they are invariably
+present, they are informative, and they can be calculated via a
+relatively simple tabulation of frequencies. By contrast, referential
+context appears to be rare and less reliable (Trueswell &amp; Gleitman,
+2004), and so children rely on it less heavily than adults might.
+At first glance, the viability of the bottom-up account might
+appear to be challenged by evidence that children can use topdown information when they are learning about the structure of
+their language rather than processing it. Even 6-month-olds can
+use top-down lexical information to discover boundaries between
+words in fluent speech (Bortfeld, Morgan, Golinkoff, &amp; Rathbun,
+2005), and there are many demonstrations that children can use
+higher level syntactic information to guide their hypotheses in
+word learning (Naigles, 1996). However, it is not obvious that the
+cognitive architectures underlying language acquisition and processing are identical. In fact, differences in the tasks involved give
+reason to believe that the two differ in a number of ways. During
+processing, children must select from a small number of known
+alternative interpretations, but during acquisition they have to
+create these interpretations themselves. This act of creation will
+most likely take place slowly and rely on top-down information
+out of necessity (for instance, in learning the meaning of a word,
+the arbitrary relationship between a word’s form and its meaning
+ensures that bottom-up information is not particularly informative). By contrast, language processing requires children to make a
+</bodyText>
+<page confidence="0.98411">
+1077
+</page>
+<bodyText confidence="0.997883214285714">
+series of quick decisions, for which bottom-up information will be
+a useful guide.
+In sum, evidence from language acquisition does not indubitably
+constrain theories of language processing development. The critical issue for both the informativity and the bottom-up accounts is
+not whether children are blind to top-down information in toto but
+why they seem to have particular difficulty integrating top-down
+information when resolving known linguistic ambiguities. The two
+proposals ascribe quite different reasons for why children’s language processing architecture may differ from adults’ and therefore make different predictions about ambiguity resolution in other
+linguistic domains. The bottom-up hypothesis predicts that topdown integration is generally difficult, and so children should
+ignore top-down information when resolving any type of linguistic
+ambiguity. By contrast, the informativity account predicts that
+those top-down cues that are not used for syntactic ambiguity
+resolution might still be integrated for other types of linguistic
+ambiguity.
+</bodyText>
+<subsectionHeader confidence="0.686854">
+Top-Down and Bottom-Up Processing in Lexical
+Ambiguity Resolution
+</subsectionHeader>
+<bodyText confidence="0.968809296296296">
+One area where top-down processing might prove more relevant
+is the resolution of lexical ambiguity. Most words are ambiguous.
+This is most obviously seen with homophones (like knight, bat, or
+bark), where two meanings are completely unrelated but share a
+phonological form (e.g., as a result of contact between two languages). But comprehension also requires facing the subtler challenges of polysemes, words that are ambiguous between multiple
+senses that are related (e.g., lined or academic paper, roasted or
+angry chicken, or birthday or playing card). For instance, a birthday card and a playing card are different things, but it does not
+seem to be an accident that they share a name (i.e., because they
+are made of the same material). The ambiguity in polysemy is not
+only subtler than in homophony, it is also more common: Most
+frequent words are polysemous, many of them highly so (e.g., the
+Oxford English Dictionary lists 30 different senses for the word
+line).1
+Recent work suggests children are relatively flexible in assigning senses to words from an early age. By 4 years, they can switch
+between mass and count senses of nouns (some paper vs. some
+papers; Barner &amp; Snedeker, 2005), extend words to novel lexical
+categories (e.g., can you lipstick the trashcan? Bushnell &amp; Maratsos, 1984; Clark, 1981), and resolve polysemes (Rabagliati,
+Marcus, &amp; Pylkka¨nen, 2010; Srinivasan &amp; Snedeker, 2011). They
+also have an implicit understanding that homophonous meanings
+are more arbitrary than polysemous senses: They assume that
+English homophones need not be homophonous when translated
+into another language but that polysemes will still be polysemous
+(Srinivasan &amp; Snedeker, 2011).
+Figure 1 illustrates two ways in which ambiguous words could
+be resolved, one relying on information from within the lexical
+level and one relying on top-down information based on the
+plausibility of different interpretations. The lexical-level route
+</bodyText>
+<page confidence="0.937915">
+1
+</page>
+<bodyText confidence="0.9995592">
+The prescriptive method for distinguishing between homophones and
+polysemes is consulting a dictionary. Homophones are listed as separate
+entries, whereas polysemous senses are listed within an entry.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<page confidence="0.993411">
+1078
+</page>
+<sectionHeader confidence="0.6629005" genericHeader="method">
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+</sectionHeader>
+<figureCaption confidence="0.940752">
+Figure 1. Two routes for resolving ambiguous words when interpreting spoken language: use of top-down
+</figureCaption>
+<bodyText confidence="0.99863585483871">
+plausibility and same-level priming between words.
+shows how children might be able to resolve such ambiguities
+without resorting to top-down information. In particular, they
+could use associations between different lexical items: Spreading
+activation between the other words in a sentence or phrase (which
+we call the context words) and the critical meanings or senses of
+the ambiguous word might result in increased activation of the
+correct sense or meaning (e.g., the word swing might prime the
+baseball meaning of bat). In addition, children could track cooccurrences between context words and meanings or senses and
+use that information (which will be correlated with priming) for
+disambiguation, in a manner that is similar to their tracking of
+co-occurrences between syllables (Saffran, Aslin, &amp; Newport,
+1996), words (Bannard &amp; Matthews, 2008), and words and syntactic structures (Snedeker &amp; Trueswell, 2004). Children’s sensitivity to semantic priming (Petrey, 1977) and co-occurrence statistics (Saffran et al., 1996) suggests that neither task should be
+beyond them.
+But there is reason to suspect that lexical associations may not
+be sufficient for accurate lexical ambiguity resolution. Discrimination based on lexical associations will only work well when the
+two meanings or senses of a word usually occur with different
+context words. This will happen if the ambiguous meanings or
+senses are very different, as with bat (Miller &amp; Charles, 1991). But
+because most ambiguous words are polysemous, they have similar
+or related senses (e.g., the word line has a queue sense and an
+elongated-mark-on-a-page sense), and so they occur with similar
+context words (e.g., the phrase the long line is globally ambiguous). As a result, attending solely to lexical associations will often
+lead to difficulty determining the correct sense. To accurately
+resolve these senses, children need the ability to construct the
+potential interpretations of each sentence and determine which is
+more plausible. This is the second, top-down path shown in Figure 1.
+The role of context in children’s word recognition and processing has been quite heavily investigated, although this work has
+focused on the processing skills of older children learning to read
+rather than the processing skills of younger children learning to
+parse spoken sentences (Simpson &amp; Foster, 1986; Simpson,
+Lorsbach, &amp; Whitehouse, 1983; Stanovich, 1980; Stanovich, Nathan, West, &amp; Vala-Rossi, 1985). Within this literature, studies
+focusing on lexical ambiguity have tended to find that young
+readers are relatively insensitive to context (e.g., Simpson &amp;
+Foster, 1986). For instance, Booth, Harasaki, and Burman (2006)
+used a priming task in which children read aloud sentences that
+biased a sentence-ending homophone toward one of its meanings
+and then read aloud a target word that was related to one of those
+meanings. For 9- and 10-year-olds, reading time for the target was
+unaffected by the prior context, and only 12-year-old children
+showed evidence that they could integrate context during lexical
+ambiguity resolution. But this insensitivity to context is most likely
+due to reading difficulties, not language processing difficulties. As
+evidence for this, Khanna and Boland (2010) had 7- to 10-year-old
+children listen to (rather than read) a prime and then read a target
+out loud. When the primes were two-word phrases containing
+ambiguous words (e.g., laser tag), the reaction times of every age
+group varied on the basis of whether the target was related to the
+selected meaning.
+This suggests that, during spoken language processing, 7-yearold children can use context to resolve ambiguous words, although
+whether they use lexical associations or additionally integrate
+top-down plausibility is not clear. The informativity account provides a reason for thinking that children should be able to use
+top-down cues. As discussed above, lexical association cues are
+likely to be an unreliable guide for processing polysemous words,
+and so the informativity account predicts that children should turn
+to top-down information. Consistent with the necessity of topdown processing, there is some evidence that children are better
+prepared to use top-down information in resolving lexical ambiguities than syntactic ambiguities.
+For example, Rabagliati et al. (2010) argued that children will
+sometimes assign senses to words that adults consider unlicensed,
+for example, assigning a disk sense to the word movie. They
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.947481" genericHeader="method">
+LEXICAL RESOLUTION
+</sectionHeader>
+<bodyText confidence="0.999231772727273">
+demonstrated that 4- to 6-year-olds sometimes accept questions
+like Could a movie be round? and then explain their acceptance in
+terms of a shifted sense (e.g., a movie could be round because it is
+on a DVD). Children presumably cannot use lexical associations or
+priming to assign senses that they have not previously heard.
+Therefore, Rabagliati et al. proposed that children use a process of
+situational fit to assign senses by building a representation of each
+potential interpretation of a phrase and using the most plausible
+interpretation to assign a word sense in a top-down down fashion
+(similar to what is seen in Figure 1).
+However, the results of Rabagliati et al. (2010) are not conclusive as to whether children use situational fit (and therefore topdown information) in day-to-day sense resolution. First, the sense
+assigned was novel, so the task was closer to word learning than
+ambiguity resolution. Second, only minimal association information was available for the children: The dominant sense of the
+word (e.g., film for movie) was unassociated with its context (e.g.,
+round), and the to-be-shifted sense had never been encountered
+before. It may be that children only use top-down cues when other
+cues are uninformative.
+This means that children’s use of top-down information in
+day-to-day lexical ambiguity resolution is still in question. The
+experiments reported here therefore test whether 4-year-old children’s ability to resolve lexical ambiguities is fully dependent on
+cues such as lexical associations, as the bottom-up hypothesis
+would predict, or whether they can go beyond this and use topdown information like global plausibility.
+</bodyText>
+<subsectionHeader confidence="0.4885">
+Distinctions Between Ambiguity Types
+</subsectionHeader>
+<bodyText confidence="0.999433368421053">
+Before we discuss the present experiments, one concern remains. The recent studies that document children’s apparent facility in resolving the related senses of polysemous words contrast
+with an earlier literature demonstrating children’s difficulty resolving homophones, whose meanings are unrelated. For example,
+Campbell and Macdonald (1983) reported that children’s accuracy
+resolving the subordinate (less frequent) meanings of ambiguous
+words was less than 20%. Beveridge and Marsh (1991) found
+similar results, with only a small improvement under highly constraining contexts.
+Although surprising at first glance, a distinction between homophony and polysemy could conceivably be because the two
+types of ambiguity have been argued to be represented and accessed in different ways. In particular, although homophones are
+assumed to be two separate meanings that inhibit one another
+during lexical access, polysemous words are often argued to have
+a single underspecified meaning, elaborated by context (Nunberg,
+1979; Rodd, Gaskell, &amp; Marslen-Wilson, 2002). Without competitive inhibition, it should be easier to access and use less-frequent
+senses than (inhibited) less-frequent homophonous meanings, and
+this pattern has been found in adult reading time studies (Frazier &amp;
+Rayner, 1990; Frisson, 2009). This difference in processing difficulty could also make polysemes comparatively easier for children, in which case our current investigation of lexical ambiguity
+would need to treat the two types separately.
+At the same time, there are important limitations to earlier work.
+Campbell and Macdonald (1983) used stimuli where the subordinate meaning was very low frequency (e.g., hair and hare). If
+children did not know those meanings, accurately resolving the
+</bodyText>
+<page confidence="0.990815">
+1079
+</page>
+<bodyText confidence="0.999538142857143">
+homophones would be extremely unlikely. Given this, we cannot
+say for sure whether children’s differential ability is due to bona
+fide differences in representational format or simply due to more
+mundane differences in vocabulary composition. A better test
+would be to directly compare the resolution of homophony and
+polysemy while controlling for vocabulary knowledge. In the
+current study, we do exactly that.
+</bodyText>
+<subsectionHeader confidence="0.697807">
+Current Experiments
+</subsectionHeader>
+<bodyText confidence="0.993649044444444">
+Our first study has two parts. We assessed whether children rely
+on lexical associations to resolve lexical ambiguity and also tested
+if resolution ability differed depending on whether the ambiguity
+was a homophone or polyseme. We used an offline judgment task
+in which 4-year-old children listened to short vignettes that served
+to disambiguate a target ambiguous word (e.g., Snoopy was outside. He [chased/swung] a bat, which was big; see Figure 2). They
+were then shown a grid of four pictures and were asked to choose
+“the picture that goes with the story.” Both the dominant (more
+frequent) and subordinate (less frequent) senses of the target were
+depicted, alongside semantic distracters for each sense.
+To control for children’s vocabulary knowledge of homophones
+and polysemes, we excluded items that participants misidentified
+in a vocabulary posttest. To test whether children’s behavior could
+be predicted only on the basis of the use of lexical associations, we
+compared their performance with a simple Bayesian algorithm
+(Gale, Church, &amp; Yarowsky, 1992), which computes the probability of each sense or meaning of an ambiguous word given the
+other context words in the vignette, on the basis of their previous
+co-occurrences within the Child Language Data Exchange System
+(CHILDES) corpus of child language (MacWhinney, 2000). We
+assumed that this measure of co-occurrence statistics also provided
+a good proxy for conceptual associations and priming. If children
+attend to lexical associations over the global plausibility of a
+sentence, their choices should mimic the algorithm.
+In Experiment 2, we used the same task to provide a more direct
+test of whether children attend to lexical associations alone or also
+integrate global plausibility by pitting the two in competition.
+More specifically, we compared children’s accuracy at resolving
+ambiguous words embedded in vignettes where one sense was
+both lexically associated and globally plausible, compared with
+minimally different vignettes where one sense was lexically associated but the other was globally plausible.
+Experiment 1
+In Experiment 1, we assessed the role of lexical associations in
+children’s lexical ambiguity resolution. To do this, we had children
+resolve ambiguous words embedded in vignettes, modeled what
+their responses should have been if they only used the lexical
+associations, and then compared the two.
+But before assessing the role of associations, we tested whether
+children have more difficulty resolving the meanings of homophones than polysemes. We contrasted homophones with two
+types of polysemes, regular and irregular. Regular polysemes
+comprise a set of words whose senses fall into predictable patterns.
+For example, English contains (among others) an organism–food
+polysemy pattern whereby the names of plants and animals can be
+used to refer to the food they produce (noisy or delicious chicken,
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<page confidence="0.955613">
+1080
+</page>
+<sectionHeader confidence="0.370742" genericHeader="method">
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+</sectionHeader>
+<figureCaption confidence="0.996622">
+Figure 2. Example stimuli for each condition in Experiment 1. The target word is in italics. Dominant sense
+</figureCaption>
+<bodyText confidence="0.998238333333333">
+and selecting contexts are in bold type, whereas subordinate sense and context are underlined. Distracter targets
+are in plain type.
+turkey, etc.). All of our regular polysemy items were drawn from
+this pattern. Irregular polysemes are words whose senses are
+related but do not exemplify a particular pattern, such as the senses
+of letter (capital or love letter). In our analysis, we first checked
+whether there was any difference in how children resolve these
+ambiguity types and then assessed whether the model accurately
+predicted their responses.
+</bodyText>
+<subsectionHeader confidence="0.800626">
+Method
+</subsectionHeader>
+<bodyText confidence="0.994524634615385">
+Participants.
+Thirty-two 4-year-olds (range: 3 years 10
+months to 4 years 2 months, M ϭ 4 years 0 months, SD ϭ 1
+month; 16 girls) were tested in a laboratory setting. An additional
+nine were excluded for incorrectly answering one of the two
+pretest warm-up trials. All spoke English as a first language.
+Children were recruited by telephone from a database of families
+in the New York City metropolitan area who had responded to an
+earlier advertisement. Not all parents provided their ethnic background; collapsing those who did in Experiments 1 and 2 (n ϭ 26),
+our sample was 61% non-Hispanic White, with other children
+evenly distributed among other racial/ethnic groups. Middle to
+high socioeconomic status was typical.
+Materials. Two factors, sense or meaning selected by the
+context (dominant or subordinate) and lexical ambiguity type
+(homophone, irregular polyseme, or regular polyseme), were varied within subjects, and one factor, the position of the disambiguating information provided by the vignette (current or prior
+sentence), was varied between subjects. Current sentence context
+was defined as disambiguating information provided by the main
+verb of the sentence in which the critical noun occurred as the
+direct object (e.g., Snoopy was outside. He [chased/swung] a bat,
+which was big). Prior sentence context was defined as disambiguating information provided by associated nouns and verbs in the
+previous sentence (e.g., Snoopy was [reading about animals/
+watching sports]. The bat was big).
+The same eight homophones, eight irregular polysemes, and
+eight regular polysemes (all from the organism–food pattern discussed above) were used to construct vignettes in both the current
+and prior sentence context conditions (see Figure 2, and see
+Appendix A for a full list of the items and contexts). All of our
+stimuli were classified as polysemes or homophones by the Oxford
+English Dictionary online (http://www.oed.com/; see footnote 1),
+except for nail (hardware/finger), which we treated as homophonous, rather than polysemous, because we reasoned that children
+would be very unlikely to perceive the relationship. We used
+frequency of use in CHILDES to determine which meaning or
+sense was dominant for each ambiguous word (see the Modeling
+Procedure section for details). For homophones, the dominant
+meaning was used in 80% of cases; for irregular polysemes, the
+dominant sense was used in 65% of cases; and for regular polysemes, the dominant sense was used in 75% of cases.
+We produced current and prior sentence context vignettes for
+both dominant and subordinate senses. For each ambiguous word,
+we also created a grid of four images that depicted both the
+dominant and the subordinate meanings or senses of the ambiguous word, along with two distracters, which were chosen because
+they were semantically similar to each meaning or sense and
+should be known by children. Although we did not pretest whether
+children knew the distracters, we made sure to choose depictions
+of frequently used words: The mean lexical frequency of the
+distracters (28,999 based on Hyperspace Analogue to Language
+corpus frequency in the English Lexicon Project; Balota et al.,
+2007) was 40% higher than the estimated frequency of the ambiguous word meanings (20,890). Pictures were drawn from a range
+of sources, were typically clip art or illustrations, and measured
+approximately 20 cm2.
+Procedure. At the start of each trial, the experimenter introduced children to its protagonist (e.g., “This is a story about
+Snoopy”). The experimenter then showed the protagonist’s picture
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.959647" genericHeader="method">
+LEXICAL RESOLUTION
+</sectionHeader>
+<page confidence="0.985674">
+1081
+</page>
+<bodyText confidence="0.9909218">
+and prompted the child to name him or her. The main trial began
+when they completed this accurately. Children were then read the
+appropriate vignette, with the ambiguous word stressed (“Snoopy
+was outside. He chased a bat, which was big”). After the vignette,
+the experimenter produced the grid of four images and asked the
+child to choose which one “went with” the story.
+Children received 24 test trials, hearing all 24 ambiguous words
+but with sense used counterbalanced between children (12 dominant and 12 subordinate per child). Trials were presented in one of
+two random orders, and pictures were arranged on the page in one
+of two random orders, making eight stimuli lists in total. Prior to
+test trials, participants completed two warm-up trials that used
+unambiguous target words, and those who answered either of them
+incorrectly were excluded.
+After the test trials and a 5- to 10-min break, participants
+completed a picture-pointing vocabulary posttest on the 48 meanings tested. Children pointed to the picture that went with the
+word, from a selection that did not include the word’s alternative
+sense. We excluded trials from the main analysis when participants
+did not know the meaning of the tested word (M ϭ 4.0 per child,
+SD ϭ 2.3) and also when participants chose a semantic distracter
+(M ϭ 2.9 per child, SD ϭ 2.4).
+</bodyText>
+<subsectionHeader confidence="0.912319">
+Results
+</subsectionHeader>
+<bodyText confidence="0.986224818181818">
+We first tested if children have more difficulty resolving homophones than polysemes, in case we needed to account for such a
+difference in how we modeled their use of lexical associations. For
+both current and prior sentence contexts, we analyzed whether
+children appropriately changed their choice of sense or meaning
+depending on which was selected by the context and whether this
+varied across ambiguity types. We did this using mixed-effects
+logistic regression models with random intercepts for subjects and
+items, which are more appropriate for binary data than analysis of
+variance and more robust to missing data. In our regressions,
+Outcome 1 was choosing the dominant sense or meaning, and
+Outcome 0 was choosing the subordinate sense or meaning.
+For both current and prior sentence contexts, Figure 3 shows the
+proportion of time children chose the dominant sense or meaning
+(as opposed to the subordinate sense or meaning), split by whether
+the context selected for the dominant or subordinate sense or
+meaning. As can be seen, when context selected the dominant
+sense or meaning, children chose it on a relatively high proportion
+of trials across all ambiguity types (mean proportion of dominant
+choices, Mdominant, between 0.68 and 0.94). But critically, and
+contra Campbell and Macdonald (1983), the 4-year-old children
+we studied reliably changed their selection to the subordinate
+meaning of a homophone when the context selected it (for current
+sentence context, Mdominant ϭ 0.25, SD ϭ 0.31, B ϭ Ϫ3.3, SE ϭ
+0.79, z ϭ 4.5, p Ͻ .01; for prior sentence context, Mdominant ϭ 0.44,
+SD ϭ 0.36, B ϭ Ϫ2.0, SE ϭ 0.95, z ϭ 2.2, p ϭ .03); with one
+exception, this did not differ across the other ambiguity types or
+contexts. The sole anomaly was that children switched to the
+subordinate sense for the regular polysemes under current sentence
+context less often than they did for the homophone condition (for
+current sentence context, Mdominant ϭ 0.69, SD ϭ 0.30, B ϭ 2.44,
+SE ϭ 1.02, z ϭ 2.3, p ϭ .02). Post hoc norming with adults
+indicated that this was because both pictures were considered
+relatively appropriate.2
+</bodyText>
+<figureCaption confidence="0.740779">
+Figure 3. Mean proportion of trials on which the dominant meaning was
+</figureCaption>
+<bodyText confidence="0.998066941176471">
+selected split by lexical ambiguity type for (A) current sentence context
+and (B) prior sentence context types. Error bars represent 1 standard error
+of the mean.
+We additionally analyzed the whole data set in terms of accuracy rather than sense chosen and, not surprisingly, found that
+children were reliably less accurate at choosing the subordinate
+meaning or sense when selected under current-sentence context,
+compared with the dominant meaning or sense (Mdominant ϭ 0.80,
+SD ϭ 0.17; Msubordinate ϭ 0.62, SD ϭ 0.18, B ϭ Ϫ1.18, SE ϭ
+0.52, z ϭ 2.3, p ϭ .02), although this effect was only marginal
+under prior sentence context (Mdominant ϭ 0.77, SD ϭ 0.11;
+Msubordinate ϭ 0.68, SD ϭ 0.19, B ϭ Ϫ0.84, SE ϭ 0.53, z ϭ 1.60,
+p ϭ .11). In addition, children were more accurate than chance
+across all conditions (all ts Ͼ 7.0, all ps Ͻ .01, analyzed using
+one-sample t tests against a null mean of 0.25).
+In summary, children were reliably able to resolve ambiguous
+words, and this did not depend on whether those words were
+homophones or polysemes. Next, we turn to how exactly they
+</bodyText>
+<page confidence="0.972935">
+2
+</page>
+<bodyText confidence="0.999262166666667">
+Sixteen adults saw both target pictures on a computer screen alongside
+the relevant vignette and moved a slider on a continuous scale between the
+two pictures to indicate which they thought was most appropriate, with the
+center of the scale marked equally appropriate. We analyzed the data with
+multiple regressions. For the current sentence context condition, we observed an interaction such that participants’ ratings were reliably closer to
+the center for the regular polysemy condition, but only when the subordinate meaning was selected (t Ͼ 2.3, p Ͻ .05).
+</bodyText>
+<sectionHeader confidence="0.783888" genericHeader="method">
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+</sectionHeader>
+<bodyText confidence="0.9500675">
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<page confidence="0.965115">
+1082
+</page>
+<bodyText confidence="0.9995535">
+resolved such ambiguities: Were they primarily reliant on lexical
+associations, or could they integrate top-down information as well?
+Children’s use of lexical associations: Modeling of Experiment 1. To predict quantitatively how children should behave if
+they only use lexical associations such as priming and cooccurrences, we appropriated a model from computational linguistics (Gale et al., 1992). The model uses Bayes’ rule and a corpus
+analysis to estimate which sense or meaning an ambiguous word
+should take on the basis of (a) the relative frequency of each sense
+or meaning and (b) the other words surrounding that ambiguous
+word in each vignette and, in particular, how frequently those
+words have previously co-occurred with each sense or meaning.
+This statistic therefore directly measures co-occurrences and
+should also be strongly correlated with the amount of priming
+between words (strong primes are likely to co-occur more frequently than weak primes).
+We used a “bag of words” model, so named because it assumes
+that each context word is conditionally independent (an assumption that greatly simplifies computation but is not entirely plausible). In short, for an ambiguous word w (e.g., bat) with a sense si
+(baseball bat) embedded in a vignette made up of a set of context
+words c (e.g., snoopy, was, outside, he, chased, which, fun), the
+model estimates the probability of a particular sense given the
+context words, pw(si|c). It does this using Bayes’ rule, combining
+the prior probability of that sense of the word, pw(si), with the
+probability of the vignette’s context words appearing in a sentence
+or phrase containing that sense, pw(c|si), and the probability of the
+context words appearing in a sentence or phrase containing the ambiguous word independent of the sense, pw(c):
+</bodyText>
+<equation confidence="0.837837">
+pw͑si͉c͒ ϭ
+pw͑c͉si͒pw͑si͒
+pw͑c͒
+</equation>
+<bodyText confidence="0.996879666666667">
+Because we assume that context words are conditionally independent, the conditional probability of the context words given a
+sense, pw(c|si), is calculated as the product of the probabilities of
+each context word given that sense:
+</bodyText>
+<equation confidence="0.9881046">
+͹
+n
+p w͑c͉si͒ ϭ
+pw͑cj͉si͒
+jϭ1
+</equation>
+<bodyText confidence="0.991473076923077">
+Modeling procedure. We used the maximum likelihood
+method to estimate the terms of our model on the basis of frequencies calculated from the British and American CHILDES
+corpora. To calculate the prior probability of each sense/meaning,
+pw(si), we extracted every occurrence of the 24 ambiguous words,
+then further extracted the first occurrence from each independent
+conversation, and finally sense tagged these first uses, up to a
+maximum of 75 tags per word (except for homophones with
+different spellings, e.g., knight and night, for which we could use
+all instances). On average, this resulted in 70 tags per word (SD ϭ
+13). The items shrimp and herb were excluded from further analysis as they only occurred 10 and 5 times in the corpora, respectively.
+Our context words, c, consisted of the open class words, pronouns and prepositions in our vignettes. To calculate the probability that a particular context word (e.g., swing) occurred in the
+presence of an ambiguous word like bat, we summed cooccurrences in individual lines of dialogue (up to one co-
+occurrence per independent conversation) and divided by the overall frequency of the word. To calculate the conditional probability
+of a context word given a particular sense or meaning of the
+ambiguous word, pw(cj|si), we summed co-occurrences of the
+context word and that particular sense or meaning and divided by
+the overall frequency of the sense or meaning. For example, to
+calculate the probability of the word swing given the baseball
+meaning of bat, we counted the co-occurrences of swing and bat in
+its baseball meaning and divided this by the overall frequency of
+the baseball meaning of bat (estimated as the frequency of bat
+multiplied by the prior probability of the baseball meaning).3
+Modeling results. To what extent was children’s performance
+reflected in the model? The bottom-up hypothesis proposes that
+children should pay close attention to lexical associations, in
+accord with their dependence on lexical associations for syntactic
+ambiguity resolution (Snedeker &amp; Trueswell, 2004). And indeed,
+the children tested here had a very similar overall level of accuracy
+to the model. For the current sentence contexts, the model’s
+percentage correct was 69%, whereas the children’s accuracy was
+70%. For the prior sentence contexts, the model’s accuracy was
+67%, whereas children’s accuracy was 68%. In addition, the
+model, like the children, did better when context selected for the
+dominant sense or meaning (for current sentence contexts, model
+accuracy ϭ 75%, child accuracy ϭ 80%; for prior sentence contexts, model accuracy ϭ 72%, child accuracy ϭ 78%)4 than when
+context selected for the subordinate sense or meaning (CurrentModel: 64%, Child: 69%; Prior- Model: 61%, Child: 57%). At a
+coarse level of detail, therefore, the model provided a reasonable
+fit to the children’s data.
+Next, we evaluated if the model still provided a good fit at a
+deeper level of analysis, testing whether the two learners—model
+and child—made the same mistakes. We performed an item-based
+correlation between children’s proportion of correct answers and
+the probability that the model assigned to the correct meaning. We
+found similar results in both the current and the prior sentence
+contexts. In each case, the two patterns of answers were correlated,
+reliably so for the current sentence context, r ϭ .32, t(42) ϭ 2.17,
+p ϭ .04, and marginally for the prior sentence context, r ϭ .29,
+t(42) ϭ 1.94, p ϭ .06 (see Figure 4). The fact that the model had
+predictive capability suggests that children do use bottom-up cues.
+But this capability was also only moderate and marginal, which
+suggests that children might be using other cues in addition,
+potentially top-down cues such as global plausibility.
+</bodyText>
+<subsubsectionHeader confidence="0.955697">
+Discussion
+</subsubsectionHeader>
+<bodyText confidence="0.9980634">
+Experiment 1 provided two main results. First, children resolve
+the meanings of ambiguous words quite accurately, and this accuracy does not seem to depend on whether the ambiguous word is
+a polyseme or homophone. Second, children’s accuracy on the
+different items was predicted, but only partially, by a Bayesian
+model using lexical associations. The model reliably predicted
+</bodyText>
+<page confidence="0.972119">
+3
+</page>
+<bodyText confidence="0.997549666666667">
+To avoid contexts with probability 0, we assumed that context words
+that did not co-occur in our corpus actually co-occurred with a frequency
+of 0.01 (meaning they had very low probability).
+</bodyText>
+<page confidence="0.962848">
+4
+</page>
+<bodyText confidence="0.99856175">
+Note that children’s scores are slightly different than in our first
+analysis of the behavioral data because items were excluded during modeling, and these means are itemwise, not subjectwise.
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.956922" genericHeader="method">
+LEXICAL RESOLUTION
+</sectionHeader>
+<page confidence="0.966093">
+1083
+</page>
+<figureCaption confidence="0.936878">
+Figure 4. Children’s accuracy identifying each sense plotted against the model’s accuracy for (A) current
+sentence context and (B) prior sentence context. The dashed lines are linear regression lines.
+</figureCaption>
+<bodyText confidence="0.9872932">
+children’s choices in the current sentence context condition but
+was only a marginally reliable guide to children’s choices in the
+prior sentence context condition.
+Overall, the rough fit of the model to the data suggests that
+children do track and use associations but can also recruit additional cues for sense or meaning resolution. In particular, children
+may use a top-down cue such as global plausibility, which would
+be contra the bottom-up hypothesis. To more directly test children’s ability to use global plausibility, we conducted a second
+experiment that pit plausibility against lexical associations. If
+children can use top-down plausibility information, they should be
+able to override the associations.
+</bodyText>
+<subsubsectionHeader confidence="0.372886">
+Experiment 2
+</subsubsectionHeader>
+<bodyText confidence="0.980304409090909">
+Experiment 2 compared 4-year-olds’ ability to correctly resolve
+ambiguous words when both lexical associations and plausibility
+were consistent in selecting the same sense or meaning and, when
+they conflicted, each selecting for a different sense or meaning.
+Table 1 displays sample items, in which the lexical associations
+between the context and the meanings of knight and night are
+extremely similar, but the plausibility of each meaning varies (e.g.,
+Consistent: Elmo watched a funny movie about a castle, and a
+princess, and a silly dragon. And there was a funny knight.
+Inconsistent: Elmo watched a funny movie about a castle, and a
+princess, and a silly dragon. That was a funny night). If children
+resolve ambiguous words using top-down plausibility, they ought
+to assign reliably different senses or meanings across sentence
+pairs of this sort. By contrast, if children resolve ambiguous words
+using lexical associations, they should assign the same sense or
+meaning to both sentences.
+We used the same picture-pointing task as before, with a mixture of six homophones and irregular polysemes that were collapsed in our analysis. In addition, we compared children’s performance with both the association-based algorithm used in
+Experiment 1 and adult judgments to confirm our manipulation.
+One concern was that the sentences were more complicated than in
+Experiment 1, and any difficulty that children had with the task
+could result from that. As a control, we therefore included a set of
+matched sentences where the target word was unambiguous; difficulties with the task should be reflected in both conditions.
+</bodyText>
+<table confidence="0.709108333333333">
+Method
+Participants. Sixteen 4-year-olds (M ϭ 3 years 11 months,
+SD ϭ 0 years 1 month, eight girls) were tested in a laboratory, as
+were 19 college-age adults who received course credit for participation. An additional four children were excluded for incorrectly
+Table 1
+Experiment 2 Example Stimuli
+Pictured items (statistical association)
+Vignette
+Elmo watched a funny movie about a castle, and a princess,
+</table>
+<figureCaption confidence="0.440886333333333">
+and a silly dragon. And there was a funny knight/jester.
+Elmo watched a funny movie about a castle, and a princess,
+and a silly dragon. That was a funny night/morning.
+</figureCaption>
+<figure confidence="0.973146625">
+Plausible
+ambiguous
+Implausible
+ambiguous
+Plausible
+unambiguous
+Implausible
+unambiguous
+Knight (chivalrous) (1)
+Night (starry) (0)
+Jester
+Morning
+Night (starry) (0)
+Knight (chivalrous) (1)
+Morning
+Jester
+</figure>
+<bodyText confidence="0.5191775">
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<page confidence="0.850297">
+1084
+</page>
+<sectionHeader confidence="0.587921" genericHeader="method">
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+</sectionHeader>
+<bodyText confidence="0.998679068181819">
+answering a pretest warm-up question. All spoke English as a first
+language. See Experiment 1 for details of children’s demographic
+information and recruitment procedures.
+Materials. We constructed two minimal pairs of vignettes for
+each of six target ambiguous words (three homophones and three
+irregular polysemes; see Table 1). We chose items on the basis of
+the ease of constructing the vignettes. Lexical associations between the context words and the target’s senses were approximately constant and always pointed to the subordinate meaning.
+For each pair, the subordinate meaning was not only more associated but also more plausible in one vignette (e.g., Elmo watched
+a funny movie about a castle, and a princess, and a silly dragon.
+And there was a funny knight.), whereas in the other vignette, the
+association statistics were almost identical, but the dominant
+meaning was more plausible (e.g., Elmo watched a funny movie
+about a castle, and a princess, and a silly dragon. That was a
+funny night.). The control pairs were similar but contained unambiguous target words. That is, one control item had an associated
+meaning (e.g., Big Bird was visiting a castle. He saw both a sword
+and a horse with the jester) and one item had an unassociated
+meaning (e.g., Big Bird was visiting a castle. He saw both a sword
+and a horse during the morning). Control words were frequency
+matched to the ambiguous senses (ambiguous mean log frequency ϭ 9.4, SD ϭ ϭ 1.8; unambiguous mean log frequency ϭ
+8.9, SD ϭ 1.9, t(19) ϭ 1.5, ns). We counterbalanced which pair
+contained ambiguous targets or unambiguous controls between
+participants. Using a Latin square design, each participant received
+three items from each condition (ambiguous/control crossed with
+associated/unassociated), making four lists of stimuli, each presented in a different random order. Images were selected in the
+same manner as in Experiment 1, and the arrangement of pictures
+on the page randomly varied between two different lists, making
+eight lists total. Items are listed in Appendix B.
+Procedure. The basic trial structure was equivalent to Experiment 1. Each child heard six test vignettes (three with a plausible
+subordinate meaning and three with a plausible dominant meaning) and six control vignettes, counterbalanced so that only one
+sentence from each pair was used per list. Children also performed
+three pretest warm-up trials containing unambiguous targets and
+were excluded if they failed any. We again analyzed the data with
+mixed-effects logistic regressions including random intercepts for
+subjects and items. The small number of items prevented an
+analysis of homophony–polysemy differences.
+Adults were tested slightly differently. To derive a more sensitive measure of the effects of plausibility and association in these
+stimuli, we had them rate the acceptability of each picture on a 1–7
+scale (the two target pictures only; distracter pictures were not
+tested) for both the ambiguous and unambiguous control items. As
+our dependent measure, we calculated the rating of the dominant
+sense as a proportion of the summed ratings of both senses and
+analyzed this using a mixed-effects linear regression with random
+subject and item intercepts. Finally, we calculated association
+statistics for the algorithm in the same manner as Experiment 1.
+</bodyText>
+<subsectionHeader confidence="0.949807">
+Results
+</subsectionHeader>
+<bodyText confidence="0.913750125">
+Figure 5 displays the results of Experiment 2. The adults confirmed our plausibility manipulation. In both the ambiguous and
+the unambiguous conditions, when the subordinate sense was both
+Figure 5. A: Mean proportion of trials on which the dominant sense was
+selected by the algorithm. B: Ratings given to dominant sense by adults.
+Numbers are mean ratings and bars are standard deviations. C: Mean
+proportion of trials on which the dominant sense was selected by 4-yearold children. Numbers are mean proportion selecting dominant sense and
+bars are 95% confidence intervals (calculated because data were binary and
+mean close to 0).
+associated and plausible, subjects gave it a higher rating than the
+dominant sense (and so the acceptability ratio was low; Mambiguous ϭ
+0.21, SD ϭ 0.21; Munambiguous ϭ .09, SD ϭ 0.18). But the ratio score
+reliably increased when the dominant sense was more plausible,
+even though it was statistically unassociated in the ambiguous
+condition (Mambiguous ϭ 0.74, SD ϭ 0.21, B ϭ 0.53, SE ϭ 0.04,
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.88924" genericHeader="method">
+LEXICAL RESOLUTION
+</sectionHeader>
+<bodyText confidence="0.99917585">
+t ϭ 13.6, p Ͻ .01; Munambiguous ϭ 0.91, SD ϭ 0.13, B ϭ 0.82,
+SE ϭ 0.03, t ϭ 27.12, p Ͻ .01). As expected, the algorithm reliably
+assigned senses on the basis of associations: It was correct for the
+unambiguous controls but chose the statistically associated meaning for the ambiguous items, not the most plausible.
+Finally, we tested children’s ability to use plausibility and associations. As can be seen in Figure 5, when the ambiguous subordinate
+sense was both associated and plausible, children chose it on a high
+proportion of trials (Mdominant ϭ 0.21, 95% confidence interval (CI)
+[0.11, 0.29]). However, when the dominant sense became globally
+more plausible, children chose it reliably more often, even though it
+was still lexically unassociated (Mdominant ϭ 0.39, 95% CI [0.26,
+0.52], B ϭ 1.27, SE ϭ 0.62, z ϭ 2.07, p ϭ .039). In addition, children
+showed a similar pattern to adults on the unambiguous items (B ϭ
+4.28, SE ϭ 0.86, z ϭ 4.99, p Ͻ .01). This indicates that children do
+use global plausibility in resolving lexical ambiguities and do not
+exclusively rely on lexical associations.
+Nevertheless, children did also use associations. They chose the
+plausible but unassociated dominant sense at a lower rate (39%)
+than they did in Experiment 1 (80%), suggesting that children
+resolve lexical ambiguities by integrating both global plausibility
+and associations.
+</bodyText>
+<subsectionHeader confidence="0.609031">
+General Discussion
+</subsectionHeader>
+<bodyText confidence="0.999295153846154">
+Adults process language quickly and accurately. In particular,
+they rapidly resolve ambiguities by integrating both bottom-up and
+top-down cues. How does this expert skill develop? Studies of
+syntactic comprehension suggest the possibility that the development of linguistic ambiguity resolution might be characterized by
+a broad dependence on bottom-up cues over top-down information. To evaluate this, we tested whether that imbalance extends to
+children’s resolution of lexical ambiguities and instead found that
+even 4-year-old children used a top-down cue like global plausibility information to resolve word senses. That is not to say that
+children did not use bottom-up cues at all. In Experiment 1, the
+Bayesian model offered a limited ability to predict children’s
+choices, and in Experiment 2, children’s choices were clearly
+swayed by the overwhelming association information. But critically, these results are not consistent with any theory that assumes
+children’s linguistic ambiguity resolution has a blanket bottom-up
+quality. This suggests that children’s language processing differs
+from adults’ by degree, not kind.
+These results are consistent with previous work that assumed
+children could resolve senses and meanings on the basis of global
+plausibility, such as Rabagliati et al.’s (2010) proposal that children use situational fit in sense resolution, assigning senses on the
+basis of their fit with a partial semantic context. They also fit
+within the framework of the informativity account of syntactic
+ambiguity resolution (Trueswell &amp; Gleitman, 2004). Trueswell
+proposed that children start to apply different cues at different ages
+as a result of tracking each cue’s general reliability. As we argued
+in the introduction, there are reasons to suspect that although cues
+such as lexical statistics are more informative than global plausibility for syntactic ambiguity resolution, they may be less useful
+for lexical ambiguity resolution. This might force children to
+assign higher weight to top-down plausibility information to resolve lexical ambiguities.
+</bodyText>
+<page confidence="0.972592">
+1085
+</page>
+<bodyText confidence="0.997177960784314">
+Of course, the informativity account is not the only possible
+explanation for the difference between children’s use of top-down
+information in syntactic and lexical ambiguity resolution. One
+possibility is that skills learned during language acquisition might
+transfer to language processing. Lexical ambiguity resolution resembles the act of word learning quite closely, in that both require
+the child to use the surrounding context to select between a set of
+candidate meanings. The major difference, of course, is that the set
+of candidate meanings is much larger during word learning, but the
+structure of the problem seems similar enough that the skills
+developed in one could plausibly transfer to the other. Because
+many theories of word learning rely on the child being able to
+determine the meaning of a novel word on the basis of its syntactic
+or semantic context and the scene (Gleitman, 1990; Pinker, 1994),
+the use of this sort of plausibility information may well transfer
+from word learning to lexical ambiguity resolution. By contrast, it
+is not so obvious that plausibility (or referential context) is particularly important for syntactic development and, as such, the use of
+plausibility for syntactic processing may be underdeveloped when
+compared with its use for lexical processing.
+What this means, in sum, is that our results cannot be explained
+by accounts of children’s language processing that postulate a
+blanket top-down insensitivity (e.g., the bottom-up account described by Snedeker &amp; Yuan, 2008). Rather, they have to be
+explained under theories in which children are differentially sensitive to different types of cues for different types of linguistic
+ambiguities. Given that a variety of such theories exist, further
+work will be necessary to pare down the members of this set.
+In their use of top-down plausibility, the children tested here
+generally behaved in a relatively adult way, but it is still notable
+that they had lower accuracy when resolving subordinate senses or
+meanings than when resolving dominant senses or meanings in
+Experiment 1. This suggests that children have difficulty fully
+integrating contextual cues and rely too heavily on each sense or
+meaning’s prior probability. To some extent, then, this is consistent with a weaker version of Campbell and Macdonald’s (1983)
+claim that children cannot resolve the subordinate meanings of
+homophones, in which subordinate meanings are simply dispreferred rather than ruled out entirely.
+We see a number of potential explanations for this result. One
+possibility is that children may have difficulty retrieving the subordinate meanings of words from memory. Alternatively, it could
+reflect a difficulty modulating the activity of each retrieved meaning, perhaps because of underdeveloped executive function abilities. The role of executive function in language-processing development is currently a topic of intense interest (Choi &amp; Trueswell,
+2010; Mazuka, Jincho, &amp; Oishi, 2009; Novick, Trueswell, &amp;
+Thompson Schill, 2010). The majority of work in this area has
+centered on children’s failure to revise initial parses of temporally
+ambiguous sentences that are eventually resolved to a less-frequent
+interpretation (as in Trueswell et al., 1999). Novick and colleagues
+(Novick et al., 2010; Novick, Trueswell, &amp; Thompson-Schill,
+2005) argued that this “kindergarten-path effect” is due to children
+lacking the ability to inhibit highly active representations, and they
+suggest that children should exhibit similar behaviors for similar
+reanalysis tasks, such as resolving an ambiguous word to its
+less-frequent meaning. Consistent with this, Khanna and Boland
+(2010) showed that 7- to 10-year-old children’s scores on a battery
+of executive function tests predict their ability to resolve ambig-
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<page confidence="0.98986">
+1086
+</page>
+<sectionHeader confidence="0.741978" genericHeader="method">
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+</sectionHeader>
+<bodyText confidence="0.993248136363637">
+uous words. Although not intended to test the role of executive
+function, our participants’ greater difficulty resolving less-frequent
+meanings or senses is consistent with Novick and colleagues’
+proposal. Note, though, that these differences were much smaller
+than Trueswell et al.’s (1999) syntactic kindergarten-path effect.
+This could be because executive function plays a smaller role in
+lexical ambiguity resolution, or it could be because the disambiguating information in our stimuli always preceded the ambiguity,
+minimizing the reanalysis demands.
+Beyond reanalysis, there have also been suggestions (Mazuka et
+al., 2009) that children’s executive function difficulties may explain their failure to integrate top-down constraints. To the best of
+our knowledge, there is little direct evidence that executive function plays a facilitatory role in the use of top-down but not
+bottom-up information during sentence processing, and we do not
+take our data to be consistent with this proposal. In fact, if
+executive function is domain general (which most researchers
+assume it to be), it would be very surprising if its underdevelopment impaired top-down processing in syntactic ambiguity resolution but not in lexical ambiguity resolution.
+One methodological note concerns the picture selection task
+used in both studies. Picture selection is an offline task, which
+measures the factors that affect final interpretations of ambiguous
+words, rather than the moment-by-moment processes of ambiguity
+resolution. Our results suggest that children and adults use similar
+information sources in resolving ambiguous words, but it is still
+open as to whether the two populations use the same processes to
+integrate that information online, and future work will address that
+topic. To assess whether different cues are integrated in the same
+manner, we would need to use an online measure, like eye tracking. It could be that all cues are integrated at the earliest moment
+they become available (as would be expected under a fully interactive model of sentence processing development, e.g., the informativity account), but there are alternatives. In particular, children’s integration of top-down cues may be delayed until a second
+reanalysis stage (cf. two-stage parsing theories, e.g., Frazier,
+1987), or our offline task may have provided children with enough
+reflection time to use top-down cues in the final moments of their
+decision. Our data, therefore, leave open a window of hope for a
+modified version of the bottom-up hypothesis. In this version,
+children’s initial parsing decisions are governed by bottom-up
+information, and top-down cues are integrated later if they are
+forced to make explicit decisions. Of course, this account would
+still have to explain why our task allowed children to use a
+decision stage, whereas the syntactic processing task from Snedeker and Trueswell (2004) did not. One possibility is that our task
+presented the choice in a more explicit way.
+Further work will also be needed to confirm the second main
+result of the present study, that children resolve homophones with
+the same accuracy as they achieve when they resolve polysemes.
+Although we found no gross interpretive differences, it is possible
+that more fine-grained online measures may be able to track such
+a developmental dissociation. We attribute our divergence from
+previous results to the efforts made here to use homophones and
+polysemes that children knew rather than low-frequency items.
+Although this null result could be taken as support for theories in
+which homophony and polysemy are represented and resolved in
+the same way (Foraker &amp; Murphy, 2009; Klein &amp; Murphy, 2001;
+Murphy, 2007), we caution against immediately leaping to that
+conclusion. In particular, we did not test the condition in which
+homophones and polysemes have previously diverged in adults,
+reanalysis contexts in which the disambiguating region falls after
+the critical ambiguous word.
+Conclusion
+This research demonstrates that children’s lexical ambiguity
+resolution is sensitive to a variety of information sources, including lexical associations but also top-down global plausibility information. That is to say, children’s lexical ambiguity resolution
+appears similar to adults’, and this is inconsistent with theories
+based on syntactic processing that attribute a blanket insensitivity
+to top-down information. Instead, this less-categorical pattern of
+successes and failures suggests that children’s ambiguity resolution is dependent on learning the value of individual information
+sources and that the value of each information source varies for
+different types of linguistic ambiguity. More broadly, our data
+present a picture of information-processing development in which
+children are minimally constrained in which cues they can learn to
+integrate and, in fact, can respond to the nature of the task when
+determining the most relevant cues to use.
+</bodyText>
+<sectionHeader confidence="0.923984" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.711193111111111">
+Altmann, G. T. M. (1998). Ambiguity in sentence processing. Trends in
+Cognitive Sciences, 2, 146 –152. doi:10.1016/S1364-6613(98)01153-X
+Balota, D. A., Yap, M. J., Hutchison, K. A., Cortese, M. J., Kessler, B.,
+Loftis, B., . . . Treiman, R. (2007). The English lexicon project. Behavior
+Research Methods, 39, 445– 459. doi:10.3758/BF03193014
+Bannard, C., &amp; Matthews, D. (2008). Stored word sequences in language
+learning. Psychological Science, 19, 241–248. doi:10.1111/j.14679280.2008.02075.x
+Barner, D., &amp; Snedeker, J. (2005). Quantity judgments and individuation:
+Evidence that mass nouns count. Cognition, 97, 41– 66. doi:10.1016/
+</reference>
+<page confidence="0.460009">
+j.cognition.2004.06.009
+</page>
+<bodyText confidence="0.984765153846154">
+Beveridge, M., &amp; Marsh, L. (1991). The influence of linguistic context on
+young children’s understanding of homophonic words. Journal of Child
+Language, 18, 459 – 467. doi:10.1017/S0305000900011168
+Booth, J. R., Harasaki, Y., &amp; Burman, D. D. (2006). Development of
+lexical and sentence level context effects for dominant and subordinate
+word meanings of homonyms. Journal of Psycholinguistic Research, 35,
+531–554. doi:10.1007/s10936-006-9028-5
+Bortfeld, H., Morgan, J., Golinkoff, R., &amp; Rathbun, K. (2005). Mommy and me:
+Familiar names help launch babies into speech stream segmentation. Psychological Science, 16, 298–304. doi:10.1111/j.0956-7976.2005.01531.x
+Bushnell, E. W., &amp; Maratsos, M. P. (1984). “Spooning” and “basketing”:
+Children’s dealing with accidental gaps in the lexicon. Child Development, 55, 893–902. doi:10.2307/1130140
+Campbell, R. N., &amp; Macdonald, T. (1983). Text and context in early
+language comprehension. In M. C. Donaldson, R. Grieve, &amp; C. Pratt
+(Eds.), Early childhood development and education (pp. 115–126).
+Oxford, United Kingdom: Blackwell.
+Choi, Y., &amp; Trueswell, J. C. (2010). Children’s (in) ability to recover from
+garden paths in a verb-final language: Evidence for developing control
+in sentence processing. Journal of Experimental Child Psychology, 106,
+41– 61. doi:10.1016/j.jecp.2010.01.003
+Clark, E. V. (1981). Lexical innovations: How children learn to create new
+words. In W. Deutsch (Ed.), The child’s construction of language (pp.
+299 –328). London, United Kingdom: Academic Press.
+Dahan, D., &amp; Magnuson, J. S. (2006). Spoken word recognition. In M. J.
+Traxler &amp; M. A. Gernsbacher (Eds.), Handbook of psycholinguistics
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+</bodyText>
+<sectionHeader confidence="0.894923" genericHeader="references">
+LEXICAL RESOLUTION
+</sectionHeader>
+<bodyText confidence="0.792065236842105">
+(2nd ed., pp. 249 –283). New York, NY: Elsevier. doi:10.1016/B978012369374-7/50009-2
+Fernald, A., Zangl, R., Portillo, A. L., &amp; Marchman, V. A. (2008). Looking while
+listening: Using eye movements to monitor spoken language comprehension by
+infants and young children. In I. A. Sekerina, E. M. Fernandez, &amp; H. Clahsen
+(Eds.), Developmental psycholinguistics: On-line methods in children’s language processing (pp. 97–135). Philadelphia, PA: John Benjamins.
+Foraker, S., &amp; Murphy, G. L. (2009, March). Polysemy in sentence comprehension: Effects of meaning dominance. Paper presented at the 22nd
+Annual CUNY Conference on Human Sentence Processing, Davis, CA.
+Frazier, L. (1987). Sentence processing: A tutorial review. In M. Coltheart
+(Ed.), Attention and performance XII: The psychology of reading (pp.
+559 –586). Hillsdale, NJ: Erlbaum.
+Frisson, S. (2009). Semantic underspecification in language processing.
+Language and Linguistics Compass, 3, 111–127. doi:10.1111/j.1749818X.2008.00104.x
+Gale, W., Church, K., &amp; Yarowsky, D. (1992). A method for disambiguating word senses in a large corpus. Computers and the Humanities, 26,
+415– 439. doi:10.1007/BF00136984
+Gleitman, L. (1990). The structural sources of verb meanings. Language
+Acquisition, 1, 3–55. doi:10.1207/s15327817la0101_2
+Hurewitz, F., Brown-Schmidt, S., Thorpe, K., Gleitman, L. R., &amp; Trueswell, J. C.
+(2000). One frog, two frog, red frog, blue frog: Factors affecting children’s
+syntactic choices in production and comprehension. Journal of Psycholinguistic
+Research, 29, 597–626. doi:10.1023/A:1026468209238
+Khanna, M. M., &amp; Boland, J. E. (2010). Children’s use of language context
+in lexical ambiguity resolution. The Quarterly Journal of Experimental
+Psychology, 63, 160 –193. doi:10.1080/17470210902866664
+Kidd, E., &amp; Bavin, E. L. (2005). Lexical and referential cues to sentence
+interpretation: An investigation of children’s interpretations of ambiguous sentences. Journal of Child Language, 32, 855– 876. doi:10.1017/
+S0305000905007051
+Klein, D. E., &amp; Murphy, G. L. (2001). The representation of polysemous words.
+Journal of Memory and Language, 45, 259–282. doi:10.1006/jmla.2001.2779
+MacDonald, M. C., Pearlmutter, N. J., &amp; Seidenberg, M. S. (1994). The
+lexical nature of syntactic ambiguity resolution. Psychological Review,
+101, 676 –703. doi:10.1037/0033-295X.101.4.676
+MacWhinney, B. (2000). The CHILDES project: Tools for analyzing talk.
+Hillsdale, NJ: Erlbaum.
+Mazuka, R., Jincho, N., &amp; Oishi, H. (2009). Development of executive
+control and language processing. Language and Linguistics Compass, 3,
+59 – 89. doi:10.1111/j.1749-818X.2008.00102.x
+Miller, G. A., &amp; Charles, W. G. (1991). Contextual correlates of semantic
+similarity. Language and Cognitive Processes, 6, 1–28. doi:10.1080/
+</bodyText>
+<page confidence="0.693049">
+01690969108406936
+</page>
+<bodyText confidence="0.946215545454545">
+Murphy, G. L. (2007). Parsimony and the psychological representation of polysemous words. In M. Rakova, G. Pethö, &amp; C. Ra´kosi (Eds.), The cognitive basis
+of polysemy (pp. 47–70). Frankfurt am Main, Germany: Peter Lang.
+Naigles, L. R. (1996). The use of multiple frames in verb learning via syntactic
+bootstrapping. Cognition, 58, 221–251. doi:10.1016/0010-0277(95)00681-8
+Novick, J. M., Trueswell, J. C., &amp; Thompson-Schill, S. L. (2005). Cognitive control and parsing: Reexamining the role of Broca’s area in
+sentence comprehension. Cognitive, Affective, &amp; Behavioral Neuroscience, 5, 263–281. doi:10.3758/CABN.5.3.263
+Novick, J. M., Trueswell, J. C., &amp; Thompson Schill, S. L. (2010). Broca’s
+area and language processing: Evidence for the cognitive control connection. Language and Linguistics Compass, 4, 906 –924. doi:10.1111/
+j.1749-818X.2010.00244.x
+Nunberg, G. (1979). The non-uniqueness of semantic solutions: Polysemy.
+Linguistics and Philosophy, 3, 143–184. doi:10.1007/BF00126509
+</bodyText>
+<page confidence="0.962764">
+1087
+</page>
+<reference confidence="0.930758947368421">
+Petrey, S. (1977). Word associations and the development of lexical
+memory. Cognition, 5, 57–71. doi:10.1016/0010-0277(77)90017-8
+Pinker, S. (1994). How could a child use verb syntax to learn verb
+semantics? Lingua, 92, 377– 410. doi:10.1016/0024-3841(94)90347-6
+Rabagliati, H., Marcus, G. F., &amp; Pylkka¨nen, L. (2010). Shifting senses in
+lexical semantic development. Cognition, 117, 17–37. doi:10.1016/
+j.cognition.2010.06.007
+Rodd, J., Gaskell, G., &amp; Marslen-Wilson, W. (2002). Making sense of
+semantic ambiguity: Semantic competition in lexical access. Journal of
+Memory and Language, 46, 245–266. doi:10.1006/jmla.2001.2810
+Saffran, J. R., Aslin, R. N., &amp; Newport, E. L. (1996, December 13).
+Statistical learning by 8-month-old infants. Science, 274, 1926 –1928.
+doi:10.1126/science.274.5294.1926
+Simpson, G. B., &amp; Foster, M. R. (1986). Lexical ambiguity and children’s
+word recognition. Developmental Psychology, 22, 147–154. doi:
+10.1037/0012-1649.22.2.147
+Simpson, G. B., Lorsbach, T. C., &amp; Whitehouse, D. (1983). Encoding and
+contextual components of word recognition in good and poor readers.
+Journal of Experimental Child Psychology, 35, 161–171. doi:10.1016/
+0022-0965(83)90076-0
+Snedeker, J. (2009). Sentence processing. In E. Bavin (Ed.), The Cambridge handbook of child language (pp. 321–338). Cambridge, United
+Kingdom: Cambridge University Press.
+Snedeker, J., &amp; Trueswell, J. C. (2004). The developing constraints on
+parsing decisions: The role of lexical-biases and referential scenes in
+child and adult sentence processing. Cognitive Psychology, 49, 238 –
+299. doi:10.1016/j.cogpsych.2004.03.001
+Snedeker, J., Worek, A., &amp; Shafto, C. (2009, November). The role of lexical bias
+and global plausibility in children’s online parsing: A developmental shift from
+bottom-up to top-down cues. Paper presented at the 34th Boston University
+Conference on Language Development, Boston, MA.
+Snedeker, J., &amp; Yuan, S. (2008). Effects of prosodic and lexical constraints
+on parsing in young children (and adults). Journal of Memory and
+Language, 58, 574 – 608. doi:10.1016/j.jml.2007.08.001
+Srinivasan, M., &amp; Snedeker, J. (2011). Judging a book by its cover and its
+contents: The representation of polysemous and homophonous meanings
+in four-year-old children. Cognitive Psychology, 62, 245–272. doi:
+10.1016/j.cogpsych.2011.03.002
+Stanovich, K. E. (1980). Toward an interactive-compensatory model of
+individual differences in the development of reading fluency. Reading
+Research Quarterly, 16, 32–71. doi:10.2307/747348
+Stanovich, K. E., Nathan, R. G., West, R. F., &amp; Vala-Rossi, M. (1985). Children’s
+word recognition in context: Spreading activation, expectancy, and modularity.
+Child Development, 1418–1428. doi:10.2307/1130461
+Swinney, D. A. (1979). Lexical access during sentence comprehension:
+(Re)consideration of context effects. Journal of Verbal Learning and
+Verbal Behavior, 18, 645– 659. doi:10.1016/S0022-5371(79)90355-4
+Trueswell, J. C., &amp; Gleitman, L. (2004). Children’s eye movements during
+listening: Developmental evidence for a constraint-based theory of sentence processing. In J. M. Henderson &amp; F. Ferreira (Eds.), The interface
+of language, vision, and action: Eye movements and the visual world
+(pp. 319 –346). New York, NY: Psychology Press.
+Trueswell, J. C., &amp; Gleitman, L. R. (2007). Learning to parse and its
+implications for language acquisition. In M. G. Gaskell (Ed.), Oxford
+handbook of psycholinguistics (pp. 635– 657). Oxford, United Kingdom:
+Oxford University Press.
+Trueswell, J. C., Sekerina, I., Hill, N. M., &amp; Logrip, M. L. (1999). The
+kindergarten-path effect: Studying on-line sentence processing in young
+children. Cognition, 73, 89 –134. doi:10.1016/S0010-0277(99)00032-3
+</reference>
+<figure confidence="0.951760452830188">
+(Appendices follow)
+¨ NEN, AND MARCUS
+RABAGLIATI, PYLKKA
+1088
+Appendix A
+Stimuli for Experiment 1
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+Target word
+Current
+distracters
+Chicken
+Marshmallow,
+goat
+Fish
+Burger, crab
+Lamb
+Hot dog, horse
+Herb
+Nuts, flower
+Turkey
+Carrot, bird
+Tuna
+Ice cream,
+starfish
+Duck
+Pear, car
+Shrimp
+Steak, shark
+Glasses
+Letter
+Button
+Mouse
+Bow
+Roll
+Line
+Prior distracters
+(if different)
+Pear, turtle
+Current sentence context
+Regular polysemy
+Barney was on vacation. He
+[fed/roasted] a chicken,
+which was fun.
+Oscar was at the beach. He
+[caught/grilled] a fish,
+which was exciting.
+Cookie Monster was in
+California. He [petted/
+barbecued] a lamb, which
+was good.
+The Count was at home. He
+[planted/chopped] some
+</figure>
+<bodyText confidence="0.752227">
+herbs, which was messy.
+Kermit was in the country.
+He [heard/cooked] a
+turkey, which was cool.
+Big Bird was at the sea. He
+[caught/ate] some tuna,
+which was nice.
+Grover was in Boston. He
+[ran after/ate] a duck,
+which was good.
+Miss Piggy was at the
+shore. She
+[caught/grilled] some
+shrimp, which was great.
+Irregular polysemy
+Zoe was inside. She [put
+on/filled up] some
+glasses, which were
+pretty.
+</bodyText>
+<figure confidence="0.853066205882353">
+Number, parcel
+Bugs Bunny was at school.
+He [said/sent] a letter,
+which was fun.
+Door, zipper
+Headphones, zipper Elmo was in his room. He
+[pushed/undid] a button,
+which was easy.
+Remote control,
+Daffy was in his room. He
+spider
+[clicked/captured] a
+mouse, which was easy.
+Hose, shoelace Campfire, box
+Dora was playing. She
+[aimed/tied] the bow,
+which was difficult.
+Cookie,
+Goofy was in the garden.
+handstand
+He [chewed/performed] a
+roll, which was good.
+Elevator,
+Elevator, lipstick
+SpongeBob and Patrick
+painting
+were playing. They [got
+in/drew] a line, which
+was fun.
+Socks, watering
+can
+(Appendices continue)
+Prior sentence context
+Barney was [playing at a farm/
+</figure>
+<reference confidence="0.678931558139535">
+at a supermarket]. The
+chicken was nice.
+Oscar was at [the ocean/a
+restaurant]. The fish was
+exciting.
+Cookie Monster was [in a barn/
+at a barbecue]. The lamb
+was good.
+The Count was in the [garden/
+kitchen]. The herbs were
+messy.
+Kermit was [in the country/
+having dinner]. The turkey
+was cool.
+Big Bird was [scuba diving/at a
+picnic]. The tuna was nice.
+Grover was [swimming in a
+lake/at the kitchen table].
+The duck was good.
+Miss Piggy was [snorkeling/out
+to lunch]. The shrimp was
+great.
+Zoe was getting
+[dressed/water]. The glasses
+were pretty.
+Bugs Bunny was at [school/the
+post office]. The letter was
+fun.
+Elmo [turned on the music/was
+putting on a shirt]. The
+button was easy.
+Daffy [needed batteries/was in
+the yard]. The mouse was
+old.
+Charlie Brown was [at camp/
+wrapping a present]. The
+bow was tough.
+Goofy was [having lunch/doing
+gymnastics]. The roll was
+good.
+SpongeBob and Patrick were
+[waiting/in art class]. The
+line was long.
+</reference>
+<figure confidence="0.954531636363636">
+LEXICAL RESOLUTION
+1089
+Appendix A (continued)
+This document is copyrighted by the American Psychological Association or one of its allied publishers.
+This article is intended solely for the personal use of the individual user and is not to be disseminated broadly.
+Target word
+Current
+distracters
+Card
+Jacks, Post-it
+Notes
+Bat
+Dog, tennis
+racket
+Nail
+Picture, weed
+Pitcher
+Bucket, tennis
+player
+Bark
+Bell, bench
+Band
+Shirt, radio
+Son/sun
+Bed, grandma
+Knight/night
+Clown, day
+Moose/mousse
+Bear, cake
+Prior distracters
+(if different)
+Current sentence context
+Prior sentence context
+</figure>
+<reference confidence="0.888803166666667">
+Winnie and Piglet were in
+the kitchen. They [played
+with/wrote] some cards,
+which was nice.
+Winnie and Piglet were
+[playing a game/reading
+messages]. The cards were
+nice.
+Homophony
+Snoopy was outside. He
+[chased/swung] a bat, which
+was big.
+Picture, window
+Dora was in her house. She
+[painted/pulled out] a nail,
+which was fun.
+Minnie was at the park. She
+[poured out/talked to] a
+pitcher, which was nice.
+Elmo was outside. He
+[heard/touched] the bark,
+which was ok.
+String, radio
+Dora was in her room. She
+</reference>
+<bodyText confidence="0.864673147058824">
+[stretched/listened to] the
+band, which was cool.
+Ernie was at a party. He
+[lay in/chatted with] the
+sun, which was fun.
+Bert was at a dance. He
+[dressed up as/stayed up
+for] a knight, which was
+cool.
+Elmo was at camp. He
+[met/ate] a moose, which
+was cool.
+Snoopy was [reading about
+animals/watching sports]. The
+bat was big.
+Dora was [at the beauty salon/
+building a house]. The nail was
+long.
+Minnie was [pouring water/
+playing sports]. The pitcher
+was nice.
+Elmo [heard a loud noise/was
+climbing]. The bark was nice.
+Dora [looked in her drawer/
+heard some music]. The band
+was cool.
+Ernie was [relaxing/at a family
+reunion]. The sun was nice
+Bert [was at a costume party/
+looked at his watch]. The
+knight was cool.
+Elmo was [in the forest/eating
+dessert]. The moose was cool.
+Appendix B
+</bodyText>
+<subsubsectionHeader confidence="0.76029">
+Stimuli for Experiment 2
+</subsubsectionHeader>
+<bodyText confidence="0.689955">
+Associated sentences or sentence completions are in italic; unassociated sentences or sentence completions are underlined.
+Elmo and his class were singing songs. [The teacher could play music with anything, even a band/bell./The teacher
+played music with anyone, even a band/circus.]
+SpongeBob, Patrick, and Sandy were playing music. SpongeBob had a drum, and Patrick had a trumpet, but Sandy
+didn’t have a guitar, [so she had to use a band/bell./so she had to leave the band/circus.]
+Daffy was camping in the woods. He was scared of the wild animals, [so he yelled at the bat/blackbird./so he brought
+</bodyText>
+<figure confidence="0.916295277777778">
+a bat/horn.]
+Kermit was walking in a dark cave. He was nervous about the animals, [because he saw a big bat/blackbird./so he
+carried a big bat/horn.]
+Zoe was given some arrows so that she could do target practice. They were wrapped up [along with a bow/trophy./in a
+bow/cord.]
+Robin Hood aimed his arrows really well, and he won the target practice competition. He got a gold arrow tied [to a
+bow/trophy./with a bow/cord.]
+Big Bird was visiting a castle. He saw both a sword and a horse [with the knight/jester./during the night/morning.]
+Elmo watched a funny movie about a castle, and a princess, and a silly dragon. [And there was a funny knight/jester./
+That was a funny night/morning.]
+Dora’s mom wrote a friendly note to her teacher, and then she signed [the letter/homework./it with a letter/number.]
+Barney was on holiday. He sent lots of postcards, and [he only wrote a single letter/homework./on them he wrote a
+single letter/number.]
+Ernie saw a little animal on his desk. It was chewing fast [like a mouse/chipmunk./on his mouse/apple.]
+A little animal had made a house on Piglet’s desk. Pooh saw that it was [Piglet’s mouse/chipmunk./in Piglet’s mouse/apple.]
+Received June 4, 2011
+Revision received October 5, 2011
+Accepted October 14, 2011 Ⅲ
+</figure>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>G T M Altmann</author>
+</authors>
+<title>Ambiguity in sentence processing.</title>
+<date>1998</date>
+<journal>Trends in Cognitive Sciences,</journal>
+<volume>2</volume>
+<pages>10--1016</pages>
+<contexts>
+<context position="4634" citStr="Altmann, 1998" startWordPosition="667" endWordPosition="668">guage is rife with ambiguity. Sentences can be ambiguous between multiple syntactic structures, words can be ambiguous between multiple meanings or senses, and an acoustic signal can be ambiguous between multiple words. Nevertheless, adults manage to resolve the vast majority of linguistic ambiguity rapidly and accurately. Research in psycholinguistics suggests that this accuracy is achieved through a cognitive architecture in which a wide variety of information sources, both bottom-up and top-down, are used to select the best interpretation from the multiple possible alternatives (see, e.g., Altmann, 1998; Dahan &amp; Magnuson, 2006; MacDonald, Pearlmutter, &amp; Seidenberg, 1994; Swinney, 1979). For example, the intended meaning of a noun–verb homophone like duck could be resolved using information from the same level of representation, such as priming by a related word (e.g., quack) or through top-down feedback from its syntactic context (e.g., whether it is preceded by a definite article). Far less is known, however, about how the mechanisms of ambiguity resolution develop. To what extent does the cognitive machinery that children use for language comprehension relate to the machinery used by adult</context>
+</contexts>
+<marker>Altmann, 1998</marker>
+<rawString>Altmann, G. T. M. (1998). Ambiguity in sentence processing. Trends in Cognitive Sciences, 2, 146 –152. doi:10.1016/S1364-6613(98)01153-X Balota, D. A., Yap, M. J., Hutchison, K. A., Cortese, M. J., Kessler, B., Loftis, B., . . . Treiman, R. (2007). The English lexicon project. Behavior Research Methods, 39, 445– 459. doi:10.3758/BF03193014 Bannard, C., &amp; Matthews, D. (2008). Stored word sequences in language learning. Psychological Science, 19, 241–248. doi:10.1111/j.14679280.2008.02075.x Barner, D., &amp; Snedeker, J. (2005). Quantity judgments and individuation: Evidence that mass nouns count. Cognition, 97, 41– 66. doi:10.1016/ Petrey, S. (1977). Word associations and the development of lexical memory. Cognition, 5, 57–71. doi:10.1016/0010-0277(77)90017-8 Pinker, S. (1994). How could a child use verb syntax to learn verb semantics? Lingua, 92, 377– 410. doi:10.1016/0024-3841(94)90347-6 Rabagliati, H., Marcus, G. F., &amp; Pylkka¨nen, L. (2010). Shifting senses in lexical semantic development. Cognition, 117, 17–37. doi:10.1016/ j.cognition.2010.06.007 Rodd, J., Gaskell, G., &amp; Marslen-Wilson, W. (2002). Making sense of semantic ambiguity: Semantic competition in lexical access. Journal of Memory and Language, 46, 245–266. doi:10.1006/jmla.2001.2810 Saffran, J. R., Aslin, R. N., &amp; Newport, E. L. (1996, December 13).</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>G B Simpson</author>
+<author>M R Foster</author>
+</authors>
+<title>Statistical learning by 8-month-old infants.</title>
+<date>1926</date>
+<journal>Science,</journal>
+<volume>274</volume>
+<pages>10--1126</pages>
+<marker>Simpson, Foster, 1926</marker>
+<rawString>Statistical learning by 8-month-old infants. Science, 274, 1926 –1928. doi:10.1126/science.274.5294.1926 Simpson, G. B., &amp; Foster, M. R. (1986). Lexical ambiguity and children’s word recognition. Developmental Psychology, 22, 147–154. doi: 10.1037/0012-1649.22.2.147 Simpson, G. B., Lorsbach, T. C., &amp; Whitehouse, D. (1983). Encoding and contextual components of word recognition in good and poor readers.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Snedeker</author>
+</authors>
+<title>Sentence processing. In E. Bavin (Ed.), The Cambridge handbook of child language (pp. 321–338). Cambridge, United Kingdom:</title>
+<date>2009</date>
+<journal>Journal of Experimental Child Psychology,</journal>
+<volume>35</volume>
+<pages>0022--0965</pages>
+<publisher>Cambridge University Press.</publisher>
+<contexts>
+<context position="1953" citStr="Snedeker, 2009" startWordPosition="272" endWordPosition="273">thm’s power to predict children’s choices was limited. A 2nd experiment confirmed that children override associations and integrate top-down plausibility. We discuss this with regard to models of psycholinguistic development. Keywords: language development, child language processing, lexical ambiguity, sense resolution Like adults, children process language quickly and incrementally: They make guesses about plausible interpretations on the basis of the currently available evidence and do not hold off on interpreting a sentence until it has finished (Fernald, Zangl, Portillo, &amp; Marchman, 2008; Snedeker, 2009; Trueswell &amp; Gleitman, 2004; Trueswell, Sekerina, Hill, &amp; Logrip, 1999). But, in other respects, children’s ambiguity resolution is very different. In particular, their coordination of different levels of linguistic representation to ultimately choose an interpretation is distinctly not adultlike. Research on syntactic ambiguity resolution suggests that although children have little difficulty using bottom-up information in their decisions, they find the integration of top-down information considerably more demanding. Evidence for this distinction comes from children’s ability to resolve ambi</context>
+</contexts>
+<marker>Snedeker, 2009</marker>
+<rawString>Journal of Experimental Child Psychology, 35, 161–171. doi:10.1016/ 0022-0965(83)90076-0 Snedeker, J. (2009). Sentence processing. In E. Bavin (Ed.), The Cambridge handbook of child language (pp. 321–338). Cambridge, United Kingdom: Cambridge University Press.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J Snedeker</author>
+<author>J C Trueswell</author>
+</authors>
+<title>The developing constraints on parsing decisions: The role of lexical-biases and referential scenes in child and adult sentence processing.</title>
+<date>2004</date>
+<journal>Cognitive Psychology,</journal>
+<volume>49</volume>
+<location>Boston, MA.</location>
+<contexts>
+<context position="61045" citStr="Snedeker and Trueswell (2004)" startWordPosition="9359" endWordPosition="9362">g theories, e.g., Frazier, 1987), or our offline task may have provided children with enough reflection time to use top-down cues in the final moments of their decision. Our data, therefore, leave open a window of hope for a modified version of the bottom-up hypothesis. In this version, children’s initial parsing decisions are governed by bottom-up information, and top-down cues are integrated later if they are forced to make explicit decisions. Of course, this account would still have to explain why our task allowed children to use a decision stage, whereas the syntactic processing task from Snedeker and Trueswell (2004) did not. One possibility is that our task presented the choice in a more explicit way. Further work will also be needed to confirm the second main result of the present study, that children resolve homophones with the same accuracy as they achieve when they resolve polysemes. Although we found no gross interpretive differences, it is possible that more fine-grained online measures may be able to track such a developmental dissociation. We attribute our divergence from previous results to the efforts made here to use homophones and polysemes that children knew rather than low-frequency items. </context>
+<context position="3401" citStr="Snedeker &amp; Trueswell, 2004" startWordPosition="480" endWordPosition="483">r as a modifier of the noun (the frog holding the feather). Five-year-olds can resolve these ambiguities using bottom-up cues such as lexical statistics, the frequency with which a verb is found in a particular syntactic structure. Because a prepositional phrase subsequent to the verb tickle most frequently describes an instrument, children tend to attach all ambiguous prepositional phrases following tickle as instruments, whereas for verbs that typically do not take an instrument phrase (e.g., choose the frog with the feather), children take the phrase to modify the frog (Kidd &amp; Bavin, 2005; Snedeker &amp; Trueswell, 2004; Trueswell et al., 1999). This bottom-up facility extends to additional cues, such as the prosodic rhythm and stress in a sentence (Snedeker &amp; Yuan, 2008). However, children’s use of top-down information is very different. For instance, adults will quickly account for a cue called referential context. If tickle the frog with the feather is uttered in front of two frogs, one holding a feather and one empty-handed, adults immediately make the inference that the prepositional phrase modifies the noun to disambiguate which of the two frogs is being referred to. In contrast, 5-year-old children fa</context>
+<context position="6630" citStr="Snedeker &amp; Trueswell, 2004" startWordPosition="960" endWordPosition="963">g this article should be addressed to Hugh Rabagliati, who is now at Department of Psychology, Harvard University, William James Hall, 33 Kirkland Street, Cambridge, MA 02138. E-mail: hugh@wjh.harvard.edu 1076 This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly. LEXICAL RESOLUTION this inference and rely on lexical statistics. It is only by around 7 years of age that children appear to use a top-down cue like referential context (Snedeker &amp; Trueswell, 2004; Trueswell et al., 1999). Building on this, Kidd and Bavin (2005) demonstrated that children 3 years 8 months old pay little attention to another top-down cue, global plausibility. Consider the phrase chop the tree with the leaves. Even though chop typically takes an instrument phrase, adults generally attach the prepositional phrase as a modifier of the noun, because leaves are implausible instruments. By contrast, their participants treated the phrase as an instrument 60% of the time; that is, they implausibly took it as an instruction to chop the tree using some leaves (see also Snedeker, </context>
+<context position="8171" citStr="Snedeker &amp; Trueswell, 2004" startWordPosition="1188" endWordPosition="1191">might cause this disparity in children’s use of bottom-up and top-down cues? Snedeker and Yuan (2008) discussed two possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if top-down processing is too computationally arduous for children to deploy quickly and accurately or if children do not know how to correctly align levels of representation. Second, Snedeker and Yuan (2008) discussed an informativity account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp; Gleitman, 2007; Trueswell et al., 1999), who proposed that children can potentially integrate a variety of information sources but that they instead choose to base their decisions on a smaller set of highly frequent and reliable cues. Under this informativity account, lexical statistics are used early because they are invariably present, they are informative, and they can be calculated via a relatively simple tabulation of frequencies. By contrast, referential context appears to be rare and less reliable (Trueswell &amp; Gleitman, 2004), and so children rely on</context>
+<context position="14664" citStr="Snedeker &amp; Trueswell, 2004" startWordPosition="2160" endWordPosition="2163">or phrase (which we call the context words) and the critical meanings or senses of the ambiguous word might result in increased activation of the correct sense or meaning (e.g., the word swing might prime the baseball meaning of bat). In addition, children could track cooccurrences between context words and meanings or senses and use that information (which will be correlated with priming) for disambiguation, in a manner that is similar to their tracking of co-occurrences between syllables (Saffran, Aslin, &amp; Newport, 1996), words (Bannard &amp; Matthews, 2008), and words and syntactic structures (Snedeker &amp; Trueswell, 2004). Children’s sensitivity to semantic priming (Petrey, 1977) and co-occurrence statistics (Saffran et al., 1996) suggests that neither task should be beyond them. But there is reason to suspect that lexical associations may not be sufficient for accurate lexical ambiguity resolution. Discrimination based on lexical associations will only work well when the two meanings or senses of a word usually occur with different context words. This will happen if the ambiguous meanings or senses are very different, as with bat (Miller &amp; Charles, 1991). But because most ambiguous words are polysemous, they </context>
+<context position="39671" citStr="Snedeker &amp; Trueswell, 2004" startWordPosition="6063" endWordPosition="6066">to calculate the probability of the word swing given the baseball meaning of bat, we counted the co-occurrences of swing and bat in its baseball meaning and divided this by the overall frequency of the baseball meaning of bat (estimated as the frequency of bat multiplied by the prior probability of the baseball meaning).3 Modeling results. To what extent was children’s performance reflected in the model? The bottom-up hypothesis proposes that children should pay close attention to lexical associations, in accord with their dependence on lexical associations for syntactic ambiguity resolution (Snedeker &amp; Trueswell, 2004). And indeed, the children tested here had a very similar overall level of accuracy to the model. For the current sentence contexts, the model’s percentage correct was 69%, whereas the children’s accuracy was 70%. For the prior sentence contexts, the model’s accuracy was 67%, whereas children’s accuracy was 68%. In addition, the model, like the children, did better when context selected for the dominant sense or meaning (for current sentence contexts, model accuracy ϭ 75%, child accuracy ϭ 80%; for prior sentence contexts, model accuracy ϭ 72%, child accuracy ϭ 78%)4 than when context selected</context>
+</contexts>
+<marker>Snedeker, Trueswell, 2004</marker>
+<rawString>Snedeker, J., &amp; Trueswell, J. C. (2004). The developing constraints on parsing decisions: The role of lexical-biases and referential scenes in child and adult sentence processing. Cognitive Psychology, 49, 238 – 299. doi:10.1016/j.cogpsych.2004.03.001 Snedeker, J., Worek, A., &amp; Shafto, C. (2009, November). The role of lexical bias and global plausibility in children’s online parsing: A developmental shift from bottom-up to top-down cues. Paper presented at the 34th Boston University Conference on Language Development, Boston, MA.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J Snedeker</author>
+<author>S Yuan</author>
+</authors>
+<title>Effects of prosodic and lexical constraints on parsing in young children (and adults).</title>
+<date>2008</date>
+<journal>Journal of Memory and Language,</journal>
+<volume>58</volume>
+<pages>574--608</pages>
+<contexts>
+<context position="7646" citStr="Snedeker and Yuan (2008)" startWordPosition="1116" endWordPosition="1119">le instruments. By contrast, their participants treated the phrase as an instrument 60% of the time; that is, they implausibly took it as an instruction to chop the tree using some leaves (see also Snedeker, Worek, &amp; Shafto, 2009). Finally, Hurewitz, Brown-Schmidt, Thorpe, Gleitman, and Trueswell (2000) demonstrated that when 4.5-year-olds heard a question that (for adults) should promote modifier interpretations for subsequent ambiguities (e.g., Which frog went to Mrs. Squid’s house?), it did not in fact do so. What might cause this disparity in children’s use of bottom-up and top-down cues? Snedeker and Yuan (2008) discussed two possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if top-down processing is too computationally arduous for children to deploy quickly and accurately or if children do not know how to correctly align levels of representation. Second, Snedeker and Yuan (2008) discussed an informativity account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp; Gleitman, 2007; Trueswell et al., 1999</context>
+<context position="3556" citStr="Snedeker &amp; Yuan, 2008" startWordPosition="505" endWordPosition="508">requency with which a verb is found in a particular syntactic structure. Because a prepositional phrase subsequent to the verb tickle most frequently describes an instrument, children tend to attach all ambiguous prepositional phrases following tickle as instruments, whereas for verbs that typically do not take an instrument phrase (e.g., choose the frog with the feather), children take the phrase to modify the frog (Kidd &amp; Bavin, 2005; Snedeker &amp; Trueswell, 2004; Trueswell et al., 1999). This bottom-up facility extends to additional cues, such as the prosodic rhythm and stress in a sentence (Snedeker &amp; Yuan, 2008). However, children’s use of top-down information is very different. For instance, adults will quickly account for a cue called referential context. If tickle the frog with the feather is uttered in front of two frogs, one holding a feather and one empty-handed, adults immediately make the inference that the prepositional phrase modifies the noun to disambiguate which of the two frogs is being referred to. In contrast, 5-year-old children fail to make Human language is rife with ambiguity. Sentences can be ambiguous between multiple syntactic structures, words can be ambiguous between multiple</context>
+<context position="8194" citStr="Snedeker &amp; Yuan, 2008" startWordPosition="1192" endWordPosition="1195">n children’s use of bottom-up and top-down cues? Snedeker and Yuan (2008) discussed two possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if top-down processing is too computationally arduous for children to deploy quickly and accurately or if children do not know how to correctly align levels of representation. Second, Snedeker and Yuan (2008) discussed an informativity account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp; Gleitman, 2007; Trueswell et al., 1999), who proposed that children can potentially integrate a variety of information sources but that they instead choose to base their decisions on a smaller set of highly frequent and reliable cues. Under this informativity account, lexical statistics are used early because they are invariably present, they are informative, and they can be calculated via a relatively simple tabulation of frequencies. By contrast, referential context appears to be rare and less reliable (Trueswell &amp; Gleitman, 2004), and so children rely on it less heavily than a</context>
+<context position="55617" citStr="Snedeker &amp; Yuan, 2008" startWordPosition="8546" endWordPosition="8549">Pinker, 1994), the use of this sort of plausibility information may well transfer from word learning to lexical ambiguity resolution. By contrast, it is not so obvious that plausibility (or referential context) is particularly important for syntactic development and, as such, the use of plausibility for syntactic processing may be underdeveloped when compared with its use for lexical processing. What this means, in sum, is that our results cannot be explained by accounts of children’s language processing that postulate a blanket top-down insensitivity (e.g., the bottom-up account described by Snedeker &amp; Yuan, 2008). Rather, they have to be explained under theories in which children are differentially sensitive to different types of cues for different types of linguistic ambiguities. Given that a variety of such theories exist, further work will be necessary to pare down the members of this set. In their use of top-down plausibility, the children tested here generally behaved in a relatively adult way, but it is still notable that they had lower accuracy when resolving subordinate senses or meanings than when resolving dominant senses or meanings in Experiment 1. This suggests that children have difficul</context>
+</contexts>
+<marker>Snedeker, Yuan, 2008</marker>
+<rawString>Snedeker, J., &amp; Yuan, S. (2008). Effects of prosodic and lexical constraints on parsing in young children (and adults). Journal of Memory and Language, 58, 574 – 608. doi:10.1016/j.jml.2007.08.001 Srinivasan, M., &amp; Snedeker, J. (2011). Judging a book by its cover and its contents: The representation of polysemous and homophonous meanings in four-year-old children. Cognitive Psychology, 62, 245–272. doi: 10.1016/j.cogpsych.2011.03.002 Stanovich, K. E. (1980). Toward an interactive-compensatory model of individual differences in the development of reading fluency. Reading Research Quarterly, 16, 32–71. doi:10.2307/747348 Stanovich, K. E., Nathan, R. G., West, R. F., &amp; Vala-Rossi, M. (1985). Children’s word recognition in context: Spreading activation, expectancy, and modularity.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>doi</author>
+</authors>
+<title>Lexical access during sentence comprehension: (Re)consideration of context effects.</title>
+<date>1979</date>
+<journal>Journal of Verbal Learning and Verbal Behavior,</journal>
+<volume>18</volume>
+<pages>10--1016</pages>
+<publisher>Psychology Press.</publisher>
+<location>New York, NY:</location>
+<marker>doi, 1979</marker>
+<rawString>Child Development, 1418–1428. doi:10.2307/1130461 Swinney, D. A. (1979). Lexical access during sentence comprehension: (Re)consideration of context effects. Journal of Verbal Learning and Verbal Behavior, 18, 645– 659. doi:10.1016/S0022-5371(79)90355-4 Trueswell, J. C., &amp; Gleitman, L. (2004). Children’s eye movements during listening: Developmental evidence for a constraint-based theory of sentence processing. In J. M. Henderson &amp; F. Ferreira (Eds.), The interface of language, vision, and action: Eye movements and the visual world (pp. 319 –346). New York, NY: Psychology Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J C Trueswell</author>
+<author>L R Gleitman</author>
+</authors>
+<title>Learning to parse and its implications for language acquisition.</title>
+<date>2007</date>
+<booktitle>In M. G. Gaskell (Ed.), Oxford handbook of psycholinguistics</booktitle>
+<pages>635--657</pages>
+<publisher>University Press.</publisher>
+<location>Oxford, United Kingdom: Oxford</location>
+<contexts>
+<context position="8222" citStr="Trueswell &amp; Gleitman, 2007" startWordPosition="1196" endWordPosition="1199">tom-up and top-down cues? Snedeker and Yuan (2008) discussed two possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if top-down processing is too computationally arduous for children to deploy quickly and accurately or if children do not know how to correctly align levels of representation. Second, Snedeker and Yuan (2008) discussed an informativity account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp; Gleitman, 2007; Trueswell et al., 1999), who proposed that children can potentially integrate a variety of information sources but that they instead choose to base their decisions on a smaller set of highly frequent and reliable cues. Under this informativity account, lexical statistics are used early because they are invariably present, they are informative, and they can be calculated via a relatively simple tabulation of frequencies. By contrast, referential context appears to be rare and less reliable (Trueswell &amp; Gleitman, 2004), and so children rely on it less heavily than adults might. At first glance</context>
+</contexts>
+<marker>Trueswell, Gleitman, 2007</marker>
+<rawString>Trueswell, J. C., &amp; Gleitman, L. R. (2007). Learning to parse and its implications for language acquisition. In M. G. Gaskell (Ed.), Oxford handbook of psycholinguistics (pp. 635– 657). Oxford, United Kingdom: Oxford University Press.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J C Trueswell</author>
+<author>I Sekerina</author>
+<author>N M Hill</author>
+<author>M L Logrip</author>
+</authors>
+<title>The kindergarten-path effect: Studying on-line sentence processing in young children.</title>
+<date>1999</date>
+<journal>Cognition,</journal>
+<volume>73</volume>
+<pages>10--1016</pages>
+<publisher>She</publisher>
+<contexts>
+<context position="2024" citStr="Trueswell, Sekerina, Hill, &amp; Logrip, 1999" startWordPosition="278" endWordPosition="283">s limited. A 2nd experiment confirmed that children override associations and integrate top-down plausibility. We discuss this with regard to models of psycholinguistic development. Keywords: language development, child language processing, lexical ambiguity, sense resolution Like adults, children process language quickly and incrementally: They make guesses about plausible interpretations on the basis of the currently available evidence and do not hold off on interpreting a sentence until it has finished (Fernald, Zangl, Portillo, &amp; Marchman, 2008; Snedeker, 2009; Trueswell &amp; Gleitman, 2004; Trueswell, Sekerina, Hill, &amp; Logrip, 1999). But, in other respects, children’s ambiguity resolution is very different. In particular, their coordination of different levels of linguistic representation to ultimately choose an interpretation is distinctly not adultlike. Research on syntactic ambiguity resolution suggests that although children have little difficulty using bottom-up information in their decisions, they find the integration of top-down information considerably more demanding. Evidence for this distinction comes from children’s ability to resolve ambiguous phrases such as tickle the frog with the feather. Here, the ambig</context>
+<context position="3426" citStr="Trueswell et al., 1999" startWordPosition="484" endWordPosition="487">(the frog holding the feather). Five-year-olds can resolve these ambiguities using bottom-up cues such as lexical statistics, the frequency with which a verb is found in a particular syntactic structure. Because a prepositional phrase subsequent to the verb tickle most frequently describes an instrument, children tend to attach all ambiguous prepositional phrases following tickle as instruments, whereas for verbs that typically do not take an instrument phrase (e.g., choose the frog with the feather), children take the phrase to modify the frog (Kidd &amp; Bavin, 2005; Snedeker &amp; Trueswell, 2004; Trueswell et al., 1999). This bottom-up facility extends to additional cues, such as the prosodic rhythm and stress in a sentence (Snedeker &amp; Yuan, 2008). However, children’s use of top-down information is very different. For instance, adults will quickly account for a cue called referential context. If tickle the frog with the feather is uttered in front of two frogs, one holding a feather and one empty-handed, adults immediately make the inference that the prepositional phrase modifies the noun to disambiguate which of the two frogs is being referred to. In contrast, 5-year-old children fail to make Human language</context>
+<context position="6655" citStr="Trueswell et al., 1999" startWordPosition="964" endWordPosition="967">ressed to Hugh Rabagliati, who is now at Department of Psychology, Harvard University, William James Hall, 33 Kirkland Street, Cambridge, MA 02138. E-mail: hugh@wjh.harvard.edu 1076 This document is copyrighted by the American Psychological Association or one of its allied publishers. This article is intended solely for the personal use of the individual user and is not to be disseminated broadly. LEXICAL RESOLUTION this inference and rely on lexical statistics. It is only by around 7 years of age that children appear to use a top-down cue like referential context (Snedeker &amp; Trueswell, 2004; Trueswell et al., 1999). Building on this, Kidd and Bavin (2005) demonstrated that children 3 years 8 months old pay little attention to another top-down cue, global plausibility. Consider the phrase chop the tree with the leaves. Even though chop typically takes an instrument phrase, adults generally attach the prepositional phrase as a modifier of the noun, because leaves are implausible instruments. By contrast, their participants treated the phrase as an instrument 60% of the time; that is, they implausibly took it as an instruction to chop the tree using some leaves (see also Snedeker, Worek, &amp; Shafto, 2009). F</context>
+<context position="8247" citStr="Trueswell et al., 1999" startWordPosition="1200" endWordPosition="1203">edeker and Yuan (2008) discussed two possible interpretations. First, they suggested a bottom-up hypothesis, in which young children’s sentence processing shows a blanket insensitivity to top-down information. This could arise if top-down processing is too computationally arduous for children to deploy quickly and accurately or if children do not know how to correctly align levels of representation. Second, Snedeker and Yuan (2008) discussed an informativity account originally suggested by Trueswell and colleagues (Snedeker &amp; Trueswell, 2004; Snedeker &amp; Yuan, 2008; Trueswell &amp; Gleitman, 2007; Trueswell et al., 1999), who proposed that children can potentially integrate a variety of information sources but that they instead choose to base their decisions on a smaller set of highly frequent and reliable cues. Under this informativity account, lexical statistics are used early because they are invariably present, they are informative, and they can be calculated via a relatively simple tabulation of frequencies. By contrast, referential context appears to be rare and less reliable (Trueswell &amp; Gleitman, 2004), and so children rely on it less heavily than adults might. At first glance, the viability of the bo</context>
+<context position="57339" citStr="Trueswell et al., 1999" startWordPosition="8804" endWordPosition="8807">te meanings of words from memory. Alternatively, it could reflect a difficulty modulating the activity of each retrieved meaning, perhaps because of underdeveloped executive function abilities. The role of executive function in language-processing development is currently a topic of intense interest (Choi &amp; Trueswell, 2010; Mazuka, Jincho, &amp; Oishi, 2009; Novick, Trueswell, &amp; Thompson Schill, 2010). The majority of work in this area has centered on children’s failure to revise initial parses of temporally ambiguous sentences that are eventually resolved to a less-frequent interpretation (as in Trueswell et al., 1999). Novick and colleagues (Novick et al., 2010; Novick, Trueswell, &amp; Thompson-Schill, 2005) argued that this “kindergarten-path effect” is due to children lacking the ability to inhibit highly active representations, and they suggest that children should exhibit similar behaviors for similar reanalysis tasks, such as resolving an ambiguous word to its less-frequent meaning. Consistent with this, Khanna and Boland (2010) showed that 7- to 10-year-old children’s scores on a battery of executive function tests predict their ability to resolve ambigThis document is copyrighted by the American Psycho</context>
+</contexts>
+<marker>Trueswell, Sekerina, Hill, Logrip, 1999</marker>
+<rawString>Trueswell, J. C., Sekerina, I., Hill, N. M., &amp; Logrip, M. L. (1999). The kindergarten-path effect: Studying on-line sentence processing in young children. Cognition, 73, 89 –134. doi:10.1016/S0010-0277(99)00032-3 at a supermarket]. The chicken was nice. Oscar was at [the ocean/a restaurant]. The fish was exciting. Cookie Monster was [in a barn/ at a barbecue]. The lamb was good. The Count was in the [garden/ kitchen]. The herbs were messy. Kermit was [in the country/ having dinner]. The turkey was cool. Big Bird was [scuba diving/at a picnic]. The tuna was nice. Grover was [swimming in a lake/at the kitchen table]. The duck was good. Miss Piggy was [snorkeling/out to lunch]. The shrimp was great. Zoe was getting [dressed/water]. The glasses were pretty. Bugs Bunny was at [school/the post office]. The letter was fun. Elmo [turned on the music/was putting on a shirt]. The button was easy. Daffy [needed batteries/was in the yard]. The mouse was old. Charlie Brown was [at camp/ wrapping a present]. The bow was tough. Goofy was [having lunch/doing gymnastics]. The roll was good. SpongeBob and Patrick were [waiting/in art class]. The line was long. Winnie and Piglet were in the kitchen. They [played with/wrote] some cards, which was nice. Winnie and Piglet were [playing a game/reading messages]. The cards were nice. Homophony Snoopy was outside. He [chased/swung] a bat, which was big. Picture, window Dora was in her house. She [painted/pulled out] a nail, which was fun. Minnie was at the park. She [poured out/talked to] a pitcher, which was nice. Elmo was outside. He [heard/touched] the bark, which was ok. String, radio Dora was in her room. She</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

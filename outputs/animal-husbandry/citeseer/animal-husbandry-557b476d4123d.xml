@@ -1,0 +1,1614 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title /><authors><author><name>Kerry L Sayle</name><affiliation>Scottish Universities Environmental Research Centre</affiliation></author><author><name>Gordon T Cook</name><affiliation>Scottish Universities Environmental Research Centre</affiliation></author><author><name>Philippa L Ascough</name><affiliation>Scottish Universities Environmental Research Centre</affiliation></author><author><name>Helen R Hastie</name><affiliation>Scottish Universities Environmental Research Centre</affiliation></author><author><name>A ´ Rni Einarsson</name><affiliation>My´vatn Research Station | University of Iceland, Institute of Earth Sciences</affiliation></author><author><name>Thomas H Mcgovern</name><affiliation>Hunter College CUNY, Hunter Zooarchaeology Laboratory</affiliation></author><author><name>Megan T Hicks</name><affiliation>Hunter College CUNY, Hunter Zooarchaeology Laboratory</affiliation></author><author><name>A ´ Gú Sta Edwald</name><affiliation>Department of Archaeology | University of Aberdeen, School of Geosciences</affiliation></author><author><name>Adolf Friðriksson</name><affiliation>Archaeological Institute Iceland</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main" />
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+				<date type="published" when="2013">2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Kerry</forename>
+								<forename type="middle">L</forename>
+								<surname>Sayle</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Scottish Universities Environmental Research Centre</orgName>
+								<address>
+									<addrLine>Scottish Enterprise Technology Park, Rankine Avenue</addrLine>
+									<postCode>G75 0QF</postCode>
+									<settlement>East Kilbride</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Gordon</forename>
+								<forename type="middle">T</forename>
+								<surname>Cook</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Scottish Universities Environmental Research Centre</orgName>
+								<address>
+									<addrLine>Scottish Enterprise Technology Park, Rankine Avenue</addrLine>
+									<postCode>G75 0QF</postCode>
+									<settlement>East Kilbride</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Philippa</forename>
+								<forename type="middle">L</forename>
+								<surname>Ascough</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Scottish Universities Environmental Research Centre</orgName>
+								<address>
+									<addrLine>Scottish Enterprise Technology Park, Rankine Avenue</addrLine>
+									<postCode>G75 0QF</postCode>
+									<settlement>East Kilbride</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Helen</forename>
+								<forename type="middle">R</forename>
+								<surname>Hastie</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Scottish Universities Environmental Research Centre</orgName>
+								<address>
+									<addrLine>Scottish Enterprise Technology Park, Rankine Avenue</addrLine>
+									<postCode>G75 0QF</postCode>
+									<settlement>East Kilbride</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">´</forename>
+								<surname>Rni Einarsson</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">My´vatn Research Station</orgName>
+								<address>
+									<postCode>IS-660</postCode>
+									<settlement>My´vatn</settlement>
+									<country key="IS">Iceland</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Institute of Earth Sciences</orgName>
+								<orgName type="institution">University of Iceland</orgName>
+								<address>
+									<postCode>IS-101</postCode>
+									<settlement>Reykjavik</settlement>
+									<country key="IS">Iceland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Thomas</forename>
+								<forename type="middle">H</forename>
+								<surname>Mcgovern</surname>
+							</persName>
+							<affiliation>
+								<orgName type="laboratory">Hunter Zooarchaeology Laboratory</orgName>
+								<orgName type="institution">Hunter College CUNY</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Megan</forename>
+								<forename type="middle">T</forename>
+								<surname>Hicks</surname>
+							</persName>
+							<affiliation>
+								<orgName type="laboratory">Hunter Zooarchaeology Laboratory</orgName>
+								<orgName type="institution">Hunter College CUNY</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">´</forename>
+								<surname>Gú Sta Edwald</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Archaeology</orgName>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">School of Geosciences</orgName>
+								<orgName type="institution">University of Aberdeen</orgName>
+								<address>
+									<addrLine>St. Mary's, Elphinstone Road</addrLine>
+									<postCode>AB24 3UF</postCode>
+									<settlement>Aberdeen</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Adolf</forename>
+								<surname>Friðriksson</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">Archaeological Institute Iceland</orgName>
+								<address>
+									<addrLine>Barugotu 2</addrLine>
+									<postCode>101</postCode>
+									<settlement>Reykjavik</settlement>
+									<country key="IS">Iceland</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Geochimica et Cosmochimica Acta</title>
+						<imprint>
+							<biblScope unit="volume">120</biblScope>
+							<biblScope from="531" to="544" unit="page" />
+							<date type="published" when="2013">2013</date>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1016/j.gca.2013.07.008</idno>
+					<note type="submission">Received 11 December 2012; accepted in revised form 5 July 2013;</note>
+					<note>Application of 34 S analysis for elucidating terrestrial, marine and freshwater ecosystems: Evidence of animal movement/husbandry practices in an early Viking community around Lake My´vatn, Iceland 0016-7037/$ -see front matter ⇑ Corresponding author. Available online at</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Carbon and nitrogen stable isotope ratios (d 13 C and d 15 N) have been used widely in archaeology to investigate palaeodiet. Sulphur stable isotope ratios (d 34 S) have shown great promise in this regard but the potential of this technique within archaeological science has yet to be fully explored. Here we report d 34 S, d 13 C and d 15 N values for 129 samples of animal bone col-lagen from Skú tustaðir, an early Viking age (landná m) settlement in northeast Iceland. This dataset represents the most comprehensive study to date of its kind on archaeological material and the results show a clear offset in d 34 S values between animals deriving their dietary resources from terrestrial (mean = +5.6 ± 2.8&amp;), freshwater (mean = À2.7 ± 1.4&amp;) or marine (mean = +15.9 ± 1.5&amp;) reservoirs (with the three food groups being significantly different at 2r). This offset allows reconstruction of the dietary history of domesticated herbivores and demonstrates differences in husbandry practices and animal movement/trade, which would be otherwise impossible using only d 13 C and d 15 N values. For example, several terrestrial her-bivores displayed enriched bone collagen d 34 S values compared to the geology of the Lake My´vatn region, indicating they may have been affected by sea-spray whilst being pastured closer to the coast, before being traded inland. Additionally, the combination of heavy d 15 N values coupled with light d 34 S values within pig bone collagen suggests that these omnivores were consuming freshwater fish as a significant portion of their diet. Arctic foxes were also found to be consuming large quantities of freshwater resources and radiocarbon dating of both the pigs and foxes confirmed previous studies showing that a large freshwater radiocarbon (14 C) reservoir effect exists within the lake. Overall, these stable isotope and 14 C data have important implications for obtaining a fuller reconstruction of the diets of the early Viking settlers in Iceland, and may allow a clearer identification of the marine and/or freshwater 14 C reservoir effects that are known to exist in human bone collagen.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>B Bahar</author>
+<author>O Schmidt</author>
+<author>A P Moloney</author>
+<author>C M Scrimgeour</author>
+<author>I S Begley</author>
+<author>F J Monahan</author>
+</authors>
+<title>Seasonal variation in the C, N and S stable isotope composition of retail organic and conventional Irish beef. Food Chem.</title>
+<date>2008</date>
+<volume>106</volume>
+<pages>1299--1305</pages>
+<contexts>
+<context citStr="Bahar et al., 2008" endWordPosition="791" position="5301" startWordPosition="788">and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequently, separation of herbivores, freshwater fish and marine fish as components of human diet is difficult using only d13C and d1</context>
+</contexts>
+<marker>Bahar, Schmidt, Moloney, Scrimgeour, Begley, Monahan, 2008</marker>
+<rawString>Bahar B., Schmidt O., Moloney A. P., Scrimgeour C. M., Begley I. S. and Monahan F. J. (2008) Seasonal variation in the C, N and S stable isotope composition of retail organic and conventional Irish beef. Food Chem. 106, 1299–1305.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Barrett</author>
+<author>C Johnstone</author>
+<author>J Harland</author>
+<author>W Van Neer</author>
+<author>A Ervynck</author>
+<author>D Makowiecki</author>
+<author>D Heinrich</author>
+<author>A K Hufthammer</author>
+<author>I B Enghoff</author>
+<author>C Amundsen</author>
+<author>J S Christiansen</author>
+<author>A K G Jones</author>
+<author>A Locker</author>
+<author>S Hamilton-Dyer</author>
+<author>L Jonsson</author>
+<author>L Lougas</author>
+<author>C Roberts</author>
+<author>M Richards</author>
+</authors>
+<title>Detecting the medieval cod trade: a new method and first results.</title>
+<date>2008</date>
+<journal>J. Archaeol. Sci.</journal>
+<volume>35</volume>
+<pages>850--861</pages>
+<marker>Barrett, Johnstone, Harland, Van Neer, Ervynck, Makowiecki, Heinrich, Hufthammer, Enghoff, Amundsen, Christiansen, Jones, Locker, Hamilton-Dyer, Jonsson, Lougas, Roberts, Richards, 2008</marker>
+<rawString>Barrett J., Johnstone C., Harland J., Van Neer W., Ervynck A., Makowiecki D., Heinrich D., Hufthammer A. K., Enghoff I. B., Amundsen C., Christiansen J. S., Jones A. K. G., Locker A., Hamilton-Dyer S., Jonsson L., Lõugas L., Roberts C. and Richards M. (2008) Detecting the medieval cod trade: a new method and first results. J. Archaeol. Sci. 35, 850–861.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J H Barrett</author>
+<author>D Orton</author>
+<author>C Johnstone</author>
+<author>J Harland</author>
+<author>W Van Neer</author>
+<author>Roberts C ErvynckA</author>
+<author>A Locker</author>
+<author>C Amundsen</author>
+<author>I B Enghoff</author>
+<author>S Hamilton-Dyer</author>
+<author>D Heinrich</author>
+<author>A K Hufthammer</author>
+<author>A K Jones</author>
+</authors>
+<marker>Barrett, Orton, Johnstone, Harland, Van Neer, ErvynckA, Locker, Amundsen, Enghoff, Hamilton-Dyer, Heinrich, Hufthammer, Jones, </marker>
+<rawString>Barrett J. H., Orton D., Johnstone C., Harland J., Van Neer W., ErvynckA., Roberts C., Locker A., Amundsen C., Enghoff I. B., Hamilton-Dyer S., Heinrich D., Hufthammer A. K., Jones A. K.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G JonssonL</author>
+<author>PopeP MakowieckiD</author>
+<author>T C O’Connell</author>
+<author>T deRoo</author>
+<author>M Richards</author>
+</authors>
+<title>Interpreting the expansion of sea fishing in medieval Europe using stable isotope analysis of archaeological cod bones.</title>
+<date>2011</date>
+<journal>J. Archaeol. Sci.</journal>
+<volume>38</volume>
+<pages>1516--1524</pages>
+<marker>JonssonL, MakowieckiD, O’Connell, deRoo, Richards, 2011</marker>
+<rawString>G., JonssonL.,MakowieckiD., PopeP.,O’Connell T.C., deRoo T. and Richards M. (2011) Interpreting the expansion of sea fishing in medieval Europe using stable isotope analysis of archaeological cod bones. J. Archaeol. Sci. 38, 1516–1524.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Bjarnason A H</author>
+</authors>
+<title>Vegetation on lava fields in the Hekla area,</title>
+<date>1991</date>
+<journal>Iceland. Acta Phytogeogr. Suec.</journal>
+<volume>77</volume>
+<pages>3--105</pages>
+<marker>H, 1991</marker>
+<rawString>Bjarnason Á. H. (1991) Vegetation on lava fields in the Hekla area, Iceland. Acta Phytogeogr. Suec. 77, 3–105.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Bogaard</author>
+<author>T H E Heaton</author>
+<author>P Poulton</author>
+<author>I Merbach</author>
+</authors>
+<title>chim.</title>
+<date>2007</date>
+<journal>Acta</journal>
+<volume>45</volume>
+<pages>341--351</pages>
+<contexts>
+<context citStr="Bogaard et al., 2007" endWordPosition="6452" position="39152" startWordPosition="6449"> enriched d15N value tending to have a depleted d34S value (Fig. 6A). Cattle grazing near Lake Myvatn are likely to have consumed plant material that was enriched in 15N due to the decomposition of chironomid midges, which transports nitrogen from the lake to the shore, whilst for cows foraging further afield, their d15N values may be less enriched due to a decreasing effect of chironomid numbers with increasing distance from the shore (Gratton et al., 2008). Alternatively, animals being farmed closer to Lake Myvatn may have elevated d15N values due to the soil being fertilised with manure (Bogaard et al., 2007; Fraser et al., 2011). Although the average d13C and d15N values for cattle and caprines are very similar (21.5&amp; vs. 21.2&amp; and +3.9&amp; vs. +2.5&amp;), their average d34S values are slightly different (+4.1&amp; vs. +6.7&amp;) (Fig. 4), suggesting differing diet and/or grazing areas between the two groups. If sheep and goats were grazing in the Krafla lava fields, then they may have been consuming moss and lichens that are capable of accumulating their sulphur directly from atmospheric SO2. Given that atmospheric SO2 is likely to have varied over time due to numerous volcanic eruptions, it is not inconcei</context>
+</contexts>
+<marker>Bogaard, Heaton, Poulton, Merbach, 2007</marker>
+<rawString>Bogaard A., Heaton T. H. E., Poulton P. and Merbach I. (2007) chim. Acta 45, 341–351.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A J Dugmore</author>
+<author>M J Church</author>
+<author>P C Buckland</author>
+<author>K J Edwards</author>
+<author>I Lawson</author>
+<author>T H McGovern</author>
+<author>E Panagiotakopulu</author>
+<author>I A Simpson</author>
+<author>P Skidmore</author>
+<author>G Sveinbjarnardottir</author>
+</authors>
+<title>The Norse landnam on the north Atlantic islands: an environmental impact assessment.</title>
+<date>2005</date>
+<journal>Polar Record</journal>
+<volume>41</volume>
+<pages>21--37</pages>
+<marker>Dugmore, Church, Buckland, Edwards, Lawson, McGovern, Panagiotakopulu, Simpson, Skidmore, Sveinbjarnardottir, 2005</marker>
+<rawString>Dugmore A. J., Church M. J., Buckland P. C., Edwards K. J., Lawson I., McGovern T. H., Panagiotakopulu E., Simpson I. A., Skidmore P. and Sveinbjarnardóttir G. (2005) The Norse landnám on the north Atlantic islands: an environmental impact assessment. Polar Record 41, 21–37.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A J Dugmore</author>
+<author>T H McGovern</author>
+<author>O Vesteinsson</author>
+<author>J Arneborg</author>
+<author>R Streeter</author>
+<author>C Keller</author>
+</authors>
+<title>Cultural adaptation, compounding vulnerabilities and conjunctures in Norse Greenland.</title>
+<date>2012</date>
+<marker>Dugmore, McGovern, Vesteinsson, Arneborg, Streeter, Keller, 2012</marker>
+<rawString>Dugmore A. J., McGovern T. H., Vésteinsson O., Arneborg J., Streeter R. and Keller C. (2012) Cultural adaptation, compounding vulnerabilities and conjunctures in Norse Greenland.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>3658–3663 Edwald A</author>
+<author>T H McGovern</author>
+</authors>
+<date>2009</date>
+<institution>Skutustaðir Midden Investigations Myvatn Northern</institution>
+<note>Available for download from:</note>
+<marker>A, McGovern, 2009</marker>
+<rawString>Proc. Natl. Acad. Sci. 109, 3658–3663.Edwald Á. and McGovern T. H. (2009) Skútustaðir Midden Investigations Mývatn Northern Iceland 2008. Available for download from: &lt;http://www.nabohome.org/uploads/tommcgovern/Skutustadir_Field_Report_for_NABO_website.pdf&amp;gt;.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Edwald A</author>
+<author>T H McGovern</author>
+</authors>
+<date>2010</date>
+<institution>Skutustaðir Midden Investigations Myvatn Northern</institution>
+<note>Available for download from:</note>
+<marker>A, McGovern, 2010</marker>
+<rawString>Edwald Á. and McGovern T. H. (2010) Skútustaðir Midden Investigations Mývatn Northern Iceland 2009. Available for download from: &lt;http://www.nabohome.org/publications/fieldreports/SkutustadirField%20Report200922510.pdf&amp;gt;.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Einarsson M A</author>
+</authors>
+<title>Climatic conditions of the Lake Myvatn area.</title>
+<date>1979</date>
+<journal>Oikos</journal>
+<volume>32</volume>
+<pages>29--37</pages>
+<marker>A, 1979</marker>
+<rawString>Einarsson M. Á. (1979) Climatic conditions of the Lake Mývatn area. Oikos 32, 29–37.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Einarsson A</author>
+</authors>
+<title>Lake Myvatn and the River Laxa: an introduction.</title>
+<date>2004</date>
+<journal>Aquat. Ecol.</journal>
+<volume>38</volume>
+<pages>111--114</pages>
+<marker>A, 2004</marker>
+<rawString>Einarsson Á. (2004) Lake Myvatn and the River Laxá: an introduction. Aquat. Ecol. 38, 111–114.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Einarsson A</author>
+<author>O Aldred</author>
+</authors>
+<title>The archaeological landscape of northeast Iceland: a ghost of a Viking Age society.</title>
+<date>2011</date>
+<booktitle>In Remote Sensing for Archaeological Heritage Management. EAC (Europae Archaeologiae Consilium) Publications,</booktitle>
+<pages>243--258</pages>
+<marker>A, Aldred, 2011</marker>
+<rawString>Einarsson Á. and Aldred O. (2011) The archaeological landscape of northeast Iceland: a ghost of a Viking Age society. In Remote Sensing for Archaeological Heritage Management. EAC (Europae Archaeologiae Consilium) Publications, pp. 243–258.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P D Erskine</author>
+<author>D M Bergstrom</author>
+<author>S Schmidt</author>
+<author>G R Stewart</author>
+<author>C E Tweedie</author>
+<author>J D Shaw</author>
+</authors>
+<title>Subantarctic Macquarie Island – a model ecosystem for studying animal-derived nitrogen sources using 15N natural abundance.</title>
+<date>1998</date>
+<journal>Oecologia</journal>
+<volume>117</volume>
+<pages>187--193</pages>
+<contexts>
+<context citStr="Erskine et al., 1998" endWordPosition="3086" position="19879" startWordPosition="3083">northern Iceland and found that values ranged from 12.4&amp; to +5.6&amp;, with many of the samples Icelandic sulphur sources. having values lower than 6.0&amp;. Similarly, the analysis of moss, grass, willow and liverwort specimens from Kerlingarfjoll produced d15N values between 5.5&amp; and 1.7&amp; (Skrzypek et al., 2008). Ascough et al. (in press) determined that modern flora from around Lake Myvatn had d15N values between 9.1&amp; and +6.5&amp;. It has been noted that in soils depleted in phosphorous, plants and lichens that take up ammonia from the atmosphere are capable of generating negative d15N values (Erskine et al., 1998; McKee et al., 2002). Ascough et al. (2007, 2010, 2012, in press) found that d15N values for modern and archaeological terrestrial animals ranged between 1.5&amp; and +5.9&amp;, whilst freshwater fish displayed d15N values from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et a</context>
+</contexts>
+<marker>Erskine, Bergstrom, Schmidt, Stewart, Tweedie, Shaw, 1998</marker>
+<rawString>Erskine P. D., Bergstrom D. M., Schmidt S., Stewart G. R., Tweedie C. E. and Shaw J. D. (1998) Subantarctic Macquarie Island – a model ecosystem for studying animal-derived nitrogen sources using 15N natural abundance. Oecologia 117, 187–193.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Faure</author>
+</authors>
+<title>Sulfur.</title>
+<date>1977</date>
+<booktitle>In Principles of Isotope Geology.</booktitle>
+<pages>523--552</pages>
+<publisher>Wiley,</publisher>
+<location>New York,</location>
+<contexts>
+<context citStr="Faure, 1977" endWordPosition="3389" position="21725" startWordPosition="3388">re typical of a mixed diet. A comparison of the various d13C and d15N ranges for Icelandic terrestrial and aquatic plants and fauna from the Lake Myvatn region is illustrated in Fig. 3. Oceanic primary producers demonstrate sulphate d34S values between +17&amp; and +21&amp; (Peterson and Fry, 1987), however, d34S values for organisms living within a freshwater environment have been shown to vary anywhere between 22&amp; and +20&amp; due to differing sulphur sources in the local geology as well as anaerobic bacteria residing within lakes and rivers, which can reduce sulphate ions to hydrogen sulphide (H2S) (Faure, 1977; Peterson and Fry, 1987). For mammals to successfully thrive, sulphur-containing biochemical compounds, such as the essential amino acids, methionine and cysteine, need to be acquired from the diet. Studies have demonstrated that there is a negligible trophic level shift for sulphur isotopes compared to the large range of d34S values shown within terrestrial, freshwater and marine environments (Peterson et al., 1985; Richards et al., 2003). Therefore, consumers eating produce from within the Lake Myvatn vicinity should have similar d34S values to the surrounding terrestrial vegetation. Curre</context>
+</contexts>
+<marker>Faure, 1977</marker>
+<rawString>Faure G. (1977) Sulfur. In Principles of Isotope Geology. Wiley, New York, pp. 523–552.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R A Fraser</author>
+<author>A Bogaard</author>
+<author>T Heaton</author>
+<author>M Charles</author>
+<author>G Jones</author>
+<author>B T Christensen</author>
+<author>P Halstead</author>
+<author>I Merbach</author>
+<author>P R Poulton</author>
+<author>D Sparkes</author>
+<author>A K Styring</author>
+</authors>
+<title>Manuring and stable Rapid Commun.</title>
+<date>2011</date>
+<journal>Mass Spectrom.</journal>
+<volume>20</volume>
+<pages>1679--1682</pages>
+<contexts>
+<context citStr="Fraser et al., 2011" endWordPosition="6456" position="39174" startWordPosition="6453">ending to have a depleted d34S value (Fig. 6A). Cattle grazing near Lake Myvatn are likely to have consumed plant material that was enriched in 15N due to the decomposition of chironomid midges, which transports nitrogen from the lake to the shore, whilst for cows foraging further afield, their d15N values may be less enriched due to a decreasing effect of chironomid numbers with increasing distance from the shore (Gratton et al., 2008). Alternatively, animals being farmed closer to Lake Myvatn may have elevated d15N values due to the soil being fertilised with manure (Bogaard et al., 2007; Fraser et al., 2011). Although the average d13C and d15N values for cattle and caprines are very similar (21.5&amp; vs. 21.2&amp; and +3.9&amp; vs. +2.5&amp;), their average d34S values are slightly different (+4.1&amp; vs. +6.7&amp;) (Fig. 4), suggesting differing diet and/or grazing areas between the two groups. If sheep and goats were grazing in the Krafla lava fields, then they may have been consuming moss and lichens that are capable of accumulating their sulphur directly from atmospheric SO2. Given that atmospheric SO2 is likely to have varied over time due to numerous volcanic eruptions, it is not inconceivable that the higher </context>
+</contexts>
+<marker>Fraser, Bogaard, Heaton, Charles, Jones, Christensen, Halstead, Merbach, Poulton, Sparkes, Styring, 2011</marker>
+<rawString>Fraser R. A., Bogaard A., Heaton T., Charles M., Jones G., Christensen B. T., Halstead P., Merbach I., Poulton P. R., Sparkes D. and Styring A. K. (2011) Manuring and stable Rapid Commun. Mass Spectrom. 20, 1679–1682.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Fry</author>
+</authors>
+<title>Coupled N, C and S stable isotope measurements using a dual-column gas chromatography system.</title>
+<date>2007</date>
+<journal>Rapid Commun. Mass Spectrom.</journal>
+<volume>21</volume>
+<pages>750--756</pages>
+<contexts>
+<context citStr="Fry, 2007" endWordPosition="651" position="4485" startWordPosition="650">y quick to exploit this theory and stable isotope analysis of preserved bone collagen is now routinely utilised in palaeodietary reconstruction studies, providing archaeologists with a detailed insight into prehistoric diet (Van der Merwe and Vogel, 1978; Tauber, 1981; Schoeninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 201</context>
+</contexts>
+<marker>Fry, 2007</marker>
+<rawString>Fry B. (2007) Coupled N, C and S stable isotope measurements using a dual-column gas chromatography system. Rapid Commun. Mass Spectrom. 21, 750–756.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Fry</author>
+<author>R Garritt</author>
+<author>K Tholke</author>
+<author>C Neill</author>
+<author>R H Michener</author>
+<author>F J Mersch</author>
+<author>W Brand</author>
+</authors>
+<title>Cryoflow: cryofocussing nanomole amounts of CO2, N2, and SO2 from an elemental analyzer for stable isotope analysis.</title>
+<date>1996</date>
+<journal>Rapid Commun. Mass Spectrom.</journal>
+<volume>10</volume>
+<pages>953--958</pages>
+<contexts>
+<context citStr="Fry et al., 1996" endWordPosition="635" position="4380" startWordPosition="632">) stable isotope values in the tissues of the consumer (DeNiro and Epstein, 1978, 1981). Archaeologists were very quick to exploit this theory and stable isotope analysis of preserved bone collagen is now routinely utilised in palaeodietary reconstruction studies, providing archaeologists with a detailed insight into prehistoric diet (Van der Merwe and Vogel, 1978; Tauber, 1981; Schoeninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestria</context>
+</contexts>
+<marker>Fry, Garritt, Tholke, Neill, Michener, Mersch, Brand, 1996</marker>
+<rawString>Fry B., Garritt R., Tholke K., Neill C., Michener R. H., Mersch F. J. and Brand W. (1996) Cryoflow: cryofocussing nanomole amounts of CO2, N2, and SO2 from an elemental analyzer for stable isotope analysis. Rapid Commun. Mass Spectrom. 10, 953–958.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Gardarsson</author>
+</authors>
+<title>Temporal processes and duck populations: examples from Myvatn.</title>
+<date>2006</date>
+<journal>Hydrobiologia</journal>
+<volume>567</volume>
+<pages>89--100</pages>
+<contexts>
+<context citStr="Gardarsson, 2006" endWordPosition="1321" position="8644" startWordPosition="1320">oach, building on previous work to reconstruct animal diet and human activity in the region (Ascough et al., 2007, 2010, 2012). 2. BACKGROUND 2.1. Geographical and historical information The animal bones analysed in this study were from Skutustaðir, an archaeological site to the south of Lake Myvatn (meaning “the lake of midges” in Icelandic) in the north-eastern highlands of Iceland. Famed, as its name suggests, for its abundant insect life, this shallow lake, located 50 km inland and at an altitude of 277 m above sea level (Fig. 1), is a sanctuary for breeding waterfowl (Einarsson, 2004; Gardarsson, 2006). The region has been documented as an area of major archaeological importance with respect to the settlement of Viking communities during the landnam from around AD 870 onwards (Vesteinsson, 1998; McGovern et al., 2007; Einarsson and Aldred, 2011). Radiocarbon dating of terrestrial animal remains and tephrochronological studies from various sites surrounding Lake Myvatn have shown that settlers populated the region from the late 9th century (McGovern et al., 2006, 2007). The presence of these inhabitants is thought to have had a large environmental impact on the area, with the introduction</context>
+</contexts>
+<marker>Gardarsson, 2006</marker>
+<rawString>Gardarsson A. (2006) Temporal processes and duck populations: examples from Mývatn. Hydrobiologia 567, 89–100.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S R Gıslason</author>
+<author>P Torssander</author>
+</authors>
+<title>Response of sulfate concentration and isotope composition in icelandic rivers to the decline in global atmospheric SO2 emissions into the north Atlantic region.</title>
+<date>2006</date>
+<journal>Environ. Sci. Technol.</journal>
+<volume>40</volume>
+<pages>680--686</pages>
+<marker>Gıslason, Torssander, 2006</marker>
+<rawString>Gı́slason S. R. and Torssander P. (2006) Response of sulfate concentration and isotope composition in icelandic rivers to the decline in global atmospheric SO2 emissions into the north Atlantic region. Environ. Sci. Technol. 40, 680–686.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>S R Gıslason</author>
+<author>Snorrason A</author>
+<author>H K Kristmannsdottir</author>
+<author>Sveinbjornsdottir A E</author>
+<author>P Torssander</author>
+<author>J Olafsson</author>
+<author>S Castet</author>
+</authors>
+<marker>Gıslason, A, Kristmannsdottir, E, Torssander, Olafsson, Castet, </marker>
+<rawString>Gı́slason S. R., Snorrason Á., Kristmannsdóttir H. K., Sveinbjörnsdóttir Á. E., Torssander P., Ólafsson J., Castet S.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M T Hicks</author>
+<author>T H McGovern</author>
+<author>R Harrison</author>
+</authors>
+<title>A Preliminary Report of the 2008 Midden Excavation at Skutustaðir, N Iceland. Available for download from:</title>
+<date>2009</date>
+<pages>419--08271</pages>
+<contexts>
+<context citStr="Hicks et al., 2009" endWordPosition="3573" position="22923" startWordPosition="3570">al vegetation. Currently, there are no published d34S values for either animal or human archaeological remains from Iceland, and globally only a small number of sulphur isotope studies have been undertaken on archaeological material. HowFig. 3. d13C and d15N values for various flora and ffunded IPY program “Long Term Human Ecodynamics in the Norse North Atlantic: cases of sustainability, survival, and collapse”. After the discovery of an archaeological midden in 2007, the site was explored in greater detail during a series of excavations between 2008 and 2010 (Edwald and McGovern, 2009, 2010; Hicks et al., 2009; Hicks, 2010; Hicks and Palsdottir, 2011), and a large number of animal bones and artefacts were discovered. The midden site is on a natural rise in the landscape, and due to the porous nature of the bedrock, drainage conditions are good and no pockets of waterlogged sediments were noted. The pH of the soil is around 6.5, providing favourable conditions for preservation of animal bones. The work discussed in this paper deals solely with excavations carried out during the 2008 and 2009 field trips and a list of all samples analysed with their stratigraphic context and chronology is presented</context>
+</contexts>
+<marker>Hicks, McGovern, Harrison, 2009</marker>
+<rawString>Hicks M. T., McGovern T. H. and Harrison R. (2009) A Preliminary Report of the 2008 Midden Excavation at Skútustaðir, N Iceland. Available for download from: &lt;http:// www.nabohome.org/uploads/fsi/FS419-08271_SKU08.pdf&amp;gt;.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M T Hicks</author>
+<author>L B Palsdottir</author>
+</authors>
+<title>Excavations at Skutustaðir, Myvatn Northern Iceland: Preliminary Field Report After the Excavation Season June–July 2010. Available for download from:</title>
+<date>2011</date>
+<pages>457--08273</pages>
+<marker>Hicks, Palsdottir, 2011</marker>
+<rawString>Hicks M. T. and Pálsdóttir L. B. (2011) Excavations at Skútustaðir, Mývatn Northern Iceland: Preliminary Field Report After the Excavation Season June–July 2010. Available for download from: &lt;http://www.nabohome.org/uploads/fsi/ FS457-08273Skutustadir_FieldReport.pdf&amp;gt;.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L W Hildebrand</author>
+<author>P Torssander</author>
+</authors>
+<title>Sulfur isotope ratios from the Katla Volcanic Centre – with implications for mantle heterogeneities?</title>
+<date>1998</date>
+<booktitle>In Water-Rock Interaction</booktitle>
+<pages>451--454</pages>
+<editor>(eds. G. B. Arehart and J. R. Hulston).</editor>
+<location>Balkema, Rotterdam,</location>
+<contexts>
+<context citStr="Hildebrand and Torssander, 1998" endWordPosition="1871" position="12236" startWordPosition="1868">n of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;) (Torssander, 1989),whilst examination of transitional basaltic and rhyolitic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil from the weathering of local bedrock is relatively small, d34S values of Lake Myvatn flora should be similar to those reported by Torssander (1989). However, Icelandic lava fields are sparsely vegetated with lichen and moss (Bjarnason, 1991), which can accumulate their sulphur directly from atmospheric sulphur dioxide (SO2) with very little isotopic fractionation (Krouse, 1977). SO2 gas produced during the eruption of Krafla in July 1980 yielded d34S values between 1.8&amp; and +3.4&amp; (Torssander, 1988), however, it is</context>
+</contexts>
+<marker>Hildebrand, Torssander, 1998</marker>
+<rawString>Hildebrand L. W. and Torssander P. (1998) Sulfur isotope ratios from the Katla Volcanic Centre – with implications for mantle heterogeneities? In Water-Rock Interaction (eds. G. B. Arehart and J. R. Hulston). Balkema, Rotterdam, pp. 451–454.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K A Hobson</author>
+<author>R G Clark</author>
+</authors>
+<title>Assessing avian diets using stable isotopes I: turnover of 13C in tissues. The Condor 94,</title>
+<date>1992</date>
+<pages>181--188</pages>
+<contexts>
+<context citStr="Hobson and Clark, 1992" endWordPosition="7411" position="44457" startWordPosition="7407">closer to the coast and trading of domestic animals was also occurring within Icelandic Norse communities. Studies have shown that sea-spray not only influences coastal soil d34S values, as sulphate particles can be propelled inland over extensive distances (Zazzo et al., 2011), however, it is unlikely that the land around Lake Myvatn would have been affected by sea-spray as the d34S values of these six animals are very distinct from the average d34S values of their contemporaries. The rate of bone collagen turnover is poorly understood, with estimates ranging from less than a year in birds (Hobson and Clark, 1992) to over ten years in adult humans (Hedges et al., 2007). Assuming that fully matured animals are slaughtered within a few years of being brought inland, their 34S signature is unlikely to have changed significantly from when they first arrived at Lake Myvatn. However, collagen turnover rates in juveniles should be higher than in adults, and therefore if young livestock grazing on coastal vegetation were then traded inland and reared for the remainder of their lives in the Lake Myvatn region, it is likely that their d34S values would lie somewhere between a marine signature and the d34S valu</context>
+</contexts>
+<marker>Hobson, Clark, 1992</marker>
+<rawString>Hobson K. A. and Clark R. G. (1992) Assessing avian diets using stable isotopes I: turnover of 13C in tissues. The Condor 94, 181– 188.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N G Holm</author>
+<author>S R Gıslason</author>
+<author>E Sturkell</author>
+<author>P Torssander</author>
+</authors>
+<title>Hekla cold springs (Iceland): groundwater mixing with magmatic gases.</title>
+<date>2010</date>
+<journal>Isot. Environ. Health Stud.</journal>
+<volume>46</volume>
+<pages>180--189</pages>
+<marker>Holm, Gıslason, Sturkell, Torssander, 2010</marker>
+<rawString>Holm N. G., Gı́slason S. R., Sturkell E. and Torssander P. (2010) Hekla cold springs (Iceland): groundwater mixing with magmatic gases. Isot. Environ. Health Stud. 46, 180–189.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Howcroft</author>
+<author>G Eriksson</author>
+<author>K Liden</author>
+</authors>
+<title>Conformity in diversity? Isotopic investigations of infant feeding practices in two iron age populations from Southern Oland,</title>
+<date>2012</date>
+<journal>Sweden. Am. J. Phys. Anthropol.</journal>
+<volume>149</volume>
+<pages>217--230</pages>
+<marker>Howcroft, Eriksson, Liden, 2012</marker>
+<rawString>Howcroft R., Eriksson G. and Lidén K. (2012) Conformity in diversity? Isotopic investigations of infant feeding practices in two iron age populations from Southern Öland, Sweden. Am. J. Phys. Anthropol. 149, 217–230.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Hu</author>
+<author>H Shang</author>
+<author>H Tong</author>
+<author>O Nehlich</author>
+<author>W Liu</author>
+<author>C Zhao</author>
+<author>J Yu</author>
+<author>C Wang</author>
+<author>E Trinkaus</author>
+<author>M P Richards</author>
+</authors>
+<title>Stable isotope dietary analysis of the Tianyuan 1 early modern human.</title>
+<date>2009</date>
+<journal>Proc. Natl. Acad. Sci.</journal>
+<volume>106</volume>
+<pages>10971--10974</pages>
+<contexts>
+<context citStr="Hu et al., 2009" endWordPosition="708" position="4795" startWordPosition="705">advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from th</context>
+<context citStr="Hu et al., 2009" endWordPosition="3228" position="20734" startWordPosition="3225">d north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Nevertheless, many of these findings could be seen to be limited in that they are either lacking in sample numbers, or where a larger sample set has been analysed, they have originated from multiple sites (Richards et al., 2001; Hu et al., 2009; Nehlich et al., 2010). 3. METHODOLOGY 3.1. Sampling location and materials Skutustaðir, situated on the southern shore of Lake My- vatn (65 570 N 17 030 W), was excavated during the NSFauna K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544 535for pigs and birds displayed a large range of values (1.2&amp; to +8.7&amp; and 3.7&amp; and +16.4&amp;, respectively), and are typical of a mixed diet. A comparison of the various d13C and d15N ranges for Icelandic terrestrial and aquatic plants and fauna from the Lake Myvatn region is illustrated in Fig. 3. Oceanic primary producers demonst</context>
+</contexts>
+<marker>Hu, Shang, Tong, Nehlich, Liu, Zhao, Yu, Wang, Trinkaus, Richards, 2009</marker>
+<rawString>Hu Y., Shang H., Tong H., Nehlich O., Liu W., Zhao C., Yu J., Wang C., Trinkaus E. and Richards M. P. (2009) Stable isotope dietary analysis of the Tianyuan 1 early modern human. Proc. Natl. Acad. Sci. 106, 10971–10974.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S P Jakobsson</author>
+<author>K Jonasson</author>
+<author>I A Sigurdsson</author>
+</authors>
+<title>The three igneous rock series of Iceland.</title>
+<date>2008</date>
+<journal>Jokull</journal>
+<volume>58</volume>
+<pages>117--138</pages>
+<marker>Jakobsson, Jonasson, Sigurdsson, 2008</marker>
+<rawString>Jakobsson S. P., Jónasson K. and Sigurdsson I. A. (2008) The three igneous rock series of Iceland. Jökull 58, 117–138.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E M Keaveney</author>
+<author>P J Reimer</author>
+</authors>
+<title>Understanding the variability in freshwater radiocarbon reservoir offsets: a cautionary tale.</title>
+<date>2012</date>
+<journal>J. Archaeol. Sci.</journal>
+<volume>39</volume>
+<pages>1306--1316</pages>
+<contexts>
+<context citStr="Keaveney and Reimer, 2012" endWordPosition="1086" position="7203" startWordPosition="1083">lobal average value of approximately 400 14C years for surface waters and can be corrected for in order to produce a truer calendar age range (Reimer et al., 2009). FREs are brought about by the input of low 14C-activity carbon (e.g. carbon from dissolution of geological carbonates or from high temperature geothermal water–rock interac-tions), or restriction of atmosphere-water CO2 exchange (e.g. via density stratification or ice cover). Unlike the MRE, a universal amendment cannot be implemented as the magnitude of FREs is site dependent and can fluctuate significantly (Ascough et al., 2011; Keaveney and Reimer, 2012). The purpose of this study was to utilise d34S stable isotope measurements in animal and bird bone collagen from remains found in midden deposits at a Viking farmstead on Lake Myvatn in an attempt to distinguish between terrestrial, marine and freshwater dietary components. In turn, this could allow the identification of terrestrial, freshwater and marine components in the human diet. To date, this is the first study of its kind to examine sulphur isotopes in bone collagen from archaeological remains found in Iceland. It is also the largest, single-site sulphur isotope study to be undertaken</context>
+</contexts>
+<marker>Keaveney, Reimer, 2012</marker>
+<rawString>Keaveney E. M. and Reimer P. J. (2012) Understanding the variability in freshwater radiocarbon reservoir offsets: a cautionary tale. J. Archaeol. Sci. 39, 1306–1316.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Kristmannsdottir</author>
+<author>H Armannsson</author>
+</authors>
+<title>Groundwater in the Lake Myvatn area, northern Iceland: chemistry, origin and interaction.</title>
+<date>2004</date>
+<journal>Aquat. Ecol.</journal>
+<volume>38</volume>
+<pages>115--128</pages>
+<marker>Kristmannsdottir, Armannsson, 2004</marker>
+<rawString>Kristmannsdóttir H. and Ármannsson H. (2004) Groundwater in the Lake Myvatn area, northern Iceland: chemistry, origin and interaction. Aquat. Ecol. 38, 115–128.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H R Krouse</author>
+</authors>
+<title>Sulphur isotope abundance elucidate uptake of atmospheric sulphur emission by vegetation.</title>
+<date>1977</date>
+<journal>Nature</journal>
+<volume>65</volume>
+<pages>46</pages>
+<contexts>
+<context citStr="Krouse, 1977" endWordPosition="1939" position="12696" startWordPosition="1938">itic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil from the weathering of local bedrock is relatively small, d34S values of Lake Myvatn flora should be similar to those reported by Torssander (1989). However, Icelandic lava fields are sparsely vegetated with lichen and moss (Bjarnason, 1991), which can accumulate their sulphur directly from atmospheric sulphur dioxide (SO2) with very little isotopic fractionation (Krouse, 1977). SO2 gas produced during the eruption of Krafla in July 1980 yielded d34S values between 1.8&amp; and +3.4&amp; (Torssander, 1988), however, it is conceivable that atmospheric SO2 in Iceland has varied with time due to the volcanic nature of the island. or stable isotope (d13C, d15N and d34S) and radiocarbon (14C)Wet deposition of sulphate from the aqueous oxidation of atmospheric SO2 can provide soil with an additional source of sulphur and isotopic fractionation during this process can be very large (ca. 11&amp; to +17&amp;) (Harris et al., 2012). However, the amount of sulphate deposited has been shown </context>
+</contexts>
+<marker>Krouse, 1977</marker>
+<rawString>Krouse H. R. (1977) Sulphur isotope abundance elucidate uptake of atmospheric sulphur emission by vegetation. Nature 65, 45– 46.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A L Lamb</author>
+<author>M Melikian</author>
+<author>R Ives</author>
+<author>J Evans</author>
+</authors>
+<title>Multiisotope analysis of the population of the lost medieval village ofAuldhame,</title>
+<date>2012</date>
+<journal>East Lothian, Scotland. J. Anal. At. Spectrom.</journal>
+<volume>27</volume>
+<pages>765--777</pages>
+<contexts>
+<context citStr="Lamb et al., 2012" endWordPosition="761" position="5106" startWordPosition="758">ansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be simil</context>
+</contexts>
+<marker>Lamb, Melikian, Ives, Evans, 2012</marker>
+<rawString>Lamb A. L., Melikian M., Ives R. and Evans J. (2012) Multiisotope analysis of the population of the lost medieval village ofAuldhame, East Lothian, Scotland. J. Anal. At. Spectrom. 27, 765–777.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I T Lawson</author>
+<author>F J Gathorne-Hardy</author>
+<author>M J Church</author>
+<author>A J Newton</author>
+<author>K J Edwards</author>
+<author>A J Dugmore</author>
+<author>Einarsson A</author>
+</authors>
+<title>Environmental impacts of the Norse settlement: palaeoenvironmental data from Myvatnssveit, northern Iceland.</title>
+<date>2007</date>
+<journal>Boreas</journal>
+<volume>36</volume>
+<pages>1--19</pages>
+<marker>Lawson, Gathorne-Hardy, Church, Newton, Edwards, Dugmore, A, 2007</marker>
+<rawString>Lawson I. T., Gathorne-Hardy F. J., Church M. J., Newton A. J., Edwards K. J., Dugmore A. J. and Einarsson Á. (2007) Environmental impacts of the Norse settlement: palaeoenvironmental data from Mývatnssveit, northern Iceland. Boreas 36, 1–19.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Longin</author>
+</authors>
+<title>New method of collagen extraction for radiocarbon dating.</title>
+<date>1971</date>
+<journal>Nature</journal>
+<volume>230</volume>
+<pages>241--242</pages>
+<contexts>
+<context citStr="Longin, 1971" endWordPosition="3704" position="23711" startWordPosition="3703">to the porous nature of the bedrock, drainage conditions are good and no pockets of waterlogged sediments were noted. The pH of the soil is around 6.5, providing favourable conditions for preservation of animal bones. The work discussed in this paper deals solely with excavations carried out during the 2008 and 2009 field trips and a list of all samples analysed with their stratigraphic context and chronology is presented in the Supplementary data section. 3.2. Extraction of bone collagen A modified version of the Longin method was used to extract the collagen component from the animal bones (Longin, 1971). Sample surfaces were initially cleaned using a Dremel multi-tool, before they were lightly crushed into smaller fragments and immersed in 1 M HCl for approx. 24 h to effect demineralisation. The acid was then decanted and samples were rinsed with ultra-pure water to remove any remaining dissociated carbonates, acid soluble from around Iceland and the Lake Myvatn region. 536 K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544contaminants and solubilised bioapatite. The gelatinouslike material was heated gently to 80 C in ultra-pure water to denature and solubilise the co</context>
+</contexts>
+<marker>Longin, 1971</marker>
+<rawString>Longin R. (1971) New method of collagen extraction for radiocarbon dating. Nature 230, 241–242.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S A Macko</author>
+<author>M H Engel</author>
+<author>V Andrusevich</author>
+<author>G Lubec</author>
+<author>T C O’Connell</author>
+<author>R E M Hedges</author>
+</authors>
+<title>Documenting the diet in ancient human populations through stable isotope analysis of hair.</title>
+<date>1999</date>
+<journal>Philos. Trans. R. Soc. B</journal>
+<volume>354</volume>
+<pages>65--76</pages>
+<marker>Macko, Engel, Andrusevich, Lubec, O’Connell, Hedges, 1999</marker>
+<rawString>Macko S. A., Engel M. H., Andrusevich V., Lubec G., O’Connell T. C. and Hedges R. E. M. (1999) Documenting the diet in ancient human populations through stable isotope analysis of hair. Philos. Trans. R. Soc. B 354, 65–76.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M A Mateo</author>
+<author>O Serrano</author>
+<author>L Serrano</author>
+<author>R H Michener</author>
+</authors>
+<title>Effects of sample preparation on stable isotopes ratios of carbon and nitrogen in marine invertebrates: implications for food web studies using stable isotopes.</title>
+<date>2008</date>
+<journal>Oecologia</journal>
+<volume>157</volume>
+<pages>105--115</pages>
+<contexts>
+<context citStr="Mateo et al., 2008" endWordPosition="2901" position="18743" startWordPosition="2898"> ranging between approximately 0&amp; and +5&amp;, herbivores and carnivores should accordingly exhibit d15N values of +4&amp; to +9&amp; and +8&amp; to +13&amp;, respectively. Within the marine environment, d15N values can range between +15&amp; to +20&amp; as a consequence of the food chains being considerably longer than in the terrestrial biosphere (DeNiro and Epstein, 1981; Schoeninger et al., 1983; Schoeninger and DeNiro, 1984). However, organisms lower down in the marine food chain such as gastropods, molluscs, Polychaeta and Maxillopoda demonstrate lighter d13C (23.2&amp; to 17.1&amp;) and d15N values (+5.9&amp; to +9.7&amp;) (Mateo et al., 2008). Freshwater fish have also displayed enriched d15N values; however studies have shown that some species have d13C and d15N values that are similar to those observed within a terrestrial environment (Dufour et al., 1999). Therefore, the introduction of a third stable isotope, namely sulphur, to aid in the distinction between these two food groups, is potentially highly advantageous. Wang and Wooller (2006) carried out d15N analysis on the plants and lichens recovered from the four sites mentioned previously in northern Iceland and found that values ranged from 12.4&amp; to +5.6&amp;, with many of the</context>
+</contexts>
+<marker>Mateo, Serrano, Serrano, Michener, 2008</marker>
+<rawString>Mateo M. A., Serrano O., Serrano L. and Michener R. H. (2008) Effects of sample preparation on stable isotopes ratios of carbon and nitrogen in marine invertebrates: implications for food web studies using stable isotopes. Oecologia 157, 105–115.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T H McGovern</author>
+<author>S Perdikaris</author>
+<author>A Einarsson</author>
+<author>J Sidell</author>
+</authors>
+<title>Coastal connections, local fishing, and sustainable egg harvesting: patterns of Viking Age inland wild resource use in Myvatn district, northern Iceland.</title>
+<date>2006</date>
+<journal>Environ. Archaeol.</journal>
+<volume>11</volume>
+<pages>187--205</pages>
+<contexts>
+<context citStr="McGovern et al., 2006" endWordPosition="1391" position="9115" startWordPosition="1388"> located 50 km inland and at an altitude of 277 m above sea level (Fig. 1), is a sanctuary for breeding waterfowl (Einarsson, 2004; Gardarsson, 2006). The region has been documented as an area of major archaeological importance with respect to the settlement of Viking communities during the landnam from around AD 870 onwards (Vesteinsson, 1998; McGovern et al., 2007; Einarsson and Aldred, 2011). Radiocarbon dating of terrestrial animal remains and tephrochronological studies from various sites surrounding Lake Myvatn have shown that settlers populated the region from the late 9th century (McGovern et al., 2006, 2007). The presence of these inhabitants is thought to have had a large environmental impact on the area, with the introduction of grazing livestock and rapid deforestation (Hallsdottir, 1987), leading to significant soil erosion (Arnalds et al., 1997; Vesteinsson et al., 2002; Dugmore et al., 2005; Lawson et al., 2007). 2.2. Geology of the Lake Myvatn area The area surrounding Lake Myvatn is volcanic in nature, with igneous rocks of the tholeiitic series dominating the landscape. The series is split into three subsections: (1) basaltic rocks, which are most abundant, comprising of picri</context>
+</contexts>
+<marker>McGovern, Perdikaris, Einarsson, Sidell, 2006</marker>
+<rawString>McGovern T. H., Perdikaris S., Einarsson A. and Sidell J. (2006) Coastal connections, local fishing, and sustainable egg harvesting: patterns of Viking Age inland wild resource use in Mývatn district, northern Iceland. Environ. Archaeol. 11, 187–205.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>T H McGovern</author>
+<author>O Vesteinsson</author>
+<author>A Fridriksson</author>
+<author>M Church</author>
+<author>I Lawson</author>
+<author>I A Simpson</author>
+<author>A Einarsson</author>
+<author>A Dugmore</author>
+<author>G Cook</author>
+<author>S Perdikaris</author>
+<author>K J Edwards</author>
+<author>A M Thomson</author>
+<author>W P Adderley</author>
+<author>A Newton</author>
+<author>G Lucas</author>
+<author>R Edvardsson</author>
+<author>O Aldred</author>
+<author>E Dunbar</author>
+</authors>
+<title>Landscapes of settlement in Northern Iceland: historical ecology of human impact and climate fluctuation on the millennial scale.</title>
+<date>2007</date>
+<journal>Am. Anthropol.</journal>
+<volume>109</volume>
+<pages>27--51</pages>
+<marker>McGovern, Vesteinsson, Fridriksson, Church, Lawson, Simpson, Einarsson, Dugmore, Cook, Perdikaris, Edwards, Thomson, Adderley, Newton, Lucas, Edvardsson, Aldred, Dunbar, 2007</marker>
+<rawString>McGovern T. H., Vésteinsson O., Fridriksson A., Church M., Lawson I., Simpson I. A., Einarsson A., Dugmore A., Cook G., Perdikaris S., Edwards K. J., Thomson A. M., Adderley W. P., Newton A., Lucas G., Edvardsson R., Aldred O. and Dunbar E. (2007) Landscapes of settlement in Northern Iceland: historical ecology of human impact and climate fluctuation on the millennial scale. Am. Anthropol. 109, 27–51.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K L McKee</author>
+<author>I C Feller</author>
+<author>M Popp</author>
+<author>W Wanek</author>
+</authors>
+<title>Mangrove Isotopic (d15N and d13C) fractionation across a nitrogen vs. phosphorus limitation gradient.</title>
+<date>2002</date>
+<journal>Ecology</journal>
+<volume>83</volume>
+<pages>1065--1075</pages>
+<contexts>
+<context citStr="McKee et al., 2002" endWordPosition="3090" position="19900" startWordPosition="3087">ound that values ranged from 12.4&amp; to +5.6&amp;, with many of the samples Icelandic sulphur sources. having values lower than 6.0&amp;. Similarly, the analysis of moss, grass, willow and liverwort specimens from Kerlingarfjoll produced d15N values between 5.5&amp; and 1.7&amp; (Skrzypek et al., 2008). Ascough et al. (in press) determined that modern flora from around Lake Myvatn had d15N values between 9.1&amp; and +6.5&amp;. It has been noted that in soils depleted in phosphorous, plants and lichens that take up ammonia from the atmosphere are capable of generating negative d15N values (Erskine et al., 1998; McKee et al., 2002). Ascough et al. (2007, 2010, 2012, in press) found that d15N values for modern and archaeological terrestrial animals ranged between 1.5&amp; and +5.9&amp;, whilst freshwater fish displayed d15N values from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Neverthele</context>
+</contexts>
+<marker>McKee, Feller, Popp, Wanek, 2002</marker>
+<rawString>McKee K. L., Feller I. C., Popp M. and Wanek W. (2002) Mangrove Isotopic (d15N and d13C) fractionation across a nitrogen vs. phosphorus limitation gradient. Ecology 83, 1065– 1075.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Nakai</author>
+<author>M L Jensen</author>
+</authors>
+<title>The kinetic isotope effect in the bacterial reduction and oxidation of sulfur.</title>
+<date>1964</date>
+<journal>Geochim. Cosmochim. Acta</journal>
+<volume>28</volume>
+<pages>1893--1912</pages>
+<contexts>
+<context citStr="Nakai and Jensen, 1964" endWordPosition="1793" position="11689" startWordPosition="1790">l et al., 1980; Strauss, 1997) and sulphate in marine water providing a very isotopically uniform reservoir of d34S = +21&amp; (Rees et al., 1978). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;) (Torssander, 1989),whilst examination of transitional basaltic and rhyolitic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulpha</context>
+</contexts>
+<marker>Nakai, Jensen, 1964</marker>
+<rawString>Nakai N. and Jensen M. L. (1964) The kinetic isotope effect in the bacterial reduction and oxidation of sulfur. Geochim. Cosmochim. Acta 28, 1893–1912.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Nehlich</author>
+<author>M P Richards</author>
+</authors>
+<title>Establishing quality criteria for sulphur isotope analysis of archaeological bone collagen.</title>
+<date>2009</date>
+<journal>Archaeol. Anthropol. Sci.</journal>
+<volume>1</volume>
+<pages>59--75</pages>
+<contexts>
+<context citStr="Nehlich and Richards (2009)" endWordPosition="4239" position="27057" startWordPosition="4236">y. All animals analysed had C:N atomic ratios that fell within the range of 2.9–3.6, indicating good bone collagen preservation (DeNiro, 1985). For d34S analysis, two internal standards, which are calibrated to the international reference materials IAEA-S-1 (0.3&amp;), IAEA-S-3 (32.55&amp;) and IAEA-S-4 (+16.90&amp;), were run for every five unknown samples. Results are reported as per mil (&amp;) relative to the internationally accepted standard VCDT and the precision was ±0.6&amp;. 25% of d34S analyses were carried out in duplicate; there were no significant differences in the reproducibility of the results. Nehlich and Richards (2009) analysed a variety of mammalian and fish bone archaeological samples, with the objective of introducing quality control standards for measuring sulphur isotopes in bone collagen. They found that, on average, mammalian and bird bone collagen had anatomic C:S ratio of 600 ± 300, an atomic N:S ratio of 200 ± 100 and contained between 0.15% and 0.35% sulphur, whilst fish bone collagen was found to have an atomic C:S ratio of 175 ± 50, an atomic N:S ratio of 60 ± 20 and contained between 0.4% and 0.8% sulphur. A small number of individual samples in this study fell outside the above ranges and are</context>
+<context citStr="Nehlich and Richards (2009)" endWordPosition="5663" position="34514" startWordPosition="5660">ammals and fish had average d13C, d15N and d34S values of 14.7 ± 0.7&amp;, +13.2 ± 0.7&amp; and +15.9 ± 1.5&amp;, respectively (Table 2). 538 K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544The results demonstrate that there is a clear distinction between the d34S values of terrestrial, freshwater and marine species (Fig. 4), and at 2r, the average d13C, d15N and d34S values of the three food groups are all significantly different. The average atomic C:S and N:S ratios, as well as average %S values for all mammalian, bird and fish samples analysed fall within the criteria set out by Nehlich and Richards (2009) to assess the quality of archaeological bone collagen for sulphur isotope analysis (Table 3). Combined mammalian, bird and fish C:S and N:S atomic ratios are also presented in Table 3. Mammalian and bird C:S atomic ratios averaged 528 ± 123 and N:S atomic ratios averaged 160 ± 37, whilst collectively, fish samples had an average C:S atomic ratio of 188 ± 14 and an average N:S atomic ratio of 56 ± 5. Although a broader range of animal species were analysed in Nehlich and Richards study which may account for the larger error range, the results here exhibit a smaller range and are more in keepin</context>
+<context citStr="Nehlich and Richards (2009)" endWordPosition="6829" position="41144" startWordPosition="6826"> with caprines that have a more enriched d15N value tending to have depleted d34S value (Fig. 6B), suggesting that sheep and goats that were being kept closer to the lake were also consuming plants that had been 15N enriched by chironomid midges. Only five horses were sampled in this study and as expected their d13C, d15N and d34S values were very similar to those observed in cattle and caprines. It is probable that, similarly to cattle, they were being managed closer to the farmstead at Skutustaðir rather than being grazed further afield. However, their average d15N value of +1.9&amp; is less * Nehlich and Richards (2009). -5 0 5 10 15 20 -25 -20 -15 -10 -5 GU-20246 (Cow) GU-20248 (Cow) GU-20232 (Sheep) GU-20249 (Sheep) GU-20275 (Caprine) GUsi-2131 (Horse) GU-20231 (Cow) GU-20241 (Cow) M F T A -5 0 5 10 15 20 0 5 10 15 GU-20246 (Cow) GU-20248 (Cow) GU-20232 (Sheep) GU-20249 (Sheep) GU-20275 (Caprine) GUsi-2131 (Horse) GU-20231 (Cow) GU-20241 (Cow) T M F B δ13C ‰ δ15N ‰ δ3 4 S ‰ δ3 4 S ‰ Fig. 5. Plots of d13C vs. d34S (A) and d15N vs. d34S (B) of Skutustaðir animals that lie outside the boundaries of terrestrial (T), marine (M) and freshwater (F) species. The figure also highlights the two cows, GU-20231 and G</context>
+</contexts>
+<marker>Nehlich, Richards, 2009</marker>
+<rawString>Nehlich O. and Richards M. P. (2009) Establishing quality criteria for sulphur isotope analysis of archaeological bone collagen. Archaeol. Anthropol. Sci. 1, 59–75.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Nehlich</author>
+<author>D Boric</author>
+<author>S Stefanovic</author>
+<author>M P Richards</author>
+</authors>
+<title>Sulphur isotope evidence for freshwater fish consumption: a case study from the Danube Gorges,</title>
+<date>2010</date>
+<journal>SE Europe. J. Archaeol.</journal>
+<marker>Nehlich, Boric, Stefanovic, Richards, 2010</marker>
+<rawString>Nehlich O., Borić D., Stefanović S. and Richards M. P. (2010) Sulphur isotope evidence for freshwater fish consumption: a case study from the Danube Gorges, SE Europe. J. Archaeol.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Sci</author>
+</authors>
+<volume>37</volume>
+<pages>1131--1139</pages>
+<marker>Sci, </marker>
+<rawString>Sci. 37, 1131–1139.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Nehlich</author>
+<author>B T Fuller</author>
+<author>M Jay</author>
+<author>A Mora</author>
+<author>R A Nicholson</author>
+<author>C I Smith</author>
+<author>M T Richards</author>
+</authors>
+<title>Application of sulphur isotope ratios to examine weaning patterns and freshwater fish consumption in Roman Oxfordshire,</title>
+<date>2011</date>
+<journal>UK. Geochim. Cosmochim. Acta</journal>
+<volume>75</volume>
+<pages>4963--4977</pages>
+<note>Nehlich</note>
+<contexts>
+<context citStr="Nehlich et al., 2011" endWordPosition="3184" position="20488" startWordPosition="3181">et al., 1998; McKee et al., 2002). Ascough et al. (2007, 2010, 2012, in press) found that d15N values for modern and archaeological terrestrial animals ranged between 1.5&amp; and +5.9&amp;, whilst freshwater fish displayed d15N values from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Nevertheless, many of these findings could be seen to be limited in that they are either lacking in sample numbers, or where a larger sample set has been analysed, they have originated from multiple sites (Richards et al., 2001; Hu et al., 2009; Nehlich et al., 2010). 3. METHODOLOGY 3.1. Sampling location and materials Skutustaðir, situated on the southern shore of Lake My- vatn (65 570 N 17 030 W), was excavated during the NSFauna K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544 535for pigs and birds displayed a large range of values (1.2&amp; to +8.7&amp; and 3.7&amp; and +1</context>
+</contexts>
+<marker>Nehlich, Fuller, Jay, Mora, Nicholson, Smith, Richards, 2011</marker>
+<rawString>Nehlich O., Fuller B. T., Jay M., Mora A., Nicholson R. A., Smith C. I. and Richards M. T. (2011) Application of sulphur isotope ratios to examine weaning patterns and freshwater fish consumption in Roman Oxfordshire, UK. Geochim. Cosmochim. Acta 75, 4963–4977. Nehlich O., Fuller B. T., Márquez-Grant N. and Richards M. P.</rawString>
+</citation>
+<citation valid="true">
+<title>Investigation of diachronic dietary patterns on the islands of ibiza and formentera, Spain: evidence from sulfur stable isotope ratio analysis.</title>
+<date>2012</date>
+<journal>Am. J. Phys. Anthropol.</journal>
+<volume>149</volume>
+<pages>115--124</pages>
+<marker>2012</marker>
+<rawString>(2012) Investigation of diachronic dietary patterns on the islands of ibiza and formentera, Spain: evidence from sulfur stable isotope ratio analysis. Am. J. Phys. Anthropol. 149, 115– 124.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Newton</author>
+<author>S Bottrell</author>
+</authors>
+<title>Stable isotopes of carbon and sulphur as indicators of environmental change: past and present.</title>
+<date>2007</date>
+<journal>J. Geol. Soc.</journal>
+<volume>164</volume>
+<pages>691--708</pages>
+<contexts>
+<context citStr="Newton and Bottrell, 2007" endWordPosition="775" position="5204" startWordPosition="772"> sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequently, separation of herbivores</context>
+</contexts>
+<marker>Newton, Bottrell, 2007</marker>
+<rawString>Newton R. and Bottrell S. (2007) Stable isotopes of carbon and sulphur as indicators of environmental change: past and present. J. Geol. Soc. 164, 691–708.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J O Nriagu</author>
+<author>R D Coker</author>
+</authors>
+<title>Isotopic composition of sulphur in atmospheric precipitation around Sudbury,</title>
+<date>1978</date>
+<journal>Nature</journal>
+<volume>274</volume>
+<pages>883--885</pages>
+<location>Ontario.</location>
+<contexts>
+<context citStr="Nriagu and Coker, 1978" endWordPosition="2052" position="13375" startWordPosition="2049"> 1980 yielded d34S values between 1.8&amp; and +3.4&amp; (Torssander, 1988), however, it is conceivable that atmospheric SO2 in Iceland has varied with time due to the volcanic nature of the island. or stable isotope (d13C, d15N and d34S) and radiocarbon (14C)Wet deposition of sulphate from the aqueous oxidation of atmospheric SO2 can provide soil with an additional source of sulphur and isotopic fractionation during this process can be very large (ca. 11&amp; to +17&amp;) (Harris et al., 2012). However, the amount of sulphate deposited has been shown to be negligible in areas where SO2 emissions are high (Nriagu and Coker, 1978), and compared to other parts of Iceland, the Myvatn region has little rain- or snowfall (Einarsson, 1979). The eruption of the Grımsvotn volcano in 1996, which is situated below the Vatnajokull Glacier in south-east Iceland, caused the Skeiðara River to flood, and water samples taken before and during the early stages of the overflow revealed a post-eruption increase in sulphur concentration. Analysis of sulphate in the floodwaters demonstrated that d34S values varied between +7.9&amp; and +9.0&amp;, suggesting that sulphurous magmatic gases were oxidised to sulphate upon dissolution in water (G</context>
+</contexts>
+<marker>Nriagu, Coker, 1978</marker>
+<rawString>Nriagu J. O. and Coker R. D. (1978) Isotopic composition of sulphur in atmospheric precipitation around Sudbury, Ontario. Nature 274, 883–885.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V M Oelze</author>
+<author>O Nehlich</author>
+<author>M P Richards</author>
+</authors>
+<title>There’s no place like home’ – no isotopic evidence for mobility at the early bronze age cemetery of singen,</title>
+<date>2012</date>
+<journal>Germany. Archaeometry</journal>
+<volume>54</volume>
+<pages>752--778</pages>
+<contexts>
+<context citStr="Oelze et al., 2012" endWordPosition="726" position="4892" startWordPosition="723">topes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d</context>
+</contexts>
+<marker>Oelze, Nehlich, Richards, 2012</marker>
+<rawString>Oelze V. M., Nehlich O. and Richards M. P. (2012a) ‘There’s no place like home’ – no isotopic evidence for mobility at the early bronze age cemetery of singen, Germany. Archaeometry 54, 752–778.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V M Oelze</author>
+<author>J K Koch</author>
+<author>K Kupke</author>
+<author>O Nehlich</author>
+<author>S Zauner</author>
+<author>J Wahl</author>
+<author>S M Weise</author>
+<author>S Rieckhoff</author>
+<author>M P Richards</author>
+</authors>
+<title>Multiisotopic analysis reveals individual mobility and diet at the early iron age monumental tumulus of Magdalenenberg,</title>
+<date>2012</date>
+<journal>Germany. Am. J. Phys. Anthropol.</journal>
+<volume>148</volume>
+<pages>406--421</pages>
+<note>Osorio</note>
+<marker>Oelze, Koch, Kupke, Nehlich, Zauner, Wahl, Weise, Rieckhoff, Richards, 2012</marker>
+<rawString>Oelze V. M., Koch J. K., Kupke K., Nehlich O., Zäuner S., Wahl J., Weise S. M., Rieckhoff S. and Richards M. P. (2012b) Multiisotopic analysis reveals individual mobility and diet at the early iron age monumental tumulus of Magdalenenberg, Germany. Am. J. Phys. Anthropol. 148, 406–421. Osorio M. T., Moloney A. P., Schmidt O. and Monahan F. J.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P J Slota</author>
+<author>A J T Jull</author>
+<author>T W Linick</author>
+<author>L J Toolin</author>
+</authors>
+<title>Beef authentication and retrospective dietary verification</title>
+<date>2011</date>
+<journal>Radiocarbon</journal>
+<volume>29</volume>
+<pages>303--306</pages>
+<marker>Slota, Jull, Linick, Toolin, 2011</marker>
+<rawString>(2011) Beef authentication and retrospective dietary verification Slota P. J., Jull A. J. T., Linick T. W. and Toolin L. J. (1987) Preparation of small samples for 14C accelerator targets by catalytic reduction of CO. Radiocarbon 29, 303–306.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Strauss</author>
+</authors>
+<title>The isotopic composition of sedimentary sulfur through time.</title>
+<date>1997</date>
+<journal>Palaeogeogr. Palaeoclimatol. Palaeoecol.</journal>
+<volume>32</volume>
+<pages>118</pages>
+<contexts>
+<context citStr="Strauss, 1997" endWordPosition="1700" position="11097" startWordPosition="1699">of the water entering the lake is very stable. Before draining into the River Laxa in the west, the geothermal waters provide Lake Myvatn with plentiful supplies of silica and sulphate, whilst cooler waters deliver phosphate to the lake (Kristmannsdottir and Armannsson, 2004). 2.3. Isotope geochemistry of Iceland Fig. 1. Location of Skutustaðir from which material was obtai measurements.The lithosphere and hydrosphere store the majority of the earth’s sulphur supplies, with sulphides in shale and sulphates in evaporites exhibiting d34S values between 40&amp; and +30&amp; (Claypool et al., 1980; Strauss, 1997) and sulphate in marine water providing a very isotopically uniform reservoir of d34S = +21&amp; (Rees et al., 1978). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor</context>
+</contexts>
+<marker>Strauss, 1997</marker>
+<rawString>Strauss H. (1997) The isotopic composition of sedimentary sulfur through time. Palaeogeogr. Palaeoclimatol. Palaeoecol. 32, 97– 118.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Tanz</author>
+<author>H-L Schmidt</author>
+</authors>
+<title>D34S-Value Measurements in Food Origin Assignments and Sulfur Isotope Fractionations in 544 K.L. Sayle et al.</title>
+<date>2010</date>
+<journal>Geochimica et Cosmochimica Acta</journal>
+<volume>120</volume>
+<pages>3295--3305</pages>
+<contexts>
+<context citStr="Tanz and Schmidt, 2010" endWordPosition="799" position="5346" startWordPosition="796">umans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequently, separation of herbivores, freshwater fish and marine fish as components of human diet is difficult using only d13C and d15N analyses. Likewise, complications were enc</context>
+</contexts>
+<marker>Tanz, Schmidt, 2010</marker>
+<rawString>Tanz N. and Schmidt H.-L. (2010) D34S-Value Measurements in Food Origin Assignments and Sulfur Isotope Fractionations in 544 K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544using stable isotope ratio analysis of bovine muscle and tail hair. J. Agric. Food Chem. 59, 3295–3305.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B J Peterson</author>
+<author>B Fry</author>
+</authors>
+<title>Stable isotopes in ecosystem studies.</title>
+<date>1987</date>
+<journal>Annu. Rev. Ecol. Syst.</journal>
+<volume>18</volume>
+<pages>293--320</pages>
+<contexts>
+<context citStr="Peterson and Fry, 1987" endWordPosition="3339" position="21406" startWordPosition="3336">ling location and materials Skutustaðir, situated on the southern shore of Lake My- vatn (65 570 N 17 030 W), was excavated during the NSFauna K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544 535for pigs and birds displayed a large range of values (1.2&amp; to +8.7&amp; and 3.7&amp; and +16.4&amp;, respectively), and are typical of a mixed diet. A comparison of the various d13C and d15N ranges for Icelandic terrestrial and aquatic plants and fauna from the Lake Myvatn region is illustrated in Fig. 3. Oceanic primary producers demonstrate sulphate d34S values between +17&amp; and +21&amp; (Peterson and Fry, 1987), however, d34S values for organisms living within a freshwater environment have been shown to vary anywhere between 22&amp; and +20&amp; due to differing sulphur sources in the local geology as well as anaerobic bacteria residing within lakes and rivers, which can reduce sulphate ions to hydrogen sulphide (H2S) (Faure, 1977; Peterson and Fry, 1987). For mammals to successfully thrive, sulphur-containing biochemical compounds, such as the essential amino acids, methionine and cysteine, need to be acquired from the diet. Studies have demonstrated that there is a negligible trophic level shift for sulp</context>
+</contexts>
+<marker>Peterson, Fry, 1987</marker>
+<rawString>Peterson B. J. and Fry B. (1987) Stable isotopes in ecosystem studies. Annu. Rev. Ecol. Syst. 18, 293–320.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B J Peterson</author>
+<author>R W Howarth</author>
+<author>R H Garritt</author>
+</authors>
+<title>Multiple stable isotopes used to trace the flow of organic matter in estuarine food webs.</title>
+<date>1985</date>
+<journal>Science</journal>
+<volume>227</volume>
+<pages>1361--1363</pages>
+<contexts>
+<context citStr="Peterson et al., 1985" endWordPosition="3452" position="22145" startWordPosition="3449">22&amp; and +20&amp; due to differing sulphur sources in the local geology as well as anaerobic bacteria residing within lakes and rivers, which can reduce sulphate ions to hydrogen sulphide (H2S) (Faure, 1977; Peterson and Fry, 1987). For mammals to successfully thrive, sulphur-containing biochemical compounds, such as the essential amino acids, methionine and cysteine, need to be acquired from the diet. Studies have demonstrated that there is a negligible trophic level shift for sulphur isotopes compared to the large range of d34S values shown within terrestrial, freshwater and marine environments (Peterson et al., 1985; Richards et al., 2003). Therefore, consumers eating produce from within the Lake Myvatn vicinity should have similar d34S values to the surrounding terrestrial vegetation. Currently, there are no published d34S values for either animal or human archaeological remains from Iceland, and globally only a small number of sulphur isotope studies have been undertaken on archaeological material. HowFig. 3. d13C and d15N values for various flora and ffunded IPY program “Long Term Human Ecodynamics in the Norse North Atlantic: cases of sustainability, survival, and collapse”. After the discovery of a</context>
+<context citStr="Peterson et al., 1985" endWordPosition="6131" position="37178" startWordPosition="6128"> local water sources, and sulphate d34S values have been found to range between 1.7&amp; and +10.1&amp; (Gıslason et al., 2002; Gıslason and Torssander, 2006; Robinson et al., 2009; Holm et al., 2010). Therefore, it is conceivable that the d34S value of sulphur in the Myvatn region could range from 2.0&amp; to +10.1&amp;, and since plants are depleted in 34S by 1.5&amp; relative to their sulphate source (Trust and Fry, 1992), vegetation in the region is likely to have a d34S value that can vary between 3.5&amp; and +8.6&amp;. Similarly, isotopic fractionation of sulphur in mammals is small relative to their diet (Peterson et al., 1985; Richards et al., 2003), and hence domestic animals raised in Myvatn and consuming local vegetation would not be expected to display a d34S value greater than +10&amp;, however, this cut off value remains ambiguous until d34S values of flora and water samples in the area have been measured. Two late medieval to early modern cows provided very similar d13C and d15N values (GU-20231: 21.6&amp; and +4.0&amp;, respectively and GU-20241: 21.9&amp; and +4.1&amp;, respectively), and it could mistakenly be assumed that these animals were reared in close proximity to each other, yet their d34S values tell a very diff</context>
+</contexts>
+<marker>Peterson, Howarth, Garritt, 1985</marker>
+<rawString>Peterson B. J., Howarth R. W. and Garritt R. H. (1985) Multiple stable isotopes used to trace the flow of organic matter in estuarine food webs. Science 227, 1361–1363.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K L Privat</author>
+<author>T C O’Connell</author>
+<author>R E M Hedges</author>
+</authors>
+<title>The distinction between freshwater- and terrestrial-based diets: methodological concerns and archaeological applications of sulphur stable isotope analysis.</title>
+<date>2007</date>
+<journal>J. Archaeol. Sci.</journal>
+<volume>34</volume>
+<pages>1197--1204</pages>
+<marker>Privat, O’Connell, Hedges, 2007</marker>
+<rawString>Privat K. L., O’Connell T. C. and Hedges R. E. M. (2007) The distinction between freshwater- and terrestrial-based diets: methodological concerns and archaeological applications of sulphur stable isotope analysis. J. Archaeol. Sci. 34, 1197–1204.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C E Rees</author>
+<author>W J Jenkins</author>
+<author>J Monster</author>
+</authors>
+<title>The sulphur isotopic composition of ocean water sulphate.</title>
+<date>1978</date>
+<journal>Geochim. Cosmochim. Acta</journal>
+<volume>42</volume>
+<pages>377--381</pages>
+<contexts>
+<context citStr="Rees et al., 1978" endWordPosition="1720" position="11209" startWordPosition="1717">mal waters provide Lake Myvatn with plentiful supplies of silica and sulphate, whilst cooler waters deliver phosphate to the lake (Kristmannsdottir and Armannsson, 2004). 2.3. Isotope geochemistry of Iceland Fig. 1. Location of Skutustaðir from which material was obtai measurements.The lithosphere and hydrosphere store the majority of the earth’s sulphur supplies, with sulphides in shale and sulphates in evaporites exhibiting d34S values between 40&amp; and +30&amp; (Claypool et al., 1980; Strauss, 1997) and sulphate in marine water providing a very isotopically uniform reservoir of d34S = +21&amp; (Rees et al., 1978). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Tr</context>
+</contexts>
+<marker>Rees, Jenkins, Monster, 1978</marker>
+<rawString>Rees C. E., Jenkins W. J. and Monster J. (1978) The sulphur isotopic composition of ocean water sulphate. Geochim. Cosmochim. Acta 42, 377–381.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>P J Reimer</author>
+<author>M G L Baillie</author>
+<author>E Bard</author>
+<author>A Bayliss</author>
+<author>J W Beck</author>
+<author>P G Blackwell</author>
+<author>Bronk Ramsey C</author>
+<author>C E Buck</author>
+<author>G S Burr</author>
+<author>R L Edwards</author>
+<author>M Friedrich</author>
+<author>P M Grootes</author>
+<author>T P Guilderson</author>
+<author>I Hajdas</author>
+<author>T J Heaton</author>
+<author>A G Hogg</author>
+<author>K A Hughen</author>
+<author>K Kaiser</author>
+</authors>
+<marker>Reimer, Baillie, Bard, Bayliss, Beck, Blackwell, C, Buck, Burr, Edwards, Friedrich, Grootes, Guilderson, Hajdas, Heaton, Hogg, Hughen, Kaiser, </marker>
+<rawString>Reimer P. J., Baillie M. G. L., Bard E., Bayliss A., Beck J. W., Blackwell P. G., Bronk Ramsey C., Buck C. E., Burr G. S., Edwards R. L., Friedrich M., Grootes P. M., Guilderson T. P., Hajdas I., Heaton T. J., Hogg A. G., Hughen K. A., Kaiser K.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B F Kromer</author>
+<author>F G McCormac</author>
+<author>S W Manning</author>
+<author>R W Reimer</author>
+<author>D A Richards</author>
+<author>J R Southon</author>
+<author>S Talamo</author>
+<author>C S M Turney</author>
+<author>J van der Plicht</author>
+<author>C E Weyhenmeyer</author>
+</authors>
+<title>INTCAL 09 and MARINE09 radiocarbon age calibration curves, 0– 50,000 years Cal BP.</title>
+<date>2009</date>
+<journal>Radiocarbon</journal>
+<volume>51</volume>
+<pages>1111--1150</pages>
+<marker>Kromer, McCormac, Manning, Reimer, Richards, Southon, Talamo, Turney, van der Plicht, Weyhenmeyer, 2009</marker>
+<rawString>F., Kromer B., McCormac F. G., Manning S. W., Reimer R. W., Richards D. A., Southon J. R., Talamo S., Turney C. S. M., van der Plicht J. and Weyhenmeyer C. E. (2009) INTCAL 09 and MARINE09 radiocarbon age calibration curves, 0– 50,000 years Cal BP. Radiocarbon 51, 1111–1150.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M P Richards</author>
+<author>B T Fuller</author>
+<author>R E M Hedges</author>
+</authors>
+<title>Sulphur isotopic variation in ancient bone collagen from Europe: implications for human palaeodiet, residence mobility, and modern pollutant studies.</title>
+<date>2001</date>
+<journal>Earth Planet. Sci. Lett.</journal>
+<volume>191</volume>
+<pages>185--190</pages>
+<contexts>
+<context citStr="Richards et al., 2001" endWordPosition="703" position="4772" startWordPosition="700">ninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Pr</context>
+<context citStr="Richards et al., 2001" endWordPosition="3224" position="20717" startWordPosition="3221">from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Nevertheless, many of these findings could be seen to be limited in that they are either lacking in sample numbers, or where a larger sample set has been analysed, they have originated from multiple sites (Richards et al., 2001; Hu et al., 2009; Nehlich et al., 2010). 3. METHODOLOGY 3.1. Sampling location and materials Skutustaðir, situated on the southern shore of Lake My- vatn (65 570 N 17 030 W), was excavated during the NSFauna K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544 535for pigs and birds displayed a large range of values (1.2&amp; to +8.7&amp; and 3.7&amp; and +16.4&amp;, respectively), and are typical of a mixed diet. A comparison of the various d13C and d15N ranges for Icelandic terrestrial and aquatic plants and fauna from the Lake Myvatn region is illustrated in Fig. 3. Oceanic primary </context>
+<context citStr="Richards et al. (2001)" endWordPosition="5781" position="35177" startWordPosition="5778">bone collagen for sulphur isotope analysis (Table 3). Combined mammalian, bird and fish C:S and N:S atomic ratios are also presented in Table 3. Mammalian and bird C:S atomic ratios averaged 528 ± 123 and N:S atomic ratios averaged 160 ± 37, whilst collectively, fish samples had an average C:S atomic ratio of 188 ± 14 and an average N:S atomic ratio of 56 ± 5. Although a broader range of animal species were analysed in Nehlich and Richards study which may account for the larger error range, the results here exhibit a smaller range and are more in keeping with the mammalian ranges presented by Richards et al. (2001) (C:S = 463 ± 176) and Craig et al. (2006) (C:S = 496 ± 39, N:S = 148 ± 12), and the fish ranges shown by Privat et al. (2007) (C:S = 198 ± 28, N:S = 61 ± 8). 5. DISCUSSION 5.1. Domestic animals: evidence of husbandry practices via stable isotope analysis d13C and d15N values confirm that cows, caprines and horses were consuming a wholly terrestrial C3 plant diet, however, d34S values varied by 14.9&amp; (1.0&amp; to +13.9&amp;, mean = +5.6 ± 2.8&amp;), implying that these animals were acquiring their food from different geographical areas. There are currently no published d34S values for the vegetation surr</context>
+</contexts>
+<marker>Richards, Fuller, Hedges, 2001</marker>
+<rawString>Richards M. P., Fuller B. T. and Hedges R. E. M. (2001) Sulphur isotopic variation in ancient bone collagen from Europe: implications for human palaeodiet, residence mobility, and modern pollutant studies. Earth Planet. Sci. Lett. 191, 185–190.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M P Richards</author>
+<author>B T Fuller</author>
+<author>M Sponheimer</author>
+<author>T Robinson</author>
+<author>L Ayliffe</author>
+</authors>
+<title>Sulphur isotopes in palaeodietary studies: a review and results from a controlled feeding experiment.</title>
+<date>2003</date>
+<journal>Int. J. Osteoarchaeol.</journal>
+<volume>13</volume>
+<pages>37--45</pages>
+<contexts>
+<context citStr="Richards et al., 2003" endWordPosition="3456" position="22169" startWordPosition="3453">fering sulphur sources in the local geology as well as anaerobic bacteria residing within lakes and rivers, which can reduce sulphate ions to hydrogen sulphide (H2S) (Faure, 1977; Peterson and Fry, 1987). For mammals to successfully thrive, sulphur-containing biochemical compounds, such as the essential amino acids, methionine and cysteine, need to be acquired from the diet. Studies have demonstrated that there is a negligible trophic level shift for sulphur isotopes compared to the large range of d34S values shown within terrestrial, freshwater and marine environments (Peterson et al., 1985; Richards et al., 2003). Therefore, consumers eating produce from within the Lake Myvatn vicinity should have similar d34S values to the surrounding terrestrial vegetation. Currently, there are no published d34S values for either animal or human archaeological remains from Iceland, and globally only a small number of sulphur isotope studies have been undertaken on archaeological material. HowFig. 3. d13C and d15N values for various flora and ffunded IPY program “Long Term Human Ecodynamics in the Norse North Atlantic: cases of sustainability, survival, and collapse”. After the discovery of an archaeological midden </context>
+<context citStr="Richards et al., 2003" endWordPosition="6135" position="37202" startWordPosition="6132">nd sulphate d34S values have been found to range between 1.7&amp; and +10.1&amp; (Gıslason et al., 2002; Gıslason and Torssander, 2006; Robinson et al., 2009; Holm et al., 2010). Therefore, it is conceivable that the d34S value of sulphur in the Myvatn region could range from 2.0&amp; to +10.1&amp;, and since plants are depleted in 34S by 1.5&amp; relative to their sulphate source (Trust and Fry, 1992), vegetation in the region is likely to have a d34S value that can vary between 3.5&amp; and +8.6&amp;. Similarly, isotopic fractionation of sulphur in mammals is small relative to their diet (Peterson et al., 1985; Richards et al., 2003), and hence domestic animals raised in Myvatn and consuming local vegetation would not be expected to display a d34S value greater than +10&amp;, however, this cut off value remains ambiguous until d34S values of flora and water samples in the area have been measured. Two late medieval to early modern cows provided very similar d13C and d15N values (GU-20231: 21.6&amp; and +4.0&amp;, respectively and GU-20241: 21.9&amp; and +4.1&amp;, respectively), and it could mistakenly be assumed that these animals were reared in close proximity to each other, yet their d34S values tell a very different story (+0.6&amp; vs. +</context>
+</contexts>
+<marker>Richards, Fuller, Sponheimer, Robinson, Ayliffe, 2003</marker>
+<rawString>Richards M. P., Fuller B. T., Sponheimer M., Robinson T. and Ayliffe L. (2003) Sulphur isotopes in palaeodietary studies: a review and results from a controlled feeding experiment. Int. J. Osteoarchaeol. 13, 37–45.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Z P Robinson</author>
+<author>I J Fairchild</author>
+<author>B Spiro</author>
+</authors>
+<title>The sulphur isotope and hydrochemical characteristics of Skeiðararsandur, Iceland: identification of solute sources and implications for weather processes.</title>
+<date>2009</date>
+<journal>Hydrol. Process.</journal>
+<volume>23</volume>
+<pages>2212--2224</pages>
+<contexts>
+<context citStr="Robinson et al., 2009" endWordPosition="2188" position="14284" startWordPosition="2185">ken before and during the early stages of the overflow revealed a post-eruption increase in sulphur concentration. Analysis of sulphate in the floodwaters demonstrated that d34S values varied between +7.9&amp; and +9.0&amp;, suggesting that sulphurous magmatic gases were oxidised to sulphate upon dissolution in water (Gıslason et al., 2002). Together with water samples taken from kettle-hole lakes that had formed since the 1996 glacier-outburst flood, further groundwater, geothermal spring water and Skeiðara River samples were retrieved between 1998 and 2001 from the Skeiðararsandur outwash plain (Robinson et al., 2009). d34S values from river sulphates ranged from +3.4&amp; to +8.8&amp;, with the higher value again attributed to magmatic sulphate from the Grımsvotn caldera, whilst the lower end value was measured during normal discharge; both values fall within the range of +2&amp; to +10&amp; reported by Gıslason and Torssander (2006). Groundwater sulphate d34S values varied between 0.3&amp; and +5.3&amp;, whilst sulphate in geothermal spring water had an average d34S value of +4.1&amp;. Water from the kettle-hole lakes was found to be depleted in 34S, with d34S values ranging between 1.7&amp; and 0.0&amp;, which could be attributed to </context>
+<context citStr="Robinson et al., 2009" endWordPosition="6051" position="36732" startWordPosition="6048"> 2 Mean and standard deviations (1r) of terrestrial, freshwater and marine animal bone collagen from Skutustaðir, Iceland. Species group N d34S [&amp;] d13C [&amp;] d15N [&amp;] Terrestrial 85 5.6 ± 2.8 21.3 ± 0.4 3.0 ± 1.3 Freshwater 12 2.7 ± 1.4 9.8 ± 0.6 5.9 ± 0.6 Marine 15 15.9 ± 1.5 14.7 ± 0.7 13.2 ± 0.7plies have not yet been established, previous studies have shown that magmatic sulphate from volcanic eruptions have the potential to influence local water sources, and sulphate d34S values have been found to range between 1.7&amp; and +10.1&amp; (Gıslason et al., 2002; Gıslason and Torssander, 2006; Robinson et al., 2009; Holm et al., 2010). Therefore, it is conceivable that the d34S value of sulphur in the Myvatn region could range from 2.0&amp; to +10.1&amp;, and since plants are depleted in 34S by 1.5&amp; relative to their sulphate source (Trust and Fry, 1992), vegetation in the region is likely to have a d34S value that can vary between 3.5&amp; and +8.6&amp;. Similarly, isotopic fractionation of sulphur in mammals is small relative to their diet (Peterson et al., 1985; Richards et al., 2003), and hence domestic animals raised in Myvatn and consuming local vegetation would not be expected to display a d34S value greate</context>
+</contexts>
+<marker>Robinson, Fairchild, Spiro, 2009</marker>
+<rawString>Robinson Z. P., Fairchild I. J. and Spiro B. (2009) The sulphur isotope and hydrochemical characteristics of Skeiðarársandur, Iceland: identification of solute sources and implications for weather processes. Hydrol. Process. 23, 2212–2224.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Rummel</author>
+<author>S Hoelzl</author>
+<author>P Horn</author>
+<author>A Rossmann</author>
+<author>C Schlicht</author>
+</authors>
+<title>The combination of stable isotope abundance ratios of</title>
+<date>2010</date>
+<journal>H, C, N and S</journal>
+<volume>118</volume>
+<pages>890--900</pages>
+<contexts>
+<context citStr="Rummel et al., 2010" endWordPosition="795" position="5322" startWordPosition="792">istoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequently, separation of herbivores, freshwater fish and marine fish as components of human diet is difficult using only d13C and d15N analyses. Likewise</context>
+</contexts>
+<marker>Rummel, Hoelzl, Horn, Rossmann, Schlicht, 2010</marker>
+<rawString>Rummel S., Hoelzl S., Horn P., Rossmann A. and Schlicht C. (2010) The combination of stable isotope abundance ratios of H, C, N and S with 87Sr/86Sr for geographical origin assignment of orange juices. Food Chem. 118, 890–900.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Russell</author>
+<author>G T Cook</author>
+<author>P Ascough</author>
+<author>J H Barrett</author>
+<author>A Dugmore</author>
+</authors>
+<title>Species specific marine radiocarbon reservoir effect: a comparison of DR values between Patella vulgata (limpet) shell carbonate and Gadus morhua (Atlantic cod) bone collagen.</title>
+<date>2011</date>
+<journal>J.</journal>
+<contexts>
+<context citStr="Russell et al., 2011" endWordPosition="2760" position="17852" startWordPosition="2757">6.9&amp;. These results are within the expected range for plants in the northern hemisphere following a C3 photosynthetic pathway, with the more enriched value of 20.4&amp; from Kerlingarfjoll being attributed to the moss growing in a colder climate (Skrzypek et al., Fig. 2. d34S values for varin press). Although cod and haddock bones have been recovered at Skutustaðir, prior to this study, no stable isotope analysis had been undertaken on these samples. However, cod from four archaeological sites in the north-east Atlantic yielded d13C values between 14.7&amp; and 11.3&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). It is well established that, although 13C trophic level shifts are small, 15N values have been shown to shift between +3&amp; and +5&amp; with each trophic level in marine and terrestrial food chains (Schoeninger and DeNiro, 1984). Given that terrestrial plants have d15N values ranging between approximately 0&amp; and +5&amp;, herbivores and carnivores should accordingly exhibit d15N values of +4&amp; to +9&amp; and +8&amp; to +13&amp;, respectively. Within the marine environment, d15N values can range between +15&amp; to +20&amp; as a consequence of the food chains being considerably longer than in the terrestrial biosphere (D</context>
+<context citStr="Russell et al., 2011" endWordPosition="3144" position="20237" startWordPosition="3141">odern flora from around Lake Myvatn had d15N values between 9.1&amp; and +6.5&amp;. It has been noted that in soils depleted in phosphorous, plants and lichens that take up ammonia from the atmosphere are capable of generating negative d15N values (Erskine et al., 1998; McKee et al., 2002). Ascough et al. (2007, 2010, 2012, in press) found that d15N values for modern and archaeological terrestrial animals ranged between 1.5&amp; and +5.9&amp;, whilst freshwater fish displayed d15N values from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Nevertheless, many of these findings could be seen to be limited in that they are either lacking in sample numbers, or where a larger sample set has been analysed, they have originated from multiple sites (Richards et al., 2001; Hu et al., 2009; Nehlich et al., 2010). 3. METHODOLOGY 3.1. Sampling location and materials Skutustaðir, situated on </context>
+</contexts>
+<marker>Russell, Cook, Ascough, Barrett, Dugmore, 2011</marker>
+<rawString>Russell N., Cook G. T., Ascough P., Barrett J. H. and Dugmore A. (2011) Species specific marine radiocarbon reservoir effect: a comparison of DR values between Patella vulgata (limpet) shell carbonate and Gadus morhua (Atlantic cod) bone collagen. J.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Sci</author>
+</authors>
+<volume>38</volume>
+<pages>1008--1015</pages>
+<marker>Sci, </marker>
+<rawString>Archaeol. Sci. 38, 1008–1015.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Schoeninger</author>
+<author>M J DeNiro</author>
+</authors>
+<title>Nitrogen and carbon isotopic composition of bone collagen from marine and terrestrial animals.</title>
+<date>1984</date>
+<journal>Geochim. Cosmochim. Acta</journal>
+<volume>48</volume>
+<pages>625--639</pages>
+<contexts>
+<context citStr="Schoeninger and DeNiro, 1984" endWordPosition="2798" position="18076" startWordPosition="2795">growing in a colder climate (Skrzypek et al., Fig. 2. d34S values for varin press). Although cod and haddock bones have been recovered at Skutustaðir, prior to this study, no stable isotope analysis had been undertaken on these samples. However, cod from four archaeological sites in the north-east Atlantic yielded d13C values between 14.7&amp; and 11.3&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). It is well established that, although 13C trophic level shifts are small, 15N values have been shown to shift between +3&amp; and +5&amp; with each trophic level in marine and terrestrial food chains (Schoeninger and DeNiro, 1984). Given that terrestrial plants have d15N values ranging between approximately 0&amp; and +5&amp;, herbivores and carnivores should accordingly exhibit d15N values of +4&amp; to +9&amp; and +8&amp; to +13&amp;, respectively. Within the marine environment, d15N values can range between +15&amp; to +20&amp; as a consequence of the food chains being considerably longer than in the terrestrial biosphere (DeNiro and Epstein, 1981; Schoeninger et al., 1983; Schoeninger and DeNiro, 1984). However, organisms lower down in the marine food chain such as gastropods, molluscs, Polychaeta and Maxillopoda demonstrate lighter d13C (23.</context>
+</contexts>
+<marker>Schoeninger, DeNiro, 1984</marker>
+<rawString>Schoeninger M. J. and DeNiro M. J. (1984) Nitrogen and carbon isotopic composition of bone collagen from marine and terrestrial animals. Geochim. Cosmochim. Acta 48, 625–639.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Schoeninger</author>
+<author>M J DeNiro</author>
+<author>H Tauber</author>
+</authors>
+<title>Stable nitrogen isotope ratios of bone collagen reflect marine and terrestrial components of prehistoric human diet.</title>
+<date>1983</date>
+<journal>Science</journal>
+<volume>220</volume>
+<pages>1381--1383</pages>
+<contexts>
+<context citStr="Schoeninger et al., 1983" endWordPosition="606" position="4171" startWordPosition="603">chimica Acta 120 (2013) 531–5441. INTRODUCTION Extensive controlled feeding studies of modern terrestrial, freshwater and marine species have shown that that diet can directly influence carbon (d13C) and nitrogen (d15N) stable isotope values in the tissues of the consumer (DeNiro and Epstein, 1978, 1981). Archaeologists were very quick to exploit this theory and stable isotope analysis of preserved bone collagen is now routinely utilised in palaeodietary reconstruction studies, providing archaeologists with a detailed insight into prehistoric diet (Van der Merwe and Vogel, 1978; Tauber, 1981; Schoeninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 200</context>
+<context citStr="Schoeninger et al., 1983" endWordPosition="2864" position="18501" startWordPosition="2861">that, although 13C trophic level shifts are small, 15N values have been shown to shift between +3&amp; and +5&amp; with each trophic level in marine and terrestrial food chains (Schoeninger and DeNiro, 1984). Given that terrestrial plants have d15N values ranging between approximately 0&amp; and +5&amp;, herbivores and carnivores should accordingly exhibit d15N values of +4&amp; to +9&amp; and +8&amp; to +13&amp;, respectively. Within the marine environment, d15N values can range between +15&amp; to +20&amp; as a consequence of the food chains being considerably longer than in the terrestrial biosphere (DeNiro and Epstein, 1981; Schoeninger et al., 1983; Schoeninger and DeNiro, 1984). However, organisms lower down in the marine food chain such as gastropods, molluscs, Polychaeta and Maxillopoda demonstrate lighter d13C (23.2&amp; to 17.1&amp;) and d15N values (+5.9&amp; to +9.7&amp;) (Mateo et al., 2008). Freshwater fish have also displayed enriched d15N values; however studies have shown that some species have d13C and d15N values that are similar to those observed within a terrestrial environment (Dufour et al., 1999). Therefore, the introduction of a third stable isotope, namely sulphur, to aid in the distinction between these two food groups, is poten</context>
+</contexts>
+<marker>Schoeninger, DeNiro, Tauber, 1983</marker>
+<rawString>Schoeninger M. J., DeNiro M. J. and Tauber H. (1983) Stable nitrogen isotope ratios of bone collagen reflect marine and terrestrial components of prehistoric human diet. Science 220, 1381–1383.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Skrzypek</author>
+<author>D Paul</author>
+<author>B Wojtun</author>
+</authors>
+<title>Stable isotope composition of plants and peat from Arctic mire and geothermal area in Iceland.</title>
+<date>2008</date>
+<journal>Pol. Polar Res.</journal>
+<volume>29</volume>
+<pages>365--376</pages>
+<marker>Skrzypek, Paul, Wojtun, 2008</marker>
+<rawString>Skrzypek G., Paul D. and Wojtuń B. (2008) Stable isotope composition of plants and peat from Arctic mire and geothermal area in Iceland. Pol. Polar Res. 29, 365–376.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Skrzypek</author>
+<author>A Kałuzny</author>
+<author>B Wojtun</author>
+<author>M O Jedrysek</author>
+</authors>
+<title>The carbon stable isotopic composition of mosses: a record of temperature variations.</title>
+<date>2007</date>
+<journal>Org. Geochem.</journal>
+<volume>38</volume>
+<pages>3139--3146</pages>
+<marker>Skrzypek, Kałuzny, Wojtun, Jedrysek, 2007</marker>
+<rawString>Skrzypek G., Kału_zny A., Wojtuń B. and Jędrysek M. O. (2007) The carbon stable isotopic composition of mosses: a record of temperature variations. Org. Geochem. 38, 1770–1781.Plants and Animals. J. Agric. Food Chem. 58, 3139–3146.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H Tauber</author>
+</authors>
+<title>13C evidence for dietary habits of prehistoric man in Denmark.</title>
+<date>1981</date>
+<journal>Nature</journal>
+<volume>292</volume>
+<pages>332--333</pages>
+<contexts>
+<context citStr="Tauber, 1981" endWordPosition="602" position="4144" startWordPosition="601">imica et Cosmochimica Acta 120 (2013) 531–5441. INTRODUCTION Extensive controlled feeding studies of modern terrestrial, freshwater and marine species have shown that that diet can directly influence carbon (d13C) and nitrogen (d15N) stable isotope values in the tissues of the consumer (DeNiro and Epstein, 1978, 1981). Archaeologists were very quick to exploit this theory and stable isotope analysis of preserved bone collagen is now routinely utilised in palaeodietary reconstruction studies, providing archaeologists with a detailed insight into prehistoric diet (Van der Merwe and Vogel, 1978; Tauber, 1981; Schoeninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al.,</context>
+</contexts>
+<marker>Tauber, 1981</marker>
+<rawString>Tauber H. (1981) 13C evidence for dietary habits of prehistoric man in Denmark. Nature 292, 332–333.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B E Taylor</author>
+<author>M C Wheeler</author>
+</authors>
+<title>Isotopic composition of sulphate in acid mine drainage as measure of bacterial oxidation.</title>
+<date>1984</date>
+<journal>Nature</journal>
+<volume>308</volume>
+<pages>538--541</pages>
+<contexts>
+<context citStr="Taylor and Wheeler, 1984" endWordPosition="1797" position="11716" startWordPosition="1794"> 1997) and sulphate in marine water providing a very isotopically uniform reservoir of d34S = +21&amp; (Rees et al., 1978). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;) (Torssander, 1989),whilst examination of transitional basaltic and rhyolitic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil f</context>
+</contexts>
+<marker>Taylor, Wheeler, 1984</marker>
+<rawString>Taylor B. E. and Wheeler M. C. (1984) Isotopic composition of sulphate in acid mine drainage as measure of bacterial oxidation. Nature 308, 538–541.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Torssander</author>
+</authors>
+<title>Sulfur Isotope Ratios of Icelandic Lava Incrustations and Volcanic Gases.</title>
+<date>1988</date>
+<journal>J. Volcanol. Geoth. Res.</journal>
+<volume>35</volume>
+<pages>227--235</pages>
+<contexts>
+<context citStr="Torssander, 1988" endWordPosition="1960" position="12820" startWordPosition="1959">(Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil from the weathering of local bedrock is relatively small, d34S values of Lake Myvatn flora should be similar to those reported by Torssander (1989). However, Icelandic lava fields are sparsely vegetated with lichen and moss (Bjarnason, 1991), which can accumulate their sulphur directly from atmospheric sulphur dioxide (SO2) with very little isotopic fractionation (Krouse, 1977). SO2 gas produced during the eruption of Krafla in July 1980 yielded d34S values between 1.8&amp; and +3.4&amp; (Torssander, 1988), however, it is conceivable that atmospheric SO2 in Iceland has varied with time due to the volcanic nature of the island. or stable isotope (d13C, d15N and d34S) and radiocarbon (14C)Wet deposition of sulphate from the aqueous oxidation of atmospheric SO2 can provide soil with an additional source of sulphur and isotopic fractionation during this process can be very large (ca. 11&amp; to +17&amp;) (Harris et al., 2012). However, the amount of sulphate deposited has been shown to be negligible in areas where SO2 emissions are high (Nriagu and Coker, 1978), and compared to other parts of Iceland, the</context>
+<context citStr="Torssander, 1988" endWordPosition="5925" position="36015" startWordPosition="5924">ctices via stable isotope analysis d13C and d15N values confirm that cows, caprines and horses were consuming a wholly terrestrial C3 plant diet, however, d34S values varied by 14.9&amp; (1.0&amp; to +13.9&amp;, mean = +5.6 ± 2.8&amp;), implying that these animals were acquiring their food from different geographical areas. There are currently no published d34S values for the vegetation surrounding Lake Myvatn, however, local flora can source its sulphur from three main reservoirs: rock sulphide (Myvatn d34S value: 2.0&amp; to +4.2&amp;, (Torssander, 1989)), atmospheric SO2 (Myvatn d 34S value: 1.8&amp; to +3.4&amp;, (Torssander, 1988)) and river, ground, and spring water in the area. Whilst d34S values for Myvatn water supTable 2 Mean and standard deviations (1r) of terrestrial, freshwater and marine animal bone collagen from Skutustaðir, Iceland. Species group N d34S [&amp;] d13C [&amp;] d15N [&amp;] Terrestrial 85 5.6 ± 2.8 21.3 ± 0.4 3.0 ± 1.3 Freshwater 12 2.7 ± 1.4 9.8 ± 0.6 5.9 ± 0.6 Marine 15 15.9 ± 1.5 14.7 ± 0.7 13.2 ± 0.7plies have not yet been established, previous studies have shown that magmatic sulphate from volcanic eruptions have the potential to influence local water sources, and sulphate d34S values have been f</context>
+</contexts>
+<marker>Torssander, 1988</marker>
+<rawString>Torssander P. (1988) Sulfur Isotope Ratios of Icelandic Lava Incrustations and Volcanic Gases. J. Volcanol. Geoth. Res. 35, 227–235.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Torssander</author>
+</authors>
+<title>Sulfur isotope ratios of Icelandic rocks.</title>
+<date>1989</date>
+<journal>Contrib. Miner. Petrol.</journal>
+<volume>102</volume>
+<pages>18--23</pages>
+<contexts>
+<context citStr="Torssander, 1989" endWordPosition="1843" position="12029" startWordPosition="1842">Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;) (Torssander, 1989),whilst examination of transitional basaltic and rhyolitic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil from the weathering of local bedrock is relatively small, d34S values of Lake Myvatn flora should be similar to those reported by Torssander (1989). However, Icelandic lava fields are sparsely vegetated with lichen and moss (Bjarnason, 1991), which can accumulate their sulphur directly from atmospheric sulphur d</context>
+<context citStr="Torssander, 1989" endWordPosition="5914" position="35940" startWordPosition="5913">S = 61 ± 8). 5. DISCUSSION 5.1. Domestic animals: evidence of husbandry practices via stable isotope analysis d13C and d15N values confirm that cows, caprines and horses were consuming a wholly terrestrial C3 plant diet, however, d34S values varied by 14.9&amp; (1.0&amp; to +13.9&amp;, mean = +5.6 ± 2.8&amp;), implying that these animals were acquiring their food from different geographical areas. There are currently no published d34S values for the vegetation surrounding Lake Myvatn, however, local flora can source its sulphur from three main reservoirs: rock sulphide (Myvatn d34S value: 2.0&amp; to +4.2&amp;, (Torssander, 1989)), atmospheric SO2 (Myvatn d 34S value: 1.8&amp; to +3.4&amp;, (Torssander, 1988)) and river, ground, and spring water in the area. Whilst d34S values for Myvatn water supTable 2 Mean and standard deviations (1r) of terrestrial, freshwater and marine animal bone collagen from Skutustaðir, Iceland. Species group N d34S [&amp;] d13C [&amp;] d15N [&amp;] Terrestrial 85 5.6 ± 2.8 21.3 ± 0.4 3.0 ± 1.3 Freshwater 12 2.7 ± 1.4 9.8 ± 0.6 5.9 ± 0.6 Marine 15 15.9 ± 1.5 14.7 ± 0.7 13.2 ± 0.7plies have not yet been established, previous studies have shown that magmatic sulphate from volcanic eruptions have the poten</context>
+</contexts>
+<marker>Torssander, 1989</marker>
+<rawString>Torssander P. (1989) Sulfur isotope ratios of Icelandic rocks. Contrib. Miner. Petrol. 102, 18–23.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B A Trust</author>
+<author>B Fry</author>
+</authors>
+<title>Stable sulphur isotopes in plants: a review.</title>
+<date>1992</date>
+<journal>Plant, Cell Environ.</journal>
+<volume>15</volume>
+<pages>1105--1110</pages>
+<contexts>
+<context citStr="Trust and Fry, 1992" endWordPosition="1815" position="11827" startWordPosition="1812">8). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;) (Torssander, 1989),whilst examination of transitional basaltic and rhyolitic rocks from the Katla Volcanic Centre in southern Iceland gave similar d34S values, ranging between 1.8&amp; and +2.4&amp; (Hildebrand and Torssander, 1998). As isotopic fractionation between plants and sulphates deposited in the soil from the weathering of local bedrock is relatively small, d34S values of Lake Myvatn flora should be similar to</context>
+<context citStr="Trust and Fry, 1992" endWordPosition="6094" position="36971" startWordPosition="6091">9.8 ± 0.6 5.9 ± 0.6 Marine 15 15.9 ± 1.5 14.7 ± 0.7 13.2 ± 0.7plies have not yet been established, previous studies have shown that magmatic sulphate from volcanic eruptions have the potential to influence local water sources, and sulphate d34S values have been found to range between 1.7&amp; and +10.1&amp; (Gıslason et al., 2002; Gıslason and Torssander, 2006; Robinson et al., 2009; Holm et al., 2010). Therefore, it is conceivable that the d34S value of sulphur in the Myvatn region could range from 2.0&amp; to +10.1&amp;, and since plants are depleted in 34S by 1.5&amp; relative to their sulphate source (Trust and Fry, 1992), vegetation in the region is likely to have a d34S value that can vary between 3.5&amp; and +8.6&amp;. Similarly, isotopic fractionation of sulphur in mammals is small relative to their diet (Peterson et al., 1985; Richards et al., 2003), and hence domestic animals raised in Myvatn and consuming local vegetation would not be expected to display a d34S value greater than +10&amp;, however, this cut off value remains ambiguous until d34S values of flora and water samples in the area have been measured. Two late medieval to early modern cows provided very similar d13C and d15N values (GU-20231: 21.6&amp; an</context>
+</contexts>
+<marker>Trust, Fry, 1992</marker>
+<rawString>Trust B. A. and Fry B. (1992) Stable sulphur isotopes in plants: a review. Plant, Cell Environ. 15, 1105–1110.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N J Van der Merwe</author>
+<author>J C Vogel</author>
+</authors>
+<title>13C Content of human collagen as a measure of prehistoric diet in woodland North America.</title>
+<date>1978</date>
+<journal>Nature</journal>
+<volume>276</volume>
+<pages>815--816</pages>
+<marker>Van der Merwe, Vogel, 1978</marker>
+<rawString>Van der Merwe N. J. and Vogel J. C. (1978) 13C Content of human collagen as a measure of prehistoric diet in woodland North America. Nature 276, 815–816.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Vandeputte</author>
+<author>L Moens</author>
+<author>R Dams</author>
+</authors>
+<title>Improved sealedtube combustion of organic samples to CO2 for stable isotopic analysis, radiocarbon dating and percent carbon determinations.</title>
+<date>1996</date>
+<journal>Anal. Lett.</journal>
+<volume>29</volume>
+<pages>2761--2773</pages>
+<contexts>
+<context citStr="Vandeputte et al. (1996)" endWordPosition="4430" position="28180" startWordPosition="4427">.8% sulphur. A small number of individual samples in this study fell outside the above ranges and are excluded from the discussion (shown in italics and bold italics in their respective data tables in Supplementary data section). Two samples (highlighted by an asterisk in their respective data tables) have still been included as their values fall within the desired ranges when corrected for weighing errors on the analytical balance. 3.4. Radiocarbon dating Radiocarbon ages were obtained from selected samples in this study. CO2 was generated from collagen via combustion following the method of Vandeputte et al. (1996). Following cryogenic purification, d13C was measured on an aliquot of the CO2 for normalization of sample 14C/13C ratios. This was achieved on a VG SIRA 10 isotope ratio mass spectrometer, using NBS 22 (oil) and NBS 19 (marble) as standards. The method of Slota et al. (1987) was used to convert a 3 ml aliquot of the CO2 to graphite for 14C measurement by accelerator mass spectrometry (AMS). Sample 14C/13C ratios were measured with carbon in the +1 charge state on the SUERC SSAMS at 245 keV. Calibrated age ranges at 2r were obtained from sample 14C ages using the atmospheric IntCal09 curve (Re</context>
+</contexts>
+<marker>Vandeputte, Moens, Dams, 1996</marker>
+<rawString>Vandeputte K., Moens L. and Dams R. (1996) Improved sealedtube combustion of organic samples to CO2 for stable isotopic analysis, radiocarbon dating and percent carbon determinations. Anal. Lett. 29, 2761–2773.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Vesteinsson</author>
+</authors>
+<title>Patterns of settlement in Iceland: a study in prehistory.</title>
+<date>1998</date>
+<journal>Saga Book</journal>
+<volume>28</volume>
+<pages>1--29</pages>
+<marker>Vesteinsson, 1998</marker>
+<rawString>Vésteinsson O. (1998) Patterns of settlement in Iceland: a study in prehistory. Saga Book 28, 1–29.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>O Vesteinsson</author>
+<author>T H McGovern</author>
+<author>C Keller</author>
+</authors>
+<title>Enduring impacts: social and environmental aspects of viking age settlement in Iceland and Greenland.</title>
+<date>2002</date>
+<journal>Archaeol. Islandica</journal>
+<volume>2</volume>
+<pages>98--136</pages>
+<marker>Vesteinsson, McGovern, Keller, 2002</marker>
+<rawString>Vésteinsson O., McGovern T. H. and Keller C. (2002) Enduring impacts: social and environmental aspects of viking age settlement in Iceland and Greenland. Archaeol. Islandica 2, 98–136.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Vika</author>
+</authors>
+<title>Strangers in the grave? Investigating local provenance in a Greek Bronze Age mass burial using d34S analysis.</title>
+<date>2009</date>
+<journal>J.</journal>
+<contexts>
+<context citStr="Vika, 2009" endWordPosition="710" position="4807" startWordPosition="709">nuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myva</context>
+<context citStr="Vika, 2009" endWordPosition="3180" position="20465" startWordPosition="3179">es (Erskine et al., 1998; McKee et al., 2002). Ascough et al. (2007, 2010, 2012, in press) found that d15N values for modern and archaeological terrestrial animals ranged between 1.5&amp; and +5.9&amp;, whilst freshwater fish displayed d15N values from +3.1&amp; to +8.5&amp;, and north-east Atlantic cod yielded d15N values from +11.9&amp; to +15.4&amp; (Barrett et al., 2008, 2011; Russell et al., 2011). Again, the d15N values ever, this is now changing rapidly and more recently an increasing number of archaeological studies have utilised sulphur isotope analysis as part of their investigations (Privat et al., 2007; Vika, 2009; Nehlich et al., 2011). Nevertheless, many of these findings could be seen to be limited in that they are either lacking in sample numbers, or where a larger sample set has been analysed, they have originated from multiple sites (Richards et al., 2001; Hu et al., 2009; Nehlich et al., 2010). 3. METHODOLOGY 3.1. Sampling location and materials Skutustaðir, situated on the southern shore of Lake My- vatn (65 570 N 17 030 W), was excavated during the NSFauna K.L. Sayle et al. /Geochimica et Cosmochimica Acta 120 (2013) 531–544 535for pigs and birds displayed a large range of values (1.2&amp; to</context>
+</contexts>
+<marker>Vika, 2009</marker>
+<rawString>Vika E. (2009) Strangers in the grave? Investigating local provenance in a Greek Bronze Age mass burial using d34S analysis. J.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Sci</author>
+</authors>
+<volume>36</volume>
+<pages>2024--2028</pages>
+<marker>Sci, </marker>
+<rawString>Archaeol. Sci. 36, 2024–2028.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M A Wadleigh</author>
+</authors>
+<title>Lichens and atmospheric sulphur: what stable isotopes reveal.</title>
+<date>2003</date>
+<journal>Environ. Pollut.</journal>
+<volume>126</volume>
+<pages>345--351</pages>
+<contexts>
+<context citStr="Wadleigh, 2003" endWordPosition="771" position="5177" startWordPosition="770">se in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequentl</context>
+</contexts>
+<marker>Wadleigh, 2003</marker>
+<rawString>Wadleigh M. A. (2003) Lichens and atmospheric sulphur: what stable isotopes reveal. Environ. Pollut. 126, 345–351.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M A Wadleigh</author>
+<author>H P Schwarcz</author>
+<author>J R Kramer</author>
+</authors>
+<title>Sulphur isotope tests of seasalt correction factors in precipitation: Nova Scotia, Canada. Water Air Soil Pollut.</title>
+<date>1994</date>
+<volume>77</volume>
+<pages>1--16</pages>
+<contexts>
+<context citStr="Wadleigh et al., 1994" endWordPosition="1753" position="11410" startWordPosition="1750">ry of Iceland Fig. 1. Location of Skutustaðir from which material was obtai measurements.The lithosphere and hydrosphere store the majority of the earth’s sulphur supplies, with sulphides in shale and sulphates in evaporites exhibiting d34S values between 40&amp; and +30&amp; (Claypool et al., 1980; Strauss, 1997) and sulphate in marine water providing a very isotopically uniform reservoir of d34S = +21&amp; (Rees et al., 1978). In coastal regions, sulphur-containing particles can be propelled inland in a process known as the sea-spray effect, causing soil d34S values to be similar to that of seawater (Wadleigh et al., 1994). Intensive weathering of igneous rocks causes leached sulphides to filter into ground and stream water systems, enabling plants to accumulate the oxidised sulphate form in their roots. Oxidation of pyrite (FeS2) produces negligible isotopic fractionation (Nakai and Jensen, 1964; Taylor and Wheeler, 1984), whilst plant d34S values are on average 1.5&amp; depleted compared to their sulphate source (Trust and Fry, 1992). Analysis of total sulphur in volcanic rocks from the Krafla-Namafjall fissure swarm neighbouring Lake Myvatn provided d34S values that ranged between 2.0&amp; and +4.2&amp; (mean: 0.8&amp;)</context>
+</contexts>
+<marker>Wadleigh, Schwarcz, Kramer, 1994</marker>
+<rawString>Wadleigh M. A., Schwarcz H. P. and Kramer J. R. (1994) Sulphur isotope tests of seasalt correction factors in precipitation: Nova Scotia, Canada. Water Air Soil Pollut. 77, 1–16.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y M Wang</author>
+<author>M J Wooller</author>
+</authors>
+<title>The stable isotopic (C and N) composition of modern plants and lichens from northern Iceland: with ecological and paleoenvironmental implications.</title>
+<date>2006</date>
+<journal>Jokull</journal>
+<volume>56</volume>
+<pages>27--38</pages>
+<contexts>
+<context citStr="Wang and Wooller, 2006" endWordPosition="2319" position="15118" startWordPosition="2316">harge; both values fall within the range of +2&amp; to +10&amp; reported by Gıslason and Torssander (2006). Groundwater sulphate d34S values varied between 0.3&amp; and +5.3&amp;, whilst sulphate in geothermal spring water had an average d34S value of +4.1&amp;. Water from the kettle-hole lakes was found to be depleted in 34S, with d34S values ranging between 1.7&amp; and 0.0&amp;, which could be attributed to dissolved sulphate originating from igneous sulphide minerals. Samples taken 2007). Aquatic plant samples from one site had d13C values averaging 13.3&amp;, which is characteristic of freshwater plants in Iceland (Wang and Wooller, 2006). Previous stable isotope studies of archaeological bone samples discovered at various sites surrounding Lake Myvatn indicate that d13C values for terrestrial animals ranged from 22.1&amp; to 20.3&amp;, whilst modern and archaeological freshwater fish displayed d13C values from 16.0&amp; to 7.9&amp;. Omnivorous pigs and various birds displayed a large range of d13C values (22.5&amp; to 16.9&amp; and 24.8&amp; to 7.9&amp;, respectively), reflecting the mixed terrestrial, freshwater and possibly marine diet they would have been consuming (Ascough et al., 2007, 2010, 2012, ious 534 K.L. Sayle et al. /Geochimica et Cosm</context>
+<context citStr="Wang and Wooller, 2006" endWordPosition="2585" position="16801" startWordPosition="2582">st settled are likely to have influenced the d34S values of all water sources feeding Lake Myvatn and its surrounding landscape. However, whilst Icelandic rock and water samples have demonstrated d34S values that span from 2&amp; to +10&amp;, and atmospheric SO2 d 34S values in the Myvatn region may vary between 1.8&amp; and +3.4&amp;, what is evident is that they are all isotopically very distinct from the d34S value of seawater (Fig. 2). 2.4. Isotope biochemistry of Iceland d13C analysis of various plants and lichens from four lakes in northern Iceland provided values ranging between 30.9&amp; and 23.3&amp; (Wang and Wooller, 2006). Likewise, the analysis of moss, grass, willow and liverwort samples from the geothermal area of Kerlingarfjoll in central Iceland produced d13C values between 28.8&amp; and 20.4&amp; (Skrzypek et al., 2008). Ascough et al. (in press) measured d13C on a variety of modern flora from four sites close to Lake Myvatn and at one location approximately 5 km to the west of the lake, and found that the vegetation ranged from 31.6&amp; to 26.9&amp;. These results are within the expected range for plants in the northern hemisphere following a C3 photosynthetic pathway, with the more enriched value of 20.4&amp; from</context>
+<context citStr="Wang and Wooller (2006)" endWordPosition="2967" position="19152" startWordPosition="2964">84). However, organisms lower down in the marine food chain such as gastropods, molluscs, Polychaeta and Maxillopoda demonstrate lighter d13C (23.2&amp; to 17.1&amp;) and d15N values (+5.9&amp; to +9.7&amp;) (Mateo et al., 2008). Freshwater fish have also displayed enriched d15N values; however studies have shown that some species have d13C and d15N values that are similar to those observed within a terrestrial environment (Dufour et al., 1999). Therefore, the introduction of a third stable isotope, namely sulphur, to aid in the distinction between these two food groups, is potentially highly advantageous. Wang and Wooller (2006) carried out d15N analysis on the plants and lichens recovered from the four sites mentioned previously in northern Iceland and found that values ranged from 12.4&amp; to +5.6&amp;, with many of the samples Icelandic sulphur sources. having values lower than 6.0&amp;. Similarly, the analysis of moss, grass, willow and liverwort specimens from Kerlingarfjoll produced d15N values between 5.5&amp; and 1.7&amp; (Skrzypek et al., 2008). Ascough et al. (in press) determined that modern flora from around Lake Myvatn had d15N values between 9.1&amp; and +6.5&amp;. It has been noted that in soils depleted in phosphorous, p</context>
+</contexts>
+<marker>Wang, Wooller, 2006</marker>
+<rawString>Wang Y. M. and Wooller M. J. (2006) The stable isotopic (C and N) composition of modern plants and lichens from northern Iceland: with ecological and paleoenvironmental implications. Jökull 56, 27–38.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Yun</author>
+<author>B Mayer</author>
+<author>S W Taylor</author>
+</authors>
+<title>D34S measurements on organic materials by continuous flow isotope ratio mass spectrometry.</title>
+<date>2005</date>
+<journal>Rapid Commun. Mass Spectrom.</journal>
+<volume>19</volume>
+<pages>1429--1436</pages>
+<contexts>
+<context citStr="Yun et al., 2005" endWordPosition="643" position="4423" startWordPosition="640">he consumer (DeNiro and Epstein, 1978, 1981). Archaeologists were very quick to exploit this theory and stable isotope analysis of preserved bone collagen is now routinely utilised in palaeodietary reconstruction studies, providing archaeologists with a detailed insight into prehistoric diet (Van der Merwe and Vogel, 1978; Tauber, 1981; Schoeninger et al., 1983). Recent advances in continuous-flow isotope-ratio mass spectrometry (CF-IRMS) have allowed sulphur isotopes (d34S) to be measured from organic and inorganic materials (Giesemann et al., 1994; Fry et al., 1996; Grassineau et al., 2001; Yun et al., 2005; Fritzsche and Tichomirowa, 2006; Grassineau, 2006; Fry, 2007; Hansen et al., 2009) and over the past decade there has been a marked increase in the use of sulphur isotopes in conjunction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Crai</context>
+</contexts>
+<marker>Yun, Mayer, Taylor, 2005</marker>
+<rawString>Yun M., Mayer B. and Taylor S. W. (2005) D34S measurements on organic materials by continuous flow isotope ratio mass spectrometry. Rapid Commun. Mass Spectrom. 19, 1429–1436.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Yun</author>
+<author>M A Wadleigh</author>
+<author>B Mayer</author>
+</authors>
+<title>Variations of sulfur isotope ratios in a single lichen thallus: a potential historical archive for sulfur pollution.</title>
+<date>2010</date>
+<journal>Environ. Pollut.</journal>
+<volume>158</volume>
+<pages>3534--3538</pages>
+<contexts>
+<context citStr="Yun et al., 2010" endWordPosition="779" position="5223" startWordPosition="776">ction with carbon and nitrogen isotopes to aid our understanding of the diet and movement of prehistoric animals and humans (Macko et al., 1999; Richards et al., 2001, 2003; Hu et al., 2009; Vika, 2009; Craig et al., 2010; Howcroft et al., 2012; Nehlich et al., 2012; Oelze et al., 2012a,b). Sulphur isotopes have also been exploited to explore the variability in terrestrial, marine- and freshwater-based diets (Craig et al., 2006; Privat et al., 2007; Nehlich et al., 2010, 2011; Lamb et al., 2012), have been used as indicators of environmental changes (Wadleigh, 2003; Newton and Bottrell, 2007; Yun et al., 2010) and are regularly utilised in food authentication studies (Bahar et al., 2008; Rummel et al., 2010; Tanz and Schmidt, 2010; Osorio et al., 2011). Previous findings from the Lake Myvatn region of north-east Iceland have demonstrated a significant overlap between the d15N values of both modern and archaeological-age terrestrial herbivore bone collagen and the d15N values of modern and archaeological-age freshwater fish. d13C values of freshwater biota were also found to be similar to those of marine resources (Ascough et al., 2010), and consequently, separation of herbivores, freshwater fish a</context>
+</contexts>
+<marker>Yun, Wadleigh, Mayer, 2010</marker>
+<rawString>Yun M., Wadleigh M. A. and Mayer B. (2010) Variations of sulfur isotope ratios in a single lichen thallus: a potential historical archive for sulfur pollution. Environ. Pollut. 158, 3534–3538.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Zazzo</author>
+<author>F J Monahan</author>
+<author>A P Moloney</author>
+<author>S Green</author>
+<author>O Schmidt</author>
+</authors>
+<date>2011</date>
+<note>Sulphur isotopes in animal hair track distance to sea.</note>
+<contexts>
+<context citStr="Zazzo et al., 2011" endWordPosition="7352" position="44112" startWordPosition="7348">9&amp; and GU-20248: d34S +10.1&amp;), three sheep (GU-20232: d34S +12.3&amp;, GU-20249: d34S +11.0&amp;, and GU-20275: d34S +10.5&amp;) and a horse (GUsi-2131: d34S +10.2&amp;) displayed enriched d34S values. The higher d34S values may be attributed to the consumption of vegetation containing marine-derived sulphur, suggesting these animals may have been reared closer to the coast and trading of domestic animals was also occurring within Icelandic Norse communities. Studies have shown that sea-spray not only influences coastal soil d34S values, as sulphate particles can be propelled inland over extensive distances (Zazzo et al., 2011), however, it is unlikely that the land around Lake Myvatn would have been affected by sea-spray as the d34S values of these six animals are very distinct from the average d34S values of their contemporaries. The rate of bone collagen turnover is poorly understood, with estimates ranging from less than a year in birds (Hobson and Clark, 1992) to over ten years in adult humans (Hedges et al., 2007). Assuming that fully matured animals are slaughtered within a few years of being brought inland, their 34S signature is unlikely to have changed significantly from when they first arrived at Lake My</context>
+</contexts>
+<marker>Zazzo, Monahan, Moloney, Green, Schmidt, 2011</marker>
+<rawString>Zazzo A., Monahan F. J., Moloney A. P., Green S. and Schmidt O. (2011) Sulphur isotopes in animal hair track distance to sea.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Rapid Commun</author>
+</authors>
+<journal>Mass Spectrom.</journal>
+<volume>25</volume>
+<pages>2371--2378</pages>
+<note>Associate editor: Martin Novak</note>
+<marker>Commun, </marker>
+<rawString>Rapid Commun. Mass Spectrom. 25, 2371–2378. Associate editor: Martin Novak</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

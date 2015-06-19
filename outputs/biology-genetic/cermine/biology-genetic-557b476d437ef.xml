@@ -1,0 +1,2641 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>Coupling between the circadian clock and cell cycle oscillators: implication for healthy cells and malignant growth</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.3389/fneur.2015.00096</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Celine Feillet</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="4">4</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Gijsbertus T. J. van der Horst</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Francis Levi</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>David A. Rand</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+          <xref ref-type="aff" rid="6">6</xref>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Franck Delaunay</string-name>
+          <email>franck.delaunay@unice.fr</email>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+          <xref ref-type="aff" rid="4">4</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+          <xref ref-type="aff" rid="7">7</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Cancer Chronotherapy Unit, University of Warwick</institution>
+          ,
+          <addr-line>Coventry</addr-line>
+          ,
+          <country country="UK">UK</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Franck Delaunay, Circadian Systems Biology, CNRS, INSERM, Institut de Biologie Valrose, Université Nice Sophia Antipolis</institution>
+          ,
+          <addr-line>28 Avenue de Valrose, Nice Cedex 2 06108</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>Department of Genetics, Erasmus University Medical Center</institution>
+          ,
+          <addr-line>Rotterdam</addr-line>
+          ,
+          <country country="NL">Netherlands</country>
+        </aff>
+        <aff id="3">
+          <label>3</label>
+          <institution>Reviewed by: Steven Brown, University of Zürich, Switzerland Georg A. Bjarnason, Sunnybrook Odette Cancer Centre</institution>
+          ,
+          <country country="CA">Canada</country>
+        </aff>
+        <aff id="4">
+          <label>4</label>
+          <institution>Circadian Systems Biology, CNRS, INSERM, Institut de Biologie Valrose, Université Nice Sophia Antipolis</institution>
+          ,
+          <addr-line>Nice</addr-line>
+          ,
+          <country country="FR">France</country>
+        </aff>
+        <aff id="5">
+          <label>5</label>
+          <institution>Edited by: Urs Albrecht, University of Fribourg</institution>
+          ,
+          <country country="CH">Switzerland</country>
+        </aff>
+        <aff id="6">
+          <label>6</label>
+          <institution>Systems Biology Centre, University of Warwick</institution>
+          ,
+          <addr-line>Coventry</addr-line>
+          ,
+          <country country="UK">UK</country>
+        </aff>
+        <aff id="7">
+          <label>7</label>
+          <institution>Frontiers in Neurology</institution>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Uncontrolled cell proliferation is one of the key features leading to cancer. Seminal works in chronobiology have revealed that disruption of the circadian timing system in mice, either by surgical, genetic, or environmental manipulation, increased tumor development. In humans, shift work is a risk factor for cancer. Based on these observations, the link between the circadian clock and cell cycle has become intuitive. But despite identification of molecular connections between the two processes, the influence of the clock on the dynamics of the cell cycle has never been formally observed. Recently, two studies combining single live cell imaging with computational methods have shed light on robust coupling between clock and cell cycle oscillators. We recapitulate here these novel findings and integrate them with earlier results in both healthy and cancerous cells. Moreover, we propose that the cell cycle may be synchronized or slowed down through coupling with the circadian clock, which results in reduced tumor growth. More than ever, systems biology has become instrumental to understand the dynamic interaction between the circadian clock and cell cycle, which is critical in cellular coordination and for diseases such as cancer.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>circadian desynchrony</kwd>
+        <kwd>cell cycle</kwd>
+        <kwd>coupling</kwd>
+        <kwd>cancer</kwd>
+        <kwd>mathematical modeling</kwd>
+      </kwd-group>
+      <volume>6</volume>
+      <pub-date>
+        <day>25</day>
+        <month>3</month>
+        <year>2015</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>The Circadian Clock
+The Earth’s rotation results in predictable daily variations of environmental conditions (light/dark,
+food, temperature). Biological clocks give an unbiased estimation of time and allow coordination of
+physiology in anticipation to recurring changes.</p>
+      <p>Circadian clocks are implicated in normal functioning of numerous systems (digestive, endocrine,
+cellular). They control 24-h rhythms, termed as “circadian rhythms” (sleep, body temperature, cortisol
+secretion …).</p>
+      <p>An important milestone in the field was the discovery of the mammalian circadian “conductor”:
+the suprachiasmatic nuclei of the hypothalamus (SCN) (1, 2). From the molecular standpoint, the
+SCN machinery consists of feedback loops relying on clock genes. A main loop involves CLOCK and
+BMAL1, which heterodimerize and activate the transcription of Period (Per1–2–3) and Cryptochrome
+(Cry1–2) genes. PER:CRY proteins in turn inhibit their own transcription by direct interaction
+with CLOCK:BMAL1. This essential loop is modulated by the
+REV-ERBα–β and RORα–β–γ proteins, which operate a negative
+and positive feedback, respectively, on Bmal1 transcription. This
+genetic network is also extensively regulated via post-translational
+processes. The molecular clockwork acts autonomously and, in
+the absence of resetting cues, oscillates with a period close to 24 h;
+it is the basis of circadian rhythmicity and defines the endogenous
+period of a clock (3). It is synchronized to a sharp 24-h period by
+environmental parameters (light/dark, feeding cycles, hormones).</p>
+      <p>A rhythmic message integrating environmental informations is
+then generated by the SCN, and redistributed to the entire
+organism to synchronize physiological functions. Circadian
+rhythmicity and clock genes are not an exclusive property of the SCN as
+clock genes are rhythmically expressed in nearly all cells. Each
+individual cell can thus be regarded as a circadian clock (4, 5).</p>
+      <p>The Cell Cycle
+Cell cycle is the process leading to cell division. It consists of two
+critical phases: the S phase, in which the cell replicates its DNA,
+and the M phase where it divides (mitosis); they are preceded by
+growth phases G1 and G2, respectively. Non-dividing (somatic)
+cells are in a quiescent state (G0). They may resume cell division,
+depending on environmental parameters such as growth factors,
+to enter G1 phase (6, 7).</p>
+      <p>Progression of the cell cycle relies on transient and sequential
+activation of cyclin-dependent kinases (CDKs) forming
+complexes with cyclins (CCN). Cell cycle successively depends on
+CCND/CDK4–6 (G1), CCNE/CDK2 (G1/S transition), CCNA/
+CDK2 (S), CCNA/CDK1 (S/G2 transition), and CCNB/CDK1
+[M – (8–10)]. Activity of these enzymatic complexes finely tunes
+cell cycle duration, especially at critical checkpoints. Association
+with CDK inhibitors (CKI–P16, P27, P21) or phosphorylation by
+the kinase WEE1, inhibit activity of targeted CCN/CDK across
+the cycle. On the other hand, they are activated by phosphatases
+such as CDC25A–B–C (11). These activators or inhibitors are
+targets of proteins involved in DNA repair. Indeed, a double-strand
+DNA break activates the ataxia telangiectasia mutated (ATM)
+and check-point kinase 2 (CHK2) proteins, while a single-strand
+break or a replication error activate ataxia telangiectasia related
+(ATR) and check-point kinase 1 (CHK1) proteins (12, 13). These
+complexes cause a cell cycle arrest by indirect induction of CKI.</p>
+      <p>From a dynamical point of view, the cell cycle can be modeled
+either as a series of checkpoints (“domino” model) or as a
+biochemical oscillator where successive waves of CCN/CDK activity
+control its progression (14–16). In the following parts, we will
+use this second model as it recapitulates the rhythmic properties
+of the cell cycle.</p>
+      <p>Both cell cycle and molecular clocks display periodic phases of
+activation and repression from transcriptional to post-translational
+levels (17). Thus, they can be considered as biological oscillators
+coexisting in dividing cells.</p>
+      <p>The Circadian Gating Model
+In unicellular organisms, circadian rhythms and cell division
+are considered as non-independent processes. In particular, the
+circadian system controls timing of cell division both in
+prokaryotic and eukaryotic species. This is the case in the cyanobacterium
+Synechococcus elongatus and in the flagellate alga Euglena gracilis,
+where the molecular clock operates as a “gating” and only allows cell
+division at specific circadian phases (18–20). Thus, the circadian
+oscillator can be viewed as an additional checkpoint for mitosis.</p>
+      <p>It was tempting to extrapolate this phenomenon to other
+organisms; although some research was conducted toward
+demonstration of circadian gating of the cell cycle in mammalian cells, results
+led to controversial evidence. While a study from 2004 reported
+that the majority of cell divisions occur in three phases of the
+circadian cycle (4), two more recent papers describe an absence
+of cell cycle regulation by the circadian clock (21, 22).
+Faced with these contradictions, we and others have recently
+investigated the circadian clock-cell cycle connection by
+quantifying the dynamics of the two oscillators in real time, in single live
+mammalian cells (23, 24). Both studies used the circadian clock
+reporter REV-ERBα:VENUS (4). For cell cycle, Bieler et al. scored
+timing of division. We added a cell cycle reporter system
+[fluorescent ubiquitination-based cell cycle indicator, FUCCI; (25)]
+probing cell cycle progression. These fluorescent markers were
+used to quantitatively determine the properties of each oscillator
+in single NIH3T3 cells. Timelapse imaging combined to extensive
+statistical analysis and modeling exposed the dynamical properties
+of these biological oscillators (Figure 1A).</p>
+      <p>In cells where neither clock nor cell cycle was synchronized
+by external cues, they appear robustly coupled, with a 1:1 ratio
+between their respective periods, over a wide range of durations
+(18–27  h; Figures  1B,C). A clear shortening of the circadian
+period occurred in dividing cells compared to non-dividing cells
+thus revealing an influence of cell cycle on the clock. Mathematical
+analysis and stochastic modeling unambiguously showed that
+coupling rather than gating governs cell cycle and circadian
+interaction in NIH3T3 cells. It also revealed that the clock reporter
+reproducibly peaked about 5 h after cell division. This feature is
+termed as phase locking (Figure 1C). Changing cell cycle
+duration impacted on circadian cycles, but 1:1 locking was resilient to
+such changes (23, 24). Additionally, inhibition of the cell cycle at
+the G1/S or G2/M transitions lengthened circadian intervals and
+delayed division phase. Bieler et al. looked at the reverse interaction
+by changing circadian period. This did not affect cell cycle length
+but advanced division with respect to circadian phase. The authors
+thus proposed a unidirectional coupling from the cell cycle to the
+circadian clock (23).</p>
+      <p>The above experiments were performed in absence of external
+cues. However, in vivo cellular clocks are subjected to
+synchronizing messages (e.g., corticosteroids, temperature). We therefore
+investigated coupling after a 2 h treatment with dexamethasone,
+which resets the circadian clock. We observed two distinct
+dynamical behaviors coexisting within the cell population. Whereas one
+sub-population kept a 1:1 phase locking, the ratio of cell cycle
+and clock periods was fixed to 3:2 in the other one (i.e., 3 cell
+cycles for 2 clock cycles). Moreover, when projecting the timing of
+mitosis across the whole experiment, we observed a clear clustering
+of cell division suggesting that the cell cycle was synchronized
+by physiological cues via the circadian clock. We thus inferred a
+bidirectional coupling between the two oscillators, supported by
+mathematical modeling (24).</p>
+      <p>Although the team of Naef concluded to a unidirectional
+coupling whereas we concluded to a bidirectional coupling, both
+studies led us to reject the concept of “gating” of the cell cycle by the
+clock in mammalian cells, usually put forward without theoretical
+support (23, 24). In the end, it seems that the cell cycle is capable
+of impacting on the circadian clock and vice versa, the dominant
+influence being dependent on the environment of the cell.
+Molecular mechanisms underlying progression of the clock and
+cell cycle have been extensively studied. Yet, little is known about
+candidates that could underlie coupling between the two oscillators.
+influence from the Circadian Clock on
+the Cell Cycle
+The molecular clock impacts on the cell cycle, by transcriptional
+control or direct protein–protein interactions. For instance, in
+G1, the CKI P21 is transcriptionally regulated by REV-ERBα and
+RORα/γ (26). At G1/S transition, NONO regulates the p16-Ink4A
+check-point gene in a PER-dependent fashion (27). Transcription
+of the WEE1 kinase (G2/M transition) is tightly controlled by the
+CLOCK:BMAL1 dimer (28).</p>
+      <p>At the post-translational level, CRY modulates CHK1/ATR
+(G1/S transition checkpoint) by interacting with TIMELESS (TIM)
+in a time-of-day-dependent manner. PER and TIM also regulate the
+G2/M transition via interactions with CHK2-ATM (12, 13, 29, 30).</p>
+      <p>Other clock-controlled cell cycle regulators include known
+oncogenes (c-Myc, Mdm2, and β-catenin), cyclins (CCND1, B,
+and A), and tumor suppressor p53. Many key cell cycle regulators,
+such as Cdk4, Itga6, Wnt3, LHx2, Tcf4, Sox 9, and Smad7 are also
+directly clock-regulated (31). This multitude of interactions gives
+a reasonable explanation why loss of coupling between clock and
+cell cycle may play a key role in carcinogenesis and abnormal
+growth in vivo (see below).
+influence of the Cell Cycle on the Circadian
+Clock
+Apart from transcription silencing occurring at mitosis (32), which
+is bound to influence the circadian feedback loops, molecular
+evidence of cell cycle-dependent control of the circadian clock
+is sparse. Nevertheless, DNA damage can phase advance cellular
+and behavioral circadian rhythms in a dose- and time-dependent
+manner. The underlying mechanism involves ATM-mediated
+damage signaling, possibly through interaction with the PER and
+TIM proteins (33).</p>
+      <p>More recently, an impact of the tumor suppressors P53 and
+promyelocytic leukemia (PML) proteins on circadian function was
+proposed: Per2 transcription is repressed by P53, which prevents
+binding of CLOCK:BMAL1. At the post translational level, PML
+physically interacts with PER2, and promotes its nuclear
+localization. These molecular connections are translated into altered
+circadian behavior (34, 35). As a whole, these results point to a
+global influence of cell cycle regulation on circadian function.</p>
+      <p>Among these molecular interactions, only p53 has been found
+to impact on clock and cell cycle in a bidirectional way. Thus, it
+may participate in coupling between the two oscillators, which
+remains to be confirmed.</p>
+      <p>Cellular Consequences of Coupling in</p>
+    </sec>
+    <sec id="2">
+      <title>Healthy Cells</title>
+      <p>A major impact of clock and cell cycle coupling on cell
+physiology resides in timed mitoses. For instance, about 1/6th of human
+epidermal cells divide daily, mainly at night (36), which is
+determined by intrinsic Bmal1 expression (37). Rhythmicity in
+cell cycle parameters was also found in the hematopoietic and
+immune systems (spleen, thymus, bone marrow), gastro-intestinal
+tract (colon, liver), skin, and cornea of rodents and/or humans
+(38). DNA synthesis and mitosis rhythmicity seem impervious
+to ablation of adrenals, medulla, pituitary, or even SCN, although
+sometimes displaying altered characteristics (38–40). Hence, if
+systemic circadian cues are required to coordinate cell divisions in
+the whole organism, local clock/cell cycle coupling likely governs
+rhythmic mitosis at the cellular and tissue levels.</p>
+      <p>In line with this hypothesis, different populations of epidermal
+stem cells were found to express clock genes in opposite phases,
+which results in a differential propensity for activation. Specific
+disruption of the circadian clock in these cells led to premature
+epidermal aging, which confirms that local coupling is necessary
+to ensure tissue integrity (41).</p>
+      <p>Coupling even manifests itself in a post-mitotic tissue such as
+the adult brain, where quiescent neural progenitors in the
+hippocampus show rhythmic proliferation. Per2 and Bmal1 play a
+critical role in this rhythmic neurogenesis, impacting on cognitive
+function. Mathematical modeling pointed to clock-driven p21
+expression as a trigger for cell cycle progression through regulation
+of the CCND/CDK4–6 complexes (42).</p>
+      <p>In the adult liver, only 1% of hepatocytes show rhythmic mitoses
+under normal conditions. After partial hepatectomy, however, most
+of the remaining hepatocytes enter cell cycle synchronously, in a
+clock-dependent manner, which will restore liver mass within few
+days. In arrhythmic Cry deficient mice, liver regeneration still occurs,
+although full recovery of liver mass is delayed (28). A more common
+situation requiring controlled cell division at an adult age is wound
+repair: after skin incision, wound healing defects were found in mice
+lacking NONO, a possible link between clock and cell cycle. (27).</p>
+      <p>Thus, crosstalk between the clock and cell cycle oscillators is
+required for timed and optimal organization of cell proliferation
+both in healthy tissue and in times of challenge such as regeneration.
+importance of Coupling in Times of</p>
+    </sec>
+    <sec id="3">
+      <title>Challenge: From Healthy Cells to Pathology</title>
+      <p>A major interest of the interplay between the clock and cell cycle
+is that a dysfunction of either system can lead to diseases such as
+FiGu Re 1 | image acquisition, fluorescence quantification, period,
+and phase dynamics in non-synchronized ni H3T3-Reve RBα:
+venu S_Fu CCi cells. (A) Time series of a representative single cycle
+for the various fluorescent reporters and respective quantified traces:
+from top to bottom: Cell Cycle_G1 (red) = CDT1:mKO2, Cell Cycle_
+S/G2/M (blue) = GEMININ:E2CRIMSON, Circadian Clock (green) = 
+REVERBα:VENUS, Merge = fluorescent channels combined with the
+corresponding brightfield image. Arrows point to tracked cell nuclei.
+Images are 2.5 h apart. Traces at the bottom have been plotted from
+measured intensities extracted from tracking with the LineageTracker plugin
+for ImageJ. (B) Histograms showing distribution of periods for both the clock
+(green) and cell cycle (red) in the whole population. In non-synchronized
+cells, mean clock period (19.4 ± 0.5 h) is not significantly different from
+mean cell cycle period: (18.6 ± 0.6 h). (C) Phase histograms for the same
+cells. Gray histogram and trace show random background densities.
+Colored histogram and trace show the observed phase of the clock at
+division. We observe a preferred clock phase for performing cell division
+(phase locking).
+cancer. Among the hallmarks of cancer, genome instability and
+mutations in cell cycle genes are a recurring enabling factor (43).
+Indeed, mutation in Cyclin, Cdk, or Cki genes was found in 90% of
+human cancers (44). However, evidence is increasing that cancer
+cells also display a deregulation of the circadian clockwork, which
+may promote abnormal proliferation (31).</p>
+      <p>Circadian Disruption and Cell Cycle
+Deregulation
+Although mutations in clock genes are frequent in human
+cancer cells, it is unclear whether it may be a primary cause of
+cancer development. Per2 mutant mice display tumor-prone
+phenotypes and deregulation of various cyclins,
+protooncogenes, and tumor suppressors (45). On the other hand,
+Cry1/Cry2 KO mice do not show increased cancer development
+after γ-irradiation (46). Thus, deregulation of the core clock
+cannot fully account for the observed phenotype in Per2 mutant
+mice. Additionally, mutation of Bmal1 or Clock does not lead to
+enhanced cancer development (47, 48). These results are subject
+to debate, as a more recent study showed that Per1−/−Per2−/−,
+Cry1−/−Cry2−/−, and Bmal1−/+ mice have increased spontaneous
+and radiation-induced tumor development (49). So it remains
+unclear whether a mutation in clock genes is by itself sufficient
+to trigger cancer development. These observed cancer-prone
+phenotypes might be due to a non-circadian function of
+these genes.</p>
+      <p>If clock gene mutations do not induce cancer per se, systemic
+environmental disruption of the circadian function may impact
+on cancer development and cell proliferation. Constant light
+exposure or ablation of the pineal gland results in perturbation
+of endocrine rhythms and increase carcinogenesis in liver and
+mammary glands of rodents (50, 51). In line with these results,
+circadian disruption following SCN lesions or chronic jetlag
+increases proliferation of implanted Glasgow osteosarcoma or
+pancreatic adenocarcinoma (52, 53). Chronic jetlag also promotes
+tumor development in the liver of mice exposed to the hepatic
+carcinogen diethylnitrosamine (54).</p>
+      <p>The latter finding is of particular interest when
+considering cancer development in humans. As already mentioned,
+circadian alterations at the molecular level have been found in
+numerous human cancers. At the epidemiological level, studies
+involving shift workers have associated circadian disruption
+with an increased risk of cancer development (31). Since 2007,
+the International Agency for Research on Cancer even listed
+“shiftwork that involves circadian disruption” as a “probable
+carcinogen.”
+Cell Cycle Deregulation and Cancer Lead to
+Circadian Disruption
+Many human cancer cell lines (including breast, prostate, colon,
+liver, and lung), which by definition show abnormal cell cycle
+progression and proliferation, also display abnormal circadian
+gene expression (31). In the context of bidirectional interaction
+between the clock and cell cycle oscillators, it is tricky to decipher
+which alteration is the cause or consequence. If mutations in cell
+cycle genes are the primary element, it will in turn impact on the
+circadian clock. Another possibility is that cell cycle and circadian
+functions will be synergistically disrupted as a consequence of
+their coupling.</p>
+      <p>At the physiological level, recent studies have explored
+circadian rhythmicity in metastatic colorectal or breast
+cancer patients (rest activity and/or salivary cortisol rhythms).
+All studies concluded to large disparities in behavioral and
+endocrine rhythmicity in these patients, ranging from robust
+to absent rhythms. Interestingly, the outcome of the disease
+in patients with damped or abnormal circadian rhythmicity
+is generally unfavorable, independently of other prognostic
+factors (38).</p>
+      <p>Circadian Lifestyle and Slowing Down Tumor
+Progression: Perspectives of Coupling
+Temporal restricted feeding (RF), also known as meal timing,
+powerfully entrains peripheral clocks (55). It is also capable
+of restoring circadian rhythms in peripheral tissues of
+otherwise arrhythmic mice (56). Tumor cells often show abnormal
+circadian rhythms in LD and ad  libitum feeding conditions,
+but they are not blind to cyclic metabolic cues. Two studies
+tested the impact of RF on growth rate of implanted Glasgow
+osteosarcoma or P03 pancreatic adenocarcinoma in mice
+(57, 58). At the physiological level, this treatment increased
+the amplitude of body temperature rhythms, known to be a
+powerful circadian synchronizer (59, 60). Interestingly, tumor
+size was significantly reduced and survival was prolonged in
+mice submitted to RF. Thus, reinforcement of host’s circadian
+rhythms may lead to improved host-mediated tumor control or
+alteration of the tumor circadian clock, which in the end slows
+down tumor progression.</p>
+      <p>Looking at this data with the newly discovered bidirectional
+coupling between clock and cell cycle, we would like to put
+forward the possibility that the cell cycle may be synchronized/
+slowed down through coupling with the circadian clock. Hence,
+it would be possible to use a known circadian synchronizer such
+as timed feeding or high-amplitude temperature cycles to
+reentrain or reinforce the circadian clock in tumor cells. These cells
+tend to proliferate at a high rate, with periods shorter than 24 h.
+Entraining the circadian clock in these cells could slow down cell
+cycle, through coupling between the two oscillators. This would,
+in the end, delay tumor progression.</p>
+      <p>Conclusion and Perspectives
+In mammals, the circadian and cell cycle oscillators were
+long considered as two completely independent entities, or
+were at best regarded as a circadian clock gating cell cycle
+progression. These views are seriously challenged by the
+recently established bidirectionality of clock and cell cycle
+interactions. At the moment, only P53 has been identified as
+capable of impinging on both clock and cell cycle, but its role
+in coupling needs to be confirmed. Given the complexity of
+these oscillatory circuits, additional candidates likely exist,
+but remain to be found.</p>
+      <p>In terms of physiology, the consequences of coupling in
+healthy cells are obvious. But coupling becomes critical when
+considering a pathology such as cancer, where circadian and
+cell cycle phenomena are intertwined. The benefits of
+chronotherapeutics for cancer treatment is well established (38). They
+are a consequence of circadian fluctuations in toxicity and
+efficacy of cancer drugs (and drug metabolism in general).
+Considering that reinforcing the circadian clock through a
+change in lifestyle (e.g., meal timing) is capable of slowing
+down tumor progression, probably through coupling with
+the cell cycle, we may be able to propose individualized life
+schedules that will potentiate the effect of chronotherapy, to
+reduce tumor progression without additional
+pharmacological intervention. Not to say that reinforcing circadian timing
+will also alleviate dampening of circadian rhythmicity, which
+is often a complaint from cancer patients. This long-term
+perspective may have a high impact on human health.
+Work in our laboratories is supported by University Nice Sophia
+Antipolis, CNRS, INSERM, and University of Warwick, and
+grants from the ANR (Grants No. ANR-2009-SYSB-002-02,
+ANR-14-CE09-0011-01 and the “Investments for the Future”
+LABEX SIGNALIFE program ANR-11-LABX-0028-01), the
+EPSRC (Grant No. GR/S29256/01) and the BBSRC (Grants No.
+BB/I004521/1 and BB/F005814/1).
+Confilct of Interest Statement: The authors declare that the research was conducted
+in the absence of any commercial or financial relationships that could be construed
+as a potential conflict of interest.</p>
+      <p>Copyright © 2015 Feillet, van der Horst, Levi, Rand and Delaunay. This is an open-access
+article distributed under the terms of the Creative Commons Attribution License (CC BY).
+The use, distribution or reproduction in other forums is permitted, provided the original
+author(s) or licensor are credited and that the original publication in this journal is cited,
+in accordance with accepted academic practice. No use, distribution or reproduction is
+permitted which does not comply with these terms.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Moore</surname>
+            <given-names>RY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eichler</surname>
+            <given-names>VB</given-names>
+          </string-name>
+          .
+          <article-title>Loss of a circadian adrenal corticosterone rhythm following suprachiasmatic lesions in the rat</article-title>
+          .
+          <source>Brain Res</source>
+          (
+          <year>1972</year>
+          ) 42:
+          <fpage>201</fpage>
+          -
+          <lpage>6</lpage>
+          . doi:10.1016/
+          <fpage>0006</fpage>
+          -8993(72)90054-
+          <lpage>6</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Stephan</surname>
+            <given-names>FK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zucker</surname>
+            <given-names>I.</given-names>
+          </string-name>
+          <article-title>Circadian rhythms in drinking behavior and locomotor activity of rats are eliminated by hypothalamic lesions</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (1972)</source>
+          <volume>69</volume>
+          :
+          <fpage>1583</fpage>
+          -
+          <lpage>6</lpage>
+          . doi:10.1073/pnas.69.6.
+          <fpage>1583</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Buhr</surname>
+            <given-names>ED</given-names>
+          </string-name>
+          , Takahashi JS.
+          <article-title>Molecular components of the mammalian circadian clock</article-title>
+          .
+          <source>Handb Exp Pharmacol</source>
+          (
+          <year>2013</year>
+          ):
+          <fpage>3</fpage>
+          -
+          <lpage>27</lpage>
+          . doi:10.1007/978-
+          <fpage>3</fpage>
+          -
+          <fpage>642</fpage>
+          -
+          <fpage>25950</fpage>
+          -0_
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Nagoshi</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Saini</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bauer</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Laroche</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Naef</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schibler</surname>
+            <given-names>U.</given-names>
+          </string-name>
+          <article-title>Circadian gene expression in individual fibroblasts: cell-autonomous and self-sustained oscillators pass time to daughter cells</article-title>
+          .
+          <source>Cell</source>
+          (
+          <year>2004</year>
+          ) 119:
+          <fpage>693</fpage>
+          -
+          <lpage>705</lpage>
+          . doi:10.1016/j. cell.
+          <year>2004</year>
+          .11.015
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Welsh</surname>
+            <given-names>DK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yoo</surname>
+            <given-names>SH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>AC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Takahashi</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kay</surname>
+            <given-names>SA</given-names>
+          </string-name>
+          .
+          <article-title>Bioluminescence imaging of individual fibroblasts reveals persistent, independently phased circadian rhythms of clock gene expression</article-title>
+          .
+          <source>Curr Biol</source>
+          (
+          <year>2004</year>
+          ) 14:
+          <fpage>2289</fpage>
+          -
+          <lpage>95</lpage>
+          . doi:10.1016/j. cub.
+          <year>2004</year>
+          .11.057
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Pardee</surname>
+            <given-names>AB</given-names>
+          </string-name>
+          .
+          <article-title>A restriction point for control of normal animal cell proliferation</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (1974)</source>
+          <volume>71</volume>
+          :
+          <fpage>1286</fpage>
+          -
+          <lpage>90</lpage>
+          . doi:10.1073/pnas.71.4.
+          <fpage>1286</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Blagosklonny</surname>
+            <given-names>MV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pardee</surname>
+            <given-names>AB</given-names>
+          </string-name>
+          .
+          <article-title>The restriction point of the cell cycle</article-title>
+          .
+          <source>Cell Cycle</source>
+          (
+          <year>2002</year>
+          ) 1:
+          <fpage>103</fpage>
+          -
+          <lpage>10</lpage>
+          . doi:10.4161/cc.1.2.
+          <fpage>108</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Schafer</surname>
+            <given-names>KA</given-names>
+          </string-name>
+          .
+          <article-title>The cell cycle: a review</article-title>
+          .
+          <source>Vet Pathol</source>
+          (
+          <year>1998</year>
+          ) 35:
+          <fpage>461</fpage>
+          -
+          <lpage>78</lpage>
+          . doi:10.1177/030098589803500601
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Nurse</surname>
+            <given-names>P.</given-names>
+          </string-name>
+          <article-title>Cyclin dependent kinases and cell cycle control (nobel lecture)</article-title>
+          .
+          <source>Chembiochem</source>
+          (
+          <year>2002</year>
+          ) 3:
+          <fpage>596</fpage>
+          -
+          <lpage>603</lpage>
+          . doi:10.1002/
+          <fpage>1439</fpage>
+          -7633(
+          <issue>20020703</issue>
+          ) 3:
+          <issue>7</issue>
+          &lt;
+          <fpage>596</fpage>
+          ::AID-CBIC596&gt;3.0.CO;2-
+          <lpage>U</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Malumbres</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barbacid</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>Mammalian cyclin-dependent kinases</article-title>
+          .
+          <source>Trends Biochem Sci</source>
+          (
+          <year>2005</year>
+          ) 30:
+          <fpage>630</fpage>
+          -
+          <lpage>41</lpage>
+          . doi:10.1016/j.tibs.
+          <year>2005</year>
+          .09.005
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11. Morgan DO.
+          <source>Principles of CDK regulation. Nature</source>
+          (
+          <year>1995</year>
+          ) 374:
+          <fpage>131</fpage>
+          -
+          <lpage>4</lpage>
+          . doi:10.1038/374131a0
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Yang</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wood</surname>
+            <given-names>PA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hrushesky</surname>
+            <given-names>WJ</given-names>
+          </string-name>
+          .
+          <article-title>Mammalian TIMELESS is required for ATMdependent CHK2 activation and G2/M checkpoint control</article-title>
+          .
+          <source>J Biol Chem</source>
+          (
+          <year>2010</year>
+          ) 285:
+          <fpage>3030</fpage>
+          -
+          <lpage>4</lpage>
+          . doi:10.1074/jbc.
+          <source>M109</source>
+          .050237
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Kang</surname>
+            <given-names>TH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Leem</surname>
+            <given-names>SH</given-names>
+          </string-name>
+          .
+          <article-title>Modulation of ATR-mediated DNA damage checkpoint response by cryptochrome 1</article-title>
+          .
+          <source>Nucleic Acids Res</source>
+          (
+          <year>2014</year>
+          ) 42:
+          <fpage>4427</fpage>
+          -
+          <lpage>34</lpage>
+          . doi:10.1093/ nar/gku094
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Goldbeter</surname>
+            <given-names>A.</given-names>
+          </string-name>
+          <article-title>A minimal cascade model for the mitotic oscillator involving cyclin and cdc2 kinase</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (1991)</source>
+          <volume>88</volume>
+          :
+          <fpage>9107</fpage>
+          -
+          <lpage>11</lpage>
+          . doi:10.1073/ pnas.88.20.9107
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Tyson</surname>
+            <given-names>JJ</given-names>
+          </string-name>
+          .
+          <article-title>Modeling the cell division cycle: cdc2 and cyclin interactions</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (1991)</source>
+          <volume>88</volume>
+          :
+          <fpage>7328</fpage>
+          -
+          <lpage>32</lpage>
+          . doi:10.1073/pnas.88.16.7328
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Novak</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tyson</surname>
+            <given-names>JJ</given-names>
+          </string-name>
+          .
+          <article-title>Numerical analysis of a comprehensive model of M-phase control in Xenopus oocyte extracts and intact embryos</article-title>
+          .
+          <source>J Cell Sci</source>
+          (
+          <year>1993</year>
+          ) 106(Pt 4):
+          <fpage>1153</fpage>
+          -
+          <lpage>68</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Hunt</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sassone-Corsi</surname>
+            <given-names>P.</given-names>
+          </string-name>
+          <article-title>Riding tandem: circadian clocks and the cell cycle</article-title>
+          .
+          <source>Cell</source>
+          (
+          <year>2007</year>
+          ) 129:
+          <fpage>461</fpage>
+          -
+          <lpage>4</lpage>
+          . doi:10.1016/j.cell.
+          <year>2007</year>
+          .04.015
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Mori</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Johnson</surname>
+            <given-names>CH</given-names>
+          </string-name>
+          .
+          <article-title>Circadian control of cell division in unicellular organisms</article-title>
+          .
+          <source>Prog Cell Cycle Res</source>
+          (
+          <year>2000</year>
+          ) 4:
+          <fpage>185</fpage>
+          -
+          <lpage>92</lpage>
+          . doi:10.1007/978-
+          <fpage>1</fpage>
+          -
+          <fpage>4615</fpage>
+          -
+          <fpage>4253</fpage>
+          -7_
+          <fpage>16</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Bolige</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hagiwara</surname>
+            <given-names>SY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhang</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Goto</surname>
+            <given-names>K.</given-names>
+          </string-name>
+          <article-title>Circadian G2 arrest as related to circadian gating of cell population growth in Euglena</article-title>
+          .
+          <source>Plant Cell Physiol</source>
+          (
+          <year>2005</year>
+          ) 46:
+          <fpage>931</fpage>
+          -
+          <lpage>6</lpage>
+          . doi:10.1093/pcp/pci100
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Dong</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kim</surname>
+            <given-names>YI</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Golden</surname>
+            <given-names>SS</given-names>
+          </string-name>
+          .
+          <article-title>Simplicity and complexity in the cyanobacterial circadian clock mechanism</article-title>
+          .
+          <source>Curr Opin Genet Dev</source>
+          (
+          <year>2010</year>
+          ) 20:
+          <fpage>619</fpage>
+          -
+          <lpage>25</lpage>
+          . doi:10.1016/j. gde.
+          <year>2010</year>
+          .09.002
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Pendergast</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yeom</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reyes</surname>
+            <given-names>BA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ohmiya</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yamazaki</surname>
+            <given-names>S.</given-names>
+          </string-name>
+          <article-title>Disconnected circadian and cell cycles in a tumor-driven cell line</article-title>
+          .
+          <source>Commun Integr Biol</source>
+          (
+          <year>2010</year>
+          ) 3:
+          <fpage>536</fpage>
+          -
+          <lpage>9</lpage>
+          . doi:10.4161/cib.3.6.
+          <fpage>12841</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Yeom</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pendergast</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ohmiya</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yamazaki</surname>
+            <given-names>S.</given-names>
+          </string-name>
+          <article-title>Circadian-independent cell mitosis in immortalized fibroblasts</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (2010)</source>
+          <volume>107</volume>
+          :
+          <fpage>9665</fpage>
+          -
+          <lpage>70</lpage>
+          . doi:10.1073/pnas.0914078107
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Bieler</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cannavo</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gustafson</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gobet</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gatfield</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Naef</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>Robust synchronization of coupled circadian and cell cycle oscillators in single mammalian cells</article-title>
+          .
+          <source>Mol Syst Biol</source>
+          (
+          <year>2014</year>
+          ) 10:739. doi:10.15252/msb.20145218
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Feillet</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Krusche</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tamanini</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Janssens</surname>
+            <given-names>RC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Downey</surname>
+            <given-names>MJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Martin</surname>
+            <given-names>P</given-names>
+          </string-name>
+          , et al.
+          <article-title>Phase locking and multiple oscillating attractors for the coupled mammalian clock and cell cycle</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (2014)</source>
+          <volume>111</volume>
+          :
+          <fpage>9828</fpage>
+          -
+          <lpage>33</lpage>
+          . doi:10.1073/ pnas.1320474111
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>Sakaue-Sawano</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kurokawa</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Morimura</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hanyu</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hama</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Osawa</surname>
+            <given-names>H</given-names>
+          </string-name>
+          , et al.
+          <article-title>Visualizing spatiotemporal dynamics of multicellular cell-cycle progression</article-title>
+          .
+          <source>Cell</source>
+          (
+          <year>2008</year>
+          ) 132:
+          <fpage>487</fpage>
+          -
+          <lpage>98</lpage>
+          . doi:10.1016/j.cell.
+          <year>2007</year>
+          .12.033
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Gréchez-Cassiau</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rayet</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Guillaumond</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Teboul</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Delaunay</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>The circadian clock component BMAL1 is a critical regulator of p21WAF1/CIP1 expression and hepatocyte proliferation</article-title>
+          .
+          <source>J Biol Chem</source>
+          (
+          <year>2008</year>
+          ) 283:
+          <fpage>4535</fpage>
+          -
+          <lpage>42</lpage>
+          . doi:10.1074/jbc. M705576200
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Kowalska</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ripperger</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hoegger</surname>
+            <given-names>DC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bruegger</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buch</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Birchler</surname>
+            <given-names>T</given-names>
+          </string-name>
+          , et al.
+          <article-title>NONO couples the circadian clock to the cell cycle</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (2013)</source>
+          <volume>110</volume>
+          :
+          <fpage>1592</fpage>
+          -
+          <lpage>9</lpage>
+          . doi:10.1073/pnas.1213317110
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Matsuo</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yamaguchi</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mitsui</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Emi</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shimoda</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Okamura</surname>
+            <given-names>H.</given-names>
+          </string-name>
+          <article-title>Control mechanism of the circadian clock for timing of cell division in vivo</article-title>
+          .
+          <source>Science</source>
+          (
+          <year>2003</year>
+          ) 302:
+          <fpage>255</fpage>
+          -
+          <lpage>9</lpage>
+          . doi:10.1126/science.1086271
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Unsal-Kaçmaz</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mullen</surname>
+            <given-names>TE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kaufmann</surname>
+            <given-names>WK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sancar</surname>
+            <given-names>A.</given-names>
+          </string-name>
+          <article-title>Coupling of human circadian and cell cycles by the timeless protein</article-title>
+          .
+          <source>Mol Cell Biol</source>
+          (
+          <year>2005</year>
+          ) 25:
+          <fpage>3109</fpage>
+          -
+          <lpage>16</lpage>
+          . doi:10.1128/MCB.25.8.
+          <fpage>3109</fpage>
+          -
+          <lpage>3116</lpage>
+          .
+          <fpage>2005</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Kondratov</surname>
+            <given-names>RV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Antoch</surname>
+            <given-names>MP</given-names>
+          </string-name>
+          .
+          <article-title>Circadian proteins in the regulation of cell cycle and genotoxic stress responses</article-title>
+          .
+          <source>Trends Cell Biol</source>
+          (
+          <year>2007</year>
+          ) 17:
+          <fpage>311</fpage>
+          -
+          <lpage>7</lpage>
+          . doi:10.1016/j. tcb.
+          <year>2007</year>
+          .07.001
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Fu</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kettner</surname>
+            <given-names>NM</given-names>
+          </string-name>
+          .
+          <article-title>The circadian clock in cancer development and therapy</article-title>
+          .
+          <publisher-name>Prog Mol Biol Transl Sci</publisher-name>
+          (
+          <year>2013</year>
+          ) 119:
+          <fpage>221</fpage>
+          -
+          <lpage>82</lpage>
+          . doi:10.1016/B978-0-
+          <fpage>12</fpage>
+          -
+          <fpage>396971</fpage>
+          -2.
+          <fpage>00009</fpage>
+          -
+          <lpage>9</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Gottesfeld</surname>
+            <given-names>JM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Forbes</surname>
+            <given-names>DJ</given-names>
+          </string-name>
+          .
+          <article-title>Mitotic repression of the transcriptional machinery</article-title>
+          .
+          <source>Trends Biochem Sci</source>
+          (
+          <year>1997</year>
+          ) 22:
+          <fpage>197</fpage>
+          -
+          <lpage>202</lpage>
+          . doi:10.1016/S0968-0004(97)01045-
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Oklejewicz</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Destici</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tamanini</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hut</surname>
+            <given-names>RA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Janssens</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Van Der Horst</surname>
+            <given-names>GT</given-names>
+          </string-name>
+          .
+          <article-title>Phase resetting of the mammalian circadian clock by DNA damage</article-title>
+          .
+          <source>Curr Biol</source>
+          (
+          <year>2008</year>
+          ) 18:
+          <fpage>286</fpage>
+          -
+          <lpage>91</lpage>
+          . doi:10.1016/j.cub.
+          <year>2008</year>
+          .01.047
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>Miki</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Xu</surname>
+            <given-names>Z</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Chen-Goodspeed</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Van Oort-Jansen</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rea</surname>
+            <given-names>MA</given-names>
+          </string-name>
+          , et al.
+          <article-title>PML regulates PER2 nucrlear localization and circadian function</article-title>
+          .
+          <source>EMBO J</source>
+          (
+          <year>2012</year>
+          ) 31:
+          <fpage>1427</fpage>
+          -
+          <lpage>39</lpage>
+          . doi:10.1038/emboj.
+          <year>2012</year>
+          .1
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Miki</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Matsumoto</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhao</surname>
+            <given-names>Z</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lee</surname>
+            <given-names>CC</given-names>
+          </string-name>
+          .
+          <article-title>p53 regulates Period2 expression and the circadian clock</article-title>
+          .
+          <source>Nat Commun</source>
+          (
+          <year>2013</year>
+          ) 4:
+          <fpage>2444</fpage>
+          . doi:10.1038/ncomms3444
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Scheving</surname>
+            <given-names>LE</given-names>
+          </string-name>
+          .
+          <article-title>Mitotic activity in the human epidermis</article-title>
+          .
+          <source>Anat Rec</source>
+          (
+          <year>1959</year>
+          ) 135:
+          <fpage>7</fpage>
+          -
+          <lpage>19</lpage>
+          . doi:10.1002/ar.1091350103
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <string-name>
+            <surname>Geyfman</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kumar</surname>
+            <given-names>V</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>Q</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ruiz</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gordon</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Espitia</surname>
+            <given-names>F</given-names>
+          </string-name>
+          , et al.
+          <article-title>Brain and muscle Arnt-like protein-1 (BMAL1) controls circadian cell proliferation and susceptibility to UVB-induced DNA damage in the epidermis</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (2012)</source>
+          <volume>109</volume>
+          :
+          <fpage>11758</fpage>
+          -
+          <lpage>63</lpage>
+          . doi:10.1073/pnas.1209592109
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Lévi</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Filipski</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Iurisci</surname>
+            <given-names>I</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>XM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Innominato</surname>
+            <given-names>P.</given-names>
+          </string-name>
+          <article-title>Cross-talks between circadian timing system and cell division cycle determine cancer biology and therapeutics</article-title>
+          .
+          <publisher-name>Cold Spring Harb Symp Quant Biol</publisher-name>
+          (
+          <year>2007</year>
+          ) 72:
+          <fpage>465</fpage>
+          -
+          <lpage>75</lpage>
+          . doi:10.1101/ sqb.2007.72.030
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>Scheving</surname>
+            <given-names>LE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tsai</surname>
+            <given-names>TH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Powell</surname>
+            <given-names>EW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pasley</surname>
+            <given-names>JN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Halberg</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dunn</surname>
+            <given-names>J.</given-names>
+          </string-name>
+          <article-title>Bilateral lesions of suprachiasmatic nuclei affect circadian rhythms in [3H]-thymidine incorporation into deoxyribonucleic acid in mouse intestinal tract, mitotic index of corneal epithelium, and serum corticosterone</article-title>
+          .
+          <source>Anat Rec</source>
+          (
+          <year>1983</year>
+          ) 205:
+          <fpage>239</fpage>
+          -
+          <lpage>49</lpage>
+          . doi:10.1002/ ar.1092050302
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Filipski</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>King</surname>
+            <given-names>VM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Etienne</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Claustrat</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Granda</surname>
+            <given-names>TG</given-names>
+          </string-name>
+          , et al.
+          <article-title>Persistent twenty-four hour changes in liver and bone marrow despite suprachiasmatic nuclei ablation in mice</article-title>
+          .
+          <source>Am J Physiol Regul Integr Comp Physiol</source>
+          (
+          <year>2004</year>
+          ) 287:
+          <fpage>R844</fpage>
+          -
+          <lpage>51</lpage>
+          . doi:10.1152/ajpregu.00085.
+          <fpage>2004</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Janich</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pascual</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Merlos-Suárez</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Batlle</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ripperger</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Albrecht</surname>
+            <given-names>U</given-names>
+          </string-name>
+          , et al.
+          <article-title>The circadian molecular clock creates epidermal stem cell heterogeneity</article-title>
+          .
+          <source>Nature</source>
+          (
+          <year>2011</year>
+          ) 480:
+          <fpage>209</fpage>
+          -
+          <lpage>14</lpage>
+          . doi:10.1038/nature10649
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>Bouchard-Cannon</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mendoza-Viveros</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yuen</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kaern</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cheng</surname>
+            <given-names>HY</given-names>
+          </string-name>
+          .
+          <article-title>The circadian molecular clock regulates adult hippocampal neurogenesis by controlling the timing of cell-cycle entry and exit</article-title>
+          .
+          <source>Cell Rep</source>
+          (
+          <year>2013</year>
+          ) 5:
+          <fpage>961</fpage>
+          -
+          <lpage>73</lpage>
+          . doi:10.1016/j. celrep.
+          <year>2013</year>
+          .10.037
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>Hanahan</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weinberg</surname>
+            <given-names>RA</given-names>
+          </string-name>
+          .
+          <article-title>Hallmarks of cancer: the next generation</article-title>
+          .
+          <source>Cell</source>
+          (
+          <year>2011</year>
+          ) 144:
+          <fpage>646</fpage>
+          -
+          <lpage>74</lpage>
+          . doi:10.1016/j.cell.
+          <year>2011</year>
+          .02.013
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <string-name>
+            <surname>Bonelli</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tuccillo</surname>
+            <given-names>FM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Borrelli</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schiattarella</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buonaguro</surname>
+            <given-names>FM</given-names>
+          </string-name>
+          .
+          <article-title>CDK/CCN and CDKI alterations for cancer prognosis and therapeutic predictivity</article-title>
+          .
+          <source>Biomed Res Int</source>
+          (
+          <year>2014</year>
+          )
+          <article-title>2014:361020</article-title>
+          . doi:10.1155/2014/361020
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Fu</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pelicano</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Huang</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lee</surname>
+            <given-names>C.</given-names>
+          </string-name>
+          <article-title>The circadian gene Period2 plays an important role in tumor suppression and DNA damage response in vivo</article-title>
+          .
+          <source>Cell</source>
+          (
+          <year>2002</year>
+          ) 111:
+          <fpage>41</fpage>
+          -
+          <lpage>50</lpage>
+          . doi:10.1016/S0092-8674(02)01223-
+          <fpage>0</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <string-name>
+            <surname>Gauger</surname>
+            <given-names>MA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sancar</surname>
+            <given-names>A.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Cryptochrome</surname>
+          </string-name>
+          ,
+          <article-title>circadian cycle, cell cycle checkpoints, and cancer</article-title>
+          .
+          <source>Cancer Res</source>
+          (
+          <year>2005</year>
+          ) 65:
+          <fpage>6828</fpage>
+          -
+          <lpage>34</lpage>
+          . doi:10.1158/
+          <fpage>0008</fpage>
+          -
+          <lpage>5472</lpage>
+          .
+          <source>CAN-05-1119</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          47.
+          <string-name>
+            <surname>Kondratov</surname>
+            <given-names>RV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kondratova</surname>
+            <given-names>AA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gorbacheva</surname>
+            <given-names>VY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vykhovanets</surname>
+            <given-names>OV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Antoch</surname>
+            <given-names>MP</given-names>
+          </string-name>
+          .
+          <article-title>Early aging and age-related pathologies in mice deficient in BMAL1, the core componentof the circadian clock</article-title>
+          .
+          <source>Genes Dev</source>
+          (
+          <year>2006</year>
+          ) 20:
+          <fpage>1868</fpage>
+          -
+          <lpage>73</lpage>
+          . doi:10.1101/ gad.1432206
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          48.
+          <string-name>
+            <surname>Antoch</surname>
+            <given-names>MP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gorbacheva</surname>
+            <given-names>VY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vykhovanets</surname>
+            <given-names>O</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Toshkov</surname>
+            <given-names>IA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kondratov</surname>
+            <given-names>RV</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kondratova</surname>
+            <given-names>AA</given-names>
+          </string-name>
+          , et al.
+          <article-title>Disruption of the circadian clock due to the clock mutation has discrete effects on aging and carcinogenesis</article-title>
+          .
+          <source>Cell Cycle</source>
+          (
+          <year>2008</year>
+          ) 7:
+          <fpage>1197</fpage>
+          -
+          <lpage>204</lpage>
+          . doi:10.4161/cc.7.9.
+          <fpage>5886</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          49.
+          <string-name>
+            <surname>Lee</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Donehower</surname>
+            <given-names>LA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Herron</surname>
+            <given-names>AJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Moore</surname>
+            <given-names>DD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fu</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>Disrupting circadian homeostasis of sympathetic signaling promotes tumor development in mice</article-title>
+          .
+          <source>PLoS One</source>
+          (
+          <year>2010</year>
+          )
+          <article-title>5:e10995</article-title>
+          . doi:10.1371/journal.pone.
+          <volume>0010995</volume>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          50.
+          <string-name>
+            <surname>Shah</surname>
+            <given-names>PN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mhatre</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kothari</surname>
+            <given-names>LS</given-names>
+          </string-name>
+          .
+          <article-title>Effect of melatonin on mammary carcinogenesis in intact and pinealectomized rats in varying photoperiods</article-title>
+          .
+          <source>Cancer Res</source>
+          (
+          <year>1984</year>
+          ) 44:
+          <fpage>3403</fpage>
+          -
+          <lpage>7</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          51.
+          <string-name>
+            <surname>Van Den Heiligenberg</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Deprés-Brummer</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barbason</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Claustrat</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reynes</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lévi</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>The tumor promoting effect of constant light exposure on diethylnitrosamine-induced hepatocarcinogenesis in rats</article-title>
+          .
+          <source>Life Sci</source>
+          (
+          <year>1999</year>
+          ) 64:
+          <fpage>2523</fpage>
+          -
+          <lpage>34</lpage>
+          . doi:10.1016/S0024-3205(99)00210-
+          <fpage>6</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          52.
+          <string-name>
+            <surname>Filipski</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>King</surname>
+            <given-names>VM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Granda</surname>
+            <given-names>TG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mormont</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>X</given-names>
+          </string-name>
+          , et al.
+          <article-title>Host circadian clock as a control point in tumor progression</article-title>
+          .
+          <source>J Natl Cancer Inst (2002)</source>
+          <volume>94</volume>
+          :
+          <fpage>690</fpage>
+          -
+          <lpage>7</lpage>
+          . doi:10.1093/jnci/94.9.
+          <fpage>690</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          53.
+          <string-name>
+            <surname>Filipski</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Delaunay</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>King</surname>
+            <given-names>VM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>MW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Claustrat</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gréchez-Cassiau</surname>
+            <given-names>A</given-names>
+          </string-name>
+          , et al.
+          <article-title>Effects of chronic jet lag on tumor progression in mice</article-title>
+          .
+          <source>Cancer Res</source>
+          (
+          <year>2004</year>
+          ) 64:
+          <fpage>7879</fpage>
+          -
+          <lpage>85</lpage>
+          . doi:10.1158/
+          <fpage>0008</fpage>
+          -
+          <lpage>5472</lpage>
+          .
+          <source>CAN-04-0674</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          54.
+          <string-name>
+            <surname>Filipski</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Subramanian</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Carrière</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Guettier</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barbason</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lévi</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>Circadian disruption accelerates liver carcinogenesis in mice</article-title>
+          .
+          <source>Mutat Res</source>
+          (
+          <year>2009</year>
+          ) 680:
+          <fpage>95</fpage>
+          -
+          <lpage>105</lpage>
+          . doi:10.1016/j.mrgentox.
+          <year>2009</year>
+          .10.002
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          55.
+          <string-name>
+            <surname>Damiola</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Le Minh</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Preitner</surname>
+            <given-names>N</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kornmann</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fleury-Olela</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schibler</surname>
+            <given-names>U.</given-names>
+          </string-name>
+          <article-title>Restricted feeding uncouples circadian oscillators in peripheral tissues from the central pacemaker in the suprachiasmatic nucleus</article-title>
+          .
+          <source>Genes Dev</source>
+          (
+          <year>2000</year>
+          ) 14:
+          <fpage>2950</fpage>
+          -
+          <lpage>61</lpage>
+          . doi:10.1101/gad.183500
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          56.
+          <string-name>
+            <surname>Vollmers</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gill</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ditacchio</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pulivarthy</surname>
+            <given-names>SR</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Le</surname>
+            <given-names>HD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Panda</surname>
+            <given-names>S.</given-names>
+          </string-name>
+          <article-title>Time of feeding and the intrinsic circadian clock drive rhythms in hepatic gene expression</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A (2009)</source>
+          <volume>106</volume>
+          :
+          <fpage>21453</fpage>
+          -
+          <lpage>8</lpage>
+          . doi:10.1073/pnas.0909591106
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          57.
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>MW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>XM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Xian</surname>
+            <given-names>LJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lévi</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>Effects of meal timing on tumor progression in mice</article-title>
+          .
+          <source>Life Sci</source>
+          (
+          <year>2004</year>
+          ) 75:
+          <fpage>1181</fpage>
+          -
+          <lpage>93</lpage>
+          . doi:10.1016/j.lfs.
+          <year>2004</year>
+          .02.014
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          58.
+          <string-name>
+            <surname>Li</surname>
+            <given-names>XM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Delaunay</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dulong</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Claustrat</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zampera</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fujii</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          , et al.
+          <article-title>Cancer inhibition through circadian reprogramming of tumor transcriptome with meal timing</article-title>
+          .
+          <source>Cancer Res</source>
+          (
+          <year>2010</year>
+          ) 70:
+          <fpage>3351</fpage>
+          -
+          <lpage>60</lpage>
+          . doi:10.1158/
+          <fpage>0008</fpage>
+          -
+          <lpage>5472</lpage>
+          .
+          <source>CAN-09-4235</source>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          59.
+          <string-name>
+            <surname>Buhr</surname>
+            <given-names>ED</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yoo</surname>
+            <given-names>SH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Takahashi</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          .
+          <article-title>Temperature as a universal resetting cue for mammalian circadian oscillators</article-title>
+          .
+          <source>Science</source>
+          (
+          <year>2010</year>
+          ) 330:
+          <fpage>379</fpage>
+          -
+          <lpage>85</lpage>
+          . doi:10.1126/ science.1195262
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          60.
+          <string-name>
+            <surname>Saini</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Morf</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stratmann</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gos</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schibler</surname>
+            <given-names>U.</given-names>
+          </string-name>
+          <article-title>Simulated body temperature rhythms reveal the phase-shifting behavior and plasticity of mammalian circadian oscillators</article-title>
+          .
+          <source>Genes Dev</source>
+          (
+          <year>2012</year>
+          ) 26:
+          <fpage>567</fpage>
+          -
+          <lpage>80</lpage>
+          . doi:10.1101/gad.183251.111
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

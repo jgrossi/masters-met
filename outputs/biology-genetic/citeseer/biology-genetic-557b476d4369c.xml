@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Brief Reports White Matter Microstructure in Idiopathic Craniocervical Dystonia</title><authors><author><name>Giordanna L S Pinheiro</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory</affiliation></author><author><name>Rachel P Guimarães</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory</affiliation></author><author><name>Luiza G Piovesana</name><affiliation>University of Campinas, Department of Neurology, School of Medical Sciences</affiliation></author><author><name>Brunno M Campos</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory</affiliation></author><author><name>Lidiane S Campos</name><affiliation>University of Campinas, Department of Neurology, School of Medical Sciences</affiliation></author><author><name>Paula C Azevedo</name><affiliation>University of Campinas, Department of Neurology, School of Medical Sciences</affiliation></author><author><name>Fabio R Torres</name><affiliation>University of Campinas, Department of Medical Genetics, School of Medical Sciences</affiliation></author><author><name>Augusto C Amato-Filho</name><affiliation>University of Campinas, Department of Radiology, School of Medical Sciences</affiliation></author><author><name>Marcondes C França</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory | University of Campinas, Department of Neurology, School of Medical Sciences</affiliation></author><author><name>Iscia Lopes-Cendes</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory | University of Campinas, Department of Neurology, School of Medical Sciences | University of Campinas, Department of Medical Genetics, School of Medical Sciences</affiliation></author><author><name>Fernando Cendes</name><affiliation>University of Campinas, School of Medical Sciences, Neuroimaging Laboratory | University of Campinas, Department of Neurology, School of Medical Sciences</affiliation></author><author><name>Anelyssa D 'abreu</name></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Brief Reports White Matter Microstructure in Idiopathic Craniocervical Dystonia</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Giordanna</forename>
+								<forename type="middle">L S</forename>
+								<surname>Pinheiro</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Rachel</forename>
+								<forename type="middle">P</forename>
+								<surname>Guimarães</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Luiza</forename>
+								<forename type="middle">G</forename>
+								<surname>Piovesana</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Brunno</forename>
+								<forename type="middle">M</forename>
+								<surname>Campos</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Lidiane</forename>
+								<forename type="middle">S</forename>
+								<surname>Campos</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Paula</forename>
+								<forename type="middle">C</forename>
+								<surname>Azevedo</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Fabio</forename>
+								<forename type="middle">R</forename>
+								<surname>Torres</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Medical Genetics</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Augusto</forename>
+								<forename type="middle">C</forename>
+								<surname>Amato-Filho</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Radiology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Marcondes</forename>
+								<forename type="middle">C</forename>
+								<surname>França</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Iscia</forename>
+								<surname>Lopes-Cendes</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Medical Genetics</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Fernando</forename>
+								<surname>Cendes</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">School of Medical Sciences</orgName>
+								<orgName type="laboratory">Neuroimaging Laboratory</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Neurology</orgName>
+								<orgName key="dep2" type="department">School of Medical Sciences</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas, Brazil</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Anelyssa</forename>
+								<surname>D 'abreu</surname>
+							</persName>
+						</author>
+						<title level="a" type="main">Brief Reports White Matter Microstructure in Idiopathic Craniocervical Dystonia</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.7916/D86972H6</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Background: Dystonias are hyperkinetic movement disorders characterized by involuntary muscle contractions resulting in abnormal torsional movements and</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>A Albanese</author>
+<author>K Bhatia</author>
+<author>Bressman SB</author>
+</authors>
+<title>Phenomenology and classification of dystonia: a consensus update. Mov Disord 2013;28:863–873,</title>
+<note>doi: http://dx.doi.org/10.1002/mds.25475.</note>
+<marker>1.</marker>
+<rawString>Albanese A, Bhatia K, Bressman SB, et al. Phenomenology and classification of dystonia: a consensus update. Mov Disord 2013;28:863–873, doi: http://dx.doi.org/10.1002/mds.25475.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Albanese</author>
+</authors>
+<title>Dystonia: clinical approach. Parkinsonism Relat Disord 2007;13: S356–S361,</title>
+<pages>10--1016</pages>
+<marker>2.</marker>
+<rawString>Albanese A. Dystonia: clinical approach. Parkinsonism Relat Disord 2007;13: S356–S361, doi: http://dx.doi.org/10.1016/S1353-8020(08)70030-0.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Berardelli</author>
+<author>Rothwell JC</author>
+<author>M Hallett</author>
+<author>Thompson PD</author>
+<author>M Manfredi</author>
+<author>Marsden CD</author>
+</authors>
+<title>The pathophysiology of primary dystonia.</title>
+<journal>Brain</journal>
+<volume>1998</volume>
+<pages>1212--10</pages>
+<marker>3.</marker>
+<rawString>Berardelli A, Rothwell JC, Hallett M, Thompson PD, Manfredi M, Marsden CD. The pathophysiology of primary dystonia. Brain 1998;121:1195– 1212, doi: http://dx.doi.org/10.1093/brain/121.7.1195.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Rittner</author>
+<author>Lotufo RA</author>
+</authors>
+<booktitle>Processamento de imagens de tensores de difusao. Neurociencias e Epilepsia</booktitle>
+<pages>2010--2</pages>
+<marker>4.</marker>
+<rawString>Rittner L, Lotufo RA. Processamento de imagens de tensores de difusão. Neurociências e Epilepsia 2010;2:81–85.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Pierpaoli</author>
+<author>P Jezzard</author>
+<author>Basser PJ</author>
+<author>A Barnett</author>
+<author>G Di Chiro</author>
+</authors>
+<note>Diffusion tensor</note>
+<contexts>
+<context citStr="(5)" endWordPosition="1188" position="8246" startWordPosition="1188">sion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; N T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 , TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex (Men%) Groups Mean Age¡SD Mean Disease Duration (y)¡SD Mean use of BoNT (y)¡SD TOTAL (40) 30% HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 CD (18) 33,3% HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 BSP (5) 40% HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 BOM (9) 22,2% HC 68.6¡3.8 – – P 68.5¡5.0 13¡8.2 10¡8.0 BOM+CD (8) 25% HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Pinheiro GLS, Guimaraes RP, Piovesana LG, et al. White Matter Microstructure Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org The Center for Digital Research </context>
+</contexts>
+<marker>5.</marker>
+<rawString>Pierpaoli C, Jezzard P, Basser PJ, Barnett A, Di Chiro G. Diffusion tensor</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Smith SM</author>
+<author>M Jenkinson</author>
+<author>H Johansen-Berg</author>
+</authors>
+<title>Tract-based spatial statistics: voxelwise analysis of multi-subject diffusion data.</title>
+<journal>Neuroimage</journal>
+<volume>2006</volume>
+<pages>1487--1505</pages>
+<contexts>
+<context citStr="(9)" endWordPosition="1199" position="8304" startWordPosition="1199">, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; N T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 , TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex (Men%) Groups Mean Age¡SD Mean Disease Duration (y)¡SD Mean use of BoNT (y)¡SD TOTAL (40) 30% HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 CD (18) 33,3% HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 BSP (5) 40% HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 BOM (9) 22,2% HC 68.6¡3.8 – – P 68.5¡5.0 13¡8.2 10¡8.0 BOM+CD (8) 25% HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Pinheiro GLS, Guimaraes RP, Piovesana LG, et al. White Matter Microstructure Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org The Center for Digital Research and Scholarship Columbia University Libraries/Information </context>
+</contexts>
+<marker>9.</marker>
+<rawString>Smith SM, Jenkinson M, Johansen-Berg H, et al. Tract-based spatial statistics: voxelwise analysis of multi-subject diffusion data. Neuroimage 2006;31: 1487–1505, doi: http://dx.doi.org/10.1016/j.neuroimage.2006.02.024.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Sierra</author>
+<author>T Laitinen</author>
+<author>K Lehtimaki</author>
+<author>L Rieppo</author>
+<author>A Pitkanen</author>
+<author>O Grohn</author>
+</authors>
+<title>Diffusion tensor MRI with tract-based spatial statistics and histology reveals undiscovered lesioned areas in kainate model of epilepsy in rat. Brain Struct Funct 2011;216:123–135,</title>
+<pages>10--1007</pages>
+<marker>10.</marker>
+<rawString>Sierra A, Laitinen T, Lehtimäki K, Rieppo L, Pitkänen A, Gröhn O. Diffusion tensor MRI with tract-based spatial statistics and histology reveals undiscovered lesioned areas in kainate model of epilepsy in rat. Brain Struct Funct 2011;216:123–135, doi: http://dx.doi.org/10.1007/s00429-010-0299-0.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>G Fabbrini</author>
+<author>P Pantano</author>
+<author>P Totaro</author>
+</authors>
+<title>Diffusion tensor imaging in patients with primary cervical dystonia and in patients with blepharospasm.</title>
+<journal>Eur J Neurol</journal>
+<volume>2008</volume>
+<pages>10--1111</pages>
+<marker>11.</marker>
+<rawString>Fabbrini G, Pantano P, Totaro P, et al. Diffusion tensor imaging in patients with primary cervical dystonia and in patients with blepharospasm. Eur J Neurol 2008;15:185–189, doi: http://dx.doi.org/10.1111/j.1468-1331.2007.02034.x.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>C Colosimo</author>
+<author>A Suppa</author>
+<author>G Fabbrini</author>
+</authors>
+<title>Craniocervical dystonia: clinical and pathophysiological features.</title>
+<journal>Eur J Neurol</journal>
+<volume>2010</volume>
+<pages>10--1111</pages>
+<marker>12.</marker>
+<rawString>Colosimo C, Suppa A, Fabbrini G, et al. Craniocervical dystonia: clinical and pathophysiological features. Eur J Neurol 2010;17:15–21, doi: http://dx.doi. org/10.1111/j.1468-1331.2010.03045.x.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Blood AJ</author>
+<author>Kuster JK</author>
+<author>Woodman SC</author>
+</authors>
+<title>Evidence for altered basal ganglia-brainstem connections in cervical dystonia.</title>
+<note>PLoS ONE 2012;7:e31654, doi: http://dx.doi.org/10.1371/journal.pone.0031654.</note>
+<marker>13.</marker>
+<rawString>Blood AJ, Kuster JK, Woodman SC, et al. Evidence for altered basal ganglia-brainstem connections in cervical dystonia. PLoS ONE 2012;7:e31654, doi: http://dx.doi.org/10.1371/journal.pone.0031654.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>T Prell</author>
+<author>T Peschel</author>
+<author>B Kohler</author>
+</authors>
+<title>Structural brain abnormalities in cervical dystonia.</title>
+<journal>BMC Neurosci</journal>
+<volume>2013</volume>
+<pages>1471--2202</pages>
+<marker>14.</marker>
+<rawString>Prell T, Peschel T, Köhler B, et al. Structural brain abnormalities in cervical dystonia. BMC Neurosci 2013;14:123, doi: http://dx.doi.org/10.1186/ 1471-2202-14-123.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>J Yang</author>
+<author>Yan Luo C</author>
+<author>W Song</author>
+</authors>
+<title>Diffusion tensor imaging in blepharospasm and blepharospasm–oromandibular dystonia.</title>
+<journal>J Neurol</journal>
+<volume>2014</volume>
+<pages>1413--1424</pages>
+<marker>15.</marker>
+<rawString>Yang J, Yan Luo C, Song W, et al. Diffusion tensor imaging in blepharospasm and blepharospasm–oromandibular dystonia. J Neurol 2014;261: 1413–1424, doi: http://dx.doi.org/10.1007/s00415-014-7359-y.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Burke RE</author>
+<author>S Fahn</author>
+<author>Marsden CD</author>
+<author>Bressman SB</author>
+<author>C Moskowitz</author>
+<author>J Friedman</author>
+</authors>
+<title>Validity and reliability of a rating scale for the primary torsion dystonias.</title>
+<journal>Neurology</journal>
+<volume>1985</volume>
+<pages>10--1212</pages>
+<marker>16.</marker>
+<rawString>Burke RE, Fahn S, Marsden CD, Bressman SB, Moskowitz C, Friedman J. Validity and reliability of a rating scale for the primary torsion dystonias. Neurology 1985;35:73–77, doi: http://dx.doi.org/10.1212/WNL.35.1.73.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Campos BM</author>
+<author>Coan AC</author>
+<author>Beltramini GC</author>
+</authors>
+<title>White matter abnormalities associate with type and localization of focal epileptogenic lesions. Epilepsia 2015;56:125–132,</title>
+<note>doi: http://dx.doi.org/10.1111/epi.12871.</note>
+<marker>17.</marker>
+<rawString>Campos BM, Coan AC, Beltramini GC, et al. White matter abnormalities associate with type and localization of focal epileptogenic lesions. Epilepsia 2015;56:125–132, doi: http://dx.doi.org/10.1111/epi.12871.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>D Rueckert</author>
+<author>Sonoda LI</author>
+<author>C Hayes</author>
+</authors>
+<title>Nongrid registration using freeform deformations: application to breast MR images.</title>
+<journal>IEEE Trans Med Imaging</journal>
+<volume>1999</volume>
+<pages>10--1109</pages>
+<contexts>
+<context citStr="(18)" endWordPosition="1177" position="8187" startWordPosition="1177">ease 2.6.1.0, according to the following parameters: N Diffusion tensor images with 32 gradient directions: 2 mm thick, repetition time (TR) 8,500, echo time (TE), 60; b-factor, 1,000; matrix, 2566256, and ‘‘field of view’’ (FOV) 2566256 mm; N T1-weighted images with isotropic voxels of 1 mm, acquired in the sagittal plane (1 mm thick, flip angle 8 , TR 7.1, TE 3.2, matrix 2406240, and FOV 2406240 mm). Table 1. Demographic Information Dystonia (N) Sex (Men%) Groups Mean Age¡SD Mean Disease Duration (y)¡SD Mean use of BoNT (y)¡SD TOTAL (40) 30% HC 56.0¡15.0 – – P 59.5¡12.3 13.6¡6.9 9.5¡6.5 CD (18) 33,3% HC 53.1¡12.7 – – P 52.8¡12.2 15.4¡6.3 10¡6.0 BSP (5) 40% HC 60.8¡10.1 – – P 61.8¡10.3 10.6¡5.8 6.8¡4.1 BOM (9) 22,2% HC 68.6¡3.8 – – P 68.5¡5.0 13¡8.2 10¡8.0 BOM+CD (8) 25% HC 63.0¡11.3 – – P 63.1¡11.1 11.3¡6.0 9.1¡6.4 Abbreviations: BOM, Blepharospasm + Oromandibular; BOM+CD, Blepharospasm + Oromandibular Dystonia + Cervical Dystonia; BoNT, Botulinum Toxin; BSP, Blepharospasm; CD, Cervical Dystonia; HC, Healthy Controls; P, Patients; SD, Standard Deviation; y, Years. Pinheiro GLS, Guimaraes RP, Piovesana LG, et al. White Matter Microstructure Tremor and Other Hyperkinetic Movements ht</context>
+</contexts>
+<marker>18.</marker>
+<rawString>Rueckert D, Sonoda LI, Hayes C, et al. Nongrid registration using freeform deformations: application to breast MR images. IEEE Trans Med Imaging 1999;18:712–721, doi: http://dx.doi.org/10.1109/42.796284.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Lee JE</author>
+<author>Bigler ED</author>
+<author>Alexander AL</author>
+</authors>
+<title>Diffusion tensor imaging of white matter in the superior temporal gyrus and temporal stem in autism.</title>
+<journal>Neurosci Lett</journal>
+<volume>2007</volume>
+<pages>10--1016</pages>
+<marker>19.</marker>
+<rawString>Lee JE, Bigler ED, Alexander AL, et al. Diffusion tensor imaging of white matter in the superior temporal gyrus and temporal stem in autism. Neurosci Lett 2007;424:127–132, doi: http://dx.doi.org/10.1016/j.neulet.2007.</rawString>
+</citation>
+<citation valid="false">
+<pages>042</pages>
+<marker>07.</marker>
+<rawString>042.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Carter JC</author>
+<author>Lanham DC</author>
+<author>Lanham LE</author>
+</authors>
+<title>A dual DTI approach to analyzing white matter in children with dyslexia.</title>
+<journal>Psychiatry Res</journal>
+<volume>2009</volume>
+<pages>219--10</pages>
+<marker>20.</marker>
+<rawString>Carter JC, Lanham DC, Lanham LE, et al. A dual DTI approach to analyzing white matter in children with dyslexia. Psychiatry Res 2009;172:215– 219, doi: http://dx.doi.org/10.1016/j.pscychresns.2008.09.005.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A Leemans</author>
+<author>B Jeurissen</author>
+<author>J Sijbers</author>
+<author>Jones DK</author>
+</authors>
+<title>ExploreDTI: a graphical toolbox for processing, analyzing, and visualizing diffusion MR data.</title>
+<booktitle>Proc Intl Soc Mag Reson Med</booktitle>
+<pages>2009--17</pages>
+<marker>21.</marker>
+<rawString>Leemans A, Jeurissen B, Sijbers J, Jones DK. ExploreDTI: a graphical toolbox for processing, analyzing, and visualizing diffusion MR data. Proc Intl Soc Mag Reson Med 2009;17:3537.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Piccinin CC</author>
+<author>Piovesana LG</author>
+<author>Santos MCA</author>
+</authors>
+<title>Diffuse decreased gray matter in patients with idiopathic craniocervical dystonia: a voxel-based morphometry study. Front Neurol 2015;5:283,</title>
+<note>doi: http://dx.doi.org/10.3389/fneur.2014.</note>
+<marker>22.</marker>
+<rawString>Piccinin CC, Piovesana LG, Santos MCA, et al. Diffuse decreased gray matter in patients with idiopathic craniocervical dystonia: a voxel-based morphometry study. Front Neurol 2015;5:283, doi: http://dx.doi.org/10.3389/fneur.2014.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Blood AJ</author>
+<author>Tuch DS</author>
+<author>N Makris</author>
+<author>Makhlouf ML</author>
+<author>Sudarsky LR</author>
+<author>N Sharma</author>
+</authors>
+<title>White matter abnormalities in dystonia normalize after botulinum toxin treatment. Neurorepor 2006;17:1251–1255, doi:</title>
+<note>http://dx.doi.org/10.1097/01. wnr.0000230500.03330.01.</note>
+<marker>23.</marker>
+<rawString>Blood AJ, Tuch DS, Makris N, Makhlouf ML, Sudarsky LR, Sharma N. White matter abnormalities in dystonia normalize after botulinum toxin treatment. Neurorepor 2006;17:1251–1255, doi: http://dx.doi.org/10.1097/01. wnr.0000230500.03330.01.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>L Bonilha</author>
+<author>de Vries PM</author>
+<author>Vincent DJ</author>
+</authors>
+<title>Structural white matter abnormalities in patients with idiopathic dystonia.</title>
+<journal>Mov Disord</journal>
+<volume>2007</volume>
+<pages>1116--10</pages>
+<marker>24.</marker>
+<rawString>Bonilha L, de Vries PM, Vincent DJ, et al. Structural white matter abnormalities in patients with idiopathic dystonia. Mov Disord 2007;22:1110– 1116, doi: http://dx.doi.org/10.1002/mds.21295.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>M Carbon</author>
+<author>Kingsley PB</author>
+<author>C Tang</author>
+<author>S Bressman</author>
+<author>D Eidelberg</author>
+</authors>
+<title>Microstructural white matter changes in primary torsion dystonia.</title>
+<booktitle>Mov Disord 2008;23:234–239, doi: http://dx.doi.org/10.1002/mds.21806. Pinheiro GLS, Guimaraes RP, Piovesana LG, et al. White Matter Microstructure Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org The Center for Digital Research and Scholarship</booktitle>
+<institution>Columbia University Libraries/Information Services6</institution>
+<marker>25.</marker>
+<rawString>Carbon M, Kingsley PB, Tang C, Bressman S, Eidelberg D. Microstructural white matter changes in primary torsion dystonia. Mov Disord 2008;23:234–239, doi: http://dx.doi.org/10.1002/mds.21806. Pinheiro GLS, Guimarães RP, Piovesana LG, et al. White Matter Microstructure Tremor and Other Hyperkinetic Movements http://www.tremorjournal.org The Center for Digital Research and Scholarship Columbia University Libraries/Information Services6</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

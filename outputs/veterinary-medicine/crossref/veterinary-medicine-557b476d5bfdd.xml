@@ -1,0 +1,916 @@
+<?xml version="1.0"?>
+<pdf>
+  <title line_height="18.29" font="ADOHHD+AdvP40319B">Employing Relative Entropy
+Techniques for Assessing Modifications in Animal Behavior</title>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.23056994818652848" word_count="772"
+lateness="0.2857142857142857" reference_score="1.12">Understanding the movement
+patterns of animals is crucial for their proper management and conservation. In
+particular, the analysis of telemetry data provides valuable insight into the
+movement, stock structure, and environmental preferences of individually tagged
+animals. In order to properly understand the relationship between an animal's
+behavior and its environment, it is essential that researchers determine the possible
+effects that transmitter attachment and presence can have on equilibrium behavior and
+physiology. For instance, the attachment of a transmitter can induce stress in the
+animal, thereby interrupting its normal foraging behavior. In such cases the speed of
+an animal may be a good indicator of non-equilibrium behavior. Measurements of speed
+distributions for newly tagged animals can be significantly different from speed
+distributions under normal behavior. However, mild stress may not always be reflected
+by statistically significant changes in the speed, even though an observer
+confidently asserts that the animal is not behaving normally. The key for a
+successful study of an animal's behavior is to ensure that any data used for analysis
+is indicative of its natural behavior. Distress from capture, along with the
+physiological impacts due to the attachment and presence of a transmitter, can result
+in stress that modifies an animal's baseline behavior [1], [2], [3]. James et al. [4]
+suspected some temporally short-term tagging effects on leatherback turtles at sea,
+and thus excluded from their data all results from the first week of tagging. In
+order to ensure that certain species of fish have properly recovered from the effects
+of anesthetics, attachment procedure, and transmitter presence, some studies have
+suggested that researchers would be well advised to exercise caution when analyzing
+data collected within the first twenty-four hours of transmitter attachment [5].
+However, when it comes to quantifying the effects of external stress on animal
+behavior, no sophisticated or sufficiently quantitative methods have yet been
+established. Thus we turn to the question: how can one quantitatively distinguish the
+difference between stressinduced, non-equilibrium distributions and those of normal
+behavior ? Often it is the case that an equilibrium (reference) distribution is
+constructed from past records of observation. Upon making a new measurement, one is
+generally interested in the amount of information gained from the measured (observed)
+distribution. However, when the newly observed distribution does not differ
+significantly from the reference distribution, no meaningful information is gained.
+In this case, the inaccessibility of new information serves not as a statement about
+any inherent utility of the newly measured distribution, but rather that the observed
+distribution does not significantly differ from the reference distribution. There are
+currently several test statistics which are used to t quantify the similarities
+between two distributions, including the F and -tests for Gaussian distributions, and
+the KolmogorovSmirnov test for generalized distributions [6]. Bayesian methods often
+employ null hypothesis testing, an approach that has been criticized for its inherent
+subjectivity and emphasis on decisionmaking statistics [7]. The purpose of this paper
+is to introduce the readers to the use of relative entropy techniques as a method of
+quantifying timedependent differences between observed data and equilibrium. Relative
+entropy techniques are robust, compelling, and can be applied to many physical
+situations. Since relative entropy is sensitive to the higher-order moments of a
+distribution, and not just changes in the mean and variance, it has the major
+advantage of more completely capturing probabilistic information [8]. For example,
+relative entropy techniques can be used to detect a divergence between an observed
+distribution and equilibrium that may not affect low-order moments, such as a
+time-skewness introduced by difficulties in detection. Although the relative entropy
+is not a true metric in the mathematical sense, another useful property is that it
+can be intuited as an effective distance between two probability distributions, in
+the sense that 1) it is always positive, 2) it is zero if and only if the two
+distributions are identical, and 3) it increases as the distributions diverge [9],
+[10]. Despite the concern raised by the increased use of telemetry techniques, very
+little is known about the effects of tagging devices, and even less is known about
+the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce
+relative entropy techniques as a method for assessing factors that can influence and
+modify animal behavior. In the Methods section we define relative entropy, give a
+brief overview of its properties as applied to generalized probability distributions,
+then specialize the definition for the case of Gaussian distributions. In the Results
+section we analyze the effects that transmitter attachment and presence can have on
+the behavior of Pacific bluefin tuna. In the final section we conclude with a
+discussion of the results.<component x="58.05" y="57.61" width="239.14"
+height="242.93" page="1" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.44" width="239.11"
+height="263.46" page="1" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="353.96" width="239.14"
+height="375.47" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.20869565217391303" word_count="115"
+lateness="0.2857142857142857" reference_score="2.73">Relative Entropy When performing
+a statistical data analysis, one often wishes to know by how much two probability
+distributions differ from each other. In information theory, the most common measure
+for doing x this is the relative entropy. Consider a random variable with a Q x
+probability distribution function of ( ). Following some Q x P x ( )( ) measurement,
+we revise our estimate from to . The change in the probability function represents a
+measure of the amount of information introduced as a result of the measurement. D P Q
+( ) The relative entropy quantifies the change in information j as an effective
+distance between the two probability distributions, given by<component x="58.05"
+y="197.25" width="239.13" height="124.86" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.21176470588235294" word_count="255"
+lateness="0.2857142857142857" reference_score="2.49">triangle inequality, these
+relations are satisfied to a good P Q ? approximation for . A useful criterion in the
+analysis of empirical data is that the results not be dependent on the coordinate
+system used to describe a particular behavioral pattern, which often depends upon a
+choice of metric. A powerful feature of the relative entropy is that it is invariant
+under a change of coordinate systems. Consider a x y smooth, invertible
+transformation from to described by ~ ~ y x D p x q x w ( ) ( ( ) ( )) the function .
+Since the relation jj D p ( ( )y q y ( )) is always satisfied for such a
+re-parameterization, jj w w the relative entropy remains invariant under coordinate
+transformations [8], [19]. Thus, we are guaranteed that the difference between two
+probability distributions is always described by a single measure, regardless of the
+coordinate system. We further examine the significance of coordinate invariance as it
+applies specifically to the case of telemetry data in the Discussion section.
+Relative Entropy for Gaussian Distributions An analytical expression may be obtained
+for the relative Q x P x( ) ( ) entropy in the case that and are Gaussian. Let us
+assume that the first and second moments of these distributions are m s m s denoted
+by , , and , respectively. Given the standard p, q p q form of a Gaussian
+distribution [20], it is straightforward to show that the relative entropy takes the
+form<component x="315.1" y="561.27" width="239.13" height="168.16" page="2"
+page_width="612.28" page_height="790.87"></component><component x="315.1" y="474.31"
+width="239.13" height="73.39" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.04" name_ratio="0.25570228091236497" word_count="833"
+lateness="0.42857142857142855" reference_score="3.0">Notice that the relative entropy
+can be decomposed into a set of uncorrelated components. The term in square brackets
+reflects any difference in the variances between the two distributions, and is often
+referred to as the dispersion component [8], [19]. When the variance of the observed
+distribution is small compared to that of the reference distribution, the relative
+entropy is dominated by this first term. In this case, the dispersion represents the
+reduction in uncertainty of the random variables as a result of the observation
+process. Alternatively, when the means of the two distributions are large relative to
+the variance of the reference distribution, the relative entropy is dominated by the
+last term, often referred to as the signal component. The significance of the signal
+term can be better understood with the help of concrete example. Suppose that the
+mean speed for an oceanic bluefin tuna is 0.8 m/s, with a variation of 0.1 m/s. A new
+observation yields a measured speed of 1.2 m/s, with a variation of 0.1 m/s. Clearly,
+the utility of this new observation derives not from any improvement in the
+variation, since they are both equal to 0.1 m/s, but rather from a shift in the mean
+value. Assuming that both distributions are Gaussian, we can use Equation (2) to
+compute the relative entropy. Since only the signal term contributes to the relative
+entropy in this case, we can plug the given speeds and variance directly into the
+second term to get a value of 8 nats (logarithmic units). Thus, the distance between
+the two distributions is composed entirely by the difference in their central
+tendencies. Ethics Statement This study (No. 2010-26) is conducted with approval by
+the Faculty of Agriculture, Kinki University, located in HigashiOsaka, Japan. All
+experiments were conducted in accordance with Japanese Governmental law (No. 105), as
+well as the guidelines published by the Science Council of Japan concerning the
+appropriate treatment of animals in life science research. Procedure We use data
+collected from an experiment conducted in the waters offshore of Kochi Prefecture,
+Japan. Three Pacific bluefin tuna were captured within a submerged net-cage with a
+diameter of 50 meters, then subsequently tagged with a data-logger package consisting
+of a data-logger and recovery system. The data-logger package is surgically attached
+to the right side of the body below the anterior lobe of the dorsal fin, using two
+plastic attachment wires connected to a time-release mechanism. The tags are affixed
+via an attachment plate aligned along the lateral line of the tuna's body. After two
+hypodermic needles are pushed through the dorsal musculature, a plastic wire is used
+to secure the attachment plate in place. Data collection begins when the tuna are
+returned to the submerged net-cage. Due to limited memory capacity and battery life,
+the tuna's speed was recorded at uniform 1-second intervals for a continuous span of
+forty-eight hours. In order to ensure that any telemetry data collected in this
+experiment is indicative of the tuna's natural behavior, it is essential to quantify
+any physiological impacts incurred by the capture and attachment of the data-logger
+package. Since the speed of a bluefin tuna serves as a good criterion for
+discriminating non-equilibrium behavior, we apply relative entropy techniques to
+quantify the effects of stress by measuring the difference between the speed
+distributions of newly tagged tuna and equilibrium. The procedure is as follows:
+first, all time series corresponding to steplengths measured at 1-second intervals
+are collected into bins of t we compute the probability 10-minute intervals. For each
+bin j x t P x , )t ( , where is the step-length and is the density function i j i j j
+time corresponding to the -th interval. The reference distribution P x t Q x ) ( , )
+( is then formed by averaging i i jover all time intervals. Assuming the data is
+normally distributed, we perform a chisquared goodness-of-fit test using the null
+hypothesis. Since the null hypothesis cannot be rejected to a significance level of
+5%, we Q x ) ( ) P x t( , and are Gaussian distributions of suppose that j dimension
+one. In order to definitively state that a tuna's behavior is no longer affected by
+trauma, we must establish at which point in time an observed data set is
+statistically indistinguishable from the t reference distribution. A -test is
+commonly employed to determine if the mean values of the observed and reference
+distributions are statistically consistent. In Appendix S1, we discuss the connection
+t between the -test and the signal component of the relative entropy for Gaussian
+distributions. That such a relation exists should come as little surprise: any
+difference between the mean values of an observed and reference distribution will
+contribute to the overall ''distance'' between them, which in turn establishes the
+amount of information provided by the observation. For the concrete example provided
+above, it is clear that the signal component of the relative entropy vanishes when
+the two means are equal.<component x="315.1" y="146.34" width="239.13"
+height="274.68" page="2" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.44" width="239.1"
+height="73.33" page="2" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="212.95" width="239.14"
+height="516.05" page="3" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.16666666666666666" word_count="144"
+lateness="0.42857142857142855" reference_score="4.21">We begin by comparing a newly
+observed speed distribution t P x , ) ( for a single bluefin tuna with that of a
+reference i j Q x P x t( , ) ( ), obtained by averaging over all time distribution i
+i j intervals. In both cases, the distributions correspond to steplengths measured at
+1-second intervals and collected into bins of 10-minute intervals, as described above
+in the Methods section. In Figure 1 we show the observed probability distribution
+function for t t P x , ) ( calculated in each bin , along with the re-averaged i j j
+Q x ( ). It is clear that the observed reference distribution i between the
+distribution eventually approaches the reference distribution over D t ) ( time. In
+this particular case the distance j observed and reference distributions takes the
+form<component x="58.05" y="57.39" width="239.14" height="124.16" page="3"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.23469387755102042" word_count="98"
+lateness="0.42857142857142855" reference_score="2.13">We show how methods from
+information theory can be used to quantify the gain in information provided by a
+newly measured observation, relative to a known reference distribution. This measure,
+which serves as an effective distance between the observed and reference
+distributions, is called the relative entropy. To demonstrate the utility of these
+methods, we have analyzed the speed distributions of Pacific bluefin tuna over a
+48-hour time span after capture and release. The reference distribution, which serves
+as a model of the tuna's baseline behavior, was constructed by averaging the
+probability density function of step-lengths over all<component x="315.1" y="57.44"
+width="239.13" height="103.41" page="3" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.02"
+year_ratio="0.0" cap_ratio="0.0" name_ratio="0.28" word_count="75"
+lateness="0.5714285714285714" reference_score="2.78">immediately after a tuna's
+release, provide a means of observing stress-induced fluctuations in behavior. The
+departure of the observed behavior from baseline behavior was assessed by recorded
+time intervals. The speed distributions, when measured computing the relative entropy
+of the distributions, from which we discovered that the tuna's behavior is clearly
+modified by the process of tagging and release. In this case, the resulting
+modification in behavior is due primarily to a difference in the<component x="58.05"
+y="327.59" width="496.12" height="40.2" page="4" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.25" word_count="676"
+lateness="0.8571428571428571" reference_score="5.8">central tendencies of the two
+distributions, and thus the relative entropy is dominated by the signal term. We
+found that the modified behavior regresses to the baseline behavior after
+approximately 5 hours, corresponding to the first bin in which the observed
+distribution becomes indistinguishable from equilibrium to a 95% confidence level. In
+this analysis, the relative entropy was calculated on the assumption that both the
+observed and reference distributions are described by Gaussian functions. For the
+case of Gaussian distributions, the relative entropy can be decomposed into a
+dispersion and signal component, the former of which depends on the variance of the
+distributions, the latter of which depends only on their mean value. Since the
+relative entropy is dominated by a difference in the mean values of each
+distribution, rather than a t difference in their variances, it should be noted that
+our -test was carried out explicitly for the case of two distributions with equal
+variances. Since the relative entropy captures information from all higher-order
+moments, it is no surprise that our result of 5.1 hours t is slightly larger than the
+value of 4.9 hours determined from the test alone. In fact, a simple example serves
+to illustrates why the relative entropy is a more powerful test statistic in general:
+suppose one observes a single variable with zero variance, while the accompanying
+reference distribution for this variable has the exact t same mean value with unit
+variance. In this case, the -value for these two distributions is zero, and thus the
+signal component is also zero. Yet the behavior of the observed variable is
+considerably different from that of the reference distribution, namely because it
+possesses zero variance while the latter does not. The significance of the relative
+entropy is apparent: in order to accurately measure the difference between two
+distributions, it is necessary to include higher-order moments. As mentioned in the
+Methods section, the relative entropy is invariant under a change of coordinate
+systems. To see why this is important, note that the step-length distributions used
+in this analysis are measured in units of distance. In order to make a quantitative
+statement about the speed of the tuna, we must in principle perform a coordinate
+transformation from one basis of units to another. However, since the relative
+entropy is invariant under such transformations, we are guaranteed that the results
+in the new basis are identical. Relative entropy techniques can be used to study
+behavior patterns that are modified by other factors, such as water temperature,
+exposure to sunlight, etc. For example, in this study we discovered a periodic
+variation in the tuna's speed corresponding to the moment before sunrise on each day.
+Most likely such a fluctuation in the tuna's diving pattern is due to changes in
+ambient light during sunrise, a hypothesis supported by evidence from other analyses.
+In captive bluefin tuna, it was observed a high mortality of juveniles as a result of
+the fish buffeting the tank and net-pen at sunrise [22]. In the previous study it was
+also found that this phenomenon is caused by visual disorientation due to an
+incompatibility of the retina to adapt to changes in ambient light et al intensity.
+Kitagawa . [23] analyzed time-series data for depth, and reported that bluefin tuna
+display distinct patterns in their vertical movement at sunrise and sundown. It has
+also been reported that juvenile bluefin tuna make sharp descents and ascents, called
+spike dives, around sunrise and sunset each day [21]. Willis found that these spike
+dives are offset by about 30 minutes on the darker side of each sunrise or sunset,
+which is consistent with the results of our analysis. There is an abundance of
+opportunities in which relative entropy techniques can be applied. The relative
+entropy is a robust and powerful method for quantifying time-dependent differences
+between observed data and equilibrium. Although the techniques introduced in this
+analysis were developed specifically for the case of Gaussian distributions, the
+authors soon hope to demonstrate the utility of relative entropy techniques in the
+context of generalized non-Gaussian distributions.<component x="58.05" y="57.5"
+width="239.14" height="328.25" page="5" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.45" width="239.13"
+height="328.31" page="5" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="668.14" width="239.11"
+height="61.51" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="6.39" font="ADOHJH+AdvP49811" letter_ratio="0.17"
+year_ratio="0.05" cap_ratio="0.39" name_ratio="0.19327731092436976" word_count="238"
+lateness="0.8571428571428571" reference_score="27.26">1. Godfrey J, Bryant D (2003)
+Effects of radio transmitters: review of recent radiotracking studies. Conservation
+applications of measuring energy expenditure of New Zealand birds: Assessing habitat
+quality and costs of carrying radio transmitters: Department of Conservation. pp
+83-95. 2. Hawkins P (2004) Bio-logging and animal welfare: practical refinements.
+Memoirs of National Institute of Polar Research 58: 58-68. 3. Wilson RP, McMahon CR
+(2006) Measuring devices on wild animals: what constitutes acceptable practice?
+Frontiers in Ecology and the Environment 4: 147-154. 4. James MC, Ottensmeyer CA,
+Eckert SA, Myers RA (2006) Changes in diel diving patterns accompany shifts between
+northern foraging and southward migration in leatherback turtles. Canadian Journal of
+Zoology 84: 754-765. 5. Bridger CJ, Booth RK (2003) The effects of biotelemetry
+transmitter presence and attachment procedures on fish physiology and behavior.
+Reviews in Fishery Sciences 11: 13-34. 6. Sardeshmukh PD, Compo GP, Penland C (2000)
+Changes of probability associated with El Nino&#x2DC;. Journal of Climate 13:
+4268-4286. 7. Berger JO (1985) Statistical decision theory and Bayesian analysis. New
+York: Springer. 8. Kleeman R (2002) Measuring dynamical prediction utility using
+relative entropy. Journal of Atmospheric Science 59: 2057-2072. 9. Shannon CE, Weaver
+W (1949) The mathematical theory of communication. Urbana: University of Illinois
+Press. 10. Cover TM, Thomas JA (1991) Elements of information theory. New York:
+Wiley. 11. U.S. National Research Council (1994) Low-frequency sound and marine
+mammals: Current knowledge and research need. WashingtonDC: National Academies
+Press.<component x="58.05" y="386.64" width="239.12" height="221.6" page="6"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="8.26" font="AECFBJ+AdvP4980F" letter_ratio="0.1"
+year_ratio="0.0" cap_ratio="0.5" name_ratio="0.125" word_count="8"
+lateness="0.8571428571428571" reference_score="18.0">Supporting Information Relation
+Between -value and Relative t<component x="315.1" y="703.77" width="239.08"
+height="25.46" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="7.31" font="ADOHJH+AdvP49811" letter_ratio="0.17"
+year_ratio="0.0" cap_ratio="0.84" name_ratio="0.3225806451612903" word_count="31"
+lateness="0.8571428571428571" reference_score="12.26">Author Contributions Conceived
+and designed the experiments: ST TT KK. Performed the experiments: ST KK TT. Analyzed
+the data: MK. Contributed reagents/ materials/analysis tools: MK EJW. Wrote the
+paper: MK EJW.<component x="315.1" y="629.04" width="239.13" height="40.72" page="6"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="6.39" font="ADOHJH+AdvP49811" letter_ratio="0.21"
+year_ratio="0.05" cap_ratio="0.49" name_ratio="0.17408906882591094" word_count="247"
+lateness="0.8571428571428571" reference_score="31.03">12. U.S. National Research
+Council (2000) Marine mammals and low-frequency Sound: progress since 1994.
+WashingtonDC: National Academies Press. 13. U.S. National Research Council (2003)
+Ocean Noise and Marine Mammals. WashingtonDC: National Academies Press. 14. U.S.
+National Research Council (2005) Marine mammal populations and ocean noise:
+determining when noise causes biologically significant effects. WashingtonDC:
+National Academies Press. 15. Popper AN, Fewtrell J, Smith ME, McCauley RD (2003)
+Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine
+Technology Society Journal 37: 35-40. 16. Shannon C (1948) A mathematical theory of
+communication. Bell System Technical Journal 27: 370-423, 623-656. 17. Goldman S
+(1953) Information Theory. New York: Prentice Hall. 18. Reza FM (1961) An
+introduction to information theory. New York: MacGrawHill. 19. Majda A, Kleeman R,
+Cai D (2002) A mathematical framework for quantifying predictability through relative
+entropy. Methods of Applied Analysis 9: 425-444. 20. Gardiner CW (1990) Handbook of
+Stochastic Methods. Berlin: Springer. 21. Willis J, Phillips J, Muheim R,
+Diego-Rasilla FJ, Hobday AJ (2009) Spike dives of juvenile southern bluefin tuna
+(Thunnus maccoyii): a navigational role? Behavioral Ecology and Sociobiology 64:
+57-68. 22. Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K (2001) Retinomotor
+responses of juvenile bluefin tuna Thunnus thynnus. Fisheries Science 67: 228-231.
+23. Kitagawa T, Kimura S, Nakata H, Yamada H (2004) Diving behavior of immature,
+feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in relation to season and
+area: the East China Sea and the Kuroshio-Oyashio transition region. Fisheries
+Oceanography 13: 161-180.<component x="315.1" y="386.64" width="239.13"
+height="221.6" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="10.8" font="Times-Roman" letter_ratio="0.06" year_ratio="0.0"
+cap_ratio="0.19" name_ratio="0.19148936170212766" word_count="47" lateness="1.0"
+reference_score="11.35">Copyright of PLoS ONE is the property of Public Library of
+Science and its content may not be copied or emailed to multiple sites or posted to a
+listserv without the copyright holder's express written permission. However, users
+may print, download, or email articles for individual use.<component x="36.0"
+y="699.4" width="507.61" height="46.8" page="7" page_width="612.0"
+page_height="792.0"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.23056994818652848" word_count="772"
+lateness="0.2857142857142857" reference_score="1.12">Understanding the movement
+patterns of animals is crucial for their proper management and conservation. In
+particular, the analysis of telemetry data provides valuable insight into the
+movement, stock structure, and environmental preferences of individually tagged
+animals. In order to properly understand the relationship between an animal's
+behavior and its environment, it is essential that researchers determine the possible
+effects that transmitter attachment and presence can have on equilibrium behavior and
+physiology. For instance, the attachment of a transmitter can induce stress in the
+animal, thereby interrupting its normal foraging behavior. In such cases the speed of
+an animal may be a good indicator of non-equilibrium behavior. Measurements of speed
+distributions for newly tagged animals can be significantly different from speed
+distributions under normal behavior. However, mild stress may not always be reflected
+by statistically significant changes in the speed, even though an observer
+confidently asserts that the animal is not behaving normally. The key for a
+successful study of an animal's behavior is to ensure that any data used for analysis
+is indicative of its natural behavior. Distress from capture, along with the
+physiological impacts due to the attachment and presence of a transmitter, can result
+in stress that modifies an animal's baseline behavior [1], [2], [3]. James et al. [4]
+suspected some temporally short-term tagging effects on leatherback turtles at sea,
+and thus excluded from their data all results from the first week of tagging. In
+order to ensure that certain species of fish have properly recovered from the effects
+of anesthetics, attachment procedure, and transmitter presence, some studies have
+suggested that researchers would be well advised to exercise caution when analyzing
+data collected within the first twenty-four hours of transmitter attachment [5].
+However, when it comes to quantifying the effects of external stress on animal
+behavior, no sophisticated or sufficiently quantitative methods have yet been
+established. Thus we turn to the question: how can one quantitatively distinguish the
+difference between stressinduced, non-equilibrium distributions and those of normal
+behavior ? Often it is the case that an equilibrium (reference) distribution is
+constructed from past records of observation. Upon making a new measurement, one is
+generally interested in the amount of information gained from the measured (observed)
+distribution. However, when the newly observed distribution does not differ
+significantly from the reference distribution, no meaningful information is gained.
+In this case, the inaccessibility of new information serves not as a statement about
+any inherent utility of the newly measured distribution, but rather that the observed
+distribution does not significantly differ from the reference distribution. There are
+currently several test statistics which are used to t quantify the similarities
+between two distributions, including the F and -tests for Gaussian distributions, and
+the KolmogorovSmirnov test for generalized distributions [6]. Bayesian methods often
+employ null hypothesis testing, an approach that has been criticized for its inherent
+subjectivity and emphasis on decisionmaking statistics [7]. The purpose of this paper
+is to introduce the readers to the use of relative entropy techniques as a method of
+quantifying timedependent differences between observed data and equilibrium. Relative
+entropy techniques are robust, compelling, and can be applied to many physical
+situations. Since relative entropy is sensitive to the higher-order moments of a
+distribution, and not just changes in the mean and variance, it has the major
+advantage of more completely capturing probabilistic information [8]. For example,
+relative entropy techniques can be used to detect a divergence between an observed
+distribution and equilibrium that may not affect low-order moments, such as a
+time-skewness introduced by difficulties in detection. Although the relative entropy
+is not a true metric in the mathematical sense, another useful property is that it
+can be intuited as an effective distance between two probability distributions, in
+the sense that 1) it is always positive, 2) it is zero if and only if the two
+distributions are identical, and 3) it increases as the distributions diverge [9],
+[10]. Despite the concern raised by the increased use of telemetry techniques, very
+little is known about the effects of tagging devices, and even less is known about
+the effects on fishes [11], [12], [13], [14], [15]. In this paper we introduce
+relative entropy techniques as a method for assessing factors that can influence and
+modify animal behavior. In the Methods section we define relative entropy, give a
+brief overview of its properties as applied to generalized probability distributions,
+then specialize the definition for the case of Gaussian distributions. In the Results
+section we analyze the effects that transmitter attachment and presence can have on
+the behavior of Pacific bluefin tuna. In the final section we conclude with a
+discussion of the results.<component x="58.05" y="57.61" width="239.14"
+height="242.93" page="1" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.44" width="239.11"
+height="263.46" page="1" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="353.96" width="239.14"
+height="375.47" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.20869565217391303" word_count="115"
+lateness="0.2857142857142857" reference_score="2.73">Relative Entropy When performing
+a statistical data analysis, one often wishes to know by how much two probability
+distributions differ from each other. In information theory, the most common measure
+for doing x this is the relative entropy. Consider a random variable with a Q x
+probability distribution function of ( ). Following some Q x P x ( )( ) measurement,
+we revise our estimate from to . The change in the probability function represents a
+measure of the amount of information introduced as a result of the measurement. D P Q
+( ) The relative entropy quantifies the change in information j as an effective
+distance between the two probability distributions, given by<component x="58.05"
+y="197.25" width="239.13" height="124.86" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.21176470588235294" word_count="255"
+lateness="0.2857142857142857" reference_score="2.49">triangle inequality, these
+relations are satisfied to a good P Q ? approximation for . A useful criterion in the
+analysis of empirical data is that the results not be dependent on the coordinate
+system used to describe a particular behavioral pattern, which often depends upon a
+choice of metric. A powerful feature of the relative entropy is that it is invariant
+under a change of coordinate systems. Consider a x y smooth, invertible
+transformation from to described by ~ ~ y x D p x q x w ( ) ( ( ) ( )) the function .
+Since the relation jj D p ( ( )y q y ( )) is always satisfied for such a
+re-parameterization, jj w w the relative entropy remains invariant under coordinate
+transformations [8], [19]. Thus, we are guaranteed that the difference between two
+probability distributions is always described by a single measure, regardless of the
+coordinate system. We further examine the significance of coordinate invariance as it
+applies specifically to the case of telemetry data in the Discussion section.
+Relative Entropy for Gaussian Distributions An analytical expression may be obtained
+for the relative Q x P x( ) ( ) entropy in the case that and are Gaussian. Let us
+assume that the first and second moments of these distributions are m s m s denoted
+by , , and , respectively. Given the standard p, q p q form of a Gaussian
+distribution [20], it is straightforward to show that the relative entropy takes the
+form<component x="315.1" y="561.27" width="239.13" height="168.16" page="2"
+page_width="612.28" page_height="790.87"></component><component x="315.1" y="474.31"
+width="239.13" height="73.39" page="2" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.04" name_ratio="0.25570228091236497" word_count="833"
+lateness="0.42857142857142855" reference_score="3.0">Notice that the relative entropy
+can be decomposed into a set of uncorrelated components. The term in square brackets
+reflects any difference in the variances between the two distributions, and is often
+referred to as the dispersion component [8], [19]. When the variance of the observed
+distribution is small compared to that of the reference distribution, the relative
+entropy is dominated by this first term. In this case, the dispersion represents the
+reduction in uncertainty of the random variables as a result of the observation
+process. Alternatively, when the means of the two distributions are large relative to
+the variance of the reference distribution, the relative entropy is dominated by the
+last term, often referred to as the signal component. The significance of the signal
+term can be better understood with the help of concrete example. Suppose that the
+mean speed for an oceanic bluefin tuna is 0.8 m/s, with a variation of 0.1 m/s. A new
+observation yields a measured speed of 1.2 m/s, with a variation of 0.1 m/s. Clearly,
+the utility of this new observation derives not from any improvement in the
+variation, since they are both equal to 0.1 m/s, but rather from a shift in the mean
+value. Assuming that both distributions are Gaussian, we can use Equation (2) to
+compute the relative entropy. Since only the signal term contributes to the relative
+entropy in this case, we can plug the given speeds and variance directly into the
+second term to get a value of 8 nats (logarithmic units). Thus, the distance between
+the two distributions is composed entirely by the difference in their central
+tendencies. Ethics Statement This study (No. 2010-26) is conducted with approval by
+the Faculty of Agriculture, Kinki University, located in HigashiOsaka, Japan. All
+experiments were conducted in accordance with Japanese Governmental law (No. 105), as
+well as the guidelines published by the Science Council of Japan concerning the
+appropriate treatment of animals in life science research. Procedure We use data
+collected from an experiment conducted in the waters offshore of Kochi Prefecture,
+Japan. Three Pacific bluefin tuna were captured within a submerged net-cage with a
+diameter of 50 meters, then subsequently tagged with a data-logger package consisting
+of a data-logger and recovery system. The data-logger package is surgically attached
+to the right side of the body below the anterior lobe of the dorsal fin, using two
+plastic attachment wires connected to a time-release mechanism. The tags are affixed
+via an attachment plate aligned along the lateral line of the tuna's body. After two
+hypodermic needles are pushed through the dorsal musculature, a plastic wire is used
+to secure the attachment plate in place. Data collection begins when the tuna are
+returned to the submerged net-cage. Due to limited memory capacity and battery life,
+the tuna's speed was recorded at uniform 1-second intervals for a continuous span of
+forty-eight hours. In order to ensure that any telemetry data collected in this
+experiment is indicative of the tuna's natural behavior, it is essential to quantify
+any physiological impacts incurred by the capture and attachment of the data-logger
+package. Since the speed of a bluefin tuna serves as a good criterion for
+discriminating non-equilibrium behavior, we apply relative entropy techniques to
+quantify the effects of stress by measuring the difference between the speed
+distributions of newly tagged tuna and equilibrium. The procedure is as follows:
+first, all time series corresponding to steplengths measured at 1-second intervals
+are collected into bins of t we compute the probability 10-minute intervals. For each
+bin j x t P x , )t ( , where is the step-length and is the density function i j i j j
+time corresponding to the -th interval. The reference distribution P x t Q x ) ( , )
+( is then formed by averaging i i jover all time intervals. Assuming the data is
+normally distributed, we perform a chisquared goodness-of-fit test using the null
+hypothesis. Since the null hypothesis cannot be rejected to a significance level of
+5%, we Q x ) ( ) P x t( , and are Gaussian distributions of suppose that j dimension
+one. In order to definitively state that a tuna's behavior is no longer affected by
+trauma, we must establish at which point in time an observed data set is
+statistically indistinguishable from the t reference distribution. A -test is
+commonly employed to determine if the mean values of the observed and reference
+distributions are statistically consistent. In Appendix S1, we discuss the connection
+t between the -test and the signal component of the relative entropy for Gaussian
+distributions. That such a relation exists should come as little surprise: any
+difference between the mean values of an observed and reference distribution will
+contribute to the overall ''distance'' between them, which in turn establishes the
+amount of information provided by the observation. For the concrete example provided
+above, it is clear that the signal component of the relative entropy vanishes when
+the two means are equal.<component x="315.1" y="146.34" width="239.13"
+height="274.68" page="2" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.44" width="239.1"
+height="73.33" page="2" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="212.95" width="239.14"
+height="516.05" page="3" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.16666666666666666" word_count="144"
+lateness="0.42857142857142855" reference_score="4.21">We begin by comparing a newly
+observed speed distribution t P x , ) ( for a single bluefin tuna with that of a
+reference i j Q x P x t( , ) ( ), obtained by averaging over all time distribution i
+i j intervals. In both cases, the distributions correspond to steplengths measured at
+1-second intervals and collected into bins of 10-minute intervals, as described above
+in the Methods section. In Figure 1 we show the observed probability distribution
+function for t t P x , ) ( calculated in each bin , along with the re-averaged i j j
+Q x ( ). It is clear that the observed reference distribution i between the
+distribution eventually approaches the reference distribution over D t ) ( time. In
+this particular case the distance j observed and reference distributions takes the
+form<component x="58.05" y="57.39" width="239.14" height="124.16" page="3"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.23469387755102042" word_count="98"
+lateness="0.42857142857142855" reference_score="2.13">We show how methods from
+information theory can be used to quantify the gain in information provided by a
+newly measured observation, relative to a known reference distribution. This measure,
+which serves as an effective distance between the observed and reference
+distributions, is called the relative entropy. To demonstrate the utility of these
+methods, we have analyzed the speed distributions of Pacific bluefin tuna over a
+48-hour time span after capture and release. The reference distribution, which serves
+as a model of the tuna's baseline behavior, was constructed by averaging the
+probability density function of step-lengths over all<component x="315.1" y="57.44"
+width="239.13" height="103.41" page="3" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.02"
+year_ratio="0.0" cap_ratio="0.0" name_ratio="0.28" word_count="75"
+lateness="0.5714285714285714" reference_score="2.78">immediately after a tuna's
+release, provide a means of observing stress-induced fluctuations in behavior. The
+departure of the observed behavior from baseline behavior was assessed by recorded
+time intervals. The speed distributions, when measured computing the relative entropy
+of the distributions, from which we discovered that the tuna's behavior is clearly
+modified by the process of tagging and release. In this case, the resulting
+modification in behavior is due primarily to a difference in the<component x="58.05"
+y="327.59" width="496.12" height="40.2" page="4" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="8.22" font="ADOHJH+AdvP49811" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.01" name_ratio="0.25" word_count="676"
+lateness="0.8571428571428571" reference_score="5.8">central tendencies of the two
+distributions, and thus the relative entropy is dominated by the signal term. We
+found that the modified behavior regresses to the baseline behavior after
+approximately 5 hours, corresponding to the first bin in which the observed
+distribution becomes indistinguishable from equilibrium to a 95% confidence level. In
+this analysis, the relative entropy was calculated on the assumption that both the
+observed and reference distributions are described by Gaussian functions. For the
+case of Gaussian distributions, the relative entropy can be decomposed into a
+dispersion and signal component, the former of which depends on the variance of the
+distributions, the latter of which depends only on their mean value. Since the
+relative entropy is dominated by a difference in the mean values of each
+distribution, rather than a t difference in their variances, it should be noted that
+our -test was carried out explicitly for the case of two distributions with equal
+variances. Since the relative entropy captures information from all higher-order
+moments, it is no surprise that our result of 5.1 hours t is slightly larger than the
+value of 4.9 hours determined from the test alone. In fact, a simple example serves
+to illustrates why the relative entropy is a more powerful test statistic in general:
+suppose one observes a single variable with zero variance, while the accompanying
+reference distribution for this variable has the exact t same mean value with unit
+variance. In this case, the -value for these two distributions is zero, and thus the
+signal component is also zero. Yet the behavior of the observed variable is
+considerably different from that of the reference distribution, namely because it
+possesses zero variance while the latter does not. The significance of the relative
+entropy is apparent: in order to accurately measure the difference between two
+distributions, it is necessary to include higher-order moments. As mentioned in the
+Methods section, the relative entropy is invariant under a change of coordinate
+systems. To see why this is important, note that the step-length distributions used
+in this analysis are measured in units of distance. In order to make a quantitative
+statement about the speed of the tuna, we must in principle perform a coordinate
+transformation from one basis of units to another. However, since the relative
+entropy is invariant under such transformations, we are guaranteed that the results
+in the new basis are identical. Relative entropy techniques can be used to study
+behavior patterns that are modified by other factors, such as water temperature,
+exposure to sunlight, etc. For example, in this study we discovered a periodic
+variation in the tuna's speed corresponding to the moment before sunrise on each day.
+Most likely such a fluctuation in the tuna's diving pattern is due to changes in
+ambient light during sunrise, a hypothesis supported by evidence from other analyses.
+In captive bluefin tuna, it was observed a high mortality of juveniles as a result of
+the fish buffeting the tank and net-pen at sunrise [22]. In the previous study it was
+also found that this phenomenon is caused by visual disorientation due to an
+incompatibility of the retina to adapt to changes in ambient light et al intensity.
+Kitagawa . [23] analyzed time-series data for depth, and reported that bluefin tuna
+display distinct patterns in their vertical movement at sunrise and sundown. It has
+also been reported that juvenile bluefin tuna make sharp descents and ascents, called
+spike dives, around sunrise and sunset each day [21]. Willis found that these spike
+dives are offset by about 30 minutes on the darker side of each sunrise or sunset,
+which is consistent with the results of our analysis. There is an abundance of
+opportunities in which relative entropy techniques can be applied. The relative
+entropy is a robust and powerful method for quantifying time-dependent differences
+between observed data and equilibrium. Although the techniques introduced in this
+analysis were developed specifically for the case of Gaussian distributions, the
+authors soon hope to demonstrate the utility of relative entropy techniques in the
+context of generalized non-Gaussian distributions.<component x="58.05" y="57.5"
+width="239.14" height="328.25" page="5" page_width="612.28"
+page_height="790.87"></component><component x="315.1" y="57.45" width="239.13"
+height="328.31" page="5" page_width="612.28"
+page_height="790.87"></component><component x="58.05" y="668.14" width="239.11"
+height="61.51" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="6.39" font="ADOHJH+AdvP49811" letter_ratio="0.17"
+year_ratio="0.05" cap_ratio="0.39" name_ratio="0.19327731092436976" word_count="238"
+lateness="0.8571428571428571" reference_score="27.26">1. Godfrey J, Bryant D (2003)
+Effects of radio transmitters: review of recent radiotracking studies. Conservation
+applications of measuring energy expenditure of New Zealand birds: Assessing habitat
+quality and costs of carrying radio transmitters: Department of Conservation. pp
+83-95. 2. Hawkins P (2004) Bio-logging and animal welfare: practical refinements.
+Memoirs of National Institute of Polar Research 58: 58-68. 3. Wilson RP, McMahon CR
+(2006) Measuring devices on wild animals: what constitutes acceptable practice?
+Frontiers in Ecology and the Environment 4: 147-154. 4. James MC, Ottensmeyer CA,
+Eckert SA, Myers RA (2006) Changes in diel diving patterns accompany shifts between
+northern foraging and southward migration in leatherback turtles. Canadian Journal of
+Zoology 84: 754-765. 5. Bridger CJ, Booth RK (2003) The effects of biotelemetry
+transmitter presence and attachment procedures on fish physiology and behavior.
+Reviews in Fishery Sciences 11: 13-34. 6. Sardeshmukh PD, Compo GP, Penland C (2000)
+Changes of probability associated with El Nino&#x2DC;. Journal of Climate 13:
+4268-4286. 7. Berger JO (1985) Statistical decision theory and Bayesian analysis. New
+York: Springer. 8. Kleeman R (2002) Measuring dynamical prediction utility using
+relative entropy. Journal of Atmospheric Science 59: 2057-2072. 9. Shannon CE, Weaver
+W (1949) The mathematical theory of communication. Urbana: University of Illinois
+Press. 10. Cover TM, Thomas JA (1991) Elements of information theory. New York:
+Wiley. 11. U.S. National Research Council (1994) Low-frequency sound and marine
+mammals: Current knowledge and research need. WashingtonDC: National Academies
+Press.<component x="58.05" y="386.64" width="239.12" height="221.6" page="6"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="8.26" font="AECFBJ+AdvP4980F" letter_ratio="0.1"
+year_ratio="0.0" cap_ratio="0.5" name_ratio="0.125" word_count="8"
+lateness="0.8571428571428571" reference_score="18.0">Supporting Information Relation
+Between -value and Relative t<component x="315.1" y="703.77" width="239.08"
+height="25.46" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="7.31" font="ADOHJH+AdvP49811" letter_ratio="0.17"
+year_ratio="0.0" cap_ratio="0.84" name_ratio="0.3225806451612903" word_count="31"
+lateness="0.8571428571428571" reference_score="12.26">Author Contributions Conceived
+and designed the experiments: ST TT KK. Performed the experiments: ST KK TT. Analyzed
+the data: MK. Contributed reagents/ materials/analysis tools: MK EJW. Wrote the
+paper: MK EJW.<component x="315.1" y="629.04" width="239.13" height="40.72" page="6"
+page_width="612.28" page_height="790.87"></component></section>
+  <section line_height="6.39" font="ADOHJH+AdvP49811" letter_ratio="0.21"
+year_ratio="0.05" cap_ratio="0.49" name_ratio="0.17408906882591094" word_count="247"
+lateness="0.8571428571428571" reference_score="31.03">12. U.S. National Research
+Council (2000) Marine mammals and low-frequency Sound: progress since 1994.
+WashingtonDC: National Academies Press. 13. U.S. National Research Council (2003)
+Ocean Noise and Marine Mammals. WashingtonDC: National Academies Press. 14. U.S.
+National Research Council (2005) Marine mammal populations and ocean noise:
+determining when noise causes biologically significant effects. WashingtonDC:
+National Academies Press. 15. Popper AN, Fewtrell J, Smith ME, McCauley RD (2003)
+Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine
+Technology Society Journal 37: 35-40. 16. Shannon C (1948) A mathematical theory of
+communication. Bell System Technical Journal 27: 370-423, 623-656. 17. Goldman S
+(1953) Information Theory. New York: Prentice Hall. 18. Reza FM (1961) An
+introduction to information theory. New York: MacGrawHill. 19. Majda A, Kleeman R,
+Cai D (2002) A mathematical framework for quantifying predictability through relative
+entropy. Methods of Applied Analysis 9: 425-444. 20. Gardiner CW (1990) Handbook of
+Stochastic Methods. Berlin: Springer. 21. Willis J, Phillips J, Muheim R,
+Diego-Rasilla FJ, Hobday AJ (2009) Spike dives of juvenile southern bluefin tuna
+(Thunnus maccoyii): a navigational role? Behavioral Ecology and Sociobiology 64:
+57-68. 22. Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K (2001) Retinomotor
+responses of juvenile bluefin tuna Thunnus thynnus. Fisheries Science 67: 228-231.
+23. Kitagawa T, Kimura S, Nakata H, Yamada H (2004) Diving behavior of immature,
+feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in relation to season and
+area: the East China Sea and the Kuroshio-Oyashio transition region. Fisheries
+Oceanography 13: 161-180.<component x="315.1" y="386.64" width="239.13"
+height="221.6" page="6" page_width="612.28"
+page_height="790.87"></component></section>
+  <section line_height="10.8" font="Times-Roman" letter_ratio="0.06" year_ratio="0.0"
+cap_ratio="0.19" name_ratio="0.19148936170212766" word_count="47" lateness="1.0"
+reference_score="11.35">Copyright of PLoS ONE is the property of Public Library of
+Science and its content may not be copied or emailed to multiple sites or posted to a
+listserv without the copyright holder's express written permission. However, users
+may print, download, or email articles for individual use.<component x="36.0"
+y="699.4" width="507.61" height="46.8" page="7" page_width="612.0"
+page_height="792.0"></component></section>
+  <reference order="1">Godfrey J, Bryant D (2003) Effects of radio transmitters:
+review of recent radiotracking studies. Conservation applications of measuring energy
+expenditure of New Zealand birds: Assessing habitat quality and costs of carrying
+radio transmitters: Department of Conservation. pp 83-95.</reference>
+  <reference order="2">Hawkins P (2004) Bio-logging and animal welfare: practical
+refinements. Memoirs of National Institute of Polar Research 58: 58-68.</reference>
+  <reference order="3">Wilson RP, McMahon CR (2006) Measuring devices on wild
+animals: what constitutes acceptable practice? Frontiers in Ecology and the
+Environment 4: 147-154.</reference>
+  <reference order="4">James MC, Ottensmeyer CA, Eckert SA, Myers RA (2006) Changes
+in diel diving patterns accompany shifts between northern foraging and southward
+migration in leatherback turtles. Canadian Journal of Zoology 84:
+754-765.</reference>
+  <reference order="5">Bridger CJ, Booth RK (2003) The effects of biotelemetry
+transmitter presence and attachment procedures on fish physiology and behavior.
+Reviews in Fishery Sciences 11: 13-34.</reference>
+  <reference order="6">Sardeshmukh PD, Compo GP, Penland C (2000) Changes of
+probability associated with El Nino&#x2DC;. Journal of Climate 13:
+4268-4286.</reference>
+  <reference order="7">Berger JO (1985) Statistical decision theory and Bayesian
+analysis. New York: Springer.</reference>
+  <reference order="8">Kleeman R (2002) Measuring dynamical prediction utility using
+relative entropy. Journal of Atmospheric Science 59: 2057-2072.</reference>
+  <reference order="9">Shannon CE, Weaver W (1949) The mathematical theory of
+communication. Urbana: University of Illinois Press.</reference>
+  <reference order="10">Cover TM, Thomas JA (1991) Elements of information theory.
+New York: Wiley.</reference>
+  <reference order="11">U.S. National Research Council (1994) Low-frequency sound and
+marine mammals: Current knowledge and research need. WashingtonDC: National Academies
+Press.</reference>
+  <reference order="12">U.S. National Research Council (2000) Marine mammals and
+low-frequency Sound: progress since 1994. WashingtonDC: National Academies
+Press.</reference>
+  <reference order="13">U.S. National Research Council (2003) Ocean Noise and Marine
+Mammals. WashingtonDC: National Academies Press.</reference>
+  <reference order="14">U.S. National Research Council (2005) Marine mammal
+populations and ocean noise: determining when noise causes biologically significant
+effects. WashingtonDC: National Academies Press.</reference>
+  <reference order="15">Popper AN, Fewtrell J, Smith ME, McCauley RD (2003)
+Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine
+Technology Society Journal 37: 35-40.</reference>
+  <reference order="16">Shannon C (1948) A mathematical theory of communication. Bell
+System Technical Journal 27: 370-423, 623-656.</reference>
+  <reference order="17">Goldman S (1953) Information Theory. New York: Prentice
+Hall.</reference>
+  <reference order="18">Reza FM (1961) An introduction to information theory. New
+York: MacGrawHill.</reference>
+  <reference order="19">Majda A, Kleeman R, Cai D (2002) A mathematical framework for
+quantifying predictability through relative entropy. Methods of Applied Analysis 9:
+425-444.</reference>
+  <reference order="20">Gardiner CW (1990) Handbook of Stochastic Methods. Berlin:
+Springer.</reference>
+  <reference order="21">Willis J, Phillips J, Muheim R, Diego-Rasilla FJ, Hobday AJ
+(2009) Spike dives of juvenile southern bluefin tuna (Thunnus maccoyii): a
+navigational role? Behavioral Ecology and Sociobiology 64: 57-68.</reference>
+  <reference order="22">Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K (2001)
+Retinomotor responses of juvenile bluefin tuna Thunnus thynnus. Fisheries Science 67:
+228-231.</reference>
+  <reference order="23">Kitagawa T, Kimura S, Nakata H, Yamada H (2004) Diving
+behavior of immature, feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in
+relation to season and area: the East China Sea and the Kuroshio-Oyashio transition
+region. Fisheries Oceanography 13: 161-180.</reference>
+  <reference order="1">Godfrey J, Bryant D (2003) Effects of radio transmitters:
+review of recent radiotracking studies. Conservation applications of measuring energy
+expenditure of New Zealand birds: Assessing habitat quality and costs of carrying
+radio transmitters: Department of Conservation. pp 83-95.</reference>
+  <reference order="2">Hawkins P (2004) Bio-logging and animal welfare: practical
+refinements. Memoirs of National Institute of Polar Research 58: 58-68.</reference>
+  <reference order="3">Wilson RP, McMahon CR (2006) Measuring devices on wild
+animals: what constitutes acceptable practice? Frontiers in Ecology and the
+Environment 4: 147-154.</reference>
+  <reference order="4">James MC, Ottensmeyer CA, Eckert SA, Myers RA (2006) Changes
+in diel diving patterns accompany shifts between northern foraging and southward
+migration in leatherback turtles. Canadian Journal of Zoology 84:
+754-765.</reference>
+  <reference order="5">Bridger CJ, Booth RK (2003) The effects of biotelemetry
+transmitter presence and attachment procedures on fish physiology and behavior.
+Reviews in Fishery Sciences 11: 13-34.</reference>
+  <reference order="6">Sardeshmukh PD, Compo GP, Penland C (2000) Changes of
+probability associated with El Nino&#x2DC;. Journal of Climate 13:
+4268-4286.</reference>
+  <reference order="7">Berger JO (1985) Statistical decision theory and Bayesian
+analysis. New York: Springer.</reference>
+  <reference order="8">Kleeman R (2002) Measuring dynamical prediction utility using
+relative entropy. Journal of Atmospheric Science 59: 2057-2072.</reference>
+  <reference order="9">Shannon CE, Weaver W (1949) The mathematical theory of
+communication. Urbana: University of Illinois Press.</reference>
+  <reference order="10">Cover TM, Thomas JA (1991) Elements of information theory.
+New York: Wiley.</reference>
+  <reference order="11">U.S. National Research Council (1994) Low-frequency sound and
+marine mammals: Current knowledge and research need. WashingtonDC: National Academies
+Press.</reference>
+  <reference order="12">U.S. National Research Council (2000) Marine mammals and
+low-frequency Sound: progress since 1994. WashingtonDC: National Academies
+Press.</reference>
+  <reference order="13">U.S. National Research Council (2003) Ocean Noise and Marine
+Mammals. WashingtonDC: National Academies Press.</reference>
+  <reference order="14">U.S. National Research Council (2005) Marine mammal
+populations and ocean noise: determining when noise causes biologically significant
+effects. WashingtonDC: National Academies Press.</reference>
+  <reference order="15">Popper AN, Fewtrell J, Smith ME, McCauley RD (2003)
+Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine
+Technology Society Journal 37: 35-40.</reference>
+  <reference order="16">Shannon C (1948) A mathematical theory of communication. Bell
+System Technical Journal 27: 370-423, 623-656.</reference>
+  <reference order="17">Goldman S (1953) Information Theory. New York: Prentice
+Hall.</reference>
+  <reference order="18">Reza FM (1961) An introduction to information theory. New
+York: MacGrawHill.</reference>
+  <reference order="19">Majda A, Kleeman R, Cai D (2002) A mathematical framework for
+quantifying predictability through relative entropy. Methods of Applied Analysis 9:
+425-444.</reference>
+  <reference order="20">Gardiner CW (1990) Handbook of Stochastic Methods. Berlin:
+Springer.</reference>
+  <reference order="21">Willis J, Phillips J, Muheim R, Diego-Rasilla FJ, Hobday AJ
+(2009) Spike dives of juvenile southern bluefin tuna (Thunnus maccoyii): a
+navigational role? Behavioral Ecology and Sociobiology 64: 57-68.</reference>
+  <reference order="22">Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K (2001)
+Retinomotor responses of juvenile bluefin tuna Thunnus thynnus. Fisheries Science 67:
+228-231.</reference>
+  <reference order="23">Kitagawa T, Kimura S, Nakata H, Yamada H (2004) Diving
+behavior of immature, feeding Pacific bluefin tuna (Thunnus thynnus orientalis) in
+relation to season and area: the East China Sea and the Kuroshio-Oyashio transition
+region. Fisheries Oceanography 13: 161-180.</reference>
+  <resolved_reference order="1">Godfrey J, Bryant D (2003) Effects of radio
+transmitters: review of recent radiotracking studies. Conservation applications of
+measuring energy expenditure of New Zealand birds: Assessing habitat quality and
+costs of carrying radio transmitters: Department of Conservation. pp
+83-95.</resolved_reference>
+  <resolved_reference order="2">Hawkins P (2004) Bio-logging and animal welfare:
+practical refinements. Memoirs of National Institute of Polar Research 58:
+58-68.</resolved_reference>
+  <resolved_reference order="3">Wilson RP, McMahon CR (2006) Measuring devices on
+wild animals: what constitutes acceptable practice? Frontiers in Ecology and the
+Environment 4: 147-154.</resolved_reference>
+  <resolved_reference order="4">James MC, Ottensmeyer CA, Eckert SA, Myers RA (2006)
+Changes in diel diving patterns accompany shifts between northern foraging and
+southward migration in leatherback turtles. Canadian Journal of Zoology 84:
+754-765.</resolved_reference>
+  <resolved_reference order="5">Bridger CJ, Booth RK (2003) The effects of
+biotelemetry transmitter presence and attachment procedures on fish physiology and
+behavior. Reviews in Fishery Sciences 11: 13-34.</resolved_reference>
+  <resolved_reference order="6">Sardeshmukh PD, Compo GP, Penland C (2000) Changes of
+probability associated with El Nino&#x2DC;. Journal of Climate 13:
+4268-4286.</resolved_reference>
+  <resolved_reference order="7">Berger JO (1985) Statistical decision theory and
+Bayesian analysis. New York: Springer.</resolved_reference>
+  <resolved_reference order="8">Kleeman R (2002) Measuring dynamical prediction
+utility using relative entropy. Journal of Atmospheric Science 59:
+2057-2072.</resolved_reference>
+  <resolved_reference order="9">Shannon CE, Weaver W (1949) The mathematical theory
+of communication. Urbana: University of Illinois Press.</resolved_reference>
+  <resolved_reference order="10">Cover TM, Thomas JA (1991) Elements of information
+theory. New York: Wiley.</resolved_reference>
+  <resolved_reference order="11">U.S. National Research Council (1994) Low-frequency
+sound and marine mammals: Current knowledge and research need. WashingtonDC: National
+Academies Press.</resolved_reference>
+  <resolved_reference order="12">U.S. National Research Council (2000) Marine mammals
+and low-frequency Sound: progress since 1994. WashingtonDC: National Academies
+Press.</resolved_reference>
+  <resolved_reference order="13">U.S. National Research Council (2003) Ocean Noise
+and Marine Mammals. WashingtonDC: National Academies Press.</resolved_reference>
+  <resolved_reference order="14">U.S. National Research Council (2005) Marine mammal
+populations and ocean noise: determining when noise causes biologically significant
+effects. WashingtonDC: National Academies Press.</resolved_reference>
+  <resolved_reference order="15">Popper AN, Fewtrell J, Smith ME, McCauley RD (2003)
+Anthropogenic sound: Effects on the behavior and physiology of fishes. Marine
+Technology Society Journal 37: 35-40.</resolved_reference>
+  <resolved_reference order="16">Shannon C (1948) A mathematical theory of
+communication. Bell System Technical Journal 27: 370-423,
+623-656.</resolved_reference>
+  <resolved_reference order="17">Goldman S (1953) Information Theory. New York:
+Prentice Hall.</resolved_reference>
+  <resolved_reference order="18">Reza FM (1961) An introduction to information
+theory. New York: MacGrawHill.</resolved_reference>
+  <resolved_reference order="19">Majda A, Kleeman R, Cai D (2002) A mathematical
+framework for quantifying predictability through relative entropy. Methods of Applied
+Analysis 9: 425-444.</resolved_reference>
+  <resolved_reference order="20">Gardiner CW (1990) Handbook of Stochastic Methods.
+Berlin: Springer.</resolved_reference>
+  <resolved_reference order="21">Willis J, Phillips J, Muheim R, Diego-Rasilla FJ,
+Hobday AJ (2009) Spike dives of juvenile southern bluefin tuna (Thunnus maccoyii): a
+navigational role? Behavioral Ecology and Sociobiology 64:
+57-68.</resolved_reference>
+  <resolved_reference order="22">Masuma S, Kawamura G, Tezuka N, Koiso M, Namba K
+(2001) Retinomotor responses of juvenile bluefin tuna Thunnus thynnus. Fisheries
+Science 67: 228-231.</resolved_reference>
+  <resolved_reference order="23">Kitagawa T, Kimura S, Nakata H, Yamada H (2004)
+Diving behavior of immature, feeding Pacific bluefin tuna (Thunnus thynnus
+orientalis) in relation to season and area: the East China Sea and the
+Kuroshio-Oyashio transition region. Fisheries Oceanography 13:
+161-180.</resolved_reference>
+  <page width="612.283" height="790.866" number="2">
+    <header x="58.05" y="753.32" width="496.22" height="7.32"></header>
+  </page>
+  <page width="612.283" height="790.866" number="3">
+    <header x="58.05" y="753.32" width="496.22" height="7.32"></header>
+  </page>
+  <page width="612.283" height="790.866" number="4">
+    <header x="58.05" y="753.32" width="496.22" height="7.32"></header>
+  </page>
+  <page width="612.283" height="790.866" number="5">
+    <header x="58.05" y="753.32" width="496.22" height="7.32"></header>
+  </page>
+  <page width="612.283" height="790.866" number="6">
+    <header x="58.05" y="753.32" width="496.22" height="7.32"></header>
+  </page>
+</pdf>

@@ -1,0 +1,2544 @@
+<?xml version="1.0"?>
+<pdf>
+  <title line_height="13.93" font="MAHBPE+AdvGulliv-R">Brain &amp; Language</title>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.2074468085106383" word_count="188"
+lateness="0.08333333333333333" reference_score="12.65">While it is now widely
+accepted that signed languages used in deaf communities around the world represent
+full-fledged instantiations of human languages-languages which are expressed in the
+visual-manual modality rather than the aural-oral modality-the question of how a sign
+is recognized and integrated into a sentential context in real time has received far
+less attention (see Corina &amp; Knapp, 2006; Emmorey, 2002; for some discussions).
+Sign language recognition may be more complicated than spoken language recognition by
+virtue of the fact that the primary articulators, the hands and arms, are also used
+in a wide range of other common everyday behaviors that include non-linguistic
+actions such a reaching and grasping, waving, and scratching oneself, as well
+gesticulations that accompany speech (i.e. co-speech gestures) or serve non-sign
+language deictic functions, such as pointing. The formal relationship between signed
+languages and human gestural actions is of considerable interest to a range of
+disciplines. Linguists, psychologists and cognitive scientists have proposed a
+critical role for manual gesture in the development and evolution of human languages
+(Arbib, 2005, 2008; Gentilucci &amp; Corballis, 2006; Rizzolatti &amp; Arbib, 1998;
+Tomasello, 2005; Wilcox, 2004). Re<component x="32.71" y="124.47" width="251.12"
+height="206.72" page="1" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHCAG+AdvGulliv-I" letter_ratio="0.27"
+year_ratio="0.0" cap_ratio="0.47" name_ratio="0.1111111111111111" word_count="36"
+lateness="0.08333333333333333" reference_score="16.12">Corresponding author. Address:
+Department of Neurology, University of Cali&#x21D1; fornia at Irvine, 101 The City
+Drive South, Bldg. 53, Room 204, Orange, CA 928684280, United States. Fax: +1 714 456
+1697. E-mail address: m.grosvald@uci.edu (M. Grosvald).<component x="32.71" y="65.16"
+width="251.07" height="35.75" page="1" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.1"
+year_ratio="0.0" cap_ratio="0.17" name_ratio="0.21712907117008443" word_count="829"
+lateness="0.16666666666666666" reference_score="14.16">cently, linguists have
+documented compelling evidence that the development of nascent sign languages derives
+from idiosyncratic gestural and pantomimic systems used by isolated communities,
+which in some cases may be limited to individual families who have a need to
+communicate with a deaf child (Frishberg, 1987; GoldinMeadow, 2003; Kegl, Senghas,
+&amp; Coppola, 1999; Meir, Sandler, Padden, &amp; Aronoff, 2010; Morford &amp; Kegl,
+2000; Senghas, 2005). Even within mature sign languages of Deaf communities,
+linguistic accounts of sign language structure have also argued that lexical and
+discourse components of American Sign Language (ASL) and other signed languages may
+be best understood as being gesturally based (Liddell, 2003). Thus diachronic and
+synchronic evidence from language research support the contention that signed
+languages might make use of perceptual systems similar to those through which humans
+understand or parse human actions and gestures more generally (Corballis, 2009). In
+contrast, given its linguistic status, sign language perception may require the
+attunement of specialized systems for recognizing sign forms. A comprehensive theory
+of sign language recognition will be enhanced by providing an account of when and how
+the processing of sign forms diverges from the processing of human actions in
+general. Recent behavioral and neuro-imaging studies have reported differences in
+deaf subjects' responses to single signs compared to non-linguistic gestures (Corina,
+Grosvald, &amp; Lachaud, 2011; Corina et al., 2007; Emmorey, Xu, Gannon,
+Goldin-Meadow, &amp; Braun, 2010; MacSweeney et al., 2004), but no studies to our
+knowledge have examined the recognition of signs and gestures under sentence
+processing constraints. Consider for example the signer, who, in mid-sentence,
+fulfills the urge to scratch his face, or perhaps swat away a flying insect. What is
+the fate of this non-linguistic articulation? Does the sign perceiver attempt to
+incorporate these manual behaviors into accruing sentential representations, or are
+these actions easily tagged as non-linguistic and thus rejected by the parser? The
+goal of the present paper was to use real-time electrophysiological measures to
+assess empirically the time course of sentence processing in cases where subjects
+encountered non-linguistic manual forms (here ''self-grooming'' behaviors, e.g.
+scratching the face, rubbing one's eye, adjusting the sleeves of a shirt, etc.). We
+sought to compare the processing of these non-linguistic gestural forms within a
+sentential context to cases in which deaf signers encountered violations of semantic
+expectancy that have been observed to elicit a well-defined electrophysiological
+component, the N400. The N400 component (Holcomb &amp; Neville, 1991; Kutas &amp;
+Hillyard, 1980) has been frequently investigated in previous ERP research on written,
+spoken and signed language (e.g. Capek et al., 2009; Kutas, Neville, &amp; Holcomb,
+1987). The N400 is a broad negative deflection generally seen at central and parietal
+scalp sites that peaks about 400 ms after the visual or auditory presentation of a
+word. Although all content words elicit an N400 component, the ERP response is larger
+for words that are semantically anomalous or less expected (Hagoort &amp; Brown,
+1994; Kutas &amp; Hillyard, 1984); thus the N400 is often interpreted as an index of
+ease or difficulty in semantic conceptual integration (Brown &amp; Hagoort, 1993;
+Hagoort &amp; Van Berkum, 2007). For example, for listeners encountering the two
+sentences ''I like my coffee with milk and sugar'' and ''I like my coffee with milk
+and mud,'' the N400 response to the last word in the second item is expected to be
+larger. An N400 or N400-like component can also be found in response to
+orthographically/phonologically legal but non-occurring ''pseudo-words'' (e.g.
+''blork''), and it has sometimes been reported that pseudo-words elicit a stronger
+N400 response than semantically incongruent real words (Bentin, 1987; Bentin,
+McCarthy, &amp; Wood, 1985; Hagoort &amp; Kutas, 1995), consistent with the idea that
+the magnitude of N400 response is related to the difficulty of the ongoing process of
+semantic-contextual integration. However, orthographically illegal ''non-words''
+(e.g. ''rbsnk'') do not generally elicit an N400, and a positive component is
+sometimes seen instead (Hagoort &amp; Kutas, 1995; Ziegler, Besson, Jacobs, Nazir,
+&amp; Carr, 1997). This may reflect the operation of some kind of filtering mechanism
+during online processing, through which language users are able to quickly reject
+forms that lie beyond a certain point of acceptability, or plausibility, during the
+ongoing processing of 1 the incoming language stream. The N400 (or N400-like
+responses) can also be observed in numerous contexts involving non-linguistic but
+meaningful stimuli, such as pictures (Ganis &amp; Kutas, 2003; Ganis, Kutas, &amp;
+Sereno, 1996; Nigam, Hoffman, &amp; Simons, 1992; Pratarelli, 1994), faces (Barrett
+&amp; Rugg, 1989; Bobes, Vald&#xE9;s-Sosa, &amp; Olivares, 1994), environmental
+noises (Chao, Nielsen-Bohlman, &amp; Knight, 1995; Van Petten &amp; Rheinfelder,
+1995), movie clips (Sitnikova, Holcomb, Kiyonaga, &amp; Kuperberg, 2008; Sitnikova,
+Kuperberg, &amp; Holcomb, 2003) and co-speech gestures (Kelly, Kravitz, &amp;
+Hopkins, 2004; Wu &amp; Coulson, 2005). Linguistically anomalous stimuli are not
+always associated with an N400 response. For example, the left anterior negativity
+(LAN; Friederici, 2002; Neville, Nicol, Barss, Forster, &amp; Garrett, 1991) and P600
+(Osterhout &amp; Holcomb, 1992) are well-known ERP components that have been found in
+syntactic violation contexts in<component x="301.72" y="72.2" width="251.09"
+height="279.91" page="1" page_width="595.28"
+page_height="793.7"></component><component x="42.52" y="90.57" width="251.13"
+height="635.61" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.08"
+year_ratio="0.0" cap_ratio="0.18" name_ratio="0.225" word_count="40"
+lateness="0.16666666666666666" reference_score="13.78">1 This possibility is
+bolstered by recent work of Albert Kim and colleagues, who have found that relative
+to real word controls, N400 amplitude decreases and P600 amplitude increases,
+parametrically, as orthographic irregularity increases (Kim &amp; Pitk&#xE4;nen,
+submitted for publication).<component x="42.52" y="38.63" width="251.06"
+height="33.21" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.23157894736842105" word_count="570"
+lateness="0.16666666666666666" reference_score="13.52">spoken and written language,
+and more recent work has shown that these components can be elicited in the
+visual-manual modality as well. For example, in a recent study Capek et al. (2009)
+compared ERP responses to semantically and syntactically well-formed and ill-formed
+sentences. While semantic violations elicited an N400 that was largest over central
+and posterior sites, syntactic violations elicited an anterior negativity followed by
+a widely distributed P600. These findings are consistent with the idea that within
+written, spoken and signed languages, semantic and syntactic processes are mediated
+by non-identical brain systems (Capek et al., 2009). The present study makes use of
+dynamic video stimuli showing ASL sentences completed by four classes of ending
+item-semantically congruent signs, semantically incongruent signs, phonologically
+legal but non-occurring pseudo-signs, and non-linguistic grooming gestures. Based
+upon previous studies, we expected a gradation of N400-like responses across
+conditions, with N400 effects of smaller magnitude for semantically incongruent
+endings and of larger magnitude (i.e. more negative) for phonologically legal
+pseudo-signs. The ERP response for the non-linguistic gesture condition is a priori
+more difficult to predict. Previous neuro-imaging studies of deaf signers have
+reported differences in patterns of activation associated with the perception of
+signs compared to non-linguistic gestures (Corina et al., 2007; Emmorey et al., 2010;
+MacSweeney et al., 2004), but the methodologies used in those studies lacked the
+temporal resolution to determine at what stage of processing these differences may
+occur. While N400-like responses have been elicited to co-speech gestural mismatches
+(Kelly et al., 2004; Wu &amp; Coulson, 2005), in our study, gestures occur in place
+of semantically appropriate sentence-ending items, rather than as a possible
+accompaniment. It should also be borne in mind that the relationship of signs and
+grooming gestures is probably not quite akin to that between standard lexical items
+in spoken language and the orthographically/phonotactically illegal pseudo-words used
+in earlier ERP studies. Unlike grooming gestures, which are part of everyday life,
+illegal non-words like ''dkfpst'' are probably alien to most people's routine
+experience. A better spoken-language analogue of our grooming action condition might
+be something like ''I like my coffee with milk and [clearing of throat],'' though we
+know of no spoken-language studies which have incorporated such a condition. The
+non-linguistic grooming gestures used in the present study may be another example of
+forms that language users (in this case, signers) are able to quickly reject as
+non-linguistic during language processing. If this is the case, then one might also
+expect that such forms will not elicit an N400 but rather a positive-going component
+(cf. Hagoort &amp; Kutas, 1995). In summary, to the extent that semantic processing
+at the sentence level is similar for signed and spoken language, despite the obvious
+difference in modality, the ERP responses associated with our four sentence ending
+condition should be predictable. First, the incongruent signs should elicit a
+negative-going component relative to the baseline (congruent sign) condition,
+consistent with the classic N400 response seen for English and other spoken
+languages, as well as some previous ERP studies of ASL (Kutas et al., 1987; Neville
+et al., 1997). Second, the pseudo-signs should also elicit a negative-going wave, and
+this response can be expected to be of larger magnitude (i.e. be more negative) than
+that seen for the incongruent signs. Third, while the likely response to the grooming
+gesture condition is more difficult to predict, we may expect to see a positive-going
+component relative to the baseline.<component x="311.53" y="111.49" width="251.16"
+height="614.69" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.12"
+year_ratio="0.0" cap_ratio="0.19" name_ratio="0.1650485436893204" word_count="103"
+lateness="0.25" reference_score="15.4">The 16 participants (12 female and 4 male; age
+range = [19, 45], mean = 25.4 and SD = 8.3) were deaf users of ASL; all were students
+or staff at Gallaudet University in Washington DC and received a small payment for
+participating. Three were left-handed. There were 11 native signers (i.e. born to
+signing parents; the remaining five non-natives' mean self-reported age of
+acquisition of ASL was 9.0 (SD = 6.3, range = [2, 16]). All subjects were uninformed
+as to the purpose of the study and gave informed consent in accordance with
+established Institutional Review Board procedures at Gallau2 det
+University.<component x="311.53" y="38.3" width="251.08" height="18.39" page="2"
+page_width="595.28" page_height="793.7"></component><component x="32.71" y="645.02"
+width="251.11" height="81.15" page="3" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.14" name_ratio="0.18114143920595532" word_count="403"
+lateness="0.25" reference_score="14.24">During the experiment, the subject was seated
+in a comfortable chair facing the computer screen approximately 85 cm away, at which
+distance the 4-inch-wide video stimuli subtended an angle of about 7 degrees. The
+stimuli were delivered using a program created by the first author using Presentation
+software (Neurobehavioral Systems). For each trial, the subject viewed an ASL
+sentence ''frame'' consisting of an entire sentence minus a last item (e.g. BOY SLEEP
+IN HIS; see Fig. 1 for an illustration), followed by an ''ending item'' completing
+the sentence. The ending item could be one of four types (shown, respectively, to the
+upper left, upper right, lower left and lower right of the question mark in Fig. 1):
+a semantically congruent sign (e.g. BED for the sentence frame just given), a
+semantically incongruent sign (e.g. LEMON), a phonotactically legal but non-occurring
+''pseudo-sign'' (e.g. BARK.A, this notation indicating that this pseudo-sign was
+formed by articulating the real sign 3 BARK with an A handshape ), or a grooming
+gesture such as eye rubbing or head scratching. All stimulus items (sentence frames
+and ending items) were performed by a female native signer of ASL, who also verified
+that each sentence frame plus last sign item was grammatically acceptable in ASL. The
+ending items for both sign conditions (semantically congruent and incongruent) were
+all nouns. As is the case with spoken languages, signed languages, including ASL,
+have regional variants that could potentially affect comprehension. In the present
+situation, this would be relevant if subjects encountering extant but unfamiliar sign
+forms as ending items produced an ERP response similar to that for pseudo-signs. Our
+experience, however, suggests that in the majority of cases, fluent users of ASL have
+previously encountered regional variants. This can be compared to the way a New
+England English speaker, while not using the word the ''sack'' as part of his or her
+own dialect (instead using bag), would most likely comprehend a sentence such as
+''The grocer placed the vegetables in the sack'' without difficulty. In principle,
+one might expect such forms to produce increased processing difficulties, similar to
+encountering low frequency forms. However, we are cognizant of the regional variants
+in ASL and in planning this study, aimed to use signs which were unambiguous and
+would reflect the most frequent forms. As a check, we asked two native signers (not
+participants in the main study) to scrutinize all semantically congruent and
+semanti<component x="32.71" y="190.18" width="251.11" height="415.92" page="3"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.19915254237288135" word_count="236"
+lateness="0.25" reference_score="13.72">2 A group of 10 hearing non-signers was also
+run on the same experiment as a control measure. All were undergraduate students at
+the University of California at Davis with no substantial knowledge of sign language.
+Like the deaf group, these subjects were uninformed as to the purpose of the study
+and gave informed consent in accordance with established Institutional Review Board
+procedures at UC Davis. However, unlike the deaf group, no significant effects or
+interactions related to Ending item were found, and no further analysis related to
+this group will be presented here. 3 The pseudo-signs could be one-handed or
+two-handed. The two-handed variants include cases where a handshape is articulated on
+a base hand, as well as cases in which the two hands move symmetrically; both of
+these occur in real two-handed signs. Both the one- and two-handed pseudo-sign items
+appear as compositional forms that are non-occurring in ASL, and identification of
+the handshape alone is not sufficient to determine whether the sign is true sign or a
+pseudo-sign. The consensus view among the signers in our group is that our
+pseudo-signs are more akin to legal but non-occurring items, (e.g. ''glack''), rather
+than being consistently seen as recognizable but altered lexical items (e.g.
+''glassu''). Fig. 1. Still shots taken from one of the sentence frame stimuli, along
+with its four possible endings (see text). Note that the actual stimuli were dynamic,
+not static.<component x="32.71" y="38.63" width="251.07" height="136.33" page="3"
+page_width="595.28" page_height="793.7"></component><component x="301.72" y="474.54"
+width="251.04" height="14.93" page="3" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.25097024579560157" word_count="773"
+lateness="0.3333333333333333" reference_score="13.86">cally incongruent ending signs,
+to mark whether they knew of any regional variants or alternative pronunciations, and
+to list any such forms. Note that without a proper sociolinguistic analysis, it is
+difficult to ascertain whether such differences are indeed sociolinguistic variants,
+so we were most liberal in asking for any known alternative form. Out of 240 critical
+items, 49 were deemed to have a potential regional variant (e.g., PIZZA and FOOTBALL)
+or alternative pronunciations (e.g. the sign EARRINGS, which can be signed with an F
+handshape, or a b0 handshape, aka ''baby-O''). Of these potentially problematic
+items, we then asked whether if seen in isolation, any would be unrecognized. Only 7
+of those 49 sign forms were deemed as potentially unrecognized. Most importantly,
+none of these variants were the forms used in the actual experiment. For example,
+EASTER was a sign used as a semantically incongruent item. Both signers agreed that
+the form used in our study was the most common form (two E-handshapes held near the
+shoulders with a twisting motion). One of the two signers knew of an alternative form
+in which the E handshape rises off of the palm of the B-handshape base hand. The
+second signer noted she would not have known what that item meant if she had seen it
+in isolation. Most importantly, such forms were not used in our study. Thus we are
+confident that in choosing our sign ending items (during which we took into account
+intuitions and feedback from native signers, including one of our co-authors on this
+paper), we have selected highly frequent and recognizable forms likely to be
+recognized by sign users, even if they do not use the same forms themselves in each
+and every case (as in the bag/sack example in English). Each sentence frame stimulus
+was filmed by having the signer begin with her hands in her lap, raise her hands to
+sign the sentence frame, then place her hands back in her lap. Each ending item was
+also filmed in this way, beginning and ending with the signer's hands in her lap.
+Each frame was filmed just once, with no ending item in mind, rather than creating a
+separate instance of each frame for each of the four possible ending items. This was
+done to provide a consistent lead-up to each ending item, eliminating the possibility
+that differing coarticulatory effects or other confounds might lead to diverging
+processing on the part of the signer prior to the onset of each ending item. During
+video editing, the stimuli were trimmed slightly so that the full movement of the
+signer's hands to and from her lap at the end of each sentence frame and beginning of
+each ending item was not seen when the stimuli were viewed during the running of the
+actual experiment. Over the course of the entire experiment, the subject saw a
+sequence of 120 of these sign sentences, with 30 instances of each of the four types
+of ending items. The ordering of the sentences was randomized for each subject and
+the type of ending item (semantically congruent, semantically incongruent,
+pseudo-sign or gesture) shown for each sentence frame also varied among subjects. A
+complete list of all 120 sentence frames with each of their possible ending items is
+given in Appendix A. For most trials, no behavioral responses were required, but in
+order to encourage subjects to attend to the meaning of the sentences, an occasional
+comprehension check was given (see Section 2.3). The sentence frames and ending items
+were separated by a 200ms blank screen, so that the slight visual discontinuity
+between the two stimuli (which were filmed separately, as described earlier) would be
+less jarring. In the Presentation program which delivered the stimuli, the default
+color of the computer screen was set to match the background behind the signer in the
+video stimuli for color and intensity. Blink intervals of randomly varying length
+between 3200 and 3700 ms were given after each trial. Longer blink intervals lasting
+an additional 4 s were provided after every eight trials. Fixation crosses appeared
+at key moments to remind subjects to maintain a consistent gaze toward the center of
+the screen, and to indicate when the next trial was about to begin. After every 30
+trials (three times total during the experiment), open-ended break sessions were
+given so that subjects could rest longer if they desired. Before the experiment
+began, subjects were given a brief practice session, six trials long, to acquaint
+them with the format of the experiment. The six ASL sentences used in the practice
+session were different from the sentences used in the actual experiment.<component
+x="301.72" y="38.3" width="251.09" height="415.92" page="3" page_width="595.28"
+page_height="793.7"></component><component x="42.52" y="383.5" width="251.11"
+height="342.67" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.11" name_ratio="0.22477064220183487" word_count="218"
+lateness="0.3333333333333333" reference_score="14.44">In order to provide an
+objective measure that could be used after-the-fact to verify that each subject had
+been paying attention to the sentences, occasional comprehension checks appearing at
+random intervals were programmed into the experiment; these appeared after each five
+to eight sentences. At each comprehension check, the subject was required to choose
+which of two words, presented on-screen, was most closely related to the meaning of
+the just-shown ASL sentence. For example, after the ASL sentence beginning with the
+frame ''BOY SLEEP IN HIS,'' the two candidate words were ''fight'' and ''sleep,''
+with the latter being the correct answer in this case. Two such words were chosen for
+each sentence frame, and were always dependent only on the sentence frame, never on
+any of the four possible ending items for that sentence frame. The two quiz words
+always appeared side-by-side with the left vs. right position on-screen being chosen
+at random on each trial for the correct and incorrect word choices. The quiz words
+were presented in English, but only frequent words were used as quiz items, so that
+users of ASL would be unlikely to be unfamiliar with them. All subjects' scores were
+deemed sufficiently high (mean: 97.3%, SD: 4.6%, range: [84.0%, 100%]) that no
+subjects were excluded because of poor performance on the quizzes.<component
+x="42.52" y="132.41" width="251.13" height="217.21" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.19" name_ratio="0.24583333333333332" word_count="480"
+lateness="0.3333333333333333" reference_score="15.0">EEG data were recorded
+continuously from 32 scalp locations at frontal, parietal, occipital, temporal and
+central sites, using AgCl electrodes attached to an elastic cap (BioSemi). Vertical
+and horizontal eye movements were monitored by means of two electrodes placed above
+and below the left eye and two others located adjacent to the left and right eye. All
+electrodes were referenced to the average of the left and right mastoids. The EEG was
+digitized online at 256 Hz, and filtered offline below 30 Hz and above 0.01 Hz. Scalp
+electrode impedance threshold values were set at 20 k X. Initial analysis of the EEG
+data was performed using the ERPLAB plugin (Lopez-Calderon &amp; Luck, in press) for
+EEGLAB (Delorme &amp; Makeig, 2004). Epochs began 200 ms before stimulus onset and
+ended 1000 ms after. Inspection of subjects' EEG data was performed by eye to check
+rejections suggested by a script run in ERPLAB whose artifact rejection thresholds
+were set at -120 lV. For all 16 subjects, in each of the four sentence ending
+conditions at least 20 of the original 30 trials remained after the rejection
+procedure just described. The statistical analyses reported below were carried out
+using the SPSS statistical package. To assess the significance of the observed
+effects, a column analysis was conducted (cf. Kim &amp; Osterhout, 2005) for which a
+separate ANOVA was run on each of four subsets of the scalp sites, as illustrated in
+Fig. 2. For the midline scalp sites, colored green in the figure, the two factors in
+the ANOVA were Electrode (one level for each of the four electrodes) and sentence
+Ending (semantically congruent sign, semantically incongruent sign, pseudo-sign and
+grooming gesture). The other three ANOVAs, corresponding to the inner (colored blue
+in the figure), outer (purple), and outermost (orange) sites, included a third factor
+of hemisphere (left or right); in addition, for these three ANOVAs the factor
+Electrode had one level for each pair of electrodes, from most anterior to most
+posterior. For the N400 analysis, the dependent measure was mean amplitude of EEG
+response within the window from 400 to 600 ms after stimulus onset. Because the
+latency of the effects related to gesture was somewhat greater, a second column
+analysis was run for the window from 600 to 800 ms after stimulus onset. For the
+purposes of these column analyses, data from the two frontmost sites (FP1 and FP2)
+and from two posterior sites (PO3 and PO4) were not used. In all cases,
+Greenhouse-Geisser (Greenhouse &amp; Geisser, 1959) adjustments for non-sphericity
+were performed where appropriate and are reflected in the reported results. In the
+following section, the outcomes for the ANOVAs performed for each time window will be
+given in the order midline, inner, outer, and outermost. This establishes the
+significance of the results, which we first introduce with illustrations and
+descriptions of the waveforms and the associated topographic maps.<component
+x="42.52" y="38.3" width="251.09" height="60.23" page="4" page_width="595.28"
+page_height="793.7"></component><component x="311.53" y="299.82" width="251.09"
+height="426.36" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.23057644110275688" word_count="399"
+lateness="0.4166666666666667" reference_score="14.56">Pictured in Figs. 3 and 4 are
+grand-average waveforms at selected electrode sites for the four sentence Ending
+conditions. Visual inspection of the waveforms reveals that all conditions evoked
+exogenous potentials often associated with written words (Hagoort &amp; Kutas, 1995);
+these include a posteriorly distributed positivity (P1) peaking at about 100 ms
+post-stimulus onset, followed by a posteriorly distributed negativity (N1) peaking at
+about 180 ms after target onset. Starting at approximately 300 ms after stimulus
+onset, we begin to see a differentiation for different sentence ending conditions
+which we will quantify in detail in the statistical analysis. Relative to the
+baseline (semantically congruent sign) condition, both the semantically incongruent
+and pseudosign conditions can be seen to have elicited negative-going waves. In
+addition, the pseudo-sign negativity is generally greater in magnitude than the
+negativity elicited in the semantically incongruent condition. In contrast, beginning
+at approximately 400 ms we observe a large positive-going wave relative to the
+baseline for the grooming gesture condition. These effects appear to be long lasting,
+extending beyond the end of the 1000 ms time window. Fig. 5 presents topographic maps
+of key contrasts, and reinforces the patterns seen Figs. 3 and 4. The maps show mean
+amplitude difference between the indicated conditions during the two time windows we
+analyzed. Again, we see that the pseudo-signs elicit a negativity that is overall
+more pronounced than the one elicited by the semantically incongruent signs, both in
+terms of magnitude and distribution. In contrast, the response to the gesture
+condition starts to diverge clearly from the others in the earlier time window,
+starting at posterior sites and then spreading more generally. We now continue with a
+presentation of the statistical results. For simplicity of presentation, only main
+effects and interactions related to sentence Ending are discussed in the text, but
+complete ANOVA results are given in Table 1. Our analyses confirm the very consistent
+patterning of mean ERP response with respect to sentence Ending that was seen in
+Figs. 3-5 and noted in the foregoing discussion. Relative to the baseline
+(semantically congruent sign) condition, the incongruent signs and the pseudo-signs
+elicited a negative-going wave, while the grooming gestures elicited a large
+positivity; also, the negative-going component elicited by the pseudo-signs was
+overall larger than the one elicited by the incongruent signs. This general pattern
+was observed for almost all scalp sites; the relatively minor exceptions are noted
+below.<component x="311.53" y="38.3" width="251.12" height="196.24" page="4"
+page_width="595.28" page_height="793.7"></component><component x="32.71" y="111.49"
+width="251.12" height="238.13" page="5" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.08" name_ratio="0.21791044776119403" word_count="335"
+lateness="0.4166666666666667" reference_score="15.38">For the earlier of the two time
+windows, the midline ANOVA found a main effect of Ending (p &lt; 0.001) and an
+interaction of Ending by Electrode (p &lt; 0.001). Mean amplitude for Ending showed
+the predicted pattern among condition means, with respective means for pseudo-signs,
+incongruent signs, congruent signs and grooming gestures equal to 4.95, 4.20, 3.36
+and 1.16 lV. ( ( (( The gesture condition mean differed significantly from the rest
+(p &lt; 0.05 for gesture vs. baseline, p's &lt; 0.001 for the other two comparisons);
+the other differences did not reach significance. It was at the frontmost sites that
+the baseline differed the most from the incongruent and pseudo-sign conditions (p
+&lt; 0.05 and p = 0.062, respectively). At the vertex electrode CZ, a departure from
+the predicted progression of condition means was found; incongruent signs showed the
+most negative amplitude here, which however was not significantly different from the
+amplitudes for pseudosigns or congruent signs. At the other three midline electrode
+sites, the familiar pattern among the four Ending conditions was seen. The
+inner-electrode ANOVA found a main effect of Ending (p &lt; 0.001) and a marginal
+Ending by Electrode interaction (p = 0.094). Mean amplitudes for the four conditions
+progressed in the predicted way; for pseudo-signs, incongruent signs, congruent signs
+and grooming gestures, respective means were 4.54, ( 3.57, 2.56 and 0.302. Pairwise
+differences between means ( ( ( were all significant, except for incongruent signs
+vs. congruent signs (marginally significant at p = 0.088) and pseudo-signs vs.
+incongruent signs (p = 0.24). The same ordering from most negative to most positive
+means for the four conditions was seen at all three levels of electrode. The most
+anterior sites showed the greatest differences between the baseline condition mean
+and the incongruent and pseudo-sign means; at these sites, both pairwise differences
+were significant. For the outer electrodes ANOVA, the results included a main effect
+of Ending (p &lt; 0.001). The respective overall mean amplitudes for the pseudo-sign,
+incongruent, congruent and gesture<component x="32.71" y="38.3" width="251.09"
+height="39.31" page="5" page_width="595.28"
+page_height="793.7"></component><component x="301.72" y="38.3" width="251.12"
+height="311.33" page="5" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.13333333333333333" word_count="30"
+lateness="0.5" reference_score="16.28">Fig. 4. Grand-average waveforms at the OZ
+site. Units on the vertical axis are microvolts; successive tick marks on the
+horizontal axis are 200 ms apart. Negative is plotted downward.<component x="42.52"
+y="103.54" width="251.04" height="23.49" page="6" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.08"
+year_ratio="0.0" cap_ratio="0.08" name_ratio="0.21951219512195122" word_count="246"
+lateness="0.5" reference_score="15.83">(cases of the latter were: for pseudo-sign vs.
+incongruent sign, p = 0.11; for incongruent sign vs. congruent sign, p = 0.14, for
+gesture vs. congruent sign, p = 0.062). The absence of a significant Ending by
+Electrode interaction is due to the fact that the predicted pattern of pseudo-sign
+&lt; incongruent sign &lt; congruent sign &lt; gesture was seen for all four levels
+of Electrode. Finally, the ANOVA for the outermost set of electrodes found a
+significant main effect of sentence Ending (p &lt; 0.001) and an interaction of
+Ending by Electrode (p &lt; 0.05). The main effect of Ending reflects the pattern
+already seen repeatedly; for the outermost sites, mean EEG amplitudes were 2.45,
+1.34, 1.03 and ( ( ( 0.083 lV, respectively, for the pseudo-signs, incongruent signs,
+congruent signs and grooming gestures. Follow-up comparisons showed that all of the
+pairwise differences among conditions were significant, except for the congruent sign
+vs. incongruent sign comparison (p = 0.39), and the incongruent sign vs. pseudo-sign
+comparison, which was however marginally significant (p = 0.078). The Ending by
+Electrode interaction reflects two exceptions to the predicted pattern for the four
+Ending conditions. First, at the two most posterior sites, the amplitude for the
+incongruent sign condition was slightly greater than for the congruent sign condition
+(this difference, however, did not approach significance; p = 0.62). Second, at the
+anterior electrode sites the gesture condition was not associated with significantly
+greater positivity than the other three conditions.<component x="311.53" y="467.18"
+width="251.09" height="259.0" page="6" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.11"
+year_ratio="0.0" cap_ratio="0.09" name_ratio="0.18518518518518517" word_count="378"
+lateness="0.5" reference_score="16.49">For the later time window, the
+midline-electrode ANOVA found a main effect of Ending (p &lt; 0.001) and an
+interaction of Ending by Electrode (p &lt; 0.001). Mean amplitude for the four Ending
+conditions diverged slightly here from the familiar pattern, with respective means
+for pseudo-signs, incongruent signs, congruent signs and grooming gestures equal to
+2.43, 2.47, 1.33 and 3.97. ( ( ( The comparison of pseudo-sign vs. incongruent sign
+did not approach significance however (p = 0.96), nor did the comparison of
+pseudo-sign vs. congruent sign (p = 0.31). The congruent vs. incongruent sign
+comparison was marginally significant at p = 0.063. The gesture means were again very
+different from the rest (all three p's &lt; 0.001). The inner-electrode ANOVA found a
+main effect of Ending (p &lt; 0.001) and an Ending by Electrode interaction (p &lt;
+0.001). Mean amplitudes for the four conditions progressed in the predicted way, with
+the gesture means again very different from the rest (all three p's &lt; 0.001). The
+baseline vs. incongruent comparison also reached significance (p &lt; 0.05), and the
+baseline vs. pseudosign comparison showed a near-significant trend (p = 0.13). The
+same ordering from most negative to most positive means for the four conditions was
+seen at all three levels of electrode (respective mean values for pseudo-sign,
+incongruent sign, congruent sign, grooming gesture = 1.86, 1.60, 0.43, 5.05), with
+gesture ( ( ( means being most divergent from the other three condition means at
+posterior sites. For the outer electrodes ANOVA, the results included a main effect
+of Ending (p &lt; 0.001) and an interaction of Ending by Electrode (p &lt; 0.05). The
+familiar pattern of pseudo-sign &lt; incongruent sign &lt; congruent sign &lt;
+grooming gesture was seen for all four levels of Electrode (mean values in the usual
+order = 1.60, 0.85, ( ( 0.21, 3.35), but only the only differences reaching
+significance ( were for gesture vs. the other conditions (all three p's &lt; 0.001).
+The baseline vs. pseudo-sign difference showed a near-significant trend (p = 0.12).
+Again, gesture means showed the greatest differences from the other three condition
+means at posterior electrode sites. Finally, the ANOVA for the outermost set of
+electrodes found a highly significant effect of sentence Ending (p &lt; 0.001), as
+well as<component x="311.53" y="38.29" width="251.12" height="395.01" page="6"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.16"
+year_ratio="0.0" cap_ratio="0.53" name_ratio="0.29411764705882354" word_count="17"
+lateness="0.5833333333333334" reference_score="18.36">Table 1 Summary of ANOVA
+results, with df = degrees of freedom, MSE = mean squared error.<component x="32.71"
+y="711.18" width="254.53" height="14.93" page="7" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.01" cap_ratio="0.07" name_ratio="0.23475756120979357" word_count="2083"
+lateness="0.75" reference_score="18.28">than would be expected for written language,
+but consistent with earlier studies on auditory language (Holcomb &amp; Neville,
+1990, 1991). Neville et al. suggested that this delay might be due to the fact that
+the recognition point of different signs will tend to vary more than for printed
+language, in which all information is made available at the same time. Capek et al.
+(2009) also found a relatively late N400 response to semantic incongruity in sign
+sentences; this bilateral and posteriorly prominent effect had an onset of about 300
+ms post-stimulus onset and peaked at about 600 ms post-stimulus onset, very much like
+the negativities we have described in the present study. These effects are somewhat
+different from those that have been described in studies incorporating incongruent
+co-speech gestures and other sorts of non-linguistic imagery like drawings,
+photographs and videos. In Wu and Coulson's (2005) study of contextually incongruent
+gestures, a component described by the researchers as a ''gesture N450'' was
+observed. Wu and Coulson noted the similarity of this effect to the N450 reported by
+Barrett and Rugg (1990) for second items in unrelated picture pairs relative to
+related picture pairs (e.g. wrench/fork vs. knife/fork), stating (p. 659) that
+consistent with their own findings, ''most such 'picture' ERP studies report a
+broadly distributed negativity largest at frontal electrode sites and not evident at
+occipital sites (Barrett &amp; Rugg, 1990; Holcomb &amp; McPherson, 1994; McPherson
+&amp; Holcomb, 1999; Sitnikova et al., 2003; West &amp; Holcomb, 2002).'' In
+contrast, the negativity reported in the present study was quite evident at occipital
+sites, as can be seen clearly in Figs. 3 and 4. A second notable finding in our study
+concerns deaf subjects' ERP response in the phonologically legal pseudo-sign
+condition, which was also consistent with an N400 response but was generally larger
+(more negative) than the negativity seen for semantically incongruent but fully
+lexical signs. This provides further evidence for broad processing similarities for
+different linguistic modalities, in the light of similar findings for pseudo-words in
+earlier studies (Bentin, 1987; Bentin et al., 1985; Hagoort &amp; Kutas, 1995). It is
+interesting, however, that phonologically legal pseudo-signs did not more strongly
+differentiate from the semantically incongruent signs in the present study. This may
+be an indication that our pseudo-signs (or some of their sub-lexical components) are
+activating lexical representations to a substantial degree (cf. Friedrich, Eulitz,
+&amp; Lahiri, 2006), and that at the same time, these representations are incongruent
+with the sentential contexts in which they have been presented. The pseudo-sign and
+incongruent sign conditions shared another similarity in that the effects they
+elicited were very prominent at occipital sites, which differs from what has
+traditionally been observed in studies of word processing. Whether this is a
+reflection of the modality of expression or other experimental factors must await
+further study, though results of Corina et al. (2007), discussed below, may offer
+some insights about useful directions such research might take. A third set of
+findings, concerning the outcome related to our non-linguistic grooming actions, is
+especially provocative. In contrast to the three other kinds of sentence-final items,
+all of which could be considered linguistic (i.e. as actual lexical items in two
+cases, and phonologically legal lexical gaps in the third), the non-linguistic
+grooming actions elicited a large positivity. As noted earlier, phonologically
+illegal words in ERP studies have in some cases elicited a positive-going component
+rather than an N400 (Holcomb &amp; Neville, 1990; Ziegler et al., 1997). Holcomb and
+Neville (1990) examined differences between pseudo-words and non-words in the visual
+and auditory modalities in the context of a lexical decision experiment. Pseudo-words
+accorded with phonotactic constraints of English; visually presented non-words were
+composed of consonant strings and auditory non-words were words played backwards. The
+researchers reported that within an early time window (150- 300 ms), auditory
+non-words (but not visual non-words) elicited a more negative response than
+pseudo-words, but only at anterior and right hemisphere sites. In a later time window
+(300-500 ms), the response to non-words was more positive for both modalities, and
+like the positivity seen in the present study, this positivity was long-lasting,
+continuing past the 1000 ms time-point. Ziegler et al. (1997) examined the effects of
+task constraints on the processing of visually presented words, pseudo-words and
+non-words. In a letter search task, following a post-stimulus N1P2 complex, the
+researchers reported a negative component, peaking around 350 ms, which was larger
+for words and pseudo-words than for non-words. A late positive component (LPC) was
+then generated that appeared to be slightly larger for non-words than for words or
+pseudo-words. In a second experiment, in which subjects' responses to the three types
+of stimuli were delayed, the ERP response in the 300-500 ms window was more positive
+to nonwords than to words and pseudo-words; responses for words and pseudo-words did
+not significantly differ. In a final experiment which required a semantic
+categorization of the target, a negative component with a peak around 400 ms was
+elicited in response to words and pseudo-words. In contrast, a striking late positive
+component was observed in response to non-words; this lasted from 300 ms to the end
+of the recording period. Thus, across multiple studies we see that illegal non-words,
+relative to pseudo-words and real words, appear to elicit a large late positivity.
+This positivity has sometimes been interpreted as a P300 response (e.g. Holcomb &amp;
+Neville, 1990). In the present experiment, the centro-parietal distribution of the
+positive component elicited in the gesture condition also corresponds to the typical
+distribution of the P300 component. At least three interpretations of this effect may
+be relevant here. First, a P300 response is well-attested in studies making use of
+stimuli perceived by subjects to be in a low-probability category (e.g. Johnson &amp;
+Donchin, 1980). In our experiment, grooming gestures occurred 1/4 of the time,
+rendering these non-linguistic events low-probability with respect to the other three
+(linguistic) sentence ending conditions. Second, ERP differences between non-words
+and words have been attributed to the fact that these non-linguistic items have
+little or nothing in common with lexical entries and therefore do not generate
+lexical activity (cf. Rugg &amp; Nagy, 1987). Third, the ERP differences observed
+between pseudo-words and non-words have also been suggested to reflect a pre-lexical
+filtering process that quickly rejects non-linguistic items based upon aberrant
+physical characteristics (Holcomb &amp; Neville, 1990). For example, Ziegler et al.
+(1997) suggest such a categorization may be based on a spelling check in the case of
+non-word consonant-string stimuli. This last interpretation accords well with a
+possibility we noted in the Introduction, that such an ERP response may be due to the
+operation of a filtering/rejection mechanism, allowing language users to efficiently
+reject items in the incoming linguistic signal that do not fall within some limits of
+linguistic acceptability. The gesture stimuli in the present study, in lacking the
+semantic appropriateness of semantically congruent signs, the lexicality of
+incongruent signs, and even the phonological legality of pseudo-signs, apparently
+fail to reach some ''acceptability threshold,'' causing them to be rejected and thus
+dealt with during processing in a qualitatively different way. This hypothesis also
+permits us to predict an answer to an interesting related question: what kind of ERP
+response would be elicited by phonologically illegal non-signs in sentence contexts
+like those explored in the present study? The positivities seen in studies
+incorporating non-words; the crossmodality parallels we have already noted in ERP
+studies of spoken, written and signed language; as well as the positive waveforms
+seen in response to the non-linguistic gesture stimuli in the present study; all
+support the prediction that phonologically illegal non-signs would elicit a
+positive-going waveform. However, confirmation of this must await future research. We
+have already alluded to the growing number of studies which have used ERP methodology
+to examine the contributions of co-speech manual gestures to the interpretation of
+both linguistic and non-linguistic stimuli (Holle &amp; Gunter, 2007; Kelly et al.,
+2004; Ozy&#xFC;rek, Willems, Kita, &amp; Hagoort, 2007; Wu &amp; Coulson, 2005,
+2007a, 2007b). Many of these studies have used iconic manual gestures that depict a
+salient visual-spatial property of concrete objects, such as their size and shape or
+an associated manner of movement (but see also Cornejo et al., 2009). Collectively
+these studies suggest that co-speech manual gestures influence semantic
+representations, and that discrepancies between gestural forms and the semantic
+contexts in which they occur lead to greater processing costs on the part of language
+perceivers. This in turn results in increased negativities in the time window often
+associated with the classic N400 effect, observed in response to word meanings that
+violate the wider semantic context (Kutas &amp; Hillyard, 1980). For example, Kelly
+et al. (2004) observed modulation of ERP responses for speech tokens that were either
+accompanied by matching, complementary or mismatched hand gestures. An N400-like
+component was observed for mismatched gesture-speech tokens relative to the other
+conditions. Wu and Coulson (2005) examined ERPs for subjects who watched cartoons
+followed by a gestural depiction that either matched or mismatched the events shown
+in the cartoons. Gestures elicited an N400-like component (a socalled ''gesture
+N450'') that was larger for incongruent than congruent items. Ozy&#xFC;rek et al.
+(2007) recorded EEG while subjects listened to sentences with a critical verb (e.g.
+''knock'') accompanied by a related co-speech gesture (e.g. KNOCK). Verbal/gestural
+semantic content either matched or mismatched the earlier part of the sentence. The
+researchers noted that following the N1-P2 complex, the ERP response to mismatch
+conditions started to deviate from the response to the correct condition in the
+latency window of the P2 component, around 225-275 ms post stimulus onset, while at
+around 350 ms, the mismatch conditions deviated from the congruent condition. This
+was followed by a similar effect with a peak latency somewhat later than the one
+usually seen for the N400. These data were taken as evidence that that the brain
+integrates both speech and gestural information simultaneously. However, it is
+interesting to note that double violations (speech and gesture) did not produce
+additive effects, suggesting parallel integration of speech and gesture in this
+context. In contrast, the grooming gesture condition in the present study was not
+associated with any N400-like effects. We suggest that this is due to the fact that
+subjects were unlikely to perceive these actions as being akin to co-speech (or
+co-sign) gestures, but instead as something qualitatively different. This detection
+process evidently occurred quite rapidly during online processing of these stimuli,
+comparable to the speed at which semantic processing was carried out for the
+linguistic stimuli. The findings of a PET study by Corina et al. (2007) may shed some
+additional light on this outcome. In that study, deaf signers were found to have
+engaged different brain regions when processing ASL signs and selfgrooming gestures,
+in contrast with the hearing non-signers who also took part in the study.
+Specifically, deaf signers engaged lefthemisphere perisylvian language areas when
+processing ASL sign forms, but recruited middle-occipital temporal-ventral regions
+when processing self-grooming actions. The latter areas are known to be involved in
+the detection of human bodies, faces, and movements. The present findings add
+temporal precision the results of that study, enabling us to determine when such
+information is rejected as non-linguistic during the course of ASL sentence
+processing. The findings of Corina et al. (2007) may also speak to the fact, noted
+earlier, that the N400 effects observed in the present study were more prominent at
+occipital sites than the N400 effects typically seen in analogous speech studies. The
+effects seen in the present study's gesture condition were strongest in posterior
+areas as well, though in both cases, one must be cautious in making a connection
+between the scalp topography of ERP effects and loca4 tion of their source. Finally,
+an alternative interpretation of the positivity seen in the grooming gesture
+condition in the present study is that it is due to subjects' interpreting these
+non-linguistic final items as missing information, i.e. as the absence of a final
+item, rather than a final item which is present yet enigmatic. While this cannot be
+entirely ruled out, it should be noted that the pseudo-signs could also potentially
+be considered ''semantically void'' items, but the responses to the pseudo-signs
+(which have a discernible linguistic structure consistent with that of real ASL
+lexical items) and the gestures (which do not) were qualitatively different. Relative
+to the baseline condition, no significant positivity was seen in any time window for
+the pseudo-signs, and no significant negativity was seen in any time window for the
+grooming gestures.<component x="42.52" y="38.3" width="251.12" height="687.87"
+page="8" page_width="595.28" page_height="793.7"></component><component x="311.53"
+y="38.3" width="251.09" height="687.88" page="8" page_width="595.28"
+page_height="793.7"></component><component x="32.71" y="38.3" width="251.14"
+height="687.87" page="9" page_width="595.28"
+page_height="793.7"></component><component x="301.72" y="540.37" width="251.09"
+height="185.82" page="9" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.24742268041237114" word_count="194"
+lateness="0.75" reference_score="16.56">To the best of our knowledge, this is the
+first ERP study of sign language users that investigates sentential processing in
+such a wide a range of lexical/semantic contexts. Consistent with previous research
+on both spoken and signed language, we found that ASL sentences ending with
+semantically incongruent signs were associated with significant N400-like responses
+relative to the baseline condition, in which sentences ended with semantically
+congruent signs. Furthermore, we found that phonologically legal pseudosign sentence
+endings elicited an N400-like effect that was somewhat stronger than the response to
+the semantically incongruent signs; this is consistent with existing work on spoken
+language, but represents a new finding for signed language. In contrast to the
+incongruent sign and pseudo-sign conditions, grooming actions elicited a very large
+positive-going wave; this is also a new finding, and complements earlier work on
+spoken language. The fact that our results largely parallel those seen in analogous
+ERP studies of spoken language constitutes strong evidence that highlevel linguistic
+processing shows remarkable consistency across modalities. Moreover, our results
+offer important new information about the relationship between sign and action
+processing, particularly the topography and timing of the processes that are
+involved.<component x="301.72" y="274.26" width="251.12" height="227.64" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.11"
+year_ratio="0.0" cap_ratio="0.39" name_ratio="0.32142857142857145" word_count="56"
+lateness="0.75" reference_score="18.46">We thank the staff and students at Gallaudet
+University for helping make this study possible, and Kearnan Welch and Deborah
+Williams for their assistance in data collection. We also thank two anonymous
+reviewers for valuable feedback concerning the presentation of our results. This work
+was supported in part by Grant NIH-NIDCD 2ROI-DC03099-11, awarded to David
+Corina.<component x="301.72" y="177.26" width="251.08" height="60.23" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.02" name_ratio="0.22413793103448276" word_count="58"
+lateness="0.75" reference_score="16.69">Table A1 lists all 120 sentence frames and
+three of the corresponding endings for each sentence: the semantically congruent
+signs, semantically incongruent signs and pseudo-signs. In the fourth class of
+endings, the gesture stimuli, the sign performer was seen making brief grooming
+actions such as head scratching, eye rubbing or passing her fingers through her hair.
+To create<component x="301.72" y="78.44" width="251.08" height="60.29" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.03" cap_ratio="0.06" name_ratio="0.2222222222222222" word_count="36"
+lateness="0.75" reference_score="22.72">4 It should also be noted that the effects
+seen in the present study were for gestures in a sentence context, while in Corina et
+al. (2007) the sign and gesture stimuli were seen in isolation.<component x="301.72"
+y="38.63" width="251.02" height="24.65" page="9" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.63"
+year_ratio="0.0" cap_ratio="3.5" name_ratio="0.020967741935483872" word_count="620"
+lateness="0.8333333333333334" reference_score="5.48">FRAME Semantically Semantically
+Pseudo-sign Quiz items congruent incongruent Correct Incorrect 1 BOY SLEEP IN HIS BED
+LEMON BARK.A' sleep fight 2 HEAR BARK BARK LOOK RIGHT PRO DOG SECRET HOUSE.V hear
+touch 3 MAN PRO CARPENTER BUILD HOUSE HAIRCUT NOSE.V'' build eat 4 DOOR PRO LOCK
+LOOK-FOR KEY NOSE G_2H (contact 2x) lock hat 5 WATER+CL:pond PRO CL:many-across FISH
+WORD GHOST.S water wine 6 MOTORCYCLE BROKE-DOWN-REPEATEDLY FINALLY BOUGHT NEW CAR
+GHOST wear sick one lights bath angry green sit drive boy mouse watch help read steal
+fix burn work shower students hat police student mother father room bread kill love
+full hard pirate circle ball tennis tax card love try see hear touch dry milk hat
+scientist cover catch draw son aunt taste cousin arm rats hill cut arm mall mouse bad
+wheel newspaper chair listen mom zoo men army drink pants hotel sun beautiful
+computer WRIST.CS (open &amp; close) buy 7 PRO3 BECOME-ILL SICK CAN'T GO-TO WORK
+BOTTLE NOSE.5 (2x) 8 MY HOUSE LIGHTS BLACKOUT-POW CL:set-up-around CANDLE ELEPHANT
+KNOCK.8 9 DOG ANGRY CHASE CAT EASTER KNOCK.G 10 #PATIENT SIT-HABITUAL ANALYZE-PRO1,
+PRO3 PSYCHOFRANCE MONEY.X LOGIST 11 BOY STOLE MONEY INJURY PALM_up.5 12 KIDS PRO3
+CL:go-out-in-group WATCH (theater) PLAY WEALTH BOOK.openB on chin 13 DAUGHTER MY LIKE
+READ BOOK VEGETABLE X (moving left to right) 14 PLUMBER HIS JOB FIX TOILET APPLE
+BEANS.C 15 PRIEST WORK THERE CHURCH BEANS EXAM_2H.openF 16 STUDENTS WRITE-TOOK EXAM
+RING MUSIC.V'' 17 POLICEMAN PRO CATCH THIEF MUSIC REASON.5'' 18 MOTHER HAVE 3
+CHILDREN REASON PIC.X 19 DARK ROOM PRO FOR-FOR DEVELOP PICTURE SLED INTERNET.H'' 20
+HUNTER SHOOT-AT KILL DUCK INTERNET PAPER.3' 21 AIRPLANE SEAT FULL CL:mass 300 PEOPLE
+PAPER GOLD.F 22 PIRATE PRO3 HUNT WHERE GOLD NAPKIN EMAIL.L'' 23 GOLFER STROKE
+CL:ball-fly-across WRONG CL:ball-into-water POND PICKLE NOSE(vb).openB 24 SPRING THIS
+YEAR MINE TAX HEAVY DEBT CHOCOLATE EXAMPLE.Z 25 KING-PRO FALL-IN-LOVE QUEEN EXAMPLE
+STAR_2H.X 26 TELESCOPE I TELESCOPE-FOCUS SEE STAR RUBBISH PENNY.flat0' 27 #APOLLO
+ROCKET-MAN GO-TO TOUCH MOON BANANA MONEY.C' 28 FARMER NOW CL:milk (verb) COW PENCIL
+DANCE.openH 29 SCIENTIST INVENT++ HARD EXPERIMENT TEACHER BUTTERFLY. bent5 30
+MURDERER PRO3 CAUGHT PUT-INTO JAIL LOBSTER JAIL.T 31 FATHER COMMAND SON GO CLEAN
+EARRINGS VOICE-UP.1 DOLL WHITE (on neck) GIRAFFE XMAS.5'' MAGAZINE TALL.3 SAUSAGE
+TIME.openB'' HAMBUR-GER DANCE. openH'' DANCE TIRED_2H.H LUNGS MATH_2H.B BUTTERFLY
+DAMAGE.Y LANGUAGE BEACH.L CABBAGE MONEY.5'' CAP KNOW.20 BATHROOM MATHEMATICS
+WHERE.bent4 32 NEW YORK TIMES NEWSPAPER ITS TENDENCY I READ MANY ARTICLE 33 JUDGE
+PRO3 ARGUMENT LISTEN LISTEN THINK-IT-OVER READY DECISION MAKE 34 MY BIRTHDAY SOON
+COME MY MOM PRO3 BAKE CAKE 35 #ZOO ITS-TENDENCY HAVE MANY VARIOUS ANIMAL 36 MEN PRO3
+CL:group-up GO-OUT CHUG BEER 37 I JOIN ARMY I SHOPPING CLOTHES NEED SHIRT PANTS
+#BOOTS 38 TEA DRINK TASTE BITTER NEED SUGAR 39 PANTS CL:pull-on CL:fit-loose NEED
+BELT 40 I CALL HOTEL RESERVE ROOM 41 WOMAN CL:lie-down SUNNING THERE BEACH 42 MUSEUM
+I LOOK-AT HALLWAY LOOK-AT WOW BEAUTIFUL PAINTING 43 #OFFICE MAX I ENTER SHOP-AROUND
+PRO #FAX PRO COMPUTER PRINTER PRO 44 MORNING BOY PRO CL:get-on-bike RIDE-BIKE
+CL:deliver 45 MY LIVING ROOM EMPTY NONE 46 MONEY FATHER GAVE-ME I PUT-IN WHERE 47
+POPCORN I MAKE FINISH I CL:pour-over 48 I THIRST-FOR WATER NEED 49 ME ENTER BDRM I
+SPOT MOUSE CL:sneak-under 50 FROG CL:tongue-stick-out-retract GULP 51 GRASS
+CL:thereabout I WALK CL:walk-around WET OH 52 GIRLFRIEND GO FURNITURE STORE BUY BRING
+53 BIRD EAT SLEEP WHERE 54 WOMAN PRO3 TOP ATHLETE PARTICIPATE 55 COOK PRO3 EXPERT
+THEIRS COOKING 56 I ENTER HOUSE I HEAR TICK-TICK AHA! PRO3 57 VW BUS I BUY DRIVE
+WRONG BROKEDOWN 58 OUTSIDE GIRL CL:lie-down OBSERVE 59 LAWYER
+CL:sit-down-with-someone DISCUSS WITH PRO 60 I INFORM SISTER PLEASE PACK BRING 61
+MAIL/LTR I GOT OPEN-ENVELOPE I GOT 62 MAN PRO3 I SEE PRO3 FIX FINISH CONSTRUCT 63
+TARA PRO WANT MAKE PIE NEED BUY<component x="54.82" y="56.5" width="497.51"
+height="593.07" page="10" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.23"
+year_ratio="0.04" cap_ratio="0.34" name_ratio="0.16341463414634147" word_count="1640"
+lateness="1.0" reference_score="30.65">Arbib, M. A. (2005). Interweaving protosign
+and protospeech: Further developments beyond the mirror. Interaction Studies: Social
+Behaviour and Communication in Biological and Artificial Systems, 6, 145-171. Arbib,
+M. A. (2008). From grasp to language: Embodied concepts and the challenge of
+abstraction. Journal of Physiology-Paris, 102, 4-20. Barrett, S. E., &amp; Rugg, M.
+D. (1989). Event-related potentials and the semantic matching of faces.
+Neuropsychologia, 27, 913-922. Barrett, S. E., &amp; Rugg, M. D. (1990).
+Event-related potentials and the semantic matching of pictures. Brain and Cognition,
+14, 201-212. Bentin, S. (1987). Event-related potentials, semantic processes, and
+expectancy factors in word recognition. Brain and Language, 31, 308-327. Bentin, S.,
+McCarthy, G., &amp; Wood, C. C. (1985). Event-related potentials, lexical decision,
+and semantic priming. Electroencephalography &amp; Clinical Neurophysiology, 60,
+353-355. Bobes, M. A., Vald&#xE9;s-Sosa, M., &amp; Olivares, E. (1994). An ERP study
+of expectancy violation in face perception. Brain and Cognition, 26, 1-22. Brown, C.,
+&amp; Hagoort, P. (1993). The processing nature of the N400: Evidence from masked
+priming. Journal of Cognitive Neuroscience, 5, 34-44. Capek, C. M., Grossi, G.,
+Newman, A. J., McBurney, S. L., Corina, D., Roeder, B., et al. (2009). Brain systems
+mediating semantic and syntactic processing in deaf native signers: Biological
+invariance and modality specificity. Proceedings of the National Academy of Sciences
+of the United States of America, 106, 8784-8789. Chao, L. L., Nielsen-Bohlman, L.,
+&amp; Knight, R. T. (1995). Auditory event-related potentials dissociate early and
+late memory processes. Electroencephalography &amp; Clinical Neurophysiology, 96,
+157-168. Corballis, M. C. (2009). The evolution of language. Annals of the New York
+Academy of Sciences, 1156, 19-43. Corina, D. P., McBurney, S. L., Dodrill, C.,
+Hinshaw, K., Brinkley, J., &amp; Ojemann, G. (1999). Functional roles of Broca's area
+and SMG: Evidence from cortical stimulation mapping in a deaf signer. NeuroImage, 10,
+570-581. Corina, D., Chiu, Y.-S., Knapp, H., Greenwald, R., San Jose-Robertson, L.,
+&amp; Braun, A. (2007). Neural correlates of human action observation in hearing and
+deaf subjects. Brain Research, 1152, 111-129. Corina, D. P., &amp; Knapp, H. P.
+(2006). Psycholinguistic and neurolinguistic perspectives on sign languages. In M. J.
+Traxler &amp; M. A. Gernsbacher (Eds.), Handbook of psycholinguistics (2nd ed., pp.
+1001-1024). San Diego, CA: Academic Press. Corina, D. P., San Jose-Robertson, L.,
+Guillemin, A., High, J., &amp; Braun, A. R. (2003). Language lateralization in a
+bimanual language. Journal of Cognitive Neuroscience, 15, 718-730. Corina, D.,
+Grosvald, M., &amp; Lachaud, C. (2011). Perceptual invariance or orientation
+specificity in American Sign Language? Evidence from repetition priming for signs and
+gestures. Language and Cognitive Processes, 26, 1102-1135. Cornejo, C., Simonetti,
+F., Ib&#xE1;&#xF1;ez, A., Aldunate, N., L&#xF3;pez, V., &amp; Ceric, F. (2009).
+Gesture and metaphor comprehension: Electrophysiological evidence of crossmodal
+coordination by audiovisual stimulation. Brain and Cognition, 70, 42-52. Delorme, A.,
+&amp; Makeig, S. (2004). EEGLAB: An open source toolbox for analysis of single-trial
+EEG dynamics. Journal of Neuroscience Methods, 134, 9-21. Emmorey, K. (2002).
+Language, cognition, and the brain: Insights from sign language research. Mahwah, NJ:
+Lawrence Erlbaum. Emmorey, K., Xu, J., Gannon, P., Goldin-Meadow, S., &amp; Braun, A.
+(2010). CNS activation and regional connectivity during pantomime observation: No
+engagement of the mirror neuron system for deaf signers. NeuroImage, 49, 994-1005.
+Friedrich, C., Eulitz, C., &amp; Lahiri, A. (2006). Not every pseudoword disrupts
+word recognition: An ERP study. Behavioral and Brain Functions, 2, 36. Friederici, A.
+D. (2002). Towards a neural basis of auditory sentence processing. Trends in
+Cognitive Sciences, 6, 78-84. Frishberg, N. (1987). Ghanaian Sign Language. In J. Van
+Cleve (Ed.), Gallaudet encyclopaedia of deaf people and deafness. New York:
+McGraw-Gill Book Company. Ganis, G., &amp; Kutas, M. (2003). An electrophysiological
+study of scene effects on object identification. Cognitive Brain Research, 16,
+123-144. Ganis, G., Kutas, M., &amp; Sereno, M. I. (1996). The search for ''common
+sense'': An electrophysiological study of the comprehension of words and pictures in
+reading. Journal of Cognitive Neuroscience, 8, 89-106. Gentilucci, M., &amp;
+Corballis, M. (2006). From manual gesture to speech: A gradual transition.
+Neuroscience &amp; Biobehavioral Reviews, 30, 949-960. Goldin-Meadow, S. (2003).
+Hearing gestures: How our hands help us think. Cambridge, MA: Harvard University
+Press. Greenhouse, W. W., &amp; Geisser, S. (1959). On methods in the analysis of
+profile data. Psychometrika, 24, 95-112. Hagoort, P., &amp; Brown, C. (1994). Brain
+responses to lexical ambiguity resolution and parsing. In L. Frazier, J. Clifton
+Charles, &amp; K. Rayner (Eds.), Perspectives in sentence processing (pp. 45-80).
+Hillsdale, NJ, UK: Lawrence Erlbaum Associates. Hagoort, P., &amp; Kutas, M. (1995).
+Electrophysiological insights into language deficits. In F. Boller &amp; J. Grafman
+(Eds.), Handbook of neuropsychology (pp. 105-134). Amsterdam: Elsevier. Hagoort, P.,
+&amp; van Berkum, J. (2007). Beyond the sentence given. Philosophical Transactions of
+the Royal Society of London. Series B: Biological Sciences, 362, 801-811. Holcomb, P.
+J., &amp; McPherson, W. B. (1994). Event-related brain potentials reflect semantic
+priming in an object decision task. Brain and Cognition, 24, 259-276. Holcomb, P. J.,
+&amp; Neville, H. J. (1990). Auditory and visual semantic priming in lexical
+decision: A comparison using event-related brain potentials. Language and Cognitive
+Processes, 5, 281-312. Holcomb, P. J., &amp; Neville, H. J. (1991). Natural speech
+processing: An analysis using event-related brain potentials. Psychobiology, 19,
+286-300. Holle, H., &amp; Gunter, T. C. (2007). The role of iconic gestures in speech
+disambiguation: ERP evidence. Journal of Cognitive Neuroscience, 19, 1175-1192.
+Johnson, B. W., &amp; Hamm, J. P. (2000). High-density mapping in an N400 paradigm:
+Evidence for bilateral temporal lobe generators. Clinical Neurophysiology, 111,
+532-545. Johnson, R., Jr, &amp; Donchin, E. (1980). P300 and stimulus categorization:
+Two plus one is not so different from one plus one. Psychophysiology, 17, 167-178.
+Kegl, J., Senghas, A., &amp; Coppola, M. (1999). Creation through contact: Sign
+language emergence and sign language change in Nicaragua. In M. DeGraff (Ed.),
+Language creation and language change: Creolization, diachrony, and development (pp.
+179-237). Cambridge MA: MIT Press. Kelly, S. D., Kravitz, C., &amp; Hopkins, M.
+(2004). Neural correlates of bimodal speech and gesture comprehension. Brain and
+Language, 89, 243-260. Kim, A., &amp; Osterhout, L. (2005). The independence of
+combinatory semantic processing: Evidence from event-related potentials. Journal of
+Memory and Language, 52, 205-225. Kim, A., &amp; Pitk&#xE4;nen, I. (submitted for
+publication). Dissociation of ERPs to structural and semantic processing difficulty
+during sentence-embedded pseudoword processing. Kutas, M., &amp; Hillyard, S. A.
+(1980). Reading senseless sentences: Brain potentials reflect semantic incongruity.
+Science, 207, 203-208. Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials
+during reading reflect word expectancy and semantic association. Nature, 307,
+161-163. Kutas, M., Neville, H. J., &amp; Holcomb, P. J. (1987). A preliminary
+comparison of the N400 response to semantic anomalies during reading, listening, and
+signing. Electroencephalography and Clinical Neurophysiology, Supplement, 39,
+325-330. Liddell, S. K. (2003). Grammar, gesture, and meaning in American Sign
+Language. Cambridge, UK: Cambridge University Press. Lopez-Calderon, J., &amp; Luck,
+S. (in press). ERPLAB. Plug-in for EEGLAB. In development at the Center for Mind and
+Brain, University of California at Davis. MacSweeney, M., Campbell, R., Woll, B.,
+Giampietro, V., David, A. S., McGuire, P. K., et al. (2004). Dissociating linguistic
+and nonlinguistic gestural communication in the brain. NeuroImage, 22, 1605-1618.
+McPherson, W. B., &amp; Holcomb, P. J. (1999). An electrophysiological investigation
+of semantic priming with pictures of real objects. Psychophysiology, 36, 53-65. Meir,
+I., Sandler, W., Padden, C., &amp; Aronoff, M. (2010). Emerging sign languages. In M.
+Marschark &amp; P. Spencer (Eds.). Oxford handbook of deaf studies, language, and
+education (Vol. 2). New York: Oxford University Press. Morford, J. P., &amp; Kegl, J.
+A. (2000). Gestural precursors to linguistic constructs: How input shapes the form of
+language. In D. McNeill (Ed.), Language and gesture (pp. 358-387). Cambridge, UK:
+Cambridge University Press. Neville, H. J., Bavelier, D., Corina, D., Rauschecker,
+J., Karni, A., Lalwani, A., et al. (1998). Cerebral organization for language in deaf
+and hearing subjects: Biological constraints and effects of experience. Proceedings
+of the National Academy of Sciences of the United States of America, 95, 922-929.
+Neville, H. J., Coffey, S. A., Lawson, D. S., Fischer, A., Emmorey, K., &amp;
+Bellugi, U. (1997). Neural systems mediating American Sign Language: Effects of
+sensory experience and age of acquisition. Brain and Language, 285-308. Neville, H.
+J., Nicol, J. L., Barss, A., Forster, K. I., &amp; Garrett, M. F. (1991).
+Syntactically based sentence processing classes: Evidence from event-related brain
+potentials. Journal of Cognitive Neuroscience, 3, 151-165. Nigam, A., Hoffman, J. E.,
+&amp; Simons, R. F. (1992). N400 and semantic anomaly with pictures and words.
+Journal of Cognitive Neuroscience, 4, 15-22. Osterhout, L., &amp; Holcomb, P. (1992).
+Event-related brain potentials elicited by syntactic anomaly. Journal of Memory and
+Language, 31, 785-806. Ozy&#xFC;rek, A., Willems, R. M., Kita, S., &amp; Hagoort, P.
+(2007). On-line integration of semantic information from speech and gesture: Insights
+from event-related brain potentials. Journal of Cognitive Neuroscience, 19, 605-616.
+Pratarelli, M. E. (1994). Semantic processing of pictures and spoken words: Evidence
+from event-related brain potentials. Brain and Cognition, 24, 137-157. Rizzolatti,
+G., &amp; Arbib, M. A. (1998). Language within our grasp. Trends in Neurosciences,
+21, 188-194. Rugg, M. D., &amp; Nagy, M. E. (1987). Lexical contribution to
+non-word-repetition effects: Evidence from event-related potentials. Memory and
+Cognition, 15, 473-481. Senghas, A. (2005). Language emergence. Clues from a new
+Bedouin sign language. Current Biology, 15, 463-465. Sitnikova, T., Holcomb, P. J.,
+Kiyonaga, K. A., &amp; Kuperberg, G. R. (2008). Two neurocognitive mechanisms of
+semantic integration during the comprehension of real-world events. Journal of
+Cognitive Neuroscience, 20, 2037-2057. Sitnikova, T., Kuperberg, G., &amp; Holcomb,
+P. J. (2003). Semantic integration in videos of real-world events: An
+electrophysiological investigation. Psychophysiology, 40, 160-164. Tomasello, M.
+(2005). Constructing a language: A usage-based theory of language acquisition.
+Cambridge, MA: Harvard University Press. Van Petten, C., &amp; Rheinfelder, H.
+(1995). Conceptual relationships between spoken words and environmental sounds:
+Event-related brain potential measures. Neuropsychologia, 33, 485-508. West, W. C.,
+&amp; Holcomb, P. J. (2002). Event-related potentials during discourse-level semantic
+integration of complex pictures. Cognitive Brain Research, 13, 363-375.<component
+x="42.52" y="46.17" width="251.08" height="659.92" page="12" page_width="595.28"
+page_height="793.7"></component><component x="311.52" y="42.26" width="251.08"
+height="683.85" page="12" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.24"
+year_ratio="0.06" cap_ratio="0.26" name_ratio="0.16666666666666666" word_count="54"
+lateness="1.0833333333333333" reference_score="29.94">Wilcox, S. (2004). Gesture and
+language: Cross-linguistic and historical data from signed languages. Gesture, 4,
+43-73. Wu, Y. C., &amp; Coulson, S. (2005). Meaningful gestures: Electrophysiological
+indices of iconic gesture comprehension. Psychophysiology, 42, 654-667. Wu, Y. C.,
+&amp; Coulson, S. (2007a). How iconic gestures enhance communication: An ERP study.
+Brain and Language, 101, 234-245.<component x="32.71" y="679.88" width="251.07"
+height="46.22" page="13" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.2074468085106383" word_count="188"
+lateness="0.08333333333333333" reference_score="12.65">While it is now widely
+accepted that signed languages used in deaf communities around the world represent
+full-fledged instantiations of human languages-languages which are expressed in the
+visual-manual modality rather than the aural-oral modality-the question of how a sign
+is recognized and integrated into a sentential context in real time has received far
+less attention (see Corina &amp; Knapp, 2006; Emmorey, 2002; for some discussions).
+Sign language recognition may be more complicated than spoken language recognition by
+virtue of the fact that the primary articulators, the hands and arms, are also used
+in a wide range of other common everyday behaviors that include non-linguistic
+actions such a reaching and grasping, waving, and scratching oneself, as well
+gesticulations that accompany speech (i.e. co-speech gestures) or serve non-sign
+language deictic functions, such as pointing. The formal relationship between signed
+languages and human gestural actions is of considerable interest to a range of
+disciplines. Linguists, psychologists and cognitive scientists have proposed a
+critical role for manual gesture in the development and evolution of human languages
+(Arbib, 2005, 2008; Gentilucci &amp; Corballis, 2006; Rizzolatti &amp; Arbib, 1998;
+Tomasello, 2005; Wilcox, 2004). Re<component x="32.71" y="124.47" width="251.12"
+height="206.72" page="1" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHCAG+AdvGulliv-I" letter_ratio="0.27"
+year_ratio="0.0" cap_ratio="0.47" name_ratio="0.1111111111111111" word_count="36"
+lateness="0.08333333333333333" reference_score="16.12">Corresponding author. Address:
+Department of Neurology, University of Cali&#x21D1; fornia at Irvine, 101 The City
+Drive South, Bldg. 53, Room 204, Orange, CA 928684280, United States. Fax: +1 714 456
+1697. E-mail address: m.grosvald@uci.edu (M. Grosvald).<component x="32.71" y="65.16"
+width="251.07" height="35.75" page="1" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.1"
+year_ratio="0.0" cap_ratio="0.17" name_ratio="0.21712907117008443" word_count="829"
+lateness="0.16666666666666666" reference_score="14.16">cently, linguists have
+documented compelling evidence that the development of nascent sign languages derives
+from idiosyncratic gestural and pantomimic systems used by isolated communities,
+which in some cases may be limited to individual families who have a need to
+communicate with a deaf child (Frishberg, 1987; GoldinMeadow, 2003; Kegl, Senghas,
+&amp; Coppola, 1999; Meir, Sandler, Padden, &amp; Aronoff, 2010; Morford &amp; Kegl,
+2000; Senghas, 2005). Even within mature sign languages of Deaf communities,
+linguistic accounts of sign language structure have also argued that lexical and
+discourse components of American Sign Language (ASL) and other signed languages may
+be best understood as being gesturally based (Liddell, 2003). Thus diachronic and
+synchronic evidence from language research support the contention that signed
+languages might make use of perceptual systems similar to those through which humans
+understand or parse human actions and gestures more generally (Corballis, 2009). In
+contrast, given its linguistic status, sign language perception may require the
+attunement of specialized systems for recognizing sign forms. A comprehensive theory
+of sign language recognition will be enhanced by providing an account of when and how
+the processing of sign forms diverges from the processing of human actions in
+general. Recent behavioral and neuro-imaging studies have reported differences in
+deaf subjects' responses to single signs compared to non-linguistic gestures (Corina,
+Grosvald, &amp; Lachaud, 2011; Corina et al., 2007; Emmorey, Xu, Gannon,
+Goldin-Meadow, &amp; Braun, 2010; MacSweeney et al., 2004), but no studies to our
+knowledge have examined the recognition of signs and gestures under sentence
+processing constraints. Consider for example the signer, who, in mid-sentence,
+fulfills the urge to scratch his face, or perhaps swat away a flying insect. What is
+the fate of this non-linguistic articulation? Does the sign perceiver attempt to
+incorporate these manual behaviors into accruing sentential representations, or are
+these actions easily tagged as non-linguistic and thus rejected by the parser? The
+goal of the present paper was to use real-time electrophysiological measures to
+assess empirically the time course of sentence processing in cases where subjects
+encountered non-linguistic manual forms (here ''self-grooming'' behaviors, e.g.
+scratching the face, rubbing one's eye, adjusting the sleeves of a shirt, etc.). We
+sought to compare the processing of these non-linguistic gestural forms within a
+sentential context to cases in which deaf signers encountered violations of semantic
+expectancy that have been observed to elicit a well-defined electrophysiological
+component, the N400. The N400 component (Holcomb &amp; Neville, 1991; Kutas &amp;
+Hillyard, 1980) has been frequently investigated in previous ERP research on written,
+spoken and signed language (e.g. Capek et al., 2009; Kutas, Neville, &amp; Holcomb,
+1987). The N400 is a broad negative deflection generally seen at central and parietal
+scalp sites that peaks about 400 ms after the visual or auditory presentation of a
+word. Although all content words elicit an N400 component, the ERP response is larger
+for words that are semantically anomalous or less expected (Hagoort &amp; Brown,
+1994; Kutas &amp; Hillyard, 1984); thus the N400 is often interpreted as an index of
+ease or difficulty in semantic conceptual integration (Brown &amp; Hagoort, 1993;
+Hagoort &amp; Van Berkum, 2007). For example, for listeners encountering the two
+sentences ''I like my coffee with milk and sugar'' and ''I like my coffee with milk
+and mud,'' the N400 response to the last word in the second item is expected to be
+larger. An N400 or N400-like component can also be found in response to
+orthographically/phonologically legal but non-occurring ''pseudo-words'' (e.g.
+''blork''), and it has sometimes been reported that pseudo-words elicit a stronger
+N400 response than semantically incongruent real words (Bentin, 1987; Bentin,
+McCarthy, &amp; Wood, 1985; Hagoort &amp; Kutas, 1995), consistent with the idea that
+the magnitude of N400 response is related to the difficulty of the ongoing process of
+semantic-contextual integration. However, orthographically illegal ''non-words''
+(e.g. ''rbsnk'') do not generally elicit an N400, and a positive component is
+sometimes seen instead (Hagoort &amp; Kutas, 1995; Ziegler, Besson, Jacobs, Nazir,
+&amp; Carr, 1997). This may reflect the operation of some kind of filtering mechanism
+during online processing, through which language users are able to quickly reject
+forms that lie beyond a certain point of acceptability, or plausibility, during the
+ongoing processing of 1 the incoming language stream. The N400 (or N400-like
+responses) can also be observed in numerous contexts involving non-linguistic but
+meaningful stimuli, such as pictures (Ganis &amp; Kutas, 2003; Ganis, Kutas, &amp;
+Sereno, 1996; Nigam, Hoffman, &amp; Simons, 1992; Pratarelli, 1994), faces (Barrett
+&amp; Rugg, 1989; Bobes, Vald&#xE9;s-Sosa, &amp; Olivares, 1994), environmental
+noises (Chao, Nielsen-Bohlman, &amp; Knight, 1995; Van Petten &amp; Rheinfelder,
+1995), movie clips (Sitnikova, Holcomb, Kiyonaga, &amp; Kuperberg, 2008; Sitnikova,
+Kuperberg, &amp; Holcomb, 2003) and co-speech gestures (Kelly, Kravitz, &amp;
+Hopkins, 2004; Wu &amp; Coulson, 2005). Linguistically anomalous stimuli are not
+always associated with an N400 response. For example, the left anterior negativity
+(LAN; Friederici, 2002; Neville, Nicol, Barss, Forster, &amp; Garrett, 1991) and P600
+(Osterhout &amp; Holcomb, 1992) are well-known ERP components that have been found in
+syntactic violation contexts in<component x="301.72" y="72.2" width="251.09"
+height="279.91" page="1" page_width="595.28"
+page_height="793.7"></component><component x="42.52" y="90.57" width="251.13"
+height="635.61" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.08"
+year_ratio="0.0" cap_ratio="0.18" name_ratio="0.225" word_count="40"
+lateness="0.16666666666666666" reference_score="13.78">1 This possibility is
+bolstered by recent work of Albert Kim and colleagues, who have found that relative
+to real word controls, N400 amplitude decreases and P600 amplitude increases,
+parametrically, as orthographic irregularity increases (Kim &amp; Pitk&#xE4;nen,
+submitted for publication).<component x="42.52" y="38.63" width="251.06"
+height="33.21" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.23157894736842105" word_count="570"
+lateness="0.16666666666666666" reference_score="13.52">spoken and written language,
+and more recent work has shown that these components can be elicited in the
+visual-manual modality as well. For example, in a recent study Capek et al. (2009)
+compared ERP responses to semantically and syntactically well-formed and ill-formed
+sentences. While semantic violations elicited an N400 that was largest over central
+and posterior sites, syntactic violations elicited an anterior negativity followed by
+a widely distributed P600. These findings are consistent with the idea that within
+written, spoken and signed languages, semantic and syntactic processes are mediated
+by non-identical brain systems (Capek et al., 2009). The present study makes use of
+dynamic video stimuli showing ASL sentences completed by four classes of ending
+item-semantically congruent signs, semantically incongruent signs, phonologically
+legal but non-occurring pseudo-signs, and non-linguistic grooming gestures. Based
+upon previous studies, we expected a gradation of N400-like responses across
+conditions, with N400 effects of smaller magnitude for semantically incongruent
+endings and of larger magnitude (i.e. more negative) for phonologically legal
+pseudo-signs. The ERP response for the non-linguistic gesture condition is a priori
+more difficult to predict. Previous neuro-imaging studies of deaf signers have
+reported differences in patterns of activation associated with the perception of
+signs compared to non-linguistic gestures (Corina et al., 2007; Emmorey et al., 2010;
+MacSweeney et al., 2004), but the methodologies used in those studies lacked the
+temporal resolution to determine at what stage of processing these differences may
+occur. While N400-like responses have been elicited to co-speech gestural mismatches
+(Kelly et al., 2004; Wu &amp; Coulson, 2005), in our study, gestures occur in place
+of semantically appropriate sentence-ending items, rather than as a possible
+accompaniment. It should also be borne in mind that the relationship of signs and
+grooming gestures is probably not quite akin to that between standard lexical items
+in spoken language and the orthographically/phonotactically illegal pseudo-words used
+in earlier ERP studies. Unlike grooming gestures, which are part of everyday life,
+illegal non-words like ''dkfpst'' are probably alien to most people's routine
+experience. A better spoken-language analogue of our grooming action condition might
+be something like ''I like my coffee with milk and [clearing of throat],'' though we
+know of no spoken-language studies which have incorporated such a condition. The
+non-linguistic grooming gestures used in the present study may be another example of
+forms that language users (in this case, signers) are able to quickly reject as
+non-linguistic during language processing. If this is the case, then one might also
+expect that such forms will not elicit an N400 but rather a positive-going component
+(cf. Hagoort &amp; Kutas, 1995). In summary, to the extent that semantic processing
+at the sentence level is similar for signed and spoken language, despite the obvious
+difference in modality, the ERP responses associated with our four sentence ending
+condition should be predictable. First, the incongruent signs should elicit a
+negative-going component relative to the baseline (congruent sign) condition,
+consistent with the classic N400 response seen for English and other spoken
+languages, as well as some previous ERP studies of ASL (Kutas et al., 1987; Neville
+et al., 1997). Second, the pseudo-signs should also elicit a negative-going wave, and
+this response can be expected to be of larger magnitude (i.e. be more negative) than
+that seen for the incongruent signs. Third, while the likely response to the grooming
+gesture condition is more difficult to predict, we may expect to see a positive-going
+component relative to the baseline.<component x="311.53" y="111.49" width="251.16"
+height="614.69" page="2" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.12"
+year_ratio="0.0" cap_ratio="0.19" name_ratio="0.1650485436893204" word_count="103"
+lateness="0.25" reference_score="15.4">The 16 participants (12 female and 4 male; age
+range = [19, 45], mean = 25.4 and SD = 8.3) were deaf users of ASL; all were students
+or staff at Gallaudet University in Washington DC and received a small payment for
+participating. Three were left-handed. There were 11 native signers (i.e. born to
+signing parents; the remaining five non-natives' mean self-reported age of
+acquisition of ASL was 9.0 (SD = 6.3, range = [2, 16]). All subjects were uninformed
+as to the purpose of the study and gave informed consent in accordance with
+established Institutional Review Board procedures at Gallau2 det
+University.<component x="311.53" y="38.3" width="251.08" height="18.39" page="2"
+page_width="595.28" page_height="793.7"></component><component x="32.71" y="645.02"
+width="251.11" height="81.15" page="3" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.14" name_ratio="0.18114143920595532" word_count="403"
+lateness="0.25" reference_score="14.24">During the experiment, the subject was seated
+in a comfortable chair facing the computer screen approximately 85 cm away, at which
+distance the 4-inch-wide video stimuli subtended an angle of about 7 degrees. The
+stimuli were delivered using a program created by the first author using Presentation
+software (Neurobehavioral Systems). For each trial, the subject viewed an ASL
+sentence ''frame'' consisting of an entire sentence minus a last item (e.g. BOY SLEEP
+IN HIS; see Fig. 1 for an illustration), followed by an ''ending item'' completing
+the sentence. The ending item could be one of four types (shown, respectively, to the
+upper left, upper right, lower left and lower right of the question mark in Fig. 1):
+a semantically congruent sign (e.g. BED for the sentence frame just given), a
+semantically incongruent sign (e.g. LEMON), a phonotactically legal but non-occurring
+''pseudo-sign'' (e.g. BARK.A, this notation indicating that this pseudo-sign was
+formed by articulating the real sign 3 BARK with an A handshape ), or a grooming
+gesture such as eye rubbing or head scratching. All stimulus items (sentence frames
+and ending items) were performed by a female native signer of ASL, who also verified
+that each sentence frame plus last sign item was grammatically acceptable in ASL. The
+ending items for both sign conditions (semantically congruent and incongruent) were
+all nouns. As is the case with spoken languages, signed languages, including ASL,
+have regional variants that could potentially affect comprehension. In the present
+situation, this would be relevant if subjects encountering extant but unfamiliar sign
+forms as ending items produced an ERP response similar to that for pseudo-signs. Our
+experience, however, suggests that in the majority of cases, fluent users of ASL have
+previously encountered regional variants. This can be compared to the way a New
+England English speaker, while not using the word the ''sack'' as part of his or her
+own dialect (instead using bag), would most likely comprehend a sentence such as
+''The grocer placed the vegetables in the sack'' without difficulty. In principle,
+one might expect such forms to produce increased processing difficulties, similar to
+encountering low frequency forms. However, we are cognizant of the regional variants
+in ASL and in planning this study, aimed to use signs which were unambiguous and
+would reflect the most frequent forms. As a check, we asked two native signers (not
+participants in the main study) to scrutinize all semantically congruent and
+semanti<component x="32.71" y="190.18" width="251.11" height="415.92" page="3"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.19915254237288135" word_count="236"
+lateness="0.25" reference_score="13.72">2 A group of 10 hearing non-signers was also
+run on the same experiment as a control measure. All were undergraduate students at
+the University of California at Davis with no substantial knowledge of sign language.
+Like the deaf group, these subjects were uninformed as to the purpose of the study
+and gave informed consent in accordance with established Institutional Review Board
+procedures at UC Davis. However, unlike the deaf group, no significant effects or
+interactions related to Ending item were found, and no further analysis related to
+this group will be presented here. 3 The pseudo-signs could be one-handed or
+two-handed. The two-handed variants include cases where a handshape is articulated on
+a base hand, as well as cases in which the two hands move symmetrically; both of
+these occur in real two-handed signs. Both the one- and two-handed pseudo-sign items
+appear as compositional forms that are non-occurring in ASL, and identification of
+the handshape alone is not sufficient to determine whether the sign is true sign or a
+pseudo-sign. The consensus view among the signers in our group is that our
+pseudo-signs are more akin to legal but non-occurring items, (e.g. ''glack''), rather
+than being consistently seen as recognizable but altered lexical items (e.g.
+''glassu''). Fig. 1. Still shots taken from one of the sentence frame stimuli, along
+with its four possible endings (see text). Note that the actual stimuli were dynamic,
+not static.<component x="32.71" y="38.63" width="251.07" height="136.33" page="3"
+page_width="595.28" page_height="793.7"></component><component x="301.72" y="474.54"
+width="251.04" height="14.93" page="3" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.25097024579560157" word_count="773"
+lateness="0.3333333333333333" reference_score="13.86">cally incongruent ending signs,
+to mark whether they knew of any regional variants or alternative pronunciations, and
+to list any such forms. Note that without a proper sociolinguistic analysis, it is
+difficult to ascertain whether such differences are indeed sociolinguistic variants,
+so we were most liberal in asking for any known alternative form. Out of 240 critical
+items, 49 were deemed to have a potential regional variant (e.g., PIZZA and FOOTBALL)
+or alternative pronunciations (e.g. the sign EARRINGS, which can be signed with an F
+handshape, or a b0 handshape, aka ''baby-O''). Of these potentially problematic
+items, we then asked whether if seen in isolation, any would be unrecognized. Only 7
+of those 49 sign forms were deemed as potentially unrecognized. Most importantly,
+none of these variants were the forms used in the actual experiment. For example,
+EASTER was a sign used as a semantically incongruent item. Both signers agreed that
+the form used in our study was the most common form (two E-handshapes held near the
+shoulders with a twisting motion). One of the two signers knew of an alternative form
+in which the E handshape rises off of the palm of the B-handshape base hand. The
+second signer noted she would not have known what that item meant if she had seen it
+in isolation. Most importantly, such forms were not used in our study. Thus we are
+confident that in choosing our sign ending items (during which we took into account
+intuitions and feedback from native signers, including one of our co-authors on this
+paper), we have selected highly frequent and recognizable forms likely to be
+recognized by sign users, even if they do not use the same forms themselves in each
+and every case (as in the bag/sack example in English). Each sentence frame stimulus
+was filmed by having the signer begin with her hands in her lap, raise her hands to
+sign the sentence frame, then place her hands back in her lap. Each ending item was
+also filmed in this way, beginning and ending with the signer's hands in her lap.
+Each frame was filmed just once, with no ending item in mind, rather than creating a
+separate instance of each frame for each of the four possible ending items. This was
+done to provide a consistent lead-up to each ending item, eliminating the possibility
+that differing coarticulatory effects or other confounds might lead to diverging
+processing on the part of the signer prior to the onset of each ending item. During
+video editing, the stimuli were trimmed slightly so that the full movement of the
+signer's hands to and from her lap at the end of each sentence frame and beginning of
+each ending item was not seen when the stimuli were viewed during the running of the
+actual experiment. Over the course of the entire experiment, the subject saw a
+sequence of 120 of these sign sentences, with 30 instances of each of the four types
+of ending items. The ordering of the sentences was randomized for each subject and
+the type of ending item (semantically congruent, semantically incongruent,
+pseudo-sign or gesture) shown for each sentence frame also varied among subjects. A
+complete list of all 120 sentence frames with each of their possible ending items is
+given in Appendix A. For most trials, no behavioral responses were required, but in
+order to encourage subjects to attend to the meaning of the sentences, an occasional
+comprehension check was given (see Section 2.3). The sentence frames and ending items
+were separated by a 200ms blank screen, so that the slight visual discontinuity
+between the two stimuli (which were filmed separately, as described earlier) would be
+less jarring. In the Presentation program which delivered the stimuli, the default
+color of the computer screen was set to match the background behind the signer in the
+video stimuli for color and intensity. Blink intervals of randomly varying length
+between 3200 and 3700 ms were given after each trial. Longer blink intervals lasting
+an additional 4 s were provided after every eight trials. Fixation crosses appeared
+at key moments to remind subjects to maintain a consistent gaze toward the center of
+the screen, and to indicate when the next trial was about to begin. After every 30
+trials (three times total during the experiment), open-ended break sessions were
+given so that subjects could rest longer if they desired. Before the experiment
+began, subjects were given a brief practice session, six trials long, to acquaint
+them with the format of the experiment. The six ASL sentences used in the practice
+session were different from the sentences used in the actual experiment.<component
+x="301.72" y="38.3" width="251.09" height="415.92" page="3" page_width="595.28"
+page_height="793.7"></component><component x="42.52" y="383.5" width="251.11"
+height="342.67" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.0" cap_ratio="0.11" name_ratio="0.22477064220183487" word_count="218"
+lateness="0.3333333333333333" reference_score="14.44">In order to provide an
+objective measure that could be used after-the-fact to verify that each subject had
+been paying attention to the sentences, occasional comprehension checks appearing at
+random intervals were programmed into the experiment; these appeared after each five
+to eight sentences. At each comprehension check, the subject was required to choose
+which of two words, presented on-screen, was most closely related to the meaning of
+the just-shown ASL sentence. For example, after the ASL sentence beginning with the
+frame ''BOY SLEEP IN HIS,'' the two candidate words were ''fight'' and ''sleep,''
+with the latter being the correct answer in this case. Two such words were chosen for
+each sentence frame, and were always dependent only on the sentence frame, never on
+any of the four possible ending items for that sentence frame. The two quiz words
+always appeared side-by-side with the left vs. right position on-screen being chosen
+at random on each trial for the correct and incorrect word choices. The quiz words
+were presented in English, but only frequent words were used as quiz items, so that
+users of ASL would be unlikely to be unfamiliar with them. All subjects' scores were
+deemed sufficiently high (mean: 97.3%, SD: 4.6%, range: [84.0%, 100%]) that no
+subjects were excluded because of poor performance on the quizzes.<component
+x="42.52" y="132.41" width="251.13" height="217.21" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.19" name_ratio="0.24583333333333332" word_count="480"
+lateness="0.3333333333333333" reference_score="15.0">EEG data were recorded
+continuously from 32 scalp locations at frontal, parietal, occipital, temporal and
+central sites, using AgCl electrodes attached to an elastic cap (BioSemi). Vertical
+and horizontal eye movements were monitored by means of two electrodes placed above
+and below the left eye and two others located adjacent to the left and right eye. All
+electrodes were referenced to the average of the left and right mastoids. The EEG was
+digitized online at 256 Hz, and filtered offline below 30 Hz and above 0.01 Hz. Scalp
+electrode impedance threshold values were set at 20 k X. Initial analysis of the EEG
+data was performed using the ERPLAB plugin (Lopez-Calderon &amp; Luck, in press) for
+EEGLAB (Delorme &amp; Makeig, 2004). Epochs began 200 ms before stimulus onset and
+ended 1000 ms after. Inspection of subjects' EEG data was performed by eye to check
+rejections suggested by a script run in ERPLAB whose artifact rejection thresholds
+were set at -120 lV. For all 16 subjects, in each of the four sentence ending
+conditions at least 20 of the original 30 trials remained after the rejection
+procedure just described. The statistical analyses reported below were carried out
+using the SPSS statistical package. To assess the significance of the observed
+effects, a column analysis was conducted (cf. Kim &amp; Osterhout, 2005) for which a
+separate ANOVA was run on each of four subsets of the scalp sites, as illustrated in
+Fig. 2. For the midline scalp sites, colored green in the figure, the two factors in
+the ANOVA were Electrode (one level for each of the four electrodes) and sentence
+Ending (semantically congruent sign, semantically incongruent sign, pseudo-sign and
+grooming gesture). The other three ANOVAs, corresponding to the inner (colored blue
+in the figure), outer (purple), and outermost (orange) sites, included a third factor
+of hemisphere (left or right); in addition, for these three ANOVAs the factor
+Electrode had one level for each pair of electrodes, from most anterior to most
+posterior. For the N400 analysis, the dependent measure was mean amplitude of EEG
+response within the window from 400 to 600 ms after stimulus onset. Because the
+latency of the effects related to gesture was somewhat greater, a second column
+analysis was run for the window from 600 to 800 ms after stimulus onset. For the
+purposes of these column analyses, data from the two frontmost sites (FP1 and FP2)
+and from two posterior sites (PO3 and PO4) were not used. In all cases,
+Greenhouse-Geisser (Greenhouse &amp; Geisser, 1959) adjustments for non-sphericity
+were performed where appropriate and are reflected in the reported results. In the
+following section, the outcomes for the ANOVAs performed for each time window will be
+given in the order midline, inner, outer, and outermost. This establishes the
+significance of the results, which we first introduce with illustrations and
+descriptions of the waveforms and the associated topographic maps.<component
+x="42.52" y="38.3" width="251.09" height="60.23" page="4" page_width="595.28"
+page_height="793.7"></component><component x="311.53" y="299.82" width="251.09"
+height="426.36" page="4" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.05"
+year_ratio="0.0" cap_ratio="0.05" name_ratio="0.23057644110275688" word_count="399"
+lateness="0.4166666666666667" reference_score="14.56">Pictured in Figs. 3 and 4 are
+grand-average waveforms at selected electrode sites for the four sentence Ending
+conditions. Visual inspection of the waveforms reveals that all conditions evoked
+exogenous potentials often associated with written words (Hagoort &amp; Kutas, 1995);
+these include a posteriorly distributed positivity (P1) peaking at about 100 ms
+post-stimulus onset, followed by a posteriorly distributed negativity (N1) peaking at
+about 180 ms after target onset. Starting at approximately 300 ms after stimulus
+onset, we begin to see a differentiation for different sentence ending conditions
+which we will quantify in detail in the statistical analysis. Relative to the
+baseline (semantically congruent sign) condition, both the semantically incongruent
+and pseudosign conditions can be seen to have elicited negative-going waves. In
+addition, the pseudo-sign negativity is generally greater in magnitude than the
+negativity elicited in the semantically incongruent condition. In contrast, beginning
+at approximately 400 ms we observe a large positive-going wave relative to the
+baseline for the grooming gesture condition. These effects appear to be long lasting,
+extending beyond the end of the 1000 ms time window. Fig. 5 presents topographic maps
+of key contrasts, and reinforces the patterns seen Figs. 3 and 4. The maps show mean
+amplitude difference between the indicated conditions during the two time windows we
+analyzed. Again, we see that the pseudo-signs elicit a negativity that is overall
+more pronounced than the one elicited by the semantically incongruent signs, both in
+terms of magnitude and distribution. In contrast, the response to the gesture
+condition starts to diverge clearly from the others in the earlier time window,
+starting at posterior sites and then spreading more generally. We now continue with a
+presentation of the statistical results. For simplicity of presentation, only main
+effects and interactions related to sentence Ending are discussed in the text, but
+complete ANOVA results are given in Table 1. Our analyses confirm the very consistent
+patterning of mean ERP response with respect to sentence Ending that was seen in
+Figs. 3-5 and noted in the foregoing discussion. Relative to the baseline
+(semantically congruent sign) condition, the incongruent signs and the pseudo-signs
+elicited a negative-going wave, while the grooming gestures elicited a large
+positivity; also, the negative-going component elicited by the pseudo-signs was
+overall larger than the one elicited by the incongruent signs. This general pattern
+was observed for almost all scalp sites; the relatively minor exceptions are noted
+below.<component x="311.53" y="38.3" width="251.12" height="196.24" page="4"
+page_width="595.28" page_height="793.7"></component><component x="32.71" y="111.49"
+width="251.12" height="238.13" page="5" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.08" name_ratio="0.21791044776119403" word_count="335"
+lateness="0.4166666666666667" reference_score="15.38">For the earlier of the two time
+windows, the midline ANOVA found a main effect of Ending (p &lt; 0.001) and an
+interaction of Ending by Electrode (p &lt; 0.001). Mean amplitude for Ending showed
+the predicted pattern among condition means, with respective means for pseudo-signs,
+incongruent signs, congruent signs and grooming gestures equal to 4.95, 4.20, 3.36
+and 1.16 lV. ( ( (( The gesture condition mean differed significantly from the rest
+(p &lt; 0.05 for gesture vs. baseline, p's &lt; 0.001 for the other two comparisons);
+the other differences did not reach significance. It was at the frontmost sites that
+the baseline differed the most from the incongruent and pseudo-sign conditions (p
+&lt; 0.05 and p = 0.062, respectively). At the vertex electrode CZ, a departure from
+the predicted progression of condition means was found; incongruent signs showed the
+most negative amplitude here, which however was not significantly different from the
+amplitudes for pseudosigns or congruent signs. At the other three midline electrode
+sites, the familiar pattern among the four Ending conditions was seen. The
+inner-electrode ANOVA found a main effect of Ending (p &lt; 0.001) and a marginal
+Ending by Electrode interaction (p = 0.094). Mean amplitudes for the four conditions
+progressed in the predicted way; for pseudo-signs, incongruent signs, congruent signs
+and grooming gestures, respective means were 4.54, ( 3.57, 2.56 and 0.302. Pairwise
+differences between means ( ( ( were all significant, except for incongruent signs
+vs. congruent signs (marginally significant at p = 0.088) and pseudo-signs vs.
+incongruent signs (p = 0.24). The same ordering from most negative to most positive
+means for the four conditions was seen at all three levels of electrode. The most
+anterior sites showed the greatest differences between the baseline condition mean
+and the incongruent and pseudo-sign means; at these sites, both pairwise differences
+were significant. For the outer electrodes ANOVA, the results included a main effect
+of Ending (p &lt; 0.001). The respective overall mean amplitudes for the pseudo-sign,
+incongruent, congruent and gesture<component x="32.71" y="38.3" width="251.09"
+height="39.31" page="5" page_width="595.28"
+page_height="793.7"></component><component x="301.72" y="38.3" width="251.12"
+height="311.33" page="5" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.09"
+year_ratio="0.0" cap_ratio="0.07" name_ratio="0.13333333333333333" word_count="30"
+lateness="0.5" reference_score="16.28">Fig. 4. Grand-average waveforms at the OZ
+site. Units on the vertical axis are microvolts; successive tick marks on the
+horizontal axis are 200 ms apart. Negative is plotted downward.<component x="42.52"
+y="103.54" width="251.04" height="23.49" page="6" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.08"
+year_ratio="0.0" cap_ratio="0.08" name_ratio="0.21951219512195122" word_count="246"
+lateness="0.5" reference_score="15.83">(cases of the latter were: for pseudo-sign vs.
+incongruent sign, p = 0.11; for incongruent sign vs. congruent sign, p = 0.14, for
+gesture vs. congruent sign, p = 0.062). The absence of a significant Ending by
+Electrode interaction is due to the fact that the predicted pattern of pseudo-sign
+&lt; incongruent sign &lt; congruent sign &lt; gesture was seen for all four levels
+of Electrode. Finally, the ANOVA for the outermost set of electrodes found a
+significant main effect of sentence Ending (p &lt; 0.001) and an interaction of
+Ending by Electrode (p &lt; 0.05). The main effect of Ending reflects the pattern
+already seen repeatedly; for the outermost sites, mean EEG amplitudes were 2.45,
+1.34, 1.03 and ( ( ( 0.083 lV, respectively, for the pseudo-signs, incongruent signs,
+congruent signs and grooming gestures. Follow-up comparisons showed that all of the
+pairwise differences among conditions were significant, except for the congruent sign
+vs. incongruent sign comparison (p = 0.39), and the incongruent sign vs. pseudo-sign
+comparison, which was however marginally significant (p = 0.078). The Ending by
+Electrode interaction reflects two exceptions to the predicted pattern for the four
+Ending conditions. First, at the two most posterior sites, the amplitude for the
+incongruent sign condition was slightly greater than for the congruent sign condition
+(this difference, however, did not approach significance; p = 0.62). Second, at the
+anterior electrode sites the gesture condition was not associated with significantly
+greater positivity than the other three conditions.<component x="311.53" y="467.18"
+width="251.09" height="259.0" page="6" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.11"
+year_ratio="0.0" cap_ratio="0.09" name_ratio="0.18518518518518517" word_count="378"
+lateness="0.5" reference_score="16.49">For the later time window, the
+midline-electrode ANOVA found a main effect of Ending (p &lt; 0.001) and an
+interaction of Ending by Electrode (p &lt; 0.001). Mean amplitude for the four Ending
+conditions diverged slightly here from the familiar pattern, with respective means
+for pseudo-signs, incongruent signs, congruent signs and grooming gestures equal to
+2.43, 2.47, 1.33 and 3.97. ( ( ( The comparison of pseudo-sign vs. incongruent sign
+did not approach significance however (p = 0.96), nor did the comparison of
+pseudo-sign vs. congruent sign (p = 0.31). The congruent vs. incongruent sign
+comparison was marginally significant at p = 0.063. The gesture means were again very
+different from the rest (all three p's &lt; 0.001). The inner-electrode ANOVA found a
+main effect of Ending (p &lt; 0.001) and an Ending by Electrode interaction (p &lt;
+0.001). Mean amplitudes for the four conditions progressed in the predicted way, with
+the gesture means again very different from the rest (all three p's &lt; 0.001). The
+baseline vs. incongruent comparison also reached significance (p &lt; 0.05), and the
+baseline vs. pseudosign comparison showed a near-significant trend (p = 0.13). The
+same ordering from most negative to most positive means for the four conditions was
+seen at all three levels of electrode (respective mean values for pseudo-sign,
+incongruent sign, congruent sign, grooming gesture = 1.86, 1.60, 0.43, 5.05), with
+gesture ( ( ( means being most divergent from the other three condition means at
+posterior sites. For the outer electrodes ANOVA, the results included a main effect
+of Ending (p &lt; 0.001) and an interaction of Ending by Electrode (p &lt; 0.05). The
+familiar pattern of pseudo-sign &lt; incongruent sign &lt; congruent sign &lt;
+grooming gesture was seen for all four levels of Electrode (mean values in the usual
+order = 1.60, 0.85, ( ( 0.21, 3.35), but only the only differences reaching
+significance ( were for gesture vs. the other conditions (all three p's &lt; 0.001).
+The baseline vs. pseudo-sign difference showed a near-significant trend (p = 0.12).
+Again, gesture means showed the greatest differences from the other three condition
+means at posterior electrode sites. Finally, the ANOVA for the outermost set of
+electrodes found a highly significant effect of sentence Ending (p &lt; 0.001), as
+well as<component x="311.53" y="38.29" width="251.12" height="395.01" page="6"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.16"
+year_ratio="0.0" cap_ratio="0.53" name_ratio="0.29411764705882354" word_count="17"
+lateness="0.5833333333333334" reference_score="18.36">Table 1 Summary of ANOVA
+results, with df = degrees of freedom, MSE = mean squared error.<component x="32.71"
+y="711.18" width="254.53" height="14.93" page="7" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.01" cap_ratio="0.07" name_ratio="0.23475756120979357" word_count="2083"
+lateness="0.75" reference_score="18.28">than would be expected for written language,
+but consistent with earlier studies on auditory language (Holcomb &amp; Neville,
+1990, 1991). Neville et al. suggested that this delay might be due to the fact that
+the recognition point of different signs will tend to vary more than for printed
+language, in which all information is made available at the same time. Capek et al.
+(2009) also found a relatively late N400 response to semantic incongruity in sign
+sentences; this bilateral and posteriorly prominent effect had an onset of about 300
+ms post-stimulus onset and peaked at about 600 ms post-stimulus onset, very much like
+the negativities we have described in the present study. These effects are somewhat
+different from those that have been described in studies incorporating incongruent
+co-speech gestures and other sorts of non-linguistic imagery like drawings,
+photographs and videos. In Wu and Coulson's (2005) study of contextually incongruent
+gestures, a component described by the researchers as a ''gesture N450'' was
+observed. Wu and Coulson noted the similarity of this effect to the N450 reported by
+Barrett and Rugg (1990) for second items in unrelated picture pairs relative to
+related picture pairs (e.g. wrench/fork vs. knife/fork), stating (p. 659) that
+consistent with their own findings, ''most such 'picture' ERP studies report a
+broadly distributed negativity largest at frontal electrode sites and not evident at
+occipital sites (Barrett &amp; Rugg, 1990; Holcomb &amp; McPherson, 1994; McPherson
+&amp; Holcomb, 1999; Sitnikova et al., 2003; West &amp; Holcomb, 2002).'' In
+contrast, the negativity reported in the present study was quite evident at occipital
+sites, as can be seen clearly in Figs. 3 and 4. A second notable finding in our study
+concerns deaf subjects' ERP response in the phonologically legal pseudo-sign
+condition, which was also consistent with an N400 response but was generally larger
+(more negative) than the negativity seen for semantically incongruent but fully
+lexical signs. This provides further evidence for broad processing similarities for
+different linguistic modalities, in the light of similar findings for pseudo-words in
+earlier studies (Bentin, 1987; Bentin et al., 1985; Hagoort &amp; Kutas, 1995). It is
+interesting, however, that phonologically legal pseudo-signs did not more strongly
+differentiate from the semantically incongruent signs in the present study. This may
+be an indication that our pseudo-signs (or some of their sub-lexical components) are
+activating lexical representations to a substantial degree (cf. Friedrich, Eulitz,
+&amp; Lahiri, 2006), and that at the same time, these representations are incongruent
+with the sentential contexts in which they have been presented. The pseudo-sign and
+incongruent sign conditions shared another similarity in that the effects they
+elicited were very prominent at occipital sites, which differs from what has
+traditionally been observed in studies of word processing. Whether this is a
+reflection of the modality of expression or other experimental factors must await
+further study, though results of Corina et al. (2007), discussed below, may offer
+some insights about useful directions such research might take. A third set of
+findings, concerning the outcome related to our non-linguistic grooming actions, is
+especially provocative. In contrast to the three other kinds of sentence-final items,
+all of which could be considered linguistic (i.e. as actual lexical items in two
+cases, and phonologically legal lexical gaps in the third), the non-linguistic
+grooming actions elicited a large positivity. As noted earlier, phonologically
+illegal words in ERP studies have in some cases elicited a positive-going component
+rather than an N400 (Holcomb &amp; Neville, 1990; Ziegler et al., 1997). Holcomb and
+Neville (1990) examined differences between pseudo-words and non-words in the visual
+and auditory modalities in the context of a lexical decision experiment. Pseudo-words
+accorded with phonotactic constraints of English; visually presented non-words were
+composed of consonant strings and auditory non-words were words played backwards. The
+researchers reported that within an early time window (150- 300 ms), auditory
+non-words (but not visual non-words) elicited a more negative response than
+pseudo-words, but only at anterior and right hemisphere sites. In a later time window
+(300-500 ms), the response to non-words was more positive for both modalities, and
+like the positivity seen in the present study, this positivity was long-lasting,
+continuing past the 1000 ms time-point. Ziegler et al. (1997) examined the effects of
+task constraints on the processing of visually presented words, pseudo-words and
+non-words. In a letter search task, following a post-stimulus N1P2 complex, the
+researchers reported a negative component, peaking around 350 ms, which was larger
+for words and pseudo-words than for non-words. A late positive component (LPC) was
+then generated that appeared to be slightly larger for non-words than for words or
+pseudo-words. In a second experiment, in which subjects' responses to the three types
+of stimuli were delayed, the ERP response in the 300-500 ms window was more positive
+to nonwords than to words and pseudo-words; responses for words and pseudo-words did
+not significantly differ. In a final experiment which required a semantic
+categorization of the target, a negative component with a peak around 400 ms was
+elicited in response to words and pseudo-words. In contrast, a striking late positive
+component was observed in response to non-words; this lasted from 300 ms to the end
+of the recording period. Thus, across multiple studies we see that illegal non-words,
+relative to pseudo-words and real words, appear to elicit a large late positivity.
+This positivity has sometimes been interpreted as a P300 response (e.g. Holcomb &amp;
+Neville, 1990). In the present experiment, the centro-parietal distribution of the
+positive component elicited in the gesture condition also corresponds to the typical
+distribution of the P300 component. At least three interpretations of this effect may
+be relevant here. First, a P300 response is well-attested in studies making use of
+stimuli perceived by subjects to be in a low-probability category (e.g. Johnson &amp;
+Donchin, 1980). In our experiment, grooming gestures occurred 1/4 of the time,
+rendering these non-linguistic events low-probability with respect to the other three
+(linguistic) sentence ending conditions. Second, ERP differences between non-words
+and words have been attributed to the fact that these non-linguistic items have
+little or nothing in common with lexical entries and therefore do not generate
+lexical activity (cf. Rugg &amp; Nagy, 1987). Third, the ERP differences observed
+between pseudo-words and non-words have also been suggested to reflect a pre-lexical
+filtering process that quickly rejects non-linguistic items based upon aberrant
+physical characteristics (Holcomb &amp; Neville, 1990). For example, Ziegler et al.
+(1997) suggest such a categorization may be based on a spelling check in the case of
+non-word consonant-string stimuli. This last interpretation accords well with a
+possibility we noted in the Introduction, that such an ERP response may be due to the
+operation of a filtering/rejection mechanism, allowing language users to efficiently
+reject items in the incoming linguistic signal that do not fall within some limits of
+linguistic acceptability. The gesture stimuli in the present study, in lacking the
+semantic appropriateness of semantically congruent signs, the lexicality of
+incongruent signs, and even the phonological legality of pseudo-signs, apparently
+fail to reach some ''acceptability threshold,'' causing them to be rejected and thus
+dealt with during processing in a qualitatively different way. This hypothesis also
+permits us to predict an answer to an interesting related question: what kind of ERP
+response would be elicited by phonologically illegal non-signs in sentence contexts
+like those explored in the present study? The positivities seen in studies
+incorporating non-words; the crossmodality parallels we have already noted in ERP
+studies of spoken, written and signed language; as well as the positive waveforms
+seen in response to the non-linguistic gesture stimuli in the present study; all
+support the prediction that phonologically illegal non-signs would elicit a
+positive-going waveform. However, confirmation of this must await future research. We
+have already alluded to the growing number of studies which have used ERP methodology
+to examine the contributions of co-speech manual gestures to the interpretation of
+both linguistic and non-linguistic stimuli (Holle &amp; Gunter, 2007; Kelly et al.,
+2004; Ozy&#xFC;rek, Willems, Kita, &amp; Hagoort, 2007; Wu &amp; Coulson, 2005,
+2007a, 2007b). Many of these studies have used iconic manual gestures that depict a
+salient visual-spatial property of concrete objects, such as their size and shape or
+an associated manner of movement (but see also Cornejo et al., 2009). Collectively
+these studies suggest that co-speech manual gestures influence semantic
+representations, and that discrepancies between gestural forms and the semantic
+contexts in which they occur lead to greater processing costs on the part of language
+perceivers. This in turn results in increased negativities in the time window often
+associated with the classic N400 effect, observed in response to word meanings that
+violate the wider semantic context (Kutas &amp; Hillyard, 1980). For example, Kelly
+et al. (2004) observed modulation of ERP responses for speech tokens that were either
+accompanied by matching, complementary or mismatched hand gestures. An N400-like
+component was observed for mismatched gesture-speech tokens relative to the other
+conditions. Wu and Coulson (2005) examined ERPs for subjects who watched cartoons
+followed by a gestural depiction that either matched or mismatched the events shown
+in the cartoons. Gestures elicited an N400-like component (a socalled ''gesture
+N450'') that was larger for incongruent than congruent items. Ozy&#xFC;rek et al.
+(2007) recorded EEG while subjects listened to sentences with a critical verb (e.g.
+''knock'') accompanied by a related co-speech gesture (e.g. KNOCK). Verbal/gestural
+semantic content either matched or mismatched the earlier part of the sentence. The
+researchers noted that following the N1-P2 complex, the ERP response to mismatch
+conditions started to deviate from the response to the correct condition in the
+latency window of the P2 component, around 225-275 ms post stimulus onset, while at
+around 350 ms, the mismatch conditions deviated from the congruent condition. This
+was followed by a similar effect with a peak latency somewhat later than the one
+usually seen for the N400. These data were taken as evidence that that the brain
+integrates both speech and gestural information simultaneously. However, it is
+interesting to note that double violations (speech and gesture) did not produce
+additive effects, suggesting parallel integration of speech and gesture in this
+context. In contrast, the grooming gesture condition in the present study was not
+associated with any N400-like effects. We suggest that this is due to the fact that
+subjects were unlikely to perceive these actions as being akin to co-speech (or
+co-sign) gestures, but instead as something qualitatively different. This detection
+process evidently occurred quite rapidly during online processing of these stimuli,
+comparable to the speed at which semantic processing was carried out for the
+linguistic stimuli. The findings of a PET study by Corina et al. (2007) may shed some
+additional light on this outcome. In that study, deaf signers were found to have
+engaged different brain regions when processing ASL signs and selfgrooming gestures,
+in contrast with the hearing non-signers who also took part in the study.
+Specifically, deaf signers engaged lefthemisphere perisylvian language areas when
+processing ASL sign forms, but recruited middle-occipital temporal-ventral regions
+when processing self-grooming actions. The latter areas are known to be involved in
+the detection of human bodies, faces, and movements. The present findings add
+temporal precision the results of that study, enabling us to determine when such
+information is rejected as non-linguistic during the course of ASL sentence
+processing. The findings of Corina et al. (2007) may also speak to the fact, noted
+earlier, that the N400 effects observed in the present study were more prominent at
+occipital sites than the N400 effects typically seen in analogous speech studies. The
+effects seen in the present study's gesture condition were strongest in posterior
+areas as well, though in both cases, one must be cautious in making a connection
+between the scalp topography of ERP effects and loca4 tion of their source. Finally,
+an alternative interpretation of the positivity seen in the grooming gesture
+condition in the present study is that it is due to subjects' interpreting these
+non-linguistic final items as missing information, i.e. as the absence of a final
+item, rather than a final item which is present yet enigmatic. While this cannot be
+entirely ruled out, it should be noted that the pseudo-signs could also potentially
+be considered ''semantically void'' items, but the responses to the pseudo-signs
+(which have a discernible linguistic structure consistent with that of real ASL
+lexical items) and the gestures (which do not) were qualitatively different. Relative
+to the baseline condition, no significant positivity was seen in any time window for
+the pseudo-signs, and no significant negativity was seen in any time window for the
+grooming gestures.<component x="42.52" y="38.3" width="251.12" height="687.87"
+page="8" page_width="595.28" page_height="793.7"></component><component x="311.53"
+y="38.3" width="251.09" height="687.88" page="8" page_width="595.28"
+page_height="793.7"></component><component x="32.71" y="38.3" width="251.14"
+height="687.87" page="9" page_width="595.28"
+page_height="793.7"></component><component x="301.72" y="540.37" width="251.09"
+height="185.82" page="9" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.03"
+year_ratio="0.0" cap_ratio="0.06" name_ratio="0.24742268041237114" word_count="194"
+lateness="0.75" reference_score="16.56">To the best of our knowledge, this is the
+first ERP study of sign language users that investigates sentential processing in
+such a wide a range of lexical/semantic contexts. Consistent with previous research
+on both spoken and signed language, we found that ASL sentences ending with
+semantically incongruent signs were associated with significant N400-like responses
+relative to the baseline condition, in which sentences ended with semantically
+congruent signs. Furthermore, we found that phonologically legal pseudosign sentence
+endings elicited an N400-like effect that was somewhat stronger than the response to
+the semantically incongruent signs; this is consistent with existing work on spoken
+language, but represents a new finding for signed language. In contrast to the
+incongruent sign and pseudo-sign conditions, grooming actions elicited a very large
+positive-going wave; this is also a new finding, and complements earlier work on
+spoken language. The fact that our results largely parallel those seen in analogous
+ERP studies of spoken language constitutes strong evidence that highlevel linguistic
+processing shows remarkable consistency across modalities. Moreover, our results
+offer important new information about the relationship between sign and action
+processing, particularly the topography and timing of the processes that are
+involved.<component x="301.72" y="274.26" width="251.12" height="227.64" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.11"
+year_ratio="0.0" cap_ratio="0.39" name_ratio="0.32142857142857145" word_count="56"
+lateness="0.75" reference_score="18.46">We thank the staff and students at Gallaudet
+University for helping make this study possible, and Kearnan Welch and Deborah
+Williams for their assistance in data collection. We also thank two anonymous
+reviewers for valuable feedback concerning the presentation of our results. This work
+was supported in part by Grant NIH-NIDCD 2ROI-DC03099-11, awarded to David
+Corina.<component x="301.72" y="177.26" width="251.08" height="60.23" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="7.96" font="MAHBPE+AdvGulliv-R" letter_ratio="0.04"
+year_ratio="0.0" cap_ratio="0.02" name_ratio="0.22413793103448276" word_count="58"
+lateness="0.75" reference_score="16.69">Table A1 lists all 120 sentence frames and
+three of the corresponding endings for each sentence: the semantically congruent
+signs, semantically incongruent signs and pseudo-signs. In the fourth class of
+endings, the gesture stimuli, the sign performer was seen making brief grooming
+actions such as head scratching, eye rubbing or passing her fingers through her hair.
+To create<component x="301.72" y="78.44" width="251.08" height="60.29" page="9"
+page_width="595.28" page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.06"
+year_ratio="0.03" cap_ratio="0.06" name_ratio="0.2222222222222222" word_count="36"
+lateness="0.75" reference_score="22.72">4 It should also be noted that the effects
+seen in the present study were for gestures in a sentence context, while in Corina et
+al. (2007) the sign and gesture stimuli were seen in isolation.<component x="301.72"
+y="38.63" width="251.02" height="24.65" page="9" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.63"
+year_ratio="0.0" cap_ratio="3.5" name_ratio="0.020967741935483872" word_count="620"
+lateness="0.8333333333333334" reference_score="5.48">FRAME Semantically Semantically
+Pseudo-sign Quiz items congruent incongruent Correct Incorrect 1 BOY SLEEP IN HIS BED
+LEMON BARK.A' sleep fight 2 HEAR BARK BARK LOOK RIGHT PRO DOG SECRET HOUSE.V hear
+touch 3 MAN PRO CARPENTER BUILD HOUSE HAIRCUT NOSE.V'' build eat 4 DOOR PRO LOCK
+LOOK-FOR KEY NOSE G_2H (contact 2x) lock hat 5 WATER+CL:pond PRO CL:many-across FISH
+WORD GHOST.S water wine 6 MOTORCYCLE BROKE-DOWN-REPEATEDLY FINALLY BOUGHT NEW CAR
+GHOST wear sick one lights bath angry green sit drive boy mouse watch help read steal
+fix burn work shower students hat police student mother father room bread kill love
+full hard pirate circle ball tennis tax card love try see hear touch dry milk hat
+scientist cover catch draw son aunt taste cousin arm rats hill cut arm mall mouse bad
+wheel newspaper chair listen mom zoo men army drink pants hotel sun beautiful
+computer WRIST.CS (open &amp; close) buy 7 PRO3 BECOME-ILL SICK CAN'T GO-TO WORK
+BOTTLE NOSE.5 (2x) 8 MY HOUSE LIGHTS BLACKOUT-POW CL:set-up-around CANDLE ELEPHANT
+KNOCK.8 9 DOG ANGRY CHASE CAT EASTER KNOCK.G 10 #PATIENT SIT-HABITUAL ANALYZE-PRO1,
+PRO3 PSYCHOFRANCE MONEY.X LOGIST 11 BOY STOLE MONEY INJURY PALM_up.5 12 KIDS PRO3
+CL:go-out-in-group WATCH (theater) PLAY WEALTH BOOK.openB on chin 13 DAUGHTER MY LIKE
+READ BOOK VEGETABLE X (moving left to right) 14 PLUMBER HIS JOB FIX TOILET APPLE
+BEANS.C 15 PRIEST WORK THERE CHURCH BEANS EXAM_2H.openF 16 STUDENTS WRITE-TOOK EXAM
+RING MUSIC.V'' 17 POLICEMAN PRO CATCH THIEF MUSIC REASON.5'' 18 MOTHER HAVE 3
+CHILDREN REASON PIC.X 19 DARK ROOM PRO FOR-FOR DEVELOP PICTURE SLED INTERNET.H'' 20
+HUNTER SHOOT-AT KILL DUCK INTERNET PAPER.3' 21 AIRPLANE SEAT FULL CL:mass 300 PEOPLE
+PAPER GOLD.F 22 PIRATE PRO3 HUNT WHERE GOLD NAPKIN EMAIL.L'' 23 GOLFER STROKE
+CL:ball-fly-across WRONG CL:ball-into-water POND PICKLE NOSE(vb).openB 24 SPRING THIS
+YEAR MINE TAX HEAVY DEBT CHOCOLATE EXAMPLE.Z 25 KING-PRO FALL-IN-LOVE QUEEN EXAMPLE
+STAR_2H.X 26 TELESCOPE I TELESCOPE-FOCUS SEE STAR RUBBISH PENNY.flat0' 27 #APOLLO
+ROCKET-MAN GO-TO TOUCH MOON BANANA MONEY.C' 28 FARMER NOW CL:milk (verb) COW PENCIL
+DANCE.openH 29 SCIENTIST INVENT++ HARD EXPERIMENT TEACHER BUTTERFLY. bent5 30
+MURDERER PRO3 CAUGHT PUT-INTO JAIL LOBSTER JAIL.T 31 FATHER COMMAND SON GO CLEAN
+EARRINGS VOICE-UP.1 DOLL WHITE (on neck) GIRAFFE XMAS.5'' MAGAZINE TALL.3 SAUSAGE
+TIME.openB'' HAMBUR-GER DANCE. openH'' DANCE TIRED_2H.H LUNGS MATH_2H.B BUTTERFLY
+DAMAGE.Y LANGUAGE BEACH.L CABBAGE MONEY.5'' CAP KNOW.20 BATHROOM MATHEMATICS
+WHERE.bent4 32 NEW YORK TIMES NEWSPAPER ITS TENDENCY I READ MANY ARTICLE 33 JUDGE
+PRO3 ARGUMENT LISTEN LISTEN THINK-IT-OVER READY DECISION MAKE 34 MY BIRTHDAY SOON
+COME MY MOM PRO3 BAKE CAKE 35 #ZOO ITS-TENDENCY HAVE MANY VARIOUS ANIMAL 36 MEN PRO3
+CL:group-up GO-OUT CHUG BEER 37 I JOIN ARMY I SHOPPING CLOTHES NEED SHIRT PANTS
+#BOOTS 38 TEA DRINK TASTE BITTER NEED SUGAR 39 PANTS CL:pull-on CL:fit-loose NEED
+BELT 40 I CALL HOTEL RESERVE ROOM 41 WOMAN CL:lie-down SUNNING THERE BEACH 42 MUSEUM
+I LOOK-AT HALLWAY LOOK-AT WOW BEAUTIFUL PAINTING 43 #OFFICE MAX I ENTER SHOP-AROUND
+PRO #FAX PRO COMPUTER PRINTER PRO 44 MORNING BOY PRO CL:get-on-bike RIDE-BIKE
+CL:deliver 45 MY LIVING ROOM EMPTY NONE 46 MONEY FATHER GAVE-ME I PUT-IN WHERE 47
+POPCORN I MAKE FINISH I CL:pour-over 48 I THIRST-FOR WATER NEED 49 ME ENTER BDRM I
+SPOT MOUSE CL:sneak-under 50 FROG CL:tongue-stick-out-retract GULP 51 GRASS
+CL:thereabout I WALK CL:walk-around WET OH 52 GIRLFRIEND GO FURNITURE STORE BUY BRING
+53 BIRD EAT SLEEP WHERE 54 WOMAN PRO3 TOP ATHLETE PARTICIPATE 55 COOK PRO3 EXPERT
+THEIRS COOKING 56 I ENTER HOUSE I HEAR TICK-TICK AHA! PRO3 57 VW BUS I BUY DRIVE
+WRONG BROKEDOWN 58 OUTSIDE GIRL CL:lie-down OBSERVE 59 LAWYER
+CL:sit-down-with-someone DISCUSS WITH PRO 60 I INFORM SISTER PLEASE PACK BRING 61
+MAIL/LTR I GOT OPEN-ENVELOPE I GOT 62 MAN PRO3 I SEE PRO3 FIX FINISH CONSTRUCT 63
+TARA PRO WANT MAKE PIE NEED BUY<component x="54.82" y="56.5" width="497.51"
+height="593.07" page="10" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.23"
+year_ratio="0.04" cap_ratio="0.34" name_ratio="0.16341463414634147" word_count="1640"
+lateness="1.0" reference_score="30.65">Arbib, M. A. (2005). Interweaving protosign
+and protospeech: Further developments beyond the mirror. Interaction Studies: Social
+Behaviour and Communication in Biological and Artificial Systems, 6, 145-171. Arbib,
+M. A. (2008). From grasp to language: Embodied concepts and the challenge of
+abstraction. Journal of Physiology-Paris, 102, 4-20. Barrett, S. E., &amp; Rugg, M.
+D. (1989). Event-related potentials and the semantic matching of faces.
+Neuropsychologia, 27, 913-922. Barrett, S. E., &amp; Rugg, M. D. (1990).
+Event-related potentials and the semantic matching of pictures. Brain and Cognition,
+14, 201-212. Bentin, S. (1987). Event-related potentials, semantic processes, and
+expectancy factors in word recognition. Brain and Language, 31, 308-327. Bentin, S.,
+McCarthy, G., &amp; Wood, C. C. (1985). Event-related potentials, lexical decision,
+and semantic priming. Electroencephalography &amp; Clinical Neurophysiology, 60,
+353-355. Bobes, M. A., Vald&#xE9;s-Sosa, M., &amp; Olivares, E. (1994). An ERP study
+of expectancy violation in face perception. Brain and Cognition, 26, 1-22. Brown, C.,
+&amp; Hagoort, P. (1993). The processing nature of the N400: Evidence from masked
+priming. Journal of Cognitive Neuroscience, 5, 34-44. Capek, C. M., Grossi, G.,
+Newman, A. J., McBurney, S. L., Corina, D., Roeder, B., et al. (2009). Brain systems
+mediating semantic and syntactic processing in deaf native signers: Biological
+invariance and modality specificity. Proceedings of the National Academy of Sciences
+of the United States of America, 106, 8784-8789. Chao, L. L., Nielsen-Bohlman, L.,
+&amp; Knight, R. T. (1995). Auditory event-related potentials dissociate early and
+late memory processes. Electroencephalography &amp; Clinical Neurophysiology, 96,
+157-168. Corballis, M. C. (2009). The evolution of language. Annals of the New York
+Academy of Sciences, 1156, 19-43. Corina, D. P., McBurney, S. L., Dodrill, C.,
+Hinshaw, K., Brinkley, J., &amp; Ojemann, G. (1999). Functional roles of Broca's area
+and SMG: Evidence from cortical stimulation mapping in a deaf signer. NeuroImage, 10,
+570-581. Corina, D., Chiu, Y.-S., Knapp, H., Greenwald, R., San Jose-Robertson, L.,
+&amp; Braun, A. (2007). Neural correlates of human action observation in hearing and
+deaf subjects. Brain Research, 1152, 111-129. Corina, D. P., &amp; Knapp, H. P.
+(2006). Psycholinguistic and neurolinguistic perspectives on sign languages. In M. J.
+Traxler &amp; M. A. Gernsbacher (Eds.), Handbook of psycholinguistics (2nd ed., pp.
+1001-1024). San Diego, CA: Academic Press. Corina, D. P., San Jose-Robertson, L.,
+Guillemin, A., High, J., &amp; Braun, A. R. (2003). Language lateralization in a
+bimanual language. Journal of Cognitive Neuroscience, 15, 718-730. Corina, D.,
+Grosvald, M., &amp; Lachaud, C. (2011). Perceptual invariance or orientation
+specificity in American Sign Language? Evidence from repetition priming for signs and
+gestures. Language and Cognitive Processes, 26, 1102-1135. Cornejo, C., Simonetti,
+F., Ib&#xE1;&#xF1;ez, A., Aldunate, N., L&#xF3;pez, V., &amp; Ceric, F. (2009).
+Gesture and metaphor comprehension: Electrophysiological evidence of crossmodal
+coordination by audiovisual stimulation. Brain and Cognition, 70, 42-52. Delorme, A.,
+&amp; Makeig, S. (2004). EEGLAB: An open source toolbox for analysis of single-trial
+EEG dynamics. Journal of Neuroscience Methods, 134, 9-21. Emmorey, K. (2002).
+Language, cognition, and the brain: Insights from sign language research. Mahwah, NJ:
+Lawrence Erlbaum. Emmorey, K., Xu, J., Gannon, P., Goldin-Meadow, S., &amp; Braun, A.
+(2010). CNS activation and regional connectivity during pantomime observation: No
+engagement of the mirror neuron system for deaf signers. NeuroImage, 49, 994-1005.
+Friedrich, C., Eulitz, C., &amp; Lahiri, A. (2006). Not every pseudoword disrupts
+word recognition: An ERP study. Behavioral and Brain Functions, 2, 36. Friederici, A.
+D. (2002). Towards a neural basis of auditory sentence processing. Trends in
+Cognitive Sciences, 6, 78-84. Frishberg, N. (1987). Ghanaian Sign Language. In J. Van
+Cleve (Ed.), Gallaudet encyclopaedia of deaf people and deafness. New York:
+McGraw-Gill Book Company. Ganis, G., &amp; Kutas, M. (2003). An electrophysiological
+study of scene effects on object identification. Cognitive Brain Research, 16,
+123-144. Ganis, G., Kutas, M., &amp; Sereno, M. I. (1996). The search for ''common
+sense'': An electrophysiological study of the comprehension of words and pictures in
+reading. Journal of Cognitive Neuroscience, 8, 89-106. Gentilucci, M., &amp;
+Corballis, M. (2006). From manual gesture to speech: A gradual transition.
+Neuroscience &amp; Biobehavioral Reviews, 30, 949-960. Goldin-Meadow, S. (2003).
+Hearing gestures: How our hands help us think. Cambridge, MA: Harvard University
+Press. Greenhouse, W. W., &amp; Geisser, S. (1959). On methods in the analysis of
+profile data. Psychometrika, 24, 95-112. Hagoort, P., &amp; Brown, C. (1994). Brain
+responses to lexical ambiguity resolution and parsing. In L. Frazier, J. Clifton
+Charles, &amp; K. Rayner (Eds.), Perspectives in sentence processing (pp. 45-80).
+Hillsdale, NJ, UK: Lawrence Erlbaum Associates. Hagoort, P., &amp; Kutas, M. (1995).
+Electrophysiological insights into language deficits. In F. Boller &amp; J. Grafman
+(Eds.), Handbook of neuropsychology (pp. 105-134). Amsterdam: Elsevier. Hagoort, P.,
+&amp; van Berkum, J. (2007). Beyond the sentence given. Philosophical Transactions of
+the Royal Society of London. Series B: Biological Sciences, 362, 801-811. Holcomb, P.
+J., &amp; McPherson, W. B. (1994). Event-related brain potentials reflect semantic
+priming in an object decision task. Brain and Cognition, 24, 259-276. Holcomb, P. J.,
+&amp; Neville, H. J. (1990). Auditory and visual semantic priming in lexical
+decision: A comparison using event-related brain potentials. Language and Cognitive
+Processes, 5, 281-312. Holcomb, P. J., &amp; Neville, H. J. (1991). Natural speech
+processing: An analysis using event-related brain potentials. Psychobiology, 19,
+286-300. Holle, H., &amp; Gunter, T. C. (2007). The role of iconic gestures in speech
+disambiguation: ERP evidence. Journal of Cognitive Neuroscience, 19, 1175-1192.
+Johnson, B. W., &amp; Hamm, J. P. (2000). High-density mapping in an N400 paradigm:
+Evidence for bilateral temporal lobe generators. Clinical Neurophysiology, 111,
+532-545. Johnson, R., Jr, &amp; Donchin, E. (1980). P300 and stimulus categorization:
+Two plus one is not so different from one plus one. Psychophysiology, 17, 167-178.
+Kegl, J., Senghas, A., &amp; Coppola, M. (1999). Creation through contact: Sign
+language emergence and sign language change in Nicaragua. In M. DeGraff (Ed.),
+Language creation and language change: Creolization, diachrony, and development (pp.
+179-237). Cambridge MA: MIT Press. Kelly, S. D., Kravitz, C., &amp; Hopkins, M.
+(2004). Neural correlates of bimodal speech and gesture comprehension. Brain and
+Language, 89, 243-260. Kim, A., &amp; Osterhout, L. (2005). The independence of
+combinatory semantic processing: Evidence from event-related potentials. Journal of
+Memory and Language, 52, 205-225. Kim, A., &amp; Pitk&#xE4;nen, I. (submitted for
+publication). Dissociation of ERPs to structural and semantic processing difficulty
+during sentence-embedded pseudoword processing. Kutas, M., &amp; Hillyard, S. A.
+(1980). Reading senseless sentences: Brain potentials reflect semantic incongruity.
+Science, 207, 203-208. Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials
+during reading reflect word expectancy and semantic association. Nature, 307,
+161-163. Kutas, M., Neville, H. J., &amp; Holcomb, P. J. (1987). A preliminary
+comparison of the N400 response to semantic anomalies during reading, listening, and
+signing. Electroencephalography and Clinical Neurophysiology, Supplement, 39,
+325-330. Liddell, S. K. (2003). Grammar, gesture, and meaning in American Sign
+Language. Cambridge, UK: Cambridge University Press. Lopez-Calderon, J., &amp; Luck,
+S. (in press). ERPLAB. Plug-in for EEGLAB. In development at the Center for Mind and
+Brain, University of California at Davis. MacSweeney, M., Campbell, R., Woll, B.,
+Giampietro, V., David, A. S., McGuire, P. K., et al. (2004). Dissociating linguistic
+and nonlinguistic gestural communication in the brain. NeuroImage, 22, 1605-1618.
+McPherson, W. B., &amp; Holcomb, P. J. (1999). An electrophysiological investigation
+of semantic priming with pictures of real objects. Psychophysiology, 36, 53-65. Meir,
+I., Sandler, W., Padden, C., &amp; Aronoff, M. (2010). Emerging sign languages. In M.
+Marschark &amp; P. Spencer (Eds.). Oxford handbook of deaf studies, language, and
+education (Vol. 2). New York: Oxford University Press. Morford, J. P., &amp; Kegl, J.
+A. (2000). Gestural precursors to linguistic constructs: How input shapes the form of
+language. In D. McNeill (Ed.), Language and gesture (pp. 358-387). Cambridge, UK:
+Cambridge University Press. Neville, H. J., Bavelier, D., Corina, D., Rauschecker,
+J., Karni, A., Lalwani, A., et al. (1998). Cerebral organization for language in deaf
+and hearing subjects: Biological constraints and effects of experience. Proceedings
+of the National Academy of Sciences of the United States of America, 95, 922-929.
+Neville, H. J., Coffey, S. A., Lawson, D. S., Fischer, A., Emmorey, K., &amp;
+Bellugi, U. (1997). Neural systems mediating American Sign Language: Effects of
+sensory experience and age of acquisition. Brain and Language, 285-308. Neville, H.
+J., Nicol, J. L., Barss, A., Forster, K. I., &amp; Garrett, M. F. (1991).
+Syntactically based sentence processing classes: Evidence from event-related brain
+potentials. Journal of Cognitive Neuroscience, 3, 151-165. Nigam, A., Hoffman, J. E.,
+&amp; Simons, R. F. (1992). N400 and semantic anomaly with pictures and words.
+Journal of Cognitive Neuroscience, 4, 15-22. Osterhout, L., &amp; Holcomb, P. (1992).
+Event-related brain potentials elicited by syntactic anomaly. Journal of Memory and
+Language, 31, 785-806. Ozy&#xFC;rek, A., Willems, R. M., Kita, S., &amp; Hagoort, P.
+(2007). On-line integration of semantic information from speech and gesture: Insights
+from event-related brain potentials. Journal of Cognitive Neuroscience, 19, 605-616.
+Pratarelli, M. E. (1994). Semantic processing of pictures and spoken words: Evidence
+from event-related brain potentials. Brain and Cognition, 24, 137-157. Rizzolatti,
+G., &amp; Arbib, M. A. (1998). Language within our grasp. Trends in Neurosciences,
+21, 188-194. Rugg, M. D., &amp; Nagy, M. E. (1987). Lexical contribution to
+non-word-repetition effects: Evidence from event-related potentials. Memory and
+Cognition, 15, 473-481. Senghas, A. (2005). Language emergence. Clues from a new
+Bedouin sign language. Current Biology, 15, 463-465. Sitnikova, T., Holcomb, P. J.,
+Kiyonaga, K. A., &amp; Kuperberg, G. R. (2008). Two neurocognitive mechanisms of
+semantic integration during the comprehension of real-world events. Journal of
+Cognitive Neuroscience, 20, 2037-2057. Sitnikova, T., Kuperberg, G., &amp; Holcomb,
+P. J. (2003). Semantic integration in videos of real-world events: An
+electrophysiological investigation. Psychophysiology, 40, 160-164. Tomasello, M.
+(2005). Constructing a language: A usage-based theory of language acquisition.
+Cambridge, MA: Harvard University Press. Van Petten, C., &amp; Rheinfelder, H.
+(1995). Conceptual relationships between spoken words and environmental sounds:
+Event-related brain potential measures. Neuropsychologia, 33, 485-508. West, W. C.,
+&amp; Holcomb, P. J. (2002). Event-related potentials during discourse-level semantic
+integration of complex pictures. Cognitive Brain Research, 13, 363-375.<component
+x="42.52" y="46.17" width="251.08" height="659.92" page="12" page_width="595.28"
+page_height="793.7"></component><component x="311.52" y="42.26" width="251.08"
+height="683.85" page="12" page_width="595.28"
+page_height="793.7"></component></section>
+  <section line_height="6.37" font="MAHBPE+AdvGulliv-R" letter_ratio="0.24"
+year_ratio="0.06" cap_ratio="0.26" name_ratio="0.16666666666666666" word_count="54"
+lateness="1.0833333333333333" reference_score="29.94">Wilcox, S. (2004). Gesture and
+language: Cross-linguistic and historical data from signed languages. Gesture, 4,
+43-73. Wu, Y. C., &amp; Coulson, S. (2005). Meaningful gestures: Electrophysiological
+indices of iconic gesture comprehension. Psychophysiology, 42, 654-667. Wu, Y. C.,
+&amp; Coulson, S. (2007a). How iconic gestures enhance communication: An ERP study.
+Brain and Language, 101, 234-245.<component x="32.71" y="679.88" width="251.07"
+height="46.22" page="13" page_width="595.28"
+page_height="793.7"></component></section>
+  <reference>Arbib, M. A. (2005). Interweaving protosign and protospeech: Further
+developments beyond the mirror. Interaction Studies: Social Behaviour and
+Communication in Biological and Artificial Systems, 6, 145-171.</reference>
+  <reference>Arbib, M. A. (2008). From grasp to language: Embodied concepts and the
+challenge of abstraction. Journal of Physiology-Paris, 102, 4-20.</reference>
+  <reference>Barrett, S. E., &amp; Rugg, M. D. (1989). Event-related potentials and
+the semantic matching of faces. Neuropsychologia, 27, 913-922.</reference>
+  <reference>Barrett, S. E., &amp; Rugg, M. D. (1990). Event-related potentials and
+the semantic matching of pictures. Brain and Cognition, 14, 201-212.</reference>
+  <reference>Bentin, S. (1987). Event-related potentials, semantic processes, and
+expectancy factors in word recognition. Brain and Language, 31, 308-327.</reference>
+  <reference>Bentin, S., McCarthy, G., &amp; Wood, C. C. (1985). Event-related
+potentials, lexical decision, and semantic priming. Electroencephalography &amp;
+Clinical Neurophysiology, 60, 353-355.</reference>
+  <reference>Bobes, M. A., Vald&#xE9;s-Sosa, M., &amp; Olivares, E. (1994). An ERP
+study of expectancy violation in face perception. Brain and Cognition, 26,
+1-22.</reference>
+  <reference>Brown, C., &amp; Hagoort, P. (1993). The processing nature of the N400:
+Evidence from masked priming. Journal of Cognitive Neuroscience, 5,
+34-44.</reference>
+  <reference>Capek, C. M., Grossi, G., Newman, A. J., McBurney, S. L., Corina, D.,
+Roeder, B., et al. (2009). Brain systems mediating semantic and syntactic processing
+in deaf native signers: Biological invariance and modality specificity. Proceedings
+of the National Academy of Sciences of the United States of America, 106,
+8784-8789.</reference>
+  <reference>Chao, L. L., Nielsen-Bohlman, L., &amp; Knight, R. T. (1995). Auditory
+event-related potentials dissociate early and late memory processes.
+Electroencephalography &amp; Clinical Neurophysiology, 96, 157-168.</reference>
+  <reference>Corballis, M. C. (2009). The evolution of language. Annals of the New
+York Academy of Sciences, 1156, 19-43.</reference>
+  <reference>Corina, D. P., McBurney, S. L., Dodrill, C., Hinshaw, K., Brinkley, J.,
+&amp; Ojemann, G. (1999). Functional roles of Broca's area and SMG: Evidence from
+cortical stimulation mapping in a deaf signer. NeuroImage, 10, 570-581.</reference>
+  <reference>Corina, D., Chiu, Y.-S., Knapp, H., Greenwald, R., San Jose-Robertson,
+L., &amp; Braun, A. (2007). Neural correlates of human action observation in hearing
+and deaf subjects. Brain Research, 1152, 111-129.</reference>
+  <reference>Corina, D. P., &amp; Knapp, H. P. (2006). Psycholinguistic and
+neurolinguistic perspectives on sign languages. In M. J. Traxler &amp; M. A.
+Gernsbacher (Eds.), Handbook of psycholinguistics (2nd ed., pp. 1001-1024). San
+Diego, CA: Academic Press.</reference>
+  <reference>Corina, D. P., San Jose-Robertson, L., Guillemin, A., High, J., &amp;
+Braun, A. R. (2003). Language lateralization in a bimanual language. Journal of
+Cognitive Neuroscience, 15, 718-730.</reference>
+  <reference>Corina, D., Grosvald, M., &amp; Lachaud, C. (2011). Perceptual
+invariance or orientation specificity in American Sign Language? Evidence from
+repetition priming for signs and gestures. Language and Cognitive Processes, 26,
+1102-1135.</reference>
+  <reference>Cornejo, C., Simonetti, F., Ib&#xE1;&#xF1;ez, A., Aldunate, N.,
+L&#xF3;pez, V., &amp; Ceric, F. (2009). Gesture and metaphor comprehension:
+Electrophysiological evidence of cross- modal coordination by audiovisual
+stimulation. Brain and Cognition, 70, 42-52.</reference>
+  <reference>Delorme, A., &amp; Makeig, S. (2004). EEGLAB: An open source toolbox for
+analysis of single-trial EEG dynamics. Journal of Neuroscience Methods, 134,
+9-21.</reference>
+  <reference>Emmorey, K. (2002). Language, cognition, and the brain: Insights from
+sign language research. Mahwah, NJ: Lawrence Erlbaum.</reference>
+  <reference>Emmorey, K., Xu, J., Gannon, P., Goldin-Meadow, S., &amp; Braun, A.
+(2010). CNS activation and regional connectivity during pantomime observation: No
+engagement of the mirror neuron system for deaf signers. NeuroImage, 49,
+994-1005.</reference>
+  <reference>Friedrich, C., Eulitz, C., &amp; Lahiri, A. (2006). Not every pseudoword
+disrupts word recognition: An ERP study. Behavioral and Brain Functions, 2,
+36.</reference>
+  <reference>Friederici, A. D. (2002). Towards a neural basis of auditory sentence
+processing. Trends in Cognitive Sciences, 6, 78-84.</reference>
+  <reference>Frishberg, N. (1987). Ghanaian Sign Language. In J. Van Cleve (Ed.),
+Gallaudet encyclopaedia of deaf people and deafness. New York: McGraw-Gill Book
+Company.</reference>
+  <reference>Ganis, G., &amp; Kutas, M. (2003). An electrophysiological study of
+scene effects on object identification. Cognitive Brain Research, 16,
+123-144.</reference>
+  <reference>Ganis, G., Kutas, M., &amp; Sereno, M. I. (1996). The search for
+''common sense'': An electrophysiological study of the comprehension of words and
+pictures in reading. Journal of Cognitive Neuroscience, 8, 89-106.</reference>
+  <reference>Gentilucci, M., &amp; Corballis, M. (2006). From manual gesture to
+speech: A gradual transition. Neuroscience &amp; Biobehavioral Reviews, 30,
+949-960.</reference>
+  <reference>Goldin-Meadow, S. (2003). Hearing gestures: How our hands help us think.
+Cambridge, MA: Harvard University Press.</reference>
+  <reference>Greenhouse, W. W., &amp; Geisser, S. (1959). On methods in the analysis
+of profile data. Psychometrika, 24, 95-112.</reference>
+  <reference>Hagoort, P., &amp; Brown, C. (1994). Brain responses to lexical
+ambiguity resolution and parsing. In L. Frazier, J. Clifton Charles, &amp; K. Rayner
+(Eds.), Perspectives in sentence processing (pp. 45-80). Hillsdale, NJ, UK: Lawrence
+Erlbaum Associates.</reference>
+  <reference>Hagoort, P., &amp; Kutas, M. (1995). Electrophysiological insights into
+language deficits. In F. Boller &amp; J. Grafman (Eds.), Handbook of neuropsychology
+(pp. 105-134). Amsterdam: Elsevier.</reference>
+  <reference>Hagoort, P., &amp; van Berkum, J. (2007). Beyond the sentence given.
+Philosophical Transactions of the Royal Society of London. Series B: Biological
+Sciences, 362, 801-811.</reference>
+  <reference>Holcomb, P. J., &amp; McPherson, W. B. (1994). Event-related brain
+potentials reflect semantic priming in an object decision task. Brain and Cognition,
+24, 259-276.</reference>
+  <reference>Holcomb, P. J., &amp; Neville, H. J. (1990). Auditory and visual
+semantic priming in lexical decision: A comparison using event-related brain
+potentials. Language and Cognitive Processes, 5, 281-312.</reference>
+  <reference>Holcomb, P. J., &amp; Neville, H. J. (1991). Natural speech processing:
+An analysis using event-related brain potentials. Psychobiology, 19,
+286-300.</reference>
+  <reference>Holle, H., &amp; Gunter, T. C. (2007). The role of iconic gestures in
+speech disambiguation: ERP evidence. Journal of Cognitive Neuroscience, 19,
+1175-1192.</reference>
+  <reference>Johnson, B. W., &amp; Hamm, J. P. (2000). High-density mapping in an
+N400 paradigm: Evidence for bilateral temporal lobe generators. Clinical
+Neurophysiology, 111, 532-545.</reference>
+  <reference>Johnson, R., Jr, &amp; Donchin, E. (1980). P300 and stimulus
+categorization: Two plus one is not so different from one plus one. Psychophysiology,
+17, 167-178.</reference>
+  <reference>Kegl, J., Senghas, A., &amp; Coppola, M. (1999). Creation through
+contact: Sign language emergence and sign language change in Nicaragua. In M. DeGraff
+(Ed.), Language creation and language change: Creolization, diachrony, and
+development (pp. 179-237). Cambridge MA: MIT Press.</reference>
+  <reference>Kelly, S. D., Kravitz, C., &amp; Hopkins, M. (2004). Neural correlates
+of bimodal speech and gesture comprehension. Brain and Language, 89,
+243-260.</reference>
+  <reference>Kim, A., &amp; Osterhout, L. (2005). The independence of combinatory
+semantic processing: Evidence from event-related potentials. Journal of Memory and
+Language, 52, 205-225.</reference>
+  <reference>Kutas, M., &amp; Hillyard, S. A. (1980). Reading senseless sentences:
+Brain potentials reflect semantic incongruity. Science, 207, 203-208.</reference>
+  <reference>Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials during reading
+reflect word expectancy and semantic association. Nature, 307, 161-163.</reference>
+  <reference>Kutas, M., Neville, H. J., &amp; Holcomb, P. J. (1987). A preliminary
+comparison of the N400 response to semantic anomalies during reading, listening, and
+signing. Electroencephalography and Clinical Neurophysiology, Supplement, 39,
+325-330.</reference>
+  <reference>Liddell, S. K. (2003). Grammar, gesture, and meaning in American Sign
+Language. Cambridge, UK: Cambridge University Press.</reference>
+  <reference>Lopez-Calderon, J., &amp; Luck, S. (in press). ERPLAB. Plug-in for
+EEGLAB. In development at the Center for Mind and Brain, University of California at
+Davis.</reference>
+  <reference>MacSweeney, M., Campbell, R., Woll, B., Giampietro, V., David, A. S.,
+McGuire, P. K., et al. (2004). Dissociating linguistic and nonlinguistic gestural
+communication in the brain. NeuroImage, 22, 1605-1618.</reference>
+  <reference>McPherson, W. B., &amp; Holcomb, P. J. (1999). An electrophysiological
+investigation of semantic priming with pictures of real objects. Psychophysiology,
+36, 53-65.</reference>
+  <reference>Meir, I., Sandler, W., Padden, C., &amp; Aronoff, M. (2010). Emerging
+sign languages. In M. Marschark &amp; P. Spencer (Eds.). Oxford handbook of deaf
+studies, language, and education (Vol. 2). New York: Oxford University
+Press.</reference>
+  <reference>Morford, J. P., &amp; Kegl, J. A. (2000). Gestural precursors to
+linguistic constructs: How input shapes the form of language. In D. McNeill (Ed.),
+Language and gesture (pp. 358-387). Cambridge, UK: Cambridge University
+Press.</reference>
+  <reference>Neville, H. J., Bavelier, D., Corina, D., Rauschecker, J., Karni, A.,
+Lalwani, A., et al. (1998). Cerebral organization for language in deaf and hearing
+subjects: Biological constraints and effects of experience. Proceedings of the
+National Academy of Sciences of the United States of America, 95,
+922-929.</reference>
+  <reference>Neville, H. J., Coffey, S. A., Lawson, D. S., Fischer, A., Emmorey, K.,
+&amp; Bellugi, U. (1997). Neural systems mediating American Sign Language: Effects of
+sensory experience and age of acquisition. Brain and Language, 285-308.</reference>
+  <reference>Neville, H. J., Nicol, J. L., Barss, A., Forster, K. I., &amp; Garrett,
+M. F. (1991). Syntactically based sentence processing classes: Evidence from
+event-related brain potentials. Journal of Cognitive Neuroscience, 3,
+151-165.</reference>
+  <reference>Nigam, A., Hoffman, J. E., &amp; Simons, R. F. (1992). N400 and semantic
+anomaly with pictures and words. Journal of Cognitive Neuroscience, 4,
+15-22.</reference>
+  <reference>Osterhout, L., &amp; Holcomb, P. (1992). Event-related brain potentials
+elicited by syntactic anomaly. Journal of Memory and Language, 31,
+785-806.</reference>
+  <reference>Ozy&#xFC;rek, A., Willems, R. M., Kita, S., &amp; Hagoort, P. (2007).
+On-line integration of semantic information from speech and gesture: Insights from
+event-related brain potentials. Journal of Cognitive Neuroscience, 19,
+605-616.</reference>
+  <reference>Pratarelli, M. E. (1994). Semantic processing of pictures and spoken
+words: Evidence from event-related brain potentials. Brain and Cognition, 24,
+137-157.</reference>
+  <reference>Rizzolatti, G., &amp; Arbib, M. A. (1998). Language within our grasp.
+Trends in Neurosciences, 21, 188-194.</reference>
+  <reference>Rugg, M. D., &amp; Nagy, M. E. (1987). Lexical contribution to
+non-word-repetition effects: Evidence from event-related potentials. Memory and
+Cognition, 15, 473-481.</reference>
+  <reference>Senghas, A. (2005). Language emergence. Clues from a new Bedouin sign
+language. Current Biology, 15, 463-465.</reference>
+  <reference>Sitnikova, T., Holcomb, P. J., Kiyonaga, K. A., &amp; Kuperberg, G. R.
+(2008). Two neurocognitive mechanisms of semantic integration during the
+comprehension of real-world events. Journal of Cognitive Neuroscience, 20,
+2037-2057.</reference>
+  <reference>Sitnikova, T., Kuperberg, G., &amp; Holcomb, P. J. (2003). Semantic
+integration in videos of real-world events: An electrophysiological investigation.
+Psychophysiology, 40, 160-164.</reference>
+  <reference>Tomasello, M. (2005). Constructing a language: A usage-based theory of
+language acquisition. Cambridge, MA: Harvard University Press.</reference>
+  <reference>Van Petten, C., &amp; Rheinfelder, H. (1995). Conceptual relationships
+between spoken words and environmental sounds: Event-related brain potential
+measures. Neuropsychologia, 33, 485-508.</reference>
+  <reference>West, W. C., &amp; Holcomb, P. J. (2002). Event-related potentials
+during discourse-level semantic integration of complex pictures. Cognitive Brain
+Research, 13, 363-375.</reference>
+  <reference>Wilcox, S. (2004). Gesture and language: Cross-linguistic and historical
+data from signed languages. Gesture, 4, 43-73.</reference>
+  <reference>Wu, Y. C., &amp; Coulson, S. (2005). Meaningful gestures:
+Electrophysiological indices of iconic gesture comprehension. Psychophysiology, 42,
+654-667.</reference>
+  <reference>Wu, Y. C., &amp; Coulson, S. (2007a). How iconic gestures enhance
+communication: An ERP study. Brain and Language, 101, 234-245.</reference>
+  <reference>Arbib, M. A. (2005). Interweaving protosign and protospeech: Further
+developments beyond the mirror. Interaction Studies: Social Behaviour and
+Communication in Biological and Artificial Systems, 6, 145-171.</reference>
+  <reference>Arbib, M. A. (2008). From grasp to language: Embodied concepts and the
+challenge of abstraction. Journal of Physiology-Paris, 102, 4-20.</reference>
+  <reference>Barrett, S. E., &amp; Rugg, M. D. (1989). Event-related potentials and
+the semantic matching of faces. Neuropsychologia, 27, 913-922.</reference>
+  <reference>Barrett, S. E., &amp; Rugg, M. D. (1990). Event-related potentials and
+the semantic matching of pictures. Brain and Cognition, 14, 201-212.</reference>
+  <reference>Bentin, S. (1987). Event-related potentials, semantic processes, and
+expectancy factors in word recognition. Brain and Language, 31, 308-327.</reference>
+  <reference>Bentin, S., McCarthy, G., &amp; Wood, C. C. (1985). Event-related
+potentials, lexical decision, and semantic priming. Electroencephalography &amp;
+Clinical Neurophysiology, 60, 353-355.</reference>
+  <reference>Bobes, M. A., Vald&#xE9;s-Sosa, M., &amp; Olivares, E. (1994). An ERP
+study of expectancy violation in face perception. Brain and Cognition, 26,
+1-22.</reference>
+  <reference>Brown, C., &amp; Hagoort, P. (1993). The processing nature of the N400:
+Evidence from masked priming. Journal of Cognitive Neuroscience, 5,
+34-44.</reference>
+  <reference>Capek, C. M., Grossi, G., Newman, A. J., McBurney, S. L., Corina, D.,
+Roeder, B., et al. (2009). Brain systems mediating semantic and syntactic processing
+in deaf native signers: Biological invariance and modality specificity. Proceedings
+of the National Academy of Sciences of the United States of America, 106,
+8784-8789.</reference>
+  <reference>Chao, L. L., Nielsen-Bohlman, L., &amp; Knight, R. T. (1995). Auditory
+event-related potentials dissociate early and late memory processes.
+Electroencephalography &amp; Clinical Neurophysiology, 96, 157-168.</reference>
+  <reference>Corballis, M. C. (2009). The evolution of language. Annals of the New
+York Academy of Sciences, 1156, 19-43.</reference>
+  <reference>Corina, D. P., McBurney, S. L., Dodrill, C., Hinshaw, K., Brinkley, J.,
+&amp; Ojemann, G. (1999). Functional roles of Broca's area and SMG: Evidence from
+cortical stimulation mapping in a deaf signer. NeuroImage, 10, 570-581.</reference>
+  <reference>Corina, D., Chiu, Y.-S., Knapp, H., Greenwald, R., San Jose-Robertson,
+L., &amp; Braun, A. (2007). Neural correlates of human action observation in hearing
+and deaf subjects. Brain Research, 1152, 111-129.</reference>
+  <reference>Corina, D. P., &amp; Knapp, H. P. (2006). Psycholinguistic and
+neurolinguistic perspectives on sign languages. In M. J. Traxler &amp; M. A.
+Gernsbacher (Eds.), Handbook of psycholinguistics (2nd ed., pp. 1001-1024). San
+Diego, CA: Academic Press.</reference>
+  <reference>Corina, D. P., San Jose-Robertson, L., Guillemin, A., High, J., &amp;
+Braun, A. R. (2003). Language lateralization in a bimanual language. Journal of
+Cognitive Neuroscience, 15, 718-730.</reference>
+  <reference>Corina, D., Grosvald, M., &amp; Lachaud, C. (2011). Perceptual
+invariance or orientation specificity in American Sign Language? Evidence from
+repetition priming for signs and gestures. Language and Cognitive Processes, 26,
+1102-1135.</reference>
+  <reference>Cornejo, C., Simonetti, F., Ib&#xE1;&#xF1;ez, A., Aldunate, N.,
+L&#xF3;pez, V., &amp; Ceric, F. (2009). Gesture and metaphor comprehension:
+Electrophysiological evidence of cross- modal coordination by audiovisual
+stimulation. Brain and Cognition, 70, 42-52.</reference>
+  <reference>Delorme, A., &amp; Makeig, S. (2004). EEGLAB: An open source toolbox for
+analysis of single-trial EEG dynamics. Journal of Neuroscience Methods, 134,
+9-21.</reference>
+  <reference>Emmorey, K. (2002). Language, cognition, and the brain: Insights from
+sign language research. Mahwah, NJ: Lawrence Erlbaum.</reference>
+  <reference>Emmorey, K., Xu, J., Gannon, P., Goldin-Meadow, S., &amp; Braun, A.
+(2010). CNS activation and regional connectivity during pantomime observation: No
+engagement of the mirror neuron system for deaf signers. NeuroImage, 49,
+994-1005.</reference>
+  <reference>Friedrich, C., Eulitz, C., &amp; Lahiri, A. (2006). Not every pseudoword
+disrupts word recognition: An ERP study. Behavioral and Brain Functions, 2,
+36.</reference>
+  <reference>Friederici, A. D. (2002). Towards a neural basis of auditory sentence
+processing. Trends in Cognitive Sciences, 6, 78-84.</reference>
+  <reference>Frishberg, N. (1987). Ghanaian Sign Language. In J. Van Cleve (Ed.),
+Gallaudet encyclopaedia of deaf people and deafness. New York: McGraw-Gill Book
+Company.</reference>
+  <reference>Ganis, G., &amp; Kutas, M. (2003). An electrophysiological study of
+scene effects on object identification. Cognitive Brain Research, 16,
+123-144.</reference>
+  <reference>Ganis, G., Kutas, M., &amp; Sereno, M. I. (1996). The search for
+''common sense'': An electrophysiological study of the comprehension of words and
+pictures in reading. Journal of Cognitive Neuroscience, 8, 89-106.</reference>
+  <reference>Gentilucci, M., &amp; Corballis, M. (2006). From manual gesture to
+speech: A gradual transition. Neuroscience &amp; Biobehavioral Reviews, 30,
+949-960.</reference>
+  <reference>Goldin-Meadow, S. (2003). Hearing gestures: How our hands help us think.
+Cambridge, MA: Harvard University Press.</reference>
+  <reference>Greenhouse, W. W., &amp; Geisser, S. (1959). On methods in the analysis
+of profile data. Psychometrika, 24, 95-112.</reference>
+  <reference>Hagoort, P., &amp; Brown, C. (1994). Brain responses to lexical
+ambiguity resolution and parsing. In L. Frazier, J. Clifton Charles, &amp; K. Rayner
+(Eds.), Perspectives in sentence processing (pp. 45-80). Hillsdale, NJ, UK: Lawrence
+Erlbaum Associates.</reference>
+  <reference>Hagoort, P., &amp; Kutas, M. (1995). Electrophysiological insights into
+language deficits. In F. Boller &amp; J. Grafman (Eds.), Handbook of neuropsychology
+(pp. 105-134). Amsterdam: Elsevier.</reference>
+  <reference>Hagoort, P., &amp; van Berkum, J. (2007). Beyond the sentence given.
+Philosophical Transactions of the Royal Society of London. Series B: Biological
+Sciences, 362, 801-811.</reference>
+  <reference>Holcomb, P. J., &amp; McPherson, W. B. (1994). Event-related brain
+potentials reflect semantic priming in an object decision task. Brain and Cognition,
+24, 259-276.</reference>
+  <reference>Holcomb, P. J., &amp; Neville, H. J. (1990). Auditory and visual
+semantic priming in lexical decision: A comparison using event-related brain
+potentials. Language and Cognitive Processes, 5, 281-312.</reference>
+  <reference>Holcomb, P. J., &amp; Neville, H. J. (1991). Natural speech processing:
+An analysis using event-related brain potentials. Psychobiology, 19,
+286-300.</reference>
+  <reference>Holle, H., &amp; Gunter, T. C. (2007). The role of iconic gestures in
+speech disambiguation: ERP evidence. Journal of Cognitive Neuroscience, 19,
+1175-1192.</reference>
+  <reference>Johnson, B. W., &amp; Hamm, J. P. (2000). High-density mapping in an
+N400 paradigm: Evidence for bilateral temporal lobe generators. Clinical
+Neurophysiology, 111, 532-545.</reference>
+  <reference>Johnson, R., Jr, &amp; Donchin, E. (1980). P300 and stimulus
+categorization: Two plus one is not so different from one plus one. Psychophysiology,
+17, 167-178.</reference>
+  <reference>Kegl, J., Senghas, A., &amp; Coppola, M. (1999). Creation through
+contact: Sign language emergence and sign language change in Nicaragua. In M. DeGraff
+(Ed.), Language creation and language change: Creolization, diachrony, and
+development (pp. 179-237). Cambridge MA: MIT Press.</reference>
+  <reference>Kelly, S. D., Kravitz, C., &amp; Hopkins, M. (2004). Neural correlates
+of bimodal speech and gesture comprehension. Brain and Language, 89,
+243-260.</reference>
+  <reference>Kim, A., &amp; Osterhout, L. (2005). The independence of combinatory
+semantic processing: Evidence from event-related potentials. Journal of Memory and
+Language, 52, 205-225.</reference>
+  <reference>Kutas, M., &amp; Hillyard, S. A. (1980). Reading senseless sentences:
+Brain potentials reflect semantic incongruity. Science, 207, 203-208.</reference>
+  <reference>Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials during reading
+reflect word expectancy and semantic association. Nature, 307, 161-163.</reference>
+  <reference>Kutas, M., Neville, H. J., &amp; Holcomb, P. J. (1987). A preliminary
+comparison of the N400 response to semantic anomalies during reading, listening, and
+signing. Electroencephalography and Clinical Neurophysiology, Supplement, 39,
+325-330.</reference>
+  <reference>Liddell, S. K. (2003). Grammar, gesture, and meaning in American Sign
+Language. Cambridge, UK: Cambridge University Press.</reference>
+  <reference>Lopez-Calderon, J., &amp; Luck, S. (in press). ERPLAB. Plug-in for
+EEGLAB. In development at the Center for Mind and Brain, University of California at
+Davis.</reference>
+  <reference>MacSweeney, M., Campbell, R., Woll, B., Giampietro, V., David, A. S.,
+McGuire, P. K., et al. (2004). Dissociating linguistic and nonlinguistic gestural
+communication in the brain. NeuroImage, 22, 1605-1618.</reference>
+  <reference>McPherson, W. B., &amp; Holcomb, P. J. (1999). An electrophysiological
+investigation of semantic priming with pictures of real objects. Psychophysiology,
+36, 53-65.</reference>
+  <reference>Meir, I., Sandler, W., Padden, C., &amp; Aronoff, M. (2010). Emerging
+sign languages. In M. Marschark &amp; P. Spencer (Eds.). Oxford handbook of deaf
+studies, language, and education (Vol. 2). New York: Oxford University
+Press.</reference>
+  <reference>Morford, J. P., &amp; Kegl, J. A. (2000). Gestural precursors to
+linguistic constructs: How input shapes the form of language. In D. McNeill (Ed.),
+Language and gesture (pp. 358-387). Cambridge, UK: Cambridge University
+Press.</reference>
+  <reference>Neville, H. J., Bavelier, D., Corina, D., Rauschecker, J., Karni, A.,
+Lalwani, A., et al. (1998). Cerebral organization for language in deaf and hearing
+subjects: Biological constraints and effects of experience. Proceedings of the
+National Academy of Sciences of the United States of America, 95,
+922-929.</reference>
+  <reference>Neville, H. J., Coffey, S. A., Lawson, D. S., Fischer, A., Emmorey, K.,
+&amp; Bellugi, U. (1997). Neural systems mediating American Sign Language: Effects of
+sensory experience and age of acquisition. Brain and Language, 285-308.</reference>
+  <reference>Neville, H. J., Nicol, J. L., Barss, A., Forster, K. I., &amp; Garrett,
+M. F. (1991). Syntactically based sentence processing classes: Evidence from
+event-related brain potentials. Journal of Cognitive Neuroscience, 3,
+151-165.</reference>
+  <reference>Nigam, A., Hoffman, J. E., &amp; Simons, R. F. (1992). N400 and semantic
+anomaly with pictures and words. Journal of Cognitive Neuroscience, 4,
+15-22.</reference>
+  <reference>Osterhout, L., &amp; Holcomb, P. (1992). Event-related brain potentials
+elicited by syntactic anomaly. Journal of Memory and Language, 31,
+785-806.</reference>
+  <reference>Ozy&#xFC;rek, A., Willems, R. M., Kita, S., &amp; Hagoort, P. (2007).
+On-line integration of semantic information from speech and gesture: Insights from
+event-related brain potentials. Journal of Cognitive Neuroscience, 19,
+605-616.</reference>
+  <reference>Pratarelli, M. E. (1994). Semantic processing of pictures and spoken
+words: Evidence from event-related brain potentials. Brain and Cognition, 24,
+137-157.</reference>
+  <reference>Rizzolatti, G., &amp; Arbib, M. A. (1998). Language within our grasp.
+Trends in Neurosciences, 21, 188-194.</reference>
+  <reference>Rugg, M. D., &amp; Nagy, M. E. (1987). Lexical contribution to
+non-word-repetition effects: Evidence from event-related potentials. Memory and
+Cognition, 15, 473-481.</reference>
+  <reference>Senghas, A. (2005). Language emergence. Clues from a new Bedouin sign
+language. Current Biology, 15, 463-465.</reference>
+  <reference>Sitnikova, T., Holcomb, P. J., Kiyonaga, K. A., &amp; Kuperberg, G. R.
+(2008). Two neurocognitive mechanisms of semantic integration during the
+comprehension of real-world events. Journal of Cognitive Neuroscience, 20,
+2037-2057.</reference>
+  <reference>Sitnikova, T., Kuperberg, G., &amp; Holcomb, P. J. (2003). Semantic
+integration in videos of real-world events: An electrophysiological investigation.
+Psychophysiology, 40, 160-164.</reference>
+  <reference>Tomasello, M. (2005). Constructing a language: A usage-based theory of
+language acquisition. Cambridge, MA: Harvard University Press.</reference>
+  <reference>Van Petten, C., &amp; Rheinfelder, H. (1995). Conceptual relationships
+between spoken words and environmental sounds: Event-related brain potential
+measures. Neuropsychologia, 33, 485-508.</reference>
+  <reference>West, W. C., &amp; Holcomb, P. J. (2002). Event-related potentials
+during discourse-level semantic integration of complex pictures. Cognitive Brain
+Research, 13, 363-375.</reference>
+  <reference>Wilcox, S. (2004). Gesture and language: Cross-linguistic and historical
+data from signed languages. Gesture, 4, 43-73.</reference>
+  <reference>Wu, Y. C., &amp; Coulson, S. (2005). Meaningful gestures:
+Electrophysiological indices of iconic gesture comprehension. Psychophysiology, 42,
+654-667.</reference>
+  <reference>Wu, Y. C., &amp; Coulson, S. (2007a). How iconic gestures enhance
+communication: An ERP study. Brain and Language, 101, 234-245.</reference>
+  <resolved_reference>Arbib, M. A. (2005). Interweaving protosign and protospeech:
+Further developments beyond the mirror. Interaction Studies: Social Behaviour and
+Communication in Biological and Artificial Systems, 6, 145-171.</resolved_reference>
+  <resolved_reference>Arbib, M. A. (2008). From grasp to language: Embodied concepts
+and the challenge of abstraction. Journal of Physiology-Paris, 102,
+4-20.</resolved_reference>
+  <resolved_reference>Barrett, S. E., &amp; Rugg, M. D. (1989). Event-related
+potentials and the semantic matching of faces. Neuropsychologia, 27,
+913-922.</resolved_reference>
+  <resolved_reference>Barrett, S. E., &amp; Rugg, M. D. (1990). Event-related
+potentials and the semantic matching of pictures. Brain and Cognition, 14,
+201-212.</resolved_reference>
+  <resolved_reference>Bentin, S. (1987). Event-related potentials, semantic
+processes, and expectancy factors in word recognition. Brain and Language, 31,
+308-327.</resolved_reference>
+  <resolved_reference>Bentin, S., McCarthy, G., &amp; Wood, C. C. (1985).
+Event-related potentials, lexical decision, and semantic priming.
+Electroencephalography &amp; Clinical Neurophysiology, 60,
+353-355.</resolved_reference>
+  <resolved_reference>Bobes, M. A., Vald&#xE9;s-Sosa, M., &amp; Olivares, E. (1994).
+An ERP study of expectancy violation in face perception. Brain and Cognition, 26,
+1-22.</resolved_reference>
+  <resolved_reference>Brown, C., &amp; Hagoort, P. (1993). The processing nature of
+the N400: Evidence from masked priming. Journal of Cognitive Neuroscience, 5,
+34-44.</resolved_reference>
+  <resolved_reference>Capek, C. M., Grossi, G., Newman, A. J., McBurney, S. L.,
+Corina, D., Roeder, B., et al. (2009). Brain systems mediating semantic and syntactic
+processing in deaf native signers: Biological invariance and modality specificity.
+Proceedings of the National Academy of Sciences of the United States of America, 106,
+8784-8789.</resolved_reference>
+  <resolved_reference>Chao, L. L., Nielsen-Bohlman, L., &amp; Knight, R. T. (1995).
+Auditory event-related potentials dissociate early and late memory processes.
+Electroencephalography &amp; Clinical Neurophysiology, 96,
+157-168.</resolved_reference>
+  <resolved_reference>Corballis, M. C. (2009). The evolution of language. Annals of
+the New York Academy of Sciences, 1156, 19-43.</resolved_reference>
+  <resolved_reference>Corina, D. P., McBurney, S. L., Dodrill, C., Hinshaw, K.,
+Brinkley, J., &amp; Ojemann, G. (1999). Functional roles of Broca's area and SMG:
+Evidence from cortical stimulation mapping in a deaf signer. NeuroImage, 10,
+570-581.</resolved_reference>
+  <resolved_reference>Corina, D., Chiu, Y.-S., Knapp, H., Greenwald, R., San
+Jose-Robertson, L., &amp; Braun, A. (2007). Neural correlates of human action
+observation in hearing and deaf subjects. Brain Research, 1152,
+111-129.</resolved_reference>
+  <resolved_reference>Corina, D. P., &amp; Knapp, H. P. (2006). Psycholinguistic and
+neurolinguistic perspectives on sign languages. In M. J. Traxler &amp; M. A.
+Gernsbacher (Eds.), Handbook of psycholinguistics (2nd ed., pp. 1001-1024). San
+Diego, CA: Academic Press.</resolved_reference>
+  <resolved_reference>Corina, D. P., San Jose-Robertson, L., Guillemin, A., High, J.,
+&amp; Braun, A. R. (2003). Language lateralization in a bimanual language. Journal of
+Cognitive Neuroscience, 15, 718-730.</resolved_reference>
+  <resolved_reference>Corina, D., Grosvald, M., &amp; Lachaud, C. (2011). Perceptual
+invariance or orientation specificity in American Sign Language? Evidence from
+repetition priming for signs and gestures. Language and Cognitive Processes, 26,
+1102-1135.</resolved_reference>
+  <resolved_reference>Cornejo, C., Simonetti, F., Ib&#xE1;&#xF1;ez, A., Aldunate, N.,
+L&#xF3;pez, V., &amp; Ceric, F. (2009). Gesture and metaphor comprehension:
+Electrophysiological evidence of cross- modal coordination by audiovisual
+stimulation. Brain and Cognition, 70, 42-52.</resolved_reference>
+  <resolved_reference>Delorme, A., &amp; Makeig, S. (2004). EEGLAB: An open source
+toolbox for analysis of single-trial EEG dynamics. Journal of Neuroscience Methods,
+134, 9-21.</resolved_reference>
+  <resolved_reference>Emmorey, K. (2002). Language, cognition, and the brain:
+Insights from sign language research. Mahwah, NJ: Lawrence
+Erlbaum.</resolved_reference>
+  <resolved_reference>Emmorey, K., Xu, J., Gannon, P., Goldin-Meadow, S., &amp;
+Braun, A. (2010). CNS activation and regional connectivity during pantomime
+observation: No engagement of the mirror neuron system for deaf signers. NeuroImage,
+49, 994-1005.</resolved_reference>
+  <resolved_reference>Friedrich, C., Eulitz, C., &amp; Lahiri, A. (2006). Not every
+pseudoword disrupts word recognition: An ERP study. Behavioral and Brain Functions,
+2, 36.</resolved_reference>
+  <resolved_reference>Friederici, A. D. (2002). Towards a neural basis of auditory
+sentence processing. Trends in Cognitive Sciences, 6, 78-84.</resolved_reference>
+  <resolved_reference>Frishberg, N. (1987). Ghanaian Sign Language. In J. Van Cleve
+(Ed.), Gallaudet encyclopaedia of deaf people and deafness. New York: McGraw-Gill
+Book Company.</resolved_reference>
+  <resolved_reference>Ganis, G., &amp; Kutas, M. (2003). An electrophysiological
+study of scene effects on object identification. Cognitive Brain Research, 16,
+123-144.</resolved_reference>
+  <resolved_reference>Ganis, G., Kutas, M., &amp; Sereno, M. I. (1996). The search
+for ''common sense'': An electrophysiological study of the comprehension of words and
+pictures in reading. Journal of Cognitive Neuroscience, 8,
+89-106.</resolved_reference>
+  <resolved_reference>Gentilucci, M., &amp; Corballis, M. (2006). From manual gesture
+to speech: A gradual transition. Neuroscience &amp; Biobehavioral Reviews, 30,
+949-960.</resolved_reference>
+  <resolved_reference>Goldin-Meadow, S. (2003). Hearing gestures: How our hands help
+us think. Cambridge, MA: Harvard University Press.</resolved_reference>
+  <resolved_reference>Greenhouse, W. W., &amp; Geisser, S. (1959). On methods in the
+analysis of profile data. Psychometrika, 24, 95-112.</resolved_reference>
+  <resolved_reference>Hagoort, P., &amp; Brown, C. (1994). Brain responses to lexical
+ambiguity resolution and parsing. In L. Frazier, J. Clifton Charles, &amp; K. Rayner
+(Eds.), Perspectives in sentence processing (pp. 45-80). Hillsdale, NJ, UK: Lawrence
+Erlbaum Associates.</resolved_reference>
+  <resolved_reference>Hagoort, P., &amp; Kutas, M. (1995). Electrophysiological
+insights into language deficits. In F. Boller &amp; J. Grafman (Eds.), Handbook of
+neuropsychology (pp. 105-134). Amsterdam: Elsevier.</resolved_reference>
+  <resolved_reference>Hagoort, P., &amp; van Berkum, J. (2007). Beyond the sentence
+given. Philosophical Transactions of the Royal Society of London. Series B:
+Biological Sciences, 362, 801-811.</resolved_reference>
+  <resolved_reference>Holcomb, P. J., &amp; McPherson, W. B. (1994). Event-related
+brain potentials reflect semantic priming in an object decision task. Brain and
+Cognition, 24, 259-276.</resolved_reference>
+  <resolved_reference>Holcomb, P. J., &amp; Neville, H. J. (1990). Auditory and
+visual semantic priming in lexical decision: A comparison using event-related brain
+potentials. Language and Cognitive Processes, 5, 281-312.</resolved_reference>
+  <resolved_reference>Holcomb, P. J., &amp; Neville, H. J. (1991). Natural speech
+processing: An analysis using event-related brain potentials. Psychobiology, 19,
+286-300.</resolved_reference>
+  <resolved_reference>Holle, H., &amp; Gunter, T. C. (2007). The role of iconic
+gestures in speech disambiguation: ERP evidence. Journal of Cognitive Neuroscience,
+19, 1175-1192.</resolved_reference>
+  <resolved_reference>Johnson, B. W., &amp; Hamm, J. P. (2000). High-density mapping
+in an N400 paradigm: Evidence for bilateral temporal lobe generators. Clinical
+Neurophysiology, 111, 532-545.</resolved_reference>
+  <resolved_reference>Johnson, R., Jr, &amp; Donchin, E. (1980). P300 and stimulus
+categorization: Two plus one is not so different from one plus one. Psychophysiology,
+17, 167-178.</resolved_reference>
+  <resolved_reference>Kegl, J., Senghas, A., &amp; Coppola, M. (1999). Creation
+through contact: Sign language emergence and sign language change in Nicaragua. In M.
+DeGraff (Ed.), Language creation and language change: Creolization, diachrony, and
+development (pp. 179-237). Cambridge MA: MIT Press.</resolved_reference>
+  <resolved_reference>Kelly, S. D., Kravitz, C., &amp; Hopkins, M. (2004). Neural
+correlates of bimodal speech and gesture comprehension. Brain and Language, 89,
+243-260.</resolved_reference>
+  <resolved_reference>Kim, A., &amp; Osterhout, L. (2005). The independence of
+combinatory semantic processing: Evidence from event-related potentials. Journal of
+Memory and Language, 52, 205-225.</resolved_reference>
+  <resolved_reference>Kutas, M., &amp; Hillyard, S. A. (1980). Reading senseless
+sentences: Brain potentials reflect semantic incongruity. Science, 207,
+203-208.</resolved_reference>
+  <resolved_reference>Kutas, M., &amp; Hillyard, S. A. (1984). Brain potentials
+during reading reflect word expectancy and semantic association. Nature, 307,
+161-163.</resolved_reference>
+  <resolved_reference>Kutas, M., Neville, H. J., &amp; Holcomb, P. J. (1987). A
+preliminary comparison of the N400 response to semantic anomalies during reading,
+listening, and signing. Electroencephalography and Clinical Neurophysiology,
+Supplement, 39, 325-330.</resolved_reference>
+  <resolved_reference>Liddell, S. K. (2003). Grammar, gesture, and meaning in
+American Sign Language. Cambridge, UK: Cambridge University
+Press.</resolved_reference>
+  <resolved_reference>Lopez-Calderon, J., &amp; Luck, S. (in press). ERPLAB. Plug-in
+for EEGLAB. In development at the Center for Mind and Brain, University of California
+at Davis.</resolved_reference>
+  <resolved_reference>MacSweeney, M., Campbell, R., Woll, B., Giampietro, V., David,
+A. S., McGuire, P. K., et al. (2004). Dissociating linguistic and nonlinguistic
+gestural communication in the brain. NeuroImage, 22, 1605-1618.</resolved_reference>
+  <resolved_reference>McPherson, W. B., &amp; Holcomb, P. J. (1999). An
+electrophysiological investigation of semantic priming with pictures of real objects.
+Psychophysiology, 36, 53-65.</resolved_reference>
+  <resolved_reference>Meir, I., Sandler, W., Padden, C., &amp; Aronoff, M. (2010).
+Emerging sign languages. In M. Marschark &amp; P. Spencer (Eds.). Oxford handbook of
+deaf studies, language, and education (Vol. 2). New York: Oxford University
+Press.</resolved_reference>
+  <resolved_reference>Morford, J. P., &amp; Kegl, J. A. (2000). Gestural precursors
+to linguistic constructs: How input shapes the form of language. In D. McNeill (Ed.),
+Language and gesture (pp. 358-387). Cambridge, UK: Cambridge University
+Press.</resolved_reference>
+  <resolved_reference>Neville, H. J., Bavelier, D., Corina, D., Rauschecker, J.,
+Karni, A., Lalwani, A., et al. (1998). Cerebral organization for language in deaf and
+hearing subjects: Biological constraints and effects of experience. Proceedings of
+the National Academy of Sciences of the United States of America, 95,
+922-929.</resolved_reference>
+  <resolved_reference>Neville, H. J., Coffey, S. A., Lawson, D. S., Fischer, A.,
+Emmorey, K., &amp; Bellugi, U. (1997). Neural systems mediating American Sign
+Language: Effects of sensory experience and age of acquisition. Brain and Language,
+285-308.</resolved_reference>
+  <resolved_reference>Neville, H. J., Nicol, J. L., Barss, A., Forster, K. I., &amp;
+Garrett, M. F. (1991). Syntactically based sentence processing classes: Evidence from
+event-related brain potentials. Journal of Cognitive Neuroscience, 3,
+151-165.</resolved_reference>
+  <resolved_reference>Nigam, A., Hoffman, J. E., &amp; Simons, R. F. (1992). N400 and
+semantic anomaly with pictures and words. Journal of Cognitive Neuroscience, 4,
+15-22.</resolved_reference>
+  <resolved_reference>Osterhout, L., &amp; Holcomb, P. (1992). Event-related brain
+potentials elicited by syntactic anomaly. Journal of Memory and Language, 31,
+785-806.</resolved_reference>
+  <resolved_reference>Ozy&#xFC;rek, A., Willems, R. M., Kita, S., &amp; Hagoort, P.
+(2007). On-line integration of semantic information from speech and gesture: Insights
+from event-related brain potentials. Journal of Cognitive Neuroscience, 19,
+605-616.</resolved_reference>
+  <resolved_reference>Pratarelli, M. E. (1994). Semantic processing of pictures and
+spoken words: Evidence from event-related brain potentials. Brain and Cognition, 24,
+137-157.</resolved_reference>
+  <resolved_reference>Rizzolatti, G., &amp; Arbib, M. A. (1998). Language within our
+grasp. Trends in Neurosciences, 21, 188-194.</resolved_reference>
+  <resolved_reference>Rugg, M. D., &amp; Nagy, M. E. (1987). Lexical contribution to
+non-word-repetition effects: Evidence from event-related potentials. Memory and
+Cognition, 15, 473-481.</resolved_reference>
+  <resolved_reference>Senghas, A. (2005). Language emergence. Clues from a new
+Bedouin sign language. Current Biology, 15, 463-465.</resolved_reference>
+  <resolved_reference>Sitnikova, T., Holcomb, P. J., Kiyonaga, K. A., &amp;
+Kuperberg, G. R. (2008). Two neurocognitive mechanisms of semantic integration during
+the comprehension of real-world events. Journal of Cognitive Neuroscience, 20,
+2037-2057.</resolved_reference>
+  <resolved_reference>Sitnikova, T., Kuperberg, G., &amp; Holcomb, P. J. (2003).
+Semantic integration in videos of real-world events: An electrophysiological
+investigation. Psychophysiology, 40, 160-164.</resolved_reference>
+  <resolved_reference>Tomasello, M. (2005). Constructing a language: A usage-based
+theory of language acquisition. Cambridge, MA: Harvard University
+Press.</resolved_reference>
+  <resolved_reference>Van Petten, C., &amp; Rheinfelder, H. (1995). Conceptual
+relationships between spoken words and environmental sounds: Event-related brain
+potential measures. Neuropsychologia, 33, 485-508.</resolved_reference>
+  <resolved_reference>West, W. C., &amp; Holcomb, P. J. (2002). Event-related
+potentials during discourse-level semantic integration of complex pictures. Cognitive
+Brain Research, 13, 363-375.</resolved_reference>
+  <resolved_reference>Wilcox, S. (2004). Gesture and language: Cross-linguistic and
+historical data from signed languages. Gesture, 4, 43-73.</resolved_reference>
+  <resolved_reference>Wu, Y. C., &amp; Coulson, S. (2005). Meaningful gestures:
+Electrophysiological indices of iconic gesture comprehension. Psychophysiology, 42,
+654-667.</resolved_reference>
+  <resolved_reference>Wu, Y. C., &amp; Coulson, S. (2007a). How iconic gestures
+enhance communication: An ERP study. Brain and Language, 101,
+234-245.</resolved_reference>
+  <page width="595.276" height="793.701" number="1">
+    <header x="32.71" y="739.69" width="520.1" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="2">
+    <header x="42.52" y="739.47" width="520.17" height="6.43"></header>
+  </page>
+  <page width="595.276" height="793.701" number="3">
+    <header x="32.71" y="739.47" width="520.09" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="4">
+    <header x="42.52" y="739.47" width="520.13" height="6.43"></header>
+  </page>
+  <page width="595.276" height="793.701" number="5">
+    <header x="32.71" y="739.47" width="520.13" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="6">
+    <header x="42.52" y="739.47" width="520.13" height="6.43"></header>
+  </page>
+  <page width="595.276" height="793.701" number="7">
+    <header x="32.71" y="739.47" width="520.1" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="8">
+    <header x="42.52" y="739.47" width="520.1" height="6.43"></header>
+  </page>
+  <page width="595.276" height="793.701" number="9">
+    <header x="32.71" y="739.47" width="520.13" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="10">
+    <header x="42.52" y="739.47" width="520.06" height="6.43"></header>
+  </page>
+  <page width="595.276" height="793.701" number="11">
+    <header x="32.71" y="739.47" width="511.52" height="6.37"></header>
+  </page>
+  <page width="595.276" height="793.701" number="12">
+    <header x="42.52" y="739.48" width="520.08" height="6.43"></header>
+  </page>
+</pdf>

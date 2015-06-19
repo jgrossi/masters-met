@@ -1,0 +1,2299 @@
+<article>
+  <front>
+    <journal-meta />
+    <article-meta>
+      <title-group>
+        <article-title>Gene flow across linguistic boundaries in Native North American populations</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Keith Hunley</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Jeffrey C. Long</string-name>
+          <email>longjc@umich.edu</email>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Abbreviations: GLC</institution>
+          ,
+          <addr-line>Greenberg language classification; NJ, neighbor-joining</addr-line>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Communicated by Francisco Mauro Salzano, Federal University of Rio Grande do Sul</institution>
+          ,
+          <addr-line>Porto Alegre, Brazil, December 21, 2004, received for review September 30, 2004</addr-line>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>Department of Human Genetics, University of Michigan Medical School</institution>
+          ,
+          <addr-line>Ann Arbor, MI 48109-0618</addr-line>
+        </aff>
+        <aff id="3">
+          <label>3</label>
+          <institution>Present address: Department of Anthropology, University of New Mexico</institution>
+          ,
+          <addr-line>Albuquerque, NM 87131. Buhl Building</addr-line>
+          ,
+          <institution>University of Michigan Medical School</institution>
+          ,
+          <addr-line>Ann Arbor, MI 48109-0618</addr-line>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Cultural and linguistic groups are often expected to represent genetic populations. In this article, we tested the hypothesis that the hierarchical classification of languages proposed by J. Greenberg [(1987) Language in the Americas (Stanford Univ. Press, Stanford, CA)] also represents the genetic structure of Native North American populations. The genetic data are mtDNA sequences for 17 populations gleaned from literature sources and public databases. The hypothesis was rejected. Further analysis showed that departure of the genetic structure from the linguistic classification was pervasive and not due to an outlier population or a problematic language group. Therefore, Greenberg's language groups are at best an imperfect approximation to the genetic structure of these populations. Moreover, we show that the genetic structure among these Native North American populations departs significantly from the best-fitting hierarchical models. Analysis of median joining networks for mtDNA haplotypes provides strong evidence for gene flow across linguistic boundaries. In principle, the language of a population can be replaced more rapidly than its genes because language can be transmitted both vertically from parents to children and horizontally between unrelated people. However, languages are part of a cultural complex, and there may be strong pressure to maintain a language in place whereas genes are free to flow.</p>
+      </abstract>
+      <volume>102</volume>
+      <issue>5</issue>
+      <fpage>1312</fpage>
+      <lpage>1317</lpage>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>G language groups and gene pools will share a common
+eneticists and anthropologists often expect that human
+structure (1– 4). It is noted that both language and genes are
+passed from parents to children, mating tends to be endogamous
+with respect to linguistic groups, and splits in linguistic
+communities usually occur with splits in breeding populations (5, 6).
+Cavalli-Sforza et al. (7) have reported that genetic trees of major
+geographic populations correlate well with language families.
+They argue that a process consisting of population fissions,
+expansion into new territories, and isolation between ancestral
+and descendant groups will produced a tree-like structure
+common to both genes and languages. Linguists agree that
+population fissions and range expansions play an important role in the
+generation of linguistic diversity (8 –10). The correlation
+between patterns of linguistic and genetic variation has been
+studied by many researchers in different world regions with
+mixed positive (11–14) and negative (15–17) findings. Regional
+differences in population history are likely to explain some of the
+discrepant results. However, it is difficult to draw firm
+conclusions because these studies are heterogeneous with respect to the
+genetic and population sampling units, definition of linguistic
+variables, and analytical methods. Researchers on this topic have
+identified the need for a method to directly compare language
+trees with population genetic trees (1, 3).</p>
+      <p>The potential correspondence between gene pools and
+language groups in Native North American populations is
+particularly interesting for several reasons. First, the initial
+colonization of the Americas involved a population radiation from an
+effectively small number of founders into an uninhabited region.
+Second, it occurred long enough ago to permit the accumulation
+of both linguistic and genetic differences, but not so long ago that
+the early history would necessarily have been erased by
+subsequent events. Third, there was a rich diversity of indigenous
+languages in North America at the time of European contact (9,
+10, 18, 19). Early investigations of the correspondence between
+genetic groups and linguistic groups in Native North Americans
+produced equivocal results (5, 6). On the one hand, average
+genetic distances between populations in different language
+families were greater than average genetic distances between
+populations within language families. On the other hand, genetic
+distances were not significantly correlated with
+glottochronological distances. However, the methods and data available 30
+years ago had limited power to resolve the question.</p>
+      <p>This article revisits the question of relationship between
+genetics and language in Native North American populations.
+Comparable mtDNA sequences are now available for many
+populations that represent diverse language groups. There are
+three advantages to the mtDNA data. First, they have high power
+to resolve population affinities. Second, it is easy to identify and
+remove non-Native American mtDNA sequences. Third, by
+contrasting gene and population trees, it is possible to discern
+patterns of gene f low. We begin our analyses by formally testing
+the hypothesis that a classification of languages proposed by
+Greenberg (19) represents the structure of Native North
+American gene pools. Although the majority of linguists do not
+endorse Greenberg’s language classification (4, 10, 18, 20, 21), it
+is important to test this model because it remains one of the main
+tenets against which questions about Native American
+population genetics and physical anthropology are formulated (3). To
+preempt our results, this hypothesis is rejected. Because of this
+finding, we proceed to ask two questions. First, is the genetic
+structure of these populations hierarchical? Second, is there
+evidence from mtDNA sequences for exchange across the
+boundaries of widely accepted language families?
+Materials and Methods
+Sample. We obtained 1,056 mtDNA hypervariable segment
+(HVS) 1 sequences for 17 Native North American populations
+from the literature and public databases. No biological samples
+were handled. We included only sequences classified as founding
+Native American haplogroups A, B, C, D, or X (references in Table
+1). The sequences were aligned and edited to 341 nucleotides
+covering the reference nucleotide positions 16024–16364 (22).</p>
+      <p>Table 1 provides each population’s sample size, and placement
+in the Greenberg language classification (GLC). The
+terminology used for the language categories in this table is taken from
+Ruhlen (23). Fig. 1 presents the placement of these 17
+populations within the GLC in tree form. Each of Greenberg’s primary</p>
+      <p>EA, Eyak-Athabascan; UA, Uto-Aztecan; AK, Almosan-Keresiouan.
+language families (Eskimo-Aleut, Na-Dene, and Amerind) is
+represented by at least four populations.</p>
+      <p>Statistical Analyses. The basic unit of analysis is a matrix
+composed of the average number of nucleotide substitutions between
+pairs of mtDNA sequences. The diagonal elements dˆii pertain to
+averages for pairs drawn from the same population, whereas the
+off-diagonal elements dˆij pertain to averages for pairs drawn
+from two different populations. Pairwise differences lead
+naturally to the net number of nucleotide substitutions dˆAij
+dˆij (dˆii dˆjj) 2 as a measure of genetic distance between
+populations (24).</p>
+      <p>Model trees (e.g., the GLC) were fitted to the matrix of
+observed, or ‘‘realized,’’ pairwise differences by using maximum
+likelihood (25–27). Each fitted tree produces a matrix of
+‘‘expected’’ average pairwise nucleotide substitutions contingent on
+the assumption that the model tree accurately represents the</p>
+      <p>Ref(s). and accession nos.</p>
+      <p>Navajo-Apache</p>
+      <p>Navajo-Apache
+true genetic relationships among populations. The lack-of-fit of
+the expected average pairwise differences relative to the realized
+pairwise differences is measured by a likelihood ratio statistic, ,
+which under the idealized circumstances of a large number of
+independent polymorphic sites is distributed as a 2 variable
+(25). The degrees of freedom associated with this statistic are
+equal to r(r 1) 2 minus the number of parameters specified by
+the fitted tree, where r is the number of populations sampled. To
+visualize the fit of a model tree, we plotted realized versus
+expected net nucleotide distances against one another. If a tree
+model fit the genetic data, the expected genetic distances for
+each population will be overestimated approximately as
+frequently as they are underestimated. The scattergram should
+assume a symmetric cigar-shaped distribution.</p>
+      <p>Either or both of two potential reasons can explain why the
+GLC model might fit poorly. The first is that the tree specified
+by the GLC is the wrong tree to describe the genetic relationships
+among these populations. The second is that the genetic data are
+not tree-like; in other words, no tree will fit the genetic data well.
+To distinguish among these alternatives, we applied the Fitch and
+neighbor-joining (NJ) algorithms to identify tree topologies that
+were optimized to the genetic data. We then used the maximum
+likelihood method to fit these topologies to the genetic data,
+applied the test for treeness, and examined plots of the realized
+versus expected genetic distances. The rationale underlying this
+test is that, if the genetic data are in fact tree-like, and only the
+language hierarchy in particular is incompatible with the genetic
+hierarchy, optimized trees will fit the genetic data. To determine
+whether there was evidence in the mtDNA sequences for local
+mate exchange across linguistic boundaries, we investigated the
+pattern of relationships among individual mtDNA sequences
+using median joining networks constructed for each haplogroup
+using the method of Bandelt et al. (28).</p>
+      <p>Results
+Sequence Polymorphisms. The 1,056 mtDNA sequences contain
+111 variable sites and 201 distinct haplotypes. The estimated
+nucleotide diversity (Table 1) shows an interesting trend within
+populations. With respect to Greenberg’s three language
+families, the average nucleotide diversity within populations is low in
+Eskimo-Aleut populations and high in Amerind populations.
+However, nucleotide diversity varies considerably among the
+populations classified as Na-Dene-speaking. The Alaskan
+Atha</p>
+      <p>Fig. 1. GLC for 17 populations
+Fig. 2. Evalutation of GLC. (A) GLC fitted to mtDNA data. (B) Realized vs.
+expected genetic distances. The GLC overestimates distances for the Navajo
+(blue circles) and underestimates distances for the Canadian Inuit (pink
+circles).
+bascan and Haida populations, who reside in the North, have low
+nucleotide diversities, in the range of nucleotide diversities in the
+Eskimo-Aleut-speaking populations. The Navajo and Apache,
+who reside in the Southwest, have high nucleotide diversities, in
+the range of nucleotide diversities in populations classified as
+Amerind speaking. The A to G transition at nucleotide position
+(np) 16265 described by Starikovskaya et al. (29) appeared in all
+of the Eskimo samples, and none of the non-Eskimo samples
+(including Aleut). The A to G transitions at nps 16233 and 16331,
+identified by Torroni et al. (14), were observed in, and only in,
+the three Athabascan samples. Several sites were polymorphic
+only in populations classified as Amerind-speaking, but none
+occurred in all populations attributed to Amerind.</p>
+      <p>Statistical Analyses. Fig. 1 displays the GLC as a tree. Fig. 2A
+shows the result of fitting this tree to the genetic data. Fig. 2 A
+looks different from Fig. 1 because the branch lengths vary, and
+because the estimated length for many branches is zero. Notably,
+length zero was estimated for the branches leading to two of the
+three principal language families, Eskimo-Aleut and Na-Dene.
+The likelihood ratio statistic for the GLC model is high relative
+to its degrees of freedom, indicating a substantial lack of fit to
+the genetic data (Table 2). Note that the poor fit of the GLC does
+not indicate insufficient information; rather it shows that the
+genetic data contradict the structure postulated by the GLC
+model. Nevertheless, the GLC fits much better than an island
+model, which allows for genetic divergence, but assumes
+independent evolution, among populations (Table 2). To be certain
+that the poor fit of the GLC was not solely the result of one
+misplaced population, we repeated the analysis 17 times, each
+time leaving out a different sample from the analysis. The
+*Ideally distributed as a 2 variable.</p>
+      <p>Fig. 3. Evaluation of NJ tree. (A) NJ tree. None of Greenberg’s major
+language groups, Eskimo-Aleut (a), Na-Dene (b), or Amerind (c) forms a
+unique cluster. (B) Realized versus expected genetic distances.
+likelihood ratio statistic substantially exceeded its degrees of
+freedom in each of these 17 analyses (results not shown). We
+conclude that the poor fit of the GLC is systemic and not the
+result of a single outlier population.</p>
+      <p>To identify the specific ways that the genetic data and GLC
+model depart, we examined the plot of expected vs. realized
+genetic distances (Fig. 2B). Several patterns that depart from the
+tree structure are apparent upon close examination. For
+example, the GLC expected distances consistently overestimate the
+realized genetic distances for several populations, including the
+Navajo, Aleut, and Siberian Yupik populations. This
+relationship means that these populations are genetically similar to
+populations with distantly related languages. Similarly, the GLC
+tree consistently underestimates the genetic distance between
+three Eskimo populations (Central Yupik, Canadian Inuit, and
+Inupaiq) and all other populations.</p>
+      <p>Both the Fitch and NJ trees fit the data substantially better
+than the GLC tree, and the NJ tree fits better than the Fitch tree
+(Table 2). This result indicates that the data are more tree-like
+than indicated by the GLC tree. Nonetheless, the likelihood ratio
+statistics for both the NJ and Fitch trees are high relative to their
+degrees of freedom (Table 2). This finding indicates a lack of fit
+to the genetic data for even the best-fitting trees. The scatter plot
+of realized versus expected genetic distances for the NJ tree (Fig.
+3B) visually confirms the superior fit of the NJ tree over the GLC
+tree. The results are not shown for the Fitch tree because they
+are similar to the NJ tree. The lack of fit between the NJ tree and
+the genetic data is evident from the fact that there is a consistent
+trend for the realized genetic distances to exceed the expected
+genetic distances. This lop-sided pattern is difficult to explain
+and may be an artifact of applying the NJ algorithm to
+nontree-like data.</p>
+      <p>A drawing of the NJ tree (Fig. 3A) reveals some interesting
+patterns. First, none of Greenberg’s major language groups
+(Eskimo-Aleut, Na-Dene, or Amerind) forms a unique cluster.
+The most exclusive cluster that contains all Eskimo-Aleut
+populations (defined by branch a) also includes all four
+Na-Denespeaking populations and the Amerind-speaking Cheyenne,
+Bella Coola, and Nuu Chah Nulth populations. The most
+exclusive cluster with all Na-Dene-speaking populations
+(defined by branch b) also includes six Eskimo-Aleut-speaking</p>
+      <p>Fig. 4. Median joining networks for mtDNA haplogroups A (A), B (B), C (C), and D (D).
+populations (Siberian Yupik, Greenland Inuit, Central Yupik,
+Canadian Inuit, and Inupiaq) and the Amerind-speaking Bella
+Coola. The most exclusive cluster with all Amerind-speaking
+populations (defined by branch c) includes the
+Eskimo-Aleutspeaking Aleuts and the Na-Dene-speaking Navajo. Second,
+there is a strong North-South geographic pattern to the
+clustering pattern. An Arctic-Pacific Northwest cluster that includes all
+Aleut-Eskimo populations, all Na-Dene populations, and the
+Amerind Nuu Chah Nulth and Bella Coola populations
+originates on one side of branch a, whereas a more Southern group
+includes the Pima, Cherokee, Sioux, and Chippewa
+Amerindspeaking population forms to the other side of branch a. The
+Southwestern Athabascan-speaking populations, Navajo and
+Apache, defy the geographic groupings, but this result is
+consistent with the archaeological record (30). Anthropologists
+agree that circa anno Domini 1400 the ancestors of Navajos and
+Apaches migrated from the Mackenzie Basin of Canada to the
+Southwest region, where they came into contact with
+Amerindspeaking populations who had been living there for thousands of
+years (31).</p>
+      <p>Fig. 4 shows the distribution of the canonical Native American
+mtDNA haplogroups in the 17 populations. The occurrence of
+haplogroup A differs markedly between the far Northern and the
+Southwestern samples. With only few exceptions, mtDNA
+lineages observed in the northern Na-Dene classified populations
+(Haida and Alaskan Athabascans) belong to haplogroup A (Fig.
+4). Haplogroup A is also common in Eskimos and Aleuts.
+Outside of the far North, the only samples in which haplogroup
+A appears commonly are the Southwestern
+Athabascanspeaking populations (Navajo and Apache). mtDNA sequences
+belonging to haplogroups B and C are frequent primarily in the
+Amerind-classified populations (Fig. 4), including the Bella
+Coola, and Nuu Chah Nulth populations on the Northwest
+Coast. The Navajo and Apache are the only Na-Dene-classified
+populations with substantial frequencies of B- and C-group
+haplotypes, although haplogroup C is observed in the Haida and
+Alaskan Athabascan samples. Haplogroup D mtDNA sequences
+are common in the Eskimo and Aleut populations and the Bella
+Coola and Nuu Chah Nulth on the Northwest Coast. In
+summary, the distribution of the major mtDNA haplogroups exhibits
+a strong regional pattern in these samples. Haplogroups A and
+D are concentrated in the far North and Northwest Coast,
+whereas haplogroups B and C appear regularly on the Northwest
+Coast and further South. Recent surveys of Native North
+American mtDNA confirm the haplogroup distributions
+observed for the populations and regions represented here;
+however, broader distributions for the A, B, C, and D haplogroups
+are noted when samples from other regions are included (32, 33).
+Discussion
+In this study, we adopt a rigorous approach to tree comparisons.
+First, a language classification is proposed as an a priori
+hypothesis for the genetic structure. Next, the language classification is
+fitted to the genetic data. And finally, the resulting tree is tested
+for treeness by using the method developed by Cavalli-Sforza and
+Piazza (25). The null hypothesis is that the pattern of
+relationships among languages is the same as the pattern of relationships
+among gene pools. We applied this approach to linguistic and
+genetic data for Native North Americans by fitting Greenberg’s
+linguistic classification (19) to mitochondrial D-loop nucleotide
+sequence variations. The hypothesis of treeness was rejected.
+Therefore, a significant difference exists between Greenberg’s
+linguistic classification and the genetic structures of these
+populations. Trees produced by the NJ and Fitch algorithms fit the
+genetic data better than did the Greenberg tree, but the treeness
+hypothesis was rejected even for these trees. Thus, we conclude
+that the genetic relationships among populations are not
+treelike. The lack of treeness in the genetic data makes it unlikely
+that any hierarchical language classification will provide a close
+fit. The fact that not one of Greenberg’s three major language
+groups (Amerind, Aleut-Eskimo, and Na Dene) formed an
+exclusive cluster in the better-fitting genetic trees produced by
+the NJ and Fitch algorithms shows that the problems with the
+GLC are pervasive and not due to a single problematic language
+group.</p>
+      <p>One possibility for the disagreement between the genetic data
+and the GLC is that the precontact pattern was disrupted by the
+entry of Europeans. We wish to emphasize why we do not feel
+that European contact is a likely explanation for our results.
+First, we restricted our analysis to mtDNA sequences that are
+established to be present in Native Americans and absent in
+Europeans. Second, population bottleneck and or expansion
+events in the postcontact era would have changed relative branch
+lengths but would not have destroyed the treeness in the data.
+Third, 14 of the 17 populations are situated today in the same
+localities that they occupied at the time of first European
+contact. Fourth, mtDNA from ancient (precontact) Native
+American populations look similar to postcontact populations in
+the same region (34–36).</p>
+      <p>Another possibility for the disagreement between the genetic
+data and the GLC is that the GLC is a poor representation of the
+relationships among Native North American languages (4). In
+fact, most linguists do not accept the GLC (4, 10, 18, 20, 21).
+Greenberg’s methods have been criticized (21, 37), and it is felt
+widely that there is not sufficient information to establish deep
+linguistic connections (10). Nevertheless, Greenberg included
+some undisputed language families within his classification.
+These undisputed families include the Eskimo-Aleut family and
+the Athabascan language group (10, 38, 39). We therefore find
+it quite interesting that the fitted branch to both Eskimo-Aleut
+and Athabascan was estimated to have zero length (Fig. 2). This
+finding suggests that the branch accounts for no increase in
+genetic relationship among its descendants. The NJ tree (Fig. 3)
+shows that the classifications within Aleut-Eskimo and Na Dene
+language families disagree with the population genetic
+relationships, regardless of whether or not they are analyzed within the
+context of the GLC. In fact, the NJ tree conflicts with generally
+accepted language groups presented by Campbell (10). Aleuts
+do not cluster with Eskimos. Neither the Yupik nor Inuit
+populations form distinct clusters within Eskimo. The two
+Algonquin-speaking populations do not form a cluster. The
+Navajo and Apache are separated in the NJ tree by the
+nonAthabascan-speaking Bella Coola. It is possible that a stronger
+relationship between language groups and gene pools would be
+found by directly assessing language areas that arise from
+diffusion of linguistic traits across phylogenetic boundaries of
+languages (4, 10).</p>
+      <p>The poor correspondence between the genetic data and
+language groups reflects the current population structure.
+Genetic and linguistic variation may have shared the same
+hierarchical relationships in the past. In fact, there are several features
+in the data that can be interpreted as remnants of such
+relationships. These features include the Eskimo-Aleut-specific
+transition polymorphism (29) and the two Athabascan-specific
+transition polymorphisms (14). Interestingly, these results are
+consistent with a linguistic model proposed by Nettle (9) that
+predicts that high diversity of language stocks is a transitory
+phase in linguistic evolution. According to Nettle’s model, the
+entry of humans into a new region such as the Americas affords
+significant opportunity for the birth of new languages. Upon
+entry, population growth will be rapid and groups will fission and
+spread at high rate until the region is filled. New linguistic
+lineages will be founded, with population splits creating a
+tree-like structure. However, the rate of population fission will
+decline as open niches fill. Eventually, population dynamics will
+be governed by competition and efficiency of resource
+utilization. In this phase, linguistic diversity will decline as expanding
+communities absorb neighbors or as less successful communities
+fragment and members disperse.</p>
+      <p>Examination of the median joining networks for the canonical
+mtDNA haplogroups and population trees indicates a history of
+pervasive genetic exchange across linguistic boundaries. The
+distribution of mtDNA haplogroups in the Apache and Navajo
+presents the clearest example. As shown in Fig. 4, the distribution
+of the canonical Native American mtDNA haplogroups differs
+markedly between the far North and the Southwest. Notably,
+mtDNA sequences belonging to haplogroup B are not observed
+in the northern Na-Dene-attributed populations, and members
+of haplogroup C occur rarely (Fig. 4). By contrast, mtDNA
+sequences in Southwestern non-Athabascan speakers are
+characterized by the predominance of members of haplogroups B
+and C and the absence of members of haplogroup A. The
+haplogroup configuration for non-Athabascan speakers in the
+Southwest is exemplified in the present study by the Pima
+mtDNA sequences (Fig. 4) and has been established in surveys
+of haplogroups determined from diagnostic sites in many other
+Southwestern populations (33, 40). The Navajo and Apache
+possess many haplogroup A sequences typical of Northwestern
+populations with languages attributed to the Na Dene language
+family. However, DNA sequences belonging to haplogroups B
+and C are also common in the Navajo and Apache, and these are
+most likely due to immigrants from the local
+non-Athabascanspeaking populations. The elevated nucleotide diversity in the
+Navajo and Apache relative to their northern counterparts is the
+consequence of these haplogroup B and C mtDNA sequences.</p>
+      <p>Interestingly, the pattern of genetic exchange is not reciprocal.
+A-group haplotypes would have appeared in the Pima sample if
+they had absorbed a substantial number of Athabascan-speaking
+migrants. The pattern of asymmetrical genetic exchanges is all
+the more interesting given current mate exchange practices.
+Today, marriage practice in both the Western Apache and
+Navajo is strongly matrilineal. On this basis, we would not expect
+to see the inclusion of female lineages introduced from the
+surrounding non-Athabascan-speaking populations. However,
+the practice of matrilineality in these populations is likely to have
+begun after the Navajos and Apaches arrived in the Southwest
+(31). This practice makes it likely that the haplogroup B and C
+mtDNA sequences carried in the Navajo and Apache today were
+introduced early in their experience in the Southwest, and before
+the current cultural practices were initiated.</p>
+      <p>In addition to the presence of B- and C-group haplotypes in
+the Navajo and Apache, other features of the median-joining
+networks indicate genetic exchange between linguistically
+divergent neighboring populations in the Northwest and Arctic. For
+example, the Northwest Coast Bella Coola and Nuu Chah Nulth
+(attributed to Amerind) share A-group lineages with the
+Northwest Coast Haida (attributed to Na Dene), whereas the Eskimos
+in the far North share A-group lineages with interior dwelling
+Alaskan Athabascans. If language replacements predominated
+over gene replacements, we would expect good treeness for the
+genetic data but poor agreement between genetic and linguistic
+trees. In opposition to this expectation, even the best trees for the
+genetic data display a significant lack of treeness.</p>
+      <p>Many researchers have noted that either the language or the
+genes in a population can be replaced, and examples of both gene
+and language replacement have been identified (1, 2, 7). There
+has been a tendency to expect that language replacements will
+be more common (3, 41). In principle, language replacement can
+occur more rapidly than gene replacement because language can
+be transmitted both vertically from parents to children and
+horizontally between unrelated people, creating bilingual and
+multilingual individuals, whereas genes can be transmitted only
+vertically (1, 42). However, we found that the constraints
+imposed by mechanisms of transmission may be relatively weak as
+compared with other factors that will inf luence whether genes,
+languages, or both will be replaced.</p>
+      <p>Finally, we note that our findings are relevant to a multiple
+migration theory for the peopling of the Americas. According to
+this hypothesis, the ancestors of modern Amerind, Na-Dene, and
+Eskimo-Aleut speakers migrated into the Americas in three
+independent waves of migration, separated in time by thousands
+of years. Proponents have claimed support from a perceived
+parallel in patterns of variation in language, dental morphology,
+and classical genetic markers (43). Although it has been
+recognized that the original genetic data used in this argument lacked
+resolving power, our analyses of the currently available mtDNA
+sequences show that the patterns of variation in genes and
+languages actually disagree. Although our findings do not
+disprove that multiple migrations occurred historically, they
+dissipate a principal argument that was advanced to formulate the
+theory.</p>
+      <p>This work evaluates scientific hypotheses about the nature of
+correspondence between language groups and genetic populations. It is not a test
+of cultural practices or spiritual beliefs held by Native North Americans,
+and it should not be interpreted in that light. We thank Drs. D. (Weiss)
+Bolnick, J. Friedlaender, C. Lewis, R. Malhi, and S. Zegura for
+comments on earlier drafts of this paper. All interpretations and errors of
+omission or commission are those of the authors.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <source>Proc. Natl. Acad. Sci. USA 94</source>
+          ,
+          <fpage>7719</fpage>
+          -
+          <lpage>7724</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Diamond</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Bellwood</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          ) Science 300,
+          <fpage>597</fpage>
+          -
+          <lpage>603</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Renfrew</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ) in America Past,
+          <string-name>
+            <given-names>America</given-names>
+            <surname>Present</surname>
+          </string-name>
+          :
+          <article-title>Genes and Languages in the Americas</article-title>
+          and Beyond, ed. Renfrew,
+          <string-name>
+            <surname>C.</surname>
+          </string-name>
+          (
+          <source>McDonald Institute for Archaeological Research</source>
+          , Cambridge, U.K.), pp.
+          <fpage>3</fpage>
+          -
+          <lpage>16</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Bolnick</surname>
+          </string-name>
+          (Weiss), D. A., Shook (Shultz), B. A.,
+          <string-name>
+            <surname>Campbell</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Goddard</surname>
+            ,
+            <given-names>I.</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>75</volume>
+          ,
+          <fpage>519</fpage>
+          -
+          <lpage>523</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Spuhler</surname>
+            ,
+            <given-names>J. N.</given-names>
+          </string-name>
+          (
+          <year>1979</year>
+          ) in The First Americans: Origins, Affinities, and Adaptations, ed. Harper,
+          <string-name>
+            <surname>A. B.</surname>
+          </string-name>
+          (Bustav-Fischer, New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Spuhler</surname>
+            ,
+            <given-names>J. N.</given-names>
+          </string-name>
+          (
+          <year>1972</year>
+          ) in The Assessment of Population Affinities in Man, ed. Huizinga,
+          <string-name>
+            <surname>J.</surname>
+          </string-name>
+          (Clarendon Press, Oxford).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Piazza</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Menozzi</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Mountain</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          (
+          <year>1988</year>
+          )
+          <source>Proc. Natl. Acad. Sci. USA 85</source>
+          ,
+          <fpage>6002</fpage>
+          -
+          <lpage>6006</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Dixon</surname>
+            ,
+            <given-names>R. M. W.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>The Rise</article-title>
+          and Fall of Languages (Cambridge Univ. Press, Cambridge, U.K.).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Nettle</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          )
+          <source>Proc. Natl. Acad. Sci. USA 96</source>
+          ,
+          <fpage>3325</fpage>
+          -
+          <lpage>3329</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Campbell</surname>
+            ,
+            <given-names>L.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>American Indian Languages: The Historical Linguistics of Native America</article-title>
+          (Oxford Univ. Press, New York).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Fagundes</surname>
+            ,
+            <given-names>N. J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bonatto</surname>
+            ,
+            <given-names>S. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Callegari-Jacques</surname>
+            ,
+            <given-names>S. M.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Salzano</surname>
+            ,
+            <given-names>F. M.</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>117</volume>
+          ,
+          <fpage>68</fpage>
+          -
+          <lpage>78</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Merriwether</surname>
+            ,
+            <given-names>D. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Friedlaender</surname>
+            ,
+            <given-names>J. S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mediavilla</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mgone</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gentz</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Ferrell</surname>
+            ,
+            <given-names>R. E.</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>110</volume>
+          ,
+          <fpage>243</fpage>
+          -
+          <lpage>270</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Piazza</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rendine</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Minch</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Menozzi</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mountain</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          ) in
+          <source>Proc. Natl. Acad. Sci. USA 92</source>
+          ,
+          <fpage>5836</fpage>
+          -
+          <lpage>5840</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Torroni</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schurr</surname>
+            ,
+            <given-names>T. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cabell</surname>
+            ,
+            <given-names>M. F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brown</surname>
+            ,
+            <given-names>M. D.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Neel</surname>
+            ,
+            <given-names>J. V.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Larsen</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>D. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vullo</surname>
+            ,
+            <given-names>C. M.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Wallace</surname>
+            ,
+            <given-names>D. C.</given-names>
+          </string-name>
+          (
+          <year>1993</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>53</volume>
+          ,
+          <fpage>563</fpage>
+          -
+          <lpage>590</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Bonatto</surname>
+            ,
+            <given-names>S. L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Salzano</surname>
+            ,
+            <given-names>F. M.</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <source>Proc. Natl. Acad. Sci. USA 94</source>
+          ,
+          <fpage>1866</fpage>
+          -
+          <lpage>1871</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Watson</surname>
+            ,
+            <given-names>E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bauer</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Aman</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weiss</surname>
+            ,
+            <given-names>G.</given-names>
+          </string-name>
+          , von Haeseler,
+          <string-name>
+            <given-names>A.</given-names>
+            &amp;
+            <surname>Paabo</surname>
+          </string-name>
+          ,
+          <string-name>
+            <surname>S.</surname>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>59</volume>
+          ,
+          <fpage>437</fpage>
+          -
+          <lpage>444</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Ward</surname>
+          </string-name>
+          , R. H.,
+          <string-name>
+            <surname>Redd</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Valencia</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Frazier</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Paabo</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>1993</year>
+          )
+          <source>Proc. Natl. Acad. Sci. USA 90</source>
+          ,
+          <fpage>10663</fpage>
+          -
+          <lpage>10667</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Nichols</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          ) Language 66,
+          <fpage>475</fpage>
+          -
+          <lpage>521</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Greenberg</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          (
+          <year>1987</year>
+          )
+          <article-title>Language in the Americas</article-title>
+          (Stanford Univ. Press, Stanford, CA).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Mithun</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          )
+          <article-title>Annu</article-title>
+          .
+          <string-name>
+            <surname>Rev</surname>
+          </string-name>
+          . Anthropol.
+          <volume>19</volume>
+          ,
+          <fpage>309</fpage>
+          -
+          <lpage>330</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Ringe</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ) in America Past,
+          <string-name>
+            <given-names>America</given-names>
+            <surname>Present</surname>
+          </string-name>
+          :
+          <article-title>Genes and Languages in the Americas</article-title>
+          and Beyond, ed. Renfrew,
+          <string-name>
+            <surname>C.</surname>
+          </string-name>
+          (
+          <source>McDonald Institute for Archaeological Research</source>
+          , Cambridge, U.K.), pp.
+          <fpage>139</fpage>
+          -
+          <lpage>162</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Anderson</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bankier</surname>
+            ,
+            <given-names>A. T.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Barrell</surname>
+            ,
+            <given-names>B. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>de Bruijn</surname>
+            ,
+            <given-names>M. H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Coulson</surname>
+            ,
+            <given-names>A. R</given-names>
+          </string-name>
+          .,
+          <string-name>
+            <surname>Drouin</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eperon</surname>
+            ,
+            <given-names>I. C.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nierlich</surname>
+            ,
+            <given-names>D. P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Roe</surname>
+            ,
+            <given-names>B. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sanger</surname>
+            ,
+            <given-names>F.</given-names>
+          </string-name>
+          , et al. (
+          <year>1981</year>
+          )
+          <source>Nature</source>
+          <volume>290</volume>
+          ,
+          <fpage>457</fpage>
+          -
+          <lpage>465</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Ruhlen</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          (
+          <year>1991</year>
+          )
+          <article-title>Classification, A Guide to the World's Languages</article-title>
+          (Stanford Univ. Press, Stanford), Vol.
+          <volume>1</volume>
+          , pp.
+          <fpage>463</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Nei</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          (
+          <year>1987</year>
+          )
+          <string-name>
+            <surname>Molecular</surname>
+            <given-names>Evolutionary</given-names>
+          </string-name>
+          <string-name>
+            <surname>Genetics</surname>
+          </string-name>
+          (Columbia Univ.
+          <publisher-loc>Press, New York</publisher-loc>
+          ).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Piazza</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          (
+          <year>1975</year>
+          ) Theor.
+          <source>Popul. Biol</source>
+          .
+          <volume>8</volume>
+          ,
+          <fpage>127</fpage>
+          -
+          <lpage>165</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Urbanek</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Goldman</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Long</surname>
+            ,
+            <given-names>J. C.</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <article-title>Mol</article-title>
+          .
+          <string-name>
+            <surname>Biol</surname>
+          </string-name>
+          . Evol.
+          <volume>13</volume>
+          ,
+          <fpage>943</fpage>
+          -
+          <lpage>953</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Long</surname>
+            ,
+            <given-names>J. C.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Kittles</surname>
+            ,
+            <given-names>R. A.</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          ) Hum. Biol.
+          <volume>75</volume>
+          ,
+          <fpage>449</fpage>
+          -
+          <lpage>471</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Bandelt</surname>
+            ,
+            <given-names>H. J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Forster</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Rohl</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          )
+          <article-title>Mol</article-title>
+          .
+          <string-name>
+            <surname>Biol</surname>
+          </string-name>
+          . Evol.
+          <volume>16</volume>
+          ,
+          <fpage>37</fpage>
+          -
+          <lpage>48</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Starikovskaya</surname>
+            ,
+            <given-names>Y. B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sukernik</surname>
+            ,
+            <given-names>R. I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schurr</surname>
+            ,
+            <given-names>T. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kogelnik</surname>
+            ,
+            <given-names>A. M.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Wallace</surname>
+            ,
+            <given-names>D. C.</given-names>
+          </string-name>
+          (
+          <year>1998</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>63</volume>
+          ,
+          <fpage>1473</fpage>
+          -
+          <lpage>1491</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Gunnerson</surname>
+            ,
+            <given-names>J. H.</given-names>
+          </string-name>
+          (
+          <year>1979</year>
+          ) in Handbook of North American Indians: Southwest, ed. Ortiz,
+          <string-name>
+            <surname>A.</surname>
+          </string-name>
+          (Smithsonian Institution, Washington, D.C.), Vol.
+          <volume>9</volume>
+          , pp.
+          <fpage>162</fpage>
+          -
+          <lpage>169</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Opler</surname>
+            ,
+            <given-names>M. E.</given-names>
+          </string-name>
+          (
+          <year>1983</year>
+          ) in Handbook of North American Indians: Southwest, ed. Ortiz,
+          <string-name>
+            <surname>A.</surname>
+          </string-name>
+          (Smithsonian Institution, Washington, D.C.), Vol.
+          <volume>10</volume>
+          , pp.
+          <fpage>368</fpage>
+          -
+          <lpage>392</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Malhi</surname>
+            ,
+            <given-names>R. S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eshleman</surname>
+            ,
+            <given-names>J. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Greenberg</surname>
+            ,
+            <given-names>J. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weiss</surname>
+            ,
+            <given-names>D. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schultz Shook</surname>
+          </string-name>
+          , B. A.,
+          <string-name>
+            <surname>Kaestle</surname>
+            ,
+            <given-names>F. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lorenz</surname>
+            ,
+            <given-names>J. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kemp</surname>
+            ,
+            <given-names>B. M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Johnson</surname>
+            ,
+            <given-names>J. R.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>D. G.</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>70</volume>
+          ,
+          <fpage>905</fpage>
+          -
+          <lpage>919</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Malhi</surname>
+            ,
+            <given-names>R. S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mortensen</surname>
+            ,
+            <given-names>H. M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eshleman</surname>
+            ,
+            <given-names>J. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kemp</surname>
+            ,
+            <given-names>B. M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lorenz</surname>
+            ,
+            <given-names>J. G.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kaestle</surname>
+            ,
+            <given-names>F. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Johnson</surname>
+            ,
+            <given-names>J. R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gorodezky</surname>
+            ,
+            <given-names>C.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>D. G.</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>120</volume>
+          ,
+          <fpage>108</fpage>
+          -
+          <lpage>124</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>O'Rourke</surname>
+            ,
+            <given-names>D. H.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hayes</surname>
+            ,
+            <given-names>M. G.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Carlyle</surname>
+            ,
+            <given-names>S. W.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ) Hum. Biol.
+          <volume>72</volume>
+          ,
+          <fpage>15</fpage>
+          -
+          <lpage>34</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Stone</surname>
+            ,
+            <given-names>A. C.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Stoneking</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          (
+          <year>1993</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>92</volume>
+          ,
+          <fpage>463</fpage>
+          -
+          <lpage>471</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Carlyle</surname>
+            ,
+            <given-names>S. W.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Parr</surname>
+            ,
+            <given-names>R. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hayes</surname>
+            ,
+            <given-names>M. G.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>O'Rourke</surname>
+            ,
+            <given-names>D. H.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>113</volume>
+          ,
+          <fpage>85</fpage>
+          -
+          <lpage>101</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <string-name>
+            <surname>Ringe</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          ) Diachronica 13,
+          <fpage>135</fpage>
+          -
+          <lpage>154</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Hill</surname>
+          </string-name>
+          , J. H. &amp;
+          <string-name>
+            <surname>Hill</surname>
+            ,
+            <given-names>K. C.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Am</article-title>
+          . Anthropol.
+          <volume>102</volume>
+          ,
+          <fpage>161</fpage>
+          -
+          <lpage>163</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>Golla</surname>
+            ,
+            <given-names>V.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          ) in America Past,
+          <string-name>
+            <given-names>America</given-names>
+            <surname>Present</surname>
+          </string-name>
+          :
+          <article-title>Genes and Languages in the Americas</article-title>
+          and Beyond, ed. Renfrew,
+          <string-name>
+            <surname>C.</surname>
+          </string-name>
+          (
+          <source>McDonald Institute for Archaeological Research</source>
+          , Cambridge, U.K.), pp.
+          <fpage>59</fpage>
+          -
+          <lpage>76</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Lorenz</surname>
+            ,
+            <given-names>J. G.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>D. G.</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>101</volume>
+          ,
+          <fpage>307</fpage>
+          -
+          <lpage>323</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Feldman</surname>
+            ,
+            <given-names>M. W.</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Nat</article-title>
+          . Genet.
+          <volume>33</volume>
+          , Suppl.,
+          <fpage>266</fpage>
+          -
+          <lpage>275</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>Cavalli-Sforza</surname>
+            ,
+            <given-names>L. L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Feldman</surname>
+            ,
+            <given-names>M. W.</given-names>
+          </string-name>
+          (
+          <year>1981</year>
+          )
+          <article-title>Cultural Transmission and Evolution: A Quantitative Approach</article-title>
+          (Princeton Univ. Press, Princeton).
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>Greenberg</surname>
+          </string-name>
+          , J. H.,
+          <string-name>
+            <surname>Turner</surname>
+            ,
+            <given-names>C. G.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Zegura</surname>
+            ,
+            <given-names>S. L.</given-names>
+          </string-name>
+          (
+          <year>1986</year>
+          ) Curr. Anthropol.
+          <volume>27</volume>
+          ,
+          <fpage>477</fpage>
+          -
+          <lpage>497</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <string-name>
+            <surname>Rubicz</surname>
+            ,
+            <given-names>R.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Melvin</surname>
+            ,
+            <given-names>K. L.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Crawford</surname>
+            ,
+            <given-names>M. H.</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          ) Hum. Biol.
+          <volume>74</volume>
+          ,
+          <fpage>743</fpage>
+          -
+          <lpage>760</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Shields</surname>
+            ,
+            <given-names>G. F.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schmiechen</surname>
+            ,
+            <given-names>A. M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Frazier</surname>
+            ,
+            <given-names>B. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Redd</surname>
+            ,
+            <given-names>A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Voevoda</surname>
+            ,
+            <given-names>M. I.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Reed</surname>
+            ,
+            <given-names>J. K.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Ward</surname>
+            ,
+            <given-names>R. H.</given-names>
+          </string-name>
+          (
+          <year>1993</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>53</volume>
+          ,
+          <fpage>549</fpage>
+          -
+          <lpage>562</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <string-name>
+            <surname>Saillard</surname>
+            ,
+            <given-names>J.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Forster</surname>
+            ,
+            <given-names>P.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lynnerup</surname>
+            ,
+            <given-names>N.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bandelt</surname>
+            ,
+            <given-names>H. J.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Norby</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+            .
+            <given-names>J.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Hum</surname>
+          </string-name>
+          . Genet.
+          <volume>67</volume>
+          ,
+          <fpage>718</fpage>
+          -
+          <lpage>726</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          47.
+          <string-name>
+            <surname>Budowle</surname>
+            ,
+            <given-names>B.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Allard</surname>
+            ,
+            <given-names>M. W.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fisher</surname>
+            ,
+            <given-names>C. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Isenberg</surname>
+            ,
+            <given-names>A. R</given-names>
+          </string-name>
+          .,
+          <string-name>
+            <surname>Monson</surname>
+            ,
+            <given-names>K. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stewart</surname>
+            ,
+            <given-names>J. E.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wilson</surname>
+            ,
+            <given-names>M. R.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Miller</surname>
+            ,
+            <given-names>K. W.</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <string-name>
+            <surname>Int</surname>
+          </string-name>
+          .
+          <source>J. Legal Med</source>
+          .
+          <volume>116</volume>
+          ,
+          <fpage>212</fpage>
+          -
+          <lpage>215</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          48.
+          <string-name>
+            <surname>Kittles</surname>
+            ,
+            <given-names>R. A.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bergen</surname>
+            ,
+            <given-names>A. W.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Urbanek</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Virkkunen</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Linnoila</surname>
+            ,
+            <given-names>M.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Goldman</surname>
+            ,
+            <given-names>D.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Long</surname>
+            ,
+            <given-names>J. C.</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          )
+          <string-name>
+            <surname>Am</surname>
+          </string-name>
+          .
+          <source>J. Phys. Anthropol</source>
+          .
+          <volume>108</volume>
+          ,
+          <fpage>381</fpage>
+          -
+          <lpage>399</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          49.
+          <string-name>
+            <surname>Malhi</surname>
+            ,
+            <given-names>R. S.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schultz</surname>
+            ,
+            <given-names>B. A.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Smith</surname>
+            ,
+            <given-names>D. G.</given-names>
+          </string-name>
+          (
+          <year>2001</year>
+          ) Hum. Biol.
+          <volume>73</volume>
+          ,
+          <fpage>17</fpage>
+          -
+          <lpage>55</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          50.
+          <string-name>
+            <surname>Ward</surname>
+          </string-name>
+          , R. H.,
+          <string-name>
+            <surname>Frazier</surname>
+            ,
+            <given-names>B. L.</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dew-Jager</surname>
+            ,
+            <given-names>K.</given-names>
+          </string-name>
+          &amp;
+          <string-name>
+            <surname>Paabo</surname>
+            ,
+            <given-names>S.</given-names>
+          </string-name>
+          (
+          <year>1991</year>
+          ) in
+          <source>Proc. Natl. Acad. Sci. USA 88</source>
+          ,
+          <fpage>8720</fpage>
+          -
+          <lpage>8724</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

@@ -1,0 +1,1945 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Eur Arch Otorhinolaryngol</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>The use of automatic speech recognition showing the influence of nasality on speech intelligibility</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1007/s00405-010-1256-5</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>S. Mayr</string-name>
+          <email>susanne.mayr@uk-erlangen.de</email>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>K. Burkhardt</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>M. Schuster</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>K. Rogler</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>A. Maier</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>H. Iro</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>A. Maier Pattern Recognition Lab, School of Engineering, University Erlangen-Nuremberg</institution>
+          ,
+          <addr-line>Martensstrasse 3, 91058 Erlangen</addr-line>
+          ,
+          <country country="DE">Germany</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>M. Schuster Division of Phoniatrics and Pedaudiology, University Hospital, University Erlangen-Nuremberg</institution>
+          ,
+          <addr-line>Bohlenplatz 21, 91054 Erlangen</addr-line>
+          ,
+          <country country="DE">Germany</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>S. Mayr (&amp;) K. Burkhardt K. Rogler H. Iro Department of Otolaryngology, Head and Neck Surgery, University Hospital, University Erlangen-Nuremberg</institution>
+          ,
+          <addr-line>Waldstrasse 1, 91054 Erlangen</addr-line>
+          ,
+          <country country="DE">Germany</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Altered nasality influences speech intelligibility. Automatic speech recognition (ASR) has proved suitable for quantifying speech intelligibility in patients with different degrees of nasal emissions. We investigated the influence of hyponasality on the results of speech recognition before and after nasal surgery using ASR. Speech recordings, nasal peak inspiratory flow and self-perception measurements were carried out in 20 German-speaking patients (8 women, 12 men; aged 38 ± 22 years) who underwent surgery for various nasal and sinus pathologies. The degree of speech intelligibility was quantified as the percentage of correctly recognized words of a standardized word chain by ASR (word recognition rate; WR). WR was measured 1 day before (t1), 1 day after with nasal packings (t2), and 3 months after (t3) surgery; nasal peak flow on t1 and t3. WR was calculated with program for the automatic evaluation of all kinds of speech disorders (PEAKS). WR as a parameter of speech intelligibility was significantly decreased immediately after surgery (t1 vs. t2 p \ 0.01) but increased 3 months after surgery (t2 vs. t3 p \ 0.01).</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Sinus surgery</kwd>
+        <kwd>Nasality</kwd>
+        <kwd>Speech intelligibility</kwd>
+        <kwd>Automatic speech recognition</kwd>
+        <kwd>Word recognition rate</kwd>
+        <kwd>Nasal peak inspiratory flow</kwd>
+      </kwd-group>
+      <volume>267</volume>
+      <fpage>1719</fpage>
+      <lpage>1725</lpage>
+      <pub-date>
+        <year>2010</year>
+      </pub-date>
+      <history>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>4</month>
+          <year>2010</year>
+        </date>
+        <date date-type="received">
+          <day>16</day>
+          <month>11</month>
+          <year>2009</year>
+        </date>
+      </history>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Speech is a superior achievement of human
+communication, demonstrating the ability to present thoughts with
+articulation and voice [1]. Voice is itself determined by two
+factors, the voice source and the vocal tract. Anatomically,
+the larynx serves as tone generator [2]. This primary signal
+is further modulated by characteristics of the
+cross-sectional area of the vocal tract, involving the supraglottic
+space, including the pharynx, nasal cavity, and paranasal
+sinuses [2]. Even minor alterations in these structures may
+lead to changes in voice and thereby influence speech
+intelligibility.</p>
+      <p>Research in this field has focused on various factors that
+influence speech intelligibility. Studies have been
+undertaken to assess speech quality in patients with cleft palate,
+motor speech disorders, and hearing impairment [3–5].
+However, the relationship between speech intelligibility,
+nose and sinus pathologies, as well as the effects of surgical
+treatments, has not been adequately explored [6]. In
+contrast, several studies have investigated sinus symptoms
+such as nasal obstruction, rhinorrhoea, loss of smell etc.,
+in attempts to identify the most suitable techniques for
+surgery to nose and paranasal sinuses [7–11].</p>
+      <p>Research on the function of the sinuses themselves has
+been carried out for many years [12–14]. In addition to the
+important functions of air-conditioning, olfaction, and
+filtering, pneumatisation may serve to decrease the weight of
+the head, and sinuses are assumed an important acoustic
+resonator modulating voice [6, 15]. The secretory mucosal
+function, with active convection of water into the sinuses,
+leads to saturation of the inspiratory air with water [16].
+One of the main functions of surgery on pathologies of
+nose and paranasal sinuses is to increase aeration, in order
+to reduce inflammation in these cavities [17].</p>
+      <p>Changes in nasality are thought to influence speech
+intelligibility [6]. Nasal obstruction, especially of the nasal
+cavity, is one of the main factors in decreasing nasality [5].
+Often the presence of hyponasality is of minor interest in
+clinical evaluations, even though it is of major interest for
+patients—especially with high demands on their speech.
+However, speech evaluation prior to endonasal surgery is
+neither routinely performed nor standardized. Perceptual
+evaluation by several listeners is presently accepted as an
+‘‘objective’’ assessment of nasality. Here, nasal vowels
+such as /m/, /n/, and /ng/ are altered or replaced by
+pre-nasal plosives. It appears as decreased nasal resonance
+with a dull, obstructed-sounding voice. If consonants,
+especially voiced plosives, are substituted with
+correspondent nasalized consonants, hypernasality is present.
+Air leaks through the nose, the intraoral pressure of air is
+reduced, and the acuity of oral consonants is decreased [18]
+by changing resonance functions and altered formant
+structure of the phoneme [19]. MRI studies of the spectral
+characteristics of human nasal sounds showed that the
+paranasal sinuses have an important role in shaping these
+functions [20]. Further investigation of the effects of sinus
+surgery supported this assumption [6, 21].</p>
+      <p>Recently, an automatic speech recognition (ASR)
+system was used for the objective assessment of speech
+intelligibility and showed very good concordance with
+perceptual evaluation [3, 4, 22].</p>
+      <p>ASR is usually used for automatic communication
+systems in order to recognize speech, e.g., for telephone or
+dictating systems. It relies on the analysis of acoustic
+properties of speech and often includes phonetic and
+linguistic knowledge using stochastic methods [23, 24]. ASR
+is now increasingly being used to quantify speech alterations
+for medical purposes [25]. For the ASR system presented
+here, the percentage of correctly recognized words of a
+known sequence (word recognition rate; WR) corresponds to
+speech intelligibility. Thus, the method can be used to
+evaluate global speech quality. In previous investigations, it
+has shown a diminished degree of intelligibility in children
+with increased nasality due to cleft palate [26].</p>
+      <p>It is important to learn more about the effects of nose
+and sinus surgery on speech intelligibility and also to
+investigate short-, as well as long-term changes after
+surgery. Here we present the first data on the use of an ASR
+system to measure the speech intelligibility of patients with
+pathology of nose and paranasal sinuses.</p>
+      <p>Participants and methods
+Twenty adult patients, who were admitted to an academic
+tertiary referral center from April to July 2007 for surgery
+of the nose and/or paranasal sinuses, were included in this
+study (Table 1). Informed consent was obtained for all
+participants prior to the study. The study population
+consisted of 8 female and 12 male German-speaking patients.
+The mean age at the time of diagnosis was 38 years
+(18–93 years). Patients with previous sinus surgery and
+those with alterations of voice due to laryngeal reasons or
+tobacco consumption were excluded. No patient had had
+Table 1 Characteristics of the study population (n = 20), word
+recognition rate (WR) pre-operative (t1), direct post-operative with
+nasal packing (t2), 3 months post-operative (t3), for (a) female
+(n = 8), (b) male (n = 12) participants</p>
+      <p>WR t1 (%) WR t2 (%)
+(a) Female (n = 8)
+18 73.2 55.5 75
+18 78.7 75.9 69.4
+24 71.3 45.4 73.2
+24 59.3 48.2 64.8
+35 72.2 74.1 68.5
+67 72.2 59.2 68.5
+68 73.2 80.6 67.6
+70 69.4 54.6 71.3
+Mean (±SD) 40.5 (±23.7) 71.2 (±5.5) 61.7 (±13.4) 69.8 (±3.3)
+(b) Male (n = 12)
+21 71.3 62 64.8
+22 75.9 52.8 70.4
+22 75 65.7 64.8
+22 75.9 44.4 71.3
+25 63 32.4 57.4
+25 74.1 74.1 75
+26 68.5 46.3 65.7
+28 71.3 47.2 70.4
+41 (4.6) 51.9 66.7
+44 50.9 43.5 59.3
+66 47.2 50.9 75.9
+93 65.7 48.2 59.3
+Mean (±SD) 35.8 (±23.3) 67.2 (±9.9) 51.6 (±11.1) 66.8 (±6.1)
+speech training. Patients were admitted for chronic
+rhinosinusitis (CRS), septal deviation, rhinoplasty, and
+combinations of these diseases.</p>
+      <p>All patients underwent endoscopy of the nose,
+nasopharynx, and larynx prior to standardized speech
+recordings immediately before surgery (t1), on the first
+postoperative day with nasal packings (t2), and 3 months
+after surgery (t3). On each occasion, patients were also
+asked about their general health, sinus condition, and
+condition of nasal resonance, that were both recorded using
+a visual analog scale (VAS). The VAS scale included
+scores from 1 (excellent) to 10 (extremely bad),
+respectively. Surgery consisted of either rhinoplasty and/or
+endoscopic sinus surgery, using the surgical techniques of
+Wigand [17, 27, 28]. All patients had bilateral nasal
+packing on the first postoperative day (t2).</p>
+      <p>Nasal peak inspiratory flow measurements
+Nasal flow was measured using the nasal peak
+inspiratory flow meter (nPIF) (In Check; Clement Clarke,
+Harlow, UK) at voice recording sessions, t1 and t3. Total
+nasal inspiratory flow was measured with a peak
+flow device while closing the mouth with an adjusted
+naso-oral mask.</p>
+      <p>Automatic speech recognition
+Standardized speech recordings of the patients were
+performed digitally with a dnt Call4you head-set (16 kHz/16
+bit) at t1–t3 as described earlier and analyzed using
+PEAKS [4, 29–31]. The ASR system used a unigram
+speech model excluding syntactic knowledge, in order to
+emphasize acoustic characteristics of speech. It was
+polyphone-based, including co-articulatory phonetic properties.
+WR was calculated as the percentage of correctly
+recognized words of the standard text ‘‘Der Nordwind und die
+Sonne’’. It is a phonetically balanced text with 71 different
+words.
+Statistical analyses were performed using Microsoft
+Office Excel (2003), SPSS (Version 16.0.2. SPSS Inc.,
+USA) and PEAKS (Version 1.6.2) [29]. We used the
+fully automatic speech evaluation routine as described in
+[29]. Based on the reference text and recognized word
+chain of the ASR system, an estimate of the speech
+intelligibility is computed WR. The WR shows similar
+performance to a transcription-based perceptual
+evaluation [29, 30]. PEAKS features an export interface to
+Excel and SPSS. Correlation analysis was calculated
+according to Pearson [32].
+The WR at the time of each speech recording session was
+calculated. The mean WR for the pre-operative speech
+recording (t1) was 65.7 ± 16.5% (47.2% min, 78.7% max)
+(Table 1). At t1, one patient reached a WR of only 4.6%
+due to microphone problems during recording and that
+information was excluded from further calculations.
+Female patients had a slightly higher WR at t1 (mean
+71.2 ± 5.5%) than males (mean 67.2 ± 9.9%), with a
+smaller range of results (Table 1; Fig. 1). Age showed no
+influence on WR (Table 2).</p>
+      <p>The mean WR at the second speech recording session on
+the first post-operative day (t2), still with nasal packing,
+was 55.7 ± 12.8% (32.4% min, 80.6% max) for the whole
+study group (Table 1). For female patients, the mean WR
+was 61.7 ± 13.4% and for male patients 51.6 ± 11.1%
+(Table 1; Fig. 1). Results in female patients tended to show
+greater scatter than in males.</p>
+      <p>Three months postoperatively (t3), mean WR had
+increased to 68 ± 5.3% (57.4% min, 75.9% max) and the
+degree of scatter was non-significantly lower compared
+with t1 and t2 (Table 1). In this context the lowest WR
+result at t3 measured about 10 points higher than at t1 and
+also the whole study group showed fewer outliers, so the
+degree of scatter of WR results became lower in t3. Gender
+had no relevant influence on WR results, with a mean of
+69.8 ± 3.3% for female and 66.8 ± 6.1% for male
+patients. The range of WR results was again smaller in
+women than in men (Table 1; Fig. 1).</p>
+      <p>Comparison of the results between the first (t1) and the
+last (t3) speech recording sessions did not show a
+significant difference in mean WR (p = 1.0). However, there was
+Fig. 1 Word recognition rate (WR) (%) according to gender, at time
+point t1 (pre-operative), t2 (post-operative with nasal packing), t3
+(3 months post-operative)
+Table 2 Mean of word recognition rate (WR) (%) for t1, t2, t3
+according to age (n = 20)
+Table 3 Pre- and post-operative comparison of subjective scores
+(VAS) for general health and nasal resonance (n = 20)
+a significant difference (p = 0.001) between mean WR at
+t1 and t2. Similarly, mean WR results for t3 were
+significantly higher than for t2 (p = 0.002) (Fig. 2).</p>
+      <p>Calculations on the influence of age on WR showed no
+relevant differences (Table 2).</p>
+      <p>No patient reported worsening of their nasal resonance
+or their general health 3 months after surgery (Table 3).</p>
+      <p>Different surgical procedures were performed according
+to the nasal and sinus pathology. This study population,
+with its small size, did not show any procedure-related
+differences in WR rates. Surgery improved nasal flow as
+measured with the nasal peak inspiratory flow meter
+(nPIF). The mean preoperative nasal peak flow was
+70.8 ± 47.0 l/min; postoperatively (t3) nasal peak flow
+increased to 91.5 ± 57.0 l/min. No correlation was found
+between the measures of nasal peak flow and WR results.
+The aim of this preliminary study on 20 adult patients was
+to investigate whether ASR could be used for the automatic
+quantification of speech intelligibility in patients before
+Fig. 2 Word recognition rate (WR) (%) of the whole study
+population (n = 20), at time point t1 (pre-operative), t2 (post-operative with
+nasal packing), t3 (3 months post-operative)</p>
+      <p>Preoperative Postoperative Preoperative Postoperative
+and after surgery of nose and paranasal sinuses.
+Measurements during total nasal obstruction with bilateral nasal
+packing were performed to demonstrate the influence of
+changes in nasality on ASR. The study group consisted of
+consecutively admitted patients for nasal/sinus surgery.
+A broad spectrum of diseases was included in order to
+measure a wide range of speech characteristics as shown in
+Fig. 2 and Tables 1 and 2. Data included 59 speech
+samples (WR at t1 was excluded from one patient for reasons
+described earlier) and 40 measurements of nasal inspiratory
+flow using the nasal peak inspiratory flow meter from 20
+patients.</p>
+      <p>The generation of universal parameters for reporting
+speech outcomes in individuals has been the aim of a
+number of studies focusing on different components of
+speech [5, 33, 34].</p>
+      <p>The quality of phonetic implementation of words, and
+therefore the evaluation of speech intelligibility, serves as
+global evaluation of quality of speech. The percentage of
+correctly identified words is a measure of speech
+intelligibility [26]. Of course, a speech recognition system does
+not understand the speech as a human listener would. The
+subjective factor—meaning the interpretation and
+processing of perceived speech in the respective brain areas—
+is also a relevant criterion for a human observer. Voice
+quality, phonetic and morpho-syntactic structure,
+background noises, loudness, and rate of speech all influence
+perception. Context and prosodic elements in particular
+contribute to a better understanding of a human listener.
+That is why speech intelligibility is often rated differently
+by differently experienced and competent listeners and
+limits the reliability of the perceptual evaluation of speech.</p>
+      <p>It is also known that other factors such as the speaker
+and his native tongue, the speaking style, vocabulary,
+grammatical complexity, and acoustic properties of the
+recording system can greatly affect ASR. In the present
+study, a standardized procedure was used in order to
+exclude the above-mentioned confounding factors and
+others such as perplexity of speech and free- versus read
+speech [35]. By using a standard text (‘‘Der Nordwind und
+die Sonne’’) and stable recording conditions, the impact of
+most of these factors on ASR and the subsequent analysis
+of results was minimized.</p>
+      <p>The percentage of correctly identified words of a word
+sequence, which is defined as the WR, has been shown to
+correspond to speech intelligibility—as demonstrated
+previously for children and adults with phonetic disorders
+[4, 22]. Moreover, since the system excludes semantic and
+syntactic knowledge, the method is more precise and
+accurate than the usually used perceptual evaluations
+summarized from several listeners. Of course, no
+information about acceptability or esthetic appearance of speech
+can be provided by ASR.</p>
+      <p>The ASR system is trained with 6.9 h of adult speech in
+order to model a ‘‘standard’’ listener. Unlike perceptual
+evaluation by human listeners, it is not affected by
+perceptual and subjective influences [3]. Evaluation of the
+same speech data will always lead to the same result.
+Therefore, speech recognition is an objective and accurate
+tool for the measurement of speech intelligibility [22]. ASR
+is based on the statistical modeling of the acoustic and
+linguistic features of human speech. In this study we
+focussed on the acoustic features of speech [36].</p>
+      <p>The results of WR in this study population never
+reached 100%, which one might expect for normal
+speakers. However, similar results were obtained in
+previous studies with the same ASR system where the WR
+also did not reach 100% [4]. This is due to limitations of
+the method and these consistent results show there is
+nonsystematic influences.</p>
+      <p>Given that there is still no gold standard for the
+perception of spoken speech rather than merely vowels, we
+consider ASR to be the best method in that regard. The
+ASR system used here has already been employed in
+several previous studies. Of course, as an objective method,
+the intention is for this system to be used in other
+languages. Ongoing tests with different languages have
+already produced promising preliminary results [37].</p>
+      <p>Age had no significant influence on WR in this study
+because the study population was rather small. However,
+the effects of age on WR have recently been demonstrated
+by Wilpon [38], for children [26, 39]. In adults, similar
+results were found after total laryngectomy [4] and in
+patients with oral squamous cell carcinoma [22].</p>
+      <p>An increase of hyponasality and decrease of speech
+intelligibility is generally assumed to occur as the severity
+of sinus diseases and obstruction-inducing nasal
+deformities increases [15]. Surgical interventions aiming to relieve
+such conditions ought to improve speech intelligibility
+[40]. However, the population in the present study was too
+small to allow further statistic evaluations. Previous
+investigations of a similar design also had small study
+populations and varying surgical interventions [6, 21, 40].
+Those evaluations primarily focused on speech analysis
+based on single vocals and consonant variations [6, 21].
+However, the main aim of this study was to evaluate
+speech intelligibility using the ASR system for the first
+time in a study population as defined above. Consistency
+regarding the extent of surgery of nose and sinuses lay
+outside the primary focus of this study, but led us to the
+initiation of further studies looking specifically at different
+surgical interventions. An interesting study done by Yue
+et al. [41] studied changes in resonance characteristics of
+the nasal cavity and nasal airway resistance after
+endoscopic sinus surgery, with pre-operative staging of the
+chronic sinusitis. They concluded that nasality cannot be
+ameliorated immediately after surgery, to which we would
+agree.</p>
+      <p>Comparison of speech intelligibility in this study
+measured by ASR at t1 and t3 showed minimal differences in
+WR rates. A significant reduction in speech intelligibility
+was only demonstrated at t2 when participants had nasal
+packings—a situation only tolerated in the context of nose/
+sinus surgery. Total obstruction of the nasal cavity with
+nasal packings caused maximal hyponasality analogous to
+nasal obstruction caused by nasal and sinus pathologies. It
+can be concluded that hyponasality induced by total
+obstruction of the nasal cavity significantly influences
+speech intelligibility. Hence the ASR system does help to
+evaluate speech intelligibility. Similar results have been
+shown for spectral properties of consonants and nasalized
+vowels before and after surgery [21] and the testing of
+nasalance with nasalized sentences [15].</p>
+      <p>Nevertheless, our results may be interpreted in different
+ways. First, an insignificant difference between pre- and
+post-operative speech intelligibility results may reassure
+patients that they do not need to expect major voice
+changes. On the other hand, expectations to improve
+hyponasality as the main intention for surgery need to be
+lowered. It may also be argued that the ASR system used
+was incapable of detecting small changes in nasality.
+There are reports in the literature of similar studies that
+attempted to establish methods and parameters to
+determine, for example, if there is a relationship between
+chronic sinusitis and dysphonia. However, these studies
+demonstrated that, due to the small changes, more effort
+needs to be directed at increasing the size of the study
+population [42].</p>
+      <p>Interestingly in the clinical daily routine, patients often
+present with massive nasal polyposis or septal deviation,
+whose hyponasality is less prominent than in patients with
+acute onset of rhinosinusitis. Hence, changes in nasal flow
+and pressure in the nasal cavity and sinuses may be less
+relevant for speech when they are chronic and persistent,
+whereas acute changes are more significant. Other
+components such as the velopharyngeal opening may play
+an important role [43].</p>
+      <p>Measurement of the degree of nasal obstruction by
+nasal inspiratory peak flow demonstrated that no patient
+had complete obstruction of the nasal cavity, either at
+time point t1 or t3. We found no correlation of speech
+intelligibility and nasal inspiratory peak flow. Studies on
+nasal flow and the percentage of laminar and turbulent
+nasal flow have been carried out using various models
+[44–46]. These studies led to a primarily functional
+approach in septal surgery, but no evaluation of speech
+was undertaken.
+Automatic speech recognition can quantify the influence of
+hyponasality on speech. Nasal obstruction leads to
+significantly reduced WR. Nasal peak flow cannot replace
+evaluation of nasality. Furthermore, the consequences of
+different nasal diseases or surgical procedures on nasality
+and speech need to be investigated.</p>
+      <p>Acknowledgments We would like to express our sincere gratitude
+to Julia von Ochsenstein and Anika Stro¨bele for their great support in
+performing this study.</p>
+      <p>Conflict of interest statement The authors declare that they have
+no conflict of interest.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          1.
+          <string-name>
+            <surname>Friedrich</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bigenzahn</surname>
+            <given-names>W</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          )
+          <article-title>Phoniatrie-Einfu¨ hrung in die medizinischen, psychologischen und linguistischen Grundlagen von Stimme und Sprache</article-title>
+          . Verlag Hans Huber, Bern
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          2.
+          <string-name>
+            <surname>Fant</surname>
+            <given-names>G</given-names>
+          </string-name>
+          (
+          <year>1970</year>
+          )
+          <article-title>Acoustic theory of speech production: with calculations based on X-ray studies of Russian articulations</article-title>
+          . Walter de Gruyter, Mouton,
+          <string-name>
+            <given-names>The</given-names>
+            <surname>Hague</surname>
+          </string-name>
+          , The Netherlands
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          3.
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haderlein</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nkenke</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wohlleben</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosanowski</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          , No¨ th E (
+          <year>2006</year>
+          )
+          <article-title>Evaluation of speech intelligibility for children with cleft lip and palate by means of speech recognizer technique</article-title>
+          .
+          <source>Int J Pediatr Otorhinolaryngol</source>
+          <volume>70</volume>
+          :
+          <fpage>1741</fpage>
+          -
+          <lpage>1747</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          4.
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haderlein</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lohscheller</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosanowski</surname>
+            <given-names>F</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Intelligibility of laryngectomees' substitute speech: automatic speech recognition and subjective rating</article-title>
+          .
+          <source>Eur Arch Otorhinolaryngol</source>
+          <volume>263</volume>
+          :
+          <fpage>188</fpage>
+          -
+          <lpage>193</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          5.
+          <string-name>
+            <surname>Henningsson</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kuehn</surname>
+            <given-names>DP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sell</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sweeney</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Trost-Cardamone</surname>
+            <given-names>JE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Whitehill</surname>
+            <given-names>TL</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Universal parameters for reporting speech outcomes in individuals with cleft palate</article-title>
+          .
+          <source>Cleft Palate Craniofac J</source>
+          <volume>45</volume>
+          :
+          <fpage>1</fpage>
+          -
+          <lpage>17</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          6.
+          <string-name>
+            <surname>Hosemann</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gode</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dunker</surname>
+            <given-names>JE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          (
+          <year>1998</year>
+          )
+          <article-title>Influence of endoscopic sinus surgery on voice quality</article-title>
+          .
+          <source>Eur Arch Otorhinolaryngol</source>
+          <volume>255</volume>
+          :
+          <fpage>499</fpage>
+          -
+          <lpage>503</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          7.
+          <string-name>
+            <surname>Lund</surname>
+            <given-names>VJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kennedy</surname>
+            <given-names>DW</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>Staging for rhinosinusitis</article-title>
+          .
+          <source>Otolaryngol Head Neck Surg</source>
+          <volume>117</volume>
+          :
+          <fpage>S35</fpage>
+          -
+          <lpage>S40</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          8.
+          <string-name>
+            <surname>Hosemann</surname>
+            <given-names>W</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Chronic sinusitis and obstructive respiratory tract diseases</article-title>
+          .
+          <source>Laryngorhinootologie</source>
+          <volume>79</volume>
+          :
+          <fpage>643</fpage>
+          -
+          <lpage>644</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          9.
+          <string-name>
+            <surname>Dursun</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bayiz</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Korkmaz</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Akmansu</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Uygur</surname>
+            <given-names>K</given-names>
+          </string-name>
+          (
+          <year>1998</year>
+          )
+          <article-title>Follow-up results of 415 patients after endoscopic sinus surgery</article-title>
+          .
+          <source>Eur Arch Otorhinolaryngol</source>
+          <volume>255</volume>
+          :
+          <fpage>504</fpage>
+          -
+          <lpage>510</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          10.
+          <string-name>
+            <surname>Catalano</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Roffman</surname>
+            <given-names>E</given-names>
+          </string-name>
+          (
+          <year>2003</year>
+          )
+          <article-title>Outcome in patients with chronic sinusitis after the minimally invasive sinus technique</article-title>
+          .
+          <source>Am J Rhinol</source>
+          <volume>17</volume>
+          :
+          <fpage>17</fpage>
+          -
+          <lpage>22</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          11.
+          <string-name>
+            <surname>Iro</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mayr</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schick</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mrakovcic</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wigand</surname>
+            <given-names>ME</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Clinical outcome of partial ethmoidectomy for chronic rhinosinusitis</article-title>
+          .
+          <source>Eur Arch Otorhinolaryngol</source>
+          <volume>263</volume>
+          :
+          <fpage>572</fpage>
+          -
+          <lpage>577</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          12.
+          <string-name>
+            <surname>Marquez</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>The paranasal sinuses: the last frontier in craniofacial biology</article-title>
+          .
+          <source>Anat Rec (Hoboken)</source>
+          <volume>291</volume>
+          :
+          <fpage>1350</fpage>
+          -
+          <lpage>1361</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          13.
+          <string-name>
+            <surname>Leopold</surname>
+            <given-names>D</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <article-title>A history of rhinology in North America</article-title>
+          .
+          <source>Otolaryngol Head Neck Surg</source>
+          <volume>115</volume>
+          :
+          <fpage>283</fpage>
+          -
+          <lpage>297</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          14.
+          <string-name>
+            <surname>Stammberger</surname>
+            <given-names>H</given-names>
+          </string-name>
+          (
+          <year>1989</year>
+          )
+          <article-title>History of rhinology: anatomy of the paranasal sinuses</article-title>
+          .
+          <source>Rhinology</source>
+          <volume>27</volume>
+          :
+          <fpage>197</fpage>
+          -
+          <lpage>210</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          15.
+          <string-name>
+            <surname>Hong</surname>
+            <given-names>KH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kwon</surname>
+            <given-names>SH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jung</surname>
+            <given-names>SS</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>The assessment of nasality with a nasometer and sound spectrography in patients with nasal polyposis</article-title>
+          .
+          <source>Otolaryngol Head Neck Surg</source>
+          <volume>117</volume>
+          :
+          <fpage>343</fpage>
+          -
+          <lpage>348</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          16.
+          <string-name>
+            <surname>Beule</surname>
+            <given-names>AG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hosemann</surname>
+            <given-names>W</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Wound healing after endoscopic sinus surgery and postoperative management</article-title>
+          .
+          <source>HNO</source>
+          <volume>57</volume>
+          :
+          <fpage>763</fpage>
+          -
+          <lpage>771</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          17.
+          <string-name>
+            <surname>Wigand</surname>
+            <given-names>ME</given-names>
+          </string-name>
+          (
+          <year>1981</year>
+          )
+          <article-title>Transnasal, endoscopical sinus surgery for chronic sinusitis</article-title>
+          . I.
+          <article-title>A biomechanical concept of the endonasal mucosa surgery (author's transl)</article-title>
+          .
+          <source>HNO</source>
+          <volume>29</volume>
+          :
+          <fpage>215</fpage>
+          -
+          <lpage>221</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          18.
+          <string-name>
+            <surname>Petursson</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Neppert</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <article-title>Elementarbuch der Phonetik</article-title>
+          . Buske Verlag, Hamburg
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          19.
+          <string-name>
+            <surname>Ohala</surname>
+            <given-names>JJ</given-names>
+          </string-name>
+          (
+          <year>1993</year>
+          )
+          <article-title>Coarticulation and phonology</article-title>
+          .
+          <source>Lang Speech</source>
+          <volume>36</volume>
+          (
+          <year>Pt</year>
+          2-
+          <issue>3</issue>
+          ):
+          <fpage>155</fpage>
+          -
+          <lpage>170</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          20.
+          <string-name>
+            <surname>Dang</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Honda</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Suzuki</surname>
+            <given-names>H</given-names>
+          </string-name>
+          (
+          <year>1994</year>
+          )
+          <article-title>Morphological and acoustical analysis of the nasal and the paranasal cavities</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <volume>96</volume>
+          :
+          <fpage>2088</fpage>
+          -
+          <lpage>2100</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          21.
+          <string-name>
+            <surname>Chen</surname>
+            <given-names>MY</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Metson</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>Effects of sinus surgery on speech</article-title>
+          .
+          <source>Arch Otolaryngol Head Neck Surg</source>
+          <volume>123</volume>
+          :
+          <fpage>845</fpage>
+          -
+          <lpage>852</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          22.
+          <string-name>
+            <surname>Windrich</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kohler</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nkenke</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Automatic quantification of speech intelligibility of adults with oral squamous cell carcinoma</article-title>
+          .
+          <source>Folia Phoniatr Logop</source>
+          <volume>60</volume>
+          :
+          <fpage>151</fpage>
+          -
+          <lpage>156</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          23.
+          <string-name>
+            <surname>Gallwitz</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Niemann</surname>
+            <given-names>H</given-names>
+          </string-name>
+          , No¨th E (
+          <year>1999</year>
+          )
+          <article-title>SpracherkennungStand der Technik, Einsatzmo¨glichkeiten und Perspektiven</article-title>
+          .
+          <source>Wirtschaftsinformatik</source>
+          <volume>41</volume>
+          :
+          <fpage>538</fpage>
+          -
+          <lpage>547</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          24.
+          <string-name>
+            <surname>Euler</surname>
+            <given-names>E</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Grundkurs Spracherkennung</article-title>
+          . Vieweg-Verlag, Wiesbaden
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          25.
+          <string-name>
+            <surname>Gales</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pye</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Woodland</surname>
+            <given-names>P</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <article-title>Variance compensation within the MLLR framework for robust speech recognition and speaker adaptation</article-title>
+          .
+          <source>In: Proceedings of ICSLP'96</source>
+          , Philadelphia, USA
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          26.
+          <string-name>
+            <surname>Vogt</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Batliner</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nkenke</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Numeric quantification of intelligibility in schoolchildren with isolated and combined cleft palate</article-title>
+          .
+          <source>HNO</source>
+          <volume>55</volume>
+          :
+          <fpage>891</fpage>
+          -
+          <lpage>898</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          27.
+          <string-name>
+            <surname>Wigand</surname>
+            <given-names>ME</given-names>
+          </string-name>
+          (
+          <year>1981</year>
+          )
+          <article-title>Transnasal, endoscopical surgery for chronic sinusitis</article-title>
+          . III.
+          <article-title>Endonasal ethmoidectomy (author's transl)</article-title>
+          .
+          <source>HNO</source>
+          <volume>29</volume>
+          :
+          <fpage>287</fpage>
+          -
+          <lpage>293</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          28.
+          <string-name>
+            <surname>Wigand</surname>
+            <given-names>ME</given-names>
+          </string-name>
+          (
+          <year>1981</year>
+          )
+          <article-title>Transnasal, endoscopical sinus surgery for chronic sinusitis</article-title>
+          . II.
+          <article-title>Endonasal operation of the maxillary antrum (author's transl)</article-title>
+          .
+          <source>HNO</source>
+          <volume>29</volume>
+          :
+          <fpage>263</fpage>
+          -
+          <lpage>269</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          29.
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          , No¨th E, Nkenke E,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Fully automatic assessment of speech of children with cleft lip and palate</article-title>
+          .
+          <source>Informatica</source>
+          <volume>30</volume>
+          (
+          <issue>4</issue>
+          ):
+          <fpage>477</fpage>
+          -
+          <lpage>482</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          30.
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haderlein</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosanowski</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Batliner</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          , No¨th E (
+          <year>2009</year>
+          )
+          <article-title>Peaks-a system for the automatic evaluation of voice and speech disorders</article-title>
+          .
+          <source>Speech Commun</source>
+          <volume>51</volume>
+          :
+          <fpage>425</fpage>
+          -
+          <lpage>437</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          31.
+          <string-name>
+            <surname>Haderlein</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Toy</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Batliner</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hornegger</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosanowski</surname>
+            <given-names>F</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Automatic evaluation of prosodic features of tracheoesophageal substitute voice</article-title>
+          .
+          <source>Eur Arch Otorhinolaryngol</source>
+          <volume>264</volume>
+          :
+          <fpage>1315</fpage>
+          -
+          <lpage>1321</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          32.
+          <string-name>
+            <surname>Pearson</surname>
+            <given-names>K</given-names>
+          </string-name>
+          (
+          <year>1896</year>
+          )
+          <article-title>Mathematical contributions to the theory of evolution III regression, heredity and panmixia</article-title>
+          .
+          <source>Philos Trans R Soc London</source>
+          <volume>187</volume>
+          :
+          <fpage>253</fpage>
+          -
+          <lpage>318</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          33.
+          <string-name>
+            <surname>Smith</surname>
+            <given-names>BE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kuehn</surname>
+            <given-names>DP</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Speech evaluation of velopharyngeal dysfunction</article-title>
+          .
+          <source>J Craniofac Surg</source>
+          <volume>18</volume>
+          :
+          <fpage>251</fpage>
+          -
+          <lpage>261</lpage>
+          quiz
+          <fpage>266</fpage>
+          -
+          <lpage>257</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          34.
+          <string-name>
+            <surname>Dworkin</surname>
+            <given-names>JP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Marunick</surname>
+            <given-names>MT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Krouse</surname>
+            <given-names>JH</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <article-title>Velopharyngeal dysfunction: speech characteristics, variable etiologies, evaluation techniques, and differential treatments</article-title>
+          .
+          <source>Lang Speech Hear Serv Sch</source>
+          <volume>35</volume>
+          :
+          <fpage>333</fpage>
+          -
+          <lpage>352</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          35.
+          <string-name>
+            <surname>Chen</surname>
+            <given-names>MY</given-names>
+          </string-name>
+          (
+          <year>1997</year>
+          )
+          <article-title>Acoustic correlates of English and French nasalized vowels</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <volume>102</volume>
+          :
+          <fpage>2360</fpage>
+          -
+          <lpage>2370</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          36.
+          <string-name>
+            <surname>Kitzing</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ahlander</surname>
+            <given-names>VL</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Automatic speech recognition (ASR) and its use as a tool for assessment or therapy of voice, speech, and language disorders</article-title>
+          .
+          <source>Logoped Phoniatr Vocol</source>
+          <volume>34</volume>
+          :
+          <fpage>91</fpage>
+          -
+          <lpage>96</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          37.
+          <string-name>
+            <surname>Scipioni</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gerosa</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Giuliani</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noeth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Intelligibility assessment in children with cleft lip and palate in Italian and German</article-title>
+          . In: Moore R (Ed)
+          <article-title>10th annual conference of the international speech communication association (</article-title>
+          <source>Interspeech</source>
+          <year>2009</year>
+          ). ISCA, Brighton, England, pp
+          <fpage>967</fpage>
+          -
+          <lpage>970</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          38.
+          <string-name>
+            <surname>Wilpon</surname>
+            <given-names>JG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jacobsen</surname>
+            <given-names>C</given-names>
+          </string-name>
+          (
+          <year>1996</year>
+          )
+          <article-title>A study of speech recognition for children and the elderly</article-title>
+          .
+          <source>In: Proceedings of ICASSP</source>
+          , pp
+          <fpage>349</fpage>
+          -
+          <lpage>352</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          39.
+          <string-name>
+            <surname>Dames</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Maier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schutzenberger</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stelzle</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Holst</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Noth</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eysholdt</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schuster</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>Intelligibility of children with bilateral and unilateral cleft lip and palate</article-title>
+          .
+          <source>Laryngorhinootologie</source>
+          <volume>88</volume>
+          :
+          <fpage>723</fpage>
+          -
+          <lpage>728</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          40.
+          <string-name>
+            <surname>Soneghet</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Santos</surname>
+            <given-names>RP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Behlau</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Habermann</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Friedrich</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stammberger</surname>
+            <given-names>H</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Nasalance changes after functional endoscopic sinus surgery</article-title>
+          .
+          <source>J Voice</source>
+          <volume>16</volume>
+          :
+          <fpage>392</fpage>
+          -
+          <lpage>397</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          41.
+          <string-name>
+            <surname>Yue</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kong</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tan</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Xiong</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhang</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wang</surname>
+            <given-names>Y</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhang</surname>
+            <given-names>S</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>The effects of endoscopic sinus surgery on nasality and nasal patency</article-title>
+          .
+          <source>Lin Chuang Er Bi Yan Hou Ke Za Zhi</source>
+          <volume>20</volume>
+          :
+          <fpage>917</fpage>
+          -
+          <lpage>918</lpage>
+          ,
+          <fpage>921</fpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          42.
+          <string-name>
+            <surname>Cecil</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tindall</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Haydon</surname>
+            <given-names>R</given-names>
+          </string-name>
+          (
+          <year>2001</year>
+          )
+          <article-title>The relationship between dysphonia and sinusitis: a pilot study</article-title>
+          .
+          <source>J Voice</source>
+          <volume>15</volume>
+          :
+          <fpage>270</fpage>
+          -
+          <lpage>277</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          43.
+          <string-name>
+            <surname>Sundberg</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Birch</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gumoes</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stavad</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Prytz</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Karle</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Experimental findings on the nasal tract resonator in singing</article-title>
+          .
+          <source>J Voice</source>
+          <volume>21</volume>
+          :
+          <fpage>127</fpage>
+          -
+          <lpage>137</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          44.
+          <string-name>
+            <surname>Lam</surname>
+            <given-names>DJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>James</surname>
+            <given-names>KT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weaver</surname>
+            <given-names>EM</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Comparison of anatomic, physiological, and subjective measures of the nasal airway</article-title>
+          .
+          <source>Am J Rhinol</source>
+          <volume>20</volume>
+          :
+          <fpage>463</fpage>
+          -
+          <lpage>470</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          45.
+          <string-name>
+            <surname>Clement</surname>
+            <given-names>PA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gordts</surname>
+            <given-names>F</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Consensus report on acoustic rhinometry and rhinomanometry</article-title>
+          .
+          <source>Rhinology</source>
+          <volume>43</volume>
+          :
+          <fpage>169</fpage>
+          -
+          <lpage>179</lpage>
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          46.
+          <string-name>
+            <surname>Numminen</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dastidar</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rautiainen</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <article-title>Influence of sinus surgery in rhinometric measurements</article-title>
+          .
+          <source>J Otolaryngol</source>
+          <volume>33</volume>
+          :
+          <fpage>98</fpage>
+          -
+          <lpage>103</lpage>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

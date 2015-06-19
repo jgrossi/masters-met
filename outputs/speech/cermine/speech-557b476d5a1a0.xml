@@ -1,0 +1,2090 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Neurosci Bull June</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Interaction between auditory and motor systems in speech perception</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1007/s12264-013-1428-6</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Zhe-Meng Wu</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Ming-Li Chen</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Xi-Hong Wu</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Liang Li</string-name>
+          <email>liangli@pku.edu.cn</email>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="1">1</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Shanghai Institutes for Biological Sciences, CAS and Springer-Verlag Berlin Heidelberg 2014</institution>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Department of Psychology, Speech and Hearing Research Center, Key Laboratory of Machine Perception (Ministry of Education), PKU-IDG/McGovern Institute for Brain Research, Peking University</institution>
+          ,
+          <addr-line>Beijing 100871</addr-line>
+          ,
+          <country country="CN">China</country>
+        </aff>
+      </contrib-group>
+      <abstract>
+        <p>Based on the Motor Theory of speech perception, the interaction between the auditory and motor systems plays an essential role in speech perception. Since the Motor Theory was proposed, it has received remarkable attention in the field. However, each of the three hypotheses of the theory still needs further verification. In this review, we focus on how the auditory-motor anatomical and functional associations play a role in speech perception and discuss why previous studies could not reach an agreement and particularly whether the motor system involvement in speech perception is task-load dependent. Finally, we suggest that the function of the auditory-motor link is particularly useful for speech perception under adverse listening conditions and the further revised Motor Theory is a potential solution to the “cocktail-party” problem.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>auditory-motor interaction</kwd>
+        <kwd>Motor Theory of speech perception</kwd>
+        <kwd>motor cortex</kwd>
+        <kwd>“cocktail-party” problem</kwd>
+      </kwd-group>
+      <volume>1</volume>
+      <issue>2014</issue>
+      <fpage>490</fpage>
+      <lpage>496</lpage>
+      <pub-date>
+        <year>2014</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>How listeners process the acoustic signals of speech is a
+hot question. Traditionally, studies of this question have
+mainly focused on the functions of the auditory system.</p>
+      <p>However, speech processing is not the pure and simple
+analysis of speech sound signals, but a quite complicated
+integrated process involving multisensory modalities and
+even the motor system. In this review, we focus on the
+interaction between the auditory system and the motor
+system in speech perception and emphasize that the motor
+processing component plays an essential role: activation
+of the perceptual-motor loop enables listeners to both track
+the speaker over time and form the intention to speak,
+especially under adverse listening conditions, such as a
+noisy and reverberating environment.</p>
+      <p>The Motor Theory of Speech Perception
+The Motor Theory of speech perception was first proposed
+by Liberman and colleagues[1,2] after an unexpected failure
+in a reading-machine study. In their experiments, although
+blind people could recognize independent linguistic
+units, they could not perceive alphabetic sequences and
+understand synthesized speech, because the linguistic units
+they perceived tended to merge into a blur[3]. This problem
+related to speech perception is called coarticulation, in
+which speech acoustic signals are highly context-sensitive;
+a single phoneme can be influenced by its surrounding
+phonemes[2]. However, normal listeners are able to conquer
+coarticulation and perceive the original phonemes well[4].</p>
+      <p>Based on the results, Liberman and colleagues assumed
+that what we really perceive when hearing speech signals
+is not only sound waves, but also body “gestures” that
+reflect the speaker’s intention. Liberman proposed three
+hypotheses in both a weak[1] and a strong version of the
+Motor Theory[5]. (1) The object of speech perception is the
+“gesture”; (2) speech processing is special and requires a
+specific phonetic module; and (3) activation of the motor
+cortex is involved in speech perception.</p>
+      <p>When Liberman advanced the Motor Theory, he asked
+a critical question, “when articulation and sound wave go
+their separate ways, which way does perception go?”.</p>
+      <p>The answer he provided was that perception goes with
+articulation[1]. In more detail, the theory suggests that the
+speech sound wave that we perceive carries the speaker’s
+information indirectly, and there is a direct way to transmit
+information, that is through the “gesture” bearing the
+speaker’s intention. In other words, perceiving the “gesture”
+is just perceiving the actual movement of the speaker’s
+vocal tract, including motion of the larynx, tongue, and
+lips[1]. Our understanding of this theory is that although
+the listener may not be aware of tracking movement of
+the vocal tract, he/she automatically uses this motor cue
+to recognize the speaker’s intention, just as in imitative
+behavior. When a speaker talks, the listener tries to follow
+his speech style in mind and make a prediction before the
+speaker says the next word. Thus, the speaker and the
+listener must converge on the same “linguistic currency”,
+the “gesture”, to communicate.</p>
+      <p>It is well known that “gesture” information can affect
+speech perception in different ways, such as the McGurk
+effect. When the listener sees the speaker producing the
+syllable (/ga/) while listening to another syllable
+(/ba/), the mouth movement may mislead the listener into
+hearing a different syllable (/da/)[6]. This visuomotor cue
+strongly influences what we actually hear. Also, another
+study focused on the role of articulatory organ movement
+in a noisy environment[7]. Listeners perceive speech more
+accurately when they can see the speaker’s articulatory
+organ movement than when they cannot. Also, under
+adverse listening conditions, lip-reading associated with
+the target sentence can act as a cue to improve listener
+recognition of speech[8,9]. Thus, perceiving “gesture”
+signals provides visuomotor cues, which help listeners take
+advantage of the speaker’s motor actions during speech in
+an adverse noisy environment and facilitate the perceptual
+performance. In other words, listeners actively, rather than
+passively, receive speech information. Supporting this
+view, Alho et al. reported that stronger activation in the
+left premotor cortex is associated with better identification
+of syllables that are embedded in noise, and the cortical
+activation is quite different between active and passive
+listening[10]. Also, Calla et al. reported stronger activity in
+correct trials over incorrect trials within both the ventral
+premotor cortex and Broca’s area[11]. However, it is still not
+clear whether the enhanced activity of the cortical areas is
+specific to speech perceptual performance or just reflects
+an increase in general processing load.</p>
+      <p>Anatomical and Functional Associations between
+the Auditory and Motor Systems
+To confirm the involvement of the motor system in speech
+perception, evidence of both anatomical and functional
+links between the motor and auditory systems is needed.</p>
+      <p>Indeed, some models emphasize the auditory-motor
+link in speech perception. For example, the dual-stream
+processing model suggests that there are two pathways
+in audition: one is the ventral pathway down to the
+temporal lobe regulating “what” in acoustic information,
+and the other is the dorsal pathway from primary sensory
+areas up to the posterior cortex regulating “how” speech
+production takes place[12,13]. It is also known that the ventral
+pathway is involved in analyzing phonetic characters,
+acoustic features, and speech intelligibility[14,15], and the
+dorsal pathway is associated with sensorimotor mapping
+between auditory and motor representations[16,17], speech
+production[14,18], and silent articulatory organ movement[19].</p>
+      <p>Although this dual-stream model proposes that each of the
+pathways plays a specific role in speech perception, how
+the streams interact with each other is still not clear.</p>
+      <p>The other model, the forward-inverse model, proposes
+that the motor cortical regions predict the consequences
+of motor commands and revise the signals with the
+changing environment[20,21]. In more detail, before motor
+commands reach the effectors, the forward-inverse model
+produces predicted sensory consequences of the motor
+commands, and then compares the predicted results with
+the real sensory information. This comparison provides
+more information for the central system to produce a
+more appropriate performance. With time delays and
+interruptions from the surroundings, the motor commands
+need to be up-dated from time to time in order to produce
+the desired outcome. Thus, when a speech signal is
+distorted by environmental noise and/or time delays, the
+motor representation of the previous signals modifies the
+current auditory representation through inverse mapping.</p>
+      <p>Due to the role of motor representation in revising distorted
+signals, listeners can recognize the speaker’s intention and
+predict the outcome of motor commands before making
+responses. In other words, anticipation of a motor signal
+can be combined with both signal characteristics and
+the speaker’s articulatory information, producing a more
+desirable response. Based on the basic principles of the
+dual-stream processing and forward-inverse models, we
+propose that further-developed models should emphasize
+how the auditory-motor interaction is modulated by both
+processing load (due to complex inputs) and prediction/
+estimation (due to task goals and feedback) (Fig. 1).</p>
+      <p>So far, co-activations between auditory and motor
+regions in speech perception have been clearly demonstrated.</p>
+      <p>When exposed to novel speech distortions, such as
+timecompressed sentences, listeners can rapidly distinguish
+distorted sentences from normal-speed sentences, with
+increased activation associations between the auditory
+cortices and the left ventral premotor cortex[22]. Moreover,
+compared to listening to pseudo-words and
+reversedwords, listening to normal words induces broad activation
+connectivity in the auditory-motor network, which may
+be useful for facilitating semantic processing[23]. Further
+investigation is needed to verify whether this enhanced
+dynamic auditory-motor network promotes the transition
+from a sound stream into a series of meaningful
+motorbased units and results in speech comprehension.</p>
+      <p>In addition to the well-known fact that speech
+production is tightly related to the motor cortex, some
+studies have shown that the motor cortex is activated in
+speech perception tasks[24-30]. For example, when listeners
+Fig. 1. Modified Auditory-Motor Interaction model based on the Dual-stream Processing model in combination with the Forward-inverse
+model. This model emphasizes that both processing load and prediction/estimation affect the auditory-motor interaction (white
+two-headed arrow). Red: the auditory processing system including the ventral stream pathway; blue: the motor processing
+system including the dorsal stream pathway; green: the systems that mediate the processing load, prediction, and estimation that
+modulate the auditory-motor interaction (arrows with dashed lines).
+hear a lip-related phoneme [p] or a tongue-related phoneme
+[t], motor regions are activated differentially[26,27], suggesting
+that different speech stimuli activate motor cortical regions
+with different patterns. In other words, listening to various
+verbal stimuli may cause differential automatic activations
+of cortical regions involved in speech production. Also, it
+has been suggested that the activation of the motor cortex
+may reflect a mediating role of the motor cortex in speech
+perception[28-30].</p>
+      <p>Moreover, studies using either functional magnetic
+resonance imaging (fMRI) or transcranial magnetic
+stimulation (TMS) have confirmed the role of the motor
+cortex in speech perception. For example, in a speech
+perception task, strong activation in the motor cortex can
+be induced only when participants perceive the target
+speech[24,31]. Some studies using TMS of the motor cortex
+have demonstrated that stimulation of speech-related
+regions affects speech perception[32-34]. For example, using
+TMS to suppress the left premotor cortex, which is activated
+both during speech production and speech perception (Fig.
+2), Meister et al. found that participants with a suppressed
+premotor cortex were impaired in discriminating voiceless
+stop consonants under white-noise masking conditions.</p>
+      <p>Thus, they suggested that the premotor cortex is essentially
+involved in speech perception[33].</p>
+      <p>However, the results of some clinical studies appear
+not to support the view that there is an association between
+impairment of speech perception and impairment of
+speech production. For example, patients with expressive
+aphasia exhibit impairment of speech production but not
+speech perception or comprehension[35]. Also, although
+patients with receptive aphasia exhibit impairment of
+speech perception and comprehension, they can speak
+fluently[36,37]. The dissociations in expressive and receptive
+aphasia support another view that speech perception
+and production are two distinct processes. Moreover,
+patients with lesions in Broca’s area perform well in both
+word-comprehension and syllable-identification tests, but
+patients with temporal lobule damage perform poorly in
+these tests[38]. These studies also negate the role of motor
+regions in speech perception, but support the view that
+temporal regions rather than motor areas are important in
+speech perception[16,17].</p>
+      <p>Research in child development has also shown
+dissociations between speech perception and speech
+Fig. 2. Representative fMRI activation in the premotor cortex
+(PMC) associated with discriminating voiceless stop
+consonants in single syllables masked by white noise
+in two representative participants. Regions selected
+for stimulation are shown in bright colors. Arrowheads
+indicate the location of the central sulcus (adapted from</p>
+      <p>Meister et al. [33] with permission).
+production. Children born with hearing loss can learn
+to speak if they gain enough positive somatosensory
+feedback, even though the learning process is much
+harder than in healthy children[39]. Also, children with severe
+dysarthria are unable to produce meaningful sentences,
+but they can accurately understand spoken content[40].</p>
+      <p>Furthermore, infants usually learn to understand speech
+first and then begin to learn how to produce their own
+words[41,42]. These studies indicate that dissociations
+between speech perception and speech production
+occur during development. As speech perception and
+speech production do not appear at the same time during
+development, motor cortical areas may not be as important
+for speech perception as the Motor Theory proposes.</p>
+      <p>As reviewed above, some fMRI and TMS studies
+support the view that motor cortical areas are important
+in speech perception, while clinical and developmental
+studies have shown significant dissociations between
+speech perception and speech production. Also note that
+some fMRI studies did not reveal an increased activation
+in motor cortical regions during speech perception and
+comprehension[19,43,44].</p>
+      <p>The different results in the studies described above
+may be due to different task demands. The Hickok
+and Poeppel study showed that when the task load is
+high, requiring both speech identification and speech
+categorization, the activated frontal region extends to the
+premotor cortex[17]. Also, when speech signals are distorted,
+the motor cortex is markedly activated[45,46]. Interestingly,
+non-verbal signals can activate motor areas[31,47], and
+there is no difference in activation magnitude in the motor
+cortex between perceiving speech and perceiving
+nonverbal sounds[31]. Some studies have further shown that
+blurred speech causes even stronger activation in the
+bilateral premotor cortex, compared to clear speech[45] and
+perceiving a foreign language causes larger activation in
+the motor cortex than the native language[25]. Also,
+lowfrequency words induce higher activation in the motor
+cortex than high-frequency words[48]. Thus, facing unfamiliar
+stimuli (such as distorted speech, a foreign language, or
+low-frequency words), the motor cortex may play a role
+in facilitating the association with the auditory system to
+improve speech perception. More interestingly, in a mixed
+visual and auditory task, weaker visual stimuli evoke
+stronger activation in the motor cortex than clear pictures
+of speakers[49], suggesting that a heavy-load task, such
+as analyzing distorted auditory or visual signals, requires
+involvement of the motor cortex. These studies suggest that
+whether the motor system is involved in speech perception
+is task-load dependent. In future, this assumption will be
+tested to confirm whether the dissociations between speech
+perception and speech production under either clinical or
+developmental conditions are task-load related.
+Speech perception is not just for hearing speech sounds,
+but more essentially, for recognizing and understanding
+speech signals, requiring that multisensory modalities
+interact. In fact, speech understanding and speech hearing
+do not share the same brain network, including the motor
+areas[40].</p>
+      <p>In a noisy environment (like a cocktail party), although
+there are many acoustic sources from various directions,
+listeners are still able to identify and follow target speech
+sounds in this high perceptual-load situation. How
+can listeners separate various speakers’ signals and
+understand target sentences? Although this “cocktail party”
+problem advanced by Cherry[50] has not been fully solved,
+several lines of evidence suggest that the motor system
+plays a role in solving this problem when the perceptual
+load is high.</p>
+      <p>First, observing a speaker’s articulator movements can
+induce better understanding of speech. Listeners perceive
+speech in noise-masking or speech-masking environments
+more accurately when they can see speaker’s articulatory
+organ movement than when they cannot[7,9]. In addition,
+signals from the motor system help a listener to track
+a speaker talking over time[51,52]. It has been suggested
+that one of the functions of motor activation is tracking
+the talker’s speed and rhythm over time, and provides
+the timing signals to the auditory cortex. Particularly in a
+conversation, the monitoring role of the motor system in
+interacting with the auditory system over time can induce
+fluent conversation[53].</p>
+      <p>Under “cocktail-party” conditions, listeners are able
+to take advantage of certain perceptual cues to facilitate
+their selective attention to target speech. Selective
+attention allocates more cognitive resources to the motor
+representation of speech so that a listener can capture a
+speaker’s intention and improve speech recognition. Under
+noise-masking conditions, selective attention affects both
+active and passive listening. As Alho et al. have reported,
+attention modulates the magnitude of activation of the
+left premotor cortex, which influences the performance of
+phonetic categorization[10].</p>
+      <p>In patients with schizophrenia, both speech-perception
+deficits and increased vulnerability to masking stimuli
+generally occur. More specifically, speech recognition in
+both first-episode and chronic patients with schizophrenia
+is more vulnerable to masking stimuli, particularly
+speechmasking stimuli, than in healthy people[54]. Thus, whether
+functional impairments of motor cortical regions contribute
+to the enhanced vulnerability to speech-masking stimuli in
+patients with schizophrenia will be an important research
+issue in the future.
+This review summarizes the studies showing that
+interactions between the auditory system and the motor
+system are related to speech perception. The anatomical
+and functional connections between the auditory and motor
+systems are important for improving speech recognition,
+particularly under difficult listening conditions (such as the
+cocktail-party environment). With the involvement of the
+motor system, the listener can better identify the speaker’s
+intention and follow the target stream. Thus, investigation
+of the auditory-motor association in speech perception is
+important for solving the “cocktail party” problem.
+This review was supported by the National Basic Research
+Development Program of China (2009CB320901, 2011CB707805,
+2013CB329304), the National Natural Science Foundation of
+China (31170985, 91120001, 61121002), and “985” project grants
+from Peking University.</p>
+      <p>Received date: 2013-05-06; Accepted date: 2013-08-20</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          [1]
+          <string-name>
+            <surname>Liberman</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Delattre</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cooper</surname>
+            <given-names>FS</given-names>
+          </string-name>
+          .
+          <article-title>The role of selected stimulus-variables in the perception of the unvoiced stop consonants</article-title>
+          .
+          <source>Am J Psychol</source>
+          <year>1952</year>
+          ,
+          <volume>65</volume>
+          :
+          <fpage>497</fpage>
+          -
+          <lpage>516</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [2]
+          <string-name>
+            <surname>Liberman</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cooper</surname>
+            <given-names>FS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shankweiler</surname>
+            <given-names>DP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Studdert</surname>
+            <given-names>KM</given-names>
+          </string-name>
+          .
+          <article-title>Perception of the speech code</article-title>
+          .
+          <source>Psychol Rev</source>
+          <year>1967</year>
+          ,
+          <volume>74</volume>
+          :
+          <fpage>431</fpage>
+          -
+          <lpage>461</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [3]
+          <string-name>
+            <surname>Liberman</surname>
+            <given-names>AM.</given-names>
+          </string-name>
+          <string-name>
+            <surname>Speech</surname>
+          </string-name>
+          : A Special Code. Cambridge, MA: The MIT Press
+          <year>1996</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [4]
+          <string-name>
+            <surname>Kent</surname>
+            <given-names>RD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Minifie</surname>
+            <given-names>FD</given-names>
+          </string-name>
+          .
+          <article-title>Coarticulation in recent speech production models</article-title>
+          .
+          <source>J Phon</source>
+          <year>1977</year>
+          ,
+          <volume>5</volume>
+          :
+          <fpage>115</fpage>
+          -
+          <lpage>133</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [5]
+          <string-name>
+            <surname>Liberman</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mattingly</surname>
+            <given-names>IG</given-names>
+          </string-name>
+          .
+          <article-title>The motor theory of speech perception revised</article-title>
+          .
+          <source>Cognition</source>
+          <year>1985</year>
+          ,
+          <volume>21</volume>
+          :
+          <fpage>1</fpage>
+          -
+          <lpage>36</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [6]
+          <string-name>
+            <surname>McGurk</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>MacDonald</surname>
+            <given-names>J.</given-names>
+          </string-name>
+          <article-title>Hearing lips and seeing voices</article-title>
+          .
+          <source>Nature</source>
+          <year>1976</year>
+          ,
+          <volume>264</volume>
+          :
+          <fpage>746</fpage>
+          -
+          <lpage>748</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [7]
+          <string-name>
+            <surname>Sumby</surname>
+            <given-names>WH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pollack</surname>
+            <given-names>I.</given-names>
+          </string-name>
+          <article-title>Visual contribution to speech intelligibility in noise</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <year>1954</year>
+          ,
+          <volume>26</volume>
+          :
+          <fpage>212</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [8]
+          <string-name>
+            <surname>Rudmann</surname>
+            <given-names>DS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McCarley</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kramer</surname>
+            <given-names>AF</given-names>
+          </string-name>
+          .
+          <article-title>Bimodal displays improve speech comprehension in environments with multiple speakers</article-title>
+          .
+          <source>Hum Fac Erg Soc P</source>
+          <year>2003</year>
+          ,
+          <volume>45</volume>
+          :
+          <fpage>329</fpage>
+          -
+          <lpage>336</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [9]
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cao</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>Temporally pre-presented lipreading cues release speech from informational masking</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <year>2013</year>
+          ,
+          <volume>133</volume>
+          :
+          <fpage>281</fpage>
+          -
+          <lpage>285</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [10]
+          <string-name>
+            <surname>Alho</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sato</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sams</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Schwartz</surname>
+            <given-names>JL</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tiitinen</surname>
+            <given-names>H</given-names>
+          </string-name>
+          , Jääskeläinen IP.
+          <article-title>Enhanced early-latency electromagnetic activity in the left premotor cortex is associated with successful phonetic categorization</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2012</year>
+          ,
+          <volume>60</volume>
+          :
+          <fpage>1937</fpage>
+          -
+          <lpage>1946</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [11]
+          <string-name>
+            <surname>Callan</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Callan</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gamez</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sato</surname>
+            <given-names>MA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kawato</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>Premotor cortex mediates perceptual performance</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2010</year>
+          ,
+          <volume>51</volume>
+          :
+          <fpage>844</fpage>
+          -
+          <lpage>858</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [12]
+          <string-name>
+            <surname>Schreiner</surname>
+            <given-names>CE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Winer</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          .
+          <article-title>Auditory cortex mapmaking: principles</article-title>
+          , projections, and plasticity.
+          <source>Neuron</source>
+          <year>2007</year>
+          ,
+          <volume>56</volume>
+          :
+          <fpage>356</fpage>
+          -
+          <lpage>365</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [13]
+          <string-name>
+            <surname>Recanzone</surname>
+            <given-names>GH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sutter</surname>
+            <given-names>ML</given-names>
+          </string-name>
+          .
+          <article-title>The biological basis of audition</article-title>
+          .
+          <source>Annu Rev Psychol</source>
+          <year>2008</year>
+          ,
+          <volume>59</volume>
+          :
+          <fpage>119</fpage>
+          -
+          <lpage>142</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [14]
+          <string-name>
+            <surname>Belin</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zatorre</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          .
+          <article-title>Adaptation to speaker's voice in right anterior temporal lobe</article-title>
+          .
+          <source>Neuroreport</source>
+          <year>2003</year>
+          ,
+          <volume>14</volume>
+          :
+          <fpage>2105</fpage>
+          -
+          <lpage>2109</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [15]
+          <string-name>
+            <surname>Scott</surname>
+            <given-names>SK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Blank</surname>
+            <given-names>CC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosen</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wise</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          .
+          <article-title>Identification of a pathway for intelligible speech in the left temporal lobe</article-title>
+          .
+          <source>Brain</source>
+          <year>2000</year>
+          ,
+          <volume>123</volume>
+          :
+          <fpage>2400</fpage>
+          -
+          <lpage>2406</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [16]
+          <string-name>
+            <surname>Hickok</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Poeppel</surname>
+            <given-names>D.</given-names>
+          </string-name>
+          <article-title>Towards a functional neuroanatomy of speech perception</article-title>
+          .
+          <source>Trends Cogn Sci</source>
+          <year>2000</year>
+          ,
+          <volume>4</volume>
+          :
+          <fpage>131</fpage>
+          -
+          <lpage>138</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [17]
+          <string-name>
+            <surname>Hickok</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Poeppel</surname>
+            <given-names>D.</given-names>
+          </string-name>
+          <article-title>The cortical organization of speech processing</article-title>
+          .
+          <source>Nat Neurosci</source>
+          <year>2007</year>
+          ,
+          <volume>8</volume>
+          :
+          <fpage>393</fpage>
+          -
+          <lpage>402</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [18]
+          <string-name>
+            <surname>Baddeley</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lewis</surname>
+            <given-names>V</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vallar</surname>
+            <given-names>G</given-names>
+          </string-name>
+          .
+          <article-title>Exploring the articulatory loop</article-title>
+          .
+          <source>Q J Exp Psychol</source>
+          <year>1984</year>
+          ,
+          <volume>36</volume>
+          :
+          <fpage>233</fpage>
+          -
+          <lpage>252</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [19]
+          <string-name>
+            <surname>Wise</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Scott</surname>
+            <given-names>SK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Blank</surname>
+            <given-names>SC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mummery</surname>
+            <given-names>CJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Murphy</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Warburton</surname>
+            <given-names>EA</given-names>
+          </string-name>
+          .
+          <article-title>Separate neural subsystems within Wernicke's area</article-title>
+          .
+          <source>Brain</source>
+          <year>2001</year>
+          ,
+          <volume>124</volume>
+          :
+          <fpage>83</fpage>
+          -
+          <lpage>95</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [20]
+          <string-name>
+            <surname>Andersen</surname>
+            <given-names>RA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buneo</surname>
+            <given-names>CA</given-names>
+          </string-name>
+          .
+          <article-title>Intentional maps in posterior parietal cortex</article-title>
+          .
+          <source>Annu Rev Neurosci</source>
+          <year>2002</year>
+          ,
+          <volume>25</volume>
+          :
+          <fpage>189</fpage>
+          -
+          <lpage>220</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [21]
+          <string-name>
+            <surname>Wolpert</surname>
+            <given-names>DM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Doya</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kawato</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>A unifying computational framework for motor control and social interaction</article-title>
+          .
+          <source>Philos Trans R Soc Lond B Biol Sci</source>
+          <year>2003</year>
+          ,
+          <volume>358</volume>
+          :
+          <fpage>593</fpage>
+          -
+          <lpage>602</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [22]
+          <string-name>
+            <surname>Adank</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Devlin</surname>
+            <given-names>JT</given-names>
+          </string-name>
+          .
+          <article-title>On-line plasticity in spoken sentence comprehension: Adapting to time-compressed speech</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2010</year>
+          ,
+          <volume>49</volume>
+          :
+          <fpage>1124</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [23]
+          <string-name>
+            <surname>Londei</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>D'Ausilio</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Basso</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sestieri</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gratta</surname>
+            <given-names>CD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Romani</surname>
+            <given-names>GL</given-names>
+          </string-name>
+          , et al.
+          <article-title>Sensory-motor brain network connectivity for speech comprehension</article-title>
+          .
+          <source>Hum Brain Mapp</source>
+          <year>2010</year>
+          ,
+          <volume>31</volume>
+          :
+          <fpage>567</fpage>
+          -
+          <lpage>580</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [24]
+          <string-name>
+            <surname>Wilson</surname>
+            <given-names>SM</given-names>
+          </string-name>
+          .
+          <article-title>Listening to speech activates motor areas involved in speech production</article-title>
+          .
+          <source>Nat Neurosci</source>
+          <year>2004</year>
+          ,
+          <volume>7</volume>
+          :
+          <fpage>701</fpage>
+          -
+          <lpage>702</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [25]
+          <string-name>
+            <surname>Wilson</surname>
+            <given-names>SM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Iacoboni</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>Neural responses to non-native phonemes varying in producibility: evidence for the sensorimotor nature of speech perception</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2006</year>
+          ,
+          <volume>33</volume>
+          :
+          <fpage>316</fpage>
+          -
+          <lpage>325</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [26]
+          <string-name>
+            <surname>Fadiga</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Craighero</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buccino</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rizzolatti</surname>
+            <given-names>G</given-names>
+          </string-name>
+          .
+          <article-title>Speech listening specifically modulates the excitability of tongue muscles: a TMS study</article-title>
+          .
+          <source>Eur J Neurosci</source>
+          <year>2002</year>
+          ,
+          <volume>15</volume>
+          :
+          <fpage>399</fpage>
+          -
+          <lpage>402</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [27]
+          <string-name>
+            <surname>Pulvermüller</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Huss</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kherif</surname>
+            <given-names>F</given-names>
+          </string-name>
+          , del
+          <string-name>
+            <surname>Prado Martin</surname>
+            <given-names>FM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Hauk</surname>
+            <given-names>O</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Shtyrov</surname>
+            <given-names>Y.</given-names>
+          </string-name>
+          <article-title>Motor cortex maps articulatory features of speech sounds</article-title>
+          .
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2006</year>
+          ,
+          <volume>103</volume>
+          :
+          <fpage>7865</fpage>
+          -
+          <lpage>7870</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [28]
+          <string-name>
+            <surname>Bever</surname>
+            <given-names>TG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Poeppel</surname>
+            <given-names>D.</given-names>
+          </string-name>
+          <article-title>Analysis by synthesis: a (re-) emerging program of research for language and vision</article-title>
+          .
+          <source>Biolinguistics</source>
+          <year>2010</year>
+          ,
+          <volume>4</volume>
+          :
+          <fpage>174</fpage>
+          -
+          <lpage>200</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [29]
+          <string-name>
+            <surname>Callan</surname>
+            <given-names>DE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jones</surname>
+            <given-names>JA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Callan</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Akahane-Yamada</surname>
+            <given-names>R.</given-names>
+          </string-name>
+          <article-title>Phonetic perceptual identification by native-and secondlanguage speakers differentially activates brain regions involved with acoustic phonetic processing and those involved with articulatory-auditory/orosensory internal models</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2004</year>
+          ,
+          <volume>22</volume>
+          :
+          <fpage>1182</fpage>
+          -
+          <lpage>1194</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [30]
+          <string-name>
+            <surname>Hickok</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Houde</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rong</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>Sensorimotor integration in speech processing: computational basis and neural organization</article-title>
+          .
+          <source>Neuron</source>
+          <year>2011</year>
+          ,
+          <volume>69</volume>
+          :
+          <fpage>407</fpage>
+          -
+          <lpage>422</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [31]
+          <string-name>
+            <surname>Watkins</surname>
+            <given-names>KE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Strafella</surname>
+            <given-names>AP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Paus</surname>
+            <given-names>T.</given-names>
+          </string-name>
+          <article-title>Seeing and hearing speech excites the motor system involved in speech production</article-title>
+          .
+          <source>Neuropsychologia</source>
+          <year>2003</year>
+          ,
+          <volume>41</volume>
+          :
+          <fpage>989</fpage>
+          -
+          <lpage>994</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [32]
+          <string-name>
+            <surname>D'Ausilio</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pulvermüller</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Salmas</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bufalari</surname>
+            <given-names>I</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Begliomini</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fadiga</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>The motor somatotopy of speech perception</article-title>
+          .
+          <source>Curr Biol</source>
+          <year>2009</year>
+          ,
+          <volume>19</volume>
+          :
+          <fpage>381</fpage>
+          -
+          <lpage>385</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [33]
+          <string-name>
+            <surname>Meister</surname>
+            <given-names>IG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wilson</surname>
+            <given-names>SM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Deblieck</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>AD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Iacoboni</surname>
+            <given-names>M.</given-names>
+          </string-name>
+          <article-title>The essential role of premotor cortex in speech perception</article-title>
+          .
+          <source>Curr Biol</source>
+          <year>2007</year>
+          ,
+          <volume>17</volume>
+          :
+          <fpage>1692</fpage>
+          -
+          <lpage>1696</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [34]
+          <string-name>
+            <surname>Watkins</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Paus</surname>
+            <given-names>T.</given-names>
+          </string-name>
+          <article-title>Modulation of motor excitability during speech perception: the role of Broca's area</article-title>
+          .
+          <source>J Cogn Neurosci</source>
+          <year>2004</year>
+          ,
+          <volume>16</volume>
+          :
+          <fpage>978</fpage>
+          -
+          <lpage>987</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [35]
+          <string-name>
+            <surname>Mohr</surname>
+            <given-names>JP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pessin</surname>
+            <given-names>MS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Finkelstein</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Funkenstein</surname>
+            <given-names>HH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Duncan</surname>
+            <given-names>GW</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Davis</surname>
+            <given-names>KR</given-names>
+          </string-name>
+          .
+          <article-title>Broca aphasia Pathologic and clinical</article-title>
+          .
+          <source>Neurology</source>
+          <year>1978</year>
+          ,
+          <volume>28</volume>
+          :
+          <fpage>311</fpage>
+          -
+          <lpage>311</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [36]
+          <string-name>
+            <surname>Crinion</surname>
+            <given-names>JT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Warburton</surname>
+            <given-names>EA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lambon-Ralph</surname>
+            <given-names>MA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Howard</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wise</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          .
+          <article-title>Listening to narrative speech after aphasic stroke: the role of the left anterior temporal lobe</article-title>
+          .
+          <source>Cereb Cortex</source>
+          <year>2006</year>
+          ,
+          <volume>16</volume>
+          :
+          <fpage>1116</fpage>
+          -
+          <lpage>1125</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [37]
+          <string-name>
+            <surname>Bogen</surname>
+            <given-names>JE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bogen</surname>
+            <given-names>GM</given-names>
+          </string-name>
+          .
+          <article-title>Wernick's region</article-title>
+          <source>-Where is it? Ann NY Acad Sci</source>
+          ,
+          <year>1976</year>
+          ,
+          <volume>280</volume>
+          :
+          <fpage>834</fpage>
+          -
+          <lpage>843</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [38]
+          <string-name>
+            <surname>Baker</surname>
+            <given-names>E</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Blumstein</surname>
+            <given-names>SE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Goodglass</surname>
+            <given-names>H.</given-names>
+          </string-name>
+          <article-title>Interaction between phonological and semantic factors in auditory comprehension</article-title>
+          .
+          <source>Neuropsychologia</source>
+          <year>1981</year>
+          ,
+          <volume>19</volume>
+          :
+          <fpage>1</fpage>
+          -
+          <lpage>15</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [39]
+          <string-name>
+            <surname>Bishop</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Mogford-Bevan</surname>
+            <given-names>K.</given-names>
+          </string-name>
+          <article-title>Language Development in Exceptional Circumstances</article-title>
+          . Psychology Press
+          <year>1993</year>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [40]
+          <string-name>
+            <surname>Bishop</surname>
+            <given-names>CW</given-names>
+          </string-name>
+          , Miller LM.
+          <article-title>A multisensory cortical network for understanding speech in noise</article-title>
+          .
+          <source>J Cogn Neurosci</source>
+          <year>2009</year>
+          ,
+          <volume>21</volume>
+          :
+          <fpage>1790</fpage>
+          -
+          <lpage>1804</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [41]
+          <string-name>
+            <surname>Werker</surname>
+            <given-names>JF</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Yeung</surname>
+            <given-names>HH</given-names>
+          </string-name>
+          .
+          <article-title>Infant speech perception bootstraps word learning</article-title>
+          .
+          <source>Trends Cogn Sci</source>
+          <year>2005</year>
+          ,
+          <volume>9</volume>
+          :
+          <fpage>519</fpage>
+          -
+          <lpage>527</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [42]
+          <string-name>
+            <surname>Tsao</surname>
+            <given-names>FM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Liu</surname>
+            <given-names>HM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kuhl</surname>
+            <given-names>PK</given-names>
+          </string-name>
+          .
+          <article-title>Speech perception in infancy predicts language development in the second year of life: a longitudinal study</article-title>
+          .
+          <source>Child Dev</source>
+          <year>2004</year>
+          ,
+          <volume>75</volume>
+          :
+          <fpage>1067</fpage>
+          -
+          <lpage>1084</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [43]
+          <string-name>
+            <surname>Basso</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Casati</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Vignolo</surname>
+            <given-names>LA</given-names>
+          </string-name>
+          .
+          <article-title>Phonemic identification defect in aphasia</article-title>
+          .
+          <source>Cortex</source>
+          <year>1977</year>
+          ,
+          <volume>13</volume>
+          :
+          <fpage>85</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [44]
+          <string-name>
+            <surname>Scott</surname>
+            <given-names>SK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rosen</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lang</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wise</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          .
+          <article-title>Neural correlates of intelligibility in speech investigated with noise vocoded speech-a positron emission tomography study</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <year>2006</year>
+          ,
+          <volume>120</volume>
+          :
+          <fpage>1075</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [45]
+          <string-name>
+            <surname>Davis</surname>
+            <given-names>MH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Johnsrude</surname>
+            <given-names>IS</given-names>
+          </string-name>
+          .
+          <article-title>Hierarchical processing in spoken language comprehension</article-title>
+          .
+          <source>J Neurosci</source>
+          <year>2003</year>
+          ,
+          <volume>23</volume>
+          :
+          <fpage>3423</fpage>
+          -
+          <lpage>3431</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [46]
+          <string-name>
+            <surname>Uppenkamp</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Johnsrude</surname>
+            <given-names>IS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Norris</surname>
+            <given-names>D</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Marslen-Wilson</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Patterson</surname>
+            <given-names>RD</given-names>
+          </string-name>
+          .
+          <article-title>Locating the initial stages of speech? Sound processing in human temporal cortex</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2006</year>
+          ,
+          <volume>31</volume>
+          :
+          <fpage>1284</fpage>
+          -
+          <lpage>1296</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [47]
+          <string-name>
+            <surname>Warren</surname>
+            <given-names>JE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sauter</surname>
+            <given-names>DA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eisner</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wiland</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dresner</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wise</surname>
+            <given-names>RJ</given-names>
+          </string-name>
+          , et al.
+          <article-title>Positive emotions preferentially engage an auditory-motor “mirror” system</article-title>
+          .
+          <source>J Neurosci</source>
+          <year>2006</year>
+          ,
+          <volume>26</volume>
+          :
+          <fpage>13067</fpage>
+          -
+          <lpage>13075</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [48]
+          <string-name>
+            <surname>Roy</surname>
+            <given-names>AC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Craighero</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fabbri-Destro</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fadiga</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>Phonological and lexical motor facilitation during speech listening: A transcranial magnetic stimulation study</article-title>
+          .
+          <source>J Physiol Paris</source>
+          <year>2008</year>
+          ,
+          <volume>102</volume>
+          :
+          <fpage>101</fpage>
+          -
+          <lpage>105</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [49]
+          <string-name>
+            <surname>Fridriksson</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Moss</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Davis</surname>
+            <given-names>B</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Baylis</surname>
+            <given-names>GC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bonilha</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Rorden</surname>
+            <given-names>C.</given-names>
+          </string-name>
+          <article-title>Motor speech perception modulates the cortical language areas</article-title>
+          .
+          <source>Neuroimage</source>
+          <year>2008</year>
+          ,
+          <volume>41</volume>
+          :
+          <fpage>605</fpage>
+          -
+          <lpage>613</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [50]
+          <string-name>
+            <surname>Cherry</surname>
+            <given-names>EC</given-names>
+          </string-name>
+          .
+          <article-title>Some experiments on the recognition of speech, with one and with two ears</article-title>
+          .
+          <source>J Acoust Soc Am</source>
+          <year>1953</year>
+          ,
+          <volume>25</volume>
+          :
+          <fpage>975</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [51]
+          <string-name>
+            <surname>McFarland</surname>
+            <given-names>DH</given-names>
+          </string-name>
+          .
+          <article-title>Respiratory markers of conversational interaction</article-title>
+          .
+          <source>J Speech Lang Hear Res</source>
+          <year>2001</year>
+          ,
+          <volume>44</volume>
+          :
+          <fpage>128</fpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [52]
+          <string-name>
+            <surname>Pickering</surname>
+            <given-names>MJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Garrod</surname>
+            <given-names>S.</given-names>
+          </string-name>
+          <article-title>Do people use language production to make predictions during comprehension?</article-title>
+          <source>Trends Cogn Sci</source>
+          <year>2007</year>
+          ,
+          <volume>11</volume>
+          :
+          <fpage>105</fpage>
+          -
+          <lpage>110</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [53]
+          <string-name>
+            <surname>Scott</surname>
+            <given-names>SK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McGettigan</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Eisner</surname>
+            <given-names>F.</given-names>
+          </string-name>
+          <article-title>A little more conversation, a little less action-candidate roles for the motor cortex in speech perception</article-title>
+          .
+          <source>Nat Rev Neurosci</source>
+          <year>2009</year>
+          ,
+          <volume>10</volume>
+          :
+          <fpage>295</fpage>
+          -
+          <lpage>302</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          [54]
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cao</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhou</surname>
+            <given-names>F</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wang</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wu</surname>
+            <given-names>X</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>L.</given-names>
+          </string-name>
+          <article-title>Masking of speech in people with first-episode schizophrenia and people with chronic schizophrenia</article-title>
+          .
+          <source>Schizophr Res</source>
+          <year>2012a</year>
+          ,
+          <volume>134</volume>
+          :
+          <fpage>33</fpage>
+          -
+          <lpage>41</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

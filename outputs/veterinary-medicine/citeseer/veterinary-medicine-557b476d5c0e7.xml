@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Veterinary Public Health Capacity in the United States: Opportunities for Improvement</title><authors><author><name>Dwayne W Jarman</name></author><author><name>Dipl Acvpm</name><affiliation>U.S. Food and Drug Administration, Office of Regulatory Affairs, Detroit District Office | Centers for Disease Control and Prevention, Scientific Education and Professional Development Program Office | U.S. Public Health Service</affiliation></author><author><name>Jennifer L Liang</name><affiliation>Centers for Disease Control and Prevention, Scientific Education and Professional Development Program Office | Centers for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases</affiliation></author><author><name>Richard R Luce</name><affiliation>Centers for Disease Control and Prevention, Scientific Education and Professional Development Program Office | U.S. Public Health Service | Centers for Disease Control and Prevention (Ethiopia), Field Epidemiology and Laboratory Training Program</affiliation></author><author><name>Jennifer G Wright</name></author><author><name>Dipl Acvpm</name></author><author><name>Gail M Stennies</name><affiliation>Centers for Disease Control and Prevention, Scientific Education and Professional Development Program Office | U.S. Public Health Service</affiliation></author><author><name>Kristine M Bisgard</name></author><author><name>Dipl Acvpm</name><affiliation>Centers for Disease Control and Prevention, Scientific Education and Professional Development Program Office | U.S. Public Health Service</affiliation></author><author><name /><affiliation>National Center for Emerging Zoonotic and Infectious Diseases, Centers for Disease Control and Prevention</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Veterinary Public Health Capacity in the United States: Opportunities for Improvement</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName>
+								<forename type="first">Dwayne</forename>
+								<forename type="middle">W</forename>
+								<surname>Jarman</surname>
+								<roleName>Dvm, Mph</roleName>
+							</persName>
+							<email>e-mail &lt;dwayne.jarman@fda.hhs.gov&gt;.</email>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Dipl</forename>
+								<surname>Acvpm</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Office of Regulatory Affairs</orgName>
+								<orgName key="dep2" type="department">Detroit District Office</orgName>
+								<orgName type="institution">U.S. Food and Drug Administration</orgName>
+								<address>
+									<settlement>Detroit</settlement>
+									<region>MI</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">Scientific Education and Professional Development Program Office</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="institution">U.S. Public Health Service</orgName>
+								<address>
+									<settlement>Rockville</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Jennifer</forename>
+								<forename type="middle">L</forename>
+								<surname>Liang</surname>
+								<roleName>Dvm, Mpvm</roleName>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">Scientific Education and Professional Development Program Office</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">National Center for Immunization and Respiratory Diseases</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Richard</forename>
+								<forename type="middle">R</forename>
+								<surname>Luce</surname>
+								<roleName>Dvm, Mph</roleName>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">Scientific Education and Professional Development Program Office</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="institution">U.S. Public Health Service</orgName>
+								<address>
+									<settlement>Rockville</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Centers for Disease Control and Prevention (Ethiopia)</orgName>
+								<orgName type="laboratory">Field Epidemiology and Laboratory Training Program</orgName>
+								<address>
+									<settlement>Addis Ababa</settlement>
+									<country>Ethiopia, Ethiopia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Jennifer</forename>
+								<forename type="middle">G</forename>
+								<surname>Wright</surname>
+								<roleName>Dvm, Mph</roleName>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Dipl</forename>
+								<surname>Acvpm</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Gail</forename>
+								<forename type="middle">M</forename>
+								<surname>Stennies</surname>
+								<roleName>Md, Mph, Facpm</roleName>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">Scientific Education and Professional Development Program Office</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="institution">U.S. Public Health Service</orgName>
+								<address>
+									<settlement>Rockville</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Kristine</forename>
+								<forename type="middle">M</forename>
+								<surname>Bisgard</surname>
+								<roleName>Dvm, Mph</roleName>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Dipl</forename>
+								<surname>Acvpm</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName key="dep2" type="department">Scientific Education and Professional Development Program Office</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<region>GA</region>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="institution">U.S. Public Health Service</orgName>
+								<address>
+									<settlement>Rockville</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName type="institution">National Center for Emerging Zoonotic and Infectious Diseases</orgName>
+								<address>
+									<addrLine>300 River Place Ave., Ste. 5900</addrLine>
+									<postCode>48073</postCode>
+									<settlement>Atlanta, Detroit</settlement>
+									<region>GA, MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Veterinary Public Health Capacity in the United States: Opportunities for Improvement</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<note>Research Articles 868  Public Health Reports / November–December 2011 / Volume 126 Address correspondence to: Dwayne W. Jarman, DVM, MPH, Dipl. ACVPM, U.S. Food and Drug Administration, Office of Regulatory Affairs, Detroit District Office,</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p>Objectives. In 2006, the Association of American Veterinary Medical Colleges reported that the shortage (1,500) of public health veterinarians is expected to increase tenfold by 2020. In 2008, the Centers for Disease Control and Prevention (CDC) Preventive Medicine Fellows conducted a pilot project among CDC veterinarians to identify national veterinary public health workforce concerns and potential policy strategies. Methods. Fellows surveyed a convenience sample (19/91) of public health veterinarians at CDC to identify veterinary workforce recruitment and retention problems faced by federal agencies; responses were categorized into themes. A focus group (20/91) of staff veterinarians subsequently prioritized the categorized themes from least to most important. Participants identified activities to address the three recruitment concerns with the highest combined weight. Results. Participants identified the following three highest prioritized problems faced by federal agencies when recruiting veterinarians to public health: (1) lack of awareness of veterinarians' contributions to public health practice, (2) competitive salaries, and (3) employment and training opportunities. Similarly, key concerns identified regarding retention of public health practice veterinarians included: (1) lack of recognition of veterinary qualifications, (2) competitive salaries, and (3) seamless integration of veterinary and human public health. Conclusions. Findings identified multiple barriers that can affect recruitment and retention of veterinarians engaged in public health practice. Next steps should include replicating project efforts among a national sample of public health veterinarians. A committed and determined long-term effort might be required to sustain initiatives and policy proposals to increase U.S. veterinary public health capacity.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>c aU S Food ACVPMb</author>
+<author>Drug Administration</author>
+</authors>
+<title>Office of Regulatory Affairs, Detroit District Office, Detroit, MI bCenters for Disease Control and Prevention, Scientific Education and Professional Development Program Office, Atlanta, GA cU.S. Public Health Service, Rockville, MD dCenters for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases, Atlanta, GA eCenters for Disease Control and Prevention (Ethiopia), Ethiopia Field Epidemiology and Laboratory Training Program, Addis Ababa, Ethiopia fCenters for Disease Control and Prevention, National Center for Emerging Zoonotic and Infectious Diseases, Atlanta, GA Address correspondence to: Dwayne</title>
+<booktitle>Public Health Service (USPHS) from the Centers for Disease Control and Prevention (CDC), National Centers for Environmental Health, Division of Emergency and Environmental Health Services in</booktitle>
+<pages>48073--313</pages>
+<location>Ste. 5900, Detroit, MI</location>
+<marker>ACVPMb, Administration, </marker>
+<rawString> Kristine M. Bisgard, DVM, MPH, Dipl. ACVPMb,c aU.S. Food and Drug Administration, Office of Regulatory Affairs, Detroit District Office, Detroit, MI bCenters for Disease Control and Prevention, Scientific Education and Professional Development Program Office, Atlanta, GA cU.S. Public Health Service, Rockville, MD dCenters for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases, Atlanta, GA eCenters for Disease Control and Prevention (Ethiopia), Ethiopia Field Epidemiology and Laboratory Training Program, Addis Ababa, Ethiopia fCenters for Disease Control and Prevention, National Center for Emerging Zoonotic and Infectious Diseases, Atlanta, GA Address correspondence to: Dwayne W. Jarman, DVM, MPH, Dipl. ACVPM, U.S. Food and Drug Administration, Office of Regulatory Affairs, Detroit District Office, 300 River Place Ave., Ste. 5900, Detroit, MI 48073; tel. 313-393-8107; fax 313-393-8139; e-mail nary Officer, Captain U.S. Public Health Service (USPHS) from the Centers for Disease Control and Prevention (CDC), National Centers for Environmental Health, Division of Emergency and Environmental Health Services in Atlanta, Georgia; Walter R. Daley, DVM, MPH, Dipl. ACVPM, Captain USPHS, CDC, Scientific Education and Professional Development Program Office, Epidemic Intelligence Service Field Assignments Branch in Atlanta; Mehran S. Massoudi, PhD, MPH, Captain USPHS, CDC, Scientific Education and Professional Development Program Office, Office of the Director in Atlanta; Cheryll K. Smith, MEd, CDC, Scientific Education and Professional Development Program Office, Office of the Director in Atlanta; Li-lien Yang, MS, CDC, Scientific 874  Research Articles Public Health Reports / November–December 2011 / Volume 126 Education and Professional Development Program Office, Preventive Medicine Residency and Fellowship in Atlanta; and Amanda K. Dunnick, MPH, Commander USPHS, CDC, Commissioned Corps Personnel Office in Atlanta. The findings and conclusions in this article are those of the authors and do not necessarily represent the official position of CDC.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Taylor LH</author>
+<author>Latham SM</author>
+<author>Woolhouse ME</author>
+</authors>
+<title>Risk factors for human disease emergence.</title>
+<journal>Philos Trans R Soc Lond B Biol Sci</journal>
+<pages>2001--356</pages>
+<marker>1.</marker>
+<rawString>Taylor LH, Latham SM, Woolhouse ME. Risk factors for human disease emergence. Philos Trans R Soc Lond B Biol Sci 2001;356:983-9.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Chaddock HM</author>
+</authors>
+<title>Veterinarians: integral partners in public health. Washington: Association of American Veterinary Colleges;</title>
+<date>2006</date>
+<note>Also available from: URL: http://www.onehealthinitiative.com/ publications/VWEACongressionalPaperPDF.pdf [cited</note>
+<marker>2.</marker>
+<rawString>Chaddock HM. Veterinarians: integral partners in public health. Washington: Association of American Veterinary Colleges; 2006. Also available from: URL: http://www.onehealthinitiative.com/ publications/VWEACongressionalPaperPDF.pdf [cited 2010 Oct 6].</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Pappaioanou</author>
+<author>Allen SW</author>
+<author>DeHaven WR</author>
+<author>Kelly AM</author>
+</authors>
+<title>Testimonies on the Veterinary Public Health Workforce Expansion Act of</title>
+<date>2007</date>
+<journal>J Vet Med Educ</journal>
+<booktitle>(H.R. 1232) presented before the subcommittee on health of the United States House of Representatives Committee on Energy and Commerce,</booktitle>
+<pages>2008--35</pages>
+<marker>3.</marker>
+<rawString>Pappaioanou M, Allen SW, DeHaven WR, Kelly AM. Testimonies on the Veterinary Public Health Workforce Expansion Act of 2007 (H.R. 1232) presented before the subcommittee on health of the United States House of Representatives Committee on Energy and Commerce, January 23, 2008. J Vet Med Educ 2008;35:439-48.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>American Veterinary</author>
+</authors>
+<title>Medical Association. Market research statistics:</title>
+<booktitle>U.S. veterinarians—2006 [cited 2010 Oct 6]. Available from: URL: http://www.avma.org/reference/marketstats/2006/usvets_2006</booktitle>
+<pages>.asp</pages>
+<marker>4.</marker>
+<rawString>American Veterinary Medical Association. Market research statistics: U.S. veterinarians—2006 [cited 2010 Oct 6]. Available from: URL: http://www.avma.org/reference/marketstats/2006/usvets_2006 .asp</rawString>
+</citation>
+<citation valid="false">
+<title>Association of American Veterinary Medical Colleges. Veterinarians step up to the nation’s public health needs.</title>
+<publisher>AAVMC;</publisher>
+<location>Washington:</location>
+<marker>5.</marker>
+<rawString>Association of American Veterinary Medical Colleges. Veterinarians step up to the nation’s public health needs. Washington: AAVMC;</rawString>
+</citation>
+<citation valid="true">
+<title>Disease Control and Prevention (US). Preventive Medicine Residency and Fellowship [cited</title>
+<date>2010</date>
+<institution>Centers for</institution>
+<note>6]. Available from: URL: http://www.cdc.gov/prevmed</note>
+<marker>6.</marker>
+<rawString>Centers for Disease Control and Prevention (US). Preventive Medicine Residency and Fellowship [cited 2010 Oct 6]. Available from: URL: http://www.cdc.gov/prevmed</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Yoo</author>
+<author>J Butler</author>
+<author>Elias TI</author>
+<author>Goodman RM</author>
+</authors>
+<title>The 6-step model for community empowerment: revisited in public housing communities for low-income senior citizens. Health Promot Pract</title>
+<date>2009</date>
+<marker>7.</marker>
+<rawString>Yoo S, Butler J, Elias TI, Goodman RM. The 6-step model for community empowerment: revisited in public housing communities for low-income senior citizens. Health Promot Pract 2009;10:262-75.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Goodman RM</author>
+</authors>
+<title>Bridging the gap in effective program implementation: from concept to application.</title>
+<journal>J Commun Psychol</journal>
+<pages>2000--28</pages>
+<marker>8.</marker>
+<rawString>Goodman RM. Bridging the gap in effective program implementation: from concept to application. J Commun Psychol 2000;28:309-21.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>SurveyMonkey™</author>
+</authors>
+<date>2010</date>
+<publisher>SurveyMonkey Inc.;</publisher>
+<location>Portland (OR):</location>
+<marker>9.</marker>
+<rawString>SurveyMonkey Inc. SurveyMonkey™. Portland (OR): SurveyMonkey Inc.; 2010.</rawString>
+</citation>
+<citation valid="true">
+<title>Disease Control and Prevention (US). CDC Epidemic Intelligence Service (EIS) [cited</title>
+<date>2010</date>
+<institution>Centers for</institution>
+<note>6]. Available from: URL: http://www.cdc.gov/eis/index.html</note>
+<marker>10.</marker>
+<rawString>Centers for Disease Control and Prevention (US). CDC Epidemic Intelligence Service (EIS) [cited 2010 Oct 6]. Available from: URL: http://www.cdc.gov/eis/index.html</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Thacker SB</author>
+<author>Dannenberg AL</author>
+<author>Hamilton DH</author>
+</authors>
+<title>Epidemic Intelligence Service of the Centers for Disease Control and Prevention: 50 years of training and service in applied epidemiology.</title>
+<journal>Am J Epidemiol</journal>
+<pages>2001--154</pages>
+<marker>11.</marker>
+<rawString>Thacker SB, Dannenberg AL, Hamilton DH. Epidemic Intelligence Service of the Centers for Disease Control and Prevention: 50 years of training and service in applied epidemiology. Am J Epidemiol 2001;154:985-92.</rawString>
+</citation>
+<citation valid="true">
+<title>Association of American Medical Colleges. Public medical schools— tuition and fees first year medical students 2008–2009 [cited</title>
+<date>2010</date>
+<note>http://services.aamc.org/tsfreports/ report.cfm?select_control=PUB&amp;year_of_study=2009</note>
+<marker>12.</marker>
+<rawString>Association of American Medical Colleges. Public medical schools— tuition and fees first year medical students 2008–2009 [cited 2010 Oct 6]. Available from: URL: http://services.aamc.org/tsfreports/ report.cfm?select_control=PUB&amp;year_of_study=2009</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Employment</author>
+</authors>
+<title>starting salaries, and educational indebtedness of year-2009 graduates of US veterinary medical colleges.</title>
+<journal>J Am Vet Med Assoc</journal>
+<pages>2009--235</pages>
+<marker>13.</marker>
+<rawString>Shepherd AJ. Employment, starting salaries, and educational indebtedness of year-2009 graduates of US veterinary medical colleges. J Am Vet Med Assoc 2009;235:523-6.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>U S C</author>
+</authors>
+<date>1949</date>
+<volume>303</volume>
+<marker>14.</marker>
+<rawString>37 U.S.C. §303 (1949).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Public Health Service</author>
+</authors>
+<title>Subchapter CC22.2—special pays [cited</title>
+<date>2010</date>
+<note>6]. Available from: URL: http://dcp.psc.gov/eccis/ documents/CCPM22_2_1.pdf</note>
+<marker>15.</marker>
+<rawString>Public Health Service (US). Subchapter CC22.2—special pays [cited 2010 Oct 6]. Available from: URL: http://dcp.psc.gov/eccis/ documents/CCPM22_2_1.pdf</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Public Health Service</author>
+</authors>
+<title>Fact sheet for completing medical special pay (MSP) contract [cited</title>
+<date>2010</date>
+<note>6]. Available from: URL: http://dcp.psc.gov/MSP_fact_sheet.htm</note>
+<marker>16.</marker>
+<rawString>Public Health Service (US). Fact sheet for completing medical special pay (MSP) contract [cited 2010 Oct 6]. Available from: URL: http://dcp.psc.gov/MSP_fact_sheet.htm</rawString>
+</citation>
+<citation valid="true">
+<title>America Veterinary Medical Association. AVMA survey measures income trends to</title>
+<date>2007</date>
+<note>cited</note>
+<marker>17.</marker>
+<rawString>America Veterinary Medical Association. AVMA survey measures income trends to 2007 [cited 2010 Oct 6]. Available from: URL: http://www.avma.org/onlnews/javma/jan09/090101a.asp</rawString>
+</citation>
+<citation valid="true">
+<title>Defense (US). Directive-type memorandum (DTM) 09-009: implementation of special pay for health professions officers (HPOs). Washington: Secretary of Defense;</title>
+<date>2009</date>
+<institution>Department of</institution>
+<marker>18.</marker>
+<rawString>Department of Defense (US). Directive-type memorandum (DTM) 09-009: implementation of special pay for health professions officers (HPOs). Washington: Secretary of Defense; 2009 Jul 23. Also available from: URL: http://www.dtic.mil/whs/directives/corres/ pdf/DTM-09-009.pdf [cited 2010 Oct 6].</rawString>
+</citation>
+<citation valid="true">
+<title>Office of Personnel Management (US). USAJobs® [cited</title>
+<date>2010</date>
+<note>6]. Available from: URL: http://www.usajobs.gov</note>
+<marker>19.</marker>
+<rawString>Office of Personnel Management (US). USAJobs® [cited 2010 Oct 6]. Available from: URL: http://www.usajobs.gov</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

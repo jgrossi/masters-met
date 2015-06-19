@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<sectionHeader confidence="0.895557" genericHeader="method">
+CHINESE JOURNAL OF MECHANICAL ENGINEERING
+</sectionHeader>
+<reference confidence="0.278049">
+Vol. 27, No. 2, 2014
+</reference>
+<page confidence="0.742408">
+·240·
+</page>
+<note confidence="0.549876">
+DOI: 10.3901/CJME.2014.02.240, available online at www.springerlink.com; www.cjmenet.com; www.cjmenet.com.cn
+</note>
+<title confidence="0.555188">
+Interactive Training Model of TRIZ for Mechanical Engineers in China
+</title>
+<author confidence="0.505229">
+TAN Runhua* and ZHANG Huangao
+</author>
+<affiliation confidence="0.7270015">
+National Technological Innovation Method and Tool Engineering Research Center,
+Hebei University of Technology, Tianjin 300401, China
+</affiliation>
+<bodyText confidence="0.982129647058824">
+Received April 24, 2013; revised December 29, 2013; accepted January 8, 2014
+Abstract: Innovation is a process of taking an original idea and converting it into a business value, in which the engineers face some
+inventive problems which can be solved hardly by experience. TRIZ, as a new theory for companies in China, provides both conceptual
+and procedural knowledge for finding and solving inventive problems. Because the government plays a leading role in the diffusion of
+TRIZ, too many companies from different industries are waiting to be trained, but the quantity of the trainers mastering TRIZ is
+incompatible with that requirement. In this context, to improve the training effect, an interactive training model of TRIZ for the
+mechanical engineers in China is developed and the implementation in the form of training classes is carried out. The training process is
+divided into 6 phases as follows: selecting engineers, training stage-1, finding problems, training stage-2, finding solutions and summing
+up. The government, TRIZ institutions and companies to join the programs interact during the process. The government initiates and
+monitors a project in form of a training class of TRIZ and selects companies to join the programs. Each selected companies choose a few
+engineers to join the class and supervises the training result. The TRIZ institutions design the training courses and carry out training
+curriculum. With the beginning of the class, an effective communication channel is established by means of interview, discussion face to
+face, E-mail, QQ and so on. After two years training practices, the results show that innovative abilities of the engineers to join and pass
+the final examinations increased distinctly, and most of companies joined the training class have taken congnizance of the power of
+TRIZ for product innovation. This research proposes an interactive training model of TRIZ for mechanical engineers in China to
+expedite the knowledge diffusion of TRIZ.
+Keywords: TRIZ, interactive training model, innovative abilities for mechanical engineers, knowledge diffusion
+</bodyText>
+<page confidence="0.827891">
+1
+</page>
+<bodyText confidence="0.9674765">
+Introduction
+Innovation is essential for the success and competitive
+advantage of organizations or companies, as well as for
+strong economies in the 21st century[1]. The innovation for
+the organizations in China, such as in the manufacturing
+industry, is also a fundamental choice for the further
+development[2]. Researchers in China[3–5] also show that the
+key factor to enhance the competitiveness for industries lies
+in the improvement of capability of innovation. Many
+manufacturing companies in China now have to pay more
+attention to innovation than ever before.
+There are nine factors influencing an organization’s
+ability to innovation[6]. One of them is employees. This
+factor takes into account the various personal characteristics
+associated with employees and the motivation of employees
+to become innovative. There are five categories of inventors
+* Corresponding author. E-mail: rhtan@hebut.edu.cn
+This project is supported by National Natural Science Foundation of
+China(Grant Nos. 51275153, 51105128), National Innovation Project of
+China(Grant No. 2011IM010200), and Social Science Planning Fund
+Program of Hebei Province, China(Grant No. HB13GL050)
+© Chinese Mechanical Engineering Society and Springer-Verlag Berlin Heidelberg 2014
+related to the innovation process[7], and they are
+entrepreneurs with technology, industry-specific inventors,
+professional inventors, grantsmen, and inveterate inventors.
+If a part of employees are inventors, such as industryspecific inventors, the innovative ability of a company will
+increase.
+One of objectives of National Technological Innovation
+Method and Tool Engineering Research Center is to carry
+out a program to train many engineers for various industries,
+and make them to become innovative engineers. But there
+is no definition for an innovative engineer in China. In
+order to push the training program forward, a clear
+description of the functions for this kind of engineers is
+needed. We define that an innovative engineer is an
+industry-specific inventor, who creates specific technical
+improvements for product designs or processes in which he
+or she works in, usually for several years. Most of the
+improvements are incremental innovations, but a few are
+radical innovations.
+The training program should include many training
+classes. A training class should follow a process. The paper
+shows the generation of the process, which is called an
+interactive training model of TRIZ. The model is especially
+</bodyText>
+<sectionHeader confidence="0.941866" genericHeader="method">
+CHINESE JOURNAL OF MECHANICAL ENGINEERING
+</sectionHeader>
+<bodyText confidence="0.994673">
+designed for mechanical engineers because of my research
+background of mechanical engineering. The results of the
+implementation of the interactive model up to now are
+summarized.
+</bodyText>
+<page confidence="0.962908">
+2
+</page>
+<category confidence="0.738626">
+Problems and Their Solutions
+</category>
+<sectionHeader confidence="0.67894" genericHeader="method">
+in Innovation Process
+</sectionHeader>
+<bodyText confidence="0.983499833333333">
+Innovation is a process of taking an original idea and
+converting it into a business value. The entire innovation
+process is divided into three stages: fuzzy front end(FFE),
+new product development(NPD), and commercialization[8].
+The fuzzy front end is considered the first stage of the
+innovation process and covers the sub-processes from the
+</bodyText>
+<figureCaption confidence="0.704212">
+opportunity identification, opportunity analysis, idea
+Fig. 1.
+</figureCaption>
+<page confidence="0.770693">
+·241·
+</page>
+<bodyText confidence="0.994365344262295">
+generation, idea selection, and concept definition[8]. The
+outputs of FFE are the ideas evaluated and the input of
+NPD. In the NPD stage, the ideas from FFE are
+transformed into products. There are two sub-processes in
+NPD, design and manufacturing. In the design process there
+are four sub-processes, design specification, conceptual
+design, embodiment design, and detailed design[9]. In the
+manufacturing process, the first is the process design and
+then manufacturing. The commercialization is the last stage,
+in which the products are put into the markets.
+The engineers in a company always face some problems,
+which appear in the innovation process. The problems
+should be abstracted and solved. After that the solutions are
+returned to the process. Fig. 1 shows the relations between
+the problems and their solutions in an innovation process.
+Innovation process with the problems and solutions
+A problem can be defined as the gap between the present
+and some desired state of affairs[10]. There are two types of
+problems which are routine and inventive problems in
+engineering by the definition of TRIZ[11]. If all the critical
+steps from a problem to its solution are known, the problem
+is a routine one. If at least one critical step to the solution as
+well as the solution itself is unknown the problem is an
+inventive problem.
+So called creativity enhancing techniques or idea
+generation techniques are used to solve problems[12]. There
+are many creativity enhancing techniques in literatures. For
+example, SMITH[13] carried out an extensive analysis of
+172 techniques. Brainstorming, method 635, and synectics
+are examples of this kind of techniques. The techniques do
+assist many problem solvers or inventors to solve problems,
+but they are not always successful because the creative
+capacities of problem solvers have reached their limits in
+finding novelties, especially when the artifacts are complex,
+since the value of engineering-like concepts and
+brainstorming-derived practices have been introduced[14]. If
+they are useful, problem solvers may not be able to generate
+ideas without the proper experience[15]. The hope of solving
+this kind of problems appeared in the application of TRIZ,
+which is theory of inventive problem solving(TRIZ)
+developed in the former USSR. Some indication of its
+success can be derived from inquiries within the German
+industry classifying TRIZ as an effective approach to
+problem solving, and indicating a ‘‘rather high’’ to ‘‘very
+high’’ economic benefit obtained from using TRIZ for 57%
+of companies[16].
+TRIZ aims to create an algorithmic approach applying
+inventive knowledge abstracted from patent bases all over
+the world to solve inventive problems. TRIZ is a
+methodology, a tool set, a knowledge base, and a
+model-based technology for generating innovative ideas
+and solutions for solving inventive problems. The toolkits
+in TRIZ are problem formulation, system analysis, failure
+analysis, patterns of system evolution, inventive principles,
+standard solutions and ARIZ et al. All these assist inventors
+to solve inventive problems quickly and efficiently.
+Fig. 2 shows all the problems and their solving
+techniques. When an obstacle appears in the innovation
+process, a problem can be identified, which is a routine or
+an inventive one. If it is a routine problem, a creativity
+enhancing technique or common techniques is selected to
+</bodyText>
+<listItem confidence="0.5595885">
+solve the problem. If the problem is an inventive problem,
+TAN Runhua, et al: Interactive Training Model of TRIZ for Mechanical Engineers in China
+</listItem>
+<page confidence="0.765932">
+·242·
+</page>
+<bodyText confidence="0.7842725">
+TRIZ is selected to solve it. The solutions evaluated are
+returned to the innovation process and the process is going on.
+</bodyText>
+<figureCaption confidence="0.879">
+Fig. 2. Problems and their solutions
+</figureCaption>
+<page confidence="0.989928">
+3
+</page>
+<bodyText confidence="0.336294">
+Solving Inventive Problems for Engineers
+</bodyText>
+<subsectionHeader confidence="0.991819">
+3.1 Structure of knowledge in TRIZ
+</subsectionHeader>
+<bodyText confidence="0.9521055">
+The engineers need to study new knowledge for solving
+problems in innovation processes. There are two essential
+</bodyText>
+<tableCaption confidence="0.836098">
+Table 1.
+</tableCaption>
+<figure confidence="0.876575619047619">
+No.
+The main conceptual and procedural knowledge in TRIZ
+Content
+1
+Concepts
+2
+Contradiction
+solving
+3
+Effects
+4
+Standard solutions
+5
+S-curve
+6
+Technological
+evolution
+7
+ARIZ
+8
+Trimming
+</figure>
+<page confidence="0.860711">
+9
+</page>
+<sectionHeader confidence="0.855778" genericHeader="method">
+AFD
+</sectionHeader>
+<bodyText confidence="0.994837052631579">
+types of knowledge, which are conceptual and procedural
+knowledge. Conceptual knowledge is usually viewed as
+general and abstract knowledge of the core principles and
+their interrelations in a domain. Procedural knowledge, in
+contrast, is usually seen as knowledge of operators and the
+conditions under which they can be applied to reach certain
+goals[17–18].
+In TRIZ, all the knowledge is also divided into
+conceptual and procedural types. The basic concepts, such
+as ideality, levels of inventions and resources, are
+conceptual knowledge. To solve an inventive problem, both
+conceptual and procedural knowledge is needed. 39
+Engineering parameters, 40 inventive principles, 76
+standard solutions, a list of effects, and law of technological
+system evolution are applied to solve inventive problems,
+which are all conceptual knowledge. The processes for
+solving a problem, such as ARIZ, are procedural
+knowledge. Table 1 shows the main conceptual and
+procedural knowledge in TRIZ.
+</bodyText>
+<figure confidence="0.934294151515151">
+Conceptual knowledge
+
+
+
+
+
+
+
+Levels of creativity,
+Ideality
+Resources
+Useful function and Harmful function
+Su-field model
+9-screen
+Small-little men
+7-step model to build Su-field[19]
+ Technological contradictions, 39 engineering parameters,
+40 inventive principles, contradiction matrix
+ Physical contradiction, Separation principles
+Contradiction solving for safety
+integration in design process[20]
+Searching an effect from a software[21]
+A list of effects
+Algorithm for use of standard[22]
+76 standard solutions
+Correlation between innovation activities and s-curve
+ Laws of evolutions
+ Lines of evolutions
+Procedural knowledge
+Process to use S-curve [23]
+Systematic definition of evolutionary
+scenarios [24]
+ARIZ[25]
+</figure>
+<table confidence="0.948556166666667">
+ Function model for existing products
+ Rules of trimming
+Building a function model (TW)[26]
+ Definition of risk
+ Principles of Scenario Structuring
+AFD-1 template, AFD-2 template[27]
+</table>
+<subsectionHeader confidence="0.983984">
+3.2 Solving inventive problems
+</subsectionHeader>
+<bodyText confidence="0.99222516">
+New knowledge for solving inventive problems is an
+important factor to increase the competitive advantage of
+engineers. The knowledge enables them to enhance their
+effective activities which drive superior performances. In
+turn the superior performances support engineers to create
+new ideas and new technologies.
+For the engineers working in enterprise in China the
+conceptual and procedural knowledge in TRIZ are new for
+them. If they can understand and apply TRIZ, they may
+make new representations about the problems faced in an
+innovation process. The new presentations about problems
+mean different representations from these which are used
+by their experiences. For example, a problem may be
+described as a contradiction by the conceptual knowledge
+in TRIZ. But there is no the concept of contradiction for
+describing design or process by their experiences. For a
+contradiction a 12-step sequential algorithm is used to solve
+it. 39 engineering parameters, 40 inventive principles,
+contradiction matrix in some steps are used. The difficulty
+to solve the problem is reduced. The process of solving a
+contradiction also shows that the conceptual and procedural
+knowledge in TRIZ are applied together.
+Fig. 3 shows a general process which from identifying a
+problem to solving it for an engineer. The problematic
+activity implies that some problem is existed. First,
+</bodyText>
+<sectionHeader confidence="0.86764" genericHeader="method">
+CHINESE JOURNAL OF MECHANICAL ENGINEERING
+</sectionHeader>
+<bodyText confidence="0.982416">
+engineers find the problematic activity in the innovation
+process. Then he/she applies the conceptual knowledge of
+TRIZ to identify the inventive problems. The third step is
+that he/she solves them using the procedural knowledge in
+TRIZ. In the last step the conceptual knowledge is used
+</bodyText>
+<figureCaption confidence="0.684929">
+Fig. 3.
+</figureCaption>
+<page confidence="0.891633">
+4
+</page>
+<bodyText confidence="0.976230294117647">
+·243·
+within the process of problem solving. The knowledge in
+TRIZ is all new to the engineers. If the engineers do
+understand TRIZ and can apply freely, they perform in
+higher quality than before in the process of finding and
+solving problems.
+Inventive problem solving process for engineers
+Design of a Training Model
+The TRIZ training process for organizations has been
+studied for years. RANTANEN, et al[28], developed a
+flowchart or a model for TRIZ training for an organization.
+JUN, et al[29], also developed a flowchart for Samsung
+TRIZ implementation. These flowcharts show that the
+TRIZ experts outside the organization should carry out
+TRIZ pilot project to show that TRIZ is powerful for
+innovation in a company. This process is not suitable for
+the situations in China.
+We have no time to carry out a pilot project for a
+company to test TRIZ because the local governments push
+many companies to join a training class at the same time.
+Before the beginning of the training program, most of the
+companies do not know what TRIZ is. They only know that
+the program will train some engineers and to increase the
+innovative abilities of these persons. It should be a good
+thing for the companies themselves too.
+In order to increase the effectiveness of the application of
+TRIZ, high quality should be assured for any training class.
+The object of the program is to train “innovative engineers”
+for the companies. We have the freedom to make a plan,
+and to select education processes and courses. All the
+trainers are from our institution, or we may invite trainers
+from all over the world. But a new training process model
+is needed for successful training programs, which is
+different from the following[28–29]:
+</bodyText>
+<listItem confidence="0.998673111111111">
+(1) The companies to join the training program are
+selected by local governments.
+(2) The local governments pay more attention to the
+training results, such as the attitudes of the engineers to join
+the program, the patents applied from the classes.
+(3) The evaluation made by companies which join the
+program in the middle or after the finish of a training
+process.
+(4) The impressions of the classes on the companies
+</listItem>
+<bodyText confidence="0.951662866666666">
+which do not join the program at first.
+Fig. 4 is the TRIZ training model developed form a class
+after two years training practices. There are six phases in
+this process, from selecting engineers of the companies to
+summing-up. The process lasts six to twelve months. The
+governments, TRIZ institutions and companies to join the
+programs will be interacted during the process.
+In Fig. 4, an innovation process model with a fuzzy front
+end is integrated. The inventive problems which the
+engineers face in companies are always found in fuzzy front
+ends, conceptual designs or manufacturing processes[30].
+The solutions will return to these stages and will push
+innovative activities forward in the companies.
+The following is the work to be done in every phase in
+the TRIZ based interactive training model.
+</bodyText>
+<subsubsectionHeader confidence="0.969257">
+Phase 1: Selecting engineers
+</subsubsectionHeader>
+<bodyText confidence="0.992062818181818">
+The local governments are responsible for selecting
+companies to join the program. The companies selected
+recommend the engineers to be trained. The numbers for
+one training class are limited. The recommended age range
+of the engineers is 30–50 years old. They should have been
+responsible for some designs of products or manufacturing
+processes and do have had some experience. The engineers
+selected may not know TRIZ beforehand but their
+experiences is an important factor in understanding the
+general meanings of TRIZ and applying them in innovative
+activities in short time.
+</bodyText>
+<figure confidence="0.5588225">
+·244·
+Y TAN Runhua, et al: Interactive Training Model of TRIZ for Mechanical Engineers in China Y
+</figure>
+<figureCaption confidence="0.72588">
+Fig. 4.
+TRIZ based interactive training model
+Phase 2: Training stage-1
+</figureCaption>
+<bodyText confidence="0.975370666666667">
+The selected engineers are gathered together as a class
+and trained for seven days continuously. The conceptual
+knowledge and some procedural knowledge in TRIZ are
+presented by a group of trainers. Every day, there are oral
+explanations of about six hours on TRIZ, with no
+discussions or dialogs. And every night, there is a two
+hours’ discussion on any problems studied or encountered
+during the day. The engineers are free to join the
+discussions at any time.
+</bodyText>
+<subsubsectionHeader confidence="0.649167">
+Phase 3: Finding problems
+</subsubsectionHeader>
+<bodyText confidence="0.997107125">
+The engineers return to their companies to find inventive
+problems which were not found and not solved before. This
+phase needs one or two months. During this period, the
+trainers will go to every company to discusses the problems
+with the engineers and decide if the problems are suitable
+for the following use or not. After the end of this phase
+every engineer in the class has found at least one inventive
+problem to be solved in the company.
+</bodyText>
+<subsubsectionHeader confidence="0.895155">
+Phases 4: Training stage-2
+</subsubsectionHeader>
+<bodyText confidence="0.999433571428571">
+The selected engineers are gathered together again and
+trained for another three or four days continuously. The
+courses are designed after considering all the problems that
+the engineers selected. The main points of the courses are
+the systematic methods integrating TRIZ, P&amp;B, QFD,
+axiomatic design theory et al, which are mainly procedural
+knowledge. Several case studies are presented step by step.
+</bodyText>
+<subsubsectionHeader confidence="0.619311">
+Phases 5: Finding solutions
+</subsubsectionHeader>
+<bodyText confidence="0.999060375">
+The engineers return to their companies and solve the
+problems selected. At the same time they do some routine
+work at his or her position for the companies. During this
+phase, the trainers may go to every company a few times to
+discuss the problems and possible solutions if the engineers
+need it. In the end, most engineers do find solutions to the
+problems. They may make application for patents. This
+phase is lasts for about four months.
+</bodyText>
+<subsubsectionHeader confidence="0.558504">
+Phases 6: Summing up
+</subsubsectionHeader>
+<bodyText confidence="0.9936494">
+The final oral examination is made and every engineer
+will present his/her results using PPT files. Members of a
+committee specific for the examination make discussions
+with them. An evaluation is made and a certificate is
+presented to every engineer.
+</bodyText>
+<page confidence="0.880765">
+5
+</page>
+<bodyText confidence="0.581065">
+Implementation of the Training Program
+</bodyText>
+<subsectionHeader confidence="0.808419">
+5.1 General information
+</subsectionHeader>
+<bodyText confidence="0.975769965517241">
+The Innovation Method Society supported by the central
+government of China, and the local governments together
+push the training program in order to increase the
+innovative abilities of the engineers in industries. The
+National Technological Innovation Method and Tool
+Engineering Research Center is one of major training
+organizations. From 2008 to now, it has completed training
+processes for twenty classes in China, and some of them are
+shown in Table 2.
+At first, an organizer selects the engineers from different
+companies of a local region, for example Hebei Province or
+Guangdong Province. Then they spend more than six
+months to carry out the training process according to the
+model shown in Fig. 4. Some selected engineers may not
+follow the process and drop out from the class. In the end,
+some engineers as the final engineers join the final oral
+examinations, which number less than the originally
+selected. The final engineers who pass the examination are
+certificated as “Innovative Engineers”, level 1 or level 2.
+There are three conditions which should be satisfied for
+the engineers entering the final phase and passing the
+examination. They are as follows: 1) Having found an
+inventive problem from the innovation process of their
+company; 2) Having solved the problem and had a good
+solution; 3) Having made a credible presentation using PPT.
+If they have found and solved an important problem or
+sent an application for an inventive patent, they will be
+certified as “Inventive Engineer”-level 2. Others are
+certificate as level 1.
+</bodyText>
+<sectionHeader confidence="0.831688" genericHeader="method">
+CHINESE JOURNAL OF MECHANICAL ENGINEERING
+</sectionHeader>
+<tableCaption confidence="0.757019">
+Table 2.
+</tableCaption>
+<figure confidence="0.995107490909091">
+No.
+Name of the class
+1
+HLJ-1
+2
+TJ-1
+3
+GD-1
+4
+QH-1
+5
+6
+Tianye Tolian Heavy
+Industry Co. Ltd
+Guangzhou Radio
+Group
+7
+SANY
+8
+Tangshan Railway
+Vehicle Co. Ltd
+·245·
+Training classes in some provinces in China
+Organizer
+Heilongjiang Science and
+Technology Department
+Tianjin Science and
+Technology Department
+Guangdong Science and
+Technology Department
+Qinghai Science and
+Technology Department
+Hebei Science and
+Technology Department
+Guangdong Science and
+Technology Department
+Hunan Science and
+Technology Department
+Hebei Science and
+Technology Department
+Time
+Number of
+Companies
+Number of
+selected
+engineers
+2008.7–2009.6
+10
+2009.5–2009.12
+Number of final engineers
+Level 1
+Level 2
+30
+0
+25
+</figure>
+<page confidence="0.849243">
+13
+43
+11
+</page>
+<figure confidence="0.968761133333333">
+6
+2010.8–2011.3
+19
+75
+22
+30
+2011.1–2012.5
+10
+29
+12
+9
+2010.7–2011.9
+1
+64
+28
+15
+2012.5–2012.12
+1
+50
+13
+15
+2011.3–2012.3
+1
+60
+14
+21
+2012.5–2012.12
+1
+60
+10
+</figure>
+<page confidence="0.542921">
+18
+</page>
+<subsectionHeader confidence="0.370757">
+5.2 Case 1: GD-1
+</subsectionHeader>
+<bodyText confidence="0.984439177777778">
+GD-1 was the first training class organized by
+Guangdong Science and Technology Department in
+Guangdong province, which is the organization of local
+government for the development of sciences and
+technologies. Seventy-five engineers were selected from
+nineteen companies, including BYD, BROAD-OCEAN
+and GAC, etc, were trained. Fifty-two passed the final
+examination. Thirty of them were certificated as inventive
+engineers level 2, and the others were level 1. All the
+engineers found fifty-four inventive problems from the
+innovative processes of seventeen different companies and
+solved them at last. According to incomplete statistics
+thirty-six patent applications, twenty-two patents for
+inventions and fourteen patents for utility models have
+been sent to SIPO(State Intellectual Property Office of the
+PRC) and all application numbers have been got.
+There are two engineers in the class from Broad-Ocean,
+which is a company that produces micro-motors, located in
+Zhongshan, Guangdong Province. One engineer developed
+three new concepts for the structure of a traditional
+micro-motor and applied five patents to SIPO. The function
+analysis-standard solutions of TRIZ were used in his work.
+Up to now, three new designs have been finished and the
+new process design is being carried out. The cost for a new
+product will be lowered by 1.98 RMB, and the efficiency
+for manufacturing will increase to 13.2%. The new
+products have been put into the Chinese market in 2012.
+There were four engineers that joined the class from
+Shengyi, which is a company located in Dongguan,
+Guangdong Province. FR-4, CEM-1, CEM-3 and Prepreg
+are currently the products in this company. Every engineer
+found and solved at least one inventive problem of design
+or process and sent applications for patents for inventions
+and utility models. The new products based on the patents
+applied have been put into markets. TRIZ has become an
+efficient tool to help engineers make innovation in their
+company.
+Most of the engineers who joined the class did achieve
+good results. Some of them have solved the problems that
+had not been solved in their company for a long time. Their
+ability to find problems in the design or process phase of a
+product and to solve them efficiently increased. Some of
+them have made presentations about basic principles of
+TRIZ to their colleagues to form a circumstance for study
+and apply TRIZ in their company.
+</bodyText>
+<page confidence="0.99091">
+5.3
+</page>
+<table confidence="0.866478">
+Case 2: New structured headstock
+and tailstock of CRH
+Tangshan Railway Vehicle Co. Ltd located in Tangshan,
+Hebei Province, produces high speed train called China
+Railways Highspeed(CRH) or “Harmony Express”. We
+</table>
+<bodyText confidence="0.986069">
+organized a class for this company from May 2012 to
+December 2012. At first 60 engineers in different working
+posts were joined the class and 28 engineers followed the
+whole training process. One engineer has gotten a few
+patents for the new structured headstocks and tailstocks of
+CRH. In the process of finding and solving an inventive
+problem for improving the CRH, TRIZ is applied.
+</bodyText>
+<subsubsectionHeader confidence="0.903831">
+5.3.1 Situation analysis
+</subsubsectionHeader>
+<bodyText confidence="0.8616573125">
+At first, the engineer should study the situation for
+improving as shown in Fig. 5. The headstock and tailstock
+in a CRH are not changed for both running directions. The
+headstock in one running direction is the tailstock in
+reverse direction. The distribution of airflow on the surface
+of headstock and tailstock are different, the air resistance
+on the train mainly is pressure drag which rests with the
+shapes of headstock and tailstock. Because the shape is
+designed symmetrical so that the headstock and tailstock
+can be interchanged, the drag reduction can not reach the
+limit. Big drag will result in electrical energy lose. Drag
+·246·
+Y TAN Runhua, et al: Interactive Training Model of TRIZ for Mechanical Engineers in China Y
+reducing method should be investigated.
+Fig. 5.
+Air flow distribution for a running CRH
+</bodyText>
+<subsubsectionHeader confidence="0.912503">
+5.3.2 Inventive problem
+</subsubsectionHeader>
+<bodyText confidence="0.987104684210526">
+To most of mechanical engineers, this problem is a
+parameter optimization problem that the shape of headstock
+(also is tailstock) should be optimized, and the
+solution should be a trade-off to obtain a shape both for
+headstock and tailstock in order to obtain the minimum
+pressure drag.
+The new design faces the problem: the drag should be
+reduced further but this will change the structure for both
+the headstock and tailstock. The change should be
+controlled. This is an inventive problem.
+5.3.3 Solving the inventive problem
+Fig. 6 shows the process to solve the problem. The
+engineer finds two parameters in the matrix of TRIZ, which
+present the inventive problem well. Four inventive
+principles are found, which are Transformation properties
+(No. 35), Asymmetry(No. 4), Dynamics(No. 15) and Prior
+action(No. 10). Also several cases using these principles
+are identified for the analogous application.
+Fig. 6. Process to solve the contradiction using TRIZ
+In general speaking the principles and the cases selected
+are specific TRIZ solutions for the problem. The designer
+should transform them into domain solutions. In this
+process the knowledge of design for high speed trains,
+especially the headstocks and tailstocks, and the specific
+TRIZ solutions are both important. From the specific TRIZ
+solutions the engineer could find unexpected discoveries
+(UXDs) [31] for triggering him or her to generate new ideas
+for domain solutions.
+In this case, No. 4 and No. 15 are used to produce new
+concepts for solving the problem. For example, the shape
+of the headstock and the tailstock should not be same
+according to the principle No. 4 for reducing the drag, and
+the shapes should be changed into each other when the
+headstock and the tailstock interchange according to the
+principle No. 15. So in one direction the headstock has a
+specific shape and the tailstock has different shape for
+reducing drag. When the train stops for reverse direction,
+both the headstock and the tailstock interchanged rapidly.
+</bodyText>
+<figureCaption confidence="0.816758">
+5.3.4 One accepted solution
+Fig. 7 shows one accepted solution(the publication of the
+</figureCaption>
+<bodyText confidence="0.9698115">
+case has been authorized by enterprise, Courtesy of
+Tangshan Railway Vehicle Co., LTD, China). Using TRIZ
+the designer could produce many possible solutions for the
+problem. After evaluation a few are selected as accepted
+solutions. Computer simulation and testing should be
+carried out for selecting final solutions.
+Fig. 7.
+Improved CRH with new structured headstock
+and tailstock
+In Fig. 7, the headstock is shorter than the tailstock when
+the train runs from right to left direction. When changing
+direction the tailstock should be shortened and the
+headstock should be elongated. The changing processes are
+controlled easily.
+</bodyText>
+<subsectionHeader confidence="0.891879">
+5.4 Experiences
+</subsectionHeader>
+<bodyText confidence="0.84169775">
+Through different training classes we have the following
+experiences.
+(1) The experienced mechanical engineers in China
+could understand concept and procedural knowledge in
+</bodyText>
+<sectionHeader confidence="0.919938" genericHeader="conclusions">
+CHINESE JOURNAL OF MECHANICAL ENGINEERING
+</sectionHeader>
+<bodyText confidence="0.969182833333333">
+TRIZ without a lot of difficult. But the training process is
+not easy for every engineer to try to follow. Perseverance is
+necessary for every engineer if they want to succeed.
+(2) It is difficult for some of the engineers to find and
+solve the first inventive problem from the innovation
+process of their company. That the concept of an inventive
+problem applied to a real situation is not easy at first.
+(3) The trainers are needed to help one third of the
+engineers to find or solve the first inventive problem. The
+trainers as tutors of the engineers should always keep
+relations with them through different ways, such as e-mail,
+QQ, face to face, or telephone.
+</bodyText>
+<listItem confidence="0.605885">
+(4) After finding and solving the first inventive problem,
+</listItem>
+<bodyText confidence="0.9955975">
+the engineers are eager to study in depth and to apply the
+TRIZ to find and solve other inventive problems. The
+creative ability is increased for most of the engineers after
+joining the final oral examination.
+(5) Some companies are organizing the engineers who
+joined one of our classes to train other engineers of their
+company, such as Broad-Ocean. The company is managing
+to improve their ability for future innovation by applying
+TRIZ in a systematic manner. This should be followed by
+more and more companies in China.
+</bodyText>
+<page confidence="0.750003">
+6
+</page>
+<subsubsectionHeader confidence="0.228372">
+Conclusions
+</subsubsectionHeader>
+<bodyText confidence="0.946329766666667">
+(1) The inventive problems in an innovation process of a
+company are always faced in fuzzy front ends, conceptual
+designs and manufacturing processes. TRIZ is a systematic
+method to solve these kinds of problems. The urgent need
+is to push the mechanical engineers of companies in China
+to study and apply TRIZ to solve inventive problems that
+exist in their working environment.
+(2) Training is a choice to push the application forward.
+An interactive model for training TRIZ is developed,
+which is suitable not only for several companies at same
+time in a region but also for one company. The activities in
+this model have tight relationships with the activities in the
+innovation processes of the companies. The engineers who
+join the training class have to find and solve the inventive
+problems of their own companies.
+(3) The implementation of the model is carried out as a
+program, in which there are twenty classes in different
+provinces of China. The organizers are the Science and
+Technology Department of local governments. Most of the
+engineers who have passed the final oral examinations
+have sent patent applications to SIPO. Some engineers
+have developed new products for their companies. The
+innovative ability for all the engineers to join the program
+is increased to a degree. The organizers are satisfied with
+the results.
+The next step is to make more training classes in the
+interactive model developed for different regions available,
+to meet the increasing needs of manufacturing companies
+in China.
+·247·
+</bodyText>
+<sectionHeader confidence="0.965833" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.994116669642857">
+[1] LALE Gumusluoglu, ARZU İlsev. Transformational leadership and
+organizational innovation: the roles of internal and external support
+for innovation[J]. Journal of Product Innovation Management,
+2009, 26(3): 264–277.
+[2] ZHAO Yanjun, ZHANG Mingqian. China manufacturing industrial
+competence: evaluation and analysis[J]. Economics Theory and
+Economical Management, 2005, 25(5): 23–30.
+[3] LI Jingwen, HUANG Lucheng. Reflection on the innovation
+strategies for China manufacturing industry[J]. China Soft Science,
+2003(1): 23–26. (in Chinese)
+[4] HUANG Lucheng, LUO Yafei, ZHANG Hongcai, et al.
+Technology innovation ability analysis of Beijing’s manufacturing
+industry[C]//Proceedings of IEEE International Conference on
+Management of Innovation and Technology, Singapore, June 21–23,
+2006: 195–201.
+[5] ZHANG Yong. Analysis and evaluation of enterprise innovation
+ability conversion[J]. International Journal of Innovative
+Management, Information &amp; Productio, 2010, 1(1): 73–81.
+[6] ROBERT V M. Factors influencing an organization’s ability to
+manage innovation: a structured literature review and conceptual
+model[J]. International Journal of Innovation Management, 2008,
+12(4): 655–676.
+[7] LIVESAY H C, LUX D S, BROWN M A. Human factors and the
+innovation process[J]. Technovation, 1996, 16(4):173–186.
+[8] DEPPE L, KOHN S, PAOLETTIF, et al. The holistic view of the
+front end of innovation[C]//Proceedings of Conference on
+Innovation Management Technologies and New Product
+Development, Mantova, Italy, October 17–18, 2002: 1–18.
+[9] PAHL G, BEITZ W. Engineering design—A systematic approach
+[M]. 2nd ed. London: Springer, 1996.
+[10] EVANS J R. Creative thinking in the decision and management
+sciences[M]. Cincinnati, OH: South-Western Publishing, 1991.
+[11] SAVRANSKY S D. Attributes of the inventive problems[R]. AAAI
+Spring Symposium on Search Techniques for Problem Solving
+under Uncertainty and Incomplete Information, Stanford University,
+1999: 113–118.
+[12] KARNI R, SHALEV S. Fostering innovation in conceptual product
+design through ideation[J]. Information, Knowledge, Systems
+Management, 2004, 4(1): 15–33.
+[13] SMITH G F, Idea generation techniques: a formulary of active
+ingredients[J]. Journal of Creative Behavior, 1998, 32(2): 107–133.
+[14] CAVALLUCCI D, KHOMENKO N. From TRIZ to OTSM-TRIZ:
+addressing complexity challenges in inventive design[J].
+International Journal of product Development, 2007, 4(1, 2): 4–21.
+[15] BENAMI Oren, JIN Yan. Creative stimulation in conceptual
+design[C]//Proceedings of ASME Design Engineering Technical
+Conference(DETC2002/DTM-34023), Montreal, Canada, Sep
+29–Oct 2, 2002: 1–13.
+[16] TOMIYAMA T, GU P, JIN Y, et al. Design methodologies:
+industrial and educational applications[J]. CIRP Annals—
+Manufacturing Technology, 2009, 58(2): 543–565.
+[17] RITTLE-JOHNSON B, SIEGLER R S, ALIBALI M W.
+Developing conceptual understanding and procedural skill in
+mathematics: an iterative process[J]. Journal of Educational
+Psychology, 2001, 93(2): 346–362.
+[18] SCHNEIDER M, STEM E. The developmental relations between
+conceptual and procedural knowledge: A multi-method approach[J].
+Developmental Psychology, 2010, 46(1): 178–192.
+[19] FEY V, RIVIN E. Innovation on demand[M]. New York:
+Cambridge University Press, 2005.
+[20] HOUSSIN R, COULIBALY A. An approach to solve contradiction
+problems for the safety integration in innovative design process[J].
+Computers in Industry, 2011, 62(4): 398–406.
+·248·
+Y TAN Runhua, et al: An Interactive Training Model of TRIZ for Mechanical Engineers in China Y
+[21] JULIAN F V, OLGA B, PAHL A K. Putting biology into TRIZ: A
+database of biological effects[J]. Creativity and Innovation
+Management, 2005, 14(1): 66–72.
+[22] SAVRANSKY S D. Engineering of creativity[M]. New York: CRC
+Press, 2000.
+[23] KUCHARAVY D, GUIO R D. Application of S-shaped curves[J].
+Procedia Engineering, 2011, 9: 559–572.
+[24] CASCINI G, ROTINI F, RUSSO D. Networks of trends: systematic
+definition of evolutionary scenarios[J]. Procedia Engineering, 2011,
+9: 355–367.
+[25] ALTSHULLER G. The innovation algorithm: TRIZ systematic
+innovation and technical creativity[M]. Worcester: Technical
+Innovation Center, Inc., 1999.
+[26] SILVERSTEIN D, SAMUEL P, DECARLO N. The innovator’s
+toolkit[M], New Jersey: John Wiley &amp; Sons, Inc., 2009.
+[27] KAPLAN S, VISNEPOLSCHI S, ZLOTIN B, et al. New Tools for
+Failure and Risk Analysis: an introduction to anticipatory failure
+determination(AFD) and the theory of scenario structuring[M].
+Southfield: Ideation International Inc., 1999.
+[28] RANTANEN K, DOMB E. Simplified TRIZ[M]. 2nd ed. New York:
+Auerbach Pub, 2008.
+[29] JUN Q, SHIN D L. TRIZ Propagation strategies in SAMSUNG
+Electronics
+Co.[EB/OL].
+http://www.triz.co.kr/data/qcjun.pdf
+[accessed 04. 23. 2010].
+[30] TAN Runhua. Eliminating technical obstacles in innovation
+pipelines using CAIs[J]. Computers in Industry, 2011, 62(4):
+414–422.
+[31] TAN Runhua, MA Jianhong, LIU Fang, et al. UXDs-driven
+conceptual design process model for contradiction solving using
+CAIs[J]. Computers in Industry, 2009, 60(8): 584–591.
+Biographical notes
+TAN Runhua, born in 1958, is currently a professor at Hebei
+University of Technology, China, and the director of National
+Technological Innovation Method and Tool Engineering Research
+Center, China. He received his PhD degree from Zhejiang
+University, China, in 1998. His research interests include
+innovative design, TRIZ theory and application, technological
+innovation process management and design for mass
+customization.
+Tel: +86-22-60438168; E-mail: rhtan@hebut.edu.cn
+ZHANG Huangao, born in 1973, is currently a vice-professor at
+Hebei University of Technology, China. He received his PhD
+degree from Hebei University of Technology, China, in 2009. His
+research interests include innovative design and product platform
+design.
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<date>2014</date>
+<volume>27</volume>
+<marker>2014</marker>
+<rawString> Vol. 27, No. 2, 2014</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>LALE Gumusluoglu</author>
+<author>ARZU İlsev</author>
+</authors>
+<title>Transformational leadership and organizational innovation: the roles of internal and external support for innovation[J].</title>
+<date>2009</date>
+<journal>Journal of Product Innovation Management,</journal>
+<volume>26</volume>
+<issue>3</issue>
+<pages>264--277</pages>
+<marker>[1]</marker>
+<rawString>LALE Gumusluoglu, ARZU İlsev. Transformational leadership and organizational innovation: the roles of internal and external support for innovation[J]. Journal of Product Innovation Management, 2009, 26(3): 264–277.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>ZHAO Yanjun</author>
+<author>ZHANG Mingqian</author>
+</authors>
+<title>China manufacturing industrial competence: evaluation and analysis[J].</title>
+<date>2005</date>
+<booktitle>Economics Theory and Economical Management,</booktitle>
+<pages>25--5</pages>
+<marker>[2]</marker>
+<rawString>ZHAO Yanjun, ZHANG Mingqian. China manufacturing industrial competence: evaluation and analysis[J]. Economics Theory and Economical Management, 2005, 25(5): 23–30.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>LI Jingwen</author>
+<author>HUANG Lucheng</author>
+</authors>
+<title>Reflection on the innovation strategies for China manufacturing industry[J].</title>
+<journal>China Soft Science,</journal>
+<volume>2003</volume>
+<issue>1</issue>
+<pages>23--26</pages>
+<note>(in Chinese)</note>
+<marker>[3]</marker>
+<rawString>LI Jingwen, HUANG Lucheng. Reflection on the innovation strategies for China manufacturing industry[J]. China Soft Science, 2003(1): 23–26. (in Chinese)</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>HUANG Lucheng</author>
+<author>LUO Yafei</author>
+<author>ZHANG Hongcai</author>
+</authors>
+<date>2006</date>
+<booktitle>Technology innovation ability analysis of Beijing’s manufacturing industry[C]//Proceedings of IEEE International Conference on Management of Innovation and Technology, Singapore,</booktitle>
+<pages>195--201</pages>
+<marker>[4]</marker>
+<rawString>HUANG Lucheng, LUO Yafei, ZHANG Hongcai, et al. Technology innovation ability analysis of Beijing’s manufacturing industry[C]//Proceedings of IEEE International Conference on Management of Innovation and Technology, Singapore, June 21–23, 2006: 195–201.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>ZHANG Yong</author>
+</authors>
+<title>Analysis and evaluation of enterprise innovation ability conversion[J].</title>
+<journal>International Journal of Innovative Management, Information &amp; Productio,</journal>
+<volume>1</volume>
+<issue>1</issue>
+<pages>73--81</pages>
+<marker>[5]</marker>
+<rawString>ZHANG Yong. Analysis and evaluation of enterprise innovation ability conversion[J]. International Journal of Innovative Management, Information &amp; Productio, 2010, 1(1): 73–81.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V M ROBERT</author>
+</authors>
+<title>Factors influencing an organization’s ability to manage innovation: a structured literature review and conceptual model[J].</title>
+<date>2008</date>
+<journal>International Journal of Innovation Management,</journal>
+<volume>12</volume>
+<issue>4</issue>
+<pages>655--676</pages>
+<marker>[6]</marker>
+<rawString>ROBERT V M. Factors influencing an organization’s ability to manage innovation: a structured literature review and conceptual model[J]. International Journal of Innovation Management, 2008, 12(4): 655–676.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H C LIVESAY</author>
+<author>D S LUX</author>
+<author>M A BROWN</author>
+</authors>
+<title>Human factors and the innovation process[J]. Technovation,</title>
+<date>1996</date>
+<pages>16--4</pages>
+<marker>[7]</marker>
+<rawString>LIVESAY H C, LUX D S, BROWN M A. Human factors and the innovation process[J]. Technovation, 1996, 16(4):173–186.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L DEPPE</author>
+<author>S KOHN</author>
+<author>PAOLETTIF</author>
+</authors>
+<title>The holistic view of the front end of</title>
+<date>2002</date>
+<booktitle>innovation[C]//Proceedings of Conference on Innovation Management Technologies and New Product Development,</booktitle>
+<pages>1--18</pages>
+<location>Mantova, Italy,</location>
+<marker>[8]</marker>
+<rawString>DEPPE L, KOHN S, PAOLETTIF, et al. The holistic view of the front end of innovation[C]//Proceedings of Conference on Innovation Management Technologies and New Product Development, Mantova, Italy, October 17–18, 2002: 1–18.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>G PAHL</author>
+<author>W BEITZ</author>
+</authors>
+<title>Engineering design—A systematic approach</title>
+<marker>[9]</marker>
+<rawString>PAHL G, BEITZ W. Engineering design—A systematic approach</rawString>
+</citation>
+<citation valid="false">
+<date>1996</date>
+<editor>2nd ed.</editor>
+<publisher>Springer,</publisher>
+<location>London:</location>
+<marker>[M]</marker>
+<rawString>. 2nd ed. London: Springer, 1996.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J R EVANS</author>
+</authors>
+<title>Creative thinking in the decision and management sciences[M].</title>
+<date>1991</date>
+<publisher>South-Western Publishing,</publisher>
+<location>Cincinnati, OH:</location>
+<marker>[10]</marker>
+<rawString>EVANS J R. Creative thinking in the decision and management sciences[M]. Cincinnati, OH: South-Western Publishing, 1991.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S D SAVRANSKY</author>
+</authors>
+<title>Attributes of the inventive problems[R]. AAAI Spring</title>
+<date>1999</date>
+<booktitle>Symposium on Search Techniques for Problem Solving under Uncertainty and Incomplete Information,</booktitle>
+<pages>113--118</pages>
+<location>Stanford University,</location>
+<marker>[11]</marker>
+<rawString>SAVRANSKY S D. Attributes of the inventive problems[R]. AAAI Spring Symposium on Search Techniques for Problem Solving under Uncertainty and Incomplete Information, Stanford University, 1999: 113–118.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R KARNI</author>
+<author>S SHALEV</author>
+</authors>
+<title>Fostering innovation in conceptual product design through ideation[J].</title>
+<date>2004</date>
+<journal>Information, Knowledge, Systems Management,</journal>
+<volume>4</volume>
+<issue>1</issue>
+<pages>15--33</pages>
+<marker>[12]</marker>
+<rawString>KARNI R, SHALEV S. Fostering innovation in conceptual product design through ideation[J]. Information, Knowledge, Systems Management, 2004, 4(1): 15–33.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G F SMITH</author>
+</authors>
+<title>Idea generation techniques: a formulary of active ingredients[J].</title>
+<date>1998</date>
+<journal>Journal of Creative Behavior,</journal>
+<volume>32</volume>
+<issue>2</issue>
+<pages>107--133</pages>
+<marker>[13]</marker>
+<rawString>SMITH G F, Idea generation techniques: a formulary of active ingredients[J]. Journal of Creative Behavior, 1998, 32(2): 107–133.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D CAVALLUCCI</author>
+<author>N KHOMENKO</author>
+</authors>
+<title>From TRIZ to OTSM-TRIZ: addressing complexity challenges in inventive design[J].</title>
+<date>2007</date>
+<journal>International Journal of product Development,</journal>
+<volume>4</volume>
+<issue>1</issue>
+<pages>4--21</pages>
+<marker>[14]</marker>
+<rawString>CAVALLUCCI D, KHOMENKO N. From TRIZ to OTSM-TRIZ: addressing complexity challenges in inventive design[J]. International Journal of product Development, 2007, 4(1, 2): 4–21.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>BENAMI Oren</author>
+<author>JIN Yan</author>
+</authors>
+<title>Creative stimulation</title>
+<date>2002</date>
+<booktitle>in conceptual design[C]//Proceedings of ASME Design Engineering Technical Conference(DETC2002/DTM-34023),</booktitle>
+<pages>1--13</pages>
+<location>Montreal, Canada,</location>
+<marker>[15]</marker>
+<rawString>BENAMI Oren, JIN Yan. Creative stimulation in conceptual design[C]//Proceedings of ASME Design Engineering Technical Conference(DETC2002/DTM-34023), Montreal, Canada, Sep 29–Oct 2, 2002: 1–13.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T TOMIYAMA</author>
+<author>P GU</author>
+<author>Y JIN</author>
+</authors>
+<title>Design methodologies: industrial and educational applications[J].</title>
+<date>2009</date>
+<journal>CIRP Annals— Manufacturing Technology,</journal>
+<volume>58</volume>
+<issue>2</issue>
+<pages>543--565</pages>
+<marker>[16]</marker>
+<rawString>TOMIYAMA T, GU P, JIN Y, et al. Design methodologies: industrial and educational applications[J]. CIRP Annals— Manufacturing Technology, 2009, 58(2): 543–565.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B RITTLE-JOHNSON</author>
+<author>R S SIEGLER</author>
+<author>M W ALIBALI</author>
+</authors>
+<title>Developing conceptual understanding and procedural skill in mathematics: an iterative process[J].</title>
+<date>2001</date>
+<journal>Journal of Educational Psychology,</journal>
+<volume>93</volume>
+<issue>2</issue>
+<pages>346--362</pages>
+<marker>[17]</marker>
+<rawString>RITTLE-JOHNSON B, SIEGLER R S, ALIBALI M W. Developing conceptual understanding and procedural skill in mathematics: an iterative process[J]. Journal of Educational Psychology, 2001, 93(2): 346–362.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M SCHNEIDER</author>
+<author>E STEM</author>
+</authors>
+<title>The developmental relations between conceptual and procedural knowledge: A multi-method approach[J]. Developmental Psychology,</title>
+<date>2010</date>
+<volume>46</volume>
+<issue>1</issue>
+<pages>178--192</pages>
+<marker>[18]</marker>
+<rawString>SCHNEIDER M, STEM E. The developmental relations between conceptual and procedural knowledge: A multi-method approach[J]. Developmental Psychology, 2010, 46(1): 178–192.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V FEY</author>
+<author>E RIVIN</author>
+</authors>
+<title>Innovation on demand[M]. New York:</title>
+<date>2005</date>
+<publisher>Cambridge University Press,</publisher>
+<marker>[19]</marker>
+<rawString>FEY V, RIVIN E. Innovation on demand[M]. New York: Cambridge University Press, 2005.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R HOUSSIN</author>
+<author>A COULIBALY</author>
+</authors>
+<title>An approach to solve contradiction problems for the safety integration in innovative design process[J]. Computers in Industry,</title>
+<date>2011</date>
+<volume>62</volume>
+<issue>4</issue>
+<pages>398--406</pages>
+<note>248· Y TAN Runhua, et</note>
+<marker>[20]</marker>
+<rawString>HOUSSIN R, COULIBALY A. An approach to solve contradiction problems for the safety integration in innovative design process[J]. Computers in Industry, 2011, 62(4): 398–406. ·248· Y TAN Runhua, et al: An Interactive Training Model of TRIZ for Mechanical Engineers in China Y</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F V JULIAN</author>
+<author>B OLGA</author>
+</authors>
+<title>PAHL A K. Putting biology into TRIZ: A database of biological effects[J]. Creativity and Innovation Management,</title>
+<date>2005</date>
+<volume>14</volume>
+<issue>1</issue>
+<pages>66--72</pages>
+<marker>[21]</marker>
+<rawString>JULIAN F V, OLGA B, PAHL A K. Putting biology into TRIZ: A database of biological effects[J]. Creativity and Innovation Management, 2005, 14(1): 66–72.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S D SAVRANSKY</author>
+</authors>
+<title>Engineering of creativity[M].</title>
+<date>2000</date>
+<publisher>CRC Press,</publisher>
+<location>New York:</location>
+<marker>[22]</marker>
+<rawString>SAVRANSKY S D. Engineering of creativity[M]. New York: CRC Press, 2000.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D KUCHARAVY</author>
+<author>R D GUIO</author>
+</authors>
+<title>Application of S-shaped curves[J].</title>
+<date>2011</date>
+<booktitle>Procedia Engineering,</booktitle>
+<volume>9</volume>
+<pages>559--572</pages>
+<marker>[23]</marker>
+<rawString>KUCHARAVY D, GUIO R D. Application of S-shaped curves[J]. Procedia Engineering, 2011, 9: 559–572.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G CASCINI</author>
+<author>F ROTINI</author>
+<author>D RUSSO</author>
+</authors>
+<title>Networks of trends: systematic definition of evolutionary scenarios[J]. Procedia Engineering,</title>
+<date>2011</date>
+<volume>9</volume>
+<pages>355--367</pages>
+<marker>[24]</marker>
+<rawString>CASCINI G, ROTINI F, RUSSO D. Networks of trends: systematic definition of evolutionary scenarios[J]. Procedia Engineering, 2011, 9: 355–367.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G ALTSHULLER</author>
+</authors>
+<title>The innovation algorithm: TRIZ systematic innovation and technical creativity[M]. Worcester: Technical Innovation Center,</title>
+<date>1999</date>
+<publisher>Inc.,</publisher>
+<marker>[25]</marker>
+<rawString>ALTSHULLER G. The innovation algorithm: TRIZ systematic innovation and technical creativity[M]. Worcester: Technical Innovation Center, Inc., 1999.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D SILVERSTEIN</author>
+<author>P SAMUEL</author>
+<author>N DECARLO</author>
+</authors>
+<title>The innovator’s toolkit[M],</title>
+<date>2009</date>
+<publisher>John Wiley &amp; Sons, Inc.,</publisher>
+<location>New Jersey:</location>
+<marker>[26]</marker>
+<rawString>SILVERSTEIN D, SAMUEL P, DECARLO N. The innovator’s toolkit[M], New Jersey: John Wiley &amp; Sons, Inc., 2009.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S KAPLAN</author>
+<author>S VISNEPOLSCHI</author>
+<author>B ZLOTIN</author>
+</authors>
+<title>New Tools for Failure and Risk Analysis: an introduction to anticipatory failure determination(AFD) and the theory of scenario structuring[M]. Southfield: Ideation International Inc.,</title>
+<date>1999</date>
+<marker>[27]</marker>
+<rawString>KAPLAN S, VISNEPOLSCHI S, ZLOTIN B, et al. New Tools for Failure and Risk Analysis: an introduction to anticipatory failure determination(AFD) and the theory of scenario structuring[M]. Southfield: Ideation International Inc., 1999.</rawString>
+</citation>
+<citation valid="false">
+<date>2008</date>
+<editor>RANTANEN K, DOMB E. Simplified TRIZ[M]. 2nd ed.</editor>
+<location>New York: Auerbach Pub,</location>
+<marker>[28]</marker>
+<rawString>RANTANEN K, DOMB E. Simplified TRIZ[M]. 2nd ed. New York: Auerbach Pub, 2008.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Q JUN</author>
+<author>D L SHIN</author>
+</authors>
+<booktitle>TRIZ Propagation strategies in SAMSUNG Electronics Co.[EB/OL]. http://www.triz.co.kr/data/qcjun.pdf</booktitle>
+<marker>[29]</marker>
+<rawString>JUN Q, SHIN D L. TRIZ Propagation strategies in SAMSUNG Electronics Co.[EB/OL]. http://www.triz.co.kr/data/qcjun.pdf</rawString>
+</citation>
+<citation valid="false">
+<marker>[accessed 04. 23. 2010]</marker>
+<rawString>.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>TAN Runhua</author>
+</authors>
+<title>Eliminating technical obstacles in innovation pipelines using CAIs[J]. Computers in Industry,</title>
+<date>2011</date>
+<volume>62</volume>
+<issue>4</issue>
+<pages>414--422</pages>
+<marker>[30]</marker>
+<rawString>TAN Runhua. Eliminating technical obstacles in innovation pipelines using CAIs[J]. Computers in Industry, 2011, 62(4): 414–422.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>TAN Runhua</author>
+<author>MA Jianhong</author>
+<author>LIU Fang</author>
+</authors>
+<title>UXDs-driven conceptual design process model for contradiction solving using CAIs[J]. Computers in Industry,</title>
+<date>2009</date>
+<institution>Zhejiang University,</institution>
+<location>China, in</location>
+<note>He received his PhD degree</note>
+<marker>[31]</marker>
+<rawString>TAN Runhua, MA Jianhong, LIU Fang, et al. UXDs-driven conceptual design process model for contradiction solving using CAIs[J]. Computers in Industry, 2009, 60(8): 584–591. Biographical notes TAN Runhua, born in 1958, is currently a professor at Hebei University of Technology, China, and the director of National Technological Innovation Method and Tool Engineering Research Center, China. He received his PhD degree from Zhejiang University, China, in 1998. His research interests include innovative design, TRIZ theory and application, technological innovation process management and design for mass customization. Tel: +86-22-60438168; E-mail: rhtan@hebut.edu.cn ZHANG Huangao, born in 1973, is currently a vice-professor at Hebei University of Technology, China. He received his PhD degree from Hebei University of Technology, China, in 2009. His research interests include innovative design and product platform design.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

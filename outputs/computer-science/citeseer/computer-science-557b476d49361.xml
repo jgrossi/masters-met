@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Teaching Recommender Systems at Large Scale: Evaluation and Lessons Learned from a Hybrid MOOC</title><authors><author><name>Joseph A Konstan</name></author><author><name>J D Walker</name></author><author><name>D Christopher Brooks</name></author><author><name>Keith Brown</name></author><author><name>Michael D Ekstrand</name></author><author><name>J A Konstan</name></author><author><name>J D Walker</name></author><author><name>Sr Vp</name></author><author><name>Academic Affairs</name></author><author><name>/ Provost</name></author><author><name>; M D Ekstrand</name></author><author><name /><affiliation>University of Minnesota</affiliation></author><author><name /><affiliation>University of Minnesota</affiliation></author><author><name /><affiliation>Texas State University, University of Min-nesota, Department of Computer Science &amp; Engineering</affiliation></author><author><name /><affiliation>University of Minnesota</affiliation></author><author><name /><affiliation>D. C. Brooks, EDUCAUSE, Office of Information Technology</affiliation></author><author><name /><affiliation>University of Minnesota, Dept. of Computer Science</affiliation></author><author><name /><affiliation>Texas State University</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Teaching Recommender Systems at Large Scale: Evaluation and Lessons Learned from a Hybrid MOOC</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Joseph</forename>
+								<forename type="middle">A</forename>
+								<surname>Konstan</surname>
+							</persName>
+							<email>email: konstan@umn.edu</email>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<forename type="middle">D</forename>
+								<surname>Walker</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">D</forename>
+								<forename type="middle">Christopher</forename>
+								<surname>Brooks</surname>
+								<roleName>Educause</roleName>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Keith</forename>
+								<surname>Brown</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Michael</forename>
+								<forename type="middle">D</forename>
+								<surname>Ekstrand</surname>
+							</persName>
+							<email>email: ekstrand@txstate.edu.</email>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<forename type="middle">A</forename>
+								<surname>Konstan</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<forename type="middle">D</forename>
+								<surname>Walker</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Sr</forename>
+								<surname>Vp</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Academic</forename>
+								<surname>Affairs</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">/</forename>
+								<surname>Provost</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">;</forename>
+								<forename type="middle">M D</forename>
+								<surname>Ekstrand</surname>
+							</persName>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">University of Minnesota</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">University of Minnesota</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">Department of Computer Science &amp; Engineering</orgName>
+								<orgName key="instit1" type="institution">Texas State University</orgName>
+								<orgName key="instit2" type="institution">University of Min-nesota</orgName>
+								<address>
+									<addrLine>200 Union Street SE</addrLine>
+									<postCode>55455</postCode>
+									<settlement>Minneapolis</settlement>
+									<region>MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<addrLine>100 Church St SE</addrLine>
+									<postCode>55455</postCode>
+									<settlement>Minneapolis</settlement>
+									<region>MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">Office of Information Technology</orgName>
+								<orgName key="instit1" type="institution">D. C. Brooks</orgName>
+								<orgName key="instit2" type="institution">EDUCAUSE</orgName>
+								<address>
+									<addrLine>282 Century Place, Suite 5000</addrLine>
+									<postCode>80027</postCode>
+									<settlement>Louisville, Brown</settlement>
+									<region>CO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="department">Dept. of Computer Science</orgName>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<addrLine>1985 Buford Ave</addrLine>
+									<postCode>55108</postCode>
+									<settlement>St Paul</settlement>
+									<region>MN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName type="institution">Texas State University</orgName>
+								<address>
+									<addrLine>601 University Drive, San Marcos</addrLine>
+									<postCode>78666</postCode>
+									<region>TX</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Teaching Recommender Systems at Large Scale: Evaluation and Lessons Learned from a Hybrid MOOC</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">ACM Transactions on Computer-Human Interaction</title>
+						<imprint>
+							<biblScope unit="volume">22</biblScope>
+							<biblScope unit="issue">2</biblScope>
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1145/2728171</idno>
+					<note type="submission">10, Publication date: April 2015.</note>
+					<note>10 Authors' addresses: Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies show this notice on the first page or initial screen of a display along with the full citation. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, to republish, to post on servers, to redistribute to lists, or to use any component of this work in other works requires prior specific permission and/or a fee. Permissions may be requested from Publications Dept., ACM, Inc., 2 Penn Plaza, Suite 701, New York, NY 10121-0701 USA, fax +1 (212) 869-0481, or permissions@acm.org. c 2015 ACM 1073-0516/2015/04-ART10 $15.00</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>K31 [Computers and Education]: Computer Uses in Education—</term>
+					<term>Distance learning; K32 [Computers and Education]: Computer and Information Science Education—</term>
+					<term>Computer science education</term>
+					<term>General Terms: Measurement, Performance</term>
+					<term>Additional Key Words and Phrases: Massively Online Open Course (MOOC), learning assessment</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>In the fall of 2013, we offered an open online Introduction to Recommender Systems through Coursera, while simultaneously offering a for-credit version of the course on-campus using the Coursera platform and a flipped classroom instruction model. As the goal of offering this course was to experiment with this type of instruction, we performed extensive evaluation including surveys of demographics, self-assessed skills, and learning intent; we also designed a knowledge-assessment tool specifically for the subject matter in this course, administering it before and after the course to measure learning, and again 5 months later to measure retention. We also tracked students through the course, including separating out students enrolled for credit from those enrolled only for the free, open course. Students had significant knowledge gains across all levels of prior knowledge and across all demographic categories. The main predictor of knowledge gain was effort expended in the course. Students also had significant knowledge retention after the course. Both of these results are limited to the sample of students who chose to complete our knowledge tests. Student completion of the course was hard to predict, with few factors contributing predictive power; the main predictor of completion was intent to complete. Students who chose a concepts-only track with hand exercises achieved the same level of knowledge of recommender systems concepts as those who chose a programming track and its added assignments, though the programming students gained additional programming knowledge. Based on the limited data we were able to gather, face-to-face students performed as well as the online-only students or better; they preferred this format to traditional lecture for reasons ranging from pure convenience to the desire to watch videos at a different pace (slower for English language learners; faster for some native English speakers). This article also includes our qualitative observations, lessons learned, and future directions.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="false">
+<authors>
+<author>Distance learning</author>
+</authors>
+<title>K.3.2 [Computers and Education]: Computer and Information Science Education— Computer science education General Terms: Measurement, Performance Additional Key Words and Phrases: Massively Online Open Course (MOOC), learning assessment Authors’ addresses:</title>
+<date />
+<journal>D. C. Brooks, EDUCAUSE, 282 Century Place, Suite</journal>
+<booktitle>MN 55108; email: brown299@umn.edu;</booktitle>
+<volume>5000</volume>
+<institution>Department of Computer Science &amp; Engineering, University of Minnesota,</institution>
+<location>Union Street SE, Minneapolis, MN</location>
+<note>80027; email: cbrooks@educause.edu;</note>
+<marker>learning, </marker>
+<rawString>Distance learning; K.3.2 [Computers and Education]: Computer and Information Science Education— Computer science education General Terms: Measurement, Performance Additional Key Words and Phrases: Massively Online Open Course (MOOC), learning assessment Authors’ addresses: J. A. Konstan, Department of Computer Science &amp; Engineering, University of Minnesota, 200 Union Street SE, Minneapolis, MN 55455; email: konstan@umn.edu; J. D. Walker, Sr VP Academic Affairs/Provost, University of Minnesota, 100 Church St SE, Minneapolis, MN 55455; email: jdwalker@umn.edu; D. C. Brooks, EDUCAUSE, 282 Century Place, Suite 5000, Louisville, CO 80027; email: cbrooks@educause.edu; K. P. Brown, Office of Information Technology, University of Minnesota, 1985 Buford Ave, St Paul, MN 55108; email: brown299@umn.edu; M. D. Ekstrand, Dept. of Computer Science, Texas State University, 601 University Drive, San Marcos, TX 78666; email: ekstrand@txstate.edu.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>John P Buerck</author>
+<author>Srikanth P Mudigonda</author>
+<author>Stephanie E Mooshegian</author>
+<author>Kyle Collins</author>
+<author>Nicholas Grimm</author>
+<author>Kristen Bonney</author>
+<author>Hadley Kombrink</author>
+</authors>
+<title>Predicting non-traditional student learning outcomes using data analytics–a pilot research study.</title>
+<date>2013</date>
+<journal>Journal of the Computer Science College</journal>
+<volume>28</volume>
+<pages>260--265</pages>
+<marker>Buerck, Mudigonda, Mooshegian, Collins, Grimm, Bonney, Kombrink, 2013</marker>
+<rawString>John P. Buerck, Srikanth P. Mudigonda, Stephanie E. Mooshegian, Kyle Collins, Nicholas Grimm, Kristen Bonney, and Hadley Kombrink. 2013. Predicting non-traditional student learning outcomes using data analytics–a pilot research study. Journal of the Computer Science College 28, 5 (May 2013), 260–265.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Champaign</author>
+<author>K F Colvin</author>
+<author>A Liu</author>
+<author>C Fredericks</author>
+<author>D Seaton</author>
+<author>D E Pritchard</author>
+</authors>
+<title>Correlating skill and improvement in 2 MOOCs with a student’s time on tasks.</title>
+<date>2014</date>
+<booktitle>Proceedings of the 1st ACM Conference on Learning @ Scale.</booktitle>
+<pages>11--20</pages>
+<publisher>ACM,</publisher>
+<location>New York,</location>
+<marker>Champaign, Colvin, Liu, Fredericks, Seaton, Pritchard, 2014</marker>
+<rawString>J. Champaign, K. F. Colvin, A. Liu, C. Fredericks, D. Seaton, and D. E. Pritchard. 2014. Correlating skill and improvement in 2 MOOCs with a student’s time on tasks. Proceedings of the 1st ACM Conference on Learning @ Scale. ACM, New York, 11–20.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Doug Clow</author>
+</authors>
+<title>MOOCs and the funnel of participation.</title>
+<date>2013</date>
+<booktitle>In Proceedings of the 3rd International Conference on Learning Analytics and Knowledge (LAK’13).</booktitle>
+<pages>185--189</pages>
+<publisher>ACM,</publisher>
+<location>New York, NY,</location>
+<marker>Clow, 2013</marker>
+<rawString>Doug Clow. 2013. MOOCs and the funnel of participation. In Proceedings of the 3rd International Conference on Learning Analytics and Knowledge (LAK’13). ACM, New York, NY, 185–189.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Colvin</author>
+<author>J Champaign</author>
+<author>A Liu</author>
+<author>Q Zhou</author>
+<author>C Fredericks</author>
+<author>D Pritchard</author>
+</authors>
+<title>Learning in an introductory physicsMOOC: All cohorts learn equally, including an on-campus class.</title>
+<date>2014</date>
+<journal>International Review of Research in Open and Distance Learning</journal>
+<volume>15</volume>
+<pages>4</pages>
+<marker>Colvin, Champaign, Liu, Zhou, Fredericks, Pritchard, 2014</marker>
+<rawString>K. Colvin, J. Champaign, A. Liu, Q. Zhou, C. Fredericks, and D. Pritchard. 2014. Learning in an introductory physicsMOOC: All cohorts learn equally, including an on-campus class. International Review of Research in Open and Distance Learning 15, 4.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J DeBoer</author>
+<author>A D Ho</author>
+<author>G S Stump</author>
+<author>L Breslow</author>
+</authors>
+<title>Changing “course”: Reconceptualizing educational variables for massive open online courses.</title>
+<date>2014</date>
+<journal>Educational Researcher</journal>
+<volume>43</volume>
+<pages>74--84</pages>
+<marker>DeBoer, Ho, Stump, Breslow, 2014</marker>
+<rawString>J. DeBoer, A. D. Ho, G. S. Stump, and L. Breslow. 2014. Changing “course”: Reconceptualizing educational variables for massive open online courses. Educational Researcher 43, 2, 74–84.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M D Ekstrand</author>
+<author>M Ludwig</author>
+<author>J A Konstan</author>
+<author>J T Riedl</author>
+</authors>
+<title>Rethinking the recommender research ecosystem: reproducibility, openness, and LensKit.</title>
+<date>2011</date>
+<booktitle>In Proceedings of the 5th ACM Conference on Recommender Systems (RecSys’11).</booktitle>
+<pages>133--140</pages>
+<publisher>ACM,</publisher>
+<location>New York, NY,</location>
+<marker>Ekstrand, Ludwig, Konstan, Riedl, 2011</marker>
+<rawString>M. D. Ekstrand, M. Ludwig, J. A. Konstan, and J. T. Riedl. 2011. Rethinking the recommender research ecosystem: reproducibility, openness, and LensKit. In Proceedings of the 5th ACM Conference on Recommender Systems (RecSys’11). ACM, New York, NY, 133–140.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E J Emanuel</author>
+</authors>
+<title>Online education: MOOCs taken by educated few.</title>
+<date>2013</date>
+<journal>Nature</journal>
+<volume>503</volume>
+<pages>342--342</pages>
+<marker>Emanuel, 2013</marker>
+<rawString>E. J. Emanuel. 2013. Online education: MOOCs taken by educated few. Nature 503, 7476, 342–342.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Rene F Kizilcec</author>
+<author>Chris Piech</author>
+<author>Emily Schneider</author>
+</authors>
+<title>Deconstructing disengagement: analyzing learner subpopulations in massive open online courses.</title>
+<date>2013</date>
+<booktitle>In Proceedings of the 3rd International Conference on Learning Analytics and Knowledge.</booktitle>
+<marker>Kizilcec, Piech, Schneider, 2013</marker>
+<rawString>René F. Kizilcec, Chris Piech, and Emily Schneider. 2013. Deconstructing disengagement: analyzing learner subpopulations in massive open online courses. In Proceedings of the 3rd International Conference on Learning Analytics and Knowledge.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J A Konstan</author>
+<author>J D Walker</author>
+<author>D C Brooks</author>
+<author>K Brown</author>
+<author>M D Ekstrand</author>
+</authors>
+<title>Teaching recommender systems at large scale: Evaluation and lessons learned from a hybrid MOOC.</title>
+<date>2014</date>
+<booktitle>In Proceedings of the 1st ACM Conference on Learning@Scale.</booktitle>
+<pages>61--70</pages>
+<marker>Konstan, Walker, Brooks, Brown, Ekstrand, 2014</marker>
+<rawString>J. A. Konstan, J. D. Walker, D. C. Brooks, K. Brown, and M. D. Ekstrand. 2014. Teaching recommender systems at large scale: Evaluation and lessons learned from a hybrid MOOC. In Proceedings of the 1st ACM Conference on Learning@Scale. 61–70.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D A McConnell</author>
+<author>D N Steer</author>
+<author>K D Owens</author>
+<author>C Knight</author>
+</authors>
+<title>How students think: Implications for learning in introductory geoscience courses.</title>
+<date>2005</date>
+<journal>Journal of Geoscience Education,</journal>
+<volume>53</volume>
+<pages>462--470</pages>
+<marker>McConnell, Steer, Owens, Knight, 2005</marker>
+<rawString>D. A. McConnell, D. N. Steer, K. D. Owens, C. Knight. 2005. How students think: Implications for learning in introductory geoscience courses. Journal of Geoscience Education, 53, 4, 462–470.</rawString>
+</citation>
+<citation valid="true">
+<date>2015</date>
+<journal>ACM Transactions on Computer-Human Interaction,</journal>
+<volume>22</volume>
+<location>Publication date:</location>
+<marker>2015</marker>
+<rawString>ACM Transactions on Computer-Human Interaction, Vol. 22, No. 2, Article 10, Publication date: April 2015.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Means</author>
+<author>Y Toyama</author>
+<author>R Murphy</author>
+<author>M Bakia</author>
+<author>K Jones</author>
+</authors>
+<title>Teaching Recommender Systems at Large Scale 10:23</title>
+<date>2010</date>
+<booktitle>Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies. Center for Technology in Learning, U.S. Department of Education,</booktitle>
+<location>Washington, DC.</location>
+<marker>Means, Toyama, Murphy, Bakia, Jones, 2010</marker>
+<rawString>Teaching Recommender Systems at Large Scale 10:23 B. Means, Y. Toyama, R. Murphy, M. Bakia, and K. Jones. 2010. Evaluation of Evidence-Based Practices in Online Learning: A Meta-Analysis and Review of Online Learning Studies. Center for Technology in Learning, U.S. Department of Education, Washington, DC.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E T Pascarella</author>
+<author>P T Terenzini</author>
+</authors>
+<title>How College Affects Students: Volume 2, A Third Decade of Research. Jossey-Bass,</title>
+<date>2005</date>
+<location>San Francisco, CA.</location>
+<marker>Pascarella, Terenzini, 2005</marker>
+<rawString>E. T. Pascarella and P. T. Terenzini. 2005. How College Affects Students: Volume 2, A Third Decade of Research. Jossey-Bass, San Francisco, CA.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G B Semb</author>
+<author>J A Ellis</author>
+<author>J Araujo</author>
+</authors>
+<title>Long-term memory for knowledge learned in school.</title>
+<date>1993</date>
+<journal>Journal of Educational Psychology</journal>
+<volume>85</volume>
+<pages>305--316</pages>
+<marker>Semb, Ellis, Araujo, 1993</marker>
+<rawString>G. B. Semb, J. A. Ellis, and J. Araujo. 1993. Long-term memory for knowledge learned in school. Journal of Educational Psychology 85, 2, 305–316.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Julia Wilkowski</author>
+<author>Amit Deutsch</author>
+<author>Daniel M Russell</author>
+</authors>
+<title>Student skill and goal achievement in the mapping with google MOOC.</title>
+<date>2014</date>
+<booktitle>In Proceedings of the 1st ACM conference on Learning @ Scale Conference (L@S’14).</booktitle>
+<pages>3--10</pages>
+<publisher>ACM,</publisher>
+<location>New York, NY,</location>
+<marker>Wilkowski, Deutsch, Russell, 2014</marker>
+<rawString>Julia Wilkowski, Amit Deutsch, and Daniel M. Russell. 2014. Student skill and goal achievement in the mapping with google MOOC. In Proceedings of the 1st ACM conference on Learning @ Scale Conference (L@S’14). ACM, New York, NY, 3–10.</rawString>
+</citation>
+<citation valid="true">
+<title>revised January 2015; accepted</title>
+<date>2014</date>
+<journal>ACM Transactions on Computer-Human Interaction,</journal>
+<volume>22</volume>
+<institution>Received</institution>
+<location>Publication date:</location>
+<marker>2014</marker>
+<rawString>Received June 2014; revised January 2015; accepted January 2015 ACM Transactions on Computer-Human Interaction, Vol. 22, No. 2, Article 10, Publication date: April 2015.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

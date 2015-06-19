@@ -1,0 +1,629 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>A comparative assessment of univariate longevity measures using zoological animal records</title><authors><author><name>Jacob A Moorad</name><affiliation>Duke University, Department of Biology | Duke University, Duke Population Research Institute</affiliation></author><author><name>Daniel E L Promislow</name><affiliation>University of Georgia, Department of Genetics</affiliation></author><author><name>Nate Flesness</name><affiliation>International Species Information System</affiliation></author><author><name>Richard A Miller</name><affiliation>University of Michigan, Department of Pathology, School of Medicine</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A comparative assessment of univariate longevity measures using zoological animal records</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Jacob</forename>
+								<forename type="middle">A</forename>
+								<surname>Moorad</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation>
+								<orgName type="department">Duke Population Research Institute</orgName>
+								<orgName type="institution">Duke University</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Daniel</forename>
+								<forename type="middle">E L</forename>
+								<surname>Promislow</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Genetics</orgName>
+								<orgName type="institution">University of Georgia</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<region>GA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Nate</forename>
+								<surname>Flesness</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">International Species Information System</orgName>
+								<address>
+									<settlement>Eagan</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Richard</forename>
+								<forename type="middle">A</forename>
+								<surname>Miller</surname>
+							</persName>
+							<affiliation>
+								<orgName key="dep1" type="department">Department of Pathology</orgName>
+								<orgName key="dep2" type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A comparative assessment of univariate longevity measures using zoological animal records</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+					<idno type="DOI">10.1111/j.1474-9726.2012.00861.x</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>aging</term>
+					<term>biogerontology</term>
+					<term>captive</term>
+					<term>demography</term>
+					<term>maximum lifespan</term>
+					<term>senescence</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Comparative biogerontology evaluates cellular, molecular, physiological , and genomic properties that distinguish short-lived from long-lived species. These studies typically use maximum reported lifespan (MRLS) as the index with which to compare traits, but there is a general awareness that MRLS is not ideal owing to statistical shortcomings that include bias resulting from small sample sizes. Nevertheless, MRLS has enough species specific information to show strong associations with many other species-specific traits, such as body mass, stress resistance , and codon usage. The major goal of this study was to see if we could identify surrogate measures with better statistical properties than MRLS but that still capture inter-species differences in extreme lifespan. Using zoological records of 181 bird and mammal species, we evaluated 16 univariate metrics of aging and longevity, including nonparametric quantile-based measures and parameters derived from demographic models of aging, for three desirable statistical properties. We wished to identify those measures that: (i) correlated well with MRLS when the biasing effects of sample size were removed; (ii) correlated weakly with population size; and (iii) were highly robust to the effects of sampling error. Nonparametric univari-ate descriptors of the distribution of lifespans clearly outper-formed the measures derived from demographic analyses. Mean adult lifespan and quantile-based measures, and in particular the 90th quantile of longevity, performed particularly well, demonstrating far less sensitivity to small sample size effects than MRLS while preserving much of the information contained in the maximum lifespan measure. These measures should take the place of MRLS in comparative studies of lifespan.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Austad SN</author>
+<author>Fischer KE</author>
+</authors>
+<title>Mammalian aging, metabolism, and ecology: evidence from the bats and marsupials.</title>
+<date>1991</date>
+<journal>J. Gerontol.</journal>
+<volume>46</volume>
+<pages>47--53</pages>
+<marker>SN, KE, 1991</marker>
+<rawString>Austad SN, Fischer KE (1991) Mammalian aging, metabolism, and ecology: evidence from the bats and marsupials. J. Gerontol. 46, B47–B53.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Bokov AF</author>
+<author>J Gelfond</author>
+</authors>
+<title>Survomatic: analysis of longevity data.</title>
+<date>2010</date>
+<marker>AF, Gelfond, 2010</marker>
+<rawString>Bokov AF, Gelfond J (2010) Survomatic: analysis of longevity data.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Bronikowski AM</author>
+<author>J Altmann</author>
+<author>Brockman DK</author>
+<author>M Cords</author>
+<author>Fedigan LM</author>
+<author>A Pusey</author>
+<author>T Stoinski</author>
+<author>Morris WF</author>
+<author>Strier KB</author>
+<author>Alberts SC</author>
+</authors>
+<title>Aging in the natural world: comparative data reveal similar mortality patterns across primates.</title>
+<date>2011</date>
+<journal>Science</journal>
+<volume>331</volume>
+<pages>1325--1328</pages>
+<marker>AM, Altmann, DK, Cords, LM, Pusey, Stoinski, WF, KB, SC, 2011</marker>
+<rawString>Bronikowski AM, Altmann J, Brockman DK, Cords M, Fedigan LM, Pusey A, Stoinski T, Morris WF, Strier KB, Alberts SC (2011) Aging in the natural world: comparative data reveal similar mortality patterns across primates. Science 331, 1325–1328.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Carey JR</author>
+<author>Judge DS</author>
+</authors>
+<title>Longevity Records: Monographs on Population Aging Vol 8: Life Spans of Mammals, Birds, Amphibians, Reptiles, and Fish.</title>
+<date>2000</date>
+<publisher>University Press Of</publisher>
+<location>Odense:</location>
+<marker>JR, DS, 2000</marker>
+<rawString>Carey JR, Judge DS (2000) Longevity Records: Monographs on Population Aging Vol 8: Life Spans of Mammals, Birds, Amphibians, Reptiles, and Fish. Odense: University Press Of Southern Denmark.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Comfort</author>
+</authors>
+<title>The Biology of Senescence.</title>
+<date>1979</date>
+<location>London: Churchill Livingstone.</location>
+<contexts>
+<context citStr="Comfort, 1979" endWordPosition="392" position="2751" startWordPosition="391">le preserving much of the information contained in the maximum lifespan measure. These measures should take the place of MRLS in comparative studies of lifespan. Key words: aging; biogerontology; captive; demography; maximum lifespan; senescence. Introduction Aging is a process that gradually impairs vigorous mature adults and renders them more susceptible to a wide range of diseases and disabilities, leading to a progressive increase in mortality risk. Maximum recorded lifespan (MRLS) is the standard comparative metric used in experimental and observational research into the causes of aging (Comfort, 1979; Austad &amp; Fischer, 1991; Holmes &amp; Austad, 1995; Wilkinson &amp; South, 2002; Hulbert et al., 2007), and it is often taken as the key endpoint in comparisons among species, genotypes, or groups exposed to different environmental manipulations. Comparative biogerontologists have long made use of MRLS as a surrogate for species-specific aging rates, and much effort has gone into compiling tables of MRLS values for this purpose (Finch, 1990; Carey &amp; Judge, 2000; de Magalhaes &amp; Costa, 2009). It is widely appreciated, however, that MRLS is a problematic indicator for several reasons. First, MRLS is a d</context>
+</contexts>
+<marker>Comfort, 1979</marker>
+<rawString>Comfort A (1979) The Biology of Senescence. London: Churchill Livingstone.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Finch CE</author>
+</authors>
+<title>Longevity, Senescence, and the Genome.</title>
+<date>1990</date>
+<publisher>University of Chicago Press.</publisher>
+<location>Chicago:</location>
+<marker>CE, 1990</marker>
+<rawString>Finch CE (1990) Longevity, Senescence, and the Genome. Chicago: University of Chicago Press.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Finch CE</author>
+<author>Pike MC</author>
+<author>M Witten</author>
+</authors>
+<title>Slow mortality-rate accelerations during aging in some animals approximate that of humans.</title>
+<date>1990</date>
+<journal>Science</journal>
+<volume>249</volume>
+<pages>902--905</pages>
+<marker>CE, MC, Witten, 1990</marker>
+<rawString>Finch CE, Pike MC, Witten M (1990) Slow mortality-rate accelerations during aging in some animals approximate that of humans. Science 249, 902– 905.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Flatt</author>
+<author>Kawecki TJ</author>
+</authors>
+<title>Juvenile hormone as a regulator of the trade-off between reproduction and life span in Drosophila melanogaster.</title>
+<date>2007</date>
+<journal>Evolution</journal>
+<volume>61</volume>
+<pages>1980--1991</pages>
+<marker>Flatt, TJ, 2007</marker>
+<rawString>Flatt T, Kawecki TJ (2007) Juvenile hormone as a regulator of the trade-off between reproduction and life span in Drosophila melanogaster. Evolution 61, 1980–1991.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Gao GM</author>
+<author>W Wan</author>
+<author>Zhang SJ</author>
+<author>Redden DT</author>
+<author>Allison DB</author>
+</authors>
+<title>Testing for differences in distribution tails to test for differences in ‘maximum’ lifespan.</title>
+<date>2008</date>
+<journal>BMC Med. Res. Methodol.</journal>
+<volume>8</volume>
+<pages>49--58</pages>
+<marker>GM, Wan, SJ, DT, DB, 2008</marker>
+<rawString>Gao GM, Wan W, Zhang SJ, Redden DT, Allison DB (2008) Testing for differences in distribution tails to test for differences in ‘maximum’ lifespan. BMC Med. Res. Methodol. 8, 49–58.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Holmes DJ</author>
+<author>Austad SN</author>
+</authors>
+<title>The evolution of avian senescence patterns – implications for understanding primary aging processes.</title>
+<date>1995</date>
+<journal>Am. Zool.</journal>
+<volume>35</volume>
+<pages>307--317</pages>
+<marker>DJ, SN, 1995</marker>
+<rawString>Holmes DJ, Austad SN (1995) The evolution of avian senescence patterns – implications for understanding primary aging processes. Am. Zool. 35, 307–317.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Hulbert AJ</author>
+<author>R Pamplona</author>
+<author>R Buffenstein</author>
+<author>Buttemer WA</author>
+</authors>
+<title>Life and death: metabolic rate, membrane composition, and life span of animals.</title>
+<date>2007</date>
+<journal>Physiol. Rev.</journal>
+<volume>87</volume>
+<pages>1175--1213</pages>
+<marker>AJ, Pamplona, Buffenstein, WA, 2007</marker>
+<rawString>Hulbert AJ, Pamplona R, Buffenstein R, Buttemer WA (2007) Life and death: metabolic rate, membrane composition, and life span of animals. Physiol. Rev. 87, 1175–1213.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Jones OR</author>
+<author>Gaillard JM</author>
+<author>S Tuljapurkar</author>
+<author>Alho JS</author>
+<author>Armitage KB</author>
+<author>Becker PH</author>
+<author>P Bize</author>
+<author>J Brommer</author>
+<author>A Charmantier</author>
+<author>M Charpentier</author>
+<author>T Clutton-Brock</author>
+<author>Dobson FS</author>
+<author>M Festa-Bianchet</author>
+<author>L Gustafsson</author>
+<author>H Jensen</author>
+<author>Jones CG</author>
+<author>Lillandt BG</author>
+<author>R McCleery</author>
+<author>J Merila</author>
+<author>P Neuhaus</author>
+<author>Nicoll MAC</author>
+<author>K Norris</author>
+<author>Oli MK</author>
+<author>J Pemberton</author>
+<author>H Pietiainen</author>
+<author>Ringsby TH</author>
+<author>A Roulin</author>
+<author>Saether BE</author>
+<author>Setchell JM</author>
+<author>Sheldon BC</author>
+<author>Thompson PM</author>
+<author>H Weimerskirch</author>
+<author>Wickings EJ</author>
+<author>T Coulson</author>
+</authors>
+<title>Senescence rates are determined by ranking on the fast-slow life-history continuum.</title>
+<date>2008</date>
+<journal>Ecol. Lett.</journal>
+<volume>11</volume>
+<pages>664--673</pages>
+<marker>OR, JM, Tuljapurkar, JS, KB, PH, Bize, Brommer, Charmantier, Charpentier, Clutton-Brock, FS, Festa-Bianchet, Gustafsson, Jensen, CG, BG, McCleery, Merila, Neuhaus, MAC, Norris, MK, Pemberton, Pietiainen, TH, Roulin, BE, JM, BC, PM, Weimerskirch, EJ, Coulson, 2008</marker>
+<rawString>Jones OR, Gaillard JM, Tuljapurkar S, Alho JS, Armitage KB, Becker PH, Bize P, Brommer J, Charmantier A, Charpentier M, Clutton-Brock T, Dobson FS, Festa-Bianchet M, Gustafsson L, Jensen H, Jones CG, Lillandt BG, McCleery R, Merila J, Neuhaus P, Nicoll MAC, Norris K, Oli MK, Pemberton J, Pietiainen H, Ringsby TH, Roulin A, Saether BE, Setchell JM, Sheldon BC, Thompson PM, Weimerskirch H, Wickings EJ, Coulson T (2008) Senescence rates are determined by ranking on the fast-slow life-history continuum. Ecol. Lett. 11, 664–673.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Lande</author>
+<author>Arnold SJ</author>
+</authors>
+<title>The measurement of selection on correlated characters.</title>
+<date>1983</date>
+<journal>Evolution</journal>
+<volume>37</volume>
+<pages>1210--1226</pages>
+<marker>Lande, SJ, 1983</marker>
+<rawString>Lande R, Arnold SJ (1983) The measurement of selection on correlated characters. Evolution 37, 1210–1226.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>de Magalhaes JP</author>
+<author>J Costa</author>
+</authors>
+<title>A database of vertebrate longevity records and their relation to other life-history traits.</title>
+<date>2009</date>
+<journal>J. Evol. Biol.</journal>
+<volume>28</volume>
+<pages>1770--1774</pages>
+<marker>JP, Costa, 2009</marker>
+<rawString>de Magalhaes JP, Costa J (2009) A database of vertebrate longevity records and their relation to other life-history traits. J. Evol. Biol. 28, 1770–1774.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Maklakov AA</author>
+<author>U Friberg</author>
+<author>Dowling DK</author>
+<author>G Arnqvist</author>
+</authors>
+<title>Within-population variation in cytoplasmic genes affects female life span and aging in Drosophila melanogaster.</title>
+<date>2006</date>
+<journal>Evolution</journal>
+<volume>60</volume>
+<pages>2081--2086</pages>
+<marker>AA, Friberg, DK, Arnqvist, 2006</marker>
+<rawString>Maklakov AA, Friberg U, Dowling DK, Arnqvist G (2006) Within-population variation in cytoplasmic genes affects female life span and aging in Drosophila melanogaster. Evolution 60, 2081–2086.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G Peron</author>
+<author>O Gimenez</author>
+<author>A Charmantier</author>
+<author>Gaillard JM</author>
+<author>Crochet PA</author>
+</authors>
+<title>Age at the onset of senescence in birds and mammals is predicted by early-life performance.</title>
+<date>2010</date>
+<journal>Proc. Biol. Sci.</journal>
+<volume>277</volume>
+<pages>2849--2856</pages>
+<contexts>
+<context citStr="Peron et al., 2010" endWordPosition="1573" position="10315" startWordPosition="1570">bly well (q = 0.53, P &amp;lt; 0.0001, Spearman’s rank correlation; see Fig. 1). Nearly two-thirds of the species with both T1 and T2 estimates had an age at minimal mortality that exceeded the age at reproductive onset (108 of 163 species). This pattern is consistent with Promislow’s (1991) earlier analysis of a much smaller set of species records in which he showed T1 &amp;lt; T2 in 75% (18 of 24) of cases where age at maturity and age at minimal mortality differed. More recent life history analyses also show that the onset of aging tends to follow the timing of reproductive maturity (Jones et al., 2008; Peron et al., 2010). The correlation between T1 and T2 estimates strengthened slightly when the collection of species was reduced to include only the 125 species with 150 or more adults (q = 0.58, P &amp;lt; 0.0001). While the positive correlation was encouraging, it seemed prudent to analyze the sampling properties of the various metrics using each T-definition independently. As we show below, however, the choice of T-definition had little effect on the sampling properties of the metrics. Metric estimates Using both threshold definitions, we estimated 16 univariate longevity values (defined in Table 1) for each of the</context>
+</contexts>
+<marker>Peron, Gimenez, Charmantier, JM, PA, 2010</marker>
+<rawString>Peron G, Gimenez O, Charmantier A, Gaillard JM, Crochet PA (2010) Age at the onset of senescence in birds and mammals is predicted by early-life performance. Proc. Biol. Sci. 277, 2849–2856.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Pletcher SD</author>
+<author>Khazaeli AA</author>
+<author>Curtsinger JW</author>
+</authors>
+<title>Why do life spans differ? Partitioning mean longevity differences in terms of age-specific mortality parameters.</title>
+<date>2000</date>
+<journal>J. Gerontol.</journal>
+<volume>55</volume>
+<pages>381--389</pages>
+<marker>SD, AA, JW, 2000</marker>
+<rawString>Pletcher SD, Khazaeli AA, Curtsinger JW (2000) Why do life spans differ? Partitioning mean longevity differences in terms of age-specific mortality parameters. J. Gerontol. 55, B381–B389.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Price GR</author>
+</authors>
+<title>Selection and covariance.</title>
+<date>1970</date>
+<journal>Nature</journal>
+<volume>227</volume>
+<pages>520--521</pages>
+<marker>GR, 1970</marker>
+<rawString>Price GR (1970) Selection and covariance. Nature 227, 520–521.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Price GR</author>
+</authors>
+<title>Extension of covariance selection mathematics.</title>
+<date>1972</date>
+<journal>Ann. Hum. Genet.</journal>
+<volume>35</volume>
+<pages>485--490</pages>
+<marker>GR, 1972</marker>
+<rawString>Price GR (1972) Extension of covariance selection mathematics. Ann. Hum. Genet. 35, 485–490.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Promislow DEL</author>
+</authors>
+<title>Senescence in natural populations of mammals – a comparative-study.</title>
+<date>1991</date>
+<journal>Evolution</journal>
+<volume>45</volume>
+<pages>1869--1887</pages>
+<marker>DEL, 1991</marker>
+<rawString>Promislow DEL (1991) Senescence in natural populations of mammals – a comparative-study. Evolution 45, 1869–1887.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Promislow DEL</author>
+<author>M Tatar</author>
+<author>S Pletcher</author>
+<author>Carey JR</author>
+</authors>
+<title>Below threshold mortality: implications for studies in evolution, ecology and demography.</title>
+<date>1999</date>
+<journal>J. Evol. Biol.</journal>
+<volume>12</volume>
+<pages>314--328</pages>
+<marker>DEL, Tatar, Pletcher, JR, 1999</marker>
+<rawString>Promislow DEL, Tatar M, Pletcher S, Carey JR (1999) Below threshold mortality: implications for studies in evolution, ecology and demography. J. Evol. Biol. 12, 314–328.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Development</author>
+</authors>
+<title>Core Team</title>
+<date>2011</date>
+<location>Vienna, Austria:</location>
+<marker>Development, 2011</marker>
+<rawString>R Development Core Team (2011) R: A Language and Environment for Statistical Computing. Vienna, Austria: The R Foundation for Statistical Computing.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>Evolutionary theories of aging: confirmation of a fundamental prediction, with implications for the genetic basis and evolution of life span.</title>
+<date>1998</date>
+<journal>Am. Nat.</journal>
+<volume>152</volume>
+<pages>24--44</pages>
+<marker>RE, 1998</marker>
+<rawString>Ricklefs RE (1998) Evolutionary theories of aging: confirmation of a fundamental prediction, with implications for the genetic basis and evolution of life span. Am. Nat. 152, 24–44.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>Intrinsic aging-related mortality in birds.</title>
+<date>2000</date>
+<journal>J. Avian Biol.</journal>
+<volume>31</volume>
+<pages>103--111</pages>
+<marker>RE, 2000</marker>
+<rawString>Ricklefs RE (2000) Intrinsic aging-related mortality in birds. J. Avian Biol. 31, 103–111.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>(2010a) Insights from comparative analyses of aging in birds and mammals.</title>
+<journal>Aging Cell</journal>
+<volume>9</volume>
+<pages>273--284</pages>
+<marker>RE, </marker>
+<rawString>Ricklefs RE (2010a) Insights from comparative analyses of aging in birds and mammals. Aging Cell 9, 273–284.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>(2010b) Life-history connections to rates of aging in terrestrial vertebrates.</title>
+<journal>Proc. Nat. Acad. Sci. U.S.A.</journal>
+<volume>107</volume>
+<pages>10314--10319</pages>
+<marker>RE, </marker>
+<rawString>Ricklefs RE (2010b) Life-history connections to rates of aging in terrestrial vertebrates. Proc. Nat. Acad. Sci. U.S.A. 107, 10314–10319.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>Scheuerlein A</title>
+<date>2001</date>
+<journal>Exp. Gerontol.</journal>
+<volume>36</volume>
+<pages>845--857</pages>
+<marker>RE, 2001</marker>
+<rawString>Ricklefs RE, Scheuerlein A (2001) Comparison of aging-related mortality among birds and mammals. Exp. Gerontol. 36, 845–857.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Ricklefs RE</author>
+</authors>
+<title>Scheuerlein A</title>
+<date>2002</date>
+<journal>J. Gerontol.</journal>
+<volume>57</volume>
+<pages>69--76</pages>
+<marker>RE, 2002</marker>
+<rawString>Ricklefs RE, Scheuerlein A (2002) Biological implications of the Weibull and Gompertz models of aging. J. Gerontol. 57, B69–B76.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Robertson</author>
+</authors>
+<title>A mathematical model of culling process in dairy cattle.</title>
+<date>1966</date>
+<journal>Anim. Prod.</journal>
+<volume>8</volume>
+<pages>95--108</pages>
+<contexts>
+<context citStr="Robertson, 1966" endWordPosition="5805" position="36682" startWordPosition="5804">Third, mean lifespan is highly correlatedwithMRLS (correcting for population size), with a partial correlation coefficient of between 0.91 and 0.93. Other measures, such as Q90, may perform better in this respect, but it appears that a great deal of the biological information that is parameterized by maximum lifespan is also expressed by the mean lifespan of those animals that live at least as long as the ages measured by T1 and T2. Last, themost familiar definitions and predictions of the evolutionary change of phenotypes from one generation to the next are expressed as changes in the means (Robertson, 1966; Price, 1970, 1972; Lande &amp; Arnold, 1983). In evolutionary biology, it is changes in the means, and occasionally the variances, of phenotypes that are nearly always the subject of study. We note, though, that the means and medians used for our calculations are for samples that exclude perinatal and a high proportion of juvenile mortality, and cannot be used to evaluate issues related to life expectancy at birth or proportions of offspring surviving to reproductive age. Ultimately, the choice of whether to compare means or extremes may depend upon the nature of the comparative question that is</context>
+</contexts>
+<marker>Robertson, 1966</marker>
+<rawString>Robertson A (1966) A mathematical model of culling process in dairy cattle. Anim. Prod. 8, 95–108.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Spencer CC</author>
+<author>Promislow DEL</author>
+</authors>
+<title>Age-specific changes in epistatic effects on mortality rate in Drosophila melanogaster.</title>
+<date>2005</date>
+<journal>J. Hered.</journal>
+<volume>96</volume>
+<pages>513--521</pages>
+<marker>CC, DEL, 2005</marker>
+<rawString>Spencer CC, Promislow DEL (2005) Age-specific changes in epistatic effects on mortality rate in Drosophila melanogaster. J. Hered. 96, 513–521. Comparative longevity measures, J. A. Moorad et al.</rawString>
+</citation>
+<citation valid="true">
+<title>The Authors Aging Cell ª 2012 Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland Sturges HA</title>
+<date>2012</date>
+<journal>J. Am. Stat. Assoc.</journal>
+<volume>21</volume>
+<pages>65--66</pages>
+<contexts>
+<context citStr="(2012)" endWordPosition="996" position="6692" startWordPosition="996">d change among biologically interesting populations. Questions about the evolution of different aging rates and the cellular and molecular processes that can lead to striking differences in longevity among related species are the central arena for comparative Correspondence Jacob Moorad, Department of Biology, Duke University, Box 90339, Durham, NC 27708, USA. Tel.: (919) 660 7291; fax: (919) 660 7293; e-mail: jacob.moorad@ duke.edu Accepted for publication 10 July 2012 940 ª 2012 The Authors Aging Cell ª 2012 Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland Aging Cell (2012) 11, pp940–948 Doi: 10.1111/j.1474-9726.2012.00861.x Ag in g Ce ll biogerontology. Within orders of mammals, MRLS values among species of rodents or primates can vary four- to eightfold. Many evaluations of hypotheses about comparative aging among species have depended on MRLS as the index of inter-species differences in aging rate, despite the measure’s well-known defects. Our goal in this project was to make use of population data, obtained from zoo populations of nearly 200 bird and mammal species, to explore the sampling properties of various univariate aging and longevity metrics. Some of</context>
+</contexts>
+<marker>2012</marker>
+<rawString>ª 2012 The Authors Aging Cell ª 2012 Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland Sturges HA (1926) The choice of a class interval Case I Computations involving a single. J. Am. Stat. Assoc. 21, 65–66.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Therneau</author>
+<author>T Lumley</author>
+</authors>
+<title>survival: survival analysis, including penalised likelihood.</title>
+<date>2011</date>
+<contexts>
+<context citStr="Therneau &amp; Lumley, 2011" endWordPosition="6498" position="41057" startWordPosition="6495">he onset of aging (T). This age was determined in two different ways: First, we ignored all deaths that occurred before the age of first reproduction as determined by the literature (see Table S1). When sex-specific ages of first reproduction were available and different, we took the greater of the two ages to be the truncation age (T1) for both sexes. The second method found the age at which mortality was minimized (T2). For each reduced population, we used a simple iterative routine to find T2: 1 We calculated LX values using the ‘Survival’ package in R 2.11.0 (R Development Core Team 2011; Therneau &amp; Lumley, 2011). Individuals with known death dates (complete) and dates of last observation (rightcensored) were used. We binned the population into groups of similar lifespans, defined by regular age intervals. The bin number is defined by the ‘Sturges’ algorithm (Sturges, 1926), where the number of classes is a function of sample size, N  1þ log2 nð Þ. This function is commonly used to construct histograms. Cumulative survival rates were converted to mortality rates. 2 The age mid-point of the class with the lowest mortality value was the provisional T2 value. 3 A new population was defined by individual</context>
+</contexts>
+<marker>Therneau, Lumley, 2011</marker>
+<rawString>Therneau T, Lumley T (2011) survival: survival analysis, including penalised likelihood.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Wang</author>
+<author>Q Li</author>
+<author>Redden DT</author>
+<author>R Weindruch</author>
+<author>Allison DB</author>
+</authors>
+<title>Statistical methods for testing effects on ‘‘maximum lifespan’’.</title>
+<date>2004</date>
+<journal>Mech. Ageing Dev.</journal>
+<volume>125</volume>
+<pages>629--632</pages>
+<contexts>
+<context citStr="Wang et al., 2004" endWordPosition="820" position="5544" startWordPosition="817">1990; Pletcher et al., 2000; Bronikowski et al., 2011), and the intercept of a Gompertz plot is interpreted as the inherent frailty of the members of the population (Spencer &amp; Promislow, 2005; Maklakov et al., 2006; Flatt &amp; Kawecki, 2007). In other cases, parameter estimates derived from these models are combined, for example, by multiplication, to arrive at a univariate summary of aging rates (Ricklefs, 1998; Ricklefs &amp; Scheuerlein, 2001). Nonparametric methods have also been proposed that summarize the lifespan distribution of an elite subset of the population into quantiles and ⁄ or means (Wang et al., 2004; Gao et al., 2008). One significant advantage of these alternative methods over MRLS is that their application is not limited to the empirical distributions of complete lifespans; they can benefit from the use of the Kaplan–Meier estimator, which allows the use of censored data. Each of these estimators, and their combinations, has only an indirect relationship to the underlying biological processes of aging, and it is unclear how well these longevity metrics perform compared to MRLS as an index of differences of the pace of age-related change among biologically interesting populations. Quest</context>
+</contexts>
+<marker>Wang, Li, DT, Weindruch, DB, 2004</marker>
+<rawString>Wang C, Li Q, Redden DT, Weindruch R, Allison DB (2004) Statistical methods for testing effects on ‘‘maximum lifespan’’. Mech. Ageing Dev. 125, 629–632.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wilkinson GS</author>
+<author>South JM</author>
+</authors>
+<title>Life history, ecology and longevity in bats.</title>
+<date>2002</date>
+<journal>Aging Cell</journal>
+<volume>1</volume>
+<pages>124--131</pages>
+<marker>GS, JM, 2002</marker>
+<rawString>Wilkinson GS, South JM (2002) Life history, ecology and longevity in bats. Aging Cell 1, 124–131.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Wilson DL</author>
+</authors>
+<title>The analysis of survival (mortality) data: fitting Gompertz, Weibull, and logistic functions.</title>
+<date>1994</date>
+<journal>Mech. Ageing Dev.</journal>
+<volume>74</volume>
+<pages>15--33</pages>
+<marker>DL, 1994</marker>
+<rawString>Wilson DL (1994) The analysis of survival (mortality) data: fitting Gompertz, Weibull, and logistic functions. Mech. Ageing Dev. 74, 15–33. Supporting Information Additional supporting information may be found in the online version of this article at the publisher’s web-site: Comparative longevity measures, J. A. Moorad et al.</rawString>
+</citation>
+<citation valid="true">
+<title>The Authors Aging Cell ª</title>
+<date>2012</date>
+<institution>Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland</institution>
+<contexts>
+<context citStr="(2012)" endWordPosition="996" position="6692" startWordPosition="996">d change among biologically interesting populations. Questions about the evolution of different aging rates and the cellular and molecular processes that can lead to striking differences in longevity among related species are the central arena for comparative Correspondence Jacob Moorad, Department of Biology, Duke University, Box 90339, Durham, NC 27708, USA. Tel.: (919) 660 7291; fax: (919) 660 7293; e-mail: jacob.moorad@ duke.edu Accepted for publication 10 July 2012 940 ª 2012 The Authors Aging Cell ª 2012 Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland Aging Cell (2012) 11, pp940–948 Doi: 10.1111/j.1474-9726.2012.00861.x Ag in g Ce ll biogerontology. Within orders of mammals, MRLS values among species of rodents or primates can vary four- to eightfold. Many evaluations of hypotheses about comparative aging among species have depended on MRLS as the index of inter-species differences in aging rate, despite the measure’s well-known defects. Our goal in this project was to make use of population data, obtained from zoo populations of nearly 200 bird and mammal species, to explore the sampling properties of various univariate aging and longevity metrics. Some of</context>
+</contexts>
+<marker>2012</marker>
+<rawString>ª 2012 The Authors Aging Cell ª 2012 Blackwell Publishing Ltd/Anatomical Society of Great Britain and Ireland</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

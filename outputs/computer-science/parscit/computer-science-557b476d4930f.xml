@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<category confidence="0.618203666666667">
+Personality and Individual Differences 51 (2011) 371–375
+Contents lists available at ScienceDirect
+Personality and Individual Differences
+</category>
+<construct confidence="0.208502333333333">
+journal homepage: www.elsevier.com/locate/paid
+Digit ratio (2D:4D), academic performance in computer science
+and computer-related anxiety
+</construct>
+<author confidence="0.903211">
+Mark Brosnan *, Victoria Gallop, Nida Iftikhar, Edmund Keogh
+</author>
+<affiliation confidence="0.94717">
+Dept. of Psychology, University of Bath, Bath BA2 7AY, United Kingdom
+</affiliation>
+<figure confidence="0.934838">
+a r t i c l e
+i n f o
+Article history:
+Available online 11 August 2010
+Keywords:
+Digit ratio (2D:4D)
+Testosterone
+Academic attainment
+Anxiety
+Information communication technology
+(ICT)
+a b s t r a c t
+</figure>
+<bodyText confidence="0.956500111111111">
+Being able to use information communication technology (ICT) effectively has become an essential element of participation within an increasingly digital culture. However, there are differences in participation within this digital culture. Prenatal testosterone exposure is thought to inﬂuence the development of
+numeric capabilities and relate to levels of anxiety, both of which contribute towards engagement with
+ICT. This study examined whether an index of prenatal exposure to testosterone, digit ratio (2D:4D), is
+related to successful involvement within a computer-technology context – performance in a Java programming course. Three studies (N = 73,75,65) identiﬁed a consistent negative correlation between
+2D:4D digit ratio and attainment (r % À0.2). A fourth study (N = 119) found that 2D:4D digit ratio positively correlated with two indices of computer-related anxieties, as well as anxiety sensitivity
+(r = 0.32/0.51). These results suggest that males and females who have been exposed to higher levels
+of testosterone within the womb perform better upon academic assessments of Java-related programming ability within computer science education, and have lower levels of computer-related anxieties outside computer science education. Thus, the 2D:4D index of prenatal testosterone exposure correlated
+with the two factors that directly impact upon ICT engagement, which is increasingly essential to effectively participate within educational and occupational environments.
+Ó 2010 Elsevier Ltd. All rights reserved.
+</bodyText>
+<sectionHeader confidence="0.99051" genericHeader="abstract">
+1. Introduction
+</sectionHeader>
+<bodyText confidence="0.9821605">
+The use of information communication technology (ICT – for
+example desktop or laptop computers) permeates almost all aspects of educational, occupational and leisure environments in
+modern industrial societies. Being able to use ICT effectively has
+become an essential element of the skill-base required to participate within an increasingly digital culture. The two predominant
+factors that consistently predict engagement with ICT are technological capability, speciﬁcally programming ability, and computer-related anxieties (Brosnan, 1998a for review). Reasons why
+differences in ICT use exist are multifaceted, and certainly include
+socialization and cultural inﬂuences. However, it is also likely that
+hormonal factors may play a role. Prenatal exposure to sex hormones, such as testosterone and oestrogen, has important organisational effects upon the brain, which in turn is thought to
+inﬂuence a range of behaviors (Collear &amp; Hines, 1995). These
+organisational effects may play a signiﬁcant role in inﬂuencing
+engagement with ICT.
+2D:4D digit ratio (hereafter DR) is the relative length of the 4th
+digit compared to the 2nd digit and has been argued to be a marker
+* Corresponding author. Tel.: +44 1225 386081; fax: +44 1225 386752.
+E-mail address: pssmjb@bath.ac.uk (M. Brosnan).
+0191-8869/$ - see front matter Ó 2010 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.paid.2010.07.009
+for prenatal testosterone exposure relative to prenatal oestrogen exposure (Manning, Scutt, Wilson, &amp; Lewis-Jones, 1998).
+Lutchmaya, Baron-Cohen, Raggatt, Knickmeyer, and Manning
+(2004) report a signiﬁcant correlation between DR in 2-year-olds
+and their prenatal testosterone relative to prenatal oestrogen in
+samples obtained from amniocentesis, suggesting that DR is a direct correlate of prenatal sex steroid exposure. Typically males
+are exposed to higher levels of prenatal testosterone than females
+and, consistent with this, a sex difference in DR has been identiﬁed.
+Manning et al. (1998) report a mean DR for males of 0.98 (4th digit
+longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of
+equal length). Additionally, DRs generally show a negative correlation with behaviors which typically demonstrate a male advantage
+(e.g. mental rotation) and a positive correlation with behaviors
+which typically demonstrate a female advantage (e.g. location
+memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney,
+2004; Voracek &amp; Loibl, 2009).
+Of particular relevance to the current study, DR has been related
+to numerical competency, which might impact on engagement and
+success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated
+with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary,
+2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well
+</bodyText>
+<page confidence="0.996527">
+372
+</page>
+<bodyText confidence="0.992812857142857">
+M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375
+as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan
+(2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the
+relationship between DR and numeric capabilities may relate to
+academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability
+in university-level students. This is interesting as such a relationship would be consistent with the argument that the organisational effects of sex hormones on the brain inﬂuence aspects of
+academic attainment. Java programming is widely used within
+UK university computer science courses which draw upon numeric
+competencies, such as problem-solving (see Prechelt, 2000). We
+therefore sought to examine whether DR (as an index of organisational testosterone/oestrogen) was related to an independent
+assessment of numerically-oriented capability, within a technology-based context. A preliminary study of 23 postgraduate students found a signiﬁcant negative correlation between DR and
+programming ability (Brosnan, 2004).
+Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b).
+Although sex differences in technology-based engagement might
+be related to hormonally-mediated differences in numeric abilities,
+an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and
+educators). Females generally report higher levels of anxiety than
+males (e.g. Pigott, 2003) and studies have consistently found that
+females report more computer-related anxieties than males (e.g.
+Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for
+review). Thorpe and Brosnan (2007) identiﬁed levels of computer
+anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin
+such concerns. Despite the evidence of a sex difference in anxiety,
+to date there have been only two studies examining the relationship between DR and anxiety. Evardone and Alexander (2009)
+identiﬁed a positive relationship between 2D:4D and anxiety for
+male undergraduate students, but not females. de Bruin, Verheij,
+Wiegman, and Ferdinand (2004) also suggest that males with
+anxiety disorders might have been exposed to lower prenatal testosterone levels, indexed through higher DRs (females were not
+assessed).
+Taken together, it seems that sex differences in technologybased activities might be hormonally mediated. Prenatal exposure
+to sex hormones could manifest their inﬂuence behaviorally in
+two ways: cognitively (through better ability on computer-based
+tasks) and/or emotionally (though heightened computer-based
+anxiety). However, no study to date has examined these possibilities. This paper, therefore, sought to examine the relationship between an indirect measure of prenatal hormone exposure, DR,
+and (1) computer-related attainment, and (2) computer-related
+anxiety. Within the ﬁndings described above there are discrepancies as to whether these relationships are identiﬁed for males
+and/or females as well as for the right and/or left hand. Those
+who have selected university courses are likely to have done so
+based upon their academic strengths and have been found to be
+reﬂected in their DRs (Brosnan, 2006; see also Romano, Leoni, &amp;
+Saino, 2006). Thus, we anticipate that those who have numeric
+strengths and have selected computer science may tend towards
+a more male-typical DR than the normal population. Typically,
+those within university education who have selected programming courses do not display computer-related anxiety. It is,
+therefore, possible that those who select courses that have little
+computer programming may be more likely to exhibit computer
+anxiety. We therefore studied two groups, ﬁrstly computerrelated attainment in those who had selected programming,
+and computer-related anxiety in those who had not selected
+programming.
+</bodyText>
+<listItem confidence="0.575642">
+2. Study 1: computer-related attainment: method
+2.1. Participants
+73 students taking an undergraduate ﬁrst year (ﬁrst semester)
+</listItem>
+<bodyText confidence="0.991488487804878">
+course in Java programming. There were 60 males and 13 females,
+aged 18–41 (mean = 20.6 years, S.D. = 5.2 years). As a prerequisite
+to take the course all students had achieved an A grade in A-level
+mathematics (the top grade for UK examinations typically taken at
+age 18 to enter university at the time of the study1). A replication
+study the following year (study 1b, see below) recruited 75 students
+taking the same undergraduate ﬁrst year (ﬁrst semester) course in
+Java programming. There were 53 males and 22 females, aged
+18–41 (mean = 20.9 years, S.D. = 3.7 years). A second course (Java
+programming II) ran in the second semester and forms the basis of
+a third study. 65 (49 males and 16 females) students (from the 75
+in study 1b) took the second semester unit (study 1c).
+2.2. Design and procedure
+The second and fourth digits of both the right and left hand
+were measured using transparent rulers, accurate to 1 mm. Selfmeasurement of DR was used in these studies, and has been validated against digital calliper measurements (Brosnan, 2006). Discrepancies have been reported between direct measurement of
+DR and measurement from a photocopy (Caswell &amp; Manning,
+2009; Manning, Fink, Neave, &amp; Caswell, 2005) which need to be
+borne in mind when interpreting the results. The DRs were calculated for the left and right hands and then averaged (e.g. Brosnan,
+2008). In addition, the difference in right and left DRs was calculated (right DR – left DR: Dr-l). Four variables were therefore calculated for DR: right hand DR, left hand DR, averaged (mean) DR and
+the difference between right and left hand DR (Dr-l).
+Java was selected as the programming language of study as it
+is currently widely taught within UK universities and therefore
+represents an ecologically valid task. The numerical capability
+most explicitly addressed within the programming course was
+problem solving. The course introduced students to problem analysis and provided the practical skills of reading and writing programs and producing programs to solve real world problems.
+Students were provided with domain speciﬁc problem-solving
+techniques which were formally assessed through examination
+at the end of the semester. The course ran for a 12-week semester
+and the DR assessment took place around halfway through the
+course. After the semester course was assessed, the examination
+grades were obtained. The authors were not involved in the
+assessment of the course. One-tailed tests were conducted for a
+directional prediction that lower DR (indicative of higher prenatal
+testosterone) would correlate with higher grades (i.e., a negative
+correlation).
+Data were collected at three time points. The study described
+above (study 1a) was followed by two studies the following year
+(studies 1b &amp;1c). Study 1b replicated study 1a, the only difference
+was the inclusion of a question that sought to gauge if programming experience was a factor. Students were therefore asked to
+estimate on average, how many hours per day they spent programming e.g., using Visual Basic, Java, C++, etc. The assessment for the
+study 1b course was a variant of the assessment for study 1a. Study
+</bodyText>
+<footnote confidence="0.932833">
+1c was a replication of study 1b, following up the students from
+study 1b who selected a further Java programming course in the
+</footnote>
+<page confidence="0.436152">
+1
+</page>
+<bodyText confidence="0.6424534">
+From 2010 an A* grade is now possible (www.direct.gov.uk).
+M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375
+second semester. The assessment for the semester two course was
+based upon an extension and development of the principles from
+the ﬁrst semester course.
+</bodyText>
+<sectionHeader confidence="0.698055" genericHeader="categories and subject descriptors">
+3. Results and discussion
+</sectionHeader>
+<bodyText confidence="0.991061827586207">
+There were no signiﬁcant sex differences in age, grades obtained nor digit ratio variables for studies 1a–c (all t71 &amp;lt; 0.8, ns),
+see Table 1. Consequently the sexes were collapsed into a single
+group. For study 1a, a Pearson’s correlation revealed a signiﬁcant
+negative relationship between average DR and Java grades (r73 =
+À0.20, p = 0.04). This indicated that the lower the DR (indicating
+higher prenatal testosterone exposure) the higher the Java grades.
+Whilst both DRs showed the same direction of results as the averaged DR, only the right hand reached statistical signiﬁcance (right
+hand r = À0.22, p = 0.034; left hand r = À0.13, ns). The left and right
+hand DRs signiﬁcantly correlated with each other (r = 0.46;
+p &amp;lt; 0.01). Dr-l showed no relationship with grades obtained
+(r73 = À0.09, ns). Although non-signiﬁcant, there was a small effect
+of sex for digit ratio (Cohen’s d = 0.2, see Table 1). To control for this
+potential small effect, partial correlations were rerun, controlling
+for sex. The relationship between average and right hand DR with
+attainment retained signiﬁcance (r70 = À0.21, p = 0.04; r70 = À0.22,
+p = 0.033, respectively).
+For studies 1b and 1c, a signiﬁcant negative correlation was
+identiﬁed again between average DR and Java programming marks
+for semester 1 (r75 = À0.20, p = 0.04) and semester 2 (r65 = À0.25,
+p = 0.02). This pattern was repeated for right and left hand DRs
+respectively (semester 1: r75 = À0.10, p = 0.20; r75 = À0.23, p =
+0.02; semester 2: r65 = À0.21, p = 0.046; r65 = À0.20, p = 0.056).
+The DRs of the right and left hands signiﬁcantly correlated with
+each other (r75 = 0.33, p = 0.002) and the difference between the
+DRs (Dr-l) did not correlate with grades (semester 1: r75 = À0.10,
+ns; semester 2: r65 = 0.03, ns). Although the second semester
+Table 1
+Means, standard deviations and effect sizes (Cohen’s ‘d’), for male and female digit
+ratio (2D:4D), demographic variables and Java grades (Studies 1a,b,c).
+</bodyText>
+<figure confidence="0.802281323529412">
+Males
+Females
+p
+d
+Study 1a:
+Right hand digit ratio
+Left hand digit ratio
+Average digit ratio
+Dr-l
+Age
+Grades
+0.981 (0.045)
+0.984 (0.043)
+0.983 (0.037)
+À0.004 (0.048)
+20.40 (4.92)
+66 (18)
+0.989 (0.043)
+0.993 (0.045)
+0.991 (0.040)
+À0.003 (0.036)
+22.00 (6.78)
+67 (23)
+ns
+ns
+ns
+ns
+ns
+ns
+0.18
+0.20
+0.20
+0.02
+0.27
+0.05
+Study 1b:
+Right hand digit ratio
+Left hand digit ratio
+Average digit ratio
+Dr-l
+Age
+Grades
+0.978 (0.053)
+0.987 (0.045)
+0.983 (0.040)
+0.009 (0.061)
+20.79 (3.87)
+61 (18)
+0.996 (0.038)
+0.984 (0.034)
+0.990 (0.033)
+À0.012 (.030)
+21.09 (3.45)
+58 (16)
+ns
+ns
+ns
+ns
+ns
+ns
+0.39
+0.08
+0.19
+0.44
+0.08
+0.18
+Study 1c:
+Right hand digit ratio
+Left hand digit ratio
+Average digit ratio
+Dr-l
+Age
+Grades
+0.976 (0.053)
+0.984 (0.049)
+0.980 (0.041)
+0.008 (0.062)
+20.00 (1.43)
+50 (16)
+0.994 (0.043)
+0.981 (0.038)
+0.988 (0.038)
+À0.013 (0.032)
+19.50 (.82)
+50 (14)
+ns
+ns
+ns
+ns
+ns
+ns
+0.37
+0.07
+0.20
+0.43
+0.43
+0
+0.994
+0.985
+0.990
+0.008
+20.72
+8 (l8)
+*
+0.35
+0
+0.21
+0.32
+0.08
+0.09
+Meta-analysis (Studies la,b,c):
+Right hand digit ratio
+0.978 (0.050)
+Left hand digit ratio
+0.985 (0.047)
+Average digit ratio
+0.982 (0.039)
+Dr-l
+À0.007 (0.057
+Age
+20.4 l (3.74)
+Grades
+59 (l9)
+**p &amp;lt; 0.01.
+p &amp;lt; 0.05.
+*
+(0.040)
+(0.038)
+(0.036)
+(0.032)
+(3.82)
+ns
+ns
+ns
+ns
+ns
+</figure>
+<page confidence="0.99894">
+373
+</page>
+<bodyText confidence="0.979185">
+grades were lower than the ﬁrst semester grades (see Table 1),
+there was a strong correlation between the grades for semester 1
+and semester 2 (r65 = 0.57, p &amp;lt; 0.001).
+Females indicated that they spent slightly longer programming
+per day than males (females: 1.7 h/day, S.D. = 2.6; males: 1.3 h/day,
+S.D. = 1.2; t27 = 0.7, ns; equal variances not assumed). DR did not
+correlate with programming per day (r75 = 0.04, ns). A partial correlation controlling for both sex and daily programming experience retained signiﬁcance for average DR and semester 1 grades
+</bodyText>
+<equation confidence="0.957952">
+(r71 = À0.21, p = 0.04) and for average DR and semester 2 grades
+(r61 = À0.27, p = 0.018).
+</equation>
+<bodyText confidence="0.970842772727273">
+3.1. Meta-analysis of digit ratio (2D:4D) and Java scores
+All the data points from studies 1a–c were combined into a single grouping to allow for a meta-analysis of the relationship between DR and Java scores (acknowledging that different Javabased assessments were taken over different time points). This
+provided an opportunity to explore the relationships over 213 data
+points (73 from study 1a, 75 from study 2b and 65 from Study 2c) –
+162 from males and 51 from females. Despite the uneven groups,
+Levine’s test for equality of variance was not violated and a t-test
+revealed a signiﬁcant sex difference in right hand DR (t211 = 1.99,
+p = 0.024) with a small effect size. A mean difference in left hand
+DR was not found between males and females see Table 1, resulting in a small effect size for the average of the left and right DRs.
+There was also a small (non-signiﬁcant) effect for Dr-l, males tending to have a relatively lower DR on their right hand, females having a relatively lower DR on the left hand. For males, the left and
+right DRs signiﬁcantly correlated (r162 = 3.1, p &amp;lt; 0.001) and did
+not differ signiﬁcantly (t161 = 1.52, p = 0.13) and the same pattern
+was evident for females (r51 = 0.67, p &amp;lt; 0.001; t50 = 1.84, p = 0.07).
+Java marks correlated with average DR (r213 = À0.20, p = 0.002),
+right hand DR (r213 = À0.15, p = 0.015) and left hand DR (r213 =
+À0.16, p = 0.011). Partial correlations controlling for sex did not
+impact upon these relationships.
+Study 1 (a–c) and the combined meta-analysis provided consistent, if weak, evidence that DR correlated with success within computer science Java programming attainment. The ﬁnal study
+examined relationships between DR and computer-related anxieties. As noted above, those who self-select into programming
+courses typically have low levels of computer-related anxiety,
+and so for this study we recruited students who had not selected
+computer science as their major.
+</bodyText>
+<listItem confidence="0.417439">
+4. Study 2: computer-related anxieties: method
+</listItem>
+<subsectionHeader confidence="0.900103">
+4.1. Participants
+</subsectionHeader>
+<bodyText confidence="0.902946">
+One hundred and nineteen undergraduate volunteers who had
+not selected computer science courses (comprising largely of psychology, sociology, social policy majors), 66 females and 53 males.
+Ages ranged from 18 to 38 years, with a mean age of 19.5 years
+(SD = 2.4).
+4.2. Design and procedure
+DR was obtained from students enrolled into social science classes who had not taken post compulsory (A-level) mathematics or
+selected any computer science courses. Demographic data was obtained (sex and age) including a report of the time spent on a range
+of computer-based tasks on average each day over the past week.
+Time estimates were made for all computer-based ICT activities,
+which were totalled (minutes per week).
+</bodyText>
+<page confidence="0.997417">
+374
+</page>
+<bodyText confidence="0.976793961538461">
+M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375
+The following three anxiety-related questionnaires were also
+completed:
+4.2.1. Computer anxiety rating scale (CARS; Rosen &amp; Weil, 1995)
+The CARS contains 20 items (e.g. ‘Sitting in front of a home computer’) rated to indicate ‘how anxious (nervous) each activity
+would make you at this point in your life’. The CARS items are rated
+on a 5-point scale (5 = ‘very much’, 4 = ‘a fair amount’, 3 = ‘a little’,
+2 = ‘not much’ and 1 = ‘not at all’) yielding a total possible score
+ranging from 20 to 100, with higher scores indicating more computer anxiety. Cronbach’s Alpha for this sample was 0.58.
+4.2.2. Clinical computer anxiety (CCA; Thorpe &amp; Brosnan, 2007)
+The CCA was derived from 6 DSM-IV criteria for a speciﬁc phobia (e.g. ‘I always feel anxious when using computers’). Respondents respond on a Likert-type scale from strongly agree (5) to
+strongly disagree (1). Scores could range from 6 through to 30
+(highly anxious). Cronbach’s Alpha for this sample was 0.53.
+4.2.3. Anxiety sensitivity index (ASI; Reiss, Peterson, Gursky, &amp;
+McNally, 1986)
+In addition to speciﬁc measures associated with computer-related fear, we also felt it useful to include a more general measure
+of anxiety. We chose to include the ASI as this is a good measure of
+fear of anxiety-related sensation, and has been shown to be a good
+predictor of the development of panic-like sensations, as well as
+showing some sex differences (Keogh, 2004). The ASI is comprised
+of 16 items designed to assess the fear of anxiety-related sensations (e.g., ‘when I notice that my heart is beating rapidly, I worry
+that I might have a heart attack’). Respondents indicate the degree
+to which each item applies to them on a 5-point scale ranging from
+‘very little’ (1) to ‘very much’ (5). Items on the ASI can be summated to give an overall anxiety sensitivity score ranging from
+16 to 80 (higher anxiety sensitivity). Cronbach’s Alpha for this
+sample was 0.88.
+</bodyText>
+<sectionHeader confidence="0.988928" genericHeader="evaluation">
+5. Results and discussion
+</sectionHeader>
+<bodyText confidence="0.920188285714286">
+Table 2 highlights the means for males and females. Males had
+signiﬁcantly lower right, left and average DRs than females
+(t99 = 2.93, p = 0.004; t92 = 3.96, p &amp;lt; 0.001; t94 = 3.83, p &amp;lt; 0.001)
+and had lower levels of computer anxiety, clinical computer anxiety (not signiﬁcant) and anxiety sensitivity (t92 = 3.24, p = 0.002;
+t117 = 1.11, p = 0.27; t93 = 4.30, p &amp;lt; 0.001). There were no sex differences in age, reported computer-experience or Dr-l (all p &amp;gt; 0.5).
+As sex differences were identiﬁed, partial correlations were
+conducted (controlling for sex), so that comparable analyses could
+be undertaken between the ﬁrst set of studies and this study. Average, right hand and left hand DRs signiﬁcantly correlated with
+computer anxiety (r116 = 0.41, p &amp;lt; 0.001; r116 = 0.33, p &amp;lt; 0.001;
+Table 2
+Means, standard deviations and effect sizes (Cohen’s ‘d’), for male and female digit
+ratio (2D:4D), demographic variables and computer-related anxiety (Study 2).
+Right hand digit ratio
+Left hand digit ratio
+</bodyText>
+<figure confidence="0.985592557692308">
+Average digit ratio
+Dr-l
+Age
+Computer anxiety
+Clinical computer anxiety
+Anxiety sensitivity
+Computer experience
+*
+**
+p &amp;lt; 0.01.
+p &amp;lt; 0.001.
+Males
+Females
+p
+d
+0.963 (0.087)
+0.957 (0.083)
+0.960 (0.077)
+0.007 (0.074)
+19.4 (2.33)
+54.70 (8.29)
+23.66 (1.80)
+52.30 (8.85)
+287.55 (133.18)
+1.006 (0.070)
+1.011 (0.060)
+1.009 (0.057)
+À0.004 (0.061)
+19.5 (2.49)
+58.95 (6.04)
+24.11 (2.44)
+60.58 (8.85)
+297.58 (157.97)
+*
+0.54
+0.75
+0.72
+0.16
+0.04
+0.59
+0.21
+0.78
+0.07
+**
+**
+ns
+ns
+*
+ns
+**
+ns
+r116 = 0.42; p &amp;lt; 0.001) clinical computer anxiety (r116 = 0.34,
+</figure>
+<bodyText confidence="0.9373934375">
+p &amp;lt; 0.001; r116 = 0.32, p = 0.006; r116 = 0.39; p &amp;lt; 0.001) and anxiety
+sensitivity (r116 = 0.51, p &amp;lt; 0.001; r116 = 0.42, p &amp;lt; 0.001; r116 = 0.49;
+p &amp;lt; 0.001). All the correlations were positive, indicating that a
+greater DR (lower prenatal testosterone) related to higher anxiety.
+A correlation between DR and computer-related anxiety was also
+conducted controlling for anxiety sensitivity (in addition to sex)
+to investigate whether there may be a relationship between DR
+and computer-related anxiety speciﬁcally. Average, right hand
+and left hand DRs correlated with computer anxiety (r115 = 0.12,
+p = 0.10; r115 = 0.07, p = 0.24; r115 = 0.15; p = 0.06) and clinical computer anxiety (r115 = 0.17, p = 0.03; r115 = 0.07, p = 0.24; r115 = 0.24;
+p = 0.005) to varying degrees. There were no signiﬁcant relationships between average, right or left hand DR and reported computer-based experience (r116 = 0.10, p = 0.14; r116 = 0.06, p = 0.27;
+r116 = 0.13; p = 0.09; respectively). Additionally, computer-based
+experience did not signiﬁcantly correlate with any of the anxiety
+measures (all p &amp;gt; 0.05) and all three anxiety measures inter-correlated (all p &amp;lt; 0.001), as did right hand and left hand DR (r119 = 0.63,
+p &amp;lt; 0.001). There were no signiﬁcant correlations for Dr-l (computer anxiety: r116 = 0.06, ns; clinical computer anxiety:
+r116 = 0.14, ns; anxiety sensitivity: r116 = 0.02, ns).
+</bodyText>
+<sectionHeader confidence="0.746866" genericHeader="conclusions">
+6. General discussion
+</sectionHeader>
+<bodyText confidence="0.998518814814815">
+DR is argued to index prenatal testosterone exposure which has
+been found to relate to an advantage in numeric capabilities and
+lower levels of anxiety. These studies have identiﬁed that a significant relationship exists between DR and academic attainment on a
+university Java programming course – a higher index of prenatal
+testosterone exposure was associated with higher attainment. In
+addition in undergraduate students, who had not selected
+computer science, DR correlated with computer-related anxiety
+(including anxiety sensitivity) – a higher index of prenatal testosterone exposure was associated with lower levels of anxiety. Taken
+together, these studies are suggestive of a role of prenatal testosterone exposure in both attainment within computer science and
+anxiety concerning the use of ICT, as well as susceptibility to panic.
+This is signiﬁcant as attainment and anxiety have been identiﬁed
+as the two major factors impacting upon effective use of ICT within
+educational, occupational and leisure environments (Brosnan,
+1998a).
+Importantly, the DR relationships retained signiﬁcance when
+controlling for sex and self-reported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and
+attainment was found for two separate cohorts of students and,
+for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were
+largely around 0.2 indicating that, although signiﬁcant, this is a
+small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp;
+Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005).
+In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is
+consistent with the previous two studies exploring the relationship
+between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are
+interesting, and could suggest that DR is simply related to anxiety
+more generally, rather than speciﬁcally to computer-related events
+(the relatively low internal validity of the computer anxiety scales
+should be borne in mind). However, what is notable about anxiety
+sensitivity is that it is related to the fear of anxiety-related sensa-
+M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375
+tion and as well as fearing cardiovascular sensations, also includes
+items pertaining to the fear of losing mental/cognitive control, as
+well as fearful of more socially-related anxiety sensations (e.g.,
+sweating, embarrassment). Controlling for anxiety sensitivity dramatically reduced the signiﬁcance of the relationship between DR
+and computer-related anxiety, although a signiﬁcant relationship
+was retained for the left hand. Given that social/performance anxiety is particularly associated with computer-related anxiety
+(Thorpe &amp; Brosnan, 2007), it would be interesting to consider in future research the potentially protective role that prenatal testosterone may have with respect to sensitivity to anxiety. Thus,
+prenatal testosterone may exert inﬂuence upon the uptake of
+ICT-based activities through both cognitive and emotional
+mechanisms.
+Of course there are some limitations that need to be considered
+with the current study. The self-measurement of DR could be open
+to measurement error and this should be borne in mind when
+interpreting the results (see Caswell &amp; Manning, 2009). The
+meta-analysis also highlighted the relative strength of the relationship between averaged (mean of left and right hand) DR and
+attainment when compared to left and right DR, which is consistent with previous research. Brosnan (2008) also identiﬁed a stronger relationship between average DR and attainment than either
+left or right hand DR and attainment in the school children. Typically, relationships tend to be stronger for the right DR than the left
+DR. In the present study, however, relationships were stronger for
+the left hand – particularly for study 2. The lack of any signiﬁcant
+correlations for the difference between right and left hand DRs (Drl) across all four studies indicates that the difference between
+hands per se is not relevant. Overall the pattern of correlations
+was consistent for averaged, right and left hand DRs. Why an average of right and left DR represents the strongest relationship with
+academic attainment remains to be determined. This may be a
+valuable avenue of research as it has been proposed that as a consequence of these relationships, DR may inﬂuence subsequent professional ﬁelds of interest (Romano et al., 2006).
+</bodyText>
+<sectionHeader confidence="0.991923" genericHeader="references">
+References
+</sectionHeader>
+<reference confidence="0.998032461538462">
+Brookes, H., Neave, N., Hamilton, C., &amp; Fink, B. (2007). Digit ratio (2D:4D) and
+lateralization for basic numerical quantiﬁcation. Journal of Individual Differences,
+28, 55–63.
+Brosnan, M. J. (1998a). Technophobia: The psychological impact of information
+technology. London: Routledge.
+Brosnan, M. J. (1998b). The salience of surface features upon task performance. The
+British Journal of Educational Psychology, 68, 203–215.
+Brosnan, M. J. (2004). The neuropsychology of human computer interaction. In K.
+Morgan, C. A. Brebbia, J. Sanchez, &amp; A. Voiskounsky (Eds.), Human perspectives in
+the internet society (pp. 21–31). WIT press: Southampton.
+Brosnan, M. J. (2006). Digit ratio and faculty membership: Implications for the
+relationship between prenatal testosterone and academia. British Journal of
+Psychology, 97, 455–466.
+</reference>
+<page confidence="0.969238">
+375
+</page>
+<reference confidence="0.99949720967742">
+Brosnan, M. J. (2008). Digit ratio as an indicator of numeracy relative to literacy in 7year-old British school children. British Journal of Psychology, 99, 75–85.
+Bull, R., &amp; Benson, P. J. (2006). Digit ratio (2D:4D) and the spatial representation of
+magnitude. Hormones and Behavior, 50, 194–199.
+Caswell, N., &amp; Manning, J. T. (2009). A comparison of ﬁnger 2D:4D by self-report
+direct measurement and experimenter measurement from photocopy:
+Methodological issues. Archives of Sexual Behavior, 38, 143–148.
+Cohen-Bendahan, C. C. C., van de Beek, C., &amp; Berenbaum, S. A. (2005). Prenatal sex
+hormone effects on child and adult sex-typed behavior: Methods and ﬁndings.
+Neuroscience and Biobehavioral Reviews, 29, 353–384.
+Collear, M., &amp; Hines, M. (1995). Human behavioral sex differences: A role for
+gonadal hormones during early development? Psychological Bulletin, 118,
+55–107.
+de Bruin, E. I., Verheij, F., Wiegman, T., &amp; Ferdinand, R. F. (2004). Differences in
+ﬁnger length ratio between males with autism, pervasive developmental
+disorder-not otherwise speciﬁed, ADHD, and anxiety disorders. Developmental
+Medicine and Child Neurology, 48, 962–965.
+Evardone, M., &amp; Alexander, G. M. (2009). Anxiety, sex-linked behaviors, and digit
+ratios (2D:4D). Archives of Sexual Behavior, 38, 442–455.
+Fink, B., Brookes, H., Neave, N., Manning, J. T., &amp; Geary, D. C. (2006). Second to fourth
+digit ratio and numerical competence in children. Brain and Cognition, 61,
+211–218.
+Kempel, P., Gohlke, B., Klempau, J., Zinsberger, P., Reuter, M., &amp; Hennig, J. (2005).
+Second to fourth digit length, testosterone, and spatial ability. Intelligence, 3,
+215–230.
+Keogh, E. (2004). Investigating invariance in the factorial structure of the
+Anxiety Sensitivity Index across adult men and women. Journal of Personality
+Assessment, 83, 153–160.
+Lutchmaya, S., Baron-Cohen, S., Raggatt, P., Knickmeyer, R., &amp; Manning, J. T. (2004).
+2nd to 4th digit ratios, fetal testosterone and estradiol. Early Human
+Development, 77, 23–28.
+Luxen, M. F., &amp; Buunk, B. P. (2005). Second-to-fourth digit ratio related to verbal and
+numerical intelligence and the Big Five. Personality and Individual Differences, 39,
+959–966.
+Manning, J. T., Fink, B., Neave, N., &amp; Caswell, N. (2005). Photocopies yield lower digit
+ratios (2D:4D) than direct ﬁnger measurements. Archives of Sexual Behavior, 34,
+329–333.
+Manning, J. T., Scutt, D., Wilson, J., &amp; Lewis-Jones, D. I. (1998). The ratio of 2nd
+to 4th digit length: a predictor of sperm numbers and concentrations of
+testosterone, luteinising hormone and oestrogen. Human Reproduction, 13,
+3000–3004.
+McIntyre, M.H. (2006). The use of digit ratio as markers for perinatal androgen
+action. Reproductive Biology and Endocrinology, 4(10), (Feb).
+Pigott, T. A. (2003). Anxiety disorders in women. Psychiatric Clinics of North America,
+26, 621–672.
+Prechelt, L. (2000). An empirical comparison of seven programming languages. IEEE
+Computer, 33, 23–29.
+Putz, D. A., Gaulin, S. J. C., Sporter, R. J., &amp; McBurney, D. H. (2004). Sex hormones and
+ﬁnger length – What does 2D: 4D indicate? Evolution and Human Behaviour, 25,
+182–199.
+Reiss, S., Peterson, R. A., Gursky, D. M., &amp; McNally, R. J. (1986). Anxiety sensitivity,
+anxiety frequency and the predictions of fearfulness. Behavior Research Therapy,
+24, 1–8.
+Romano, M., Leoni, B., &amp; Saino, N. (2006). Examination marks of male university
+students positively correlate with ﬁnger length ratios (2D:4D). Biological
+Psychology, 71, 175–182.
+Rosen, L. D., &amp; Weil, M. M. (1995). Computer anxiety: A cross-cultural comparison of
+university students in ten countries. Computers in Human Behavior, 11, 45–64.
+Thorpe, S., &amp; Brosnan, M. (2007). Does computer anxiety reach levels which
+conform to DSM IV criteria for speciﬁc phobia? Computers in Human Behavior,
+23, 1258–1272.
+Voracek, M., &amp; Loibl, L. M. (2009). Scientometric analysis and bibliography of digit
+ratio (2D:4D) research, 1998–2008. Psychological Reports, 104, 922–956.
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>H Brookes</author>
+<author>N Neave</author>
+<author>C Hamilton</author>
+<author>B Fink</author>
+</authors>
+<title>Digit ratio (2D:4D) and lateralization for basic numerical quantiﬁcation.</title>
+<date>2007</date>
+<journal>Journal of Individual Differences,</journal>
+<volume>28</volume>
+<pages>55--63</pages>
+<contexts>
+<context position="5110" citStr="Brookes, Neave, Hamilton, &amp; Fink, 2007" startWordPosition="727" endWordPosition="732">demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a relationship would be consistent with the argument that t</context>
+<context position="26369" citStr="Brookes et al., 2007" startWordPosition="4156" endWordPosition="4159">e when controlling for sex and self-reported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related eve</context>
+</contexts>
+<marker>Brookes, Neave, Hamilton, Fink, 2007</marker>
+<rawString>Brookes, H., Neave, N., Hamilton, C., &amp; Fink, B. (2007). Digit ratio (2D:4D) and lateralization for basic numerical quantiﬁcation. Journal of Individual Differences, 28, 55–63.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Brosnan</author>
+</authors>
+<title>Technophobia: The psychological impact of information technology.</title>
+<date>1998</date>
+<publisher>Routledge.</publisher>
+<location>London:</location>
+<contexts>
+<context position="2694" citStr="Brosnan, 1998" startWordPosition="373" endWordPosition="374">environments. Ó 2010 Elsevier Ltd. All rights reserved. 1. Introduction The use of information communication technology (ICT – for example desktop or laptop computers) permeates almost all aspects of educational, occupational and leisure environments in modern industrial societies. Being able to use ICT effectively has become an essential element of the skill-base required to participate within an increasingly digital culture. The two predominant factors that consistently predict engagement with ICT are technological capability, speciﬁcally programming ability, and computer-related anxieties (Brosnan, 1998a for review). Reasons why differences in ICT use exist are multifaceted, and certainly include socialization and cultural inﬂuences. However, it is also likely that hormonal factors may play a role. Prenatal exposure to sex hormones, such as testosterone and oestrogen, has important organisational effects upon the brain, which in turn is thought to inﬂuence a range of behaviors (Collear &amp; Hines, 1995). These organisational effects may play a signiﬁcant role in inﬂuencing engagement with ICT. 2D:4D digit ratio (hereafter DR) is the relative length of the 4th digit compared to the 2nd digit and</context>
+<context position="6436" citStr="Brosnan, 1998" startWordPosition="916" endWordPosition="917">is widely used within UK university computer science courses which draw upon numeric competencies, such as problem-solving (see Prechelt, 2000). We therefore sought to examine whether DR (as an index of organisational testosterone/oestrogen) was related to an independent assessment of numerically-oriented capability, within a technology-based context. A preliminary study of 23 postgraduate students found a signiﬁcant negative correlation between DR and programming ability (Brosnan, 2004). Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Tho</context>
+<context position="25692" citStr="Brosnan, 1998" startWordPosition="4065" endWordPosition="4066"> had not selected computer science, DR correlated with computer-related anxiety (including anxiety sensitivity) – a higher index of prenatal testosterone exposure was associated with lower levels of anxiety. Taken together, these studies are suggestive of a role of prenatal testosterone exposure in both attainment within computer science and anxiety concerning the use of ICT, as well as susceptibility to panic. This is signiﬁcant as attainment and anxiety have been identiﬁed as the two major factors impacting upon effective use of ICT within educational, occupational and leisure environments (Brosnan, 1998a). Importantly, the DR relationships retained signiﬁcance when controlling for sex and self-reported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship betwee</context>
+</contexts>
+<marker>Brosnan, 1998</marker>
+<rawString>Brosnan, M. J. (1998a). Technophobia: The psychological impact of information technology. London: Routledge.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Brosnan</author>
+</authors>
+<title>The salience of surface features upon task performance.</title>
+<date>1998</date>
+<journal>The British Journal of Educational Psychology,</journal>
+<volume>68</volume>
+<pages>203--215</pages>
+<contexts>
+<context position="2694" citStr="Brosnan, 1998" startWordPosition="373" endWordPosition="374">environments. Ó 2010 Elsevier Ltd. All rights reserved. 1. Introduction The use of information communication technology (ICT – for example desktop or laptop computers) permeates almost all aspects of educational, occupational and leisure environments in modern industrial societies. Being able to use ICT effectively has become an essential element of the skill-base required to participate within an increasingly digital culture. The two predominant factors that consistently predict engagement with ICT are technological capability, speciﬁcally programming ability, and computer-related anxieties (Brosnan, 1998a for review). Reasons why differences in ICT use exist are multifaceted, and certainly include socialization and cultural inﬂuences. However, it is also likely that hormonal factors may play a role. Prenatal exposure to sex hormones, such as testosterone and oestrogen, has important organisational effects upon the brain, which in turn is thought to inﬂuence a range of behaviors (Collear &amp; Hines, 1995). These organisational effects may play a signiﬁcant role in inﬂuencing engagement with ICT. 2D:4D digit ratio (hereafter DR) is the relative length of the 4th digit compared to the 2nd digit and</context>
+<context position="6436" citStr="Brosnan, 1998" startWordPosition="916" endWordPosition="917">is widely used within UK university computer science courses which draw upon numeric competencies, such as problem-solving (see Prechelt, 2000). We therefore sought to examine whether DR (as an index of organisational testosterone/oestrogen) was related to an independent assessment of numerically-oriented capability, within a technology-based context. A preliminary study of 23 postgraduate students found a signiﬁcant negative correlation between DR and programming ability (Brosnan, 2004). Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Tho</context>
+<context position="25692" citStr="Brosnan, 1998" startWordPosition="4065" endWordPosition="4066"> had not selected computer science, DR correlated with computer-related anxiety (including anxiety sensitivity) – a higher index of prenatal testosterone exposure was associated with lower levels of anxiety. Taken together, these studies are suggestive of a role of prenatal testosterone exposure in both attainment within computer science and anxiety concerning the use of ICT, as well as susceptibility to panic. This is signiﬁcant as attainment and anxiety have been identiﬁed as the two major factors impacting upon effective use of ICT within educational, occupational and leisure environments (Brosnan, 1998a). Importantly, the DR relationships retained signiﬁcance when controlling for sex and self-reported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship betwee</context>
+</contexts>
+<marker>Brosnan, 1998</marker>
+<rawString>Brosnan, M. J. (1998b). The salience of surface features upon task performance. The British Journal of Educational Psychology, 68, 203–215.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Brosnan</author>
+</authors>
+<title>The neuropsychology of human computer interaction. In</title>
+<date>2004</date>
+<pages>21--31</pages>
+<publisher>WIT press: Southampton.</publisher>
+<contexts>
+<context position="6315" citStr="Brosnan, 2004" startWordPosition="902" endWordPosition="903">nt that the organisational effects of sex hormones on the brain inﬂuence aspects of academic attainment. Java programming is widely used within UK university computer science courses which draw upon numeric competencies, such as problem-solving (see Prechelt, 2000). We therefore sought to examine whether DR (as an index of organisational testosterone/oestrogen) was related to an independent assessment of numerically-oriented capability, within a technology-based context. A preliminary study of 23 postgraduate students found a signiﬁcant negative correlation between DR and programming ability (Brosnan, 2004). Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report mor</context>
+</contexts>
+<marker>Brosnan, 2004</marker>
+<rawString>Brosnan, M. J. (2004). The neuropsychology of human computer interaction. In K. Morgan, C. A. Brebbia, J. Sanchez, &amp; A. Voiskounsky (Eds.), Human perspectives in the internet society (pp. 21–31). WIT press: Southampton.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Brosnan</author>
+</authors>
+<title>Digit ratio and faculty membership: Implications for the relationship between prenatal testosterone and academia.</title>
+<date>2006</date>
+<journal>British Journal of Psychology,</journal>
+<volume>97</volume>
+<pages>455--466</pages>
+<contexts>
+<context position="8714" citStr="Brosnan, 2006" startWordPosition="1237" endWordPosition="1238">er-based anxiety). However, no study to date has examined these possibilities. This paper, therefore, sought to examine the relationship between an indirect measure of prenatal hormone exposure, DR, and (1) computer-related attainment, and (2) computer-related anxiety. Within the ﬁndings described above there are discrepancies as to whether these relationships are identiﬁed for males and/or females as well as for the right and/or left hand. Those who have selected university courses are likely to have done so based upon their academic strengths and have been found to be reﬂected in their DRs (Brosnan, 2006; see also Romano, Leoni, &amp; Saino, 2006). Thus, we anticipate that those who have numeric strengths and have selected computer science may tend towards a more male-typical DR than the normal population. Typically, those within university education who have selected programming courses do not display computer-related anxiety. It is, therefore, possible that those who select courses that have little computer programming may be more likely to exhibit computer anxiety. We therefore studied two groups, ﬁrstly computerrelated attainment in those who had selected programming, and computer-related anx</context>
+<context position="10542" citStr="Brosnan, 2006" startWordPosition="1529" endWordPosition="1530">year (ﬁrst semester) course in Java programming. There were 53 males and 22 females, aged 18–41 (mean = 20.9 years, S.D. = 3.7 years). A second course (Java programming II) ran in the second semester and forms the basis of a third study. 65 (49 males and 16 females) students (from the 75 in study 1b) took the second semester unit (study 1c). 2.2. Design and procedure The second and fourth digits of both the right and left hand were measured using transparent rulers, accurate to 1 mm. Selfmeasurement of DR was used in these studies, and has been validated against digital calliper measurements (Brosnan, 2006). Discrepancies have been reported between direct measurement of DR and measurement from a photocopy (Caswell &amp; Manning, 2009; Manning, Fink, Neave, &amp; Caswell, 2005) which need to be borne in mind when interpreting the results. The DRs were calculated for the left and right hands and then averaged (e.g. Brosnan, 2008). In addition, the difference in right and left DRs was calculated (right DR – left DR: Dr-l). Four variables were therefore calculated for DR: right hand DR, left hand DR, averaged (mean) DR and the difference between right and left hand DR (Dr-l). Java was selected as the progra</context>
+</contexts>
+<marker>Brosnan, 2006</marker>
+<rawString>Brosnan, M. J. (2006). Digit ratio and faculty membership: Implications for the relationship between prenatal testosterone and academia. British Journal of Psychology, 97, 455–466.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M J Brosnan</author>
+</authors>
+<title>Digit ratio as an indicator of numeracy relative to literacy in 7year-old British school children.</title>
+<date>2008</date>
+<journal>British Journal of Psychology,</journal>
+<volume>99</volume>
+<pages>75--85</pages>
+<contexts>
+<context position="5273" citStr="Brosnan (2008)" startWordPosition="759" endWordPosition="760">ibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a relationship would be consistent with the argument that the organisational effects of sex hormones on the brain inﬂuence aspects of academic attainment. Java programming is widely used within UK university computer scien</context>
+<context position="10861" citStr="Brosnan, 2008" startWordPosition="1580" endWordPosition="1581">emester unit (study 1c). 2.2. Design and procedure The second and fourth digits of both the right and left hand were measured using transparent rulers, accurate to 1 mm. Selfmeasurement of DR was used in these studies, and has been validated against digital calliper measurements (Brosnan, 2006). Discrepancies have been reported between direct measurement of DR and measurement from a photocopy (Caswell &amp; Manning, 2009; Manning, Fink, Neave, &amp; Caswell, 2005) which need to be borne in mind when interpreting the results. The DRs were calculated for the left and right hands and then averaged (e.g. Brosnan, 2008). In addition, the difference in right and left DRs was calculated (right DR – left DR: Dr-l). Four variables were therefore calculated for DR: right hand DR, left hand DR, averaged (mean) DR and the difference between right and left hand DR (Dr-l). Java was selected as the programming language of study as it is currently widely taught within UK universities and therefore represents an ecologically valid task. The numerical capability most explicitly addressed within the programming course was problem solving. The course introduced students to problem analysis and provided the practical skills</context>
+<context position="26384" citStr="Brosnan, 2008" startWordPosition="4160" endWordPosition="4161"> sex and self-reported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related events (the relati</context>
+<context position="28585" citStr="Brosnan (2008)" startWordPosition="4483" endWordPosition="4484">us, prenatal testosterone may exert inﬂuence upon the uptake of ICT-based activities through both cognitive and emotional mechanisms. Of course there are some limitations that need to be considered with the current study. The self-measurement of DR could be open to measurement error and this should be borne in mind when interpreting the results (see Caswell &amp; Manning, 2009). The meta-analysis also highlighted the relative strength of the relationship between averaged (mean of left and right hand) DR and attainment when compared to left and right DR, which is consistent with previous research. Brosnan (2008) also identiﬁed a stronger relationship between average DR and attainment than either left or right hand DR and attainment in the school children. Typically, relationships tend to be stronger for the right DR than the left DR. In the present study, however, relationships were stronger for the left hand – particularly for study 2. The lack of any signiﬁcant correlations for the difference between right and left hand DRs (Drl) across all four studies indicates that the difference between hands per se is not relevant. Overall the pattern of correlations was consistent for averaged, right and left</context>
+</contexts>
+<marker>Brosnan, 2008</marker>
+<rawString>Brosnan, M. J. (2008). Digit ratio as an indicator of numeracy relative to literacy in 7year-old British school children. British Journal of Psychology, 99, 75–85.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Bull</author>
+<author>P J Benson</author>
+</authors>
+<title>Digit ratio (2D:4D) and the spatial representation of magnitude.</title>
+<date>2006</date>
+<journal>Hormones and Behavior,</journal>
+<volume>50</volume>
+<pages>194--199</pages>
+<contexts>
+<context position="26405" citStr="Bull &amp; Benson, 2006" startWordPosition="4162" endWordPosition="4165">eported programming activity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related events (the relatively low internal val</context>
+</contexts>
+<marker>Bull, Benson, 2006</marker>
+<rawString>Bull, R., &amp; Benson, P. J. (2006). Digit ratio (2D:4D) and the spatial representation of magnitude. Hormones and Behavior, 50, 194–199.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Caswell</author>
+<author>J T Manning</author>
+</authors>
+<title>A comparison of ﬁnger 2D:4D by self-report direct measurement and experimenter measurement from photocopy: Methodological issues.</title>
+<date>2009</date>
+<journal>Archives of Sexual Behavior,</journal>
+<volume>38</volume>
+<pages>143--148</pages>
+<contexts>
+<context position="10667" citStr="Caswell &amp; Manning, 2009" startWordPosition="1545" endWordPosition="1548">S.D. = 3.7 years). A second course (Java programming II) ran in the second semester and forms the basis of a third study. 65 (49 males and 16 females) students (from the 75 in study 1b) took the second semester unit (study 1c). 2.2. Design and procedure The second and fourth digits of both the right and left hand were measured using transparent rulers, accurate to 1 mm. Selfmeasurement of DR was used in these studies, and has been validated against digital calliper measurements (Brosnan, 2006). Discrepancies have been reported between direct measurement of DR and measurement from a photocopy (Caswell &amp; Manning, 2009; Manning, Fink, Neave, &amp; Caswell, 2005) which need to be borne in mind when interpreting the results. The DRs were calculated for the left and right hands and then averaged (e.g. Brosnan, 2008). In addition, the difference in right and left DRs was calculated (right DR – left DR: Dr-l). Four variables were therefore calculated for DR: right hand DR, left hand DR, averaged (mean) DR and the difference between right and left hand DR (Dr-l). Java was selected as the programming language of study as it is currently widely taught within UK universities and therefore represents an ecologically vali</context>
+<context position="28347" citStr="Caswell &amp; Manning, 2009" startWordPosition="4445" endWordPosition="4448">is particularly associated with computer-related anxiety (Thorpe &amp; Brosnan, 2007), it would be interesting to consider in future research the potentially protective role that prenatal testosterone may have with respect to sensitivity to anxiety. Thus, prenatal testosterone may exert inﬂuence upon the uptake of ICT-based activities through both cognitive and emotional mechanisms. Of course there are some limitations that need to be considered with the current study. The self-measurement of DR could be open to measurement error and this should be borne in mind when interpreting the results (see Caswell &amp; Manning, 2009). The meta-analysis also highlighted the relative strength of the relationship between averaged (mean of left and right hand) DR and attainment when compared to left and right DR, which is consistent with previous research. Brosnan (2008) also identiﬁed a stronger relationship between average DR and attainment than either left or right hand DR and attainment in the school children. Typically, relationships tend to be stronger for the right DR than the left DR. In the present study, however, relationships were stronger for the left hand – particularly for study 2. The lack of any signiﬁcant cor</context>
+</contexts>
+<marker>Caswell, Manning, 2009</marker>
+<rawString>Caswell, N., &amp; Manning, J. T. (2009). A comparison of ﬁnger 2D:4D by self-report direct measurement and experimenter measurement from photocopy: Methodological issues. Archives of Sexual Behavior, 38, 143–148.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C C C Cohen-Bendahan</author>
+<author>C van de Beek</author>
+<author>S A Berenbaum</author>
+</authors>
+<title>Prenatal sex hormone effects on child and adult sex-typed behavior: Methods and ﬁndings.</title>
+<date>2005</date>
+<journal>Neuroscience and Biobehavioral Reviews,</journal>
+<volume>29</volume>
+<pages>353--384</pages>
+<marker>Cohen-Bendahan, van de Beek, Berenbaum, 2005</marker>
+<rawString>Cohen-Bendahan, C. C. C., van de Beek, C., &amp; Berenbaum, S. A. (2005). Prenatal sex hormone effects on child and adult sex-typed behavior: Methods and ﬁndings. Neuroscience and Biobehavioral Reviews, 29, 353–384.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Collear</author>
+<author>M Hines</author>
+</authors>
+<title>Human behavioral sex differences: A role for gonadal hormones during early development?</title>
+<date>1995</date>
+<journal>Psychological Bulletin,</journal>
+<volume>118</volume>
+<pages>55--107</pages>
+<contexts>
+<context position="3099" citStr="Collear &amp; Hines, 1995" startWordPosition="433" endWordPosition="436">n an increasingly digital culture. The two predominant factors that consistently predict engagement with ICT are technological capability, speciﬁcally programming ability, and computer-related anxieties (Brosnan, 1998a for review). Reasons why differences in ICT use exist are multifaceted, and certainly include socialization and cultural inﬂuences. However, it is also likely that hormonal factors may play a role. Prenatal exposure to sex hormones, such as testosterone and oestrogen, has important organisational effects upon the brain, which in turn is thought to inﬂuence a range of behaviors (Collear &amp; Hines, 1995). These organisational effects may play a signiﬁcant role in inﬂuencing engagement with ICT. 2D:4D digit ratio (hereafter DR) is the relative length of the 4th digit compared to the 2nd digit and has been argued to be a marker * Corresponding author. Tel.: +44 1225 386081; fax: +44 1225 386752. E-mail address: pssmjb@bath.ac.uk (M. Brosnan). 0191-8869/$ - see front matter Ó 2010 Elsevier Ltd. All rights reserved. doi:10.1016/j.paid.2010.07.009 for prenatal testosterone exposure relative to prenatal oestrogen exposure (Manning, Scutt, Wilson, &amp; Lewis-Jones, 1998). Lutchmaya, Baron-Cohen, Raggat</context>
+</contexts>
+<marker>Collear, Hines, 1995</marker>
+<rawString>Collear, M., &amp; Hines, M. (1995). Human behavioral sex differences: A role for gonadal hormones during early development? Psychological Bulletin, 118, 55–107.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E I de Bruin</author>
+<author>F Verheij</author>
+<author>T Wiegman</author>
+<author>R F Ferdinand</author>
+</authors>
+<title>Differences in ﬁnger length ratio between males with autism, pervasive developmental disorder-not otherwise speciﬁed, ADHD, and anxiety disorders.</title>
+<date>2004</date>
+<journal>Developmental Medicine and Child Neurology,</journal>
+<volume>48</volume>
+<pages>962--965</pages>
+<marker>de Bruin, Verheij, Wiegman, Ferdinand, 2004</marker>
+<rawString>de Bruin, E. I., Verheij, F., Wiegman, T., &amp; Ferdinand, R. F. (2004). Differences in ﬁnger length ratio between males with autism, pervasive developmental disorder-not otherwise speciﬁed, ADHD, and anxiety disorders. Developmental Medicine and Child Neurology, 48, 962–965.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Evardone</author>
+<author>G M Alexander</author>
+</authors>
+<title>Anxiety, sex-linked behaviors, and digit ratios (2D:4D).</title>
+<date>2009</date>
+<journal>Archives of Sexual Behavior,</journal>
+<volume>38</volume>
+<pages>442--455</pages>
+<contexts>
+<context position="7474" citStr="Evardone and Alexander (2009)" startWordPosition="1058" endWordPosition="1061">ott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Thorpe and Brosnan (2007) identiﬁed levels of computer anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin such concerns. Despite the evidence of a sex difference in anxiety, to date there have been only two studies examining the relationship between DR and anxiety. Evardone and Alexander (2009) identiﬁed a positive relationship between 2D:4D and anxiety for male undergraduate students, but not females. de Bruin, Verheij, Wiegman, and Ferdinand (2004) also suggest that males with anxiety disorders might have been exposed to lower prenatal testosterone levels, indexed through higher DRs (females were not assessed). Taken together, it seems that sex differences in technologybased activities might be hormonally mediated. Prenatal exposure to sex hormones could manifest their inﬂuence behaviorally in two ways: cognitively (through better ability on computer-based tasks) and/or emotionall</context>
+<context position="26780" citStr="Evardone &amp; Alexander, 2009" startWordPosition="4219" endWordPosition="4222">ndicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related events (the relatively low internal validity of the computer anxiety scales should be borne in mind). However, what is notable about anxiety sensitivity is that it is related to the fear of anxiety-related sensaM. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 tion and as well as fearing cardiovascular sensations, also includes items pertaining to the fear of losing mental/cognitive c</context>
+</contexts>
+<marker>Evardone, Alexander, 2009</marker>
+<rawString>Evardone, M., &amp; Alexander, G. M. (2009). Anxiety, sex-linked behaviors, and digit ratios (2D:4D). Archives of Sexual Behavior, 38, 442–455.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B Fink</author>
+<author>H Brookes</author>
+<author>N Neave</author>
+<author>J T Manning</author>
+<author>D C Geary</author>
+</authors>
+<title>Second to fourth digit ratio and numerical competence in children.</title>
+<date>2006</date>
+<journal>Brain and Cognition,</journal>
+<volume>61</volume>
+<pages>211--218</pages>
+<contexts>
+<context position="5057" citStr="Fink, Brookes, Neave, Manning, &amp; Geary, 2006" startWordPosition="719" endWordPosition="725"> and a positive correlation with behaviors which typically demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a rela</context>
+<context position="26424" citStr="Fink et al., 2006" startWordPosition="4166" endWordPosition="4169">ctivity suggesting that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related events (the relatively low internal validity of the comput</context>
+</contexts>
+<marker>Fink, Brookes, Neave, Manning, Geary, 2006</marker>
+<rawString>Fink, B., Brookes, H., Neave, N., Manning, J. T., &amp; Geary, D. C. (2006). Second to fourth digit ratio and numerical competence in children. Brain and Cognition, 61, 211–218.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Kempel</author>
+<author>B Gohlke</author>
+<author>J Klempau</author>
+<author>P Zinsberger</author>
+<author>M Reuter</author>
+<author>J Hennig</author>
+</authors>
+<title>Second to fourth digit length, testosterone, and spatial ability.</title>
+<date>2005</date>
+<journal>Intelligence,</journal>
+<volume>3</volume>
+<pages>215--230</pages>
+<contexts>
+<context position="5235" citStr="Kempel et al., 2005" startWordPosition="751" endWordPosition="754">in, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a relationship would be consistent with the argument that the organisational effects of sex hormones on the brain inﬂuence aspects of academic attainment. Java programming is widely us</context>
+</contexts>
+<marker>Kempel, Gohlke, Klempau, Zinsberger, Reuter, Hennig, 2005</marker>
+<rawString>Kempel, P., Gohlke, B., Klempau, J., Zinsberger, P., Reuter, M., &amp; Hennig, J. (2005). Second to fourth digit length, testosterone, and spatial ability. Intelligence, 3, 215–230.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Keogh</author>
+</authors>
+<title>Investigating invariance in the factorial structure of the Anxiety Sensitivity Index across adult men and women.</title>
+<date>2004</date>
+<journal>Journal of Personality Assessment,</journal>
+<volume>83</volume>
+<pages>153--160</pages>
+<contexts>
+<context position="21175" citStr="Keogh, 2004" startWordPosition="3315" endWordPosition="3316">e scale from strongly agree (5) to strongly disagree (1). Scores could range from 6 through to 30 (highly anxious). Cronbach’s Alpha for this sample was 0.53. 4.2.3. Anxiety sensitivity index (ASI; Reiss, Peterson, Gursky, &amp; McNally, 1986) In addition to speciﬁc measures associated with computer-related fear, we also felt it useful to include a more general measure of anxiety. We chose to include the ASI as this is a good measure of fear of anxiety-related sensation, and has been shown to be a good predictor of the development of panic-like sensations, as well as showing some sex differences (Keogh, 2004). The ASI is comprised of 16 items designed to assess the fear of anxiety-related sensations (e.g., ‘when I notice that my heart is beating rapidly, I worry that I might have a heart attack’). Respondents indicate the degree to which each item applies to them on a 5-point scale ranging from ‘very little’ (1) to ‘very much’ (5). Items on the ASI can be summated to give an overall anxiety sensitivity score ranging from 16 to 80 (higher anxiety sensitivity). Cronbach’s Alpha for this sample was 0.88. 5. Results and discussion Table 2 highlights the means for males and females. Males had signiﬁcan</context>
+</contexts>
+<marker>Keogh, 2004</marker>
+<rawString>Keogh, E. (2004). Investigating invariance in the factorial structure of the Anxiety Sensitivity Index across adult men and women. Journal of Personality Assessment, 83, 153–160.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Lutchmaya</author>
+<author>S Baron-Cohen</author>
+<author>P Raggatt</author>
+<author>R Knickmeyer</author>
+<author>J T Manning</author>
+</authors>
+<title>2nd to 4th digit ratios, fetal testosterone and estradiol. Early Human Development,</title>
+<date>2004</date>
+<volume>77</volume>
+<pages>23--28</pages>
+<marker>Lutchmaya, Baron-Cohen, Raggatt, Knickmeyer, Manning, 2004</marker>
+<rawString>Lutchmaya, S., Baron-Cohen, S., Raggatt, P., Knickmeyer, R., &amp; Manning, J. T. (2004). 2nd to 4th digit ratios, fetal testosterone and estradiol. Early Human Development, 77, 23–28.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M F Luxen</author>
+<author>B P Buunk</author>
+</authors>
+<title>Second-to-fourth digit ratio related to verbal and numerical intelligence and the Big Five. Personality and Individual Differences,</title>
+<date>2005</date>
+<volume>39</volume>
+<pages>959--966</pages>
+<contexts>
+<context position="5257" citStr="Luxen &amp; Buunk, 2005" startWordPosition="755" endWordPosition="758">ey, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2008) also reported negative correlations between DR and numerical SAT scores in 7-year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a relationship would be consistent with the argument that the organisational effects of sex hormones on the brain inﬂuence aspects of academic attainment. Java programming is widely used within UK universit</context>
+<context position="26446" citStr="Luxen &amp; Buunk, 2005" startWordPosition="4170" endWordPosition="4173">that these factors were not mediating the relationship between DR and attainment. The relationship between DR and attainment was found for two separate cohorts of students and, for the second cohort, two separate assessments of Java programming ability. The meta-analysis highlighted correlations that were largely around 0.2 indicating that, although signiﬁcant, this is a small effect. However, this is consistent with research that indicates a relationship between DR and numerical abilities and educational attainment (Brookes et al., 2007; Brosnan, 2008; Bull &amp; Benson, 2006; Fink et al., 2006; Luxen &amp; Buunk, 2005). In terms of anxiety, three different measures of anxiety signiﬁcantly correlated with DR, indicating that higher exposure to prenatal testosterone was associated with lower anxiety. This is consistent with the previous two studies exploring the relationship between DR and anxiety (de Bruin et al., 2004; Evardone &amp; Alexander, 2009). The correlations between DR and anxiety sensitivity are interesting, and could suggest that DR is simply related to anxiety more generally, rather than speciﬁcally to computer-related events (the relatively low internal validity of the computer anxiety scales shou</context>
+</contexts>
+<marker>Luxen, Buunk, 2005</marker>
+<rawString>Luxen, M. F., &amp; Buunk, B. P. (2005). Second-to-fourth digit ratio related to verbal and numerical intelligence and the Big Five. Personality and Individual Differences, 39, 959–966.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J T Manning</author>
+<author>B Fink</author>
+<author>N Neave</author>
+<author>N Caswell</author>
+</authors>
+<title>Photocopies yield lower digit ratios (2D:4D) than direct ﬁnger measurements.</title>
+<date>2005</date>
+<journal>Archives of Sexual Behavior,</journal>
+<volume>34</volume>
+<pages>329--333</pages>
+<contexts>
+<context position="10706" citStr="Manning, Fink, Neave, &amp; Caswell, 2005" startWordPosition="1549" endWordPosition="1554">nd course (Java programming II) ran in the second semester and forms the basis of a third study. 65 (49 males and 16 females) students (from the 75 in study 1b) took the second semester unit (study 1c). 2.2. Design and procedure The second and fourth digits of both the right and left hand were measured using transparent rulers, accurate to 1 mm. Selfmeasurement of DR was used in these studies, and has been validated against digital calliper measurements (Brosnan, 2006). Discrepancies have been reported between direct measurement of DR and measurement from a photocopy (Caswell &amp; Manning, 2009; Manning, Fink, Neave, &amp; Caswell, 2005) which need to be borne in mind when interpreting the results. The DRs were calculated for the left and right hands and then averaged (e.g. Brosnan, 2008). In addition, the difference in right and left DRs was calculated (right DR – left DR: Dr-l). Four variables were therefore calculated for DR: right hand DR, left hand DR, averaged (mean) DR and the difference between right and left hand DR (Dr-l). Java was selected as the programming language of study as it is currently widely taught within UK universities and therefore represents an ecologically valid task. The numerical capability most e</context>
+</contexts>
+<marker>Manning, Fink, Neave, Caswell, 2005</marker>
+<rawString>Manning, J. T., Fink, B., Neave, N., &amp; Caswell, N. (2005). Photocopies yield lower digit ratios (2D:4D) than direct ﬁnger measurements. Archives of Sexual Behavior, 34, 329–333.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J T Manning</author>
+<author>D Scutt</author>
+<author>J Wilson</author>
+<author>D I Lewis-Jones</author>
+</authors>
+<title>The ratio of 2nd to 4th digit length: a predictor of sperm numbers and concentrations of testosterone, luteinising hormone and oestrogen.</title>
+<date>1998</date>
+<journal>Human Reproduction,</journal>
+<volume>13</volume>
+<pages>3000--3004</pages>
+<contexts>
+<context position="3666" citStr="Manning, Scutt, Wilson, &amp; Lewis-Jones, 1998" startWordPosition="514" endWordPosition="519"> in turn is thought to inﬂuence a range of behaviors (Collear &amp; Hines, 1995). These organisational effects may play a signiﬁcant role in inﬂuencing engagement with ICT. 2D:4D digit ratio (hereafter DR) is the relative length of the 4th digit compared to the 2nd digit and has been argued to be a marker * Corresponding author. Tel.: +44 1225 386081; fax: +44 1225 386752. E-mail address: pssmjb@bath.ac.uk (M. Brosnan). 0191-8869/$ - see front matter Ó 2010 Elsevier Ltd. All rights reserved. doi:10.1016/j.paid.2010.07.009 for prenatal testosterone exposure relative to prenatal oestrogen exposure (Manning, Scutt, Wilson, &amp; Lewis-Jones, 1998). Lutchmaya, Baron-Cohen, Raggatt, Knickmeyer, and Manning (2004) report a signiﬁcant correlation between DR in 2-year-olds and their prenatal testosterone relative to prenatal oestrogen in samples obtained from amniocentesis, suggesting that DR is a direct correlate of prenatal sex steroid exposure. Typically males are exposed to higher levels of prenatal testosterone than females and, consistent with this, a sex difference in DR has been identiﬁed. Manning et al. (1998) report a mean DR for males of 0.98 (4th digit longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of equal </context>
+<context position="4143" citStr="Manning et al. (1998)" startWordPosition="584" endWordPosition="587">.1016/j.paid.2010.07.009 for prenatal testosterone exposure relative to prenatal oestrogen exposure (Manning, Scutt, Wilson, &amp; Lewis-Jones, 1998). Lutchmaya, Baron-Cohen, Raggatt, Knickmeyer, and Manning (2004) report a signiﬁcant correlation between DR in 2-year-olds and their prenatal testosterone relative to prenatal oestrogen in samples obtained from amniocentesis, suggesting that DR is a direct correlate of prenatal sex steroid exposure. Typically males are exposed to higher levels of prenatal testosterone than females and, consistent with this, a sex difference in DR has been identiﬁed. Manning et al. (1998) report a mean DR for males of 0.98 (4th digit longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of equal length). Additionally, DRs generally show a negative correlation with behaviors which typically demonstrate a male advantage (e.g. mental rotation) and a positive correlation with behaviors which typically demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to num</context>
+</contexts>
+<marker>Manning, Scutt, Wilson, Lewis-Jones, 1998</marker>
+<rawString>Manning, J. T., Scutt, D., Wilson, J., &amp; Lewis-Jones, D. I. (1998). The ratio of 2nd to 4th digit length: a predictor of sperm numbers and concentrations of testosterone, luteinising hormone and oestrogen. Human Reproduction, 13, 3000–3004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M H McIntyre</author>
+</authors>
+<title>The use of digit ratio as markers for perinatal androgen action.</title>
+<date>2006</date>
+<journal>Reproductive Biology and Endocrinology,</journal>
+<volume>4</volume>
+<issue>10</issue>
+<contexts>
+<context position="4604" citStr="McIntyre, 2006" startWordPosition="657" endWordPosition="658">xposed to higher levels of prenatal testosterone than females and, consistent with this, a sex difference in DR has been identiﬁed. Manning et al. (1998) report a mean DR for males of 0.98 (4th digit longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of equal length). Additionally, DRs generally show a negative correlation with behaviors which typically demonstrate a male advantage (e.g. mental rotation) and a positive correlation with behaviors which typically demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as </context>
+</contexts>
+<marker>McIntyre, 2006</marker>
+<rawString>McIntyre, M.H. (2006). The use of digit ratio as markers for perinatal androgen action. Reproductive Biology and Endocrinology, 4(10), (Feb).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T A Pigott</author>
+</authors>
+<title>Anxiety disorders in women.</title>
+<date>2003</date>
+<journal>Psychiatric Clinics of North America,</journal>
+<volume>26</volume>
+<pages>621--672</pages>
+<contexts>
+<context position="6855" citStr="Pigott, 2003" startWordPosition="971" endWordPosition="972">t negative correlation between DR and programming ability (Brosnan, 2004). Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Thorpe and Brosnan (2007) identiﬁed levels of computer anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin such concerns. Despite the evidence of a sex difference in anxiety, to date there have been only two studies examining the relationship between DR and anxiety. Evardone a</context>
+</contexts>
+<marker>Pigott, 2003</marker>
+<rawString>Pigott, T. A. (2003). Anxiety disorders in women. Psychiatric Clinics of North America, 26, 621–672.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Prechelt</author>
+</authors>
+<title>An empirical comparison of seven programming languages.</title>
+<date>2000</date>
+<journal>IEEE Computer,</journal>
+<volume>33</volume>
+<pages>23--29</pages>
+<contexts>
+<context position="5966" citStr="Prechelt, 2000" startWordPosition="857" endWordPosition="858">year-old school children. This suggests that the relationship between DR and numeric capabilities may relate to academic attainment. There are to date, however, no data exploring the potential relationship between DR and numerical capability in university-level students. This is interesting as such a relationship would be consistent with the argument that the organisational effects of sex hormones on the brain inﬂuence aspects of academic attainment. Java programming is widely used within UK university computer science courses which draw upon numeric competencies, such as problem-solving (see Prechelt, 2000). We therefore sought to examine whether DR (as an index of organisational testosterone/oestrogen) was related to an independent assessment of numerically-oriented capability, within a technology-based context. A preliminary study of 23 postgraduate students found a signiﬁcant negative correlation between DR and programming ability (Brosnan, 2004). Within modern industrial societies, university computer science courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abiliti</context>
+</contexts>
+<marker>Prechelt, 2000</marker>
+<rawString>Prechelt, L. (2000). An empirical comparison of seven programming languages. IEEE Computer, 33, 23–29.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D A Putz</author>
+<author>S J C Gaulin</author>
+<author>R J Sporter</author>
+<author>D H McBurney</author>
+</authors>
+<title>Sex hormones and ﬁnger length – What does 2D: 4D indicate? Evolution and Human Behaviour,</title>
+<date>2004</date>
+<volume>25</volume>
+<pages>182--199</pages>
+<contexts>
+<context position="4645" citStr="Putz, Gaulin, Sporter, &amp; McBurney, 2004" startWordPosition="659" endWordPosition="664"> levels of prenatal testosterone than females and, consistent with this, a sex difference in DR has been identiﬁed. Manning et al. (1998) report a mean DR for males of 0.98 (4th digit longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of equal length). Additionally, DRs generally show a negative correlation with behaviors which typically demonstrate a male advantage (e.g. mental rotation) and a positive correlation with behaviors which typically demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; </context>
+</contexts>
+<marker>Putz, Gaulin, Sporter, McBurney, 2004</marker>
+<rawString>Putz, D. A., Gaulin, S. J. C., Sporter, R. J., &amp; McBurney, D. H. (2004). Sex hormones and ﬁnger length – What does 2D: 4D indicate? Evolution and Human Behaviour, 25, 182–199.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Reiss</author>
+<author>R A Peterson</author>
+<author>D M Gursky</author>
+<author>R J McNally</author>
+</authors>
+<title>Anxiety sensitivity, anxiety frequency and the predictions of fearfulness.</title>
+<date>1986</date>
+<journal>Behavior Research Therapy,</journal>
+<volume>24</volume>
+<pages>1--8</pages>
+<contexts>
+<context position="20801" citStr="Reiss, Peterson, Gursky, &amp; McNally, 1986" startWordPosition="3248" endWordPosition="3253">= ‘not much’ and 1 = ‘not at all’) yielding a total possible score ranging from 20 to 100, with higher scores indicating more computer anxiety. Cronbach’s Alpha for this sample was 0.58. 4.2.2. Clinical computer anxiety (CCA; Thorpe &amp; Brosnan, 2007) The CCA was derived from 6 DSM-IV criteria for a speciﬁc phobia (e.g. ‘I always feel anxious when using computers’). Respondents respond on a Likert-type scale from strongly agree (5) to strongly disagree (1). Scores could range from 6 through to 30 (highly anxious). Cronbach’s Alpha for this sample was 0.53. 4.2.3. Anxiety sensitivity index (ASI; Reiss, Peterson, Gursky, &amp; McNally, 1986) In addition to speciﬁc measures associated with computer-related fear, we also felt it useful to include a more general measure of anxiety. We chose to include the ASI as this is a good measure of fear of anxiety-related sensation, and has been shown to be a good predictor of the development of panic-like sensations, as well as showing some sex differences (Keogh, 2004). The ASI is comprised of 16 items designed to assess the fear of anxiety-related sensations (e.g., ‘when I notice that my heart is beating rapidly, I worry that I might have a heart attack’). Respondents indicate the degree t</context>
+</contexts>
+<marker>Reiss, Peterson, Gursky, McNally, 1986</marker>
+<rawString>Reiss, S., Peterson, R. A., Gursky, D. M., &amp; McNally, R. J. (1986). Anxiety sensitivity, anxiety frequency and the predictions of fearfulness. Behavior Research Therapy, 24, 1–8.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Romano</author>
+<author>B Leoni</author>
+<author>N Saino</author>
+</authors>
+<title>Examination marks of male university students positively correlate with ﬁnger length ratios (2D:4D).</title>
+<date>2006</date>
+<journal>Biological Psychology,</journal>
+<volume>71</volume>
+<pages>175--182</pages>
+<contexts>
+<context position="8753" citStr="Romano, Leoni, &amp; Saino, 2006" startWordPosition="1241" endWordPosition="1245">er, no study to date has examined these possibilities. This paper, therefore, sought to examine the relationship between an indirect measure of prenatal hormone exposure, DR, and (1) computer-related attainment, and (2) computer-related anxiety. Within the ﬁndings described above there are discrepancies as to whether these relationships are identiﬁed for males and/or females as well as for the right and/or left hand. Those who have selected university courses are likely to have done so based upon their academic strengths and have been found to be reﬂected in their DRs (Brosnan, 2006; see also Romano, Leoni, &amp; Saino, 2006). Thus, we anticipate that those who have numeric strengths and have selected computer science may tend towards a more male-typical DR than the normal population. Typically, those within university education who have selected programming courses do not display computer-related anxiety. It is, therefore, possible that those who select courses that have little computer programming may be more likely to exhibit computer anxiety. We therefore studied two groups, ﬁrstly computerrelated attainment in those who had selected programming, and computer-related anxiety in those who had not selected prog</context>
+</contexts>
+<marker>Romano, Leoni, Saino, 2006</marker>
+<rawString>Romano, M., Leoni, B., &amp; Saino, N. (2006). Examination marks of male university students positively correlate with ﬁnger length ratios (2D:4D). Biological Psychology, 71, 175–182.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L D Rosen</author>
+<author>M M Weil</author>
+</authors>
+<title>Computer anxiety: A cross-cultural comparison of university students in ten countries.</title>
+<date>1995</date>
+<journal>Computers in Human Behavior,</journal>
+<volume>11</volume>
+<pages>45--64</pages>
+<contexts>
+<context position="6995" citStr="Rosen &amp; Weil, 1995" startWordPosition="989" endWordPosition="992">nce courses are typically male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Thorpe and Brosnan (2007) identiﬁed levels of computer anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin such concerns. Despite the evidence of a sex difference in anxiety, to date there have been only two studies examining the relationship between DR and anxiety. Evardone and Alexander (2009) identiﬁed a positive relationship between 2D:4D and anxiety for male undergraduate students, but not females. de Bruin, </context>
+<context position="19888" citStr="Rosen &amp; Weil, 1995" startWordPosition="3093" endWordPosition="3096">tudents enrolled into social science classes who had not taken post compulsory (A-level) mathematics or selected any computer science courses. Demographic data was obtained (sex and age) including a report of the time spent on a range of computer-based tasks on average each day over the past week. Time estimates were made for all computer-based ICT activities, which were totalled (minutes per week). 374 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 The following three anxiety-related questionnaires were also completed: 4.2.1. Computer anxiety rating scale (CARS; Rosen &amp; Weil, 1995) The CARS contains 20 items (e.g. ‘Sitting in front of a home computer’) rated to indicate ‘how anxious (nervous) each activity would make you at this point in your life’. The CARS items are rated on a 5-point scale (5 = ‘very much’, 4 = ‘a fair amount’, 3 = ‘a little’, 2 = ‘not much’ and 1 = ‘not at all’) yielding a total possible score ranging from 20 to 100, with higher scores indicating more computer anxiety. Cronbach’s Alpha for this sample was 0.58. 4.2.2. Clinical computer anxiety (CCA; Thorpe &amp; Brosnan, 2007) The CCA was derived from 6 DSM-IV criteria for a speciﬁc phobia (e.g. ‘I alwa</context>
+</contexts>
+<marker>Rosen, Weil, 1995</marker>
+<rawString>Rosen, L. D., &amp; Weil, M. M. (1995). Computer anxiety: A cross-cultural comparison of university students in ten countries. Computers in Human Behavior, 11, 45–64.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Thorpe</author>
+<author>M Brosnan</author>
+</authors>
+<title>Does computer anxiety reach levels which conform to DSM IV criteria for speciﬁc phobia?</title>
+<date>2007</date>
+<journal>Computers in Human Behavior,</journal>
+<volume>23</volume>
+<pages>1258--1272</pages>
+<contexts>
+<context position="7058" citStr="Thorpe and Brosnan (2007)" startWordPosition="999" endWordPosition="1002">998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Thorpe and Brosnan (2007) identiﬁed levels of computer anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin such concerns. Despite the evidence of a sex difference in anxiety, to date there have been only two studies examining the relationship between DR and anxiety. Evardone and Alexander (2009) identiﬁed a positive relationship between 2D:4D and anxiety for male undergraduate students, but not females. de Bruin, Verheij, Wiegman, and Ferdinand (2004) also suggest that males </context>
+<context position="7019" citStr="Thorpe &amp; Brosnan, 2007" startWordPosition="993" endWordPosition="996">cally male-dominated (see Brosnan, 1998b). Although sex differences in technology-based engagement might be related to hormonally-mediated differences in numeric abilities, an alternative explanation could be due to sex differences in anxiety, especially with computers (in addition to other potential differences such as differential encouragement from parents and educators). Females generally report higher levels of anxiety than males (e.g. Pigott, 2003) and studies have consistently found that females report more computer-related anxieties than males (e.g. Brosnan, 1998a; Rosen &amp; Weil, 1995; Thorpe &amp; Brosnan, 2007 for review). Thorpe and Brosnan (2007) identiﬁed levels of computer anxiety that were considered comparable to clinical levels of anxiety (spider phobia) and analyses of the correlates of computer-related anxieties suggested that social/performance issues underpin such concerns. Despite the evidence of a sex difference in anxiety, to date there have been only two studies examining the relationship between DR and anxiety. Evardone and Alexander (2009) identiﬁed a positive relationship between 2D:4D and anxiety for male undergraduate students, but not females. de Bruin, Verheij, Wiegman, and Fe</context>
+<context position="20410" citStr="Thorpe &amp; Brosnan, 2007" startWordPosition="3188" endWordPosition="3191">d questionnaires were also completed: 4.2.1. Computer anxiety rating scale (CARS; Rosen &amp; Weil, 1995) The CARS contains 20 items (e.g. ‘Sitting in front of a home computer’) rated to indicate ‘how anxious (nervous) each activity would make you at this point in your life’. The CARS items are rated on a 5-point scale (5 = ‘very much’, 4 = ‘a fair amount’, 3 = ‘a little’, 2 = ‘not much’ and 1 = ‘not at all’) yielding a total possible score ranging from 20 to 100, with higher scores indicating more computer anxiety. Cronbach’s Alpha for this sample was 0.58. 4.2.2. Clinical computer anxiety (CCA; Thorpe &amp; Brosnan, 2007) The CCA was derived from 6 DSM-IV criteria for a speciﬁc phobia (e.g. ‘I always feel anxious when using computers’). Respondents respond on a Likert-type scale from strongly agree (5) to strongly disagree (1). Scores could range from 6 through to 30 (highly anxious). Cronbach’s Alpha for this sample was 0.53. 4.2.3. Anxiety sensitivity index (ASI; Reiss, Peterson, Gursky, &amp; McNally, 1986) In addition to speciﬁc measures associated with computer-related fear, we also felt it useful to include a more general measure of anxiety. We chose to include the ASI as this is a good measure of fear of an</context>
+<context position="27804" citStr="Thorpe &amp; Brosnan, 2007" startWordPosition="4362" endWordPosition="4365">rosnan et al. / Personality and Individual Differences 51 (2011) 371–375 tion and as well as fearing cardiovascular sensations, also includes items pertaining to the fear of losing mental/cognitive control, as well as fearful of more socially-related anxiety sensations (e.g., sweating, embarrassment). Controlling for anxiety sensitivity dramatically reduced the signiﬁcance of the relationship between DR and computer-related anxiety, although a signiﬁcant relationship was retained for the left hand. Given that social/performance anxiety is particularly associated with computer-related anxiety (Thorpe &amp; Brosnan, 2007), it would be interesting to consider in future research the potentially protective role that prenatal testosterone may have with respect to sensitivity to anxiety. Thus, prenatal testosterone may exert inﬂuence upon the uptake of ICT-based activities through both cognitive and emotional mechanisms. Of course there are some limitations that need to be considered with the current study. The self-measurement of DR could be open to measurement error and this should be borne in mind when interpreting the results (see Caswell &amp; Manning, 2009). The meta-analysis also highlighted the relative strengt</context>
+</contexts>
+<marker>Thorpe, Brosnan, 2007</marker>
+<rawString>Thorpe, S., &amp; Brosnan, M. (2007). Does computer anxiety reach levels which conform to DSM IV criteria for speciﬁc phobia? Computers in Human Behavior, 23, 1258–1272.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Voracek</author>
+<author>L M Loibl</author>
+</authors>
+<title>Scientometric analysis and bibliography of digit ratio (2D:4D) research,</title>
+<date>2009</date>
+<journal>Psychological Reports,</journal>
+<volume>104</volume>
+<pages>922--956</pages>
+<contexts>
+<context position="4669" citStr="Voracek &amp; Loibl, 2009" startWordPosition="665" endWordPosition="668">ales and, consistent with this, a sex difference in DR has been identiﬁed. Manning et al. (1998) report a mean DR for males of 0.98 (4th digit longer than the 2nd digit) and 1.0 for females (4th and 2nd digits of equal length). Additionally, DRs generally show a negative correlation with behaviors which typically demonstrate a male advantage (e.g. mental rotation) and a positive correlation with behaviors which typically demonstrate a female advantage (e.g. location memory: for reviews see Cohen-Bendahan, van de Beek, &amp; Berenbaum, 2005; McIntyre, 2006; Putz, Gaulin, Sporter, &amp; McBurney, 2004; Voracek &amp; Loibl, 2009). Of particular relevance to the current study, DR has been related to numerical competency, which might impact on engagement and success working with ICT. A lower DR (more male-typical, reﬂecting greater prenatal testosterone exposure) has been associated with higher ability in some numeric competencies such as counting and problem solving (Fink, Brookes, Neave, Manning, &amp; Geary, 2006), subitizing (Brookes, Neave, Hamilton, &amp; Fink, 2007) as well 372 M. Brosnan et al. / Personality and Individual Differences 51 (2011) 371–375 as numeric IQ (Kempel et al., 2005; Luxen &amp; Buunk, 2005). Brosnan (2</context>
+</contexts>
+<marker>Voracek, Loibl, 2009</marker>
+<rawString>Voracek, M., &amp; Loibl, L. M. (2009). Scientometric analysis and bibliography of digit ratio (2D:4D) research, 1998–2008. Psychological Reports, 104, 922–956.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

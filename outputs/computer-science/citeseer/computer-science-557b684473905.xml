@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<algorithm name="Grobid Header Extraction" version="0.1"><title>Towards Parameter-Free Data Mining</title><authors><author><name>Eamonn Keogh</name><affiliation>University of California, Riverside, Department of Computer Science and Engineering</affiliation></author><author><name>Stefano Lonardi Chotirat</name><affiliation>University of California, Riverside, Department of Computer Science and Engineering</affiliation></author><author><name>Ann Ratanamahatana</name><affiliation>University of California, Riverside, Department of Computer Science and Engineering</affiliation></author></authors><keywords /></algorithm><TEI>
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Towards Parameter-Free Data Mining</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher />
+				<availability status="unknown"><licence /></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Eamonn</forename>
+								<surname>Keogh</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California, Riverside</orgName>
+								<address>
+									<postCode>92521</postCode>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Stefano</forename>
+								<forename type="middle">Lonardi</forename>
+								<surname>Chotirat</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California, Riverside</orgName>
+								<address>
+									<postCode>92521</postCode>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Ann</forename>
+								<surname>Ratanamahatana</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California, Riverside</orgName>
+								<address>
+									<postCode>92521</postCode>
+									<settlement>Riverside</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Towards Parameter-Free Data Mining</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date />
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Categories &amp; Subject Descriptors</term>
+					<term>H28 [Database Management]: Database Applications -Data</term>
+					<term>Mining</term>
+					<term>General Terms: Algorithms, Experimentation</term>
+					<term>Keywords</term>
+					<term>Parameter-Free Data Mining, Anomaly Detection, Clustering</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Most data mining algorithms require the setting of many input parameters. Two main dangers of working with parameter-laden algorithms are the following. First, incorrect settings may cause an algorithm to fail in finding the true patterns. Second, a perhaps more insidious problem is that the algorithm may report spurious patterns that do not really exist, or greatly overestimate the significance of the reported patterns. This is especially likely when the user fails to understand the role of parameters in the data mining process. Data mining algorithms should have as few parameters as possible, ideally none. A parameter-free algorithm would limit our ability to impose our prejudices, expectations, and presumptions on the problem at hand, and would let the data itself speak to us. In this work, we show that recent results in bioinformatics and computational theory hold great promise for a parameter-free data-mining paradigm. The results are motivated by observations in Kolmogorov complexity theory. However, as a practical matter, they can be implemented using any off-the-shelf compression algorithm with the addition of just a dozen or so lines of code. We will show that this approach is competitive or superior to the state-of-the-art approaches in anomaly/interestingness detection, classification, and clustering with empirical tests on time series/DNA/text/video datasets.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+	</text>
+</TEI><algorithms version="110505">
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>L Allison</author>
+<author>L Stern</author>
+<author>T Edgoose</author>
+<author>T I Dix</author>
+</authors>
+<title>Sequence Complexity for Biological Sequence Analysis.</title>
+<date>2000</date>
+<journal>Computers &amp; Chemistry</journal>
+<volume>24</volume>
+<issue>1</issue>
+<pages>43--55</pages>
+<contexts>
+<context citStr="[1]" endWordPosition="1930" position="12309" startWordPosition="1930">dk is. In [23], Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has gener</context>
+</contexts>
+<marker>[1]</marker>
+<rawString>Allison, L., Stern, L., Edgoose, T., Dix, T.I. Sequence Complexity for Biological Sequence Analysis. Computers &amp; Chemistry 24(1): 43-55 (2000)</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Benedetto</author>
+<author>E Caglioti</author>
+<author>V Loreto</author>
+</authors>
+<title>Language trees and zipping.</title>
+<date>2002</date>
+<journal>Physical Review Letters</journal>
+<volume>88</volume>
+<pages>048702</pages>
+<contexts>
+<context citStr="[2]" endWordPosition="1949" position="12443" startWordPosition="1949">er, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very extensive body of literature in the machine learning community (see, e.g., [29]) 2.3 Compression-Based Dissimilarity Measu</context>
+<context citStr="[2]" endWordPosition="5059" position="32299" startWordPosition="5059">troversy, but informed us that the “topography of the tree looks correct”. Figure 4 shows the clustering obtained; Dr. Lee provided the annotation of the internal nodes. We want to note that using a compressor optimized for DNA [3] was essential here. A standard dictionary-based compressor like gzip, would have resulted in less meaningful distances. We conducted additional experiments with a more diverse collection of animals; in every case the clustering agreed with the current consensus on evolutionary history [18]. We also examined natural language text. A similar experiment is reported in [2]. Here, we began by clustering the text of various countries’ Yahoo portals. We only considered the first 1,615 characters, the size of the smallest webpage (excluding white spaces). Figure 5 (left) shows the resulting clustering. Note that the first bifurcation correctly divides the tree into Germanic and Romance languages. While we striped out all HTML tags for this experiment, we found that leaving them in made little difference, presumably because they where more or less equally frequent across languages. Surprisingly, the clustering shown is much better than that achieved by the ubiquitou</context>
+</contexts>
+<marker>[2]</marker>
+<rawString>Benedetto, D., Caglioti, E., &amp; Loreto, V. Language trees and zipping. Physical Review Letters 88, 048702, (2002).</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>X Chen</author>
+<author>S Kwong</author>
+<author>M Li</author>
+</authors>
+<title>A compression algorithm for DNA sequences and its applications in genome comparison.</title>
+<booktitle>In Proceedings of RECOMB 2000:</booktitle>
+<pages>107</pages>
+<contexts>
+<context citStr="[3]" endWordPosition="2482" position="15737" startWordPosition="2482">e. We simply run these compression algorithms on the data to be classified and choose the one that gives the highest compression. 2.4 Choosing the Representation of the Data As we noted above, the only objective in CDM is to obtain good compression. There are several ways to achieve this goal. First, one should try several compressors. If we have domain knowledge about the data under study, and specific compressors are available for that type of data, we use one of those. For example, if we are clustering DNA we should consider a compression algorithm optimized for compressing DNA (see, e.g., [3]). There is another way we can help improve the compression; we can simply ensure that the data to be compared is in a format that can be readily and meaningfully compressed. Consider the following example; Figure 1 shows the first ten data points of three Electrocardiograms from PhysioNet [15] represented in textual form. A B C 0.13812500000000 0.51250000000000 0.49561523437690 0.04875000000000 0.50000000000000 0.49604248046834 0.10375000000000 0.50000000000000 0.49653076171875 0.17875000000000 0.47562500000000 0.49706481933594 0.24093750000000 0.45125000000000 0.49750732421875 0.298750000000</context>
+<context citStr="[3]" endWordPosition="5005" position="31927" startWordPosition="5005">rom the mitochondrial DNA of twelve primates and one “outlier” species, and hierarchically clustered them. A similar strategy was used in [23] on a different set of organisms. To validate our results, we showed the resulting dendrogram to an expert in primate evolution, Dr. Sang-Hee Lee of UCR. Dr. Lee noted that some of the relevant taxonomy is still the subject of controversy, but informed us that the “topography of the tree looks correct”. Figure 4 shows the clustering obtained; Dr. Lee provided the annotation of the internal nodes. We want to note that using a compressor optimized for DNA [3] was essential here. A standard dictionary-based compressor like gzip, would have resulted in less meaningful distances. We conducted additional experiments with a more diverse collection of animals; in every case the clustering agreed with the current consensus on evolutionary history [18]. We also examined natural language text. A similar experiment is reported in [2]. Here, we began by clustering the text of various countries’ Yahoo portals. We only considered the first 1,615 characters, the size of the smallest webpage (excluding white spaces). Figure 5 (left) shows the resulting clusterin</context>
+</contexts>
+<marker>[3]</marker>
+<rawString>Chen, X., Kwong, S., &amp; Li, M. A compression algorithm for DNA sequences and its applications in genome comparison. In Proceedings of RECOMB 2000: 107</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Dasgupta</author>
+<author>S Forrest</author>
+</authors>
+<title>Novelty Detection in Time Series Data using Ideas from Immunology.&amp;quot;</title>
+<date>1999</date>
+<booktitle>In Proc. of the International Conference on Intelligent Systems</booktitle>
+<contexts>
+<context citStr="[4]" endWordPosition="3009" position="19405" startWordPosition="3009">ameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will con</context>
+<context citStr="[4]" endWordPosition="5851" position="37102" startWordPosition="5851">malies in. In these experiments, we only count an experiment as a success for CDM if the first window size we choose finds the anomaly, and if window sizes four times as large, and one quarter as large, can also find the anomaly. Because of space limitations, we will consider only four rival techniques. Here, we simply list them, and state the number of parameters each requires in parenthesis. We refer the interested reader to the original papers for more details. We compared our approach to the Support Vector Machine (SVM) based approach of [28] (6), the Immunology (IMM) inspired approach of [4] (5), The Association Rule (AR) based approach of [36] (5), and the TSAtree Wavelet based approach of [33] (3). As before, for each experiment we spent one hour of CPU time, and one hour of human time trying to find the best parameters and only reported the best results. 4.2.1 A Simple Normalizing Experiment We begin our experiments with a simple sanity check, repeating the noisy sine problem of [28]. Figure 6 shows the results. Figure 6: A comparison of five novelty detection algorithms on the synthetic sine problem of Ma and Perkins [28]. The first 400 data points are used as training data, </context>
+<context citStr="[4]" endWordPosition="7324" position="45867" startWordPosition="7324"> both the time series and the original video. We have not considered time efficiency as a metric in these experiments, because we cannot guarantee that our implementations of the rival approaches are as efficient as they might be, given careful optimization. However, our approach is certainly not sluggish, requiring less than ten seconds (on a 2.65 GHz machine) to process a million data points. 4.3 Classification In this section, we illustrate the utility of CDM for classification with the following simple experiment. We use the following 1 This includes the 4 rival approaches considered here [4][28][33][36]. While the TSA-Wavelet approach was extended to 2D, this extension is for spatial mining. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time </context>
+</contexts>
+<marker>[4]</marker>
+<rawString>Dasgupta, D. &amp; Forrest,S. Novelty Detection in Time Series Data using Ideas from Immunology.&amp;quot; In Proc. of the International Conference on Intelligent Systems (1999).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Domingos</author>
+</authors>
+<title>A process-oriented heuristic for model selection. In</title>
+<date>1998</date>
+<booktitle>Machine Learning Proceedings of the Fifteenth International Conference,</booktitle>
+<pages>127--135</pages>
+<location>San Francisco, CA,</location>
+<contexts>
+<context citStr="[5]" endWordPosition="336" position="2314" startWordPosition="336">ons - Data Mining. General Terms: Algorithms, Experimentation. Keywords Parameter-Free Data Mining, Anomaly Detection, Clustering. 1. INTRODUCTION Most data mining algorithms require the setting of many input parameters. There are many dangers of working with parameterladen algorithms. We may fail to find true patterns because of poorly chosen parameter settings. A perhaps more insidious problem is that we may find patterns that do not exist [21], or greatly overestimate the significance of a pattern because of a failure to understand the role of parameter searching in the data mining process [5][7]. In addition, as we will show, it can be very difficult to compare the results across methods or even to reproduce the results of heavily parameterized algorithms. Data mining algorithms should have as few parameters as possible, ideally none. A parameter-free algorithm prevents us from imposing our prejudices and presumptions on the problem at hand, and let the data itself speak to us. In this work, we introduce a data-mining paradigm based on compression. The work is motivated by results in bioinformatics and computational theory that are not well known outside those communities. As we w</context>
+<context citStr="[5]" endWordPosition="3004" position="19341" startWordPosition="3004">ly available from the authors’ website. While SAX does allow parameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedd</context>
+</contexts>
+<marker>[5]</marker>
+<rawString>Domingos, P. A process-oriented heuristic for model selection. In Machine Learning Proceedings of the Fifteenth International Conference, pages 127-135. San Francisco, CA, 1998.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Elkan</author>
+</authors>
+<title>Using the triangle inequality to accelerate k-Means.</title>
+<date>2003</date>
+<booktitle>In Proc. of ICML</booktitle>
+<pages>147--153</pages>
+<contexts>
+<context citStr="[6]" endWordPosition="3065" position="19793" startWordPosition="3065">ccurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will confine our attention to hierarchical clustering. 3.2 Anomaly Detection The task of finding anomalies in data has been an area of active research, which has long attracted the attention of researchers in biology, physics, astronomy, and statistics, in addition to the more recent work by the data mining community [4][28][33]. While the word “anomaly” implies that a radically different subs</context>
+<context citStr="[6]" endWordPosition="8109" position="50574" startWordPosition="8109">lar datasets [7]. As a step towards mitigating these problems, we showed that parameter-free or parameter-light algorithms can compete with or outperform parameter-laden algorithms on a wide variety of problems/data types. There are many directions in which this work may be extended. We intend to perform a more rigorous theoretical analysis of the CDM measure. For example, CDM is a dissimilarity measure; if it could be modified to be a distance measure, or better still, a distance metric, we could avail of a wealth of pruning and indexing techniques to speed up classification [30], clustering [6], and similarity search [34]. While it is unlikely that CDM can be transformed in a true metric, it may be possible to prove a weaker version of the triangular inequality, which can be bounded and used to prune the search space [6]. The results in [8] on textual substitution compressors could lead to some insights in the general problem. Finally, we note that our approach is clearly not suitable for classifying or clustering low dimensionality data (although Figure 2 shows exceptionally good results on time series with only 1,000 data points). We plan to theoretically and empirically investiga</context>
+</contexts>
+<marker>[6]</marker>
+<rawString>Elkan, C. Using the triangle inequality to accelerate k-Means. In Proc. of ICML 2003. pp 147-153</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Elkan</author>
+</authors>
+<title>Magical thinking in data mining: lessons from CoIL challenge</title>
+<date>2000</date>
+<pages>426--431</pages>
+<publisher>SIGKDD,</publisher>
+<contexts>
+<context citStr="[7]" endWordPosition="336" position="2317" startWordPosition="336"> - Data Mining. General Terms: Algorithms, Experimentation. Keywords Parameter-Free Data Mining, Anomaly Detection, Clustering. 1. INTRODUCTION Most data mining algorithms require the setting of many input parameters. There are many dangers of working with parameterladen algorithms. We may fail to find true patterns because of poorly chosen parameter settings. A perhaps more insidious problem is that we may find patterns that do not exist [21], or greatly overestimate the significance of a pattern because of a failure to understand the role of parameter searching in the data mining process [5][7]. In addition, as we will show, it can be very difficult to compare the results across methods or even to reproduce the results of heavily parameterized algorithms. Data mining algorithms should have as few parameters as possible, ideally none. A parameter-free algorithm prevents us from imposing our prejudices and presumptions on the problem at hand, and let the data itself speak to us. In this work, we introduce a data-mining paradigm based on compression. The work is motivated by results in bioinformatics and computational theory that are not well known outside those communities. As we will</context>
+<context citStr="[7]" endWordPosition="8016" position="49987" startWordPosition="8016"> the time taken to find search over DTW’s single (and sensitive, see [30]) parameter, CDM is still about 25 times faster than DTW. 5. CONCLUSIONS AND FUTURE WORK In this work, we argued that data mining algorithms with many parameters are burdensome to use, and make it difficult to compare results across different methods. We further showed empirically that at least in the case of anomaly detection, parameter-laden algorithms are particularly vulnerable to overfitting. Sometimes they achieve perfect accuracy on one dataset, and then completely fail to generalize to other very similar datasets [7]. As a step towards mitigating these problems, we showed that parameter-free or parameter-light algorithms can compete with or outperform parameter-laden algorithms on a wide variety of problems/data types. There are many directions in which this work may be extended. We intend to perform a more rigorous theoretical analysis of the CDM measure. For example, CDM is a dissimilarity measure; if it could be modified to be a distance measure, or better still, a distance metric, we could avail of a wealth of pruning and indexing techniques to speed up classification [30], clustering [6], and similar</context>
+</contexts>
+<marker>[7]</marker>
+<rawString>Elkan, C. Magical thinking in data mining: lessons from CoIL challenge 2000. SIGKDD, 2001. pp 426-431.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Ergün</author>
+<author>S Muthukrishnan</author>
+<author>S C Sahinalp</author>
+</authors>
+<title>Comparing Sequences with Segment Rearrangements.</title>
+<date>2003</date>
+<publisher>FSTTCS</publisher>
+<contexts>
+<context citStr="[8]" endWordPosition="8155" position="50825" startWordPosition="8155"> which this work may be extended. We intend to perform a more rigorous theoretical analysis of the CDM measure. For example, CDM is a dissimilarity measure; if it could be modified to be a distance measure, or better still, a distance metric, we could avail of a wealth of pruning and indexing techniques to speed up classification [30], clustering [6], and similarity search [34]. While it is unlikely that CDM can be transformed in a true metric, it may be possible to prove a weaker version of the triangular inequality, which can be bounded and used to prune the search space [6]. The results in [8] on textual substitution compressors could lead to some insights in the general problem. Finally, we note that our approach is clearly not suitable for classifying or clustering low dimensionality data (although Figure 2 shows exceptionally good results on time series with only 1,000 data points). We plan to theoretically and empirically investigate the limitations on object sizes that we can meaningfully work with using our proposed approach. 6. ACKNOWLEDGMENTS Thanks to Ming Li for his feedback on Section 4.1, and to the many donors of datasets. Thanks also to Stephen Bay for his many useful</context>
+</contexts>
+<marker>[8]</marker>
+<rawString>Ergün, F., Muthukrishnan, S., &amp; Sahinalp, S.C. Comparing Sequences with Segment Rearrangements. FSTTCS 2003:</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Faloutsos</author>
+<author>K Lin</author>
+</authors>
+<title>FastMap: A fast algorithm for indexing, data-mining and visualization of traditional and multimedia datasets.</title>
+<date>1995</date>
+<booktitle>In Proc of 24th ACM SIGMOD,</booktitle>
+<contexts>
+<context citStr="[9]" endWordPosition="3097" position="19971" startWordPosition="3097">anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will confine our attention to hierarchical clustering. 3.2 Anomaly Detection The task of finding anomalies in data has been an area of active research, which has long attracted the attention of researchers in biology, physics, astronomy, and statistics, in addition to the more recent work by the data mining community [4][28][33]. While the word “anomaly” implies that a radically different subsection of the data has been detected, we may actually be interested in more subtle deviations in the data, as reflected by some of the synonyms for anomaly detection, interesting</context>
+<context citStr="[9]" endWordPosition="3670" position="23715" startWordPosition="3670">could find the objectively correct answer, if the size of the window ranged anywhere from a  heartbeat length to four heartbeats. For clarity, we call this slight variation Window Comparison Anomaly Detection (WCAD). 3.3 Classification Because CDM is a dissimilarity measure, we can trivially use it with a lazy-learning scheme. For simplicity, in this work, we will only consider the one-nearest-neighbor algorithm. Generally speaking, lazy learners using non-metric proximity measures are typically forced to examine the entire dataset. However, one can use an embedding technique such as FASTMAP [9] to map the objects into a metric space, thus allowing indexing and faster classification. For simplicity, we disregard this possibility in this work. 4. EMPIRICAL EVALUATION While this section shows the results of many experiments, it is actually only a subset of the experiments conducted for this research project. We encourage the interested reader to consult [18] for additional examples. 4.1 Clustering While CDM can work with most clustering techniques, here we confine our attention to hierarchical clustering, since it lends itself to immediate visual confirmation. 209 Research Track Paper </context>
+</contexts>
+<marker>[9]</marker>
+<rawString>Faloutsos, C., &amp; Lin, K. FastMap: A fast algorithm for indexing, data-mining and visualization of traditional and multimedia datasets. In Proc of 24th ACM SIGMOD, 1995.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Farach</author>
+<author>M Noordewier</author>
+<author>S Savari</author>
+<author>L Shepp</author>
+<author>A Wyner</author>
+<author>J Ziv</author>
+</authors>
+<title>On the Entropy of DNA:</title>
+<date>1995</date>
+<booktitle>Algorithms and Measurements Based on Memory and Rapid Convergence, Proc. of the Symp. on Discrete Algorithms,</booktitle>
+<pages>48--57</pages>
+<contexts>
+<context citStr="[10]" endWordPosition="1930" position="12313" startWordPosition="1930">is. In [23], Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated</context>
+</contexts>
+<marker>[10]</marker>
+<rawString>Farach, M., Noordewier, M., Savari, S., Shepp, L., Wyner, A., &amp; Ziv, J. On the Entropy of DNA: Algorithms and Measurements Based on Memory and Rapid Convergence, Proc. of the Symp. on Discrete Algorithms, 1995. pp 48-57.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Flexer</author>
+</authors>
+<title>Statistical evaluation of neural networks experiments: Minimum requirements and current practice.</title>
+<date>1996</date>
+<booktitle>In Proc. of the 13th European Meeting on Cybernetics and Systems Research,</booktitle>
+<volume>2</volume>
+<pages>1005--1008</pages>
+<contexts>
+<context citStr="[11]" endWordPosition="1327" position="8698" startWordPosition="1327">y in parameter tuning effort effectively prevents us from evaluating the contribution of many papers. Here, the problem is compounded by the fact that the authors created the dataset in question. Creating a dataset may be regarded as a form of meta parameter tuning, since we don’t generally know if the very first dataset created was used in the paper, or many datasets were created and only the most satisfactory one was used. In any case, there are clearly problems in setting parameters (training) and reporting results (testing) on the same dataset [32]. In the field of neural networks, Flexer [11] noted that 93% of papers did just that. While no such statistics are published for data mining, an informal survey suggests a similar problem may exist here. In Section 4.2.2, we will empirically reinforce this point by showing that in the context of anomaly detection, parameter-laden algorithms can have their parameters tuned to achieve excellent performance on one dataset, but completely fail to generalize to a new but very similar dataset. Before leaving this section, it would be remiss of us not to note that many papers by the authors of this manuscript also feature algorithms that have (</context>
+</contexts>
+<marker>[11]</marker>
+<rawString>Flexer, A. Statistical evaluation of neural networks experiments: Minimum requirements and current practice. In Proc. of the 13th European Meeting on Cybernetics and Systems Research, vol. 2, pp 1005-1008, Austria, 1996</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Gatlin</author>
+</authors>
+<title>Information Theory and the Living Systems.</title>
+<date>1972</date>
+<publisher>Columbia University Press,</publisher>
+<contexts>
+<context citStr="[12]" endWordPosition="1930" position="12317" startWordPosition="1930">In [23], Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a v</context>
+</contexts>
+<marker>[12]</marker>
+<rawString>Gatlin, L. Information Theory and the Living Systems. Columbia University Press, 1972.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Gavrilov</author>
+<author>D Anguelov</author>
+<author>P Indyk</author>
+<author>R Motwahl</author>
+</authors>
+<title>Mining the stock market: which measure is best?</title>
+<date>2000</date>
+<booktitle>Proc. of the 6th ACM SIGKDD,</booktitle>
+<contexts>
+<context citStr="[13]" endWordPosition="3006" position="19358" startWordPosition="3006">m the authors’ website. While SAX does allow parameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a met</context>
+<context citStr="[13]" endWordPosition="3845" position="24884" startWordPosition="3845">irmation. 209 Research Track Paper 4.1.1 Clustering Time Series In order to perform convincing experiments, we wanted to test our algorithm against all reasonable alternatives. However, lack of space prevents us from referencing, much less explaining them. So, we re-implemented every time series distance/dissimilarity/ similarity measure that has appeared in the last decade in any of the following conferences: SIGKDD, SIGMOD, ICDM, ICDE, VLDB, ICML, SSDB, PKDD, and PAKDD. In total, we implemented fiftyone such measures, including the ten mentioned in [20] and the eight variations mentioned in [13]. For fairness, we should note that many of these measures are designed to deal with short time series, and made no claim about their ability to handle longer time series. In addition to the above, we considered the classic Euclidean distance, Dynamic Time Warping (DTW), the L1 metric, the Linf metric, and the Longest Common Subsequence (LCSS), all of which are more than a decade old. Some of these (Euclidean and the other Lp metrics) are parameter free. For measures that require a single parameter, we did an exhaustive search for the best parameter. For measures requiring more than one parame</context>
+</contexts>
+<marker>[13]</marker>
+<rawString>Gavrilov, M., Anguelov, D., Indyk, P., Motwahl, R. Mining the stock market: which measure is best? Proc. of the 6th ACM SIGKDD, 2000</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>X Ge</author>
+<author>P Smyth</author>
+</authors>
+<title>Deformable Markov model templates for time-series pattern matching.</title>
+<date>2000</date>
+<booktitle>In proceedings of the 6th ACM SIGKDD.</booktitle>
+<pages>81--90</pages>
+<location>Boston, MA,</location>
+<contexts>
+<context citStr="[14]" endWordPosition="564" position="3824" startWordPosition="564">y data mining, rather than forcing us to impose our presumptions on the data. 2) The accuracy of our approach can be greatly superior to those of parameter-laden algorithms, even if we allow these algorithms to search exhaustively over their parameter spaces. 3) Our approach is based on compression as its cornerstone, and compression algorithms are typically space and time efficient. As a consequence, our method is generally much more efficient than other algorithms. 4) Many parameterized algorithms require the data to be in a special format. For concreteness, consider time series data mining [14][20]. Here, the Euclidean distance requires that the dimensionality of two instances being compared is exactly the same, and Dynamic Time Warping (DTW) is not defined if a single data point is missing [30]. In contrast, our approach works for time series of different lengths, sampling rates, dimensionalities, with missing values, etc. In this work, we decided to take the unusual step of reproducing our entire actual code, rather than just the pseudocode. There are two reasons for doing this. First, free access to the actual code combined with our policy of making all data freely available allo</context>
+<context citStr="[14]" endWordPosition="4402" position="28259" startWordPosition="4402">of data, say the relatively smooth MotorCurrent datasets, they achieve poor performance on the more noisy datasets like Balloon. We could then tune the parameters to do better on the noisy datasets, but immediately lose discriminatory power on the smooth data. Figure 2: Thirty-six time series (in eighteen pairs) clustered using the approach proposed in this paper The only measures performing significantly better than random were the following. Euclidean distance had Q = 0.27. DTW was able to achieve Q = 0.33 after careful adjustment of its single parameter. The Hidden Markov Model approach of [14] achieved Q = 0 using the original piecewise linear approximation of the time series. However, when using the SAX representation, its score jumped to Q = 0.33. The LPC Cepstra approach of [17] and the similar Autocorrelation method of [35] both had Q = 0.16. LCSS had Q = 0.33. Our first experiment measured the quality of the clustering only at the leaf level of the dendrogram. We also designed a simple experiment to test the quality of clustering at a higher level. We randomly extracted ten subsequences of length 2,000 from two ECG databases. For this problem the clustering at the leaf level i</context>
+</contexts>
+<marker>[14]</marker>
+<rawString>Ge, X. &amp; Smyth, P. Deformable Markov model templates for time-series pattern matching. In proceedings of the 6th ACM SIGKDD. Boston, MA, Aug 20-23, 2000. pp 81-90.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>A L Goldberger</author>
+<author>L Amaral</author>
+<author>L Glass</author>
+<author>J M Hausdorff</author>
+<author>Ivanov</author>
+</authors>
+<journal>PhysioBank, PhysioToolkit, and PhysioNet: Circulation</journal>
+<volume>101</volume>
+<issue>23</issue>
+<location>P.Ch., Mark, R.G., Mietus, J.E., Moody, G.B., Peng, C.K., Stanley, H.E..</location>
+<contexts>
+<context citStr="[15]" endWordPosition="2531" position="16032" startWordPosition="2531"> First, one should try several compressors. If we have domain knowledge about the data under study, and specific compressors are available for that type of data, we use one of those. For example, if we are clustering DNA we should consider a compression algorithm optimized for compressing DNA (see, e.g., [3]). There is another way we can help improve the compression; we can simply ensure that the data to be compared is in a format that can be readily and meaningfully compressed. Consider the following example; Figure 1 shows the first ten data points of three Electrocardiograms from PhysioNet [15] represented in textual form. A B C 0.13812500000000 0.51250000000000 0.49561523437690 0.04875000000000 0.50000000000000 0.49604248046834 0.10375000000000 0.50000000000000 0.49653076171875 0.17875000000000 0.47562500000000 0.49706481933594 0.24093750000000 0.45125000000000 0.49750732421875 0.29875000000000 0.45125000000000 0.49808715820312 0.37000000000000 0.47656250000000 0.49875854492187 0.48375000000000 0.50000000000000 0.49939941406230 0.55593750000000 0.48281250000000 0.50007080078125 0.64625000000000 0.48468750000000 0.50062011718750 0.70125000000000 0.46937500000000 0.50123046875826 Fig</context>
+<context citStr="[15]" endWordPosition="7526" position="47038" startWordPosition="7526">an Distance [20]. • Dynamic Time Warping (DTW). Here, we exhaustively test all values of its single parameter (warping window size [30]) and report only the best result, and • Compression-Based Dissimilarity Measure (CDM) Note that we only compare CDM with Dynamic Time Warping and Euclidean Distance metric in this section for brevity, since it has been shown in [20] that many of the more complex similarity measures proposed in other work have higher error rates than a simple Euclidean Distance metric. The ECG datasets are four-class problem derived from BIDMC Congestive Heart Failure Database [15] of four patients. Since this original database contains two ECG signals, we separate each signal and create two datasets of one-dimensional time series in the following way. Each instance of 3,200 contiguous data points (about 20 heartbeats) of each signal is randomly extracted from each long ECG signals of each patient. Twenty instances are extracted from each class (patient), resulting in eighty total instances for each dataset. The Gun datasets are time-series datasets extracted from video sequences of two actors either aiming a gun or simply pointing at a target [30] (see also, Figure 10)</context>
+</contexts>
+<marker>[15]</marker>
+<rawString>Goldberger, A.L., Amaral, L., Glass, L, Hausdorff, J.M., Ivanov, P.Ch., Mark, R.G., Mietus, J.E., Moody, G.B., Peng, C.K., Stanley, H.E.. PhysioBank, PhysioToolkit, and PhysioNet: Circulation 101(23):e215-e220</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Goodman</author>
+</authors>
+<title>Comment on “Language Trees and Zipping”,</title>
+<date>2002</date>
+<note>unpublished manuscript,</note>
+<contexts>
+<context citStr="[16]" endWordPosition="1985" position="12695" startWordPosition="1985"> The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very extensive body of literature in the machine learning community (see, e.g., [29]) 2.3 Compression-Based Dissimilarity Measure Given two strings, x and y, we define the Compression-based Dissimilarity Measure (CDM) as follows )()( )(),( yCxC xyCyxCDM + = (3) The CDM dissimilarity is close to 1 when x and y are not related, and smaller than one if x and y are related. The sm</context>
+</contexts>
+<marker>[16]</marker>
+<rawString>Goodman, J. Comment on “Language Trees and Zipping”, unpublished manuscript, 2002 (available at</rawString>
+</citation>
+<citation valid="false">
+<marker>[http://research.microsoft.com/~joshuago/]</marker>
+<rawString>.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Kalpakis</author>
+<author>D Gada</author>
+<author>V Puttagunta</author>
+</authors>
+<title>Distance measures for effective clustering of ARIMA time-series.</title>
+<date>2001</date>
+<booktitle>In proc. of the IEEE ICDM,</booktitle>
+<pages>273--280</pages>
+<location>San Jose, CA.</location>
+<contexts>
+<context citStr="[17]" endWordPosition="3006" position="19362" startWordPosition="3006">e authors’ website. While SAX does allow parameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric </context>
+<context citStr="[17]" endWordPosition="4435" position="28451" startWordPosition="4435">asets, but immediately lose discriminatory power on the smooth data. Figure 2: Thirty-six time series (in eighteen pairs) clustered using the approach proposed in this paper The only measures performing significantly better than random were the following. Euclidean distance had Q = 0.27. DTW was able to achieve Q = 0.33 after careful adjustment of its single parameter. The Hidden Markov Model approach of [14] achieved Q = 0 using the original piecewise linear approximation of the time series. However, when using the SAX representation, its score jumped to Q = 0.33. The LPC Cepstra approach of [17] and the similar Autocorrelation method of [35] both had Q = 0.16. LCSS had Q = 0.33. Our first experiment measured the quality of the clustering only at the leaf level of the dendrogram. We also designed a simple experiment to test the quality of clustering at a higher level. We randomly extracted ten subsequences of length 2,000 from two ECG databases. For this problem the clustering at the leaf level is subjective, however the first bifurcation of the tree should divide the data into the two classes (the probability of this happening by chance is only 1 in 524,288). Figure 3 shows the two b</context>
+</contexts>
+<marker>[17]</marker>
+<rawString>Kalpakis, K., Gada, D., &amp; Puttagunta, V. Distance measures for effective clustering of ARIMA time-series. In proc. of the IEEE ICDM, 2001. San Jose, CA. pp 273-280.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Keogh</author>
+</authors>
+<date>2004</date>
+<contexts>
+<context citStr="[18]" endWordPosition="3727" position="24083" startWordPosition="3727"> only consider the one-nearest-neighbor algorithm. Generally speaking, lazy learners using non-metric proximity measures are typically forced to examine the entire dataset. However, one can use an embedding technique such as FASTMAP [9] to map the objects into a metric space, thus allowing indexing and faster classification. For simplicity, we disregard this possibility in this work. 4. EMPIRICAL EVALUATION While this section shows the results of many experiments, it is actually only a subset of the experiments conducted for this research project. We encourage the interested reader to consult [18] for additional examples. 4.1 Clustering While CDM can work with most clustering techniques, here we confine our attention to hierarchical clustering, since it lends itself to immediate visual confirmation. 209 Research Track Paper 4.1.1 Clustering Time Series In order to perform convincing experiments, we wanted to test our algorithm against all reasonable alternatives. However, lack of space prevents us from referencing, much less explaining them. So, we re-implemented every time series distance/dissimilarity/ similarity measure that has appeared in the last decade in any of the following co</context>
+<context citStr="[18]" endWordPosition="4878" position="31173" startWordPosition="4878">increases the time complexity by a factor of O(n2) and even after this optimization step, none of the competing similarity measures come close to the performance of our method. Figure 3: Two clusterings on samples from two records from the MITBIH Arrhythmia Database (Left) Our approach (Right) Euclidean distance Finally, while the results of these experiments are very promising for our approach, some fraction of the success could be attributed to luck. To preempt this possibility, we conducted many additional experiments, with essentially identical results. These experiments are documented in [18]. 4.1.2 Clustering Text As a test of our ability to cluster text, we began by conducting experiments on DNA strings. We took the first 16,300 symbols from the mitochondrial DNA of twelve primates and one “outlier” species, and hierarchically clustered them. A similar strategy was used in [23] on a different set of organisms. To validate our results, we showed the resulting dendrogram to an expert in primate evolution, Dr. Sang-Hee Lee of UCR. Dr. Lee noted that some of the relevant taxonomy is still the subject of controversy, but informed us that the “topography of the tree looks correct”. Fi</context>
+</contexts>
+<marker>[18]</marker>
+<rawString>Keogh, E. http://www.cs.ucr.edu/~eamonn/SIGKDD2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Keogh</author>
+<author>T Folias</author>
+</authors>
+<title>The UCR Time Series Data Mining Archive.</title>
+<date>2002</date>
+<location>Riverside CA.</location>
+<contexts>
+<context citStr="[19]" endWordPosition="3998" position="25802" startWordPosition="3998">ngest Common Subsequence (LCSS), all of which are more than a decade old. Some of these (Euclidean and the other Lp metrics) are parameter free. For measures that require a single parameter, we did an exhaustive search for the best parameter. For measures requiring more than one parameter (one method required seven!), we spent one hour of CPU time searching for the best parameters using a genetic algorithm and independently spent one hour searching manually for the best parameters. We then considered only the better of the two. For our first experiment, we examined the UCR Time Series Archive [19] for datasets that come in pairs. For example, in the Foetal-ECG dataset, there are two time series, thoracic and abdominal, and in the Dryer dataset, there are two time series, hot gas exhaust and fuel flow rate. We were able to identify eighteen such pairs, from a diverse collection of time series covering the domains of finance, science, medicine, industry, etc. Although our method is able to deal with time series of different lengths, we truncated all time series to length 1,000 to allow comparisons to methods that require equal length time series. While the correct hierarchical clustering</context>
+</contexts>
+<marker>[19]</marker>
+<rawString>Keogh, E. &amp; Folias, T. The UCR Time Series Data Mining Archive. Riverside CA. 2002.</rawString>
+</citation>
+<citation valid="false">
+<marker>[http://www.cs.ucr.edu/~eamonn/TSDMA/index.html]</marker>
+<rawString>.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Keogh</author>
+<author>S Kasetty</author>
+</authors>
+<title>On the need for time series data mining benchmarks: A survey and empirical demonstration.</title>
+<date>2002</date>
+<booktitle>In Proc. of SIGKDD,</booktitle>
+<contexts>
+<context citStr="[20]" endWordPosition="564" position="3828" startWordPosition="564">ta mining, rather than forcing us to impose our presumptions on the data. 2) The accuracy of our approach can be greatly superior to those of parameter-laden algorithms, even if we allow these algorithms to search exhaustively over their parameter spaces. 3) Our approach is based on compression as its cornerstone, and compression algorithms are typically space and time efficient. As a consequence, our method is generally much more efficient than other algorithms. 4) Many parameterized algorithms require the data to be in a special format. For concreteness, consider time series data mining [14][20]. Here, the Euclidean distance requires that the dimensionality of two instances being compared is exactly the same, and Dynamic Time Warping (DTW) is not defined if a single data point is missing [30]. In contrast, our approach works for time series of different lengths, sampling rates, dimensionalities, with missing values, etc. In this work, we decided to take the unusual step of reproducing our entire actual code, rather than just the pseudocode. There are two reasons for doing this. First, free access to the actual code combined with our policy of making all data freely available allows i</context>
+<context citStr="[20]" endWordPosition="3838" position="24841" startWordPosition="3838">ce it lends itself to immediate visual confirmation. 209 Research Track Paper 4.1.1 Clustering Time Series In order to perform convincing experiments, we wanted to test our algorithm against all reasonable alternatives. However, lack of space prevents us from referencing, much less explaining them. So, we re-implemented every time series distance/dissimilarity/ similarity measure that has appeared in the last decade in any of the following conferences: SIGKDD, SIGMOD, ICDM, ICDE, VLDB, ICML, SSDB, PKDD, and PAKDD. In total, we implemented fiftyone such measures, including the ten mentioned in [20] and the eight variations mentioned in [13]. For fairness, we should note that many of these measures are designed to deal with short time series, and made no claim about their ability to handle longer time series. In addition to the above, we considered the classic Euclidean distance, Dynamic Time Warping (DTW), the L1 metric, the Linf metric, and the Longest Common Subsequence (LCSS), all of which are more than a decade old. Some of these (Euclidean and the other Lp metrics) are parameter free. For measures that require a single parameter, we did an exhaustive search for the best parameter. </context>
+<context citStr="[20]" endWordPosition="6395" position="40223" startWordPosition="6395">tant “anomalies” elsewhere. It may be argued that the very slight change of period is the anomaly and these algorithms did the right thing. However, we get a similar inability to generalize if we instead slightly change the amplitude of the sine waves, or if we add (or remove!) more uniform noise or make any other innocuous changes, including ones that are imperceptible to the human eye. In case the preceding example was a coincidentally unfortunate dataset for the other approaches, we conducted many other similar experiments. And since creating our own dataset opens the possibly of data bias [20], we considered datasets created by others. We were fortunate enough to obtain a set of 20 time series anomaly detection benchmark problems from the Aerospace Corp. A subset of the data is shown in Figure 8. The TSA algorithm easily discovered the anomaly in the time series L-1j, but not the other two time series. We found that both SVM and IMM could have their parameters tuned to find the anomaly on any individual one of the three sequences, but once the parameters were tuned on one dataset, they did not generalize to the other two problems. The objective of these experiments is to reinforce </context>
+<context citStr="[20]" endWordPosition="7433" position="46450" startWordPosition="7433">s considered here [4][28][33][36]. While the TSA-Wavelet approach was extended to 2D, this extension is for spatial mining. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time Warping (DTW). Here, we exhaustively test all values of its single parameter (warping window size [30]) and report only the best result, and • Compression-Based Dissimilarity Measure (CDM) Note that we only compare CDM with Dynamic Time Warping and Euclidean Distance metric in this section for brevity, since it has been shown in [20] that many of the more complex similarity measures proposed in other work have higher error rates than a simple Euclidean Distance metric. The ECG datasets are four-class problem derived from BIDMC Congestive Heart Failure Database [15] of four pat</context>
+</contexts>
+<marker>[20]</marker>
+<rawString>Keogh, E. &amp; Kasetty, S. On the need for time series data mining benchmarks: A survey and empirical demonstration. In Proc. of SIGKDD, 2002.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Keogh</author>
+<author>J Lin</author>
+<author>W Truppel</author>
+</authors>
+<title>Clustering of Time Series Subsequences is Meaningless: Implications for Past and Future Research.</title>
+<date>2003</date>
+<booktitle>In proc. of the 3rd IEEE ICDM,</booktitle>
+<pages>115--122</pages>
+<location>Melbourne, FL.</location>
+<contexts>
+<context citStr="[21]" endWordPosition="311" position="2161" startWordPosition="311">d clustering with empirical tests on time series/DNA/text/video datasets. Categories &amp; Subject Descriptors H.2.8 [Database Management]: Database Applications - Data Mining. General Terms: Algorithms, Experimentation. Keywords Parameter-Free Data Mining, Anomaly Detection, Clustering. 1. INTRODUCTION Most data mining algorithms require the setting of many input parameters. There are many dangers of working with parameterladen algorithms. We may fail to find true patterns because of poorly chosen parameter settings. A perhaps more insidious problem is that we may find patterns that do not exist [21], or greatly overestimate the significance of a pattern because of a failure to understand the role of parameter searching in the data mining process [5][7]. In addition, as we will show, it can be very difficult to compare the results across methods or even to reproduce the results of heavily parameterized algorithms. Data mining algorithms should have as few parameters as possible, ideally none. A parameter-free algorithm prevents us from imposing our prejudices and presumptions on the problem at hand, and let the data itself speak to us. In this work, we introduce a data-mining paradigm bas</context>
+<context citStr="[21]" endWordPosition="3006" position="19366" startWordPosition="3006">thors’ website. While SAX does allow parameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric spac</context>
+</contexts>
+<marker>[21]</marker>
+<rawString>Keogh, E., Lin, J., &amp; Truppel, W. Clustering of Time Series Subsequences is Meaningless: Implications for Past and Future Research. In proc. of the 3rd IEEE ICDM, 2003. Melbourne, FL. Nov 19-22, 2003. pp 115-122.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Li</author>
+<author>J H Badger</author>
+<author>X Chen</author>
+<author>S Kwong</author>
+<author>P Kearney</author>
+<author>H Zhang</author>
+</authors>
+<title>An information-based sequence distance and its application to whole mitochondrial genome phylogeny.</title>
+<date>2001</date>
+<journal>Bioinformatics</journal>
+<volume>17</volume>
+<pages>149--154</pages>
+<contexts>
+<context citStr="[22]" endWordPosition="1630" position="10518" startWordPosition="1630">ramming languages will give rise to distinct values of K(x), but one can prove that the differences are only up to a fixed additive constant. Intuitively, K(x) is the minimal quantity of information required to generate x by an algorithm. Hereafter, we will follow the notation of [23], which was the main inspiration of this work. The conditional Kolmogorov complexity K(x|y) of x to y is defined as the length of the shortest program that computes x when y is given as an auxiliary input to the program. The function K(xy) is the length of the shortest program that outputs y concatenated to x. In [22], the authors consider the distance between two strings x and y, defined as )( )|()|(),( xyK xyKyxKyxdk + = (1) which satisfies the triangle inequality, up to a small error term. A more mathematically precise distance was proposed in [23]. Kolmogorov complexity is without a doubt the ultimate lower bound among all measures of information content. Unfortunately, it cannot be computed in the general case [24]. As a consequence, one must approximate this distance. It is easy to realize that universal compression algorithms give an upper bound to the Kolmogorov complexity. In fact, K(x) is the bes</context>
+</contexts>
+<marker>[22]</marker>
+<rawString>Li, M., Badger, J.H., Chen, X., Kwong, S, Kearney, P., &amp; Zhang, H. An information-based sequence distance and its application to whole mitochondrial genome phylogeny. Bioinformatics 17: 149-154, 2001.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>M Li</author>
+<author>X Chen</author>
+<author>X Li</author>
+<author>B Ma</author>
+<author>P Vitanyi</author>
+</authors>
+<title>The similarity metric.</title>
+<booktitle>Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete algorithms, 2003. Pages: 863 –</booktitle>
+<pages>872</pages>
+<contexts>
+<context citStr="[23]" endWordPosition="1572" position="10199" startWordPosition="1572">It was proposed by A.N. Kolmogorov in 1965 to quantify the randomness of strings and other objects in an objective and absolute manner. The Kolmogorov complexity K(x) of a string x is defined as the length of the shortest program capable of producing x on a universal computer — such as a Turing machine. Different programming languages will give rise to distinct values of K(x), but one can prove that the differences are only up to a fixed additive constant. Intuitively, K(x) is the minimal quantity of information required to generate x by an algorithm. Hereafter, we will follow the notation of [23], which was the main inspiration of this work. The conditional Kolmogorov complexity K(x|y) of x to y is defined as the length of the shortest program that computes x when y is given as an auxiliary input to the program. The function K(xy) is the length of the shortest program that outputs y concatenated to x. In [22], the authors consider the distance between two strings x and y, defined as )( )|()|(),( xyK xyKyxKyxdk + = (1) which satisfies the triangle inequality, up to a small error term. A more mathematically precise distance was proposed in [23]. Kolmogorov complexity is without a doubt </context>
+<context citStr="[23]" endWordPosition="1831" position="11720" startWordPosition="1831">est compression that one could possibly achieve for the text string x. Given a data compression algorithm, we define C(x) as the size of the compressed size of x and C(x|y) as the compression achieved by first training the compression on y, and then compressing x. For example, if the compressor is based on a textual substitution method, one could build the dictionary on y, and then use that dictionary to compress x. We can approximate (1) by the following distance measure )( )|()|(),( xyC xyCyxCyxdc + = (2) The better the compression algorithm, the better the approximation of dc for dk is. In [23], Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26</context>
+<context citStr="[23]" endWordPosition="4926" position="31466" startWordPosition="4926">) Euclidean distance Finally, while the results of these experiments are very promising for our approach, some fraction of the success could be attributed to luck. To preempt this possibility, we conducted many additional experiments, with essentially identical results. These experiments are documented in [18]. 4.1.2 Clustering Text As a test of our ability to cluster text, we began by conducting experiments on DNA strings. We took the first 16,300 symbols from the mitochondrial DNA of twelve primates and one “outlier” species, and hierarchically clustered them. A similar strategy was used in [23] on a different set of organisms. To validate our results, we showed the resulting dendrogram to an expert in primate evolution, Dr. Sang-Hee Lee of UCR. Dr. Lee noted that some of the relevant taxonomy is still the subject of controversy, but informed us that the “topography of the tree looks correct”. Figure 4 shows the clustering obtained; Dr. Lee provided the annotation of the internal nodes. We want to note that using a compressor optimized for DNA [3] was essential here. A standard dictionary-based compressor like gzip, would have resulted in less meaningful distances. We conducted addit</context>
+</contexts>
+<marker>[23]</marker>
+<rawString>Li, M., Chen, X., Li, X., Ma, B., Vitanyi, P. The similarity metric. Proceedings of the fourteenth annual ACM-SIAM symposium on Discrete algorithms, 2003. Pages: 863 – 872</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Li</author>
+<author>P Vitanyi</author>
+</authors>
+<title>An Introduction to Kolmogorov Complexity and Its Applications. Second Edition,</title>
+<date>1997</date>
+<publisher>Springer Verlag,</publisher>
+<contexts>
+<context citStr="[24]" endWordPosition="1696" position="10928" startWordPosition="1696">h of the shortest program that computes x when y is given as an auxiliary input to the program. The function K(xy) is the length of the shortest program that outputs y concatenated to x. In [22], the authors consider the distance between two strings x and y, defined as )( )|()|(),( xyK xyKyxKyxdk + = (1) which satisfies the triangle inequality, up to a small error term. A more mathematically precise distance was proposed in [23]. Kolmogorov complexity is without a doubt the ultimate lower bound among all measures of information content. Unfortunately, it cannot be computed in the general case [24]. As a consequence, one must approximate this distance. It is easy to realize that universal compression algorithms give an upper bound to the Kolmogorov complexity. In fact, K(x) is the best compression that one could possibly achieve for the text string x. Given a data compression algorithm, we define C(x) as the size of the compressed size of x and C(x|y) as the compression achieved by first training the compression on y, and then compressing x. For example, if the compressor is based on a textual substitution method, one could build the dictionary on y, and then use that dictionary to comp</context>
+</contexts>
+<marker>[24]</marker>
+<rawString>Li, M. &amp; Vitanyi, P. An Introduction to Kolmogorov Complexity and Its Applications. Second Edition, Springer Verlag, 1997.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Lin</author>
+<author>E Keogh</author>
+<author>S Lonardi</author>
+<author>B Chiu</author>
+</authors>
+<title>A Symbolic Representation of Time Series, with Implications for Streaming Algorithms.</title>
+<date>2003</date>
+<booktitle>In proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery.</booktitle>
+<location>San Diego, CA.</location>
+<contexts>
+<context citStr="[25]" endWordPosition="2880" position="18518" startWordPosition="2880">Section 4.2 can be easily discovered on the original data. However, addressing this problem allows us to successfully apply CDM on much smaller datasets. A simple solution to problem noted above is to convert the data into a discrete format, with a small alphabet size. In this case, every part of the representation contributes about the same amount of information about the shape of the time series. This opens the question of which symbolic representation of time series to use. In 208 Research Track Paper this work, we use the SAX (Symbolic Aggregate ApproXimation) representation of Lin et al. [25]. This representation has been shown to produce competitive results for classifying and clustering time series, which suggest that it preserves meaningful information from the original data. Furthermore, the code is freely available from the authors’ website. While SAX does allow parameters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graph</context>
+</contexts>
+<marker>[25]</marker>
+<rawString>Lin, J., Keogh, E., Lonardi, S. &amp; Chiu, B. A Symbolic Representation of Time Series, with Implications for Streaming Algorithms. In proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery. San Diego, CA. June 13, 2003</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Loewenstern</author>
+<author>H Hirsh</author>
+<author>P Yianilos</author>
+<author>M Noordewier</author>
+</authors>
+<title>DNA Sequence Classification using Compression-Based Induction,</title>
+<date>1995</date>
+<tech>DIMACS Technical Report 95-04,</tech>
+<contexts>
+<context citStr="[26]" endWordPosition="1930" position="12321" startWordPosition="1930">23], Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very </context>
+</contexts>
+<marker>[26]</marker>
+<rawString>Loewenstern, D., Hirsh, H., Yianilos, P., &amp; Noordewier, M. DNA Sequence Classification using Compression-Based Induction, DIMACS Technical Report 95-04, April 1995.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Loewenstern</author>
+<author>P N Yianilos</author>
+</authors>
+<title>Significantly lower entropy estimates for natural DNA sequences,</title>
+<date>1999</date>
+<journal>Journal of Computational Biology,</journal>
+<volume>6</volume>
+<issue>1</issue>
+<contexts>
+<context citStr="[27]" endWordPosition="1930" position="12325" startWordPosition="1930"> Li et al. have shown that dc is a similarity metric, and can be successfully applied to clustering DNA and text. However, the measure would require hacking the chosen compression algorithm in order to obtain C(x|y) and C(y|x). We therefore decided to simplify the distance even further. In the next section, we will show that a simpler measure can be just as effective. The idea of using data compression to classify sequences is not new. In the early days of computational biology, lossless compression was used to classify DNA sequences. We refer to, e.g., 207 Research Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very exte</context>
+</contexts>
+<marker>[27]</marker>
+<rawString>Loewenstern, D., &amp; Yianilos, P.N. Significantly lower entropy estimates for natural DNA sequences, Journal of Computational Biology, 6(1), 1999.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Ma</author>
+<author>S Perkins</author>
+</authors>
+<title>Online Novelty Detection on Temporal Sequences.</title>
+<date>2003</date>
+<booktitle>Proc. International Conference on Knowledge Discovery and Data Mining,</booktitle>
+<contexts>
+<context citStr="[28]" endWordPosition="3009" position="19409" startWordPosition="3009">ters, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will confine</context>
+<context citStr="[28]" endWordPosition="5843" position="37051" startWordPosition="5843">approximate size of the window we expect to find anomalies in. In these experiments, we only count an experiment as a success for CDM if the first window size we choose finds the anomaly, and if window sizes four times as large, and one quarter as large, can also find the anomaly. Because of space limitations, we will consider only four rival techniques. Here, we simply list them, and state the number of parameters each requires in parenthesis. We refer the interested reader to the original papers for more details. We compared our approach to the Support Vector Machine (SVM) based approach of [28] (6), the Immunology (IMM) inspired approach of [4] (5), The Association Rule (AR) based approach of [36] (5), and the TSAtree Wavelet based approach of [33] (3). As before, for each experiment we spent one hour of CPU time, and one hour of human time trying to find the best parameters and only reported the best results. 4.2.1 A Simple Normalizing Experiment We begin our experiments with a simple sanity check, repeating the noisy sine problem of [28]. Figure 6 shows the results. Figure 6: A comparison of five novelty detection algorithms on the synthetic sine problem of Ma and Perkins [28]. Th</context>
+<context citStr="[28]" endWordPosition="7324" position="45871" startWordPosition="7324">th the time series and the original video. We have not considered time efficiency as a metric in these experiments, because we cannot guarantee that our implementations of the rival approaches are as efficient as they might be, given careful optimization. However, our approach is certainly not sluggish, requiring less than ten seconds (on a 2.65 GHz machine) to process a million data points. 4.3 Classification In this section, we illustrate the utility of CDM for classification with the following simple experiment. We use the following 1 This includes the 4 rival approaches considered here [4][28][33][36]. While the TSA-Wavelet approach was extended to 2D, this extension is for spatial mining. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time Warp</context>
+</contexts>
+<marker>[28]</marker>
+<rawString>Ma, J. &amp; Perkins, S. Online Novelty Detection on Temporal Sequences. Proc. International Conference on Knowledge Discovery and Data Mining, August 24-27, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J R Quinlan</author>
+<author>R L Rivest</author>
+</authors>
+<title>Inferring Decision Trees Using the Minimum Description Length Principle.</title>
+<date>1989</date>
+<journal>Information and Computation,</journal>
+<volume>80</volume>
+<contexts>
+<context citStr="[29]" endWordPosition="2032" position="13000" startWordPosition="2032">on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very extensive body of literature in the machine learning community (see, e.g., [29]) 2.3 Compression-Based Dissimilarity Measure Given two strings, x and y, we define the Compression-based Dissimilarity Measure (CDM) as follows )()( )(),( yCxC xyCyxCDM + = (3) The CDM dissimilarity is close to 1 when x and y are not related, and smaller than one if x and y are related. The smaller the CDM(x,y), the more closely related x and y are. Note that CDM(x,x) is not zero. The dissimilarity measure can be easily implemented. The entire Matlab code is shown in Table 1. Table 1: Compression-based Dissimilarity Measure (CDM) function dist = CDM(A, B) save A.txt A –ASCII % Save variable A</context>
+</contexts>
+<marker>[29]</marker>
+<rawString>Quinlan, J.R. &amp; Rivest, R.L. Inferring Decision Trees Using the Minimum Description Length Principle. Information and Computation, 80:227--248, 1989.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C A Ratanamahatana</author>
+<author>E Keogh</author>
+</authors>
+<title>Making Time-series Classification More Accurate Using Learned Constraints.</title>
+<date>2004</date>
+<booktitle>In proceedings of SIAM International Conference on Data Mining (SDM &amp;apos;04),</booktitle>
+<location>Lake Buena Vista, Florida,</location>
+<contexts>
+<context citStr="[30]" endWordPosition="597" position="4029" startWordPosition="597">ms to search exhaustively over their parameter spaces. 3) Our approach is based on compression as its cornerstone, and compression algorithms are typically space and time efficient. As a consequence, our method is generally much more efficient than other algorithms. 4) Many parameterized algorithms require the data to be in a special format. For concreteness, consider time series data mining [14][20]. Here, the Euclidean distance requires that the dimensionality of two instances being compared is exactly the same, and Dynamic Time Warping (DTW) is not defined if a single data point is missing [30]. In contrast, our approach works for time series of different lengths, sampling rates, dimensionalities, with missing values, etc. In this work, we decided to take the unusual step of reproducing our entire actual code, rather than just the pseudocode. There are two reasons for doing this. First, free access to the actual code combined with our policy of making all data freely available allows independent confirmation of our results. Second, it reinforces our claim that our methods are very simple to implement. The rest of the paper is organized as follows. In Section 2, we discuss the result</context>
+<context citStr="[30]" endWordPosition="1100" position="7299" startWordPosition="1100"> understand the contribution of a proposed algorithm. A recently published paper introduced a new time series distance measure. The algorithm requires the setting of two parameters, and the authors are to be commended for showing the results of the cross-product: sixteen by four possible parameter choices. Of the sixty-four settings, eleven are slightly better than DTW, and the authors conclude that their approach is superior to DTW. However, the authors did not test over different parameters for DTW, and DTW does allow a single parameter, the maximum temporal distortion (the “warping window” [30]). The authors kindly provided us with the exact data they used in the experiment, and we reproduced the experiment, this time allowing a search over DTW’s single parameter. We discovered that over a wide range of parameter choices, DTW produces a near perfect accuracy, outperforming all sixty-four choices of the proposed algorithm. Although the above is only one anecdotal piece of evidence, it does help make the following point. It is very difficult to evaluate the contribution of papers that introduce a parameter-laden algorithm. In the case above, the authors’ commendable decision to make t</context>
+<context citStr="[30]" endWordPosition="7025" position="44047" startWordPosition="7025">me series in the literature are defined for multidimensional time series1, in spite of an increasing general interest in multidimensional time series [34]. However, we can consider multidimensional time series without changing a single line of code. In order to have some straw man to compare to, each of the four completing methods was adapted as follows. We collected the results on each individual dimension and then we linearly combined them into a single measure of novelty. We experimented on a 2D time series that was collected for a different purpose (in particular, a classification problem [30]). The 2D time series was extracted from a video of an actor performing various actions with and without a replica gun. Figure 10 (bottom) illustrates a typical sequence. The actor draws a replica gun from a hip mounted holster, aims it at a target, and returns it to the holster. Figure 10: (Bottom) A typical video snippet from the Gun video is mapped onto a two-dimensional time series (Center) by tracking the actor’s right hand. While the vast majority of the dataset looks approximately like the first 200 data points, the section from about 300 to 450 looks somewhat different, and was singled</context>
+<context citStr="[30]" endWordPosition="7452" position="46569" startWordPosition="7452">ing. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time Warping (DTW). Here, we exhaustively test all values of its single parameter (warping window size [30]) and report only the best result, and • Compression-Based Dissimilarity Measure (CDM) Note that we only compare CDM with Dynamic Time Warping and Euclidean Distance metric in this section for brevity, since it has been shown in [20] that many of the more complex similarity measures proposed in other work have higher error rates than a simple Euclidean Distance metric. The ECG datasets are four-class problem derived from BIDMC Congestive Heart Failure Database [15] of four patients. Since this original database contains two ECG signals, we separate each signal and create two datasets of one-di</context>
+<context citStr="[30]" endWordPosition="7762" position="48461" startWordPosition="7762">t gun (point) The first dataset is a two-class problem of differentiating Actor 1 from Actor 2 -- (A+B) vs. (C+D). The second dataset is a fourclass problem of differentiating each of the acts independently – A vs. B vs. C vs. D. In total, each dataset contains eighty instances. Some samples from both databases are illustrated in Figure 11. Figure 11. Some extracted time series from the gun datasets (left) and the ECG (sig.1) dataset (right) We measure the error rates on each dataset, using the one-nearestneighbor with ‘leaving-one-out’ evaluation method. The lower bounding technique noted in [30] is also integrated in all the DTW calculations to help achieve speedup. The experimental results are summarized in Table 3. In all four datasets discussed above, Euclidean distance is extremely fast, yet inaccurate. DTW with the best uniform window size greatly reduces the error rates, but took several orders of magnitude longer. However, CDM outperforms both Euclidean and DTW in all datasets. Even though CDM is slower than Euclidean distance, it is much faster than the highly optimized DTW. Table 3. Classification Error Rates (%) for all four datasets Euclidean DTW (best unif. window) CDM EC</context>
+<context citStr="[30]" endWordPosition="8107" position="50558" startWordPosition="8107">o other very similar datasets [7]. As a step towards mitigating these problems, we showed that parameter-free or parameter-light algorithms can compete with or outperform parameter-laden algorithms on a wide variety of problems/data types. There are many directions in which this work may be extended. We intend to perform a more rigorous theoretical analysis of the CDM measure. For example, CDM is a dissimilarity measure; if it could be modified to be a distance measure, or better still, a distance metric, we could avail of a wealth of pruning and indexing techniques to speed up classification [30], clustering [6], and similarity search [34]. While it is unlikely that CDM can be transformed in a true metric, it may be possible to prove a weaker version of the triangular inequality, which can be bounded and used to prune the search space [6]. The results in [8] on textual substitution compressors could lead to some insights in the general problem. Finally, we note that our approach is clearly not suitable for classifying or clustering low dimensionality data (although Figure 2 shows exceptionally good results on time series with only 1,000 data points). We plan to theoretically and empir</context>
+</contexts>
+<marker>[30]</marker>
+<rawString>Ratanamahatana, C.A. &amp; Keogh, E. Making Time-series Classification More Accurate Using Learned Constraints. In proceedings of SIAM International Conference on Data Mining (SDM &amp;apos;04), Lake Buena Vista, Florida, April 22-24, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Rissanen</author>
+</authors>
+<title>Modeling by shortest data description.</title>
+<date>1978</date>
+<journal>Automatica,</journal>
+<volume>14</volume>
+<pages>465--471</pages>
+<contexts>
+<context citStr="[31]" endWordPosition="2015" position="12894" startWordPosition="2015">rch Track Paper [1][10][12][26][27], and references therein for a sampler of the rich literature existing on this subject. Recently, Benedetto et al. [2] have shown how to use a compression-based measure to classify fifty languages. The paper was featured in several scientific (and less-scientific) journals, including Nature, Science, and Wired. It has also generated some controversies (see, e.g., [16]). Finally, the idea of using compression to classify sequences is tightly connected with the minimum description length (MDL) principle. The principle was introduced by the late ’70 by Rissanen [31], and has generated a very extensive body of literature in the machine learning community (see, e.g., [29]) 2.3 Compression-Based Dissimilarity Measure Given two strings, x and y, we define the Compression-based Dissimilarity Measure (CDM) as follows )()( )(),( yCxC xyCyxCDM + = (3) The CDM dissimilarity is close to 1 when x and y are not related, and smaller than one if x and y are related. The smaller the CDM(x,y), the more closely related x and y are. Note that CDM(x,x) is not zero. The dissimilarity measure can be easily implemented. The entire Matlab code is shown in Table 1. Table 1: Com</context>
+</contexts>
+<marker>[31]</marker>
+<rawString>Rissanen, J. Modeling by shortest data description. Automatica, vol. 14 (1978), pp. 465-471.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S L Salzberg</author>
+</authors>
+<title>On comparing classifiers: Pitfalls to avoid and a recommended approach.</title>
+<date>1997</date>
+<journal>Data Mining and Knowledge Discovery,</journal>
+<volume>1</volume>
+<issue>3</issue>
+<contexts>
+<context citStr="[32]" endWordPosition="1319" position="8652" startWordPosition="1319">rs’ behalf. In general, the potential asymmetry in parameter tuning effort effectively prevents us from evaluating the contribution of many papers. Here, the problem is compounded by the fact that the authors created the dataset in question. Creating a dataset may be regarded as a form of meta parameter tuning, since we don’t generally know if the very first dataset created was used in the paper, or many datasets were created and only the most satisfactory one was used. In any case, there are clearly problems in setting parameters (training) and reporting results (testing) on the same dataset [32]. In the field of neural networks, Flexer [11] noted that 93% of papers did just that. While no such statistics are published for data mining, an informal survey suggests a similar problem may exist here. In Section 4.2.2, we will empirically reinforce this point by showing that in the context of anomaly detection, parameter-laden algorithms can have their parameters tuned to achieve excellent performance on one dataset, but completely fail to generalize to a new but very similar dataset. Before leaving this section, it would be remiss of us not to note that many papers by the authors of this </context>
+</contexts>
+<marker>[32]</marker>
+<rawString>Salzberg, S.L. On comparing classifiers: Pitfalls to avoid and a recommended approach. Data Mining and Knowledge Discovery, 1(3), 1997.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Shahabi</author>
+<author>X Tian</author>
+<author>W Zhao</author>
+</authors>
+<title>TSA-tree: A Wavelet-Based Approach to Improve the Efficiency of Multi-Level</title>
+<date>2000</date>
+<booktitle>Surprise and Trend Queries The 12th Int’l Conf on Scientific and Statistical Database Management (SSDBM</booktitle>
+<contexts>
+<context citStr="[33]" endWordPosition="3009" position="19413" startWordPosition="3009">, for all experiments here we use the parameterless version. Similar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will confine our</context>
+<context citStr="[33]" endWordPosition="5870" position="37208" startWordPosition="5870">e we choose finds the anomaly, and if window sizes four times as large, and one quarter as large, can also find the anomaly. Because of space limitations, we will consider only four rival techniques. Here, we simply list them, and state the number of parameters each requires in parenthesis. We refer the interested reader to the original papers for more details. We compared our approach to the Support Vector Machine (SVM) based approach of [28] (6), the Immunology (IMM) inspired approach of [4] (5), The Association Rule (AR) based approach of [36] (5), and the TSAtree Wavelet based approach of [33] (3). As before, for each experiment we spent one hour of CPU time, and one hour of human time trying to find the best parameters and only reported the best results. 4.2.1 A Simple Normalizing Experiment We begin our experiments with a simple sanity check, repeating the noisy sine problem of [28]. Figure 6 shows the results. Figure 6: A comparison of five novelty detection algorithms on the synthetic sine problem of Ma and Perkins [28]. The first 400 data points are used as training data, an “event” is embedded at time point 600. A) The approach proposed in this work, the thickness of the line</context>
+<context citStr="[33]" endWordPosition="7324" position="45875" startWordPosition="7324">he time series and the original video. We have not considered time efficiency as a metric in these experiments, because we cannot guarantee that our implementations of the rival approaches are as efficient as they might be, given careful optimization. However, our approach is certainly not sluggish, requiring less than ten seconds (on a 2.65 GHz machine) to process a million data points. 4.3 Classification In this section, we illustrate the utility of CDM for classification with the following simple experiment. We use the following 1 This includes the 4 rival approaches considered here [4][28][33][36]. While the TSA-Wavelet approach was extended to 2D, this extension is for spatial mining. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time Warping </context>
+</contexts>
+<marker>[33]</marker>
+<rawString>Shahabi, C., Tian, X., &amp; Zhao, W. TSA-tree: A Wavelet-Based Approach to Improve the Efficiency of Multi-Level Surprise and Trend Queries The 12th Int’l Conf on Scientific and Statistical Database Management (SSDBM 2000)</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E</author>
+</authors>
+<title>Indexing Multi-Dimensional Time-Series with Support for Multiple Distance Measures.</title>
+<date />
+<journal />
+<booktitle>In the 9th ACM SIGKDD.</booktitle>
+<volume>27</volume>
+<pages>216--225</pages>
+<location>Washington, DC, USA.</location>
+<contexts>
+<context citStr="[34]" endWordPosition="6951" position="43597" startWordPosition="6951">arkers are independent annotations by a cardiologist indicating Premature Ventricular Contractions We only illustrate the performance of our approach in Figure 9 because all the other approaches produced results that were objectively (per the cardiologists’ annotations) and subjectively incorrect, in spite of careful parameter tuning. Our final example illustrates the flexibility of our approach. None of the approaches for anomaly detection in time series in the literature are defined for multidimensional time series1, in spite of an increasing general interest in multidimensional time series [34]. However, we can consider multidimensional time series without changing a single line of code. In order to have some straw man to compare to, each of the four completing methods was adapted as follows. We collected the results on each individual dimension and then we linearly combined them into a single measure of novelty. We experimented on a 2D time series that was collected for a different purpose (in particular, a classification problem [30]). The 2D time series was extracted from a video of an actor performing various actions with and without a replica gun. Figure 10 (bottom) illustrates</context>
+<context citStr="[34]" endWordPosition="8113" position="50602" startWordPosition="8113"> towards mitigating these problems, we showed that parameter-free or parameter-light algorithms can compete with or outperform parameter-laden algorithms on a wide variety of problems/data types. There are many directions in which this work may be extended. We intend to perform a more rigorous theoretical analysis of the CDM measure. For example, CDM is a dissimilarity measure; if it could be modified to be a distance measure, or better still, a distance metric, we could avail of a wealth of pruning and indexing techniques to speed up classification [30], clustering [6], and similarity search [34]. While it is unlikely that CDM can be transformed in a true metric, it may be possible to prove a weaker version of the triangular inequality, which can be bounded and used to prune the search space [6]. The results in [8] on textual substitution compressors could lead to some insights in the general problem. Finally, we note that our approach is clearly not suitable for classifying or clustering low dimensionality data (although Figure 2 shows exceptionally good results on time series with only 1,000 data points). We plan to theoretically and empirically investigate the limitations on object</context>
+</contexts>
+<marker>[34]</marker>
+<rawString>Vlachos, M., Hadjieleftheriou, M., Gunopulos, D. &amp; Keogh. E. Indexing Multi-Dimensional Time-Series with Support for Multiple Distance Measures. In the 9th ACM SIGKDD. August 24 - 27, 2003. Washington, DC, USA. pp 216-225.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Wang</author>
+<author>X S Wang</author>
+</authors>
+<title>Supporting content-based searches on time series via approximation.</title>
+<date>2000</date>
+<booktitle>In proceedings of the 12th Int&amp;apos;l Conference on Scientific and Statistical Database Management.</booktitle>
+<pages>69--81</pages>
+<location>Berlin, Germany,</location>
+<contexts>
+<context citStr="[35]" endWordPosition="3016" position="19475" startWordPosition="3016">imilar remarks can be made for other data types, for example, when clustering WebPages, we may wish to strip out the HTML tags first. Imagine we are trying to cluster WebPages based on authorship, and it happens that some of the WebPages are graphic intensive. The irrelevant (for this task) similarity of having many occurrences of “&amp;lt;IMG SRC…&gt;” may dominate the overall similarity. 3. PARAMETER-FREE DATA MINING Most data mining algorithms, including classification [5], clustering [13][17][21], anomaly/interestingness detection [4][28][33], reoccurring pattern (motif) discovery, similarly search [35], etc., use some form of similarity/dissimilarity measure as a subroutine. Because of space limitations, we will consider just the first three tasks in this work. 3.1 Clustering As CDM is a dissimilarity measure, we can simply use it directly in most standard clustering algorithms. For some partitional algorithms [6], it is necessary to define the concept of cluster “center”. While we believe that we can achieve this by extending the definition of CDM, or embedding it into a metric space [9], for simplicity here, we will confine our attention to hierarchical clustering. 3.2 Anomaly Detection T</context>
+<context citStr="[35]" endWordPosition="4442" position="28498" startWordPosition="4442">r on the smooth data. Figure 2: Thirty-six time series (in eighteen pairs) clustered using the approach proposed in this paper The only measures performing significantly better than random were the following. Euclidean distance had Q = 0.27. DTW was able to achieve Q = 0.33 after careful adjustment of its single parameter. The Hidden Markov Model approach of [14] achieved Q = 0 using the original piecewise linear approximation of the time series. However, when using the SAX representation, its score jumped to Q = 0.33. The LPC Cepstra approach of [17] and the similar Autocorrelation method of [35] both had Q = 0.16. LCSS had Q = 0.33. Our first experiment measured the quality of the clustering only at the leaf level of the dendrogram. We also designed a simple experiment to test the quality of clustering at a higher level. We randomly extracted ten subsequences of length 2,000 from two ECG databases. For this problem the clustering at the leaf level is subjective, however the first bifurcation of the tree should divide the data into the two classes (the probability of this happening by chance is only 1 in 524,288). Figure 3 shows the two best clusterings obtained. In a sense, our exhau</context>
+</contexts>
+<marker>[35]</marker>
+<rawString>Wang, C. &amp; Wang, X. S. Supporting content-based searches on time series via approximation. In proceedings of the 12th Int&amp;apos;l Conference on Scientific and Statistical Database Management. Berlin, Germany, Jul 26-28, 2000. pp 69-81.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Yairi</author>
+<author>Y Kato</author>
+<author>K Hori</author>
+</authors>
+<title>Fault Detection by Mining Association Rules from House-keeping Data,</title>
+<date>2001</date>
+<booktitle>Proc. of Int’l Sym. on AI, Robotics and Automation in Space,</booktitle>
+<contexts>
+<context citStr="[36]" endWordPosition="5860" position="37156" startWordPosition="5860">eriment as a success for CDM if the first window size we choose finds the anomaly, and if window sizes four times as large, and one quarter as large, can also find the anomaly. Because of space limitations, we will consider only four rival techniques. Here, we simply list them, and state the number of parameters each requires in parenthesis. We refer the interested reader to the original papers for more details. We compared our approach to the Support Vector Machine (SVM) based approach of [28] (6), the Immunology (IMM) inspired approach of [4] (5), The Association Rule (AR) based approach of [36] (5), and the TSAtree Wavelet based approach of [33] (3). As before, for each experiment we spent one hour of CPU time, and one hour of human time trying to find the best parameters and only reported the best results. 4.2.1 A Simple Normalizing Experiment We begin our experiments with a simple sanity check, repeating the noisy sine problem of [28]. Figure 6 shows the results. Figure 6: A comparison of five novelty detection algorithms on the synthetic sine problem of Ma and Perkins [28]. The first 400 data points are used as training data, an “event” is embedded at time point 600. A) The appro</context>
+<context citStr="[36]" endWordPosition="7324" position="45879" startWordPosition="7324">ime series and the original video. We have not considered time efficiency as a metric in these experiments, because we cannot guarantee that our implementations of the rival approaches are as efficient as they might be, given careful optimization. However, our approach is certainly not sluggish, requiring less than ten seconds (on a 2.65 GHz machine) to process a million data points. 4.3 Classification In this section, we illustrate the utility of CDM for classification with the following simple experiment. We use the following 1 This includes the 4 rival approaches considered here [4][28][33][36]. While the TSA-Wavelet approach was extended to 2D, this extension is for spatial mining. 2000 3000 4000 5000 Hand resting at side Hand above holster Aiming at target Actor misses holster Briefly swings gun at target, but does not aim Laughing and flailing hand 0 100 200 300 400 500 600100 150 200 250 300 350 400 450 500 550 0 100 200 300 400 500 600 700 800 900 1000 0 5 10 0 5 10 -10 0 10 L-1j L-1g L-1f 213 Research Track Paper similarity measures on four datasets (Two each from two databases:- ECG and Gun) and measure their error rates: • Euclidean Distance [20]. • Dynamic Time Warping (DTW</context>
+</contexts>
+<marker>[36]</marker>
+<rawString>Yairi, T., Kato, Y., &amp; Hori, K. Fault Detection by Mining Association Rules from House-keeping Data, Proc. of Int’l Sym. on AI, Robotics and Automation in Space, 2001.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>

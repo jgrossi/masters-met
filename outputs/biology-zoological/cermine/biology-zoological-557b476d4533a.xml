@@ -1,0 +1,1799 @@
+<article>
+  <front>
+    <journal-meta>
+      <journal-title-group>
+        <journal-title>Aging Cell</journal-title>
+      </journal-title-group>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>A comparative assessment of univariate longevity measures using zoological animal records</article-title>
+      </title-group>
+      <article-id pub-id-type="doi">10.1111/j.1474-9726.2012.00861.x</article-id>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <string-name>Jacob A. Moorad</string-name>
+          <xref ref-type="aff" rid="1">1</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Daniel E. L. Promislow</string-name>
+          <xref ref-type="aff" rid="0">0</xref>
+          <xref ref-type="aff" rid="2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Nate Flesness</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <string-name>Richard A. Miller</string-name>
+          <xref ref-type="aff" rid="2">2</xref>
+          <xref ref-type="aff" rid="4">4</xref>
+        </contrib>
+        <aff id="0">
+          <label>0</label>
+          <institution>Department of Genetics, University of Georgia</institution>
+          ,
+          <addr-line>Athens, GA</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="1">
+          <label>1</label>
+          <institution>Duke Population Research Institute, Duke University</institution>
+          ,
+          <addr-line>Durham, NC</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="2">
+          <label>2</label>
+          <institution>C Jacob Moorad, Department of Biology, Duke University</institution>
+          ,
+          <addr-line>Box 90339, Durham, NC</addr-line>
+        </aff>
+        <aff id="3">
+          <label>3</label>
+          <institution>Department of Biology, Duke University</institution>
+          ,
+          <addr-line>Durham, NC</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="4">
+          <label>4</label>
+          <institution>Department of Pathology, University of Michigan, School of Medicine</institution>
+          ,
+          <addr-line>Ann Arbor, MI</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+        <aff id="5">
+          <label>5</label>
+          <institution>International Species Information System</institution>
+          ,
+          <addr-line>Eagan, MN</addr-line>
+          ,
+          <country country="US">USA</country>
+        </aff>
+      </contrib-group>
+      <volume>11</volume>
+      <fpage>940</fpage>
+      <lpage>948</lpage>
+      <pub-date>
+        <year>2012</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="1">
+      <title>-</title>
+      <p>Comparative biogerontology evaluates cellular, molecular,
+physiological, and genomic properties that distinguish short-lived
+from long-lived species. These studies typically use maximum
+reported lifespan (MRLS) as the index with which to compare
+traits, but there is a general awareness that MRLS is not ideal
+owing to statistical shortcomings that include bias resulting
+from small sample sizes. Nevertheless, MRLS has enough
+species-specific information to show strong associations with many
+other species-specific traits, such as body mass, stress
+resistance, and codon usage. The major goal of this study was to
+see if we could identify surrogate measures with better
+statistical properties than MRLS but that still capture inter-species
+differences in extreme lifespan. Using zoological records of 181
+bird and mammal species, we evaluated 16 univariate metrics
+of aging and longevity, including nonparametric quantile-based
+measures and parameters derived from demographic models of
+aging, for three desirable statistical properties. We wished to
+identify those measures that: (i) correlated well with MRLS
+when the biasing effects of sample size were removed; (ii)
+correlated weakly with population size; and (iii) were highly
+robust to the effects of sampling error. Nonparametric
+univariate descriptors of the distribution of lifespans clearly
+outperformed the measures derived from demographic analyses.</p>
+      <p>Mean adult lifespan and quantile-based measures, and in
+particular the 90th quantile of longevity, performed particularly well,
+demonstrating far less sensitivity to small sample size effects
+than MRLS while preserving much of the information contained
+in the maximum lifespan measure. These measures should take
+the place of MRLS in comparative studies of lifespan.</p>
+      <p>Key words: aging; biogerontology; captive; demography;
+maximum lifespan; senescence.
+Aging is a process that gradually impairs vigorous mature adults and
+renlders them more susceptible to a wide range of diseases and disabilities,
+lleading to a progressive increase in mortality risk. Maximum recorded
+lifespan (MRLS) is the standard comparative metric used in experimental
+and observational research into the causes of aging (Comfort, 1979;
+Austad &amp; Fischer, 1991; Holmes &amp; Austad, 1995; Wilkinson &amp; South,
+2002; Hulbert et al., 2007), and it is often taken as the key endpoint in
+comparisons among species, genotypes, or groups exposed to different
+environmental manipulations. Comparative biogerontologists have long
+made use of MRLS as a surrogate for species-specific aging rates, and
+much effort has gone into compiling tables of MRLS values for this
+purpose (Finch, 1990; Carey &amp; Judge, 2000; de Magalhaes &amp; Costa, 2009).</p>
+      <p>It is widely appreciated, however, that MRLS is a problematic indicator
+for several reasons. First, MRLS is a downwardly biased indicator of
+extreme lifespan. As sample sizes increase, expected MRLS values are
+expected to increase as well. Second, the sample variance associated with
+estimates of population MRLS may be high, especially with small sample
+sizes. These two issues may present serious problems in comparative
+studies involving rare nonlaboratory animals. Consequently, MRLS may
+differ across species owing to differences in the number of species
+records used to determine longevity as well as to inherent differences in
+the physiology and ecology of the species. Third, MRLS does not use data
+effectively in situations where records are incomplete, which is often the
+case in many observational studies where the terminal recorded event for
+an individual may not be death (i.e., right censoring). Lastly, it reflects
+lifespan of a single individual per species, grossly underestimating the
+characteristics of other members of the species. Given the concern that
+some record-breaking lifespans may be exaggerated (Steven Austad,
+personal communication), such extreme dependence on single outliers is
+undesirable.</p>
+      <p>Other metrics have been introduced in attempts to improve upon MRLS
+by applying multivariate demographic models of aging, such as Gompertz
+or Weibull functions, to survival data (Promislow, 1991; Wilson, 1994;
+Ricklefs &amp; Scheuerlein, 2002). In some cases, these parameters have been
+assigned controversial biological interpretations, as, for example, when
+the slope of a Gompertz plot is interpreted as a measure of the rate at
+which aging occurs (Finch et al., 1990; Pletcher et al., 2000; Bronikowski
+et al., 2011), and the intercept of a Gompertz plot is interpreted as the
+inherent frailty of the members of the population (Spencer &amp; Promislow,
+2005; Maklakov et al., 2006; Flatt &amp; Kawecki, 2007). In other cases,
+parameter estimates derived from these models are combined, for
+example, by multiplication, to arrive at a univariate summary of aging rates
+(Ricklefs, 1998; Ricklefs &amp; Scheuerlein, 2001). Nonparametric methods
+have also been proposed that summarize the lifespan distribution of an
+elite subset of the population into quantiles and ⁄ or means (Wang et al.,
+2004; Gao et al., 2008). One significant advantage of these alternative
+methods over MRLS is that their application is not limited to the empirical
+distributions of complete lifespans; they can benefit from the use of the
+Kaplan–Meier estimator, which allows the use of censored data. Each of
+these estimators, and their combinations, has only an indirect relationship
+to the underlying biological processes of aging, and it is unclear how well
+these longevity metrics perform compared to MRLS as an index of
+differences of the pace of age-related change among biologically interesting
+populations.</p>
+      <p>Questions about the evolution of different aging rates and the
+cellular and molecular processes that can lead to striking differences in
+longevity among related species are the central arena for comparative
+biogerontology. Within orders of mammals, MRLS values among species
+of rodents or primates can vary four- to eightfold. Many evaluations of
+hypotheses about comparative aging among species have depended on
+MRLS as the index of inter-species differences in aging rate, despite the
+measure’s well-known defects. Our goal in this project was to make use
+of population data, obtained from zoo populations of nearly 200 bird and
+mammal species, to explore the sampling properties of various univariate
+aging and longevity metrics. Some of these metrics have been proposed
+by others, but some have not previously been applied to questions in the
+comparative biology of aging. We wished to understand how well each
+measure indicates extreme lifespan across a phylogenetically diverse
+range of species that differ in life history and data quality. In addition, we
+wanted to understand how robust each metric is to sampling effects,
+namely sampling variance and bias arising from small population sizes.</p>
+      <p>A major goal of this study was to understand the limitations of MRLS as a
+comparative longevity metric and, if possible, identify an alternative
+measure for MRLS that minimizes the sampling issues and data-use
+restrictions associated with that measure.</p>
+      <p>The datasets available to test hypotheses in the comparative biology of
+aging differ in the proportion of missing values and in the extent of
+erroneous data. The data often combine records from wild and captive
+populations that differ in environmental factors (housing conditions, food
+availability, reproductive histories, predation, infection levels, etc.) that
+can have strong effects on mortality risks through both age-dependent
+and age-independent pathways. Although tables of MRLS values across
+species contain a good deal of information critical to testing ideas about
+the biology of aging, there is a pressing need to develop improved
+demographic endpoints for biogerontology.
+Onset of aging
+Although it is not clear whether the aging process begins at any defined
+life history transition (birth, puberty, age at first reproduction), we assume
+here that deaths at the earliest ages, for example perinatal deaths and
+deaths of juveniles, are unlikely to be informative about inter-population
+variances in aging rates. We therefore used two methods to determine
+the age before which mortality should be ignored, and we report the
+results derived from both methods. We analyzed the subset of individuals
+from each species with events (deaths or last observations) that met or
+exceeded one of two species-specific truncation ages: (i) T1, the age of
+reproductive maturity for that species, or (ii) T2, the age at which the
+mortality rate reaches a minimum (see Table S1 for species, relevant life
+history information, and T estimates). Across the 163 species that had at
+least 50 adults defined by both threshold definitions (T1 and T2), the
+truncation ages correlated reasonably well (q = 0.53, P &lt; 0.0001,
+Spearman’s rank correlation; see Fig. 1). Nearly two-thirds of the species with
+both T1 and T2 estimates had an age at minimal mortality that exceeded
+the age at reproductive onset (108 of 163 species). This pattern is
+consistent with Promislow’s (1991) earlier analysis of a much smaller set of
+species records in which he showed T1 &lt; T2 in 75% (18 of 24) of cases
+where age at maturity and age at minimal mortality differed. More recent
+life history analyses also show that the onset of aging tends to follow the
+timing of reproductive maturity (Jones et al., 2008; Peron et al., 2010).</p>
+      <p>The correlation between T1 and T2 estimates strengthened slightly when
+the collection of species was reduced to include only the 125 species with
+150 or more adults (q = 0.58, P &lt; 0.0001). While the positive correlation
+was encouraging, it seemed prudent to analyze the sampling properties
+of the various metrics using each T-definition independently. As we show
+)
+s
+y
+a
+i(dn 200
+2
+T 100
+Fig. 1 The joint distribution between (i) the oldest of the two sex-specific values for
+the first age of reproduction and (ii) age at minimal mortality for 163 species with
+50 or more adults (as defined by both definitions). The line defines the T2 = T1
+relationship.
+below, however, the choice of T-definition had little effect on the
+sampling properties of the metrics.</p>
+      <p>Metric estimates
+Using both threshold definitions, we estimated 16 univariate longevity
+values (defined in Table 1) for each of the 175 (T1) and 165 (T2) species,
+respectively, that had at least 50 adult individuals (as defined by each
+T-definition) with recorded events (Tables S2A and S2B). For a few cases
+of the T1 treatment, the Weibull function failed to converge. This may
+have resulted from too few adult deaths in the dataset (Ricklefs, 1998) or
+from inclusion of part of the early age range typified by elevated mortality
+(by definition, this would not be a problem using the T1 criterion).</p>
+      <p>Correlations among metrics
+We correlated estimates across species using both truncation methods
+(Table 2) holding population size constant (a full correlation matrix, in
+which sample size is not corrected for, is presented in Table S3). In
+general, the nonparametric measures of lifespan were highly correlated
+among each other (0.869 or better). Except for the mean (e0) and median
+lifespan (Q50), the lowest partial correlations among nonparametric
+estimators were between MRLS and Q90 (0.950 for T1 and 0.941 for T2). The
+partial correlation between MRLS and Q95 was also 0.950 using the T1
+criterion but higher (0.957) for T2. With the exception of the Weibull
+intercept, WA, and X (a function of the slope and intercept of the Weibull
+model), parametric measures of mortality correlated negatively with
+MRLS and the other nonparametric measures of longevity. This is to be
+expected, because these are aging parameters, and aging and longevity
+are negatively associated. Of these, only the Gompertz and Weibull
+intercepts (GA and WA) correlated reasonably well with MRLS ()0.789 and
+)0.698 for GA and )0.928 and )0.938 for WA). Slopes and intercepts
+were poorly correlated for both the Gompertz and Weibull models.
+Independence between GA and GB estimates has been recently reported
+across eight primate species (Bronikowski et al., 2011).</p>
+      <p>Table 1 Univariate longevity metrics
+MRLS, maximum recorded lifespan.</p>
+      <p>Correlations between metrics and population sizes
+We correlated metric estimates with population sizes (n) using both T1
+and T2 criteria (Fig. 2). In most cases, metrics that were estimated using
+T1 were less strongly associated with n than those estimated using T2. As
+expected, we found positive correlations between n and MRLS (+0.105
+and +0.162). Positive correlations increased with increasing x in MxLS
+(the mean lifespan of the x longest-lived individuals), reaching +0.276
+and +0.312 with M32LS. For these metrics, the T2 treatment yielded
+slightly greater correlations than the T1 treatment. With the exception of
+WA, parametric measures were very sensitive to the choice of T. The
+Weibull and Gompertz slopes, as well as the Weibull omega measure, yielded
+moderately negative correlations with n in the T2 treatment ()0.358,
+)0.480, and )0.480, respectively). Using T1, however, these correlations
+remained negative but markedly decreased in magnitude ()0.039,
+)0.127, and )0.089). The Weibull and Gompertz intercepts were weakly
+and positively correlated with population size, except for GA estimated
+with T2, which was the highest correlation that we observed (+0.313).</p>
+      <p>Table 2 Partial correlations using ISIS species data, holding sample size constant
+Promislow et al. (1999) also report little association between Gompertz
+parameters and population size in simulated populations using a defined
+age of onset (similar to our T1 treatment). The more extreme
+quantilebased measures (Q90, Q95, e90, and e95) showed the weakest associations
+with sample size (correlations ranged between )0.037 and +0.018). The
+measures of central tendency (Q50 and e0) correlated weakly and
+negatively with n using T1 ()0.066 for both) and correlated more strongly with
+T2 ()0.174 and )0.147). Correlations involving these measures, and
+using either T1 or T2, most closely resembled those generated from the
+extreme quantile-based measures.</p>
+      <p>Rank persistence
+We next asked how finite population size affected the ranking of lifespan
+metrics across all study species. Every population (for our purposes, a
+population was considered the worldwide collection of animals of the
+same species, and we use species and population interchangeably) was
+re-sampled ni times with replacement, where ni was each species’ sample
+size, and each species was ranked in order of each longevity value
+(resulting in 16 metric-specific ranking vectors). For example, a MRLS vector
+may be ordered species A &gt; species B &gt; species C &gt; species D and a WA
+vector may rank species B &gt; D &gt; A &gt; C. This procedure was repeated,
+and each pair of metric-specific ranking vectors was analyzed for stability.</p>
+      <p>Rank persistence, as inferred by a low Spearman’s footrule distance D
+and a high Spearman’s ranked correlation coefficient q, quantified how
+robust each measure was to sampling variation. We investigated four
+population size treatments. The n ‡ 50 treatment included all species
+populations with at least 50 observed adult deaths (nT1,50 = 175,
+nT2,50 = 165). We performed three other rank persistence analyses using
+the same re-sampling approach, except that we made the minimal
+sample size requirement more stringent each time. We considered species
+with n ‡ 150 (nT1,150 = 147, nT2,150 = 126), n ‡ 500 (nT1,500 = 66,
+nT2,500 = 56), and n ‡ 1500 (nT1,1500 = 15, nT2,1500 = 13). Note that the
+treatments differed only in the choice of which species to use; any species
+chosen for a treatment had all of its individuals included in the analysis.</p>
+      <p>Rank persistence averaged over 1000 re-sampled population pairs
+is described in Table 3. For each treatment, robustness measure, and
+Each cell gives the partial correlation between two measures of longevity taken over ISIS species, holding sample sizes constant. The diagonal cells define the measures.
+Elements above the diagonal report the corresponding partial correlation using the T1 truncation method and those below use the T2 method. For example, the cell at
+row 1, column 2 is the partial correlation between MRLS and M4LS, which is 0.992 using T1. Using T2, the cell at row 2 and column 1 indicates that correlation
+between these measures is 0.991. Shaded cells indicate metric pairs where the absolute value of the partial correlation coefficient is at least 0.95.
+ISIS, International Species Information System; MRLS, maximum recorded lifespan.
+Fig. 2 The correlations between candidate metrics and population size.</p>
+      <p>Correlations are sensitive to the definition of adult (T) used to estimate the
+measures. For each measure, bars connect the T1- and T2-derived estimates. Long
+bars indicate high sensitivity of the correlation to the choice of T.</p>
+      <p>T-definition, the five most persistent metrics are indicated in boldface and
+the five least persistent metrics are shaded.</p>
+      <p>In general, the nonparametric estimators outperformed the parametric
+estimators in nearly every treatment. The sole exception was that the
+Weibull intercept WA was a frequent top-five performer. The Gompertz
+intercept GA performed well at the highest population size treatment
+Table 3 Rank persistence analysis (fixed population size)
+using the T2 definition. GB, WB, and X were always among the least
+persistent metrics. Of the nonparametric estimators, the quantile-based
+approaches demonstrated the most persistence. This was especially
+evident in the metrics that described central tendency (e0 and, to a lesser
+degree, Q50). More extreme values of longevity, Q90 and e90, also
+performed very well across all treatments. The M32LS method performed
+very well at low sample sizes but less so at the n ‡ 500 and n ‡ 1500
+treatments.</p>
+      <p>All of the metrics under consideration are subject to sample size bias.</p>
+      <p>For this reason, we reasoned that the species rankings reflected both
+inherent differences in the biology of species as well as variation in the
+size of the pooled zoo animal population datasets provided by
+International Species Information System (ISIS). We note that datasets available
+for testing hypotheses about species differences in aging and longevity
+are also likely to contain a preponderance of small populations, similar in
+this way to the datasets available through ISIS. We attempted to remove
+the latter source of variation from our rank persistence analysis by
+randomizing sample size. As before, a rank persistence analysis was
+performed using populations with adult numbers of at least 50, 150, 500,
+and 1500 individuals. In this treatment, however, the re-sampling
+procedure was changed. Instead of taking ni samples from each species i, the
+number of samples was randomized; the exponential of some uniformly
+distributed number of samples xi was drawn with replacement over the
+interval ln(50) £ ln(xi) £ ln(ni) (this sets the range at between 50 and ni
+with most samples near the low end of the range). As before, adults were
+those individuals with terminal events (deaths or last observations)
+defined by T1 or T2 and rank persistence was quantified by D and q. Mean
+persistence values are shown in Table 4.
+Graphs in Tables 3 and 4 correspond to the D-values for each metric specific to each treatment (lowest values are best). Within each graph, the values correspond in
+order, from left to right, with the metrics defined in the first column on the table (e.g., starting with MRLS and ending with e95). Values are standardized in terms of
+the largest D for the treatment. Open circles are values for MxLS metrics, open triangles are values for parametric longevity measures, and sold circles are
+quantilebased measures. Bold-faced values are top-five performers, and the shaded boxes indicate bottom-five performers.</p>
+      <p>MRLS, maximum recorded lifespan.</p>
+      <p>Table 4 Rank persistence analysis (randomized population size)
+MRLS, maximum recorded lifespan.</p>
+      <p>The randomized treatments demonstrated weaker rank persistence.</p>
+      <p>This is what we would expect if randomizing sample size eliminated that
+component of the fixed species rank determined by population size. This
+was consistent with our goal of removing sample size as predictor of
+longevity. In general, the quantile-based nonparametric estimators appeared
+to preserve rank best, although the Weibull intercept WA again showed
+relatively high rank persistence. Interestingly, the relative advantage of
+these nonparametric estimators over the alternatives appeared to be
+greater with randomized population sizes. This finding suggests that
+sample size variation has a greater effect on parametric measures of longevity
+than on nonparametric measures. As before, WA and the more
+intermediate quantile measures, Q50 and e0, performed best and Q90 and e90
+performed next best. As a group, parametric methods continued to appear
+to be the worst performers (excepting WA). At high sample sizes,
+however, the Gompertz intercept GA performed relatively well, providing
+species ranks that were roughly as persistent as the quantile-based
+measures. The largest change in relative performance involved
+nonparametric measures M16LS and M32LS; these were middling-to-good
+performers with fixed populations sizes but very poor performers when
+sample sizes are randomized. It appeared that for metrics MxLS,
+increasing x made for better metrics when samples sizes were fixed but worse
+metrics when sample sizes varied. This makes sense when we consider
+that, in terms of population lifespan quantiles, MxLS has different
+meanings as population size changes. Using unrealistically low population sizes
+to illustrate this point, MRLS is Q95 in a population of 20 but equal to Q50
+(the longevity median) in a population of two.</p>
+      <p>Results were largely unaffected by our choice of T-definitions and
+persistence metric (D or q). In no case did altering these choices change a
+topfive performing metric (in terms of rank persistence) into a bottom-five
+performer. Ranked correlations between D and q values were very high in
+all population size treatments and using both T-definitions, with ranked
+correlation coefficients among persistence measures ranging between
+0.941 and 0.988 (Table 5, ‘fixed’ and ‘D and q’ headings; ‘fixed’ refers to
+the condition of this treatment where population sizes are preserved and
+not randomized, as in the following treatment). Likewise, persistence
+values were highly correlated across T-definitions. Ranked correlations
+ranged from 0.950 to 0.994 (Table 5, ‘fixed’ and ‘T1 and T2’ headings) in the
+three treatments with lowest population sizes. In the highest population
+size treatment, n ‡ 1500, the ranked correlations ranged somewhat
+lower, 0.721 and 0.812.
+A wide range of bird and mammal species have evolved that differ widely
+in life histories, including variation in the rate at which aging leads to
+increased risks of mortality owing to disease and infirmity. This rich set of
+related species could, in principle, be used to generate and evaluate
+hypotheses about the cellular and physiological factors that time the
+aging process, factors that make it very unlikely that a particular mouse
+will survive 5 years, a dog survive 20 years, and a human survive
+110 years. Lifespan is a convenient, if flawed, surrogate for addressing
+hypotheses about the biological basis for aging rates because many
+factors besides age change can lead to death, and because aging leads to
+many consequences in addition to changes in mortality risk. Ideally,
+hypotheses about the distribution of aging rates and age-dependent
+changes across species could be tested by a database in which multiple
+age-sensitive traits had been tested in hundreds of individuals across a
+wide range of diverse species. In practice, however, physiological data of
+this kind are available only for a handful of species, and for most species
+the only available data relevant to questions of comparative aging rate
+are in the form of survival tables. The obvious problem is to determine the
+best way to summarize these population-specific tables and provide a
+Table 5 Sensitivity of metric performance to treatment and assessment changes
+comparative metric that preserves relevant biological information relating
+to lifespan while disregarding the effects of extraneous or confounding
+factors, such as population size.</p>
+      <p>Despite the widespread appreciation of its statistical association with
+population size, the MRLS is favored by comparative biologists because it
+is believed to measure an individuals’ intrinsic potential for long life. The
+degree to which the other metrics measured this maximum, without
+regard for the biasing effects of small sample size, is quantified by the
+partial correlations between candidate metrics and MRLS, holding
+population size constant. Population size bias is addressed more directly by the
+total correlation between sample size and metric value. Ideally, the best
+measures of extreme lifespan are those with the greatest magnitude of
+partial correlations with MRLS and the least magnitude of the total
+correlation between the measure and sample size. By these criteria, the best
+are those that nonparametrically define some well-defined elite fraction
+of the population: Q90, Q95, e90, and e95. Given that adult lifespans are
+typically right-skewed, we expected that measures of central tendency
+should be affected least by sample size. Instead, we found negative
+correlations between these measures and n that were slightly stronger than
+those obtained from Q90, Q95, e90, and e95. Good evidence has been
+collected to suggest that animal size and lifespan are positively associated. If
+zoos favor larger collections of smaller animals (a feasible expectation
+given resource limitations), then these negative correlations between n
+and mean and median lifespans may reflect true associations between
+intrinsic aging and population size and not simply bias. Such associations
+would cause effects that act in opposition to the effects of sample size
+bias on MRLS estimates. Put differently, maximum recorded lifespan
+would be more sensitive to n than reflected by our correlation estimate.</p>
+      <p>We note, however, that regardless of whether we choose the ideal
+correlation to be zero or slightly negative, Q90, Q95, e90, and e95 still appear to
+best satisfy these criteria for best longevity metrics.</p>
+      <p>Because MRLS observations depend upon the identification of single
+individuals, it seemed reasonable to expect that estimates would suffer
+from high sampling error. Indeed, our re-sampling analysis indicated that
+MRLS had a larger sampling variance than the quantile-based measures
+at all sample sizes. The difference intensified when species were
+disassociated from population sizes, suggesting that small sample bias may
+contribute to the sampling error for MRLS. Most parametric estimates
+suffered from high sample variance. The quantile-based measures
+produced the most reliable estimates, especially when population sizes were
+allowed to vary. Excluding those that describe the central tendency, we
+see that the least extreme measures Q90 and e90 are the least variable.</p>
+      <p>The 90th quantile of adult lifespan, Q90, and the average of the top
+10th percentile of adult lifespan, e90, appear to be the best alternatives to
+using MRLS as a comparative metric for extreme lifespan. Both correlate
+well with MRLS when sample size is corrected for, correlate weakly with
+population size, and demonstrate relatively little sampling variance.
+Furthermore, both can accommodate right-censored data. Neither measure
+seems to have a clear advantage over the other based upon the sampling
+characteristics analyzed here. However, one may prefer Q90 over e90 if
+extreme lifespan exaggeration was considered to be a problem, because
+Q90 is expected to be more robust to this effect than e90. We recommend
+that future aging studies consider using the 90th quantile lifespan as a
+comparative metric.</p>
+      <p>The metrics that took the average of a set number of elite individuals
+(MxLS) performed poorly as candidate metrics for extreme lifespan. Not
+surprisingly, MxLS measures correlated extremely well with MRLS when
+population size was held constant. However, the positive correlation
+between the measure and population size increased for this family of
+measures. Our rank persistence analysis illustrated problems inherent in
+the use of MxLS as a comparative metric. When population sizes were
+not randomized, MRLS and the closely related M4LS performed well, as
+indicated by high rank persistence to re-sampling. Similar methods that
+correlate well to MRLS (M16LS and M32LS) also performed well under
+these conditions. However, when population sizes were randomized to
+decouple the effects of biology and animal collection size, these
+performed very poorly compared to other measures. The reason for this is
+evident if we recognize that MxLS is the mean of the top 1 ) (n ) x) ⁄ n
+percentile of the population. Because the threshold for inclusion is
+sensitive to population size, variation in population size varies the lifespans of
+the individuals included in the measure.</p>
+      <p>Judged as univariate descriptors of longevity, measures based upon
+parameterized demographic models performed poorly as a group, with
+the exception of the Weibull intercepts, WA. Estimates of these metrics
+seemed to be more sensitive to our choice of method for delineating
+the aging and nonaging segments of each species life history. These
+metrics correlated poorly with MRLS, holding population size constant.</p>
+      <p>With respect to the Weibull-based omega values, our results (using T1
+as our definition of adulthood, the partial correlation was )0.238 and
+the total correlation was )0.464) contrast sharply with a full correlation
+between and MRLS of )0.83 across 150 captive vertebrate species
+recently reported by Ricklefs (2010b). At least two reasons may account
+for this discrepancy. First, our analytical methods differ: Ricklefs uses
+least-squares regression to fit a three-parameter Weibull model to
+death records at all ages (we use maximum likelihood to fit a
+twoparameter model to adult events) and he does not consider
+right-censored observations (we do). Second, the numbers of animal records per
+species tend to be far greater in our study. If small sample sizes
+upwardly bias estimates of omega (this is speculation on our part), then
+the variance in sample size across species (such as both studies find) will
+generate excess negative correlations between omega and MRLS. The
+results from the rank persistence analyses suggested that the
+demographic parameters, especially those that describe the slopes of
+mortality functions, are subject to high sampling variance. The Weibull
+intercept, however, demonstrated high partial correlations with MRLS
+and low sampling variances. Our only reason for not recommending</p>
+      <p>this measure is that it correlated more strongly with population size,
+which suggests that it is a more biased measure than some of the
+nonparametric alternatives.</p>
+      <p>While much attention in comparative biogerontology focuses on
+measures of extreme lifespan, investigators might consider using measures of
+central tendencies instead. There are at several reasons for doing so. First,
+as we show here, mean adult lifespan exhibits the least amount of
+sampling variance. It is the most repeatable measure that we investigated.
+Second, compared to MRLS, there is far less association between population
+size and metric estimates. As we have argued, there is reason to believe
+that mean lifespan should be the measure that is least biased by small
+sample size. Third, mean lifespan is highly correlated with MRLS (correcting for
+population size), with a partial correlation coefficient of between 0.91 and
+0.93. Other measures, such as Q90, may perform better in this respect, but
+it appears that a great deal of the biological information that is
+parameterized by maximum lifespan is also expressed by the mean lifespan of those
+animals that live at least as long as the ages measured by T1 and T2. Last,
+the most familiar definitions and predictions of the evolutionary change of
+phenotypes from one generation to the next are expressed as changes in
+the means (Robertson, 1966; Price, 1970, 1972; Lande &amp; Arnold, 1983).</p>
+      <p>In evolutionary biology, it is changes in the means, and occasionally the
+variances, of phenotypes that are nearly always the subject of study. We
+note, though, that the means and medians used for our calculations are
+for samples that exclude perinatal and a high proportion of juvenile
+mortality, and cannot be used to evaluate issues related to life expectancy at
+birth or proportions of offspring surviving to reproductive age.</p>
+      <p>Ultimately, the choice of whether to compare means or extremes may
+depend upon the nature of the comparative question that is under study.</p>
+      <p>We recommend, however, that this decision is made explicit and justified
+by each study. Comparative biogerontologists have prepared extensive
+compilations of MRLS data, and for many meta-analyses MRLS may,
+unfortunately, be the only available measure currently available.
+Compilation of similar lists of Q90 values and mean lifespans of animals surviving
+at least to T1 or T2 would be a worthwhile project for field biologists and
+zoo consortia to tackle as a service to aging research, and we recommend
+that such statistics be routinely included in reports about lifespan and
+aging in wild, captive, and experimental populations. In this respect, our
+study makes an important contribution by providing these estimates for
+nearly 200 bird and mammal species.</p>
+      <p>Experimental procedures
+Obtaining animal records
+We obtained records for 200 species of captive-born birds and
+mammals from the ISIS, an international nonprofit membership
+organization of zoos and aquariums. ISIS maintains an extensive database
+derived from over 800 zoological institutions in 77 countries,
+including life history information on over 2.4 million individual animals, of
+which over 1.5 million have exactly recorded birthdates. International
+Species Information System data have contributed to previous studies
+of demographic parameters related to lifespan evolution (Ricklefs,
+2000, 2010a,b), in which the absence of predation in zoological
+settings was believed to be an advantage in determining intrinsic
+mortality rates. Because information in the ISIS database differs greatly
+among species in the number of individuals, the degree of right
+censoring, the extent of missing data, and the pooling of information
+from zoos of varying size and environmental characteristics, these
+data provide an excellent opportunity to compare statistical estimates
+of extreme longevity in a realistic context.</p>
+      <p>Animal records included sex, birth dates, and death dates (or last
+recorded observations). Animals with unknown or estimated birth dates
+were removed from the analysis. We also removed all animals with
+lifespans that exceeded 120% of the maximum recorded lifespan as
+reported by AnAge (de Magalhaes &amp; Costa, 2009). We chose this value
+to allow for the possibility that the ISIS records included valid ages of
+animals that exceeded the AnAge values (many record-breaking individuals
+were identified), but we did not want to include records of animals that
+were suspiciously old. We used two methods (explained below) to
+determine the initial age of our analysis of aging (T) for each species. Most
+(181 species) had 50 or more individuals (n ‡ 50) with ages at death that
+exceeded T values determined by one or both methods. These species
+(Table S1) were chosen for further analysis.
+Populations from the ISIS datasets exhibited U-shaped mortality
+functions of age. The close monitoring of individual animals in the
+zoological setting, especially starting with birth or hatch, generates data on
+early mortality. As we were only interested in the distribution of
+lifespans that are associated with senescence, we discarded deaths that
+occurred before the onset of aging (T). This age was determined in
+two different ways: First, we ignored all deaths that occurred before
+the age of first reproduction as determined by the literature (see
+Table S1). When sex-specific ages of first reproduction were available
+and different, we took the greater of the two ages to be the
+truncation age (T1) for both sexes.</p>
+      <p>The second method found the age at which mortality was minimized
+(T2). For each reduced population, we used a simple iterative routine to
+find T2:</p>
+      <sec id="1-1">
+        <title>1 We calculated LX values using the ‘Survival’ package in R 2.11.0</title>
+        <p>(R Development Core Team 2011; Therneau &amp; Lumley, 2011). Individuals
+with known death dates (complete) and dates of last observation
+(rightcensored) were used. We binned the population into groups of similar
+lifespans, defined by regular age intervals. The bin number is defined by
+the ‘Sturges’ algorithm (Sturges, 1926), where the number of classes is a
+function of sample size, N ¼ 1 þ log2ðnÞ. This function is commonly used
+to construct histograms. Cumulative survival rates were converted to
+mortality rates.</p>
+      </sec>
+      <sec id="1-2">
+        <title>2 The age mid-point of the class with the lowest mortality value was</title>
+        <p>the provisional T2 value.</p>
+      </sec>
+      <sec id="1-3">
+        <title>3 A new population was defined by individuals from this class and</title>
+        <p>those from either of the flanking classes.</p>
+      </sec>
+      <sec id="1-4">
+        <title>4 We repeated steps 1–3 using the new population until age bins</title>
+        <p>appeared with no deaths or until the Sturges function no longer returned
+more than two classes.</p>
+      </sec>
+      <sec id="1-5">
+        <title>5 The estimate of the mortality minimum was the last meaningful T2</title>
+        <p>value (Table S1).</p>
+        <p>Estimating metrics
+We estimated longevity using the post-T (aging) populations. Longevity
+metrics were of two types. Nonparametric estimates were functions of
+longevity quantiles, based upon survival curves generated from the
+survival analysis described above. Parametric estimates derived from
+functions of Gompertz or Weibull parameters fit to each aging population.
+Model fitting was accomplished using the ‘Survomatic’ package in
+R 2.11.0 (Bokov &amp; Gelfond, 2010; R Development Core Team 2011).
+Metrics are described in detail in Table 1, and estimates are presented
+in Table S2 (Supporting information).
+Rank persistence
+We were interested in discriminating between populations represented
+by their longest-lived individuals. One way to evaluate the merits of
+candidate metrics is to perform rank persistence analyses of re-sampled
+species-specific populations. We began with a collection of P species, each of
+size Np. We re-sampled each species twice with replacement, taking Np
+draws from each population p. For each metric m, there was a ranking
+sequence specific to each sample set. For example, the MRLS rankings for
+five sample species (p = 1–5) may have been</p>
+        <p>R1ðm ¼ MRLSÞ ¼ f1; 2; 3; 4; 5g</p>
+        <p>R2ðm ¼ MRLSÞ ¼ f1; 3; 4; 2; 5g:
+In this case, species 1 always has the longest-lived individual and species 5
+always has the lowest maximum aged individual. Species 2, 3, and 4
+exchange rank. Using the same re-sampled data, a metric other than
+MRLS might return rankings that are more persistent:</p>
+        <p>R1ðm ¼ XÞ ¼ f1; 3; 2; 4; 5g</p>
+        <p>R2ðm ¼ XÞ ¼ f1; 2; 3; 4; 5g:
+We can quantify rank persistence using two slightly different
+measures. The first measure is Spearman’s footrule distance:
+Dij ¼ Pkn¼1 xik xjk , where i and j are R1 and R2, x is the rank, and
+k is the population. For the examples above, DR1R2ðMRLSÞ ¼ 4 and
+DR1R2 (X) = 2. Persistence increases with decreased D (low values are
+superior to high values). The second measure is rij, the rank correlation
+across the samples, which increases with rank persistence (high values
+are superior to low values). In our example, rR1R2ðMRLSÞ ¼ þ0:7 and
+rR1R2ðXÞ ¼ þ0:9. Note that the measures are very similar; the only
+fundamental difference between the two measures is that r weights
+changes in rank by the square of the change and D scales the changes
+linearly. By both measures, the rankings derived using metric X would
+seem to more robust to changes in the populations resulting from
+resampling. In terms of rank persistence alone, we would conclude that
+X is a superior longevity metric to MRLS.</p>
+        <p>Acknowledgments
+This work was funded by National Institute on Aging grant
+P30AG013283. Alex Scheuerlein, Erik Brinks, and Soren Moller at the
+Max Planck Institute for Demographic Research kindly provided
+sexand species-specific ages of reproductive maturity. DP was funded in
+part by grants from the American Federation of Aging Research and
+the National Science Foundation. We thank Bob Ricklefs, Steve
+Austad, Anne Bronikowski, and two anonymous reviewers for helpful
+commentary on the manuscript.</p>
+        <p>Author contributions
+All authors together conceived and designed the experiment,
+discussed the results and implications, and commented on the
+manuscript. Jacob Moorad performed the analyses and wrote
+the manuscript with Rich Miller. Nate Flesness provided the
+data.</p>
+      </sec>
+    </sec>
+    <sec id="2">
+      <title>Supporting Information</title>
+      <p>Additional supporting information may be found in the online version of
+this article at the publisher’s web-site:
+Table S1 ISIS species datasets.</p>
+      <p>Table S2 Estimates of univariate longevity metrics (T1 method) and
+Estimates of univariate longevity metrics (T2 method).</p>
+      <p>Table S3 Metric estimate correlations using ISIS species data.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Austad</surname>
+            <given-names>SN</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fischer</surname>
+            <given-names>KE</given-names>
+          </string-name>
+          (
+          <year>1991</year>
+          )
+          <article-title>Mammalian aging, metabolism, and ecology: evidence from the bats and marsupials</article-title>
+          .
+          <source>J. Gerontol</source>
+          .
+          <volume>46</volume>
+          ,
+          <fpage>B47</fpage>
+          -
+          <lpage>B53</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bokov</surname>
+            <given-names>AF</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gelfond</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Survomatic: analysis of longevity data</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Bronikowski</surname>
+            <given-names>AM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Altmann</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brockman</surname>
+            <given-names>DK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Cords</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Fedigan</surname>
+            <given-names>LM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pusey</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Stoinski</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Morris</surname>
+            <given-names>WF</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Strier</surname>
+            <given-names>KB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Alberts</surname>
+            <given-names>SC</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>Aging in the natural world: comparative data reveal similar mortality patterns across primates</article-title>
+          .
+          <source>Science</source>
+          <volume>331</volume>
+          ,
+          <fpage>1325</fpage>
+          -
+          <lpage>1328</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Carey</surname>
+            <given-names>JR</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Judge</surname>
+            <given-names>DS</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Longevity Records: Monographs on Population Aging Vol 8: Life Spans of Mammals</article-title>
+          , Birds, Amphibians, Reptiles, and
+          <string-name>
+            <surname>Fish</surname>
+          </string-name>
+          . Odense: University Press Of Southern Denmark.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Comfort</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>1979</year>
+          )
+          <article-title>The Biology of Senescence</article-title>
+          . London: Churchill Livingstone.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Finch</surname>
+            <given-names>CE</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          )
+          <article-title>Longevity, Senescence, and the Genome</article-title>
+          . Chicago: University of Chicago Press.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Finch</surname>
+            <given-names>CE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pike</surname>
+            <given-names>MC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Witten</surname>
+            <given-names>M</given-names>
+          </string-name>
+          (
+          <year>1990</year>
+          )
+          <article-title>Slow mortality-rate accelerations during aging in some animals approximate that of humans</article-title>
+          .
+          <source>Science</source>
+          <volume>249</volume>
+          ,
+          <fpage>902</fpage>
+          -
+          <lpage>905</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Flatt</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Kawecki</surname>
+            <given-names>TJ</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Juvenile hormone as a regulator of the trade-off between reproduction and life span in Drosophila melanogaster</article-title>
+          .
+          <source>Evolution</source>
+          <volume>61</volume>
+          ,
+          <fpage>1980</fpage>
+          -
+          <lpage>1991</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Gao</surname>
+            <given-names>GM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wan</surname>
+            <given-names>W</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Zhang</surname>
+            <given-names>SJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Redden</surname>
+            <given-names>DT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Allison</surname>
+            <given-names>DB</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Testing for differences in distribution tails to test for differences in 'maximum' lifespan</article-title>
+          .
+          <source>BMC Med. Res. Methodol</source>
+          .
+          <volume>8</volume>
+          ,
+          <fpage>49</fpage>
+          -
+          <lpage>58</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Holmes</surname>
+            <given-names>DJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Austad</surname>
+            <given-names>SN</given-names>
+          </string-name>
+          (
+          <year>1995</year>
+          )
+          <article-title>The evolution of avian senescence patterns - implications for understanding primary aging processes</article-title>
+          .
+          <source>Am. Zool</source>
+          .
+          <volume>35</volume>
+          ,
+          <fpage>307</fpage>
+          -
+          <lpage>317</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Hulbert</surname>
+            <given-names>AJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pamplona</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buffenstein</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Buttemer</surname>
+            <given-names>WA</given-names>
+          </string-name>
+          (
+          <year>2007</year>
+          )
+          <article-title>Life and death: metabolic rate, membrane composition, and life span of animals</article-title>
+          .
+          <source>Physiol. Rev</source>
+          .
+          <volume>87</volume>
+          ,
+          <fpage>1175</fpage>
+          -
+          <lpage>1213</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Jones</surname>
+            <given-names>OR</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gaillard</surname>
+            <given-names>JM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tuljapurkar</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Alho</surname>
+            <given-names>JS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Armitage</surname>
+            <given-names>KB</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Becker</surname>
+            <given-names>PH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Bize</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Brommer</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Charmantier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Charpentier</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Clutton-Brock</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dobson</surname>
+            <given-names>FS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Festa-Bianchet</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gustafsson</surname>
+            <given-names>L</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jensen</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Jones</surname>
+            <given-names>CG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lillandt</surname>
+            <given-names>BG</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>McCleery</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Merila</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Neuhaus</surname>
+            <given-names>P</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Nicoll</surname>
+            <given-names>MAC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Norris</surname>
+            <given-names>K</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Oli</surname>
+            <given-names>MK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pemberton</surname>
+            <given-names>J</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pietiainen</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Ringsby</surname>
+            <given-names>TH</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Roulin</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Saether</surname>
+            <given-names>BE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Setchell</surname>
+            <given-names>JM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Sheldon</surname>
+            <given-names>BC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Thompson</surname>
+            <given-names>PM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weimerskirch</surname>
+            <given-names>H</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Wickings</surname>
+            <given-names>EJ</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Coulson</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2008</year>
+          )
+          <article-title>Senescence rates are determined by ranking on the fast-slow life-history continuum</article-title>
+          .
+          <source>Ecol. Lett</source>
+          .
+          <volume>11</volume>
+          ,
+          <fpage>664</fpage>
+          -
+          <lpage>673</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Lande</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Arnold</surname>
+            <given-names>SJ</given-names>
+          </string-name>
+          (
+          <year>1983</year>
+          )
+          <article-title>The measurement of selection on correlated characters</article-title>
+          .
+          <source>Evolution</source>
+          <volume>37</volume>
+          ,
+          <fpage>1210</fpage>
+          -
+          <lpage>1226</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>de Magalhaes</surname>
+            <given-names>JP</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Costa</surname>
+            <given-names>J</given-names>
+          </string-name>
+          (
+          <year>2009</year>
+          )
+          <article-title>A database of vertebrate longevity records and their relation to other life-history traits</article-title>
+          .
+          <source>J. Evol. Biol</source>
+          .
+          <volume>28</volume>
+          ,
+          <fpage>1770</fpage>
+          -
+          <lpage>1774</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Maklakov</surname>
+            <given-names>AA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Friberg</surname>
+            <given-names>U</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Dowling</surname>
+            <given-names>DK</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Arnqvist</surname>
+            <given-names>G</given-names>
+          </string-name>
+          (
+          <year>2006</year>
+          )
+          <article-title>Within-population variation in cytoplasmic genes affects female life span and aging in Drosophila melanogaster</article-title>
+          .
+          <source>Evolution</source>
+          <volume>60</volume>
+          ,
+          <fpage>2081</fpage>
+          -
+          <lpage>2086</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Peron</surname>
+            <given-names>G</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gimenez</surname>
+            <given-names>O</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Charmantier</surname>
+            <given-names>A</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Gaillard</surname>
+            <given-names>JM</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Crochet</surname>
+            <given-names>PA</given-names>
+          </string-name>
+          (
+          <year>2010</year>
+          )
+          <article-title>Age at the onset of senescence in birds and mammals is predicted by early-life performance</article-title>
+          .
+          <source>Proc. Biol. Sci</source>
+          .
+          <volume>277</volume>
+          ,
+          <fpage>2849</fpage>
+          -
+          <lpage>2856</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Pletcher</surname>
+            <given-names>SD</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Khazaeli</surname>
+            <given-names>AA</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Curtsinger</surname>
+            <given-names>JW</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Why do life spans differ? Partitioning mean longevity differences in terms of age-specific mortality parameters</article-title>
+          .
+          <source>J. Gerontol</source>
+          .
+          <volume>55</volume>
+          ,
+          <fpage>B381</fpage>
+          -
+          <lpage>B389</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Price</surname>
+            <given-names>GR</given-names>
+          </string-name>
+          (
+          <year>1970</year>
+          )
+          <article-title>Selection and covariance</article-title>
+          .
+          <source>Nature</source>
+          <volume>227</volume>
+          ,
+          <fpage>520</fpage>
+          -
+          <lpage>521</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Price</surname>
+            <given-names>GR</given-names>
+          </string-name>
+          (
+          <year>1972</year>
+          )
+          <article-title>Extension of covariance selection mathematics</article-title>
+          .
+          <source>Ann. Hum. Genet</source>
+          .
+          <volume>35</volume>
+          ,
+          <fpage>485</fpage>
+          -
+          <lpage>490</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Promislow</surname>
+            <given-names>DEL</given-names>
+          </string-name>
+          (
+          <year>1991</year>
+          )
+          <article-title>Senescence in natural populations of mammals - a comparative-study</article-title>
+          .
+          <source>Evolution</source>
+          <volume>45</volume>
+          ,
+          <fpage>1869</fpage>
+          -
+          <lpage>1887</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Promislow</surname>
+            <given-names>DEL</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Tatar</surname>
+            <given-names>M</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Pletcher</surname>
+            <given-names>S</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Carey</surname>
+            <given-names>JR</given-names>
+          </string-name>
+          (
+          <year>1999</year>
+          )
+          <article-title>Below threshold mortality: implications for studies in evolution, ecology and demography</article-title>
+          .
+          <source>J. Evol. Biol</source>
+          .
+          <volume>12</volume>
+          ,
+          <fpage>314</fpage>
+          -
+          <lpage>328</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <given-names>R Development</given-names>
+            <surname>Core Team</surname>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>R: A Language and Environment for Statistical Computing</article-title>
+          . Vienna, Austria: The R Foundation for Statistical Computing.
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ricklefs</surname>
+            <given-names>RE</given-names>
+          </string-name>
+          (
+          <year>1998</year>
+          )
+          <article-title>Evolutionary theories of aging: confirmation of a fundamental prediction, with implications for the genetic basis and evolution of life span</article-title>
+          .
+          <source>Am. Nat</source>
+          .
+          <volume>152</volume>
+          ,
+          <fpage>24</fpage>
+          -
+          <lpage>44</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ricklefs</surname>
+            <given-names>RE</given-names>
+          </string-name>
+          (
+          <year>2000</year>
+          )
+          <article-title>Intrinsic aging-related mortality in birds</article-title>
+          .
+          <source>J. Avian Biol</source>
+          .
+          <volume>31</volume>
+          ,
+          <fpage>103</fpage>
+          -
+          <lpage>111</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ricklefs</surname>
+            <given-names>RE</given-names>
+          </string-name>
+          (
+          <year>2010a</year>
+          )
+          <article-title>Insights from comparative analyses of aging in birds and mammals</article-title>
+          .
+          <source>Aging Cell</source>
+          <volume>9</volume>
+          ,
+          <fpage>273</fpage>
+          -
+          <lpage>284</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <article-title>Ricklefs RE (2010b) Life-history connections to rates of aging in terrestrial vertebrates</article-title>
+          .
+          <source>Proc. Nat. Acad. Sci. U.S.A</source>
+          .
+          <volume>107</volume>
+          ,
+          <fpage>10314</fpage>
+          -
+          <lpage>10319</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ricklefs</surname>
+            <given-names>RE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Scheuerlein</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2001</year>
+          )
+          <article-title>Comparison of aging-related mortality among birds and mammals</article-title>
+          .
+          <source>Exp. Gerontol</source>
+          .
+          <volume>36</volume>
+          ,
+          <fpage>845</fpage>
+          -
+          <lpage>857</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Ricklefs</surname>
+            <given-names>RE</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Scheuerlein</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Biological implications of the Weibull and Gompertz models of aging</article-title>
+          .
+          <source>J. Gerontol</source>
+          .
+          <volume>57</volume>
+          ,
+          <fpage>B69</fpage>
+          -
+          <lpage>B76</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Robertson</surname>
+            <given-names>A</given-names>
+          </string-name>
+          (
+          <year>1966</year>
+          )
+          <article-title>A mathematical model of culling process in dairy cattle</article-title>
+          .
+          <source>Anim. Prod</source>
+          .
+          <volume>8</volume>
+          ,
+          <fpage>95</fpage>
+          -
+          <lpage>108</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Spencer</surname>
+            <given-names>CC</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Promislow</surname>
+            <given-names>DEL</given-names>
+          </string-name>
+          (
+          <year>2005</year>
+          )
+          <article-title>Age-specific changes in epistatic effects on mortality rate in Drosophila melanogaster</article-title>
+          .
+          <source>J. Hered</source>
+          .
+          <volume>96</volume>
+          ,
+          <fpage>513</fpage>
+          -
+          <lpage>521</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Sturges</surname>
+            <given-names>HA</given-names>
+          </string-name>
+          (
+          <year>1926</year>
+          )
+          <article-title>The choice of a class interval Case I Computations involving a single</article-title>
+          .
+          <source>J. Am. Stat. Assoc</source>
+          .
+          <volume>21</volume>
+          ,
+          <fpage>65</fpage>
+          -
+          <lpage>66</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Therneau</surname>
+            <given-names>T</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Lumley</surname>
+            <given-names>T</given-names>
+          </string-name>
+          (
+          <year>2011</year>
+          )
+          <article-title>survival: survival analysis, including penalised likelihood</article-title>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Wang</surname>
+            <given-names>C</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Li</surname>
+            <given-names>Q</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Redden</surname>
+            <given-names>DT</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Weindruch</surname>
+            <given-names>R</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>Allison</surname>
+            <given-names>DB</given-names>
+          </string-name>
+          (
+          <year>2004</year>
+          )
+          <article-title>Statistical methods for testing effects on ''maximum lifespan''</article-title>
+          .
+          <string-name>
+            <surname>Mech</surname>
+          </string-name>
+          .
+          <source>Ageing Dev</source>
+          .
+          <volume>125</volume>
+          ,
+          <fpage>629</fpage>
+          -
+          <lpage>632</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Wilkinson</surname>
+            <given-names>GS</given-names>
+          </string-name>
+          ,
+          <string-name>
+            <surname>South</surname>
+            <given-names>JM</given-names>
+          </string-name>
+          (
+          <year>2002</year>
+          )
+          <article-title>Life history, ecology and longevity in bats</article-title>
+          .
+          <source>Aging Cell</source>
+          <volume>1</volume>
+          ,
+          <fpage>124</fpage>
+          -
+          <lpage>131</lpage>
+          .
+        </mixed-citation>
+      </ref>
+      <ref>
+        <mixed-citation>
+          <string-name>
+            <surname>Wilson</surname>
+            <given-names>DL</given-names>
+          </string-name>
+          (
+          <year>1994</year>
+          )
+          <article-title>The analysis of survival (mortality) data: fitting Gompertz, Weibull, and logistic functions</article-title>
+          .
+          <source>Mech. Ageing Dev</source>
+          .
+          <volume>74</volume>
+          ,
+          <fpage>15</fpage>
+          -
+          <lpage>33</lpage>
+          .
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

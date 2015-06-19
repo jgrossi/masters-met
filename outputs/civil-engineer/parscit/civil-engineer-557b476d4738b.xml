@@ -1,0 +1,2911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<algorithms version="110505">
+<algorithm name="SectLabel" version="110505">
+<variant no="0" confidence="0.000000">
+<subsectionHeader confidence="0.191827">
+Nondestructive Testing and Evaluation,
+</subsectionHeader>
+<bodyText confidence="0.847117307692308">
+Vol. 23, No. 2, June 2008, 121–140
+Nondestructive testing of asphalt pavements for structural
+condition evaluation: a state of the art
+AMIT GOEL* and ANIMESH DAS†
+Department of Civil Engineering, Indian Institute of Technology Kanpur, Kanpur, UP 208016, India
+(Received 25 July 2007; in final form 26 September 2007)
+Nondestructive testing provides ideal means to test pavement structure in a rapid and convenient manner.
+In last few years, significant development has taken place in this field. This paper, presents some of the
+major conventional as well as emerging nondestructive evaluation methods for in situ structural
+assessment of asphalt pavements. Discussion of methods is primarily directed towards the estimation of
+layer moduli and thickness values which are direct indicators of the structural strength of pavement.
+Estimation of density, moisture content, etc. has not been emphasised in this paper.
+Keywords: Deflection; Layer moduli; Thickness estimation; Backcalculation; Spectral analysis
+</bodyText>
+<sectionHeader confidence="0.80082" genericHeader="abstract">
+1. Introduction
+</sectionHeader>
+<bodyText confidence="0.942970941176471">
+Structural condition evaluation of existing asphalt pavement serves purposes such as,
+(i) estimation of its present sufficiency for the purpose served, (ii) estimation of remaining
+service-life and (iii) decision on the choice of rehabilitation measure. A desirable method is
+the one which neither causes disruption to traffic, nor causes any damage to the existing
+pavement structure. For quick acquisition of test data, a reliable and consistent test technique
+is needed. Nondestructive testing (NDT) methods provide all these features and are ideally
+suited for application to pavements. With NDT methods, a number of data sets can be acquired
+at the same point which provides statistical reliability to the experimentally acquired data.
+In a structural evaluation process, the primary objective is to estimate the structural
+strength. For asphalt pavements, it may be expressed in terms of in situ layer elastic moduli,
+layer thickness, inter-layer bond conditions and anomaly characterisation. A simple and
+direct evaluation method for layer properties estimation is by visual examination after
+digging pits or taking cores from the pavement, which are destructive methods. Dynamic
+cone penetrometer test can give a qualitative (and to some extent quantitative) estimation of
+layer thickness, though it has some limitations (Loizos and Plati 2007, Roy 2007) in terms of
+test-speed, error and subjectivity in testing.
+*Corresponding author. Email: amitji@iitk.ac.in
+</bodyText>
+<figure confidence="0.2700808">
+†Email: adas@iitk.ac.in
+Nondestructive Testing and Evaluation
+ISSN 1058-9759 print/ISSN 1477-2671 online q 2008 Taylor &amp; Francis
+http://www.tandf.co.uk/journals
+DOI: 10.1080/10589750701848697
+</figure>
+<page confidence="0.998177">
+122
+</page>
+<bodyText confidence="0.990000564102564">
+A. Goel and A. Das
+This paper discusses some of the emerging as well as contemporary nondestructive
+evaluation (NDE) methods which have found applications for in situ structural evaluation of
+asphalt pavements. Underlying principles and test set-up of various techniques alongwith
+their scope and performance are discussed in detail. Discussion is confined to the NDE
+methods specific to the estimation of in situ thickness and moduli values of asphalt pavement
+layers. It does not specifically cover the issues related to estimation of density, moisture
+content, etc.
+2. Basic principles of NDE techniques for asphalt pavements
+A number of NDE methods have been developed for evaluation of asphalt pavements. For
+in situ NDT of pavements, only the top surface is available. Thus, methods requiring access
+to two different surfaces of the pavement structure cannot be employed in this case (X-ray
+method, etc.). Laboratory techniques such as resonance column method and ultrasonic
+testing have been used to determine the seismic moduli for complimenting the evaluation
+procedure (Nazarian et al. 1999, Celaya and Nazarian 2007). These techniques can also be
+used for calibration of field NDT methods (Hammons et al. 2006).
+Many of the NDE methods involve implementation of forward approach for analysis and
+the inverse approach for interpretation. In forward approach, the system is idealised in the
+form of a model to study its physical response (say, deflection) due to some stimulus (say,
+force), when the properties of the pavement layers (say, layer elastic moduli) are assumed.
+A simple approach to forward modeling of pavement structure is to idealise it as a
+horizontally layered, linearly elastic, isotropic and homogenous media. More complex
+forward analysis schemes can be developed by dropping these idealisations, thereby
+achieving closer approximation to the actual response. In fact, the seismic/ loading response
+of pavement structure is quite complex, and its modeling is itself a difficult task (Brown
+1997). Asphalt layer is strongly sensitive to nature of loading (magnitude, frequency and
+duration) as well as temperature (Krishnan and Rajagopal 2003); whereas the elastic
+modulus of granular layer and subgrade is sensitive to stress conditions (Lekarp et al. 2000).
+The inverse approach involves deductive analysis for which an unconstrained optimisation
+scheme is applied to the acquired data (say, deflection) so as to estimate the desired properties
+(say, layer elastic moduli) of the pavement system. Thus, the inverse algorithm typically
+involves recursive calls to the forward analysis with some assumed values of the unknown
+parameters, and any pre-defined error parameter is minimised through subsequent iterations.
+The error parameter is generally defined as root mean square of the difference between the
+obtained and predicted responses. Since, inverse calculation requires computation of forward
+calculations at each iteration, use of more realistic forward modeling does enhance the
+accuracy but it significantly increases the computation time as well.
+Based on the underlying principles, the NDE methods for asphalt pavements can be
+classified under two broad headings as follows.
+</bodyText>
+<listItem confidence="0.912462">
+. Deflection-basin methods
+- Static loading method
+- Steady state loading method
+- Dynamic impulse loading method
+Nondestructive testing of asphalt pavements
+</listItem>
+<page confidence="0.906994">
+123
+</page>
+<listItem confidence="0.988737">
+. Wave propagation methods
+- Stress/Elastic wave method
+- Electromagnetic wave method
+</listItem>
+<bodyText confidence="0.750613">
+These methods are discussed in the following sections.
+</bodyText>
+<sectionHeader confidence="0.863727" genericHeader="categories and subject descriptors">
+3. Deflection-basin methods
+</sectionHeader>
+<bodyText confidence="0.998259428571429">
+In deflection-basin methods, vertical deflections at various points on the surface of the
+pavement test-section, due to an applied load, are measured. Type of the load applied may be
+static, steady state harmonic or transient impulse type (ASTM D2003). The measurement of
+deflection at the load point and at locations radially outwards from it, can be done with the help
+of a dial gauge/linear variable differential transformer, or by using velocity transducers
+(geophones) (Haas et al. 1994). Various types of deflection based NDE methods are discussed
+further in the following subsections.
+</bodyText>
+<subsectionHeader confidence="0.998796">
+3.1 Static loading method
+</subsectionHeader>
+<bodyText confidence="0.9994931875">
+In this method, a static load is applied to the test section and its deflection is measured.
+Benkelman beam deflection (BBD) test is a simple and relatively inexpensive method under
+this category.
+Basic device in a BBD test consists of a lightweight frame to which a beam probe is
+attached alongwith a dial gauge (Zube and Forsyth 1966). BBD measures the deflection due
+to static loading of dual tyres of a loaded truck. Measurement process starts by placing the
+probe between the rear dual wheels of the test vehicle (figure 1). Initial dial gauge reading is
+recorded. The truck is made to move away by a specified distance and as the rebound rate of
+pavement surface falls below a specified level, intermediate reading is taken. Truck is again
+made to move further away and the final reading is taken. Such an approach is adopted as an
+attempt to reduce/nullify the influence of deflection bowl on the readings (Haas et al. 1994,
+Chakroborty and Das 2003). A characteristic BBD value, which is larger than allowable,
+warrants an overlay for the pavement.
+The BBD device has been improved and made capable of multi-point probing with
+increased accuracy. Rolling weight deflectometer (RWD) is an example of such improved
+devices that employ similar basic principle (Bay and Stokoe 1998).
+</bodyText>
+<subsectionHeader confidence="0.987855">
+3.2 Steady state loading
+</subsectionHeader>
+<bodyText confidence="0.971022">
+In this method, a low frequency oscillatory loading is applied to the pavement and the
+deflection response is recorded (ASTM D4602 2003). The loading is generally applied
+</bodyText>
+<figureCaption confidence="0.972953">
+Figure 1. A typical Bankelman beam deflectometer setup.
+</figureCaption>
+<page confidence="0.999587">
+124
+</page>
+<bodyText confidence="0.9958997">
+A. Goel and A. Das
+by counter rotating mass or electro-hydraulic system. The two trailer wheels equally
+distribute the vertical dynamic load to the pavement. A geophone series measures the
+velocity of movement with respect to time, which on integration gives the deflection basin
+(Haas et al. 1994). Thus, the deflection measurement for these devices are free from
+influence of deflection bowl. However, test loading is harmonic and does not have any rest
+period. Hence, the loading condition is somewhat different (Fwa 2006) and the magnitude of
+load applied is also smaller (Ullidtz 1987) than the actual situation of in-service pavements.
+Also, a relatively large amount of pre-load is applied to the pavement which may adversely
+affect the accuracy of pavement response (Fwa 2006).
+</bodyText>
+<subsectionHeader confidence="0.970148">
+3.3 Transient impulse loading
+</subsectionHeader>
+<bodyText confidence="0.99104147826087">
+This method uses an impulsive transient load application to the pavement test-section and the
+deflection response is recorded at a series of radial points (ASTM D4694 2003). This type of
+device is typically referred to as falling weight deflectometer (FWD) and is schematically
+shown in (figure 2). The amount of impact load, duration and the loading area is adjusted in
+such a way that it closely corresponds to the actual loading by a standard truck on in-service
+road (Sebaaly et al. 1991). The peak load is controlled by varying the falling mass, height of
+drop and the spring constant. The time of impulse load may vary between 0.025 and 0.30 s,
+and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al.
+2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter
+circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection
+response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection
+profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a
+load cell, and its variation may be used to evaluate the stress dependence of the layer
+modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006).
+Since the stiffness of asphalt layer is affected by temperature, a suitable temperature
+correction factor needs to be applied to the observed deflection values to convert them to
+values at the standard temperature (Chen et al. 2000, Park et al. 2002).
+Some lighter versions of FWDs, called as light falling weight deflectometer, are also
+available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al.
+2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al.
+2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer
+(HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003).
+Major advantage of this technique is that it closely simulates the actual in-service
+</bodyText>
+<figureCaption confidence="0.878845">
+pavement loading. Another benefit is that the road need not be closed to traffic during the test
+Figure 2. Schematics of a typical FWD test set up.
+</figureCaption>
+<bodyText confidence="0.652428">
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.998228">
+125
+</page>
+<bodyText confidence="0.996751075">
+process. However, FWD method is relatively expensive and inverse analysis is complex. For
+taking FWD measurements one needs to stop every time for deflection measurement. This
+problem is taken care of by the rolling dynamic deflectometer (RDD) where the vehicle
+moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured
+(Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the
+deflection from inertial frame of reference, hence the error associated with the geometry of
+the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the
+deflections are measured continuously, the statistical confidence is also good (Lee et al.
+2006).
+Forward analysis approach which simulates the FWD loading can be divided into two
+broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset
+et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to
+take into account the inertia effects, and loss of impact energy due to hysteresis and seismic
+wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985,
+Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give
+erroneous results, especially when there exists a stiff bedrock layer below the pavement at a
+shallow depth.
+The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are
+being made to evolve a generalised backcalculation approach (May and Von Quintus 1994)
+that can reach the solution quickly and accurately. Various approaches based on (i) closed
+formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular,
+No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991),
+(iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991,
+Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al.
+1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and
+Das) and (vi) combination of these methods have been implemented for backcalculation of
+layer moduli. The difficulties faced by various backcalculation approaches may be
+summarised as follows (Sharma and Das):
+. The closed formed solutions can handle only limited and idealistic situations.
+. The regression methods are fast, but sometimes may give inaccurate results (Lenngren
+1991).
+. The methods based on conventional optimisation techniques take a long time to
+backcalculate the layer moduli (Harichandran et al. 1993). There are chances that the
+solution may converge to a local optimal point. Also, the convergence depends on the
+initial solution (seed values) chosen (Harichandran et al. 1993, May and Von Quintus
+1994).
+. The approach based on artificial neural network (ANN) takes a long time for training
+data-sets and requires fresh training every time the input parameters change. Computation
+time in genetic algorithm (GA) based program is also large (Fwa et al. 1997, Kameyana
+et al. 1997).
+</bodyText>
+<subsectionHeader confidence="0.988063">
+3.4 Closing remark
+</subsectionHeader>
+<bodyText confidence="0.9943475">
+Table 1 compares various types of deflection based equipment according to the
+characteristics of the impulse force applied.
+</bodyText>
+<page confidence="0.999691">
+126
+</page>
+<reference confidence="0.503154">
+A. Goel and A. Das
+</reference>
+<tableCaption confidence="0.99397">
+Table 1. Comparison of load and frequency range for various deflection based equipment.
+</tableCaption>
+<figure confidence="0.900823571428571">
+Test equipment
+Type of force
+Benkelman
+beam
+RWD
+Steady-state
+loading
+FWD
+RDD
+Static
+Broadband dynamic
+Dynamic
+HWD
+Broadband dynamic
+Pseudostatic
+Dynamic
+Impulse force
+level (KN)
+Frequency
+range (Hz)
+&lt;23–45
+0
+76–89
+2.2–36
+peak-to-peak
+6.7–120
+9–310
+peak-to-peak
+30–240
+,4
+5–70
+References
+Bay and Stokoe (1998),
+Fwa (2006)
+Bay and Stokoe (1998)
+Bay and Stokoe (1998)
+&lt;0–60 Hz
+5–100
+Pittman (1996), Turner et al. (2003)
+Turner et al. (2003)
+0
+Pittman (1996), Turner et al. (2003)
+</figure>
+<listItem confidence="0.551358">
+4. Wave propagation methods
+</listItem>
+<bodyText confidence="0.9969436">
+The wave propagation based NDE methods employ wave propagation principles (for
+stress/electromagnetic waves) in a multilayer pavement structure, and the response is
+acquired, analyzed and interpreted. These methods are discussed in the following sections.
+The frequency-ranges of different types of waves that are utilised in these methods are
+presented in (figure 3).
+</bodyText>
+<subsectionHeader confidence="0.99486">
+4.1 Stress/elastic wave method
+</subsectionHeader>
+<bodyText confidence="0.949893538461538">
+A stress/elastic wave is a type of mechanical wave that propagates in elastic/viscoelastic
+materials due to a stress based disturbance. There are two types of stress waves, namely,
+body-waves and surface-waves. The salient characteristics and propagation principles of
+these waves in multilayered media are discussed elsewhere (Richart et al. 1970, Ryden 2004,
+Goel and Das 2006). Stress waves may be generated through different devices like dropweight, strike hammer, or a transducer. The sensing element is also a transducer receiver
+(e.g. accelerometer). The data is recorded through a data acquisition system and
+subsequently analysed to get the required estimates. It is important to note that the estimated
+seismic moduli of pavement layers by these methods may typically show larger values as
+compared to those estimated by deflection based methods, since a low magnitude loading is
+applied at a high strain rate in this case. Therefore, suitable correction models need to be
+incorporated in the analysis scheme (Nazarian and Alvarado 2006). Based on the analysis
+Figure 3. Frequency ranges for different wave-propagation based NDE methods.
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.995701">
+127
+</page>
+<listItem confidence="0.88191425">
+technique used, the stress wave method can further be classified as:
+. Impact echo (IE)/pulse echo method
+. Pulse velocity method
+. Spectral analysis of surface waves (SASW) method
+</listItem>
+<bodyText confidence="0.965981769230769">
+The first two methods employ body waves, whereas the third method primarily employs
+surface wave response to evaluate the pavement structure. These are discussed in the
+following subsections.
+4.1.1 Impact echo/pulse echo method. In the IE/pulse echo method, an impact is made at
+the test surface to generate stress waves and their reflections from any inhomogeneity in
+layer medium, interface, void, crack, etc. are recorded to extract information on its location
+(figure 4, Sansalone 1997). It is an established method for testing concrete structures (Sack
+and Olson 1995, Gucunski and Maher 2002 Nazarian et al. 2003, Cho and Linb 2005).
+From the amplitude-time data of reflected body waves, the frequency peaks are identified
+using frequency domain analysis. Each of these peak indicates the resonant echo frequencies.
+Inverse of these frequencies gives the time required for the waves to get echoed from the
+pavement interface or the crack surface (Sack and Olson 1995, Sansalone 1997). For a single
+layer structure, the thickness of the layer (t) can be calculated as (Hill et al. 2000)
+</bodyText>
+<equation confidence="0.994485">
+t¼
+bV p
+f
+ð1Þ
+</equation>
+<bodyText confidence="0.979839125">
+where, t is the thickness of the layer, Vp is the longitudinal stress wave (P-wave) velocity, f is
+the resonant frequency and b is a correction factor. Theoretical basis of this factor b has been
+explained in a recent study (Gibson and Popovics 2005). If the Vp through the media is
+known, the depth of crack or interface can be estimated. IE method can be combined with the
+SASW method for Vp and thickness determination (ASTM C1383 2000, Kim et al. 2006).
+The SASW method is discussed in a later section. Ultrasonic pulse echo has been used for
+estimation of thickness and depth of surface cracks for asphalt pavements with success
+(Underwood and Kim 2002, Celaya and Nazarian 2007).
+</bodyText>
+<figureCaption confidence="0.644384">
+4.1.2 Pulse velocity method. In the pulse velocity method, the P-wave velocity in the
+material medium is determined which is used to calculate its dynamic elastic modulus or the
+Figure 4. Conceptual description of IE test.
+</figureCaption>
+<page confidence="0.956405">
+128
+</page>
+<figureCaption confidence="0.940800666666667">
+A. Goel and A. Das
+Figure 5. Transducer configuration in UPV testing, showing (a) direct, (b) semi-direct and (c) indirect transmission
+of waves.
+</figureCaption>
+<equation confidence="0.8161465">
+Poisson’s ratio using equations (2) and (3).
+Vp
+¼
+Vs
+rﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+2ð1 2 nÞ
+ð1 2 2nÞ
+E ¼ 2rV 2s ð1 þ nÞ
+ð2Þ
+ð3Þ
+</equation>
+<bodyText confidence="0.973529153846154">
+where, Vp is the P-wave velocity, Vs is shear or S-wave velocity, n is Poisson’s ratio, E is
+stiffness modulus and r is the mass density of the material medium. Test set-up consists
+of a wave-pulse transmitter (Tx) and a transducer receiver (Rx) at a known distance apart
+(figure 5). Transit time for the wave-pulse is recorded by the data acquisition unit which then
+gives the stress wave velocity (ASTM C597-02 2002). Ultrasonic waves are commonly
+employed in this test. Laboratory studies suggest (Pellinen and Witczak 2002, Jiang et al.
+2006, Kanta Rao et al. 2006) that the ultrasonic pulse velocity (UPV) method can estimate
+the dynamic modulus of asphalt with reasonable accuracy. For field testing on in-service
+pavements, indirect configuration of sensors needs to be used, as only top surface is
+accessible. P-wave velocity also varies with the homogeneity of the material medium and
+this property can be used to characterise it. In some recent studies, UPV has been used to
+monitor top – down cracking (Khazanovich et al. 2005), fatigue damage and crack healing in
+asphalt pavements (Abo-Qudais and Suleiman 2005).
+</bodyText>
+<subsubsectionHeader confidence="0.579794">
+4.1.3 Spectral analysis of surface waves method. The SASW method (Heisey et al. 1982,
+</subsubsectionHeader>
+<bodyText confidence="0.999441117647059">
+Nazarian et al. 1988, 1999) introduced a relatively simple and portable surface wave test
+technique for pavements. Its major feature is the use of spectral analysis technique for signal
+processing which makes it possible to analyze a range of frequencies with a convenient
+hammer-impact type surface wave source and two transducer receivers. The method operates
+at negligible strain level and provides estimates of the elastic moduli and thicknesses of
+layers.
+The basic assumption used in this method is that only the fundamental mode of Rayleigh
+wave (R-wave) propagation is excited and recorded. Higher modes of R-wave propagation
+are neglected. Physical quantity that is being determined, is the S-wave velocity (Vs) which is
+a characteristic engineering property of a material (Richart et al. 1970). Commonly used
+three-step evaluation procedure for this method is (i) generation of experimental dispersion
+curve (EDC), (ii) forward modeling of R-wave dispersion and (iii) inversion to generate
+vertical stiffness profile of the test section (Goel and Das 2006).
+EDC is a curve between Vs and the generated wavelengths for the test section. It is
+generated from data obtained through field testing which consists of a suitable impact source
+to generate surface waves of a desired frequency range that are sensed by two vertical, singleaxis transducer receivers at known offsets (figure 6). Time domain data sets may be obtained
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.999261">
+129
+</page>
+<figureCaption confidence="0.7605305">
+Figure 6. A typical SASW test set-up.
+from both forward and reverse configurations of the source-receiver system. Common
+</figureCaption>
+<bodyText confidence="0.983465">
+receiver midpoint or common source test geometries (Nazarian and Stokoe 1986, Hiltunen
+and Woods 1989) are generally used to collect a number of data sets and stacking technique
+is applied to increase the signal to noise ratio (SNR). To calculate the phase-difference
+between the signals from the two receivers, the data is transformed to frequency domain
+using fast Fourier transform algorithm. Phase-difference values at each frequency gives the
+corresponding R-wave phase velocities VR (Nazarian and Desai 1993). Bergman (1948)
+proposed a relation between VR and Vs as follows:
+</bodyText>
+<equation confidence="0.9791222">
+Vs
+1þn
+¼
+V R 0:87 þ 1:12n
+ð4Þ
+</equation>
+<bodyText confidence="0.997484">
+where; n is the poisson’s ratio of the material medium. This basic equation can be suitably
+used for Vs calculation (Sanchez-Salinero et al. 1987, Roesset et al. 1990, Nazarian et al.
+1999).
+Forward modeling consists of generating a theoretical dispersion curve (TDC) for chosen
+values of layer properties. A computationally adaptable formulation, known as Haskell –
+Thomson’s propagator-matrix method (Thomson 1950, Haskell 1953, Jones 1955) was
+established in early 1950’s, that related the R-wave dispersion property in a homogeneous
+multi-layered media (such as asphalt pavement) with its elastic properties. This formulation
+gives the surface wave dispersion function as a product of layer matrices that relates the
+displacement and stress components at any interface to those for the deepest layer and is a
+function of the frequency and wave-number. A determinant search technique computes the
+values of the wave-number for which the determinant is zero (called as eigen values). For
+asphalt pavement profiles, no real eigen values exist above a specific maximum frequency.
+This leads to complex-domain computation of eigen values.
+Propagator-matrix method became the basis for most of the theoretical forward modeling
+approaches of R-wave dispersion, such as: stiffness-matrix method, linearised stiffnessmatrix method, etc. (Kauseland and Rou¨sset 1981, Storme et al. 2005). Various tools
+utilising finite-difference (Hossian and Drnevich 1989), Green’s functions (Kausel and Peek
+1982, Hisada 1994), wavelet transforms (Kim and Park 2002), etc. have also been applied to
+solve for dispersion characteristics.
+In the inversion process, a suitable analysis tool is employed to compare EDC with the
+TDC. This gives the final vertical Vs profile of the test site which is then used to determine the
+stiffness profile for the test-site using equation (3). It should be noted here that the estimated
+asphalt modulus is sensitive to the test temperature and hence proper correction needs to be
+applied (Mallick et al. 2005, Gucunski et al. 2006).
+</bodyText>
+<page confidence="0.978201">
+130
+</page>
+<bodyText confidence="0.994762782608696">
+A. Goel and A. Das
+Besides the automated methods for EDC generation (Nazarian and Desai 1993), schemes
+employing manual masking of raw data are also used which demand experience in use.
+Analysis tools such as statistical/curve-fitting methods (Yuan and Nazarian 1993), simulation
+(Ganji et al. 1998), ANN (Williams and Gucunski 1995, Gucunski et al. 2000, Nazarian et al.
+2004), GA (Al-Hunaidi 1998) and more recently simulated annealing (Beaty et al. 2002,
+Ryden and Park 2006) have been used for automation of the inversion process. A different
+signal processing methodology employing continuous wavelet transform of surface waves
+has recently been used for void detection in pavements (Shokouhi et al. 2003). Construction
+or testing information for the test site may also be incorporated in the inversion process for
+more efficient profiling.
+A number of variants of the basic evaluation method, as described above, have been
+reported. Park et al. (1998) introduced the multi-channel analysis of surface waves (MASW)
+method which makes use of more than two receivers to detect the other higher modes present
+in the surface waves. This method attempts to generate a more accurate dispersion curve
+representation using pattern recognition techniques which also automate the procedure.
+Multichannel simulation using one receiver (MSOR) method for pavement characterisation
+(Ryden et al. 2001) is based on MASW technique, and utilises a single fixed receiver and
+moving source (or vice versa) to take a number of data sets, and then use them to simulate
+multichannel data. A convenient testing and fast analysis procedure gives more efficiency to
+this method. Ultrasonic surface waves have also been successfully employed to estimate the
+depth of surface cracks and elastic modulus of asphalt layer (Mallick et al. 2005, Mallick and
+Nazarian 2006).
+</bodyText>
+<subsectionHeader confidence="0.93347">
+4.2 Electromagnetic wave method
+</subsectionHeader>
+<bodyText confidence="0.980838357142857">
+In electromagnetic wave method, the reflections of the transmitted waves caused by any
+changes in the material and/or layer properties, are recorded and analyzed to deduce the
+required information. Infrared thermography (IRT) and ground penetrating radar (GPR) can
+be identified as two types of NDE techniques that find application on asphalt pavement, and
+are discussed in the following.
+4.2.1 Infrared thermography. IRT employs an infrared camera to capture the thermal
+image from top of the pavement. The subsurface defects affect the heat flow within the
+pavement, and this in turn affects the temperature distribution of the concerned area. The IRT
+can capture images of a larger area quickly. To some extent, this method can capture the
+location and extent of sub-surface distresses in the form of cracking, segregation, ageing and
+construction non-homogeneity, etc. (Gordon et al. 1998, Mahoney et al. 2000, Oloufa et al.
+2004). The test results can also get affected by various field conditions such as time of
+testing, cloud cover, wind flow, pavement surface texture, solar radiation and sub-surface
+conditions (moisture, frost penetration, etc.).
+</bodyText>
+<subsubsectionHeader confidence="0.892313">
+4.2.2 Ground penetrating radar. GPR consists of a radar device that transmits
+</subsubsectionHeader>
+<bodyText confidence="0.99198725">
+electromagnetic pulse. The subsurface anomalies, voids, location of dowel bar (applicable
+to concrete pavement), void below pavement, depth of bedrock, ground water level,
+pavement moisture content and frost penetration depth, type of subgrade soil strata, etc.
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.99156">
+131
+</page>
+<bodyText confidence="0.9873925">
+can be estimated by this method (Al-Qadi 1992, Saarenketo 1997, Scullion and Saarenketo
+1997, Morey 1998, Saarenketo and Scullion 2000, Al-Qadi and Lahouar 2005, Maser et al.
+2006). Researchers have found that the estimation of surface-layer thickness of asphalt
+pavement by this technique is good (Maser 1999, Saarenketo and Scullion 2000, Maser et al.
+2006). GPR facility also provides a continuous data record for the full length of the test
+section, thereby giving direct information of test section at each point.
+</bodyText>
+<figureCaption confidence="0.929618">
+Figure 7 schematically explains the working of a typical GPR system (Maser et al. 2006).
+</figureCaption>
+<bodyText confidence="0.469241">
+Depending on the type of antenna used, a GPR system can be of two types; air coupled (or
+</bodyText>
+<listItem confidence="0.958906571428571">
+horn-antenna) and ground coupled system. The two are further discussed in the following.
+. In air-coupled system, the antenna is typically placed 150– 500 mm above the pavement
+surface (Al-Qadi and Lahouar 2005). The test set-up is mounted on a vehicle which
+operates on test pavement at specified speed. Operating speed depends on antenna type
+used and required frequency of data recording. The survey can be conducted at a speed of
+even 60 km/hr and the typical depth of penetration in the pavement is of the order of 0.5 to
+0.9 m (Saarenketo and Scullion 2000). Accuracy of this method depends on the resolution
+</listItem>
+<bodyText confidence="0.7898458">
+of the time scan and the dielectric constant of the material (Maser et al. 2006). As the
+equipment moves on the pavement surface, sequence of wavefronts are generated, and
+from this, the layer-boundaries can be directly visualised from the pictorial output of the
+collected wavefront data (Maser et al. 2006).
+The relative reflection amplitude at the nth interface can be expressed as (Al-Qadi and
+</bodyText>
+<figure confidence="0.878889733333333">
+Lahouar 2005)
+#
+P n si d i
+pﬃﬃﬃﬃﬃﬃﬃ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ &quot;nY
+pﬃﬃﬃﬃ
+e r;n 2 e r;nþ1 21
+2ho
+An
+2
+i¼0 e r;i
+¼ pﬃﬃﬃﬃﬃﬃﬃ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ð1 2 gi Þ e
+Ainc
+e r;n þ e r;nþ1 i¼0
+ð5Þ
+</figure>
+<bodyText confidence="0.955310142857143">
+for n ¼ 1, 2, · · · N, where, N is the number of pavement layers, An is the reflection amplitude
+at the nth layer interface, Ainc is the amplitude of the incident GPR signal, e r;n and sn are the
+dielectric constant and conductivity of the nth layer, respectively, gi is the refection
+coefficient at the ith interface, ho is the wave impedance of free space. Ainc, can be estimated
+by collecting GPR data over a large and flat copper plate, placed on the test surface (Al-Qadi
+et al. 2001, Al-Qadi and Lahouar 2005). The reflection from plate’s surface is assumed to be
+equal and opposite to the incident GPR signal. The dielectric constant of the first layer can
+</bodyText>
+<figureCaption confidence="0.938981">
+Figure 7. Working of a typical GPR system.
+</figureCaption>
+<page confidence="0.984177">
+132
+</page>
+<bodyText confidence="0.7067955">
+A. Goel and A. Das
+be obtained from the equation (5) by putting n ¼ 0, thus,
+</bodyText>
+<equation confidence="0.422297">
+e r;1 ¼
+1 2 AAinco
+!2
+1 þ AAinco
+ð6Þ
+</equation>
+<bodyText confidence="0.9732345">
+Similarly, the expression for di-electric constant for the second layer (e r;2 ) can be obtained
+by putting n ¼ 2 in equation (5) and using the value of e r;1 obtained form equation (6) and so
+on. The depth of the ith layer of a pavement can be obtained as (ASTM D4748 2003, Al-Qadi
+and Lahouar 2005, Loizos and Plati 2007):
+</bodyText>
+<equation confidence="0.95321725">
+cti
+di ¼ pﬃﬃﬃﬃﬃﬃﬃ
+2 e r;i
+ð7Þ
+</equation>
+<bodyText confidence="0.9624318125">
+where, di is the thickness of the ith layer, ti is the two way travel time of the electromagnetic
+wave through the ith layer, c is the speed of light in free space (approximately equal to
+1 £ 108 m/s) and e r;i is the dielectric constant of the ith layer. Its important to note here that
+these simple equations assume the asphalt layer to be homogeneous and isotropic with
+uniform dielectric constant. However, this assumption may not be always true for old or
+faulty pavement layers, thereby decreasing the accuracy evaluation (Saarenketo and Scullion
+2000, Lahouar et al. 2002, Loizos and Plati 2007).
+. In ground coupled system, the antenna remains in full contact with the ground. Loss due
+to reflection at the pavement surface being less, the depth of penetration is more. But, this
+system has a limitation on the vehicle speed (Al-Qadi and Lahouar 2005).
+Generally, the common mid-point (CMP) technique for ground coupled system is
+employed to increase the SNR (signal to noise ratio) (Lahouar et al. 2002). In this technique,
+two antennas are used, one is transmitter and the other is receiver. Initially, the two antennas
+are kept adjacent to each other and then they are moved equal distances step-wise from the
+mid-point and the data on travel time (ti) is collected. The following relationship can be used
+(Maser et al. 2006)
+</bodyText>
+<equation confidence="0.9957545">
+ti ¼
+2
+V
+qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+ðxðiÞ2 þ d 2 Þ
+ð8Þ
+</equation>
+<bodyText confidence="0.998679428571429">
+where, i is the scan number, V is the velocity of wave in pavement layer, d is the thickness of
+the pavement layer, x(i) is the distance of any antenna from the CMP in ith scan and ti is the
+travel time of the pulse wave from transmitter to receiver. The resolution of this test largely
+depends on waveform sampling and the ability of distinction between the reflected wave
+from the direct wave (Maser et al. 2006).
+Maser et al. (2006) found that the ground coupled GPR system can reliably identify a
+pavement thickness which is larger than 100 mm, whereas air-coupled GPR can measure
+asphalt layer thickness of the order of 50 mm. It is argued that amplitude based
+characterisation through GPR may not be very appropriate for evaluation of pavements,
+because amplitude is also affected by various factors (for example, height of the antenna)
+other than the reflection from the interfaces (Gordon et al. 1998). To take care of this
+problem, Mesher et al. (1995) developed multi-antenna bi-static array GPR system specific
+to evaluation of pavement thickness.
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.997299">
+133
+</page>
+<bodyText confidence="0.990984346153846">
+The GPR technology is developing at a rapid pace, in both towards the equipment as well
+as analysis algorithm. Some of the improvements towards the equipment include stepped
+frequency, synthetic aperture radar, switched antenna array, etc. (Maser 1996, Gordon et al.
+1998, Loulizi et al. 2003); whereas those towards the analysis algorithm include application
+of wavelet analysis, deconvolution and data migration, ANN, fuzzy logic, optimisation, etc.
+(Maser 1994, Gordon et al. 1998, Loulizi et al. 2003, Al-Qadi and Lahouar 2005).
+Various researchers have found different levels of error in estimation of pavement
+thickness by GPR technology. Calibration of GPR using field core data is expected to
+enhance the accuracy achieved (Willett et al. 2006, Loizos and Plati 2007). In general, it is
+seen that the thickness estimation is more erroneous for thin layers (Gordon et al. 1998,
+Al-Qadi and Lahouar 2005, Loizos and Plati 2007). For newly built pavements, a greater
+accuracy has been reported (Al-Qadi et al. 2003, Maser et al. 2006). A listing of accuracy
+levels observed by different researches in estimating the thickness is presented in (table 2).
+Some of the present limitations of the GPR technique, as identified by various researchers,
+are summarised as follows:
+. Interpretation of GPR data requires experience and is subjective in nature (Loulizi 2001).
+. An inability to clearly differentiate between layers of similar materials is present due to a
+low contrast in their dielectric properties (Al-Qadi et al. 2001, Loulizi 2001, Al-Qadi and
+Lahouar 2005).
+. An increased attenuation of electromagnetic signal may be caused in the pavement layers
+due to presence of salt, water or high iron content in slag aggregates. As such, the analysis
+results may be misleading sometimes, specially for concrete pavements (Mesher et al.
+1995, Gordon et al. 1998, Al-Qadi et al. 2001, ASTM D4748 2003, Maser et al. 2006).
+. With high frequency antenna, resolution of recorded data gets enhanced, but the depth of
+penetration reduces (Gordon et al. 1998, Al-Qadi and Lahouar 2005, Loizos and Plati
+2007).
+</bodyText>
+<subsectionHeader confidence="0.999333">
+4.3 Closing remarks
+</subsectionHeader>
+<bodyText confidence="0.98898675">
+Various wave propagation techniques, as applied for evaluating asphalt pavements, have
+been discussed in the previous sections. (Table 3) summarises some of the salient
+characteristics of these techniques. The ultrasonic waves travel much slower (about 100,000
+times) than electromagnetic waves providing means to display information in real-time
+</bodyText>
+<tableCaption confidence="0.970479">
+Table 2. Accuracy in pavement thickness estimation using GPR.
+</tableCaption>
+<figure confidence="0.6903165">
+Layer (thickness)
+Order of error† (^%)
+References
+0.4–10.3
+</figure>
+<page confidence="0.690799">
+3.6–9.6
+</page>
+<table confidence="0.740893">
+Willett et al. (2006)
+Maser (1996), Fauchard et al. (2003),
+Loulizi et al. (2003), Loizos and Plati (2007)
+Maser (1996), Loizos and Plati (2007)
+Maser (1996), Lahouar et al. (2002)
+Maser (1996)
+Maser (1996)
+Asphalt (,50 mm)
+Asphalt (51–150 mm)
+Asphalt (150–250 mm)
+Asphalt (250–380 mm)
+Asphalt (380–500 mm)
+Granular base (150– 330 mm)
+† As compared to average core-thickness values.
+</table>
+<page confidence="0.227472">
+5.9–9.6
+</page>
+<figure confidence="0.904737333333333">
+6.8–7.5
+7.5
+12
+</figure>
+<page confidence="0.985224">
+134
+</page>
+<tableCaption confidence="0.975766">
+Table 3. Operating characteristics of different wave propagation techniques for pavement evaluation.
+</tableCaption>
+<figure confidence="0.993221928571428">
+Depth reachable
+IE
+SASW
+UPV
+GPR ground-coupled
+GPR air-coupled
+IRT
+Up to 0.2 m
+Up to 2 m
+–
+Up to 3 m
+0.5– 0.9 m
+&lt;0.5 m
+Wave type
+Frequency range
+References
+Stress
+Stress
+Stress
+Electromagnetic
+Electromagnetic
+Electromagnetic
+1–80 KHz
+50 Hz –50 KHz
+50–100 KHz
+400 MHz–1.5 GHz
+250 MHz–3.0 GHz
+&lt;104 GHz
+</figure>
+<bodyText confidence="0.89488">
+Nazarian et al. (1993), ASTMC 1383 (2000)
+Nazarian et al. (1988, 1993)
+Nazarian et al. (1993), ASTM C597-02 (2002), Jiang et al. (2006)
+Saarenketo and Scullion (2000), Hugenschmidt (2002)
+Saarenketo and Scullion (2000), Loizos and Plati (2007)
+Oloufa et al. (2004)
+A. Goel and A. Das
+NDE technique
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.995825">
+135
+</page>
+<bodyText confidence="0.9987745">
+(David et al. 2002, Shull 2002). However, due to their high frequency and low energy
+response, they have been primarily used for evaluation of top asphaltic layer. User
+experience is required to choose a suitable NDT technique specific to the test objective and
+field conditions. For example, specialised techniques such as IRT can be successfully
+employed for evaluation of airport pavements (Moropoulou et al. 2001) as they make use of
+large temperature variations occurring there in.
+</bodyText>
+<sectionHeader confidence="0.98333" genericHeader="acknowledgments">
+5. Closure
+</sectionHeader>
+<bodyText confidence="0.985339">
+It is argued that the stress wave related equipment (say, IE) work well for concrete
+pavements, because the signal impedance contrast between concrete and the base material is
+sharper as compared to asphalt pavements (Maser 2003, Maser et al. 2006). On the other
+hand, for GPR methods, the dielectric contrast between asphalt and the base material is
+sharper than between concrete and the base material (Maser et al. 2006). Since GPR testing is
+continuous, future automated versions of GPR technology has a strong potential of being
+developed as a routine pavement evaluation equipment (Saarenketo and Scullion 2000).
+The accuracy achieved by employing individual NDE techniques can be improved by
+combining data from two or more methods in the final analysis (Abdallah et al. 2001).
+Similarly, FWD (or RDD) and GPR have been found as a good combination of technologies
+for measuring asphalt layer thickness as well as stiffness (Saarenketo and Scullion 2000,
+Hanna 2002, Lee et al. 2006). IRT can also be used to decide GPR survey locations thereby
+enhancing its effectiveness in evaluation (Weil 1993). The SASW and FWD methods are
+generally more suitable for evaluation of top and bottom layers respectively. This is due to a
+difference in the basic evaluation method and the loading which generates different
+magnitude wavelengths that give information on different depths of the pavement. So, if data
+from these two methods are combined, a more accurate and complete pavement profile may
+be obtained. Equipment such as seismic pavement analyzer, effectively employ this principle
+(Abdallah et al. 2006).
+The present paper has discussed about various methods available for NDE of an asphalt
+pavement structure. A gradual shift can be noticed towards the usage of automatic equipment
+and adoption of quick evaluation techniques as compared to the conventional ones.
+A carefully chosen combination of different NDE methods can readily enhance the accuracy
+and reliability in the evaluation of pavements.
+</bodyText>
+<figure confidence="0.722776470588235">
+6. List of symbols
+t ¼
+f ¼
+b¼
+E¼
+n¼
+Vp ¼
+Vs ¼
+r¼
+thickness of the layer
+frequency
+correction factor
+Elastic modulus
+Poisson’s ratio
+Velocity of P-wave
+Velocity of S-wave
+Density
+</figure>
+<page confidence="0.999414">
+136
+</page>
+<bodyText confidence="0.986116117647059">
+A. Goel and A. Das
+N ¼ number of pavement layers
+An ¼ reflection amplitude at the nth layer interface
+Ainc ¼ amplitude of the incident GPR signal
+e r,n ¼ dielectric constant of the nth layer
+sn ¼ electrical conductivity of the nth layer
+gi ¼ refection coefficient at the ith interface
+ho ¼ wave impedance of free space
+di ¼ thickness of the ith layer
+ti ¼ two way travel time of the electromagnetic way through the ith layer
+c ¼ speed of light in free space (approximately equal to 3 £ 108 m/s)
+e r,i ¼ dielectric constant of the ith layer
+i ¼ scan number
+V ¼ velocity of wave in pavement layer
+d ¼ thickness of the pavement layer
+x(i) ¼ distance of any antenna from the CMP in ith scan
+ti ¼ travel time of the pulse wave from the transmitter to receiver
+</bodyText>
+<sectionHeader confidence="0.726303" genericHeader="references">
+References
+</sectionHeader>
+<table confidence="0.858362222222222">
+ASTM C597-02, Standard Test Method for Pulse Velocity Through Concrete, 2002 (ASTM: West Conshohocken).
+ASTM C1383, Standard Test Method for Measuring the P-Wave Speed and Thickness of Concrete Plates Using the
+Impact-Echo Method, 2000 (ASTM: West Conshohocken).
+ASTM D4602, Nondestructive Testing of Pavements Using Cyclic-Loading Dynamic Equipment, 2003 (ASTM:
+West Conshohocken).
+ASTM D4694, Standard Test Method for Deflections With a Falling Weight Type Impulseload Device, 2003 (ASTM:
+West Conshohocken).
+ASTM D4748, Standard Test Method for Determining the Thickness of Bound Pavement Layers Using ShortPulseradar, 2003 (ASTM: West Conshohocken).
+ASTM D4695, Standard Guide for Pavement Deflection Measurements, 2003 (ASTM: West Conshohocken).
+</table>
+<reference confidence="0.953531315789474">
+Abdallah, I., Yuan, D. and Nazarian, S., Integrating seismic and deflection methods to estimate pavement moduli.
+Transp. Res. Rec., 2001, 1755, 43–50.
+Abdallah, I., Nazarian, S. and Yuan, D., Design moduli for flexible pavements using seismic tests. 2006 Highway
+Geophysics—NDE Conference, St. Louis, Missouri 2006, pp. 219–232.
+Abo-Qudais, S. and Suleiman, A., Monitoring fatigue damage and crack healing by ultrasound wave velocity.
+Nondestr. Test. Eval., 2005, 20, 125–145.
+Advisory Circular, No.150/5370-11A, Use of nondestructive testing in the evaluation of airport pavements, http://
+www.airweb.faa.gov/ 2004.
+Al-Hunaidi, M.O., Evolution-based genetic algorithms for analysis of non-destructive surface wave tests on
+pavements. NDT&amp;E Int., 1998, 31, 273–280.
+Al-Qadi, I., Using microwave measurements to detect moisture in hot-mix asphalt. J. Test. Eval., 1992, 20, 45 –50.
+Al-Qadi, I. and Lahouar, S., Measuring layer thicknesses with GPR-theory to practice. Constr. Build. Mater., 2005,
+19, 763–772.
+Al-Qadi, I., Lahouar, S. and Loulizi, A., In situ measurements of hot-mix asphalt dielectric properties. NDT&amp;E Int.,
+2001, 34, 427– 434.
+Al-Qadi, I.L., Lahouar, S. and Loulizi, A., Successful application of ground-penetrating radar for quality assurancequality control of new pavements. Transp. Res. Rec., 2003, 1861, 86–97.
+Ali, N.A. and Khosla, N.P., Determination of layer moduli using a falling weight deflectometer. Transp. Res. Rec.,
+1987, 1117, 1– 10.
+Alshibli, K.A., Abu-Farsakh, M. and Seyman, E., Laboratory evaluation of the geogauge and light falling weight
+</reference>
+<bodyText confidence="0.869558125">
+deflectometer as construction control tools. J. Mater. Civ. Eng., ASCE, 2005, 17, 560 –569.
+Anderson, M., A data-base method for backcalculation of composite pavement layer moduli. In STP 1026,
+Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by A. III Bush and G.Y. Baladi,
+pp. 201–216, 1989 (ASTM: Philadelphia).
+Bay, J.A. and Stokoe, II, K.H., Development of a Rolling Dynamic Deflectometer for Continuous Deflection Testing
+of Pavements, Center for Transportation Research, Bureau of Engineering Research, 1998 (The University of
+Texas: Austin, TX).
+Nondestructive testing of asphalt pavements
+</bodyText>
+<page confidence="0.997383">
+137
+</page>
+<reference confidence="0.973849878787879">
+Bay, J.A., Stokoe, II, K.H., McNerney, M.T., Soralump, S., Van-Vleet, D. and Rozycki, D.K., Evaluating runway
+pavements at Seattle–Tacoma international airport: continuous deflection profiles measured with rolling
+dynamic deflectometer. Transp. Res. Rec., 2000, 1716, 1–9.
+Beaty, K.S., Schmidtt, D.R. and Sacchi, M., Simulated annealing inversion of multimode Rayleigh wave dispersion
+curves for geological structure. Geophys. J. Int., 2002, 151, 622–631.
+Bergman, L., Ultrasonics and Their Scientific and Technical Applications, 1948 (Wiley: New York).
+Brown, S.F., Achievements and challenges in asphalt pavement engineering. in ISAP-8th Intl. Conf. on Asphalt
+Pavements, Seattle, 1997.
+Bush, III, A.J. and Alexander, D.R., Pavement evaluation using deflection basin movement and layered theory.
+Transp. Res. Rec., 1985, 1022, 16–29.
+Celaya, M. and Nazarian, S., Stripping detection in asphalt pavements with seismic methods, in TRB 86th Annual
+Meeting Compendium of Papers CD-ROM, Transportation Research Record, 2007, 07-3018
+Chakroborty, P. and Das, A., Principles of Transportation Engineering, 2003 (Prentice-Hall of India: New Delhi).
+Chang, D.W., Kang, Y.V., Roesset, J.M. and Stokoe, II, K.H., Effect of depth to bedrock on deflection basins obtained
+with dynaflect and FWD tests. Transp. Res. Rec., 1992, 1355, 8 –16.
+Chen, D.H., Bilyeu, J., Lin, H.H. and Murphy, M., Temperature correction on falling weight deflectometer
+measurements. Transp. Res. Rec., 2000, 1716, 30 –39.
+Cho, Y.S. and Linb, F., Nondestructive evaluation of in-place cement mortar compressive strength using spectral
+analysis of surface waves. Constr. Build. Mater., 2005, 19, 738–745.
+Chou, Y.J. and Lytton, R.L., Accuracy and consistency of backcalculated pavement layer moduli. Transp. Res. Rec.,
+1991, 1293, 72 –85.
+David, J., Cheeke, N. and Cheeke, D., Fundamentals and Applications of Ultrasonic Waves, 2002 ed., 2002 (CRC
+Press: Florida).
+Fauchard, C., De´robert, X., Cariou, J. and Cote, P., GPR performances for thickness calibration on road test sites.
+NDT&amp;E Int., 2003, 36, 67–75.
+Fwa, T.F., The Handbook of Highway Engineering, 2006 (CRC-Taylor and Francis: Boca Raton).
+Fwa, T.F., Tan, C.Y. and Chan, W.T., Backcalculation analysis of pavement layer-moduli using genetic algorithm.
+Transp. Res. Rec., 1997, 1570, 134–142.
+Ganji, V., Gucunski, N. and Nazarian, S., Automated inversion procedure for spectral analysis of surface waves.
+J. Geotech. Geoenviron. Eng., 1998, 124, 757– 770.
+Gibson, A. and Popovics, J.S., Lamb wave basis for impact-echo method analysis. ASCE, 2005, 131, 438–443.
+Goel, A. and Das, A., A brief review on different surface wave methods for non-destructive evaluation of pavements
+and their applicability. in 2006 Highway Geophysics—NDE Conference, St. Louis, Missouri, 2006,
+pp. 337–350.
+Goktepe, A.B., Agar, E. and Lav, A.H., Advances in back calculating the mechanical properties of flexible
+pavements. Adv. Eng. Softw., 2006, 37, 421–431.
+Gordon, M.O., Broughton, K. and Hardy, M., The assessment of the value of GPR imaging of flexible pavements.
+NDT&amp;E Int., 1998, 31, 428– 438.
+Gucunski, N. and Maher, A., Evaluation of seismic pavement analyzer for pavement condition monitoring, Tech Rep
+FHWA-NJ-2002-012, FHWA, 2002.
+Gucunski, N., Abdallah, I.N. and Nazarian, S., ANN backcalculation of pavement profiles from the SASW test.
+Pavement Subgrade Unbound Materials and Nondestructive Testing, vol. 98, pp. 31 –50, 2000 (ASCE:
+New York).
+Gucunski, N., Hadidi, R., Zaghloul, S., Maher, A. and Shokouhi, P., Sea-sonal and temperature adjustment models
+using seismic pavement analyzer (SPA). In Pavement Mechanics and Performance (GSP154) Geo Shanghai
+2006, Proceedings of Sessions of Geo Shanghai 2006, edited by B. Huang, R. Meier, J. Prozzi and E. Tutumluer,
+2006 (Shanghai, China).
+Haas, R., Hudson, W.R. and Zaniewski, J., Modern Pavement Management, 1994 (Krieger Publishing Company:
+Florida).
+Hall, K.T. and Mohseni, A., Backcalculation of asphalt concrete overlaid Portland cement concrete pavement layer
+moduli. Transp. Res. Rec., 1991, 1293, 112–123.
+Hammons, M.I., Von Quintus, H., Geary, G.M., Wu, P.Y. and Jared, D.M., Detection of stripping in hot-mix asphalt.
+Transp. Res. Rec., 2006, 1949, 20–31.
+Hanna, A.N., Determination of In Situ Material Properties of Asphalt Concrete Pavement Layers from Nondestructive Tests, NCHRP Research Results Digest 271 Transportation Research Board, N.W., Washington,
+DC, 2002.
+Harichandran, R.S., Mahmood, T., Raab, A.R. and Baladi, G.Y., Modified Newton algorithm for backcalculation of
+pavement layer properties. Transp. Res. Rec., 1993, 1384, 15–22.
+Haskell, N.A., The dispersion of surface waves on multilayered media. Bull. Seism. Soc. Am., 1953, 43, 14 –34.
+Heisey, J.S., Stokoe, II, K.H. and Meyer, A.H., Moduli of pavement systems from spectral analysis of surface waves.
+Transp. Res. Rec., 1982, 852, 22–31.
+Hill, M., McHugh, J. and Turner, J.D., Cross-sectional modes in impact-echo testing of concrete structures. J. Struct.
+Eng., 2000, 126, 228 –234.
+Hiltunen, D.R. and Woods, R.D., Influence of Source and Receiver Geometry on the Testing of Pavements by Surface
+Waves Method, 1989 (ASTM: Philadelphia).
+Hisada, Y., An efficient method for computing Green’s functions for a layered half-space with sources and receivers
+at close depths. Bull. Seism. Soc. Am., 1994, 84, 1456–1472.
+</reference>
+<page confidence="0.980663">
+138
+</page>
+<reference confidence="0.996396597014925">
+A. Goel and A. Das
+Hossian, M.M. and Drnevich, V.P., Numerical and optimization techniques applied to surface waves for
+backcalculation of layer moduli. STP 1026, Nondestructive Testing of Pavements and Backcalculation of
+Moduli, pp. 649–669, 1989 (ASTM: Philadelphia).
+Hugenschmidt, J., Concrete bridge inspection with a mobile GPR system. Constr. Build. Mater., 2002, 16, 147 –154.
+Jiang, Z.-Y., Ponniah, J. and Cascante, G., Improved ultrasonic pulse velocity technique for bituminous material
+characterization. in Annual Conference of the Transportation Association of Canada Charlottetown, 2006.
+Jones, R., A vibration method for measuring the thickness of concrete road slabs in situ. Mag. Concr. Res., 1955,
+7, 97 –102.
+Kameyana, S., Himeno, K., Kashana, A. and Maruyana, T., Backcalculation of pavement layer moduli using genetic
+algorithm. in 8th Int Conf of Asphalt Pavements, Seattle 1997, pp. 1375–1385.
+Kanta Rao, V.V.L., Rao, M.V.B., Kumar, S. and Pokhriyal, S.P., Structural evaluation of cement concrete roads in
+Mumbai city. J. Perform. Constr. Facil., 2006, 20, 156–166.
+Kausel, E. and Peek, R., Dynamic loads in the interior of a layered stratum: an explicit solution. Bull. Seism. Soc.
+Am., 1982, 72, 1459–1508.
+Kausel, E. and Rou¨sset, J.M., Stiffness matrices for layered soils. Bull. Seism. Soc. Am., 1981, 71, 1743–1761.
+Kim, D. and Park, H., Determination of dispersive phase velocities for SASW method using harmonic wavelet
+transform. Soil Dyn. Earthquake Eng., 2002, 22, 675 –684.
+Kim, D.S., Seo, W.S. and Lee, K., IE-SASW method for nondestructive evaluation of concrete structure. NDT&amp;E
+Int., 2006, 39, 143–154.
+Krishnan, J.M. and Rajagopal, K.R., Review of the uses and modeling of bitumen from ancient to modern times.
+Appl. Mech. Rev. Am. Soc. Mech. Eng., 2003, 56, 149–214.
+Lahouar, S., Al-Qadi, I.L., Loulizi, A., Clark, T.M. and Lee, D.T., Approach to determining in situ dielectric constant
+of pavements. Transp. Res. Rec., 2002, 1806, 81–87.
+Lee, J.L., Turner, D.J., Stokoe, II, K.H., Bay, J.A. and Rasmussen, R.O., Continuous structural evaluation of airport
+pavements with the rolling dynamic deflectometer. In Proceedings of Airfield Pavements, Challenges and New
+Technologies, edited by M. Karakouzian, pp. 348–365, 2006 (ASCE: New York).
+Lekarp, F., Isacsson, U. and Dawson, A., State of the art. 1: resilient response of unbound aggregates. J. Transp. Eng.,
+2000, 126, 66– 75.
+Lenngren, C.A., Relating deflection data to pavement strain. Transp. Res. Rec., 1991, 1293, 103 –111.
+Khazanovich, Lev, Velaquez, Raul and Nesvijski, Edward G., Evaluation of top–down cracks in asphalt pavements
+by using a self-calibrating ultrasonic technique. Transp. Res. Rec., 2005, 1940, 6368.
+Loizos, A. and Boukovalas, G., Pavement soil characterization using a dynamic stiffness model. Int. J. Pavement
+Eng., 2005, 6, 5–15.
+Loizos, A. and Plati, C., Accuracy of pavement thickness estimation using different ground penetrating radar analys is
+approach. NDT&amp;E Int., 2007, 40, 147–157.
+Loizos, A., Boukovalas, G. and Karlaftis, A., Dynamic stiffness modulus for pavement sugrade evaluation. J. Transp.
+Eng., 2003, 129, 434 –443.
+Loulizi, A., Development of ground penetrating radar signal modeling and implementation for transportation
+infrastructure assessment, Tech. rep., Virginia Polytechnic Institute and State University, 2001.
+Loulizi, A., Al-Qadi, I.L. and Lahouar, S., Optimizing of ground penetrating radar data to predict layer thickness
+inflexible pavements. J. Transp. Eng., 2003, 129, 93–99.
+Lytton, R.L., Backcalculation of pavement layer properties. STP 1026, Nondestructive Testing of Pavements and
+Backcalculation of Moduli, pp. 7–38, 1989 (ASTM: Philadelphia).
+Mahoney, J.P., Winters, B.C., Jackson, N.C. and Pierce, L., Some observations about backcalculation and use of a
+stiff layer condition. Transp. Res. Rec., 1993, 1384, 8–14.
+Mahoney, J.P., Muench, S., Pierce, L., Read, S.A., Uhlmeyer, J.S., Jakob, H. and Moore, R., Identification and
+assessment of construction-related asphalt concrete pavement temperature differentials. Transp. Res. Rec.,
+2000, 1712, 93 –100.
+Mallick, B.R. and Nazarian, S., In-place determination of stiffness of subsurface reclaimed layers in thin surface hotmix asphalt pavements fast non destructive test and analysis method. Transp. Res. Rec., 2006, 1949, 1–19.
+Mallick, B.R., Das, A. and Nazarian, S., Fast non destructive field test method to determine stiffness of subsurface
+layer in thin surface hot mix asphalt pavement. Transp. Res. Rec., 2005, 1905, 82 –89.
+Maser, K., Ground penetrating radar surveys to characterize pavement layer thickness variations at GPS sites, SHRPP-397, Tech. rep, Strategic Highway Research Program, National Research Council, 2101 Constitution Avenue,
+NW, Washington, DC 20418 USA, 1994.
+Maser, K.R., Condition assessment of transportation infrastructure using ground-penetrating radar. J. Infrastruct.
+Syst., 1996, 2, 94–101.
+Maser, K.R., Pavement characterization using ground penetrating radar: state of the art and current practice. in STP
+1375, Nondestructive Testing of Pavements and Backcalculation of Moduli, ASTM, West Conshohocken, 1999,
+pp. 313–326.
+Maser, K.R., Non-destructive measurement of pavement layer thickness, Final report, California Department of
+Transportation, 2003.
+Maser, K.R., Holland, T.J., Roberts, R. and Popovics, J., NDE methods for quality assurance of new pavement
+thickness. Int. J. Pavement Eng., 2006, 7, 1–10.
+May, R.W. and Von Quintus, H.L., The quest for a standard guide to NDT backcalculation. In STP 1198,
+Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by H. Von Quintus, A.J. III. Bush
+and G.Y. Baladi, vol. 2, pp. 505–520, 1994 (ASTM: Philadelphia).
+Nondestructive testing of asphalt pavements
+</reference>
+<page confidence="0.977839">
+139
+</page>
+<reference confidence="0.999664924242424">
+Meier, R.G. and Rix, G.J., Backcalculation of flexible pavement moduli using artificial neural networks. Transp. Res.
+Rec., 1994a, 1448, 75–82.
+Meier, R.G. and Rix, G.J., Backcalculation of flexible pavement moduli from dynamic deflection basins using
+artificial neural networks. Transp. Res. Rec., 1994b, 1473, 72 –81.
+Mesher, D.E., Dawley, C.B., Davis, J.L. and Rossiter, J.R., Evaluation of new ground penetrating radar technology to
+quantify pavement structure. Transp. Res. Rec., 1995, 1505, 17–26.
+Morey, R., Ground penetrating radar for evaluating subsurface conditions for transportation facilities. Synthesis of
+Highway Practice 255, 1998 (NCHRP, National Academy Press: Washington, DC).
+Moropoulou, A., Avdelidis, N.P., Koui, M. and Kakaras, K., An application of thermography for detection of
+delaminations in airport pavements. NDT&amp;E Int., 2001, 34, 329 –335.
+NCHRP Design Guide 1-37A, Guide for mechanistic-empirical design of new and rehabilitated pavement structures,
+National cooperative highway research program. Transportation Research Board, National Research Council,
+March 2004 (available online http://www.trb.org.mepdg.guide.htm), 2006.
+Nazarian, S. and Alvarado, G., Impact of temperature gradient on modulus of asphaltic concrete layers. J. Mater. Civ.
+Eng., 2006, 18, 492 –499.
+Nazarian, S. and Desai, M.R., Automated surface wave method: field testing. J. Geotech. Eng., 1993, 119,
+1094–1111.
+Nazarian, S. and Stokoe, II, K.H., Use of surface waves in pavement evaluation. Transp. Res. Rec., 1986, 1070,
+132– 144.
+Nazarian, S., Stokoe, II, K.H. and Briggs, R., Determination of pavement layer thickness and moduli by SASW
+method. Transp. Res. Rec., 1988, 1196, 133–150.
+Nazarian, S., Baker, M.R. and Crain, K., Development and testing of a seismic pavement analyzer, SHRP-H-375,
+Tech. rep., Strategic High-way Research Program, National research Council, Washington, DC, 1993.
+Nazarian, S., Yuan, D. and Tandon, V., Structural field testing of flexible layers with seismic methods for quality
+control. Transp. Res. Rec., 1999, 1654, 1–27.
+Nazarian, S., Yuan, D. and Medichetti, A., Optimizing opening of Portland cement concrete pavements using
+integrated maturity and nondestructive tests. Transp. Res. Rec., 2003, 1861, 3–9.
+Nazarian, S., Abdallah, I.N. and Yuan, D., Neural networks for rapid reduction interpretation of spectral analysis of
+surface waves results. Transp. Res. Rec., 2004, 1868, 150 –155.
+Oloufa, A.A., Mahgoub, H.S. and Ali, H., Infrared thermography for asphalt crack imaging and automated detection.
+Transp. Res. Rec., 2004, 1889, 126–133.
+Park, C.B., Miller, R.D. and Xia, J., Imaging dispersion curves of surface waves on multi-channel records, expanded
+abstract. in Technical Program with Biographies, SEG, 68th Annual Meeting, Society of Exploration
+Geophysicists, New Orleans, 1998, pp. 1377–1380.
+Park, H.M., Kim, R. and Park, S., Temperature correction of multiload-level falling weight deflectometer deflections.
+Transp. Res. Rec., 2002, 1806, 3–8.
+Pellinen, T.K. and Witczak, M.W., Use of stiffess of hot-mix asphalt as a simple performance test. Transp. Res. Rec.,
+2002, 1789, 80 –90.
+Pittman, D., Load transfer characteristics of roller-compacted concrete pavement joints and cracks. Transp. Res.
+Rec., 1996, 1525, 1– 9.
+Rahiom, A. and George, K., Falling weight deflectometer for estimating subgrade elastic moduli. J. Transp. Eng.,
+2003, 129, 100 –107.
+Richart, Jr. F.E., Hall, Jr. J.R. and Woods, R.D., Vibrations of Soils and Foundations, 1970 (Prentice-Hall Inc.,
+Englewood Cliffs, New Jersey).
+Roesset, J.M., Nondestructive dynamic testing of soils and pavements. Tamkang J. Sci. Eng., 1998, 1, 61–81.
+Roesset, J.M. and Shao, K.Y., Dynamic interpretation of dynaflect and FWD tests. Transp. Res. Rec., 1985, 1022,
+7–16.
+Roesset, J., Chang, D. and Stokoe, II, K.H., Modulus and thickness of the pavement surface layer from SASW tests.
+Transp. Res. Rec., 1990, 1260, 53–63.
+Roesset, J.M., Kausel, E., Cuellar, V., Monte, J. and Valerio, J., Impact of weight falling on to the ground. J. Geotech.
+Eng., 1994, 120, 1394–1412.
+Roque, R., Ruth, B.E. and Sedwick, S.C., Limitations of backcalculation and improved methods for pavement layer
+moduli predictions. in 5th International Conference on the Bearing Capacity of Roads and Airfields,
+Trondheium, Norway vol. 1, pp. 409 –417, 1998.
+Roy, B.K., New look at DCP test with a link to AASHTO SN concept. J. Transp. Eng., 2007, 133, 264– 274.
+Ryden, N., Surface wave testing of pavements, PhD thesis, Lund Institute of Technology, 2004.
+Ryden, N. and Park, C.B., Fast simulated annealing inversion of surface waves on pavement using phase-velocity
+spectra. Geophysics, 2006, 71, R49–R58.
+Ryden, N., Ulriksen, P., Park, C.B., Miller, R.D., Xia, J. and Ivanov, J., High frequency MASW for non-destructive
+testing of pavements-accelerometer approach. in Symposium on the Application of Geohysics to Engineering
+and Environmental Problems (SAGEEP 2001), Environmental and Engineering Geophysical Society, Denver,
+2001, pp. RBA-1–RBA-5.
+Saarenketo, T., Using ground penetrating radar and dielectric probe measurements in pavement density quality
+control. Transp. Res. Rec., 1997, 1575, 34–41.
+Saarenketo, R. and Scullion, T., Road evaluation with ground penetrating radar. J. Appl. Geophys., 2000, 43,
+119– 138.
+</reference>
+<page confidence="0.905031">
+140
+</page>
+<reference confidence="0.99987085">
+A. Goel and A. Das
+Sack, D.A. and Olson, L.D., Advanced NDT methods for evaluating concrete bridges and other structures. NDT&amp;E
+Int., 1995, 28, 349–357.
+Sanchez-Salinero, I., Roesset, J., Shao, K., Stokoe, II, K.H. and Rix, G., Analytical evaluation of variables affecting
+surface wave testing of pavements. Transp. Res. Rec., 1987, 1136, 8695.
+Sansalone, M., Impact-echo: the complete story. ACI Struct. J., 1997, 94, 777–786.
+Scrivner, F.H., Michalak, C.H. and Moore, W.M., Calculation of the elastic moduli of a two-layer pavement system
+from measured surface deflection. Highway Res. Rec., 1973, 431, 12–22.
+Scullion, T. and Saarenketo, T., Using suction and dielectric measurements as performance indicators for aggregate
+base materials. Transp. Res. Rec., 1997, 1577, 37–44.
+Sebaaly, P.E., Tabatanee, N. and Scullion, T., Comparison of backcalculated moduli from falling weight
+deflectometer and truck loading. Transp. Res. Rec., 1991, 1377, 17– 25.
+Sharma, S. and Das, A., Backcalculation of pavement layer moduli from falling weight deflectometer data using
+artificial neural network. Canadian Journal of Civil Engineering, (to appear in 2008).
+Shokouhi, P., Gucunski, N. and Maher, A., Application of wavelets in detection of cavities under pavements by
+surface waves. Transp. Res. Rec., 2003, 1860, 57–65.
+P. Shull (Ed.) Nondestructive Evaluation: Theory, Techniques and Applications, 2002 (Marcel and Dekker Inc.,
+New York).
+Sivaneswaran, N., Kramer, S.L. and Mohoney, J.P., Advanced backcalculation using non-linear leasts quares
+optimization technique. Transp. Res. Rec., 1991, 1293, 93– 102.
+Storme, M., Fortier, R. and Konrad, J.-M., Forward modeling of steady-state surface wave test. J. Geotech.
+Geoenviron. Eng., 2005, 131, 662–665.
+Thomson, W., Transmission of elastic waves through a stratified solid medium. J. Appl. Phys., 1950, 21, 89–93.
+Turner, D.J., Lee, J., Stokoe, II, K.H., Boudreau, R., Watkins, Q.B. and Chang, G., Discrete and continuous deflection
+testing of runways at Hartsfield Atlanta international airport, Georgia. Transp. Res. Rec., 2003, 1860, 76 –89.
+Ullidtz, P., Pavement Analysis, 1987 (Elsevier: The Netherlands).
+Underwood, S. and Kim, Y.R., Determination of depth of surface cracks in asphalt pavements. Transp. Res. Rec.,
+2002, 1853, 143 –149.
+Uzan, J., Advanced backcalculation techniques. STP 1198, Nondestructive Testing of Pavements and
+Backcalculation of Moduli, vol. 2, pp. 3 –37, 1994 (ASTM: Philadelphia, PA).
+Weil, G.J., Non-destructive testing of bridge, highway and airport pavements. in Int Conf NDT of Concrete in the
+Infrastructure, Dearbon, MI, 1993.
+Willett, D.A., Mahboub, K.C. and Rister, B., Accuracy of ground-penetrating radar for pavement-layer thickness
+analysis. J. Transp. Eng., 2006, 132, 96–103.
+Williams, T.P. and Gucunski, N., Neural networks for backcalculation of moduli from SASW test. J. Comput. Civ.
+Eng., 1995, 9, 1–8.
+Yuan, D. and Nazarian, S., Automated surface wave method: inversion technique. J. Geotech. Eng., 1993, 119,
+1112–1126.
+Zube, E. and Forsyth, R., Flexible pavement maintenance requirements as determined by deflection measurement.
+Transp. Res. Rec., 1966, 129, 60–75.
+</reference>
+</variant>
+</algorithm>
+
+<algorithm name="ParsCit" version="110505">
+<citationList>
+<citation valid="true">
+<authors>
+<author>Res Rec</author>
+</authors>
+<date>2001</date>
+<pages>1755--43</pages>
+<marker>Rec, 2001</marker>
+<rawString>Transp. Res. Rec., 2001, 1755, 43–50.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Abdallah</author>
+<author>S Nazarian</author>
+<author>D Yuan</author>
+</authors>
+<title>Design moduli for flexible pavements using seismic tests.</title>
+<date>2006</date>
+<booktitle>Highway Geophysics—NDE Conference, St.</booktitle>
+<pages>219--232</pages>
+<location>Louis, Missouri</location>
+<marker>Abdallah, Nazarian, Yuan, 2006</marker>
+<rawString>Abdallah, I., Nazarian, S. and Yuan, D., Design moduli for flexible pavements using seismic tests. 2006 Highway Geophysics—NDE Conference, St. Louis, Missouri 2006, pp. 219–232.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Abo-Qudais</author>
+<author>A Suleiman</author>
+</authors>
+<title>Monitoring fatigue damage and crack healing by ultrasound wave velocity.</title>
+<date>2005</date>
+<journal>Nondestr. Test. Eval.,</journal>
+<volume>20</volume>
+<pages>125--145</pages>
+<marker>Abo-Qudais, Suleiman, 2005</marker>
+<rawString>Abo-Qudais, S. and Suleiman, A., Monitoring fatigue damage and crack healing by ultrasound wave velocity. Nondestr. Test. Eval., 2005, 20, 125–145.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Advisory Circular</author>
+</authors>
+<title>No.150/5370-11A, Use of nondestructive testing in the evaluation of airport pavements, http:// www.airweb.faa.gov/</title>
+<date>2004</date>
+<marker>Circular, 2004</marker>
+<rawString>Advisory Circular, No.150/5370-11A, Use of nondestructive testing in the evaluation of airport pavements, http:// www.airweb.faa.gov/ 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M O Al-Hunaidi</author>
+</authors>
+<title>Evolution-based genetic algorithms for analysis of non-destructive surface wave tests on pavements.</title>
+<date>1998</date>
+<journal>NDT&amp;E Int.,</journal>
+<volume>31</volume>
+<pages>273--280</pages>
+<marker>Al-Hunaidi, 1998</marker>
+<rawString>Al-Hunaidi, M.O., Evolution-based genetic algorithms for analysis of non-destructive surface wave tests on pavements. NDT&amp;E Int., 1998, 31, 273–280.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Al-Qadi</author>
+</authors>
+<title>Using microwave measurements to detect moisture in hot-mix asphalt.</title>
+<date>1992</date>
+<journal>J. Test. Eval.,</journal>
+<pages>20--45</pages>
+<marker>Al-Qadi, 1992</marker>
+<rawString>Al-Qadi, I., Using microwave measurements to detect moisture in hot-mix asphalt. J. Test. Eval., 1992, 20, 45 –50.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Al-Qadi</author>
+<author>S Lahouar</author>
+</authors>
+<title>Measuring layer thicknesses with GPR-theory to practice.</title>
+<date>2005</date>
+<journal>Constr. Build. Mater.,</journal>
+<volume>19</volume>
+<pages>763--772</pages>
+<marker>Al-Qadi, Lahouar, 2005</marker>
+<rawString>Al-Qadi, I. and Lahouar, S., Measuring layer thicknesses with GPR-theory to practice. Constr. Build. Mater., 2005, 19, 763–772.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Al-Qadi</author>
+<author>S Lahouar</author>
+<author>A Loulizi</author>
+</authors>
+<title>In situ measurements of hot-mix asphalt dielectric properties.</title>
+<date>2001</date>
+<journal>NDT&amp;E Int.,</journal>
+<pages>34--427</pages>
+<marker>Al-Qadi, Lahouar, Loulizi, 2001</marker>
+<rawString>Al-Qadi, I., Lahouar, S. and Loulizi, A., In situ measurements of hot-mix asphalt dielectric properties. NDT&amp;E Int., 2001, 34, 427– 434.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I L Al-Qadi</author>
+<author>S Lahouar</author>
+<author>A Loulizi</author>
+</authors>
+<title>Successful application of ground-penetrating radar for quality assurancequality control of new pavements.</title>
+<date>2003</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1861</volume>
+<pages>86--97</pages>
+<marker>Al-Qadi, Lahouar, Loulizi, 2003</marker>
+<rawString>Al-Qadi, I.L., Lahouar, S. and Loulizi, A., Successful application of ground-penetrating radar for quality assurancequality control of new pavements. Transp. Res. Rec., 2003, 1861, 86–97.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N A Ali</author>
+<author>N P Khosla</author>
+</authors>
+<title>Determination of layer moduli using a falling weight deflectometer.</title>
+<date>1987</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1117</volume>
+<pages>10</pages>
+<contexts>
+<context position="13470" citStr="Ali and Khosla 1987" startWordPosition="2076" endWordPosition="2079">the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventional optimisation techniques take a long time to backcalculate the layer modul</context>
+</contexts>
+<marker>Ali, Khosla, 1987</marker>
+<rawString>Ali, N.A. and Khosla, N.P., Determination of layer moduli using a falling weight deflectometer. Transp. Res. Rec., 1987, 1117, 1– 10.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K A Alshibli</author>
+<author>M Abu-Farsakh</author>
+<author>E Seyman</author>
+</authors>
+<title>Laboratory evaluation of the geogauge and light falling weight</title>
+<date>2000</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1716--1</pages>
+<marker>Alshibli, Abu-Farsakh, Seyman, 2000</marker>
+<rawString>Alshibli, K.A., Abu-Farsakh, M. and Seyman, E., Laboratory evaluation of the geogauge and light falling weight Bay, J.A., Stokoe, II, K.H., McNerney, M.T., Soralump, S., Van-Vleet, D. and Rozycki, D.K., Evaluating runway pavements at Seattle–Tacoma international airport: continuous deflection profiles measured with rolling dynamic deflectometer. Transp. Res. Rec., 2000, 1716, 1–9.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K S Beaty</author>
+<author>D R Schmidtt</author>
+<author>M Sacchi</author>
+</authors>
+<title>Simulated annealing inversion of multimode Rayleigh wave dispersion curves for geological structure.</title>
+<date>2002</date>
+<journal>Geophys. J. Int.,</journal>
+<pages>151--622</pages>
+<marker>Beaty, Schmidtt, Sacchi, 2002</marker>
+<rawString>Beaty, K.S., Schmidtt, D.R. and Sacchi, M., Simulated annealing inversion of multimode Rayleigh wave dispersion curves for geological structure. Geophys. J. Int., 2002, 151, 622–631.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>L Bergman</author>
+</authors>
+<title>Ultrasonics and Their Scientific and Technical Applications,</title>
+<date>1948</date>
+<location>(Wiley: New York).</location>
+<marker>Bergman, 1948</marker>
+<rawString>Bergman, L., Ultrasonics and Their Scientific and Technical Applications, 1948 (Wiley: New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S F Brown</author>
+</authors>
+<title>Achievements and challenges in asphalt pavement engineering.</title>
+<date>1997</date>
+<booktitle>in ISAP-8th Intl. Conf. on Asphalt Pavements,</booktitle>
+<location>Seattle,</location>
+<contexts>
+<context position="4754" citStr="Brown 1997" startWordPosition="695" endWordPosition="696">l to study its physical response (say, deflection) due to some stimulus (say, force), when the properties of the pavement layers (say, layer elastic moduli) are assumed. A simple approach to forward modeling of pavement structure is to idealise it as a horizontally layered, linearly elastic, isotropic and homogenous media. More complex forward analysis schemes can be developed by dropping these idealisations, thereby achieving closer approximation to the actual response. In fact, the seismic/ loading response of pavement structure is quite complex, and its modeling is itself a difficult task (Brown 1997). Asphalt layer is strongly sensitive to nature of loading (magnitude, frequency and duration) as well as temperature (Krishnan and Rajagopal 2003); whereas the elastic modulus of granular layer and subgrade is sensitive to stress conditions (Lekarp et al. 2000). The inverse approach involves deductive analysis for which an unconstrained optimisation scheme is applied to the acquired data (say, deflection) so as to estimate the desired properties (say, layer elastic moduli) of the pavement system. Thus, the inverse algorithm typically involves recursive calls to the forward analysis with some </context>
+</contexts>
+<marker>Brown, 1997</marker>
+<rawString>Brown, S.F., Achievements and challenges in asphalt pavement engineering. in ISAP-8th Intl. Conf. on Asphalt Pavements, Seattle, 1997.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A J Bush</author>
+<author>D R Alexander</author>
+</authors>
+<title>Pavement evaluation using deflection basin movement and layered theory.</title>
+<date>1985</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1022--16</pages>
+<contexts>
+<context position="13369" citStr="Bush and Alexander 1985" startWordPosition="2061" endWordPosition="2064"> analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The me</context>
+</contexts>
+<marker>Bush, Alexander, 1985</marker>
+<rawString>Bush, III, A.J. and Alexander, D.R., Pavement evaluation using deflection basin movement and layered theory. Transp. Res. Rec., 1985, 1022, 16–29.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Celaya</author>
+<author>S Nazarian</author>
+</authors>
+<title>Stripping detection in asphalt pavements with seismic methods,</title>
+<date>2007</date>
+<booktitle>in TRB 86th Annual Meeting Compendium of Papers CD-ROM, Transportation Research Record,</booktitle>
+<pages>07--3018</pages>
+<location>New Delhi).</location>
+<contexts>
+<context position="3856" citStr="Celaya and Nazarian 2007" startWordPosition="555" endWordPosition="558">he issues related to estimation of density, moisture content, etc. 2. Basic principles of NDE techniques for asphalt pavements A number of NDE methods have been developed for evaluation of asphalt pavements. For in situ NDT of pavements, only the top surface is available. Thus, methods requiring access to two different surfaces of the pavement structure cannot be employed in this case (X-ray method, etc.). Laboratory techniques such as resonance column method and ultrasonic testing have been used to determine the seismic moduli for complimenting the evaluation procedure (Nazarian et al. 1999, Celaya and Nazarian 2007). These techniques can also be used for calibration of field NDT methods (Hammons et al. 2006). Many of the NDE methods involve implementation of forward approach for analysis and the inverse approach for interpretation. In forward approach, the system is idealised in the form of a model to study its physical response (say, deflection) due to some stimulus (say, force), when the properties of the pavement layers (say, layer elastic moduli) are assumed. A simple approach to forward modeling of pavement structure is to idealise it as a horizontally layered, linearly elastic, isotropic and homoge</context>
+</contexts>
+<marker>Celaya, Nazarian, 2007</marker>
+<rawString>Celaya, M. and Nazarian, S., Stripping detection in asphalt pavements with seismic methods, in TRB 86th Annual Meeting Compendium of Papers CD-ROM, Transportation Research Record, 2007, 07-3018 Chakroborty, P. and Das, A., Principles of Transportation Engineering, 2003 (Prentice-Hall of India: New Delhi).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D W Chang</author>
+<author>Y V Kang</author>
+<author>J M Roesset</author>
+<author>K H Stokoe</author>
+</authors>
+<title>Effect of depth to bedrock on deflection basins obtained with dynaflect and FWD tests.</title>
+<date>1992</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1355</volume>
+<pages>16</pages>
+<contexts>
+<context position="12628" citStr="Chang et al. 1992" startWordPosition="1948" endWordPosition="1951">e error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circul</context>
+</contexts>
+<marker>Chang, Kang, Roesset, Stokoe, 1992</marker>
+<rawString>Chang, D.W., Kang, Y.V., Roesset, J.M. and Stokoe, II, K.H., Effect of depth to bedrock on deflection basins obtained with dynaflect and FWD tests. Transp. Res. Rec., 1992, 1355, 8 –16.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D H Chen</author>
+<author>J Bilyeu</author>
+<author>H H Lin</author>
+<author>M Murphy</author>
+</authors>
+<title>Temperature correction on falling weight deflectometer measurements.</title>
+<date>2000</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1716--30</pages>
+<contexts>
+<context position="10763" citStr="Chen et al. 2000" startWordPosition="1644" endWordPosition="1647">ers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer (HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003). Major advantage of this technique is that it closely simulates the actual in-service pavement loading. Another benefit is tha</context>
+</contexts>
+<marker>Chen, Bilyeu, Lin, Murphy, 2000</marker>
+<rawString>Chen, D.H., Bilyeu, J., Lin, H.H. and Murphy, M., Temperature correction on falling weight deflectometer measurements. Transp. Res. Rec., 2000, 1716, 30 –39.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y S Cho</author>
+<author>F Linb</author>
+</authors>
+<title>Nondestructive evaluation of in-place cement mortar compressive strength using spectral analysis of surface waves.</title>
+<date>2005</date>
+<journal>Constr. Build. Mater.,</journal>
+<volume>19</volume>
+<pages>738--745</pages>
+<marker>Cho, Linb, 2005</marker>
+<rawString>Cho, Y.S. and Linb, F., Nondestructive evaluation of in-place cement mortar compressive strength using spectral analysis of surface waves. Constr. Build. Mater., 2005, 19, 738–745.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y J Chou</author>
+<author>R L Lytton</author>
+</authors>
+<title>Accuracy and consistency of backcalculated pavement layer moduli.</title>
+<date>1991</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1293--72</pages>
+<contexts>
+<context position="13313" citStr="Chou and Lytton 1991" startWordPosition="2054" endWordPosition="2057">et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometim</context>
+</contexts>
+<marker>Chou, Lytton, 1991</marker>
+<rawString>Chou, Y.J. and Lytton, R.L., Accuracy and consistency of backcalculated pavement layer moduli. Transp. Res. Rec., 1991, 1293, 72 –85.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J David</author>
+<author>N Cheeke</author>
+<author>D Cheeke</author>
+</authors>
+<title>Fundamentals and Applications of Ultrasonic Waves,</title>
+<date>2002</date>
+<editor>ed.,</editor>
+<publisher>(CRC Press: Florida).</publisher>
+<marker>David, Cheeke, Cheeke, 2002</marker>
+<rawString>David, J., Cheeke, N. and Cheeke, D., Fundamentals and Applications of Ultrasonic Waves, 2002 ed., 2002 (CRC Press: Florida).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C Fauchard</author>
+<author>X De´robert</author>
+<author>J Cariou</author>
+<author>P Cote</author>
+</authors>
+<title>GPR performances for thickness calibration on road test sites.</title>
+<date>2003</date>
+<journal>NDT&amp;E Int.,</journal>
+<volume>36</volume>
+<pages>67--75</pages>
+<marker>Fauchard, De´robert, Cariou, Cote, 2003</marker>
+<rawString>Fauchard, C., De´robert, X., Cariou, J. and Cote, P., GPR performances for thickness calibration on road test sites. NDT&amp;E Int., 2003, 36, 67–75.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T F Fwa</author>
+</authors>
+<title>The Handbook of Highway Engineering,</title>
+<date>2006</date>
+<location>Boca Raton).</location>
+<contexts>
+<context position="8965" citStr="Fwa 2006" startWordPosition="1347" endWordPosition="1348">ng is generally applied Figure 1. A typical Bankelman beam deflectometer setup. 124 A. Goel and A. Das by counter rotating mass or electro-hydraulic system. The two trailer wheels equally distribute the vertical dynamic load to the pavement. A geophone series measures the velocity of movement with respect to time, which on integration gives the deflection basin (Haas et al. 1994). Thus, the deflection measurement for these devices are free from influence of deflection bowl. However, test loading is harmonic and does not have any rest period. Hence, the loading condition is somewhat different (Fwa 2006) and the magnitude of load applied is also smaller (Ullidtz 1987) than the actual situation of in-service pavements. Also, a relatively large amount of pre-load is applied to the pavement which may adversely affect the accuracy of pavement response (Fwa 2006). 3.3 Transient impulse loading This method uses an impulsive transient load application to the pavement test-section and the deflection response is recorded at a series of radial points (ASTM D4694 2003). This type of device is typically referred to as falling weight deflectometer (FWD) and is schematically shown in (figure 2). The amount</context>
+<context position="12375" citStr="Fwa 2006" startWordPosition="1907" endWordPosition="1908">re the vehicle moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are bei</context>
+</contexts>
+<marker>Fwa, 2006</marker>
+<rawString>Fwa, T.F., The Handbook of Highway Engineering, 2006 (CRC-Taylor and Francis: Boca Raton).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T F Fwa</author>
+<author>C Y Tan</author>
+<author>W T Chan</author>
+</authors>
+<title>Backcalculation analysis of pavement layer-moduli using genetic algorithm.</title>
+<date>1997</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1570--134</pages>
+<marker>Fwa, Tan, Chan, 1997</marker>
+<rawString>Fwa, T.F., Tan, C.Y. and Chan, W.T., Backcalculation analysis of pavement layer-moduli using genetic algorithm. Transp. Res. Rec., 1997, 1570, 134–142.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>V Ganji</author>
+<author>N Gucunski</author>
+<author>S Nazarian</author>
+</authors>
+<title>Automated inversion procedure for spectral analysis of surface waves.</title>
+<date>1998</date>
+<journal>J. Geotech. Geoenviron. Eng.,</journal>
+<pages>124--757</pages>
+<marker>Ganji, Gucunski, Nazarian, 1998</marker>
+<rawString>Ganji, V., Gucunski, N. and Nazarian, S., Automated inversion procedure for spectral analysis of surface waves. J. Geotech. Geoenviron. Eng., 1998, 124, 757– 770.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Gibson</author>
+<author>J S Popovics</author>
+</authors>
+<title>Lamb wave basis for impact-echo method analysis. ASCE,</title>
+<date>2005</date>
+<pages>131--438</pages>
+<marker>Gibson, Popovics, 2005</marker>
+<rawString>Gibson, A. and Popovics, J.S., Lamb wave basis for impact-echo method analysis. ASCE, 2005, 131, 438–443.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Goel</author>
+<author>A Das</author>
+</authors>
+<title>A brief review on different surface wave methods for non-destructive evaluation of pavements and their applicability.</title>
+<date>2006</date>
+<booktitle>in 2006 Highway Geophysics—NDE Conference, St.</booktitle>
+<pages>337--350</pages>
+<location>Louis, Missouri,</location>
+<marker>Goel, Das, 2006</marker>
+<rawString>Goel, A. and Das, A., A brief review on different surface wave methods for non-destructive evaluation of pavements and their applicability. in 2006 Highway Geophysics—NDE Conference, St. Louis, Missouri, 2006, pp. 337–350.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A B Goktepe</author>
+<author>E Agar</author>
+<author>A H Lav</author>
+</authors>
+<title>Advances in back calculating the mechanical properties of flexible pavements.</title>
+<date>2006</date>
+<journal>Adv. Eng. Softw.,</journal>
+<volume>37</volume>
+<pages>421--431</pages>
+<contexts>
+<context position="10003" citStr="Goktepe et al. 2006" startWordPosition="1520" endWordPosition="1523">t a series of radial points (ASTM D4694 2003). This type of device is typically referred to as falling weight deflectometer (FWD) and is schematically shown in (figure 2). The amount of impact load, duration and the loading area is adjusted in such a way that it closely corresponds to the actual loading by a standard truck on in-service road (Sebaaly et al. 1991). The peak load is controlled by varying the falling mass, height of drop and the spring constant. The time of impulse load may vary between 0.025 and 0.30 s, and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al. 2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suit</context>
+<context position="11915" citStr="Goktepe et al. 2006" startWordPosition="1832" endWordPosition="1835">lates the actual in-service pavement loading. Another benefit is that the road need not be closed to traffic during the test Figure 2. Schematics of a typical FWD test set up. Nondestructive testing of asphalt pavements 125 process. However, FWD method is relatively expensive and inverse analysis is complex. For taking FWD measurements one needs to stop every time for deflection measurement. This problem is taken care of by the rolling dynamic deflectometer (RDD) where the vehicle moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into accou</context>
+</contexts>
+<marker>Goktepe, Agar, Lav, 2006</marker>
+<rawString>Goktepe, A.B., Agar, E. and Lav, A.H., Advances in back calculating the mechanical properties of flexible pavements. Adv. Eng. Softw., 2006, 37, 421–431.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M O Gordon</author>
+<author>K Broughton</author>
+<author>M Hardy</author>
+</authors>
+<title>The assessment of the value of GPR imaging of flexible pavements.</title>
+<date>1998</date>
+<journal>NDT&amp;E Int.,</journal>
+<pages>31--428</pages>
+<marker>Gordon, Broughton, Hardy, 1998</marker>
+<rawString>Gordon, M.O., Broughton, K. and Hardy, M., The assessment of the value of GPR imaging of flexible pavements. NDT&amp;E Int., 1998, 31, 428– 438.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Gucunski</author>
+<author>A Maher</author>
+</authors>
+<title>Evaluation of seismic pavement analyzer for pavement condition monitoring, Tech Rep FHWA-NJ-2002-012,</title>
+<date>2002</date>
+<location>FHWA,</location>
+<marker>Gucunski, Maher, 2002</marker>
+<rawString>Gucunski, N. and Maher, A., Evaluation of seismic pavement analyzer for pavement condition monitoring, Tech Rep FHWA-NJ-2002-012, FHWA, 2002.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Gucunski</author>
+<author>I N Abdallah</author>
+<author>S Nazarian</author>
+</authors>
+<title>ANN backcalculation of pavement profiles from the SASW test.</title>
+<date>2000</date>
+<booktitle>Pavement Subgrade Unbound Materials and Nondestructive Testing,</booktitle>
+<volume>98</volume>
+<pages>31--50</pages>
+<location>(ASCE: New York).</location>
+<marker>Gucunski, Abdallah, Nazarian, 2000</marker>
+<rawString>Gucunski, N., Abdallah, I.N. and Nazarian, S., ANN backcalculation of pavement profiles from the SASW test. Pavement Subgrade Unbound Materials and Nondestructive Testing, vol. 98, pp. 31 –50, 2000 (ASCE: New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Gucunski</author>
+<author>R Hadidi</author>
+<author>S Zaghloul</author>
+<author>A Maher</author>
+<author>P Shokouhi</author>
+</authors>
+<title>Sea-sonal and temperature adjustment models using seismic pavement analyzer (SPA).</title>
+<date>2006</date>
+<booktitle>In Pavement Mechanics and Performance (GSP154) Geo Shanghai 2006, Proceedings of Sessions of Geo Shanghai</booktitle>
+<location>(Shanghai, China).</location>
+<note>edited by</note>
+<marker>Gucunski, Hadidi, Zaghloul, Maher, Shokouhi, 2006</marker>
+<rawString>Gucunski, N., Hadidi, R., Zaghloul, S., Maher, A. and Shokouhi, P., Sea-sonal and temperature adjustment models using seismic pavement analyzer (SPA). In Pavement Mechanics and Performance (GSP154) Geo Shanghai 2006, Proceedings of Sessions of Geo Shanghai 2006, edited by B. Huang, R. Meier, J. Prozzi and E. Tutumluer, 2006 (Shanghai, China).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Haas</author>
+<author>W R Hudson</author>
+<author>J Zaniewski</author>
+</authors>
+<title>Modern Pavement Management,</title>
+<date>1994</date>
+<publisher>(Krieger Publishing Company: Florida).</publisher>
+<contexts>
+<context position="6770" citStr="Haas et al. 1994" startWordPosition="989" endWordPosition="992">wave method - Electromagnetic wave method These methods are discussed in the following sections. 3. Deflection-basin methods In deflection-basin methods, vertical deflections at various points on the surface of the pavement test-section, due to an applied load, are measured. Type of the load applied may be static, steady state harmonic or transient impulse type (ASTM D2003). The measurement of deflection at the load point and at locations radially outwards from it, can be done with the help of a dial gauge/linear variable differential transformer, or by using velocity transducers (geophones) (Haas et al. 1994). Various types of deflection based NDE methods are discussed further in the following subsections. 3.1 Static loading method In this method, a static load is applied to the test section and its deflection is measured. Benkelman beam deflection (BBD) test is a simple and relatively inexpensive method under this category. Basic device in a BBD test consists of a lightweight frame to which a beam probe is attached alongwith a dial gauge (Zube and Forsyth 1966). BBD measures the deflection due to static loading of dual tyres of a loaded truck. Measurement process starts by placing the probe betwe</context>
+<context position="8738" citStr="Haas et al. 1994" startWordPosition="1310" endWordPosition="1313">ces that employ similar basic principle (Bay and Stokoe 1998). 3.2 Steady state loading In this method, a low frequency oscillatory loading is applied to the pavement and the deflection response is recorded (ASTM D4602 2003). The loading is generally applied Figure 1. A typical Bankelman beam deflectometer setup. 124 A. Goel and A. Das by counter rotating mass or electro-hydraulic system. The two trailer wheels equally distribute the vertical dynamic load to the pavement. A geophone series measures the velocity of movement with respect to time, which on integration gives the deflection basin (Haas et al. 1994). Thus, the deflection measurement for these devices are free from influence of deflection bowl. However, test loading is harmonic and does not have any rest period. Hence, the loading condition is somewhat different (Fwa 2006) and the magnitude of load applied is also smaller (Ullidtz 1987) than the actual situation of in-service pavements. Also, a relatively large amount of pre-load is applied to the pavement which may adversely affect the accuracy of pavement response (Fwa 2006). 3.3 Transient impulse loading This method uses an impulsive transient load application to the pavement test-sect</context>
+<context position="10300" citStr="Haas et al. 1994" startWordPosition="1571" endWordPosition="1574">ing by a standard truck on in-service road (Sebaaly et al. 1991). The peak load is controlled by varying the falling mass, height of drop and the spring constant. The time of impulse load may vary between 0.025 and 0.30 s, and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al. 2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact </context>
+</contexts>
+<marker>Haas, Hudson, Zaniewski, 1994</marker>
+<rawString>Haas, R., Hudson, W.R. and Zaniewski, J., Modern Pavement Management, 1994 (Krieger Publishing Company: Florida).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K T Hall</author>
+<author>A Mohseni</author>
+</authors>
+<title>Backcalculation of asphalt concrete overlaid Portland cement concrete pavement layer moduli.</title>
+<date>1991</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1293--112</pages>
+<contexts>
+<context position="13211" citStr="Hall and Mohseni 1991" startWordPosition="2041" endWordPosition="2044">smic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solut</context>
+</contexts>
+<marker>Hall, Mohseni, 1991</marker>
+<rawString>Hall, K.T. and Mohseni, A., Backcalculation of asphalt concrete overlaid Portland cement concrete pavement layer moduli. Transp. Res. Rec., 1991, 1293, 112–123.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M I Hammons</author>
+<author>H Von Quintus</author>
+<author>G M Geary</author>
+<author>P Y Wu</author>
+<author>D M Jared</author>
+</authors>
+<title>Detection of stripping in hot-mix asphalt.</title>
+<date>2006</date>
+<journal>Transp. Res. Rec.,</journal>
+<marker>Hammons, Von Quintus, Geary, Wu, Jared, 2006</marker>
+<rawString>Hammons, M.I., Von Quintus, H., Geary, G.M., Wu, P.Y. and Jared, D.M., Detection of stripping in hot-mix asphalt. Transp. Res. Rec., 2006, 1949, 20–31.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A N Hanna</author>
+</authors>
+<title>Determination of In Situ Material Properties of Asphalt Concrete Pavement Layers from Nondestructive Tests,</title>
+<date>2002</date>
+<journal>NCHRP Research Results Digest 271 Transportation Research</journal>
+<location>Board, N.W., Washington, DC,</location>
+<marker>Hanna, 2002</marker>
+<rawString>Hanna, A.N., Determination of In Situ Material Properties of Asphalt Concrete Pavement Layers from Nondestructive Tests, NCHRP Research Results Digest 271 Transportation Research Board, N.W., Washington, DC, 2002.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R S Harichandran</author>
+<author>T Mahmood</author>
+<author>A R Raab</author>
+<author>G Y Baladi</author>
+</authors>
+<title>Modified Newton algorithm for backcalculation of pavement layer properties.</title>
+<date>1993</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1384--15</pages>
+<contexts>
+<context position="13422" citStr="Harichandran et al. 1993" startWordPosition="2069" endWordPosition="2072">ecially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventional optimisation techniques t</context>
+</contexts>
+<marker>Harichandran, Mahmood, Raab, Baladi, 1993</marker>
+<rawString>Harichandran, R.S., Mahmood, T., Raab, A.R. and Baladi, G.Y., Modified Newton algorithm for backcalculation of pavement layer properties. Transp. Res. Rec., 1993, 1384, 15–22.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N A Haskell</author>
+</authors>
+<title>The dispersion of surface waves on multilayered media.</title>
+<date>1953</date>
+<journal>Bull. Seism. Soc. Am.,</journal>
+<pages>43--14</pages>
+<marker>Haskell, 1953</marker>
+<rawString>Haskell, N.A., The dispersion of surface waves on multilayered media. Bull. Seism. Soc. Am., 1953, 43, 14 –34.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J S Heisey</author>
+<author>K H Stokoe</author>
+<author>A H Meyer</author>
+</authors>
+<title>Moduli of pavement systems from spectral analysis of surface waves.</title>
+<date>1982</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>852--22</pages>
+<marker>Heisey, Stokoe, Meyer, 1982</marker>
+<rawString>Heisey, J.S., Stokoe, II, K.H. and Meyer, A.H., Moduli of pavement systems from spectral analysis of surface waves. Transp. Res. Rec., 1982, 852, 22–31.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Hill</author>
+<author>J McHugh</author>
+<author>J D Turner</author>
+</authors>
+<title>Cross-sectional modes in impact-echo testing of concrete structures.</title>
+<date>2000</date>
+<journal>J. Struct. Eng.,</journal>
+<pages>126--228</pages>
+<marker>Hill, McHugh, Turner, 2000</marker>
+<rawString>Hill, M., McHugh, J. and Turner, J.D., Cross-sectional modes in impact-echo testing of concrete structures. J. Struct. Eng., 2000, 126, 228 –234.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D R Hiltunen</author>
+<author>R D Woods</author>
+</authors>
+<date>1989</date>
+<booktitle>Influence of Source and Receiver Geometry on the Testing of Pavements by Surface Waves Method,</booktitle>
+<location>(ASTM: Philadelphia).</location>
+<marker>Hiltunen, Woods, 1989</marker>
+<rawString>Hiltunen, D.R. and Woods, R.D., Influence of Source and Receiver Geometry on the Testing of Pavements by Surface Waves Method, 1989 (ASTM: Philadelphia).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Y Hisada</author>
+</authors>
+<title>An efficient method for computing Green’s functions for a layered half-space with sources and receivers at close depths.</title>
+<date>1994</date>
+<journal>Bull. Seism. Soc. Am.,</journal>
+<volume>84</volume>
+<pages>1456--1472</pages>
+<marker>Hisada, 1994</marker>
+<rawString>Hisada, Y., An efficient method for computing Green’s functions for a layered half-space with sources and receivers at close depths. Bull. Seism. Soc. Am., 1994, 84, 1456–1472.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Goel</author>
+<author>A Das Hossian</author>
+<author>M M</author>
+<author>V P Drnevich</author>
+</authors>
+<title>Numerical and optimization techniques applied to surface waves for backcalculation of layer moduli.</title>
+<date>1989</date>
+<booktitle>STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli,</booktitle>
+<pages>649--669</pages>
+<location>(ASTM: Philadelphia).</location>
+<marker>Goel, Hossian, M, Drnevich, 1989</marker>
+<rawString>A. Goel and A. Das Hossian, M.M. and Drnevich, V.P., Numerical and optimization techniques applied to surface waves for backcalculation of layer moduli. STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli, pp. 649–669, 1989 (ASTM: Philadelphia).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Hugenschmidt</author>
+</authors>
+<title>Concrete bridge inspection with a mobile GPR system.</title>
+<date>2002</date>
+<journal>Constr. Build. Mater.,</journal>
+<pages>16--147</pages>
+<marker>Hugenschmidt, 2002</marker>
+<rawString>Hugenschmidt, J., Concrete bridge inspection with a mobile GPR system. Constr. Build. Mater., 2002, 16, 147 –154.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Z-Y Jiang</author>
+<author>J Ponniah</author>
+<author>G Cascante</author>
+</authors>
+<title>Improved ultrasonic pulse velocity technique for bituminous material characterization.</title>
+<date>2006</date>
+<booktitle>in Annual Conference of the Transportation Association of Canada Charlottetown,</booktitle>
+<marker>Jiang, Ponniah, Cascante, 2006</marker>
+<rawString>Jiang, Z.-Y., Ponniah, J. and Cascante, G., Improved ultrasonic pulse velocity technique for bituminous material characterization. in Annual Conference of the Transportation Association of Canada Charlottetown, 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Jones</author>
+</authors>
+<title>A vibration method for measuring the thickness of concrete road slabs in situ.</title>
+<date>1955</date>
+<journal>Mag. Concr. Res.,</journal>
+<pages>7--97</pages>
+<marker>Jones, 1955</marker>
+<rawString>Jones, R., A vibration method for measuring the thickness of concrete road slabs in situ. Mag. Concr. Res., 1955, 7, 97 –102.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Kameyana</author>
+<author>K Himeno</author>
+<author>A Kashana</author>
+<author>T Maruyana</author>
+</authors>
+<title>Backcalculation of pavement layer moduli using genetic algorithm.</title>
+<date>1997</date>
+<booktitle>in 8th Int Conf of Asphalt Pavements,</booktitle>
+<pages>1375--1385</pages>
+<location>Seattle</location>
+<marker>Kameyana, Himeno, Kashana, Maruyana, 1997</marker>
+<rawString>Kameyana, S., Himeno, K., Kashana, A. and Maruyana, T., Backcalculation of pavement layer moduli using genetic algorithm. in 8th Int Conf of Asphalt Pavements, Seattle 1997, pp. 1375–1385.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Kanta Rao</author>
+<author>V V L Rao</author>
+<author>M V B Kumar</author>
+<author>S</author>
+<author>S P Pokhriyal</author>
+</authors>
+<title>Structural evaluation of cement concrete roads in Mumbai city.</title>
+<date>2006</date>
+<journal>J. Perform. Constr. Facil.,</journal>
+<volume>20</volume>
+<pages>156--166</pages>
+<marker>Rao, Rao, Kumar, S, Pokhriyal, 2006</marker>
+<rawString>Kanta Rao, V.V.L., Rao, M.V.B., Kumar, S. and Pokhriyal, S.P., Structural evaluation of cement concrete roads in Mumbai city. J. Perform. Constr. Facil., 2006, 20, 156–166.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Kausel</author>
+<author>R Peek</author>
+</authors>
+<title>Dynamic loads in the interior of a layered stratum: an explicit solution.</title>
+<date>1982</date>
+<journal>Bull. Seism. Soc. Am.,</journal>
+<volume>72</volume>
+<pages>1459--1508</pages>
+<marker>Kausel, Peek, 1982</marker>
+<rawString>Kausel, E. and Peek, R., Dynamic loads in the interior of a layered stratum: an explicit solution. Bull. Seism. Soc. Am., 1982, 72, 1459–1508.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Kausel</author>
+<author>J M Rou¨sset</author>
+</authors>
+<title>Stiffness matrices for layered soils.</title>
+<date>1981</date>
+<journal>Bull. Seism. Soc. Am.,</journal>
+<volume>71</volume>
+<pages>1743--1761</pages>
+<marker>Kausel, Rou¨sset, 1981</marker>
+<rawString>Kausel, E. and Rou¨sset, J.M., Stiffness matrices for layered soils. Bull. Seism. Soc. Am., 1981, 71, 1743–1761.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Kim</author>
+<author>H Park</author>
+</authors>
+<title>Determination of dispersive phase velocities for SASW method using harmonic wavelet transform. Soil Dyn. Earthquake Eng.,</title>
+<date>2002</date>
+<pages>22--675</pages>
+<marker>Kim, Park, 2002</marker>
+<rawString>Kim, D. and Park, H., Determination of dispersive phase velocities for SASW method using harmonic wavelet transform. Soil Dyn. Earthquake Eng., 2002, 22, 675 –684.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D S Kim</author>
+<author>W S Seo</author>
+<author>K Lee</author>
+</authors>
+<title>IE-SASW method for nondestructive evaluation of concrete structure.</title>
+<date>2006</date>
+<journal>NDT&amp;E Int.,</journal>
+<volume>39</volume>
+<pages>143--154</pages>
+<marker>Kim, Seo, Lee, 2006</marker>
+<rawString>Kim, D.S., Seo, W.S. and Lee, K., IE-SASW method for nondestructive evaluation of concrete structure. NDT&amp;E Int., 2006, 39, 143–154.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J M Krishnan</author>
+<author>K R Rajagopal</author>
+</authors>
+<title>Review of the uses and modeling of bitumen from ancient to modern times.</title>
+<date>2003</date>
+<journal>Appl. Mech. Rev. Am. Soc. Mech. Eng.,</journal>
+<volume>56</volume>
+<pages>149--214</pages>
+<contexts>
+<context position="4901" citStr="Krishnan and Rajagopal 2003" startWordPosition="714" endWordPosition="717">say, layer elastic moduli) are assumed. A simple approach to forward modeling of pavement structure is to idealise it as a horizontally layered, linearly elastic, isotropic and homogenous media. More complex forward analysis schemes can be developed by dropping these idealisations, thereby achieving closer approximation to the actual response. In fact, the seismic/ loading response of pavement structure is quite complex, and its modeling is itself a difficult task (Brown 1997). Asphalt layer is strongly sensitive to nature of loading (magnitude, frequency and duration) as well as temperature (Krishnan and Rajagopal 2003); whereas the elastic modulus of granular layer and subgrade is sensitive to stress conditions (Lekarp et al. 2000). The inverse approach involves deductive analysis for which an unconstrained optimisation scheme is applied to the acquired data (say, deflection) so as to estimate the desired properties (say, layer elastic moduli) of the pavement system. Thus, the inverse algorithm typically involves recursive calls to the forward analysis with some assumed values of the unknown parameters, and any pre-defined error parameter is minimised through subsequent iterations. The error parameter is ge</context>
+</contexts>
+<marker>Krishnan, Rajagopal, 2003</marker>
+<rawString>Krishnan, J.M. and Rajagopal, K.R., Review of the uses and modeling of bitumen from ancient to modern times. Appl. Mech. Rev. Am. Soc. Mech. Eng., 2003, 56, 149–214.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Lahouar</author>
+<author>I L Al-Qadi</author>
+<author>A Loulizi</author>
+<author>T M Clark</author>
+<author>D T Lee</author>
+</authors>
+<title>Approach to determining in situ dielectric constant of pavements.</title>
+<date>2002</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1806</volume>
+<pages>81--87</pages>
+<marker>Lahouar, Al-Qadi, Loulizi, Clark, Lee, 2002</marker>
+<rawString>Lahouar, S., Al-Qadi, I.L., Loulizi, A., Clark, T.M. and Lee, D.T., Approach to determining in situ dielectric constant of pavements. Transp. Res. Rec., 2002, 1806, 81–87.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J L Lee</author>
+<author>D J Turner</author>
+<author>K H Stokoe</author>
+<author>J A Bay</author>
+<author>R O Rasmussen</author>
+</authors>
+<title>Continuous structural evaluation of airport pavements with the rolling dynamic deflectometer.</title>
+<date>2006</date>
+<booktitle>In Proceedings of Airfield Pavements, Challenges and New Technologies, edited by M. Karakouzian,</booktitle>
+<pages>348--365</pages>
+<location>(ASCE: New York).</location>
+<contexts>
+<context position="12234" citStr="Lee et al. 2006" startWordPosition="1884" endWordPosition="1887">D measurements one needs to stop every time for deflection measurement. This problem is taken care of by the rolling dynamic deflectometer (RDD) where the vehicle moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bed</context>
+</contexts>
+<marker>Lee, Turner, Stokoe, Bay, Rasmussen, 2006</marker>
+<rawString>Lee, J.L., Turner, D.J., Stokoe, II, K.H., Bay, J.A. and Rasmussen, R.O., Continuous structural evaluation of airport pavements with the rolling dynamic deflectometer. In Proceedings of Airfield Pavements, Challenges and New Technologies, edited by M. Karakouzian, pp. 348–365, 2006 (ASCE: New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F Lekarp</author>
+<author>U Isacsson</author>
+<author>A Dawson</author>
+</authors>
+<title>State of the art. 1: resilient response of unbound aggregates.</title>
+<date>2000</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>126--66</pages>
+<contexts>
+<context position="5016" citStr="Lekarp et al. 2000" startWordPosition="732" endWordPosition="735">orizontally layered, linearly elastic, isotropic and homogenous media. More complex forward analysis schemes can be developed by dropping these idealisations, thereby achieving closer approximation to the actual response. In fact, the seismic/ loading response of pavement structure is quite complex, and its modeling is itself a difficult task (Brown 1997). Asphalt layer is strongly sensitive to nature of loading (magnitude, frequency and duration) as well as temperature (Krishnan and Rajagopal 2003); whereas the elastic modulus of granular layer and subgrade is sensitive to stress conditions (Lekarp et al. 2000). The inverse approach involves deductive analysis for which an unconstrained optimisation scheme is applied to the acquired data (say, deflection) so as to estimate the desired properties (say, layer elastic moduli) of the pavement system. Thus, the inverse algorithm typically involves recursive calls to the forward analysis with some assumed values of the unknown parameters, and any pre-defined error parameter is minimised through subsequent iterations. The error parameter is generally defined as root mean square of the difference between the obtained and predicted responses. Since, inverse </context>
+</contexts>
+<marker>Lekarp, Isacsson, Dawson, 2000</marker>
+<rawString>Lekarp, F., Isacsson, U. and Dawson, A., State of the art. 1: resilient response of unbound aggregates. J. Transp. Eng., 2000, 126, 66– 75.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C A Lenngren</author>
+</authors>
+<title>Relating deflection data to pavement strain.</title>
+<date>1991</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1293--103</pages>
+<contexts>
+<context position="13959" citStr="Lenngren 1991" startWordPosition="2151" endWordPosition="2152">(Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventional optimisation techniques take a long time to backcalculate the layer moduli (Harichandran et al. 1993). There are chances that the solution may converge to a local optimal point. Also, the convergence depends on the initial solution (seed values) chosen (Harichandran et al. 1993, May and Von Quintus 1994). . The approach based on artificial neural network (ANN) takes a long time for training data-sets and requires fresh training every time the input parameters change. Computation time in genetic algorithm (GA) based program is also large (Fwa et al. 1997, K</context>
+</contexts>
+<marker>Lenngren, 1991</marker>
+<rawString>Lenngren, C.A., Relating deflection data to pavement strain. Transp. Res. Rec., 1991, 1293, 103 –111.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Lev Khazanovich</author>
+<author>Raul Velaquez</author>
+<author>Edward G Nesvijski</author>
+</authors>
+<title>Evaluation of top–down cracks in asphalt pavements by using a self-calibrating ultrasonic technique.</title>
+<date>2005</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>6368</pages>
+<marker>Khazanovich, Velaquez, Nesvijski, 2005</marker>
+<rawString>Khazanovich, Lev, Velaquez, Raul and Nesvijski, Edward G., Evaluation of top–down cracks in asphalt pavements by using a self-calibrating ultrasonic technique. Transp. Res. Rec., 2005, 1940, 6368.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loizos</author>
+<author>G Boukovalas</author>
+</authors>
+<title>Pavement soil characterization using a dynamic stiffness model.</title>
+<date>2005</date>
+<journal>Int. J. Pavement Eng.,</journal>
+<pages>6--5</pages>
+<contexts>
+<context position="11110" citStr="Loizos and Boukovalas 2005" startWordPosition="1702" endWordPosition="1705"> and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer (HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003). Major advantage of this technique is that it closely simulates the actual in-service pavement loading. Another benefit is that the road need not be closed to traffic during the test Figure 2. Schematics of a typical FWD test set up. Nondestructive testing of asphalt pavements 125 process. However, FWD method is relatively expensive and inverse analysis is complex. For taking FWD measurements one needs to stop every time for deflection measurement. This problem is take</context>
+<context position="12466" citStr="Loizos and Boukovalas 2005" startWordPosition="1920" endWordPosition="1923">flection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that ca</context>
+</contexts>
+<marker>Loizos, Boukovalas, 2005</marker>
+<rawString>Loizos, A. and Boukovalas, G., Pavement soil characterization using a dynamic stiffness model. Int. J. Pavement Eng., 2005, 6, 5–15.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loizos</author>
+<author>C Plati</author>
+</authors>
+<title>Accuracy of pavement thickness estimation using different ground penetrating radar analys is approach.</title>
+<date>2007</date>
+<journal>NDT&amp;E Int.,</journal>
+<volume>40</volume>
+<pages>147--157</pages>
+<contexts>
+<context position="2414" citStr="Loizos and Plati 2007" startWordPosition="348" endWordPosition="351">ired data. In a structural evaluation process, the primary objective is to estimate the structural strength. For asphalt pavements, it may be expressed in terms of in situ layer elastic moduli, layer thickness, inter-layer bond conditions and anomaly characterisation. A simple and direct evaluation method for layer properties estimation is by visual examination after digging pits or taking cores from the pavement, which are destructive methods. Dynamic cone penetrometer test can give a qualitative (and to some extent quantitative) estimation of layer thickness, though it has some limitations (Loizos and Plati 2007, Roy 2007) in terms of test-speed, error and subjectivity in testing. *Corresponding author. Email: amitji@iitk.ac.in †Email: adas@iitk.ac.in Nondestructive Testing and Evaluation ISSN 1058-9759 print/ISSN 1477-2671 online q 2008 Taylor &amp; Francis http://www.tandf.co.uk/journals DOI: 10.1080/10589750701848697 122 A. Goel and A. Das This paper discusses some of the emerging as well as contemporary nondestructive evaluation (NDE) methods which have found applications for in situ structural evaluation of asphalt pavements. Underlying principles and test set-up of various techniques alongwith thei</context>
+</contexts>
+<marker>Loizos, Plati, 2007</marker>
+<rawString>Loizos, A. and Plati, C., Accuracy of pavement thickness estimation using different ground penetrating radar analys is approach. NDT&amp;E Int., 2007, 40, 147–157.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loizos</author>
+<author>G Boukovalas</author>
+<author>A Karlaftis</author>
+</authors>
+<title>Dynamic stiffness modulus for pavement sugrade evaluation.</title>
+<date>2003</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>129--434</pages>
+<contexts>
+<context position="10944" citStr="Loizos et al. 2003" startWordPosition="1674" endWordPosition="1677">0/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer (HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003). Major advantage of this technique is that it closely simulates the actual in-service pavement loading. Another benefit is that the road need not be closed to traffic during the test Figure 2. Schematics of a typical FWD test set up. Nondestructive testing of asphalt pavements 125 process. However, FWD met</context>
+<context position="12437" citStr="Loizos et al. 2003" startWordPosition="1916" endWordPosition="1919">.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May </context>
+</contexts>
+<marker>Loizos, Boukovalas, Karlaftis, 2003</marker>
+<rawString>Loizos, A., Boukovalas, G. and Karlaftis, A., Dynamic stiffness modulus for pavement sugrade evaluation. J. Transp. Eng., 2003, 129, 434 –443.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loulizi</author>
+</authors>
+<title>Development of ground penetrating radar signal modeling and implementation for transportation infrastructure assessment,</title>
+<date>2001</date>
+<tech>Tech. rep.,</tech>
+<institution>Virginia Polytechnic Institute and State University,</institution>
+<marker>Loulizi, 2001</marker>
+<rawString>Loulizi, A., Development of ground penetrating radar signal modeling and implementation for transportation infrastructure assessment, Tech. rep., Virginia Polytechnic Institute and State University, 2001.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Loulizi</author>
+<author>I L Al-Qadi</author>
+<author>S Lahouar</author>
+</authors>
+<title>Optimizing of ground penetrating radar data to predict layer thickness inflexible pavements.</title>
+<date>2003</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>129--93</pages>
+<marker>Loulizi, Al-Qadi, Lahouar, 2003</marker>
+<rawString>Loulizi, A., Al-Qadi, I.L. and Lahouar, S., Optimizing of ground penetrating radar data to predict layer thickness inflexible pavements. J. Transp. Eng., 2003, 129, 93–99.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R L Lytton</author>
+</authors>
+<title>Backcalculation of pavement layer properties.</title>
+<date>1989</date>
+<booktitle>STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli,</booktitle>
+<pages>7--38</pages>
+<location>(ASTM: Philadelphia).</location>
+<contexts>
+<context position="12364" citStr="Lytton 1989" startWordPosition="1905" endWordPosition="1906">ter (RDD) where the vehicle moves at slow speed (of the order of 2.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and effo</context>
+</contexts>
+<marker>Lytton, 1989</marker>
+<rawString>Lytton, R.L., Backcalculation of pavement layer properties. STP 1026, Nondestructive Testing of Pavements and Backcalculation of Moduli, pp. 7–38, 1989 (ASTM: Philadelphia).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J P Mahoney</author>
+<author>B C Winters</author>
+<author>N C Jackson</author>
+<author>L Pierce</author>
+</authors>
+<title>Some observations about backcalculation and use of a stiff layer condition.</title>
+<date>1993</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1384--8</pages>
+<contexts>
+<context position="13491" citStr="Mahoney et al. 1993" startWordPosition="2080" endWordPosition="2083">llow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventional optimisation techniques take a long time to backcalculate the layer moduli (Harichandran et al</context>
+</contexts>
+<marker>Mahoney, Winters, Jackson, Pierce, 1993</marker>
+<rawString>Mahoney, J.P., Winters, B.C., Jackson, N.C. and Pierce, L., Some observations about backcalculation and use of a stiff layer condition. Transp. Res. Rec., 1993, 1384, 8–14.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J P Mahoney</author>
+<author>S Muench</author>
+<author>L Pierce</author>
+<author>S A Read</author>
+<author>J S Uhlmeyer</author>
+<author>H Jakob</author>
+<author>R Moore</author>
+</authors>
+<title>Identification and assessment of construction-related asphalt concrete pavement temperature differentials.</title>
+<date>2000</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1712--93</pages>
+<marker>Mahoney, Muench, Pierce, Read, Uhlmeyer, Jakob, Moore, 2000</marker>
+<rawString>Mahoney, J.P., Muench, S., Pierce, L., Read, S.A., Uhlmeyer, J.S., Jakob, H. and Moore, R., Identification and assessment of construction-related asphalt concrete pavement temperature differentials. Transp. Res. Rec., 2000, 1712, 93 –100.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B R Mallick</author>
+<author>S Nazarian</author>
+</authors>
+<title>In-place determination of stiffness of subsurface reclaimed layers in thin surface hotmix asphalt pavements fast non destructive test and analysis method.</title>
+<date>2006</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1--19</pages>
+<marker>Mallick, Nazarian, 2006</marker>
+<rawString>Mallick, B.R. and Nazarian, S., In-place determination of stiffness of subsurface reclaimed layers in thin surface hotmix asphalt pavements fast non destructive test and analysis method. Transp. Res. Rec., 2006, 1949, 1–19.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B R Mallick</author>
+<author>A Das</author>
+<author>S Nazarian</author>
+</authors>
+<title>Fast non destructive field test method to determine stiffness of subsurface layer in thin surface hot mix asphalt pavement.</title>
+<date>2005</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>82--89</pages>
+<marker>Mallick, Das, Nazarian, 2005</marker>
+<rawString>Mallick, B.R., Das, A. and Nazarian, S., Fast non destructive field test method to determine stiffness of subsurface layer in thin surface hot mix asphalt pavement. Transp. Res. Rec., 2005, 1905, 82 –89.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K Maser</author>
+</authors>
+<title>Ground penetrating radar surveys to characterize pavement layer thickness variations at GPS sites,</title>
+<date>1994</date>
+<journal>J. Infrastruct.</journal>
+<booktitle>SHRPP-397, Tech. rep, Strategic Highway Research Program, National Research Council, 2101 Constitution Avenue,</booktitle>
+<location>NW, Washington, DC 20418 USA,</location>
+<marker>Maser, 1994</marker>
+<rawString>Maser, K., Ground penetrating radar surveys to characterize pavement layer thickness variations at GPS sites, SHRPP-397, Tech. rep, Strategic Highway Research Program, National Research Council, 2101 Constitution Avenue, NW, Washington, DC 20418 USA, 1994. Maser, K.R., Condition assessment of transportation infrastructure using ground-penetrating radar. J. Infrastruct.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Syst</author>
+</authors>
+<date>1996</date>
+<volume>2</volume>
+<pages>94--101</pages>
+<marker>Syst, 1996</marker>
+<rawString>Syst., 1996, 2, 94–101.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K R Maser</author>
+</authors>
+<title>Pavement characterization using ground penetrating radar: state of the art and current practice.</title>
+<date>1999</date>
+<booktitle>in STP 1375, Nondestructive Testing of Pavements and Backcalculation of Moduli,</booktitle>
+<pages>313--326</pages>
+<location>ASTM, West Conshohocken,</location>
+<marker>Maser, 1999</marker>
+<rawString>Maser, K.R., Pavement characterization using ground penetrating radar: state of the art and current practice. in STP 1375, Nondestructive Testing of Pavements and Backcalculation of Moduli, ASTM, West Conshohocken, 1999, pp. 313–326.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K R Maser</author>
+</authors>
+<title>Non-destructive measurement of pavement layer thickness,</title>
+<date>2003</date>
+<tech>Final report,</tech>
+<institution>California Department of Transportation,</institution>
+<marker>Maser, 2003</marker>
+<rawString>Maser, K.R., Non-destructive measurement of pavement layer thickness, Final report, California Department of Transportation, 2003.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>K R Maser</author>
+<author>T J Holland</author>
+<author>R Roberts</author>
+<author>J Popovics</author>
+</authors>
+<title>NDE methods for quality assurance of new pavement thickness.</title>
+<date>2006</date>
+<journal>Int. J. Pavement Eng.,</journal>
+<pages>7--1</pages>
+<marker>Maser, Holland, Roberts, Popovics, 2006</marker>
+<rawString>Maser, K.R., Holland, T.J., Roberts, R. and Popovics, J., NDE methods for quality assurance of new pavement thickness. Int. J. Pavement Eng., 2006, 7, 1–10.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>R W May</author>
+<author>H L Von Quintus</author>
+</authors>
+<title>The quest for a standard guide to NDT backcalculation. In STP 1198, Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by</title>
+<date>1994</date>
+<tech>Transp. Res.</tech>
+<volume>2</volume>
+<pages>505--520</pages>
+<marker>May, Von Quintus, 1994</marker>
+<rawString>May, R.W. and Von Quintus, H.L., The quest for a standard guide to NDT backcalculation. In STP 1198, Nondestructive Testing of Pavements and Backcalculation of Moduli, edited by H. Von Quintus, A.J. III. Bush and G.Y. Baladi, vol. 2, pp. 505–520, 1994 (ASTM: Philadelphia). Nondestructive testing of asphalt pavements Meier, R.G. and Rix, G.J., Backcalculation of flexible pavement moduli using artificial neural networks. Transp. Res.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Rec</author>
+</authors>
+<date>1994</date>
+<pages>1448--75</pages>
+<marker>Rec, 1994</marker>
+<rawString>Rec., 1994a, 1448, 75–82.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>R G Meier</author>
+<author>G J Rix</author>
+</authors>
+<title>Backcalculation of flexible pavement moduli from dynamic deflection basins using artificial neural networks.</title>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1994</volume>
+<pages>1473--72</pages>
+<marker>Meier, Rix, </marker>
+<rawString>Meier, R.G. and Rix, G.J., Backcalculation of flexible pavement moduli from dynamic deflection basins using artificial neural networks. Transp. Res. Rec., 1994b, 1473, 72 –81.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D E Mesher</author>
+<author>C B Dawley</author>
+<author>J L Davis</author>
+<author>J R Rossiter</author>
+</authors>
+<title>Evaluation of new ground penetrating radar technology to quantify pavement structure.</title>
+<date>1995</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1505--17</pages>
+<marker>Mesher, Dawley, Davis, Rossiter, 1995</marker>
+<rawString>Mesher, D.E., Dawley, C.B., Davis, J.L. and Rossiter, J.R., Evaluation of new ground penetrating radar technology to quantify pavement structure. Transp. Res. Rec., 1995, 1505, 17–26.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Morey</author>
+</authors>
+<title>Ground penetrating radar for evaluating subsurface conditions for transportation facilities.</title>
+<date>1998</date>
+<journal>Synthesis of Highway Practice</journal>
+<volume>255</volume>
+<location>Press: Washington, DC).</location>
+<marker>Morey, 1998</marker>
+<rawString>Morey, R., Ground penetrating radar for evaluating subsurface conditions for transportation facilities. Synthesis of Highway Practice 255, 1998 (NCHRP, National Academy Press: Washington, DC).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Moropoulou</author>
+<author>N P Avdelidis</author>
+<author>M Koui</author>
+<author>K Kakaras</author>
+</authors>
+<title>An application of thermography for detection of delaminations in airport pavements.</title>
+<date>2001</date>
+<journal>NDT&amp;E Int.,</journal>
+<pages>34--329</pages>
+<marker>Moropoulou, Avdelidis, Koui, Kakaras, 2001</marker>
+<rawString>Moropoulou, A., Avdelidis, N.P., Koui, M. and Kakaras, K., An application of thermography for detection of delaminations in airport pavements. NDT&amp;E Int., 2001, 34, 329 –335.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>NCHRP Design</author>
+</authors>
+<title>Guide 1-37A, Guide for mechanistic-empirical design of new and rehabilitated pavement structures, National cooperative highway research program.</title>
+<date>2004</date>
+<journal>Transportation Research Board, National Research Council,</journal>
+<note>(available online http://www.trb.org.mepdg.guide.htm),</note>
+<marker>Design, 2004</marker>
+<rawString>NCHRP Design Guide 1-37A, Guide for mechanistic-empirical design of new and rehabilitated pavement structures, National cooperative highway research program. Transportation Research Board, National Research Council, March 2004 (available online http://www.trb.org.mepdg.guide.htm), 2006.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>G Alvarado</author>
+</authors>
+<title>Impact of temperature gradient on modulus of asphaltic concrete layers.</title>
+<date>2006</date>
+<journal>J. Mater. Civ. Eng.,</journal>
+<pages>18--492</pages>
+<marker>Nazarian, Alvarado, 2006</marker>
+<rawString>Nazarian, S. and Alvarado, G., Impact of temperature gradient on modulus of asphaltic concrete layers. J. Mater. Civ. Eng., 2006, 18, 492 –499.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>M R Desai</author>
+</authors>
+<title>Automated surface wave method: field testing.</title>
+<date>1993</date>
+<journal>J. Geotech. Eng.,</journal>
+<pages>119--1094</pages>
+<marker>Nazarian, Desai, 1993</marker>
+<rawString>Nazarian, S. and Desai, M.R., Automated surface wave method: field testing. J. Geotech. Eng., 1993, 119, 1094–1111.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>K H Stokoe</author>
+</authors>
+<title>Use of surface waves in pavement evaluation.</title>
+<date>1986</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1070--132</pages>
+<marker>Nazarian, Stokoe, 1986</marker>
+<rawString>Nazarian, S. and Stokoe, II, K.H., Use of surface waves in pavement evaluation. Transp. Res. Rec., 1986, 1070, 132– 144.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>K H Stokoe</author>
+<author>R Briggs</author>
+</authors>
+<title>Determination of pavement layer thickness and moduli by SASW method.</title>
+<date>1988</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1196--133</pages>
+<marker>Nazarian, Stokoe, Briggs, 1988</marker>
+<rawString>Nazarian, S., Stokoe, II, K.H. and Briggs, R., Determination of pavement layer thickness and moduli by SASW method. Transp. Res. Rec., 1988, 1196, 133–150.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>M R Baker</author>
+<author>K Crain</author>
+</authors>
+<title>Development and testing of a seismic pavement analyzer,</title>
+<date>1993</date>
+<booktitle>SHRP-H-375, Tech. rep., Strategic High-way Research Program, National research Council,</booktitle>
+<location>Washington, DC,</location>
+<marker>Nazarian, Baker, Crain, 1993</marker>
+<rawString>Nazarian, S., Baker, M.R. and Crain, K., Development and testing of a seismic pavement analyzer, SHRP-H-375, Tech. rep., Strategic High-way Research Program, National research Council, Washington, DC, 1993.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>D Yuan</author>
+<author>V Tandon</author>
+</authors>
+<title>Structural field testing of flexible layers with seismic methods for quality control.</title>
+<date>1999</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1654--1</pages>
+<contexts>
+<context position="3829" citStr="Nazarian et al. 1999" startWordPosition="551" endWordPosition="554">t specifically cover the issues related to estimation of density, moisture content, etc. 2. Basic principles of NDE techniques for asphalt pavements A number of NDE methods have been developed for evaluation of asphalt pavements. For in situ NDT of pavements, only the top surface is available. Thus, methods requiring access to two different surfaces of the pavement structure cannot be employed in this case (X-ray method, etc.). Laboratory techniques such as resonance column method and ultrasonic testing have been used to determine the seismic moduli for complimenting the evaluation procedure (Nazarian et al. 1999, Celaya and Nazarian 2007). These techniques can also be used for calibration of field NDT methods (Hammons et al. 2006). Many of the NDE methods involve implementation of forward approach for analysis and the inverse approach for interpretation. In forward approach, the system is idealised in the form of a model to study its physical response (say, deflection) due to some stimulus (say, force), when the properties of the pavement layers (say, layer elastic moduli) are assumed. A simple approach to forward modeling of pavement structure is to idealise it as a horizontally layered, linearly el</context>
+</contexts>
+<marker>Nazarian, Yuan, Tandon, 1999</marker>
+<rawString>Nazarian, S., Yuan, D. and Tandon, V., Structural field testing of flexible layers with seismic methods for quality control. Transp. Res. Rec., 1999, 1654, 1–27.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>D Yuan</author>
+<author>A Medichetti</author>
+</authors>
+<title>Optimizing opening of Portland cement concrete pavements using integrated maturity and nondestructive tests.</title>
+<date>2003</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1861--3</pages>
+<marker>Nazarian, Yuan, Medichetti, 2003</marker>
+<rawString>Nazarian, S., Yuan, D. and Medichetti, A., Optimizing opening of Portland cement concrete pavements using integrated maturity and nondestructive tests. Transp. Res. Rec., 2003, 1861, 3–9.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Nazarian</author>
+<author>I N Abdallah</author>
+<author>D Yuan</author>
+</authors>
+<title>Neural networks for rapid reduction interpretation of spectral analysis of surface waves results.</title>
+<date>2004</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1868--150</pages>
+<marker>Nazarian, Abdallah, Yuan, 2004</marker>
+<rawString>Nazarian, S., Abdallah, I.N. and Yuan, D., Neural networks for rapid reduction interpretation of spectral analysis of surface waves results. Transp. Res. Rec., 2004, 1868, 150 –155.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A A Oloufa</author>
+<author>H S Mahgoub</author>
+<author>H Ali</author>
+</authors>
+<title>Infrared thermography for asphalt crack imaging and automated detection.</title>
+<date>2004</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1889</volume>
+<pages>126--133</pages>
+<marker>Oloufa, Mahgoub, Ali, 2004</marker>
+<rawString>Oloufa, A.A., Mahgoub, H.S. and Ali, H., Infrared thermography for asphalt crack imaging and automated detection. Transp. Res. Rec., 2004, 1889, 126–133.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>C B Park</author>
+<author>R D Miller</author>
+<author>J Xia</author>
+</authors>
+<title>Imaging dispersion curves of surface waves on multi-channel records, expanded abstract.</title>
+<date>1998</date>
+<booktitle>in Technical Program with Biographies, SEG, 68th Annual Meeting, Society of Exploration Geophysicists,</booktitle>
+<pages>1377--1380</pages>
+<location>New Orleans,</location>
+<marker>Park, Miller, Xia, 1998</marker>
+<rawString>Park, C.B., Miller, R.D. and Xia, J., Imaging dispersion curves of surface waves on multi-channel records, expanded abstract. in Technical Program with Biographies, SEG, 68th Annual Meeting, Society of Exploration Geophysicists, New Orleans, 1998, pp. 1377–1380.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>H M Park</author>
+<author>R Kim</author>
+<author>S Park</author>
+</authors>
+<title>Temperature correction of multiload-level falling weight deflectometer deflections.</title>
+<date>2002</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1806--3</pages>
+<contexts>
+<context position="10782" citStr="Park et al. 2002" startWordPosition="1648" endWordPosition="1651">rd the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer (HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003). Major advantage of this technique is that it closely simulates the actual in-service pavement loading. Another benefit is that the road need not</context>
+</contexts>
+<marker>Park, Kim, Park, 2002</marker>
+<rawString>Park, H.M., Kim, R. and Park, S., Temperature correction of multiload-level falling weight deflectometer deflections. Transp. Res. Rec., 2002, 1806, 3–8.</rawString>
+</citation>
+<citation valid="false">
+<authors>
+<author>T K Pellinen</author>
+<author>M W Witczak</author>
+</authors>
+<title>Use of stiffess of hot-mix asphalt as a simple performance test.</title>
+<journal>Transp. Res. Rec.,</journal>
+<volume>2002</volume>
+<marker>Pellinen, Witczak, </marker>
+<rawString>Pellinen, T.K. and Witczak, M.W., Use of stiffess of hot-mix asphalt as a simple performance test. Transp. Res. Rec., 2002, 1789, 80 –90. Pittman, D., Load transfer characteristics of roller-compacted concrete pavement joints and cracks. Transp. Res.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>Rec</author>
+</authors>
+<date>1996</date>
+<volume>1525</volume>
+<pages>9</pages>
+<marker>Rec, 1996</marker>
+<rawString>Rec., 1996, 1525, 1– 9.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Rahiom</author>
+<author>K George</author>
+</authors>
+<title>Falling weight deflectometer for estimating subgrade elastic moduli.</title>
+<date>2003</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>129--100</pages>
+<contexts>
+<context position="10499" citStr="Rahiom and George 2003" startWordPosition="1603" endWordPosition="1606">ary between 0.025 and 0.30 s, and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al. 2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Bouko</context>
+</contexts>
+<marker>Rahiom, George, 2003</marker>
+<rawString>Rahiom, A. and George, K., Falling weight deflectometer for estimating subgrade elastic moduli. J. Transp. Eng., 2003, 129, 100 –107.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F E Hall</author>
+<author>J R</author>
+<author>R D Woods</author>
+</authors>
+<title>Vibrations of Soils and Foundations,</title>
+<date>1970</date>
+<location>New Jersey).</location>
+<marker>Hall, R, Woods, 1970</marker>
+<rawString>Richart, Jr. F.E., Hall, Jr. J.R. and Woods, R.D., Vibrations of Soils and Foundations, 1970 (Prentice-Hall Inc., Englewood Cliffs, New Jersey).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J M Roesset</author>
+</authors>
+<title>Nondestructive dynamic testing of soils and pavements.</title>
+<date>1998</date>
+<journal>Tamkang J. Sci. Eng.,</journal>
+<volume>1</volume>
+<pages>61--81</pages>
+<contexts>
+<context position="10475" citStr="Roesset 1998" startWordPosition="1601" endWordPosition="1602">lse load may vary between 0.025 and 0.30 s, and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al. 2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load is measured by a load cell, and its variation may be used to evaluate the stress dependence of the layer modulus (Roesset 1998, Rahiom and George 2003, NCHRP Design Guide1-37A 2006). Since the stiffness of asphalt layer is affected by temperature, a suitable temperature correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al</context>
+</contexts>
+<marker>Roesset, 1998</marker>
+<rawString>Roesset, J.M., Nondestructive dynamic testing of soils and pavements. Tamkang J. Sci. Eng., 1998, 1, 61–81.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J M Roesset</author>
+<author>K Y Shao</author>
+</authors>
+<title>Dynamic interpretation of dynaflect and FWD tests.</title>
+<date>1985</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1022--7</pages>
+<contexts>
+<context position="12684" citStr="Roesset and Shao 1985" startWordPosition="1957" endWordPosition="1960">s not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderso</context>
+</contexts>
+<marker>Roesset, Shao, 1985</marker>
+<rawString>Roesset, J.M. and Shao, K.Y., Dynamic interpretation of dynaflect and FWD tests. Transp. Res. Rec., 1985, 1022, 7–16.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Roesset</author>
+<author>D Chang</author>
+<author>K H Stokoe</author>
+</authors>
+<title>Modulus and thickness of the pavement surface layer from SASW tests.</title>
+<date>1990</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1260--53</pages>
+<marker>Roesset, Chang, Stokoe, 1990</marker>
+<rawString>Roesset, J., Chang, D. and Stokoe, II, K.H., Modulus and thickness of the pavement surface layer from SASW tests. Transp. Res. Rec., 1990, 1260, 53–63.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J M Roesset</author>
+<author>E Kausel</author>
+<author>V Cuellar</author>
+<author>J Monte</author>
+<author>J Valerio</author>
+</authors>
+<title>Impact of weight falling on to the ground.</title>
+<date>1994</date>
+<journal>J. Geotech. Eng.,</journal>
+<pages>120--1394</pages>
+<contexts>
+<context position="12417" citStr="Roesset et al. 1994" startWordPosition="1912" endWordPosition="1915">ed (of the order of 2.4 km/hr) and the deflection is continuously measured (Bay and Stokoe 1998, Goktepe et al. 2006) by rolling sensors. RDD also measures the deflection from inertial frame of reference, hence the error associated with the geometry of the road does not come into picture (Bay and Stokoe 1998, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalcul</context>
+</contexts>
+<marker>Roesset, Kausel, Cuellar, Monte, Valerio, 1994</marker>
+<rawString>Roesset, J.M., Kausel, E., Cuellar, V., Monte, J. and Valerio, J., Impact of weight falling on to the ground. J. Geotech. Eng., 1994, 120, 1394–1412.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Roque</author>
+<author>B E Ruth</author>
+<author>S C Sedwick</author>
+</authors>
+<title>Limitations of backcalculation and improved methods for pavement layer moduli predictions.</title>
+<date>1998</date>
+<booktitle>in 5th International Conference on the Bearing Capacity of Roads and Airfields, Trondheium, Norway</booktitle>
+<volume>1</volume>
+<pages>409--417</pages>
+<contexts>
+<context position="13511" citStr="Roque et al. 1998" startWordPosition="2084" endWordPosition="2087">em of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventional optimisation techniques take a long time to backcalculate the layer moduli (Harichandran et al. 1993). There are c</context>
+</contexts>
+<marker>Roque, Ruth, Sedwick, 1998</marker>
+<rawString>Roque, R., Ruth, B.E. and Sedwick, S.C., Limitations of backcalculation and improved methods for pavement layer moduli predictions. in 5th International Conference on the Bearing Capacity of Roads and Airfields, Trondheium, Norway vol. 1, pp. 409 –417, 1998.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>B K Roy</author>
+</authors>
+<title>New look at DCP test with a link to AASHTO SN concept.</title>
+<date>2007</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>133--264</pages>
+<contexts>
+<context position="2425" citStr="Roy 2007" startWordPosition="352" endWordPosition="353">ral evaluation process, the primary objective is to estimate the structural strength. For asphalt pavements, it may be expressed in terms of in situ layer elastic moduli, layer thickness, inter-layer bond conditions and anomaly characterisation. A simple and direct evaluation method for layer properties estimation is by visual examination after digging pits or taking cores from the pavement, which are destructive methods. Dynamic cone penetrometer test can give a qualitative (and to some extent quantitative) estimation of layer thickness, though it has some limitations (Loizos and Plati 2007, Roy 2007) in terms of test-speed, error and subjectivity in testing. *Corresponding author. Email: amitji@iitk.ac.in †Email: adas@iitk.ac.in Nondestructive Testing and Evaluation ISSN 1058-9759 print/ISSN 1477-2671 online q 2008 Taylor &amp; Francis http://www.tandf.co.uk/journals DOI: 10.1080/10589750701848697 122 A. Goel and A. Das This paper discusses some of the emerging as well as contemporary nondestructive evaluation (NDE) methods which have found applications for in situ structural evaluation of asphalt pavements. Underlying principles and test set-up of various techniques alongwith their scope and</context>
+</contexts>
+<marker>Roy, 2007</marker>
+<rawString>Roy, B.K., New look at DCP test with a link to AASHTO SN concept. J. Transp. Eng., 2007, 133, 264– 274.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Ryden</author>
+</authors>
+<title>Surface wave testing of pavements,</title>
+<date>2004</date>
+<tech>PhD thesis,</tech>
+<institution>Lund Institute of Technology,</institution>
+<marker>Ryden, 2004</marker>
+<rawString>Ryden, N., Surface wave testing of pavements, PhD thesis, Lund Institute of Technology, 2004.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Ryden</author>
+<author>C B Park</author>
+</authors>
+<title>Fast simulated annealing inversion of surface waves on pavement using phase-velocity spectra. Geophysics,</title>
+<date>2006</date>
+<volume>71</volume>
+<pages>49--58</pages>
+<marker>Ryden, Park, 2006</marker>
+<rawString>Ryden, N. and Park, C.B., Fast simulated annealing inversion of surface waves on pavement using phase-velocity spectra. Geophysics, 2006, 71, R49–R58.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Ryden</author>
+<author>P Ulriksen</author>
+<author>C B Park</author>
+<author>R D Miller</author>
+<author>J Xia</author>
+<author>J Ivanov</author>
+</authors>
+<title>High frequency MASW for non-destructive testing of pavements-accelerometer approach.</title>
+<date>2001</date>
+<booktitle>in Symposium on the Application of Geohysics to Engineering and Environmental Problems (SAGEEP 2001), Environmental and Engineering Geophysical Society,</booktitle>
+<pages>1--5</pages>
+<location>Denver,</location>
+<marker>Ryden, Ulriksen, Park, Miller, Xia, Ivanov, 2001</marker>
+<rawString>Ryden, N., Ulriksen, P., Park, C.B., Miller, R.D., Xia, J. and Ivanov, J., High frequency MASW for non-destructive testing of pavements-accelerometer approach. in Symposium on the Application of Geohysics to Engineering and Environmental Problems (SAGEEP 2001), Environmental and Engineering Geophysical Society, Denver, 2001, pp. RBA-1–RBA-5.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Saarenketo</author>
+</authors>
+<title>Using ground penetrating radar and dielectric probe measurements in pavement density quality control.</title>
+<date>1997</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1575--34</pages>
+<marker>Saarenketo, 1997</marker>
+<rawString>Saarenketo, T., Using ground penetrating radar and dielectric probe measurements in pavement density quality control. Transp. Res. Rec., 1997, 1575, 34–41.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>R Saarenketo</author>
+<author>T Scullion</author>
+</authors>
+<title>Road evaluation with ground penetrating radar.</title>
+<date>2000</date>
+<journal>J. Appl. Geophys.,</journal>
+<pages>43--119</pages>
+<marker>Saarenketo, Scullion, 2000</marker>
+<rawString>Saarenketo, R. and Scullion, T., Road evaluation with ground penetrating radar. J. Appl. Geophys., 2000, 43, 119– 138.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>A Goel</author>
+<author>A Das Sack</author>
+<author>D A</author>
+<author>L D Olson</author>
+</authors>
+<title>Advanced NDT methods for evaluating concrete bridges and other structures.</title>
+<date>1995</date>
+<journal>NDT&amp;E Int.,</journal>
+<pages>28--349</pages>
+<marker>Goel, Sack, A, Olson, 1995</marker>
+<rawString>A. Goel and A. Das Sack, D.A. and Olson, L.D., Advanced NDT methods for evaluating concrete bridges and other structures. NDT&amp;E Int., 1995, 28, 349–357.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>I Sanchez-Salinero</author>
+<author>J Roesset</author>
+<author>K Shao</author>
+<author>K H Stokoe</author>
+<author>G Rix</author>
+</authors>
+<title>Analytical evaluation of variables affecting surface wave testing of pavements.</title>
+<date>1987</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1136--8695</pages>
+<marker>Sanchez-Salinero, Roesset, Shao, Stokoe, Rix, 1987</marker>
+<rawString>Sanchez-Salinero, I., Roesset, J., Shao, K., Stokoe, II, K.H. and Rix, G., Analytical evaluation of variables affecting surface wave testing of pavements. Transp. Res. Rec., 1987, 1136, 8695.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Sansalone</author>
+</authors>
+<title>Impact-echo: the complete story.</title>
+<date>1997</date>
+<journal>ACI Struct. J.,</journal>
+<volume>94</volume>
+<pages>777--786</pages>
+<marker>Sansalone, 1997</marker>
+<rawString>Sansalone, M., Impact-echo: the complete story. ACI Struct. J., 1997, 94, 777–786.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>F H Scrivner</author>
+<author>C H Michalak</author>
+<author>W M Moore</author>
+</authors>
+<title>Calculation of the elastic moduli of a two-layer pavement system from measured surface deflection. Highway Res. Rec.,</title>
+<date>1973</date>
+<pages>431--12</pages>
+<contexts>
+<context position="13188" citStr="Scrivner et al. 1973" startWordPosition="2037" endWordPosition="2040"> to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . </context>
+</contexts>
+<marker>Scrivner, Michalak, Moore, 1973</marker>
+<rawString>Scrivner, F.H., Michalak, C.H. and Moore, W.M., Calculation of the elastic moduli of a two-layer pavement system from measured surface deflection. Highway Res. Rec., 1973, 431, 12–22.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T Scullion</author>
+<author>T Saarenketo</author>
+</authors>
+<title>Using suction and dielectric measurements as performance indicators for aggregate base materials.</title>
+<date>1997</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1577--37</pages>
+<marker>Scullion, Saarenketo, 1997</marker>
+<rawString>Scullion, T. and Saarenketo, T., Using suction and dielectric measurements as performance indicators for aggregate base materials. Transp. Res. Rec., 1997, 1577, 37–44.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P E Sebaaly</author>
+<author>N Tabatanee</author>
+<author>T Scullion</author>
+</authors>
+<title>Comparison of backcalculated moduli from falling weight deflectometer and truck loading.</title>
+<date>1991</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1377--17</pages>
+<contexts>
+<context position="9748" citStr="Sebaaly et al. 1991" startWordPosition="1472" endWordPosition="1475"> applied to the pavement which may adversely affect the accuracy of pavement response (Fwa 2006). 3.3 Transient impulse loading This method uses an impulsive transient load application to the pavement test-section and the deflection response is recorded at a series of radial points (ASTM D4694 2003). This type of device is typically referred to as falling weight deflectometer (FWD) and is schematically shown in (figure 2). The amount of impact load, duration and the loading area is adjusted in such a way that it closely corresponds to the actual loading by a standard truck on in-service road (Sebaaly et al. 1991). The peak load is controlled by varying the falling mass, height of drop and the spring constant. The time of impulse load may vary between 0.025 and 0.30 s, and the applied load may vary between 4.45 and 156 kN (Bay and Stokoe 1998, Goktepe et al. 2006). Generally, the load pulses are of halfsine type and the loading area is a 30 cm diameter circular pad (Bay and Stokoe 1998). Velocity transducers Geophones record the deflection response. Depending on the type of FWD, 3 to 7 geophones are used to capture the deflection profile (Haas et al. 1994, Advisory Circular, No.150/5370-11A 2004). Load</context>
+</contexts>
+<marker>Sebaaly, Tabatanee, Scullion, 1991</marker>
+<rawString>Sebaaly, P.E., Tabatanee, N. and Scullion, T., Comparison of backcalculated moduli from falling weight deflectometer and truck loading. Transp. Res. Rec., 1991, 1377, 17– 25.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Sharma</author>
+<author>A Das</author>
+</authors>
+<title>Backcalculation of pavement layer moduli from falling weight deflectometer data using artificial neural network.</title>
+<date>2008</date>
+<journal>Canadian Journal of Civil Engineering,</journal>
+<note>to appear in</note>
+<marker>Sharma, Das, 2008</marker>
+<rawString>Sharma, S. and Das, A., Backcalculation of pavement layer moduli from falling weight deflectometer data using artificial neural network. Canadian Journal of Civil Engineering, (to appear in 2008).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Shokouhi</author>
+<author>N Gucunski</author>
+<author>A Maher</author>
+</authors>
+<title>Application of wavelets in detection of cavities under pavements by surface waves.</title>
+<date>2003</date>
+<journal>Transp. Res. Rec.,</journal>
+<volume>1860</volume>
+<pages>57--65</pages>
+<marker>Shokouhi, Gucunski, Maher, 2003</marker>
+<rawString>Shokouhi, P., Gucunski, N. and Maher, A., Application of wavelets in detection of cavities under pavements by surface waves. Transp. Res. Rec., 2003, 1860, 57–65.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Shull</author>
+</authors>
+<title>(Ed.) Nondestructive Evaluation: Theory, Techniques and Applications,</title>
+<date>2002</date>
+<publisher>Marcel and Dekker Inc.,</publisher>
+<location>New York).</location>
+<marker>Shull, 2002</marker>
+<rawString>P. Shull (Ed.) Nondestructive Evaluation: Theory, Techniques and Applications, 2002 (Marcel and Dekker Inc., New York).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>N Sivaneswaran</author>
+<author>S L Kramer</author>
+<author>J P Mohoney</author>
+</authors>
+<title>Advanced backcalculation using non-linear leasts quares optimization technique.</title>
+<date>1991</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1293--93</pages>
+<contexts>
+<context position="13395" citStr="Sivaneswaran et al. 1991" startWordPosition="2065" endWordPosition="2068">ive erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), (iii) optimisation techniques (Bush and Alexander 1985, Sivaneswaran et al. 1991, Harichandran et al. 1993), (iv) regression equations (Ali and Khosla 1987, Mahoney et al. 1993, Roque et al. 1998), (v) evolutionary algorithms (Meier and Rix 1994a,b, Sharma and Das) and (vi) combination of these methods have been implemented for backcalculation of layer moduli. The difficulties faced by various backcalculation approaches may be summarised as follows (Sharma and Das): . The closed formed solutions can handle only limited and idealistic situations. . The regression methods are fast, but sometimes may give inaccurate results (Lenngren 1991). . The methods based on conventiona</context>
+</contexts>
+<marker>Sivaneswaran, Kramer, Mohoney, 1991</marker>
+<rawString>Sivaneswaran, N., Kramer, S.L. and Mohoney, J.P., Advanced backcalculation using non-linear leasts quares optimization technique. Transp. Res. Rec., 1991, 1293, 93– 102.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>M Storme</author>
+<author>R Fortier</author>
+<author>J-M Konrad</author>
+</authors>
+<title>Forward modeling of steady-state surface wave test.</title>
+<date>2005</date>
+<journal>J. Geotech. Geoenviron. Eng.,</journal>
+<pages>131--662</pages>
+<marker>Storme, Fortier, Konrad, 2005</marker>
+<rawString>Storme, M., Fortier, R. and Konrad, J.-M., Forward modeling of steady-state surface wave test. J. Geotech. Geoenviron. Eng., 2005, 131, 662–665.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>W Thomson</author>
+</authors>
+<title>Transmission of elastic waves through a stratified solid medium.</title>
+<date>1950</date>
+<journal>J. Appl. Phys.,</journal>
+<volume>21</volume>
+<pages>89--93</pages>
+<marker>Thomson, 1950</marker>
+<rawString>Thomson, W., Transmission of elastic waves through a stratified solid medium. J. Appl. Phys., 1950, 21, 89–93.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D J Turner</author>
+<author>J Lee</author>
+<author>K H Stokoe</author>
+<author>R Boudreau</author>
+<author>Q B Watkins</author>
+<author>G Chang</author>
+</authors>
+<title>Discrete and continuous deflection testing of runways at Hartsfield Atlanta international airport,</title>
+<date>2003</date>
+<journal>Georgia. Transp. Res. Rec.,</journal>
+<pages>1860--76</pages>
+<contexts>
+<context position="11236" citStr="Turner et al. 2003" startWordPosition="1722" endWordPosition="1725">re correction factor needs to be applied to the observed deflection values to convert them to values at the standard temperature (Chen et al. 2000, Park et al. 2002). Some lighter versions of FWDs, called as light falling weight deflectometer, are also available in which the impact load is relatively small (Loizos et al. 2003, Goktepe et al. 2006). LFWD is generally found to be suitable for base and subgrade evaluation (Loizos et al. 2003, Alshibli et al. 2005, Loizos and Boukovalas 2005). In heavy weight deflectometer (HWD) heavier load is used to simulate aircraft or other heavier vehicles (Turner et al. 2003). Major advantage of this technique is that it closely simulates the actual in-service pavement loading. Another benefit is that the road need not be closed to traffic during the test Figure 2. Schematics of a typical FWD test set up. Nondestructive testing of asphalt pavements 125 process. However, FWD method is relatively expensive and inverse analysis is complex. For taking FWD measurements one needs to stop every time for deflection measurement. This problem is taken care of by the rolling dynamic deflectometer (RDD) where the vehicle moves at slow speed (of the order of 2.4 km/hr) and the</context>
+</contexts>
+<marker>Turner, Lee, Stokoe, Boudreau, Watkins, Chang, 2003</marker>
+<rawString>Turner, D.J., Lee, J., Stokoe, II, K.H., Boudreau, R., Watkins, Q.B. and Chang, G., Discrete and continuous deflection testing of runways at Hartsfield Atlanta international airport, Georgia. Transp. Res. Rec., 2003, 1860, 76 –89.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>P Ullidtz</author>
+</authors>
+<title>Pavement Analysis,</title>
+<date>1987</date>
+<publisher>Elsevier: The</publisher>
+<contexts>
+<context position="9030" citStr="Ullidtz 1987" startWordPosition="1358" endWordPosition="1359">flectometer setup. 124 A. Goel and A. Das by counter rotating mass or electro-hydraulic system. The two trailer wheels equally distribute the vertical dynamic load to the pavement. A geophone series measures the velocity of movement with respect to time, which on integration gives the deflection basin (Haas et al. 1994). Thus, the deflection measurement for these devices are free from influence of deflection bowl. However, test loading is harmonic and does not have any rest period. Hence, the loading condition is somewhat different (Fwa 2006) and the magnitude of load applied is also smaller (Ullidtz 1987) than the actual situation of in-service pavements. Also, a relatively large amount of pre-load is applied to the pavement which may adversely affect the accuracy of pavement response (Fwa 2006). 3.3 Transient impulse loading This method uses an impulsive transient load application to the pavement test-section and the deflection response is recorded at a series of radial points (ASTM D4694 2003). This type of device is typically referred to as falling weight deflectometer (FWD) and is schematically shown in (figure 2). The amount of impact load, duration and the loading area is adjusted in suc</context>
+</contexts>
+<marker>Ullidtz, 1987</marker>
+<rawString>Ullidtz, P., Pavement Analysis, 1987 (Elsevier: The Netherlands).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>S Underwood</author>
+<author>Y R Kim</author>
+</authors>
+<title>Determination of depth of surface cracks in asphalt pavements.</title>
+<date>2002</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>1853--143</pages>
+<marker>Underwood, Kim, 2002</marker>
+<rawString>Underwood, S. and Kim, Y.R., Determination of depth of surface cracks in asphalt pavements. Transp. Res. Rec., 2002, 1853, 143 –149.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>J Uzan</author>
+</authors>
+<title>Advanced backcalculation techniques. STP 1198, Nondestructive Testing of Pavements and</title>
+<date>1994</date>
+<journal>Backcalculation of Moduli,</journal>
+<volume>2</volume>
+<pages>3--37</pages>
+<location>(ASTM: Philadelphia, PA).</location>
+<contexts>
+<context position="12715" citStr="Uzan 1994" startWordPosition="1965" endWordPosition="1966">98, Bay et al. 2000). Since, the deflections are measured continuously, the statistical confidence is also good (Lee et al. 2006). Forward analysis approach which simulates the FWD loading can be divided into two broad categories, static analysis (Lytton 1989, Fwa 2006) and dynamic analysis (Roesset et al. 1994, Loizos et al. 2003, Loizos and Boukovalas 2005). The dynamic analysis is able to take into account the inertia effects, and loss of impact energy due to hysteresis and seismic wave radiation (Chang et al. 1992, Loizos et al. 2003). Researches (Roesset and Shao 1985, Chang et al. 1992, Uzan 1994) suggest that the use of static analysis may sometimes give erroneous results, especially when there exists a stiff bedrock layer below the pavement at a shallow depth. The problem of backcalculation, i.e. inverse analysis is a complex one, and efforts are being made to evolve a generalised backcalculation approach (May and Von Quintus 1994) that can reach the solution quickly and accurately. Various approaches based on (i) closed formed solutions (Scrivner et al. 1973, Hall and Mohseni 1991, Advisory Circular, No.150/5370-11A 2004), (ii) database search (Anderson 1989, Chou and Lytton 1991), </context>
+</contexts>
+<marker>Uzan, 1994</marker>
+<rawString>Uzan, J., Advanced backcalculation techniques. STP 1198, Nondestructive Testing of Pavements and Backcalculation of Moduli, vol. 2, pp. 3 –37, 1994 (ASTM: Philadelphia, PA).</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>G J Weil</author>
+</authors>
+<title>Non-destructive testing of bridge, highway and airport pavements.</title>
+<date>1993</date>
+<booktitle>in Int Conf NDT of Concrete in the Infrastructure,</booktitle>
+<location>Dearbon, MI,</location>
+<marker>Weil, 1993</marker>
+<rawString>Weil, G.J., Non-destructive testing of bridge, highway and airport pavements. in Int Conf NDT of Concrete in the Infrastructure, Dearbon, MI, 1993.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D A Willett</author>
+<author>K C Mahboub</author>
+<author>B Rister</author>
+</authors>
+<title>Accuracy of ground-penetrating radar for pavement-layer thickness analysis.</title>
+<date>2006</date>
+<journal>J. Transp. Eng.,</journal>
+<pages>132--96</pages>
+<marker>Willett, Mahboub, Rister, 2006</marker>
+<rawString>Willett, D.A., Mahboub, K.C. and Rister, B., Accuracy of ground-penetrating radar for pavement-layer thickness analysis. J. Transp. Eng., 2006, 132, 96–103.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>T P Williams</author>
+<author>N Gucunski</author>
+</authors>
+<title>Neural networks for backcalculation of moduli from SASW test.</title>
+<date>1995</date>
+<journal>J. Comput. Civ. Eng.,</journal>
+<pages>9--1</pages>
+<marker>Williams, Gucunski, 1995</marker>
+<rawString>Williams, T.P. and Gucunski, N., Neural networks for backcalculation of moduli from SASW test. J. Comput. Civ. Eng., 1995, 9, 1–8.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>D Yuan</author>
+<author>S Nazarian</author>
+</authors>
+<title>Automated surface wave method: inversion technique.</title>
+<date>1993</date>
+<journal>J. Geotech. Eng.,</journal>
+<pages>119--1112</pages>
+<marker>Yuan, Nazarian, 1993</marker>
+<rawString>Yuan, D. and Nazarian, S., Automated surface wave method: inversion technique. J. Geotech. Eng., 1993, 119, 1112–1126.</rawString>
+</citation>
+<citation valid="true">
+<authors>
+<author>E Zube</author>
+<author>R Forsyth</author>
+</authors>
+<title>Flexible pavement maintenance requirements as determined by deflection measurement.</title>
+<date>1966</date>
+<journal>Transp. Res. Rec.,</journal>
+<pages>129--60</pages>
+<contexts>
+<context position="7232" citStr="Zube and Forsyth 1966" startWordPosition="1065" endWordPosition="1068">rds from it, can be done with the help of a dial gauge/linear variable differential transformer, or by using velocity transducers (geophones) (Haas et al. 1994). Various types of deflection based NDE methods are discussed further in the following subsections. 3.1 Static loading method In this method, a static load is applied to the test section and its deflection is measured. Benkelman beam deflection (BBD) test is a simple and relatively inexpensive method under this category. Basic device in a BBD test consists of a lightweight frame to which a beam probe is attached alongwith a dial gauge (Zube and Forsyth 1966). BBD measures the deflection due to static loading of dual tyres of a loaded truck. Measurement process starts by placing the probe between the rear dual wheels of the test vehicle (figure 1). Initial dial gauge reading is recorded. The truck is made to move away by a specified distance and as the rebound rate of pavement surface falls below a specified level, intermediate reading is taken. Truck is again made to move further away and the final reading is taken. Such an approach is adopted as an attempt to reduce/nullify the influence of deflection bowl on the readings (Haas et al. 1994, Chak</context>
+</contexts>
+<marker>Zube, Forsyth, 1966</marker>
+<rawString>Zube, E. and Forsyth, R., Flexible pavement maintenance requirements as determined by deflection measurement. Transp. Res. Rec., 1966, 129, 60–75.</rawString>
+</citation>
+</citationList>
+</algorithm>
+</algorithms>
