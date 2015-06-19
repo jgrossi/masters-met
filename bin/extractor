@@ -1,0 +1,38 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$opt = getopt('t:d:f:');
+
+if (!isset($opt['t'])) {
+	Message::error('Error: you have to specify the tool you want to run');
+}
+
+$tool = $opt['t'];
+$dir = isset($opt['d']) ? $opt['d'] : './papers';
+
+$files = explode("\n", shell_exec("find $dir -type f -iname '*.pdf'"));
+
+$files = isset($opt['f']) ? [$opt['f']] : $files;
+$files = array_filter($files);
+
+foreach ($files as $key => $file) {
+	
+	$filename = getfilename($file);
+	$onlyfilename = getfilename($file, false);
+	$area = array_slice(explode('/', $file), -2, 1)[0];
+	
+	Message::info("Running '$tool' for '$filename'");
+	$output = shell_exec("./tools/{$tool}.sh $file");
+	$outputdir = "outputs-tmp/$area/$tool/";
+	
+	if (!is_dir($outputdir)) {
+		mkdir($outputdir, 0777, true);
+	}
+
+	file_put_contents("$outputdir/$onlyfilename.xml", $output);
+	Message::success("Saved '$tool' results for '$filename'");
+}
+
+beep(1);

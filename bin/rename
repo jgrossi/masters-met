@@ -1,0 +1,50 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$opt = getopt('d:'); // /papers folder
+
+if (!isset($opt['d'])) {
+	Message::error('Error: You must specify the directory to be renamed');
+}
+
+$folder = trim($opt['d'], "/");
+$folders = explode("\n", shell_exec("ls $folder"));
+
+chdir($folder); // get into papers folder
+
+$folders = array_filter($folders, function($folder) {
+	return is_dir($folder) and !empty($folder);
+});
+
+foreach ($folders as $folder) {
+	
+	chdir($folder); // get into area folder
+	
+	$files = explode("\n", shell_exec('ls'));
+	
+	$files = array_filter($files, function($file) {
+		return !empty($file) and is_file($file);
+	});
+
+	foreach ($files as $key => $filename) {
+		
+		$extension = substr($filename, strrpos($filename, '.') + 1);
+
+		if (!in_array($extension, ['pdf', 'PDF'])) {
+			continue;
+		}
+
+		$lowercasefilename = strtolower($filename);
+		$newfilename = $folder.'-'.uniqid().'.pdf';
+
+		Message::warning("Lowercasing $filename");
+
+		// rename($filename, $newfilename);
+		Message::success("Renamed '$filename' to '$newfilename'");
+	}
+
+	chdir('..');
+}
+

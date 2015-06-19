@@ -1,0 +1,24 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$out = shell_exec('find ./outputs');
+$files = explode("\n", $out);
+	
+$files = array_filter($files, function($file) {
+
+	$extension = getextension($file);
+	$filename = getfilename($file);
+
+	return !empty($file) and 
+		   is_file($file) and 
+		   $extension != 'xml' and 
+		   substr($filename, 0, 1) != '.';
+});
+
+foreach ($files as $key => $file) {
+	$filename = getfilename($file);
+	rename($file, $file.'.xml');
+	Message::success("Renamed $filename to $filename.xml");
+}

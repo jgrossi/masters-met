@@ -1,0 +1,16 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$options = getopt("d:"); // folder
+
+if (!isset($options['d'])) {
+	Message::error('Error: You must specify the directory name');
+	exit();
+}
+
+$folder = trim($options['f'], "/");
+$foldername = substr($folder, strrpos($folder, '/') + 1);
+
+Message::success('New filename: '.$foldername.'-'.uniqid().'.pdf');
