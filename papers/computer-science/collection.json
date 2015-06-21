@@ -1,0 +1,310 @@
+{
+	"papers": [
+		{
+			"area": 2, 
+			"filename": "computer-science-557b476d493b3.pdf",
+			"title": "Compilation of Extended Recursion in Call-by-Value Functional Languages",
+			"authors": [
+				{
+					"name": "Tom Hirschowitz",
+					"email": "Tom.Hirschowitz@inria.fr"
+				},
+				{
+					"name": "Xavier Leroy",
+					"email": "Xavier.Leroy@inria.fr"
+				},
+				{
+					"name": "J. B. Wells",
+					"email": "jbw@macs.hw.ac.uk"
+				}
+			],
+			"abstract": "This paper formalizes and proves correct a compilation scheme for mutually-recursive definitions in call-by-value functional languages. This scheme supports a wider range of recursive definitions than standard call-by-value recursive definitions. We formalize our technique as a translation scheme to a lambda-calculus featuring in-place update of memory blocks, and prove the translation to be faithful.",
+			"references": [
+				{
+					"title": "Explicit substitutions",
+					"authors": ["M. Abadi", "L. Cardelli", "P.-L. Curien", "J.-J. Lévy"]
+				},
+				{
+					"title": "Skew confluence and the lambda calculus with letrec",
+					"authors": ["Z. M. Ariola", "S. Blom"]
+				},
+				{
+					"title": "Modeling sharing and recursion for weak reduction strategies using explicit substitution",
+					"authors": ["Z.-E.-A. Benaissa", "P. Lescanne", "K. H. Rose"]
+				},
+				{
+					"title": "The recursive record semantics of objects revisited",
+					"authors": ["G. Boudol"]
+				},
+				{
+					"title": "Recursion in the call-by-value lambda-calculus",
+					"authors": ["G. Boudol", "P. Zimmer"]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b476d4930f.pdf",
+			"title": "Digit ratio (2D:4D), academic performance in computer science and computer-related anxiety",
+			"authors": [
+				{
+					"name": "Mark Brosnan",
+					"email": ""
+				},
+				{
+					"name": "Victoria Gallop",
+					"email": ""
+				},
+				{
+					"name": "Nida Iftikhar",
+					"email": ""
+				},
+				{
+					"name": "Edmund Keogh",
+					"email": ""
+				}
+			],
+			"abstract": "Being able to use information communication technology (ICT) effectively has become an essential ele- ment of participation within an increasingly digital culture. However, there are differences in participa- tion within this digital culture. Prenatal testosterone exposure is thought to influence the development of numeric capabilities and relate to levels of anxiety, both of which contribute towards engagement with ICT. This study examined whether an index of prenatal exposure to testosterone, digit ratio (2D:4D), is related to successful involvement within a computer-technology context – performance in a Java pro- gramming course. Three studies (N = 73,75,65) identified a consistent negative correlation between 2D:4D digit ratio and attainment (r 􏱩 􏱪0.2). A fourth study (N = 119) found that 2D:4D digit ratio posi- tively correlated with two indices of computer-related anxieties, as well as anxiety sensitivity (r = 0.32/0.51). These results suggest that males and females who have been exposed to higher levels of testosterone within the womb perform better upon academic assessments of Java-related program- ming ability within computer science education, and have lower levels of computer-related anxieties out- side computer science education. Thus, the 2D:4D index of prenatal testosterone exposure correlated with the two factors that directly impact upon ICT engagement, which is increasingly essential to effec- tively participate within educational and occupational environments.",
+			"references": [
+				{
+					"title": "Digit ratio (2D:4D) and lateralization for basic numerical quantification",
+					"authors": ["Brookes, H.", "Neave, N.", "Hamilton, C.", "Fink, B."]
+				},
+				{
+					"title": "Technophobia: The psychological impact of information technology",
+					"authors": ["Brosnan, M. J."]
+				},
+				{
+					"title": "The salience of surface features upon task performance",
+					"authors": ["Brosnan, M. J."]
+				},
+				{
+					"title": "The neuropsychology of human computer interaction",
+					"authors": ["Brosnan, M. J."]
+				},
+				{
+					"title": "Digit ratio and faculty membership: Implications for the relationship between prenatal testosterone and academia",
+					"authors": ["Brosnan, M. J."]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b476d49184.pdf",
+			"title": "Programming Without a Computer: A New Interface for Children under Eight",
+			"authors": [
+				{
+					"name": "Peta Wyeth",
+					"email": "peta@csee.uq.edu.au"
+				},
+				{
+					"name": "Helen C. Purchase",
+					"email": "hcp@csee.uq.edu.au"
+				}
+			],
+			"abstract": "Electronic Blocks are a new programming interface, designed for children aged between three and eight years. The Electronic Blocks programming environment includes sensor blocks, action blocks and logic blocks. By connecting these blocks children can program structures that interact with the environment. The Electronic Block programming interface design is based on principles of developmentally appropriate practices in early childhood education. As a result the blocks provide young children with a programming environment that allows them to explore quite complex programming principles. The simple syntax of the blocks provides opportunities for young children unavailable through the use of traditional programming languages. The blocks allow children to create and use simple code structures. The Electronic Block environment provides a developmentally appropriate environment for planning overall strategies for solving a problem, breaking a strategy down into manageable units, and systematically determining the weakness of the solution. Electronic Blocks are the physical embodiment of computer programming. They have the unique dynamic and programmable properties of a computer minus its complexity.",
+			"references": [
+				{
+					"title": "Logo environments: The evolution of the language",
+					"authors": ["Adams, T."]
+				},
+				{
+					"title": "Developmentally appropriate practice in early childhood education",
+					"authors": ["Bredekamp, S.", "Copple, C."]
+				},
+				{
+					"title": "Microcomputers in education: Why is earlier better?",
+					"authors": ["Cuffaro, H. K."]
+				},
+				{
+					"title": "Usability analysis of visual programming environments: A ‘cognitive dimensions’ framework",
+					"authors": ["Green, T. R. G.", "Petre, M."]
+				},
+				{
+					"title": "Development and characteristics of kindergarten-age children",
+					"authors": ["Gullo, D. F."]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b476d49215.pdf",
+			"title": "A Joint Controller-Simulator Programming by Demonstration Method for PLC Devices",
+			"authors": [
+				{
+					"name": "Phissanu Changsakol",
+					"email": "Phissanu@hotmail.com"
+				},
+				{
+					"name": "Nopporn Chotikakamthorn",
+					"email": ""
+				},
+				{
+					"name": "Olarn Wongwirat",
+					"email": ""
+				}
+			],
+			"abstract": "In this paper, a problem of visual programming of PLC (programmable logic controller) devices is described. A programming by demonstration method is developed so that a problem-domain expert can program such devices without computer programming skill. The method is novel in the sense that, unlike other programming-by-demonstration methods, it requires little a priori knowledge of the controlled system model, nor it needs to interact with a real system. A simulation model, which captures the laws of nature governing the system behavior, is jointly programmed with a control device (PLC). A PLC programming tool, developed based on the proposed joint controller-simulator programming by demonstration paradigm, can generate a high-level structure text program code, from the demonstrated actions as performed by a user.",
+			"references": [
+				{
+					"title": "Applying machine learning to programming by demonstration",
+					"authors": ["Gordon W. Paynter", "Ian H. Witten"]
+				},
+				{
+					"title": "Closed Loop Control and Automatic Set Point Generation in Programming by Demonstration for Service Robotic Tasks",
+					"authors": ["Haiying She", "Axel Graeser"]
+				},
+				{
+					"title": "Toward Gesture-Based Programming: Agent- Based Haptic Skill Acquisition and Interpretation",
+					"authors": ["Richard M. Voyles"]
+				},
+				{
+					"title": "Robot Programming by Demonstration (RPD) Using Machine Learning and User Interaction Methods for the Development of Easy and Comfortable Robot Programming System",
+					"authors": ["S. Munch", "J. Kreuziger", "M. Kaiser", "R. Dillmann"]
+				},
+				{
+					"title": "Programming by Demonstration: a Machine Learning Approach",
+					"authors": ["Tessa Lau"]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b476d49268.pdf",
+			"title": "Analysis on the relationship between student grades and computer programming time in learning the C programming language",
+			"authors": [
+				{
+					"name": "Zhixin Tie",
+					"email": "Tiezx@zstu.edu.cn"
+				},
+				{
+					"name": "Hong Zhuang",
+					"email": "Lisa@zstu.edu.cn"
+				},
+				{
+					"name": "Qingyang Zhang",
+					"email": "zqy@zstu.edu.cn"
+				},
+				{
+					"name": "Zhaoqing Wang",
+					"email": "warls@zstu.edu.cn"
+				}
+			],
+			"abstract": "The C Programming Language is one of the most popular teaching programming languages. It is generally considered that the computer programming time that a student spent on his homework directly affects his grade of the C Programming Language. There is little research regarding the correlation of students’ computer programming time and their test grades. The computer programming time, grades of final test and the Zhejiang Computer Grade Test Band II (ZCGTBII) of students from a teaching class are collected. The students are divided into two groups based on their programming time. The T-Test is employed to analyze grades of final test and the ZCGTBII of the two groups. Analysis results show that the mean and the passing rates of final test and the ZCGTBII of Group I are greater than those of Group II. Therefore, we conclude that the amount of time students spend practicing programming on computers plays a very important role towards mastering the C Programming Language.",
+			"references": [
+				{
+					"title": "Programming Language Popularity",
+					"authors": []
+				},
+				{
+					"title": "TIOBE programming community index for June 2011",
+					"authors": ["TIOBE Software"]
+				},
+				{
+					"title": "C for the course",
+					"authors": ["Harry H. Cheng"]
+				},
+				{
+					"title": "National program of web-delivery for elaborate courses - The C programming language",
+					"authors": ["Qinming He"]
+				},
+				{
+					"title": "National program of web-delivery for elaborate courses - The C programming language",
+					"authors": ["Kuanquan Wang"]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b476d49361.pdf",
+			"title": "Teaching Recommender Systems at Large Scale: Evaluation and Lessons Learned from a Hybrid MOOC",
+			"authors": [
+				{
+					"name": "JOSEPH A. KONSTAN",
+					"email": ""
+				},
+				{
+					"name": "J. D. WALKER",
+					"email": ""
+				},
+				{
+					"name": "D. CHRISTOPHER BROOKS",
+					"email": ""
+				},
+				{
+					"name": "KEITH BROWN",
+					"email": ""
+				},
+				{
+					"name": "MICHAEL D. EKSTRAND",
+					"email": ""
+				}
+			],
+			"abstract": "In the fall of 2013, we offered an open online Introduction to Recommender Systems through Coursera, while simultaneously offering a for-credit version of the course on-campus using the Coursera platform and a flipped classroom instruction model. As the goal of offering this course was to experiment with this type of instruction, we performed extensive evaluation including surveys of demographics, self-assessed skills, and learning intent; we also designed a knowledge-assessment tool specifically for the subject matter in this course, administering it before and after the course to measure learning, and again 5 months later to measure retention. We also tracked students through the course, including separating out students enrolled for credit from those enrolled only for the free, open course. \nStudents had significant knowledge gains across all levels of prior knowledge and across all demographic categories. The main predictor of knowledge gain was effort expended in the course. Students also had sig- nificant knowledge retention after the course. Both of these results are limited to the sample of students who chose to complete our knowledge tests. Student completion of the course was hard to predict, with few factors contributing predictive power; the main predictor of completion was intent to complete. Students who chose a concepts-only track with hand exercises achieved the same level of knowledge of recommender systems concepts as those who chose a programming track and its added assignments, though the program- ming students gained additional programming knowledge. Based on the limited data we were able to gather, face-to-face students performed as well as the online-only students or better; they preferred this format to traditional lecture for reasons ranging from pure convenience to the desire to watch videos at a different pace (slower for English language learners; faster for some native English speakers). This article also includes our qualitative observations, lessons learned, and future directions.",
+			"references": [
+				{
+					"title": "Predicting non-traditional student learning outcomes using data analytics–a pilot research study",
+					"authors": ["John P. Buerck", "Srikanth P. Mudigonda", "Stephanie E. Mooshegian", "Kyle Collins", "Nicholas Grimm", "Kristen Bonney", "Hadley Kombrink"]
+				},
+				{
+					"title": "Correlating skill and improvement in 2 MOOCs with a student’s time on tasks",
+					"authors": ["J. Champaign", "K. F. Colvin", "A. Liu", "C. Fredericks", "D. Seaton", "D. E. Pritchard"]
+				},
+				{
+					"title": "MOOCs and the funnel of participation",
+					"authors": ["Doug Clow"]
+				},
+				{
+					"title": "Learning in an introductory physics MOOC: All cohorts learn equally, including an on-campus class",
+					"authors": ["K. Colvin", "J. Champaign", "A. Liu", "Q. Zhou", "C. Fredericks", "D. Pritchard"]
+				},
+				{
+					"title": "Changing “course”: Reconceptualizing educational variables for massive open online courses",
+					"authors": ["J. DeBoer", "A. D. Ho", "G. S. Stump", "L. Breslow"]
+				}
+			]
+		},
+		{
+			"area": 2,
+			"filename": "computer-science-557b684473905.pdf",
+			"title": "Towards Parameter-Free Data Mining",
+			"authors": [
+				{
+					"name": "Eamonn Keogh",
+					"email": "eamonn@cs.ucr.edu"
+				},
+				{
+					"name": "Stefano Lonardi",
+					"email": "stelo@cs.ucr.edu"
+				},
+				{
+					"name": "Chotirat Ann Ratanamahatana",
+					"email": "ratana@cs.ucr.edu"
+				}
+			],
+			"abstract": "Most data mining algorithms require the setting of many input parameters. Two main dangers of working with parameter-laden algorithms are the following. First, incorrect settings may cause an algorithm to fail in finding the true patterns. Second, a perhaps more insidious problem is that the algorithm may report spurious patterns that do not really exist, or greatly overestimate the significance of the reported patterns. This is especially likely when the user fails to understand the role of parameters in the data mining process. \nData mining algorithms should have as few parameters as possible, ideally none. A parameter-free algorithm would limit our ability to impose our prejudices, expectations, and presumptions on the problem at hand, and would let the data itself speak to us. In this work, we show that recent results in bioinformatics and computational theory hold great promise for a parameter-free data- mining paradigm. The results are motivated by observations in Kolmogorov complexity theory. However, as a practical matter, they can be implemented using any off-the-shelf compression algorithm with the addition of just a dozen or so lines of code. We will show that this approach is competitive or superior to the state- of-the-art approaches in anomaly/interestingness detection, classification, and clustering with empirical tests on time series/DNA/text/video datasets.",
+			"references": [
+				{
+					"title": "Sequence Complexity for Biological Sequence Analysis",
+					"authors": ["Allison, L.", "Stern, L.", "Edgoose, T.", "Dix, T.I"]
+				},
+				{
+					"title": "V. Language trees and zipping",
+					"authors": ["Benedetto, D.", "Caglioti, E.", "Loreto, V."]
+				},
+				{
+					"title": "A compression algorithm for DNA sequences and its applications in genome comparison",
+					"authors": ["Chen, X.", "Kwong, S.", "Li, M."]
+				},
+				{
+					"title": "Novelty Detection in Time Series Data using Ideas from Immunology",
+					"authors": ["Dasgupta, D.", "Forrest,S."]
+				},
+				{
+					"title": "A process-oriented heuristic for model selection",
+					"authors": ["Domingos, P."]
+				}
+			]
+		}
+	]
+}
