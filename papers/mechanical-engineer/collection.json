@@ -1,0 +1,267 @@
+{
+	"papers": [
+		{
+			"filename": "mechanical-engineer-557b476d526ec.pdf",
+			"title": "Research on integrating customization design for mechanical product",
+			"authors": [
+				{
+					"name": "TAI Ligang",
+					"email": "lgtai@sjtu.edu.cn"
+				},
+				{
+					"name": "LI Dianqi",
+					"email": ""
+				},
+				{
+					"name": "ZHONG Tingxiu",
+					"email": ""
+				},
+				{
+					"name": "LI Zhi",
+					"email": ""
+				}
+			],
+			"abstract": "This paper proposes an integrating rapid customization design system which combines various technologies such as Web, knowledge based engineering (KBE), engineering database and Computer Aided Design (CAD) and has been used in elevator design. The whole system is set up on the base of engineering database technology, integrating Product Data Management (PDM), Enterprise Resource Planning (ERP) etc. It adopts Web technology to enable customers to individually customize products remotely through the internet. The system also adopts KBE to manage and reuse product design knowledge, while combining the technology of product family modeling and technologies of feature modeling and parametric design, based on the assembly of the CAD system of Unigraphics Solutions Inc., to create a product family case library that achieves intelligent, rapid design customization.",
+			"references": [
+				{
+					"title": "Knowledge-based customization of enterprise applications",
+					"authors": ["Tsoi S K", "Cheung C F", "Lee W B"]
+				},
+				{
+					"title": "Research and development on constraint-based product family design and assembly simulation",
+					"authors": ["Jiang Z H", "Yan J Q"]
+				},
+				{
+					"title": "Knowledge-based engineering design: theory, method and practice",
+					"authors": ["Zhao Z", "Peng Y H"]
+				},
+				{
+					"title": "Product information systems engineering: an approach for building product models by reuse of patterns",
+					"authors": ["Gzara L", "Rieu D", "Tollenaere M"]
+				},
+				{
+					"title": "Rapid response engineering and rapid product design strategy",
+					"authors": ["Zhong T X"]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d527e1.pdf",
+			"title": "Control System Design Automation for Mechanical Systems",
+			"authors": [
+				{
+					"name": "KIYOSHI MAEKAWA",
+					"email": "maekawa@fas.sdl.melco.co.jp"
+				},
+				{
+					"name": "GRANTHAM K. H. PANG",
+					"email": "gpang@hkueee.hku.hk"
+				}
+			],
+			"abstract": "In this paper, a user-friendly and comprehensive control system design package called Control System Design Automation (CSDA) is described. The system consists of five main blocks: a requirement interpretation block, a modeling block, an analysis/design block, a database management and knowledge base block, and a verification block. The requirement interpretation block transforms the specifications in terms of the application to those in terms of control. The analysis/design block selects an optimal control structure and determines the controller parameters. In addition to the conventional design methods, CSDA also contains the more recent design methods such as the LMI design approach and the Kessler/Manabe method. The LMI approach can obtain a controller which satisfies multiple specification items at the same time. The configuration of the system as well as the analysis/design block are described in detail in this paper.",
+			"references": [
+				{
+					"title": "A computer-aided optimization-based controller design tool",
+					"authors": ["Reilly, J.", "Levine, W. S", "Eadan, E.", "Huang, C."]
+				},
+				{
+					"title": "Optimization system for control system design",
+					"authors": ["Murakami, K.", "Knnno, T.", "Kurotani, K.", "Takano, M."]
+				},
+				{
+					"title": "LMI Control Toolbox",
+					"authors": ["Gahinet, P.", "Nemirowski, A.", "Laub, A. J.", "Chilali, M."]
+				},
+				{
+					"title": "Novel methods and recent trends of 2-inertia resonant system control",
+					"authors": ["Hori, Y."]
+				},
+				{
+					"title": "Linear Matrix Inequalities in System and Control Theory",
+					"authors": ["Boyd, S."]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d5266b.pdf",
+			"title": "The fundamentals of barriers to reverse engineering and their implementation into mechanical components",
+			"authors": [
+				{
+					"name": "Shane K. Curtis",
+					"email": "shanekcurtis@gmail.com"
+				},
+				{
+					"name": "Stephen P. Harston",
+					"email": "sharston@gmail.com"
+				},
+				{
+					"name": "Christopher A. Mattson",
+					"email": "mattson@byu.edu"
+				}
+			],
+			"abstract": "Reverse engineering is a common design strategy in industry. It is a term that has come to encompass a large array of engineering and design activities in the literature; however, in its basic form, reverse engineering is simply the process of extracting information about a product from the product itself. Depending on its use, it may or may not be advantageous to utilize a reverse engineering strategy. As with any rational decision, reverse engineering is only favorable when the benefits from its use outweigh the investment. Therefore, a general under- standing of the principles that increase the difficulty or investment required to reverse engineer mechanical prod- ucts would be helpful for everyone affected by reverse engineering activities. In this paper, we articulate and explore these fundamental principles after reviewing examples from the literature and from our own experience. We then use the principles as a basis for the development of a methodology to build barriers to reverse engineering into new products.",
+			"references": [
+				{
+					"title": "Transaction security system",
+					"authors": ["Abraham DG", "Dolan GM", "Double GP", "Stevens JV"]
+				},
+				{
+					"title": "Microstructure sensitive design for performance optimization",
+					"authors": ["Adams BL", "Kalidindi SR", "Fullwood DT"]
+				},
+				{
+					"title": "Part design and evaluation through reverse engineering approach",
+					"authors": ["Ali F", "Chowdary B", "Imbert C"]
+				},
+				{
+					"title": "The recovery of design intent in reverse engineering problems",
+					"authors": ["Barbero BR"]
+				},
+				{
+					"title": "Carbon copy bomber",
+					"authors": ["Boyne WJ"]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d5282f.pdf",
+			"title": "Approaches for Mechanical and Technological Designing of Welded Items Used in Large􏰹Capacity Power Installations",
+			"authors": [
+				{
+					"name": "A. A. Lanin",
+					"email": ""
+				}
+			],
+			"abstract": "Stages through which welded items of power installations are designed in mechanical and techno􏰹 logical respects are analyzed. Results obtained from theoretical and experimental studies of the criteria for local brittle fractures used during manufacture and operation of welded structures are given. The most effi􏰹 cient methodological approach for designing constructions and technologies is substantiated.",
+			"references": [
+				{
+					"title": "Com􏰹bined Mechanical and Process Designing and Manufac􏰹ture of Welded Constructions of Steam, Gas, and Hydrau􏰹lic Turbines",
+					"authors": ["STO (Enterprise Standard)"]
+				},
+				{
+					"title": "Crack Resistance of Materials under Stress Relaxation Conditions",
+					"authors": ["A. A. Chizhik", "A. A. Lanin"]
+				},
+				{
+					"title": "An Engineering Method for Estimating the Crack Resistance of Mate􏰹rials Used in Power􏰹Generating Equipment under Stress Relaxation Conditions",
+					"authors": ["A. A. Chizhik", "A. A. Lanin"]
+				},
+				{
+					"title": "Using the Threshold Values of Fracture Toughness for Estimating the Remaining Service Life of Power Equipment",
+					"authors": ["A. A. Chizhik", "A. A. Lanin"]
+				},
+				{
+					"title": "Matters Concerned with Assessing the Resistance of Steam Turbine Shell Parts to Crack Growth",
+					"authors": ["A. A. Lanin", "V. V. Artamonov"]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d5287d.pdf",
+			"title": "Interactive Training Model of TRIZ for Mechanical Engineers in China",
+			"authors": [
+				{
+					"name": "TAN Runhua",
+					"email": ""
+				},
+				{
+					"name": "ZHANG Huangao",
+					"email": ""
+				}
+			],
+			"abstract": "Innovation is a process of taking an original idea and converting it into a business value, in which the engineers face some inventive problems which can be solved hardly by experience. TRIZ, as a new theory for companies in China, provides both conceptual and procedural knowledge for finding and solving inventive problems. Because the government plays a leading role in the diffusion of TRIZ, too many companies from different industries are waiting to be trained, but the quantity of the trainers mastering TRIZ is incompatible with that requirement. In this context, to improve the training effect, an interactive training model of TRIZ for the mechanical engineers in China is developed and the implementation in the form of training classes is carried out. The training process is divided into 6 phases as follows: selecting engineers, training stage-1, finding problems, training stage-2, finding solutions and summing up. The government, TRIZ institutions and companies to join the programs interact during the process. The government initiates and monitors a project in form of a training class of TRIZ and selects companies to join the programs. Each selected companies choose a few engineers to join the class and supervises the training result. The TRIZ institutions design the training courses and carry out training curriculum. With the beginning of the class, an effective communication channel is established by means of interview, discussion face to face, E-mail, QQ and so on. After two years training practices, the results show that innovative abilities of the engineers to join and pass the final examinations increased distinctly, and most of companies joined the training class have taken congnizance of the power of TRIZ for product innovation. This research proposes an interactive training model of TRIZ for mechanical engineers in China to expedite the knowledge diffusion of TRIZ.",
+			"references": [
+				{
+					"title": "Transformational leadership and organizational innovation: the roles of internal and external support for innovation",
+					"authors": ["LALE Gumusluoglu", "ARZU Ílsev"]
+				},
+				{
+					"title": "China manufacturing industrial competence: evaluation and analysis",
+					"authors": ["ZHAO Yanjun", "ZHANG Mingqian"]
+				},
+				{
+					"title": "Reflection on the innovation strategies for China manufacturing industry",
+					"authors": ["LI Jingwen", "HUANG Lucheng"]
+				},
+				{
+					"title": "Technology innovation ability analysis of Beijing’s manufacturing industry",
+					"authors": ["HUANG Lucheng", "LUO Yafei", "ZHANG Hongcai"]
+				},
+				{
+					"title": "Analysis and evaluation of enterprise innovation ability conversion",
+					"authors": ["ZHANG Yong"]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d52742.pdf",
+			"title": "Structural analysis of a bileaflet mechanical heart valve prosthesis with curved leaflet",
+			"authors": [
+				{
+					"name": "Young Joo Kwon",
+					"email": "yjkwon@wow.hongik.ac.kr"
+				}
+			],
+			"abstract": "Structural analysis, especially the thickness effect on the structural strength, of a bileaflet mechanical heart valve prosthesis with curved leaflets is presented in this paper. Taking the wide variations of the blood flow pressure on the leaflet surface, the structural stresses inside the leaflet and deflections of the leaflet are investigated by adopting both linear and nonlinear structural analysis techniques for more accurate results comparison. The thickness of the curved leaflet also varies considerably from 0.50 mm to 0.75 mm by 0.05 mm. These are very useful for the design of the mechanical heart valve (MHV) prosthesis. Linear and nonlinear structural mechanic analyses for the leaflet of the MHV prosthesis are conducted to predict the structural strength variation of the leaflet as the leaflet thickness changes. Analysis results show that the structural strength of the leaflet decreases as the leaflet thickness becomes thinner and thinner, and the nonlinear structural behaviors of thin leaflets are very conspicuous for large applied blood pressures. Hence, these thin leaflets are not desirable for the in vivo use of the MHV prosthesis.",
+			"references": [
+				{
+					"title": "Mitral replacement clinical experience with a ball-valve prosthesis",
+					"authors": ["A. Starr", "M. L. Edwards"]
+				},
+				{
+					"title": "A new tilting disc valve prosthesis",
+					"authors": ["V. O. Björk"]
+				},
+				{
+					"title": "Twenty five years of heart valve substitutes; a review",
+					"authors": ["M. M. Black", "P. J. Drury", "W. B. Tindale"]
+				},
+				{
+					"title": "The Björk-Shiley aortic prosthesis: Flow characteristics, thrombus formation and tissue over-growth",
+					"authors": ["A. P. Yoganathan", "W. H. Corcoran", "E. C. Harrison", "J.R. Cari"]
+				},
+				{
+					"title": "In vitro velocity and turbulent measurements in the vicinity of three new mechanical aortic heart valve prosthesis",
+					"authors": ["A. P. Yoganathan", "H. S. Sung", "Y. R. Woo", "M. Jones"]
+				}
+			]
+		},
+		{
+			"filename": "mechanical-engineer-557b476d52793.pdf",
+			"title": "Systematic Method of Applying Structural Characteristics of Natural Organisms to Mechanical Structures",
+			"authors": [
+				{
+					"name": "XING Denghai",
+					"email": "xingdenghai@126.com"
+				},
+				{
+					"name": "CHEN Wuyi",
+					"email": ""
+				}
+			],
+			"abstract": "Structural bionic design lacks mature and scientific theories, and the excellent structural characteristics of natural organisms sometimes cannot be transferred into engineering structures effectively. Aiming at overcoming the existing problems, this paper summarizes three related theories: similarity theory, fuzzy evaluation theory and optimization theory. Based on the related theories, a method of structural bionic design is introduced, which includes four steps: selecting the most useful structural characteristic of natural organism; analyzing the structural characteristic finally chosen for engineering problem; completing the structural bionic design for engineering structure; and verifying the structural bionic design. Similarity theory and fuzzy evaluation theory are employed to achieve Step 1. In Step 2 and Step 3, optimization theory is employed to analyze the parameters of structures. Together with the thoughts of simplification and grouping, optimization theory can reveal the relationship between organism structure and engineering structure, providing a way to structural bionic design. A general evaluation criterion is proposed in Step 4, which is feasible to evaluate the performance of different structures. Finally, based on the method, a structural bionic design of thin-walled cylindrical shell is introduced.",
+			"references": [
+				{
+					"title": "Biomimetics: Using nature to inspire human innovation",
+					"authors": ["Yoseph B C"]
+				},
+				{
+					"title": "Applications: Influence of biology on engineering",
+					"authors": ["Vincent J F V"]
+				},
+				{
+					"title": "Significance and progress of bionics",
+					"authors": ["Lu Y X"]
+				},
+				{
+					"title": "Current trends in high-speed machining",
+					"authors": ["Smith S", "Tlusty J"]
+				},
+				{
+					"title": "A summary of study on soil adhesion",
+					"authors": ["Ren L Q", "Chen D X", "Chen B C"]
+				}
+			]
+		}
+	]
+}
