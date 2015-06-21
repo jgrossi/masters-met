@@ -10,7 +10,7 @@ if (!isset($options['d'])) {
 	exit();
 }
 
-$folder = trim($options['f'], "/");
+$folder = trim($options['d'], "/");
 $foldername = substr($folder, strrpos($folder, '/') + 1);
 
 Message::success('New filename: '.$foldername.'-'.uniqid().'.pdf');
