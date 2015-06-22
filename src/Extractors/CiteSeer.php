@@ -107,14 +107,31 @@ class CiteSeer implements ExtractorInterface
 
 	public function getReferences()
 	{
-		$return = [];
 		$algorithms = $this->output->algorithms->algorithm;
 		
+		return $this->getReferencesFromAlgorithms($algorithms);
+	}
+
+	public function getReferencesFromAlgorithms($algorithms)
+	{
+		$return = [];
+
 		foreach ($algorithms as $key => $alg) {
+			
 			$attrs = $alg->attributes();
+
 			if (isset($attrs['name']) and $attrs['name'] == 'ParsCit') {
+				
 				$refs = $alg->citationList->citation;
+				
 				foreach ($refs as $key => $ref) {
+					
+					$attrs = $ref->attributes();
+
+					if ($attrs['valid'] == 'false') {
+						continue;
+					}
+
 					$title = (string) $ref->title;
 					$authors = (array) $ref->authors->author;
 					$authors = array_filter($authors);

@@ -1,1 +1,1 @@
-pdf-extract extract --references --semantic --headers --no-lines --trace $1
+pdf-extract extract --references --titles --no-lines $1

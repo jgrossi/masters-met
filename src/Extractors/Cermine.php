@@ -23,7 +23,7 @@ class Cermine implements ExtractorInterface
 			->{'title-group'}
 			->{'article-title'})) {
 			
-			return $this->output->front
+			return (string) $this->output->front
 			->{'article-meta'}
 			->{'title-group'}
 			->{'article-title'};

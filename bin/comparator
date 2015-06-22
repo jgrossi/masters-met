@@ -6,9 +6,17 @@ use App\Comparators\Title;
 use App\ConsoleMessage as Message;
 use App\ExtractorFactory;
 
-$output = file_get_contents('outputs/computer-science/citeseer/computer-science-557b476d493b3.xml');
-$extractor = ExtractorFactory::create('citeseer', $output);
-dd($extractor->getReferences());
+$tool = 'parscit';
+
+$files = explode("\n", shell_exec("ls outputs/computer-science/$tool/*.xml"));
+$files = array_filter($files);
+
+foreach ($files as $key => $file) {
+	$output = file_get_contents($file);
+	$extractor = ExtractorFactory::create("$tool", $output);
+	var_dump($extractor->getReferences());
+}
+
 
 
 // $opt = getopt('d:');
