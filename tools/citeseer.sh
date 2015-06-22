@@ -10,8 +10,10 @@ outputdir="$only_path/$filename-output"
 
 python ./tools/citeseer/run_extraction.py "$1" "$outputdir"
 
-cat "$outputdir/$filename.header"
+echo "<?xml version='1.0' encoding='UTF-8'?><paper>"
+tail -n +2 "$outputdir/$filename.header"
 tail -n +2 "$outputdir/$filename.header.tei"
 tail -n +2 "$outputdir/$filename.cite"
+echo "</paper>"
 
 rm -fr "$outputdir"

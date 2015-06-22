@@ -1,0 +1,32 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$opt = getopt('d:');
+$dir = isset($opt['d']) ? $opt['d'] : './output';
+
+$files = explode("\n", shell_exec("find $dir -type f -iname '*.xml'"));
+$files = array_filter($files);
+
+foreach ($files as $key => $file) {
+	
+	$filename = getfilename($file);
+	$onlyfilename = getfilename($file, false);
+	$area = array_slice(explode('/', $file), -3, 1)[0];
+	$tool = array_slice(explode('/', $file), -2, 1)[0];
+
+	if ($tool != 'citeseer') {
+		continue;
+	}
+
+	$content = file_get_contents($file);
+	$xmlheader = "<?xml version='1.0' encoding='UTF-8'?>";
+	$content = str_replace($xmlheader, "{$xmlheader}<paper>", $content);
+	$content .= "</paper>";
+
+	// file_put_contents($file, $content);
+	Message::success("Fixed XML file '$filename' for CiteSeer");
+}
+
+beep(1);

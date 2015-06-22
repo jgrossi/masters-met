@@ -6,9 +6,9 @@ use App\Comparators\Title;
 use App\ConsoleMessage as Message;
 use App\ExtractorFactory;
 
-$output = file_get_contents('outputs/computer-science/cermine/computer-science-557b476d49184.xml');
-$extractor = ExtractorFactory::create('cermine', $output);
-dd($extractor->getReferences());
+$output = file_get_contents('outputs/computer-science/citeseer/computer-science-557b476d49184.xml');
+$extractor = ExtractorFactory::create('citeseer', $output);
+dd($extractor->getAuthors());
 
 
 // $opt = getopt('d:');
