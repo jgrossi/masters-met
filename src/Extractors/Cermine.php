@@ -48,9 +48,10 @@ class Cermine implements ExtractorInterface
 				$emails[] = (string) $row->{'email'};
 			}
 
-			$this->emails = $emails;
+			$this->emails = array_filter($emails);
 
-			return $authors;
+			return array_filter($authors);
+
 		} catch (Exception $e) {
 			return [];			
 		}
@@ -99,18 +100,12 @@ class Cermine implements ExtractorInterface
 				}
 
 				$stringname = $ref->{'mixed-citation'}->{'string-name'};
+				$authors = [];
 
-				if (count($stringname) > 0) {
-					$authors = [];
-					foreach ($stringname as $key => $author) {
-						$name = trim($author->surname) .' '. trim($author->{'given-names'});
-						$name = str_replace(',', '', $name);
-						$authors[] = $name;
-					}
-				} else {
-					$name = trim($stringname->surname) .' '. trim($stringname->{'given-names'});
-					$name = str_replace(',', '', $name);
-					$authors = [$name];
+				foreach ($stringname as $key => $author) {
+					$name = trim($author->{'given-names'}) .' '. trim($author->{'surname'});
+					$name = str_replace([',', '.'], '', $name);
+					$authors[] = $name;
 				}
 				
 				$title = (string) $ref->{'mixed-citation'}->{'article-title'};
