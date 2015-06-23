@@ -7,19 +7,25 @@ use SimpleXMLElement;
 
 class CrossRef implements ExtractorInterface
 {
-	protected $output;
+	protected $output = null;
 
 	private $emails;
 
 	public function __construct($output)
 	{
-		$this->output = new SimpleXMLElement($output);
+		if ($output) {
+			$this->output = new SimpleXMLElement($output);
+		}
 	}
 
 	public function getTitle()
 	{
 		try {
 			
+			if (! $this->output) {
+				return '';
+			}
+
 			$title = (string) $this->output->title;
 			$title = str_replace("\n", ' ', $title);
 
@@ -32,34 +38,44 @@ class CrossRef implements ExtractorInterface
 
 	public function getAuthors()
 	{
-		// nothing to extract
+		return [];
 	}
 
 	public function getEmails()
 	{
-		// nothing to extract
+		return [];
 	}
 
 	public function getAbstract()
 	{
-		// nothing to extract
+		return '';
 	}
 
 	public function getReferences()
 	{
-		$refs = $this->output->reference;
-		$return = [];
+		try {
 
-		foreach ($refs as $key => $ref) {
-			$return[] = [
-				'title' => (string) $ref,
-				'authors' => (string) $ref,
-			];
+			if (! $this->output) {
+				return [];
+			}
+			
+			$refs = $this->output->reference;
+			$return = [];
+
+			foreach ($refs as $key => $ref) {
+				$return[] = [
+					'title' => (string) $ref,
+					'authors' => (string) $ref,
+				];
+			}
+
+			$return = array_filter($return);
+
+			return array_slice($return, 0, 5);
+
+		} catch (Exception $e) {
+			return [];	
 		}
-
-		$return = array_filter($return);
-
-		return array_slice($return, 0, 5);
 	}
 }
 

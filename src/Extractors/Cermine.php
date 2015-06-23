@@ -44,6 +44,10 @@ class Cermine implements ExtractorInterface
 				->{'contrib-group'}
 				->{'contrib'};
 
+			if (! $rows) {
+				return [];
+			}
+
 			foreach ($rows as $key => $row) {
 				$authors[] = (string) $row->{'string-name'};
 				$emails[] = (string) $row->{'email'};
@@ -104,7 +108,7 @@ class Cermine implements ExtractorInterface
 				$authors = [];
 
 				foreach ($stringname as $key => $author) {
-					$name = trim($author->{'given-names'}) .' '. trim($author->{'surname'});
+					$name = trim($author->{'surname'}) .' '. trim($author->{'given-names'});
 					$name = ReferencesComparator::sanitizeAuthorName($name);
 					$authors[] = $name;
 				}

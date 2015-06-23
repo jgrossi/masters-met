@@ -20,7 +20,13 @@ class Authors implements ComparatorInterface
 			$sum += $percent;
 		}
 
-		$average = $sum / count($first);
+		$total = count($first);
+
+		if ($total == 0) {
+			return -1;
+		}
+
+		$average = $sum / $total;
 
 		return (float) number_format($average, 2);
 	}

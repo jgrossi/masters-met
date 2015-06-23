@@ -6,7 +6,7 @@ use App\ConsoleMessage as Message;
 $options = getopt("d:"); // folder
 
 if (!isset($options['d'])) {
-	Message::error('Error: You must specify the directory name');
+	Message::error('Error: You must specify the area directory name');
 	exit();
 }
 

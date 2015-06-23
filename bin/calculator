@@ -1,0 +1,49 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+passthru("./bin/comparator-all");
+
+$output = shell_exec("find ./outputs -type f -iname '__results-average.json'");
+$files = explode("\n", $output);
+$files = array_filter($files);
+$sum = [];
+
+$metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
+
+foreach ($files as $key => $file) {
+	
+	$json = file_get_contents($file);
+	$average = json_decode($json)->average;
+
+	$tool = array_slice(explode('/', $file), -2)[0];
+
+	foreach ($metadata as $key => $meta) {
+		$sum[$tool][$meta][] = (float) $average->$meta;
+	}
+}
+$average = [];
+
+foreach ($sum as $tool => $values) {
+	foreach ($metadata as $meta) {
+		$numbers = $values[$meta];
+		$numbers = array_filter($numbers, function($n) {
+			return $n >= 0;
+		});
+		$sum = array_sum($numbers);
+		$total = count($numbers);
+		$avg = $sum/$total;
+
+		$average[$tool][$meta] = round($avg, 2);
+	}
+}
+
+$confindex = confindex($average);
+
+$content = json_encode(['average' => $average, 'index' => $confindex], JSON_PRETTY_PRINT);
+$output = "outputs/__final.json";
+file_put_contents($output, $content);
+
+Message::success("---> Saved final results to $output");
+

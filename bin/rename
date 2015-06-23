@@ -3,7 +3,7 @@
 
 use App\ConsoleMessage as Message;
 
-$opt = getopt('d:'); // /papers folder
+$opt = getopt('d:c'); // /papers folder
 
 if (!isset($opt['d'])) {
 	Message::error('Error: You must specify the directory to be renamed');
@@ -39,12 +39,17 @@ foreach ($folders as $folder) {
 		$lowercasefilename = strtolower($filename);
 		$newfilename = $folder.'-'.uniqid().'.pdf';
 
-		Message::warning("Lowercasing $filename");
-
-		// rename($filename, $newfilename);
-		Message::success("Renamed '$filename' to '$newfilename'");
+		// -c option is to confirm rename
+		if (isset($opt['c'])) {
+			Message::success("File renamed to '$newfilename'");
+			rename($filename, $newfilename);
+		}
 	}
 
 	chdir('..');
+}
+
+if (! isset($opt['c'])) {
+	Message::warning("Use the -c option to confirm renaming all files");
 }
 

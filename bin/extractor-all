@@ -1,0 +1,13 @@
+#! /bin/bash
+
+# cermine
+./bin/extractor -t cermine -d papers/
+
+# citeseer
+./bin/extractor -t citeseer -d papers/
+
+# crossref
+./bin/extractor -t crossref -d papers/
+
+# parscit
+./bin/extractor -t parscit -d papers/

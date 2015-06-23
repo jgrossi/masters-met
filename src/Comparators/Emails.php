@@ -8,6 +8,10 @@ class Emails implements ComparatorInterface
 {
 	public static function compare($first, $second)
 	{
+		if (is_null($second)) {
+			return 0;
+		}
+
 		$sum = 0;
 		$count = 0;
 

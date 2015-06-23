@@ -17,6 +17,6 @@ class Abstracts implements ComparatorInterface
 		similar_text($first, $second, $result);
 		$result = round($result, 2);
 
-		return number_format($result, 2);
+		return $result;
 	}
 }

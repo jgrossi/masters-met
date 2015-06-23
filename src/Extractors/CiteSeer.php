@@ -116,6 +116,10 @@ class CiteSeer implements ExtractorInterface
 	{
 		$return = [];
 
+		if (! $algorithms) {
+			return $return;
+		}
+
 		foreach ($algorithms as $key => $alg) {
 			
 			$attrs = $alg->attributes();

@@ -9,19 +9,6 @@ use App\Comparators\Title;
 use App\ConsoleMessage as Message;
 use App\ExtractorFactory;
 
-// $tool = 'parscit';
-
-// $files = explode("\n", shell_exec("ls outputs/computer-science/$tool/*.xml"));
-// $files = array_filter($files);
-
-// foreach ($files as $key => $file) {
-// 	$output = file_get_contents($file);
-// 	$extractor = ExtractorFactory::create("$tool", $output);
-// 	var_dump($extractor->getReferences());
-// }
-
-
-
 $opt = getopt('t:f:');
 
 if (!isset($opt['t'])) {
@@ -35,8 +22,6 @@ if (!isset($opt['f'])) {
 $file = rtrim($opt['f'], '/');
 $tool = $opt['t'];
 $area = explode('/', $file)[1];
-
-Message::info("Getting information about papers for '$area'");
 
 $json = json_decode(file_get_contents($file));
 $individual = [];
@@ -63,20 +48,14 @@ foreach ($json->papers as $key => $paper) {
 	$abstract = $paper->abstract;
 	$references = $paper->references;
 
-	Message::info("Comparing results for '$filename'");
 	$output = file_get_contents("outputs/$area/$tool/{$filenoext}.xml");
 	
 	$extractor = ExtractorFactory::create($tool, $output);
 
 	$result_title = Title::compare($title, $extractor->getTitle());
-	// var_dump($result_title);
-	// var_dump($extractor->getAuthors());
 	$result_authors = Authors::compare($authors, $extractor->getAuthors());
-	// var_dump($result_authors);
 	$result_emails = Emails::compare($emails, $extractor->getEmails());
-	// var_dump($result_emails);
 	$result_abstract = Abstracts::compare($abstract, $extractor->getAbstract());
-	// var_dump($result_abstract);
 	$result_references = References::compare($references, $extractor->getReferences());
 
 	$individual[$filename] = [
@@ -92,8 +71,6 @@ foreach ($json->papers as $key => $paper) {
 	$sum['emails'][] = $result_emails;
 	$sum['abstract'][] = $result_abstract;
 	$sum['references'][] = $result_references;
-
-	// Message::success("Results compared successfully");
 }
 
 foreach ($sum as $metadata => $values) {
@@ -104,30 +81,24 @@ foreach ($sum as $metadata => $values) {
 		});
 	}
 
-	$average = array_sum($values)/count($values);
-	$average = round($average, 2);
-	$average = number_format($average, 2);
+	$total = count($values);
+
+	if ($total == 0) {
+		$average = -1;
+	} else {
+		$average = array_sum($values)/$total;
+		$average = round($average, 2);
+	}
 
 	$results[$metadata] = $average;
-	echo "Results for $metadata: ".$average."\n";
 }
 
-// $content = json_encode($individual, JSON_PRETTY_PRINT);
-// $output = "outputs/$area/$tool-papers-results";
-// file_put_contents($output);
+$content = json_encode(['results' => $individual], JSON_PRETTY_PRINT);
+$output = "outputs/$area/$tool/__results-individual.json";
+file_put_contents($output, $content);
 
-// Message::warning("Individual papers results saved in '$output'");
+$content = json_encode(['average' => $results], JSON_PRETTY_PRINT);
+$output = "outputs/$area/$tool/__results-average.json";
+file_put_contents($output, $content);
 
-// $total = [
-// 	'title' => $sum['title'] / $count,
-// 	'authors' => $sum['authors'] / $count,
-// 	'emails' => $sum['emails'] / $count,
-// 	'abstract' => $sum['abstract'] / $count,
-// 	'references' => $sum['references'] / $count,
-// ];
-
-// $content = json_encode($total, JSON_PRETTY_PRINT);
-// $output = "outputs/$area/$tool-total-results";
-// file_put_contents($output);
-
-// Message::warning("Total results for '$tool' saved in '$output'");
+Message::info("Getting [$tool] extraction --> $area");

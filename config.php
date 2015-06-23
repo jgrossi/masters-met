@@ -29,4 +29,22 @@ function getfilename($file, $withext = true)
 	return substr($filename, 0, strrpos($filename, '.'));
 }
 
+function confindex($results)
+{
+	$confindex = [];
+
+	foreach ($results as $tool => $values) {
+		
+		$t = $values['title'];
+		$a = $values['authors'];
+		$e = $values['emails'];
+		$b = $values['abstract'];
+		$r = $values['references'];
+
+		$calc = ($t*5 + $a*4 + $e*1 + $b*3 + $r*4)/17;
+		$confindex[$tool] = round($calc, 2);
+	}
+
+	return $confindex;
+}
 

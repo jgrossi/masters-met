@@ -4,7 +4,7 @@
 use App\ConsoleMessage as Message;
 
 $opt = getopt('d:');
-$dir = isset($opt['d']) ? $opt['d'] : './output';
+$dir = isset($opt['d']) ? $opt['d'] : './outputs';
 
 $files = explode("\n", shell_exec("find $dir -type f -iname '*.xml'"));
 $files = array_filter($files);
@@ -22,10 +22,17 @@ foreach ($files as $key => $file) {
 
 	$content = file_get_contents($file);
 	$xmlheader = "<?xml version='1.0' encoding='UTF-8'?>";
-	$content = str_replace($xmlheader, "{$xmlheader}<paper>", $content);
+	$newxmlheader = "{$xmlheader}<paper>";
+
+	if (strpos($content, $newxmlheader) !== false) {
+		Message::warning("Already have <paper> tag for $filename");
+		continue; // already have <papers> tag
+	}
+
+	$content = str_replace($xmlheader, $newxmlheader, $content);
 	$content .= "</paper>";
 
-	// file_put_contents($file, $content);
+	file_put_contents($file, $content);
 	Message::success("Fixed XML file '$filename' for CiteSeer");
 }
 

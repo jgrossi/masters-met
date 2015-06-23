@@ -1,0 +1,74 @@
+#! /bin/bash
+
+# cermine
+./bin/comparator -t cermine -f papers/animal-husbandry/__collection.json
+./bin/comparator -t cermine -f papers/architecture-and-urbanism/__collection.json
+./bin/comparator -t cermine -f papers/biology-genetic/__collection.json
+./bin/comparator -t cermine -f papers/biology-zoological/__collection.json
+./bin/comparator -t cermine -f papers/civil-engineer/__collection.json
+./bin/comparator -t cermine -f papers/computer-science/__collection.json
+./bin/comparator -t cermine -f papers/geology/__collection.json
+./bin/comparator -t cermine -f papers/history/__collection.json
+./bin/comparator -t cermine -f papers/information-science/__collection.json
+./bin/comparator -t cermine -f papers/linguistic/__collection.json
+./bin/comparator -t cermine -f papers/mechanical-engineer/__collection.json
+./bin/comparator -t cermine -f papers/music/__collection.json
+./bin/comparator -t cermine -f papers/nursing/__collection.json
+./bin/comparator -t cermine -f papers/psychology/__collection.json
+./bin/comparator -t cermine -f papers/speech/__collection.json
+./bin/comparator -t cermine -f papers/veterinary-medicine/__collection.json
+
+# citeseer
+./bin/comparator -t citeseer -f papers/animal-husbandry/__collection.json
+./bin/comparator -t citeseer -f papers/architecture-and-urbanism/__collection.json
+./bin/comparator -t citeseer -f papers/biology-genetic/__collection.json
+./bin/comparator -t citeseer -f papers/biology-zoological/__collection.json
+./bin/comparator -t citeseer -f papers/civil-engineer/__collection.json
+./bin/comparator -t citeseer -f papers/computer-science/__collection.json
+./bin/comparator -t citeseer -f papers/geology/__collection.json
+./bin/comparator -t citeseer -f papers/history/__collection.json
+./bin/comparator -t citeseer -f papers/information-science/__collection.json
+./bin/comparator -t citeseer -f papers/linguistic/__collection.json
+./bin/comparator -t citeseer -f papers/mechanical-engineer/__collection.json
+./bin/comparator -t citeseer -f papers/music/__collection.json
+./bin/comparator -t citeseer -f papers/nursing/__collection.json
+./bin/comparator -t citeseer -f papers/psychology/__collection.json
+./bin/comparator -t citeseer -f papers/speech/__collection.json
+./bin/comparator -t citeseer -f papers/veterinary-medicine/__collection.json
+
+# crossref
+./bin/comparator -t crossref -f papers/animal-husbandry/__collection.json
+./bin/comparator -t crossref -f papers/architecture-and-urbanism/__collection.json
+./bin/comparator -t crossref -f papers/biology-genetic/__collection.json
+./bin/comparator -t crossref -f papers/biology-zoological/__collection.json
+./bin/comparator -t crossref -f papers/civil-engineer/__collection.json
+./bin/comparator -t crossref -f papers/computer-science/__collection.json
+./bin/comparator -t crossref -f papers/geology/__collection.json
+./bin/comparator -t crossref -f papers/history/__collection.json
+./bin/comparator -t crossref -f papers/information-science/__collection.json
+./bin/comparator -t crossref -f papers/linguistic/__collection.json
+./bin/comparator -t crossref -f papers/mechanical-engineer/__collection.json
+./bin/comparator -t crossref -f papers/music/__collection.json
+./bin/comparator -t crossref -f papers/nursing/__collection.json
+./bin/comparator -t crossref -f papers/psychology/__collection.json
+./bin/comparator -t crossref -f papers/speech/__collection.json
+./bin/comparator -t crossref -f papers/veterinary-medicine/__collection.json
+
+# parscit
+./bin/comparator -t parscit -f papers/animal-husbandry/__collection.json
+./bin/comparator -t parscit -f papers/architecture-and-urbanism/__collection.json
+./bin/comparator -t parscit -f papers/biology-genetic/__collection.json
+./bin/comparator -t parscit -f papers/biology-zoological/__collection.json
+./bin/comparator -t parscit -f papers/civil-engineer/__collection.json
+./bin/comparator -t parscit -f papers/computer-science/__collection.json
+./bin/comparator -t parscit -f papers/geology/__collection.json
+./bin/comparator -t parscit -f papers/history/__collection.json
+./bin/comparator -t parscit -f papers/information-science/__collection.json
+./bin/comparator -t parscit -f papers/linguistic/__collection.json
+./bin/comparator -t parscit -f papers/mechanical-engineer/__collection.json
+./bin/comparator -t parscit -f papers/music/__collection.json
+./bin/comparator -t parscit -f papers/nursing/__collection.json
+./bin/comparator -t parscit -f papers/psychology/__collection.json
+./bin/comparator -t parscit -f papers/speech/__collection.json
+./bin/comparator -t parscit -f papers/veterinary-medicine/__collection.json
+

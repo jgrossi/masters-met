@@ -15,11 +15,18 @@ class ParsCit implements ExtractorInterface
 	public function __construct($output)
 	{
 		$this->rawOutput = $output;
-		$this->output = new SimpleXMLElement($output);
+		
+		if ($output) {
+			$this->output = new SimpleXMLElement($output);
+		}
 	}
 
 	public function getTitle()
 	{
+		if (! $this->output) {
+			return '';
+		}
+
 		try {
 			
 			$title = (string) $this->output->algorithm[0]->variant->title;
@@ -35,6 +42,10 @@ class ParsCit implements ExtractorInterface
 
 	public function getAuthors()
 	{
+		if (! $this->output) {
+			return [];
+		}
+
 		try {
 
 			$author = (string) $this->output->algorithm[0]->variant->author;
@@ -57,6 +68,10 @@ class ParsCit implements ExtractorInterface
 
 	public function getEmails()
 	{
+		if (! $this->output) {
+			return [];
+		}
+
 		try {
 
 			$email = (string) $this->output->algorithm[0]->variant->email;
@@ -100,6 +115,10 @@ class ParsCit implements ExtractorInterface
 
 	public function getAbstract()
 	{
+		if (! $this->output) {
+			return '';
+		}
+
 		$abstract = (string) $this->output->algorithm[0]->variant->bodyText[0];
 		$abstract = preg_replace("/\n/", '', $abstract);
 		$abstract = trim($abstract);
@@ -109,6 +128,10 @@ class ParsCit implements ExtractorInterface
 
 	public function getReferences()
 	{
+		if (! $this->output) {
+			return [];
+		}
+
 		$citeseer = new CiteSeer($this->rawOutput);
 		$algorithms = $this->output->algorithm;
 
