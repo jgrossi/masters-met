@@ -68,7 +68,7 @@ After that, with all XML files saved inside `outputs` just run `./bin/calculator
 
 ## License
 
-This tool is very customized for Masters thesis' purposes, but if you want to use part of it or even everything please do that. The code is free and licensed under the [DBAD license](http://www.dbad-license.org/).
+This tool is very customized for my Masters thesis' purposes, but if you want to use part of it or even everything please be free to do that. The code is free and licensed under the [DBAD license](http://www.dbad-license.org/).
 
 Let me know if you need help with the code. Thanks.
 
