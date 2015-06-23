@@ -10,30 +10,30 @@ $files = explode("\n", shell_exec("find $dir -type f -iname '*.xml'"));
 $files = array_filter($files);
 
 foreach ($files as $key => $file) {
-	
-	$filename = getfilename($file);
-	$onlyfilename = getfilename($file, false);
-	$area = array_slice(explode('/', $file), -3, 1)[0];
-	$tool = array_slice(explode('/', $file), -2, 1)[0];
+    
+    $filename = getfilename($file);
+    $onlyfilename = getfilename($file, false);
+    $area = array_slice(explode('/', $file), -3, 1)[0];
+    $tool = array_slice(explode('/', $file), -2, 1)[0];
 
-	if ($tool != 'citeseer') {
-		continue;
-	}
+    if ($tool != 'citeseer') {
+        continue;
+    }
 
-	$content = file_get_contents($file);
-	$xmlheader = "<?xml version='1.0' encoding='UTF-8'?>";
-	$newxmlheader = "{$xmlheader}<paper>";
+    $content = file_get_contents($file);
+    $xmlheader = "<?xml version='1.0' encoding='UTF-8'?>";
+    $newxmlheader = "{$xmlheader}<paper>";
 
-	if (strpos($content, $newxmlheader) !== false) {
-		Message::warning("Already have <paper> tag for $filename");
-		continue; // already have <papers> tag
-	}
+    if (strpos($content, $newxmlheader) !== false) {
+        Message::warning("Already have <paper> tag for $filename");
+        continue; // already have <papers> tag
+    }
 
-	$content = str_replace($xmlheader, $newxmlheader, $content);
-	$content .= "</paper>";
+    $content = str_replace($xmlheader, $newxmlheader, $content);
+    $content .= "</paper>";
 
-	file_put_contents($file, $content);
-	Message::success("Fixed XML file '$filename' for CiteSeer");
+    file_put_contents($file, $content);
+    Message::success("Fixed XML file '$filename' for CiteSeer");
 }
 
 beep(1);

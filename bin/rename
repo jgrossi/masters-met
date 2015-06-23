@@ -6,7 +6,7 @@ use App\ConsoleMessage as Message;
 $opt = getopt('d:c'); // /papers folder
 
 if (!isset($opt['d'])) {
-	Message::error('Error: You must specify the directory to be renamed');
+    Message::error('Error: You must specify the directory to be renamed');
 }
 
 $folder = trim($opt['d'], "/");
@@ -15,41 +15,41 @@ $folders = explode("\n", shell_exec("ls $folder"));
 chdir($folder); // get into papers folder
 
 $folders = array_filter($folders, function($folder) {
-	return is_dir($folder) and !empty($folder);
+    return is_dir($folder) and !empty($folder);
 });
 
 foreach ($folders as $folder) {
-	
-	chdir($folder); // get into area folder
-	
-	$files = explode("\n", shell_exec('ls'));
-	
-	$files = array_filter($files, function($file) {
-		return !empty($file) and is_file($file);
-	});
+    
+    chdir($folder); // get into area folder
+    
+    $files = explode("\n", shell_exec('ls'));
+    
+    $files = array_filter($files, function($file) {
+        return !empty($file) and is_file($file);
+    });
 
-	foreach ($files as $key => $filename) {
-		
-		$extension = substr($filename, strrpos($filename, '.') + 1);
+    foreach ($files as $key => $filename) {
+        
+        $extension = substr($filename, strrpos($filename, '.') + 1);
 
-		if (!in_array($extension, ['pdf', 'PDF'])) {
-			continue;
-		}
+        if (!in_array($extension, ['pdf', 'PDF'])) {
+            continue;
+        }
 
-		$lowercasefilename = strtolower($filename);
-		$newfilename = $folder.'-'.uniqid().'.pdf';
+        $lowercasefilename = strtolower($filename);
+        $newfilename = $folder.'-'.uniqid().'.pdf';
 
-		// -c option is to confirm rename
-		if (isset($opt['c'])) {
-			Message::success("File renamed to '$newfilename'");
-			rename($filename, $newfilename);
-		}
-	}
+        // -c option is to confirm rename
+        if (isset($opt['c'])) {
+            Message::success("File renamed to '$newfilename'");
+            rename($filename, $newfilename);
+        }
+    }
 
-	chdir('..');
+    chdir('..');
 }
 
 if (! isset($opt['c'])) {
-	Message::warning("Use the -c option to confirm renaming all files");
+    Message::warning("Use the -c option to confirm renaming all files");
 }
 

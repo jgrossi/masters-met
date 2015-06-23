@@ -13,30 +13,30 @@ $sum = [];
 $metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
 
 foreach ($files as $key => $file) {
-	
-	$json = file_get_contents($file);
-	$average = json_decode($json)->average;
+    
+    $json = file_get_contents($file);
+    $average = json_decode($json)->average;
 
-	$tool = array_slice(explode('/', $file), -2)[0];
+    $tool = array_slice(explode('/', $file), -2)[0];
 
-	foreach ($metadata as $key => $meta) {
-		$sum[$tool][$meta][] = (float) $average->$meta;
-	}
+    foreach ($metadata as $key => $meta) {
+        $sum[$tool][$meta][] = (float) $average->$meta;
+    }
 }
 $average = [];
 
 foreach ($sum as $tool => $values) {
-	foreach ($metadata as $meta) {
-		$numbers = $values[$meta];
-		$numbers = array_filter($numbers, function($n) {
-			return $n >= 0;
-		});
-		$sum = array_sum($numbers);
-		$total = count($numbers);
-		$avg = $sum/$total;
+    foreach ($metadata as $meta) {
+        $numbers = $values[$meta];
+        $numbers = array_filter($numbers, function($n) {
+            return $n >= 0;
+        });
+        $sum = array_sum($numbers);
+        $total = count($numbers);
+        $avg = $sum/$total;
 
-		$average[$tool][$meta] = round($avg, 2);
-	}
+        $average[$tool][$meta] = round($avg, 2);
+    }
 }
 
 $confindex = confindex($average);

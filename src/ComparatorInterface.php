@@ -4,5 +4,5 @@ namespace App;
 
 interface ComparatorInterface
 {
-	public static function compare($first, $second);
+    public static function compare($first, $second);
 }

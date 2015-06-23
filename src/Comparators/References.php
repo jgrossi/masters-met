@@ -8,30 +8,30 @@ use App\Comparators\Authors as AuthorsComparator;
 
 class References implements ComparatorInterface
 {
-	public static function compare($first, $second)
-	{
+    public static function compare($first, $second)
+    {
         $sum = 0;
 
         foreach ($first as $key => $ref) {
 
-        	// title comparison
-        	$t1 = $ref->title;
+            // title comparison
+            $t1 = $ref->title;
 
             if (!isset($second[$key]['title'])) {
                 continue;
             }
 
-        	$t2 = $second[$key]['title'];
-        	$t_percent = TitleComparator::compare($t1, $t2);
+            $t2 = $second[$key]['title'];
+            $t_percent = TitleComparator::compare($t1, $t2);
 
             // authors comparison
-        	$a1 = $ref->authors;
+            $a1 = $ref->authors;
 
-        	$a1 = array_map(function($value) {
+            $a1 = array_map(function($value) {
                 return static::orderName($value);
-        	}, $a1);
+            }, $a1);
 
-        	$a2 = $second[$key]['authors'];
+            $a2 = $second[$key]['authors'];
             
             if (!is_array($a2)) {
                 $a2 = [$a2];
@@ -41,20 +41,20 @@ class References implements ComparatorInterface
                 return static::orderName($value);
             }, $a2);
 
-        	$a_percent = AuthorsComparator::compare($a1, $a2);
-        	$sum += ($t_percent*60 + $a_percent*40)/100;
+            $a_percent = AuthorsComparator::compare($a1, $a2);
+            $sum += ($t_percent*60 + $a_percent*40)/100;
         }
 
         return round($sum/count($first), 2);
-	}
+    }
 
-	public static function sanitizeAuthorName($name)
-	{
-		$name = str_replace([',', '.', '-'], ' ', $name);
-		$name = preg_replace('/\s+/', ' ', $name);
+    public static function sanitizeAuthorName($name)
+    {
+        $name = str_replace([',', '.', '-'], ' ', $name);
+        $name = preg_replace('/\s+/', ' ', $name);
 
-		return trim($name);
-	}
+        return trim($name);
+    }
 
     public static function orderName($name)
     {

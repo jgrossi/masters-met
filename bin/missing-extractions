@@ -14,25 +14,25 @@ $files = array_filter($files);
 $missing = [];
 
 foreach ($files as $key => $file) {
-	
-	$filename = getfilename($file);
-	$onlyfilename = getfilename($file, false);
-	$area = array_slice(explode('/', $file), -2, 1)[0];
-	
-	$tools = ['cermine', 'citeseer', 'crossref', 'parscit'];
+    
+    $filename = getfilename($file);
+    $onlyfilename = getfilename($file, false);
+    $area = array_slice(explode('/', $file), -2, 1)[0];
+    
+    $tools = ['cermine', 'citeseer', 'crossref', 'parscit'];
 
-	foreach ($tools as $key => $tool) {
-		
-		$outputdir = "outputs/$area/$tool/";
-		$xmlfile = "$onlyfilename.xml";
-		$path = $outputdir.$xmlfile;
+    foreach ($tools as $key => $tool) {
+        
+        $outputdir = "outputs/$area/$tool/";
+        $xmlfile = "$onlyfilename.xml";
+        $path = $outputdir.$xmlfile;
 
-		if (!file_exists($path) and !in_array($file, $missing)) {
-			$missing[] = $file;
-		}
-	}
+        if (!file_exists($path) and !in_array($file, $missing)) {
+            $missing[] = $file;
+        }
+    }
 }
 
 foreach ($missing as $key => $file) {
-	Message::info("Missing extraction for '$file'");
+    Message::info("Missing extraction for '$file'");
 }

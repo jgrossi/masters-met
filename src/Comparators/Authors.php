@@ -6,28 +6,28 @@ use App\ComparatorInterface;
 
 class Authors implements ComparatorInterface
 {
-	public static function compare($first, $second)
-	{
-		$sum = 0;
+    public static function compare($first, $second)
+    {
+        $sum = 0;
 
-		foreach ($first as $i => $author) {
-			if (isset($second[$i])) {
-				similar_text($author, $second[$i], $percent);
-			} else {
-				$percent = 0;
-			}
+        foreach ($first as $i => $author) {
+            if (isset($second[$i])) {
+                similar_text($author, $second[$i], $percent);
+            } else {
+                $percent = 0;
+            }
 
-			$sum += $percent;
-		}
+            $sum += $percent;
+        }
 
-		$total = count($first);
+        $total = count($first);
 
-		if ($total == 0) {
-			return -1;
-		}
+        if ($total == 0) {
+            return -1;
+        }
 
-		$average = $sum / $total;
+        $average = $sum / $total;
 
-		return (float) number_format($average, 2);
-	}
+        return (float) number_format($average, 2);
+    }
 }

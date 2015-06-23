@@ -12,11 +12,11 @@ use App\ExtractorFactory;
 $opt = getopt('t:f:');
 
 if (!isset($opt['t'])) {
-	Message::error('Error: You must specify a tool to compare results');
+    Message::error('Error: You must specify a tool to compare results');
 }
 
 if (!isset($opt['f'])) {
-	Message::error('Error: You must specify the JSON file');
+    Message::error('Error: You must specify the JSON file');
 }
 
 $file = rtrim($opt['f'], '/');
@@ -30,67 +30,67 @@ $results = [];
 $count = 0;
 
 foreach ($json->papers as $key => $paper) {
-	
-	$count++;
+    
+    $count++;
 
-	$filename = $paper->filename;
-	$filenoext = str_replace('.'.getextension($filename), '', $filename);
-	$title = $paper->title;
+    $filename = $paper->filename;
+    $filenoext = str_replace('.'.getextension($filename), '', $filename);
+    $title = $paper->title;
 
-	$authors = [];
-	$emails = [];
+    $authors = [];
+    $emails = [];
 
-	foreach ($paper->authors as $key => $author) {
-		$authors[] = $author->name;
-		$emails[] = $author->email;
-	}
+    foreach ($paper->authors as $key => $author) {
+        $authors[] = $author->name;
+        $emails[] = $author->email;
+    }
 
-	$abstract = $paper->abstract;
-	$references = $paper->references;
+    $abstract = $paper->abstract;
+    $references = $paper->references;
 
-	$output = file_get_contents("outputs/$area/$tool/{$filenoext}.xml");
-	
-	$extractor = ExtractorFactory::create($tool, $output);
+    $output = file_get_contents("outputs/$area/$tool/{$filenoext}.xml");
+    
+    $extractor = ExtractorFactory::create($tool, $output);
 
-	$result_title = Title::compare($title, $extractor->getTitle());
-	$result_authors = Authors::compare($authors, $extractor->getAuthors());
-	$result_emails = Emails::compare($emails, $extractor->getEmails());
-	$result_abstract = Abstracts::compare($abstract, $extractor->getAbstract());
-	$result_references = References::compare($references, $extractor->getReferences());
+    $result_title = Title::compare($title, $extractor->getTitle());
+    $result_authors = Authors::compare($authors, $extractor->getAuthors());
+    $result_emails = Emails::compare($emails, $extractor->getEmails());
+    $result_abstract = Abstracts::compare($abstract, $extractor->getAbstract());
+    $result_references = References::compare($references, $extractor->getReferences());
 
-	$individual[$filename] = [
-		'title' => $result_title,
-		'authors' => $result_authors,
-		'emails' => $result_emails,
-		'abstract' => $result_abstract,
-		'references' => $result_references,
-	];
+    $individual[$filename] = [
+        'title' => $result_title,
+        'authors' => $result_authors,
+        'emails' => $result_emails,
+        'abstract' => $result_abstract,
+        'references' => $result_references,
+    ];
 
-	$sum['title'][] = $result_title;
-	$sum['authors'][] = $result_authors;
-	$sum['emails'][] = $result_emails;
-	$sum['abstract'][] = $result_abstract;
-	$sum['references'][] = $result_references;
+    $sum['title'][] = $result_title;
+    $sum['authors'][] = $result_authors;
+    $sum['emails'][] = $result_emails;
+    $sum['abstract'][] = $result_abstract;
+    $sum['references'][] = $result_references;
 }
 
 foreach ($sum as $metadata => $values) {
 
-	if ($metadata == 'emails') {
-		$values = array_filter($values, function($value) {
-			return $value != -1;
-		});
-	}
+    if ($metadata == 'emails') {
+        $values = array_filter($values, function($value) {
+            return $value != -1;
+        });
+    }
 
-	$total = count($values);
+    $total = count($values);
 
-	if ($total == 0) {
-		$average = -1;
-	} else {
-		$average = array_sum($values)/$total;
-		$average = round($average, 2);
-	}
+    if ($total == 0) {
+        $average = -1;
+    } else {
+        $average = array_sum($values)/$total;
+        $average = round($average, 2);
+    }
 
-	$results[$metadata] = $average;
+    $results[$metadata] = $average;
 }
 
 $content = json_encode(['results' => $individual], JSON_PRETTY_PRINT);

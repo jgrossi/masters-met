@@ -10,33 +10,33 @@ use Exception;
 
 class ExtractorFactory
 {
-	private function __construct()
-	{
+    private function __construct()
+    {
 
-	}
+    }
 
-	public static function create($toolName, $output)
-	{
-		switch ($toolName) {
-			case 'cermine':
-				return new Cermine($output);
-				break;
+    public static function create($toolName, $output)
+    {
+        switch ($toolName) {
+            case 'cermine':
+                return new Cermine($output);
+                break;
 
-			case 'citeseer':
-				return new CiteSeer($output);
-				break;
+            case 'citeseer':
+                return new CiteSeer($output);
+                break;
 
-			case 'crossref':
-				return new CrossRef($output);
-				break;
+            case 'crossref':
+                return new CrossRef($output);
+                break;
 
-			case 'parscit':
-				return new ParsCit($output);
-				break;
-			
-			default:
-				throw new Exception("Cannot find $toolName extractor class");
-				break;
-		}
-	}
+            case 'parscit':
+                return new ParsCit($output);
+                break;
+            
+            default:
+                throw new Exception("Cannot find $toolName extractor class");
+                break;
+        }
+    }
 }
