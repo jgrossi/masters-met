@@ -1,93 +1,118 @@
 #! /usr/bin/env php
 <?php require __DIR__.'/../config.php';
 
+use App\Comparators\Abstracts;
 use App\Comparators\Authors;
+use App\Comparators\Emails;
+use App\Comparators\References;
 use App\Comparators\Title;
 use App\ConsoleMessage as Message;
 use App\ExtractorFactory;
 
-$tool = 'parscit';
+// $tool = 'parscit';
 
-$files = explode("\n", shell_exec("ls outputs/computer-science/$tool/*.xml"));
-$files = array_filter($files);
+// $files = explode("\n", shell_exec("ls outputs/computer-science/$tool/*.xml"));
+// $files = array_filter($files);
 
-foreach ($files as $key => $file) {
-	$output = file_get_contents($file);
-	$extractor = ExtractorFactory::create("$tool", $output);
-	var_dump($extractor->getReferences());
+// foreach ($files as $key => $file) {
+// 	$output = file_get_contents($file);
+// 	$extractor = ExtractorFactory::create("$tool", $output);
+// 	var_dump($extractor->getReferences());
+// }
+
+
+
+$opt = getopt('t:f:');
+
+if (!isset($opt['t'])) {
+	Message::error('Error: You must specify a tool to compare results');
 }
 
+if (!isset($opt['f'])) {
+	Message::error('Error: You must specify the JSON file');
+}
 
+$file = rtrim($opt['f'], '/');
+$tool = $opt['t'];
+$area = explode('/', $file)[1];
 
-// $opt = getopt('d:');
+Message::info("Getting information about papers for '$area'");
 
-// if (!isset($opt['d'])) {
-// 	Message::error('Error: You must specify a directory to be compared');
-// }
+$json = json_decode(file_get_contents($file));
+$individual = [];
+$sum = [];
+$results = [];
+$count = 0;
 
-// if (!isset($opt['t'])) {
-// 	Message::error('Error: You must specify a tool to compare results');
-// }
-
-// $dir = rtrim($opt['d'], "/");
-// $tool = rtrim($opt['t'], "/");
-// $area = substr($dir, strrpos($dir, '/') + 1);
-
-// $collection = explode("\n", shell_exec("ls $dir/_collection.json"))[0];
-
-// Message::info("Getting information about papers for '$area'");
-
-// $json = json_decode(file_get_contents($collection));
-// $results = [];
-// $sum = [];
-// $count = 0;
-
-// foreach ($json->papers as $key => $paper) {
+foreach ($json->papers as $key => $paper) {
 	
-// 	$count++;
+	$count++;
 
-// 	$filename = $paper->filename;
-// 	$file_name = substr($filename, 0, strrpos($filename, '.'));
+	$filename = $paper->filename;
+	$filenoext = str_replace('.'.getextension($filename), '', $filename);
+	$title = $paper->title;
 
-// 	$title = $paper->title;
+	$authors = [];
+	$emails = [];
 
-// 	foreach ($paper->authors as $key => $author) {
-// 		$authors[] = $author->name;
-// 		$emails[] = $author->email;
-// 	}
+	foreach ($paper->authors as $key => $author) {
+		$authors[] = $author->name;
+		$emails[] = $author->email;
+	}
 
-// 	$abstract = $paper->abstract;
-// 	$references = $paper->references;
+	$abstract = $paper->abstract;
+	$references = $paper->references;
 
-// 	Message::info("Comparing results for '$file_name'");
-// 	$output = file_get_contents("outputs/$area/$tool/$file_name");
+	Message::info("Comparing results for '$filename'");
+	$output = file_get_contents("outputs/$area/$tool/{$filenoext}.xml");
 	
-// 	$extractor = ExtractorFactory::create($tool, $output);
+	$extractor = ExtractorFactory::create($tool, $output);
 
-// 	$result_title = Title::compare($title, $extractor->getTitle());
-// 	$result_authors = Authors::compare($authors, $extractor->getAuthors());
-// 	$result_emails = Emails::compare($emails, $extractor->getEmails());
-// 	$result_abstract = Abstracts::compare($abstract, $extractor->getAbstract());
-// 	$result_references = References::compare($references, $extractor->getReferences());
+	$result_title = Title::compare($title, $extractor->getTitle());
+	// var_dump($result_title);
+	// var_dump($extractor->getAuthors());
+	$result_authors = Authors::compare($authors, $extractor->getAuthors());
+	// var_dump($result_authors);
+	$result_emails = Emails::compare($emails, $extractor->getEmails());
+	// var_dump($result_emails);
+	$result_abstract = Abstracts::compare($abstract, $extractor->getAbstract());
+	// var_dump($result_abstract);
+	$result_references = References::compare($references, $extractor->getReferences());
 
-// 	$results[$filename] = [
-// 		'title' => $result_title,
-// 		'authors' => $result_authors,
-// 		'emails' => $result_emails,
-// 		'abstract' => $result_abstract,
-// 		'references' => $result_references,
-// 	];
+	$individual[$filename] = [
+		'title' => $result_title,
+		'authors' => $result_authors,
+		'emails' => $result_emails,
+		'abstract' => $result_abstract,
+		'references' => $result_references,
+	];
 
-// 	$sum['title'] += $result_title;
-// 	$sum['authors'] += $result_authors;
-// 	$sum['emails'] += $result_emails;
-// 	$sum['abstract'] += $result_abstract;
-// 	$sum['references'] += $result_references;
+	$sum['title'][] = $result_title;
+	$sum['authors'][] = $result_authors;
+	$sum['emails'][] = $result_emails;
+	$sum['abstract'][] = $result_abstract;
+	$sum['references'][] = $result_references;
 
-// 	Message::success("Results compared successfully");
-// }
+	// Message::success("Results compared successfully");
+}
 
-// $content = json_encode($results, JSON_PRETTY_PRINT);
+foreach ($sum as $metadata => $values) {
+
+	if ($metadata == 'emails') {
+		$values = array_filter($values, function($value) {
+			return $value != -1;
+		});
+	}
+
+	$average = array_sum($values)/count($values);
+	$average = round($average, 2);
+	$average = number_format($average, 2);
+
+	$results[$metadata] = $average;
+	echo "Results for $metadata: ".$average."\n";
+}
+
+// $content = json_encode($individual, JSON_PRETTY_PRINT);
 // $output = "outputs/$area/$tool-papers-results";
 // file_put_contents($output);
 

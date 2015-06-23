@@ -8,12 +8,20 @@ class Authors implements ComparatorInterface
 {
 	public static function compare($first, $second)
 	{
-        message($first);
-        message($second);
-        exit();
+		$sum = 0;
 
-		similar_text($first, $second, $result);
+		foreach ($first as $i => $author) {
+			if (isset($second[$i])) {
+				similar_text($author, $second[$i], $percent);
+			} else {
+				$percent = 0;
+			}
 
-		return $result;
+			$sum += $percent;
+		}
+
+		$average = $sum / count($first);
+
+		return (float) number_format($average, 2);
 	}
 }

@@ -3,6 +3,7 @@
 namespace App\Extractors;
 
 use App\ExtractorInterface;
+use App\Comparators\References as ReferencesComparator;
 use SimpleXMLElement;
 
 class Cermine implements ExtractorInterface
@@ -104,7 +105,7 @@ class Cermine implements ExtractorInterface
 
 				foreach ($stringname as $key => $author) {
 					$name = trim($author->{'given-names'}) .' '. trim($author->{'surname'});
-					$name = str_replace([',', '.'], '', $name);
+					$name = ReferencesComparator::sanitizeAuthorName($name);
 					$authors[] = $name;
 				}
 				
