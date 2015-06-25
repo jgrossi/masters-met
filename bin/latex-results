@@ -1,0 +1,98 @@
+#! /usr/bin/env php
+<?php require __DIR__.'/../config.php';
+
+use App\ConsoleMessage as Message;
+
+$opt = getopt('o:');
+
+if (!isset($opt['o'])) {
+    Message::error('Error: You must specify the TEX output directory');
+}
+
+$areas = [
+    'architecture-and-urbanism' => 'Arquitetura e Urbanismo',
+    'computer-science' => 'Ciência da Computação',
+    'information-science' => 'Ciência da Informação',
+    'biology-genetic' => 'Ciências Biológicas (Genética)',
+    'biology-zoological' => 'Ciências Biológicas (Zoologia)',
+    'nursing' => 'Enfermagem',
+    'civil-engineer' => 'Engenharia Civil',
+    'mechanical-engineer' => 'Engenharia Mecânica',
+    'speech' => 'Fonoaudiologia',
+    'geology' => 'Geologia',
+    'history' => 'História',
+    'linguistic' => 'Letras',
+    'veterinary-medicine' => 'Medicina Veterinária',
+    'music' => 'Música',
+    'psychology' => 'Psicologia',
+    'animal-husbandry' => 'Zootecnia',
+];
+
+$latexdir = rtrim($opt['o'], '/');
+$tools = ['cermine', 'citeseer', 'crossref', 'parscit'];
+$metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
+
+$output = shell_exec("find ./outputs -type f -iname '__results-average.json'");
+$files = explode("\n", $output);
+$files = array_filter($files);
+
+$result = [];
+
+foreach ($tools as $key => $tool) {
+
+    foreach ($areas as $dir => $name) {
+
+        $content = file_get_contents("./outputs/$dir/$tool/__results-average.json");
+        $json = json_decode($content);
+        $avg = $json->average;
+
+        foreach ($metadata as $key => $meta) {
+
+            if ($avg->$meta == 0 or $avg->$meta == 100) {
+                $number = number_format($avg->$meta, 0);
+            } else {
+                $number = number_format($avg->$meta, 2);
+            }
+
+            $result[$tool][$name][] = $number;
+        }
+    }
+
+    $content = file_get_contents("./outputs/__final.json");
+    $json = json_decode($content);
+    $avg = $json->average->$tool;
+
+    foreach ($metadata as $key => $meta) {
+        
+        if ($avg->$meta == 0 or $avg->$meta == 100) {
+            $number = number_format($avg->$meta, 0);
+        } else {
+            $number = number_format($avg->$meta, 2);
+        }
+
+        $result[$tool]['Média Geral'][] = $number;
+    }
+}
+
+foreach ($result as $tool => $rows) {
+    
+    $out = '';
+
+    foreach ($rows as $name => $values) {
+        
+        if ($name == 'Média Geral') {
+            $out .= "\\textbf{Média Geral} & ";
+        } else {
+            $out .= "$name & ";
+        }
+
+        $out .= implode(' & ', $values);
+        $out .= " \\\\ \hline\n";
+    }
+
+    $file = $latexdir.'/'.$tool.'.tex';
+    file_put_contents($file, $out);
+}
+
+Message::success("TEX files saved successfully");
+
