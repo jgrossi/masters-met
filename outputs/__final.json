@@ -2,15 +2,15 @@
     "average": {
         "cermine": {
             "title": 89.8,
-            "authors": 76.61,
-            "emails": 38.4,
+            "authors": 76.34,
+            "emails": 46.62,
             "abstract": 86.83,
             "references": 73.81
         },
         "citeseer": {
             "title": 83.55,
-            "authors": 72.11,
-            "emails": 3.4,
+            "authors": 71.93,
+            "emails": 4.17,
             "abstract": 75.81,
             "references": 54.75
         },
@@ -23,16 +23,16 @@
         },
         "parscit": {
             "title": 15.17,
-            "authors": 19.39,
-            "emails": 20.31,
+            "authors": 19.37,
+            "emails": 12.66,
             "abstract": 61.78,
             "references": 53.58
         }
     },
     "index": {
-        "cermine": 79.39,
+        "cermine": 79.81,
         "citeseer": 68,
         "crossref": 24.3,
-        "parscit": 33.73
+        "parscit": 33.27
     }
 }

@@ -23,7 +23,9 @@ $file = rtrim($opt['f'], '/');
 $tool = $opt['t'];
 $area = explode('/', $file)[1];
 
-$json = json_decode(file_get_contents($file));
+$content = file_get_contents($file);
+$json = json_decode($content);
+
 $individual = [];
 $sum = [];
 $results = [];
