@@ -29,6 +29,14 @@ function getfilename($file, $withext = true)
     return substr($filename, 0, strrpos($filename, '.'));
 }
 
+function rsearch($dir = 'papers', $filetype = '*.pdf')
+{
+    $output = shell_exec("find $dir -type f -iname $filetype");
+    $files = explode("\n", $output);
+    
+    return array_filter($files);
+}
+
 function confindex($results)
 {
     $confindex = [];

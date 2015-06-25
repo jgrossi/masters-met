@@ -5,9 +5,7 @@ use App\ConsoleMessage as Message;
 
 passthru("./bin/comparator-all");
 
-$output = shell_exec("find ./outputs -type f -iname '__results-average.json'");
-$files = explode("\n", $output);
-$files = array_filter($files);
+$files = rsearch("./outputs", "__results-average.json");
 $sum = [];
 
 $metadata = ['title', 'authors', 'emails', 'abstract', 'references'];

@@ -6,10 +6,8 @@ use App\ConsoleMessage as Message;
 $opt = getopt('d:');
 $dir = isset($opt['d']) ? $opt['d'] : './papers';
 
-$files = explode("\n", shell_exec("find $dir -type f -iname '*.pdf'"));
-
+$files = rsearch($dir, '*.pdf');
 $files = isset($opt['f']) ? [$opt['f']] : $files;
-$files = array_filter($files);
 
 $missing = [];
 

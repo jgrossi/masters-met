@@ -32,10 +32,7 @@ $latexdir = rtrim($opt['o'], '/');
 $tools = ['cermine', 'citeseer', 'crossref', 'parscit'];
 $metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
 
-$output = shell_exec("find ./outputs -type f -iname '__results-average.json'");
-$files = explode("\n", $output);
-$files = array_filter($files);
-
+$files = rsearch('./outputs', '__results-average.json');
 $result = [];
 
 foreach ($tools as $key => $tool) {

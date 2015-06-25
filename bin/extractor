@@ -12,10 +12,8 @@ if (!isset($opt['t'])) {
 $tool = $opt['t'];
 $dir = isset($opt['d']) ? $opt['d'] : './papers';
 
-$files = explode("\n", shell_exec("find $dir -type f -iname '*.pdf'"));
-
+$files = rsearch($dir, '*.pdf');
 $files = isset($opt['f']) ? [$opt['f']] : $files;
-$files = array_filter($files);
 
 foreach ($files as $key => $file) {
     
