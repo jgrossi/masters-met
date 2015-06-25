@@ -54,6 +54,8 @@ Here you have some commands to facilitate and generate comparison results and ot
 
 - `./bin/generate-filename`: Just generate a general filename with the base directory like `./bin/generate-filename -d papers/computer-science`. This will print a random filename in PDF format. Used just in case of PDF replacements.
 
+- `./bin/latex-results`: This command get the comparison results inside JSON files in `outputs` directory and save them in some table rows in LaTeX format. Used for my thesis to auto-generate the changed results. The `-o` option is where you tell it to save the four files with results: `cermine.tex`, `citeseer.tex`, `crossref.tex` and `parscit.tex`.
+
 - `./bin/missing-extractions`: List all PDF files that does not have a XML file with output result. Useful for PDF papers that were replaced and you have to extract the results for a single file. The output is printed on the terminal.
 
 - `./bin/rename`: This command generate a random filename for each PDF file you have inside a directory. It uses a parent directory to generate this random filename. This renamed file will have the follow syntax: `subdirectory-557b476d5bea4.pdf`, with the directory structure `some/directory/subdirectory`.
