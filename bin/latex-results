@@ -28,18 +28,25 @@ $areas = [
     'animal-husbandry' => 'Zootecnia',
 ];
 
+$tools = [
+    'cermine' => 'Cermine', 
+    'citeseer' => 'CiteSeer', 
+    'crossref' => 'CrossRef', 
+    'parscit' => 'ParsCit'
+];
+
 $latexdir = rtrim($opt['o'], '/');
-$tools = ['cermine', 'citeseer', 'crossref', 'parscit'];
 $metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
 
 $files = rsearch('./outputs', '__results-average.json');
 $result = [];
 
-foreach ($tools as $key => $tool) {
+foreach ($tools as $tool => $toolname) {
 
     foreach ($areas as $dir => $name) {
 
-        $content = file_get_contents("./outputs/$dir/$tool/__results-average.json");
+        $jsonfilename = "./outputs/$dir/$tool/__results-average.json";
+        $content = file_get_contents($jsonfilename);
         $json = json_decode($content);
         $avg = $json->average;
 
@@ -90,6 +97,19 @@ foreach ($result as $tool => $rows) {
     $file = $latexdir.'/'.$tool.'.tex';
     file_put_contents($file, $out);
 }
+
+// Index
+$index = $json->index;
+$out = '';
+
+foreach ($index as $tool => $value) {
+    $toolname = $tools[$tool];
+    $value = number_format($value, 2);
+    $out .= "$toolname & $value \\\\ \\hline \n";
+}
+
+$file = $latexdir.'/index.tex';
+file_put_contents($file, $out);
 
 Message::success("TEX files saved successfully");
 

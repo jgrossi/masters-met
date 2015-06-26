@@ -3,12 +3,12 @@
 
 use App\ConsoleMessage as Message;
 
+// first compare all tools and areas
 passthru("./bin/comparator-all");
 
-$files = rsearch("./outputs", "__results-average.json");
 $sum = [];
-
 $metadata = ['title', 'authors', 'emails', 'abstract', 'references'];
+$files = rsearch("./outputs", "__results-average.json");
 
 foreach ($files as $key => $file) {
     
@@ -21,6 +21,7 @@ foreach ($files as $key => $file) {
         $sum[$tool][$meta][] = (float) $average->$meta;
     }
 }
+
 $average = [];
 
 foreach ($sum as $tool => $values) {
